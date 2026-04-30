@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "lasagne"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ufoym/deepo",
+      "status": "candidate-context",
+      "text": "Setup and customize deep learning environment in seconds."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ufoym/deepo",
+      "status": "candidate-context",
+      "text": "![deepo](https://user-images.githubusercontent.com/2270240/32102393-aecf573c-bb4e-11e7-811c-dc673cae7b9c.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ufoym/deepo",
+      "status": "candidate",
+      "text": "![deepo](https://user-images.githubusercontent.com/2270240/32102393-aecf573c-bb4e-11e7-811c-dc673cae7b9c.png)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40030070,
+      "status": "candidate",
+      "text": "lasagna"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20030103,
+      "status": "candidate",
+      "text": "noodles"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20030101,
+      "status": "candidate",
+      "text": "lasagnette"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20030100,
+      "status": "candidate",
+      "text": "fromage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20030099,
+      "status": "candidate",
+      "text": "mexican lasagna"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26,
+      "status": "candidate",
+      "text": "lasagna"
+    }
+  ],
+  "canonical_name": "lasagne",
+  "concept_id": "lasagne",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "ufoym/deepo"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "lasagne",
+      "sense_id": "lasagne#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

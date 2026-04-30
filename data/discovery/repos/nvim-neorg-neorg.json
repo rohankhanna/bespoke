@@ -1,0 +1,633 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "DeterminateSystems/nix-installer-action@v17",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gendoc.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gendoc.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gendoc.yml"
+    },
+    {
+      "component": "rhysd/action-setup-vim@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gendoc.yml"
+    },
+    {
+      "component": "luarocks/gh-actions-lua@v10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gendoc.yml"
+    },
+    {
+      "component": "luarocks/gh-actions-luarocks@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gendoc.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gendoc.yml"
+    },
+    {
+      "component": "ad-m/github-push-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gendoc.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration_tests.yml"
+    },
+    {
+      "component": "DeterminateSystems/nix-installer-action@v17",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration_tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luarocks.yml"
+    },
+    {
+      "component": "tree-sitter/setup-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luarocks.yml"
+    },
+    {
+      "component": "rlalik/setup-cpp-compiler@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luarocks.yml"
+    },
+    {
+      "component": "nvim-neorocks/luarocks-tag-release@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luarocks.yml"
+    },
+    {
+      "component": "googleapis/release-please-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/semver.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sponsors.yml"
+    },
+    {
+      "component": "JamesIves/github-sponsors-readme-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sponsors.yml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sponsors.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stylua.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stylua.yml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stylua.yml"
+    },
+    {
+      "component": "ad-m/github-push-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stylua.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "rhysd/action-setup-vim@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "lumen-oss/gh-actions-lux@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/version_in_code.yml"
+    },
+    {
+      "component": "ad-m/github-push-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/version_in_code.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nvim-neorg/neorg",
+      "target": "nvim-neorocks/rocks.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nvim-neorg/neorg",
+      "target": "rjpcomputing/luaforwindows",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "nvim-neorg/neorg",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "nvim-neorg/neorg",
+      "target": "DeterminateSystems/nix-installer-action@v17",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "nvim-neorg/neorg",
+      "target": "Codebase Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gendoc.yml",
+      "source_repo": "nvim-neorg/neorg",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gendoc.yml",
+      "source_repo": "nvim-neorg/neorg",
+      "target": "rhysd/action-setup-vim@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gendoc.yml",
+      "source_repo": "nvim-neorg/neorg",
+      "target": "luarocks/gh-actions-lua@v10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gendoc.yml",
+      "source_repo": "nvim-neorg/neorg",
+      "target": "luarocks/gh-actions-luarocks@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gendoc.yml",
+      "source_repo": "nvim-neorg/neorg",
+      "target": "ad-m/github-push-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gendoc.yml",
+      "source_repo": "nvim-neorg/neorg",
+      "target": "Automatically Generate Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration_tests.yml",
+      "source_repo": "nvim-neorg/neorg",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration_tests.yml",
+      "source_repo": "nvim-neorg/neorg",
+      "target": "DeterminateSystems/nix-installer-action@v17",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration_tests.yml",
+      "source_repo": "nvim-neorg/neorg",
+      "target": "Nix-based Integration Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "nvim-neorg/neorg",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "nvim-neorg/neorg",
+      "target": "tree-sitter/setup-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "nvim-neorg/neorg",
+      "target": "rlalik/setup-cpp-compiler@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "nvim-neorg/neorg",
+      "target": "nvim-neorocks/luarocks-tag-release@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "nvim-neorg/neorg",
+      "target": "Push to Luarocks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/semver.yml",
+      "source_repo": "nvim-neorg/neorg",
+      "target": "googleapis/release-please-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/semver.yml",
+      "source_repo": "nvim-neorg/neorg",
+      "target": "Release Please Automatic Semver",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sponsors.yml",
+      "source_repo": "nvim-neorg/neorg",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sponsors.yml",
+      "source_repo": "nvim-neorg/neorg",
+      "target": "JamesIves/github-sponsors-readme-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sponsors.yml",
+      "source_repo": "nvim-neorg/neorg",
+      "target": "stefanzweifel/git-auto-commit-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sponsors.yml",
+      "source_repo": "nvim-neorg/neorg",
+      "target": "Generate Sponsors README",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stylua.yml",
+      "source_repo": "nvim-neorg/neorg",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stylua.yml",
+      "source_repo": "nvim-neorg/neorg",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stylua.yml",
+      "source_repo": "nvim-neorg/neorg",
+      "target": "stefanzweifel/git-auto-commit-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stylua.yml",
+      "source_repo": "nvim-neorg/neorg",
+      "target": "ad-m/github-push-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stylua.yml",
+      "source_repo": "nvim-neorg/neorg",
+      "target": "Formatting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "nvim-neorg/neorg",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "nvim-neorg/neorg",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "nvim-neorg/neorg",
+      "target": "rhysd/action-setup-vim@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "nvim-neorg/neorg",
+      "target": "lumen-oss/gh-actions-lux@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "nvim-neorg/neorg",
+      "target": "Run tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/version_in_code.yml",
+      "source_repo": "nvim-neorg/neorg",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/version_in_code.yml",
+      "source_repo": "nvim-neorg/neorg",
+      "target": "ad-m/github-push-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/version_in_code.yml",
+      "source_repo": "nvim-neorg/neorg",
+      "target": "Update Version String in Neorg Code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nvim-neorg/neorg",
+      "target": "neorg",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nvim-neorg/neorg",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nvim-neorg/neorg",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nvim-neorg/neorg",
+      "target": "nvim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nvim-neorg/neorg",
+      "target": "org-mode",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nvim-neorg/neorg",
+      "target": "organization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:42:18.059572+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7860
+    },
+    {
+      "path": ".github/workflows/checks.yml",
+      "size": 393
+    },
+    {
+      "path": ".github/workflows/gendoc.yml",
+      "size": 2225
+    },
+    {
+      "path": ".github/workflows/integration_tests.yml",
+      "size": 621
+    },
+    {
+      "path": ".github/workflows/luarocks.yml",
+      "size": 1245
+    },
+    {
+      "path": ".github/workflows/semver.yml",
+      "size": 276
+    },
+    {
+      "path": ".github/workflows/sponsors.yml",
+      "size": 729
+    },
+    {
+      "path": ".github/workflows/stylua.yml",
+      "size": 1225
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 713
+    },
+    {
+      "path": ".github/workflows/version_in_code.yml",
+      "size": 1159
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Modernity meets insane extensibility. The future of organizing your life in Neovim.",
+    "fork": false,
+    "full_name": "nvim-neorg/neorg",
+    "html_url": "https://github.com/nvim-neorg/neorg",
+    "language": "Lua",
+    "pushed_at": "2026-04-09T23:24:10Z",
+    "stargazers_count": 7287,
+    "topics": [
+      "lua",
+      "neorg",
+      "neovim",
+      "neovim-plugin",
+      "nvim",
+      "org-mode",
+      "organization"
+    ],
+    "updated_at": "2026-04-30T11:58:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvim-neorocks/rocks.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rjpcomputing/luaforwindows",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Codebase Checks\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checks.yml",
+      "term": "Codebase Checks"
+    },
+    {
+      "context_snippet": "Automatically Generate Documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gendoc.yml",
+      "term": "Automatically Generate Documentation"
+    },
+    {
+      "context_snippet": "\"Nix-based Integration Test\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration_tests.yml",
+      "term": "Nix-based Integration Test"
+    },
+    {
+      "context_snippet": "Push to Luarocks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/luarocks.yml",
+      "term": "Push to Luarocks"
+    },
+    {
+      "context_snippet": "Release Please Automatic Semver",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/semver.yml",
+      "term": "Release Please Automatic Semver"
+    },
+    {
+      "context_snippet": "Generate Sponsors README",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sponsors.yml",
+      "term": "Generate Sponsors README"
+    },
+    {
+      "context_snippet": "Formatting",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stylua.yml",
+      "term": "Formatting"
+    },
+    {
+      "context_snippet": "Run tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "Run tests"
+    },
+    {
+      "context_snippet": "Update Version String in Neorg Code",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/version_in_code.yml",
+      "term": "Update Version String in Neorg Code"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neorg"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "org-mode"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "organization"
+    }
+  ]
+}

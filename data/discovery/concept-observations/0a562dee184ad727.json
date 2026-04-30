@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "LED Matrix Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![arduino-library-badge](https://www.ardu-badge.com/badge/MD_MAX72XX.svg?)](https://www.ardu-badge.com/MD_MAX72XX)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![arduino-library-badge](https://www.ardu-badge.com/badge/MD_MAX72XX.svg?)](https://www.ardu-badge.com/MD_MAX72XX)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "max7221",
+      "sense_id": "max7221#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "max7221",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "max7221",
+  "observation_id": "0a562dee184ad727",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "max7221",
+  "source_context_snippet": "[![arduino-library-badge](https://www.ardu-badge.com/badge/MD_MAX72XX.svg?)](https://www.ardu-badge.com/MD_MAX72XX)",
+  "source_file": null,
+  "source_repo": "MajicDesigns/MD_MAX72XX",
+  "source_repo_description": "LED Matrix Library"
+}

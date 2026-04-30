@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Automate Jobs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rolldown/rolldown",
+      "status": "candidate-context",
+      "text": "Fast Rust bundler for JavaScript/TypeScript with Rollup-compatible API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rolldown/rolldown",
+      "status": "candidate-context",
+      "text": "'Automate Jobs'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rolldown/rolldown",
+      "status": "candidate",
+      "text": "'Automate Jobs'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "animatronics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "aut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "automation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "bot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "brakes"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Automate Jobs",
+  "concept_id": "automate-jobs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/automate-jobs.yml",
+      "source_repo": "rolldown/rolldown"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Automate Jobs",
+      "sense_id": "automate-jobs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

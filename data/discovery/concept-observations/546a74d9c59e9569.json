@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A storybook addon to switch between css resources at runtime for your story"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Publish preview"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Publish preview"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10780,
+      "status": "candidate",
+      "text": "progress"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10780,
+      "status": "candidate",
+      "text": "trailer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10770,
+      "status": "candidate",
+      "text": "aut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10770,
+      "status": "candidate",
+      "text": "blazon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10770,
+      "status": "candidate",
+      "text": "blazoned"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish preview",
+      "sense_id": "publish-preview#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "publish-preview",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "publish-preview",
+  "observation_id": "546a74d9c59e9569",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "Publish preview",
+  "source_context_snippet": "Publish preview",
+  "source_file": ".github/workflows/publish-preview.yml",
+  "source_repo": "storybookjs/addon-cssresources",
+  "source_repo_description": "A storybook addon to switch between css resources at runtime for your story"
+}

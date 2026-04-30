@@ -1,0 +1,86 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Provides end-to-end model development pipelines for LLMs and Multimodal models that can be launched on-prem or cloud-native."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "autoconf"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "autoconf"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "gnu autotools"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "gnu libtool"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "automake"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "configure script"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "autoconf",
+      "sense_id": "autoconf#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "autoconf",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "autoconf",
+  "observation_id": "10d773e543666fc2",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "autoconf",
+  "source_context_snippet": "autoconf",
+  "source_file": ".github/workflows/autoconf.yml",
+  "source_repo": "NVIDIA/NeMo-Framework-Launcher",
+  "source_repo_description": "Provides end-to-end model development pipelines for LLMs and Multimodal models that can be launched on-prem or cloud-native."
+}

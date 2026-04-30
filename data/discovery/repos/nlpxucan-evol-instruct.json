@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T19:59:30.348110+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 413
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "nlpxucan/evol-instruct",
+    "html_url": "https://github.com/nlpxucan/evol-instruct",
+    "language": null,
+    "pushed_at": "2023-04-25T14:54:40Z",
+    "stargazers_count": 284,
+    "topics": [],
+    "updated_at": "2026-04-19T10:03:27Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

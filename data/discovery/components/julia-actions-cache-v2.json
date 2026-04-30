@@ -1,7 +1,7 @@
 {
   "component": "julia-actions/cache@v2",
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -62,6 +62,36 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/CI.yml",
       "source_repo": "bhftbootcamp/YYJSON.jl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "MilesCranmer/PySR"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CI_Windows.yml",
+      "source_repo": "MilesCranmer/PySR"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "GunnarFarneback/LocalPackageServer.jl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/Check.yml",
+      "source_repo": "fredrikekre/Literate.jl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/Documentation.yml",
+      "source_repo": "fredrikekre/Literate.jl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/Test.yml",
+      "source_repo": "fredrikekre/Literate.jl"
     }
   ]
 }

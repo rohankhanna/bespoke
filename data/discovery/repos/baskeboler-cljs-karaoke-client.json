@@ -1,0 +1,445 @@
+{
+  "components": [
+    {
+      "component": "bulma-tooltip",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "chart.js",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "create-react-class",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "highlight.js",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mongodb-stitch-browser-sdk",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "path",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-awesome-button",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-dom",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-flip-move",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-highlight.js",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "shake.js",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@fortawesome/fontawesome-free",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "bulma",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "concurrently",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "netlify-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "netlify-lambda",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sass",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "shadow-cljs",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clojure.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "baskeboler/cljs-karaoke-client",
+      "target": "baskeboler/clj-karaoke-lyrics",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "baskeboler/cljs-karaoke-client",
+      "target": "bulma-tooltip",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "baskeboler/cljs-karaoke-client",
+      "target": "chart.js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "baskeboler/cljs-karaoke-client",
+      "target": "create-react-class",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "baskeboler/cljs-karaoke-client",
+      "target": "highlight.js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "baskeboler/cljs-karaoke-client",
+      "target": "mongodb-stitch-browser-sdk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "baskeboler/cljs-karaoke-client",
+      "target": "path",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "baskeboler/cljs-karaoke-client",
+      "target": "react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "baskeboler/cljs-karaoke-client",
+      "target": "react-awesome-button",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "baskeboler/cljs-karaoke-client",
+      "target": "react-dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "baskeboler/cljs-karaoke-client",
+      "target": "react-flip-move",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "baskeboler/cljs-karaoke-client",
+      "target": "react-highlight.js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "baskeboler/cljs-karaoke-client",
+      "target": "shake.js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "baskeboler/cljs-karaoke-client",
+      "target": "@fortawesome/fontawesome-free",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "baskeboler/cljs-karaoke-client",
+      "target": "bulma",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "baskeboler/cljs-karaoke-client",
+      "target": "concurrently",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "baskeboler/cljs-karaoke-client",
+      "target": "netlify-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "baskeboler/cljs-karaoke-client",
+      "target": "netlify-lambda",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "baskeboler/cljs-karaoke-client",
+      "target": "sass",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "baskeboler/cljs-karaoke-client",
+      "target": "shadow-cljs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clojure.yml",
+      "source_repo": "baskeboler/cljs-karaoke-client",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clojure.yml",
+      "source_repo": "baskeboler/cljs-karaoke-client",
+      "target": "Clojure CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baskeboler/cljs-karaoke-client",
+      "target": "cljs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baskeboler/cljs-karaoke-client",
+      "target": "clojurescript",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baskeboler/cljs-karaoke-client",
+      "target": "core-async",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baskeboler/cljs-karaoke-client",
+      "target": "karaoke",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baskeboler/cljs-karaoke-client",
+      "target": "lyrics-synced",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baskeboler/cljs-karaoke-client",
+      "target": "re-frame",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baskeboler/cljs-karaoke-client",
+      "target": "reagent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baskeboler/cljs-karaoke-client",
+      "target": "shadow-cljs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baskeboler/cljs-karaoke-client",
+      "target": "web-app",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baskeboler/cljs-karaoke-client",
+      "target": "web-karaoke-player",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:59:51.342779+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5576
+    },
+    {
+      "path": "package.json",
+      "size": 1684
+    },
+    {
+      "path": ".github/workflows/clojure.yml",
+      "size": 306
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "web karaoke player",
+    "fork": false,
+    "full_name": "baskeboler/cljs-karaoke-client",
+    "html_url": "https://github.com/baskeboler/cljs-karaoke-client",
+    "language": "Clojure",
+    "pushed_at": "2026-04-03T13:25:15Z",
+    "stargazers_count": 19,
+    "topics": [
+      "cljs",
+      "clojurescript",
+      "core-async",
+      "karaoke",
+      "lyrics-synced",
+      "re-frame",
+      "reagent",
+      "shadow-cljs",
+      "web-app",
+      "web-karaoke-player"
+    ],
+    "updated_at": "2026-04-03T14:48:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "baskeboler/clj-karaoke-lyrics",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Clojure CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clojure.yml",
+      "term": "Clojure CI"
+    },
+    {
+      "context_snippet": "[![Netlify Status](https://api.netlify.com/api/v1/badges/8cdcf70f-1a6c-40bb-a3f0-02cb24eda852/deploy-status)](https://app.netlify.com/sites/karaoke-player/deploys)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cljs"
+    },
+    {
+      "context_snippet": "[![Netlify Status](https://api.netlify.com/api/v1/badges/8cdcf70f-1a6c-40bb-a3f0-02cb24eda852/deploy-status)](https://app.netlify.com/sites/karaoke-player/deploys)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojurescript"
+    },
+    {
+      "context_snippet": "[![Netlify Status](https://api.netlify.com/api/v1/badges/8cdcf70f-1a6c-40bb-a3f0-02cb24eda852/deploy-status)](https://app.netlify.com/sites/karaoke-player/deploys)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "core-async"
+    },
+    {
+      "context_snippet": "[![Netlify Status](https://api.netlify.com/api/v1/badges/8cdcf70f-1a6c-40bb-a3f0-02cb24eda852/deploy-status)](https://app.netlify.com/sites/karaoke-player/deploys)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "karaoke"
+    },
+    {
+      "context_snippet": "[![Netlify Status](https://api.netlify.com/api/v1/badges/8cdcf70f-1a6c-40bb-a3f0-02cb24eda852/deploy-status)](https://app.netlify.com/sites/karaoke-player/deploys)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lyrics-synced"
+    },
+    {
+      "context_snippet": "[![Netlify Status](https://api.netlify.com/api/v1/badges/8cdcf70f-1a6c-40bb-a3f0-02cb24eda852/deploy-status)](https://app.netlify.com/sites/karaoke-player/deploys)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "re-frame"
+    },
+    {
+      "context_snippet": "[![Netlify Status](https://api.netlify.com/api/v1/badges/8cdcf70f-1a6c-40bb-a3f0-02cb24eda852/deploy-status)](https://app.netlify.com/sites/karaoke-player/deploys)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reagent"
+    },
+    {
+      "context_snippet": "[![Netlify Status](https://api.netlify.com/api/v1/badges/8cdcf70f-1a6c-40bb-a3f0-02cb24eda852/deploy-status)](https://app.netlify.com/sites/karaoke-player/deploys)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shadow-cljs"
+    },
+    {
+      "context_snippet": "[![Netlify Status](https://api.netlify.com/api/v1/badges/8cdcf70f-1a6c-40bb-a3f0-02cb24eda852/deploy-status)](https://app.netlify.com/sites/karaoke-player/deploys)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "web-app"
+    },
+    {
+      "context_snippet": "[![Netlify Status](https://api.netlify.com/api/v1/badges/8cdcf70f-1a6c-40bb-a3f0-02cb24eda852/deploy-status)](https://app.netlify.com/sites/karaoke-player/deploys)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "web-karaoke-player"
+    }
+  ]
+}

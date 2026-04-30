@@ -166,6 +166,18 @@
       "source_repo": "davidhozic/mujoco-rs",
       "status": "candidate-context",
       "text": "[![Guide](https://img.shields.io/badge/Guide-book-white)](https://mujoco-rs.readthedocs.io/en/v4.0.x/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mono/CppSharp",
+      "status": "candidate-context",
+      "text": "Tools and libraries to glue C/C++ APIs to high-level languages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mono/CppSharp",
+      "status": "candidate-context",
+      "text": "<img src=\"docs/logo.svg\" width=\"128\">"
     }
   ],
   "candidate_glosses": [
@@ -246,6 +258,12 @@
       "source_repo": "davidhozic/mujoco-rs",
       "status": "candidate",
       "text": "[![Guide](https://img.shields.io/badge/Guide-book-white)](https://mujoco-rs.readthedocs.io/en/v4.0.x/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mono/CppSharp",
+      "status": "candidate",
+      "text": "<img src=\"docs/logo.svg\" width=\"128\">"
     }
   ],
   "candidate_related_terms": [
@@ -421,11 +439,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "ocaml-tracing/ocaml-tracy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "mono/CppSharp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "ocaml-tracing/ocaml-tracy"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

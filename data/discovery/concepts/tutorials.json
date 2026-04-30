@@ -91,6 +91,18 @@
       "source_repo": "Roshanjossey/code-contributions",
       "status": "candidate-context",
       "text": "This is a project for you to practice contributing to open source projects with code."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ksachdeva/rethinking-tensorflow-probability",
+      "status": "candidate-context",
+      "text": "Statistical Rethinking (2nd Ed) with Tensorflow Probability"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ksachdeva/rethinking-tensorflow-probability",
+      "status": "candidate-context",
+      "text": "This repository provides jupyter notebooks that port various R code fragments found in the"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "Roshanjossey/code-contributions",
       "status": "candidate",
       "text": "This is a project for you to practice contributing to open source projects with code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ksachdeva/rethinking-tensorflow-probability",
+      "status": "candidate",
+      "text": "This repository provides jupyter notebooks that port various R code fragments found in the"
     }
   ],
   "candidate_related_terms": [
@@ -226,11 +244,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "KDJDEV/imagehash-reverse-image-search-tutorial"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "ksachdeva/rethinking-tensorflow-probability"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

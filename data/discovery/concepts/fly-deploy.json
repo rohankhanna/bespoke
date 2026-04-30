@@ -56,6 +56,18 @@
       "source_repo": "dwyl/phoenix-liveview-chat-example",
       "status": "candidate-context",
       "text": "Fly Deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Anime4KWebBoost/Anime4K-Web-Demo",
+      "status": "candidate-context",
+      "text": "Anime4K webGPU demo using Next.JS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Anime4KWebBoost/Anime4K-Web-Demo",
+      "status": "candidate-context",
+      "text": "Fly Deploy"
     }
   ],
   "candidate_glosses": [
@@ -80,6 +92,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "dwyl/phoenix-liveview-chat-example",
+      "status": "candidate",
+      "text": "Fly Deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Anime4KWebBoost/Anime4K-Web-Demo",
       "status": "candidate",
       "text": "Fly Deploy"
     }
@@ -161,11 +179,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/deploy-stats-server.yml",
       "source_repo": "cargo-bins/cargo-quickinstall"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/fly.yml",
+      "source_repo": "Anime4KWebBoost/Anime4K-Web-Demo"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

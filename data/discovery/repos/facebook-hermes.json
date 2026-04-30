@@ -1,0 +1,517 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-android.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4.3.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-android.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apple-slices-hermes.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apple-slices-hermes.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4.3.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apple-slices-hermes.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-hermes-macos.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-hermes-macos.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4.3.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-hermes-macos.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4.3.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-hermes-macos.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4.3.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-hermes-macos.yml"
+    },
+    {
+      "component": "actions/cache/save@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-hermes-macos.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-hermesc-apple.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4.3.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-hermesc-apple.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-hermesc-linux.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4.3.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-hermesc-linux.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-hermesc-windows.yml"
+    },
+    {
+      "component": "microsoft/setup-msbuild@v1.3.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-hermesc-windows.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4.3.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-hermesc-windows.yml"
+    },
+    {
+      "component": "maxim-lobanov/setup-xcode@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "maxim-lobanov/setup-xcode@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-issue-triage.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-issue-triage.yml"
+    },
+    {
+      "component": "anthropics/claude-code-base-action@beta",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-issue-triage.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-issue-triage.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-issue-triage.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-tag.yml"
+    },
+    {
+      "component": "actions/github-script@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-tag.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-android.yml",
+      "source_repo": "facebook/hermes",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-android.yml",
+      "source_repo": "facebook/hermes",
+      "target": "actions/upload-artifact@v4.3.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-android.yml",
+      "source_repo": "facebook/hermes",
+      "target": "build-android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apple-slices-hermes.yml",
+      "source_repo": "facebook/hermes",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apple-slices-hermes.yml",
+      "source_repo": "facebook/hermes",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apple-slices-hermes.yml",
+      "source_repo": "facebook/hermes",
+      "target": "actions/upload-artifact@v4.3.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-apple-slices-hermes.yml",
+      "source_repo": "facebook/hermes",
+      "target": "build-apple-slices-hermes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-hermes-macos.yml",
+      "source_repo": "facebook/hermes",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-hermes-macos.yml",
+      "source_repo": "facebook/hermes",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-hermes-macos.yml",
+      "source_repo": "facebook/hermes",
+      "target": "actions/upload-artifact@v4.3.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-hermes-macos.yml",
+      "source_repo": "facebook/hermes",
+      "target": "actions/cache/save@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-hermes-macos.yml",
+      "source_repo": "facebook/hermes",
+      "target": "build-hermes-macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-hermesc-apple.yml",
+      "source_repo": "facebook/hermes",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-hermesc-apple.yml",
+      "source_repo": "facebook/hermes",
+      "target": "actions/upload-artifact@v4.3.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-hermesc-apple.yml",
+      "source_repo": "facebook/hermes",
+      "target": "build-hermesc-apple",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-hermesc-linux.yml",
+      "source_repo": "facebook/hermes",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-hermesc-linux.yml",
+      "source_repo": "facebook/hermes",
+      "target": "actions/upload-artifact@v4.3.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-hermesc-linux.yml",
+      "source_repo": "facebook/hermes",
+      "target": "build-hermesc-linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-hermesc-windows.yml",
+      "source_repo": "facebook/hermes",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-hermesc-windows.yml",
+      "source_repo": "facebook/hermes",
+      "target": "microsoft/setup-msbuild@v1.3.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-hermesc-windows.yml",
+      "source_repo": "facebook/hermes",
+      "target": "actions/upload-artifact@v4.3.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-hermesc-windows.yml",
+      "source_repo": "facebook/hermes",
+      "target": "build-hermesc-windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "facebook/hermes",
+      "target": "maxim-lobanov/setup-xcode@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "facebook/hermes",
+      "target": "actions/checkout@v4.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "facebook/hermes",
+      "target": "actions/upload-artifact@v4.3.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "facebook/hermes",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-issue-triage.yml",
+      "source_repo": "facebook/hermes",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-issue-triage.yml",
+      "source_repo": "facebook/hermes",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-issue-triage.yml",
+      "source_repo": "facebook/hermes",
+      "target": "anthropics/claude-code-base-action@beta",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-issue-triage.yml",
+      "source_repo": "facebook/hermes",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-issue-triage.yml",
+      "source_repo": "facebook/hermes",
+      "target": "Issue Triage & Debug",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-tag.yml",
+      "source_repo": "facebook/hermes",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-tag.yml",
+      "source_repo": "facebook/hermes",
+      "target": "actions/github-script@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-tag.yml",
+      "source_repo": "facebook/hermes",
+      "target": "Publish Tag",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:56:43.821768+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3571
+    },
+    {
+      "path": ".github/workflows/build-android.yml",
+      "size": 1680
+    },
+    {
+      "path": ".github/workflows/build-apple-slices-hermes.yml",
+      "size": 2919
+    },
+    {
+      "path": ".github/workflows/build-hermes-macos.yml",
+      "size": 6092
+    },
+    {
+      "path": ".github/workflows/build-hermesc-apple.yml",
+      "size": 557
+    },
+    {
+      "path": ".github/workflows/build-hermesc-linux.yml",
+      "size": 1584
+    },
+    {
+      "path": ".github/workflows/build-hermesc-windows.yml",
+      "size": 3204
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 7944
+    },
+    {
+      "path": ".github/workflows/claude-issue-triage.yml",
+      "size": 6753
+    },
+    {
+      "path": ".github/workflows/create-tag.yml",
+      "size": 1584
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "static_h",
+    "description": "A JavaScript engine optimized for running React Native.",
+    "fork": false,
+    "full_name": "facebook/hermes",
+    "html_url": "https://github.com/facebook/hermes",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-30T05:48:18Z",
+    "stargazers_count": 11013,
+    "topics": [],
+    "updated_at": "2026-04-30T18:56:24Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "build-android",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-android.yml",
+      "term": "build-android"
+    },
+    {
+      "context_snippet": "build-apple-slices-hermes",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-apple-slices-hermes.yml",
+      "term": "build-apple-slices-hermes"
+    },
+    {
+      "context_snippet": "build-hermes-macos",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-hermes-macos.yml",
+      "term": "build-hermes-macos"
+    },
+    {
+      "context_snippet": "build-hermesc-apple",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-hermesc-apple.yml",
+      "term": "build-hermesc-apple"
+    },
+    {
+      "context_snippet": "build-hermesc-linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-hermesc-linux.yml",
+      "term": "build-hermesc-linux"
+    },
+    {
+      "context_snippet": "build-hermesc-windows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-hermesc-windows.yml",
+      "term": "build-hermesc-windows"
+    },
+    {
+      "context_snippet": "Issue Triage & Debug",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-issue-triage.yml",
+      "term": "Issue Triage & Debug"
+    },
+    {
+      "context_snippet": "Publish Tag",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-tag.yml",
+      "term": "Publish Tag"
+    }
+  ]
+}

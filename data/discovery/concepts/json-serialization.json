@@ -19,6 +19,18 @@
       "source_repo": "nlohmann/json",
       "status": "candidate-context",
       "text": "[![JSON for Modern C++](docs/mkdocs/docs/images/json.gif)](https://github.com/nlohmann/json/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mailru/easyjson",
+      "status": "candidate-context",
+      "text": "Fast JSON serializer for golang."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mailru/easyjson",
+      "status": "candidate-context",
+      "text": "Package easyjson provides a fast and easy way to marshal/unmarshal Go structs"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "nlohmann/json",
       "status": "candidate",
       "text": "[![JSON for Modern C++](docs/mkdocs/docs/images/json.gif)](https://github.com/nlohmann/json/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mailru/easyjson",
+      "status": "candidate",
+      "text": "Package easyjson provides a fast and easy way to marshal/unmarshal Go structs"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "nlohmann/json"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "mailru/easyjson"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

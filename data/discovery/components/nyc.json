@@ -1,7 +1,7 @@
 {
   "component": "nyc",
   "first_seen_at": "2026-04-18T02:41:24.975901+00:00",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",
@@ -842,6 +842,16 @@
       "discovered_via": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "winstonjs/winston-transport"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "better-auth/better-auth"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dat-ecosystem-archive/dat-node"
     }
   ]
 }

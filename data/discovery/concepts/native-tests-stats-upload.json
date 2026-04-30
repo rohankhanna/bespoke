@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Native tests stats upload"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graalvm/mandrel",
+      "status": "candidate-context",
+      "text": "Mandrel is a downstream distribution of the GraalVM community edition. Mandrel's main goal is to provide a native-image release specifically to support Quarkus."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graalvm/mandrel",
+      "status": "candidate-context",
+      "text": "Native tests stats upload"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graalvm/mandrel",
+      "status": "candidate",
+      "text": "Native tests stats upload"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23197,
+      "status": "candidate",
+      "text": "data"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22620,
+      "status": "candidate",
+      "text": "analysis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22413,
+      "status": "candidate",
+      "text": "dewan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22413,
+      "status": "candidate",
+      "text": "ute"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22397,
+      "status": "candidate",
+      "text": "national socialism"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Native tests stats upload",
+  "concept_id": "native-tests-stats-upload",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/native-tests-stats-upload.yml",
+      "source_repo": "graalvm/mandrel"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Native tests stats upload",
+      "sense_id": "native-tests-stats-upload#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

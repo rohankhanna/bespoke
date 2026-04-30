@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "ghcid"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aiya000/vim-ghcid-quickfix",
+      "status": "candidate-context",
+      "text": "Increse your Haskell development via ghcid!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aiya000/vim-ghcid-quickfix",
+      "status": "candidate-context",
+      "text": "- - -"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aiya000/vim-ghcid-quickfix",
+      "status": "candidate",
+      "text": "- - -"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "ghcid",
+  "concept_id": "ghcid",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "aiya000/vim-ghcid-quickfix"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ghcid",
+      "sense_id": "ghcid#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

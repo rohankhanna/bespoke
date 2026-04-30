@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Guide to building a Linux or BSD router on the PC Engines APU platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "**Important** After many years of service, the PC Engines APU platform is now [EOL](https://www.pcengines.ch/eol.htm)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "**Important** After many years of service, the PC Engines APU platform is now [EOL](https://www.pcengines.ch/eol.htm)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29896663,
+      "status": "candidate",
+      "text": "duplication"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29876226,
+      "status": "candidate",
+      "text": "tutorial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29874870,
+      "status": "candidate",
+      "text": "inspectorate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29870377,
+      "status": "candidate",
+      "text": "audit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29865494,
+      "status": "candidate",
+      "text": "rehearsal"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "walkthrough",
+      "sense_id": "walkthrough#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "walkthrough",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "walkthrough",
+  "observation_id": "56e4b3f55d42e649",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "walkthrough",
+  "source_context_snippet": "**Important** After many years of service, the PC Engines APU platform is now [EOL](https://www.pcengines.ch/eol.htm).",
+  "source_file": null,
+  "source_repo": "drduh/Router-Guide",
+  "source_repo_description": "Guide to building a Linux or BSD router on the PC Engines APU platform"
+}

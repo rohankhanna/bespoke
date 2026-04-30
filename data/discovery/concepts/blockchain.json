@@ -646,6 +646,18 @@
       "source_repo": "spacemeshos/smrepl",
       "status": "candidate-context",
       "text": "July 2022 UPDATE: THIS TOOL (SMREPL) IS *NOT UP-TO-DATE OR COMPATIBLE* WITH OUR LATEST DEVNET."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "holochain/holochain",
+      "status": "candidate-context",
+      "text": "The current, performant & industrial strength version of Holochain on Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "holochain/holochain",
+      "status": "candidate-context",
+      "text": "[![Project](https://img.shields.io/badge/Project-Holochain-blue.svg?style=flat-square)](http://holochain.org/)"
     }
   ],
   "candidate_glosses": [
@@ -966,6 +978,12 @@
       "source_repo": "spacemeshos/smrepl",
       "status": "candidate",
       "text": "July 2022 UPDATE: THIS TOOL (SMREPL) IS *NOT UP-TO-DATE OR COMPATIBLE* WITH OUR LATEST DEVNET."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "holochain/holochain",
+      "status": "candidate",
+      "text": "[![Project](https://img.shields.io/badge/Project-Holochain-blue.svg?style=flat-square)](http://holochain.org/)"
     }
   ],
   "candidate_related_terms": [
@@ -1591,11 +1609,41 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "stx-labs/connect"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "argotorg/solidity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "holochain/holochain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "ConsenSys-archive/ganache"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmone"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "dethcrypto/TypeChain"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

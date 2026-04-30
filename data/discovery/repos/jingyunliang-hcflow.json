@@ -1,0 +1,195 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JingyunLiang/HCFlow",
+      "target": "andreas128/srflow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JingyunLiang/HCFlow",
+      "target": "jingyunliang/manet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JingyunLiang/HCFlow",
+      "target": "open-mmlab/mmediting",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JingyunLiang/HCFlow",
+      "target": "chaiyujin/glow-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JingyunLiang/HCFlow",
+      "target": "face-image-super-resolution",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JingyunLiang/HCFlow",
+      "target": "flow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JingyunLiang/HCFlow",
+      "target": "iccv2021",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JingyunLiang/HCFlow",
+      "target": "image-rescaling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JingyunLiang/HCFlow",
+      "target": "image-sr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JingyunLiang/HCFlow",
+      "target": "image-super-resolution",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JingyunLiang/HCFlow",
+      "target": "normalizing-flow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JingyunLiang/HCFlow",
+      "target": "super-resolution",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:39:26.191939+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9527
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1429
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official PyTorch code for Hierarchical Conditional Flow: A Unified Framework for Image Super-Resolution and Image Rescaling (HCFlow, ICCV2021) ",
+    "fork": false,
+    "full_name": "JingyunLiang/HCFlow",
+    "html_url": "https://github.com/JingyunLiang/HCFlow",
+    "language": "Python",
+    "pushed_at": "2021-09-29T10:33:05Z",
+    "stargazers_count": 195,
+    "topics": [
+      "face-image-super-resolution",
+      "flow",
+      "iccv2021",
+      "image-rescaling",
+      "image-sr",
+      "image-super-resolution",
+      "normalizing-flow",
+      "super-resolution"
+    ],
+    "updated_at": "2026-03-20T18:32:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "andreas128/srflow",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chaiyujin/glow-pytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jingyunliang/manet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "open-mmlab/mmediting",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2108.05301)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-image-super-resolution"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2108.05301)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flow"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2108.05301)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iccv2021"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2108.05301)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-rescaling"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2108.05301)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-sr"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2108.05301)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-super-resolution"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2108.05301)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "normalizing-flow"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2108.05301)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "super-resolution"
+    }
+  ]
+}

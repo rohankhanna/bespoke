@@ -175,6 +175,30 @@
       "source_repo": "taylorhakes/fecha",
       "status": "candidate-context",
       "text": "Lightweight date formatting and parsing (~2KB). Meant to replace parsing and formatting functionality of moment.js."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mono/CppSharp",
+      "status": "candidate-context",
+      "text": "Tools and libraries to glue C/C++ APIs to high-level languages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mono/CppSharp",
+      "status": "candidate-context",
+      "text": "<img src=\"docs/logo.svg\" width=\"128\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0x2a-42/lelwel",
+      "status": "candidate-context",
+      "text": "Resilient LL(1) parser generator for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0x2a-42/lelwel",
+      "status": "candidate-context",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/lelwel)](https://crates.io/crates/lelwel)"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +285,18 @@
       "source_repo": "taylorhakes/fecha",
       "status": "candidate",
       "text": "Lightweight date formatting and parsing (~2KB). Meant to replace parsing and formatting functionality of moment.js."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mono/CppSharp",
+      "status": "candidate",
+      "text": "<img src=\"docs/logo.svg\" width=\"128\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0x2a-42/lelwel",
+      "status": "candidate",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/lelwel)](https://crates.io/crates/lelwel)"
     }
   ],
   "candidate_related_terms": [
@@ -406,11 +442,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "taylorhakes/fecha"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "mono/CppSharp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "0x2a-42/lelwel"
     }
   ],
   "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

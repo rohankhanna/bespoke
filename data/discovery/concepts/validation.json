@@ -262,6 +262,18 @@
       "source_repo": "statoscope/statoscope",
       "status": "candidate-context",
       "text": "[![Financial Contributors on Open Collective](https://opencollective.com/statoscope/all/badge.svg?label=financial+contributors)](https://opencollective.com/statoscope) [![Build and Test](https://github.com/statoscope/statoscope/actions/workflows/ci.yml/badge.svg)](https://github\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mr-fatalyst/fastopenapi",
+      "status": "candidate-context",
+      "text": "FastOpenAPI is a library for generating and integrating OpenAPI schemas using Pydantic v2 and various frameworks (AioHttp, Django, Falcon, Flask, Quart, Sanic, Starlette, Tornado)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mr-fatalyst/fastopenapi",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -390,6 +402,12 @@
       "source_repo": "statoscope/statoscope",
       "status": "candidate",
       "text": "[![Financial Contributors on Open Collective](https://opencollective.com/statoscope/all/badge.svg?label=financial+contributors)](https://opencollective.com/statoscope) [![Build and Test](https://github.com/statoscope/statoscope/actions/workflows/ci.yml/badge.svg)](https://github\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mr-fatalyst/fastopenapi",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -624,11 +642,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "567-labs/instructor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "mr-fatalyst/fastopenapi"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

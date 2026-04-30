@@ -55,6 +55,12 @@
       "source_repo": "cloudfoundry/cf-deployment-concourse-tasks",
       "status": "candidate-context",
       "text": "This repo contains concourse tasks for use with [cf-deployment][cf-deployment-repo]."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/runtime-ci",
+      "status": "candidate-context",
+      "text": "module github.com/cloudfoundry/runtime-ci go 1.24.0 require ( github.com/blang/semver v3.5.1+incompatible github.com/onsi/ginkgo/v2 v2.28.1 github.com/onsi/gomega v1.39.1 github.com/spf13/pflag v1.0.10 gopkg.in/yaml.v3 v3.0.1 ) require ( github.com/Masterminds/semver/v3 v3.4.0 /\u2026"
     }
   ],
   "candidate_glosses": [
@@ -87,6 +93,12 @@
       "source_repo": "cloudfoundry/cf-deployment-concourse-tasks",
       "status": "candidate",
       "text": "This repo contains concourse tasks for use with [cf-deployment][cf-deployment-repo]."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/runtime-ci",
+      "status": "candidate",
+      "text": "module github.com/cloudfoundry/runtime-ci go 1.24.0 require ( github.com/blang/semver v3.5.1+incompatible github.com/onsi/ginkgo/v2 v2.28.1 github.com/onsi/gomega v1.39.1 github.com/spf13/pflag v1.0.10 gopkg.in/yaml.v3 v3.0.1 ) require ( github.com/Masterminds/semver/v3 v3.4.0 /\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -124,11 +136,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "cloudfoundry/cf-deployment-concourse-tasks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "cloudfoundry/runtime-ci"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

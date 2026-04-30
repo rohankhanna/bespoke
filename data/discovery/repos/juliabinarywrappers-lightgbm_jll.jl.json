@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaBinaryWrappers/LightGBM_jll.jl",
+      "target": "juliabinarywrappers/cuda_runtime_jll.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaBinaryWrappers/LightGBM_jll.jl",
+      "target": "juliabinarywrappers/compilersupportlibraries_jll.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaBinaryWrappers/LightGBM_jll.jl",
+      "target": "juliabinarywrappers/llvmopenmp_jll.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaBinaryWrappers/LightGBM_jll.jl",
+      "target": "juliabinarywrappers/boost_jll.jl",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:04:06.941858+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2070
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "JuliaBinaryWrappers/LightGBM_jll.jl",
+    "html_url": "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl",
+    "language": "Julia",
+    "pushed_at": "2024-06-13T17:22:22Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2024-06-13T17:22:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliabinarywrappers/boost_jll.jl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliabinarywrappers/compilersupportlibraries_jll.jl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliabinarywrappers/cuda_runtime_jll.jl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliabinarywrappers/llvmopenmp_jll.jl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

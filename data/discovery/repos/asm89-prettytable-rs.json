@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "asm89/prettytable-rs",
+      "target": "phsym/prettytable-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "asm89/prettytable-rs",
+      "target": "google/evcxr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "asm89/prettytable-rs",
+      "target": "phsym/prettytable-rs",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:49:25.389957+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13347
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1201
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A rust library to print aligned and formatted tables",
+    "fork": true,
+    "full_name": "asm89/prettytable-rs",
+    "html_url": "https://github.com/asm89/prettytable-rs",
+    "language": null,
+    "pushed_at": "2025-11-28T17:25:34Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-11-28T17:23:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/evcxr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "phsym/prettytable-rs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "phsym/prettytable-rs",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": []
+}

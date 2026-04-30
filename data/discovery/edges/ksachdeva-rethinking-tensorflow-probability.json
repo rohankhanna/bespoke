@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/book.yml",
+      "source_repo": "ksachdeva/rethinking-tensorflow-probability",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/book.yml",
+      "source_repo": "ksachdeva/rethinking-tensorflow-probability",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/book.yml",
+      "source_repo": "ksachdeva/rethinking-tensorflow-probability",
+      "target": "peaceiris/actions-gh-pages@v3.5.9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/book.yml",
+      "source_repo": "ksachdeva/rethinking-tensorflow-probability",
+      "target": "deploy-book",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ksachdeva/rethinking-tensorflow-probability",
+      "target": "bayesian-inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ksachdeva/rethinking-tensorflow-probability",
+      "target": "bayesian-statistics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ksachdeva/rethinking-tensorflow-probability",
+      "target": "markov-chain-monte-carlo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ksachdeva/rethinking-tensorflow-probability",
+      "target": "statistical-rethinking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ksachdeva/rethinking-tensorflow-probability",
+      "target": "tensorflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ksachdeva/rethinking-tensorflow-probability",
+      "target": "tensorflow-probability",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ksachdeva/rethinking-tensorflow-probability",
+      "target": "tutorials",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ksachdeva/rethinking-tensorflow-probability",
+      "target": "variational-inference",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T18:36:26.757967+00:00",
+  "source_repo": "ksachdeva/rethinking-tensorflow-probability"
+}

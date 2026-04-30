@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "battery"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "distatus/battery",
+      "status": "candidate-context",
+      "text": "cross-platform, normalized battery information library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "distatus/battery",
+      "status": "candidate-context",
+      "text": "battery [![Build Status](https://github.com/distatus/battery/actions/workflows/tests.yml/badge.svg?branch=master)](https://github.com/distatus/battery/actions/workflows/tests.yml) [![Go Report Card](https://goreportcard.com/badge/github.com/distatus/battery)](https://goreportcar\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "distatus/battery",
+      "status": "candidate",
+      "text": "battery [![Build Status](https://github.com/distatus/battery/actions/workflows/tests.yml/badge.svg?branch=master)](https://github.com/distatus/battery/actions/workflows/tests.yml) [![Go Report Card](https://goreportcard.com/badge/github.com/distatus/battery)](https://goreportcar\u2026"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012362,
+      "status": "candidate",
+      "text": "bombardment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40009229,
+      "status": "candidate",
+      "text": "stamp battery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40007218,
+      "status": "candidate",
+      "text": "barrage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39995390,
+      "status": "candidate",
+      "text": "shelling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39897791,
+      "status": "candidate",
+      "text": "assault and battery"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31050,
+      "status": "candidate",
+      "text": "assault"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14041,
+      "status": "candidate",
+      "text": "barrage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6032,
+      "status": "candidate",
+      "text": "bombardment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3028,
+      "status": "candidate",
+      "text": "assault and battery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2028,
+      "status": "candidate",
+      "text": "shelling"
+    }
+  ],
+  "canonical_name": "battery",
+  "concept_id": "battery",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "distatus/battery"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "battery",
+      "sense_id": "battery#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T19:05:51.466951+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2573
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Linter for robot framework plain text files",
+    "fork": false,
+    "full_name": "boakley/robotframework-lint",
+    "html_url": "https://github.com/boakley/robotframework-lint",
+    "language": "RobotFramework",
+    "pushed_at": "2023-10-25T23:38:08Z",
+    "stargazers_count": 126,
+    "topics": [],
+    "updated_at": "2025-10-19T13:05:34Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

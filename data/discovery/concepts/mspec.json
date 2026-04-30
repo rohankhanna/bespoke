@@ -19,6 +19,18 @@
       "source_repo": "ruby/spec",
       "status": "candidate-context",
       "text": "[![Actions Build Status](https://github.com/ruby/spec/workflows/CI/badge.svg)](https://github.com/ruby/spec/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ruby/mspec",
+      "status": "candidate-context",
+      "text": "RSpec-like test runner for the Ruby Spec Suite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/mspec",
+      "status": "candidate-context",
+      "text": "MSpec is a specialized framework that is syntax-compatible with RSpec 2 for"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "ruby/spec",
       "status": "candidate",
       "text": "[![Actions Build Status](https://github.com/ruby/spec/workflows/CI/badge.svg)](https://github.com/ruby/spec/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/mspec",
+      "status": "candidate",
+      "text": "MSpec is a specialized framework that is syntax-compatible with RSpec 2 for"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "ruby/spec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "ruby/mspec"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

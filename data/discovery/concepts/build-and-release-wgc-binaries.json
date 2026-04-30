@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build and release wgc binaries"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wundergraph/cosmo",
+      "status": "candidate-context",
+      "text": "The open-source solution to building, maintaining, and collaborating on GraphQL Federation at Scale. The alternative to Apollo Studio and GraphOS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wundergraph/cosmo",
+      "status": "candidate-context",
+      "text": "Build and release wgc binaries"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wundergraph/cosmo",
+      "status": "candidate",
+      "text": "Build and release wgc binaries"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14561,
+      "status": "candidate",
+      "text": "port"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14561,
+      "status": "candidate",
+      "text": "ports"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14401,
+      "status": "candidate",
+      "text": "ioi"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14401,
+      "status": "candidate",
+      "text": "octal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14401,
+      "status": "candidate",
+      "text": "scale"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build and release wgc binaries",
+  "concept_id": "build-and-release-wgc-binaries",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/cli-binary-release.yaml",
+      "source_repo": "wundergraph/cosmo"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build and release wgc binaries",
+      "sense_id": "build-and-release-wgc-binaries#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

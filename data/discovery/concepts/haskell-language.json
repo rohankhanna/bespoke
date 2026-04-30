@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "haskell-language"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JustusAdam/language-haskell",
+      "status": "candidate-context",
+      "text": "Highlighting support for the Haskell language in visual studio code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JustusAdam/language-haskell",
+      "status": "candidate-context",
+      "text": "Syntax highlighting support for Haskell and associated languages (e.g. Cabal, Happy and Alex) in Visual Studio Code."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JustusAdam/language-haskell",
+      "status": "candidate",
+      "text": "Syntax highlighting support for Haskell and associated languages (e.g. Cabal, Happy and Alex) in Visual Studio Code."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "haskell-language",
+  "concept_id": "haskell-language",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "JustusAdam/language-haskell"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "haskell-language",
+      "sense_id": "haskell-language#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

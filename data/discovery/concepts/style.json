@@ -172,6 +172,18 @@
       "source_repo": "nvim-neotest/neotest-jest",
       "status": "candidate-context",
       "text": "style"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vitalets/react-native-extended-stylesheet",
+      "status": "candidate-context",
+      "text": "Extended StyleSheets for React Native"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vitalets/react-native-extended-stylesheet",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/vitalets/react-native-extended-stylesheet.svg?branch=master)](https://travis-ci.org/vitalets/react-native-extended-stylesheet)"
     }
   ],
   "candidate_glosses": [
@@ -258,6 +270,12 @@
       "source_repo": "nvim-neotest/neotest-jest",
       "status": "candidate",
       "text": "style"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vitalets/react-native-extended-stylesheet",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/vitalets/react-native-extended-stylesheet.svg?branch=master)](https://travis-ci.org/vitalets/react-native-extended-stylesheet)"
     }
   ],
   "candidate_related_terms": [
@@ -499,11 +517,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/style.yml",
       "source_repo": "PrimeIntellect-ai/verifiers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "vitalets/react-native-extended-stylesheet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "standard/snazzy"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -55,6 +55,30 @@
       "source_repo": "deepcam-cn/yolov5-face",
       "status": "candidate-context",
       "text": "**2024.04** [ncnn-android-yolov8-face](https://github.com/derronqi/ncnn-android-yolov8-face)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yeyupiaoling/VoiceprintRecognition-Pytorch",
+      "status": "candidate-context",
+      "text": "This project uses a variety of advanced voiceprint recognition models such as EcapaTdnn, ResNetSE, ERes2Net, CAM++, etc. It is not excluded that more models will be supported in the future. At the same time, this project also supports MelSpectrogram, Spectrogram data preprocessing methods"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yeyupiaoling/VoiceprintRecognition-Pytorch",
+      "status": "candidate-context",
+      "text": "\u7b80\u4f53\u4e2d\u6587 | [English](./README_en.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yeyupiaoling/VoiceprintRecognition-PaddlePaddle",
+      "status": "candidate-context",
+      "text": "\u672c\u9879\u76ee\u4f7f\u7528\u4e86EcapaTdnn\u3001ResNetSE\u3001ERes2Net\u3001CAM++\u7b49\u591a\u79cd\u5148\u8fdb\u7684\u58f0\u7eb9\u8bc6\u522b\u6a21\u578b\uff0c\u540c\u65f6\u672c\u9879\u76ee\u4e5f\u652f\u6301\u4e86MelSpectrogram\u3001Spectrogram\u3001MFCC\u3001Fbank\u7b49\u591a\u79cd\u6570\u636e\u9884\u5904\u7406\u65b9\u6cd5"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yeyupiaoling/VoiceprintRecognition-PaddlePaddle",
+      "status": "candidate-context",
+      "text": "![python version](https://img.shields.io/badge/python-3.8+-orange.svg)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "deepcam-cn/yolov5-face",
       "status": "candidate",
       "text": "**2024.04** [ncnn-android-yolov8-face](https://github.com/derronqi/ncnn-android-yolov8-face)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yeyupiaoling/VoiceprintRecognition-Pytorch",
+      "status": "candidate",
+      "text": "\u7b80\u4f53\u4e2d\u6587 | [English](./README_en.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yeyupiaoling/VoiceprintRecognition-PaddlePaddle",
+      "status": "candidate",
+      "text": "![python version](https://img.shields.io/badge/python-3.8+-orange.svg)"
     }
   ],
   "candidate_related_terms": [],
@@ -130,11 +166,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "cavalleria/cavaface"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "yeyupiaoling/VoiceprintRecognition-Pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "yeyupiaoling/VoiceprintRecognition-PaddlePaddle"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "firmware"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tianocore/edk2",
+      "status": "candidate-context",
+      "text": "EDK II"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tianocore/edk2",
+      "status": "candidate-context",
+      "text": "Build Platform"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tianocore/edk2",
+      "status": "candidate",
+      "text": "Build Platform"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30030737,
+      "status": "candidate",
+      "text": "software"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20030804,
+      "status": "candidate",
+      "text": "warmware"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20030803,
+      "status": "candidate",
+      "text": "softwear"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20030802,
+      "status": "candidate",
+      "text": "hardware"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20030800,
+      "status": "candidate",
+      "text": "computer program"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "firmware",
+  "concept_id": "firmware",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "tianocore/edk2"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "firmware",
+      "sense_id": "firmware#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

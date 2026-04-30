@@ -1,0 +1,12 @@
+{
+  "component": "github/codeql-action/upload-sarif@e12f0178983d466f2f6028f5cc7a6d786fd97f4b",
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "DiligentGraphics/glslang"
+    }
+  ]
+}

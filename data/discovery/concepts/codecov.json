@@ -166,6 +166,18 @@
       "source_repo": "bonukai/MediaTracker",
       "status": "candidate-context",
       "text": "Codecov"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jaredwray/keyv",
+      "status": "candidate-context",
+      "text": "Simple key-value storage with support for multiple backends"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaredwray/keyv",
+      "status": "candidate-context",
+      "text": "codecov"
     }
   ],
   "candidate_glosses": [
@@ -246,6 +258,12 @@
       "source_repo": "bonukai/MediaTracker",
       "status": "candidate",
       "text": "Codecov"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaredwray/keyv",
+      "status": "candidate",
+      "text": "codecov"
     }
   ],
   "candidate_related_terms": [],
@@ -337,11 +355,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/codecov.yml",
       "source_repo": "uxlfoundation/scikit-learn-intelex"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/codecov.yaml",
+      "source_repo": "jaredwray/keyv"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "naver/deep-image-retrieval",
+      "target": "naver/kapture",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "naver/deep-image-retrieval",
+      "target": "filipradenovic/cnnimageretrieval-pytorch",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:44:10.855647+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11455
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "End-to-end learning of deep visual representations for image retrieval",
+    "fork": false,
+    "full_name": "naver/deep-image-retrieval",
+    "html_url": "https://github.com/naver/deep-image-retrieval",
+    "language": "Python",
+    "pushed_at": "2021-05-19T09:07:28Z",
+    "stargazers_count": 681,
+    "topics": [],
+    "updated_at": "2026-04-12T07:08:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "filipradenovic/cnnimageretrieval-pytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "naver/kapture",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

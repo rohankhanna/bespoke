@@ -1,0 +1,171 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MajicDesigns/MD_MAX72XX",
+      "target": "arduino",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MajicDesigns/MD_MAX72XX",
+      "target": "arduino-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MajicDesigns/MD_MAX72XX",
+      "target": "led-matrix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MajicDesigns/MD_MAX72XX",
+      "target": "led-matrix-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MajicDesigns/MD_MAX72XX",
+      "target": "library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MajicDesigns/MD_MAX72XX",
+      "target": "library-management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MajicDesigns/MD_MAX72XX",
+      "target": "matrix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MajicDesigns/MD_MAX72XX",
+      "target": "max7219",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MajicDesigns/MD_MAX72XX",
+      "target": "max7221",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MajicDesigns/MD_MAX72XX",
+      "target": "scrolling",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:59:01.791861+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1026
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "LED Matrix Library",
+    "fork": false,
+    "full_name": "MajicDesigns/MD_MAX72XX",
+    "html_url": "https://github.com/MajicDesigns/MD_MAX72XX",
+    "language": "C++",
+    "pushed_at": "2024-04-28T00:06:59Z",
+    "stargazers_count": 347,
+    "topics": [
+      "arduino",
+      "arduino-library",
+      "led",
+      "led-matrix",
+      "led-matrix-library",
+      "library",
+      "library-management",
+      "matrix",
+      "max7219",
+      "max7221",
+      "scrolling"
+    ],
+    "updated_at": "2026-04-14T07:26:45Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![arduino-library-badge](https://www.ardu-badge.com/badge/MD_MAX72XX.svg?)](https://www.ardu-badge.com/MD_MAX72XX)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arduino"
+    },
+    {
+      "context_snippet": "[![arduino-library-badge](https://www.ardu-badge.com/badge/MD_MAX72XX.svg?)](https://www.ardu-badge.com/MD_MAX72XX)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arduino-library"
+    },
+    {
+      "context_snippet": "[![arduino-library-badge](https://www.ardu-badge.com/badge/MD_MAX72XX.svg?)](https://www.ardu-badge.com/MD_MAX72XX)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "led-matrix"
+    },
+    {
+      "context_snippet": "[![arduino-library-badge](https://www.ardu-badge.com/badge/MD_MAX72XX.svg?)](https://www.ardu-badge.com/MD_MAX72XX)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "led-matrix-library"
+    },
+    {
+      "context_snippet": "[![arduino-library-badge](https://www.ardu-badge.com/badge/MD_MAX72XX.svg?)](https://www.ardu-badge.com/MD_MAX72XX)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "library"
+    },
+    {
+      "context_snippet": "[![arduino-library-badge](https://www.ardu-badge.com/badge/MD_MAX72XX.svg?)](https://www.ardu-badge.com/MD_MAX72XX)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "library-management"
+    },
+    {
+      "context_snippet": "[![arduino-library-badge](https://www.ardu-badge.com/badge/MD_MAX72XX.svg?)](https://www.ardu-badge.com/MD_MAX72XX)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "matrix"
+    },
+    {
+      "context_snippet": "[![arduino-library-badge](https://www.ardu-badge.com/badge/MD_MAX72XX.svg?)](https://www.ardu-badge.com/MD_MAX72XX)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "max7219"
+    },
+    {
+      "context_snippet": "[![arduino-library-badge](https://www.ardu-badge.com/badge/MD_MAX72XX.svg?)](https://www.ardu-badge.com/MD_MAX72XX)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "max7221"
+    },
+    {
+      "context_snippet": "[![arduino-library-badge](https://www.ardu-badge.com/badge/MD_MAX72XX.svg?)](https://www.ardu-badge.com/MD_MAX72XX)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scrolling"
+    }
+  ]
+}

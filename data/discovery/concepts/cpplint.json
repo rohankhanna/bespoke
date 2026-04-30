@@ -5,7 +5,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +21,18 @@
       "source_repo": "google/styleguide",
       "status": "candidate-context",
       "text": "Every major open-source project has its own style guide: a set of conventions"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tzapu/WiFiManager",
+      "status": "candidate-context",
+      "text": "ESP8266 WiFi Connection manager with web captive portal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tzapu/WiFiManager",
+      "status": "candidate-context",
+      "text": "cpplint"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +41,12 @@
       "source_repo": "google/styleguide",
       "status": "candidate",
       "text": "Every major open-source project has its own style guide: a set of conventions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tzapu/WiFiManager",
+      "status": "candidate",
+      "text": "cpplint"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +96,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "google/styleguide"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/cpp_lint.yml",
+      "source_repo": "tzapu/WiFiManager"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

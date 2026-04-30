@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Go SDK Release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openlit/openlit",
+      "status": "candidate-context",
+      "text": "Open source platform for AI Engineering: OpenTelemetry-native LLM Observability, GPU Monitoring, Guardrails, Evaluations, Prompt Management, Vault, Playground. \ud83d\ude80\ud83d\udcbb Integrates with 50+ LLM Providers, VectorDBs, Agent Frameworks and GPUs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openlit/openlit",
+      "status": "candidate-context",
+      "text": "Go SDK Release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openlit/openlit",
+      "status": "candidate",
+      "text": "Go SDK Release"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27069,
+      "status": "candidate",
+      "text": "relinquish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27069,
+      "status": "candidate",
+      "text": "unleash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26730,
+      "status": "candidate",
+      "text": "discharge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26669,
+      "status": "candidate",
+      "text": "unleashed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26330,
+      "status": "candidate",
+      "text": "lease"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Go SDK Release",
+  "concept_id": "go-sdk-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/go-release.yml",
+      "source_repo": "openlit/openlit"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Go SDK Release",
+      "sense_id": "go-sdk-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

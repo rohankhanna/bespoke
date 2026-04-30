@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "emard/ulx3s",
+      "target": "emard/minimig_ecs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "emard/ulx3s",
+      "target": "emard/ulx3s-bin",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:46:32.191384+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7318
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "PCB for ULX3S FPGA R&D board",
+    "fork": false,
+    "full_name": "emard/ulx3s",
+    "html_url": "https://github.com/emard/ulx3s",
+    "language": "OpenSCAD",
+    "pushed_at": "2025-04-27T13:56:05Z",
+    "stargazers_count": 427,
+    "topics": [],
+    "updated_at": "2026-04-23T23:14:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "emard/minimig_ecs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "emard/ulx3s-bin",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

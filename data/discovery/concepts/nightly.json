@@ -368,6 +368,18 @@
       "source_repo": "Enselic/cargo-public-api",
       "status": "candidate-context",
       "text": "Nightly"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cargo-public-api/cargo-public-api",
+      "status": "candidate-context",
+      "text": "List and diff the public API of Rust library crates between releases and commits. Detect breaking API changes and semver violations via CI or a CLI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cargo-public-api/cargo-public-api",
+      "status": "candidate-context",
+      "text": "Nightly"
     }
   ],
   "candidate_glosses": [
@@ -548,6 +560,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Enselic/cargo-public-api",
+      "status": "candidate",
+      "text": "Nightly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cargo-public-api/cargo-public-api",
       "status": "candidate",
       "text": "Nightly"
     }
@@ -800,11 +818,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/Nightly.yml",
       "source_repo": "Enselic/cargo-public-api"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "databrickslabs/ucx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/Nightly.yml",
+      "source_repo": "cargo-public-api/cargo-public-api"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

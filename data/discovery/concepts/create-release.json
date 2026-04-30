@@ -794,6 +794,30 @@
       "source_repo": "actions/python-versions",
       "status": "candidate-context",
       "text": "Create release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LintaoAmons/bookmarks.nvim",
+      "status": "candidate-context",
+      "text": "Persistent bookmarks: hard disk of your thoughts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LintaoAmons/bookmarks.nvim",
+      "status": "candidate-context",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adamgreig/ecpdap",
+      "status": "candidate-context",
+      "text": "ECPDAP allows you to program ECP5 FPGAs and attached SPI flash using CMSIS-DAP probes in JTAG mode."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adamgreig/ecpdap",
+      "status": "candidate-context",
+      "text": "Create Release"
     }
   ],
   "candidate_glosses": [
@@ -1192,6 +1216,18 @@
       "source_repo": "actions/python-versions",
       "status": "candidate",
       "text": "Create release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LintaoAmons/bookmarks.nvim",
+      "status": "candidate",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adamgreig/ecpdap",
+      "status": "candidate",
+      "text": "Create Release"
     }
   ],
   "candidate_related_terms": [
@@ -1805,11 +1841,35 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/create_release.yml",
       "source_repo": "triton-lang/triton"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/create-gh-release.yml",
+      "source_repo": "spring-projects/spring-tools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "LintaoAmons/bookmarks.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "adamgreig/ecpdap"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

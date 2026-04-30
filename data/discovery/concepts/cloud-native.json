@@ -415,6 +415,54 @@
       "source_repo": "vectordotdev/vector",
       "status": "candidate-context",
       "text": "[![Nightly](https://github.com/vectordotdev/vector/actions/workflows/nightly.yml/badge.svg)](https://github.com/vectordotdev/vector/actions/workflows/nightly.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "argoproj-labs/hera",
+      "status": "candidate-context",
+      "text": "Hera makes Python code easy to orchestrate on Argo Workflows through native Python integrations. It lets you construct and submit your Workflows entirely in Python. \u2b50\ufe0f Remember to star!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj-labs/hera",
+      "status": "candidate-context",
+      "text": "| <img src=\"https://raw.githubusercontent.com/argoproj-labs/hera/main/docs/assets/hera-logo.svg\" alt=\"Hera mascot\"> | Hera is the go-to Python SDK to make Argo Workflows simple and intuitive. Easily turn Python functions into containerised templates that run on Kubernetes, with \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "argoproj/argo-events",
+      "status": "candidate-context",
+      "text": "Event-driven Automation Framework for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj/argo-events",
+      "status": "candidate-context",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/argoproj/argo-events)](https://goreportcard.com/report/github.com/argoproj/argo-events)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pingcap/tidb",
+      "status": "candidate-context",
+      "text": "TiDB is built for agentic workloads that grow unpredictably, with ACID guarantees and native support for transactions, analytics, and vector search. No data silos. No noisy neighbors. No infrastructure ceiling."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pingcap/tidb",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apollographql/supergraph-demo",
+      "status": "candidate-context",
+      "text": "\ud83c\udf7f Compose subgraphs into a Federation v1 supergraph at build-time with static composition to power a federated graph router at runtime."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/supergraph-demo",
+      "status": "candidate-context",
+      "text": "![smoke test](https://github.com/apollographql/supergraph-demo/actions/workflows/main.yml/badge.svg)"
     }
   ],
   "candidate_glosses": [
@@ -621,6 +669,30 @@
       "source_repo": "vectordotdev/vector",
       "status": "candidate",
       "text": "[![Nightly](https://github.com/vectordotdev/vector/actions/workflows/nightly.yml/badge.svg)](https://github.com/vectordotdev/vector/actions/workflows/nightly.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj-labs/hera",
+      "status": "candidate",
+      "text": "| <img src=\"https://raw.githubusercontent.com/argoproj-labs/hera/main/docs/assets/hera-logo.svg\" alt=\"Hera mascot\"> | Hera is the go-to Python SDK to make Argo Workflows simple and intuitive. Easily turn Python functions into containerised templates that run on Kubernetes, with \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj/argo-events",
+      "status": "candidate",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/argoproj/argo-events)](https://goreportcard.com/report/github.com/argoproj/argo-events)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pingcap/tidb",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/supergraph-demo",
+      "status": "candidate",
+      "text": "![smoke test](https://github.com/apollographql/supergraph-demo/actions/workflows/main.yml/badge.svg)"
     }
   ],
   "candidate_related_terms": [],
@@ -874,11 +946,41 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "vectordotdev/vector"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "argoproj-labs/hera"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "argoproj/argo-events"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "pingcap/tidb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/supergraph-demo"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -55,6 +55,18 @@
       "source_repo": "rojo-rbx/rojo",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rojo-rbx/rojo.space",
+      "status": "candidate-context",
+      "text": "Rojo website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rojo-rbx/rojo.space",
+      "status": "candidate-context",
+      "text": "This is the Rojo website."
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "rojo-rbx/rojo",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rojo-rbx/rojo.space",
+      "status": "candidate",
+      "text": "This is the Rojo website."
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +166,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "rojo-rbx/rojo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "rojo-rbx/rojo.space"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

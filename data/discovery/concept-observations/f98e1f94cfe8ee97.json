@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A fast Markdown linter written in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Typos"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Typos"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19977282,
+      "status": "candidate",
+      "text": "misprint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19976880,
+      "status": "candidate",
+      "text": "erratum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19976614,
+      "status": "candidate",
+      "text": "typographical error"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19893680,
+      "status": "candidate",
+      "text": "literal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9977299,
+      "status": "candidate",
+      "text": "literal error"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Typos",
+      "sense_id": "typos#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "typos",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "typos",
+  "observation_id": "f98e1f94cfe8ee97",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "Typos",
+  "source_context_snippet": "Typos",
+  "source_file": ".github/workflows/typos.yml",
+  "source_repo": "akiomik/mado",
+  "source_repo_description": "A fast Markdown linter written in Rust."
+}

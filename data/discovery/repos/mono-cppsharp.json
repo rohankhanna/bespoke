@@ -1,0 +1,585 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format-check.yml"
+    },
+    {
+      "component": "jidicula/clang-format-action@v4.14.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format-check.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llvm-win.yml"
+    },
+    {
+      "component": "lukka/get-cmake@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llvm-win.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llvm-win.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llvm.yml"
+    },
+    {
+      "component": "lukka/get-cmake@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llvm.yml"
+    },
+    {
+      "component": "endersonmenezes/free-disk-space@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llvm.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llvm.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "endersonmenezes/free-disk-space@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "pyodide/setup-emsdk@v15",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "jwlawson/actions-setup-cmake@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/download-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mono/CppSharp",
+      "target": "initialforce/ffmpeg_bindings",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mono/CppSharp",
+      "target": "kitsilanosoftware/cppsharptizen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mono/CppSharp",
+      "target": "imazen/deprecated-gd-bindings-generator-old",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mono/CppSharp",
+      "target": "baristalabs/chakrasharp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format-check.yml",
+      "source_repo": "mono/CppSharp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format-check.yml",
+      "source_repo": "mono/CppSharp",
+      "target": "jidicula/clang-format-action@v4.14.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-format-check.yml",
+      "source_repo": "mono/CppSharp",
+      "target": "clang-format Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llvm-win.yml",
+      "source_repo": "mono/CppSharp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llvm-win.yml",
+      "source_repo": "mono/CppSharp",
+      "target": "lukka/get-cmake@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llvm-win.yml",
+      "source_repo": "mono/CppSharp",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/llvm-win.yml",
+      "source_repo": "mono/CppSharp",
+      "target": "LLVM-win",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llvm.yml",
+      "source_repo": "mono/CppSharp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llvm.yml",
+      "source_repo": "mono/CppSharp",
+      "target": "lukka/get-cmake@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llvm.yml",
+      "source_repo": "mono/CppSharp",
+      "target": "endersonmenezes/free-disk-space@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llvm.yml",
+      "source_repo": "mono/CppSharp",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/llvm.yml",
+      "source_repo": "mono/CppSharp",
+      "target": "LLVM",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "mono/CppSharp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "mono/CppSharp",
+      "target": "endersonmenezes/free-disk-space@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "mono/CppSharp",
+      "target": "pyodide/setup-emsdk@v15",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "mono/CppSharp",
+      "target": "jwlawson/actions-setup-cmake@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "mono/CppSharp",
+      "target": "actions/upload-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "mono/CppSharp",
+      "target": "actions/download-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "mono/CppSharp",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mono/CppSharp",
+      "target": "bindings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mono/CppSharp",
+      "target": "bridge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mono/CppSharp",
+      "target": "c-sharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mono/CppSharp",
+      "target": "clang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mono/CppSharp",
+      "target": "cplusplus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mono/CppSharp",
+      "target": "cppsharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mono/CppSharp",
+      "target": "dotnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mono/CppSharp",
+      "target": "glue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mono/CppSharp",
+      "target": "interop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mono/CppSharp",
+      "target": "mono",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mono/CppSharp",
+      "target": "parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mono/CppSharp",
+      "target": "parsing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mono/CppSharp",
+      "target": "pinvoke",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mono/CppSharp",
+      "target": "swig",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mono/CppSharp",
+      "target": "syntax-tree",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mono/CppSharp",
+      "target": "visitors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mono/CppSharp",
+      "target": "xamarin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mono/CppSharp",
+      "target": "xamarin-bindings",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:44:49.380070+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3516
+    },
+    {
+      "path": ".github/workflows/clang-format-check.yml",
+      "size": 788
+    },
+    {
+      "path": ".github/workflows/llvm-win.yml",
+      "size": 1592
+    },
+    {
+      "path": ".github/workflows/llvm.yml",
+      "size": 2744
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 6567
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Tools and libraries to glue C/C++ APIs to high-level languages",
+    "fork": false,
+    "full_name": "mono/CppSharp",
+    "html_url": "https://github.com/mono/CppSharp",
+    "language": "C#",
+    "pushed_at": "2026-02-24T15:10:50Z",
+    "stargazers_count": 3370,
+    "topics": [
+      "bindings",
+      "bridge",
+      "c",
+      "c-sharp",
+      "clang",
+      "cplusplus",
+      "cppsharp",
+      "dotnet",
+      "glue",
+      "interop",
+      "mono",
+      "parser",
+      "parsing",
+      "pinvoke",
+      "swig",
+      "syntax-tree",
+      "visitors",
+      "xamarin",
+      "xamarin-bindings"
+    ],
+    "updated_at": "2026-04-29T18:11:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "baristalabs/chakrasharp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "imazen/deprecated-gd-bindings-generator-old",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "initialforce/ffmpeg_bindings",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kitsilanosoftware/cppsharptizen",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "clang-format Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-format-check.yml",
+      "term": "clang-format Check"
+    },
+    {
+      "context_snippet": "LLVM-win",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/llvm-win.yml",
+      "term": "LLVM-win"
+    },
+    {
+      "context_snippet": "LLVM",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/llvm.yml",
+      "term": "LLVM"
+    },
+    {
+      "context_snippet": "<img src=\"docs/logo.svg\" width=\"128\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bindings"
+    },
+    {
+      "context_snippet": "<img src=\"docs/logo.svg\" width=\"128\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bridge"
+    },
+    {
+      "context_snippet": "<img src=\"docs/logo.svg\" width=\"128\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-sharp"
+    },
+    {
+      "context_snippet": "<img src=\"docs/logo.svg\" width=\"128\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clang"
+    },
+    {
+      "context_snippet": "<img src=\"docs/logo.svg\" width=\"128\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cplusplus"
+    },
+    {
+      "context_snippet": "<img src=\"docs/logo.svg\" width=\"128\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cppsharp"
+    },
+    {
+      "context_snippet": "<img src=\"docs/logo.svg\" width=\"128\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet"
+    },
+    {
+      "context_snippet": "<img src=\"docs/logo.svg\" width=\"128\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "glue"
+    },
+    {
+      "context_snippet": "<img src=\"docs/logo.svg\" width=\"128\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "interop"
+    },
+    {
+      "context_snippet": "<img src=\"docs/logo.svg\" width=\"128\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mono"
+    },
+    {
+      "context_snippet": "<img src=\"docs/logo.svg\" width=\"128\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parser"
+    },
+    {
+      "context_snippet": "<img src=\"docs/logo.svg\" width=\"128\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parsing"
+    },
+    {
+      "context_snippet": "<img src=\"docs/logo.svg\" width=\"128\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pinvoke"
+    },
+    {
+      "context_snippet": "<img src=\"docs/logo.svg\" width=\"128\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swig"
+    },
+    {
+      "context_snippet": "<img src=\"docs/logo.svg\" width=\"128\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "syntax-tree"
+    },
+    {
+      "context_snippet": "<img src=\"docs/logo.svg\" width=\"128\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visitors"
+    },
+    {
+      "context_snippet": "<img src=\"docs/logo.svg\" width=\"128\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xamarin"
+    },
+    {
+      "context_snippet": "<img src=\"docs/logo.svg\" width=\"128\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xamarin-bindings"
+    }
+  ]
+}

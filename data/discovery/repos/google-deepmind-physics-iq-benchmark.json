@@ -1,0 +1,115 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-deepmind/physics-IQ-benchmark",
+      "target": "wan-video/wan2.2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-deepmind/physics-IQ-benchmark",
+      "target": "ved015/cogvideox-5b-physics_iq_benchmarking",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-deepmind/physics-IQ-benchmark",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-deepmind/physics-IQ-benchmark",
+      "target": "generative-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-deepmind/physics-IQ-benchmark",
+      "target": "physical-understanding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-deepmind/physics-IQ-benchmark",
+      "target": "video-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:42:59.284131+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13420
+    },
+    {
+      "path": "requirements.txt",
+      "size": 59
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Benchmarking physical understanding in generative video models",
+    "fork": false,
+    "full_name": "google-deepmind/physics-IQ-benchmark",
+    "html_url": "https://github.com/google-deepmind/physics-IQ-benchmark",
+    "language": "Python",
+    "pushed_at": "2026-04-16T12:47:00Z",
+    "stargazers_count": 286,
+    "topics": [
+      "benchmark",
+      "generative-models",
+      "physical-understanding",
+      "video-generation"
+    ],
+    "updated_at": "2026-04-27T15:11:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ved015/cogvideox-5b-physics_iq_benchmarking",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wan-video/wan2.2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-models"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "physical-understanding"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-generation"
+    }
+  ]
+}

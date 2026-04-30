@@ -1,0 +1,275 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luarocks.yml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luarocks.yml"
+    },
+    {
+      "component": "nvim-neorocks/luarocks-tag-release@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luarocks.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-build.yaml"
+    },
+    {
+      "component": "DeterminateSystems/nix-installer-action@v10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-build.yaml"
+    },
+    {
+      "component": "cachix/cachix-action@v12",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-build.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-build.yaml"
+    },
+    {
+      "component": "DeterminateSystems/nix-installer-action@v10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-build.yaml"
+    },
+    {
+      "component": "cachix/cachix-action@v12",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-build.yaml"
+    },
+    {
+      "component": "googleapis/release-please-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/review-checklist.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lumen-oss/rocks-dev.nvim",
+      "target": "nvim-neorocks/rocks-dev.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lumen-oss/rocks-dev.nvim",
+      "target": "nvim-neorocks/rocks.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lumen-oss/rocks-dev.nvim",
+      "target": "nvim-neorocks/rocks-config.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "lumen-oss/rocks-dev.nvim",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "lumen-oss/rocks-dev.nvim",
+      "target": "actions-rust-lang/setup-rust-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "lumen-oss/rocks-dev.nvim",
+      "target": "nvim-neorocks/luarocks-tag-release@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "lumen-oss/rocks-dev.nvim",
+      "target": "Push to Luarocks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-build.yaml",
+      "source_repo": "lumen-oss/rocks-dev.nvim",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-build.yaml",
+      "source_repo": "lumen-oss/rocks-dev.nvim",
+      "target": "DeterminateSystems/nix-installer-action@v10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-build.yaml",
+      "source_repo": "lumen-oss/rocks-dev.nvim",
+      "target": "cachix/cachix-action@v12",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nix-build.yaml",
+      "source_repo": "lumen-oss/rocks-dev.nvim",
+      "target": "Nix build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "lumen-oss/rocks-dev.nvim",
+      "target": "googleapis/release-please-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "lumen-oss/rocks-dev.nvim",
+      "target": "Release Please",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/review-checklist.yml",
+      "source_repo": "lumen-oss/rocks-dev.nvim",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/review-checklist.yml",
+      "source_repo": "lumen-oss/rocks-dev.nvim",
+      "target": "Review Checklist",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks-dev.nvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks-dev.nvim",
+      "target": "rocks-nvim",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:42:08.709442+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2313
+    },
+    {
+      "path": ".github/workflows/luarocks.yml",
+      "size": 1223
+    },
+    {
+      "path": ".github/workflows/nix-build.yaml",
+      "size": 746
+    },
+    {
+      "path": ".github/workflows/release-please.yml",
+      "size": 346
+    },
+    {
+      "path": ".github/workflows/review-checklist.yml",
+      "size": 2370
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A swiss-army knife for testing and developing rocks.nvim modules.",
+    "fork": false,
+    "full_name": "lumen-oss/rocks-dev.nvim",
+    "html_url": "https://github.com/lumen-oss/rocks-dev.nvim",
+    "language": "Lua",
+    "pushed_at": "2025-07-14T18:04:08Z",
+    "stargazers_count": 23,
+    "topics": [
+      "neovim",
+      "rocks-nvim"
+    ],
+    "updated_at": "2025-12-14T14:25:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvim-neorocks/rocks-config.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvim-neorocks/rocks-dev.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvim-neorocks/rocks.nvim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Push to Luarocks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/luarocks.yml",
+      "term": "Push to Luarocks"
+    },
+    {
+      "context_snippet": "\"Nix build\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nix-build.yaml",
+      "term": "Nix build"
+    },
+    {
+      "context_snippet": "Release Please",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-please.yml",
+      "term": "Release Please"
+    },
+    {
+      "context_snippet": "Review Checklist",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/review-checklist.yml",
+      "term": "Review Checklist"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rocks-nvim"
+    }
+  ]
+}

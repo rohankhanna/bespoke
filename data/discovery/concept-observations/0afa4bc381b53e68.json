@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "List and diff the public API of Rust library crates between releases and commits. Detect breaking API changes and semver violations via CI or a CLI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "List and diff the public API of Rust library crates between releases and commits. Detect breaking API changes and semver violations via CI or a CLI. Relies on and automatically builds [rustdoc JSON](https://github.com/rust-lang/rust/issues/76578), for which a recent version of t\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "List and diff the public API of Rust library crates between releases and commits. Detect breaking API changes and semver violations via CI or a CLI. Relies on and automatically builds [rustdoc JSON](https://github.com/rust-lang/rust/issues/76578), for which a recent version of t\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40043969,
+      "status": "candidate",
+      "text": "payload"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40043724,
+      "status": "candidate",
+      "text": "freight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40043191,
+      "status": "candidate",
+      "text": "shipment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40022514,
+      "status": "candidate",
+      "text": "lading"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40017158,
+      "status": "candidate",
+      "text": "loading"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cargo",
+      "sense_id": "cargo#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15083,
+      "status": "candidate",
+      "text": "load"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8050,
+      "status": "candidate",
+      "text": "freight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5055,
+      "status": "candidate",
+      "text": "consignment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2041,
+      "status": "candidate",
+      "text": "payload"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2035,
+      "status": "candidate",
+      "text": "lading"
+    }
+  ],
+  "concept_id": "cargo",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cargo",
+  "observation_id": "0afa4bc381b53e68",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "cargo",
+  "source_context_snippet": "List and diff the public API of Rust library crates between releases and commits. Detect breaking API changes and semver violations via CI or a CLI. Relies on and automatically builds [rustdoc JSON](https://github.com/rust-lang/rust/issues/76578), for which a recent version of t\u2026",
+  "source_file": null,
+  "source_repo": "cargo-public-api/cargo-public-api",
+  "source_repo_description": "List and diff the public API of Rust library crates between releases and commits. Detect breaking API changes and semver violations via CI or a CLI."
+}

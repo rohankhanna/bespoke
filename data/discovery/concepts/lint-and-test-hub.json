@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Lint and Test Hub"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dunglas/mercure",
+      "status": "candidate-context",
+      "text": "\ud83e\udebd An open, easy, fast, reliable and battery-efficient solution for real-time communications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dunglas/mercure",
+      "status": "candidate-context",
+      "text": "Lint and Test Hub"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dunglas/mercure",
+      "status": "candidate",
+      "text": "Lint and Test Hub"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20242,
+      "status": "candidate",
+      "text": "screen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19668,
+      "status": "candidate",
+      "text": "burl"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19668,
+      "status": "candidate",
+      "text": "dolly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19668,
+      "status": "candidate",
+      "text": "speak"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19398,
+      "status": "candidate",
+      "text": "scan"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Lint and Test Hub",
+  "concept_id": "lint-and-test-hub",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dunglas/mercure"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Lint and Test Hub",
+      "sense_id": "lint-and-test-hub#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

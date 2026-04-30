@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "compromise"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "theupdateframework/python-tuf",
+      "status": "candidate-context",
+      "text": "Python reference implementation of The Update Framework (TUF)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "theupdateframework/python-tuf",
+      "status": "candidate-context",
+      "text": "[![CI badge](https://github.com/theupdateframework/python-tuf/actions/workflows/ci.yml/badge.svg)](https://github.com/theupdateframework/python-tuf/actions/workflows/ci.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "theupdateframework/python-tuf",
+      "status": "candidate",
+      "text": "[![CI badge](https://github.com/theupdateframework/python-tuf/actions/workflows/ci.yml/badge.svg)](https://github.com/theupdateframework/python-tuf/actions/workflows/ci.yml)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39955978,
+      "status": "candidate",
+      "text": "via media"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29994720,
+      "status": "candidate",
+      "text": "give-and-take"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29994091,
+      "status": "candidate",
+      "text": "obligation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29993948,
+      "status": "candidate",
+      "text": "reconciliation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29993850,
+      "status": "candidate",
+      "text": "mediation"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5020,
+      "status": "candidate",
+      "text": "via media"
+    }
+  ],
+  "canonical_name": "compromise",
+  "concept_id": "compromise",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "theupdateframework/python-tuf"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "compromise",
+      "sense_id": "compromise#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

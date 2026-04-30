@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T19:01:37.164665+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6891
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Command-line benchmark tool",
+    "fork": false,
+    "full_name": "Gabriella439/bench",
+    "html_url": "https://github.com/Gabriella439/bench",
+    "language": "Haskell",
+    "pushed_at": "2025-09-02T17:27:37Z",
+    "stargazers_count": 906,
+    "topics": [],
+    "updated_at": "2026-04-26T05:21:55Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

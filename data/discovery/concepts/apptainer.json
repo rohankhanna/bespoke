@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "apptainer"
+    "apptainer",
+    "Apptainer"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,18 @@
       "source_repo": "apptainer/apptainer",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/apptainer/apptainer/actions/workflows/ci.yml/badge.svg)](https://github.com/apptainer/apptainer/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MilesCranmer/PySR",
+      "status": "candidate-context",
+      "text": "High-Performance Symbolic Regression in Python and Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MilesCranmer/PySR",
+      "status": "candidate-context",
+      "text": "Apptainer"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +42,12 @@
       "source_repo": "apptainer/apptainer",
       "status": "candidate",
       "text": "[![CI](https://github.com/apptainer/apptainer/actions/workflows/ci.yml/badge.svg)](https://github.com/apptainer/apptainer/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MilesCranmer/PySR",
+      "status": "candidate",
+      "text": "Apptainer"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +61,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "apptainer/apptainer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/CI_apptainer.yml",
+      "source_repo": "MilesCranmer/PySR"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

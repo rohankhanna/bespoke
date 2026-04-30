@@ -199,6 +199,42 @@
       "source_repo": "ninenines/gun",
       "status": "candidate-context",
       "text": "Check Gun"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "novnc/noVNC",
+      "status": "candidate-context",
+      "text": "VNC client web application"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "novnc/noVNC",
+      "status": "candidate-context",
+      "text": "[![Test Status](https://github.com/novnc/noVNC/workflows/Test/badge.svg)](https://github.com/novnc/noVNC/actions?query=workflow%3ATest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kludex/starlette",
+      "status": "candidate-context",
+      "text": "The little ASGI framework that shines. \ud83c\udf1f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kludex/starlette",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heineiuo/isomorphic-ws",
+      "status": "candidate-context",
+      "text": "Isomorphic implementation of WebSocket (https://www.npmjs.com/package/ws)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heineiuo/isomorphic-ws",
+      "status": "candidate-context",
+      "text": "Isomorphic implementation of WebSocket."
     }
   ],
   "candidate_glosses": [
@@ -297,6 +333,24 @@
       "source_repo": "ninenines/gun",
       "status": "candidate",
       "text": "Check Gun"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "novnc/noVNC",
+      "status": "candidate",
+      "text": "[![Test Status](https://github.com/novnc/noVNC/workflows/Test/badge.svg)](https://github.com/novnc/noVNC/actions?query=workflow%3ATest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kludex/starlette",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heineiuo/isomorphic-ws",
+      "status": "candidate",
+      "text": "Isomorphic implementation of WebSocket."
     }
   ],
   "candidate_related_terms": [],
@@ -442,11 +496,35 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "ninenines/gun"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "novnc/noVNC"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "Kludex/starlette"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "heineiuo/isomorphic-ws"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "ably-labs/realtime-quiz-framework"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

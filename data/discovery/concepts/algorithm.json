@@ -115,6 +115,30 @@
       "source_repo": "5sControl/operation-control-js",
       "status": "candidate-context",
       "text": "Operation Control is one of the Official [5sControl](https://5sControl.com/) algorithm. Plug it in our video monitoring system with AI analysis and ERP Integration (Open Source) to ensure the quality of your products."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nayuki/Nayuki-web-published-code",
+      "status": "candidate-context",
+      "text": "Complete collection of code files (*.java/js/py/cpp/etc.) published on Project Nayuki website."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nayuki/Nayuki-web-published-code",
+      "status": "candidate-context",
+      "text": "Complete collection of code files (*.java/js/py/cpp/etc.) published on Project Nayuki website."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MilesCranmer/PySR",
+      "status": "candidate-context",
+      "text": "High-Performance Symbolic Regression in Python and Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MilesCranmer/PySR",
+      "status": "candidate-context",
+      "text": "[//]: # (Logo:)"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +195,18 @@
       "source_repo": "5sControl/operation-control-js",
       "status": "candidate",
       "text": "Operation Control is one of the Official [5sControl](https://5sControl.com/) algorithm. Plug it in our video monitoring system with AI analysis and ERP Integration (Open Source) to ensure the quality of your products."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nayuki/Nayuki-web-published-code",
+      "status": "candidate",
+      "text": "Complete collection of code files (*.java/js/py/cpp/etc.) published on Project Nayuki website."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MilesCranmer/PySR",
+      "status": "candidate",
+      "text": "[//]: # (Logo:)"
     }
   ],
   "candidate_related_terms": [
@@ -283,11 +319,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "5sControl/operation-control-js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "nayuki/Nayuki-web-published-code"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "MilesCranmer/PySR"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

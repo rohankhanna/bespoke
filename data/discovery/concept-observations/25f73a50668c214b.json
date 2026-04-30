@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Quick automated code review of your changes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Pronto"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Pronto"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028202,
+      "status": "candidate",
+      "text": "promptly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30028641,
+      "status": "candidate",
+      "text": "without delay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30028640,
+      "status": "candidate",
+      "text": "asap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30028471,
+      "status": "candidate",
+      "text": "shortly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30026216,
+      "status": "candidate",
+      "text": "soon"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Pronto",
+      "sense_id": "pronto#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 30027,
+      "status": "candidate",
+      "text": "promptly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2006,
+      "status": "candidate",
+      "text": "without delay"
+    }
+  ],
+  "concept_id": "pronto",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pronto",
+  "observation_id": "25f73a50668c214b",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "Pronto",
+  "source_context_snippet": "Pronto",
+  "source_file": ".github/workflows/pronto.yml",
+  "source_repo": "prontolabs/pronto",
+  "source_repo_description": "Quick automated code review of your changes"
+}

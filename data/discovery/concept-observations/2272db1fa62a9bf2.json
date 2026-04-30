@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Guarantee atomic execution of your GitHub Action workflows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Main](https://github.com/abatilo/github-action-locks/workflows/Main/badge.svg)](https://github.com/abatilo/github-action-locks/actions?query=workflow%3AMain)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Main](https://github.com/abatilo/github-action-locks/workflows/Main/badge.svg)](https://github.com/abatilo/github-action-locks/actions?query=workflow%3AMain)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40007470,
+      "status": "candidate",
+      "text": "interlock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40001507,
+      "status": "candidate",
+      "text": "lock in"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39999462,
+      "status": "candidate",
+      "text": "mesh"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39999231,
+      "status": "candidate",
+      "text": "interlace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39989209,
+      "status": "candidate",
+      "text": "whorl"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "lock",
+      "sense_id": "lock#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 39039,
+      "status": "candidate",
+      "text": "engage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20040,
+      "status": "candidate",
+      "text": "operate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15040,
+      "status": "candidate",
+      "text": "whorl"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11050,
+      "status": "candidate",
+      "text": "curl"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10038,
+      "status": "candidate",
+      "text": "lock in"
+    }
+  ],
+  "concept_id": "lock",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "lock",
+  "observation_id": "2272db1fa62a9bf2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "lock",
+  "source_context_snippet": "[![Main](https://github.com/abatilo/github-action-locks/workflows/Main/badge.svg)](https://github.com/abatilo/github-action-locks/actions?query=workflow%3AMain)",
+  "source_file": null,
+  "source_repo": "abatilo/github-action-locks",
+  "source_repo_description": "Guarantee atomic execution of your GitHub Action workflows"
+}

@@ -1,0 +1,185 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drduh/pwd.sh",
+      "target": "bash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drduh/pwd.sh",
+      "target": "bash-script",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drduh/pwd.sh",
+      "target": "encryption",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drduh/pwd.sh",
+      "target": "file-encryption",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drduh/pwd.sh",
+      "target": "gnupg",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drduh/pwd.sh",
+      "target": "password",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drduh/pwd.sh",
+      "target": "password-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drduh/pwd.sh",
+      "target": "secrets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drduh/pwd.sh",
+      "target": "secrets-management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drduh/pwd.sh",
+      "target": "security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drduh/pwd.sh",
+      "target": "unix",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:54:43.561384+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4462
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "GnuPG symmetric secrets manager using Bash.",
+    "fork": false,
+    "full_name": "drduh/pwd.sh",
+    "html_url": "https://github.com/drduh/pwd.sh",
+    "language": "Shell",
+    "pushed_at": "2025-04-13T23:30:57Z",
+    "stargazers_count": 1564,
+    "topics": [
+      "bash",
+      "bash-script",
+      "encryption",
+      "file-encryption",
+      "gnupg",
+      "gpg",
+      "password",
+      "password-manager",
+      "secrets",
+      "secrets-management",
+      "security",
+      "unix"
+    ],
+    "updated_at": "2026-04-21T20:19:05Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "pwd.sh is a Bash shell script to manage text-based secrets, such as passwords.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bash"
+    },
+    {
+      "context_snippet": "pwd.sh is a Bash shell script to manage text-based secrets, such as passwords.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bash-script"
+    },
+    {
+      "context_snippet": "pwd.sh is a Bash shell script to manage text-based secrets, such as passwords.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "encryption"
+    },
+    {
+      "context_snippet": "pwd.sh is a Bash shell script to manage text-based secrets, such as passwords.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "file-encryption"
+    },
+    {
+      "context_snippet": "pwd.sh is a Bash shell script to manage text-based secrets, such as passwords.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gnupg"
+    },
+    {
+      "context_snippet": "pwd.sh is a Bash shell script to manage text-based secrets, such as passwords.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "password"
+    },
+    {
+      "context_snippet": "pwd.sh is a Bash shell script to manage text-based secrets, such as passwords.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "password-manager"
+    },
+    {
+      "context_snippet": "pwd.sh is a Bash shell script to manage text-based secrets, such as passwords.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "secrets"
+    },
+    {
+      "context_snippet": "pwd.sh is a Bash shell script to manage text-based secrets, such as passwords.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "secrets-management"
+    },
+    {
+      "context_snippet": "pwd.sh is a Bash shell script to manage text-based secrets, such as passwords.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security"
+    },
+    {
+      "context_snippet": "pwd.sh is a Bash shell script to manage text-based secrets, such as passwords.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unix"
+    }
+  ]
+}

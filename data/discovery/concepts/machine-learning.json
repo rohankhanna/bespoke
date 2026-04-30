@@ -3823,6 +3823,78 @@
       "source_repo": "TimoBolkart/voca",
       "status": "candidate-context",
       "text": "This is an official [VOCA](https://voca.is.tue.mpg.de) repository."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "argoproj-labs/hera",
+      "status": "candidate-context",
+      "text": "Hera makes Python code easy to orchestrate on Argo Workflows through native Python integrations. It lets you construct and submit your Workflows entirely in Python. \u2b50\ufe0f Remember to star!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj-labs/hera",
+      "status": "candidate-context",
+      "text": "| <img src=\"https://raw.githubusercontent.com/argoproj-labs/hera/main/docs/assets/hera-logo.svg\" alt=\"Hera mascot\"> | Hera is the go-to Python SDK to make Argo Workflows simple and intuitive. Easily turn Python functions into containerised templates that run on Kubernetes, with \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubeflow/pipelines",
+      "status": "candidate-context",
+      "text": "Machine Learning Pipelines for Kubeflow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubeflow/pipelines",
+      "status": "candidate-context",
+      "text": "[![SDK Documentation Status](https://readthedocs.org/projects/kubeflow-pipelines/badge/?version=latest)](https://kubeflow-pipelines.readthedocs.io/en/stable/?badge=latest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "replicate/cog",
+      "status": "candidate-context",
+      "text": "Containers for machine learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "replicate/cog",
+      "status": "candidate-context",
+      "text": "Cog is an open-source tool that lets you package machine learning models in a standard, production-ready container."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MilesCranmer/PySR",
+      "status": "candidate-context",
+      "text": "High-Performance Symbolic Regression in Python and Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MilesCranmer/PySR",
+      "status": "candidate-context",
+      "text": "[//]: # (Logo:)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kacperkan/conerf",
+      "status": "candidate-context",
+      "text": "\ud83d\ude2eThe official implementation of \"CoNeRF: Controllable Neural Radiance Fields\" \ud83d\ude2e"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kacperkan/conerf",
+      "status": "candidate-context",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-2112.01983-red.svg)](https://arxiv.org/abs/2112.01983)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaAI/MLJ.jl",
+      "status": "candidate-context",
+      "text": "A Julia machine learning framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaAI/MLJ.jl",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -5733,6 +5805,42 @@
       "source_repo": "TimoBolkart/voca",
       "status": "candidate",
       "text": "This is an official [VOCA](https://voca.is.tue.mpg.de) repository."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj-labs/hera",
+      "status": "candidate",
+      "text": "| <img src=\"https://raw.githubusercontent.com/argoproj-labs/hera/main/docs/assets/hera-logo.svg\" alt=\"Hera mascot\"> | Hera is the go-to Python SDK to make Argo Workflows simple and intuitive. Easily turn Python functions into containerised templates that run on Kubernetes, with \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubeflow/pipelines",
+      "status": "candidate",
+      "text": "[![SDK Documentation Status](https://readthedocs.org/projects/kubeflow-pipelines/badge/?version=latest)](https://kubeflow-pipelines.readthedocs.io/en/stable/?badge=latest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "replicate/cog",
+      "status": "candidate",
+      "text": "Cog is an open-source tool that lets you package machine learning models in a standard, production-ready container."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MilesCranmer/PySR",
+      "status": "candidate",
+      "text": "[//]: # (Logo:)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kacperkan/conerf",
+      "status": "candidate",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-2112.01983-red.svg)](https://arxiv.org/abs/2112.01983)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaAI/MLJ.jl",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -8512,11 +8620,95 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "TimoBolkart/voca"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "deepspeedai/DeepSpeed"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "docarray/docarray"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "argoproj-labs/hera"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "kubeflow/pipelines"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml-agent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "replicate/cog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/optax"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "MilesCranmer/PySR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "kacperkan/conerf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "JuliaAI/MLJ.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "mlc-ai/web-llm-assistant"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/lab"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

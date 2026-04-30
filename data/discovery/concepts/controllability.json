@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "controllability"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kacperkan/conerf",
+      "status": "candidate-context",
+      "text": "\ud83d\ude2eThe official implementation of \"CoNeRF: Controllable Neural Radiance Fields\" \ud83d\ude2e"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kacperkan/conerf",
+      "status": "candidate-context",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-2112.01983-red.svg)](https://arxiv.org/abs/2112.01983)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kacperkan/conerf",
+      "status": "candidate",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-2112.01983-red.svg)](https://arxiv.org/abs/2112.01983)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20020972,
+      "status": "candidate",
+      "text": "verifiability"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20020152,
+      "status": "candidate",
+      "text": "proficiency"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20020074,
+      "status": "candidate",
+      "text": "auditability"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20018330,
+      "status": "candidate",
+      "text": "accountability"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20016218,
+      "status": "candidate",
+      "text": "mastery"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "controllability",
+  "concept_id": "controllability",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "kacperkan/conerf"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "controllability",
+      "sense_id": "controllability#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

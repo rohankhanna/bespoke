@@ -1,0 +1,163 @@
+{
+  "components": [
+    {
+      "component": "ava",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "matcha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tsd",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "xo",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sindresorhus/strip-json-comments",
+      "target": "ava",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sindresorhus/strip-json-comments",
+      "target": "matcha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sindresorhus/strip-json-comments",
+      "target": "tsd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sindresorhus/strip-json-comments",
+      "target": "xo",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "sindresorhus/strip-json-comments",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "sindresorhus/strip-json-comments",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sindresorhus/strip-json-comments",
+      "target": "json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sindresorhus/strip-json-comments",
+      "target": "json-comments",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sindresorhus/strip-json-comments",
+      "target": "jsonc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sindresorhus/strip-json-comments",
+      "target": "npm-package",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T20:03:31.457362+00:00",
+  "fetched_files": [
+    {
+      "path": "package.json",
+      "size": 1007
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 421
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Strip comments from JSON. Lets you use comments in your JSON files!",
+    "fork": false,
+    "full_name": "sindresorhus/strip-json-comments",
+    "html_url": "https://github.com/sindresorhus/strip-json-comments",
+    "language": "JavaScript",
+    "pushed_at": "2025-08-08T14:14:06Z",
+    "stargazers_count": 625,
+    "topics": [
+      "json",
+      "json-comments",
+      "jsonc",
+      "npm-package"
+    ],
+    "updated_at": "2026-03-21T06:13:15Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "strip-json-comments \u2014 Strip comments from JSON. Lets you use comments in your JSON files!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json"
+    },
+    {
+      "context_snippet": "strip-json-comments \u2014 Strip comments from JSON. Lets you use comments in your JSON files!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json-comments"
+    },
+    {
+      "context_snippet": "strip-json-comments \u2014 Strip comments from JSON. Lets you use comments in your JSON files!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jsonc"
+    },
+    {
+      "context_snippet": "strip-json-comments \u2014 Strip comments from JSON. Lets you use comments in your JSON files!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "npm-package"
+    }
+  ]
+}

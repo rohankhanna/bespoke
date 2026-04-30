@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A native Rust library for Delta Lake, with bindings into Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Cleanup PR Caches"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Cleanup PR Caches"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20213,
+      "status": "candidate",
+      "text": "key"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12480,
+      "status": "candidate",
+      "text": "bucket"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12480,
+      "status": "candidate",
+      "text": "corduroy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12480,
+      "status": "candidate",
+      "text": "corduroys"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12480,
+      "status": "candidate",
+      "text": "deacon"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Cleanup PR Caches",
+      "sense_id": "cleanup-pr-caches#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cleanup-pr-caches",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cleanup-pr-caches",
+  "observation_id": "29b14be83d40a806",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "Cleanup PR Caches",
+  "source_context_snippet": "Cleanup PR Caches",
+  "source_file": ".github/workflows/cleanup-pr-cache.yml",
+  "source_repo": "delta-io/delta-rs",
+  "source_repo_description": "A native Rust library for Delta Lake, with bindings into Python"
+}

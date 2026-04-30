@@ -127,6 +127,30 @@
       "source_repo": "macrozheng/mall",
       "status": "candidate-context",
       "text": "<p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mongodb/mongo",
+      "status": "candidate-context",
+      "text": "The MongoDB Database"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mongodb/mongo",
+      "status": "candidate-context",
+      "text": "Welcome to MongoDB!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "michel-kraemer/bson4jackson",
+      "status": "candidate-context",
+      "text": "\ud83e\uddac A pluggable BSON generator and parser for the Jackson JSON processor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "michel-kraemer/bson4jackson",
+      "status": "candidate-context",
+      "text": "This library adds support for [BSON](https://bsonspec.org) to the"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +213,18 @@
       "source_repo": "macrozheng/mall",
       "status": "candidate",
       "text": "<p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mongodb/mongo",
+      "status": "candidate",
+      "text": "Welcome to MongoDB!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "michel-kraemer/bson4jackson",
+      "status": "candidate",
+      "text": "This library adds support for [BSON](https://bsonspec.org) to the"
     }
   ],
   "candidate_related_terms": [
@@ -304,11 +340,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "macrozheng/mall"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "mongodb/mongo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "michel-kraemer/bson4jackson"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

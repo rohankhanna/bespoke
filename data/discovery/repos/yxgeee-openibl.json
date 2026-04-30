@@ -1,0 +1,149 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yxgeee/OpenIBL",
+      "target": "relja/netvlad",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yxgeee/OpenIBL",
+      "target": "liumouliu/deepibl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yxgeee/OpenIBL",
+      "target": "cysu/open-reid",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yxgeee/OpenIBL",
+      "target": "nanne/pytorch-netvlad",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yxgeee/OpenIBL",
+      "target": "image-based-localisation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yxgeee/OpenIBL",
+      "target": "image-retrieval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yxgeee/OpenIBL",
+      "target": "localization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yxgeee/OpenIBL",
+      "target": "netvlad",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yxgeee/OpenIBL",
+      "target": "place-recognition",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:44:12.561662+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4010
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[ECCV-2020 (spotlight)] Self-supervising Fine-grained Region Similarities for Large-scale Image Localization. \ud83c\udf0f PyTorch open-source toolbox for image-based localization (place recognition).",
+    "fork": false,
+    "full_name": "yxgeee/OpenIBL",
+    "html_url": "https://github.com/yxgeee/OpenIBL",
+    "language": "Python",
+    "pushed_at": "2021-07-28T07:04:54Z",
+    "stargazers_count": 277,
+    "topics": [
+      "image-based-localisation",
+      "image-retrieval",
+      "localization",
+      "netvlad",
+      "place-recognition"
+    ],
+    "updated_at": "2026-02-27T06:36:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cysu/open-reid",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "liumouliu/deepibl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nanne/pytorch-netvlad",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "relja/netvlad",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<!-- ![Python >=3.5](https://img.shields.io/badge/Python->=3.5-blue.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-based-localisation"
+    },
+    {
+      "context_snippet": "<!-- ![Python >=3.5](https://img.shields.io/badge/Python->=3.5-blue.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-retrieval"
+    },
+    {
+      "context_snippet": "<!-- ![Python >=3.5](https://img.shields.io/badge/Python->=3.5-blue.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "localization"
+    },
+    {
+      "context_snippet": "<!-- ![Python >=3.5](https://img.shields.io/badge/Python->=3.5-blue.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "netvlad"
+    },
+    {
+      "context_snippet": "<!-- ![Python >=3.5](https://img.shields.io/badge/Python->=3.5-blue.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "place-recognition"
+    }
+  ]
+}

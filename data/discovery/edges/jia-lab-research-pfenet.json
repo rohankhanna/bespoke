@@ -4,13 +4,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "JIA-Lab-research/PFENet",
-      "target": "dvlab-research/gfs-seg.",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "JIA-Lab-research/PFENet",
       "target": "dvlab-research/pfenet",
       "target_type": "repository"
     },
@@ -18,7 +11,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "JIA-Lab-research/PFENet",
-      "target": "hszhao/semseg.",
+      "target": "lzzcd001/oslsm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JIA-Lab-research/PFENet",
+      "target": "icoz69/canet",
       "target_type": "repository"
     },
     {
@@ -50,6 +50,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-30T12:45:20.475770+00:00",
+  "generated_at": "2026-04-30T18:36:26.757967+00:00",
   "source_repo": "JIA-Lab-research/PFENet"
 }

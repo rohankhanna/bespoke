@@ -1,0 +1,118 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AyushSaini00/holi-theme",
+      "target": "marketplace",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AyushSaini00/holi-theme",
+      "target": "microsoft-vscode",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AyushSaini00/holi-theme",
+      "target": "theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AyushSaini00/holi-theme",
+      "target": "vscode",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AyushSaini00/holi-theme",
+      "target": "vscode-extension",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AyushSaini00/holi-theme",
+      "target": "vscode-theme",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:47:44.912343+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1724
+    },
+    {
+      "path": "package.json",
+      "size": 868
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83c\udf08 A Clean Visual Studio Code dark theme inspired by the festival of colors - Holi",
+    "fork": false,
+    "full_name": "AyushSaini00/holi-theme",
+    "html_url": "https://github.com/AyushSaini00/holi-theme",
+    "language": null,
+    "pushed_at": "2021-05-16T09:00:08Z",
+    "stargazers_count": 1,
+    "topics": [
+      "marketplace",
+      "microsoft-vscode",
+      "theme",
+      "vscode",
+      "vscode-extension",
+      "vscode-theme"
+    ],
+    "updated_at": "2022-09-01T19:55:56Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "marketplace"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microsoft-vscode"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "theme"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vscode"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vscode-extension"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vscode-theme"
+    }
+  ]
+}

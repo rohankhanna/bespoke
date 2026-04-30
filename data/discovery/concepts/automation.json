@@ -778,6 +778,18 @@
       "source_repo": "karatelabs/karate",
       "status": "candidate-context",
       "text": "**The open-source tool that combines API testing, mocks, performance testing, and UI automation into a single, unified framework.**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "getsavvyinc/savvy-cli",
+      "status": "candidate-context",
+      "text": "Automatically capture and surface your team's tribal knowledge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getsavvyinc/savvy-cli",
+      "status": "candidate-context",
+      "text": "<h3 align=\"left\">"
     }
   ],
   "candidate_glosses": [
@@ -1158,6 +1170,12 @@
       "source_repo": "karatelabs/karate",
       "status": "candidate",
       "text": "**The open-source tool that combines API testing, mocks, performance testing, and UI automation into a single, unified framework.**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getsavvyinc/savvy-cli",
+      "status": "candidate",
+      "text": "<h3 align=\"left\">"
     }
   ],
   "candidate_related_terms": [
@@ -1728,11 +1746,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "phodal/coca"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "getsavvyinc/savvy-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/luarocks-tag-release"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

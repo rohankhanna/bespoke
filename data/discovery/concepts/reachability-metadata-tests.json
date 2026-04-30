@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Reachability Metadata Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graalvm/oracle-graalvm-ea-builds",
+      "status": "candidate-context",
+      "text": "Oracle GraalVM early access builds"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graalvm/oracle-graalvm-ea-builds",
+      "status": "candidate-context",
+      "text": "Reachability Metadata Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graalvm/oracle-graalvm-ea-builds",
+      "status": "candidate",
+      "text": "Reachability Metadata Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24192,
+      "status": "candidate",
+      "text": "monarch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22691,
+      "status": "candidate",
+      "text": "distance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22691,
+      "status": "candidate",
+      "text": "distancing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22691,
+      "status": "candidate",
+      "text": "drop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22691,
+      "status": "candidate",
+      "text": "mastery"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Reachability Metadata Tests",
+  "concept_id": "reachability-metadata-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/reachability-metadata.yml",
+      "source_repo": "graalvm/oracle-graalvm-ea-builds"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Reachability Metadata Tests",
+      "sense_id": "reachability-metadata-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

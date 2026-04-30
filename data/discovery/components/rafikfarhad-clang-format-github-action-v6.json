@@ -1,0 +1,12 @@
+{
+  "component": "RafikFarhad/clang-format-github-action@v6",
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/clang-format.yml",
+      "source_repo": "Alexays/Waybar"
+    }
+  ]
+}

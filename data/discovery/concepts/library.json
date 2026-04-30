@@ -838,6 +838,66 @@
       "source_repo": "ehmicky/get-node",
       "status": "candidate-context",
       "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/get-node)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nayuki/Nayuki-web-published-code",
+      "status": "candidate-context",
+      "text": "Complete collection of code files (*.java/js/py/cpp/etc.) published on Project Nayuki website."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nayuki/Nayuki-web-published-code",
+      "status": "candidate-context",
+      "text": "Complete collection of code files (*.java/js/py/cpp/etc.) published on Project Nayuki website."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "argoproj-labs/hera",
+      "status": "candidate-context",
+      "text": "Hera makes Python code easy to orchestrate on Argo Workflows through native Python integrations. It lets you construct and submit your Workflows entirely in Python. \u2b50\ufe0f Remember to star!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj-labs/hera",
+      "status": "candidate-context",
+      "text": "| <img src=\"https://raw.githubusercontent.com/argoproj-labs/hera/main/docs/assets/hera-logo.svg\" alt=\"Hera mascot\"> | Hera is the go-to Python SDK to make Argo Workflows simple and intuitive. Easily turn Python functions into containerised templates that run on Kubernetes, with \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "powturbo/Turbo-Base64",
+      "status": "candidate-context",
+      "text": "Turbo Base64 - Fastest Base64 SIMD:SSE/AVX2/AVX512/Neon/Altivec - Faster than memcpy!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "powturbo/Turbo-Base64",
+      "status": "candidate-context",
+      "text": "[![Build ubuntu](https://github.com/powturbo/Turbo-Base64/actions/workflows/build.yaml/badge.svg)](https://github.com/powturbo/Turbo-Base64/actions/workflows/build.yaml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MajicDesigns/MD_MAX72XX",
+      "status": "candidate-context",
+      "text": "LED Matrix Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MajicDesigns/MD_MAX72XX",
+      "status": "candidate-context",
+      "text": "[![arduino-library-badge](https://www.ardu-badge.com/badge/MD_MAX72XX.svg?)](https://www.ardu-badge.com/MD_MAX72XX)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MajicDesigns/MD_Parola",
+      "status": "candidate-context",
+      "text": "Library for modular scrolling LED matrix text displays"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MajicDesigns/MD_Parola",
+      "status": "candidate-context",
+      "text": "[![arduino-library-badge](https://www.ardu-badge.com/badge/MD_Parola.svg?)](https://www.ardu-badge.com/MD_Parola)"
     }
   ],
   "candidate_glosses": [
@@ -1254,6 +1314,36 @@
       "source_repo": "ehmicky/get-node",
       "status": "candidate",
       "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/get-node)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nayuki/Nayuki-web-published-code",
+      "status": "candidate",
+      "text": "Complete collection of code files (*.java/js/py/cpp/etc.) published on Project Nayuki website."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj-labs/hera",
+      "status": "candidate",
+      "text": "| <img src=\"https://raw.githubusercontent.com/argoproj-labs/hera/main/docs/assets/hera-logo.svg\" alt=\"Hera mascot\"> | Hera is the go-to Python SDK to make Argo Workflows simple and intuitive. Easily turn Python functions into containerised templates that run on Kubernetes, with \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "powturbo/Turbo-Base64",
+      "status": "candidate",
+      "text": "[![Build ubuntu](https://github.com/powturbo/Turbo-Base64/actions/workflows/build.yaml/badge.svg)](https://github.com/powturbo/Turbo-Base64/actions/workflows/build.yaml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MajicDesigns/MD_MAX72XX",
+      "status": "candidate",
+      "text": "[![arduino-library-badge](https://www.ardu-badge.com/badge/MD_MAX72XX.svg?)](https://www.ardu-badge.com/MD_MAX72XX)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MajicDesigns/MD_Parola",
+      "status": "candidate",
+      "text": "[![arduino-library-badge](https://www.ardu-badge.com/badge/MD_Parola.svg?)](https://www.ardu-badge.com/MD_Parola)"
     }
   ],
   "candidate_related_terms": [
@@ -1780,11 +1870,41 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "ehmicky/get-node"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "nayuki/Nayuki-web-published-code"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "argoproj-labs/hera"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "powturbo/Turbo-Base64"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "MajicDesigns/MD_MAX72XX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "MajicDesigns/MD_Parola"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

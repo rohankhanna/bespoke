@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Reliable Neotest adapter for running Go tests in Neovim."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "pocket"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "pocket"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40045980,
+      "status": "candidate",
+      "text": "pouch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40045358,
+      "status": "candidate",
+      "text": "bag"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40044547,
+      "status": "candidate",
+      "text": "sack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40021513,
+      "status": "candidate",
+      "text": "scoop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39920687,
+      "status": "candidate",
+      "text": "sac"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "pocket",
+      "sense_id": "pocket#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12071,
+      "status": "candidate",
+      "text": "bag"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11053,
+      "status": "candidate",
+      "text": "sack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8055,
+      "status": "candidate",
+      "text": "scoop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5040,
+      "status": "candidate",
+      "text": "pouch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "sac"
+    }
+  ],
+  "concept_id": "pocket",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pocket",
+  "observation_id": "cb9f07f1cb999fdd",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "pocket",
+  "source_context_snippet": "pocket",
+  "source_file": ".github/workflows/pocket-pertask.yml",
+  "source_repo": "fredrikaverpil/neotest-golang",
+  "source_repo_description": "Reliable Neotest adapter for running Go tests in Neovim."
+}

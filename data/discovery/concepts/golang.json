@@ -3617,6 +3617,174 @@
       "source_repo": "chromedp/chromedp",
       "status": "candidate-context",
       "text": "Package `chromedp` is a faster, simpler way to drive browsers supporting the"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pinpox/base16-universal-manager",
+      "status": "candidate-context",
+      "text": "A universal manager to set base16 themes for any supported application"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pinpox/base16-universal-manager",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://api.travis-ci.org/pinpox/base16-universal-manager.svg)](http://travis-ci.org/pinpox/base16-universal-manager) [![GoDoc](https://godoc.org/github.com/pinpox/base16-universal-manager?status.svg)](http://godoc.org/github.com/pinpox/base16-universal-manager)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ankitpokhrel/jira-cli",
+      "status": "candidate-context",
+      "text": "\ud83d\udd25 Feature-rich interactive Jira command line."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ankitpokhrel/jira-cli",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AlecAivazis/survey",
+      "status": "candidate-context",
+      "text": "A golang library for building interactive and accessible prompts with full support for windows and posix terminals."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AlecAivazis/survey",
+      "status": "candidate-context",
+      "text": "[![GoDoc](http://img.shields.io/badge/godoc-reference-5272B4.svg)](https://pkg.go.dev/github.com/AlecAivazis/survey/v2)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "getsavvyinc/savvy-cli",
+      "status": "candidate-context",
+      "text": "Automatically capture and surface your team's tribal knowledge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getsavvyinc/savvy-cli",
+      "status": "candidate-context",
+      "text": "<h3 align=\"left\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stefanlogue/meteor",
+      "status": "candidate-context",
+      "text": "A highly configurable CLI tool for writing conventional commits"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stefanlogue/meteor",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fredrikaverpil/neotest-golang",
+      "status": "candidate-context",
+      "text": "Reliable Neotest adapter for running Go tests in Neovim."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fredrikaverpil/neotest-golang",
+      "status": "candidate-context",
+      "text": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/fredrikaverpil/neotest-golang)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Antonboom/testifylint",
+      "status": "candidate-context",
+      "text": "The Golang linter that checks usage of github.com/stretchr/testify."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Antonboom/testifylint",
+      "status": "candidate-context",
+      "text": "![Latest release](https://img.shields.io/github/v/release/Antonboom/testifylint)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stretchr/objx",
+      "status": "candidate-context",
+      "text": "Go package for dealing with maps, slices, JSON and other data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stretchr/objx",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/stretchr/objx.svg?branch=master)](https://travis-ci.org/stretchr/objx)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mailru/easyjson",
+      "status": "candidate-context",
+      "text": "Fast JSON serializer for golang."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mailru/easyjson",
+      "status": "candidate-context",
+      "text": "Package easyjson provides a fast and easy way to marshal/unmarshal Go structs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chenyahui/gin-cache",
+      "status": "candidate-context",
+      "text": ":rocket: A high performance gin middleware to cache http response. Compared to gin-contrib/cache, It has a huge performance improvement. \u9ad8\u6027\u80fdgin\u7f13\u5b58\u4e2d\u95f4\u4ef6\uff0c\u76f8\u6bd4\u4e8e\u5b98\u65b9\u7248\u672c\uff0c\u6709\u5de8\u5927\u6027\u80fd\u63d0\u5347\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chenyahui/gin-cache",
+      "status": "candidate-context",
+      "text": "module github.com/chenyahui/gin-cache go 1.13 require ( github.com/gin-gonic/gin v1.7.7 github.com/go-redis/redis/v8 v8.11.5 github.com/jellydator/ttlcache/v2 v2.11.1 github.com/stretchr/testify v1.7.1 golang.org/x/sync v0.0.0-20220722155255-886fb9371eb4 gopkg.in/yaml.v3 v3.0.0-\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "qri-io/jsonschema",
+      "status": "candidate-context",
+      "text": "golang implementation of  https://json-schema.org drafts 7 & 2019-09"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qri-io/jsonschema",
+      "status": "candidate-context",
+      "text": "[![Qri](https://img.shields.io/badge/made%20by-qri-magenta.svg?style=flat-square)](https://qri.io)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apernet/hysteria",
+      "status": "candidate-context",
+      "text": "Hysteria is a powerful, lightning fast and censorship resistant proxy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apernet/hysteria",
+      "status": "candidate-context",
+      "text": "[![License][1]][2] [![Release][3]][4] [![Telegram][5]][6] [![Discussions][7]][8]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dunglas/mercure",
+      "status": "candidate-context",
+      "text": "\ud83e\udebd An open, easy, fast, reliable and battery-efficient solution for real-time communications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dunglas/mercure",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\"><a href=\"https://mercure.rocks\"><img src=\"public/mercure.svg\" alt=\"Mercure: Real-time Made Easy\" title=\"Live Updates Made Easy\"></a></h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "goreleaser/nfpm",
+      "status": "candidate-context",
+      "text": "nFPM is Not FPM - a simple deb, rpm, apk, ipk, and arch linux packager written in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goreleaser/nfpm",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -5431,6 +5599,90 @@
       "source_repo": "chromedp/chromedp",
       "status": "candidate",
       "text": "Package `chromedp` is a faster, simpler way to drive browsers supporting the"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pinpox/base16-universal-manager",
+      "status": "candidate",
+      "text": "[![Build Status](https://api.travis-ci.org/pinpox/base16-universal-manager.svg)](http://travis-ci.org/pinpox/base16-universal-manager) [![GoDoc](https://godoc.org/github.com/pinpox/base16-universal-manager?status.svg)](http://godoc.org/github.com/pinpox/base16-universal-manager)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ankitpokhrel/jira-cli",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AlecAivazis/survey",
+      "status": "candidate",
+      "text": "[![GoDoc](http://img.shields.io/badge/godoc-reference-5272B4.svg)](https://pkg.go.dev/github.com/AlecAivazis/survey/v2)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getsavvyinc/savvy-cli",
+      "status": "candidate",
+      "text": "<h3 align=\"left\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stefanlogue/meteor",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fredrikaverpil/neotest-golang",
+      "status": "candidate",
+      "text": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/fredrikaverpil/neotest-golang)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Antonboom/testifylint",
+      "status": "candidate",
+      "text": "![Latest release](https://img.shields.io/github/v/release/Antonboom/testifylint)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stretchr/objx",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/stretchr/objx.svg?branch=master)](https://travis-ci.org/stretchr/objx)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mailru/easyjson",
+      "status": "candidate",
+      "text": "Package easyjson provides a fast and easy way to marshal/unmarshal Go structs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chenyahui/gin-cache",
+      "status": "candidate",
+      "text": "module github.com/chenyahui/gin-cache go 1.13 require ( github.com/gin-gonic/gin v1.7.7 github.com/go-redis/redis/v8 v8.11.5 github.com/jellydator/ttlcache/v2 v2.11.1 github.com/stretchr/testify v1.7.1 golang.org/x/sync v0.0.0-20220722155255-886fb9371eb4 gopkg.in/yaml.v3 v3.0.0-\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qri-io/jsonschema",
+      "status": "candidate",
+      "text": "[![Qri](https://img.shields.io/badge/made%20by-qri-magenta.svg?style=flat-square)](https://qri.io)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apernet/hysteria",
+      "status": "candidate",
+      "text": "[![License][1]][2] [![Release][3]][4] [![Telegram][5]][6] [![Discussions][7]][8]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dunglas/mercure",
+      "status": "candidate",
+      "text": "<h1 align=\"center\"><a href=\"https://mercure.rocks\"><img src=\"public/mercure.svg\" alt=\"Mercure: Real-time Made Easy\" title=\"Live Updates Made Easy\"></a></h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goreleaser/nfpm",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -7580,11 +7832,125 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "chromedp/chromedp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "pinpox/base16-universal-manager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "ankitpokhrel/jira-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "AlecAivazis/survey"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "getsavvyinc/savvy-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "stefanlogue/meteor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "fredrikaverpil/neotest-golang"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "Antonboom/testifylint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "stretchr/objx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "mailru/easyjson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "chenyahui/gin-cache"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-fasthttp-auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "qri-io/jsonschema"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "apernet/hysteria"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "dunglas/mercure"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "goreleaser/nfpm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "trknhr/2048-go"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

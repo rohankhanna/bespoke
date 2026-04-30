@@ -693,6 +693,18 @@
       "source_repo": "microsoft/sample-app-aoai-chatGPT",
       "status": "candidate-context",
       "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ufoym/deepo",
+      "status": "candidate-context",
+      "text": "Setup and customize deep learning environment in seconds."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ufoym/deepo",
+      "status": "candidate-context",
+      "text": "Close inactive issues"
     }
   ],
   "candidate_glosses": [
@@ -1041,6 +1053,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "microsoft/sample-app-aoai-chatGPT",
+      "status": "candidate",
+      "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ufoym/deepo",
       "status": "candidate",
       "text": "Close inactive issues"
     }
@@ -1584,11 +1602,29 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/stale-issues.yml",
       "source_repo": "microsoft/sample-app-aoai-chatGPT"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/close-inactive-issues.yaml",
+      "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/issue.yml",
+      "source_repo": "ufoym/deepo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "intel-staging/text-generation-webui"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

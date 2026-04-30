@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
   "first_seen_at": "2026-04-18T03:54:46.759203+00:00",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -762,6 +762,61 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test262.yml",
       "source_repo": "karatelabs/karate"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "delta-io/delta-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/announce-release.yml",
+      "source_repo": "dropwizard/dropwizard"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/assign-milestone.yml",
+      "source_repo": "dropwizard/dropwizard"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "dropwizard/dropwizard"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "dropwizard/dropwizard"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "dropwizard/dropwizard"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/trigger-release.yml",
+      "source_repo": "dropwizard/dropwizard"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dep_build_v2.yml",
+      "source_repo": "FasterXML/jackson-modules-base"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dep_build_v3.yml",
+      "source_repo": "FasterXML/jackson-modules-base"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "FasterXML/jackson-modules-base"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "FasterXML/woodstox"
     }
   ]
 }

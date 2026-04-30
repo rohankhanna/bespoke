@@ -1,0 +1,153 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yeyupiaoling/VoiceprintRecognition-Pytorch",
+      "target": "tracyone/program_font",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yeyupiaoling/VoiceprintRecognition-Pytorch",
+      "target": "yeyupiaoling/paddlepaddle-mobilefacenets",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yeyupiaoling/VoiceprintRecognition-Pytorch",
+      "target": "alibaba-damo-academy/3d-speaker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yeyupiaoling/VoiceprintRecognition-Pytorch",
+      "target": "wenet-e2e/wespeaker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yeyupiaoling/VoiceprintRecognition-Pytorch",
+      "target": "arcface",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yeyupiaoling/VoiceprintRecognition-Pytorch",
+      "target": "ecapa-tdnn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yeyupiaoling/VoiceprintRecognition-Pytorch",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yeyupiaoling/VoiceprintRecognition-Pytorch",
+      "target": "speaker-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yeyupiaoling/VoiceprintRecognition-Pytorch",
+      "target": "voice-recognition",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:37:31.738378+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 32637
+    },
+    {
+      "path": "requirements.txt",
+      "size": 186
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "This project uses a variety of advanced voiceprint recognition models such as EcapaTdnn, ResNetSE, ERes2Net, CAM++, etc. It is not excluded that more models will be supported in the future. At the same time, this project also supports MelSpectrogram, Spectrogram data preprocessing methods",
+    "fork": false,
+    "full_name": "yeyupiaoling/VoiceprintRecognition-Pytorch",
+    "html_url": "https://github.com/yeyupiaoling/VoiceprintRecognition-Pytorch",
+    "language": "Python",
+    "pushed_at": "2025-12-17T13:07:59Z",
+    "stargazers_count": 1274,
+    "topics": [
+      "arcface",
+      "ecapa-tdnn",
+      "pytorch",
+      "speaker-recognition",
+      "voice-recognition"
+    ],
+    "updated_at": "2026-04-29T17:24:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alibaba-damo-academy/3d-speaker",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tracyone/program_font",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wenet-e2e/wespeaker",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yeyupiaoling/paddlepaddle-mobilefacenets",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\u7b80\u4f53\u4e2d\u6587 | [English](./README_en.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arcface"
+    },
+    {
+      "context_snippet": "\u7b80\u4f53\u4e2d\u6587 | [English](./README_en.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ecapa-tdnn"
+    },
+    {
+      "context_snippet": "\u7b80\u4f53\u4e2d\u6587 | [English](./README_en.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "\u7b80\u4f53\u4e2d\u6587 | [English](./README_en.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speaker-recognition"
+    },
+    {
+      "context_snippet": "\u7b80\u4f53\u4e2d\u6587 | [English](./README_en.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "voice-recognition"
+    }
+  ]
+}

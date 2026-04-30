@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "Auto-publish Dry-Run"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/orbax",
+      "status": "candidate-context",
+      "text": "Orbax provides common checkpointing and persistence utilities for JAX users"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/orbax",
+      "status": "candidate-context",
+      "text": "Auto-publish Dry-Run"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/orbax",
+      "status": "candidate",
+      "text": "Auto-publish Dry-Run"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "Auto-publish Dry-Run",
+  "concept_id": "auto-publish-dry-run",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/auto-publish-dry-run.yml",
+      "source_repo": "google/orbax"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Auto-publish Dry-Run",
+      "sense_id": "auto-publish-dry-run#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

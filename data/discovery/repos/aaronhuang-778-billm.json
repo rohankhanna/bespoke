@@ -1,0 +1,76 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Aaronhuang-778/BiLLM",
+      "target": "hahnyuan/pb-llm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Aaronhuang-778/BiLLM",
+      "target": "binarization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Aaronhuang-778/BiLLM",
+      "target": "quantization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:40:14.812012+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4379
+    },
+    {
+      "path": "requirements.txt",
+      "size": 53
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICML 2024] BiLLM: Pushing the Limit of Post-Training Quantization for LLMs",
+    "fork": false,
+    "full_name": "Aaronhuang-778/BiLLM",
+    "html_url": "https://github.com/Aaronhuang-778/BiLLM",
+    "language": "Python",
+    "pushed_at": "2025-01-11T17:16:38Z",
+    "stargazers_count": 229,
+    "topics": [
+      "binarization",
+      "llm",
+      "quantization"
+    ],
+    "updated_at": "2026-03-20T17:50:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hahnyuan/pb-llm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![intuition](imgs/author.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "binarization"
+    },
+    {
+      "context_snippet": "![intuition](imgs/author.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quantization"
+    }
+  ]
+}

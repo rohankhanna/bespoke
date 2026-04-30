@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "addfox/skills",
+      "target": "remotion-dev/skills",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:46:40.389491+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2847
+    },
+    {
+      "path": "package.json",
+      "size": 391
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A standalone skill library for AI agents building browser extensions with the Addfox framework",
+    "fork": false,
+    "full_name": "addfox/skills",
+    "html_url": "https://github.com/addfox/skills",
+    "language": null,
+    "pushed_at": "2026-03-26T15:31:23Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-03-26T15:34:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "remotion-dev/skills",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

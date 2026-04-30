@@ -598,6 +598,42 @@
       "source_repo": "justinchuby/lintrunner-adapters",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/justinchuby/lintrunner-adapters/actions/workflows/ci.yml/badge.svg)](https://github.com/justinchuby/lintrunner-adapters/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Koihik/LuaFormatter",
+      "status": "candidate-context",
+      "text": "Code formatter for Lua"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Koihik/LuaFormatter",
+      "status": "candidate-context",
+      "text": "Reformats your Lua source code."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Beaglefoot/prettier-plugin-awk",
+      "status": "candidate-context",
+      "text": "AWK plugin for Prettier code formatter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Beaglefoot/prettier-plugin-awk",
+      "status": "candidate-context",
+      "text": "[![tests](https://github.com/Beaglefoot/prettier-plugin-awk/actions/workflows/tests.yml/badge.svg)](https://github.com/Beaglefoot/prettier-plugin-awk/actions/workflows/tests.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prontolabs/pronto",
+      "status": "candidate-context",
+      "text": "Quick automated code review of your changes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prontolabs/pronto",
+      "status": "candidate-context",
+      "text": "[![Gem Version](https://badge.fury.io/rb/pronto.svg)](http://badge.fury.io/rb/pronto)"
     }
   ],
   "candidate_glosses": [
@@ -894,6 +930,24 @@
       "source_repo": "justinchuby/lintrunner-adapters",
       "status": "candidate",
       "text": "[![CI](https://github.com/justinchuby/lintrunner-adapters/actions/workflows/ci.yml/badge.svg)](https://github.com/justinchuby/lintrunner-adapters/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Koihik/LuaFormatter",
+      "status": "candidate",
+      "text": "Reformats your Lua source code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Beaglefoot/prettier-plugin-awk",
+      "status": "candidate",
+      "text": "[![tests](https://github.com/Beaglefoot/prettier-plugin-awk/actions/workflows/tests.yml/badge.svg)](https://github.com/Beaglefoot/prettier-plugin-awk/actions/workflows/tests.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prontolabs/pronto",
+      "status": "candidate",
+      "text": "[![Gem Version](https://badge.fury.io/rb/pronto.svg)](http://badge.fury.io/rb/pronto)"
     }
   ],
   "candidate_related_terms": [
@@ -1375,11 +1429,41 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "sql-formatter-org/sql-formatter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "Koihik/LuaFormatter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "Beaglefoot/prettier-plugin-awk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "prontolabs/pronto"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "standardrb/standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "standard/snazzy"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

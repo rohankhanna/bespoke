@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\ude2eThe official implementation of \"CoNeRF: Controllable Neural Radiance Fields\" \ud83d\ude2e"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-2112.01983-red.svg)](https://arxiv.org/abs/2112.01983)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-2112.01983-red.svg)](https://arxiv.org/abs/2112.01983)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "neural-radiance-fields",
+      "sense_id": "neural-radiance-fields#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "neural-radiance-fields",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "neural-radiance-fields",
+  "observation_id": "de8d3debe3023958",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "neural-radiance-fields",
+  "source_context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-2112.01983-red.svg)](https://arxiv.org/abs/2112.01983)",
+  "source_file": null,
+  "source_repo": "kacperkan/conerf",
+  "source_repo_description": "\ud83d\ude2eThe official implementation of \"CoNeRF: Controllable Neural Radiance Fields\" \ud83d\ude2e"
+}

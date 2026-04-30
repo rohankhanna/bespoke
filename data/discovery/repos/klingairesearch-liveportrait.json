@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KlingAIResearch/LivePortrait",
+      "target": "face-animation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KlingAIResearch/LivePortrait",
+      "target": "image-animation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KlingAIResearch/LivePortrait",
+      "target": "video-editing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KlingAIResearch/LivePortrait",
+      "target": "video-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:41:45.327498+00:00",
+  "fetched_files": [
+    {
+      "path": "requirements.txt",
+      "size": 71
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Bring portraits to life!",
+    "fork": false,
+    "full_name": "KlingAIResearch/LivePortrait",
+    "html_url": "https://github.com/KlingAIResearch/LivePortrait",
+    "language": "Python",
+    "pushed_at": "2026-03-02T18:21:25Z",
+    "stargazers_count": 18230,
+    "topics": [
+      "face-animation",
+      "image-animation",
+      "video-editing",
+      "video-generation"
+    ],
+    "updated_at": "2026-04-30T06:52:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "-r requirements_base.txt onnxruntime-gpu==1.18.0 transformers==4.38.0",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-animation"
+    },
+    {
+      "context_snippet": "-r requirements_base.txt onnxruntime-gpu==1.18.0 transformers==4.38.0",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-animation"
+    },
+    {
+      "context_snippet": "-r requirements_base.txt onnxruntime-gpu==1.18.0 transformers==4.38.0",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-editing"
+    },
+    {
+      "context_snippet": "-r requirements_base.txt onnxruntime-gpu==1.18.0 transformers==4.38.0",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-generation"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "component": "webfactory/ssh-agent@a6f90b1f127823b31d4d4a8d96047790581349bd",
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/trigger-release.yml",
+      "source_repo": "dropwizard/dropwizard"
+    }
+  ]
+}

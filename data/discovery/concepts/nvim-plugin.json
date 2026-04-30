@@ -253,6 +253,30 @@
       "source_repo": "mason-org/mason-lspconfig.nvim",
       "status": "candidate-context",
       "text": "![Linux](https://img.shields.io/badge/Linux-%23.svg?logo=linux&color=FCC624&logoColor=black)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "creativenull/efmls-configs-nvim",
+      "status": "candidate-context",
+      "text": "An unofficial collection of linters and formatters configured for efm-langserver for neovim."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "creativenull/efmls-configs-nvim",
+      "status": "candidate-context",
+      "text": "<a href=\"https://dotfyle.com/plugins/creativenull/efmls-configs-nvim\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LintaoAmons/bookmarks.nvim",
+      "status": "candidate-context",
+      "text": "Persistent bookmarks: hard disk of your thoughts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LintaoAmons/bookmarks.nvim",
+      "status": "candidate-context",
+      "text": "- Simple: Add, Rename and Remove bookmarks with only one command, less shortcuts more productivity."
     }
   ],
   "candidate_glosses": [
@@ -381,6 +405,18 @@
       "source_repo": "mason-org/mason-lspconfig.nvim",
       "status": "candidate",
       "text": "![Linux](https://img.shields.io/badge/Linux-%23.svg?logo=linux&color=FCC624&logoColor=black)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "creativenull/efmls-configs-nvim",
+      "status": "candidate",
+      "text": "<a href=\"https://dotfyle.com/plugins/creativenull/efmls-configs-nvim\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LintaoAmons/bookmarks.nvim",
+      "status": "candidate",
+      "text": "- Simple: Add, Rename and Remove bookmarks with only one command, less shortcuts more productivity."
     }
   ],
   "candidate_related_terms": [],
@@ -562,11 +598,35 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "mason-org/mason.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "andersevenrud/cmp-tmux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "brianhuster/dirvish-git.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "creativenull/efmls-configs-nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "LintaoAmons/bookmarks.nvim"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

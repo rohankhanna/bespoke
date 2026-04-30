@@ -1,0 +1,79 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pdf.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pdf.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pdf.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pdf.yml",
+      "source_repo": "riscv-non-isa/riscv-sbi-doc",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pdf.yml",
+      "source_repo": "riscv-non-isa/riscv-sbi-doc",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pdf.yml",
+      "source_repo": "riscv-non-isa/riscv-sbi-doc",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-pdf.yml",
+      "source_repo": "riscv-non-isa/riscv-sbi-doc",
+      "target": "Create Specification Document",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:03:11.990231+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/build-pdf.yml",
+      "size": 2120
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Documentation for the RISC-V Supervisor Binary Interface",
+    "fork": false,
+    "full_name": "riscv-non-isa/riscv-sbi-doc",
+    "html_url": "https://github.com/riscv-non-isa/riscv-sbi-doc",
+    "language": "Makefile",
+    "pushed_at": "2026-04-07T20:37:11Z",
+    "stargazers_count": 470,
+    "topics": [],
+    "updated_at": "2026-04-29T22:16:33Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Create Specification Document",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-pdf.yml",
+      "term": "Create Specification Document"
+    }
+  ]
+}

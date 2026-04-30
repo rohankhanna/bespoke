@@ -1519,6 +1519,54 @@
       "source_repo": "ehmicky/get-node",
       "status": "candidate-context",
       "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/get-node)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ccbrown/iocraft",
+      "status": "candidate-context",
+      "text": "A Rust crate for beautiful, artisanally crafted CLIs, TUIs, and text-based IO."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ccbrown/iocraft",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ankitpokhrel/jira-cli",
+      "status": "candidate-context",
+      "text": "\ud83d\udd25 Feature-rich interactive Jira command line."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ankitpokhrel/jira-cli",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "getsavvyinc/savvy-cli",
+      "status": "candidate-context",
+      "text": "Automatically capture and surface your team's tribal knowledge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getsavvyinc/savvy-cli",
+      "status": "candidate-context",
+      "text": "<h3 align=\"left\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Dicklesworthstone/frankentui",
+      "status": "candidate-context",
+      "text": "Minimal, high-performance terminal UI kernel with diff-based rendering, inline mode, and RAII terminal cleanup"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dicklesworthstone/frankentui",
+      "status": "candidate-context",
+      "text": "```"
     }
   ],
   "candidate_glosses": [
@@ -2277,6 +2325,30 @@
       "source_repo": "ehmicky/get-node",
       "status": "candidate",
       "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/get-node)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ccbrown/iocraft",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ankitpokhrel/jira-cli",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getsavvyinc/savvy-cli",
+      "status": "candidate",
+      "text": "<h3 align=\"left\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dicklesworthstone/frankentui",
+      "status": "candidate",
+      "text": "```"
     }
   ],
   "candidate_related_terms": [
@@ -3412,11 +3484,83 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "ehmicky/get-node"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "spaceship-prompt/spaceship-prompt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "alacritty/alacritty"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "Urigo/graphql-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "ccbrown/iocraft"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "ankitpokhrel/jira-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "getsavvyinc/savvy-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "Dicklesworthstone/frankentui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "criteo/mesos-term"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "psmux/pstop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "psmux/psmux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "psmux/Tmux-Plugin-Panel"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

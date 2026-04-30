@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Set up your GitHub Actions workflow with a specific version of Java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Validate cache with cache-dependency-path option"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Validate cache with cache-dependency-path option"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21545,
+      "status": "candidate",
+      "text": "amplifier"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21545,
+      "status": "candidate",
+      "text": "footfall"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21545,
+      "status": "candidate",
+      "text": "monitor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21545,
+      "status": "candidate",
+      "text": "stop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21545,
+      "status": "candidate",
+      "text": "tabbed"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Validate cache with cache-dependency-path option",
+      "sense_id": "validate-cache-with-cache-dependency-path-option#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "validate-cache-with-cache-dependency-path-option",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "validate-cache-with-cache-dependency-path-option",
+  "observation_id": "5f9e569223fc7ac0",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "Validate cache with cache-dependency-path option",
+  "source_context_snippet": "Validate cache with cache-dependency-path option",
+  "source_file": ".github/workflows/e2e-cache-dependency-path.yml",
+  "source_repo": "actions/setup-java",
+  "source_repo_description": "Set up your GitHub Actions workflow with a specific version of Java"
+}

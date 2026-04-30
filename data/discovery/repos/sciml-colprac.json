@@ -1,0 +1,220 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Documentation.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Documentation.yml"
+    },
+    {
+      "component": "julia-actions/julia-processcoverage@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Documentation.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Documentation.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/FormatCheck.yml"
+    },
+    {
+      "component": "fredrikekre/runic-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/FormatCheck.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/SpellCheck.yml"
+    },
+    {
+      "component": "crate-ci/typos@v1.18.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/SpellCheck.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Documentation.yml",
+      "source_repo": "SciML/ColPrac",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Documentation.yml",
+      "source_repo": "SciML/ColPrac",
+      "target": "julia-actions/setup-julia@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Documentation.yml",
+      "source_repo": "SciML/ColPrac",
+      "target": "julia-actions/julia-processcoverage@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Documentation.yml",
+      "source_repo": "SciML/ColPrac",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Documentation.yml",
+      "source_repo": "SciML/ColPrac",
+      "target": "Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/FormatCheck.yml",
+      "source_repo": "SciML/ColPrac",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/FormatCheck.yml",
+      "source_repo": "SciML/ColPrac",
+      "target": "fredrikekre/runic-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/FormatCheck.yml",
+      "source_repo": "SciML/ColPrac",
+      "target": "format-check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/SpellCheck.yml",
+      "source_repo": "SciML/ColPrac",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/SpellCheck.yml",
+      "source_repo": "SciML/ColPrac",
+      "target": "crate-ci/typos@v1.18.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/SpellCheck.yml",
+      "source_repo": "SciML/ColPrac",
+      "target": "Spell Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SciML/ColPrac",
+      "target": "best-practices",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SciML/ColPrac",
+      "target": "community",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SciML/ColPrac",
+      "target": "julialang",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:48:35.700502+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21203
+    },
+    {
+      "path": ".github/workflows/Documentation.yml",
+      "size": 947
+    },
+    {
+      "path": ".github/workflows/FormatCheck.yml",
+      "size": 294
+    },
+    {
+      "path": ".github/workflows/SpellCheck.yml",
+      "size": 273
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Contributor's Guide on Collaborative Practices for Community Packages",
+    "fork": false,
+    "full_name": "SciML/ColPrac",
+    "html_url": "https://github.com/SciML/ColPrac",
+    "language": "Julia",
+    "pushed_at": "2026-03-30T12:59:44Z",
+    "stargazers_count": 129,
+    "topics": [
+      "best-practices",
+      "community",
+      "julialang"
+    ],
+    "updated_at": "2026-03-30T12:59:46Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Documentation.yml",
+      "term": "Documentation"
+    },
+    {
+      "context_snippet": "format-check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/FormatCheck.yml",
+      "term": "format-check"
+    },
+    {
+      "context_snippet": "Spell Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/SpellCheck.yml",
+      "term": "Spell Check"
+    },
+    {
+      "context_snippet": "[![Global Docs](https://img.shields.io/badge/docs-SciML-blue.svg)](https://docs.sciml.ai/ColPrac/stable/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "best-practices"
+    },
+    {
+      "context_snippet": "[![Global Docs](https://img.shields.io/badge/docs-SciML-blue.svg)](https://docs.sciml.ai/ColPrac/stable/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "community"
+    },
+    {
+      "context_snippet": "[![Global Docs](https://img.shields.io/badge/docs-SciML-blue.svg)](https://docs.sciml.ai/ColPrac/stable/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "julialang"
+    }
+  ]
+}

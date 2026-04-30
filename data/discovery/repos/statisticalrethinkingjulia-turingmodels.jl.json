@@ -1,0 +1,263 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Deploy.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Deploy.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Deploy.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@4.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml"
+    },
+    {
+      "component": "JuliaRegistries/TagBot@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "StatisticalRethinkingJulia/TuringModels.jl",
+      "target": "fredrikekre/literate.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "StatisticalRethinkingJulia/TuringModels.jl",
+      "target": "tlienart/franklin.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "StatisticalRethinkingJulia/TuringModels.jl",
+      "target": "CompatHelper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Deploy.yml",
+      "source_repo": "StatisticalRethinkingJulia/TuringModels.jl",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Deploy.yml",
+      "source_repo": "StatisticalRethinkingJulia/TuringModels.jl",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Deploy.yml",
+      "source_repo": "StatisticalRethinkingJulia/TuringModels.jl",
+      "target": "julia-actions/setup-julia@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Deploy.yml",
+      "source_repo": "StatisticalRethinkingJulia/TuringModels.jl",
+      "target": "JamesIves/github-pages-deploy-action@4.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Deploy.yml",
+      "source_repo": "StatisticalRethinkingJulia/TuringModels.jl",
+      "target": "Deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "StatisticalRethinkingJulia/TuringModels.jl",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "StatisticalRethinkingJulia/TuringModels.jl",
+      "target": "JuliaRegistries/TagBot@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "StatisticalRethinkingJulia/TuringModels.jl",
+      "target": "TagBot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "StatisticalRethinkingJulia/TuringModels.jl",
+      "target": "franklin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "StatisticalRethinkingJulia/TuringModels.jl",
+      "target": "julia-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "StatisticalRethinkingJulia/TuringModels.jl",
+      "target": "mcmc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "StatisticalRethinkingJulia/TuringModels.jl",
+      "target": "statisticalrethinking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "StatisticalRethinkingJulia/TuringModels.jl",
+      "target": "turing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "StatisticalRethinkingJulia/TuringModels.jl",
+      "target": "turinglang",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:40:53.605366+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3897
+    },
+    {
+      "path": ".github/workflows/CompatHelper.yml",
+      "size": 902
+    },
+    {
+      "path": ".github/workflows/Deploy.yml",
+      "size": 1826
+    },
+    {
+      "path": ".github/workflows/TagBot.yml",
+      "size": 355
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Implementations of the models from the Statistical Rethinking book with Turing.jl",
+    "fork": false,
+    "full_name": "StatisticalRethinkingJulia/TuringModels.jl",
+    "html_url": "https://github.com/StatisticalRethinkingJulia/TuringModels.jl",
+    "language": "Julia",
+    "pushed_at": "2025-12-06T04:18:46Z",
+    "stargazers_count": 164,
+    "topics": [
+      "franklin",
+      "julia-language",
+      "mcmc",
+      "statisticalrethinking",
+      "turing",
+      "turinglang"
+    ],
+    "updated_at": "2025-12-02T00:06:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fredrikekre/literate.jl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tlienart/franklin.jl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CompatHelper",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "term": "CompatHelper"
+    },
+    {
+      "context_snippet": "Deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Deploy.yml",
+      "term": "Deploy"
+    },
+    {
+      "context_snippet": "TagBot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "term": "TagBot"
+    },
+    {
+      "context_snippet": "[![CI][ci-img]][ci-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "franklin"
+    },
+    {
+      "context_snippet": "[![CI][ci-img]][ci-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "julia-language"
+    },
+    {
+      "context_snippet": "[![CI][ci-img]][ci-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mcmc"
+    },
+    {
+      "context_snippet": "[![CI][ci-img]][ci-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "statisticalrethinking"
+    },
+    {
+      "context_snippet": "[![CI][ci-img]][ci-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "turing"
+    },
+    {
+      "context_snippet": "[![CI][ci-img]][ci-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "turinglang"
+    }
+  ]
+}

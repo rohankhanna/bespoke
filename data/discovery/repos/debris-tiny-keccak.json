@@ -1,0 +1,188 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "debris/tiny-keccak",
+      "target": "cryptography",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "debris/tiny-keccak",
+      "target": "cshake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "debris/tiny-keccak",
+      "target": "fips-202",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "debris/tiny-keccak",
+      "target": "kangarootwelve",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "debris/tiny-keccak",
+      "target": "keccak",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "debris/tiny-keccak",
+      "target": "kmac",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "debris/tiny-keccak",
+      "target": "parallelhash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "debris/tiny-keccak",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "debris/tiny-keccak",
+      "target": "sha3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "debris/tiny-keccak",
+      "target": "shake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "debris/tiny-keccak",
+      "target": "tuplehash",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:58:41.137390+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2165
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1802
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An implementation of Keccak derived functions specified in FIPS-202, SP800-185 and KangarooTwelve",
+    "fork": false,
+    "full_name": "debris/tiny-keccak",
+    "html_url": "https://github.com/debris/tiny-keccak",
+    "language": "Rust",
+    "pushed_at": "2024-06-10T04:04:53Z",
+    "stargazers_count": 203,
+    "topics": [
+      "cryptography",
+      "cshake",
+      "fips-202",
+      "kangarootwelve",
+      "keccak",
+      "kmac",
+      "parallelhash",
+      "rust",
+      "sha3",
+      "shake",
+      "tuplehash"
+    ],
+    "updated_at": "2026-02-12T15:42:37Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "An implementation of Keccak derived functions specified in [`FIPS-202`], [`SP800-185`] and [`KangarooTwelve`].",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cryptography"
+    },
+    {
+      "context_snippet": "An implementation of Keccak derived functions specified in [`FIPS-202`], [`SP800-185`] and [`KangarooTwelve`].",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cshake"
+    },
+    {
+      "context_snippet": "An implementation of Keccak derived functions specified in [`FIPS-202`], [`SP800-185`] and [`KangarooTwelve`].",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fips-202"
+    },
+    {
+      "context_snippet": "An implementation of Keccak derived functions specified in [`FIPS-202`], [`SP800-185`] and [`KangarooTwelve`].",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kangarootwelve"
+    },
+    {
+      "context_snippet": "An implementation of Keccak derived functions specified in [`FIPS-202`], [`SP800-185`] and [`KangarooTwelve`].",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "keccak"
+    },
+    {
+      "context_snippet": "An implementation of Keccak derived functions specified in [`FIPS-202`], [`SP800-185`] and [`KangarooTwelve`].",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kmac"
+    },
+    {
+      "context_snippet": "An implementation of Keccak derived functions specified in [`FIPS-202`], [`SP800-185`] and [`KangarooTwelve`].",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parallelhash"
+    },
+    {
+      "context_snippet": "An implementation of Keccak derived functions specified in [`FIPS-202`], [`SP800-185`] and [`KangarooTwelve`].",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "An implementation of Keccak derived functions specified in [`FIPS-202`], [`SP800-185`] and [`KangarooTwelve`].",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sha3"
+    },
+    {
+      "context_snippet": "An implementation of Keccak derived functions specified in [`FIPS-202`], [`SP800-185`] and [`KangarooTwelve`].",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shake"
+    },
+    {
+      "context_snippet": "An implementation of Keccak derived functions specified in [`FIPS-202`], [`SP800-185`] and [`KangarooTwelve`].",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tuplehash"
+    }
+  ]
+}

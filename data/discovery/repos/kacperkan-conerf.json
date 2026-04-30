@@ -1,0 +1,210 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kacperkan/conerf",
+      "target": "google/hypernerf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kacperkan/conerf",
+      "target": "google/jax",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kacperkan/conerf",
+      "target": "google/nerfies",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "kacperkan/conerf",
+      "target": "google/nerfies",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kacperkan/conerf",
+      "target": "conerf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kacperkan/conerf",
+      "target": "controllability",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kacperkan/conerf",
+      "target": "hypernerf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kacperkan/conerf",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kacperkan/conerf",
+      "target": "nerf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kacperkan/conerf",
+      "target": "neural-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kacperkan/conerf",
+      "target": "neural-radiance-fields",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kacperkan/conerf",
+      "target": "neural-rendering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kacperkan/conerf",
+      "target": "novel-view-synthesis",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:44:00.698427+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10208
+    },
+    {
+      "path": "requirements.txt",
+      "size": 716
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\ude2eThe official implementation of \"CoNeRF: Controllable Neural Radiance Fields\" \ud83d\ude2e",
+    "fork": false,
+    "full_name": "kacperkan/conerf",
+    "html_url": "https://github.com/kacperkan/conerf",
+    "language": "Python",
+    "pushed_at": "2024-12-17T20:19:41Z",
+    "stargazers_count": 82,
+    "topics": [
+      "3d",
+      "conerf",
+      "controllability",
+      "hypernerf",
+      "machine-learning",
+      "nerf",
+      "neural-network",
+      "neural-radiance-fields",
+      "neural-rendering",
+      "novel-view-synthesis"
+    ],
+    "updated_at": "2025-06-17T03:14:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/hypernerf",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/jax",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/nerfies",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/nerfies",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-2112.01983-red.svg)](https://arxiv.org/abs/2112.01983)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conerf"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-2112.01983-red.svg)](https://arxiv.org/abs/2112.01983)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "controllability"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-2112.01983-red.svg)](https://arxiv.org/abs/2112.01983)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hypernerf"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-2112.01983-red.svg)](https://arxiv.org/abs/2112.01983)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-2112.01983-red.svg)](https://arxiv.org/abs/2112.01983)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nerf"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-2112.01983-red.svg)](https://arxiv.org/abs/2112.01983)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-network"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-2112.01983-red.svg)](https://arxiv.org/abs/2112.01983)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-radiance-fields"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-2112.01983-red.svg)](https://arxiv.org/abs/2112.01983)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-rendering"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-2112.01983-red.svg)](https://arxiv.org/abs/2112.01983)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "novel-view-synthesis"
+    }
+  ]
+}

@@ -124,6 +124,18 @@
       "source_repo": "Buuntu/fastapi-react",
       "status": "candidate-context",
       "text": "<div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jupyterlab/extension-cookiecutter-ts",
+      "status": "candidate-context",
+      "text": "A cookiecutter recipe for JupyterLab extensions in Typescript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyterlab/extension-cookiecutter-ts",
+      "status": "candidate-context",
+      "text": "[![Github Actions Status](https://github.com/jupyterlab/extension-cookiecutter-ts/workflows/CI/badge.svg)](https://github.com/jupyterlab/extension-cookiecutter-ts/actions/workflows/main.yml)"
     }
   ],
   "candidate_glosses": [
@@ -186,6 +198,12 @@
       "source_repo": "Buuntu/fastapi-react",
       "status": "candidate",
       "text": "<div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyterlab/extension-cookiecutter-ts",
+      "status": "candidate",
+      "text": "[![Github Actions Status](https://github.com/jupyterlab/extension-cookiecutter-ts/workflows/CI/badge.svg)](https://github.com/jupyterlab/extension-cookiecutter-ts/actions/workflows/main.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -307,11 +325,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "cookiecutter/cookiecutter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "jupyterlab/extension-cookiecutter-ts"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "socks5"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apernet/hysteria",
+      "status": "candidate-context",
+      "text": "Hysteria is a powerful, lightning fast and censorship resistant proxy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apernet/hysteria",
+      "status": "candidate-context",
+      "text": "[![License][1]][2] [![Release][3]][4] [![Telegram][5]][6] [![Discussions][7]][8]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apernet/hysteria",
+      "status": "candidate",
+      "text": "[![License][1]][2] [![Release][3]][4] [![Telegram][5]][6] [![Discussions][7]][8]"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "socks5",
+  "concept_id": "socks5",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "apernet/hysteria"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "socks5",
+      "sense_id": "socks5#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "Torchinductor"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "andreigh/triton",
+      "status": "candidate-context",
+      "text": "Development repository for the Triton language and compiler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andreigh/triton",
+      "status": "candidate-context",
+      "text": "Torchinductor"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eaplatanios/triton",
+      "status": "candidate-context",
+      "text": "Development repository for the Triton language and compiler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eaplatanios/triton",
+      "status": "candidate-context",
+      "text": "Torchinductor"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andreigh/triton",
+      "status": "candidate",
+      "text": "Torchinductor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eaplatanios/triton",
+      "status": "candidate",
+      "text": "Torchinductor"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "Torchinductor",
+  "concept_id": "torchinductor",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/torch-inductor-tests.yml",
+      "source_repo": "andreigh/triton"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/torch-inductor-tests.yml",
+      "source_repo": "eaplatanios/triton"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Torchinductor",
+      "sense_id": "torchinductor#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

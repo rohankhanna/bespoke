@@ -794,6 +794,30 @@
       "source_repo": "mruby/mruby",
       "status": "candidate-context",
       "text": "CIFuzz"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "buger/jsonparser",
+      "status": "candidate-context",
+      "text": "One of the fastest alternative JSON parser for Go that does not require schema"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "buger/jsonparser",
+      "status": "candidate-context",
+      "text": "CIFuzz"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FasterXML/woodstox",
+      "status": "candidate-context",
+      "text": "The gold standard Stax XML API implementation. Now at Github."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FasterXML/woodstox",
+      "status": "candidate-context",
+      "text": "CIFuzz"
     }
   ],
   "candidate_glosses": [
@@ -1196,6 +1220,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "mruby/mruby",
+      "status": "candidate",
+      "text": "CIFuzz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "buger/jsonparser",
+      "status": "candidate",
+      "text": "CIFuzz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FasterXML/woodstox",
       "status": "candidate",
       "text": "CIFuzz"
     }
@@ -1745,11 +1781,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/oss-fuzz.yml",
       "source_repo": "mruby/mruby"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "buger/jsonparser"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "FasterXML/woodstox"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

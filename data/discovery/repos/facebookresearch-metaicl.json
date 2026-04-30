@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/MetaICL",
+      "target": "facebookresearch/bitsandbytes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/MetaICL",
+      "target": "ink-usc/crossfit",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:59:29.684982+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18339
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "An original implementation of \"MetaICL Learning to Learn In Context\" by Sewon Min, Mike Lewis, Luke Zettlemoyer and Hannaneh Hajishirzi",
+    "fork": false,
+    "full_name": "facebookresearch/MetaICL",
+    "html_url": "https://github.com/facebookresearch/MetaICL",
+    "language": "Python",
+    "pushed_at": "2023-04-15T18:00:47Z",
+    "stargazers_count": 274,
+    "topics": [],
+    "updated_at": "2026-03-24T08:23:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/bitsandbytes",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ink-usc/crossfit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

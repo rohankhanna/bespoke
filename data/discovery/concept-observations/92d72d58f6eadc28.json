@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Train the HRNet model on ImageNet"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "- [2021/01/20] Add some stronger ImageNet pretrained models, e.g., the HRNet_W48_C_ssld_pretrained.pth achieved top-1 acc 83.6%."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "- [2021/01/20] Add some stronger ImageNet pretrained models, e.g., the HRNet_W48_C_ssld_pretrained.pth achieved top-1 acc 83.6%."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "high-resolution-net",
+      "sense_id": "high-resolution-net#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "high-resolution-net",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "high-resolution-net",
+  "observation_id": "92d72d58f6eadc28",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "high-resolution-net",
+  "source_context_snippet": "- [2021/01/20] Add some stronger ImageNet pretrained models, e.g., the HRNet_W48_C_ssld_pretrained.pth achieved top-1 acc 83.6%.",
+  "source_file": null,
+  "source_repo": "HRNet/HRNet-Image-Classification",
+  "source_repo_description": "Train the HRNet model on ImageNet"
+}

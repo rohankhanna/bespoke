@@ -1,0 +1,98 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "litex-hub/pythondata-cpu-vexriscv",
+      "target": "litex-hub/pythondata-auto",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "litex-hub/pythondata-cpu-vexriscv",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "litex-hub/pythondata-cpu-vexriscv",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "litex-hub/pythondata-cpu-vexriscv",
+      "target": "PyPI",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:46:14.249436+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2956
+    },
+    {
+      "path": "requirements.txt",
+      "size": 0
+    },
+    {
+      "path": ".github/workflows/publish-to-pypi.yml",
+      "size": 2637
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Python module containing verilog files for vexriscv cpu (for use with LiteX).",
+    "fork": true,
+    "full_name": "litex-hub/pythondata-cpu-vexriscv",
+    "html_url": "https://github.com/litex-hub/pythondata-cpu-vexriscv",
+    "language": "Verilog",
+    "pushed_at": "2026-01-16T08:28:27Z",
+    "stargazers_count": 8,
+    "topics": [],
+    "updated_at": "2025-12-15T05:58:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "litex-hub/pythondata-auto",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "PyPI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "term": "PyPI"
+    }
+  ]
+}

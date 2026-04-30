@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mislav/dotfiles",
+      "target": "dotfiles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mislav/dotfiles",
+      "target": "rbenv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mislav/dotfiles",
+      "target": "tmux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mislav/dotfiles",
+      "target": "vimfiles",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T20:01:28.755630+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "bash, zsh, git, tmux, personal toolbox",
+    "fork": false,
+    "full_name": "mislav/dotfiles",
+    "html_url": "https://github.com/mislav/dotfiles",
+    "language": "Shell",
+    "pushed_at": "2023-06-09T15:50:10Z",
+    "stargazers_count": 1324,
+    "topics": [
+      "dotfiles",
+      "rbenv",
+      "tmux",
+      "vimfiles"
+    ],
+    "updated_at": "2026-04-25T13:31:50Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "bash, zsh, git, tmux, personal toolbox",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotfiles"
+    },
+    {
+      "context_snippet": "bash, zsh, git, tmux, personal toolbox",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rbenv"
+    },
+    {
+      "context_snippet": "bash, zsh, git, tmux, personal toolbox",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tmux"
+    },
+    {
+      "context_snippet": "bash, zsh, git, tmux, personal toolbox",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vimfiles"
+    }
+  ]
+}

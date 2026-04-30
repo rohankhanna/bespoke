@@ -1,0 +1,217 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/setup-go@v3.5.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v3.5.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "chenyahui/gin-cache",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "chenyahui/gin-cache",
+      "target": "github/codeql-action/init@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "chenyahui/gin-cache",
+      "target": "github/codeql-action/analyze@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "chenyahui/gin-cache",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "chenyahui/gin-cache",
+      "target": "actions/setup-go@v3.5.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "chenyahui/gin-cache",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "chenyahui/gin-cache",
+      "target": "golangci/golangci-lint-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "chenyahui/gin-cache",
+      "target": "codecov/codecov-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chenyahui/gin-cache",
+      "target": "cache",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chenyahui/gin-cache",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chenyahui/gin-cache",
+      "target": "middleware",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chenyahui/gin-cache",
+      "target": "redis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chenyahui/gin-cache",
+      "target": "singleflight",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:48:21.269221+00:00",
+  "fetched_files": [
+    {
+      "path": "go.mod",
+      "size": 328
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 1561
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 1007
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": ":rocket: A high performance gin middleware to cache http response. Compared to gin-contrib/cache, It has a huge performance improvement. \u9ad8\u6027\u80fdgin\u7f13\u5b58\u4e2d\u95f4\u4ef6\uff0c\u76f8\u6bd4\u4e8e\u5b98\u65b9\u7248\u672c\uff0c\u6709\u5de8\u5927\u6027\u80fd\u63d0\u5347\u3002",
+    "fork": false,
+    "full_name": "chenyahui/gin-cache",
+    "html_url": "https://github.com/chenyahui/gin-cache",
+    "language": "Go",
+    "pushed_at": "2025-06-17T09:59:53Z",
+    "stargazers_count": 278,
+    "topics": [
+      "cache",
+      "gin",
+      "golang",
+      "middleware",
+      "redis",
+      "singleflight"
+    ],
+    "updated_at": "2026-04-20T07:13:40Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "module github.com/chenyahui/gin-cache go 1.13 require ( github.com/gin-gonic/gin v1.7.7 github.com/go-redis/redis/v8 v8.11.5 github.com/jellydator/ttlcache/v2 v2.11.1 github.com/stretchr/testify v1.7.1 golang.org/x/sync v0.0.0-20220722155255-886fb9371eb4 gopkg.in/yaml.v3 v3.0.0-\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cache"
+    },
+    {
+      "context_snippet": "module github.com/chenyahui/gin-cache go 1.13 require ( github.com/gin-gonic/gin v1.7.7 github.com/go-redis/redis/v8 v8.11.5 github.com/jellydator/ttlcache/v2 v2.11.1 github.com/stretchr/testify v1.7.1 golang.org/x/sync v0.0.0-20220722155255-886fb9371eb4 gopkg.in/yaml.v3 v3.0.0-\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "module github.com/chenyahui/gin-cache go 1.13 require ( github.com/gin-gonic/gin v1.7.7 github.com/go-redis/redis/v8 v8.11.5 github.com/jellydator/ttlcache/v2 v2.11.1 github.com/stretchr/testify v1.7.1 golang.org/x/sync v0.0.0-20220722155255-886fb9371eb4 gopkg.in/yaml.v3 v3.0.0-\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "middleware"
+    },
+    {
+      "context_snippet": "module github.com/chenyahui/gin-cache go 1.13 require ( github.com/gin-gonic/gin v1.7.7 github.com/go-redis/redis/v8 v8.11.5 github.com/jellydator/ttlcache/v2 v2.11.1 github.com/stretchr/testify v1.7.1 golang.org/x/sync v0.0.0-20220722155255-886fb9371eb4 gopkg.in/yaml.v3 v3.0.0-\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "redis"
+    },
+    {
+      "context_snippet": "module github.com/chenyahui/gin-cache go 1.13 require ( github.com/gin-gonic/gin v1.7.7 github.com/go-redis/redis/v8 v8.11.5 github.com/jellydator/ttlcache/v2 v2.11.1 github.com/stretchr/testify v1.7.1 golang.org/x/sync v0.0.0-20220722155255-886fb9371eb4 gopkg.in/yaml.v3 v3.0.0-\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "singleflight"
+    }
+  ]
+}

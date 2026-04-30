@@ -121,6 +121,18 @@
       "source_repo": "PKU-YuanGroup/Helios-Page",
       "status": "candidate-context",
       "text": "<div align=center>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AlecAivazis/survey",
+      "status": "candidate-context",
+      "text": "A golang library for building interactive and accessible prompts with full support for windows and posix terminals."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AlecAivazis/survey",
+      "status": "candidate-context",
+      "text": "[![GoDoc](http://img.shields.io/badge/godoc-reference-5272B4.svg)](https://pkg.go.dev/github.com/AlecAivazis/survey/v2)"
     }
   ],
   "candidate_glosses": [
@@ -183,6 +195,12 @@
       "source_repo": "PKU-YuanGroup/Helios-Page",
       "status": "candidate",
       "text": "<div align=center>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AlecAivazis/survey",
+      "status": "candidate",
+      "text": "[![GoDoc](http://img.shields.io/badge/godoc-reference-5272B4.svg)](https://pkg.go.dev/github.com/AlecAivazis/survey/v2)"
     }
   ],
   "candidate_related_terms": [
@@ -344,11 +362,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "criteo/mesos-term"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "AlecAivazis/survey"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "criteo/mesos-term"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

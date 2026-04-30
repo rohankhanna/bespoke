@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T19:46:30.998429+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2376
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Cyclone V bitstream reverse-engineering project",
+    "fork": false,
+    "full_name": "Ravenslofty/mistral",
+    "html_url": "https://github.com/Ravenslofty/mistral",
+    "language": "HTML",
+    "pushed_at": "2023-10-19T18:33:04Z",
+    "stargazers_count": 132,
+    "topics": [],
+    "updated_at": "2026-04-06T07:23:42Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

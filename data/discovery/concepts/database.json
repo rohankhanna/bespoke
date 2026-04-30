@@ -1015,6 +1015,66 @@
       "source_repo": "acro5piano/kysely-migration-cli",
       "status": "candidate-context",
       "text": "A lightweight migration CLI **library** for [Kysely](https://github.com/koskimas/kysely)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mongodb/mongo",
+      "status": "candidate-context",
+      "text": "The MongoDB Database"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mongodb/mongo",
+      "status": "candidate-context",
+      "text": "Welcome to MongoDB!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pingcap/tidb",
+      "status": "candidate-context",
+      "text": "TiDB is built for agentic workloads that grow unpredictably, with ACID guarantees and native support for transactions, analytics, and vector search. No data silos. No noisy neighbors. No infrastructure ceiling."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pingcap/tidb",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unum-cloud/UStore",
+      "status": "candidate-context",
+      "text": "Multi-Modal Database replacing MongoDB, Neo4J, and Elastic with 1 faster ACID solution, with NetworkX and Pandas interfaces, and bindings for C 99, C++ 17, Python 3, Java, GoLang \ud83d\uddc4\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unum-cloud/UStore",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">UStore</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Dicklesworthstone/frankensqlite",
+      "status": "candidate-context",
+      "text": "Independent ground-up Rust reimplementation of SQLite with concurrent writers and information-theoretic durability"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dicklesworthstone/frankensqlite",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "surrealdb/surrealdb",
+      "status": "candidate-context",
+      "text": "A scalable, distributed, collaborative, document-graph database, for the realtime web"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "surrealdb/surrealdb",
+      "status": "candidate-context",
+      "text": "<a href=\"https://surrealdb.com#gh-dark-mode-only\" target=\"_blank\">"
     }
   ],
   "candidate_glosses": [
@@ -1521,6 +1581,36 @@
       "source_repo": "acro5piano/kysely-migration-cli",
       "status": "candidate",
       "text": "A lightweight migration CLI **library** for [Kysely](https://github.com/koskimas/kysely)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mongodb/mongo",
+      "status": "candidate",
+      "text": "Welcome to MongoDB!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pingcap/tidb",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unum-cloud/UStore",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">UStore</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dicklesworthstone/frankensqlite",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "surrealdb/surrealdb",
+      "status": "candidate",
+      "text": "<a href=\"https://surrealdb.com#gh-dark-mode-only\" target=\"_blank\">"
     }
   ],
   "candidate_related_terms": [
@@ -2212,11 +2302,41 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "acro5piano/kysely-migration-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "mongodb/mongo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "pingcap/tidb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "unum-cloud/UStore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "Dicklesworthstone/frankensqlite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "surrealdb/surrealdb"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,239 @@
+{
+  "components": [
+    {
+      "component": "@types/vscode",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@vscode/vsce",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "js-yaml",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "npm",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ts-loader",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "webpack",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "webpack-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JustusAdam/language-haskell",
+      "target": "textmate/haskell.tmbundle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JustusAdam/language-haskell",
+      "target": "sheaf/groovy-lambda",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "JustusAdam/language-haskell",
+      "target": "@types/vscode",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "JustusAdam/language-haskell",
+      "target": "@vscode/vsce",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "JustusAdam/language-haskell",
+      "target": "js-yaml",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "JustusAdam/language-haskell",
+      "target": "npm",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "JustusAdam/language-haskell",
+      "target": "ts-loader",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "JustusAdam/language-haskell",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "JustusAdam/language-haskell",
+      "target": "webpack",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "JustusAdam/language-haskell",
+      "target": "webpack-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-ci.yml",
+      "source_repo": "JustusAdam/language-haskell",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-ci.yml",
+      "source_repo": "JustusAdam/language-haskell",
+      "target": "actions/setup-node@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github-ci.yml",
+      "source_repo": "JustusAdam/language-haskell",
+      "target": "language-haskell CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JustusAdam/language-haskell",
+      "target": "haskell-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JustusAdam/language-haskell",
+      "target": "highlighting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JustusAdam/language-haskell",
+      "target": "visual-studio-code",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:42:50.827067+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2906
+    },
+    {
+      "path": "package.json",
+      "size": 6029
+    },
+    {
+      "path": ".github/workflows/github-ci.yml",
+      "size": 593
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Highlighting support for the Haskell language in visual studio code.",
+    "fork": false,
+    "full_name": "JustusAdam/language-haskell",
+    "html_url": "https://github.com/JustusAdam/language-haskell",
+    "language": "Haskell",
+    "pushed_at": "2026-04-26T08:45:52Z",
+    "stargazers_count": 98,
+    "topics": [
+      "haskell-language",
+      "highlighting",
+      "visual-studio-code"
+    ],
+    "updated_at": "2026-04-29T10:30:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sheaf/groovy-lambda",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "textmate/haskell.tmbundle",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "language-haskell CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github-ci.yml",
+      "term": "language-haskell CI"
+    },
+    {
+      "context_snippet": "Syntax highlighting support for Haskell and associated languages (e.g. Cabal, Happy and Alex) in Visual Studio Code.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "haskell-language"
+    },
+    {
+      "context_snippet": "Syntax highlighting support for Haskell and associated languages (e.g. Cabal, Happy and Alex) in Visual Studio Code.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "highlighting"
+    },
+    {
+      "context_snippet": "Syntax highlighting support for Haskell and associated languages (e.g. Cabal, Happy and Alex) in Visual Studio Code.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-studio-code"
+    }
+  ]
+}

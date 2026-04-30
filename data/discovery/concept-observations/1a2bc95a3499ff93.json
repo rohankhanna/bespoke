@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Hysteria is a powerful, lightning fast and censorship resistant proxy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![License][1]][2] [![Release][3]][4] [![Telegram][5]][6] [![Discussions][7]][8]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![License][1]][2] [![Release][3]][4] [![Telegram][5]][6] [![Discussions][7]][8]"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39976930,
+      "status": "candidate",
+      "text": "frenzy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39975798,
+      "status": "candidate",
+      "text": "fury"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39973039,
+      "status": "candidate",
+      "text": "craze"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39931987,
+      "status": "candidate",
+      "text": "delirium"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29977804,
+      "status": "candidate",
+      "text": "hysterical neurosis"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hysteria",
+      "sense_id": "hysteria#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27040,
+      "status": "candidate",
+      "text": "frenzy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21051,
+      "status": "candidate",
+      "text": "delirium"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17034,
+      "status": "candidate",
+      "text": "craze"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11,
+      "status": "candidate",
+      "text": "hysterical neurosis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "fury"
+    }
+  ],
+  "concept_id": "hysteria",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "hysteria",
+  "observation_id": "1a2bc95a3499ff93",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "hysteria",
+  "source_context_snippet": "[![License][1]][2] [![Release][3]][4] [![Telegram][5]][6] [![Discussions][7]][8]",
+  "source_file": null,
+  "source_repo": "apernet/hysteria",
+  "source_repo_description": "Hysteria is a powerful, lightning fast and censorship resistant proxy."
+}

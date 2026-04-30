@@ -211,6 +211,18 @@
       "source_repo": "k-takata/minpac",
       "status": "candidate-context",
       "text": "[![Build status](https://github.com/k-takata/minpac/workflows/CI/badge.svg)](https://github.com/k-takata/minpac/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LucHermitte/vim-build-tools-wrapper",
+      "status": "candidate-context",
+      "text": "Projects building plugin for Vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LucHermitte/vim-build-tools-wrapper",
+      "status": "candidate-context",
+      "text": "BTW has two main purposes:"
     }
   ],
   "candidate_glosses": [
@@ -315,6 +327,12 @@
       "source_repo": "k-takata/minpac",
       "status": "candidate",
       "text": "[![Build status](https://github.com/k-takata/minpac/workflows/CI/badge.svg)](https://github.com/k-takata/minpac/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LucHermitte/vim-build-tools-wrapper",
+      "status": "candidate",
+      "text": "BTW has two main purposes:"
     }
   ],
   "candidate_related_terms": [],
@@ -520,11 +538,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "LucHermitte/vim-build-tools-wrapper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "dense-analysis/ale"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

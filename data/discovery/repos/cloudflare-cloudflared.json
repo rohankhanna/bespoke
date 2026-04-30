@@ -1,0 +1,165 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/semgrep.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yaml",
+      "source_repo": "cloudflare/cloudflared",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yaml",
+      "source_repo": "cloudflare/cloudflared",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check.yaml",
+      "source_repo": "cloudflare/cloudflared",
+      "target": "Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/semgrep.yml",
+      "source_repo": "cloudflare/cloudflared",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/semgrep.yml",
+      "source_repo": "cloudflare/cloudflared",
+      "target": "Semgrep config",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudflare/cloudflared",
+      "target": "cloudflare",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudflare/cloudflared",
+      "target": "cloudflare-tunnel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudflare/cloudflared",
+      "target": "reverse-proxy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudflare/cloudflared",
+      "target": "zero-trust-network-access",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:57:12.450761+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5760
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1307
+    },
+    {
+      "path": "go.mod",
+      "size": 4385
+    },
+    {
+      "path": ".github/workflows/check.yaml",
+      "size": 416
+    },
+    {
+      "path": ".github/workflows/semgrep.yml",
+      "size": 586
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Cloudflare Tunnel client",
+    "fork": false,
+    "full_name": "cloudflare/cloudflared",
+    "html_url": "https://github.com/cloudflare/cloudflared",
+    "language": "Go",
+    "pushed_at": "2026-04-30T16:18:34Z",
+    "stargazers_count": 14025,
+    "topics": [
+      "cloudflare",
+      "cloudflare-tunnel",
+      "reverse-proxy",
+      "zero-trust-network-access"
+    ],
+    "updated_at": "2026-04-30T19:54:54Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check.yaml",
+      "term": "Check"
+    },
+    {
+      "context_snippet": "Semgrep config",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/semgrep.yml",
+      "term": "Semgrep config"
+    },
+    {
+      "context_snippet": "Contains the command-line client for Cloudflare Tunnel, a tunneling daemon that proxies traffic from the Cloudflare network to your origins.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloudflare"
+    },
+    {
+      "context_snippet": "Contains the command-line client for Cloudflare Tunnel, a tunneling daemon that proxies traffic from the Cloudflare network to your origins.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloudflare-tunnel"
+    },
+    {
+      "context_snippet": "Contains the command-line client for Cloudflare Tunnel, a tunneling daemon that proxies traffic from the Cloudflare network to your origins.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reverse-proxy"
+    },
+    {
+      "context_snippet": "Contains the command-line client for Cloudflare Tunnel, a tunneling daemon that proxies traffic from the Cloudflare network to your origins.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zero-trust-network-access"
+    }
+  ]
+}

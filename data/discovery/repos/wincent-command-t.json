@@ -1,0 +1,225 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format.yml"
+    },
+    {
+      "component": "jidicula/clang-format-action@3a18028048f01a66653b4e3bf8d968d2e7e2cb8b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dprint.yml"
+    },
+    {
+      "component": "dprint/check@9cb3a2b17a8e606d37aae341e49df3654933fc23",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dprint.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spdx.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/style.yml"
+    },
+    {
+      "component": "JohnnyMorganz/stylua-action@479972f01e665acfcba96ada452c36608bdbbb5e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/style.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "leafo/gh-actions-lua@8c9e175e7a3d77e21f809eefbee34a19b858641b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format.yml",
+      "source_repo": "wincent/command-t",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format.yml",
+      "source_repo": "wincent/command-t",
+      "target": "jidicula/clang-format-action@3a18028048f01a66653b4e3bf8d968d2e7e2cb8b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-format.yml",
+      "source_repo": "wincent/command-t",
+      "target": "clang-format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dprint.yml",
+      "source_repo": "wincent/command-t",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dprint.yml",
+      "source_repo": "wincent/command-t",
+      "target": "dprint/check@9cb3a2b17a8e606d37aae341e49df3654933fc23",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dprint.yml",
+      "source_repo": "wincent/command-t",
+      "target": "dprint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spdx.yml",
+      "source_repo": "wincent/command-t",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spdx.yml",
+      "source_repo": "wincent/command-t",
+      "target": "spdx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/style.yml",
+      "source_repo": "wincent/command-t",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/style.yml",
+      "source_repo": "wincent/command-t",
+      "target": "JohnnyMorganz/stylua-action@479972f01e665acfcba96ada452c36608bdbbb5e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/style.yml",
+      "source_repo": "wincent/command-t",
+      "target": "stylua",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "wincent/command-t",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "wincent/command-t",
+      "target": "leafo/gh-actions-lua@8c9e175e7a3d77e21f809eefbee34a19b858641b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "wincent/command-t",
+      "target": "test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:59:13.478778+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1482
+    },
+    {
+      "path": ".github/workflows/clang-format.yml",
+      "size": 549
+    },
+    {
+      "path": ".github/workflows/dprint.yml",
+      "size": 494
+    },
+    {
+      "path": ".github/workflows/spdx.yml",
+      "size": 427
+    },
+    {
+      "path": ".github/workflows/style.yml",
+      "size": 577
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1401
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u2328\ufe0f Fast file navigation for Neovim and Vim",
+    "fork": false,
+    "full_name": "wincent/command-t",
+    "html_url": "https://github.com/wincent/command-t",
+    "language": "Lua",
+    "pushed_at": "2026-04-09T14:16:53Z",
+    "stargazers_count": 2775,
+    "topics": [
+      "vim"
+    ],
+    "updated_at": "2026-04-29T23:55:50Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "clang-format",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-format.yml",
+      "term": "clang-format"
+    },
+    {
+      "context_snippet": "dprint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dprint.yml",
+      "term": "dprint"
+    },
+    {
+      "context_snippet": "spdx",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spdx.yml",
+      "term": "spdx"
+    },
+    {
+      "context_snippet": "stylua",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/style.yml",
+      "term": "stylua"
+    },
+    {
+      "context_snippet": "test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "test"
+    }
+  ]
+}

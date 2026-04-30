@@ -563,6 +563,54 @@
       "source_repo": "sp1-patches/RustCrypto-bigint",
       "status": "candidate-context",
       "text": "Security Audit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "testcontainers/testcontainers-rs",
+      "status": "candidate-context",
+      "text": "A library for integration-testing against docker containers from within Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "testcontainers/testcontainers-rs",
+      "status": "candidate-context",
+      "text": "Security audit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RustCrypto/crypto-bigint",
+      "status": "candidate-context",
+      "text": "Cryptography-oriented big integer library with constant-time, stack-allocated (no_std-friendly) implementations of modern formulas"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RustCrypto/crypto-bigint",
+      "status": "candidate-context",
+      "text": "Security Audit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hermit-os/tokio",
+      "status": "candidate-context",
+      "text": "A runtime for writing reliable asynchronous applications with Rust. Provides I/O, networking, scheduling, timers, ..."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hermit-os/tokio",
+      "status": "candidate-context",
+      "text": "Security Audit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "getsavvyinc/savvy-cli",
+      "status": "candidate-context",
+      "text": "Automatically capture and surface your team's tribal knowledge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getsavvyinc/savvy-cli",
+      "status": "candidate-context",
+      "text": "<h3 align=\"left\">"
     }
   ],
   "candidate_glosses": [
@@ -841,6 +889,30 @@
       "source_repo": "sp1-patches/RustCrypto-bigint",
       "status": "candidate",
       "text": "Security Audit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "testcontainers/testcontainers-rs",
+      "status": "candidate",
+      "text": "Security audit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RustCrypto/crypto-bigint",
+      "status": "candidate",
+      "text": "Security Audit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hermit-os/tokio",
+      "status": "candidate",
+      "text": "Security Audit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getsavvyinc/savvy-cli",
+      "status": "candidate",
+      "text": "<h3 align=\"left\">"
     }
   ],
   "candidate_related_terms": [
@@ -1328,11 +1400,53 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "FeeiCN/Cobra"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "testcontainers/testcontainers-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/security-audit.yml",
+      "source_repo": "RustCrypto/crypto-bigint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "clap-rs/clap"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "hermit-os/tokio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "getsavvyinc/savvy-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/security_audit.yml",
+      "source_repo": "clog-tool/clog-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "GitoxideLabs/cargo-smart-release"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

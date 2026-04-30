@@ -31,6 +31,18 @@
       "source_repo": "usnistgov/ACVP",
       "status": "candidate-context",
       "text": "The [Automated Cryptographic Validation Protocol](https://pages.nist.gov/ACVP/draft-fussell-acvp-spec.html) (ACVP) is a protocol to support a new National Voluntary Laboratory Accreditation Program (NVLAP) testing scope at the [National Institute of Standards and Technology (NIS\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RustCrypto/elliptic-curves",
+      "status": "candidate-context",
+      "text": "Collection of pure Rust elliptic curve implementations: NIST P-224, P-256, P-384, P-521, secp256k1, SM2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RustCrypto/elliptic-curves",
+      "status": "candidate-context",
+      "text": "General purpose Elliptic Curve Cryptography (ECC) support, including types"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "usnistgov/ACVP",
       "status": "candidate",
       "text": "The [Automated Cryptographic Validation Protocol](https://pages.nist.gov/ACVP/draft-fussell-acvp-spec.html) (ACVP) is a protocol to support a new National Voluntary Laboratory Accreditation Program (NVLAP) testing scope at the [National Institute of Standards and Technology (NIS\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RustCrypto/elliptic-curves",
+      "status": "candidate",
+      "text": "General purpose Elliptic Curve Cryptography (ECC) support, including types"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "usnistgov/ACVP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "RustCrypto/elliptic-curves"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

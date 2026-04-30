@@ -19,6 +19,42 @@
       "source_repo": "avelino/monotropic-theme-vscode",
       "status": "candidate-context",
       "text": "<a href=\"https://github.com/avelino/monotropic-theme-vscode\"><img align=\"right\" src=\"https://github.com/avelino/monotropic-theme-vscode/raw/main/assets/monotropic.png\" alt=\"monotropic\" title=\"monotropic\" /></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AyushSaini00/holi-theme",
+      "status": "candidate-context",
+      "text": "\ud83c\udf08 A Clean Visual Studio Code dark theme inspired by the festival of colors - Holi"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AyushSaini00/holi-theme",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Binaryify/OneDark-Pro",
+      "status": "candidate-context",
+      "text": "Atom's iconic One Dark theme for Visual Studio Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Binaryify/OneDark-Pro",
+      "status": "candidate-context",
+      "text": "Atom's iconic One Dark theme, and one of the most installed [themes](https://marketplace.visualstudio.com/search?target=VSCode&category=Themes&sortBy=Installs) for VS Code!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ahmadawais/shades-of-purple-vscode",
+      "status": "candidate-context",
+      "text": "\ud83e\udd84 Shades of Purple offers a hand-picked selection of bold and vibrant shades of purple that will transform your code into a visually stunning masterpiece. With its carefully crafted color palette, this theme brings a sense of style, elegance, and whimsy to your favorite code editor, making your coding sessions a delightful journey of creativity."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ahmadawais/shades-of-purple-vscode",
+      "status": "candidate-context",
+      "text": "shades-of-purple \u2014 \ud83e\udd84 A professional theme suite with hand-picked & bold shades of purple for your VS Code editor and terminal apps. One of the excellent, most downloaded, and top-rated VSCode Themes on the marketplace. Part of VSCode.pro course."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +63,24 @@
       "source_repo": "avelino/monotropic-theme-vscode",
       "status": "candidate",
       "text": "<a href=\"https://github.com/avelino/monotropic-theme-vscode\"><img align=\"right\" src=\"https://github.com/avelino/monotropic-theme-vscode/raw/main/assets/monotropic.png\" alt=\"monotropic\" title=\"monotropic\" /></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AyushSaini00/holi-theme",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Binaryify/OneDark-Pro",
+      "status": "candidate",
+      "text": "Atom's iconic One Dark theme, and one of the most installed [themes](https://marketplace.visualstudio.com/search?target=VSCode&category=Themes&sortBy=Installs) for VS Code!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ahmadawais/shades-of-purple-vscode",
+      "status": "candidate",
+      "text": "shades-of-purple \u2014 \ud83e\udd84 A professional theme suite with hand-picked & bold shades of purple for your VS Code editor and terminal apps. One of the excellent, most downloaded, and top-rated VSCode Themes on the marketplace. Part of VSCode.pro course."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +94,29 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "avelino/monotropic-theme-vscode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "AyushSaini00/holi-theme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "Binaryify/OneDark-Pro"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "ahmadawais/shades-of-purple-vscode"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

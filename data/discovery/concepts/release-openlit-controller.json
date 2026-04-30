@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Release OpenLIT Controller"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openlit/openlit",
+      "status": "candidate-context",
+      "text": "Open source platform for AI Engineering: OpenTelemetry-native LLM Observability, GPU Monitoring, Guardrails, Evaluations, Prompt Management, Vault, Playground. \ud83d\ude80\ud83d\udcbb Integrates with 50+ LLM Providers, VectorDBs, Agent Frameworks and GPUs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openlit/openlit",
+      "status": "candidate-context",
+      "text": "Release OpenLIT Controller"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openlit/openlit",
+      "status": "candidate",
+      "text": "Release OpenLIT Controller"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11910,
+      "status": "candidate",
+      "text": "spigot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11224,
+      "status": "candidate",
+      "text": "comptroler"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11224,
+      "status": "candidate",
+      "text": "cone"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11224,
+      "status": "candidate",
+      "text": "controllership"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11224,
+      "status": "candidate",
+      "text": "epa"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Release OpenLIT Controller",
+  "concept_id": "release-openlit-controller",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/controller-release.yml",
+      "source_repo": "openlit/openlit"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release OpenLIT Controller",
+      "sense_id": "release-openlit-controller#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

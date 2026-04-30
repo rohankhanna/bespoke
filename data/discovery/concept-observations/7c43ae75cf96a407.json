@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Simple key-value storage with support for multiple backends"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h1 align=\"center\"><img width=\"250\" src=\"https://jaredwray.com/images/keyv.svg\" alt=\"keyv\"></h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h1 align=\"center\"><img width=\"250\" src=\"https://jaredwray.com/images/keyv.svg\" alt=\"keyv\"></h1>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023433,
+      "status": "candidate",
+      "text": "keypair"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023432,
+      "status": "candidate",
+      "text": "couplet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023431,
+      "status": "candidate",
+      "text": "relative key"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023430,
+      "status": "candidate",
+      "text": "pair"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023429,
+      "status": "candidate",
+      "text": "pairing"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "key-value",
+      "sense_id": "key-value#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "key-value",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "key-value",
+  "observation_id": "7c43ae75cf96a407",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "key-value",
+  "source_context_snippet": "<h1 align=\"center\"><img width=\"250\" src=\"https://jaredwray.com/images/keyv.svg\" alt=\"keyv\"></h1>",
+  "source_file": null,
+  "source_repo": "jaredwray/keyv",
+  "source_repo_description": "Simple key-value storage with support for multiple backends"
+}

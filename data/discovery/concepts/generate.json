@@ -118,6 +118,18 @@
       "source_repo": "rhysd/actionlint",
       "status": "candidate-context",
       "text": "Generate"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "goreleaser/nfpm",
+      "status": "candidate-context",
+      "text": "nFPM is Not FPM - a simple deb, rpm, apk, ipk, and arch linux packager written in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goreleaser/nfpm",
+      "status": "candidate-context",
+      "text": "generate"
     }
   ],
   "candidate_glosses": [
@@ -174,6 +186,12 @@
       "source_repo": "rhysd/actionlint",
       "status": "candidate",
       "text": "Generate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goreleaser/nfpm",
+      "status": "candidate",
+      "text": "generate"
     }
   ],
   "candidate_related_terms": [
@@ -319,11 +337,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/generate.yaml",
       "source_repo": "rhysd/actionlint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "base-repos/base"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/generate.yml",
+      "source_repo": "goreleaser/nfpm"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

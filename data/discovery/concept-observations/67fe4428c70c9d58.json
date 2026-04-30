@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A damn simple library for building production-ready RESTful web services."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Dropwizard"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Dropwizard"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40045312,
+      "status": "candidate",
+      "text": "breakwater"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40045309,
+      "status": "candidate",
+      "text": "groyne"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40044323,
+      "status": "candidate",
+      "text": "seawall"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40034670,
+      "status": "candidate",
+      "text": "bulwark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39834245,
+      "status": "candidate",
+      "text": "mole"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "jetty",
+      "sense_id": "jetty#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 58037,
+      "status": "candidate",
+      "text": "bulwark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12055,
+      "status": "candidate",
+      "text": "groin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11075,
+      "status": "candidate",
+      "text": "mole"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7039,
+      "status": "candidate",
+      "text": "breakwater"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5032,
+      "status": "candidate",
+      "text": "groyne"
+    }
+  ],
+  "concept_id": "jetty",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "jetty",
+  "observation_id": "67fe4428c70c9d58",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "jetty",
+  "source_context_snippet": "Dropwizard",
+  "source_file": null,
+  "source_repo": "dropwizard/dropwizard",
+  "source_repo_description": "A damn simple library for building production-ready RESTful web services."
+}

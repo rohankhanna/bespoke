@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T19:01:20.937072+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 473
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Vim plugin, provides insert mode auto-completion for quotes, parens, brackets, etc.",
+    "fork": false,
+    "full_name": "Raimondi/delimitMate",
+    "html_url": "https://github.com/Raimondi/delimitMate",
+    "language": "Vim Script",
+    "pushed_at": "2024-08-06T06:02:38Z",
+    "stargazers_count": 2003,
+    "topics": [],
+    "updated_at": "2026-04-26T10:36:40Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

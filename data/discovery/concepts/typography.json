@@ -67,6 +67,18 @@
       "source_repo": "kyleshevlin/shevyjs",
       "status": "candidate-context",
       "text": "> Perfect vertical rhythm for typography and more in CSS-in-JS"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "styled-system/styled-system",
+      "status": "candidate-context",
+      "text": "\u2b22 Style props for rapid UI development"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "styled-system/styled-system",
+      "status": "candidate-context",
+      "text": "<img src='https://styled-system.com/logo.svg' width='128' height='128' />"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "kyleshevlin/shevyjs",
       "status": "candidate",
       "text": "> Perfect vertical rhythm for typography and more in CSS-in-JS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "styled-system/styled-system",
+      "status": "candidate",
+      "text": "<img src='https://styled-system.com/logo.svg' width='128' height='128' />"
     }
   ],
   "candidate_related_terms": [
@@ -216,11 +234,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "kyleshevlin/shevyjs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "styled-system/styled-system"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-go@v5",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -2212,6 +2212,126 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/helm-chart-verify.yaml",
       "source_repo": "InftyAI/llmaz"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration-test-compile-br.yml",
+      "source_repo": "pingcap/tidb"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration-test-dumpling.yml",
+      "source_repo": "pingcap/tidb"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ankitpokhrel/jira-cli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "getsavvyinc/savvy-cli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml",
+      "source_repo": "stefanlogue/meteor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Antonboom/testifylint"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Antonboom/testifylint"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "dop251/goja_nodejs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yml",
+      "source_repo": "robertkrimen/otto"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-lint.yml",
+      "source_repo": "robertkrimen/otto"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/reqproof.yml",
+      "source_repo": "buger/jsonparser"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "panjf2000/ants"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gotest.yml",
+      "source_repo": "kitknox/tsshd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "kitknox/tsshd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check.yaml",
+      "source_repo": "cloudflare/cloudflared"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-android.yml",
+      "source_repo": "getlantern/lantern"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-ios.yml",
+      "source_repo": "getlantern/lantern"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "getlantern/lantern"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "getlantern/lantern"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-dll.yml",
+      "source_repo": "getlantern/lantern"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-service.yml",
+      "source_repo": "getlantern/lantern"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "getlantern/lantern"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/controller-release.yml",
+      "source_repo": "openlit/openlit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/controller-tests.yml",
+      "source_repo": "openlit/openlit"
     }
   ]
 }

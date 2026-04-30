@@ -38,13 +38,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ahmadawais/base16-shades-of-purple",
-      "target": "ahmadawais/shades-of-purple-vscode",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ahmadawais/base16-shades-of-purple",
       "target": "inspectormustache/base16-builder-python",
       "target_type": "repository"
     },
@@ -53,6 +46,13 @@
       "source_file": "README.md",
       "source_repo": "ahmadawais/base16-shades-of-purple",
       "target": "demartini/base16-shades-of-purple-exported-themes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ahmadawais/base16-shades-of-purple",
+      "target": "reyemxela/base16-helios-scheme",
       "target_type": "repository"
     },
     {
@@ -140,7 +140,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T15:00:04.853043+00:00",
+  "fetched_at": "2026-04-30T20:03:50.469118+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -179,11 +179,6 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "ahmadawais/shades-of-purple-vscode",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "demartini/base16-shades-of-purple",
       "source_file": "README.md"
     },
@@ -195,6 +190,11 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "inspectormustache/base16-builder-python",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "reyemxela/base16-helios-scheme",
       "source_file": "README.md"
     }
   ],

@@ -70,6 +70,30 @@
       "source_repo": "koreader/koxtoolchain",
       "status": "candidate-context",
       "text": "Toolchain"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "f4pga/prjxray",
+      "status": "candidate-context",
+      "text": "Documenting the Xilinx 7-series bit-stream format."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "f4pga/prjxray",
+      "status": "candidate-context",
+      "text": "[![Documentation Status](https://img.shields.io/readthedocs/prjxray?longCache=true&style=flat-square&logo=ReadTheDocs&logoColor=fff)](http://prjxray.readthedocs.org/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "markdoc/markdoc",
+      "status": "candidate-context",
+      "text": "A powerful, flexible, Markdown-based authoring framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "markdoc/markdoc",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -102,6 +126,18 @@
       "source_repo": "koreader/koxtoolchain",
       "status": "candidate",
       "text": "Toolchain"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "f4pga/prjxray",
+      "status": "candidate",
+      "text": "[![Documentation Status](https://img.shields.io/readthedocs/prjxray?longCache=true&style=flat-square&logo=ReadTheDocs&logoColor=fff)](http://prjxray.readthedocs.org/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "markdoc/markdoc",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -187,11 +223,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/toolchain.yml",
       "source_repo": "koreader/koxtoolchain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "f4pga/prjxray"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "markdoc/markdoc"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

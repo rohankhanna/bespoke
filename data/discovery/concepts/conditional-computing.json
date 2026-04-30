@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "conditional-computing"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "1adrianb/expert-binary-networks",
+      "status": "candidate-context",
+      "text": "Code for High-Capacity Expert Binary Networks (ICLR 2021)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1adrianb/expert-binary-networks",
+      "status": "candidate-context",
+      "text": "This code provides the core components for building networks based on the architectures and Expert Binary Convolutional Block introduced in the _High-Capacity Expert Binary Networks_ paper. You can find the full version of the paper [here](https://arxiv.org/pdf/2010.03558)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1adrianb/expert-binary-networks",
+      "status": "candidate",
+      "text": "This code provides the core components for building networks based on the architectures and Expert Binary Convolutional Block introduced in the _High-Capacity Expert Binary Networks_ paper. You can find the full version of the paper [here](https://arxiv.org/pdf/2010.03558)."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "conditional-computing",
+  "concept_id": "conditional-computing",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "1adrianb/expert-binary-networks"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "conditional-computing",
+      "sense_id": "conditional-computing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

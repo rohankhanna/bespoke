@@ -103,6 +103,30 @@
       "source_repo": "JuliaDocs/Documenter.jl",
       "status": "candidate-context",
       "text": "*A documentation generator for Julia.*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fredrikekre/Literate.jl",
+      "status": "candidate-context",
+      "text": "Simple package for literate programming in Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fredrikekre/Literate.jl",
+      "status": "candidate-context",
+      "text": "[![Documentation](https://img.shields.io/badge/docs-latest%20release-blue.svg)](https://fredrikekre.github.io/Literate.jl/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaDocs/DemoCards.jl",
+      "status": "candidate-context",
+      "text": "Let's focus on writing demos"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDocs/DemoCards.jl",
+      "status": "candidate-context",
+      "text": "| **Documentation** | **Build Status** |"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +177,18 @@
       "source_repo": "JuliaDocs/Documenter.jl",
       "status": "candidate",
       "text": "*A documentation generator for Julia.*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fredrikekre/Literate.jl",
+      "status": "candidate",
+      "text": "[![Documentation](https://img.shields.io/badge/docs-latest%20release-blue.svg)](https://fredrikekre.github.io/Literate.jl/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDocs/DemoCards.jl",
+      "status": "candidate",
+      "text": "| **Documentation** | **Build Status** |"
     }
   ],
   "candidate_related_terms": [],
@@ -220,11 +256,29 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "JuliaDocs/Documenter.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "Redocly/redoc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "fredrikekre/Literate.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "JuliaDocs/DemoCards.jl"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

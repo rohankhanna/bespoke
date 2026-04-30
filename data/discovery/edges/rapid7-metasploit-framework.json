@@ -1,0 +1,230 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "rapid7/metasploit-framework",
+      "target": "bundler/bundler",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add_to_project.yml",
+      "source_repo": "rapid7/metasploit-framework",
+      "target": "actions/add-to-project@v1.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/command_shell_acceptance.yml",
+      "source_repo": "rapid7/metasploit-framework",
+      "target": "none",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/command_shell_acceptance.yml",
+      "source_repo": "rapid7/metasploit-framework",
+      "target": "shivammathur/setup-php@fc14643b0a99ee9db10a3c025a33d76544fa3761",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/command_shell_acceptance.yml",
+      "source_repo": "rapid7/metasploit-framework",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/command_shell_acceptance.yml",
+      "source_repo": "rapid7/metasploit-framework",
+      "target": "ruby/setup-ruby@eaecf785f6a34567a6d97f686bbb7bccc1ac1e5c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/command_shell_acceptance.yml",
+      "source_repo": "rapid7/metasploit-framework",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/command_shell_acceptance.yml",
+      "source_repo": "rapid7/metasploit-framework",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/command_shell_acceptance.yml",
+      "source_repo": "rapid7/metasploit-framework",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "rapid7/metasploit-framework",
+      "target": "none",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "rapid7/metasploit-framework",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "rapid7/metasploit-framework",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "rapid7/metasploit-framework",
+      "target": "Build Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/extended_tests.yml",
+      "source_repo": "rapid7/metasploit-framework",
+      "target": "none",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/extended_tests.yml",
+      "source_repo": "rapid7/metasploit-framework",
+      "target": "actions/github-script@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/extended_tests.yml",
+      "source_repo": "rapid7/metasploit-framework",
+      "target": "Extended Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labels.yml",
+      "source_repo": "rapid7/metasploit-framework",
+      "target": "none",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labels.yml",
+      "source_repo": "rapid7/metasploit-framework",
+      "target": "actions/github-script@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labels.yml",
+      "source_repo": "rapid7/metasploit-framework",
+      "target": "Labels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ldap_acceptance.yml",
+      "source_repo": "rapid7/metasploit-framework",
+      "target": "none",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ldap_acceptance.yml",
+      "source_repo": "rapid7/metasploit-framework",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ldap_acceptance.yml",
+      "source_repo": "rapid7/metasploit-framework",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ldap_acceptance.yml",
+      "source_repo": "rapid7/metasploit-framework",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ldap_acceptance.yml",
+      "source_repo": "rapid7/metasploit-framework",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ldap_acceptance.yml",
+      "source_repo": "rapid7/metasploit-framework",
+      "target": "LDAP Acceptance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "rapid7/metasploit-framework",
+      "target": "none",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "rapid7/metasploit-framework",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "rapid7/metasploit-framework",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "rapid7/metasploit-framework",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/meterpreter_acceptance.yml",
+      "source_repo": "rapid7/metasploit-framework",
+      "target": "none",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/meterpreter_acceptance.yml",
+      "source_repo": "rapid7/metasploit-framework",
+      "target": "Meterpreter Acceptance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rapid7/metasploit-framework",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T18:36:26.757967+00:00",
+  "source_repo": "rapid7/metasploit-framework"
+}

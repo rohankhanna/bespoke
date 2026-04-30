@@ -1,0 +1,360 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alignment.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alignment.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-tests.yml"
+    },
+    {
+      "component": "jupyterlab/maintainer-tools/.github/actions/base-setup@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-tests.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-tests.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "jupyterlab/maintainer-tools/.github/actions/base-setup@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "jupyterlab/maintainer-tools/.github/actions/base-setup@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "jupyterlab/maintainer-tools/.github/actions/base-setup@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "jupyterlab/maintainer-tools/.github/actions/base-setup@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/download-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "jupyterlab/maintainer-tools/.github/actions/base-setup@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "jupyterlab/maintainer-tools/.github/actions/base-setup@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jupyterlab/extension-cookiecutter-ts",
+      "target": "jupyterlab/extension-template",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jupyterlab/extension-cookiecutter-ts",
+      "target": "audreyr/cookiecutter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jupyterlab/extension-cookiecutter-ts",
+      "target": "jupyterlab/extension-cookiecutter-js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jupyterlab/extension-cookiecutter-ts",
+      "target": "jupyterlab/extension-examples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alignment.yml",
+      "source_repo": "jupyterlab/extension-cookiecutter-ts",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alignment.yml",
+      "source_repo": "jupyterlab/extension-cookiecutter-ts",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/alignment.yml",
+      "source_repo": "jupyterlab/extension-cookiecutter-ts",
+      "target": "Check alignment with copier template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-tests.yml",
+      "source_repo": "jupyterlab/extension-cookiecutter-ts",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-tests.yml",
+      "source_repo": "jupyterlab/extension-cookiecutter-ts",
+      "target": "jupyterlab/maintainer-tools/.github/actions/base-setup@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-tests.yml",
+      "source_repo": "jupyterlab/extension-cookiecutter-ts",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-tests.yml",
+      "source_repo": "jupyterlab/extension-cookiecutter-ts",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-tests.yml",
+      "source_repo": "jupyterlab/extension-cookiecutter-ts",
+      "target": "Tests validation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "jupyterlab/extension-cookiecutter-ts",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "jupyterlab/extension-cookiecutter-ts",
+      "target": "jupyterlab/maintainer-tools/.github/actions/base-setup@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "jupyterlab/extension-cookiecutter-ts",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "jupyterlab/extension-cookiecutter-ts",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "jupyterlab/extension-cookiecutter-ts",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "jupyterlab/extension-cookiecutter-ts",
+      "target": "actions/download-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jupyterlab/extension-cookiecutter-ts",
+      "target": "cookiecutter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jupyterlab/extension-cookiecutter-ts",
+      "target": "jupyterlab",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jupyterlab/extension-cookiecutter-ts",
+      "target": "jupyterlab-extension",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:46:01.481480+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2785
+    },
+    {
+      "path": ".github/workflows/alignment.yml",
+      "size": 1387
+    },
+    {
+      "path": ".github/workflows/check-tests.yml",
+      "size": 1969
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 12325
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "4.0",
+    "description": "A cookiecutter recipe for JupyterLab extensions in Typescript",
+    "fork": false,
+    "full_name": "jupyterlab/extension-cookiecutter-ts",
+    "html_url": "https://github.com/jupyterlab/extension-cookiecutter-ts",
+    "language": "CSS",
+    "pushed_at": "2024-09-03T21:16:14Z",
+    "stargazers_count": 189,
+    "topics": [
+      "cookiecutter",
+      "jupyterlab",
+      "jupyterlab-extension",
+      "typescript"
+    ],
+    "updated_at": "2026-04-09T07:48:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "audreyr/cookiecutter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jupyterlab/extension-cookiecutter-js",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jupyterlab/extension-examples",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jupyterlab/extension-template",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Check alignment with copier template",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/alignment.yml",
+      "term": "Check alignment with copier template"
+    },
+    {
+      "context_snippet": "Tests validation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-tests.yml",
+      "term": "Tests validation"
+    },
+    {
+      "context_snippet": "[![Github Actions Status](https://github.com/jupyterlab/extension-cookiecutter-ts/workflows/CI/badge.svg)](https://github.com/jupyterlab/extension-cookiecutter-ts/actions/workflows/main.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cookiecutter"
+    },
+    {
+      "context_snippet": "[![Github Actions Status](https://github.com/jupyterlab/extension-cookiecutter-ts/workflows/CI/badge.svg)](https://github.com/jupyterlab/extension-cookiecutter-ts/actions/workflows/main.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jupyterlab"
+    },
+    {
+      "context_snippet": "[![Github Actions Status](https://github.com/jupyterlab/extension-cookiecutter-ts/workflows/CI/badge.svg)](https://github.com/jupyterlab/extension-cookiecutter-ts/actions/workflows/main.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jupyterlab-extension"
+    }
+  ]
+}

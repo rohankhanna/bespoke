@@ -6163,6 +6163,138 @@
       "source_repo": "DmitryTsepelev/store_model",
       "status": "candidate-context",
       "text": "**StoreModel** gem allows you to wrap JSON-backed DB columns with ActiveModel-like classes."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "philips-labs/tabia",
+      "status": "candidate-context",
+      "text": "Repository characteristics "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "philips-labs/tabia",
+      "status": "candidate-context",
+      "text": "[![Go CI](https://github.com/philips-labs/tabia/workflows/Go%20CI/badge.svg)](https://github.com/philips-labs/tabia/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pingcap/tidb",
+      "status": "candidate-context",
+      "text": "TiDB is built for agentic workloads that grow unpredictably, with ACID guarantees and native support for transactions, analytics, and vector search. No data silos. No noisy neighbors. No infrastructure ceiling."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pingcap/tidb",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graalvm/mandrel",
+      "status": "candidate-context",
+      "text": "Mandrel is a downstream distribution of the GraalVM community edition. Mandrel's main goal is to provide a native-image release specifically to support Quarkus."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graalvm/mandrel",
+      "status": "candidate-context",
+      "text": "Mandrel is [a downstream distribution of the GraalVM community edition](https://developers.redhat.com/blog/2020/06/05/mandrel-a-community-distribution-of-graalvm-for-the-red-hat-build-of-quarkus/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rapid7/metasploit-framework",
+      "status": "candidate-context",
+      "text": "Metasploit Framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapid7/metasploit-framework",
+      "status": "candidate-context",
+      "text": "The Metasploit Framework is an open-source tool released under a BSD-style license. For detailed licensing information, refer to the `COPYING` file."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebook/pyrefly",
+      "status": "candidate-context",
+      "text": "A fast type checker and language server for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/pyrefly",
+      "status": "candidate-context",
+      "text": "[![pyrefly](https://img.shields.io/endpoint?url=https://pyrefly.org/badge.json)](https://github.com/facebook/pyrefly)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "catppuccin/nvim",
+      "status": "candidate-context",
+      "text": "\ud83c\udf68 Soothing pastel theme for Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "catppuccin/nvim",
+      "status": "candidate-context",
+      "text": "<!-- panvimdoc-ignore-start -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FasterXML/woodstox",
+      "status": "candidate-context",
+      "text": "The gold standard Stax XML API implementation. Now at Github."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FasterXML/woodstox",
+      "status": "candidate-context",
+      "text": "The gold standard [Stax](https://en.wikipedia.org/wiki/StAX) XML \"pull\" API (`javax.xml.stream`) implementation."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FasterXML/smile-format-specification",
+      "status": "candidate-context",
+      "text": "New home for Smile format (https://en.wikipedia.org/wiki/Smile_(data_interchange_format))"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FasterXML/smile-format-specification",
+      "status": "candidate-context",
+      "text": "\"Smile\" is a binary data format that defines a binary equivalent of standard"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dunglas/mercure",
+      "status": "candidate-context",
+      "text": "\ud83e\udebd An open, easy, fast, reliable and battery-efficient solution for real-time communications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dunglas/mercure",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\"><a href=\"https://mercure.rocks\"><img src=\"public/mercure.svg\" alt=\"Mercure: Real-time Made Easy\" title=\"Live Updates Made Easy\"></a></h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "goreleaser/nfpm",
+      "status": "candidate-context",
+      "text": "nFPM is Not FPM - a simple deb, rpm, apk, ipk, and arch linux packager written in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goreleaser/nfpm",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ahmadawais/shades-of-purple-vscode",
+      "status": "candidate-context",
+      "text": "\ud83e\udd84 Shades of Purple offers a hand-picked selection of bold and vibrant shades of purple that will transform your code into a visually stunning masterpiece. With its carefully crafted color palette, this theme brings a sense of style, elegance, and whimsy to your favorite code editor, making your coding sessions a delightful journey of creativity."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ahmadawais/shades-of-purple-vscode",
+      "status": "candidate-context",
+      "text": "shades-of-purple \u2014 \ud83e\udd84 A professional theme suite with hand-picked & bold shades of purple for your VS Code editor and terminal apps. One of the excellent, most downloaded, and top-rated VSCode Themes on the marketplace. Part of VSCode.pro course."
     }
   ],
   "candidate_glosses": [
@@ -9249,6 +9381,72 @@
       "source_repo": "DmitryTsepelev/store_model",
       "status": "candidate",
       "text": "**StoreModel** gem allows you to wrap JSON-backed DB columns with ActiveModel-like classes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "philips-labs/tabia",
+      "status": "candidate",
+      "text": "[![Go CI](https://github.com/philips-labs/tabia/workflows/Go%20CI/badge.svg)](https://github.com/philips-labs/tabia/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pingcap/tidb",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graalvm/mandrel",
+      "status": "candidate",
+      "text": "Mandrel is [a downstream distribution of the GraalVM community edition](https://developers.redhat.com/blog/2020/06/05/mandrel-a-community-distribution-of-graalvm-for-the-red-hat-build-of-quarkus/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapid7/metasploit-framework",
+      "status": "candidate",
+      "text": "The Metasploit Framework is an open-source tool released under a BSD-style license. For detailed licensing information, refer to the `COPYING` file."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/pyrefly",
+      "status": "candidate",
+      "text": "[![pyrefly](https://img.shields.io/endpoint?url=https://pyrefly.org/badge.json)](https://github.com/facebook/pyrefly)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "catppuccin/nvim",
+      "status": "candidate",
+      "text": "<!-- panvimdoc-ignore-start -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FasterXML/woodstox",
+      "status": "candidate",
+      "text": "The gold standard [Stax](https://en.wikipedia.org/wiki/StAX) XML \"pull\" API (`javax.xml.stream`) implementation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FasterXML/smile-format-specification",
+      "status": "candidate",
+      "text": "\"Smile\" is a binary data format that defines a binary equivalent of standard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dunglas/mercure",
+      "status": "candidate",
+      "text": "<h1 align=\"center\"><a href=\"https://mercure.rocks\"><img src=\"public/mercure.svg\" alt=\"Mercure: Real-time Made Easy\" title=\"Live Updates Made Easy\"></a></h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goreleaser/nfpm",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ahmadawais/shades-of-purple-vscode",
+      "status": "candidate",
+      "text": "shades-of-purple \u2014 \ud83e\udd84 A professional theme suite with hand-picked & bold shades of purple for your VS Code editor and terminal apps. One of the excellent, most downloaded, and top-rated VSCode Themes on the marketplace. Part of VSCode.pro course."
     }
   ],
   "candidate_related_terms": [],
@@ -13432,11 +13630,221 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "DmitryTsepelev/store_model"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "nsfw-filter/nsfw-filter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "Redocly/redoc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "philips-labs/tabia"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "pingcap/tidb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "filhodanuvem/gitql"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "preactjs/preact-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "flightcontrolhq/superjson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "appbaseio/reactivesearch-api"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "appbaseio/searchbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "graalvm/mandrel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "rbenv/ruby-build"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/aspire"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "rapid7/metasploit-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "facebook/pyrefly"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "MSPaintIDE/MSPaintIDE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-tm4e/tm4e"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "typescript-language-server/typescript-language-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-corrosion/corrosion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/rust-analyzer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "catppuccin/nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "argotorg/solidity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "conventional-changelog/conventional-changelog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmone"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "truffleruby/truffleruby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "FasterXML/woodstox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "FasterXML/smile-format-specification"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "mightyiam/eslint-config-love"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "criteo/mesos-term"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "dunglas/mercure"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/vscode-js-debug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "goreleaser/nfpm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "ahmadawais/shades-of-purple-vscode"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

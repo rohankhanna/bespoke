@@ -1,0 +1,97 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hongsukchoi/Pose2Mesh_RELEASE",
+      "target": "ilovepose/darkpose",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hongsukchoi/Pose2Mesh_RELEASE",
+      "target": "gulvarol/smplpytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hongsukchoi/Pose2Mesh_RELEASE",
+      "target": "hongsukchoi/3dcrowdnet_release",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hongsukchoi/Pose2Mesh_RELEASE",
+      "target": "hongsukchoi/tcmr_release",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hongsukchoi/Pose2Mesh_RELEASE",
+      "target": "2d-human-pose",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hongsukchoi/Pose2Mesh_RELEASE",
+      "target": "3d-human-mesh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hongsukchoi/Pose2Mesh_RELEASE",
+      "target": "3d-human-pose",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hongsukchoi/Pose2Mesh_RELEASE",
+      "target": "3d-mesh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hongsukchoi/Pose2Mesh_RELEASE",
+      "target": "eccv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hongsukchoi/Pose2Mesh_RELEASE",
+      "target": "eccv2020",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hongsukchoi/Pose2Mesh_RELEASE",
+      "target": "graph-convolutional-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hongsukchoi/Pose2Mesh_RELEASE",
+      "target": "rgb-image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hongsukchoi/Pose2Mesh_RELEASE",
+      "target": "single-view",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T18:36:26.757967+00:00",
+  "source_repo": "hongsukchoi/Pose2Mesh_RELEASE"
+}

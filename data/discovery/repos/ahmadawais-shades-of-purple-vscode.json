@@ -1,0 +1,141 @@
+{
+  "components": [
+    {
+      "component": "nodemon",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ahmadawais/shades-of-purple-vscode",
+      "target": "nodemon",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ahmadawais/shades-of-purple-vscode",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ahmadawais/shades-of-purple-vscode",
+      "target": "purple",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ahmadawais/shades-of-purple-vscode",
+      "target": "shades-of-purple",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ahmadawais/shades-of-purple-vscode",
+      "target": "visual-studio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ahmadawais/shades-of-purple-vscode",
+      "target": "vscode",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ahmadawais/shades-of-purple-vscode",
+      "target": "vscode-extension",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ahmadawais/shades-of-purple-vscode",
+      "target": "vscode-theme",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T20:03:46.751107+00:00",
+  "fetched_files": [
+    {
+      "path": "package.json",
+      "size": 2030
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83e\udd84 Shades of Purple offers a hand-picked selection of bold and vibrant shades of purple that will transform your code into a visually stunning masterpiece. With its carefully crafted color palette, this theme brings a sense of style, elegance, and whimsy to your favorite code editor, making your coding sessions a delightful journey of creativity.",
+    "fork": false,
+    "full_name": "ahmadawais/shades-of-purple-vscode",
+    "html_url": "https://github.com/ahmadawais/shades-of-purple-vscode",
+    "language": null,
+    "pushed_at": "2025-11-21T02:38:58Z",
+    "stargazers_count": 774,
+    "topics": [
+      "hacktoberfest",
+      "purple",
+      "shades-of-purple",
+      "visual-studio",
+      "vscode",
+      "vscode-extension",
+      "vscode-theme"
+    ],
+    "updated_at": "2026-04-29T04:43:33Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "shades-of-purple \u2014 \ud83e\udd84 A professional theme suite with hand-picked & bold shades of purple for your VS Code editor and terminal apps. One of the excellent, most downloaded, and top-rated VSCode Themes on the marketplace. Part of VSCode.pro course.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "shades-of-purple \u2014 \ud83e\udd84 A professional theme suite with hand-picked & bold shades of purple for your VS Code editor and terminal apps. One of the excellent, most downloaded, and top-rated VSCode Themes on the marketplace. Part of VSCode.pro course.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "purple"
+    },
+    {
+      "context_snippet": "shades-of-purple \u2014 \ud83e\udd84 A professional theme suite with hand-picked & bold shades of purple for your VS Code editor and terminal apps. One of the excellent, most downloaded, and top-rated VSCode Themes on the marketplace. Part of VSCode.pro course.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shades-of-purple"
+    },
+    {
+      "context_snippet": "shades-of-purple \u2014 \ud83e\udd84 A professional theme suite with hand-picked & bold shades of purple for your VS Code editor and terminal apps. One of the excellent, most downloaded, and top-rated VSCode Themes on the marketplace. Part of VSCode.pro course.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-studio"
+    },
+    {
+      "context_snippet": "shades-of-purple \u2014 \ud83e\udd84 A professional theme suite with hand-picked & bold shades of purple for your VS Code editor and terminal apps. One of the excellent, most downloaded, and top-rated VSCode Themes on the marketplace. Part of VSCode.pro course.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vscode"
+    },
+    {
+      "context_snippet": "shades-of-purple \u2014 \ud83e\udd84 A professional theme suite with hand-picked & bold shades of purple for your VS Code editor and terminal apps. One of the excellent, most downloaded, and top-rated VSCode Themes on the marketplace. Part of VSCode.pro course.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vscode-extension"
+    },
+    {
+      "context_snippet": "shades-of-purple \u2014 \ud83e\udd84 A professional theme suite with hand-picked & bold shades of purple for your VS Code editor and terminal apps. One of the excellent, most downloaded, and top-rated VSCode Themes on the marketplace. Part of VSCode.pro course.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vscode-theme"
+    }
+  ]
+}

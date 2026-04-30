@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "turing"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "StatisticalRethinkingJulia/TuringModels.jl",
+      "status": "candidate-context",
+      "text": "Implementations of the models from the Statistical Rethinking book with Turing.jl"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "StatisticalRethinkingJulia/TuringModels.jl",
+      "status": "candidate-context",
+      "text": "[![CI][ci-img]][ci-url]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "StatisticalRethinkingJulia/TuringModels.jl",
+      "status": "candidate",
+      "text": "[![CI][ci-img]][ci-url]"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24368919,
+      "status": "candidate",
+      "text": "drawing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24272671,
+      "status": "candidate",
+      "text": "rotation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24256406,
+      "status": "candidate",
+      "text": "turn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24235947,
+      "status": "candidate",
+      "text": "turning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24156767,
+      "status": "candidate",
+      "text": "pivot"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "turing",
+  "concept_id": "turing",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "StatisticalRethinkingJulia/TuringModels.jl"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "turing",
+      "sense_id": "turing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

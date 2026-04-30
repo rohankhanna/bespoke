@@ -543,6 +543,42 @@
       "source_repo": "secretflow/kuscia",
       "status": "candidate-context",
       "text": "Checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lumen-oss/rocks-config.nvim",
+      "status": "candidate-context",
+      "text": "Allow rocks.nvim to help configure your plugins."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lumen-oss/rocks-config.nvim",
+      "status": "candidate-context",
+      "text": "\"Checks\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lumen-oss/rocks-git.nvim",
+      "status": "candidate-context",
+      "text": "Use rocks.nvim to install plugins from git!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lumen-oss/rocks-git.nvim",
+      "status": "candidate-context",
+      "text": "\"Checks\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "golangci/misspell",
+      "status": "candidate-context",
+      "text": "Correct commonly misspelled English words in source files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "golangci/misspell",
+      "status": "candidate-context",
+      "text": "Checks"
     }
   ],
   "candidate_glosses": [
@@ -813,6 +849,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "secretflow/kuscia",
+      "status": "candidate",
+      "text": "Checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lumen-oss/rocks-config.nvim",
+      "status": "candidate",
+      "text": "\"Checks\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lumen-oss/rocks-git.nvim",
+      "status": "candidate",
+      "text": "\"Checks\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "golangci/misspell",
       "status": "candidate",
       "text": "Checks"
     }
@@ -1247,11 +1301,35 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/checks.yml",
       "source_repo": "secretflow/kuscia"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/checks.yaml",
+      "source_repo": "lumen-oss/rocks-config.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/checks.yaml",
+      "source_repo": "lumen-oss/rocks-git.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "conventional-changelog/conventional-changelog"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "golangci/misspell"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -979,6 +979,18 @@
       "source_repo": "deven96/ahnlich",
       "status": "candidate-context",
       "text": "<p align=\"left\"><img src=\"assets/logo.jpg\" alt=\"ahnlich\" height=\"120px\"></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/make-a-video-pytorch",
+      "status": "candidate-context",
+      "text": "Implementation of Make-A-Video, new SOTA text to video generator from Meta AI, in Pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/make-a-video-pytorch",
+      "status": "candidate-context",
+      "text": "<img src=\"./make-a-video.png\" width=\"400px\"></img>"
     }
   ],
   "candidate_glosses": [
@@ -1467,6 +1479,12 @@
       "source_repo": "deven96/ahnlich",
       "status": "candidate",
       "text": "<p align=\"left\"><img src=\"assets/logo.jpg\" alt=\"ahnlich\" height=\"120px\"></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/make-a-video-pytorch",
+      "status": "candidate",
+      "text": "<img src=\"./make-a-video.png\" width=\"400px\"></img>"
     }
   ],
   "candidate_related_terms": [],
@@ -2344,11 +2362,29 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "deven96/ahnlich"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/make-a-video-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "facebookresearch/fairseq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/lab"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

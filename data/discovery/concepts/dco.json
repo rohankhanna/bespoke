@@ -103,6 +103,18 @@
       "source_repo": "autowarefoundation/autoware",
       "status": "candidate-context",
       "text": "DCO"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "delta-io/delta-rs",
+      "status": "candidate-context",
+      "text": "A native Rust library for Delta Lake, with bindings into Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "delta-io/delta-rs",
+      "status": "candidate-context",
+      "text": "DCO"
     }
   ],
   "candidate_glosses": [
@@ -151,6 +163,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "autowarefoundation/autoware",
+      "status": "candidate",
+      "text": "DCO"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "delta-io/delta-rs",
       "status": "candidate",
       "text": "DCO"
     }
@@ -256,11 +274,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/dco.yaml",
       "source_repo": "autowarefoundation/autoware"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/dco.yml",
+      "source_repo": "delta-io/delta-rs"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

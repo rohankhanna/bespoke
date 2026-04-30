@@ -1,0 +1,81 @@
+{
+  "components": [
+    {
+      "component": "axios",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "co",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "co-request",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "https-proxy-agent",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "eladnava/pikud-haoref-api",
+      "target": "axios",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "eladnava/pikud-haoref-api",
+      "target": "co",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "eladnava/pikud-haoref-api",
+      "target": "co-request",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "eladnava/pikud-haoref-api",
+      "target": "https-proxy-agent",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:58:59.486666+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4198
+    },
+    {
+      "path": "package.json",
+      "size": 719
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Node.js wrapper library for Pikud Haoref's unofficial rocket alert API.",
+    "fork": false,
+    "full_name": "eladnava/pikud-haoref-api",
+    "html_url": "https://github.com/eladnava/pikud-haoref-api",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-15T23:26:21Z",
+    "stargazers_count": 123,
+    "topics": [],
+    "updated_at": "2026-04-15T23:26:18Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

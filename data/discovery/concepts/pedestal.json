@@ -1,0 +1,129 @@
+{
+  "aliases": [
+    "pedestal"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pedestal/pedestal",
+      "status": "candidate-context",
+      "text": "The Pedestal Server-side Libraries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pedestal/pedestal",
+      "status": "candidate-context",
+      "text": "![CI](https://github.com/pedestal/pedestal/workflows/CI/badge.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pedestal/pedestal",
+      "status": "candidate",
+      "text": "![CI](https://github.com/pedestal/pedestal/workflows/CI/badge.svg)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40000198,
+      "status": "candidate",
+      "text": "plinth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39948448,
+      "status": "candidate",
+      "text": "footstall"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39915654,
+      "status": "candidate",
+      "text": "base"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39897368,
+      "status": "candidate",
+      "text": "stand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29997535,
+      "status": "candidate",
+      "text": "basement"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 58114,
+      "status": "candidate",
+      "text": "base"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17055,
+      "status": "candidate",
+      "text": "stand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14043,
+      "status": "candidate",
+      "text": "plinth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5021,
+      "status": "candidate",
+      "text": "footstall"
+    }
+  ],
+  "canonical_name": "pedestal",
+  "concept_id": "pedestal",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "pedestal/pedestal"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pedestal",
+      "sense_id": "pedestal#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

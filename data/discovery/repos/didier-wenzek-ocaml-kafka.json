@@ -1,0 +1,205 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml"
+    },
+    {
+      "component": "ocaml/setup-ocaml@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml"
+    },
+    {
+      "component": "ocaml/setup-ocaml@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml"
+    },
+    {
+      "component": "ocaml/setup-ocaml/lint-opam@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml"
+    },
+    {
+      "component": "ocaml/setup-ocaml@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml"
+    },
+    {
+      "component": "ocaml/setup-ocaml/lint-doc@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml"
+    },
+    {
+      "component": "ocaml/setup-ocaml@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml"
+    },
+    {
+      "component": "ocaml/setup-ocaml/lint-fmt@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "didier-wenzek/ocaml-kafka",
+      "target": "edenhill/librdkafka",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml",
+      "source_repo": "didier-wenzek/ocaml-kafka",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml",
+      "source_repo": "didier-wenzek/ocaml-kafka",
+      "target": "ocaml/setup-ocaml@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml",
+      "source_repo": "didier-wenzek/ocaml-kafka",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml",
+      "source_repo": "didier-wenzek/ocaml-kafka",
+      "target": "ocaml/setup-ocaml/lint-opam@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml",
+      "source_repo": "didier-wenzek/ocaml-kafka",
+      "target": "ocaml/setup-ocaml/lint-doc@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml",
+      "source_repo": "didier-wenzek/ocaml-kafka",
+      "target": "ocaml/setup-ocaml/lint-fmt@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/workflow.yml",
+      "source_repo": "didier-wenzek/ocaml-kafka",
+      "target": "Main workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "didier-wenzek/ocaml-kafka",
+      "target": "kafka",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "didier-wenzek/ocaml-kafka",
+      "target": "librdkafka",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "didier-wenzek/ocaml-kafka",
+      "target": "ocaml-bindings",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:52:00.491334+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3092
+    },
+    {
+      "path": ".github/workflows/workflow.yml",
+      "size": 1881
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "OCaml bindings for Kafka",
+    "fork": false,
+    "full_name": "didier-wenzek/ocaml-kafka",
+    "html_url": "https://github.com/didier-wenzek/ocaml-kafka",
+    "language": "OCaml",
+    "pushed_at": "2024-07-08T18:50:16Z",
+    "stargazers_count": 71,
+    "topics": [
+      "kafka",
+      "librdkafka",
+      "ocaml-bindings"
+    ],
+    "updated_at": "2026-03-10T17:53:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "edenhill/librdkafka",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Main workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/workflow.yml",
+      "term": "Main workflow"
+    },
+    {
+      "context_snippet": "OCaml bindings for Kafka",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kafka"
+    },
+    {
+      "context_snippet": "OCaml bindings for Kafka",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "librdkafka"
+    },
+    {
+      "context_snippet": "OCaml bindings for Kafka",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ocaml-bindings"
+    }
+  ]
+}

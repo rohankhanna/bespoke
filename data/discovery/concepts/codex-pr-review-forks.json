@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Codex PR review (forks)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "remix-run/remix",
+      "status": "candidate-context",
+      "text": "Build Better Websites. Create modern, resilient user experiences with web fundamentals."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "remix-run/remix",
+      "status": "candidate-context",
+      "text": "Codex PR review (forks)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "remix-run/remix",
+      "status": "candidate",
+      "text": "Codex PR review (forks)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22697,
+      "status": "candidate",
+      "text": "young"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22654,
+      "status": "candidate",
+      "text": "bit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22654,
+      "status": "candidate",
+      "text": "key"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16364,
+      "status": "candidate",
+      "text": "scroll"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15314,
+      "status": "candidate",
+      "text": "edda"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Codex PR review (forks)",
+  "concept_id": "codex-pr-review-forks",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/codex-pr-review.yaml",
+      "source_repo": "remix-run/remix"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Codex PR review (forks)",
+      "sense_id": "codex-pr-review-forks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

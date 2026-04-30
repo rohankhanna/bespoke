@@ -79,6 +79,18 @@
       "source_repo": "igraph/rigraph",
       "status": "candidate-context",
       "text": "<!-- badges: start -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zcash/pasta",
+      "status": "candidate-context",
+      "text": "Generator and supporting evidence for security of the Pallas/Vesta pair of elliptic curves suitable for Halo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zcash/pasta",
+      "status": "candidate-context",
+      "text": "Pallas/Vesta supporting evidence"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "igraph/rigraph",
       "status": "candidate",
       "text": "<!-- badges: start -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zcash/pasta",
+      "status": "candidate",
+      "text": "Pallas/Vesta supporting evidence"
     }
   ],
   "candidate_related_terms": [
@@ -211,11 +229,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "igraph/rigraph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "zcash/pasta"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

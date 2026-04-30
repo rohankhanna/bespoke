@@ -1,7 +1,7 @@
 {
   "component": "actions/upload-release-asset@v1",
   "first_seen_at": "2026-04-18T09:23:05.253565+00:00",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -622,6 +622,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/vscode-stable-release.yml",
       "source_repo": "iohub/collama"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "lspitzner/brittany"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ndmitchell/hlint"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "adamgreig/ecpdap"
     }
   ]
 }

@@ -247,6 +247,18 @@
       "source_repo": "jprichardson/node-fs-extra",
       "status": "candidate-context",
       "text": "Node.js: fs-extra"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Dicklesworthstone/franken_agent_detection",
+      "status": "candidate-context",
+      "text": "Deterministic, local filesystem-based detection of installed coding-agent connectors for Rust tooling."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dicklesworthstone/franken_agent_detection",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -369,6 +381,12 @@
       "source_repo": "jprichardson/node-fs-extra",
       "status": "candidate",
       "text": "Node.js: fs-extra"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dicklesworthstone/franken_agent_detection",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -544,11 +562,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "jprichardson/node-fs-extra"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "Dicklesworthstone/franken_agent_detection"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

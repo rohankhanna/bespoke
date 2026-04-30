@@ -1,0 +1,135 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LintaoAmons/bookmarks.nvim",
+      "target": "lintaoamons/vimeverywhere",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LintaoAmons/bookmarks.nvim",
+      "target": "lintaoamons/scratch.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LintaoAmons/bookmarks.nvim",
+      "target": "lintaoamons/cd-project.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LintaoAmons/bookmarks.nvim",
+      "target": "lintaoamons/context-menu.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "LintaoAmons/bookmarks.nvim",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "LintaoAmons/bookmarks.nvim",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "LintaoAmons/bookmarks.nvim",
+      "target": "Create Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LintaoAmons/bookmarks.nvim",
+      "target": "nvim-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:41:12.619789+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9736
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 2466
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Persistent bookmarks: hard disk of your thoughts",
+    "fork": false,
+    "full_name": "LintaoAmons/bookmarks.nvim",
+    "html_url": "https://github.com/LintaoAmons/bookmarks.nvim",
+    "language": "Lua",
+    "pushed_at": "2025-10-24T04:37:59Z",
+    "stargazers_count": 289,
+    "topics": [
+      "nvim-plugin"
+    ],
+    "updated_at": "2026-04-30T10:52:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lintaoamons/cd-project.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lintaoamons/context-menu.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lintaoamons/scratch.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lintaoamons/vimeverywhere",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Create Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Create Release"
+    },
+    {
+      "context_snippet": "- Simple: Add, Rename and Remove bookmarks with only one command, less shortcuts more productivity.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim-plugin"
+    }
+  ]
+}

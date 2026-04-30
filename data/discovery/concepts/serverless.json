@@ -499,6 +499,30 @@
       "source_repo": "kserve/website",
       "status": "candidate-context",
       "text": "Welcome to the source file repository for our documentation on [KServe website](https://kserve.github.io/website/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pingcap/tidb",
+      "status": "candidate-context",
+      "text": "TiDB is built for agentic workloads that grow unpredictably, with ACID guarantees and native support for transactions, analytics, and vector search. No data silos. No noisy neighbors. No infrastructure ceiling."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pingcap/tidb",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "surrealdb/surrealdb",
+      "status": "candidate-context",
+      "text": "A scalable, distributed, collaborative, document-graph database, for the realtime web"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "surrealdb/surrealdb",
+      "status": "candidate-context",
+      "text": "<a href=\"https://surrealdb.com#gh-dark-mode-only\" target=\"_blank\">"
     }
   ],
   "candidate_glosses": [
@@ -747,6 +771,18 @@
       "source_repo": "kserve/website",
       "status": "candidate",
       "text": "Welcome to the source file repository for our documentation on [KServe website](https://kserve.github.io/website/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pingcap/tidb",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "surrealdb/surrealdb",
+      "status": "candidate",
+      "text": "<a href=\"https://surrealdb.com#gh-dark-mode-only\" target=\"_blank\">"
     }
   ],
   "candidate_related_terms": [
@@ -1108,11 +1144,35 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "boxlite-ai/boxlite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "pingcap/tidb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "aws/serverless-application-model"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "boxlite-ai/boxlite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "surrealdb/surrealdb"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -19,12 +19,30 @@
       "source_repo": "trzsz/tsshd",
       "status": "candidate-context",
       "text": "Release and publish tsshd"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kitknox/tsshd",
+      "status": "candidate-context",
+      "text": "tsshd: the trzsz-ssh(tssh) udp server that supports connection migration for roaming, keeping ssh sesseion alive even if the network is disconnected for a long time."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kitknox/tsshd",
+      "status": "candidate-context",
+      "text": "Release and publish tsshd"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "trzsz/tsshd",
+      "status": "candidate",
+      "text": "Release and publish tsshd"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kitknox/tsshd",
       "status": "candidate",
       "text": "Release and publish tsshd"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "trzsz/tsshd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "kitknox/tsshd"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -38,6 +38,18 @@
       "source_repo": "spring-io/spring-javaformat",
       "status": "candidate-context",
       "text": "Promote"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clojure/homebrew-tools",
+      "status": "candidate-context",
+      "text": "Clojure homebrew tap providing Clojure formulae"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure/homebrew-tools",
+      "status": "candidate-context",
+      "text": "Promote"
     }
   ],
   "candidate_glosses": [
@@ -56,6 +68,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "spring-io/spring-javaformat",
+      "status": "candidate",
+      "text": "Promote"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure/homebrew-tools",
       "status": "candidate",
       "text": "Promote"
     }
@@ -155,11 +173,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/promote.yml",
       "source_repo": "spring-io/spring-javaformat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/promote.yml",
+      "source_repo": "clojure/homebrew-tools"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

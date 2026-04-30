@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T18:38:07.079127+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10213
+    },
+    {
+      "path": "requirements.txt",
+      "size": 870
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Doing simple retrieval from LLM models at various context lengths to measure accuracy",
+    "fork": true,
+    "full_name": "rlancemartin/LLMTest_NeedleInAHaystack",
+    "html_url": "https://github.com/rlancemartin/LLMTest_NeedleInAHaystack",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-03-15T16:29:40Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2024-03-06T17:04:23Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

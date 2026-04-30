@@ -48,7 +48,7 @@
   "normalized_form": "cd-enflame3.6-gcu400",
   "observation_id": "127f0a9cad82f882",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
   "observed_text": "CD-Enflame3.6-GCU400",
   "source_context_snippet": "CD-Enflame3.6-GCU400",
   "source_file": ".github/workflows/enflame3.6-gcu400-delivery.yml",

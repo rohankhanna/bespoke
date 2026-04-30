@@ -907,6 +907,42 @@
       "source_repo": "aliezzahn/rsbuild-plugin-markdown-loader",
       "status": "candidate-context",
       "text": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/web-infra-dev/awesome-rspack)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akiomik/mado",
+      "status": "candidate-context",
+      "text": "A fast Markdown linter written in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akiomik/mado",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/akiomik/mado/actions/workflows/ci.yml/badge.svg)](https://github.com/akiomik/mado/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "markdoc/markdoc",
+      "status": "candidate-context",
+      "text": "A powerful, flexible, Markdown-based authoring framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "markdoc/markdoc",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "VikParuchuri/texify",
+      "status": "candidate-context",
+      "text": "Math OCR model that outputs LaTeX and markdown"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VikParuchuri/texify",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
     }
   ],
   "candidate_glosses": [
@@ -1359,6 +1395,24 @@
       "source_repo": "aliezzahn/rsbuild-plugin-markdown-loader",
       "status": "candidate",
       "text": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/web-infra-dev/awesome-rspack)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akiomik/mado",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/akiomik/mado/actions/workflows/ci.yml/badge.svg)](https://github.com/akiomik/mado/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "markdoc/markdoc",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VikParuchuri/texify",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
     }
   ],
   "candidate_related_terms": [
@@ -1984,11 +2038,35 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "docling-project/docling"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "akiomik/mado"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "markdoc/markdoc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "VikParuchuri/texify"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "TiDB is built for agentic workloads that grow unpredictably, with ACID guarantees and native support for transactions, analytics, and vector search. No data silos. No noisy neighbors. No infrastructure ceiling."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "BR & Lightning"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "BR & Lightning"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10906,
+      "status": "candidate",
+      "text": "apt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10906,
+      "status": "candidate",
+      "text": "bravo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10906,
+      "status": "candidate",
+      "text": "bream"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10906,
+      "status": "candidate",
+      "text": "breech"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10906,
+      "status": "candidate",
+      "text": "hock"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "BR & Lightning",
+      "sense_id": "br-lightning#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "br-lightning",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "br-lightning",
+  "observation_id": "cd56881f3c62c6ac",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "BR & Lightning",
+  "source_context_snippet": "BR & Lightning",
+  "source_file": ".github/workflows/integration-test-compile-br.yml",
+  "source_repo": "pingcap/tidb",
+  "source_repo_description": "TiDB is built for agentic workloads that grow unpredictably, with ACID guarantees and native support for transactions, analytics, and vector search. No data silos. No noisy neighbors. No infrastructure ceiling."
+}

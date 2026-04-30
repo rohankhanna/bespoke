@@ -252,7 +252,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T14:52:56.368403+00:00",
+  "fetched_at": "2026-04-30T19:49:31.225585+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -280,7 +280,7 @@
     "full_name": "alloy-rs/svm-rs",
     "html_url": "https://github.com/alloy-rs/svm-rs",
     "language": "Rust",
-    "pushed_at": "2026-04-30T14:41:18Z",
+    "pushed_at": "2026-04-30T16:25:12Z",
     "stargazers_count": 284,
     "topics": [
       "solidity",

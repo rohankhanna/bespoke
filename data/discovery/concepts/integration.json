@@ -346,6 +346,30 @@
       "source_repo": "symfony/symfony",
       "status": "candidate-context",
       "text": "Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "90-008/nix-cargo-integration",
+      "status": "candidate-context",
+      "text": "Library to easily and effortlessly integrate Cargo projects with Nix."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "90-008/nix-cargo-integration",
+      "status": "candidate-context",
+      "text": "Easily and effortlessly integrate Cargo projects with Nix."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "delta-io/delta-rs",
+      "status": "candidate-context",
+      "text": "A native Rust library for Delta Lake, with bindings into Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "delta-io/delta-rs",
+      "status": "candidate-context",
+      "text": "integration"
     }
   ],
   "candidate_glosses": [
@@ -516,6 +540,18 @@
       "source_repo": "symfony/symfony",
       "status": "candidate",
       "text": "Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "90-008/nix-cargo-integration",
+      "status": "candidate",
+      "text": "Easily and effortlessly integrate Cargo projects with Nix."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "delta-io/delta-rs",
+      "status": "candidate",
+      "text": "integration"
     }
   ],
   "candidate_related_terms": [
@@ -809,11 +845,29 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/integration-tests.yml",
       "source_repo": "symfony/symfony"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "graphql-hive/graphql-inspector"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "90-008/nix-cargo-integration"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "delta-io/delta-rs"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "OCR, layout analysis, reading order, table recognition in 90+ languages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Surya CLA Assistant\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Surya CLA Assistant\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23064,
+      "status": "candidate",
+      "text": "dharma"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23064,
+      "status": "candidate",
+      "text": "karma"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16054,
+      "status": "candidate",
+      "text": "agency"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16014,
+      "status": "candidate",
+      "text": "cia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15054,
+      "status": "candidate",
+      "text": "nara"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Surya CLA Assistant",
+      "sense_id": "surya-cla-assistant#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "surya-cla-assistant",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "surya-cla-assistant",
+  "observation_id": "78914a50bac7524b",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "Surya CLA Assistant",
+  "source_context_snippet": "\"Surya CLA Assistant\"",
+  "source_file": ".github/workflows/cla.yml",
+  "source_repo": "datalab-to/surya",
+  "source_repo_description": "OCR, layout analysis, reading order, table recognition in 90+ languages"
+}

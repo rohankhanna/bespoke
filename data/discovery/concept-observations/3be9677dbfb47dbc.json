@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The most comprehensive authentication framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39961561,
+      "status": "candidate",
+      "text": "band"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39953466,
+      "status": "candidate",
+      "text": "streak"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39934229,
+      "status": "candidate",
+      "text": "chevron"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39915497,
+      "status": "candidate",
+      "text": "banding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29967901,
+      "status": "candidate",
+      "text": "grade insignia"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "stripe",
+      "sense_id": "stripe#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23073,
+      "status": "candidate",
+      "text": "band"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9047,
+      "status": "candidate",
+      "text": "streak"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2047,
+      "status": "candidate",
+      "text": "chevron"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1042,
+      "status": "candidate",
+      "text": "banding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27,
+      "status": "candidate",
+      "text": "stripes"
+    }
+  ],
+  "concept_id": "stripe",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "stripe",
+  "observation_id": "3be9677dbfb47dbc",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "stripe",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "better-auth/better-auth",
+  "source_repo_description": "The most comprehensive authentication framework"
+}

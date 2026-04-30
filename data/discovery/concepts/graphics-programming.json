@@ -67,6 +67,30 @@
       "source_repo": "DiligentGraphics/DiligentEngine",
       "status": "candidate-context",
       "text": "**A Modern Cross-Platform Low-Level 3D Graphics Library and Rendering Framework**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DiligentGraphics/DiligentSamples",
+      "status": "candidate-context",
+      "text": "Sample projects demonstrating the usage of Diligent Engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DiligentGraphics/DiligentSamples",
+      "status": "candidate-context",
+      "text": "This module contains tutorials and sample applications intended to demonstrate the usage of"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vulkano-rs/vulkano",
+      "status": "candidate-context",
+      "text": "Safe and rich Rust wrapper around the Vulkan API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vulkano-rs/vulkano",
+      "status": "candidate-context",
+      "text": "<img align=\"left\" alt=\"\" src=\"logo.png\" height=\"150\" />"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +123,18 @@
       "source_repo": "DiligentGraphics/DiligentEngine",
       "status": "candidate",
       "text": "**A Modern Cross-Platform Low-Level 3D Graphics Library and Rendering Framework**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DiligentGraphics/DiligentSamples",
+      "status": "candidate",
+      "text": "This module contains tutorials and sample applications intended to demonstrate the usage of"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vulkano-rs/vulkano",
+      "status": "candidate",
+      "text": "<img align=\"left\" alt=\"\" src=\"logo.png\" height=\"150\" />"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +172,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "DiligentGraphics/DiligentEngine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "DiligentGraphics/DiligentSamples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "vulkano-rs/vulkano"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

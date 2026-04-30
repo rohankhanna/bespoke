@@ -1,0 +1,200 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/book.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/book.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3.5.9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/book.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/book.yml",
+      "source_repo": "ksachdeva/rethinking-tensorflow-probability",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/book.yml",
+      "source_repo": "ksachdeva/rethinking-tensorflow-probability",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/book.yml",
+      "source_repo": "ksachdeva/rethinking-tensorflow-probability",
+      "target": "peaceiris/actions-gh-pages@v3.5.9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/book.yml",
+      "source_repo": "ksachdeva/rethinking-tensorflow-probability",
+      "target": "deploy-book",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ksachdeva/rethinking-tensorflow-probability",
+      "target": "bayesian-inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ksachdeva/rethinking-tensorflow-probability",
+      "target": "bayesian-statistics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ksachdeva/rethinking-tensorflow-probability",
+      "target": "markov-chain-monte-carlo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ksachdeva/rethinking-tensorflow-probability",
+      "target": "statistical-rethinking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ksachdeva/rethinking-tensorflow-probability",
+      "target": "tensorflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ksachdeva/rethinking-tensorflow-probability",
+      "target": "tensorflow-probability",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ksachdeva/rethinking-tensorflow-probability",
+      "target": "tutorials",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ksachdeva/rethinking-tensorflow-probability",
+      "target": "variational-inference",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:40:46.431718+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7410
+    },
+    {
+      "path": "requirements.txt",
+      "size": 131
+    },
+    {
+      "path": ".github/workflows/book.yml",
+      "size": 964
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Statistical Rethinking (2nd Ed) with Tensorflow Probability",
+    "fork": false,
+    "full_name": "ksachdeva/rethinking-tensorflow-probability",
+    "html_url": "https://github.com/ksachdeva/rethinking-tensorflow-probability",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2022-01-19T19:16:55Z",
+    "stargazers_count": 277,
+    "topics": [
+      "bayesian-inference",
+      "bayesian-statistics",
+      "markov-chain-monte-carlo",
+      "statistical-rethinking",
+      "tensorflow",
+      "tensorflow-probability",
+      "tutorials",
+      "variational-inference"
+    ],
+    "updated_at": "2026-03-17T22:55:41Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "deploy-book",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/book.yml",
+      "term": "deploy-book"
+    },
+    {
+      "context_snippet": "This repository provides jupyter notebooks that port various R code fragments found in the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bayesian-inference"
+    },
+    {
+      "context_snippet": "This repository provides jupyter notebooks that port various R code fragments found in the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bayesian-statistics"
+    },
+    {
+      "context_snippet": "This repository provides jupyter notebooks that port various R code fragments found in the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "markov-chain-monte-carlo"
+    },
+    {
+      "context_snippet": "This repository provides jupyter notebooks that port various R code fragments found in the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "statistical-rethinking"
+    },
+    {
+      "context_snippet": "This repository provides jupyter notebooks that port various R code fragments found in the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    },
+    {
+      "context_snippet": "This repository provides jupyter notebooks that port various R code fragments found in the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow-probability"
+    },
+    {
+      "context_snippet": "This repository provides jupyter notebooks that port various R code fragments found in the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tutorials"
+    },
+    {
+      "context_snippet": "This repository provides jupyter notebooks that port various R code fragments found in the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "variational-inference"
+    }
+  ]
+}

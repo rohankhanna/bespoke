@@ -1,7 +1,7 @@
 {
   "component": "actions/cache@v4",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -3947,6 +3947,176 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/emscripten.yml",
       "source_repo": "libffi/libffi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-deploy.yml",
+      "source_repo": "webgpu/webgpu-samples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "webgpu/webgpu-samples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "eaplatanios/triton"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml.in",
+      "source_repo": "eaplatanios/triton"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/llvm-build.yml",
+      "source_repo": "eaplatanios/triton"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration-test-dumpling.yml",
+      "source_repo": "pingcap/tidb"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/analysis.yml",
+      "source_repo": "Deep-Symmetry/dysentery"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "cachix/serde-envfile"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/base-windows.yml",
+      "source_repo": "graalvm/mandrel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/base.yml",
+      "source_repo": "graalvm/mandrel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-quarkus.yml",
+      "source_repo": "graalvm/mandrel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-legacy.yml",
+      "source_repo": "stijnvdb88/Snap.Net"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "stijnvdb88/Snap.Net"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-mobile.yml",
+      "source_repo": "stijnvdb88/Snap.Net"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "stijnvdb88/Snap.Net"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "tianocore/edk2"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Dicklesworthstone/frankentui"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/doctor_frankentui_extended.yml",
+      "source_repo": "Dicklesworthstone/frankentui"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/emulator_compat_matrix.yml",
+      "source_repo": "Dicklesworthstone/frankentui"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/stylua.yml",
+      "source_repo": "nvim-neorg/neorg"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ndmitchell/hlint"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-prepare.yml",
+      "source_repo": "holochain/holochain"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "holochain/holochain"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "enjoy-digital/litex"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/reqproof.yml",
+      "source_repo": "buger/jsonparser"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-build-riscv64.yml",
+      "source_repo": "netty/netty"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yml",
+      "source_repo": "netty/netty"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-deploy.yml",
+      "source_repo": "netty/netty"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-pr.yml",
+      "source_repo": "netty/netty"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-android.yml",
+      "source_repo": "getlantern/lantern"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-ios.yml",
+      "source_repo": "getlantern/lantern"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "getlantern/lantern"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "getlantern/lantern"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "getlantern/lantern"
     }
   ]
 }

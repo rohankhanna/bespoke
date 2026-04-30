@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T18:40:40.809984+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 916
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "UWP samples ",
+    "fork": false,
+    "full_name": "microsoft/Windows-AppConsult-Samples-UWP",
+    "html_url": "https://github.com/microsoft/Windows-AppConsult-Samples-UWP",
+    "language": "C#",
+    "pushed_at": "2023-10-10T01:15:10Z",
+    "stargazers_count": 22,
+    "topics": [],
+    "updated_at": "2026-02-15T05:21:30Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -79,6 +79,18 @@
       "source_repo": "nestordemeure/flaxOptimizers",
       "status": "candidate-context",
       "text": "A collection of optimizers for Flax."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/orbax",
+      "status": "candidate-context",
+      "text": "Orbax provides common checkpointing and persistence utilities for JAX users"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/orbax",
+      "status": "candidate-context",
+      "text": "[Orbax](https://orbax.readthedocs.io/en/latest/) provides common checkpointing and persistence utilities for JAX users."
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "nestordemeure/flaxOptimizers",
       "status": "candidate",
       "text": "A collection of optimizers for Flax."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/orbax",
+      "status": "candidate",
+      "text": "[Orbax](https://orbax.readthedocs.io/en/latest/) provides common checkpointing and persistence utilities for JAX users."
     }
   ],
   "candidate_related_terms": [
@@ -202,11 +220,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "nestordemeure/flaxOptimizers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "google/orbax"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

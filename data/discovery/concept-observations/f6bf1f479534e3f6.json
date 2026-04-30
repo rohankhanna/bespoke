@@ -84,7 +84,7 @@
   "normalized_form": "publish-docker-images",
   "observation_id": "f6bf1f479534e3f6",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
   "observed_text": "Publish Docker Images",
   "source_context_snippet": "Publish Docker Images",
   "source_file": ".github/workflows/publish_image.yaml",

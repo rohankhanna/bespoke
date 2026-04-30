@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Automation Labeled"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rolldown/rolldown",
+      "status": "candidate-context",
+      "text": "Fast Rust bundler for JavaScript/TypeScript with Rollup-compatible API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rolldown/rolldown",
+      "status": "candidate-context",
+      "text": "'Automation Labeled'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rolldown/rolldown",
+      "status": "candidate",
+      "text": "'Automation Labeled'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10566,
+      "status": "candidate",
+      "text": "robot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10566,
+      "status": "candidate",
+      "text": "smart"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10488,
+      "status": "candidate",
+      "text": "timesaving"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10472,
+      "status": "candidate",
+      "text": "address"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10472,
+      "status": "candidate",
+      "text": "addressing"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Automation Labeled",
+  "concept_id": "automation-labeled",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/automation-labeled.yml",
+      "source_repo": "rolldown/rolldown"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Automation Labeled",
+      "sense_id": "automation-labeled#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

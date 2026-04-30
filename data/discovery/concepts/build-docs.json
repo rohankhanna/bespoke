@@ -460,6 +460,18 @@
       "source_repo": "appium/appium-xcuitest-driver",
       "status": "candidate-context",
       "text": "Build Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rapid7/metasploit-framework",
+      "status": "candidate-context",
+      "text": "Metasploit Framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapid7/metasploit-framework",
+      "status": "candidate-context",
+      "text": "Build Docs"
     }
   ],
   "candidate_glosses": [
@@ -688,6 +700,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "appium/appium-xcuitest-driver",
+      "status": "candidate",
+      "text": "Build Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapid7/metasploit-framework",
       "status": "candidate",
       "text": "Build Docs"
     }
@@ -1123,11 +1141,29 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/build-docs.yml",
       "source_repo": "NVIDIA-NeMo/NeMo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/build-docs.yaml",
+      "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "rapid7/metasploit-framework"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

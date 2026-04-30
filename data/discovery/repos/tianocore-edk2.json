@@ -1,0 +1,499 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/BuildPlatform.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/BuildPlatform.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/BuildPlatform.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-assignment.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-triage.yml"
+    },
+    {
+      "component": "stefanbuck/github-issue-parser@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-triage.yml"
+    },
+    {
+      "component": "redhat-plumbers-in-action/advanced-issue-labeler@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-triage.yml"
+    },
+    {
+      "component": "github/issue-labeler@v3.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-labeler.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request-formatting-validator.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request-formatting-validator.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request-formatting-validator.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request-formatting-validator.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/request-reviews.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/request-reviews.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/request-reviews.yml"
+    },
+    {
+      "component": "actions/stale@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/BuildPlatform.yml",
+      "source_repo": "tianocore/edk2",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/BuildPlatform.yml",
+      "source_repo": "tianocore/edk2",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/BuildPlatform.yml",
+      "source_repo": "tianocore/edk2",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/BuildPlatform.yml",
+      "source_repo": "tianocore/edk2",
+      "target": "Build Platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "tianocore/edk2",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "tianocore/edk2",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "tianocore/edk2",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "tianocore/edk2",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "tianocore/edk2",
+      "target": "github/codeql-action/upload-sarif@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "tianocore/edk2",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-assignment.yml",
+      "source_repo": "tianocore/edk2",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-assignment.yml",
+      "source_repo": "tianocore/edk2",
+      "target": "React to Issue Assignment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-triage.yml",
+      "source_repo": "tianocore/edk2",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-triage.yml",
+      "source_repo": "tianocore/edk2",
+      "target": "stefanbuck/github-issue-parser@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-triage.yml",
+      "source_repo": "tianocore/edk2",
+      "target": "redhat-plumbers-in-action/advanced-issue-labeler@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-triage.yml",
+      "source_repo": "tianocore/edk2",
+      "target": "Issue Triage Workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-labeler.yml",
+      "source_repo": "tianocore/edk2",
+      "target": "github/issue-labeler@v3.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-labeler.yml",
+      "source_repo": "tianocore/edk2",
+      "target": "Apply Labels Based on Message Content",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request-formatting-validator.yml",
+      "source_repo": "tianocore/edk2",
+      "target": "actions/create-github-app-token@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request-formatting-validator.yml",
+      "source_repo": "tianocore/edk2",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request-formatting-validator.yml",
+      "source_repo": "tianocore/edk2",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request-formatting-validator.yml",
+      "source_repo": "tianocore/edk2",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull-request-formatting-validator.yml",
+      "source_repo": "tianocore/edk2",
+      "target": "Validate Pull Request Formatting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/request-reviews.yml",
+      "source_repo": "tianocore/edk2",
+      "target": "actions/create-github-app-token@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/request-reviews.yml",
+      "source_repo": "tianocore/edk2",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/request-reviews.yml",
+      "source_repo": "tianocore/edk2",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/request-reviews.yml",
+      "source_repo": "tianocore/edk2",
+      "target": "Add Pull Request Reviewers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scheduled-maintenance.yml",
+      "source_repo": "tianocore/edk2",
+      "target": "Scheduled Maintenance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "tianocore/edk2",
+      "target": "actions/stale@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "tianocore/edk2",
+      "target": "Stale Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/upl-build.yml",
+      "source_repo": "tianocore/edk2",
+      "target": "UPL Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tianocore/edk2",
+      "target": "firmware",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tianocore/edk2",
+      "target": "uefi",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:03:16.257107+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/BuildPlatform.yml",
+      "size": 3446
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 13272
+    },
+    {
+      "path": ".github/workflows/issue-assignment.yml",
+      "size": 2055
+    },
+    {
+      "path": ".github/workflows/issue-triage.yml",
+      "size": 1848
+    },
+    {
+      "path": ".github/workflows/pr-labeler.yml",
+      "size": 926
+    },
+    {
+      "path": ".github/workflows/pull-request-formatting-validator.yml",
+      "size": 2469
+    },
+    {
+      "path": ".github/workflows/request-reviews.yml",
+      "size": 2582
+    },
+    {
+      "path": ".github/workflows/scheduled-maintenance.yml",
+      "size": 1668
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 1469
+    },
+    {
+      "path": ".github/workflows/upl-build.yml",
+      "size": 1859
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "EDK II",
+    "fork": false,
+    "full_name": "tianocore/edk2",
+    "html_url": "https://github.com/tianocore/edk2",
+    "language": "C",
+    "pushed_at": "2026-04-30T12:14:33Z",
+    "stargazers_count": 5954,
+    "topics": [
+      "c",
+      "firmware",
+      "python",
+      "uefi"
+    ],
+    "updated_at": "2026-04-30T17:35:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build Platform",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/BuildPlatform.yml",
+      "term": "Build Platform"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "React to Issue Assignment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-assignment.yml",
+      "term": "React to Issue Assignment"
+    },
+    {
+      "context_snippet": "Issue Triage Workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-triage.yml",
+      "term": "Issue Triage Workflow"
+    },
+    {
+      "context_snippet": "Apply Labels Based on Message Content",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-labeler.yml",
+      "term": "Apply Labels Based on Message Content"
+    },
+    {
+      "context_snippet": "Validate Pull Request Formatting",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull-request-formatting-validator.yml",
+      "term": "Validate Pull Request Formatting"
+    },
+    {
+      "context_snippet": "Add Pull Request Reviewers",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/request-reviews.yml",
+      "term": "Add Pull Request Reviewers"
+    },
+    {
+      "context_snippet": "Scheduled Maintenance",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scheduled-maintenance.yml",
+      "term": "Scheduled Maintenance"
+    },
+    {
+      "context_snippet": "Stale Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Stale Check"
+    },
+    {
+      "context_snippet": "UPL Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/upl-build.yml",
+      "term": "UPL Build"
+    },
+    {
+      "context_snippet": "Build Platform",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "firmware"
+    },
+    {
+      "context_snippet": "Build Platform",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "uefi"
+    }
+  ]
+}

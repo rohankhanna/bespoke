@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -46,6 +46,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/build_bsd.yml",
       "source_repo": "lesismal/arpc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "getlantern/lantern"
     }
   ],
   "term": "Build macOS"

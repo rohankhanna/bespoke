@@ -19,6 +19,18 @@
       "source_repo": "apollographql/router",
       "status": "candidate-context",
       "text": "<a href=\"#\"><img src=\"https://raw.githubusercontent.com/apollographql/space-kit/main/src/illustrations/svgs/satellite1.svg\" width=\"100%\" height=\"144\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apollographql/supergraph-demo",
+      "status": "candidate-context",
+      "text": "\ud83c\udf7f Compose subgraphs into a Federation v1 supergraph at build-time with static composition to power a federated graph router at runtime."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/supergraph-demo",
+      "status": "candidate-context",
+      "text": "![smoke test](https://github.com/apollographql/supergraph-demo/actions/workflows/main.yml/badge.svg)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "apollographql/router",
       "status": "candidate",
       "text": "<a href=\"#\"><img src=\"https://raw.githubusercontent.com/apollographql/space-kit/main/src/illustrations/svgs/satellite1.svg\" width=\"100%\" height=\"144\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/supergraph-demo",
+      "status": "candidate",
+      "text": "![smoke test](https://github.com/apollographql/supergraph-demo/actions/workflows/main.yml/badge.svg)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "apollographql/router"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/supergraph-demo"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

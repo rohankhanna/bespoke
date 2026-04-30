@@ -19,6 +19,18 @@
       "source_repo": "smeetrs/deep_avsr",
       "status": "candidate-context",
       "text": "The repository contains a PyTorch reproduction of the TM-CTC model from the [Deep Audio-Visual Speech Recognition](https://arxiv.org/abs/1809.02108) paper. We train three models - Audio-Only (AO), Video-Only (VO) and Audio-Visual (AV), on the [LRS2 dataset](http://www.robots.ox.\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wenet-e2e/wenet",
+      "status": "candidate-context",
+      "text": "Production First and Production Ready End-to-End Speech Recognition Toolkit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wenet-e2e/wenet",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-brightgreen.svg)](https://opensource.org/licenses/Apache-2.0)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "smeetrs/deep_avsr",
       "status": "candidate",
       "text": "The repository contains a PyTorch reproduction of the TM-CTC model from the [Deep Audio-Visual Speech Recognition](https://arxiv.org/abs/1809.02108) paper. We train three models - Audio-Only (AO), Video-Only (VO) and Audio-Visual (AV), on the [LRS2 dataset](http://www.robots.ox.\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wenet-e2e/wenet",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-brightgreen.svg)](https://opensource.org/licenses/Apache-2.0)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "smeetrs/deep_avsr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "wenet-e2e/wenet"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Boolector/boolector",
+      "target": "arminbiere/cadical",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Boolector/boolector",
+      "target": "msoos/cryptominisat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Boolector/boolector",
+      "target": "niklasso/minisat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Boolector/boolector",
+      "target": "boolector/btor2tools",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:46:22.478775+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7725
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "A Satisfiability Modulo Theories (SMT) solver for the theories of fixed-size bit-vectors, arrays and uninterpreted functions.",
+    "fork": false,
+    "full_name": "Boolector/boolector",
+    "html_url": "https://github.com/Boolector/boolector",
+    "language": "SMT",
+    "pushed_at": "2024-08-23T23:16:34Z",
+    "stargazers_count": 358,
+    "topics": [],
+    "updated_at": "2026-04-13T20:37:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arminbiere/cadical",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "boolector/btor2tools",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "msoos/cryptominisat",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "niklasso/minisat",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

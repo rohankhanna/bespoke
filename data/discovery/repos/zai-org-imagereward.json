@@ -16,13 +16,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "zai-org/ImageReward",
-      "target": "poloclub/diffusiondb",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "zai-org/ImageReward",
@@ -51,7 +44,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T13:09:12.271211+00:00",
+  "fetched_at": "2026-04-30T18:44:32.583634+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -82,11 +75,6 @@
     "updated_at": "2026-04-23T14:04:41Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "poloclub/diffusiondb",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "thudm/imagereward",

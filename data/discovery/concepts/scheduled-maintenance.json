@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Scheduled Maintenance"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tianocore/edk2",
+      "status": "candidate-context",
+      "text": "EDK II"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tianocore/edk2",
+      "status": "candidate-context",
+      "text": "Scheduled Maintenance"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tianocore/edk2",
+      "status": "candidate",
+      "text": "Scheduled Maintenance"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 73045,
+      "status": "candidate",
+      "text": "scheduling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 73044,
+      "status": "candidate",
+      "text": "schedule"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 73043,
+      "status": "candidate",
+      "text": "rescheduled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 73042,
+      "status": "candidate",
+      "text": "refurbishment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 73041,
+      "status": "candidate",
+      "text": "servicing"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Scheduled Maintenance",
+  "concept_id": "scheduled-maintenance",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/scheduled-maintenance.yml",
+      "source_repo": "tianocore/edk2"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Scheduled Maintenance",
+      "sense_id": "scheduled-maintenance#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

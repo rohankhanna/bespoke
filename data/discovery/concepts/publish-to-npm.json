@@ -183,6 +183,18 @@
       "source_repo": "buttondown/cli",
       "status": "candidate-context",
       "text": "Publish to NPM"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dreamscached/i18next-cli-plugin-svelte",
+      "status": "candidate-context",
+      "text": "\ud83d\udcdc i18next-cli plugin to extract Javascript/Typescript from Svelte components"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dreamscached/i18next-cli-plugin-svelte",
+      "status": "candidate-context",
+      "text": "Publish to npm"
     }
   ],
   "candidate_glosses": [
@@ -275,6 +287,12 @@
       "source_repo": "buttondown/cli",
       "status": "candidate",
       "text": "Publish to NPM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dreamscached/i18next-cli-plugin-svelte",
+      "status": "candidate",
+      "text": "Publish to npm"
     }
   ],
   "candidate_related_terms": [
@@ -444,11 +462,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/npm-publish.yml",
       "source_repo": "a2aproject/a2a-js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "dreamscached/i18next-cli-plugin-svelte"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,153 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rdimitrov/go-tuf-metadata",
+      "target": "theupdateframework/python-tuf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rdimitrov/go-tuf-metadata",
+      "target": "theupdateframework/taps",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "rdimitrov/go-tuf-metadata",
+      "target": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "rdimitrov/go-tuf-metadata",
+      "target": "actions/setup-go@c4a742cab115ed795e34d4513e2cf7d472deb55f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "rdimitrov/go-tuf-metadata",
+      "target": "github/codeql-action/init@74483a38d39275f33fcff5f35b679b5ca4a26a99",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "rdimitrov/go-tuf-metadata",
+      "target": "github/codeql-action/autobuild@74483a38d39275f33fcff5f35b679b5ca4a26a99",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "rdimitrov/go-tuf-metadata",
+      "target": "github/codeql-action/analyze@74483a38d39275f33fcff5f35b679b5ca4a26a99",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "rdimitrov/go-tuf-metadata",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "rdimitrov/go-tuf-metadata",
+      "target": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "rdimitrov/go-tuf-metadata",
+      "target": "arnested/go-version-action@b556f8d91b644164318c709d28b9083eaf0c064d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "rdimitrov/go-tuf-metadata",
+      "target": "actions/setup-go@c4a742cab115ed795e34d4513e2cf7d472deb55f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linting.yml",
+      "source_repo": "rdimitrov/go-tuf-metadata",
+      "target": "golang/govulncheck-action@7da72f730e37eeaad891fcff0a532d27ed737cd4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linting.yml",
+      "source_repo": "rdimitrov/go-tuf-metadata",
+      "target": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linting.yml",
+      "source_repo": "rdimitrov/go-tuf-metadata",
+      "target": "actions/setup-go@c4a742cab115ed795e34d4513e2cf7d472deb55f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linting.yml",
+      "source_repo": "rdimitrov/go-tuf-metadata",
+      "target": "golangci/golangci-lint-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linting.yml",
+      "source_repo": "rdimitrov/go-tuf-metadata",
+      "target": "Linting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "rdimitrov/go-tuf-metadata",
+      "target": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "rdimitrov/go-tuf-metadata",
+      "target": "arnested/go-version-action@b556f8d91b644164318c709d28b9083eaf0c064d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "rdimitrov/go-tuf-metadata",
+      "target": "actions/setup-go@c4a742cab115ed795e34d4513e2cf7d472deb55f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "rdimitrov/go-tuf-metadata",
+      "target": "codecov/codecov-action@eaaf4bedf32dbdc6b720b63067d99c4d77d6047d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "rdimitrov/go-tuf-metadata",
+      "target": "Tests",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T18:36:26.757967+00:00",
+  "source_repo": "rdimitrov/go-tuf-metadata"
+}

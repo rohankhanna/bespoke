@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nvim-mini/mini.diff",
+      "target": "lewis6991/gitsigns.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nvim-mini/mini.diff",
+      "target": "mini-nvim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nvim-mini/mini.diff",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nvim-mini/mini.diff",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:41:39.440182+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12672
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Work with diff hunks. Part of 'mini.nvim' library. ",
+    "fork": false,
+    "full_name": "nvim-mini/mini.diff",
+    "html_url": "https://github.com/nvim-mini/mini.diff",
+    "language": "Lua",
+    "pushed_at": "2026-04-03T14:02:17Z",
+    "stargazers_count": 216,
+    "topics": [
+      "lua",
+      "mini-nvim",
+      "neovim",
+      "neovim-plugin"
+    ],
+    "updated_at": "2026-04-30T08:45:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lewis6991/gitsigns.nvim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\"> <img src=\"https://github.com/nvim-mini/assets/blob/main/logo-2/logo-diff_readme.png?raw=true\" alt=\"mini.diff\" style=\"max-width:100%;border:solid 2px\"/> </p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mini-nvim"
+    },
+    {
+      "context_snippet": "<p align=\"center\"> <img src=\"https://github.com/nvim-mini/assets/blob/main/logo-2/logo-diff_readme.png?raw=true\" alt=\"mini.diff\" style=\"max-width:100%;border:solid 2px\"/> </p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "<p align=\"center\"> <img src=\"https://github.com/nvim-mini/assets/blob/main/logo-2/logo-diff_readme.png?raw=true\" alt=\"mini.diff\" style=\"max-width:100%;border:solid 2px\"/> </p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    }
+  ]
+}

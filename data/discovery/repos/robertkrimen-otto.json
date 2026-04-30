@@ -1,0 +1,140 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-lint.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-lint.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-lint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yml",
+      "source_repo": "robertkrimen/otto",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yml",
+      "source_repo": "robertkrimen/otto",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yml",
+      "source_repo": "robertkrimen/otto",
+      "target": "goreleaser/goreleaser-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-build.yml",
+      "source_repo": "robertkrimen/otto",
+      "target": "Build Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-lint.yml",
+      "source_repo": "robertkrimen/otto",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-lint.yml",
+      "source_repo": "robertkrimen/otto",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-lint.yml",
+      "source_repo": "robertkrimen/otto",
+      "target": "golangci/golangci-lint-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-lint.yml",
+      "source_repo": "robertkrimen/otto",
+      "target": "Go test and lint",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:48:01.694680+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20340
+    },
+    {
+      "path": "go.mod",
+      "size": 385
+    },
+    {
+      "path": ".github/workflows/release-build.yml",
+      "size": 837
+    },
+    {
+      "path": ".github/workflows/test-lint.yml",
+      "size": 1029
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A JavaScript interpreter in Go (golang)",
+    "fork": false,
+    "full_name": "robertkrimen/otto",
+    "html_url": "https://github.com/robertkrimen/otto",
+    "language": "Go",
+    "pushed_at": "2025-06-13T16:08:31Z",
+    "stargazers_count": 8438,
+    "topics": [],
+    "updated_at": "2026-04-29T11:40:35Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-build.yml",
+      "term": "Build Release"
+    },
+    {
+      "context_snippet": "Go test and lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-lint.yml",
+      "term": "Go test and lint"
+    }
+  ]
+}

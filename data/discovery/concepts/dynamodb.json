@@ -31,6 +31,18 @@
       "source_repo": "aws/aws-sdk-js-v3",
       "status": "candidate-context",
       "text": "![Build Status](https://codebuild.us-west-2.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiMmtFajZWQmNUbEhidnBKN1VncjRrNVI3d0JUcFpGWUd3STh4T3N3Rnljc1BMaEIrYm9HU2t4YTV1RlE1YmlnUG9XM3luY0Ftc2tBc0xTeVFJMkVOa24wPSIsIml2UGFyYW1ldGVyU3BlYyI6IlBDMDl6UEROK1dlU1h1OWciLCJtYXRlcmlhbFNld\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abatilo/github-action-locks",
+      "status": "candidate-context",
+      "text": "Guarantee atomic execution of your GitHub Action workflows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abatilo/github-action-locks",
+      "status": "candidate-context",
+      "text": "[![Main](https://github.com/abatilo/github-action-locks/workflows/Main/badge.svg)](https://github.com/abatilo/github-action-locks/actions?query=workflow%3AMain)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "aws/aws-sdk-js-v3",
       "status": "candidate",
       "text": "![Build Status](https://codebuild.us-west-2.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiMmtFajZWQmNUbEhidnBKN1VncjRrNVI3d0JUcFpGWUd3STh4T3N3Rnljc1BMaEIrYm9HU2t4YTV1RlE1YmlnUG9XM3luY0Ftc2tBc0xTeVFJMkVOa24wPSIsIml2UGFyYW1ldGVyU3BlYyI6IlBDMDl6UEROK1dlU1h1OWciLCJtYXRlcmlhbFNld\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abatilo/github-action-locks",
+      "status": "candidate",
+      "text": "[![Main](https://github.com/abatilo/github-action-locks/workflows/Main/badge.svg)](https://github.com/abatilo/github-action-locks/actions?query=workflow%3AMain)"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "aws/aws-sdk-js-v3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "abatilo/github-action-locks"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

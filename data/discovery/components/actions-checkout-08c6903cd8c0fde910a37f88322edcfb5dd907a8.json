@@ -1,7 +1,7 @@
 {
   "component": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -872,6 +872,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/custard-run.yaml",
       "source_repo": "GoogleCloudPlatform/nodejs-docs-samples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-preview.yml",
+      "source_repo": "storybookjs/addon-cssresources"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "storybookjs/addon-cssresources"
     }
   ]
 }

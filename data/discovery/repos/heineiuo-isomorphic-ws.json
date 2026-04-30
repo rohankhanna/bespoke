@@ -1,0 +1,118 @@
+{
+  "components": [
+    {
+      "component": "ws",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "heineiuo/isomorphic-ws",
+      "target": "ws",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heineiuo/isomorphic-ws",
+      "target": "browser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heineiuo/isomorphic-ws",
+      "target": "isomorphic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heineiuo/isomorphic-ws",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heineiuo/isomorphic-ws",
+      "target": "websocket",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heineiuo/isomorphic-ws",
+      "target": "websockets",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:48:58.044308+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1388
+    },
+    {
+      "path": "package.json",
+      "size": 715
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Isomorphic implementation of WebSocket (https://www.npmjs.com/package/ws)",
+    "fork": false,
+    "full_name": "heineiuo/isomorphic-ws",
+    "html_url": "https://github.com/heineiuo/isomorphic-ws",
+    "language": "JavaScript",
+    "pushed_at": "2023-06-20T06:12:50Z",
+    "stargazers_count": 416,
+    "topics": [
+      "browser",
+      "isomorphic",
+      "nodejs",
+      "websocket",
+      "websockets",
+      "ws"
+    ],
+    "updated_at": "2026-03-05T14:58:03Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Isomorphic implementation of WebSocket.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "browser"
+    },
+    {
+      "context_snippet": "Isomorphic implementation of WebSocket.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "isomorphic"
+    },
+    {
+      "context_snippet": "Isomorphic implementation of WebSocket.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    },
+    {
+      "context_snippet": "Isomorphic implementation of WebSocket.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "websocket"
+    },
+    {
+      "context_snippet": "Isomorphic implementation of WebSocket.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "websockets"
+    }
+  ]
+}

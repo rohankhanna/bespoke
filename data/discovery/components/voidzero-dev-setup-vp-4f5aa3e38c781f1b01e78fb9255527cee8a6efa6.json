@@ -1,0 +1,27 @@
+{
+  "component": "voidzero-dev/setup-vp@4f5aa3e38c781f1b01e78fb9255527cee8a6efa6",
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yml",
+      "source_repo": "rolldown/rolldown"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-node.yml",
+      "source_repo": "rolldown/rolldown"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-rust.yml",
+      "source_repo": "rolldown/rolldown"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rolldown/rolldown"
+    }
+  ]
+}

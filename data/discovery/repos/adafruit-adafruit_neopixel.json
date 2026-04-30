@@ -1,0 +1,104 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/githubci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/githubci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/githubci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adafruit/Adafruit_NeoPixel",
+      "target": "adafruit/ci-arduino",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/githubci.yml",
+      "source_repo": "adafruit/Adafruit_NeoPixel",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/githubci.yml",
+      "source_repo": "adafruit/Adafruit_NeoPixel",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/githubci.yml",
+      "source_repo": "adafruit/Adafruit_NeoPixel",
+      "target": "Arduino Library CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adafruit/Adafruit_NeoPixel",
+      "target": "arduino-library",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:59:00.651364+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8531
+    },
+    {
+      "path": ".github/workflows/githubci.yml",
+      "size": 670
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Arduino library for controlling single-wire LED pixels (NeoPixel, WS2812, etc.)",
+    "fork": false,
+    "full_name": "adafruit/Adafruit_NeoPixel",
+    "html_url": "https://github.com/adafruit/Adafruit_NeoPixel",
+    "language": "C++",
+    "pushed_at": "2026-02-11T17:55:35Z",
+    "stargazers_count": 3370,
+    "topics": [
+      "arduino-library"
+    ],
+    "updated_at": "2026-04-30T08:50:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adafruit/ci-arduino",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Arduino Library CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/githubci.yml",
+      "term": "Arduino Library CI"
+    },
+    {
+      "context_snippet": "Arduino library for controlling single-wire-based LED pixels and strip such as the [Adafruit 60 LED/meter Digital LED strip][strip], the [Adafruit FLORA RGB Smart Pixel][flora], the [Adafruit Breadboard-friendly RGB Smart Pixel][pixel], the [Adafruit NeoPixel Stick][stick], and \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arduino-library"
+    }
+  ]
+}

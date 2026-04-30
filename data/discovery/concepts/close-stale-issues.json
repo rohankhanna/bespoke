@@ -1527,6 +1527,54 @@
       "source_repo": "multiformats/github-mgmt",
       "status": "candidate-context",
       "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wenet-e2e/wenet",
+      "status": "candidate-context",
+      "text": "Production First and Production Ready End-to-End Speech Recognition Toolkit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wenet-e2e/wenet",
+      "status": "candidate-context",
+      "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "10up/actions-wordpress",
+      "status": "candidate-context",
+      "text": "GitHub Actions for WordPress!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "10up/actions-wordpress",
+      "status": "candidate-context",
+      "text": "'Close stale issues'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/live-share",
+      "status": "candidate-context",
+      "text": "Real-time collaborative development from the comfort of your favorite tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/live-share",
+      "status": "candidate-context",
+      "text": "'Close stale issues'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dropwizard/dropwizard",
+      "status": "candidate-context",
+      "text": "A damn simple library for building production-ready RESTful web services."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dropwizard/dropwizard",
+      "status": "candidate-context",
+      "text": "Close stale issues"
     }
   ],
   "candidate_glosses": [
@@ -2321,6 +2369,30 @@
       "source_repo": "multiformats/github-mgmt",
       "status": "candidate",
       "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wenet-e2e/wenet",
+      "status": "candidate",
+      "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "10up/actions-wordpress",
+      "status": "candidate",
+      "text": "'Close stale issues'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/live-share",
+      "status": "candidate",
+      "text": "'Close stale issues'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dropwizard/dropwizard",
+      "status": "candidate",
+      "text": "Close stale issues"
     }
   ],
   "candidate_related_terms": [
@@ -3480,11 +3552,47 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "multiformats/cid"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/stale-issues.yml",
+      "source_repo": "wenet-e2e/wenet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/close-slate-issues.yml",
+      "source_repo": "gobackup/gobackup"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/close-stale-issues.yml",
+      "source_repo": "10up/actions-wordpress"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/CloseInactiveIssues.yml",
+      "source_repo": "microsoft/live-share"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "web3/web3.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/close_stale.yml",
+      "source_repo": "dropwizard/dropwizard"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

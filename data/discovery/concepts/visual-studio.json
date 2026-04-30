@@ -189,6 +189,30 @@
       "source_repo": "microsoft/PTVS",
       "status": "candidate-context",
       "text": "[![Build Status](https://devdiv.visualstudio.com/DevDiv/_apis/build/status/Python/PTVS-Build-Dev17?branchName=main)](https://devdiv.visualstudio.com/DevDiv/_build/latest?definitionId=14121&branchName=main)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/live-share",
+      "status": "candidate-context",
+      "text": "Real-time collaborative development from the comfort of your favorite tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/live-share",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ahmadawais/shades-of-purple-vscode",
+      "status": "candidate-context",
+      "text": "\ud83e\udd84 Shades of Purple offers a hand-picked selection of bold and vibrant shades of purple that will transform your code into a visually stunning masterpiece. With its carefully crafted color palette, this theme brings a sense of style, elegance, and whimsy to your favorite code editor, making your coding sessions a delightful journey of creativity."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ahmadawais/shades-of-purple-vscode",
+      "status": "candidate-context",
+      "text": "shades-of-purple \u2014 \ud83e\udd84 A professional theme suite with hand-picked & bold shades of purple for your VS Code editor and terminal apps. One of the excellent, most downloaded, and top-rated VSCode Themes on the marketplace. Part of VSCode.pro course."
     }
   ],
   "candidate_glosses": [
@@ -281,6 +305,18 @@
       "source_repo": "microsoft/PTVS",
       "status": "candidate",
       "text": "[![Build Status](https://devdiv.visualstudio.com/DevDiv/_apis/build/status/Python/PTVS-Build-Dev17?branchName=main)](https://devdiv.visualstudio.com/DevDiv/_build/latest?definitionId=14121&branchName=main)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/live-share",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ahmadawais/shades-of-purple-vscode",
+      "status": "candidate",
+      "text": "shades-of-purple \u2014 \ud83e\udd84 A professional theme suite with hand-picked & bold shades of purple for your VS Code editor and terminal apps. One of the excellent, most downloaded, and top-rated VSCode Themes on the marketplace. Part of VSCode.pro course."
     }
   ],
   "candidate_related_terms": [],
@@ -378,11 +414,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "microsoft/PTVS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/live-share"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "ahmadawais/shades-of-purple-vscode"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -91,6 +91,30 @@
       "source_repo": "haproxy/haproxy",
       "status": "candidate-context",
       "text": "[![AWS-LC](https://github.com/haproxy/haproxy/actions/workflows/aws-lc.yml/badge.svg)](https://github.com/haproxy/haproxy/actions/workflows/aws-lc.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudflare/cloudflared",
+      "status": "candidate-context",
+      "text": "Cloudflare Tunnel client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudflare/cloudflared",
+      "status": "candidate-context",
+      "text": "Contains the command-line client for Cloudflare Tunnel, a tunneling daemon that proxies traffic from the Cloudflare network to your origins."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fatedier/frp",
+      "status": "candidate-context",
+      "text": "A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fatedier/frp",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://circleci.com/gh/fatedier/frp.svg?style=shield)](https://circleci.com/gh/fatedier/frp)"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +159,18 @@
       "source_repo": "haproxy/haproxy",
       "status": "candidate",
       "text": "[![AWS-LC](https://github.com/haproxy/haproxy/actions/workflows/aws-lc.yml/badge.svg)](https://github.com/haproxy/haproxy/actions/workflows/aws-lc.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudflare/cloudflared",
+      "status": "candidate",
+      "text": "Contains the command-line client for Cloudflare Tunnel, a tunneling daemon that proxies traffic from the Cloudflare network to your origins."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fatedier/frp",
+      "status": "candidate",
+      "text": "[![Build Status](https://circleci.com/gh/fatedier/frp.svg?style=shield)](https://circleci.com/gh/fatedier/frp)"
     }
   ],
   "candidate_related_terms": [],
@@ -184,11 +220,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "haproxy/haproxy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "cloudflare/cloudflared"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "fatedier/frp"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

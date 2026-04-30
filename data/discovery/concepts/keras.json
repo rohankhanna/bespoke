@@ -271,6 +271,18 @@
       "source_repo": "kymatio/kymatio",
       "status": "candidate-context",
       "text": "Kymatio: Wavelet scattering in Python"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ufoym/deepo",
+      "status": "candidate-context",
+      "text": "Setup and customize deep learning environment in seconds."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ufoym/deepo",
+      "status": "candidate-context",
+      "text": "![deepo](https://user-images.githubusercontent.com/2270240/32102393-aecf573c-bb4e-11e7-811c-dc673cae7b9c.png)"
     }
   ],
   "candidate_glosses": [
@@ -405,6 +417,12 @@
       "source_repo": "kymatio/kymatio",
       "status": "candidate",
       "text": "Kymatio: Wavelet scattering in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ufoym/deepo",
+      "status": "candidate",
+      "text": "![deepo](https://user-images.githubusercontent.com/2270240/32102393-aecf573c-bb4e-11e7-811c-dc673cae7b9c.png)"
     }
   ],
   "candidate_related_terms": [
@@ -580,11 +598,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "kymatio/kymatio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "ufoym/deepo"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

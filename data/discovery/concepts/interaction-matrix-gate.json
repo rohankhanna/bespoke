@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Interaction Matrix Gate"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Dicklesworthstone/frankensearch",
+      "status": "candidate-context",
+      "text": "Two-tier hybrid search for Rust: sub-millisecond initial results via potion-128M, quality-refined rankings in 150ms via MiniLM-L6-v2. Combines lexical (Tantivy BM25) and semantic (vector cosine) search with Reciprocal Rank Fusion. Progressive iterator API, f16 SIMD vector index, feature-gated compilation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dicklesworthstone/frankensearch",
+      "status": "candidate-context",
+      "text": "Interaction Matrix Gate"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dicklesworthstone/frankensearch",
+      "status": "candidate",
+      "text": "Interaction Matrix Gate"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17871,
+      "status": "candidate",
+      "text": "commerce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17783,
+      "status": "candidate",
+      "text": "ranking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17770,
+      "status": "candidate",
+      "text": "fold"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17770,
+      "status": "candidate",
+      "text": "lighting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17768,
+      "status": "candidate",
+      "text": "coupling"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Interaction Matrix Gate",
+  "concept_id": "interaction-matrix-gate",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/interaction-matrix-gate.yml",
+      "source_repo": "Dicklesworthstone/frankensearch"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Interaction Matrix Gate",
+      "sense_id": "interaction-matrix-gate#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -205,6 +205,42 @@
       "source_repo": "Dicklesworthstone/coding_agent_session_search",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unum-cloud/UStore",
+      "status": "candidate-context",
+      "text": "Multi-Modal Database replacing MongoDB, Neo4J, and Elastic with 1 faster ACID solution, with NetworkX and Pandas interfaces, and bindings for C 99, C++ 17, Python 3, Java, GoLang \ud83d\uddc4\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unum-cloud/UStore",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">UStore</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Dicklesworthstone/frankensearch",
+      "status": "candidate-context",
+      "text": "Two-tier hybrid search for Rust: sub-millisecond initial results via potion-128M, quality-refined rankings in 150ms via MiniLM-L6-v2. Combines lexical (Tantivy BM25) and semantic (vector cosine) search with Reciprocal Rank Fusion. Progressive iterator API, f16 SIMD vector index, feature-gated compilation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dicklesworthstone/frankensearch",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dat-ecosystem-archive/datBase",
+      "status": "candidate-context",
+      "text": "Open data sharing powered by Dat [ DEPRECATED - More info on active projects and modules at https://dat-ecosystem.org/ ] "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dat-ecosystem-archive/datBase",
+      "status": "candidate-context",
+      "text": "[![deprecated](http://badges.github.io/stability-badges/dist/deprecated.svg)](https://dat-ecosystem.org/)"
     }
   ],
   "candidate_glosses": [
@@ -309,6 +345,24 @@
       "source_repo": "Dicklesworthstone/coding_agent_session_search",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unum-cloud/UStore",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">UStore</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dicklesworthstone/frankensearch",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dat-ecosystem-archive/datBase",
+      "status": "candidate",
+      "text": "[![deprecated](http://badges.github.io/stability-badges/dist/deprecated.svg)](https://dat-ecosystem.org/)"
     }
   ],
   "candidate_related_terms": [
@@ -508,11 +562,35 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "Dicklesworthstone/coding_agent_session_search"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "unum-cloud/UStore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/StringZilla-CLI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "Dicklesworthstone/frankensearch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "dat-ecosystem-archive/datBase"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

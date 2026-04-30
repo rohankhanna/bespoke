@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Promote main to stable branch"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DioxusLabs/dioxus",
+      "status": "candidate-context",
+      "text": "Fullstack app framework for web, desktop, and mobile."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DioxusLabs/dioxus",
+      "status": "candidate-context",
+      "text": "Promote main to stable branch"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DioxusLabs/dioxus",
+      "status": "candidate",
+      "text": "Promote main to stable branch"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44216,
+      "status": "candidate",
+      "text": "outbuilding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43019,
+      "status": "candidate",
+      "text": "outpost"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 42969,
+      "status": "candidate",
+      "text": "string"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 42969,
+      "status": "candidate",
+      "text": "stringing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 42969,
+      "status": "candidate",
+      "text": "strings"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Promote main to stable branch",
+  "concept_id": "promote-main-to-stable-branch",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/promote.yml",
+      "source_repo": "DioxusLabs/dioxus"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Promote main to stable branch",
+      "sense_id": "promote-main-to-stable-branch#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

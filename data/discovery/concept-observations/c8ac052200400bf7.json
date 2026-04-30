@@ -1,0 +1,52 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "module github.com/cloudfoundry/runtime-ci go 1.24.0 require ( github.com/blang/semver v3.5.1+incompatible github.com/onsi/ginkgo/v2 v2.28.1 github.com/onsi/gomega v1.39.1 github.com/spf13/pflag v1.0.10 gopkg.in/yaml.v3 v3.0.1 ) require ( github.com/Masterminds/semver/v3 v3.4.0 /\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "module github.com/cloudfoundry/runtime-ci go 1.24.0 require ( github.com/blang/semver v3.5.1+incompatible github.com/onsi/ginkgo/v2 v2.28.1 github.com/onsi/gomega v1.39.1 github.com/spf13/pflag v1.0.10 gopkg.in/yaml.v3 v3.0.1 ) require ( github.com/Masterminds/semver/v3 v3.4.0 /\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cff-wg-app-runtime-deployments",
+      "sense_id": "cff-wg-app-runtime-deployments#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cff-wg-app-runtime-deployments",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cff-wg-app-runtime-deployments",
+  "observation_id": "c8ac052200400bf7",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "cff-wg-app-runtime-deployments",
+  "source_context_snippet": "module github.com/cloudfoundry/runtime-ci go 1.24.0 require ( github.com/blang/semver v3.5.1+incompatible github.com/onsi/ginkgo/v2 v2.28.1 github.com/onsi/gomega v1.39.1 github.com/spf13/pflag v1.0.10 gopkg.in/yaml.v3 v3.0.1 ) require ( github.com/Masterminds/semver/v3 v3.4.0 /\u2026",
+  "source_file": null,
+  "source_repo": "cloudfoundry/runtime-ci",
+  "source_repo_description": null
+}

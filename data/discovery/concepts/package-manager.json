@@ -679,6 +679,18 @@
       "source_repo": "ehmicky/get-node",
       "status": "candidate-context",
       "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/get-node)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaLang/Pkg.jl",
+      "status": "candidate-context",
+      "text": "Pkg - Package manager for the Julia programming language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLang/Pkg.jl",
+      "status": "candidate-context",
+      "text": "Development repository for Julia's package manager,"
     }
   ],
   "candidate_glosses": [
@@ -1017,6 +1029,12 @@
       "source_repo": "ehmicky/get-node",
       "status": "candidate",
       "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/get-node)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLang/Pkg.jl",
+      "status": "candidate",
+      "text": "Development repository for Julia's package manager,"
     }
   ],
   "candidate_related_terms": [],
@@ -1396,11 +1414,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "ehmicky/get-node"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "JuliaLang/Pkg.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks.nvim"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

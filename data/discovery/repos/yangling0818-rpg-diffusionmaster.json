@@ -1,0 +1,115 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "YangLing0818/RPG-DiffusionMaster",
+      "target": "yangling0818/itercomp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "YangLing0818/RPG-DiffusionMaster",
+      "target": "hako-mikan/sd-webui-regional-prompter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YangLing0818/RPG-DiffusionMaster",
+      "target": "image-editting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YangLing0818/RPG-DiffusionMaster",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YangLing0818/RPG-DiffusionMaster",
+      "target": "multimodal-large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YangLing0818/RPG-DiffusionMaster",
+      "target": "text-to-image",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:43:05.732914+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 29199
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1978
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICML 2024] Mastering Text-to-Image Diffusion: Recaptioning, Planning, and Generating with Multimodal LLMs (RPG)",
+    "fork": false,
+    "full_name": "YangLing0818/RPG-DiffusionMaster",
+    "html_url": "https://github.com/YangLing0818/RPG-DiffusionMaster",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-02-01T13:28:48Z",
+    "stargazers_count": 1844,
+    "topics": [
+      "image-editting",
+      "large-language-models",
+      "multimodal-large-language-models",
+      "text-to-image"
+    ],
+    "updated_at": "2026-04-25T08:51:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hako-mikan/sd-webui-regional-prompter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yangling0818/itercomp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<a href=\"https://trendshift.io/repositories/7230\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/7230\" alt=\"YangLing0818%2FRPG-DiffusionMaster | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-editting"
+    },
+    {
+      "context_snippet": "<a href=\"https://trendshift.io/repositories/7230\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/7230\" alt=\"YangLing0818%2FRPG-DiffusionMaster | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "<a href=\"https://trendshift.io/repositories/7230\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/7230\" alt=\"YangLing0818%2FRPG-DiffusionMaster | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimodal-large-language-models"
+    },
+    {
+      "context_snippet": "<a href=\"https://trendshift.io/repositories/7230\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/7230\" alt=\"YangLing0818%2FRPG-DiffusionMaster | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-image"
+    }
+  ]
+}

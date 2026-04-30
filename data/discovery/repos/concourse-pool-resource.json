@@ -1,0 +1,49 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "concourse/pool-resource",
+      "target": "proxytunnel/proxytunnel",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:04:23.210213+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12807
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1649
+    },
+    {
+      "path": "go.mod",
+      "size": 835
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Atomically manages the state of the world (e.g. external environments)",
+    "fork": false,
+    "full_name": "concourse/pool-resource",
+    "html_url": "https://github.com/concourse/pool-resource",
+    "language": "Go",
+    "pushed_at": "2026-02-26T18:26:00Z",
+    "stargazers_count": 59,
+    "topics": [],
+    "updated_at": "2026-02-26T18:11:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "proxytunnel/proxytunnel",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": []
+}

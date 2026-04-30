@@ -21,6 +21,18 @@
       "source_repo": "apple/swift-crypto",
       "status": "candidate-context",
       "text": "Swift Crypto is an open-source implementation of a substantial portion of the API of [Apple CryptoKit](https://developer.apple.com/documentation/cryptokit) suitable for use on Linux and ARM64 Windows platforms. It enables cross-platform or server applications with the advantages\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RustCrypto/elliptic-curves",
+      "status": "candidate-context",
+      "text": "Collection of pure Rust elliptic curve implementations: NIST P-224, P-256, P-384, P-521, secp256k1, SM2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RustCrypto/elliptic-curves",
+      "status": "candidate-context",
+      "text": "General purpose Elliptic Curve Cryptography (ECC) support, including types"
     }
   ],
   "candidate_glosses": [
@@ -29,6 +41,12 @@
       "source_repo": "apple/swift-crypto",
       "status": "candidate",
       "text": "Swift Crypto is an open-source implementation of a substantial portion of the API of [Apple CryptoKit](https://developer.apple.com/documentation/cryptokit) suitable for use on Linux and ARM64 Windows platforms. It enables cross-platform or server applications with the advantages\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RustCrypto/elliptic-curves",
+      "status": "candidate",
+      "text": "General purpose Elliptic Curve Cryptography (ECC) support, including types"
     }
   ],
   "candidate_related_terms": [
@@ -90,11 +108,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "apple/swift-crypto"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "RustCrypto/elliptic-curves"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

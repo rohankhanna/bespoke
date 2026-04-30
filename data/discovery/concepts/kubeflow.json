@@ -67,6 +67,18 @@
       "source_repo": "kubeflow/sdk",
       "status": "candidate-context",
       "text": "[![PyPI version](https://img.shields.io/pypi/v/kubeflow?color=%2334D058&label=pypi%20package)](https://pypi.org/project/kubeflow/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubeflow/pipelines",
+      "status": "candidate-context",
+      "text": "Machine Learning Pipelines for Kubeflow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubeflow/pipelines",
+      "status": "candidate-context",
+      "text": "[![SDK Documentation Status](https://readthedocs.org/projects/kubeflow-pipelines/badge/?version=latest)](https://kubeflow-pipelines.readthedocs.io/en/stable/?badge=latest)"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "kubeflow/sdk",
       "status": "candidate",
       "text": "[![PyPI version](https://img.shields.io/pypi/v/kubeflow?color=%2334D058&label=pypi%20package)](https://pypi.org/project/kubeflow/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubeflow/pipelines",
+      "status": "candidate",
+      "text": "[![SDK Documentation Status](https://readthedocs.org/projects/kubeflow-pipelines/badge/?version=latest)](https://kubeflow-pipelines.readthedocs.io/en/stable/?badge=latest)"
     }
   ],
   "candidate_related_terms": [
@@ -178,11 +196,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "kubeflow/sdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "kubeflow/pipelines"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,83 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Homebox-Projects-Index",
+      "target": "danielrosehill/home-inventory-ai-assistants",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Homebox-Projects-Index",
+      "target": "danielrosehill/homebox-desktop-wrapper-appimage",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Homebox-Projects-Index",
+      "target": "homebox",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Homebox-Projects-Index",
+      "target": "indexes",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:59:24.274517+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3067
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Index of Homebox related projects (home inventory system)",
+    "fork": false,
+    "full_name": "danielrosehill/Homebox-Projects-Index",
+    "html_url": "https://github.com/danielrosehill/Homebox-Projects-Index",
+    "language": null,
+    "pushed_at": "2026-03-27T17:15:08Z",
+    "stargazers_count": 2,
+    "topics": [
+      "homebox",
+      "indexes"
+    ],
+    "updated_at": "2026-03-27T17:15:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/home-inventory-ai-assistants",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/homebox-desktop-wrapper-appimage",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A curated index of Daniel Rosehill's Homebox-related projects and tools.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "homebox"
+    },
+    {
+      "context_snippet": "A curated index of Daniel Rosehill's Homebox-related projects and tools.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "indexes"
+    }
+  ]
+}

@@ -79,6 +79,18 @@
       "source_repo": "arangodb/arangodb",
       "status": "candidate-context",
       "text": "<picture>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jaredwray/keyv",
+      "status": "candidate-context",
+      "text": "Simple key-value storage with support for multiple backends"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaredwray/keyv",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\"><img width=\"250\" src=\"https://jaredwray.com/images/keyv.svg\" alt=\"keyv\"></h1>"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "arangodb/arangodb",
       "status": "candidate",
       "text": "<picture>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaredwray/keyv",
+      "status": "candidate",
+      "text": "<h1 align=\"center\"><img width=\"250\" src=\"https://jaredwray.com/images/keyv.svg\" alt=\"keyv\"></h1>"
     }
   ],
   "candidate_related_terms": [
@@ -280,11 +298,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "olric-data/olric"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "jaredwray/keyv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "Mithril-mine/libmdbx"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

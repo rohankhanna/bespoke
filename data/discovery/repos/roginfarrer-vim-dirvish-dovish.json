@@ -1,0 +1,98 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "roginfarrer/vim-dirvish-dovish",
+      "target": "sindresorhus/trash-cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "roginfarrer/vim-dirvish-dovish",
+      "target": "melandel/desktop",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "roginfarrer/vim-dirvish-dovish",
+      "target": "file-management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "roginfarrer/vim-dirvish-dovish",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "roginfarrer/vim-dirvish-dovish",
+      "target": "vim-dirvish",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:59:37.527659+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3058
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "File manipulation commands for vim-dirvish",
+    "fork": false,
+    "full_name": "roginfarrer/vim-dirvish-dovish",
+    "html_url": "https://github.com/roginfarrer/vim-dirvish-dovish",
+    "language": "Vim script",
+    "pushed_at": "2022-06-10T12:51:14Z",
+    "stargazers_count": 44,
+    "topics": [
+      "file-management",
+      "neovim",
+      "vim",
+      "vim-dirvish"
+    ],
+    "updated_at": "2025-05-17T19:19:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "melandel/desktop",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sindresorhus/trash-cli",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> The file manipulation commands for [vim-dirvish][dirvish] that you've always wanted",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "file-management"
+    },
+    {
+      "context_snippet": "> The file manipulation commands for [vim-dirvish][dirvish] that you've always wanted",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "> The file manipulation commands for [vim-dirvish][dirvish] that you've always wanted",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-dirvish"
+    }
+  ]
+}

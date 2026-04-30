@@ -1,0 +1,203 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation_coverage.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation_coverage.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rspec.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rspec.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rspec.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rspec.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rspec.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rspec.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rubocop.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rubocop.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rspec/rspec",
+      "target": "rspec/rspec-rails",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rspec/rspec",
+      "target": "RSpec CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation_coverage.yml",
+      "source_repo": "rspec/rspec",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation_coverage.yml",
+      "source_repo": "rspec/rspec",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/documentation_coverage.yml",
+      "source_repo": "rspec/rspec",
+      "target": "Run Documentation Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rspec.yml",
+      "source_repo": "rspec/rspec",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rspec.yml",
+      "source_repo": "rspec/rspec",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rspec.yml",
+      "source_repo": "rspec/rspec",
+      "target": "Run RSpec",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rubocop.yml",
+      "source_repo": "rspec/rspec",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rubocop.yml",
+      "source_repo": "rspec/rspec",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rubocop.yml",
+      "source_repo": "rspec/rspec",
+      "target": "Run Rubocop",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:50:00.788633+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4098
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 792
+    },
+    {
+      "path": ".github/workflows/documentation_coverage.yml",
+      "size": 735
+    },
+    {
+      "path": ".github/workflows/rspec.yml",
+      "size": 2286
+    },
+    {
+      "path": ".github/workflows/rubocop.yml",
+      "size": 363
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The RSpec monorepo",
+    "fork": false,
+    "full_name": "rspec/rspec",
+    "html_url": "https://github.com/rspec/rspec",
+    "language": "Ruby",
+    "pushed_at": "2026-04-28T19:41:36Z",
+    "stargazers_count": 93,
+    "topics": [],
+    "updated_at": "2026-04-28T19:41:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rspec/rspec-rails",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "RSpec CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "RSpec CI"
+    },
+    {
+      "context_snippet": "Run Documentation Checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/documentation_coverage.yml",
+      "term": "Run Documentation Checks"
+    },
+    {
+      "context_snippet": "Run RSpec",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rspec.yml",
+      "term": "Run RSpec"
+    },
+    {
+      "context_snippet": "Run Rubocop",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rubocop.yml",
+      "term": "Run Rubocop"
+    }
+  ]
+}

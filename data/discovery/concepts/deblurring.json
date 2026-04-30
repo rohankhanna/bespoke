@@ -19,6 +19,18 @@
       "source_repo": "mv-lab/AISP",
       "status": "candidate-context",
       "text": "[![isp](https://img.shields.io/badge/ISP-paper-lightgreen)](https://arxiv.org/abs/2201.03210)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JingyunLiang/RVRT",
+      "status": "candidate-context",
+      "text": "Recurrent Video Restoration Transformer with Guided Deformable Attention (NeurlPS2022, official repository)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JingyunLiang/RVRT",
+      "status": "candidate-context",
+      "text": "[arxiv](https://arxiv.org/abs/2206.02146)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "mv-lab/AISP",
       "status": "candidate",
       "text": "[![isp](https://img.shields.io/badge/ISP-paper-lightgreen)](https://arxiv.org/abs/2201.03210)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JingyunLiang/RVRT",
+      "status": "candidate",
+      "text": "[arxiv](https://arxiv.org/abs/2206.02146)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "mv-lab/AISP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "JingyunLiang/RVRT"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

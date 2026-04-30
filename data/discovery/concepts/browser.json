@@ -598,6 +598,42 @@
       "source_repo": "opal/opal",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "decibri/decibri",
+      "status": "candidate-context",
+      "text": "Audio capture, playback, and processing for Node.js and the browser. One Rust codebase, zero system dependencies."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "decibri/decibri",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable MD033 MD041 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jaredwray/keyv",
+      "status": "candidate-context",
+      "text": "Simple key-value storage with support for multiple backends"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaredwray/keyv",
+      "status": "candidate-context",
+      "text": "browser"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heineiuo/isomorphic-ws",
+      "status": "candidate-context",
+      "text": "Isomorphic implementation of WebSocket (https://www.npmjs.com/package/ws)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heineiuo/isomorphic-ws",
+      "status": "candidate-context",
+      "text": "Isomorphic implementation of WebSocket."
     }
   ],
   "candidate_glosses": [
@@ -894,6 +930,24 @@
       "source_repo": "opal/opal",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "decibri/decibri",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable MD033 MD041 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaredwray/keyv",
+      "status": "candidate",
+      "text": "browser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heineiuo/isomorphic-ws",
+      "status": "candidate",
+      "text": "Isomorphic implementation of WebSocket."
     }
   ],
   "candidate_related_terms": [
@@ -1395,11 +1449,53 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "Level/levelup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "decibri/decibri"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/browser-compat.yaml",
+      "source_repo": "jaredwray/keyv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "heineiuo/isomorphic-ws"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "browserify/browserify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "standard/snazzy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "criteo/mesos-term"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

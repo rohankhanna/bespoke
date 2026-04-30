@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Numpy's Sphinx extensions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build Wheel and Release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build Wheel and Release"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18767,
+      "status": "candidate",
+      "text": "spare"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17969,
+      "status": "candidate",
+      "text": "base"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17969,
+      "status": "candidate",
+      "text": "settle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17930,
+      "status": "candidate",
+      "text": "press"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17930,
+      "status": "candidate",
+      "text": "take"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Wheel and Release",
+      "sense_id": "build-wheel-and-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-wheel-and-release",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-wheel-and-release",
+  "observation_id": "fc41e26a8a900eca",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "Build Wheel and Release",
+  "source_context_snippet": "Build Wheel and Release",
+  "source_file": ".github/workflows/release.yml",
+  "source_repo": "numpy/numpydoc",
+  "source_repo_description": "Numpy's Sphinx extensions"
+}

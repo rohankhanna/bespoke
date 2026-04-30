@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "WebKitForWindows/WebKitRequirements",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reqcheck.yml",
+      "source_repo": "WebKitForWindows/WebKitRequirements",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reqcheck.yml",
+      "source_repo": "WebKitForWindows/WebKitRequirements",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reqcheck.yml",
+      "source_repo": "WebKitForWindows/WebKitRequirements",
+      "target": "robinraju/release-downloader@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reqcheck.yml",
+      "source_repo": "WebKitForWindows/WebKitRequirements",
+      "target": "slackapi/slack-github-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reqcheck.yml",
+      "source_repo": "WebKitForWindows/WebKitRequirements",
+      "target": "Check requirements",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T18:36:26.757967+00:00",
+  "source_repo": "WebKitForWindows/WebKitRequirements"
+}

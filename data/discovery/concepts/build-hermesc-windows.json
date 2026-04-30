@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "build-hermesc-windows"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebook/hermes",
+      "status": "candidate-context",
+      "text": "A JavaScript engine optimized for running React Native."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/hermes",
+      "status": "candidate-context",
+      "text": "build-hermesc-windows"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/hermes",
+      "status": "candidate",
+      "text": "build-hermesc-windows"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "build-hermesc-windows",
+  "concept_id": "build-hermesc-windows",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/build-hermesc-windows.yml",
+      "source_repo": "facebook/hermes"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "build-hermesc-windows",
+      "sense_id": "build-hermesc-windows#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

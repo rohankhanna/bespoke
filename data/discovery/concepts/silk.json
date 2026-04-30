@@ -19,6 +19,18 @@
       "source_repo": "dotnet/Silk.NET",
       "status": "candidate-context",
       "text": "<!-- Begin exclude from NuGet readme. -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "domkm/silk",
+      "status": "candidate-context",
+      "text": "Routing for Clojure & ClojureScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "domkm/silk",
+      "status": "candidate-context",
+      "text": "The core functionality of Silk in `domkm.silk` is fully compatible with both Clojure and ClojureScript and was designed to be so from the ground up."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "dotnet/Silk.NET",
       "status": "candidate",
       "text": "<!-- Begin exclude from NuGet readme. -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "domkm/silk",
+      "status": "candidate",
+      "text": "The core functionality of Silk in `domkm.silk` is fully compatible with both Clojure and ClojureScript and was designed to be so from the ground up."
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "dotnet/Silk.NET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "domkm/silk"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

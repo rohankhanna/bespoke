@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Run checks on push"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dreamscached/i18next-cli-plugin-svelte",
+      "status": "candidate-context",
+      "text": "\ud83d\udcdc i18next-cli plugin to extract Javascript/Typescript from Svelte components"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dreamscached/i18next-cli-plugin-svelte",
+      "status": "candidate-context",
+      "text": "Run checks on push"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dreamscached/i18next-cli-plugin-svelte",
+      "status": "candidate",
+      "text": "Run checks on push"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26556,
+      "status": "candidate",
+      "text": "jostle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26156,
+      "status": "candidate",
+      "text": "jog"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26156,
+      "status": "candidate",
+      "text": "race"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19402,
+      "status": "candidate",
+      "text": "speed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19402,
+      "status": "candidate",
+      "text": "stick"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Run checks on push",
+  "concept_id": "run-checks-on-push",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "dreamscached/i18next-cli-plugin-svelte"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Run checks on push",
+      "sense_id": "run-checks-on-push#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

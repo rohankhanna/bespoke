@@ -1,0 +1,105 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "distatus/battery",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "distatus/battery",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "distatus/battery",
+      "target": "tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "distatus/battery",
+      "target": "battery",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "distatus/battery",
+      "target": "cross-platform",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T20:03:20.735206+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1841
+    },
+    {
+      "path": "go.mod",
+      "size": 107
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 590
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "cross-platform, normalized battery information library",
+    "fork": false,
+    "full_name": "distatus/battery",
+    "html_url": "https://github.com/distatus/battery",
+    "language": "Go",
+    "pushed_at": "2023-09-27T07:39:30Z",
+    "stargazers_count": 272,
+    "topics": [
+      "battery",
+      "cross-platform",
+      "go"
+    ],
+    "updated_at": "2026-04-18T04:34:20Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "tests"
+    },
+    {
+      "context_snippet": "battery [![Build Status](https://github.com/distatus/battery/actions/workflows/tests.yml/badge.svg?branch=master)](https://github.com/distatus/battery/actions/workflows/tests.yml) [![Go Report Card](https://goreportcard.com/badge/github.com/distatus/battery)](https://goreportcar\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "battery"
+    },
+    {
+      "context_snippet": "battery [![Build Status](https://github.com/distatus/battery/actions/workflows/tests.yml/badge.svg?branch=master)](https://github.com/distatus/battery/actions/workflows/tests.yml) [![Go Report Card](https://goreportcard.com/badge/github.com/distatus/battery)](https://goreportcar\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-platform"
+    }
+  ]
+}

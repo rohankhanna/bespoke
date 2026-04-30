@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83e\udebd An open, easy, fast, reliable and battery-efficient solution for real-time communications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h1 align=\"center\"><a href=\"https://mercure.rocks\"><img src=\"public/mercure.svg\" alt=\"Mercure: Real-time Made Easy\" title=\"Live Updates Made Easy\"></a></h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h1 align=\"center\"><a href=\"https://mercure.rocks\"><img src=\"public/mercure.svg\" alt=\"Mercure: Real-time Made Easy\" title=\"Live Updates Made Easy\"></a></h1>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "server-sent-events",
+      "sense_id": "server-sent-events#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "server-sent-events",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "server-sent-events",
+  "observation_id": "c3318f5147d42fdd",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "server-sent-events",
+  "source_context_snippet": "<h1 align=\"center\"><a href=\"https://mercure.rocks\"><img src=\"public/mercure.svg\" alt=\"Mercure: Real-time Made Easy\" title=\"Live Updates Made Easy\"></a></h1>",
+  "source_file": null,
+  "source_repo": "dunglas/mercure",
+  "source_repo_description": "\ud83e\udebd An open, easy, fast, reliable and battery-efficient solution for real-time communications"
+}

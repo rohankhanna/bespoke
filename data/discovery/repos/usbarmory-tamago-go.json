@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T19:51:31.932872+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1454
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The Go programming language",
+    "fork": true,
+    "full_name": "usbarmory/tamago-go",
+    "html_url": "https://github.com/usbarmory/tamago-go",
+    "language": "Go",
+    "pushed_at": "2026-04-08T11:29:36Z",
+    "stargazers_count": 58,
+    "topics": [],
+    "updated_at": "2026-03-28T14:03:14Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

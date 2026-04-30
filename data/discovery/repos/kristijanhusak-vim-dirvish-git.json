@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kristijanhusak/vim-dirvish-git",
+      "target": "xuyuanp/nerdtree-git-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kristijanhusak/vim-dirvish-git",
+      "target": "scrooloose/nerdtree",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kristijanhusak/vim-dirvish-git",
+      "target": "dirvish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kristijanhusak/vim-dirvish-git",
+      "target": "neovim",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:59:41.725709+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2962
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Git support for dirvish.vim",
+    "fork": false,
+    "full_name": "kristijanhusak/vim-dirvish-git",
+    "html_url": "https://github.com/kristijanhusak/vim-dirvish-git",
+    "language": "Vim script",
+    "pushed_at": "2022-05-21T04:42:46Z",
+    "stargazers_count": 57,
+    "topics": [
+      "dirvish",
+      "git",
+      "neovim",
+      "vim"
+    ],
+    "updated_at": "2025-02-07T19:46:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "scrooloose/nerdtree",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xuyuanp/nerdtree-git-plugin",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Plugin for [dirvish.vim](https://github.com/justinmk/vim-dirvish) that shows git status flags.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dirvish"
+    },
+    {
+      "context_snippet": "Plugin for [dirvish.vim](https://github.com/justinmk/vim-dirvish) that shows git status flags.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    }
+  ]
+}

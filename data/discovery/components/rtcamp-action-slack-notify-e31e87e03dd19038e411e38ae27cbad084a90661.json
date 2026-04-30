@@ -1,0 +1,17 @@
+{
+  "component": "rtCamp/action-slack-notify@e31e87e03dd19038e411e38ae27cbad084a90661",
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-preview.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenTimelineIO"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-publish.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenTimelineIO"
+    }
+  ]
+}

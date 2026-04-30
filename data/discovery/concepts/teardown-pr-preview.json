@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Teardown PR Preview"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/echarts",
+      "status": "candidate-context",
+      "text": "Apache ECharts is a powerful, interactive charting and data visualization library for browser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/echarts",
+      "status": "candidate-context",
+      "text": "Teardown PR Preview"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/echarts",
+      "status": "candidate",
+      "text": "Teardown PR Preview"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22312,
+      "status": "candidate",
+      "text": "bit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22312,
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22312,
+      "status": "candidate",
+      "text": "spin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22312,
+      "status": "candidate",
+      "text": "stunt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14381,
+      "status": "candidate",
+      "text": "abortion"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Teardown PR Preview",
+  "concept_id": "teardown-pr-preview",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/teardown-pr-preview.yml",
+      "source_repo": "apache/echarts"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Teardown PR Preview",
+      "sense_id": "teardown-pr-preview#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

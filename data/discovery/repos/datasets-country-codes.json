@@ -1,0 +1,71 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "datasets/country-codes",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "datasets/country-codes",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "datasets/country-codes",
+      "target": "Run Makefile with Selenium",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:58:38.830212+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3719
+    },
+    {
+      "path": ".github/workflows/actions.yml",
+      "size": 1737
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Comprehensive country code information, including ISO 3166 codes, ITU dialing codes, ISO 4217 currency codes, and many others",
+    "fork": false,
+    "full_name": "datasets/country-codes",
+    "html_url": "https://github.com/datasets/country-codes",
+    "language": "Python",
+    "pushed_at": "2026-04-01T02:59:16Z",
+    "stargazers_count": 973,
+    "topics": [],
+    "updated_at": "2026-04-20T11:00:22Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Run Makefile with Selenium",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/actions.yml",
+      "term": "Run Makefile with Selenium"
+    }
+  ]
+}

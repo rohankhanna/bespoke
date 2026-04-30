@@ -7,16 +7,9 @@
       "source_repo": "pacstall/pacup",
       "target": "pacstall/pacup.pl",
       "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "pacstall/pacup",
-      "target": "xzfc/cached-nix-shell",
-      "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-04-30T14:03:21.111635+00:00",
+  "fetched_at": "2026-04-30T19:01:52.457912+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -41,11 +34,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "pacstall/pacup.pl",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "xzfc/cached-nix-shell",
       "source_file": "README.md"
     }
   ],

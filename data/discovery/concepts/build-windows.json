@@ -93,6 +93,18 @@
       "source_repo": "lesismal/arpc",
       "status": "candidate-context",
       "text": "build-windows"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "getlantern/lantern",
+      "status": "candidate-context",
+      "text": "Open-source VPN for speed, privacy, and censorship circumvention. Free to download on Android, iOS, Windows, macOS, and Linux."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getlantern/lantern",
+      "status": "candidate-context",
+      "text": "Build Windows"
     }
   ],
   "candidate_glosses": [
@@ -137,6 +149,12 @@
       "source_repo": "lesismal/arpc",
       "status": "candidate",
       "text": "build-windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getlantern/lantern",
+      "status": "candidate",
+      "text": "Build Windows"
     }
   ],
   "candidate_related_terms": [
@@ -222,11 +240,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/build_windows.yml",
       "source_repo": "lesismal/arpc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "getlantern/lantern"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

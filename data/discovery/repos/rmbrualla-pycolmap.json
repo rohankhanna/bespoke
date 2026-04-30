@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T18:40:16.821741+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 490
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 359
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Python interface for COLMAP reconstructions",
+    "fork": true,
+    "full_name": "rmbrualla/pycolmap",
+    "html_url": "https://github.com/rmbrualla/pycolmap",
+    "language": "Python",
+    "pushed_at": "2024-07-28T09:46:45Z",
+    "stargazers_count": 20,
+    "topics": [],
+    "updated_at": "2026-04-09T02:10:06Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

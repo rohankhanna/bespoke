@@ -55,6 +55,18 @@
       "source_repo": "walles/riff",
       "status": "candidate-context",
       "text": "Riff is a wrapper around `diff` that highlights which parts of lines have changed."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JustusAdam/language-haskell",
+      "status": "candidate-context",
+      "text": "Highlighting support for the Haskell language in visual studio code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JustusAdam/language-haskell",
+      "status": "candidate-context",
+      "text": "Syntax highlighting support for Haskell and associated languages (e.g. Cabal, Happy and Alex) in Visual Studio Code."
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "walles/riff",
       "status": "candidate",
       "text": "Riff is a wrapper around `diff` that highlights which parts of lines have changed."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JustusAdam/language-haskell",
+      "status": "candidate",
+      "text": "Syntax highlighting support for Haskell and associated languages (e.g. Cabal, Happy and Alex) in Visual Studio Code."
     }
   ],
   "candidate_related_terms": [
@@ -168,11 +186,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "highlightjs/highlight.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "JustusAdam/language-haskell"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

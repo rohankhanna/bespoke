@@ -418,7 +418,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "emotion-js/emotion",
-      "target": "kyleshevlin/shevyjs",
+      "target": "nuxt-community/emotion-module",
       "target_type": "repository"
     },
     {
@@ -432,7 +432,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "emotion-js/emotion",
-      "target": "itswendell/emotion-native-extended",
+      "target": "muhajirdev/monad-ui",
       "target_type": "repository"
     },
     {
@@ -1003,7 +1003,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T08:26:34.457485+00:00",
+  "fetched_at": "2026-04-30T18:52:49.670327+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1051,17 +1051,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "itswendell/emotion-native-extended",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "kyleshevlin/shevyjs",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "mrmartineau/design-system-utils",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "muhajirdev/monad-ui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nuxt-community/emotion-module",
       "source_file": "README.md"
     }
   ],

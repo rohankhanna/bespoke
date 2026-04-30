@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "graalvm-dev"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graalvm/graalvm-ce-dev-builds",
+      "status": "candidate-context",
+      "text": "GraalVM Dev Build Downloads"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graalvm/graalvm-ce-dev-builds",
+      "status": "candidate-context",
+      "text": "This repository hosts [GraalVM CE](https://github.com/oracle/graal/) [dev builds](https://github.com/graalvm/graalvm-ce-dev-builds/releases/) based on OpenJDK."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graalvm/graalvm-ce-dev-builds",
+      "status": "candidate",
+      "text": "This repository hosts [GraalVM CE](https://github.com/oracle/graal/) [dev builds](https://github.com/graalvm/graalvm-ce-dev-builds/releases/) based on OpenJDK."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "graalvm-dev",
+  "concept_id": "graalvm-dev",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "graalvm/graalvm-ce-dev-builds"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "graalvm-dev",
+      "sense_id": "graalvm-dev#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

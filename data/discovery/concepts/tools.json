@@ -319,6 +319,30 @@
       "source_repo": "HumanSignal/labelImg",
       "status": "candidate-context",
       "text": ".. image:: /readme/images/labelimg.png"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "f4pga/prjxray",
+      "status": "candidate-context",
+      "text": "Documenting the Xilinx 7-series bit-stream format."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "f4pga/prjxray",
+      "status": "candidate-context",
+      "text": "[![Documentation Status](https://img.shields.io/readthedocs/prjxray?longCache=true&style=flat-square&logo=ReadTheDocs&logoColor=fff)](http://prjxray.readthedocs.org/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "veggiemonk/awesome-docker",
+      "status": "candidate-context",
+      "text": ":whale: A curated list of Docker resources and projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "veggiemonk/awesome-docker",
+      "status": "candidate-context",
+      "text": "> A curated list of Docker resources and projects"
     }
   ],
   "candidate_glosses": [
@@ -477,6 +501,18 @@
       "source_repo": "HumanSignal/labelImg",
       "status": "candidate",
       "text": ".. image:: /readme/images/labelimg.png"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "f4pga/prjxray",
+      "status": "candidate",
+      "text": "[![Documentation Status](https://img.shields.io/readthedocs/prjxray?longCache=true&style=flat-square&logo=ReadTheDocs&logoColor=fff)](http://prjxray.readthedocs.org/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "veggiemonk/awesome-docker",
+      "status": "candidate",
+      "text": "> A curated list of Docker resources and projects"
     }
   ],
   "candidate_related_terms": [
@@ -736,11 +772,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "phodal/coca"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "f4pga/prjxray"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "veggiemonk/awesome-docker"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

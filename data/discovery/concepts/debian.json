@@ -106,6 +106,18 @@
       "source_repo": "git-cola/git-cola",
       "status": "candidate-context",
       "text": "Git Cola is a powerful Git GUI with a slick and intuitive user interface."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "drduh/Router-Guide",
+      "status": "candidate-context",
+      "text": "Guide to building a Linux or BSD router on the PC Engines APU platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drduh/Router-Guide",
+      "status": "candidate-context",
+      "text": "**Important** After many years of service, the PC Engines APU platform is now [EOL](https://www.pcengines.ch/eol.htm)."
     }
   ],
   "candidate_glosses": [
@@ -156,6 +168,12 @@
       "source_repo": "git-cola/git-cola",
       "status": "candidate",
       "text": "Git Cola is a powerful Git GUI with a slick and intuitive user interface."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drduh/Router-Guide",
+      "status": "candidate",
+      "text": "**Important** After many years of service, the PC Engines APU platform is now [EOL](https://www.pcengines.ch/eol.htm)."
     }
   ],
   "candidate_related_terms": [
@@ -258,11 +276,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/debian.yaml",
       "source_repo": "simdjson/simdjson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "drduh/Router-Guide"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

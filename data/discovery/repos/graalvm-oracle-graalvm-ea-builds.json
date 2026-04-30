@@ -1,0 +1,190 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/micronaut.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/micronaut.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reachability-metadata.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reachability-metadata.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reachability-metadata.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reachability-metadata.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spring.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spring.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/micronaut.yml",
+      "source_repo": "graalvm/oracle-graalvm-ea-builds",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/micronaut.yml",
+      "source_repo": "graalvm/oracle-graalvm-ea-builds",
+      "target": "Micronaut Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reachability-metadata.yml",
+      "source_repo": "graalvm/oracle-graalvm-ea-builds",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reachability-metadata.yml",
+      "source_repo": "graalvm/oracle-graalvm-ea-builds",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reachability-metadata.yml",
+      "source_repo": "graalvm/oracle-graalvm-ea-builds",
+      "target": "Reachability Metadata Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spring.yml",
+      "source_repo": "graalvm/oracle-graalvm-ea-builds",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spring.yml",
+      "source_repo": "graalvm/oracle-graalvm-ea-builds",
+      "target": "Spring Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "graalvm/oracle-graalvm-ea-builds",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "graalvm/oracle-graalvm-ea-builds",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "graalvm/oracle-graalvm-ea-builds",
+      "target": "Validate",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:55:58.126278+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1302
+    },
+    {
+      "path": ".github/workflows/micronaut.yml",
+      "size": 3495
+    },
+    {
+      "path": ".github/workflows/reachability-metadata.yml",
+      "size": 4469
+    },
+    {
+      "path": ".github/workflows/spring.yml",
+      "size": 2998
+    },
+    {
+      "path": ".github/workflows/validate.yml",
+      "size": 439
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Oracle GraalVM early access builds",
+    "fork": false,
+    "full_name": "graalvm/oracle-graalvm-ea-builds",
+    "html_url": "https://github.com/graalvm/oracle-graalvm-ea-builds",
+    "language": "Python",
+    "pushed_at": "2026-04-29T12:41:32Z",
+    "stargazers_count": 40,
+    "topics": [],
+    "updated_at": "2026-04-29T12:41:37Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Micronaut Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/micronaut.yml",
+      "term": "Micronaut Tests"
+    },
+    {
+      "context_snippet": "Reachability Metadata Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reachability-metadata.yml",
+      "term": "Reachability Metadata Tests"
+    },
+    {
+      "context_snippet": "Spring Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spring.yml",
+      "term": "Spring Tests"
+    },
+    {
+      "context_snippet": "Validate",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate.yml",
+      "term": "Validate"
+    }
+  ]
+}

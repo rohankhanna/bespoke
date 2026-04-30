@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83e\udebd An open, easy, fast, reliable and battery-efficient solution for real-time communications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h1 align=\"center\"><a href=\"https://mercure.rocks\"><img src=\"public/mercure.svg\" alt=\"Mercure: Real-time Made Easy\" title=\"Live Updates Made Easy\"></a></h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h1 align=\"center\"><a href=\"https://mercure.rocks\"><img src=\"public/mercure.svg\" alt=\"Mercure: Real-time Made Easy\" title=\"Live Updates Made Easy\"></a></h1>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024351,
+      "status": "candidate",
+      "text": "hypermedia system"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024351,
+      "status": "candidate",
+      "text": "interactive multimedia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024351,
+      "status": "candidate",
+      "text": "interactive multimedia system"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024349,
+      "status": "candidate",
+      "text": "hypermedium"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024348,
+      "status": "candidate",
+      "text": "hypertext"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hypermedia",
+      "sense_id": "hypermedia#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "hypermedia system"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8,
+      "status": "candidate",
+      "text": "interactive multimedia system"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "interactive multimedia"
+    }
+  ],
+  "concept_id": "hypermedia",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "hypermedia",
+  "observation_id": "23e0b2fb25c1e7c7",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "hypermedia",
+  "source_context_snippet": "<h1 align=\"center\"><a href=\"https://mercure.rocks\"><img src=\"public/mercure.svg\" alt=\"Mercure: Real-time Made Easy\" title=\"Live Updates Made Easy\"></a></h1>",
+  "source_file": null,
+  "source_repo": "dunglas/mercure",
+  "source_repo_description": "\ud83e\udebd An open, easy, fast, reliable and battery-efficient solution for real-time communications"
+}

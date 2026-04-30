@@ -31,6 +31,18 @@
       "source_repo": "sorintlab/stolon",
       "status": "candidate-context",
       "text": "[![Build Status](https://run.agola.io/api/v1alpha/badges/org%2Fstolon%2Fstolon?branch=master)](https://run.agola.io/org/stolon/projects/stolon.proj)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jaredwray/keyv",
+      "status": "candidate-context",
+      "text": "Simple key-value storage with support for multiple backends"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaredwray/keyv",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\"><img width=\"250\" src=\"https://jaredwray.com/images/keyv.svg\" alt=\"keyv\"></h1>"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "sorintlab/stolon",
       "status": "candidate",
       "text": "[![Build Status](https://run.agola.io/api/v1alpha/badges/org%2Fstolon%2Fstolon?branch=master)](https://run.agola.io/org/stolon/projects/stolon.proj)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaredwray/keyv",
+      "status": "candidate",
+      "text": "<h1 align=\"center\"><img width=\"250\" src=\"https://jaredwray.com/images/keyv.svg\" alt=\"keyv\"></h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "etcd-io/etcd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "jaredwray/keyv"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

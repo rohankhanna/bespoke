@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build and Test Pyrefly Website"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebook/pyrefly",
+      "status": "candidate-context",
+      "text": "A fast type checker and language server for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/pyrefly",
+      "status": "candidate-context",
+      "text": "Build and Test Pyrefly Website"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/pyrefly",
+      "status": "candidate",
+      "text": "Build and Test Pyrefly Website"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19917,
+      "status": "candidate",
+      "text": "site"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18763,
+      "status": "candidate",
+      "text": "house"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18733,
+      "status": "candidate",
+      "text": "page"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18594,
+      "status": "candidate",
+      "text": "level"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18534,
+      "status": "candidate",
+      "text": "base"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build and Test Pyrefly Website",
+  "concept_id": "build-and-test-pyrefly-website",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/build_and_test_website.yml",
+      "source_repo": "facebook/pyrefly"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build and Test Pyrefly Website",
+      "sense_id": "build-and-test-pyrefly-website#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

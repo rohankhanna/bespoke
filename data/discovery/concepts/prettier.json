@@ -112,6 +112,18 @@
       "source_repo": "Sec-ant/prettier-plugin-embed",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Beaglefoot/prettier-plugin-awk",
+      "status": "candidate-context",
+      "text": "AWK plugin for Prettier code formatter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Beaglefoot/prettier-plugin-awk",
+      "status": "candidate-context",
+      "text": "[![tests](https://github.com/Beaglefoot/prettier-plugin-awk/actions/workflows/tests.yml/badge.svg)](https://github.com/Beaglefoot/prettier-plugin-awk/actions/workflows/tests.yml)"
     }
   ],
   "candidate_glosses": [
@@ -168,6 +180,12 @@
       "source_repo": "Sec-ant/prettier-plugin-embed",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Beaglefoot/prettier-plugin-awk",
+      "status": "candidate",
+      "text": "[![tests](https://github.com/Beaglefoot/prettier-plugin-awk/actions/workflows/tests.yml/badge.svg)](https://github.com/Beaglefoot/prettier-plugin-awk/actions/workflows/tests.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -265,11 +283,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "Sec-ant/prettier-plugin-embed"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "Beaglefoot/prettier-plugin-awk"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

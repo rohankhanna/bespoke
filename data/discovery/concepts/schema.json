@@ -223,6 +223,18 @@
       "source_repo": "carueda/cfg",
       "status": "candidate-context",
       "text": "Type safety all the way from configuration spec to configuration access in Scala"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apollographql/supergraph-demo",
+      "status": "candidate-context",
+      "text": "\ud83c\udf7f Compose subgraphs into a Federation v1 supergraph at build-time with static composition to power a federated graph router at runtime."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/supergraph-demo",
+      "status": "candidate-context",
+      "text": "![smoke test](https://github.com/apollographql/supergraph-demo/actions/workflows/main.yml/badge.svg)"
     }
   ],
   "candidate_glosses": [
@@ -333,6 +345,12 @@
       "source_repo": "carueda/cfg",
       "status": "candidate",
       "text": "Type safety all the way from configuration spec to configuration access in Scala"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/supergraph-demo",
+      "status": "candidate",
+      "text": "![smoke test](https://github.com/apollographql/supergraph-demo/actions/workflows/main.yml/badge.svg)"
     }
   ],
   "candidate_related_terms": [
@@ -510,11 +528,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "carueda/cfg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/supergraph-demo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "Urigo/graphql-cli"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

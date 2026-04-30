@@ -1,0 +1,254 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JingyunLiang/RVRT",
+      "target": "jingyunliang/vrt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JingyunLiang/RVRT",
+      "target": "xinntao/basicsr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JingyunLiang/RVRT",
+      "target": "open-mmlab/mmediting",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JingyunLiang/RVRT",
+      "target": "deblurring",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JingyunLiang/RVRT",
+      "target": "denoising",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JingyunLiang/RVRT",
+      "target": "low-level-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JingyunLiang/RVRT",
+      "target": "restoraton",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JingyunLiang/RVRT",
+      "target": "super-resolution",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JingyunLiang/RVRT",
+      "target": "transformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JingyunLiang/RVRT",
+      "target": "video",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JingyunLiang/RVRT",
+      "target": "video-deblurring",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JingyunLiang/RVRT",
+      "target": "video-denoising",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JingyunLiang/RVRT",
+      "target": "video-restoration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JingyunLiang/RVRT",
+      "target": "video-sr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JingyunLiang/RVRT",
+      "target": "video-super-resolution",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JingyunLiang/RVRT",
+      "target": "vision-transformer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:39:31.131108+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20871
+    },
+    {
+      "path": "requirements.txt",
+      "size": 118
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Recurrent Video Restoration Transformer with Guided Deformable Attention (NeurlPS2022, official repository)",
+    "fork": false,
+    "full_name": "JingyunLiang/RVRT",
+    "html_url": "https://github.com/JingyunLiang/RVRT",
+    "language": "Python",
+    "pushed_at": "2022-10-10T09:22:49Z",
+    "stargazers_count": 440,
+    "topics": [
+      "deblurring",
+      "denoising",
+      "low-level-vision",
+      "restoraton",
+      "sr",
+      "super-resolution",
+      "transformer",
+      "video",
+      "video-deblurring",
+      "video-denoising",
+      "video-restoration",
+      "video-sr",
+      "video-super-resolution",
+      "vision-transformer"
+    ],
+    "updated_at": "2026-04-27T12:54:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jingyunliang/vrt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "open-mmlab/mmediting",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xinntao/basicsr",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[arxiv](https://arxiv.org/abs/2206.02146)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deblurring"
+    },
+    {
+      "context_snippet": "[arxiv](https://arxiv.org/abs/2206.02146)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "denoising"
+    },
+    {
+      "context_snippet": "[arxiv](https://arxiv.org/abs/2206.02146)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "low-level-vision"
+    },
+    {
+      "context_snippet": "[arxiv](https://arxiv.org/abs/2206.02146)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "restoraton"
+    },
+    {
+      "context_snippet": "[arxiv](https://arxiv.org/abs/2206.02146)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "super-resolution"
+    },
+    {
+      "context_snippet": "[arxiv](https://arxiv.org/abs/2206.02146)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    },
+    {
+      "context_snippet": "[arxiv](https://arxiv.org/abs/2206.02146)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video"
+    },
+    {
+      "context_snippet": "[arxiv](https://arxiv.org/abs/2206.02146)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-deblurring"
+    },
+    {
+      "context_snippet": "[arxiv](https://arxiv.org/abs/2206.02146)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-denoising"
+    },
+    {
+      "context_snippet": "[arxiv](https://arxiv.org/abs/2206.02146)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-restoration"
+    },
+    {
+      "context_snippet": "[arxiv](https://arxiv.org/abs/2206.02146)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-sr"
+    },
+    {
+      "context_snippet": "[arxiv](https://arxiv.org/abs/2206.02146)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-super-resolution"
+    },
+    {
+      "context_snippet": "[arxiv](https://arxiv.org/abs/2206.02146)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-transformer"
+    }
+  ]
+}

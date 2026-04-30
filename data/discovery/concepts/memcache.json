@@ -19,6 +19,18 @@
       "source_repo": "bradfitz/gomemcache",
       "status": "candidate-context",
       "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/bradfitz/gomemcache/memcache.svg)](https://pkg.go.dev/github.com/bradfitz/gomemcache/memcache)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jaredwray/keyv",
+      "status": "candidate-context",
+      "text": "Simple key-value storage with support for multiple backends"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaredwray/keyv",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\"><img width=\"250\" src=\"https://jaredwray.com/images/keyv.svg\" alt=\"keyv\"></h1>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "bradfitz/gomemcache",
       "status": "candidate",
       "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/bradfitz/gomemcache/memcache.svg)](https://pkg.go.dev/github.com/bradfitz/gomemcache/memcache)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaredwray/keyv",
+      "status": "candidate",
+      "text": "<h1 align=\"center\"><img width=\"250\" src=\"https://jaredwray.com/images/keyv.svg\" alt=\"keyv\"></h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "bradfitz/gomemcache"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "jaredwray/keyv"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83c\udf7f Compose subgraphs into a Federation v1 supergraph at build-time with static composition to power a federated graph router at runtime."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![smoke test](https://github.com/apollographql/supergraph-demo/actions/workflows/main.yml/badge.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![smoke test](https://github.com/apollographql/supergraph-demo/actions/workflows/main.yml/badge.svg)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19840547,
+      "status": "candidate",
+      "text": "isomorphism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030499,
+      "status": "candidate",
+      "text": "supergraph"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030498,
+      "status": "candidate",
+      "text": "subpath"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030497,
+      "status": "candidate",
+      "text": "graphlet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030496,
+      "status": "candidate",
+      "text": "subhypergraph"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "subgraph",
+      "sense_id": "subgraph#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "subgraph",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "subgraph",
+  "observation_id": "48cc297372732371",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "subgraph",
+  "source_context_snippet": "![smoke test](https://github.com/apollographql/supergraph-demo/actions/workflows/main.yml/badge.svg)",
+  "source_file": null,
+  "source_repo": "apollographql/supergraph-demo",
+  "source_repo_description": "\ud83c\udf7f Compose subgraphs into a Federation v1 supergraph at build-time with static composition to power a federated graph router at runtime."
+}

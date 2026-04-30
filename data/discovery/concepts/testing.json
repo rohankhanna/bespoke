@@ -1103,6 +1103,30 @@
       "source_repo": "ardalis/HttpClientTestExtensions",
       "status": "candidate-context",
       "text": "[![.NET Build and Test](https://github.com/ardalis/HttpClientTestExtensions/workflows/.NET%20Build%20and%20Test/badge.svg)](https://github.com/ardalis/HttpClientTestExtensions/actions?query=workflow%3A%22.NET+Build+and+Test%22)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "testcontainers/testcontainers-rs",
+      "status": "candidate-context",
+      "text": "A library for integration-testing against docker containers from within Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "testcontainers/testcontainers-rs",
+      "status": "candidate-context",
+      "text": "![Continuous Integration](https://github.com/testcontainers/testcontainers-rs/actions/workflows/ci.yml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Quick/Quick",
+      "status": "candidate-context",
+      "text": "The Swift (and Objective-C) testing framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Quick/Quick",
+      "status": "candidate-context",
+      "text": "![](http://f.cl.ly/items/0r1E192C1R0b2g2Q3h2w/QuickLogo_Color.png)"
     }
   ],
   "candidate_glosses": [
@@ -1651,6 +1675,18 @@
       "source_repo": "ardalis/HttpClientTestExtensions",
       "status": "candidate",
       "text": "[![.NET Build and Test](https://github.com/ardalis/HttpClientTestExtensions/workflows/.NET%20Build%20and%20Test/badge.svg)](https://github.com/ardalis/HttpClientTestExtensions/actions?query=workflow%3A%22.NET+Build+and+Test%22)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "testcontainers/testcontainers-rs",
+      "status": "candidate",
+      "text": "![Continuous Integration](https://github.com/testcontainers/testcontainers-rs/actions/workflows/ci.yml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Quick/Quick",
+      "status": "candidate",
+      "text": "![](http://f.cl.ly/items/0r1E192C1R0b2g2Q3h2w/QuickLogo_Color.png)"
     }
   ],
   "candidate_related_terms": [
@@ -2385,11 +2421,35 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "ardalis/HttpClientTestExtensions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "testcontainers/testcontainers-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "Quick/Quick"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/luarocks-tag-release"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

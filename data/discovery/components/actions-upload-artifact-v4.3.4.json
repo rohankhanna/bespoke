@@ -1,0 +1,37 @@
+{
+  "component": "actions/upload-artifact@v4.3.4",
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-android.yml",
+      "source_repo": "facebook/hermes"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-apple-slices-hermes.yml",
+      "source_repo": "facebook/hermes"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-hermes-macos.yml",
+      "source_repo": "facebook/hermes"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-hermesc-apple.yml",
+      "source_repo": "facebook/hermes"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-hermesc-linux.yml",
+      "source_repo": "facebook/hermes"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-hermesc-windows.yml",
+      "source_repo": "facebook/hermes"
+    }
+  ]
+}

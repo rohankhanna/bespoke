@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "stenciljs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "benelan/neotest-stenciljs",
+      "status": "candidate-context",
+      "text": "An unofficial StencilJS adapter for the \"neotest\" nvim plugin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "benelan/neotest-stenciljs",
+      "status": "candidate-context",
+      "text": "This plugin provides a [StencilJS](https://stenciljs.com) adapter for the"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "benelan/neotest-stenciljs",
+      "status": "candidate",
+      "text": "This plugin provides a [StencilJS](https://stenciljs.com) adapter for the"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "stenciljs",
+  "concept_id": "stenciljs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "benelan/neotest-stenciljs"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "stenciljs",
+      "sense_id": "stenciljs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,128 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "domkm/silk",
+      "target": "bidirectional",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "domkm/silk",
+      "target": "clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "domkm/silk",
+      "target": "clojurescript",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "domkm/silk",
+      "target": "isomorphic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "domkm/silk",
+      "target": "routing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "domkm/silk",
+      "target": "silk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "domkm/silk",
+      "target": "silk-routes",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:00:13.858814+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7780
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Routing for Clojure & ClojureScript",
+    "fork": false,
+    "full_name": "domkm/silk",
+    "html_url": "https://github.com/domkm/silk",
+    "language": "Clojure",
+    "pushed_at": "2022-01-04T23:48:51Z",
+    "stargazers_count": 224,
+    "topics": [
+      "bidirectional",
+      "clojure",
+      "clojurescript",
+      "isomorphic",
+      "routing",
+      "silk",
+      "silk-routes"
+    ],
+    "updated_at": "2025-06-17T02:52:15Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "The core functionality of Silk in `domkm.silk` is fully compatible with both Clojure and ClojureScript and was designed to be so from the ground up.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bidirectional"
+    },
+    {
+      "context_snippet": "The core functionality of Silk in `domkm.silk` is fully compatible with both Clojure and ClojureScript and was designed to be so from the ground up.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    },
+    {
+      "context_snippet": "The core functionality of Silk in `domkm.silk` is fully compatible with both Clojure and ClojureScript and was designed to be so from the ground up.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojurescript"
+    },
+    {
+      "context_snippet": "The core functionality of Silk in `domkm.silk` is fully compatible with both Clojure and ClojureScript and was designed to be so from the ground up.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "isomorphic"
+    },
+    {
+      "context_snippet": "The core functionality of Silk in `domkm.silk` is fully compatible with both Clojure and ClojureScript and was designed to be so from the ground up.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "routing"
+    },
+    {
+      "context_snippet": "The core functionality of Silk in `domkm.silk` is fully compatible with both Clojure and ClojureScript and was designed to be so from the ground up.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "silk"
+    },
+    {
+      "context_snippet": "The core functionality of Silk in `domkm.silk` is fully compatible with both Clojure and ClojureScript and was designed to be so from the ground up.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "silk-routes"
+    }
+  ]
+}

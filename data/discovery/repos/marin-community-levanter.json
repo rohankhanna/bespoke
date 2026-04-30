@@ -141,7 +141,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "marin-community/levanter",
-      "target": "patrick-kidger/equinox",
+      "target": "stanford-crfm/haliax",
       "target_type": "repository"
     },
     {
@@ -411,7 +411,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T02:02:32.779819+00:00",
+  "fetched_at": "2026-04-30T18:44:26.971189+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -486,7 +486,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "patrick-kidger/equinox",
+      "full_name": "stanford-crfm/haliax",
       "source_file": "README.md"
     }
   ],

@@ -1,0 +1,159 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "0x2a-42/lelwel",
+      "target": "0x2a-42/nvim-lelwel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "0x2a-42/lelwel",
+      "target": "maciejhirsz/logos",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "0x2a-42/lelwel",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "0x2a-42/lelwel",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0x2a-42/lelwel",
+      "target": "grammar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0x2a-42/lelwel",
+      "target": "parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0x2a-42/lelwel",
+      "target": "parser-generator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0x2a-42/lelwel",
+      "target": "parsing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0x2a-42/lelwel",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:40:52.303301+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 24988
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1468
+    },
+    {
+      "path": ".github/workflows/rust.yml",
+      "size": 425
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Resilient LL(1) parser generator for Rust",
+    "fork": false,
+    "full_name": "0x2a-42/lelwel",
+    "html_url": "https://github.com/0x2a-42/lelwel",
+    "language": "Rust",
+    "pushed_at": "2026-04-16T20:51:08Z",
+    "stargazers_count": 193,
+    "topics": [
+      "grammar",
+      "parser",
+      "parser-generator",
+      "parsing",
+      "rust"
+    ],
+    "updated_at": "2026-04-16T20:51:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "0x2a-42/nvim-lelwel",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "maciejhirsz/logos",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "[![Crates.io](https://img.shields.io/crates/v/lelwel)](https://crates.io/crates/lelwel)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grammar"
+    },
+    {
+      "context_snippet": "[![Crates.io](https://img.shields.io/crates/v/lelwel)](https://crates.io/crates/lelwel)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parser"
+    },
+    {
+      "context_snippet": "[![Crates.io](https://img.shields.io/crates/v/lelwel)](https://crates.io/crates/lelwel)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parser-generator"
+    },
+    {
+      "context_snippet": "[![Crates.io](https://img.shields.io/crates/v/lelwel)](https://crates.io/crates/lelwel)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parsing"
+    },
+    {
+      "context_snippet": "[![Crates.io](https://img.shields.io/crates/v/lelwel)](https://crates.io/crates/lelwel)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

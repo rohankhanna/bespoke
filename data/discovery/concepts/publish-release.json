@@ -285,6 +285,18 @@
       "source_repo": "mdn/data",
       "status": "candidate-context",
       "text": "publish-release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AcademySoftwareFoundation/OpenTimelineIO",
+      "status": "candidate-context",
+      "text": "Open Source API and interchange format for editorial timeline information."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AcademySoftwareFoundation/OpenTimelineIO",
+      "status": "candidate-context",
+      "text": "Publish Release"
     }
   ],
   "candidate_glosses": [
@@ -425,6 +437,12 @@
       "source_repo": "mdn/data",
       "status": "candidate",
       "text": "publish-release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AcademySoftwareFoundation/OpenTimelineIO",
+      "status": "candidate",
+      "text": "Publish Release"
     }
   ],
   "candidate_related_terms": [
@@ -666,11 +684,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/publish-release.yml",
       "source_repo": "mdn/data"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/release-publish.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenTimelineIO"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/publish_release.yml",
+      "source_repo": "swiftlang/swift-syntax"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

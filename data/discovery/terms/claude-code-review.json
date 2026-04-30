@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -281,6 +281,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/claude-code-review.yml",
       "source_repo": "cachix/secretspec"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/claude_review.yml",
+      "source_repo": "NVIDIA/nvidia-resiliency-ext"
     }
   ],
   "term": "Claude Code Review"

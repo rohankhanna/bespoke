@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "TUF Augmentation Proposals (TAPs)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "* [TAP 1: TAP Purpose and Guidelines](tap1.md)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "* [TAP 1: TAP Purpose and Guidelines](tap1.md)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29984944,
+      "status": "candidate",
+      "text": "software system"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29984943,
+      "status": "candidate",
+      "text": "firmware"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29984317,
+      "status": "candidate",
+      "text": "courseware"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29984267,
+      "status": "candidate",
+      "text": "computer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29983942,
+      "status": "candidate",
+      "text": "informatics"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "software",
+      "sense_id": "software#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10,
+      "status": "candidate",
+      "text": "software system"
+    }
+  ],
+  "concept_id": "software",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "software",
+  "observation_id": "f1d6485586547f7d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "software",
+  "source_context_snippet": "* [TAP 1: TAP Purpose and Guidelines](tap1.md)",
+  "source_file": null,
+  "source_repo": "theupdateframework/taps",
+  "source_repo_description": "TUF Augmentation Proposals (TAPs)"
+}

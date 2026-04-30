@@ -5095,6 +5095,78 @@
       "source_repo": "soubhiksanyal/RingNet",
       "status": "candidate-context",
       "text": "![alt text](https://github.com/soubhiksanyal/RingNet/blob/master/gif/celeba_reconstruction.gif?raw=true)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ufoym/deepo",
+      "status": "candidate-context",
+      "text": "Setup and customize deep learning environment in seconds."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ufoym/deepo",
+      "status": "candidate-context",
+      "text": "![deepo](https://user-images.githubusercontent.com/2270240/32102393-aecf573c-bb4e-11e7-811c-dc673cae7b9c.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "1adrianb/expert-binary-networks",
+      "status": "candidate-context",
+      "text": "Code for High-Capacity Expert Binary Networks (ICLR 2021)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1adrianb/expert-binary-networks",
+      "status": "candidate-context",
+      "text": "This code provides the core components for building networks based on the architectures and Expert Binary Convolutional Block introduced in the _High-Capacity Expert Binary Networks_ paper. You can find the full version of the paper [here](https://arxiv.org/pdf/2010.03558)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/make-a-video-pytorch",
+      "status": "candidate-context",
+      "text": "Implementation of Make-A-Video, new SOTA text to video generator from Meta AI, in Pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/make-a-video-pytorch",
+      "status": "candidate-context",
+      "text": "<img src=\"./make-a-video.png\" width=\"400px\"></img>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "multimodal-art-projection/YuE",
+      "status": "candidate-context",
+      "text": "YuE: Open Full-song Music Generation Foundation Model, something similar to Suno.ai but open"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "multimodal-art-projection/YuE",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cvg/LightGlue",
+      "status": "candidate-context",
+      "text": "LightGlue: Local Feature Matching at Light Speed (ICCV 2023)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cvg/LightGlue",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "VikParuchuri/texify",
+      "status": "candidate-context",
+      "text": "Math OCR model that outputs LaTeX and markdown"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VikParuchuri/texify",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
     }
   ],
   "candidate_glosses": [
@@ -7647,6 +7719,42 @@
       "source_repo": "soubhiksanyal/RingNet",
       "status": "candidate",
       "text": "![alt text](https://github.com/soubhiksanyal/RingNet/blob/master/gif/celeba_reconstruction.gif?raw=true)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ufoym/deepo",
+      "status": "candidate",
+      "text": "![deepo](https://user-images.githubusercontent.com/2270240/32102393-aecf573c-bb4e-11e7-811c-dc673cae7b9c.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1adrianb/expert-binary-networks",
+      "status": "candidate",
+      "text": "This code provides the core components for building networks based on the architectures and Expert Binary Convolutional Block introduced in the _High-Capacity Expert Binary Networks_ paper. You can find the full version of the paper [here](https://arxiv.org/pdf/2010.03558)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/make-a-video-pytorch",
+      "status": "candidate",
+      "text": "<img src=\"./make-a-video.png\" width=\"400px\"></img>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "multimodal-art-projection/YuE",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cvg/LightGlue",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VikParuchuri/texify",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
     }
   ],
   "candidate_related_terms": [],
@@ -11062,11 +11170,107 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "soubhiksanyal/RingNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "webdataset/webdataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "deepspeedai/DeepSpeed"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "ufoym/deepo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "docarray/docarray"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "1adrianb/expert-binary-networks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "cuiziteng/ICCV_MAET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml-agent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml-pycharm-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/make-a-video-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "multimodal-art-projection/YuE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/tapnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "cvg/LightGlue"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "VikParuchuri/texify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/lab"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

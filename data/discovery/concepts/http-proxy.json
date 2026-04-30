@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "http-proxy"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apernet/hysteria",
+      "status": "candidate-context",
+      "text": "Hysteria is a powerful, lightning fast and censorship resistant proxy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apernet/hysteria",
+      "status": "candidate-context",
+      "text": "[![License][1]][2] [![Release][3]][4] [![Telegram][5]][6] [![Discussions][7]][8]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fatedier/frp",
+      "status": "candidate-context",
+      "text": "A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fatedier/frp",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://circleci.com/gh/fatedier/frp.svg?style=shield)](https://circleci.com/gh/fatedier/frp)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apernet/hysteria",
+      "status": "candidate",
+      "text": "[![License][1]][2] [![Release][3]][4] [![Telegram][5]][6] [![Discussions][7]][8]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fatedier/frp",
+      "status": "candidate",
+      "text": "[![Build Status](https://circleci.com/gh/fatedier/frp.svg?style=shield)](https://circleci.com/gh/fatedier/frp)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "http-proxy",
+  "concept_id": "http-proxy",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "apernet/hysteria"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "fatedier/frp"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "http-proxy",
+      "sense_id": "http-proxy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

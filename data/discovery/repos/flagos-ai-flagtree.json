@@ -61,20 +61,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "flagos-ai/FlagTree",
-      "target": "microsoft/triton-shared",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "flagos-ai/FlagTree",
-      "target": "flagos-ai/flir",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "flagos-ai/FlagTree",
       "target": "flagtree/llvm-project",
       "target_type": "repository"
     },
@@ -212,7 +198,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T09:25:11.413180+00:00",
+  "fetched_at": "2026-04-30T20:00:05.156589+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -265,24 +251,14 @@
     "html_url": "https://github.com/flagos-ai/FlagTree",
     "language": "C++",
     "pushed_at": "2026-04-30T09:15:08Z",
-    "stargazers_count": 255,
+    "stargazers_count": 256,
     "topics": [],
-    "updated_at": "2026-04-29T12:53:23Z"
+    "updated_at": "2026-04-30T09:49:23Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "flagos-ai/flir",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "flagtree/llvm-project",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "microsoft/triton-shared",
       "source_file": "README.md"
     }
   ],

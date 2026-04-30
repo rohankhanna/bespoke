@@ -1,0 +1,186 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle.yml"
+    },
+    {
+      "component": "actions/stale@v10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle.yml",
+      "source_repo": "michel-kraemer/bson4jackson",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle.yml",
+      "source_repo": "michel-kraemer/bson4jackson",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "michel-kraemer/bson4jackson",
+      "target": "actions/stale@v10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "michel-kraemer/bson4jackson",
+      "target": "Close stale issues and PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "michel-kraemer/bson4jackson",
+      "target": "binary",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "michel-kraemer/bson4jackson",
+      "target": "bson",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "michel-kraemer/bson4jackson",
+      "target": "jackson",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "michel-kraemer/bson4jackson",
+      "target": "jackson-json-processor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "michel-kraemer/bson4jackson",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "michel-kraemer/bson4jackson",
+      "target": "json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "michel-kraemer/bson4jackson",
+      "target": "mongodb",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:54:20.670585+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2839
+    },
+    {
+      "path": ".github/workflows/gradle.yml",
+      "size": 517
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 1606
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83e\uddac A pluggable BSON generator and parser for the Jackson JSON processor.",
+    "fork": false,
+    "full_name": "michel-kraemer/bson4jackson",
+    "html_url": "https://github.com/michel-kraemer/bson4jackson",
+    "language": "Java",
+    "pushed_at": "2026-04-28T21:23:02Z",
+    "stargazers_count": 299,
+    "topics": [
+      "binary",
+      "bson",
+      "jackson",
+      "jackson-json-processor",
+      "java",
+      "json",
+      "mongodb"
+    ],
+    "updated_at": "2026-04-12T18:13:23Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Close stale issues and PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Close stale issues and PRs"
+    },
+    {
+      "context_snippet": "This library adds support for [BSON](https://bsonspec.org) to the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "binary"
+    },
+    {
+      "context_snippet": "This library adds support for [BSON](https://bsonspec.org) to the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bson"
+    },
+    {
+      "context_snippet": "This library adds support for [BSON](https://bsonspec.org) to the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jackson"
+    },
+    {
+      "context_snippet": "This library adds support for [BSON](https://bsonspec.org) to the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jackson-json-processor"
+    },
+    {
+      "context_snippet": "This library adds support for [BSON](https://bsonspec.org) to the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "This library adds support for [BSON](https://bsonspec.org) to the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json"
+    },
+    {
+      "context_snippet": "This library adds support for [BSON](https://bsonspec.org) to the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mongodb"
+    }
+  ]
+}

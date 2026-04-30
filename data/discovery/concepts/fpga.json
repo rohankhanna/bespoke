@@ -139,6 +139,30 @@
       "source_repo": "amaranth-lang/amaranth-soc",
       "status": "candidate-context",
       "text": "TODO"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "enjoy-digital/litex",
+      "status": "candidate-context",
+      "text": "Build your hardware, easily!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enjoy-digital/litex",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"https://raw.githubusercontent.com/enjoy-digital/litex/master/doc/litex.png\"></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "f4pga/prjxray",
+      "status": "candidate-context",
+      "text": "Documenting the Xilinx 7-series bit-stream format."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "f4pga/prjxray",
+      "status": "candidate-context",
+      "text": "[![Documentation Status](https://img.shields.io/readthedocs/prjxray?longCache=true&style=flat-square&logo=ReadTheDocs&logoColor=fff)](http://prjxray.readthedocs.org/)"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +231,18 @@
       "source_repo": "amaranth-lang/amaranth-soc",
       "status": "candidate",
       "text": "TODO"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enjoy-digital/litex",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"https://raw.githubusercontent.com/enjoy-digital/litex/master/doc/litex.png\"></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "f4pga/prjxray",
+      "status": "candidate",
+      "text": "[![Documentation Status](https://img.shields.io/readthedocs/prjxray?longCache=true&style=flat-square&logo=ReadTheDocs&logoColor=fff)](http://prjxray.readthedocs.org/)"
     }
   ],
   "candidate_related_terms": [
@@ -316,11 +352,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "amaranth-lang/amaranth-soc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "enjoy-digital/litex"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "f4pga/prjxray"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

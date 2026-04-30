@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "swaywm/swaybg",
+      "target": "sway",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "swaywm/swaybg",
+      "target": "wayland",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "swaywm/swaybg",
+      "target": "wlroots",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:49:35.093036+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1026
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Wallpaper tool for Wayland compositors",
+    "fork": false,
+    "full_name": "swaywm/swaybg",
+    "html_url": "https://github.com/swaywm/swaybg",
+    "language": "C",
+    "pushed_at": "2026-02-25T23:19:14Z",
+    "stargazers_count": 755,
+    "topics": [
+      "sway",
+      "wayland",
+      "wlroots"
+    ],
+    "updated_at": "2026-04-30T10:52:19Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "swaybg is a wallpaper utility for Wayland compositors. It is compatible with",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sway"
+    },
+    {
+      "context_snippet": "swaybg is a wallpaper utility for Wayland compositors. It is compatible with",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wayland"
+    },
+    {
+      "context_snippet": "swaybg is a wallpaper utility for Wayland compositors. It is compatible with",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wlroots"
+    }
+  ]
+}

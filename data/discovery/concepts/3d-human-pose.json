@@ -55,6 +55,18 @@
       "source_repo": "mks0601/3DMPPE_ROOTNET_RELEASE",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hongsukchoi/Pose2Mesh_RELEASE",
+      "status": "candidate-context",
+      "text": "Official Pytorch implementation of \"Pose2Mesh: Graph Convolutional Network for 3D Human Pose and Mesh Recovery from a 2D Human Pose\", ECCV 2020"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hongsukchoi/Pose2Mesh_RELEASE",
+      "status": "candidate-context",
+      "text": "![pose to mesh](./asset/pose_mesh.png)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "mks0601/3DMPPE_ROOTNET_RELEASE",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hongsukchoi/Pose2Mesh_RELEASE",
+      "status": "candidate",
+      "text": "![pose to mesh](./asset/pose_mesh.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -124,11 +142,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "jeffffffli/res-loglikelihood-regression"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "hongsukchoi/Pose2Mesh_RELEASE"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "YukihoAA/waifu2x_snowshell",
+      "target": "nihui/waifu2x-ncnn-vulkan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "YukihoAA/waifu2x_snowshell",
+      "target": "nihui/realcugan-ncnn-vulkan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "YukihoAA/waifu2x_snowshell",
+      "target": "xinntao/real-esrgan-ncnn-vulkan",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:40:34.320232+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5526
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Multilingual waifu2x GUI shell for windows x64",
+    "fork": false,
+    "full_name": "YukihoAA/waifu2x_snowshell",
+    "html_url": "https://github.com/YukihoAA/waifu2x_snowshell",
+    "language": "C++",
+    "pushed_at": "2023-03-09T16:13:23Z",
+    "stargazers_count": 627,
+    "topics": [],
+    "updated_at": "2026-04-22T09:52:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nihui/realcugan-ncnn-vulkan",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nihui/waifu2x-ncnn-vulkan",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xinntao/real-esrgan-ncnn-vulkan",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

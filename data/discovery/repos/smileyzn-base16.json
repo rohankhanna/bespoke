@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SmileYzn/base16",
+      "target": "lite-xl/lite-xl-widgets",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:00:35.127830+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 459
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Base16 colors plugin for lite-xl editor",
+    "fork": false,
+    "full_name": "SmileYzn/base16",
+    "html_url": "https://github.com/SmileYzn/base16",
+    "language": "Lua",
+    "pushed_at": "2024-04-24T14:00:59Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2026-03-27T19:50:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lite-xl/lite-xl-widgets",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

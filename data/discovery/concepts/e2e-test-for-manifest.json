@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "E2E Test for Manifest"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "module-federation/core",
+      "status": "candidate-context",
+      "text": "Module Federation is a concept that allows developers to share code and resources across multiple JavaScript applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "module-federation/core",
+      "status": "candidate-context",
+      "text": "E2E Test for Manifest"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "module-federation/core",
+      "status": "candidate",
+      "text": "E2E Test for Manifest"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11853,
+      "status": "candidate",
+      "text": "prove"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11853,
+      "status": "candidate",
+      "text": "proving"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11616,
+      "status": "candidate",
+      "text": "evidence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11616,
+      "status": "candidate",
+      "text": "look"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11616,
+      "status": "candidate",
+      "text": "real"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "E2E Test for Manifest",
+  "concept_id": "e2e-test-for-manifest",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/e2e-manifest.yml",
+      "source_repo": "module-federation/core"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "E2E Test for Manifest",
+      "sense_id": "e2e-test-for-manifest#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

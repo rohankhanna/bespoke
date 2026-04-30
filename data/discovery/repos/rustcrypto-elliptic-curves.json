@@ -1,0 +1,641 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bignp256.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bignp256.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bignp256.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bignp256.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bignp256.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bignp256.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bignp256.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bignp256.yml"
+    },
+    {
+      "component": "RustCrypto/actions/cross-install@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bignp256.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bp256.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bp256.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bp256.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bp256.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bp256.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bp256.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bp384.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bp384.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bp384.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bp384.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bp384.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bp384.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ed448-goldilocks.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ed448-goldilocks.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ed448-goldilocks.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ed448-goldilocks.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ed448-goldilocks.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ed448-goldilocks.yml"
+    },
+    {
+      "component": "RustCrypto/actions/cargo-hack-install@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ed448-goldilocks.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ed448-goldilocks.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ed448-goldilocks.yml"
+    },
+    {
+      "component": "RustCrypto/actions/cross-install@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ed448-goldilocks.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hash2curve.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hash2curve.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hash2curve.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hash2curve.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/k256.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/k256.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/k256.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/k256.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/k256.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/k256.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/k256.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/k256.yml"
+    },
+    {
+      "component": "RustCrypto/actions/cross-install@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/k256.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/p192.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/p192.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/p192.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/p192.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/p224.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/p224.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/p224.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/p224.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bignp256.yml",
+      "source_repo": "RustCrypto/elliptic-curves",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bignp256.yml",
+      "source_repo": "RustCrypto/elliptic-curves",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bignp256.yml",
+      "source_repo": "RustCrypto/elliptic-curves",
+      "target": "RustCrypto/actions/cross-install@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bignp256.yml",
+      "source_repo": "RustCrypto/elliptic-curves",
+      "target": "bignp256",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bp256.yml",
+      "source_repo": "RustCrypto/elliptic-curves",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bp256.yml",
+      "source_repo": "RustCrypto/elliptic-curves",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bp256.yml",
+      "source_repo": "RustCrypto/elliptic-curves",
+      "target": "bp256",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bp384.yml",
+      "source_repo": "RustCrypto/elliptic-curves",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bp384.yml",
+      "source_repo": "RustCrypto/elliptic-curves",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bp384.yml",
+      "source_repo": "RustCrypto/elliptic-curves",
+      "target": "bp384",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ed448-goldilocks.yml",
+      "source_repo": "RustCrypto/elliptic-curves",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ed448-goldilocks.yml",
+      "source_repo": "RustCrypto/elliptic-curves",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ed448-goldilocks.yml",
+      "source_repo": "RustCrypto/elliptic-curves",
+      "target": "RustCrypto/actions/cargo-hack-install@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ed448-goldilocks.yml",
+      "source_repo": "RustCrypto/elliptic-curves",
+      "target": "RustCrypto/actions/cross-install@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ed448-goldilocks.yml",
+      "source_repo": "RustCrypto/elliptic-curves",
+      "target": "ed448-goldilocks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hash2curve.yml",
+      "source_repo": "RustCrypto/elliptic-curves",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hash2curve.yml",
+      "source_repo": "RustCrypto/elliptic-curves",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hash2curve.yml",
+      "source_repo": "RustCrypto/elliptic-curves",
+      "target": "hash2curve",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/k256.yml",
+      "source_repo": "RustCrypto/elliptic-curves",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/k256.yml",
+      "source_repo": "RustCrypto/elliptic-curves",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/k256.yml",
+      "source_repo": "RustCrypto/elliptic-curves",
+      "target": "RustCrypto/actions/cross-install@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/k256.yml",
+      "source_repo": "RustCrypto/elliptic-curves",
+      "target": "k256",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/p192.yml",
+      "source_repo": "RustCrypto/elliptic-curves",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/p192.yml",
+      "source_repo": "RustCrypto/elliptic-curves",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/p192.yml",
+      "source_repo": "RustCrypto/elliptic-curves",
+      "target": "p192",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/p224.yml",
+      "source_repo": "RustCrypto/elliptic-curves",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/p224.yml",
+      "source_repo": "RustCrypto/elliptic-curves",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/p224.yml",
+      "source_repo": "RustCrypto/elliptic-curves",
+      "target": "p224",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RustCrypto/elliptic-curves",
+      "target": "ecdsa",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RustCrypto/elliptic-curves",
+      "target": "nist",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RustCrypto/elliptic-curves",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RustCrypto/elliptic-curves",
+      "target": "schnorr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RustCrypto/elliptic-curves",
+      "target": "taproot",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:58:16.406023+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7009
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 463
+    },
+    {
+      "path": ".github/workflows/bignp256.yml",
+      "size": 3468
+    },
+    {
+      "path": ".github/workflows/bp256.yml",
+      "size": 2654
+    },
+    {
+      "path": ".github/workflows/bp384.yml",
+      "size": 2654
+    },
+    {
+      "path": ".github/workflows/ed448-goldilocks.yml",
+      "size": 4131
+    },
+    {
+      "path": ".github/workflows/hash2curve.yml",
+      "size": 1224
+    },
+    {
+      "path": ".github/workflows/k256.yml",
+      "size": 5088
+    },
+    {
+      "path": ".github/workflows/p192.yml",
+      "size": 2599
+    },
+    {
+      "path": ".github/workflows/p224.yml",
+      "size": 2818
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Collection of pure Rust elliptic curve implementations: NIST P-224, P-256, P-384, P-521, secp256k1, SM2",
+    "fork": false,
+    "full_name": "RustCrypto/elliptic-curves",
+    "html_url": "https://github.com/RustCrypto/elliptic-curves",
+    "language": "Rust",
+    "pushed_at": "2026-04-30T16:39:16Z",
+    "stargazers_count": 846,
+    "topics": [
+      "ecdsa",
+      "nist",
+      "rust",
+      "schnorr",
+      "taproot"
+    ],
+    "updated_at": "2026-04-30T16:48:14Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "bignp256",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bignp256.yml",
+      "term": "bignp256"
+    },
+    {
+      "context_snippet": "bp256",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bp256.yml",
+      "term": "bp256"
+    },
+    {
+      "context_snippet": "bp384",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bp384.yml",
+      "term": "bp384"
+    },
+    {
+      "context_snippet": "ed448-goldilocks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ed448-goldilocks.yml",
+      "term": "ed448-goldilocks"
+    },
+    {
+      "context_snippet": "hash2curve",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hash2curve.yml",
+      "term": "hash2curve"
+    },
+    {
+      "context_snippet": "k256",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/k256.yml",
+      "term": "k256"
+    },
+    {
+      "context_snippet": "p192",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/p192.yml",
+      "term": "p192"
+    },
+    {
+      "context_snippet": "p224",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/p224.yml",
+      "term": "p224"
+    },
+    {
+      "context_snippet": "General purpose Elliptic Curve Cryptography (ECC) support, including types",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ecdsa"
+    },
+    {
+      "context_snippet": "General purpose Elliptic Curve Cryptography (ECC) support, including types",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nist"
+    },
+    {
+      "context_snippet": "General purpose Elliptic Curve Cryptography (ECC) support, including types",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "General purpose Elliptic Curve Cryptography (ECC) support, including types",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "schnorr"
+    },
+    {
+      "context_snippet": "General purpose Elliptic Curve Cryptography (ECC) support, including types",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "taproot"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T19:57:35.640279+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 830
+    },
+    {
+      "path": "Dockerfile",
+      "size": 153
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A gateway for games with stream multiplexing",
+    "fork": false,
+    "full_name": "gonet2/agent",
+    "html_url": "https://github.com/gonet2/agent",
+    "language": "Go",
+    "pushed_at": "2023-10-20T03:03:39Z",
+    "stargazers_count": 245,
+    "topics": [],
+    "updated_at": "2026-04-10T09:40:54Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

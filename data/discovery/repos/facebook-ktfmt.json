@@ -43,20 +43,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "facebook/ktfmt",
-      "target": "cortinico/ktfmt-gradle",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "facebook/ktfmt",
-      "target": "macisamuele/language-formatters-pre-commit-hooks",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build_and_test.yml",
       "source_repo": "facebook/ktfmt",
@@ -99,7 +85,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-04-30T09:10:05.403661+00:00",
+  "fetched_at": "2026-04-30T19:00:47.760343+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -128,18 +114,7 @@
     "topics": [],
     "updated_at": "2026-04-29T12:31:03Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "cortinico/ktfmt-gradle",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "macisamuele/language-formatters-pre-commit-hooks",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Build and Test",

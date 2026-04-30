@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "CredHub Release Job Specs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pivotal/credhub-release",
+      "status": "candidate-context",
+      "text": "BOSH release of CredHub server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pivotal/credhub-release",
+      "status": "candidate-context",
+      "text": "CredHub Release Job Specs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pivotal/credhub-release",
+      "status": "candidate",
+      "text": "CredHub Release Job Specs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26041,
+      "status": "candidate",
+      "text": "discharge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23164,
+      "status": "candidate",
+      "text": "terms"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23129,
+      "status": "candidate",
+      "text": "nose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23095,
+      "status": "candidate",
+      "text": "custom"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23095,
+      "status": "candidate",
+      "text": "eyes"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "CredHub Release Job Specs",
+  "concept_id": "credhub-release-job-specs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/job-specs.yml",
+      "source_repo": "pivotal/credhub-release"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CredHub Release Job Specs",
+      "sense_id": "credhub-release-job-specs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

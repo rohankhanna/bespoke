@@ -323,6 +323,30 @@
       "source_repo": "FuzzyGrim/Yamtrack",
       "status": "candidate-context",
       "text": "Docker Image"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ufoym/deepo",
+      "status": "candidate-context",
+      "text": "Setup and customize deep learning environment in seconds."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ufoym/deepo",
+      "status": "candidate-context",
+      "text": "![deepo](https://user-images.githubusercontent.com/2270240/32102393-aecf573c-bb4e-11e7-811c-dc673cae7b9c.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "veggiemonk/awesome-docker",
+      "status": "candidate-context",
+      "text": ":whale: A curated list of Docker resources and projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "veggiemonk/awesome-docker",
+      "status": "candidate-context",
+      "text": "> A curated list of Docker resources and projects"
     }
   ],
   "candidate_glosses": [
@@ -481,6 +505,18 @@
       "source_repo": "FuzzyGrim/Yamtrack",
       "status": "candidate",
       "text": "Docker Image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ufoym/deepo",
+      "status": "candidate",
+      "text": "![deepo](https://user-images.githubusercontent.com/2270240/32102393-aecf573c-bb4e-11e7-811c-dc673cae7b9c.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "veggiemonk/awesome-docker",
+      "status": "candidate",
+      "text": "> A curated list of Docker resources and projects"
     }
   ],
   "candidate_related_terms": [
@@ -722,11 +758,29 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/docker-image.yml",
       "source_repo": "FuzzyGrim/Yamtrack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "ufoym/deepo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "geocompx/docker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "veggiemonk/awesome-docker"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

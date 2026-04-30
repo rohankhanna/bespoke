@@ -1,7 +1,8 @@
 {
   "aliases": [
     "devtools",
-    "DevTools"
+    "DevTools",
+    "Devtools"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -274,6 +275,30 @@
       "source_repo": "Redocly/redocly-cli-cookbook",
       "status": "candidate-context",
       "text": "A community collection of rulesets, configuration, custom plugins and other additions for [Redocly CLI](https://github.com/Redocly/redocly-cli). We know our users have some great tips, examples, and code to share, and this is the place to do just that. We would love to have your\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "surrealdb/surrealdb",
+      "status": "candidate-context",
+      "text": "A scalable, distributed, collaborative, document-graph database, for the realtime web"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "surrealdb/surrealdb",
+      "status": "candidate-context",
+      "text": "<a href=\"https://surrealdb.com#gh-dark-mode-only\" target=\"_blank\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "module-federation/core",
+      "status": "candidate-context",
+      "text": "Module Federation is a concept that allows developers to share code and resources across multiple JavaScript applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "module-federation/core",
+      "status": "candidate-context",
+      "text": "Devtools"
     }
   ],
   "candidate_glosses": [
@@ -396,6 +421,18 @@
       "source_repo": "Redocly/redocly-cli-cookbook",
       "status": "candidate",
       "text": "A community collection of rulesets, configuration, custom plugins and other additions for [Redocly CLI](https://github.com/Redocly/redocly-cli). We know our users have some great tips, examples, and code to share, and this is the place to do just that. We would love to have your\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "surrealdb/surrealdb",
+      "status": "candidate",
+      "text": "<a href=\"https://surrealdb.com#gh-dark-mode-only\" target=\"_blank\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "module-federation/core",
+      "status": "candidate",
+      "text": "Devtools"
     }
   ],
   "candidate_related_terms": [],
@@ -559,11 +596,29 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "graphql-hive/graphql-config"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "graphql-hive/graphql-config"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "surrealdb/surrealdb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/devtools.yml",
+      "source_repo": "module-federation/core"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

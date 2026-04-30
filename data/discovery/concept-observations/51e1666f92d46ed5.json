@@ -48,7 +48,7 @@
   "normalized_form": "post-release",
   "observation_id": "51e1666f92d46ed5",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
   "observed_text": "post-release",
   "source_context_snippet": "post-release",
   "source_file": ".github/workflows/post-release.yml",

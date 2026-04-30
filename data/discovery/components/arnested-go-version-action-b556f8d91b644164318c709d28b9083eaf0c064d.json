@@ -1,0 +1,17 @@
+{
+  "component": "arnested/go-version-action@b556f8d91b644164318c709d28b9083eaf0c064d",
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "rdimitrov/go-tuf-metadata"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "rdimitrov/go-tuf-metadata"
+    }
+  ]
+}

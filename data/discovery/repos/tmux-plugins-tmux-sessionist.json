@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T20:01:31.106179+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2396
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Lightweight tmux utils for manipulating sessions",
+    "fork": false,
+    "full_name": "tmux-plugins/tmux-sessionist",
+    "html_url": "https://github.com/tmux-plugins/tmux-sessionist",
+    "language": "Shell",
+    "pushed_at": "2023-05-16T17:13:16Z",
+    "stargazers_count": 461,
+    "topics": [],
+    "updated_at": "2026-04-13T06:57:37Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

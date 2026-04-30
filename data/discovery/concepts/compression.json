@@ -499,6 +499,30 @@
       "source_repo": "sumcumo/imagemin-merlin",
       "status": "candidate-context",
       "text": "Merlin is an extension of [imagemin](https://www.npmjs.com/package/imagemin) that makes it _super-easy_ to automatically, efficiently compress GIF, JPG and PNG graphics."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webpack/css-minimizer-webpack-plugin",
+      "status": "candidate-context",
+      "text": "cssnano plugin for Webpack"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webpack/css-minimizer-webpack-plugin",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EXIficient/exificient-for-json",
+      "status": "candidate-context",
+      "text": "EXI for JSON - How EXI can be used to represent JSON data efficiently"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EXIficient/exificient-for-json",
+      "status": "candidate-context",
+      "text": "**_exificient-for-json_** is an implementation of the EXI4JSON specification (see <https://www.w3.org/TR/exi-for-json/>) in Java. EXI4JSON converts JSON to event streams which result in a very processing efficient and compact format. Lossless round-trip conversion back to the or\u2026"
     }
   ],
   "candidate_glosses": [
@@ -747,6 +771,18 @@
       "source_repo": "sumcumo/imagemin-merlin",
       "status": "candidate",
       "text": "Merlin is an extension of [imagemin](https://www.npmjs.com/package/imagemin) that makes it _super-easy_ to automatically, efficiently compress GIF, JPG and PNG graphics."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webpack/css-minimizer-webpack-plugin",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EXIficient/exificient-for-json",
+      "status": "candidate",
+      "text": "**_exificient-for-json_** is an implementation of the EXI4JSON specification (see <https://www.w3.org/TR/exi-for-json/>) in Java. EXI4JSON converts JSON to event streams which result in a very processing efficient and compact format. Lossless round-trip conversion back to the or\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -1126,11 +1162,29 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "deepspeedai/DeepSpeed"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "deepspeedai/DeepSpeed"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "webpack/css-minimizer-webpack-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "EXIficient/exificient-for-json"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,35 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T19:48:54.416610+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1883
+    },
+    {
+      "path": "Dockerfile",
+      "size": 276
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 4589
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A python interface for interacting with the Ethereum blockchain and ecosystem.",
+    "fork": false,
+    "full_name": "ethereum/web3.py",
+    "html_url": "https://github.com/ethereum/web3.py",
+    "language": "Python",
+    "pushed_at": "2026-04-30T18:04:31Z",
+    "stargazers_count": 5511,
+    "topics": [],
+    "updated_at": "2026-04-30T18:04:35Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

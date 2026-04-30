@@ -55,6 +55,18 @@
       "source_repo": "taylorhakes/fecha",
       "status": "candidate-context",
       "text": "Lightweight date formatting and parsing (~2KB). Meant to replace parsing and formatting functionality of moment.js."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "time-rs/time",
+      "status": "candidate-context",
+      "text": "Date and time handling in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "time-rs/time",
+      "status": "candidate-context",
+      "text": "[![minimum rustc: 1.88.0](https://img.shields.io/badge/minimum%20rustc-1.88.0-yellowgreen?logo=rust&style=flat-square)](https://www.whatrustisit.com)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "taylorhakes/fecha",
       "status": "candidate",
       "text": "Lightweight date formatting and parsing (~2KB). Meant to replace parsing and formatting functionality of moment.js."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "time-rs/time",
+      "status": "candidate",
+      "text": "[![minimum rustc: 1.88.0](https://img.shields.io/badge/minimum%20rustc-1.88.0-yellowgreen?logo=rust&style=flat-square)](https://www.whatrustisit.com)"
     }
   ],
   "candidate_related_terms": [
@@ -184,11 +202,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "taylorhakes/fecha"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "time-rs/time"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

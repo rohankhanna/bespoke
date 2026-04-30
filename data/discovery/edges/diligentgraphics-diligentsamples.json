@@ -1,0 +1,426 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DiligentGraphics/DiligentSamples",
+      "target": "diligentgraphics/diligenttools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DiligentGraphics/DiligentSamples",
+      "target": "diligentgraphics/nuklearui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DiligentGraphics/DiligentSamples",
+      "target": "diligentgraphics/glfw",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DiligentGraphics/DiligentSamples",
+      "target": "cedricguillemet/imguizmo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-android.yml",
+      "source_repo": "DiligentGraphics/DiligentSamples",
+      "target": "DiligentGraphics/github-action/clean-disk-ubuntu@v11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-android.yml",
+      "source_repo": "DiligentGraphics/DiligentSamples",
+      "target": "DiligentGraphics/github-action/checkout@v11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-android.yml",
+      "source_repo": "DiligentGraphics/DiligentSamples",
+      "target": "DiligentGraphics/github-action/setup-build-env@v11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-android.yml",
+      "source_repo": "DiligentGraphics/DiligentSamples",
+      "target": "Android build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apple.yml",
+      "source_repo": "DiligentGraphics/DiligentSamples",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apple.yml",
+      "source_repo": "DiligentGraphics/DiligentSamples",
+      "target": "DiligentGraphics/github-action/checkout@v11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apple.yml",
+      "source_repo": "DiligentGraphics/DiligentSamples",
+      "target": "DiligentGraphics/github-action/setup-build-env@v11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apple.yml",
+      "source_repo": "DiligentGraphics/DiligentSamples",
+      "target": "DiligentGraphics/github-action/configure-cmake@v11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apple.yml",
+      "source_repo": "DiligentGraphics/DiligentSamples",
+      "target": "DiligentGraphics/github-action/build@v11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-emscripten.yml",
+      "source_repo": "DiligentGraphics/DiligentSamples",
+      "target": "DiligentGraphics/github-action/checkout@v11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-emscripten.yml",
+      "source_repo": "DiligentGraphics/DiligentSamples",
+      "target": "DiligentGraphics/github-action/setup-build-env@v11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-emscripten.yml",
+      "source_repo": "DiligentGraphics/DiligentSamples",
+      "target": "DiligentGraphics/github-action/configure-cmake@v11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-emscripten.yml",
+      "source_repo": "DiligentGraphics/DiligentSamples",
+      "target": "DiligentGraphics/github-action/build@v11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-emscripten.yml",
+      "source_repo": "DiligentGraphics/DiligentSamples",
+      "target": "Emscripten build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "DiligentGraphics/DiligentSamples",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "DiligentGraphics/DiligentSamples",
+      "target": "codespell-project/actions-codespell@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "DiligentGraphics/DiligentSamples",
+      "target": "DiligentGraphics/github-action/checkout@v11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "DiligentGraphics/DiligentSamples",
+      "target": "DiligentGraphics/github-action/setup-build-env@v11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "DiligentGraphics/DiligentSamples",
+      "target": "DiligentGraphics/github-action/configure-cmake@v11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "DiligentGraphics/DiligentSamples",
+      "target": "DiligentGraphics/github-action/build@v11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "DiligentGraphics/DiligentSamples",
+      "target": "DiligentGraphics/github-action/run-sample-tests@v11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "DiligentGraphics/DiligentSamples",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "DiligentGraphics/DiligentSamples",
+      "target": "Linux build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "DiligentGraphics/DiligentSamples",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "DiligentGraphics/DiligentSamples",
+      "target": "DiligentGraphics/github-action/checkout@v11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "DiligentGraphics/DiligentSamples",
+      "target": "DiligentGraphics/github-action/setup-build-env@v11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "DiligentGraphics/DiligentSamples",
+      "target": "DiligentGraphics/github-action/configure-cmake@v11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "DiligentGraphics/DiligentSamples",
+      "target": "DiligentGraphics/github-action/build@v11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "DiligentGraphics/DiligentSamples",
+      "target": "DiligentGraphics/github-action/run-sample-tests@v11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "DiligentGraphics/DiligentSamples",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msvc_analysis.yml",
+      "source_repo": "DiligentGraphics/DiligentSamples",
+      "target": "DiligentGraphics/github-action/checkout@v11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msvc_analysis.yml",
+      "source_repo": "DiligentGraphics/DiligentSamples",
+      "target": "DiligentGraphics/github-action/setup-build-env@v11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msvc_analysis.yml",
+      "source_repo": "DiligentGraphics/DiligentSamples",
+      "target": "DiligentGraphics/github-action/configure-cmake@v11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msvc_analysis.yml",
+      "source_repo": "DiligentGraphics/DiligentSamples",
+      "target": "DiligentGraphics/github-action/build@v11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msvc_analysis.yml",
+      "source_repo": "DiligentGraphics/DiligentSamples",
+      "target": "microsoft/msvc-code-analysis-action@v0.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msvc_analysis.yml",
+      "source_repo": "DiligentGraphics/DiligentSamples",
+      "target": "github/codeql-action/upload-sarif@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msvc_analysis.yml",
+      "source_repo": "DiligentGraphics/DiligentSamples",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/msvc_analysis.yml",
+      "source_repo": "DiligentGraphics/DiligentSamples",
+      "target": "MSVC Code Analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DiligentGraphics/DiligentSamples",
+      "target": "d3d11",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DiligentGraphics/DiligentSamples",
+      "target": "d3d12",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DiligentGraphics/DiligentSamples",
+      "target": "directx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DiligentGraphics/DiligentSamples",
+      "target": "directx-11",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DiligentGraphics/DiligentSamples",
+      "target": "directx-12",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DiligentGraphics/DiligentSamples",
+      "target": "directx11",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DiligentGraphics/DiligentSamples",
+      "target": "directx12",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DiligentGraphics/DiligentSamples",
+      "target": "gamedev",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DiligentGraphics/DiligentSamples",
+      "target": "gles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DiligentGraphics/DiligentSamples",
+      "target": "graphics-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DiligentGraphics/DiligentSamples",
+      "target": "graphics-programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DiligentGraphics/DiligentSamples",
+      "target": "opengl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DiligentGraphics/DiligentSamples",
+      "target": "opengl-es",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DiligentGraphics/DiligentSamples",
+      "target": "renderer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DiligentGraphics/DiligentSamples",
+      "target": "rendering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DiligentGraphics/DiligentSamples",
+      "target": "vulkan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DiligentGraphics/DiligentSamples",
+      "target": "vulkan-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DiligentGraphics/DiligentSamples",
+      "target": "vulkan-game-engine",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T18:36:26.757967+00:00",
+  "source_repo": "DiligentGraphics/DiligentSamples"
+}

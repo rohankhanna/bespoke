@@ -727,6 +727,54 @@
       "source_repo": "llnl/RAJA",
       "status": "candidate-context",
       "text": "[comment]: # (#################################################################)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nayuki/Nayuki-web-published-code",
+      "status": "candidate-context",
+      "text": "Complete collection of code files (*.java/js/py/cpp/etc.) published on Project Nayuki website."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nayuki/Nayuki-web-published-code",
+      "status": "candidate-context",
+      "text": "Complete collection of code files (*.java/js/py/cpp/etc.) published on Project Nayuki website."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mongodb/mongo",
+      "status": "candidate-context",
+      "text": "The MongoDB Database"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mongodb/mongo",
+      "status": "candidate-context",
+      "text": "Welcome to MongoDB!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "btzy/nativefiledialog-extended",
+      "status": "candidate-context",
+      "text": "Cross platform (Windows, Mac, Linux) native file dialog library with C and C++ bindings, based on mlabbe/nativefiledialog."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "btzy/nativefiledialog-extended",
+      "status": "candidate-context",
+      "text": "[![build](https://github.com/btzy/nativefiledialog-extended/actions/workflows/cmake.yml/badge.svg?event=push)](https://github.com/btzy/nativefiledialog-extended/actions/workflows/cmake.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cocos2d/cocos2d-x",
+      "status": "candidate-context",
+      "text": "Cocos2d-x is a suite of open-source, cross-platform, game-development tools utilized by millions of developers across the globe. Its core has evolved to serve as the foundation for Cocos Creator 1.x & 2.x."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cocos2d/cocos2d-x",
+      "status": "candidate-context",
+      "text": "<img src=\"http://www.cocos2d-x.org/attachments/801/cocos2dx_portrait.png\" width=200>"
     }
   ],
   "candidate_glosses": [
@@ -1089,6 +1137,30 @@
       "source_repo": "llnl/RAJA",
       "status": "candidate",
       "text": "[comment]: # (#################################################################)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nayuki/Nayuki-web-published-code",
+      "status": "candidate",
+      "text": "Complete collection of code files (*.java/js/py/cpp/etc.) published on Project Nayuki website."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mongodb/mongo",
+      "status": "candidate",
+      "text": "Welcome to MongoDB!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "btzy/nativefiledialog-extended",
+      "status": "candidate",
+      "text": "[![build](https://github.com/btzy/nativefiledialog-extended/actions/workflows/cmake.yml/badge.svg?event=push)](https://github.com/btzy/nativefiledialog-extended/actions/workflows/cmake.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cocos2d/cocos2d-x",
+      "status": "candidate",
+      "text": "<img src=\"http://www.cocos2d-x.org/attachments/801/cocos2dx_portrait.png\" width=200>"
     }
   ],
   "candidate_related_terms": [],
@@ -1612,11 +1684,47 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "llnl/RAJA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "nayuki/Nayuki-web-published-code"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "mongodb/mongo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "btzy/nativefiledialog-extended"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "cocos2d/cocos2d-x"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "TrenchBroom/TrenchBroom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "doctest/doctest"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

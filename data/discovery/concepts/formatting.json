@@ -274,6 +274,18 @@
       "source_repo": "chungmin99/pyroki",
       "status": "candidate-context",
       "text": "formatting"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvim-neorg/neorg",
+      "status": "candidate-context",
+      "text": "Modernity meets insane extensibility. The future of organizing your life in Neovim."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-neorg/neorg",
+      "status": "candidate-context",
+      "text": "Formatting"
     }
   ],
   "candidate_glosses": [
@@ -408,6 +420,12 @@
       "source_repo": "chungmin99/pyroki",
       "status": "candidate",
       "text": "formatting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-neorg/neorg",
+      "status": "candidate",
+      "text": "Formatting"
     }
   ],
   "candidate_related_terms": [
@@ -683,11 +701,29 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/formatting.yml",
       "source_repo": "KhronosGroup/KTX-Software"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/formatting.yml",
+      "source_repo": "deepspeedai/DeepSpeed"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "JuliaDiff/BlueStyle"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/stylua.yml",
+      "source_repo": "nvim-neorg/neorg"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

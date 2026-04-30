@@ -67,6 +67,18 @@
       "source_repo": "adinhodovic/terraform-cloudflare-maintenance",
       "status": "candidate-context",
       "text": "Terraform module to create a responsive **Maintenance Page** using Cloudflare Workers."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudflare/cloudflared",
+      "status": "candidate-context",
+      "text": "Cloudflare Tunnel client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudflare/cloudflared",
+      "status": "candidate-context",
+      "text": "Contains the command-line client for Cloudflare Tunnel, a tunneling daemon that proxies traffic from the Cloudflare network to your origins."
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "adinhodovic/terraform-cloudflare-maintenance",
       "status": "candidate",
       "text": "Terraform module to create a responsive **Maintenance Page** using Cloudflare Workers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudflare/cloudflared",
+      "status": "candidate",
+      "text": "Contains the command-line client for Cloudflare Tunnel, a tunneling daemon that proxies traffic from the Cloudflare network to your origins."
     }
   ],
   "candidate_related_terms": [
@@ -172,11 +190,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "adinhodovic/terraform-cloudflare-maintenance"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "cloudflare/cloudflared"
     }
   ],
   "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

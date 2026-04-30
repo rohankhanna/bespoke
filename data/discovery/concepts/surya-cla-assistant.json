@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Surya CLA Assistant"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "datalab-to/surya",
+      "status": "candidate-context",
+      "text": "OCR, layout analysis, reading order, table recognition in 90+ languages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datalab-to/surya",
+      "status": "candidate-context",
+      "text": "\"Surya CLA Assistant\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datalab-to/surya",
+      "status": "candidate",
+      "text": "\"Surya CLA Assistant\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23064,
+      "status": "candidate",
+      "text": "dharma"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23064,
+      "status": "candidate",
+      "text": "karma"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16054,
+      "status": "candidate",
+      "text": "agency"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16014,
+      "status": "candidate",
+      "text": "cia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15054,
+      "status": "candidate",
+      "text": "nara"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Surya CLA Assistant",
+  "concept_id": "surya-cla-assistant",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "datalab-to/surya"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Surya CLA Assistant",
+      "sense_id": "surya-cla-assistant#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

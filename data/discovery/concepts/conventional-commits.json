@@ -268,6 +268,18 @@
       "source_repo": "amannn/action-semantic-pull-request",
       "status": "candidate-context",
       "text": "This is a GitHub Action that ensures that your pull request titles match the [Conventional Commits spec](https://www.conventionalcommits.org/). Typically, this is used in combination with a tool like [semantic-release](https://github.com/semantic-release/semantic-release) to aut\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stefanlogue/meteor",
+      "status": "candidate-context",
+      "text": "A highly configurable CLI tool for writing conventional commits"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stefanlogue/meteor",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -402,6 +414,12 @@
       "source_repo": "amannn/action-semantic-pull-request",
       "status": "candidate",
       "text": "This is a GitHub Action that ensures that your pull request titles match the [Conventional Commits spec](https://www.conventionalcommits.org/). Typically, this is used in combination with a tool like [semantic-release](https://github.com/semantic-release/semantic-release) to aut\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stefanlogue/meteor",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -601,11 +619,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "amannn/action-semantic-pull-request"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "stefanlogue/meteor"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

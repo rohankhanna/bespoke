@@ -163,6 +163,18 @@
       "source_repo": "tinted-theming/tinted-xresources",
       "status": "candidate-context",
       "text": "\"Auto assignment for issues\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tinted-theming/schemes",
+      "status": "candidate-context",
+      "text": "A common location to store all color scheme data for the Tinted theming project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/schemes",
+      "status": "candidate-context",
+      "text": "\"Auto assignment for issues\""
     }
   ],
   "candidate_glosses": [
@@ -247,6 +259,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "tinted-theming/tinted-xresources",
+      "status": "candidate",
+      "text": "\"Auto assignment for issues\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/schemes",
       "status": "candidate",
       "text": "\"Auto assignment for issues\""
     }
@@ -406,11 +424,29 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/auto-assign-issues.yml",
       "source_repo": "tinted-theming/tinted-xresources"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/auto-assign-issues.yml",
+      "source_repo": "tinted-theming/tinted-builder-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/auto-assign-issues.yml",
+      "source_repo": "tinted-theming/schemes"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/auto-assign-issues.yml",
+      "source_repo": "tinted-theming/tinted-xresources"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

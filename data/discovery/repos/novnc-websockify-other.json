@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T18:57:22.813755+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1130
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Assorted ports of websockify code to other languages",
+    "fork": false,
+    "full_name": "novnc/websockify-other",
+    "html_url": "https://github.com/novnc/websockify-other",
+    "language": "C",
+    "pushed_at": "2025-09-24T11:41:41Z",
+    "stargazers_count": 65,
+    "topics": [],
+    "updated_at": "2026-04-03T00:09:21Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A scalable, distributed, collaborative, document-graph database, for the realtime web"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<a href=\"https://surrealdb.com#gh-dark-mode-only\" target=\"_blank\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<a href=\"https://surrealdb.com#gh-dark-mode-only\" target=\"_blank\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40019496,
+      "status": "candidate",
+      "text": "surrealistic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39999643,
+      "status": "candidate",
+      "text": "unreal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39999577,
+      "status": "candidate",
+      "text": "dreamlike"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39986211,
+      "status": "candidate",
+      "text": "unrealistic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39983956,
+      "status": "candidate",
+      "text": "phantasmagorical"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "surreal",
+      "sense_id": "surreal#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17036,
+      "status": "candidate",
+      "text": "unreal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17020,
+      "status": "candidate",
+      "text": "phantasmagoric"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4026,
+      "status": "candidate",
+      "text": "dreamlike"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3023,
+      "status": "candidate",
+      "text": "surrealistic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2018,
+      "status": "candidate",
+      "text": "phantasmagorical"
+    }
+  ],
+  "concept_id": "surreal",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "surreal",
+  "observation_id": "3c53818aa349e18e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "surreal",
+  "source_context_snippet": "<a href=\"https://surrealdb.com#gh-dark-mode-only\" target=\"_blank\">",
+  "source_file": null,
+  "source_repo": "surrealdb/surrealdb",
+  "source_repo_description": "A scalable, distributed, collaborative, document-graph database, for the realtime web"
+}

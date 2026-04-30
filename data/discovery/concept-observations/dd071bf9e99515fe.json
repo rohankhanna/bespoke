@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u672c\u9879\u76ee\u4f7f\u7528\u4e86EcapaTdnn\u3001ResNetSE\u3001ERes2Net\u3001CAM++\u7b49\u591a\u79cd\u5148\u8fdb\u7684\u58f0\u7eb9\u8bc6\u522b\u6a21\u578b\uff0c\u540c\u65f6\u672c\u9879\u76ee\u4e5f\u652f\u6301\u4e86MelSpectrogram\u3001Spectrogram\u3001MFCC\u3001Fbank\u7b49\u591a\u79cd\u6570\u636e\u9884\u5904\u7406\u65b9\u6cd5"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![python version](https://img.shields.io/badge/python-3.8+-orange.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![python version](https://img.shields.io/badge/python-3.8+-orange.svg)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ecapa-tdnn",
+      "sense_id": "ecapa-tdnn#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ecapa-tdnn",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ecapa-tdnn",
+  "observation_id": "dd071bf9e99515fe",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "ecapa-tdnn",
+  "source_context_snippet": "![python version](https://img.shields.io/badge/python-3.8+-orange.svg)",
+  "source_file": null,
+  "source_repo": "yeyupiaoling/VoiceprintRecognition-PaddlePaddle",
+  "source_repo_description": "\u672c\u9879\u76ee\u4f7f\u7528\u4e86EcapaTdnn\u3001ResNetSE\u3001ERes2Net\u3001CAM++\u7b49\u591a\u79cd\u5148\u8fdb\u7684\u58f0\u7eb9\u8bc6\u522b\u6a21\u578b\uff0c\u540c\u65f6\u672c\u9879\u76ee\u4e5f\u652f\u6301\u4e86MelSpectrogram\u3001Spectrogram\u3001MFCC\u3001Fbank\u7b49\u591a\u79cd\u6570\u636e\u9884\u5904\u7406\u65b9\u6cd5"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Fullstack app framework for web, desktop, and mobile."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Promote main to stable branch"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Promote main to stable branch"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44216,
+      "status": "candidate",
+      "text": "outbuilding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43019,
+      "status": "candidate",
+      "text": "outpost"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 42969,
+      "status": "candidate",
+      "text": "string"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 42969,
+      "status": "candidate",
+      "text": "stringing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 42969,
+      "status": "candidate",
+      "text": "strings"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Promote main to stable branch",
+      "sense_id": "promote-main-to-stable-branch#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "promote-main-to-stable-branch",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "promote-main-to-stable-branch",
+  "observation_id": "29a405745453cae7",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "Promote main to stable branch",
+  "source_context_snippet": "Promote main to stable branch",
+  "source_file": ".github/workflows/promote.yml",
+  "source_repo": "DioxusLabs/dioxus",
+  "source_repo_description": "Fullstack app framework for web, desktop, and mobile."
+}

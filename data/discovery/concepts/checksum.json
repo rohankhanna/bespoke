@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "Checksum"
+    "Checksum",
+    "checksum"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,18 @@
       "source_repo": "squidowl/halloy",
       "status": "candidate-context",
       "text": "Checksum"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stainless-steel/md5",
+      "status": "candidate-context",
+      "text": "MD5 hash function"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stainless-steel/md5",
+      "status": "candidate-context",
+      "text": "The package provides the [MD5] hash function."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +42,12 @@
       "source_repo": "squidowl/halloy",
       "status": "candidate",
       "text": "Checksum"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stainless-steel/md5",
+      "status": "candidate",
+      "text": "The package provides the [MD5] hash function."
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +97,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/checksum.yml",
       "source_repo": "squidowl/halloy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "stainless-steel/md5"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

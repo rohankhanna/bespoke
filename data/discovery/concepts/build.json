@@ -7776,6 +7776,216 @@
       "source_repo": "BoukeHaarsma23/zenergy",
       "status": "candidate-context",
       "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "marella/ctransformers",
+      "status": "candidate-context",
+      "text": "Python bindings for the Transformer models implemented in C/C++ using GGML library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marella/ctransformers",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webgpu/webgpu-samples",
+      "status": "candidate-context",
+      "text": "WebGPU Samples"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webgpu/webgpu-samples",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/orbax",
+      "status": "candidate-context",
+      "text": "Orbax provides common checkpointing and persistence utilities for JAX users"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/orbax",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "btzy/nativefiledialog-extended",
+      "status": "candidate-context",
+      "text": "Cross platform (Windows, Mac, Linux) native file dialog library with C and C++ bindings, based on mlabbe/nativefiledialog."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "btzy/nativefiledialog-extended",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sammycage/lunasvg",
+      "status": "candidate-context",
+      "text": "SVG rendering and manipulation library in C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sammycage/lunasvg",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hspec/sensei",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antelle/argon2-browser",
+      "status": "candidate-context",
+      "text": "Argon2 library compiled for browser runtime"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antelle/argon2-browser",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stainless-steel/md5",
+      "status": "candidate-context",
+      "text": "MD5 hash function"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stainless-steel/md5",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Yelp/aactivator",
+      "status": "candidate-context",
+      "text": "Automatically source and unsource a project's environment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Yelp/aactivator",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "powturbo/Turbo-Base64",
+      "status": "candidate-context",
+      "text": "Turbo Base64 - Fastest Base64 SIMD:SSE/AVX2/AVX512/Neon/Altivec - Faster than memcpy!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "powturbo/Turbo-Base64",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "delta-io/delta-rs",
+      "status": "candidate-context",
+      "text": "A native Rust library for Delta Lake, with bindings into Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "delta-io/delta-rs",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ankitpokhrel/jira-cli",
+      "status": "candidate-context",
+      "text": "\ud83d\udd25 Feature-rich interactive Jira command line."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ankitpokhrel/jira-cli",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Koihik/LuaFormatter",
+      "status": "candidate-context",
+      "text": "Code formatter for Lua"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Koihik/LuaFormatter",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "time-rs/time",
+      "status": "candidate-context",
+      "text": "Date and time handling in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "time-rs/time",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kkharji/lispdocs.nvim",
+      "status": "candidate-context",
+      "text": "https://clojuredocs.org examples and notes, instantly under your finger tips "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kkharji/lispdocs.nvim",
+      "status": "candidate-context",
+      "text": "\"Build\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FasterXML/woodstox",
+      "status": "candidate-context",
+      "text": "The gold standard Stax XML API implementation. Now at Github."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FasterXML/woodstox",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kitknox/helix",
+      "status": "candidate-context",
+      "text": "A post-modern modal text editor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kitknox/helix",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "goreleaser/nfpm",
+      "status": "candidate-context",
+      "text": "nFPM is Not FPM - a simple deb, rpm, apk, ipk, and arch linux packager written in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goreleaser/nfpm",
+      "status": "candidate-context",
+      "text": "build"
     }
   ],
   "candidate_glosses": [
@@ -11732,6 +11942,114 @@
       "source_repo": "BoukeHaarsma23/zenergy",
       "status": "candidate",
       "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marella/ctransformers",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webgpu/webgpu-samples",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/orbax",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "btzy/nativefiledialog-extended",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sammycage/lunasvg",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hspec/sensei",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antelle/argon2-browser",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stainless-steel/md5",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Yelp/aactivator",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "powturbo/Turbo-Base64",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "delta-io/delta-rs",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ankitpokhrel/jira-cli",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Koihik/LuaFormatter",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "time-rs/time",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kkharji/lispdocs.nvim",
+      "status": "candidate",
+      "text": "\"Build\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FasterXML/woodstox",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kitknox/helix",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goreleaser/nfpm",
+      "status": "candidate",
+      "text": "build"
     }
   ],
   "candidate_related_terms": [
@@ -17156,11 +17474,239 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "BoukeHaarsma23/zenergy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "marella/ctransformers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "cuiziteng/ICCV_MAET"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "webgpu/webgpu-samples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "google/orbax"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "btzy/nativefiledialog-extended"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "sammycage/lunasvg"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "asdf-community/asdf-pdm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "luau-lang/luau"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "babashka/nbb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "babashka/babashka"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "babashka/babashka"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "babashka/babashka-sql-pods"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "hspec/sensei"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "antelle/argon2-browser"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "facebookresearch/fairseq"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "stainless-steel/md5"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "Yelp/aactivator"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "powturbo/Turbo-Base64"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "databrickslabs/ucx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "vega/altair"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "delta-io/delta-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ankitpokhrel/jira-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Koihik/LuaFormatter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "eclipse-tm4e/tm4e"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "time-rs/time"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "kkharji/lispdocs.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "web3/web3.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "FasterXML/woodstox"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "eclipse-paho/paho.mqtt.python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "jaredpalmer/backpack"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "kitknox/helix"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "LuaLS/vscode-lua"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "goreleaser/nfpm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ocaml-tracing/ocaml-trace"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ocaml-tracing/ocaml-opentelemetry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ocaml-tracing/ocaml-tracy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/default.yml",
+      "source_repo": "apache/casbin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "apache/casbin-Casbin.NET"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

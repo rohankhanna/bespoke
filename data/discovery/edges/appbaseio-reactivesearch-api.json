@@ -1,20 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "appbaseio/reactivesearch-api",
-      "target": "appbaseio/searchbox",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "appbaseio/reactivesearch-api",
-      "target": "appbaseio/reactivesearch-api-docker",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/binary-publish.yml",
       "source_repo": "appbaseio/reactivesearch-api",
@@ -204,6 +190,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-30T12:45:20.475770+00:00",
+  "generated_at": "2026-04-30T18:36:26.757967+00:00",
   "source_repo": "appbaseio/reactivesearch-api"
 }

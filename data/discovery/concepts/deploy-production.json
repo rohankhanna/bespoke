@@ -1,7 +1,8 @@
 {
   "aliases": [
     "deploy production",
-    "Deploy production"
+    "Deploy production",
+    "Deploy (Production)"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -32,6 +33,18 @@
       "source_repo": "rust-lang/bors",
       "status": "candidate-context",
       "text": "Deploy production"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "literalpie/storybook-framework-qwik",
+      "status": "candidate-context",
+      "text": "Add Qwik support to storybook"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "literalpie/storybook-framework-qwik",
+      "status": "candidate-context",
+      "text": "\"Deploy (Production)\""
     }
   ],
   "candidate_glosses": [
@@ -46,6 +59,12 @@
       "source_repo": "rust-lang/bors",
       "status": "candidate",
       "text": "Deploy production"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "literalpie/storybook-framework-qwik",
+      "status": "candidate",
+      "text": "\"Deploy (Production)\""
     }
   ],
   "candidate_related_terms": [
@@ -83,6 +102,41 @@
       "score": 15072,
       "status": "candidate",
       "text": "marshal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "deployed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "deploying"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "implementation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "implemented"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "use"
     }
   ],
   "candidate_synonyms": [],
@@ -101,11 +155,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/deploy-production.yml",
       "source_repo": "rust-lang/bors"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "literalpie/storybook-framework-qwik"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

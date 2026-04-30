@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yaseryacoob/GAN-Scanner",
+      "target": "yuval-alaluf/sam",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yaseryacoob/GAN-Scanner",
+      "target": "yandex-research/navigan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yaseryacoob/GAN-Scanner",
+      "target": "saic-mdal/cips",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-30T18:36:26.757967+00:00",
+  "source_repo": "yaseryacoob/GAN-Scanner"
+}

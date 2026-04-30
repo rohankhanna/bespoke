@@ -19,6 +19,18 @@
       "source_repo": "ahmadawais/base16-shades-of-purple",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pinpox/base16-universal-manager",
+      "status": "candidate-context",
+      "text": "A universal manager to set base16 themes for any supported application"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pinpox/base16-universal-manager",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://api.travis-ci.org/pinpox/base16-universal-manager.svg)](http://travis-ci.org/pinpox/base16-universal-manager) [![GoDoc](https://godoc.org/github.com/pinpox/base16-universal-manager?status.svg)](http://godoc.org/github.com/pinpox/base16-universal-manager)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "ahmadawais/base16-shades-of-purple",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pinpox/base16-universal-manager",
+      "status": "candidate",
+      "text": "[![Build Status](https://api.travis-ci.org/pinpox/base16-universal-manager.svg)](http://travis-ci.org/pinpox/base16-universal-manager) [![GoDoc](https://godoc.org/github.com/pinpox/base16-universal-manager?status.svg)](http://godoc.org/github.com/pinpox/base16-universal-manager)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "ahmadawais/base16-shades-of-purple"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "pinpox/base16-universal-manager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "ahmadawais/base16-shades-of-purple"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

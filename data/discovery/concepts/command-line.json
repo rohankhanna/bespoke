@@ -829,6 +829,42 @@
       "source_repo": "ehmicky/get-node",
       "status": "candidate-context",
       "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/get-node)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ankitpokhrel/jira-cli",
+      "status": "candidate-context",
+      "text": "\ud83d\udd25 Feature-rich interactive Jira command line."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ankitpokhrel/jira-cli",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AlecAivazis/survey",
+      "status": "candidate-context",
+      "text": "A golang library for building interactive and accessible prompts with full support for windows and posix terminals."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AlecAivazis/survey",
+      "status": "candidate-context",
+      "text": "[![GoDoc](http://img.shields.io/badge/godoc-reference-5272B4.svg)](https://pkg.go.dev/github.com/AlecAivazis/survey/v2)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aksakalli/gtop",
+      "status": "candidate-context",
+      "text": "System monitoring dashboard for terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aksakalli/gtop",
+      "status": "candidate-context",
+      "text": "![screen record](https://raw.githubusercontent.com/aksakalli/gtop/master/img/demo.gif)"
     }
   ],
   "candidate_glosses": [
@@ -1239,6 +1275,24 @@
       "source_repo": "ehmicky/get-node",
       "status": "candidate",
       "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/get-node)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ankitpokhrel/jira-cli",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AlecAivazis/survey",
+      "status": "candidate",
+      "text": "[![GoDoc](http://img.shields.io/badge/godoc-reference-5272B4.svg)](https://pkg.go.dev/github.com/AlecAivazis/survey/v2)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aksakalli/gtop",
+      "status": "candidate",
+      "text": "![screen record](https://raw.githubusercontent.com/aksakalli/gtop/master/img/demo.gif)"
     }
   ],
   "candidate_related_terms": [
@@ -1728,11 +1782,53 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "ehmicky/get-node"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "Comfy-Org/comfy-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "clap-rs/clap"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "ankitpokhrel/jira-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "AlecAivazis/survey"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "aksakalli/gtop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "dat-ecosystem/dat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/mac2k"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

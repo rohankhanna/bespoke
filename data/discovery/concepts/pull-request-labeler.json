@@ -705,6 +705,30 @@
       "source_repo": "mruby/mruby",
       "status": "candidate-context",
       "text": "Pull Request Labeler"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hermit-os/tokio",
+      "status": "candidate-context",
+      "text": "A runtime for writing reliable asynchronous applications with Rust. Provides I/O, networking, scheduling, timers, ..."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hermit-os/tokio",
+      "status": "candidate-context",
+      "text": "\"Pull Request Labeler\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openlit/openlit",
+      "status": "candidate-context",
+      "text": "Open source platform for AI Engineering: OpenTelemetry-native LLM Observability, GPU Monitoring, Guardrails, Evaluations, Prompt Management, Vault, Playground. \ud83d\ude80\ud83d\udcbb Integrates with 50+ LLM Providers, VectorDBs, Agent Frameworks and GPUs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openlit/openlit",
+      "status": "candidate-context",
+      "text": "Pull Request Labeler"
     }
   ],
   "candidate_glosses": [
@@ -1059,6 +1083,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "mruby/mruby",
+      "status": "candidate",
+      "text": "Pull Request Labeler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hermit-os/tokio",
+      "status": "candidate",
+      "text": "\"Pull Request Labeler\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openlit/openlit",
       "status": "candidate",
       "text": "Pull Request Labeler"
     }
@@ -1488,11 +1524,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/labeler.yml",
       "source_repo": "mruby/mruby"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "hermit-os/tokio"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/pr-tag.yml",
+      "source_repo": "openlit/openlit"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

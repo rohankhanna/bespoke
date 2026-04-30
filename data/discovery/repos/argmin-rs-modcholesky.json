@@ -1,0 +1,85 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "argmin-rs/modcholesky",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "argmin-rs/modcholesky",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "argmin-rs/modcholesky",
+      "target": "modcholesky CI",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:49:23.439364+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2908
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 737
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1099
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Modified Cholesky decompositions",
+    "fork": false,
+    "full_name": "argmin-rs/modcholesky",
+    "html_url": "https://github.com/argmin-rs/modcholesky",
+    "language": "Rust",
+    "pushed_at": "2024-08-31T14:23:52Z",
+    "stargazers_count": 17,
+    "topics": [],
+    "updated_at": "2026-03-11T11:08:41Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "modcholesky CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "modcholesky CI"
+    }
+  ]
+}

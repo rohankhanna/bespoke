@@ -1,0 +1,59 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel-test.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel-test.yaml",
+      "source_repo": "memononen/libtess2",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bazel-test.yaml",
+      "source_repo": "memononen/libtess2",
+      "target": "BazelTest",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:44:45.047701+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2158
+    },
+    {
+      "path": ".github/workflows/bazel-test.yaml",
+      "size": 477
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Game and tools oriented refactored version of GLU tesselator.",
+    "fork": false,
+    "full_name": "memononen/libtess2",
+    "html_url": "https://github.com/memononen/libtess2",
+    "language": "C",
+    "pushed_at": "2025-10-15T22:24:31Z",
+    "stargazers_count": 565,
+    "topics": [],
+    "updated_at": "2026-04-29T11:28:25Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "BazelTest",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bazel-test.yaml",
+      "term": "BazelTest"
+    }
+  ]
+}

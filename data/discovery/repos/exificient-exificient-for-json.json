@@ -1,0 +1,59 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EXIficient/exificient-for-json",
+      "target": "compression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EXIficient/exificient-for-json",
+      "target": "json",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:54:15.501618+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8588
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "EXI for JSON - How EXI can be used to represent JSON data efficiently",
+    "fork": false,
+    "full_name": "EXIficient/exificient-for-json",
+    "html_url": "https://github.com/EXIficient/exificient-for-json",
+    "language": "Java",
+    "pushed_at": "2026-03-02T18:40:36Z",
+    "stargazers_count": 10,
+    "topics": [
+      "compression",
+      "exi",
+      "json"
+    ],
+    "updated_at": "2026-03-02T18:40:34Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "**_exificient-for-json_** is an implementation of the EXI4JSON specification (see <https://www.w3.org/TR/exi-for-json/>) in Java. EXI4JSON converts JSON to event streams which result in a very processing efficient and compact format. Lossless round-trip conversion back to the or\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compression"
+    },
+    {
+      "context_snippet": "**_exificient-for-json_** is an implementation of the EXI4JSON specification (see <https://www.w3.org/TR/exi-for-json/>) in Java. EXI4JSON converts JSON to event streams which result in a very processing efficient and compact format. Lossless round-trip conversion back to the or\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json"
+    }
+  ]
+}

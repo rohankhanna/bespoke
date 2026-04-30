@@ -1,0 +1,108 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_changelog.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "heroku/heroku-buildpack-apt",
+      "target": "heroku/buildpacks-deb-packages",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_changelog.yml",
+      "source_repo": "heroku/heroku-buildpack-apt",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_changelog.yml",
+      "source_repo": "heroku/heroku-buildpack-apt",
+      "target": "Check Changelog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "heroku/heroku-buildpack-apt",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heroku/heroku-buildpack-apt",
+      "target": "heroku-languages",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:03:52.244369+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1867
+    },
+    {
+      "path": ".github/workflows/check_changelog.yml",
+      "size": 552
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 781
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Classic buildpack that installs APT packages.",
+    "fork": false,
+    "full_name": "heroku/heroku-buildpack-apt",
+    "html_url": "https://github.com/heroku/heroku-buildpack-apt",
+    "language": "Shell",
+    "pushed_at": "2026-04-09T22:13:23Z",
+    "stargazers_count": 250,
+    "topics": [
+      "heroku-languages"
+    ],
+    "updated_at": "2026-04-09T22:13:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "heroku/buildpacks-deb-packages",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Check Changelog",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_changelog.yml",
+      "term": "Check Changelog"
+    },
+    {
+      "context_snippet": "Add support for apt-based dependencies during both compile and runtime.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "heroku-languages"
+    }
+  ]
+}

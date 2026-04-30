@@ -5,7 +5,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -31,6 +33,30 @@
       "source_repo": "hynek/argon2-cffi",
       "status": "candidate-context",
       "text": "[![Documentation](https://img.shields.io/badge/Docs-Read%20The%20Docs-black)](https://argon2-cffi.readthedocs.io/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antelle/argon2-browser",
+      "status": "candidate-context",
+      "text": "Argon2 library compiled for browser runtime"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antelle/argon2-browser",
+      "status": "candidate-context",
+      "text": "Argon2 is a password-hashing function, the winner of Password Hashing Competition. Here Argon2 library is compiled for browser runtime."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RustCrypto/password-hashes",
+      "status": "candidate-context",
+      "text": "Password hashing functions / KDFs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RustCrypto/password-hashes",
+      "status": "candidate-context",
+      "text": "argon2"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +71,18 @@
       "source_repo": "hynek/argon2-cffi",
       "status": "candidate",
       "text": "[![Documentation](https://img.shields.io/badge/Docs-Read%20The%20Docs-black)](https://argon2-cffi.readthedocs.io/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antelle/argon2-browser",
+      "status": "candidate",
+      "text": "Argon2 is a password-hashing function, the winner of Password Hashing Competition. Here Argon2 library is compiled for browser runtime."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RustCrypto/password-hashes",
+      "status": "candidate",
+      "text": "argon2"
     }
   ],
   "candidate_related_terms": [
@@ -106,11 +144,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "hynek/argon2-cffi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "antelle/argon2-browser"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/argon2.yml",
+      "source_repo": "RustCrypto/password-hashes"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

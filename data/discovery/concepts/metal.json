@@ -163,6 +163,18 @@
       "source_repo": "hybridgroup/yzma",
       "status": "candidate-context",
       "text": "![yzma logo](./images/yzma-logo-full-color-small.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cocos2d/cocos2d-x",
+      "status": "candidate-context",
+      "text": "Cocos2d-x is a suite of open-source, cross-platform, game-development tools utilized by millions of developers across the globe. Its core has evolved to serve as the foundation for Cocos Creator 1.x & 2.x."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cocos2d/cocos2d-x",
+      "status": "candidate-context",
+      "text": "<img src=\"http://www.cocos2d-x.org/attachments/801/cocos2dx_portrait.png\" width=200>"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +255,12 @@
       "source_repo": "hybridgroup/yzma",
       "status": "candidate",
       "text": "![yzma logo](./images/yzma-logo-full-color-small.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cocos2d/cocos2d-x",
+      "status": "candidate",
+      "text": "<img src=\"http://www.cocos2d-x.org/attachments/801/cocos2dx_portrait.png\" width=200>"
     }
   ],
   "candidate_related_terms": [
@@ -403,11 +421,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "tracel-ai/burn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "cocos2d/cocos2d-x"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

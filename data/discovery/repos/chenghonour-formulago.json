@@ -1,0 +1,49 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chenghonour/formulago",
+      "target": "chenghonour/formulago-ui",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:48:15.343371+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2820
+    },
+    {
+      "path": "Dockerfile",
+      "size": 756
+    },
+    {
+      "path": "go.mod",
+      "size": 3967
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "FormulaGo is an enterprise admin management application framework developed with Hertz and Ent.\u5f3a\u52b2\u800c\u7b80\u6d01\u7684\u540e\u53f0\u7ba1\u7406\u7cfb\u7edf\u6846\u67b6\u3002",
+    "fork": false,
+    "full_name": "chenghonour/formulago",
+    "html_url": "https://github.com/chenghonour/formulago",
+    "language": "Go",
+    "pushed_at": "2025-06-19T09:01:32Z",
+    "stargazers_count": 54,
+    "topics": [],
+    "updated_at": "2026-04-07T16:35:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chenghonour/formulago-ui",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

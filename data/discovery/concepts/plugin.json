@@ -952,6 +952,42 @@
       "source_repo": "cheshire-cat-ai/core",
       "status": "candidate-context",
       "text": "<a name=\"readme-top\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dreamscached/i18next-cli-plugin-svelte",
+      "status": "candidate-context",
+      "text": "\ud83d\udcdc i18next-cli plugin to extract Javascript/Typescript from Svelte components"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dreamscached/i18next-cli-plugin-svelte",
+      "status": "candidate-context",
+      "text": "[![GitHub branch check runs](https://img.shields.io/github/check-runs/dreamscached/i18next-cli-plugin-svelte/master)](https://github.com/dreamscached/i18next-cli-plugin-svelte/actions/workflows/checks.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ellisonleao/nvim-plugin-template",
+      "status": "candidate-context",
+      "text": "A neovim plugin template for github repos"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ellisonleao/nvim-plugin-template",
+      "status": "candidate-context",
+      "text": "![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/ellisonleao/nvim-plugin-template/lint-test.yml?branch=main&style=for-the-badge)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "benelan/neotest-stenciljs",
+      "status": "candidate-context",
+      "text": "An unofficial StencilJS adapter for the \"neotest\" nvim plugin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "benelan/neotest-stenciljs",
+      "status": "candidate-context",
+      "text": "This plugin provides a [StencilJS](https://stenciljs.com) adapter for the"
     }
   ],
   "candidate_glosses": [
@@ -1428,6 +1464,24 @@
       "source_repo": "cheshire-cat-ai/core",
       "status": "candidate",
       "text": "<a name=\"readme-top\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dreamscached/i18next-cli-plugin-svelte",
+      "status": "candidate",
+      "text": "[![GitHub branch check runs](https://img.shields.io/github/check-runs/dreamscached/i18next-cli-plugin-svelte/master)](https://github.com/dreamscached/i18next-cli-plugin-svelte/actions/workflows/checks.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ellisonleao/nvim-plugin-template",
+      "status": "candidate",
+      "text": "![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/ellisonleao/nvim-plugin-template/lint-test.yml?branch=main&style=for-the-badge)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "benelan/neotest-stenciljs",
+      "status": "candidate",
+      "text": "This plugin provides a [StencilJS](https://stenciljs.com) adapter for the"
     }
   ],
   "candidate_related_terms": [
@@ -2047,11 +2101,59 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "cheshire-cat-ai/core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "deforum/sd-webui-deforum"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "dreamscached/i18next-cli-plugin-svelte"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "ellisonleao/nvim-plugin-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "benelan/neotest-stenciljs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-fasthttp-auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "base-repos/base"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-gina"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

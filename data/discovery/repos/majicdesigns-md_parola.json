@@ -1,0 +1,157 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MajicDesigns/MD_Parola",
+      "target": "arduino",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MajicDesigns/MD_Parola",
+      "target": "arduino-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MajicDesigns/MD_Parola",
+      "target": "led-matrix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MajicDesigns/MD_Parola",
+      "target": "library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MajicDesigns/MD_Parola",
+      "target": "matrices",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MajicDesigns/MD_Parola",
+      "target": "max7219",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MajicDesigns/MD_Parola",
+      "target": "max7221",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MajicDesigns/MD_Parola",
+      "target": "parola",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MajicDesigns/MD_Parola",
+      "target": "scrolling",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:59:04.510779+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2186
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Library for modular scrolling LED matrix text displays",
+    "fork": false,
+    "full_name": "MajicDesigns/MD_Parola",
+    "html_url": "https://github.com/MajicDesigns/MD_Parola",
+    "language": "C++",
+    "pushed_at": "2025-11-21T07:04:11Z",
+    "stargazers_count": 483,
+    "topics": [
+      "arduino",
+      "arduino-library",
+      "led",
+      "led-matrix",
+      "library",
+      "matrices",
+      "max7219",
+      "max7221",
+      "parola",
+      "scrolling"
+    ],
+    "updated_at": "2026-03-30T05:00:10Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![arduino-library-badge](https://www.ardu-badge.com/badge/MD_Parola.svg?)](https://www.ardu-badge.com/MD_Parola)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arduino"
+    },
+    {
+      "context_snippet": "[![arduino-library-badge](https://www.ardu-badge.com/badge/MD_Parola.svg?)](https://www.ardu-badge.com/MD_Parola)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arduino-library"
+    },
+    {
+      "context_snippet": "[![arduino-library-badge](https://www.ardu-badge.com/badge/MD_Parola.svg?)](https://www.ardu-badge.com/MD_Parola)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "led-matrix"
+    },
+    {
+      "context_snippet": "[![arduino-library-badge](https://www.ardu-badge.com/badge/MD_Parola.svg?)](https://www.ardu-badge.com/MD_Parola)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "library"
+    },
+    {
+      "context_snippet": "[![arduino-library-badge](https://www.ardu-badge.com/badge/MD_Parola.svg?)](https://www.ardu-badge.com/MD_Parola)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "matrices"
+    },
+    {
+      "context_snippet": "[![arduino-library-badge](https://www.ardu-badge.com/badge/MD_Parola.svg?)](https://www.ardu-badge.com/MD_Parola)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "max7219"
+    },
+    {
+      "context_snippet": "[![arduino-library-badge](https://www.ardu-badge.com/badge/MD_Parola.svg?)](https://www.ardu-badge.com/MD_Parola)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "max7221"
+    },
+    {
+      "context_snippet": "[![arduino-library-badge](https://www.ardu-badge.com/badge/MD_Parola.svg?)](https://www.ardu-badge.com/MD_Parola)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parola"
+    },
+    {
+      "context_snippet": "[![arduino-library-badge](https://www.ardu-badge.com/badge/MD_Parola.svg?)](https://www.ardu-badge.com/MD_Parola)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scrolling"
+    }
+  ]
+}

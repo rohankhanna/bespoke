@@ -146,11 +146,6 @@
       "source_file": "package.json"
     },
     {
-      "component": "cross-env",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
       "component": "devtools-protocol",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
@@ -271,28 +266,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "engine262/engine262",
-      "target": "neilfraser/js-interpreter",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "engine262/engine262",
-      "target": "metaes/metaes",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "engine262/engine262",
-      "target": "siubaak/sval",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "engine262/engine262",
       "target": "tc39/proposal-do-expressions",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "engine262/engine262",
+      "target": "tc39/proposal-optional-chaining",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "engine262/engine262",
+      "target": "tc39/proposal-pattern-matching",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "engine262/engine262",
+      "target": "tc39/proposal-pipeline-operator",
       "target_type": "repository"
     },
     {
@@ -502,13 +497,6 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "engine262/engine262",
-      "target": "cross-env",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "engine262/engine262",
       "target": "devtools-protocol",
       "target_type": "component"
     },
@@ -709,23 +697,23 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T09:03:36.281573+00:00",
+  "fetched_at": "2026-04-30T19:56:38.381399+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 4814
+      "size": 4766
     },
     {
       "path": "package.json",
-      "size": 5784
+      "size": 4784
     },
     {
       "path": ".github/workflows/publish.yml",
-      "size": 1997
+      "size": 1796
     },
     {
       "path": ".github/workflows/test.yml",
-      "size": 981
+      "size": 977
     }
   ],
   "related_repositories": [],
@@ -737,8 +725,8 @@
     "full_name": "engine262/engine262",
     "html_url": "https://github.com/engine262/engine262",
     "language": "TypeScript",
-    "pushed_at": "2026-04-22T02:34:21Z",
-    "stargazers_count": 937,
+    "pushed_at": "2026-04-30T19:31:02Z",
+    "stargazers_count": 939,
     "topics": [
       "ecma262",
       "engine262",
@@ -746,27 +734,27 @@
       "javascript",
       "reference-implementation"
     ],
-    "updated_at": "2026-04-22T02:34:26Z"
+    "updated_at": "2026-04-30T07:46:39Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "metaes/metaes",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "neilfraser/js-interpreter",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "siubaak/sval",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "tc39/proposal-do-expressions",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tc39/proposal-optional-chaining",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tc39/proposal-pattern-matching",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tc39/proposal-pipeline-operator",
       "source_file": "README.md"
     }
   ],

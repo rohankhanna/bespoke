@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gnet-io/gnet-benchmarks",
+      "target": "panjf2000/gnet_benchmarks",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:48:41.130609+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1933
+    },
+    {
+      "path": "go.mod",
+      "size": 509
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "v2",
+    "description": "Benchmark test of gnet",
+    "fork": false,
+    "full_name": "gnet-io/gnet-benchmarks",
+    "html_url": "https://github.com/gnet-io/gnet-benchmarks",
+    "language": "Go",
+    "pushed_at": "2024-12-07T13:59:14Z",
+    "stargazers_count": 39,
+    "topics": [],
+    "updated_at": "2025-08-05T12:12:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "panjf2000/gnet_benchmarks",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

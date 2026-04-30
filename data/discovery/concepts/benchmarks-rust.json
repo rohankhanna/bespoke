@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Benchmarks Rust"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rolldown/rolldown",
+      "status": "candidate-context",
+      "text": "Fast Rust bundler for JavaScript/TypeScript with Rollup-compatible API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rolldown/rolldown",
+      "status": "candidate-context",
+      "text": "Benchmarks Rust"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rolldown/rolldown",
+      "status": "candidate",
+      "text": "Benchmarks Rust"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10944,
+      "status": "candidate",
+      "text": "conditions"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10747,
+      "status": "candidate",
+      "text": "heteroecious"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10724,
+      "status": "candidate",
+      "text": "assident"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10724,
+      "status": "candidate",
+      "text": "calcimine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10724,
+      "status": "candidate",
+      "text": "coindication"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Benchmarks Rust",
+  "concept_id": "benchmarks-rust",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/benchmark-rust.yml",
+      "source_repo": "rolldown/rolldown"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Benchmarks Rust",
+      "sense_id": "benchmarks-rust#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

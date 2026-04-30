@@ -167,6 +167,30 @@
       "source_repo": "hazelcast/hazelcast-csharp-client",
       "status": "candidate-context",
       "text": "Build Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "robertkrimen/otto",
+      "status": "candidate-context",
+      "text": "A JavaScript interpreter in Go (golang)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robertkrimen/otto",
+      "status": "candidate-context",
+      "text": "Build Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apernet/hysteria",
+      "status": "candidate-context",
+      "text": "Hysteria is a powerful, lightning fast and censorship resistant proxy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apernet/hysteria",
+      "status": "candidate-context",
+      "text": "\"Build release\""
     }
   ],
   "candidate_glosses": [
@@ -247,6 +271,18 @@
       "source_repo": "hazelcast/hazelcast-csharp-client",
       "status": "candidate",
       "text": "Build Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robertkrimen/otto",
+      "status": "candidate",
+      "text": "Build Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apernet/hysteria",
+      "status": "candidate",
+      "text": "\"Build release\""
     }
   ],
   "candidate_related_terms": [
@@ -368,11 +404,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/build-release.yml",
       "source_repo": "hazelcast/hazelcast-csharp-client"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/release-build.yml",
+      "source_repo": "robertkrimen/otto"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apernet/hysteria"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

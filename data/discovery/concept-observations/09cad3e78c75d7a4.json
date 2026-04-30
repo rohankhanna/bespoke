@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Node module for creating dat compatible tools on file systems [ DEPRECATED - More info on active projects and modules at https://dat-ecosystem.org/ ] "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "dat-node \u2014 Build node applications with Dat archives on the file system."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "dat-node \u2014 Build node applications with Dat archives on the file system."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019930,
+      "status": "candidate",
+      "text": "jumpship"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019929,
+      "status": "candidate",
+      "text": "hyperloop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019928,
+      "status": "candidate",
+      "text": "hub world"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019927,
+      "status": "candidate",
+      "text": "hypervelocity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019926,
+      "status": "candidate",
+      "text": "holodisk"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hyperdrive",
+      "sense_id": "hyperdrive#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "hyperdrive",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "hyperdrive",
+  "observation_id": "09cad3e78c75d7a4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "hyperdrive",
+  "source_context_snippet": "dat-node \u2014 Build node applications with Dat archives on the file system.",
+  "source_file": null,
+  "source_repo": "dat-ecosystem-archive/dat-node",
+  "source_repo_description": "Node module for creating dat compatible tools on file systems [ DEPRECATED - More info on active projects and modules at https://dat-ecosystem.org/ ] "
+}

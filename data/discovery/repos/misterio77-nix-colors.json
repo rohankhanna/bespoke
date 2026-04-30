@@ -1,0 +1,84 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Misterio77/nix-colors",
+      "target": "base16-project/base16-schemes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Misterio77/nix-colors",
+      "target": "base16-project/base16",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Misterio77/nix-colors",
+      "target": "base16",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Misterio77/nix-colors",
+      "target": "colorschemes",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:50:41.672470+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7893
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Modules and schemes to make theming with Nix awesome.",
+    "fork": false,
+    "full_name": "Misterio77/nix-colors",
+    "html_url": "https://github.com/Misterio77/nix-colors",
+    "language": "Nix",
+    "pushed_at": "2024-05-23T18:39:21Z",
+    "stargazers_count": 594,
+    "topics": [
+      "base16",
+      "colorschemes",
+      "nix"
+    ],
+    "updated_at": "2026-04-29T01:20:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "base16-project/base16",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "base16-project/base16-schemes",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repo is designed to help with Nix(OS) theming.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "base16"
+    },
+    {
+      "context_snippet": "This repo is designed to help with Nix(OS) theming.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "colorschemes"
+    }
+  ]
+}

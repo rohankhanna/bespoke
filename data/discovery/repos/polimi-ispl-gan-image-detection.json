@@ -1,0 +1,59 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "polimi-ispl/GAN-image-detection",
+      "target": "forensics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "polimi-ispl/GAN-image-detection",
+      "target": "image-forensics",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:42:28.249836+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3031
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "GAN-generated image detection based on CNNs",
+    "fork": false,
+    "full_name": "polimi-ispl/GAN-image-detection",
+    "html_url": "https://github.com/polimi-ispl/GAN-image-detection",
+    "language": "Python",
+    "pushed_at": "2023-09-05T16:33:42Z",
+    "stargazers_count": 47,
+    "topics": [
+      "forensics",
+      "gan",
+      "image-forensics"
+    ],
+    "updated_at": "2025-12-09T13:48:06Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository contains a GAN-generated image detector developed to distinguish real images from synthetic ones.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "forensics"
+    },
+    {
+      "context_snippet": "This repository contains a GAN-generated image detector developed to distinguish real images from synthetic ones.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-forensics"
+    }
+  ]
+}

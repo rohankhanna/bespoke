@@ -19,6 +19,18 @@
       "source_repo": "akshaykmr/teletype",
       "status": "candidate-context",
       "text": "TeleType"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dat-ecosystem-archive/datBase",
+      "status": "candidate-context",
+      "text": "Open data sharing powered by Dat [ DEPRECATED - More info on active projects and modules at https://dat-ecosystem.org/ ] "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dat-ecosystem-archive/datBase",
+      "status": "candidate-context",
+      "text": "[![deprecated](http://badges.github.io/stability-badges/dist/deprecated.svg)](https://dat-ecosystem.org/)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "akshaykmr/teletype",
       "status": "candidate",
       "text": "TeleType"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dat-ecosystem-archive/datBase",
+      "status": "candidate",
+      "text": "[![deprecated](http://badges.github.io/stability-badges/dist/deprecated.svg)](https://dat-ecosystem.org/)"
     }
   ],
   "candidate_related_terms": [
@@ -105,11 +123,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "akshaykmr/teletype"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "dat-ecosystem-archive/datBase"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

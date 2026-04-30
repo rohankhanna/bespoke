@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FlagOpen/RoboOS",
+      "target": "flagopen/robobrain2.0",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FlagOpen/RoboOS",
+      "target": "flagopen/robobrain",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "FlagOpen/RoboOS",
+      "target": "flagopen/flagscale",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-30T18:36:26.757967+00:00",
+  "source_repo": "FlagOpen/RoboOS"
+}

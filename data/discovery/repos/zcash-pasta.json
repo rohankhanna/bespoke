@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zcash/pasta",
+      "target": "cryptography",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zcash/pasta",
+      "target": "elliptic-curves",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zcash/pasta",
+      "target": "mathematics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zcash/pasta",
+      "target": "sagemath",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:49:27.071350+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2277
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Generator and supporting evidence for security of the Pallas/Vesta pair of elliptic curves suitable for Halo",
+    "fork": false,
+    "full_name": "zcash/pasta",
+    "html_url": "https://github.com/zcash/pasta",
+    "language": "Sage",
+    "pushed_at": "2023-05-19T12:49:18Z",
+    "stargazers_count": 60,
+    "topics": [
+      "cryptography",
+      "elliptic-curves",
+      "mathematics",
+      "sagemath"
+    ],
+    "updated_at": "2026-03-06T18:59:49Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Pallas/Vesta supporting evidence",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cryptography"
+    },
+    {
+      "context_snippet": "Pallas/Vesta supporting evidence",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "elliptic-curves"
+    },
+    {
+      "context_snippet": "Pallas/Vesta supporting evidence",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mathematics"
+    },
+    {
+      "context_snippet": "Pallas/Vesta supporting evidence",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sagemath"
+    }
+  ]
+}

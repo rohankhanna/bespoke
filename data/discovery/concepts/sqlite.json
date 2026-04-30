@@ -367,6 +367,30 @@
       "source_repo": "FuzzyGrim/Yamtrack",
       "status": "candidate-context",
       "text": "![App Tests](https://github.com/FuzzyGrim/Yamtrack/actions/workflows/app-tests.yml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jaredwray/keyv",
+      "status": "candidate-context",
+      "text": "Simple key-value storage with support for multiple backends"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaredwray/keyv",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\"><img width=\"250\" src=\"https://jaredwray.com/images/keyv.svg\" alt=\"keyv\"></h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Dicklesworthstone/frankensqlite",
+      "status": "candidate-context",
+      "text": "Independent ground-up Rust reimplementation of SQLite with concurrent writers and information-theoretic durability"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dicklesworthstone/frankensqlite",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -549,6 +573,18 @@
       "source_repo": "FuzzyGrim/Yamtrack",
       "status": "candidate",
       "text": "![App Tests](https://github.com/FuzzyGrim/Yamtrack/actions/workflows/app-tests.yml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaredwray/keyv",
+      "status": "candidate",
+      "text": "<h1 align=\"center\"><img width=\"250\" src=\"https://jaredwray.com/images/keyv.svg\" alt=\"keyv\"></h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dicklesworthstone/frankensqlite",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -856,11 +892,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "FuzzyGrim/Yamtrack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "jaredwray/keyv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "Dicklesworthstone/frankensqlite"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

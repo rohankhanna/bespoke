@@ -1186,6 +1186,42 @@
       "source_repo": "yousty/event_store_subscriptions",
       "status": "candidate-context",
       "text": "Run tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaLang/Pkg.jl",
+      "status": "candidate-context",
+      "text": "Pkg - Package manager for the Julia programming language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLang/Pkg.jl",
+      "status": "candidate-context",
+      "text": "Run tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvim-neorg/neorg",
+      "status": "candidate-context",
+      "text": "Modernity meets insane extensibility. The future of organizing your life in Neovim."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-neorg/neorg",
+      "status": "candidate-context",
+      "text": "Run tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "panjf2000/ants",
+      "status": "candidate-context",
+      "text": "\ud83d\udc1c\ud83d\udc1c\ud83d\udc1c ants is the most powerful and reliable pooling solution for Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "panjf2000/ants",
+      "status": "candidate-context",
+      "text": "Run tests"
     }
   ],
   "candidate_glosses": [
@@ -1786,6 +1822,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "yousty/event_store_subscriptions",
+      "status": "candidate",
+      "text": "Run tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLang/Pkg.jl",
+      "status": "candidate",
+      "text": "Run tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-neorg/neorg",
+      "status": "candidate",
+      "text": "Run tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "panjf2000/ants",
       "status": "candidate",
       "text": "Run tests"
     }
@@ -2599,11 +2653,53 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/tests.yml",
       "source_repo": "nodists/nodist"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "JuliaLang/Pkg.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "appbaseio/reactivesearch-api"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "google/vim-maktaba"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "github-linguist/linguist"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "lumen-oss/luarocks-tag-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "nvim-neorg/neorg"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "panjf2000/ants"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

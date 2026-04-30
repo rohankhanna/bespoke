@@ -1,0 +1,82 @@
+{
+  "components": [
+    {
+      "component": "@trojs/openapi-dereference",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "js-yaml",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "janwilmake/openapi-mcp-server",
+      "target": "janwilmake/openapisearch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "janwilmake/openapi-mcp-server",
+      "target": "janwilmake/oapis",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "janwilmake/openapi-mcp-server",
+      "target": "@trojs/openapi-dereference",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "janwilmake/openapi-mcp-server",
+      "target": "js-yaml",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:58:47.030753+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1492
+    },
+    {
+      "path": "package.json",
+      "size": 96
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Allow AI to wade through complex OpenAPIs using Simple Language",
+    "fork": false,
+    "full_name": "janwilmake/openapi-mcp-server",
+    "html_url": "https://github.com/janwilmake/openapi-mcp-server",
+    "language": "TypeScript",
+    "pushed_at": "2026-02-21T12:49:21Z",
+    "stargazers_count": 889,
+    "topics": [],
+    "updated_at": "2026-04-28T10:14:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "janwilmake/oapis",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "janwilmake/openapisearch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

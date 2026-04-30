@@ -1063,6 +1063,78 @@
       "source_repo": "mdn/data",
       "status": "candidate-context",
       "text": "> **Note**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unum-cloud/UStore",
+      "status": "candidate-context",
+      "text": "Multi-Modal Database replacing MongoDB, Neo4J, and Elastic with 1 faster ACID solution, with NetworkX and Pandas interfaces, and bindings for C 99, C++ 17, Python 3, Java, GoLang \ud83d\uddc4\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unum-cloud/UStore",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">UStore</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "buger/jsonparser",
+      "status": "candidate-context",
+      "text": "One of the fastest alternative JSON parser for Go that does not require schema"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "buger/jsonparser",
+      "status": "candidate-context",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/buger/jsonparser)](https://goreportcard.com/report/github.com/buger/jsonparser) ![License](https://img.shields.io/dub/l/vibe-d.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mailru/easyjson",
+      "status": "candidate-context",
+      "text": "Fast JSON serializer for golang."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mailru/easyjson",
+      "status": "candidate-context",
+      "text": "Package easyjson provides a fast and easy way to marshal/unmarshal Go structs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EXIficient/exificient-for-json",
+      "status": "candidate-context",
+      "text": "EXI for JSON - How EXI can be used to represent JSON data efficiently"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EXIficient/exificient-for-json",
+      "status": "candidate-context",
+      "text": "**_exificient-for-json_** is an implementation of the EXI4JSON specification (see <https://www.w3.org/TR/exi-for-json/>) in Java. EXI4JSON converts JSON to event streams which result in a very processing efficient and compact format. Lossless round-trip conversion back to the or\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "michel-kraemer/bson4jackson",
+      "status": "candidate-context",
+      "text": "\ud83e\uddac A pluggable BSON generator and parser for the Jackson JSON processor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "michel-kraemer/bson4jackson",
+      "status": "candidate-context",
+      "text": "This library adds support for [BSON](https://bsonspec.org) to the"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sindresorhus/strip-json-comments",
+      "status": "candidate-context",
+      "text": "Strip comments from JSON. Lets you use comments in your JSON files!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/strip-json-comments",
+      "status": "candidate-context",
+      "text": "strip-json-comments \u2014 Strip comments from JSON. Lets you use comments in your JSON files!"
     }
   ],
   "candidate_glosses": [
@@ -1593,6 +1665,42 @@
       "source_repo": "mdn/data",
       "status": "candidate",
       "text": "> **Note**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unum-cloud/UStore",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">UStore</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "buger/jsonparser",
+      "status": "candidate",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/buger/jsonparser)](https://goreportcard.com/report/github.com/buger/jsonparser) ![License](https://img.shields.io/dub/l/vibe-d.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mailru/easyjson",
+      "status": "candidate",
+      "text": "Package easyjson provides a fast and easy way to marshal/unmarshal Go structs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EXIficient/exificient-for-json",
+      "status": "candidate",
+      "text": "**_exificient-for-json_** is an implementation of the EXI4JSON specification (see <https://www.w3.org/TR/exi-for-json/>) in Java. EXI4JSON converts JSON to event streams which result in a very processing efficient and compact format. Lossless round-trip conversion back to the or\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "michel-kraemer/bson4jackson",
+      "status": "candidate",
+      "text": "This library adds support for [BSON](https://bsonspec.org) to the"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/strip-json-comments",
+      "status": "candidate",
+      "text": "strip-json-comments \u2014 Strip comments from JSON. Lets you use comments in your JSON files!"
     }
   ],
   "candidate_related_terms": [
@@ -2253,11 +2361,65 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "mdn/data"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "ultrajson/ultrajson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "flightcontrolhq/superjson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "unum-cloud/UStore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "buger/jsonparser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "mailru/easyjson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "EXIficient/exificient-for-json"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "michel-kraemer/bson4jackson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "sindresorhus/strip-json-comments"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

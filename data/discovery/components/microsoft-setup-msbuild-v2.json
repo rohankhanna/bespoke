@@ -1,7 +1,7 @@
 {
   "component": "microsoft/setup-msbuild@v2",
   "first_seen_at": "2026-04-18T09:21:02.237042+00:00",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -167,6 +167,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/of.yml",
       "source_repo": "openframeworks/openFrameworks"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-legacy.yml",
+      "source_repo": "stijnvdb88/Snap.Net"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-mobile.yml",
+      "source_repo": "stijnvdb88/Snap.Net"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-deploy.yml",
+      "source_repo": "netty/netty"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-pr.yml",
+      "source_repo": "netty/netty"
     }
   ]
 }

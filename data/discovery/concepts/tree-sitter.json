@@ -169,6 +169,18 @@
       "source_repo": "lumen-oss/luarocks-build-treesitter-parser",
       "status": "candidate-context",
       "text": "A luarocks build backend for tree-sitter parsers."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Beaglefoot/tree-sitter-awk",
+      "status": "candidate-context",
+      "text": "GNU AWK grammar for tree-sitter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Beaglefoot/tree-sitter-awk",
+      "status": "candidate-context",
+      "text": "tree-sitter-awk"
     }
   ],
   "candidate_glosses": [
@@ -255,6 +267,12 @@
       "source_repo": "lumen-oss/luarocks-build-treesitter-parser",
       "status": "candidate",
       "text": "A luarocks build backend for tree-sitter parsers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Beaglefoot/tree-sitter-awk",
+      "status": "candidate",
+      "text": "tree-sitter-awk"
     }
   ],
   "candidate_related_terms": [],
@@ -358,11 +376,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "lumen-oss/luarocks-build-treesitter-parser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "Beaglefoot/tree-sitter-awk"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

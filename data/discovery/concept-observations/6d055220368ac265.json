@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udc1c\ud83d\udc1c\ud83d\udc1c ants is the most powerful and reliable pooling solution for Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10051286,
+      "status": "candidate",
+      "text": "emmet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10051216,
+      "status": "candidate",
+      "text": "pismire"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9537180,
+      "status": "candidate",
+      "text": "counteractive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9500038,
+      "status": "candidate",
+      "text": "anti"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51526,
+      "status": "candidate",
+      "text": "emmets"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ants",
+      "sense_id": "ants#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ants",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ants",
+  "observation_id": "6d055220368ac265",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "ants",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "panjf2000/ants",
+  "source_repo_description": "\ud83d\udc1c\ud83d\udc1c\ud83d\udc1c ants is the most powerful and reliable pooling solution for Go."
+}

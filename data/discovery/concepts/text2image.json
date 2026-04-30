@@ -79,6 +79,18 @@
       "source_repo": "ai-forever/Kandinsky-2",
       "status": "candidate-context",
       "text": "[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1MfN9dfmejT8NjXhR353NeP5RzbruHgo7?usp=sharing) \u2014 Inference example"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FoundationVision/LlamaGen",
+      "status": "candidate-context",
+      "text": "Autoregressive Model Beats Diffusion: \ud83e\udd99 Llama for Scalable Image Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FoundationVision/LlamaGen",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "ai-forever/Kandinsky-2",
       "status": "candidate",
       "text": "[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1MfN9dfmejT8NjXhR353NeP5RzbruHgo7?usp=sharing) \u2014 Inference example"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FoundationVision/LlamaGen",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -202,11 +220,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "FoundationVision/LlamaGen"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,491 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd.yaml"
+    },
+    {
+      "component": "codecov/codecov-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd.yaml"
+    },
+    {
+      "component": "mheap/github-action-required-labels@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/minimal-labels.yml"
+    },
+    {
+      "component": "mheap/github-action-required-labels@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/minimal-labels.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-release.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "release-drafter/release-drafter@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-updater.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-labels.yml"
+    },
+    {
+      "component": "micnncim/action-label-syncer@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-labels.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "argoproj-labs/hera",
+      "target": "dancardin/cappa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "argoproj-labs/hera",
+      "target": "flaviuvadan/kubecon_na_23_llama2_finetune",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd.yaml",
+      "source_repo": "argoproj-labs/hera",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd.yaml",
+      "source_repo": "argoproj-labs/hera",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd.yaml",
+      "source_repo": "argoproj-labs/hera",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd.yaml",
+      "source_repo": "argoproj-labs/hera",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cicd.yaml",
+      "source_repo": "argoproj-labs/hera",
+      "target": "CICD",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/minimal-labels.yml",
+      "source_repo": "argoproj-labs/hera",
+      "target": "mheap/github-action-required-labels@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/minimal-labels.yml",
+      "source_repo": "argoproj-labs/hera",
+      "target": "Minimal Labels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-release.yml",
+      "source_repo": "argoproj-labs/hera",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-release.yml",
+      "source_repo": "argoproj-labs/hera",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-release.yml",
+      "source_repo": "argoproj-labs/hera",
+      "target": "Test PyPI publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "argoproj-labs/hera",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "argoproj-labs/hera",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "argoproj-labs/hera",
+      "target": "PyPI publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-updater.yml",
+      "source_repo": "argoproj-labs/hera",
+      "target": "release-drafter/release-drafter@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-updater.yml",
+      "source_repo": "argoproj-labs/hera",
+      "target": "Update Draft Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-labels.yml",
+      "source_repo": "argoproj-labs/hera",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-labels.yml",
+      "source_repo": "argoproj-labs/hera",
+      "target": "micnncim/action-label-syncer@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-labels.yml",
+      "source_repo": "argoproj-labs/hera",
+      "target": "Sync labels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argoproj-labs/hera",
+      "target": "argo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argoproj-labs/hera",
+      "target": "argo-events",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argoproj-labs/hera",
+      "target": "argo-workflows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argoproj-labs/hera",
+      "target": "cloud-native",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argoproj-labs/hera",
+      "target": "hera",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argoproj-labs/hera",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argoproj-labs/hera",
+      "target": "library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argoproj-labs/hera",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argoproj-labs/hera",
+      "target": "pypi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argoproj-labs/hera",
+      "target": "workflow-automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argoproj-labs/hera",
+      "target": "workflow-management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argoproj-labs/hera",
+      "target": "workflows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:40:58.263172+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9048
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 4177
+    },
+    {
+      "path": ".github/workflows/cicd.yaml",
+      "size": 2167
+    },
+    {
+      "path": ".github/workflows/minimal-labels.yml",
+      "size": 773
+    },
+    {
+      "path": ".github/workflows/pre-release.yml",
+      "size": 1343
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 1469
+    },
+    {
+      "path": ".github/workflows/release-updater.yml",
+      "size": 404
+    },
+    {
+      "path": ".github/workflows/sync-labels.yml",
+      "size": 377
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Hera makes Python code easy to orchestrate on Argo Workflows through native Python integrations. It lets you construct and submit your Workflows entirely in Python. \u2b50\ufe0f Remember to star!",
+    "fork": false,
+    "full_name": "argoproj-labs/hera",
+    "html_url": "https://github.com/argoproj-labs/hera",
+    "language": "Python",
+    "pushed_at": "2026-04-14T21:57:00Z",
+    "stargazers_count": 896,
+    "topics": [
+      "argo",
+      "argo-events",
+      "argo-workflows",
+      "cloud-native",
+      "hera",
+      "kubernetes",
+      "library",
+      "machine-learning",
+      "pypi",
+      "python",
+      "sdk",
+      "workflow-automation",
+      "workflow-management",
+      "workflows"
+    ],
+    "updated_at": "2026-04-25T15:40:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dancardin/cappa",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "flaviuvadan/kubecon_na_23_llama2_finetune",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CICD",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cicd.yaml",
+      "term": "CICD"
+    },
+    {
+      "context_snippet": "Minimal Labels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/minimal-labels.yml",
+      "term": "Minimal Labels"
+    },
+    {
+      "context_snippet": "Test PyPI publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-release.yml",
+      "term": "Test PyPI publish"
+    },
+    {
+      "context_snippet": "PyPI publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "PyPI publish"
+    },
+    {
+      "context_snippet": "Update Draft Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-updater.yml",
+      "term": "Update Draft Release"
+    },
+    {
+      "context_snippet": "Sync labels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-labels.yml",
+      "term": "Sync labels"
+    },
+    {
+      "context_snippet": "| <img src=\"https://raw.githubusercontent.com/argoproj-labs/hera/main/docs/assets/hera-logo.svg\" alt=\"Hera mascot\"> | Hera is the go-to Python SDK to make Argo Workflows simple and intuitive. Easily turn Python functions into containerised templates that run on Kubernetes, with \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "argo"
+    },
+    {
+      "context_snippet": "| <img src=\"https://raw.githubusercontent.com/argoproj-labs/hera/main/docs/assets/hera-logo.svg\" alt=\"Hera mascot\"> | Hera is the go-to Python SDK to make Argo Workflows simple and intuitive. Easily turn Python functions into containerised templates that run on Kubernetes, with \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "argo-events"
+    },
+    {
+      "context_snippet": "| <img src=\"https://raw.githubusercontent.com/argoproj-labs/hera/main/docs/assets/hera-logo.svg\" alt=\"Hera mascot\"> | Hera is the go-to Python SDK to make Argo Workflows simple and intuitive. Easily turn Python functions into containerised templates that run on Kubernetes, with \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "argo-workflows"
+    },
+    {
+      "context_snippet": "| <img src=\"https://raw.githubusercontent.com/argoproj-labs/hera/main/docs/assets/hera-logo.svg\" alt=\"Hera mascot\"> | Hera is the go-to Python SDK to make Argo Workflows simple and intuitive. Easily turn Python functions into containerised templates that run on Kubernetes, with \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloud-native"
+    },
+    {
+      "context_snippet": "| <img src=\"https://raw.githubusercontent.com/argoproj-labs/hera/main/docs/assets/hera-logo.svg\" alt=\"Hera mascot\"> | Hera is the go-to Python SDK to make Argo Workflows simple and intuitive. Easily turn Python functions into containerised templates that run on Kubernetes, with \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hera"
+    },
+    {
+      "context_snippet": "| <img src=\"https://raw.githubusercontent.com/argoproj-labs/hera/main/docs/assets/hera-logo.svg\" alt=\"Hera mascot\"> | Hera is the go-to Python SDK to make Argo Workflows simple and intuitive. Easily turn Python functions into containerised templates that run on Kubernetes, with \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "| <img src=\"https://raw.githubusercontent.com/argoproj-labs/hera/main/docs/assets/hera-logo.svg\" alt=\"Hera mascot\"> | Hera is the go-to Python SDK to make Argo Workflows simple and intuitive. Easily turn Python functions into containerised templates that run on Kubernetes, with \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "library"
+    },
+    {
+      "context_snippet": "| <img src=\"https://raw.githubusercontent.com/argoproj-labs/hera/main/docs/assets/hera-logo.svg\" alt=\"Hera mascot\"> | Hera is the go-to Python SDK to make Argo Workflows simple and intuitive. Easily turn Python functions into containerised templates that run on Kubernetes, with \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "| <img src=\"https://raw.githubusercontent.com/argoproj-labs/hera/main/docs/assets/hera-logo.svg\" alt=\"Hera mascot\"> | Hera is the go-to Python SDK to make Argo Workflows simple and intuitive. Easily turn Python functions into containerised templates that run on Kubernetes, with \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pypi"
+    },
+    {
+      "context_snippet": "| <img src=\"https://raw.githubusercontent.com/argoproj-labs/hera/main/docs/assets/hera-logo.svg\" alt=\"Hera mascot\"> | Hera is the go-to Python SDK to make Argo Workflows simple and intuitive. Easily turn Python functions into containerised templates that run on Kubernetes, with \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "workflow-automation"
+    },
+    {
+      "context_snippet": "| <img src=\"https://raw.githubusercontent.com/argoproj-labs/hera/main/docs/assets/hera-logo.svg\" alt=\"Hera mascot\"> | Hera is the go-to Python SDK to make Argo Workflows simple and intuitive. Easily turn Python functions into containerised templates that run on Kubernetes, with \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "workflow-management"
+    },
+    {
+      "context_snippet": "| <img src=\"https://raw.githubusercontent.com/argoproj-labs/hera/main/docs/assets/hera-logo.svg\" alt=\"Hera mascot\"> | Hera is the go-to Python SDK to make Argo Workflows simple and intuitive. Easily turn Python functions into containerised templates that run on Kubernetes, with \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "workflows"
+    }
+  ]
+}

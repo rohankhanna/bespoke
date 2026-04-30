@@ -1,0 +1,540 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/broken_links.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/broken_links.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/broken_links.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/broken_links.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pages.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pages.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pages.yml"
+    },
+    {
+      "component": "actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pages.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/health_report.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/health_report.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/health_report.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "veggiemonk/awesome-docker",
+      "target": "alexaandrov/stitchocker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "veggiemonk/awesome-docker",
+      "target": "abians/docker-db-manager",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "veggiemonk/awesome-docker",
+      "target": "ajayd-san/gomanagedocker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "veggiemonk/awesome-docker",
+      "target": "adrianmo/powerline-docker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/broken_links.yml",
+      "source_repo": "veggiemonk/awesome-docker",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/broken_links.yml",
+      "source_repo": "veggiemonk/awesome-docker",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/broken_links.yml",
+      "source_repo": "veggiemonk/awesome-docker",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/broken_links.yml",
+      "source_repo": "veggiemonk/awesome-docker",
+      "target": "Broken Links Report",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pages.yml",
+      "source_repo": "veggiemonk/awesome-docker",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pages.yml",
+      "source_repo": "veggiemonk/awesome-docker",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pages.yml",
+      "source_repo": "veggiemonk/awesome-docker",
+      "target": "actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pages.yml",
+      "source_repo": "veggiemonk/awesome-docker",
+      "target": "actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-pages.yml",
+      "source_repo": "veggiemonk/awesome-docker",
+      "target": "Deploy to GitHub Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/health_report.yml",
+      "source_repo": "veggiemonk/awesome-docker",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/health_report.yml",
+      "source_repo": "veggiemonk/awesome-docker",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/health_report.yml",
+      "source_repo": "veggiemonk/awesome-docker",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/health_report.yml",
+      "source_repo": "veggiemonk/awesome-docker",
+      "target": "Weekly Health Report",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "veggiemonk/awesome-docker",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "veggiemonk/awesome-docker",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "veggiemonk/awesome-docker",
+      "target": "awesome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "veggiemonk/awesome-docker",
+      "target": "awesome-list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "veggiemonk/awesome-docker",
+      "target": "container",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "veggiemonk/awesome-docker",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "veggiemonk/awesome-docker",
+      "target": "docker-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "veggiemonk/awesome-docker",
+      "target": "docker-container",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "veggiemonk/awesome-docker",
+      "target": "docker-deployment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "veggiemonk/awesome-docker",
+      "target": "docker-environment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "veggiemonk/awesome-docker",
+      "target": "docker-image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "veggiemonk/awesome-docker",
+      "target": "docker-machine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "veggiemonk/awesome-docker",
+      "target": "docker-monitoring",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "veggiemonk/awesome-docker",
+      "target": "docker-registry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "veggiemonk/awesome-docker",
+      "target": "docker-security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "veggiemonk/awesome-docker",
+      "target": "docker-swarm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "veggiemonk/awesome-docker",
+      "target": "dockerfile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "veggiemonk/awesome-docker",
+      "target": "list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "veggiemonk/awesome-docker",
+      "target": "moby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "veggiemonk/awesome-docker",
+      "target": "tools",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T20:03:12.286848+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 95855
+    },
+    {
+      "path": "go.mod",
+      "size": 1322
+    },
+    {
+      "path": ".github/workflows/broken_links.yml",
+      "size": 2944
+    },
+    {
+      "path": ".github/workflows/deploy-pages.yml",
+      "size": 1223
+    },
+    {
+      "path": ".github/workflows/health_report.yml",
+      "size": 2177
+    },
+    {
+      "path": ".github/workflows/pull_request.yml",
+      "size": 699
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":whale: A curated list of Docker resources and projects",
+    "fork": false,
+    "full_name": "veggiemonk/awesome-docker",
+    "html_url": "https://github.com/veggiemonk/awesome-docker",
+    "language": null,
+    "pushed_at": "2026-04-28T20:42:31Z",
+    "stargazers_count": 35912,
+    "topics": [
+      "awesome",
+      "awesome-list",
+      "container",
+      "docker",
+      "docker-api",
+      "docker-container",
+      "docker-deployment",
+      "docker-environment",
+      "docker-image",
+      "docker-machine",
+      "docker-monitoring",
+      "docker-registry",
+      "docker-security",
+      "docker-swarm",
+      "dockerfile",
+      "list",
+      "moby",
+      "tools"
+    ],
+    "updated_at": "2026-04-30T17:58:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abians/docker-db-manager",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adrianmo/powerline-docker",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ajayd-san/gomanagedocker",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexaandrov/stitchocker",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Broken Links Report",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/broken_links.yml",
+      "term": "Broken Links Report"
+    },
+    {
+      "context_snippet": "Deploy to GitHub Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-pages.yml",
+      "term": "Deploy to GitHub Pages"
+    },
+    {
+      "context_snippet": "Weekly Health Report",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/health_report.yml",
+      "term": "Weekly Health Report"
+    },
+    {
+      "context_snippet": "> A curated list of Docker resources and projects",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome"
+    },
+    {
+      "context_snippet": "> A curated list of Docker resources and projects",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome-list"
+    },
+    {
+      "context_snippet": "> A curated list of Docker resources and projects",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "container"
+    },
+    {
+      "context_snippet": "> A curated list of Docker resources and projects",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "> A curated list of Docker resources and projects",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker-api"
+    },
+    {
+      "context_snippet": "> A curated list of Docker resources and projects",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker-container"
+    },
+    {
+      "context_snippet": "> A curated list of Docker resources and projects",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker-deployment"
+    },
+    {
+      "context_snippet": "> A curated list of Docker resources and projects",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker-environment"
+    },
+    {
+      "context_snippet": "> A curated list of Docker resources and projects",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker-image"
+    },
+    {
+      "context_snippet": "> A curated list of Docker resources and projects",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker-machine"
+    },
+    {
+      "context_snippet": "> A curated list of Docker resources and projects",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker-monitoring"
+    },
+    {
+      "context_snippet": "> A curated list of Docker resources and projects",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker-registry"
+    },
+    {
+      "context_snippet": "> A curated list of Docker resources and projects",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker-security"
+    },
+    {
+      "context_snippet": "> A curated list of Docker resources and projects",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker-swarm"
+    },
+    {
+      "context_snippet": "> A curated list of Docker resources and projects",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dockerfile"
+    },
+    {
+      "context_snippet": "> A curated list of Docker resources and projects",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "list"
+    },
+    {
+      "context_snippet": "> A curated list of Docker resources and projects",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "moby"
+    },
+    {
+      "context_snippet": "> A curated list of Docker resources and projects",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tools"
+    }
+  ]
+}

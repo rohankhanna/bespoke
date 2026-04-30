@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Issue Priority Ranking"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebook/pyrefly",
+      "status": "candidate-context",
+      "text": "A fast type checker and language server for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/pyrefly",
+      "status": "candidate-context",
+      "text": "Issue Priority Ranking"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/pyrefly",
+      "status": "candidate",
+      "text": "Issue Priority Ranking"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35552,
+      "status": "candidate",
+      "text": "precedence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19312,
+      "status": "candidate",
+      "text": "first"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18129,
+      "status": "candidate",
+      "text": "place"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18129,
+      "status": "candidate",
+      "text": "placed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18129,
+      "status": "candidate",
+      "text": "placing"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Issue Priority Ranking",
+  "concept_id": "issue-priority-ranking",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/issue_ranking.yml",
+      "source_repo": "facebook/pyrefly"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Issue Priority Ranking",
+      "sense_id": "issue-priority-ranking#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

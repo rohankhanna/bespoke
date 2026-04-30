@@ -1,0 +1,180 @@
+{
+  "components": [
+    {
+      "component": "Shopify/shopify-cla-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@09a7688d3b55cf0e976497ff046b70949eeaccfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wrapper.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@09a7688d3b55cf0e976497ff046b70949eeaccfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wrapper.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "Shopify/yjit-metrics",
+      "target": "Shopify/shopify-cla-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "Shopify/yjit-metrics",
+      "target": "Contributor License Agreement (CLA)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scheduled_benchmarking.yml",
+      "source_repo": "Shopify/yjit-metrics",
+      "target": "Run Scheduled Benchmarks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scheduled_reporting.yml",
+      "source_repo": "Shopify/yjit-metrics",
+      "target": "Run Scheduled Reporting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Shopify/yjit-metrics",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Shopify/yjit-metrics",
+      "target": "ruby/setup-ruby@09a7688d3b55cf0e976497ff046b70949eeaccfd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Shopify/yjit-metrics",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wrapper.yml",
+      "source_repo": "Shopify/yjit-metrics",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wrapper.yml",
+      "source_repo": "Shopify/yjit-metrics",
+      "target": "ruby/setup-ruby@09a7688d3b55cf0e976497ff046b70949eeaccfd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/wrapper.yml",
+      "source_repo": "Shopify/yjit-metrics",
+      "target": "Workflow wrapper",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:56:06.689156+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6033
+    },
+    {
+      "path": ".github/workflows/cla.yml",
+      "size": 591
+    },
+    {
+      "path": ".github/workflows/scheduled_benchmarking.yml",
+      "size": 1116
+    },
+    {
+      "path": ".github/workflows/scheduled_reporting.yml",
+      "size": 715
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 872
+    },
+    {
+      "path": ".github/workflows/wrapper.yml",
+      "size": 1383
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\"Tasks for benchmarking, building and collecting stats for YJIT\"",
+    "fork": false,
+    "full_name": "Shopify/yjit-metrics",
+    "html_url": "https://github.com/Shopify/yjit-metrics",
+    "language": "Ruby",
+    "pushed_at": "2026-04-27T15:59:20Z",
+    "stargazers_count": 20,
+    "topics": [],
+    "updated_at": "2026-04-27T15:59:24Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Contributor License Agreement (CLA)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cla.yml",
+      "term": "Contributor License Agreement (CLA)"
+    },
+    {
+      "context_snippet": "Run Scheduled Benchmarks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scheduled_benchmarking.yml",
+      "term": "Run Scheduled Benchmarks"
+    },
+    {
+      "context_snippet": "Run Scheduled Reporting",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scheduled_reporting.yml",
+      "term": "Run Scheduled Reporting"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "'Workflow wrapper'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/wrapper.yml",
+      "term": "Workflow wrapper"
+    }
+  ]
+}

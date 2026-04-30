@@ -1,0 +1,87 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lyeoni/prenlp",
+      "target": "natural-language-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lyeoni/prenlp",
+      "target": "preprocessing-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lyeoni/prenlp",
+      "target": "text-preprocessing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lyeoni/prenlp",
+      "target": "text-processing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:52:02.101830+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6009
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Preprocessing Library for Natural Language Processing",
+    "fork": false,
+    "full_name": "lyeoni/prenlp",
+    "html_url": "https://github.com/lyeoni/prenlp",
+    "language": "Python",
+    "pushed_at": "2022-12-06T22:36:12Z",
+    "stargazers_count": 164,
+    "topics": [
+      "natural-language-processing",
+      "nlp",
+      "preprocessing-library",
+      "text-preprocessing",
+      "text-processing"
+    ],
+    "updated_at": "2026-03-08T01:53:42Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![PyPI](https://img.shields.io/pypi/v/prenlp.svg?style=flat-square&color=important)](https://pypi.org/project/prenlp/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "natural-language-processing"
+    },
+    {
+      "context_snippet": "[![PyPI](https://img.shields.io/pypi/v/prenlp.svg?style=flat-square&color=important)](https://pypi.org/project/prenlp/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "preprocessing-library"
+    },
+    {
+      "context_snippet": "[![PyPI](https://img.shields.io/pypi/v/prenlp.svg?style=flat-square&color=important)](https://pypi.org/project/prenlp/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-preprocessing"
+    },
+    {
+      "context_snippet": "[![PyPI](https://img.shields.io/pypi/v/prenlp.svg?style=flat-square&color=important)](https://pypi.org/project/prenlp/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-processing"
+    }
+  ]
+}

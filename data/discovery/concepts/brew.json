@@ -67,6 +67,18 @@
       "source_repo": "d12frosted/homebrew-emacs-plus",
       "status": "candidate-context",
       "text": "Build Emacs.app"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nikitabobko/brew-install-path",
+      "status": "candidate-context",
+      "text": "Simple script that allows installing homebrew formulas/casks from paths"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nikitabobko/brew-install-path",
+      "status": "candidate-context",
+      "text": "Homebrew 4.6.4 introduced a breaking change that disabled the possibility of installing formulas/casks from paths."
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "d12frosted/homebrew-emacs-plus",
       "status": "candidate",
       "text": "Build Emacs.app"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nikitabobko/brew-install-path",
+      "status": "candidate",
+      "text": "Homebrew 4.6.4 introduced a breaking change that disabled the possibility of installing formulas/casks from paths."
     }
   ],
   "candidate_related_terms": [
@@ -230,11 +248,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "webinstall/webi-installers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "nikitabobko/brew-install-path"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Event-driven Automation Framework for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Detect and Trigger Retest"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Detect and Trigger Retest"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22496,
+      "status": "candidate",
+      "text": "sensed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22496,
+      "status": "candidate",
+      "text": "sensing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22362,
+      "status": "candidate",
+      "text": "consciousness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22362,
+      "status": "candidate",
+      "text": "drive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22362,
+      "status": "candidate",
+      "text": "hang"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Detect and Trigger Retest",
+      "sense_id": "detect-and-trigger-retest#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "detect-and-trigger-retest",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "detect-and-trigger-retest",
+  "observation_id": "e5648bc686e57eee",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "Detect and Trigger Retest",
+  "source_context_snippet": "Detect and Trigger Retest",
+  "source_file": ".github/workflows/retest.yaml",
+  "source_repo": "argoproj/argo-events",
+  "source_repo_description": "Event-driven Automation Framework for Kubernetes"
+}

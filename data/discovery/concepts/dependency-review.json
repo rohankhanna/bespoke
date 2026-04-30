@@ -934,6 +934,42 @@
       "source_repo": "webpack/webpack-dev-server",
       "status": "candidate-context",
       "text": "\"Dependency Review\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "languagetool-org/languagetool",
+      "status": "candidate-context",
+      "text": "Style and Grammar Checker for 25+ Languages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "languagetool-org/languagetool",
+      "status": "candidate-context",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "theupdateframework/python-tuf",
+      "status": "candidate-context",
+      "text": "Python reference implementation of The Update Framework (TUF)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "theupdateframework/python-tuf",
+      "status": "candidate-context",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webpack/css-minimizer-webpack-plugin",
+      "status": "candidate-context",
+      "text": "cssnano plugin for Webpack"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webpack/css-minimizer-webpack-plugin",
+      "status": "candidate-context",
+      "text": "\"Dependency Review\""
     }
   ],
   "candidate_glosses": [
@@ -1396,6 +1432,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "webpack/webpack-dev-server",
+      "status": "candidate",
+      "text": "\"Dependency Review\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "languagetool-org/languagetool",
+      "status": "candidate",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "theupdateframework/python-tuf",
+      "status": "candidate",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webpack/css-minimizer-webpack-plugin",
       "status": "candidate",
       "text": "\"Dependency Review\""
     }
@@ -1975,11 +2029,41 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/dependency-review.yml",
       "source_repo": "webpack/webpack-dev-server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/depreview.yml",
+      "source_repo": "facebookresearch/fairseq"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/dependency-check-ok.yml",
+      "source_repo": "languagetool-org/languagetool"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/dependency-check.yml",
+      "source_repo": "languagetool-org/languagetool"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "theupdateframework/python-tuf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "webpack/css-minimizer-webpack-plugin"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

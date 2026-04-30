@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Haskell source code suggestions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "ghc-next-from-scratch"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "ghc-next-from-scratch"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "ghc-next-from-scratch",
+      "sense_id": "ghc-next-from-scratch#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ghc-next-from-scratch",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ghc-next-from-scratch",
+  "observation_id": "575da977162dfeb4",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "ghc-next-from-scratch",
+  "source_context_snippet": "ghc-next-from-scratch",
+  "source_file": ".github/workflows/ghc-next.yml",
+  "source_repo": "ndmitchell/hlint",
+  "source_repo_description": "Haskell source code suggestions"
+}

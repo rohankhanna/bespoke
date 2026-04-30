@@ -24,9 +24,9 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
+      "source_file": "requirements.txt",
       "source_repo": "jina-ai/dalle-flow",
-      "target": "jina-ai/swinir",
+      "target": "patil-suraj/vqgan-jax",
       "target_type": "repository"
     },
     {
@@ -93,7 +93,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T13:02:50.656255+00:00",
+  "fetched_at": "2026-04-30T18:38:57.784807+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -151,8 +151,8 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "jina-ai/swinir",
-      "source_file": "README.md"
+      "full_name": "patil-suraj/vqgan-jax",
+      "source_file": "requirements.txt"
     }
   ],
   "terms": [

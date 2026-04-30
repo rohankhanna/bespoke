@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Convert Lua Language Server diagnostics for human and CI friendly interpretation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "LLSCheck"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "LLSCheck"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "LLSCheck",
+      "sense_id": "llscheck#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "llscheck",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "llscheck",
+  "observation_id": "7aecd3362df7fdbd",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "LLSCheck",
+  "source_context_snippet": "LLSCheck",
+  "source_file": ".github/workflows/llscheck.yml",
+  "source_repo": "jeffzi/llscheck",
+  "source_repo_description": "Convert Lua Language Server diagnostics for human and CI friendly interpretation"
+}

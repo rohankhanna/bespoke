@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "singleflight"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chenyahui/gin-cache",
+      "status": "candidate-context",
+      "text": ":rocket: A high performance gin middleware to cache http response. Compared to gin-contrib/cache, It has a huge performance improvement. \u9ad8\u6027\u80fdgin\u7f13\u5b58\u4e2d\u95f4\u4ef6\uff0c\u76f8\u6bd4\u4e8e\u5b98\u65b9\u7248\u672c\uff0c\u6709\u5de8\u5927\u6027\u80fd\u63d0\u5347\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chenyahui/gin-cache",
+      "status": "candidate-context",
+      "text": "module github.com/chenyahui/gin-cache go 1.13 require ( github.com/gin-gonic/gin v1.7.7 github.com/go-redis/redis/v8 v8.11.5 github.com/jellydator/ttlcache/v2 v2.11.1 github.com/stretchr/testify v1.7.1 golang.org/x/sync v0.0.0-20220722155255-886fb9371eb4 gopkg.in/yaml.v3 v3.0.0-\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chenyahui/gin-cache",
+      "status": "candidate",
+      "text": "module github.com/chenyahui/gin-cache go 1.13 require ( github.com/gin-gonic/gin v1.7.7 github.com/go-redis/redis/v8 v8.11.5 github.com/jellydator/ttlcache/v2 v2.11.1 github.com/stretchr/testify v1.7.1 golang.org/x/sync v0.0.0-20220722155255-886fb9371eb4 gopkg.in/yaml.v3 v3.0.0-\u2026"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "singleflight",
+  "concept_id": "singleflight",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "chenyahui/gin-cache"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "singleflight",
+      "sense_id": "singleflight#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

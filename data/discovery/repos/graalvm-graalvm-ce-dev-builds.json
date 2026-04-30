@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "graalvm/graalvm-ce-dev-builds",
+      "target": "graalvm/oracle-graalvm-ea-builds",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "graalvm/graalvm-ce-dev-builds",
+      "target": "builds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "graalvm/graalvm-ce-dev-builds",
+      "target": "graalvm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "graalvm/graalvm-ce-dev-builds",
+      "target": "graalvm-dev",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:55:45.933070+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 527
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "GraalVM Dev Build Downloads",
+    "fork": false,
+    "full_name": "graalvm/graalvm-ce-dev-builds",
+    "html_url": "https://github.com/graalvm/graalvm-ce-dev-builds",
+    "language": null,
+    "pushed_at": "2026-04-30T05:00:30Z",
+    "stargazers_count": 104,
+    "topics": [
+      "builds",
+      "graalvm",
+      "graalvm-dev"
+    ],
+    "updated_at": "2026-02-17T23:23:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "graalvm/oracle-graalvm-ea-builds",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository hosts [GraalVM CE](https://github.com/oracle/graal/) [dev builds](https://github.com/graalvm/graalvm-ce-dev-builds/releases/) based on OpenJDK.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "builds"
+    },
+    {
+      "context_snippet": "This repository hosts [GraalVM CE](https://github.com/oracle/graal/) [dev builds](https://github.com/graalvm/graalvm-ce-dev-builds/releases/) based on OpenJDK.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graalvm"
+    },
+    {
+      "context_snippet": "This repository hosts [GraalVM CE](https://github.com/oracle/graal/) [dev builds](https://github.com/graalvm/graalvm-ce-dev-builds/releases/) based on OpenJDK.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graalvm-dev"
+    }
+  ]
+}

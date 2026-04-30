@@ -355,6 +355,30 @@
       "source_repo": "Tencent-Hunyuan/HunyuanVideo",
       "status": "candidate-context",
       "text": "<!-- ## **HunyuanVideo** -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KlingAIResearch/LivePortrait",
+      "status": "candidate-context",
+      "text": "Bring portraits to life!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KlingAIResearch/LivePortrait",
+      "status": "candidate-context",
+      "text": "-r requirements_base.txt onnxruntime-gpu==1.18.0 transformers==4.38.0"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-deepmind/physics-IQ-benchmark",
+      "status": "candidate-context",
+      "text": "Benchmarking physical understanding in generative video models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/physics-IQ-benchmark",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -531,6 +555,18 @@
       "source_repo": "Tencent-Hunyuan/HunyuanVideo",
       "status": "candidate",
       "text": "<!-- ## **HunyuanVideo** -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KlingAIResearch/LivePortrait",
+      "status": "candidate",
+      "text": "-r requirements_base.txt onnxruntime-gpu==1.18.0 transformers==4.38.0"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/physics-IQ-benchmark",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -736,11 +772,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "Tencent-Hunyuan/HunyuanVideo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "KlingAIResearch/LivePortrait"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/physics-IQ-benchmark"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

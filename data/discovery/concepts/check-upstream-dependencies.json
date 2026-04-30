@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check Upstream Dependencies"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "decibri/decibri",
+      "status": "candidate-context",
+      "text": "Audio capture, playback, and processing for Node.js and the browser. One Rust codebase, zero system dependencies."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "decibri/decibri",
+      "status": "candidate-context",
+      "text": "Check Upstream Dependencies"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "decibri/decibri",
+      "status": "candidate",
+      "text": "Check Upstream Dependencies"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26439,
+      "status": "candidate",
+      "text": "advance guard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26439,
+      "status": "candidate",
+      "text": "ginge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26439,
+      "status": "candidate",
+      "text": "hinge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26439,
+      "status": "candidate",
+      "text": "pap test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26439,
+      "status": "candidate",
+      "text": "papanicolaou test"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check Upstream Dependencies",
+  "concept_id": "check-upstream-dependencies",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/check-upstream.yml",
+      "source_repo": "decibri/decibri"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Upstream Dependencies",
+      "sense_id": "check-upstream-dependencies#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

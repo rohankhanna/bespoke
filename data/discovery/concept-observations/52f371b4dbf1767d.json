@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Python reference implementation of The Update Framework (TUF)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Maintainer review reminder"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Maintainer review reminder"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23683,
+      "status": "candidate",
+      "text": "nsa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22780,
+      "status": "candidate",
+      "text": "memo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22680,
+      "status": "candidate",
+      "text": "contention"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22680,
+      "status": "candidate",
+      "text": "keep"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22680,
+      "status": "candidate",
+      "text": "proposition"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Maintainer review reminder",
+      "sense_id": "maintainer-review-reminder#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "maintainer-review-reminder",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "maintainer-review-reminder",
+  "observation_id": "52f371b4dbf1767d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "Maintainer review reminder",
+  "source_context_snippet": "Maintainer review reminder",
+  "source_file": ".github/workflows/maintainer-permissions-reminder.yml",
+  "source_repo": "theupdateframework/python-tuf",
+  "source_repo_description": "Python reference implementation of The Update Framework (TUF)"
+}

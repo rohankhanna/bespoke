@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Automatically source and unsource a project's environment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Security Review"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Security Review"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 73038,
+      "status": "candidate",
+      "text": "censoring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 73038,
+      "status": "candidate",
+      "text": "censorship"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 73036,
+      "status": "candidate",
+      "text": "security clearance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 73035,
+      "status": "candidate",
+      "text": "security system"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 73034,
+      "status": "candidate",
+      "text": "security measures"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Security Review",
+      "sense_id": "security-review#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "security-review",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "security-review",
+  "observation_id": "6d07c91e2b5cb467",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "Security Review",
+  "source_context_snippet": "Security Review",
+  "source_file": ".github/workflows/security-review.yml",
+  "source_repo": "Yelp/aactivator",
+  "source_repo_description": "Automatically source and unsource a project's environment"
+}

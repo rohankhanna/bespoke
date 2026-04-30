@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "regex-engine"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/regex",
+      "status": "candidate-context",
+      "text": "An implementation of regular expressions for Rust. This implementation uses finite automata and guarantees linear time matching on all inputs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/regex",
+      "status": "candidate-context",
+      "text": "regex"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dlclark/regexp2",
+      "status": "candidate-context",
+      "text": "A full-featured regex engine in pure Go based on the .NET engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dlclark/regexp2",
+      "status": "candidate-context",
+      "text": "Regexp2 is a feature-rich RegExp engine for Go. It doesn't have constant time guarantees like the built-in `regexp` package, but it allows backtracking and is compatible with Perl5 and .NET. You'll likely be better off with the RE2 engine from the `regexp` package and should onl\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/regex",
+      "status": "candidate",
+      "text": "regex"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dlclark/regexp2",
+      "status": "candidate",
+      "text": "Regexp2 is a feature-rich RegExp engine for Go. It doesn't have constant time guarantees like the built-in `regexp` package, but it allows backtracking and is compatible with Perl5 and .NET. You'll likely be better off with the RE2 engine from the `regexp` package and should onl\u2026"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "regex-engine",
+  "concept_id": "regex-engine",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/regex"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "dlclark/regexp2"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "regex-engine",
+      "sense_id": "regex-engine#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

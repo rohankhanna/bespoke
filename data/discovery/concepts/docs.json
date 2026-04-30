@@ -1751,6 +1751,54 @@
       "source_repo": "readthedocs/readthedocs.org",
       "status": "candidate-context",
       "text": "Welcome to Read the Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AcademySoftwareFoundation/OpenTimelineIO",
+      "status": "candidate-context",
+      "text": "Open Source API and interchange format for editorial timeline information."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AcademySoftwareFoundation/OpenTimelineIO",
+      "status": "candidate-context",
+      "text": "docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "delta-io/delta-rs",
+      "status": "candidate-context",
+      "text": "A native Rust library for Delta Lake, with bindings into Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "delta-io/delta-rs",
+      "status": "candidate-context",
+      "text": "docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ellisonleao/nvim-plugin-template",
+      "status": "candidate-context",
+      "text": "A neovim plugin template for github repos"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ellisonleao/nvim-plugin-template",
+      "status": "candidate-context",
+      "text": "docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "goreleaser/nfpm",
+      "status": "candidate-context",
+      "text": "nFPM is Not FPM - a simple deb, rpm, apk, ipk, and arch linux packager written in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goreleaser/nfpm",
+      "status": "candidate-context",
+      "text": "docs"
     }
   ],
   "candidate_glosses": [
@@ -2629,6 +2677,30 @@
       "source_repo": "readthedocs/readthedocs.org",
       "status": "candidate",
       "text": "Welcome to Read the Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AcademySoftwareFoundation/OpenTimelineIO",
+      "status": "candidate",
+      "text": "docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "delta-io/delta-rs",
+      "status": "candidate",
+      "text": "docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ellisonleao/nvim-plugin-template",
+      "status": "candidate",
+      "text": "docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goreleaser/nfpm",
+      "status": "candidate",
+      "text": "docs"
     }
   ],
   "candidate_related_terms": [
@@ -3984,11 +4056,59 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "cvat-ai/cvat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "adamchainz/blacken-docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenTimelineIO"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "AstraZeneca/runnable"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "delta-io/delta-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "ellisonleao/nvim-plugin-template"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/panvimdoc.yaml",
+      "source_repo": "dmtrKovalenko/fff"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "goreleaser/nfpm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-casbin.io"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

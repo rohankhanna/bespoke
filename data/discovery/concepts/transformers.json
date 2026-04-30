@@ -955,6 +955,42 @@
       "source_repo": "microsoft/generative-ai-for-beginners",
       "status": "candidate-context",
       "text": "![Generative AI For Beginners](./images/repo-thumbnailv4-fixed.png?WT.mc_id=academic-105485-koreyst)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FoundationVision/Infinity",
+      "status": "candidate-context",
+      "text": "[CVPR 2025 Oral]Infinity \u221e : Scaling Bitwise AutoRegressive Modeling for High-Resolution Image Synthesis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FoundationVision/Infinity",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "marella/ctransformers",
+      "status": "candidate-context",
+      "text": "Python bindings for the Transformer models implemented in C/C++ using GGML library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marella/ctransformers",
+      "status": "candidate-context",
+      "text": "Python bindings for the Transformer models implemented in C/C++ using [GGML](https://github.com/ggerganov/ggml) library."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cvg/LightGlue",
+      "status": "candidate-context",
+      "text": "LightGlue: Local Feature Matching at Light Speed (ICCV 2023)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cvg/LightGlue",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -1431,6 +1467,24 @@
       "source_repo": "microsoft/generative-ai-for-beginners",
       "status": "candidate",
       "text": "![Generative AI For Beginners](./images/repo-thumbnailv4-fixed.png?WT.mc_id=academic-105485-koreyst)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FoundationVision/Infinity",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marella/ctransformers",
+      "status": "candidate",
+      "text": "Python bindings for the Transformer models implemented in C/C++ using [GGML](https://github.com/ggerganov/ggml) library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cvg/LightGlue",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -2134,11 +2188,35 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "microsoft/generative-ai-for-beginners"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "FoundationVision/Infinity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "intel/ipex-llm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "marella/ctransformers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "cvg/LightGlue"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

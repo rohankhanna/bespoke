@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T18:58:24.580480+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5852
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Library and command line tool to detect SHA-1 collision in a file",
+    "fork": false,
+    "full_name": "cr-marcstevens/sha1collisiondetection",
+    "html_url": "https://github.com/cr-marcstevens/sha1collisiondetection",
+    "language": "C",
+    "pushed_at": "2025-10-30T19:26:00Z",
+    "stargazers_count": 1394,
+    "topics": [],
+    "updated_at": "2026-04-24T21:28:54Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

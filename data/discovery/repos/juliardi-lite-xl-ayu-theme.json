@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "juliardi/lite-xl-ayu-theme",
+      "target": "dempfi/ayu",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:00:29.184217+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 757
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Ayu Theme for Lite XL",
+    "fork": false,
+    "full_name": "juliardi/lite-xl-ayu-theme",
+    "html_url": "https://github.com/juliardi/lite-xl-ayu-theme",
+    "language": "Lua",
+    "pushed_at": "2023-04-03T03:10:22Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2023-02-13T03:13:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dempfi/ayu",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

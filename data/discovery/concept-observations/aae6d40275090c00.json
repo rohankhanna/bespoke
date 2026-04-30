@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A universal manager to set base16 themes for any supported application"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://api.travis-ci.org/pinpox/base16-universal-manager.svg)](http://travis-ci.org/pinpox/base16-universal-manager) [![GoDoc](https://godoc.org/github.com/pinpox/base16-universal-manager?status.svg)](http://godoc.org/github.com/pinpox/base16-universal-manager)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://api.travis-ci.org/pinpox/base16-universal-manager.svg)](http://travis-ci.org/pinpox/base16-universal-manager) [![GoDoc](https://godoc.org/github.com/pinpox/base16-universal-manager?status.svg)](http://godoc.org/github.com/pinpox/base16-universal-manager)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "base16-color",
+      "sense_id": "base16-color#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "base16-color",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "base16-color",
+  "observation_id": "aae6d40275090c00",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "base16-color",
+  "source_context_snippet": "[![Build Status](https://api.travis-ci.org/pinpox/base16-universal-manager.svg)](http://travis-ci.org/pinpox/base16-universal-manager) [![GoDoc](https://godoc.org/github.com/pinpox/base16-universal-manager?status.svg)](http://godoc.org/github.com/pinpox/base16-universal-manager)",
+  "source_file": null,
+  "source_repo": "pinpox/base16-universal-manager",
+  "source_repo_description": "A universal manager to set base16 themes for any supported application"
+}

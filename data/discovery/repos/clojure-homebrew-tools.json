@@ -1,0 +1,88 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/promote.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/promote.yml",
+      "source_repo": "clojure/homebrew-tools",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/promote.yml",
+      "source_repo": "clojure/homebrew-tools",
+      "target": "Promote",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "clojure/homebrew-tools",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "clojure/homebrew-tools",
+      "target": "Publish",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:00:25.912938+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3875
+    },
+    {
+      "path": ".github/workflows/promote.yml",
+      "size": 1133
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 872
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Clojure homebrew tap providing Clojure formulae",
+    "fork": false,
+    "full_name": "clojure/homebrew-tools",
+    "html_url": "https://github.com/clojure/homebrew-tools",
+    "language": "Ruby",
+    "pushed_at": "2026-04-06T17:37:42Z",
+    "stargazers_count": 48,
+    "topics": [],
+    "updated_at": "2026-04-06T17:37:46Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Promote",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/promote.yml",
+      "term": "Promote"
+    },
+    {
+      "context_snippet": "Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish"
+    }
+  ]
+}

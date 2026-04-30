@@ -289,6 +289,18 @@
       "source_repo": "pawel-wiejacha/tmux-picker",
       "status": "candidate-context",
       "text": "**tmux-picker**: Selecting and copy-pasting in terminal using Vimium-like hint mode for tmux."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ankitpokhrel/jira-cli",
+      "status": "candidate-context",
+      "text": "\ud83d\udd25 Feature-rich interactive Jira command line."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ankitpokhrel/jira-cli",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -417,6 +429,12 @@
       "source_repo": "pawel-wiejacha/tmux-picker",
       "status": "candidate",
       "text": "**tmux-picker**: Selecting and copy-pasting in terminal using Vimium-like hint mode for tmux."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ankitpokhrel/jira-cli",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -750,11 +768,29 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "hluaguo/learn-faster-kit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "ankitpokhrel/jira-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "hluaguo/learn-faster-kit"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

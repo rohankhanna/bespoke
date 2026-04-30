@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Create Cross-Functional Issues"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "weaviate/weaviate",
+      "status": "candidate-context",
+      "text": "Weaviate is an open-source vector database that stores both objects and vectors, allowing for the combination of vector search with structured filtering with the fault tolerance and scalability of a cloud-native database\u200b."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "weaviate/weaviate",
+      "status": "candidate-context",
+      "text": "Create Cross-Functional Issues"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "weaviate/weaviate",
+      "status": "candidate",
+      "text": "Create Cross-Functional Issues"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9635,
+      "status": "candidate",
+      "text": "employment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9635,
+      "status": "candidate",
+      "text": "form"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9635,
+      "status": "candidate",
+      "text": "work"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9613,
+      "status": "candidate",
+      "text": "source"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9592,
+      "status": "candidate",
+      "text": "add"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Create Cross-Functional Issues",
+  "concept_id": "create-cross-functional-issues",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/create-cross-functional-issues.yml",
+      "source_repo": "weaviate/weaviate"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Create Cross-Functional Issues",
+      "sense_id": "create-cross-functional-issues#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

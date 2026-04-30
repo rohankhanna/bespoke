@@ -11,13 +11,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ahmadawais/base16-shades-of-purple",
-      "target": "ahmadawais/shades-of-purple-vscode",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ahmadawais/base16-shades-of-purple",
       "target": "inspectormustache/base16-builder-python",
       "target_type": "repository"
     },
@@ -26,6 +19,13 @@
       "source_file": "README.md",
       "source_repo": "ahmadawais/base16-shades-of-purple",
       "target": "demartini/base16-shades-of-purple-exported-themes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ahmadawais/base16-shades-of-purple",
+      "target": "reyemxela/base16-helios-scheme",
       "target_type": "repository"
     },
     {
@@ -113,6 +113,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-30T12:45:20.475770+00:00",
+  "generated_at": "2026-04-30T18:36:26.757967+00:00",
   "source_repo": "ahmadawais/base16-shades-of-purple"
 }

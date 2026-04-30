@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pquerna/ffjson",
+      "target": "ugorji/go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pquerna/ffjson",
+      "target": "benbjohnson/megajson",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:48:13.184430+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10317
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "faster JSON serialization for Go",
+    "fork": false,
+    "full_name": "pquerna/ffjson",
+    "html_url": "https://github.com/pquerna/ffjson",
+    "language": "Go",
+    "pushed_at": "2023-09-21T19:52:42Z",
+    "stargazers_count": 2994,
+    "topics": [],
+    "updated_at": "2026-04-07T13:53:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "benbjohnson/megajson",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ugorji/go",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Pull Request Docs Check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dropwizard/dropwizard",
+      "status": "candidate-context",
+      "text": "A damn simple library for building production-ready RESTful web services."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dropwizard/dropwizard",
+      "status": "candidate-context",
+      "text": "Pull Request Docs Check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dropwizard/dropwizard",
+      "status": "candidate",
+      "text": "Pull Request Docs Check"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33200,
+      "status": "candidate",
+      "text": "rein"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31610,
+      "status": "candidate",
+      "text": "estreat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31298,
+      "status": "candidate",
+      "text": "audit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27810,
+      "status": "candidate",
+      "text": "can"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27777,
+      "status": "candidate",
+      "text": "con"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Pull Request Docs Check",
+  "concept_id": "pull-request-docs-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "dropwizard/dropwizard"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Pull Request Docs Check",
+      "sense_id": "pull-request-docs-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

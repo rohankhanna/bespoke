@@ -575,6 +575,42 @@
       "source_repo": "confluentinc/confluent-kafka-go",
       "status": "candidate-context",
       "text": "check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fredrikekre/Literate.jl",
+      "status": "candidate-context",
+      "text": "Simple package for literate programming in Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fredrikekre/Literate.jl",
+      "status": "candidate-context",
+      "text": "Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "storybookjs/addon-cssresources",
+      "status": "candidate-context",
+      "text": "A storybook addon to switch between css resources at runtime for your story"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "storybookjs/addon-cssresources",
+      "status": "candidate-context",
+      "text": "Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudflare/cloudflared",
+      "status": "candidate-context",
+      "text": "Cloudflare Tunnel client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudflare/cloudflared",
+      "status": "candidate-context",
+      "text": "Check"
     }
   ],
   "candidate_glosses": [
@@ -865,6 +901,24 @@
       "source_repo": "confluentinc/confluent-kafka-go",
       "status": "candidate",
       "text": "check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fredrikekre/Literate.jl",
+      "status": "candidate",
+      "text": "Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "storybookjs/addon-cssresources",
+      "status": "candidate",
+      "text": "Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudflare/cloudflared",
+      "status": "candidate",
+      "text": "Check"
     }
   ],
   "candidate_related_terms": [
@@ -1339,11 +1393,29 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/check.yml",
       "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/Check.yml",
+      "source_repo": "fredrikekre/Literate.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "storybookjs/addon-cssresources"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/check.yaml",
+      "source_repo": "cloudflare/cloudflared"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

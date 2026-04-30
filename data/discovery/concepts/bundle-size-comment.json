@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Bundle Size Comment"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "module-federation/core",
+      "status": "candidate-context",
+      "text": "Module Federation is a concept that allows developers to share code and resources across multiple JavaScript applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "module-federation/core",
+      "status": "candidate-context",
+      "text": "Bundle Size Comment"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "module-federation/core",
+      "status": "candidate",
+      "text": "Bundle Size Comment"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18408,
+      "status": "candidate",
+      "text": "head"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18408,
+      "status": "candidate",
+      "text": "pile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18408,
+      "status": "candidate",
+      "text": "scope"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18381,
+      "status": "candidate",
+      "text": "consolidation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18381,
+      "status": "candidate",
+      "text": "fold"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Bundle Size Comment",
+  "concept_id": "bundle-size-comment",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/bundle-size-comment.yml",
+      "source_repo": "module-federation/core"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Bundle Size Comment",
+      "sense_id": "bundle-size-comment#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

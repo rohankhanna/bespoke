@@ -222,6 +222,30 @@
       "source_repo": "ruby/spec",
       "status": "candidate-context",
       "text": "[![Actions Build Status](https://github.com/ruby/spec/workflows/CI/badge.svg)](https://github.com/ruby/spec/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "linebender/resvg-test-suite",
+      "status": "candidate-context",
+      "text": "resvg test suite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "linebender/resvg-test-suite",
+      "status": "candidate-context",
+      "text": "- `tests/` - actual tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kludex/starlette",
+      "status": "candidate-context",
+      "text": "The little ASGI framework that shines. \ud83c\udf1f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kludex/starlette",
+      "status": "candidate-context",
+      "text": "Test Suite"
     }
   ],
   "candidate_glosses": [
@@ -332,6 +356,18 @@
       "source_repo": "ruby/spec",
       "status": "candidate",
       "text": "[![Actions Build Status](https://github.com/ruby/spec/workflows/CI/badge.svg)](https://github.com/ruby/spec/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "linebender/resvg-test-suite",
+      "status": "candidate",
+      "text": "- `tests/` - actual tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kludex/starlette",
+      "status": "candidate",
+      "text": "Test Suite"
     }
   ],
   "candidate_related_terms": [
@@ -507,11 +543,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/run_tests.yml",
       "source_repo": "redis-developer/redis-product-search"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "linebender/resvg-test-suite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Kludex/starlette"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

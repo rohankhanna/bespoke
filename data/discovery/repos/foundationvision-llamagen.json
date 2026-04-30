@@ -1,0 +1,119 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FoundationVision/LlamaGen",
+      "target": "auto-regressive-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FoundationVision/LlamaGen",
+      "target": "diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FoundationVision/LlamaGen",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FoundationVision/LlamaGen",
+      "target": "image-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FoundationVision/LlamaGen",
+      "target": "llama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FoundationVision/LlamaGen",
+      "target": "text2image",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:38:22.567957+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7505
+    },
+    {
+      "path": "requirements.txt",
+      "size": 13
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Autoregressive Model Beats Diffusion: \ud83e\udd99 Llama for Scalable Image Generation",
+    "fork": false,
+    "full_name": "FoundationVision/LlamaGen",
+    "html_url": "https://github.com/FoundationVision/LlamaGen",
+    "language": "Python",
+    "pushed_at": "2024-08-15T20:10:35Z",
+    "stargazers_count": 1947,
+    "topics": [
+      "auto-regressive-model",
+      "diffusion",
+      "diffusion-models",
+      "image-generation",
+      "llama",
+      "llm",
+      "text2image"
+    ],
+    "updated_at": "2026-04-29T13:34:30Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "auto-regressive-model"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-generation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text2image"
+    }
+  ]
+}

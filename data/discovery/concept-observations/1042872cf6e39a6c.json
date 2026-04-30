@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Library to easily and effortlessly integrate Cargo projects with Nix."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Easily and effortlessly integrate Cargo projects with Nix."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Easily and effortlessly integrate Cargo projects with Nix."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rust-lang",
+      "sense_id": "rust-lang#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "rust-lang",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "rust-lang",
+  "observation_id": "1042872cf6e39a6c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "rust-lang",
+  "source_context_snippet": "Easily and effortlessly integrate Cargo projects with Nix.",
+  "source_file": null,
+  "source_repo": "90-008/nix-cargo-integration",
+  "source_repo_description": "Library to easily and effortlessly integrate Cargo projects with Nix."
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T19:52:03.609222+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9166
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "mlox is a tool for sorting and analyzing Morrowind plugin load order",
+    "fork": false,
+    "full_name": "mlox/mlox",
+    "html_url": "https://github.com/mlox/mlox",
+    "language": "Python",
+    "pushed_at": "2022-12-08T06:01:19Z",
+    "stargazers_count": 64,
+    "topics": [],
+    "updated_at": "2025-08-16T08:12:14Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

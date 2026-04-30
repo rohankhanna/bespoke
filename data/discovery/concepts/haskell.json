@@ -235,6 +235,30 @@
       "source_repo": "tweag/rules_haskell",
       "status": "candidate-context",
       "text": "<p align=\"left\"><img src=\"logo/horizontal.png\" alt=\"rules_haskell\" height=\"100px\"></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aiya000/vim-ghcid-quickfix",
+      "status": "candidate-context",
+      "text": "Increse your Haskell development via ghcid!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aiya000/vim-ghcid-quickfix",
+      "status": "candidate-context",
+      "text": "- - -"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hadolint/hadolint",
+      "status": "candidate-context",
+      "text": "Dockerfile linter, validate inline bash, written in Haskell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hadolint/hadolint",
+      "status": "candidate-context",
+      "text": "[![GPL-3 licensed][license-img]][license]"
     }
   ],
   "candidate_glosses": [
@@ -351,6 +375,18 @@
       "source_repo": "tweag/rules_haskell",
       "status": "candidate",
       "text": "<p align=\"left\"><img src=\"logo/horizontal.png\" alt=\"rules_haskell\" height=\"100px\"></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aiya000/vim-ghcid-quickfix",
+      "status": "candidate",
+      "text": "- - -"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hadolint/hadolint",
+      "status": "candidate",
+      "text": "[![GPL-3 licensed][license-img]][license]"
     }
   ],
   "candidate_related_terms": [
@@ -514,11 +550,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "haskell/vscode-haskell"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "aiya000/vim-ghcid-quickfix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "hadolint/hadolint"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -144,6 +144,18 @@
       "source_repo": "gregorias/toggle.nvim",
       "status": "candidate-context",
       "text": "lint-test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ellisonleao/nvim-plugin-template",
+      "status": "candidate-context",
+      "text": "A neovim plugin template for github repos"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ellisonleao/nvim-plugin-template",
+      "status": "candidate-context",
+      "text": "lint-test"
     }
   ],
   "candidate_glosses": [
@@ -210,6 +222,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "gregorias/toggle.nvim",
+      "status": "candidate",
+      "text": "lint-test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ellisonleao/nvim-plugin-template",
       "status": "candidate",
       "text": "lint-test"
     }
@@ -423,11 +441,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/lint.yaml",
       "source_repo": "modelscope/ms-agent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/lint-test.yml",
+      "source_repo": "ellisonleao/nvim-plugin-template"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "YuE: Open Full-song Music Generation Foundation Model, something similar to Suno.ai but open"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29900861,
+      "status": "candidate",
+      "text": "sludge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29761564,
+      "status": "candidate",
+      "text": "feeble"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29739956,
+      "status": "candidate",
+      "text": "lama"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29556455,
+      "status": "candidate",
+      "text": "mud"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20038783,
+      "status": "candidate",
+      "text": "dalai"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "llama",
+      "sense_id": "llama#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "llama",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "llama",
+  "observation_id": "827c2029430f3a66",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "llama",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "multimodal-art-projection/YuE",
+  "source_repo_description": "YuE: Open Full-song Music Generation Foundation Model, something similar to Suno.ai but open"
+}

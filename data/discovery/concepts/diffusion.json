@@ -331,6 +331,30 @@
       "source_repo": "PKU-YuanGroup/ConsisID",
       "status": "candidate-context",
       "text": "<div align=center>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FoundationVision/LlamaGen",
+      "status": "candidate-context",
+      "text": "Autoregressive Model Beats Diffusion: \ud83e\udd99 Llama for Scalable Image Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FoundationVision/LlamaGen",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zai-org/VisionReward",
+      "status": "candidate-context",
+      "text": "[AAAI 2026] VisionReward: Fine-Grained Multi-Dimensional Human Preference Learning for Image and Video Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zai-org/VisionReward",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -495,6 +519,18 @@
       "source_repo": "PKU-YuanGroup/ConsisID",
       "status": "candidate",
       "text": "<div align=center>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FoundationVision/LlamaGen",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zai-org/VisionReward",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -762,11 +798,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "FoundationVision/LlamaGen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/VisionReward"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -93,27 +93,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ogx-ai/ogx-client-python",
-      "target": "meta-llama/llama-stack-apps",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ogx-ai/ogx-client-python",
-      "target": "meta-llama/llama-stack",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ogx-ai/ogx-client-python",
-      "target": "meta-llama/llama-stack-python",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "ogx-ai/ogx-client-python",
@@ -226,15 +205,15 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T13:52:58.913394+00:00",
+  "fetched_at": "2026-04-30T18:51:11.499386+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 19035
+      "size": 15757
     },
     {
       "path": "pyproject.toml",
-      "size": 5895
+      "size": 6346
     },
     {
       "path": ".github/workflows/ci.yml",
@@ -242,7 +221,7 @@
     },
     {
       "path": ".github/workflows/integration-tests.yml",
-      "size": 6018
+      "size": 6044
     },
     {
       "path": ".github/workflows/pre-commit.yml",
@@ -250,11 +229,11 @@
     },
     {
       "path": ".github/workflows/publish-pypi.yml",
-      "size": 764
+      "size": 744
     },
     {
       "path": ".github/workflows/release-doctor.yml",
-      "size": 640
+      "size": 620
     }
   ],
   "related_repositories": [],
@@ -266,28 +245,12 @@
     "full_name": "ogx-ai/ogx-client-python",
     "html_url": "https://github.com/ogx-ai/ogx-client-python",
     "language": "Python",
-    "pushed_at": "2026-04-30T13:17:01Z",
+    "pushed_at": "2026-04-30T17:45:48Z",
     "stargazers_count": 197,
     "topics": [],
-    "updated_at": "2026-04-28T15:42:39Z"
+    "updated_at": "2026-04-30T17:45:21Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "meta-llama/llama-stack",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "meta-llama/llama-stack-apps",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "meta-llama/llama-stack-python",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Integration Tests (Client-side)",

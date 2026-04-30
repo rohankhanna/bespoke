@@ -79,6 +79,18 @@
       "source_repo": "sharkdp/pastel",
       "status": "candidate-context",
       "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/sharkdp/pastel/CICD.yml?style=flat-square)](https://github.com/sharkdp/pastel/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "styled-system/styled-system",
+      "status": "candidate-context",
+      "text": "\u2b22 Style props for rapid UI development"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "styled-system/styled-system",
+      "status": "candidate-context",
+      "text": "<img src='https://styled-system.com/logo.svg' width='128' height='128' />"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "sharkdp/pastel",
       "status": "candidate",
       "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/sharkdp/pastel/CICD.yml?style=flat-square)](https://github.com/sharkdp/pastel/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "styled-system/styled-system",
+      "status": "candidate",
+      "text": "<img src='https://styled-system.com/logo.svg' width='128' height='128' />"
     }
   ],
   "candidate_related_terms": [
@@ -222,11 +240,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "lambdalisue/vim-glyph-palette"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "styled-system/styled-system"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-glyph-palette"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

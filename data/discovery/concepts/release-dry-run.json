@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Release Dry Run"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "decibri/decibri",
+      "status": "candidate-context",
+      "text": "Audio capture, playback, and processing for Node.js and the browser. One Rust codebase, zero system dependencies."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "decibri/decibri",
+      "status": "candidate-context",
+      "text": "Release Dry Run"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "decibri/decibri",
+      "status": "candidate",
+      "text": "Release Dry Run"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35032,
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33870,
+      "status": "candidate",
+      "text": "runs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33838,
+      "status": "candidate",
+      "text": "trial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26520,
+      "status": "candidate",
+      "text": "rehearsal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26230,
+      "status": "candidate",
+      "text": "let out"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Release Dry Run",
+  "concept_id": "release-dry-run",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/release-dryrun.yml",
+      "source_repo": "decibri/decibri"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release Dry Run",
+      "sense_id": "release-dry-run#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

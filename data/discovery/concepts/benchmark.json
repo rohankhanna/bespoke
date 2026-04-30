@@ -1576,6 +1576,42 @@
       "source_repo": "oxc-project/oxc",
       "status": "candidate-context",
       "text": "Benchmark"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-deepmind/physics-IQ-benchmark",
+      "status": "candidate-context",
+      "text": "Benchmarking physical understanding in generative video models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/physics-IQ-benchmark",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "powturbo/Turbo-Base64",
+      "status": "candidate-context",
+      "text": "Turbo Base64 - Fastest Base64 SIMD:SSE/AVX2/AVX512/Neon/Altivec - Faster than memcpy!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "powturbo/Turbo-Base64",
+      "status": "candidate-context",
+      "text": "[![Build ubuntu](https://github.com/powturbo/Turbo-Base64/actions/workflows/build.yaml/badge.svg)](https://github.com/powturbo/Turbo-Base64/actions/workflows/build.yaml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "surrealdb/surrealdb",
+      "status": "candidate-context",
+      "text": "A scalable, distributed, collaborative, document-graph database, for the realtime web"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "surrealdb/surrealdb",
+      "status": "candidate-context",
+      "text": "Benchmark"
     }
   ],
   "candidate_glosses": [
@@ -2362,6 +2398,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "oxc-project/oxc",
+      "status": "candidate",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/physics-IQ-benchmark",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "powturbo/Turbo-Base64",
+      "status": "candidate",
+      "text": "[![Build ubuntu](https://github.com/powturbo/Turbo-Base64/actions/workflows/build.yaml/badge.svg)](https://github.com/powturbo/Turbo-Base64/actions/workflows/build.yaml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "surrealdb/surrealdb",
       "status": "candidate",
       "text": "Benchmark"
     }
@@ -3549,11 +3603,65 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/benchmark.yml",
       "source_repo": "oxc-project/oxc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "ultrajson/ultrajson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/physics-IQ-benchmark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/tapnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "benchmark-action/github-action-benchmark"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "luau-lang/luau"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "powturbo/Turbo-Base64"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "surrealdb/surrealdb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "apache/casbin-cpp"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

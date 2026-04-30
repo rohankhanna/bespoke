@@ -1,0 +1,386 @@
+{
+  "components": [
+    {
+      "component": "css-mediaquery",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "object-resolve-path",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/core",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/runtime",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/react-native",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-plugin-runtyper",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "coveralls",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-import",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-react",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-react-native",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "husky",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lint-staged",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "metro-react-native-babel-preset",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "npm-run-all",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vitalets/react-native-extended-stylesheet",
+      "target": "oblador/react-native-vector-icons",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vitalets/react-native-extended-stylesheet",
+      "target": "reactjs/redux",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vitalets/react-native-extended-stylesheet",
+      "target": "vitalets/github-trending-repos",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "vitalets/react-native-extended-stylesheet",
+      "target": "css-mediaquery",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "vitalets/react-native-extended-stylesheet",
+      "target": "object-resolve-path",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vitalets/react-native-extended-stylesheet",
+      "target": "@babel/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vitalets/react-native-extended-stylesheet",
+      "target": "@babel/runtime",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vitalets/react-native-extended-stylesheet",
+      "target": "@types/react-native",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vitalets/react-native-extended-stylesheet",
+      "target": "babel-eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vitalets/react-native-extended-stylesheet",
+      "target": "babel-plugin-runtyper",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vitalets/react-native-extended-stylesheet",
+      "target": "coveralls",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vitalets/react-native-extended-stylesheet",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vitalets/react-native-extended-stylesheet",
+      "target": "eslint-plugin-import",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vitalets/react-native-extended-stylesheet",
+      "target": "eslint-plugin-react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vitalets/react-native-extended-stylesheet",
+      "target": "eslint-plugin-react-native",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vitalets/react-native-extended-stylesheet",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vitalets/react-native-extended-stylesheet",
+      "target": "jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vitalets/react-native-extended-stylesheet",
+      "target": "lint-staged",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vitalets/react-native-extended-stylesheet",
+      "target": "metro-react-native-babel-preset",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vitalets/react-native-extended-stylesheet",
+      "target": "npm-run-all",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vitalets/react-native-extended-stylesheet",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vitalets/react-native-extended-stylesheet",
+      "target": "react",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vitalets/react-native-extended-stylesheet",
+      "target": "react-native",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vitalets/react-native-extended-stylesheet",
+      "target": "style",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vitalets/react-native-extended-stylesheet",
+      "target": "stylesheets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vitalets/react-native-extended-stylesheet",
+      "target": "styling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vitalets/react-native-extended-stylesheet",
+      "target": "theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vitalets/react-native-extended-stylesheet",
+      "target": "theming",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:52:58.175244+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21653
+    },
+    {
+      "path": "package.json",
+      "size": 2276
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Extended StyleSheets for React Native",
+    "fork": false,
+    "full_name": "vitalets/react-native-extended-stylesheet",
+    "html_url": "https://github.com/vitalets/react-native-extended-stylesheet",
+    "language": "JavaScript",
+    "pushed_at": "2025-02-05T16:37:19Z",
+    "stargazers_count": 2933,
+    "topics": [
+      "react",
+      "react-native",
+      "style",
+      "stylesheets",
+      "styling",
+      "theme",
+      "theming"
+    ],
+    "updated_at": "2026-04-21T13:13:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "oblador/react-native-vector-icons",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "reactjs/redux",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vitalets/github-trending-repos",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/vitalets/react-native-extended-stylesheet.svg?branch=master)](https://travis-ci.org/vitalets/react-native-extended-stylesheet)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "react"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/vitalets/react-native-extended-stylesheet.svg?branch=master)](https://travis-ci.org/vitalets/react-native-extended-stylesheet)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "react-native"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/vitalets/react-native-extended-stylesheet.svg?branch=master)](https://travis-ci.org/vitalets/react-native-extended-stylesheet)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "style"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/vitalets/react-native-extended-stylesheet.svg?branch=master)](https://travis-ci.org/vitalets/react-native-extended-stylesheet)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stylesheets"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/vitalets/react-native-extended-stylesheet.svg?branch=master)](https://travis-ci.org/vitalets/react-native-extended-stylesheet)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "styling"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/vitalets/react-native-extended-stylesheet.svg?branch=master)](https://travis-ci.org/vitalets/react-native-extended-stylesheet)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "theme"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/vitalets/react-native-extended-stylesheet.svg?branch=master)](https://travis-ci.org/vitalets/react-native-extended-stylesheet)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "theming"
+    }
+  ]
+}

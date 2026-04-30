@@ -79,6 +79,18 @@
       "source_repo": "confluentinc/confluent-kafka-go",
       "status": "candidate-context",
       "text": "Confluent's Golang Client for Apache Kafka\u00ae"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "didier-wenzek/ocaml-kafka",
+      "status": "candidate-context",
+      "text": "OCaml bindings for Kafka"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "didier-wenzek/ocaml-kafka",
+      "status": "candidate-context",
+      "text": "OCaml bindings for Kafka"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "confluentinc/confluent-kafka-go",
       "status": "candidate",
       "text": "Confluent's Golang Client for Apache Kafka\u00ae"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "didier-wenzek/ocaml-kafka",
+      "status": "candidate",
+      "text": "OCaml bindings for Kafka"
     }
   ],
   "candidate_related_terms": [],
@@ -190,11 +208,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "confluentinc/confluent-kafka-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "karafka/rdkafka-ruby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "didier-wenzek/ocaml-kafka"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

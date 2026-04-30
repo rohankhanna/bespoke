@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T18:43:02.586560+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3855
+    },
+    {
+      "path": "requirements.txt",
+      "size": 249
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "MasaCtrl with T2I-Adapter for controllable consistent image synthesis and editing",
+    "fork": true,
+    "full_name": "ljzycmd/T2I-Adapter-w-MasaCtrl",
+    "html_url": "https://github.com/ljzycmd/T2I-Adapter-w-MasaCtrl",
+    "language": "Python",
+    "pushed_at": "2023-07-04T03:02:13Z",
+    "stargazers_count": 18,
+    "topics": [],
+    "updated_at": "2026-03-04T18:45:33Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

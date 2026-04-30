@@ -1,0 +1,734 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/belt-mac.yml"
+    },
+    {
+      "component": "RustCrypto/actions/cargo-cache@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/belt-mac.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/belt-mac.yml"
+    },
+    {
+      "component": "RustCrypto/actions/.github/workflows/minimal-versions.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/belt-mac.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/belt-mac.yml"
+    },
+    {
+      "component": "RustCrypto/actions/cargo-cache@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/belt-mac.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/belt-mac.yml"
+    },
+    {
+      "component": "RustCrypto/actions/cargo-hack-install@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/belt-mac.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cbc-mac.yml"
+    },
+    {
+      "component": "RustCrypto/actions/cargo-cache@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cbc-mac.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cbc-mac.yml"
+    },
+    {
+      "component": "RustCrypto/actions/.github/workflows/minimal-versions.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cbc-mac.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cbc-mac.yml"
+    },
+    {
+      "component": "RustCrypto/actions/cargo-cache@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cbc-mac.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cbc-mac.yml"
+    },
+    {
+      "component": "RustCrypto/actions/cargo-hack-install@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cbc-mac.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmac.yml"
+    },
+    {
+      "component": "RustCrypto/actions/cargo-cache@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmac.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmac.yml"
+    },
+    {
+      "component": "RustCrypto/actions/.github/workflows/minimal-versions.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmac.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmac.yml"
+    },
+    {
+      "component": "RustCrypto/actions/cargo-cache@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmac.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmac.yml"
+    },
+    {
+      "component": "RustCrypto/actions/cargo-hack-install@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmac.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hmac.yml"
+    },
+    {
+      "component": "RustCrypto/actions/cargo-cache@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hmac.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hmac.yml"
+    },
+    {
+      "component": "RustCrypto/actions/.github/workflows/minimal-versions.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hmac.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hmac.yml"
+    },
+    {
+      "component": "RustCrypto/actions/cargo-cache@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hmac.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hmac.yml"
+    },
+    {
+      "component": "RustCrypto/actions/cargo-hack-install@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hmac.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pmac.yml"
+    },
+    {
+      "component": "RustCrypto/actions/cargo-cache@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pmac.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pmac.yml"
+    },
+    {
+      "component": "RustCrypto/actions/.github/workflows/minimal-versions.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pmac.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pmac.yml"
+    },
+    {
+      "component": "RustCrypto/actions/cargo-cache@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pmac.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pmac.yml"
+    },
+    {
+      "component": "RustCrypto/actions/cargo-hack-install@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pmac.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "rust-lang/crates-io-auth-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/retail-mac.yml"
+    },
+    {
+      "component": "RustCrypto/actions/cargo-cache@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/retail-mac.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/retail-mac.yml"
+    },
+    {
+      "component": "RustCrypto/actions/.github/workflows/minimal-versions.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/retail-mac.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/retail-mac.yml"
+    },
+    {
+      "component": "RustCrypto/actions/cargo-cache@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/retail-mac.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/retail-mac.yml"
+    },
+    {
+      "component": "RustCrypto/actions/cargo-hack-install@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/retail-mac.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workspace.yml"
+    },
+    {
+      "component": "RustCrypto/actions/cargo-cache@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workspace.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workspace.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workspace.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workspace.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workspace.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workspace.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workspace.yml"
+    },
+    {
+      "component": "crate-ci/typos@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workspace.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workspace.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workspace.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/belt-mac.yml",
+      "source_repo": "RustCrypto/MACs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/belt-mac.yml",
+      "source_repo": "RustCrypto/MACs",
+      "target": "RustCrypto/actions/cargo-cache@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/belt-mac.yml",
+      "source_repo": "RustCrypto/MACs",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/belt-mac.yml",
+      "source_repo": "RustCrypto/MACs",
+      "target": "RustCrypto/actions/.github/workflows/minimal-versions.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/belt-mac.yml",
+      "source_repo": "RustCrypto/MACs",
+      "target": "RustCrypto/actions/cargo-hack-install@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/belt-mac.yml",
+      "source_repo": "RustCrypto/MACs",
+      "target": "belt-mac",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cbc-mac.yml",
+      "source_repo": "RustCrypto/MACs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cbc-mac.yml",
+      "source_repo": "RustCrypto/MACs",
+      "target": "RustCrypto/actions/cargo-cache@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cbc-mac.yml",
+      "source_repo": "RustCrypto/MACs",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cbc-mac.yml",
+      "source_repo": "RustCrypto/MACs",
+      "target": "RustCrypto/actions/.github/workflows/minimal-versions.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cbc-mac.yml",
+      "source_repo": "RustCrypto/MACs",
+      "target": "RustCrypto/actions/cargo-hack-install@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cbc-mac.yml",
+      "source_repo": "RustCrypto/MACs",
+      "target": "cbc-mac",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmac.yml",
+      "source_repo": "RustCrypto/MACs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmac.yml",
+      "source_repo": "RustCrypto/MACs",
+      "target": "RustCrypto/actions/cargo-cache@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmac.yml",
+      "source_repo": "RustCrypto/MACs",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmac.yml",
+      "source_repo": "RustCrypto/MACs",
+      "target": "RustCrypto/actions/.github/workflows/minimal-versions.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmac.yml",
+      "source_repo": "RustCrypto/MACs",
+      "target": "RustCrypto/actions/cargo-hack-install@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmac.yml",
+      "source_repo": "RustCrypto/MACs",
+      "target": "cmac",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hmac.yml",
+      "source_repo": "RustCrypto/MACs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hmac.yml",
+      "source_repo": "RustCrypto/MACs",
+      "target": "RustCrypto/actions/cargo-cache@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hmac.yml",
+      "source_repo": "RustCrypto/MACs",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hmac.yml",
+      "source_repo": "RustCrypto/MACs",
+      "target": "RustCrypto/actions/.github/workflows/minimal-versions.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hmac.yml",
+      "source_repo": "RustCrypto/MACs",
+      "target": "RustCrypto/actions/cargo-hack-install@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hmac.yml",
+      "source_repo": "RustCrypto/MACs",
+      "target": "hmac",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pmac.yml",
+      "source_repo": "RustCrypto/MACs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pmac.yml",
+      "source_repo": "RustCrypto/MACs",
+      "target": "RustCrypto/actions/cargo-cache@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pmac.yml",
+      "source_repo": "RustCrypto/MACs",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pmac.yml",
+      "source_repo": "RustCrypto/MACs",
+      "target": "RustCrypto/actions/.github/workflows/minimal-versions.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pmac.yml",
+      "source_repo": "RustCrypto/MACs",
+      "target": "RustCrypto/actions/cargo-hack-install@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pmac.yml",
+      "source_repo": "RustCrypto/MACs",
+      "target": "pmac",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "RustCrypto/MACs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "RustCrypto/MACs",
+      "target": "rust-lang/crates-io-auth-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "RustCrypto/MACs",
+      "target": "Publish to crates.io",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/retail-mac.yml",
+      "source_repo": "RustCrypto/MACs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/retail-mac.yml",
+      "source_repo": "RustCrypto/MACs",
+      "target": "RustCrypto/actions/cargo-cache@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/retail-mac.yml",
+      "source_repo": "RustCrypto/MACs",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/retail-mac.yml",
+      "source_repo": "RustCrypto/MACs",
+      "target": "RustCrypto/actions/.github/workflows/minimal-versions.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/retail-mac.yml",
+      "source_repo": "RustCrypto/MACs",
+      "target": "RustCrypto/actions/cargo-hack-install@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/retail-mac.yml",
+      "source_repo": "RustCrypto/MACs",
+      "target": "retail-mac",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workspace.yml",
+      "source_repo": "RustCrypto/MACs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workspace.yml",
+      "source_repo": "RustCrypto/MACs",
+      "target": "RustCrypto/actions/cargo-cache@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workspace.yml",
+      "source_repo": "RustCrypto/MACs",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workspace.yml",
+      "source_repo": "RustCrypto/MACs",
+      "target": "crate-ci/typos@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workspace.yml",
+      "source_repo": "RustCrypto/MACs",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/workspace.yml",
+      "source_repo": "RustCrypto/MACs",
+      "target": "Workspace",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:58:27.356902+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3380
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1278
+    },
+    {
+      "path": ".github/workflows/belt-mac.yml",
+      "size": 1417
+    },
+    {
+      "path": ".github/workflows/cbc-mac.yml",
+      "size": 1412
+    },
+    {
+      "path": ".github/workflows/cmac.yml",
+      "size": 1399
+    },
+    {
+      "path": ".github/workflows/hmac.yml",
+      "size": 1400
+    },
+    {
+      "path": ".github/workflows/pmac.yml",
+      "size": 1399
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 1178
+    },
+    {
+      "path": ".github/workflows/retail-mac.yml",
+      "size": 1423
+    },
+    {
+      "path": ".github/workflows/workspace.yml",
+      "size": 1265
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Message authentication code algorithms written in pure Rust",
+    "fork": false,
+    "full_name": "RustCrypto/MACs",
+    "html_url": "https://github.com/RustCrypto/MACs",
+    "language": "Rust",
+    "pushed_at": "2026-04-27T21:47:42Z",
+    "stargazers_count": 354,
+    "topics": [],
+    "updated_at": "2026-04-22T05:39:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "belt-mac",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/belt-mac.yml",
+      "term": "belt-mac"
+    },
+    {
+      "context_snippet": "cbc-mac",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cbc-mac.yml",
+      "term": "cbc-mac"
+    },
+    {
+      "context_snippet": "cmac",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmac.yml",
+      "term": "cmac"
+    },
+    {
+      "context_snippet": "hmac",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hmac.yml",
+      "term": "hmac"
+    },
+    {
+      "context_snippet": "pmac",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pmac.yml",
+      "term": "pmac"
+    },
+    {
+      "context_snippet": "Publish to crates.io",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish to crates.io"
+    },
+    {
+      "context_snippet": "retail-mac",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/retail-mac.yml",
+      "term": "retail-mac"
+    },
+    {
+      "context_snippet": "Workspace",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/workspace.yml",
+      "term": "Workspace"
+    }
+  ]
+}

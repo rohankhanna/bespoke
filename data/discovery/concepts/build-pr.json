@@ -44,6 +44,18 @@
       "source_repo": "bitwarden/directory-connector",
       "status": "candidate-context",
       "text": "Build PR"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "netty/netty",
+      "status": "candidate-context",
+      "text": "Netty project - an event-driven asynchronous network application framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "netty/netty",
+      "status": "candidate-context",
+      "text": "Build PR"
     }
   ],
   "candidate_glosses": [
@@ -62,6 +74,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "bitwarden/directory-connector",
+      "status": "candidate",
+      "text": "Build PR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "netty/netty",
       "status": "candidate",
       "text": "Build PR"
     }
@@ -125,11 +143,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/build-pr.yml",
       "source_repo": "bitwarden/directory-connector"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/ci-pr.yml",
+      "source_repo": "netty/netty"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

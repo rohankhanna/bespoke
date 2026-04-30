@@ -1,0 +1,111 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "spacemeshos/app-spacemesh",
+      "target": "ledgerhq/udev-rules",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "spacemeshos/app-spacemesh",
+      "target": "ledgerhq/ledger-app-builder",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "spacemeshos/app-spacemesh",
+      "target": "ledgerhq/blue-loader-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "spacemeshos/app-spacemesh",
+      "target": "ledgerhq/ledger-secure-sdk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml",
+      "source_repo": "spacemeshos/app-spacemesh",
+      "target": "LedgerHQ/ledger-app-workflows/.github/workflows/reusable_build.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml",
+      "source_repo": "spacemeshos/app-spacemesh",
+      "target": "LedgerHQ/ledger-app-workflows/.github/workflows/reusable_ragger_tests.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml",
+      "source_repo": "spacemeshos/app-spacemesh",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-workflow.yml",
+      "source_repo": "spacemeshos/app-spacemesh",
+      "target": "Compilation & tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-workflow.yml",
+      "source_repo": "spacemeshos/app-spacemesh",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-workflow.yml",
+      "source_repo": "spacemeshos/app-spacemesh",
+      "target": "DoozyX/clang-format-lint-action@v0.13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-workflow.yml",
+      "source_repo": "spacemeshos/app-spacemesh",
+      "target": "codespell-project/actions-codespell@2391250ab05295bddd51e36a8c6295edb6343b0e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-workflow.yml",
+      "source_repo": "spacemeshos/app-spacemesh",
+      "target": "Code style check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonarcloud.yml",
+      "source_repo": "spacemeshos/app-spacemesh",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonarcloud.yml",
+      "source_repo": "spacemeshos/app-spacemesh",
+      "target": "actions/setup-java@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sonarcloud.yml",
+      "source_repo": "spacemeshos/app-spacemesh",
+      "target": "Sonarcloud",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T18:36:26.757967+00:00",
+  "source_repo": "spacemeshos/app-spacemesh"
+}

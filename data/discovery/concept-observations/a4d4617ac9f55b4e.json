@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Implementations of the models from the Statistical Rethinking book with Turing.jl"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![CI][ci-img]][ci-url]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![CI][ci-img]][ci-url]"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26759375,
+      "status": "candidate",
+      "text": "demille"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26756980,
+      "status": "candidate",
+      "text": "ladd"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26755378,
+      "status": "candidate",
+      "text": "zucker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25094628,
+      "status": "candidate",
+      "text": "benjamin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24983650,
+      "status": "candidate",
+      "text": "squire"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "franklin",
+      "sense_id": "franklin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "franklin",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "franklin",
+  "observation_id": "a4d4617ac9f55b4e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "franklin",
+  "source_context_snippet": "[![CI][ci-img]][ci-url]",
+  "source_file": null,
+  "source_repo": "StatisticalRethinkingJulia/TuringModels.jl",
+  "source_repo_description": "Implementations of the models from the Statistical Rethinking book with Turing.jl"
+}

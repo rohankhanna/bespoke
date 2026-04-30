@@ -1,0 +1,59 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "erwincoumans/bullet3",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "erwincoumans/bullet3",
+      "target": "CMake",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:45:29.824440+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6245
+    },
+    {
+      "path": ".github/workflows/cmake.yml",
+      "size": 1417
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Bullet Physics SDK: real-time collision detection and multi-physics simulation for VR, games, visual effects, robotics, machine learning etc.",
+    "fork": true,
+    "full_name": "erwincoumans/bullet3",
+    "html_url": "https://github.com/erwincoumans/bullet3",
+    "language": "C++",
+    "pushed_at": "2024-09-26T16:37:17Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2025-05-18T22:53:25Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CMake",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake.yml",
+      "term": "CMake"
+    }
+  ]
+}

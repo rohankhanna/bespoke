@@ -98,6 +98,18 @@
       "source_repo": "openai/evals",
       "status": "candidate-context",
       "text": "Run unit tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/nvidia-resiliency-ext",
+      "status": "candidate-context",
+      "text": "NVIDIA Resiliency Extension is a python package for framework developers and users to implement fault-tolerant features. It improves the effective training time by minimizing the downtime due to failures and interruptions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/nvidia-resiliency-ext",
+      "status": "candidate-context",
+      "text": "Run Unit Tests"
     }
   ],
   "candidate_glosses": [
@@ -142,6 +154,12 @@
       "source_repo": "openai/evals",
       "status": "candidate",
       "text": "Run unit tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/nvidia-resiliency-ext",
+      "status": "candidate",
+      "text": "Run Unit Tests"
     }
   ],
   "candidate_related_terms": [
@@ -257,11 +275,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/run_tests.yaml",
       "source_repo": "openai/evals"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/unit_test.yml",
+      "source_repo": "NVIDIA/nvidia-resiliency-ext"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

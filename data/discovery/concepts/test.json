@@ -7253,6 +7253,234 @@
       "source_repo": "styled-components/styled-components",
       "status": "candidate-context",
       "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "argoproj/argo-events",
+      "status": "candidate-context",
+      "text": "Event-driven Automation Framework for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj/argo-events",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fredrikekre/Literate.jl",
+      "status": "candidate-context",
+      "text": "Simple package for literate programming in Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fredrikekre/Literate.jl",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tinted-theming/schemes",
+      "status": "candidate-context",
+      "text": "A common location to store all color scheme data for the Tinted theming project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/schemes",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "csstools/postcss-preset-env",
+      "status": "candidate-context",
+      "text": "Convert modern CSS into something browsers understand"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csstools/postcss-preset-env",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "postcss/postcss-js",
+      "status": "candidate-context",
+      "text": "PostCSS for React Inline Styles, Free Style and other CSS-in-JS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "postcss/postcss-js",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "postcss/sugarss",
+      "status": "candidate-context",
+      "text": "Indent-based CSS syntax for PostCSS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "postcss/sugarss",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "funcool/promesa",
+      "status": "candidate-context",
+      "text": "A promise library & concurrency toolkit for Clojure and ClojureScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "funcool/promesa",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cachix/serde-envfile",
+      "status": "candidate-context",
+      "text": "\u267b\ufe0f Deserialize and serialize environment variables."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cachix/serde-envfile",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Shopify/yjit-metrics",
+      "status": "candidate-context",
+      "text": "\"Tasks for benchmarking, building and collecting stats for YJIT\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shopify/yjit-metrics",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ergenius/eargon2",
+      "status": "candidate-context",
+      "text": "Argon2 password hashing for Erlang."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ergenius/eargon2",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "novnc/noVNC",
+      "status": "candidate-context",
+      "text": "VNC client web application"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "novnc/noVNC",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rstackjs/rsbuild-plugin-i18next-extractor",
+      "status": "candidate-context",
+      "text": "A Rsbuild plugin for extracting i18n translations using i18next-cli."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rstackjs/rsbuild-plugin-i18next-extractor",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wincent/command-t",
+      "status": "candidate-context",
+      "text": "\u2328\ufe0f Fast file navigation for Neovim and Vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wincent/command-t",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "onsi/gomega",
+      "status": "candidate-context",
+      "text": "Ginkgo's Preferred Matcher Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "onsi/gomega",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AlecAivazis/survey",
+      "status": "candidate-context",
+      "text": "A golang library for building interactive and accessible prompts with full support for windows and posix terminals."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AlecAivazis/survey",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bmatcuk/stylelint-lsp",
+      "status": "candidate-context",
+      "text": "A stylelint Language Server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bmatcuk/stylelint-lsp",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dop251/goja_nodejs",
+      "status": "candidate-context",
+      "text": "Nodejs compatibility library for Goja"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dop251/goja_nodejs",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "guard/rb-inotify",
+      "status": "candidate-context",
+      "text": "A thorough inotify wrapper for Ruby using FFI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "guard/rb-inotify",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "devsnek/esvu",
+      "status": "candidate-context",
+      "text": "esvu is your one-stop shop for all implementations of ECMAScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devsnek/esvu",
+      "status": "candidate-context",
+      "text": "Test"
     }
   ],
   "candidate_glosses": [
@@ -10927,6 +11155,120 @@
       "source_repo": "styled-components/styled-components",
       "status": "candidate",
       "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj/argo-events",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fredrikekre/Literate.jl",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/schemes",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csstools/postcss-preset-env",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "postcss/postcss-js",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "postcss/sugarss",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "funcool/promesa",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cachix/serde-envfile",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shopify/yjit-metrics",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ergenius/eargon2",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "novnc/noVNC",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rstackjs/rsbuild-plugin-i18next-extractor",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wincent/command-t",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "onsi/gomega",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AlecAivazis/survey",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bmatcuk/stylelint-lsp",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dop251/goja_nodejs",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "guard/rb-inotify",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devsnek/esvu",
+      "status": "candidate",
+      "text": "Test"
     }
   ],
   "candidate_related_terms": [
@@ -15697,11 +16039,251 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "styled-components/styled-components"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ultrajson/ultrajson"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "argoproj/argo-events"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "dkron-io/dkron"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/Test.yml",
+      "source_repo": "igor-makarov/xcake"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "browserslist/browserslist"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/Test.yml",
+      "source_repo": "fredrikekre/Literate.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "tinted-theming/schemes"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "graphql-hive/graphql-eslint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "Automattic/node-canvas"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "astroturfcss/astroturf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "csstools/postcss-preset-env"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "postcss/postcss-js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "postcss/sugarss"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "funcool/promesa"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "cachix/serde-envfile"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rbenv/ruby-build"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Shopify/yjit-metrics"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "licensee/licensed"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/erlang.yml",
+      "source_repo": "ergenius/eargon2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "novnc/noVNC"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "rstackjs/rsbuild-plugin-i18next-extractor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "wincent/command-t"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "vim-fall/fall.vim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "vim-fall/deno-fall-extra"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "vim-fall/deno-fall-std"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "onsi/gomega"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "PyCQA/eradicate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "wemake-services/flake8-eradicate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "AlecAivazis/survey"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/luarocks-tag-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "EmmyLuaLs/emmylua-analyzer-rust"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "bmatcuk/stylelint-lsp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "dop251/goja_nodejs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "guard/rb-inotify"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "lambdalisue/vim-gin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "all-contributors/app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "mightyiam/eslint-config-love"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "engine262/engine262"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "devsnek/esvu"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "grip-unina/GANimageDetection",
+      "target": "peterwang512/cnndetection",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:42:26.685295+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2625
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "grip-unina/GANimageDetection",
+    "html_url": "https://github.com/grip-unina/GANimageDetection",
+    "language": "Python",
+    "pushed_at": "2023-11-26T18:13:47Z",
+    "stargazers_count": 65,
+    "topics": [],
+    "updated_at": "2026-04-19T22:12:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "peterwang512/cnndetection",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-pytest.yml",
+      "source_repo": "matthewhand/mcp-openapi-proxy",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-pytest.yml",
+      "source_repo": "matthewhand/mcp-openapi-proxy",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-pytest.yml",
+      "source_repo": "matthewhand/mcp-openapi-proxy",
+      "target": "astral-sh/setup-uv@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testpypi.yaml",
+      "source_repo": "matthewhand/mcp-openapi-proxy",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testpypi.yaml",
+      "source_repo": "matthewhand/mcp-openapi-proxy",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testpypi.yaml",
+      "source_repo": "matthewhand/mcp-openapi-proxy",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/testpypi.yaml",
+      "source_repo": "matthewhand/mcp-openapi-proxy",
+      "target": "Publish to PyPI",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T18:36:26.757967+00:00",
+  "source_repo": "matthewhand/mcp-openapi-proxy"
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "image-editting"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "YangLing0818/RPG-DiffusionMaster",
+      "status": "candidate-context",
+      "text": "[ICML 2024] Mastering Text-to-Image Diffusion: Recaptioning, Planning, and Generating with Multimodal LLMs (RPG)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YangLing0818/RPG-DiffusionMaster",
+      "status": "candidate-context",
+      "text": "<a href=\"https://trendshift.io/repositories/7230\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/7230\" alt=\"YangLing0818%2FRPG-DiffusionMaster | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YangLing0818/RPG-DiffusionMaster",
+      "status": "candidate",
+      "text": "<a href=\"https://trendshift.io/repositories/7230\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/7230\" alt=\"YangLing0818%2FRPG-DiffusionMaster | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "image-editting",
+  "concept_id": "image-editting",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "YangLing0818/RPG-DiffusionMaster"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "image-editting",
+      "sense_id": "image-editting#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

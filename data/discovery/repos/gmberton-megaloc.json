@@ -1,0 +1,141 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gmberton/MegaLoc",
+      "target": "gmberton/vpr-methods-evaluation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gmberton/MegaLoc",
+      "target": "geolocalization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gmberton/MegaLoc",
+      "target": "image-retrieval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gmberton/MegaLoc",
+      "target": "localization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gmberton/MegaLoc",
+      "target": "place-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gmberton/MegaLoc",
+      "target": "visual-geolocalization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gmberton/MegaLoc",
+      "target": "visual-localization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gmberton/MegaLoc",
+      "target": "visual-place-recognition",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:44:07.949428+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1883
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An image retrieval model for any localization task",
+    "fork": false,
+    "full_name": "gmberton/MegaLoc",
+    "html_url": "https://github.com/gmberton/MegaLoc",
+    "language": "Python",
+    "pushed_at": "2026-03-30T06:44:23Z",
+    "stargazers_count": 216,
+    "topics": [
+      "geolocalization",
+      "image-retrieval",
+      "localization",
+      "place-recognition",
+      "visual-geolocalization",
+      "visual-localization",
+      "visual-place-recognition"
+    ],
+    "updated_at": "2026-04-27T13:02:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gmberton/vpr-methods-evaluation",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "An image retrieval model for any localization task, which achieves SOTA on most VPR datasets, including indoor and outdoor ones.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geolocalization"
+    },
+    {
+      "context_snippet": "An image retrieval model for any localization task, which achieves SOTA on most VPR datasets, including indoor and outdoor ones.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-retrieval"
+    },
+    {
+      "context_snippet": "An image retrieval model for any localization task, which achieves SOTA on most VPR datasets, including indoor and outdoor ones.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "localization"
+    },
+    {
+      "context_snippet": "An image retrieval model for any localization task, which achieves SOTA on most VPR datasets, including indoor and outdoor ones.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "place-recognition"
+    },
+    {
+      "context_snippet": "An image retrieval model for any localization task, which achieves SOTA on most VPR datasets, including indoor and outdoor ones.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-geolocalization"
+    },
+    {
+      "context_snippet": "An image retrieval model for any localization task, which achieves SOTA on most VPR datasets, including indoor and outdoor ones.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-localization"
+    },
+    {
+      "context_snippet": "An image retrieval model for any localization task, which achieves SOTA on most VPR datasets, including indoor and outdoor ones.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-place-recognition"
+    }
+  ]
+}

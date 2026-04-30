@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Python reference implementation of The Update Framework (TUF)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![CI badge](https://github.com/theupdateframework/python-tuf/actions/workflows/ci.yml/badge.svg)](https://github.com/theupdateframework/python-tuf/actions/workflows/ci.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![CI badge](https://github.com/theupdateframework/python-tuf/actions/workflows/ci.yml/badge.svg)](https://github.com/theupdateframework/python-tuf/actions/workflows/ci.yml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29989216,
+      "status": "candidate",
+      "text": "amended"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29989030,
+      "status": "candidate",
+      "text": "modernize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29988219,
+      "status": "candidate",
+      "text": "modify"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29988052,
+      "status": "candidate",
+      "text": "addition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29987843,
+      "status": "candidate",
+      "text": "modified"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "update",
+      "sense_id": "update#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "update",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "update",
+  "observation_id": "d75cf29232e364b5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "update",
+  "source_context_snippet": "[![CI badge](https://github.com/theupdateframework/python-tuf/actions/workflows/ci.yml/badge.svg)](https://github.com/theupdateframework/python-tuf/actions/workflows/ci.yml)",
+  "source_file": null,
+  "source_repo": "theupdateframework/python-tuf",
+  "source_repo_description": "Python reference implementation of The Update Framework (TUF)"
+}

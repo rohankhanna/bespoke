@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Modernity meets insane extensibility. The future of organizing your life in Neovim."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Update Version String in Neorg Code"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Update Version String in Neorg Code"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43237,
+      "status": "candidate",
+      "text": "define"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43237,
+      "status": "candidate",
+      "text": "defining"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32985,
+      "status": "candidate",
+      "text": "defined"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32974,
+      "status": "candidate",
+      "text": "triplet code"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28240,
+      "status": "candidate",
+      "text": "edition"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Version String in Neorg Code",
+      "sense_id": "update-version-string-in-neorg-code#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "update-version-string-in-neorg-code",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "update-version-string-in-neorg-code",
+  "observation_id": "295c2ac8432b889e",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "Update Version String in Neorg Code",
+  "source_context_snippet": "Update Version String in Neorg Code",
+  "source_file": ".github/workflows/version_in_code.yml",
+  "source_repo": "nvim-neorg/neorg",
+  "source_repo_description": "Modernity meets insane extensibility. The future of organizing your life in Neovim."
+}

@@ -19,6 +19,18 @@
       "source_repo": "bazel-contrib/rules_foreign_cc",
       "status": "candidate-context",
       "text": "[![Build status](https://badge.buildkite.com/c28afbf846e2077715c753dda1f4b820cdcc46cc6cde16503c.svg?branch=main)](https://buildkite.com/bazel/rules-foreign-cc?branch=main)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ilyachur/cmake4vim",
+      "status": "candidate-context",
+      "text": "Vim plugin for CMake projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ilyachur/cmake4vim",
+      "status": "candidate-context",
+      "text": "<p>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "bazel-contrib/rules_foreign_cc",
       "status": "candidate",
       "text": "[![Build status](https://badge.buildkite.com/c28afbf846e2077715c753dda1f4b820cdcc46cc6cde16503c.svg?branch=main)](https://buildkite.com/bazel/rules-foreign-cc?branch=main)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ilyachur/cmake4vim",
+      "status": "candidate",
+      "text": "<p>"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "bazel-contrib/rules_foreign_cc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "ilyachur/cmake4vim"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

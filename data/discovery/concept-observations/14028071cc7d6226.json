@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Date and time handling in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![minimum rustc: 1.88.0](https://img.shields.io/badge/minimum%20rustc-1.88.0-yellowgreen?logo=rust&style=flat-square)](https://www.whatrustisit.com)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![minimum rustc: 1.88.0](https://img.shields.io/badge/minimum%20rustc-1.88.0-yellowgreen?logo=rust&style=flat-square)](https://www.whatrustisit.com)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "no-std",
+      "sense_id": "no-std#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "no-std",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "no-std",
+  "observation_id": "14028071cc7d6226",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "no-std",
+  "source_context_snippet": "[![minimum rustc: 1.88.0](https://img.shields.io/badge/minimum%20rustc-1.88.0-yellowgreen?logo=rust&style=flat-square)](https://www.whatrustisit.com)",
+  "source_file": null,
+  "source_repo": "time-rs/time",
+  "source_repo_description": "Date and time handling in Rust."
+}

@@ -44,6 +44,18 @@
       "source_repo": "com-lihaoyi/mill",
       "status": "candidate-context",
       "text": "Publish Artifacts"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apollographql/supergraph-demo",
+      "status": "candidate-context",
+      "text": "\ud83c\udf7f Compose subgraphs into a Federation v1 supergraph at build-time with static composition to power a federated graph router at runtime."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/supergraph-demo",
+      "status": "candidate-context",
+      "text": "Publish artifacts"
     }
   ],
   "candidate_glosses": [
@@ -64,6 +76,12 @@
       "source_repo": "com-lihaoyi/mill",
       "status": "candidate",
       "text": "Publish Artifacts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/supergraph-demo",
+      "status": "candidate",
+      "text": "Publish artifacts"
     }
   ],
   "candidate_related_terms": [
@@ -125,11 +143,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/publish-artifacts.yml",
       "source_repo": "com-lihaoyi/mill"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apollographql/supergraph-demo"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

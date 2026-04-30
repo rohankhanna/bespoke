@@ -1,7 +1,7 @@
 {
   "component": "conda-incubator/setup-miniconda@v3",
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -257,6 +257,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/emscripten.yml",
       "source_repo": "libffi/libffi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "MilesCranmer/PySR"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CI_conda_forge.yml",
+      "source_repo": "MilesCranmer/PySR"
     }
   ]
 }

@@ -83,20 +83,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "appbaseio/reactivesearch-api",
-      "target": "appbaseio/searchbox",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "appbaseio/reactivesearch-api",
-      "target": "appbaseio/reactivesearch-api-docker",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/binary-publish.yml",
       "source_repo": "appbaseio/reactivesearch-api",
@@ -286,7 +272,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T13:54:10.641246+00:00",
+  "fetched_at": "2026-04-30T18:52:35.283241+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -346,18 +332,7 @@
     ],
     "updated_at": "2026-02-24T23:41:04Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "appbaseio/reactivesearch-api-docker",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "appbaseio/searchbox",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "build binary",

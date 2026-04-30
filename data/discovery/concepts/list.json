@@ -127,6 +127,18 @@
       "source_repo": "troxler/awesome-css-frameworks",
       "status": "candidate-context",
       "text": "List of awesome CSS frameworks in 2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "veggiemonk/awesome-docker",
+      "status": "candidate-context",
+      "text": ":whale: A curated list of Docker resources and projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "veggiemonk/awesome-docker",
+      "status": "candidate-context",
+      "text": "> A curated list of Docker resources and projects"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +201,12 @@
       "source_repo": "troxler/awesome-css-frameworks",
       "status": "candidate",
       "text": "List of awesome CSS frameworks in 2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "veggiemonk/awesome-docker",
+      "status": "candidate",
+      "text": "> A curated list of Docker resources and projects"
     }
   ],
   "candidate_related_terms": [
@@ -328,11 +346,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "troxler/awesome-css-frameworks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "veggiemonk/awesome-docker"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1359,6 +1359,66 @@
       "source_repo": "styled-components/styled-components",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "styled-system/styled-system",
+      "status": "candidate-context",
+      "text": "\u2b22 Style props for rapid UI development"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "styled-system/styled-system",
+      "status": "candidate-context",
+      "text": "<img src='https://styled-system.com/logo.svg' width='128' height='128' />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vitalets/react-native-extended-stylesheet",
+      "status": "candidate-context",
+      "text": "Extended StyleSheets for React Native"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vitalets/react-native-extended-stylesheet",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/vitalets/react-native-extended-stylesheet.svg?branch=master)](https://travis-ci.org/vitalets/react-native-extended-stylesheet)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DioxusLabs/dioxus",
+      "status": "candidate-context",
+      "text": "Fullstack app framework for web, desktop, and mobile."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DioxusLabs/dioxus",
+      "status": "candidate-context",
+      "text": "<p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "module-federation/core",
+      "status": "candidate-context",
+      "text": "Module Federation is a concept that allows developers to share code and resources across multiple JavaScript applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "module-federation/core",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "markdoc/markdoc",
+      "status": "candidate-context",
+      "text": "A powerful, flexible, Markdown-based authoring framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "markdoc/markdoc",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -2039,6 +2099,36 @@
       "source_repo": "styled-components/styled-components",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "styled-system/styled-system",
+      "status": "candidate",
+      "text": "<img src='https://styled-system.com/logo.svg' width='128' height='128' />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vitalets/react-native-extended-stylesheet",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/vitalets/react-native-extended-stylesheet.svg?branch=master)](https://travis-ci.org/vitalets/react-native-extended-stylesheet)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DioxusLabs/dioxus",
+      "status": "candidate",
+      "text": "<p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "module-federation/core",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "markdoc/markdoc",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -3027,11 +3117,71 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "styled-components/styled-components"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-scalajs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "appbaseio/searchbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "emotion-js/emotion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "styled-system/styled-system"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "vitalets/react-native-extended-stylesheet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "DioxusLabs/dioxus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "module-federation/core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "facebook/create-react-app"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "markdoc/markdoc"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

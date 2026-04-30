@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "Pronto"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prontolabs/pronto",
+      "status": "candidate-context",
+      "text": "Quick automated code review of your changes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prontolabs/pronto",
+      "status": "candidate-context",
+      "text": "Pronto"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prontolabs/pronto",
+      "status": "candidate",
+      "text": "Pronto"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028202,
+      "status": "candidate",
+      "text": "promptly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30028641,
+      "status": "candidate",
+      "text": "without delay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30028640,
+      "status": "candidate",
+      "text": "asap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30028471,
+      "status": "candidate",
+      "text": "shortly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30026216,
+      "status": "candidate",
+      "text": "soon"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 30027,
+      "status": "candidate",
+      "text": "promptly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2006,
+      "status": "candidate",
+      "text": "without delay"
+    }
+  ],
+  "canonical_name": "Pronto",
+  "concept_id": "pronto",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/pronto.yml",
+      "source_repo": "prontolabs/pronto"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Pronto",
+      "sense_id": "pronto#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

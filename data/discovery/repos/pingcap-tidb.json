@@ -1,0 +1,557 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel-build-crossbuild.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel-lint-crossbuild.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-bazel-files.yml"
+    },
+    {
+      "component": "pingcap/tidb/.github/actions/tidb_build@fb17a419f54d51f45fd031d8e5069b7022ecec92",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-bazel-files.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-bazel-files.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test-compile-br.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test-compile-br.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test-compile-br.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test-compile-br.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test-dumpling.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test-dumpling.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test-dumpling.yml"
+    },
+    {
+      "component": "mxschmitt/action-tmate@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test-dumpling.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-bazel-files.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-bazel-files.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pingcap/tidb",
+      "target": "pingcap/community",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pingcap/tidb",
+      "target": "pingcap/tidb-map",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pingcap/tidb",
+      "target": "syndtr/goleveldb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pingcap/tidb",
+      "target": "boltdb/bolt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel-build-crossbuild.yml",
+      "source_repo": "pingcap/tidb",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel-lint-crossbuild.yml",
+      "source_repo": "pingcap/tidb",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bazel-lint-crossbuild.yml",
+      "source_repo": "pingcap/tidb",
+      "target": "Bazel Lint Crossbuild",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-bazel-files.yml",
+      "source_repo": "pingcap/tidb",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-bazel-files.yml",
+      "source_repo": "pingcap/tidb",
+      "target": "pingcap/tidb/.github/actions/tidb_build@fb17a419f54d51f45fd031d8e5069b7022ecec92",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-bazel-files.yml",
+      "source_repo": "pingcap/tidb",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-bazel-files.yml",
+      "source_repo": "pingcap/tidb",
+      "target": "Generate Bazel Files",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test-compile-br.yml",
+      "source_repo": "pingcap/tidb",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test-compile-br.yml",
+      "source_repo": "pingcap/tidb",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-test-compile-br.yml",
+      "source_repo": "pingcap/tidb",
+      "target": "BR & Lightning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test-dumpling.yml",
+      "source_repo": "pingcap/tidb",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test-dumpling.yml",
+      "source_repo": "pingcap/tidb",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test-dumpling.yml",
+      "source_repo": "pingcap/tidb",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test-dumpling.yml",
+      "source_repo": "pingcap/tidb",
+      "target": "mxschmitt/action-tmate@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-test-dumpling.yml",
+      "source_repo": "pingcap/tidb",
+      "target": "Dumpling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-bazel-files.yml",
+      "source_repo": "pingcap/tidb",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-bazel-files.yml",
+      "source_repo": "pingcap/tidb",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-bazel-files.yml",
+      "source_repo": "pingcap/tidb",
+      "target": "Update Bazel Files",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pingcap/tidb",
+      "target": "agent-context",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pingcap/tidb",
+      "target": "agent-memory",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pingcap/tidb",
+      "target": "agentic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pingcap/tidb",
+      "target": "cloud-native",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pingcap/tidb",
+      "target": "database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pingcap/tidb",
+      "target": "distributed-database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pingcap/tidb",
+      "target": "distributed-transactions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pingcap/tidb",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pingcap/tidb",
+      "target": "htap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pingcap/tidb",
+      "target": "memory",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pingcap/tidb",
+      "target": "mysql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pingcap/tidb",
+      "target": "mysql-compatibility",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pingcap/tidb",
+      "target": "scale",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pingcap/tidb",
+      "target": "serverless",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pingcap/tidb",
+      "target": "tidb",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:46:11.879817+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10820
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1067
+    },
+    {
+      "path": "go.mod",
+      "size": 18629
+    },
+    {
+      "path": ".github/workflows/bazel-build-crossbuild.yml",
+      "size": 1221
+    },
+    {
+      "path": ".github/workflows/bazel-lint-crossbuild.yml",
+      "size": 1143
+    },
+    {
+      "path": ".github/workflows/generate-bazel-files.yml",
+      "size": 2598
+    },
+    {
+      "path": ".github/workflows/integration-test-compile-br.yml",
+      "size": 1728
+    },
+    {
+      "path": ".github/workflows/integration-test-dumpling.yml",
+      "size": 2582
+    },
+    {
+      "path": ".github/workflows/update-bazel-files.yml",
+      "size": 5721
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "TiDB is built for agentic workloads that grow unpredictably, with ACID guarantees and native support for transactions, analytics, and vector search. No data silos. No noisy neighbors. No infrastructure ceiling.",
+    "fork": false,
+    "full_name": "pingcap/tidb",
+    "html_url": "https://github.com/pingcap/tidb",
+    "language": "Go",
+    "pushed_at": "2026-04-30T09:29:28Z",
+    "stargazers_count": 40044,
+    "topics": [
+      "agent",
+      "agent-context",
+      "agent-memory",
+      "agentic",
+      "ai",
+      "cloud-native",
+      "database",
+      "distributed-database",
+      "distributed-transactions",
+      "go",
+      "hacktoberfest",
+      "htap",
+      "memory",
+      "mysql",
+      "mysql-compatibility",
+      "scale",
+      "serverless",
+      "sql",
+      "tidb"
+    ],
+    "updated_at": "2026-04-30T12:03:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "boltdb/bolt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pingcap/community",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pingcap/tidb-map",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "syndtr/goleveldb",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Bazel Lint Crossbuild",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bazel-lint-crossbuild.yml",
+      "term": "Bazel Lint Crossbuild"
+    },
+    {
+      "context_snippet": "Generate Bazel Files",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-bazel-files.yml",
+      "term": "Generate Bazel Files"
+    },
+    {
+      "context_snippet": "BR & Lightning",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-test-compile-br.yml",
+      "term": "BR & Lightning"
+    },
+    {
+      "context_snippet": "Dumpling",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-test-dumpling.yml",
+      "term": "Dumpling"
+    },
+    {
+      "context_snippet": "Update Bazel Files",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-bazel-files.yml",
+      "term": "Update Bazel Files"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agent-context"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agent-memory"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agentic"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloud-native"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "database"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distributed-database"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distributed-transactions"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "htap"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "memory"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mysql"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mysql-compatibility"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scale"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serverless"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tidb"
+    }
+  ]
+}

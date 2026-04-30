@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":whale: A curated list of Docker resources and projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> A curated list of Docker resources and projects"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> A curated list of Docker resources and projects"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19858779,
+      "status": "candidate",
+      "text": "mobe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19858778,
+      "status": "candidate",
+      "text": "mobey"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19858776,
+      "status": "candidate",
+      "text": "mobbist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19858775,
+      "status": "candidate",
+      "text": "mobo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19858774,
+      "status": "candidate",
+      "text": "moto"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "moby",
+      "sense_id": "moby#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "moby",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "moby",
+  "observation_id": "3447ee624bf4894f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "moby",
+  "source_context_snippet": "> A curated list of Docker resources and projects",
+  "source_file": null,
+  "source_repo": "veggiemonk/awesome-docker",
+  "source_repo_description": ":whale: A curated list of Docker resources and projects"
+}

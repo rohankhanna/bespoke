@@ -1,0 +1,257 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "pre-commit/action@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rpython-unit-tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rpython-unit-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rpython-unit-tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rpython-unit-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rpython-unit-tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rpython-unit-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rpython-unit-tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rpython-unit-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rpython-unit-tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rpython-unit-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rpython-unit-tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rpython-unit-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rpython-unit-tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rpython-unit-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/translate.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/translate.yml"
+    },
+    {
+      "component": "awalsh128/cache-apt-pkgs-action@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/translate.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/translate.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "pypy/pypy",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "pypy/pypy",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "pypy/pypy",
+      "target": "pre-commit/action@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "pypy/pypy",
+      "target": "pre-commit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rpython-unit-tests.yml",
+      "source_repo": "pypy/pypy",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rpython-unit-tests.yml",
+      "source_repo": "pypy/pypy",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rpython-unit-tests.yml",
+      "source_repo": "pypy/pypy",
+      "target": "Rpython Unit Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/translate.yml",
+      "source_repo": "pypy/pypy",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/translate.yml",
+      "source_repo": "pypy/pypy",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/translate.yml",
+      "source_repo": "pypy/pypy",
+      "target": "awalsh128/cache-apt-pkgs-action@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/translate.yml",
+      "source_repo": "pypy/pypy",
+      "target": "actions/upload-artifact@v7.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/translate.yml",
+      "source_repo": "pypy/pypy",
+      "target": "Translate PyPy",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:48:56.277173+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 1132
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 101
+    },
+    {
+      "path": "requirements.txt",
+      "size": 247
+    },
+    {
+      "path": ".github/workflows/pre-commit.yml",
+      "size": 449
+    },
+    {
+      "path": ".github/workflows/rpython-unit-tests.yml",
+      "size": 5388
+    },
+    {
+      "path": ".github/workflows/translate.yml",
+      "size": 1662
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "PyPy is a very fast and compliant implementation of the Python language.",
+    "fork": false,
+    "full_name": "pypy/pypy",
+    "html_url": "https://github.com/pypy/pypy",
+    "language": "Python",
+    "pushed_at": "2026-04-30T19:35:10Z",
+    "stargazers_count": 1716,
+    "topics": [],
+    "updated_at": "2026-04-30T07:30:24Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "pre-commit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "term": "pre-commit"
+    },
+    {
+      "context_snippet": "Rpython Unit Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rpython-unit-tests.yml",
+      "term": "Rpython Unit Tests"
+    },
+    {
+      "context_snippet": "Translate PyPy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/translate.yml",
+      "term": "Translate PyPy"
+    }
+  ]
+}

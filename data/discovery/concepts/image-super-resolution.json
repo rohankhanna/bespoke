@@ -43,6 +43,42 @@
       "source_repo": "Rishit-dagli/MIRNet-TFJS",
       "status": "candidate-context",
       "text": "[![Deploy Node.js app](https://github.com/Rishit-dagli/MIRNet-TFJS/actions/workflows/main_mirnet-tfjs-demo.yml/badge.svg)](https://github.com/Rishit-dagli/MIRNet-TFJS/actions/workflows/main_mirnet-tfjs-demo.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JingyunLiang/FKP",
+      "status": "candidate-context",
+      "text": "Official PyTorch code for Flow-based Kernel Prior with Application to Blind Super-Resolution (FKP, CVPR2021)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JingyunLiang/FKP",
+      "status": "candidate-context",
+      "text": "This repository is the official PyTorch implementation of Flow-based Kernel Prior with Application to Blind Super-Resolution"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JingyunLiang/HCFlow",
+      "status": "candidate-context",
+      "text": "Official PyTorch code for Hierarchical Conditional Flow: A Unified Framework for Image Super-Resolution and Image Rescaling (HCFlow, ICCV2021) "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JingyunLiang/HCFlow",
+      "status": "candidate-context",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2108.05301)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JingyunLiang/MANet",
+      "status": "candidate-context",
+      "text": "Official PyTorch code for Mutual Affine Network for Spatially Variant Kernel Estimation in Blind Image Super-Resolution (MANet, ICCV2021)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JingyunLiang/MANet",
+      "status": "candidate-context",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2108.05302)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +99,24 @@
       "source_repo": "Rishit-dagli/MIRNet-TFJS",
       "status": "candidate",
       "text": "[![Deploy Node.js app](https://github.com/Rishit-dagli/MIRNet-TFJS/actions/workflows/main_mirnet-tfjs-demo.yml/badge.svg)](https://github.com/Rishit-dagli/MIRNet-TFJS/actions/workflows/main_mirnet-tfjs-demo.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JingyunLiang/FKP",
+      "status": "candidate",
+      "text": "This repository is the official PyTorch implementation of Flow-based Kernel Prior with Application to Blind Super-Resolution"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JingyunLiang/HCFlow",
+      "status": "candidate",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2108.05301)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JingyunLiang/MANet",
+      "status": "candidate",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2108.05302)"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +142,29 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "Rishit-dagli/MIRNet-TFJS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "JingyunLiang/FKP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "JingyunLiang/HCFlow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "JingyunLiang/MANet"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

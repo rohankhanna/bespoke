@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "devs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/utils.nvim",
+      "status": "candidate-context",
+      "text": "Powerful Utilities for Neovim Plugin Devs \ud83d\udee0\ufe0f\ud83e\uddf0"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/utils.nvim",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/utils.nvim",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10004371,
+      "status": "candidate",
+      "text": "iap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9998432,
+      "status": "candidate",
+      "text": "esr"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9990519,
+      "status": "candidate",
+      "text": "ftd"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9963074,
+      "status": "candidate",
+      "text": "development"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9960404,
+      "status": "candidate",
+      "text": "epr"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "devs",
+  "concept_id": "devs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/utils.nvim"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "devs",
+      "sense_id": "devs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

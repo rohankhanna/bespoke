@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check alignment with copier template"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jupyterlab/extension-cookiecutter-ts",
+      "status": "candidate-context",
+      "text": "A cookiecutter recipe for JupyterLab extensions in Typescript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyterlab/extension-cookiecutter-ts",
+      "status": "candidate-context",
+      "text": "Check alignment with copier template"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyterlab/extension-cookiecutter-ts",
+      "status": "candidate",
+      "text": "Check alignment with copier template"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29562,
+      "status": "candidate",
+      "text": "guide"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28634,
+      "status": "candidate",
+      "text": "sort"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28554,
+      "status": "candidate",
+      "text": "guided"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28554,
+      "status": "candidate",
+      "text": "guiding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28414,
+      "status": "candidate",
+      "text": "balancing"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check alignment with copier template",
+  "concept_id": "check-alignment-with-copier-template",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/alignment.yml",
+      "source_repo": "jupyterlab/extension-cookiecutter-ts"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check alignment with copier template",
+      "sense_id": "check-alignment-with-copier-template#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

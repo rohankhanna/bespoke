@@ -31,6 +31,18 @@
       "source_repo": "binaryage/cljs-oops",
       "status": "candidate-context",
       "text": "ClojureScript macros for convenient native Javascript object access."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mono/CppSharp",
+      "status": "candidate-context",
+      "text": "Tools and libraries to glue C/C++ APIs to high-level languages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mono/CppSharp",
+      "status": "candidate-context",
+      "text": "<img src=\"docs/logo.svg\" width=\"128\">"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "binaryage/cljs-oops",
       "status": "candidate",
       "text": "ClojureScript macros for convenient native Javascript object access."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mono/CppSharp",
+      "status": "candidate",
+      "text": "<img src=\"docs/logo.svg\" width=\"128\">"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "binaryage/cljs-oops"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "mono/CppSharp"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

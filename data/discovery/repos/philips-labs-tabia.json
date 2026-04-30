@@ -1,0 +1,360 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang.yml"
+    },
+    {
+      "component": "actions/setup-go@v6.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v6.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang.yml"
+    },
+    {
+      "component": "actions/setup-go@v6.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang.yml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang.yml"
+    },
+    {
+      "component": "actions/first-interaction@v3.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/greeting.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "philips-labs/tabia",
+      "target": "chaoss/grimoirelab-sirmordred",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "philips-labs/tabia",
+      "target": "philips-labs/dct-notary-admin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "philips-labs/tabia",
+      "target": "philips-labs/about-this-organization",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "philips-labs/tabia",
+      "target": "philips-labs/dangerous-dave",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang.yml",
+      "source_repo": "philips-labs/tabia",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang.yml",
+      "source_repo": "philips-labs/tabia",
+      "target": "actions/setup-go@v6.4.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang.yml",
+      "source_repo": "philips-labs/tabia",
+      "target": "codecov/codecov-action@v6.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang.yml",
+      "source_repo": "philips-labs/tabia",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang.yml",
+      "source_repo": "philips-labs/tabia",
+      "target": "goreleaser/goreleaser-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golang.yml",
+      "source_repo": "philips-labs/tabia",
+      "target": "Go CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/greeting.yml",
+      "source_repo": "philips-labs/tabia",
+      "target": "actions/first-interaction@v3.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/greeting.yml",
+      "source_repo": "philips-labs/tabia",
+      "target": "Greetings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "philips-labs/tabia",
+      "target": "bitbucket",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "philips-labs/tabia",
+      "target": "bitbucket-cli",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "philips-labs/tabia",
+      "target": "chaoss",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "philips-labs/tabia",
+      "target": "github",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "philips-labs/tabia",
+      "target": "github-cli",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "philips-labs/tabia",
+      "target": "github-graphql-apiv4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "philips-labs/tabia",
+      "target": "gitlab",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "philips-labs/tabia",
+      "target": "gitlab-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "philips-labs/tabia",
+      "target": "gitlab-cli",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "philips-labs/tabia",
+      "target": "grimoirelab",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "philips-labs/tabia",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:45:42.838736+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5736
+    },
+    {
+      "path": "Dockerfile",
+      "size": 558
+    },
+    {
+      "path": "go.mod",
+      "size": 20282
+    },
+    {
+      "path": ".github/workflows/golang.yml",
+      "size": 2413
+    },
+    {
+      "path": ".github/workflows/greeting.yml",
+      "size": 394
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Repository characteristics ",
+    "fork": false,
+    "full_name": "philips-labs/tabia",
+    "html_url": "https://github.com/philips-labs/tabia",
+    "language": "Go",
+    "pushed_at": "2026-04-29T10:47:34Z",
+    "stargazers_count": 14,
+    "topics": [
+      "bitbucket",
+      "bitbucket-cli",
+      "chaoss",
+      "cli",
+      "git",
+      "github",
+      "github-cli",
+      "github-graphql-apiv4",
+      "gitlab",
+      "gitlab-api",
+      "gitlab-cli",
+      "grimoirelab",
+      "hacktoberfest"
+    ],
+    "updated_at": "2026-04-29T10:47:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chaoss/grimoirelab-sirmordred",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "philips-labs/about-this-organization",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "philips-labs/dangerous-dave",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "philips-labs/dct-notary-admin",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Go CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golang.yml",
+      "term": "Go CI"
+    },
+    {
+      "context_snippet": "Greetings",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/greeting.yml",
+      "term": "Greetings"
+    },
+    {
+      "context_snippet": "[![Go CI](https://github.com/philips-labs/tabia/workflows/Go%20CI/badge.svg)](https://github.com/philips-labs/tabia/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bitbucket"
+    },
+    {
+      "context_snippet": "[![Go CI](https://github.com/philips-labs/tabia/workflows/Go%20CI/badge.svg)](https://github.com/philips-labs/tabia/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bitbucket-cli"
+    },
+    {
+      "context_snippet": "[![Go CI](https://github.com/philips-labs/tabia/workflows/Go%20CI/badge.svg)](https://github.com/philips-labs/tabia/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chaoss"
+    },
+    {
+      "context_snippet": "[![Go CI](https://github.com/philips-labs/tabia/workflows/Go%20CI/badge.svg)](https://github.com/philips-labs/tabia/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github"
+    },
+    {
+      "context_snippet": "[![Go CI](https://github.com/philips-labs/tabia/workflows/Go%20CI/badge.svg)](https://github.com/philips-labs/tabia/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-cli"
+    },
+    {
+      "context_snippet": "[![Go CI](https://github.com/philips-labs/tabia/workflows/Go%20CI/badge.svg)](https://github.com/philips-labs/tabia/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-graphql-apiv4"
+    },
+    {
+      "context_snippet": "[![Go CI](https://github.com/philips-labs/tabia/workflows/Go%20CI/badge.svg)](https://github.com/philips-labs/tabia/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gitlab"
+    },
+    {
+      "context_snippet": "[![Go CI](https://github.com/philips-labs/tabia/workflows/Go%20CI/badge.svg)](https://github.com/philips-labs/tabia/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gitlab-api"
+    },
+    {
+      "context_snippet": "[![Go CI](https://github.com/philips-labs/tabia/workflows/Go%20CI/badge.svg)](https://github.com/philips-labs/tabia/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gitlab-cli"
+    },
+    {
+      "context_snippet": "[![Go CI](https://github.com/philips-labs/tabia/workflows/Go%20CI/badge.svg)](https://github.com/philips-labs/tabia/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grimoirelab"
+    },
+    {
+      "context_snippet": "[![Go CI](https://github.com/philips-labs/tabia/workflows/Go%20CI/badge.svg)](https://github.com/philips-labs/tabia/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    }
+  ]
+}

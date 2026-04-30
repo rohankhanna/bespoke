@@ -43,6 +43,30 @@
       "source_repo": "fehiepsi/rethinking-numpyro",
       "status": "candidate-context",
       "text": "[![Test Status](https://github.com/fehiepsi/rethinking-numpyro/workflows/CI/badge.svg)](https://github.com/fehiepsi/rethinking-numpyro/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ksachdeva/rethinking-tensorflow-probability",
+      "status": "candidate-context",
+      "text": "Statistical Rethinking (2nd Ed) with Tensorflow Probability"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ksachdeva/rethinking-tensorflow-probability",
+      "status": "candidate-context",
+      "text": "This repository provides jupyter notebooks that port various R code fragments found in the"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pymc-devs/pymc-resources",
+      "status": "candidate-context",
+      "text": "PyMC educational resources"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pymc-devs/pymc-resources",
+      "status": "candidate-context",
+      "text": "PyMC educational resources, including the PyMC port of the following books (original models in STAN/BUGS/JAGS etc,.):"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "fehiepsi/rethinking-numpyro",
       "status": "candidate",
       "text": "[![Test Status](https://github.com/fehiepsi/rethinking-numpyro/workflows/CI/badge.svg)](https://github.com/fehiepsi/rethinking-numpyro/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ksachdeva/rethinking-tensorflow-probability",
+      "status": "candidate",
+      "text": "This repository provides jupyter notebooks that port various R code fragments found in the"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pymc-devs/pymc-resources",
+      "status": "candidate",
+      "text": "PyMC educational resources, including the PyMC port of the following books (original models in STAN/BUGS/JAGS etc,.):"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +124,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "fehiepsi/rethinking-numpyro"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "ksachdeva/rethinking-tensorflow-probability"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "pymc-devs/pymc-resources"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

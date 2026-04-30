@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Weaviate is an open-source vector database that stores both objects and vectors, allowing for the combination of vector search with structured filtering with the fault tolerance and scalability of a cloud-native database\u200b."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Find Issue Duplicates"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Find Issue Duplicates"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23456,
+      "status": "candidate",
+      "text": "repeat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23369,
+      "status": "candidate",
+      "text": "press"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23369,
+      "status": "candidate",
+      "text": "pressed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23094,
+      "status": "candidate",
+      "text": "slave"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23094,
+      "status": "candidate",
+      "text": "switch"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Find Issue Duplicates",
+      "sense_id": "find-issue-duplicates#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "find-issue-duplicates",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "find-issue-duplicates",
+  "observation_id": "d701ef5de33dbe70",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "Find Issue Duplicates",
+  "source_context_snippet": "Find Issue Duplicates",
+  "source_file": ".github/workflows/find-duplicates.yaml",
+  "source_repo": "weaviate/weaviate",
+  "source_repo_description": "Weaviate is an open-source vector database that stores both objects and vectors, allowing for the combination of vector search with structured filtering with the fault tolerance and scalability of a cloud-native database\u200b."
+}

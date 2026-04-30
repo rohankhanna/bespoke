@@ -1,0 +1,374 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "taiki-e/install-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Nightly.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release-cargo-public-api.yml"
+    },
+    {
+      "component": "rust-lang/crates-io-auth-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release-cargo-public-api.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release-cargo-public-api.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release-public-api.yml"
+    },
+    {
+      "component": "rust-lang/crates-io-auth-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release-public-api.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release-rustdoc-json.yml"
+    },
+    {
+      "component": "rust-lang/crates-io-auth-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release-rustdoc-json.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release-rustup-toolchain.yml"
+    },
+    {
+      "component": "rust-lang/crates-io-auth-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release-rustup-toolchain.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "cargo-public-api/cargo-public-api",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "cargo-public-api/cargo-public-api",
+      "target": "taiki-e/install-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Nightly.yml",
+      "source_repo": "cargo-public-api/cargo-public-api",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Nightly.yml",
+      "source_repo": "cargo-public-api/cargo-public-api",
+      "target": "Nightly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Release-all.yml",
+      "source_repo": "cargo-public-api/cargo-public-api",
+      "target": "Release All",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release-cargo-public-api.yml",
+      "source_repo": "cargo-public-api/cargo-public-api",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release-cargo-public-api.yml",
+      "source_repo": "cargo-public-api/cargo-public-api",
+      "target": "rust-lang/crates-io-auth-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Release-cargo-public-api.yml",
+      "source_repo": "cargo-public-api/cargo-public-api",
+      "target": "Release cargo-public-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release-public-api.yml",
+      "source_repo": "cargo-public-api/cargo-public-api",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release-public-api.yml",
+      "source_repo": "cargo-public-api/cargo-public-api",
+      "target": "rust-lang/crates-io-auth-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Release-public-api.yml",
+      "source_repo": "cargo-public-api/cargo-public-api",
+      "target": "Release public-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release-rustdoc-json.yml",
+      "source_repo": "cargo-public-api/cargo-public-api",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release-rustdoc-json.yml",
+      "source_repo": "cargo-public-api/cargo-public-api",
+      "target": "rust-lang/crates-io-auth-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release-rustup-toolchain.yml",
+      "source_repo": "cargo-public-api/cargo-public-api",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release-rustup-toolchain.yml",
+      "source_repo": "cargo-public-api/cargo-public-api",
+      "target": "rust-lang/crates-io-auth-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Release-rustup-toolchain.yml",
+      "source_repo": "cargo-public-api/cargo-public-api",
+      "target": "Release rustup-toolchain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cargo-public-api/cargo-public-api",
+      "target": "cargo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cargo-public-api/cargo-public-api",
+      "target": "cargo-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cargo-public-api/cargo-public-api",
+      "target": "cargo-subcommand",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cargo-public-api/cargo-public-api",
+      "target": "diff",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cargo-public-api/cargo-public-api",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cargo-public-api/cargo-public-api",
+      "target": "rustdoc-json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cargo-public-api/cargo-public-api",
+      "target": "semver",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:44:13.871288+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5560
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 2400
+    },
+    {
+      "path": ".github/workflows/CI.yml",
+      "size": 2749
+    },
+    {
+      "path": ".github/workflows/Nightly.yml",
+      "size": 3695
+    },
+    {
+      "path": ".github/workflows/Release-all.yml",
+      "size": 1980
+    },
+    {
+      "path": ".github/workflows/Release-cargo-public-api.yml",
+      "size": 2602
+    },
+    {
+      "path": ".github/workflows/Release-public-api.yml",
+      "size": 1715
+    },
+    {
+      "path": ".github/workflows/Release-rustdoc-json.yml",
+      "size": 1744
+    },
+    {
+      "path": ".github/workflows/Release-rustup-toolchain.yml",
+      "size": 1772
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "List and diff the public API of Rust library crates between releases and commits. Detect breaking API changes and semver violations via CI or a CLI.",
+    "fork": false,
+    "full_name": "cargo-public-api/cargo-public-api",
+    "html_url": "https://github.com/cargo-public-api/cargo-public-api",
+    "language": "Rust",
+    "pushed_at": "2026-04-28T10:33:44Z",
+    "stargazers_count": 544,
+    "topics": [
+      "api",
+      "cargo",
+      "cargo-plugin",
+      "cargo-subcommand",
+      "diff",
+      "rust",
+      "rustdoc-json",
+      "semver"
+    ],
+    "updated_at": "2026-04-28T12:11:39Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Nightly",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Nightly.yml",
+      "term": "Nightly"
+    },
+    {
+      "context_snippet": "Release All",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Release-all.yml",
+      "term": "Release All"
+    },
+    {
+      "context_snippet": "Release cargo-public-api",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Release-cargo-public-api.yml",
+      "term": "Release cargo-public-api"
+    },
+    {
+      "context_snippet": "Release public-api",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Release-public-api.yml",
+      "term": "Release public-api"
+    },
+    {
+      "context_snippet": "Release rustup-toolchain",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Release-rustup-toolchain.yml",
+      "term": "Release rustup-toolchain"
+    },
+    {
+      "context_snippet": "List and diff the public API of Rust library crates between releases and commits. Detect breaking API changes and semver violations via CI or a CLI. Relies on and automatically builds [rustdoc JSON](https://github.com/rust-lang/rust/issues/76578), for which a recent version of t\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cargo"
+    },
+    {
+      "context_snippet": "List and diff the public API of Rust library crates between releases and commits. Detect breaking API changes and semver violations via CI or a CLI. Relies on and automatically builds [rustdoc JSON](https://github.com/rust-lang/rust/issues/76578), for which a recent version of t\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cargo-plugin"
+    },
+    {
+      "context_snippet": "List and diff the public API of Rust library crates between releases and commits. Detect breaking API changes and semver violations via CI or a CLI. Relies on and automatically builds [rustdoc JSON](https://github.com/rust-lang/rust/issues/76578), for which a recent version of t\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cargo-subcommand"
+    },
+    {
+      "context_snippet": "List and diff the public API of Rust library crates between releases and commits. Detect breaking API changes and semver violations via CI or a CLI. Relies on and automatically builds [rustdoc JSON](https://github.com/rust-lang/rust/issues/76578), for which a recent version of t\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diff"
+    },
+    {
+      "context_snippet": "List and diff the public API of Rust library crates between releases and commits. Detect breaking API changes and semver violations via CI or a CLI. Relies on and automatically builds [rustdoc JSON](https://github.com/rust-lang/rust/issues/76578), for which a recent version of t\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "List and diff the public API of Rust library crates between releases and commits. Detect breaking API changes and semver violations via CI or a CLI. Relies on and automatically builds [rustdoc JSON](https://github.com/rust-lang/rust/issues/76578), for which a recent version of t\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rustdoc-json"
+    },
+    {
+      "context_snippet": "List and diff the public API of Rust library crates between releases and commits. Detect breaking API changes and semver violations via CI or a CLI. Relies on and automatically builds [rustdoc JSON](https://github.com/rust-lang/rust/issues/76578), for which a recent version of t\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semver"
+    }
+  ]
+}

@@ -1,0 +1,318 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flake-update.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v20",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flake-update.yml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flake-update.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml"
+    },
+    {
+      "component": "DeterminateSystems/nix-installer-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml"
+    },
+    {
+      "component": "cachix/cachix-action@v16",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml"
+    },
+    {
+      "component": "flakestry/flakestry-publish@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "90-008/nix-cargo-integration",
+      "target": "nix-community/dream2nix",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "90-008/nix-cargo-integration",
+      "target": "hercules-ci/flake-parts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flake-update.yml",
+      "source_repo": "90-008/nix-cargo-integration",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flake-update.yml",
+      "source_repo": "90-008/nix-cargo-integration",
+      "target": "cachix/install-nix-action@v20",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flake-update.yml",
+      "source_repo": "90-008/nix-cargo-integration",
+      "target": "stefanzweifel/git-auto-commit-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/flake-update.yml",
+      "source_repo": "90-008/nix-cargo-integration",
+      "target": "Update Flake Deps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml",
+      "source_repo": "90-008/nix-cargo-integration",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml",
+      "source_repo": "90-008/nix-cargo-integration",
+      "target": "DeterminateSystems/nix-installer-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml",
+      "source_repo": "90-008/nix-cargo-integration",
+      "target": "cachix/cachix-action@v16",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nix.yml",
+      "source_repo": "90-008/nix-cargo-integration",
+      "target": "Nix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "90-008/nix-cargo-integration",
+      "target": "flakestry/flakestry-publish@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "90-008/nix-cargo-integration",
+      "target": "Publish a flake to flakestry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "90-008/nix-cargo-integration",
+      "target": "cargo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "90-008/nix-cargo-integration",
+      "target": "devshell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "90-008/nix-cargo-integration",
+      "target": "dream2nix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "90-008/nix-cargo-integration",
+      "target": "flake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "90-008/nix-cargo-integration",
+      "target": "flakes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "90-008/nix-cargo-integration",
+      "target": "integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "90-008/nix-cargo-integration",
+      "target": "nix-flake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "90-008/nix-cargo-integration",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "90-008/nix-cargo-integration",
+      "target": "rust-lang",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:55:12.527456+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3086
+    },
+    {
+      "path": ".github/workflows/flake-update.yml",
+      "size": 686
+    },
+    {
+      "path": ".github/workflows/nix.yml",
+      "size": 1461
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 593
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Library to easily and effortlessly integrate Cargo projects with Nix.",
+    "fork": false,
+    "full_name": "90-008/nix-cargo-integration",
+    "html_url": "https://github.com/90-008/nix-cargo-integration",
+    "language": "Nix",
+    "pushed_at": "2026-04-30T08:06:22Z",
+    "stargazers_count": 217,
+    "topics": [
+      "cargo",
+      "devshell",
+      "dream2nix",
+      "flake",
+      "flakes",
+      "integration",
+      "nix",
+      "nix-flake",
+      "rust",
+      "rust-lang"
+    ],
+    "updated_at": "2026-04-30T08:06:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hercules-ci/flake-parts",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nix-community/dream2nix",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Update Flake Deps\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/flake-update.yml",
+      "term": "Update Flake Deps"
+    },
+    {
+      "context_snippet": "\"Nix\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nix.yml",
+      "term": "Nix"
+    },
+    {
+      "context_snippet": "\"Publish a flake to flakestry\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish a flake to flakestry"
+    },
+    {
+      "context_snippet": "Easily and effortlessly integrate Cargo projects with Nix.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cargo"
+    },
+    {
+      "context_snippet": "Easily and effortlessly integrate Cargo projects with Nix.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "devshell"
+    },
+    {
+      "context_snippet": "Easily and effortlessly integrate Cargo projects with Nix.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dream2nix"
+    },
+    {
+      "context_snippet": "Easily and effortlessly integrate Cargo projects with Nix.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flake"
+    },
+    {
+      "context_snippet": "Easily and effortlessly integrate Cargo projects with Nix.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flakes"
+    },
+    {
+      "context_snippet": "Easily and effortlessly integrate Cargo projects with Nix.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "integration"
+    },
+    {
+      "context_snippet": "Easily and effortlessly integrate Cargo projects with Nix.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nix-flake"
+    },
+    {
+      "context_snippet": "Easily and effortlessly integrate Cargo projects with Nix.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "Easily and effortlessly integrate Cargo projects with Nix.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust-lang"
+    }
+  ]
+}

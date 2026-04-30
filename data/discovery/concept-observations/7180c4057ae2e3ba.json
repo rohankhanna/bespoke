@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Automatically update function definitions in a running Julia session"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\"> <img src=\"images/revise-wordmark.svg\" alt=\"Revise.jl\"></img></div>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\"> <img src=\"images/revise-wordmark.svg\" alt=\"Revise.jl\"></img></div>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "productivity-booster",
+      "sense_id": "productivity-booster#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "productivity-booster",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "productivity-booster",
+  "observation_id": "7180c4057ae2e3ba",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "productivity-booster",
+  "source_context_snippet": "<div align=\"center\"> <img src=\"images/revise-wordmark.svg\" alt=\"Revise.jl\"></img></div>",
+  "source_file": null,
+  "source_repo": "timholy/Revise.jl",
+  "source_repo_description": "Automatically update function definitions in a running Julia session"
+}

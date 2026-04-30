@@ -1,0 +1,632 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-router.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-serverless.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/managed.yml"
+    },
+    {
+      "component": "peter-evans/create-or-update-comment@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rebase.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rebase.yml"
+    },
+    {
+      "component": "cirrus-actions/rebase@1.8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rebase.yml"
+    },
+    {
+      "component": "peter-evans/create-or-update-comment@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rebase.yml"
+    },
+    {
+      "component": "peter-evans/create-or-update-comment@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rebase.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/build-push-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "peter-evans/enable-pull-request-automerge@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "peter-evans/enable-pull-request-automerge@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/subgraph-check.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/subgraph-deploy-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apollographql/supergraph-demo",
+      "target": "apollographql/supergraph-demo-k8s-graph-ops",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-router.yml",
+      "source_repo": "apollographql/supergraph-demo",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main-router.yml",
+      "source_repo": "apollographql/supergraph-demo",
+      "target": "CI-router",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-serverless.yml",
+      "source_repo": "apollographql/supergraph-demo",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main-serverless.yml",
+      "source_repo": "apollographql/supergraph-demo",
+      "target": "CI-serverless",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "apollographql/supergraph-demo",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "apollographql/supergraph-demo",
+      "target": "CI-gateway",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/managed.yml",
+      "source_repo": "apollographql/supergraph-demo",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/managed.yml",
+      "source_repo": "apollographql/supergraph-demo",
+      "target": "CI Managed Federation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rebase.yml",
+      "source_repo": "apollographql/supergraph-demo",
+      "target": "peter-evans/create-or-update-comment@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rebase.yml",
+      "source_repo": "apollographql/supergraph-demo",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rebase.yml",
+      "source_repo": "apollographql/supergraph-demo",
+      "target": "cirrus-actions/rebase@1.8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rebase.yml",
+      "source_repo": "apollographql/supergraph-demo",
+      "target": "Rebase",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apollographql/supergraph-demo",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apollographql/supergraph-demo",
+      "target": "docker/setup-qemu-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apollographql/supergraph-demo",
+      "target": "docker/setup-buildx-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apollographql/supergraph-demo",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apollographql/supergraph-demo",
+      "target": "docker/build-push-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apollographql/supergraph-demo",
+      "target": "peter-evans/create-pull-request@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apollographql/supergraph-demo",
+      "target": "peter-evans/enable-pull-request-automerge@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apollographql/supergraph-demo",
+      "target": "Publish artifacts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/subgraph-check.yml",
+      "source_repo": "apollographql/supergraph-demo",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/subgraph-check.yml",
+      "source_repo": "apollographql/supergraph-demo",
+      "target": "Schema check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/subgraph-deploy-publish.yml",
+      "source_repo": "apollographql/supergraph-demo",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/subgraph-deploy-publish.yml",
+      "source_repo": "apollographql/supergraph-demo",
+      "target": "Subgraph Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apollographql/supergraph-demo",
+      "target": "apollo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apollographql/supergraph-demo",
+      "target": "apollo-federation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apollographql/supergraph-demo",
+      "target": "cloud-native",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apollographql/supergraph-demo",
+      "target": "composition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apollographql/supergraph-demo",
+      "target": "federated-graph",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apollographql/supergraph-demo",
+      "target": "federation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apollographql/supergraph-demo",
+      "target": "gateway",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apollographql/supergraph-demo",
+      "target": "gitops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apollographql/supergraph-demo",
+      "target": "graph-router",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apollographql/supergraph-demo",
+      "target": "graphql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apollographql/supergraph-demo",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apollographql/supergraph-demo",
+      "target": "schema",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apollographql/supergraph-demo",
+      "target": "schema-checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apollographql/supergraph-demo",
+      "target": "subgraph",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apollographql/supergraph-demo",
+      "target": "supergraph",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:51:16.984419+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 33097
+    },
+    {
+      "path": ".github/workflows/main-router.yml",
+      "size": 2467
+    },
+    {
+      "path": ".github/workflows/main-serverless.yml",
+      "size": 2509
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 2330
+    },
+    {
+      "path": ".github/workflows/managed.yml",
+      "size": 2659
+    },
+    {
+      "path": ".github/workflows/rebase.yml",
+      "size": 2507
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 14603
+    },
+    {
+      "path": ".github/workflows/subgraph-check.yml",
+      "size": 1081
+    },
+    {
+      "path": ".github/workflows/subgraph-deploy-publish.yml",
+      "size": 1999
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "\ud83c\udf7f Compose subgraphs into a Federation v1 supergraph at build-time with static composition to power a federated graph router at runtime.",
+    "fork": false,
+    "full_name": "apollographql/supergraph-demo",
+    "html_url": "https://github.com/apollographql/supergraph-demo",
+    "language": "Shell",
+    "pushed_at": "2026-02-01T17:30:51Z",
+    "stargazers_count": 139,
+    "topics": [
+      "apollo",
+      "apollo-federation",
+      "cloud-native",
+      "composition",
+      "federated-graph",
+      "federation",
+      "gateway",
+      "gitops",
+      "graph-router",
+      "graphql",
+      "kubernetes",
+      "schema",
+      "schema-checks",
+      "subgraph",
+      "supergraph"
+    ],
+    "updated_at": "2026-04-06T06:14:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apollographql/supergraph-demo-k8s-graph-ops",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CI-router",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main-router.yml",
+      "term": "CI-router"
+    },
+    {
+      "context_snippet": "CI-serverless",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main-serverless.yml",
+      "term": "CI-serverless"
+    },
+    {
+      "context_snippet": "CI-gateway",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "CI-gateway"
+    },
+    {
+      "context_snippet": "CI Managed Federation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/managed.yml",
+      "term": "CI Managed Federation"
+    },
+    {
+      "context_snippet": "Rebase",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rebase.yml",
+      "term": "Rebase"
+    },
+    {
+      "context_snippet": "Publish artifacts",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Publish artifacts"
+    },
+    {
+      "context_snippet": "Schema check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/subgraph-check.yml",
+      "term": "Schema check"
+    },
+    {
+      "context_snippet": "Subgraph Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/subgraph-deploy-publish.yml",
+      "term": "Subgraph Publish"
+    },
+    {
+      "context_snippet": "![smoke test](https://github.com/apollographql/supergraph-demo/actions/workflows/main.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apollo"
+    },
+    {
+      "context_snippet": "![smoke test](https://github.com/apollographql/supergraph-demo/actions/workflows/main.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apollo-federation"
+    },
+    {
+      "context_snippet": "![smoke test](https://github.com/apollographql/supergraph-demo/actions/workflows/main.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloud-native"
+    },
+    {
+      "context_snippet": "![smoke test](https://github.com/apollographql/supergraph-demo/actions/workflows/main.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "composition"
+    },
+    {
+      "context_snippet": "![smoke test](https://github.com/apollographql/supergraph-demo/actions/workflows/main.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "federated-graph"
+    },
+    {
+      "context_snippet": "![smoke test](https://github.com/apollographql/supergraph-demo/actions/workflows/main.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "federation"
+    },
+    {
+      "context_snippet": "![smoke test](https://github.com/apollographql/supergraph-demo/actions/workflows/main.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gateway"
+    },
+    {
+      "context_snippet": "![smoke test](https://github.com/apollographql/supergraph-demo/actions/workflows/main.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gitops"
+    },
+    {
+      "context_snippet": "![smoke test](https://github.com/apollographql/supergraph-demo/actions/workflows/main.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graph-router"
+    },
+    {
+      "context_snippet": "![smoke test](https://github.com/apollographql/supergraph-demo/actions/workflows/main.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphql"
+    },
+    {
+      "context_snippet": "![smoke test](https://github.com/apollographql/supergraph-demo/actions/workflows/main.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "![smoke test](https://github.com/apollographql/supergraph-demo/actions/workflows/main.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "schema"
+    },
+    {
+      "context_snippet": "![smoke test](https://github.com/apollographql/supergraph-demo/actions/workflows/main.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "schema-checks"
+    },
+    {
+      "context_snippet": "![smoke test](https://github.com/apollographql/supergraph-demo/actions/workflows/main.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "subgraph"
+    },
+    {
+      "context_snippet": "![smoke test](https://github.com/apollographql/supergraph-demo/actions/workflows/main.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "supergraph"
+    }
+  ]
+}

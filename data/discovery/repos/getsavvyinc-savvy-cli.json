@@ -1,0 +1,463 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-zip.yml"
+    },
+    {
+      "component": "pnpm/action-setup@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-zip.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-zip.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-zip.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yml"
+    },
+    {
+      "component": "pnpm/action-setup@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "pnpm/action-setup@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prettier.yml"
+    },
+    {
+      "component": "rutajdash/prettier-cli-action@v1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prettier.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-zip.yml",
+      "source_repo": "getsavvyinc/savvy-cli",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-zip.yml",
+      "source_repo": "getsavvyinc/savvy-cli",
+      "target": "pnpm/action-setup@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-zip.yml",
+      "source_repo": "getsavvyinc/savvy-cli",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-zip.yml",
+      "source_repo": "getsavvyinc/savvy-cli",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "getsavvyinc/savvy-cli",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "getsavvyinc/savvy-cli",
+      "target": "pnpm/action-setup@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "getsavvyinc/savvy-cli",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "getsavvyinc/savvy-cli",
+      "target": "Run E2E Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "getsavvyinc/savvy-cli",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "getsavvyinc/savvy-cli",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "getsavvyinc/savvy-cli",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "getsavvyinc/savvy-cli",
+      "target": "pnpm/action-setup@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "getsavvyinc/savvy-cli",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "getsavvyinc/savvy-cli",
+      "target": "Lint Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prettier.yml",
+      "source_repo": "getsavvyinc/savvy-cli",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prettier.yml",
+      "source_repo": "getsavvyinc/savvy-cli",
+      "target": "rutajdash/prettier-cli-action@v1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prettier.yml",
+      "source_repo": "getsavvyinc/savvy-cli",
+      "target": "Formating validation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "getsavvyinc/savvy-cli",
+      "target": "automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "getsavvyinc/savvy-cli",
+      "target": "charmbracelet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "getsavvyinc/savvy-cli",
+      "target": "devops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "getsavvyinc/savvy-cli",
+      "target": "devtool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "getsavvyinc/savvy-cli",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "getsavvyinc/savvy-cli",
+      "target": "incident-response",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "getsavvyinc/savvy-cli",
+      "target": "oncall",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "getsavvyinc/savvy-cli",
+      "target": "oncall-engineers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "getsavvyinc/savvy-cli",
+      "target": "playbooks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "getsavvyinc/savvy-cli",
+      "target": "runbooks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "getsavvyinc/savvy-cli",
+      "target": "security-audit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "getsavvyinc/savvy-cli",
+      "target": "support",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "getsavvyinc/savvy-cli",
+      "target": "support-engineers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "getsavvyinc/savvy-cli",
+      "target": "terminal",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:40:20.241985+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4497
+    },
+    {
+      "path": "go.mod",
+      "size": 2160
+    },
+    {
+      "path": ".github/workflows/build-zip.yml",
+      "size": 807
+    },
+    {
+      "path": ".github/workflows/e2e.yml",
+      "size": 745
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 578
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 718
+    },
+    {
+      "path": ".github/workflows/prettier.yml",
+      "size": 963
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Automatically capture and surface your team's tribal knowledge",
+    "fork": false,
+    "full_name": "getsavvyinc/savvy-cli",
+    "html_url": "https://github.com/getsavvyinc/savvy-cli",
+    "language": "Go",
+    "pushed_at": "2025-01-28T17:31:01Z",
+    "stargazers_count": 455,
+    "topics": [
+      "ai",
+      "automation",
+      "charmbracelet",
+      "cli",
+      "devops",
+      "devtool",
+      "go",
+      "golang",
+      "incident-response",
+      "llm",
+      "oncall",
+      "oncall-engineers",
+      "playbooks",
+      "runbooks",
+      "security-audit",
+      "sre",
+      "support",
+      "support-engineers",
+      "terminal"
+    ],
+    "updated_at": "2026-04-30T08:42:11Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Run E2E Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e.yml",
+      "term": "Run E2E Tests"
+    },
+    {
+      "context_snippet": "Lint Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint Check"
+    },
+    {
+      "context_snippet": "Formating validation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prettier.yml",
+      "term": "Formating validation"
+    },
+    {
+      "context_snippet": "<h3 align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automation"
+    },
+    {
+      "context_snippet": "<h3 align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "charmbracelet"
+    },
+    {
+      "context_snippet": "<h3 align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "devops"
+    },
+    {
+      "context_snippet": "<h3 align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "devtool"
+    },
+    {
+      "context_snippet": "<h3 align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "<h3 align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "incident-response"
+    },
+    {
+      "context_snippet": "<h3 align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "oncall"
+    },
+    {
+      "context_snippet": "<h3 align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "oncall-engineers"
+    },
+    {
+      "context_snippet": "<h3 align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "playbooks"
+    },
+    {
+      "context_snippet": "<h3 align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "runbooks"
+    },
+    {
+      "context_snippet": "<h3 align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security-audit"
+    },
+    {
+      "context_snippet": "<h3 align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "support"
+    },
+    {
+      "context_snippet": "<h3 align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "support-engineers"
+    },
+    {
+      "context_snippet": "<h3 align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal"
+    }
+  ]
+}

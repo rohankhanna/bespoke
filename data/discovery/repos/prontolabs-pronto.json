@@ -1,0 +1,325 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pronto.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pronto.yml"
+    },
+    {
+      "component": "step-security/harden-runner@20cf305ff2072d973412fa9b1e3a4f227bda3c76",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_gem.yml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_gem.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@4a9ddd6f338a97768b8006bf671dfbad383215f4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_gem.yml"
+    },
+    {
+      "component": "rubygems/release-gem@1c162a739e8b4cb21a676e97b087e8268d8fc40b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_gem.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/specs.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/specs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "prontolabs/pronto",
+      "target": "apelsinka223/pronto-dialyxir",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "prontolabs/pronto",
+      "target": "aergonaut/pronto-goodcheck",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "prontolabs/pronto",
+      "target": "ajanauskas/pronto-swiftlint",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "prontolabs/pronto",
+      "target": "ajanauskas/pronto-tailor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pronto.yml",
+      "source_repo": "prontolabs/pronto",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pronto.yml",
+      "source_repo": "prontolabs/pronto",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pronto.yml",
+      "source_repo": "prontolabs/pronto",
+      "target": "Pronto",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_gem.yml",
+      "source_repo": "prontolabs/pronto",
+      "target": "step-security/harden-runner@20cf305ff2072d973412fa9b1e3a4f227bda3c76",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_gem.yml",
+      "source_repo": "prontolabs/pronto",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_gem.yml",
+      "source_repo": "prontolabs/pronto",
+      "target": "ruby/setup-ruby@4a9ddd6f338a97768b8006bf671dfbad383215f4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_gem.yml",
+      "source_repo": "prontolabs/pronto",
+      "target": "rubygems/release-gem@1c162a739e8b4cb21a676e97b087e8268d8fc40b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push_gem.yml",
+      "source_repo": "prontolabs/pronto",
+      "target": "Publish gem to rubygems.org",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/specs.yml",
+      "source_repo": "prontolabs/pronto",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/specs.yml",
+      "source_repo": "prontolabs/pronto",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/specs.yml",
+      "source_repo": "prontolabs/pronto",
+      "target": "Specs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "prontolabs/pronto",
+      "target": "automated-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "prontolabs/pronto",
+      "target": "automated-review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "prontolabs/pronto",
+      "target": "bitbucket",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "prontolabs/pronto",
+      "target": "formatter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "prontolabs/pronto",
+      "target": "gitlab",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "prontolabs/pronto",
+      "target": "linters",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "prontolabs/pronto",
+      "target": "review",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:49:47.784196+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20094
+    },
+    {
+      "path": ".github/workflows/pronto.yml",
+      "size": 421
+    },
+    {
+      "path": ".github/workflows/push_gem.yml",
+      "size": 728
+    },
+    {
+      "path": ".github/workflows/specs.yml",
+      "size": 796
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Quick automated code review of your changes",
+    "fork": false,
+    "full_name": "prontolabs/pronto",
+    "html_url": "https://github.com/prontolabs/pronto",
+    "language": "Ruby",
+    "pushed_at": "2026-04-27T04:51:30Z",
+    "stargazers_count": 2666,
+    "topics": [
+      "automated-analysis",
+      "automated-review",
+      "bitbucket",
+      "formatter",
+      "gitlab",
+      "linters",
+      "review"
+    ],
+    "updated_at": "2026-04-27T23:43:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aergonaut/pronto-goodcheck",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ajanauskas/pronto-swiftlint",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ajanauskas/pronto-tailor",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apelsinka223/pronto-dialyxir",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Pronto",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pronto.yml",
+      "term": "Pronto"
+    },
+    {
+      "context_snippet": "Publish gem to rubygems.org",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push_gem.yml",
+      "term": "Publish gem to rubygems.org"
+    },
+    {
+      "context_snippet": "Specs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/specs.yml",
+      "term": "Specs"
+    },
+    {
+      "context_snippet": "[![Gem Version](https://badge.fury.io/rb/pronto.svg)](http://badge.fury.io/rb/pronto)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automated-analysis"
+    },
+    {
+      "context_snippet": "[![Gem Version](https://badge.fury.io/rb/pronto.svg)](http://badge.fury.io/rb/pronto)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automated-review"
+    },
+    {
+      "context_snippet": "[![Gem Version](https://badge.fury.io/rb/pronto.svg)](http://badge.fury.io/rb/pronto)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bitbucket"
+    },
+    {
+      "context_snippet": "[![Gem Version](https://badge.fury.io/rb/pronto.svg)](http://badge.fury.io/rb/pronto)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "formatter"
+    },
+    {
+      "context_snippet": "[![Gem Version](https://badge.fury.io/rb/pronto.svg)](http://badge.fury.io/rb/pronto)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gitlab"
+    },
+    {
+      "context_snippet": "[![Gem Version](https://badge.fury.io/rb/pronto.svg)](http://badge.fury.io/rb/pronto)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linters"
+    },
+    {
+      "context_snippet": "[![Gem Version](https://badge.fury.io/rb/pronto.svg)](http://badge.fury.io/rb/pronto)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "review"
+    }
+  ]
+}

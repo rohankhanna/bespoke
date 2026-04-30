@@ -691,6 +691,54 @@
       "source_repo": "oxc-project/oxc",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mono/CppSharp",
+      "status": "candidate-context",
+      "text": "Tools and libraries to glue C/C++ APIs to high-level languages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mono/CppSharp",
+      "status": "candidate-context",
+      "text": "<img src=\"docs/logo.svg\" width=\"128\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0x2a-42/lelwel",
+      "status": "candidate-context",
+      "text": "Resilient LL(1) parser generator for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0x2a-42/lelwel",
+      "status": "candidate-context",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/lelwel)](https://crates.io/crates/lelwel)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Beaglefoot/tree-sitter-awk",
+      "status": "candidate-context",
+      "text": "GNU AWK grammar for tree-sitter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Beaglefoot/tree-sitter-awk",
+      "status": "candidate-context",
+      "text": "tree-sitter-awk"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "buger/jsonparser",
+      "status": "candidate-context",
+      "text": "One of the fastest alternative JSON parser for Go that does not require schema"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "buger/jsonparser",
+      "status": "candidate-context",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/buger/jsonparser)](https://goreportcard.com/report/github.com/buger/jsonparser) ![License](https://img.shields.io/dub/l/vibe-d.svg)"
     }
   ],
   "candidate_glosses": [
@@ -1035,6 +1083,30 @@
       "source_repo": "oxc-project/oxc",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mono/CppSharp",
+      "status": "candidate",
+      "text": "<img src=\"docs/logo.svg\" width=\"128\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0x2a-42/lelwel",
+      "status": "candidate",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/lelwel)](https://crates.io/crates/lelwel)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Beaglefoot/tree-sitter-awk",
+      "status": "candidate",
+      "text": "tree-sitter-awk"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "buger/jsonparser",
+      "status": "candidate",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/buger/jsonparser)](https://goreportcard.com/report/github.com/buger/jsonparser) ![License](https://img.shields.io/dub/l/vibe-d.svg)"
     }
   ],
   "candidate_related_terms": [
@@ -1444,11 +1516,41 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "oxc-project/oxc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "mono/CppSharp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "0x2a-42/lelwel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "Beaglefoot/tree-sitter-awk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "buger/jsonparser"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

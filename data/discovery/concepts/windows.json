@@ -1672,6 +1672,66 @@
       "source_repo": "winsiderss/systeminformer",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MilesCranmer/PySR",
+      "status": "candidate-context",
+      "text": "High-Performance Symbolic Regression in Python and Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MilesCranmer/PySR",
+      "status": "candidate-context",
+      "text": "Windows"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cocos2d/cocos2d-x",
+      "status": "candidate-context",
+      "text": "Cocos2d-x is a suite of open-source, cross-platform, game-development tools utilized by millions of developers across the globe. Its core has evolved to serve as the foundation for Cocos Creator 1.x & 2.x."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cocos2d/cocos2d-x",
+      "status": "candidate-context",
+      "text": "<img src=\"http://www.cocos2d-x.org/attachments/801/cocos2dx_portrait.png\" width=200>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AlecAivazis/survey",
+      "status": "candidate-context",
+      "text": "A golang library for building interactive and accessible prompts with full support for windows and posix terminals."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AlecAivazis/survey",
+      "status": "candidate-context",
+      "text": "[![GoDoc](http://img.shields.io/badge/godoc-reference-5272B4.svg)](https://pkg.go.dev/github.com/AlecAivazis/survey/v2)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebook/fbthrift",
+      "status": "candidate-context",
+      "text": "Facebook's branch of Apache Thrift, including a new C++ server."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/fbthrift",
+      "status": "candidate-context",
+      "text": "windows"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexcrichton/ssh2-rs",
+      "status": "candidate-context",
+      "text": "Rust bindings for libssh2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexcrichton/ssh2-rs",
+      "status": "candidate-context",
+      "text": "Windows"
     }
   ],
   "candidate_glosses": [
@@ -2520,6 +2580,36 @@
       "source_repo": "winsiderss/systeminformer",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MilesCranmer/PySR",
+      "status": "candidate",
+      "text": "Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cocos2d/cocos2d-x",
+      "status": "candidate",
+      "text": "<img src=\"http://www.cocos2d-x.org/attachments/801/cocos2dx_portrait.png\" width=200>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AlecAivazis/survey",
+      "status": "candidate",
+      "text": "[![GoDoc](http://img.shields.io/badge/godoc-reference-5272B4.svg)](https://pkg.go.dev/github.com/AlecAivazis/survey/v2)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/fbthrift",
+      "status": "candidate",
+      "text": "windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexcrichton/ssh2-rs",
+      "status": "candidate",
+      "text": "Windows"
     }
   ],
   "candidate_related_terms": [
@@ -3745,11 +3835,71 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "winsiderss/systeminformer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/CI_Windows.yml",
+      "source_repo": "MilesCranmer/PySR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "cocos2d/cocos2d-x"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "alacritty/alacritty"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "XAMPPRocky/tokei"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-fern"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "AlecAivazis/survey"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/getdeps_windows.yml",
+      "source_repo": "facebook/fbthrift"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "alexcrichton/ssh2-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "psmux/pstop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "psmux/psmux"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

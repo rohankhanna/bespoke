@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Lua Lisp Language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[Fennel][1] is a lisp that compiles to Lua. It aims to be easy to use,"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[Fennel][1] is a lisp that compiles to Lua. It aims to be easy to use,"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40048691,
+      "status": "candidate",
+      "text": "speech"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40047606,
+      "status": "candidate",
+      "text": "nomenclature"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40047372,
+      "status": "candidate",
+      "text": "terminology"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40034443,
+      "status": "candidate",
+      "text": "lyric"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39948742,
+      "status": "candidate",
+      "text": "words"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "language",
+      "sense_id": "language#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17052,
+      "status": "candidate",
+      "text": "speech"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15051,
+      "status": "candidate",
+      "text": "nomenclature"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11038,
+      "status": "candidate",
+      "text": "terminology"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2030,
+      "status": "candidate",
+      "text": "words"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2009,
+      "status": "candidate",
+      "text": "linguistic communication"
+    }
+  ],
+  "concept_id": "language",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "language",
+  "observation_id": "89b8985a7f275a00",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "language",
+  "source_context_snippet": "[Fennel][1] is a lisp that compiles to Lua. It aims to be easy to use,",
+  "source_file": null,
+  "source_repo": "bakpakin/Fennel",
+  "source_repo_description": "Lua Lisp Language"
+}

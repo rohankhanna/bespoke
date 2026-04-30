@@ -1,27 +1,7 @@
 {
-  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "sources": [
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "svsool/memo"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "artempyanykh/marksman-vscode"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "clayrisser/sphinx-jekyll-builder"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "clayrisser/sphinx-markdown-builder"
-    },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
@@ -30,17 +10,17 @@
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "kdheepak/panvimdoc"
+      "source_repo": "akiomik/mado"
     },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "aliezzahn/rsbuild-plugin-markdown-loader"
+      "source_repo": "markdoc/markdoc"
     },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "docling-project/docling"
+      "source_repo": "VikParuchuri/texify"
     }
   ],
   "term": "markdown"

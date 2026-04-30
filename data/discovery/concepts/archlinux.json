@@ -130,6 +130,18 @@
       "source_repo": "KSXGitHub/personal-pacman-packages",
       "status": "candidate-context",
       "text": "[![.github/workflows/build.yaml](https://github.com/KSXGitHub/personal-pacman-packages/workflows/.github/workflows/build.yaml/badge.svg)](https://github.com/KSXGitHub/personal-pacman-packages/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "goreleaser/nfpm",
+      "status": "candidate-context",
+      "text": "nFPM is Not FPM - a simple deb, rpm, apk, ipk, and arch linux packager written in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goreleaser/nfpm",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -192,6 +204,12 @@
       "source_repo": "KSXGitHub/personal-pacman-packages",
       "status": "candidate",
       "text": "[![.github/workflows/build.yaml](https://github.com/KSXGitHub/personal-pacman-packages/workflows/.github/workflows/build.yaml/badge.svg)](https://github.com/KSXGitHub/personal-pacman-packages/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goreleaser/nfpm",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -265,11 +283,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "KSXGitHub/personal-pacman-packages"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "goreleaser/nfpm"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

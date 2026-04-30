@@ -141,6 +141,18 @@
       "source_repo": "deven96/ahnlich",
       "status": "candidate-context",
       "text": "Build and Deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webgpu/webgpu-samples",
+      "status": "candidate-context",
+      "text": "WebGPU Samples"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webgpu/webgpu-samples",
+      "status": "candidate-context",
+      "text": "Build and Deploy"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +219,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "deven96/ahnlich",
+      "status": "candidate",
+      "text": "Build and Deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webgpu/webgpu-samples",
       "status": "candidate",
       "text": "Build and Deploy"
     }
@@ -348,11 +366,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/pages.yml",
       "source_repo": "deven96/ahnlich"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/build-and-deploy.yml",
+      "source_repo": "webgpu/webgpu-samples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/build_and_deploy.yml",
+      "source_repo": "vercel/next.js"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

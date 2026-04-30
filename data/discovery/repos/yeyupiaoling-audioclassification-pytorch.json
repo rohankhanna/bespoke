@@ -1,0 +1,169 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yeyupiaoling/AudioClassification-Pytorch",
+      "target": "tracyone/program_font",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yeyupiaoling/AudioClassification-Pytorch",
+      "target": "yeyupiaoling/paddlepaddle-mobilefacenets",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yeyupiaoling/AudioClassification-Pytorch",
+      "target": "alibaba-damo-academy/3d-speaker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yeyupiaoling/AudioClassification-Pytorch",
+      "target": "audioclassification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yeyupiaoling/AudioClassification-Pytorch",
+      "target": "ecapa-tdnn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yeyupiaoling/AudioClassification-Pytorch",
+      "target": "panns",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yeyupiaoling/AudioClassification-Pytorch",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yeyupiaoling/AudioClassification-Pytorch",
+      "target": "res2net",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yeyupiaoling/AudioClassification-Pytorch",
+      "target": "resnet-se",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yeyupiaoling/AudioClassification-Pytorch",
+      "target": "urbansound8k",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:37:28.194868+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17075
+    },
+    {
+      "path": "requirements.txt",
+      "size": 262
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The Pytorch implementation of sound classification supports EcapaTdnn, PANNS, TDNN, Res2Net, ResNetSE and other models, as well as a variety of preprocessing methods.",
+    "fork": false,
+    "full_name": "yeyupiaoling/AudioClassification-Pytorch",
+    "html_url": "https://github.com/yeyupiaoling/AudioClassification-Pytorch",
+    "language": "Python",
+    "pushed_at": "2025-12-17T13:09:08Z",
+    "stargazers_count": 596,
+    "topics": [
+      "audioclassification",
+      "ecapa-tdnn",
+      "panns",
+      "pytorch",
+      "res2net",
+      "resnet-se",
+      "urbansound8k"
+    ],
+    "updated_at": "2026-04-29T09:58:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alibaba-damo-academy/3d-speaker",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tracyone/program_font",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yeyupiaoling/paddlepaddle-mobilefacenets",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\u7b80\u4f53\u4e2d\u6587 | [English](./README_en.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audioclassification"
+    },
+    {
+      "context_snippet": "\u7b80\u4f53\u4e2d\u6587 | [English](./README_en.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ecapa-tdnn"
+    },
+    {
+      "context_snippet": "\u7b80\u4f53\u4e2d\u6587 | [English](./README_en.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "panns"
+    },
+    {
+      "context_snippet": "\u7b80\u4f53\u4e2d\u6587 | [English](./README_en.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "\u7b80\u4f53\u4e2d\u6587 | [English](./README_en.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "res2net"
+    },
+    {
+      "context_snippet": "\u7b80\u4f53\u4e2d\u6587 | [English](./README_en.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "resnet-se"
+    },
+    {
+      "context_snippet": "\u7b80\u4f53\u4e2d\u6587 | [English](./README_en.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "urbansound8k"
+    }
+  ]
+}

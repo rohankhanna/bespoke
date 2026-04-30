@@ -11,14 +11,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/claude-code-linux-notes",
+      "target": "danielrosehill/claude-background-removal-plugin",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/claude-code-feedback",
+      "target": "danielrosehill/claude-ai-model-research-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Code-Projects-Index",
+      "target": "danielrosehill/claude-batch-optical-archivist-plugin",
       "target_type": "repository"
     },
     {
@@ -26,13 +33,6 @@
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
       "target": "danielrosehill/claude-agent-blueprints",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/claude-code-context-feature-requests",
       "target_type": "repository"
     },
     {
@@ -64,11 +64,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T14:57:53.460650+00:00",
+  "fetched_at": "2026-04-30T19:58:16.784356+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 75367
+      "size": 86559
     },
     {
       "path": "package.json",
@@ -84,14 +84,14 @@
     "full_name": "danielrosehill/Claude-Code-Projects-Index",
     "html_url": "https://github.com/danielrosehill/Claude-Code-Projects-Index",
     "language": "Astro",
-    "pushed_at": "2026-04-30T13:35:33Z",
-    "stargazers_count": 429,
+    "pushed_at": "2026-04-30T19:55:07Z",
+    "stargazers_count": 430,
     "topics": [
       "claude-code",
       "claude-code-cli",
       "index-repos"
     ],
-    "updated_at": "2026-04-30T13:38:53Z"
+    "updated_at": "2026-04-30T19:55:31Z"
   },
   "repo_links": [
     {
@@ -101,17 +101,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/claude-code-context-feature-requests",
+      "full_name": "danielrosehill/claude-ai-model-research-plugin",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/claude-code-feedback",
+      "full_name": "danielrosehill/claude-background-removal-plugin",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/claude-code-linux-notes",
+      "full_name": "danielrosehill/claude-batch-optical-archivist-plugin",
       "source_file": "README.md"
     }
   ],

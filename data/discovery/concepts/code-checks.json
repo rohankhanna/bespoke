@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Code Checks"
+    "Code Checks",
+    "Code checks"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -37,6 +38,18 @@
       "source_repo": "rstudio/pins-python",
       "status": "candidate-context",
       "text": "Code Checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaLang/Pkg.jl",
+      "status": "candidate-context",
+      "text": "Pkg - Package manager for the Julia programming language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLang/Pkg.jl",
+      "status": "candidate-context",
+      "text": "Code checks"
     }
   ],
   "candidate_glosses": [
@@ -57,6 +70,12 @@
       "source_repo": "rstudio/pins-python",
       "status": "candidate",
       "text": "Code Checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLang/Pkg.jl",
+      "status": "candidate",
+      "text": "Code checks"
     }
   ],
   "candidate_related_terms": [
@@ -118,11 +137,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/code-checks.yml",
       "source_repo": "rstudio/pins-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "JuliaLang/Pkg.jl"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

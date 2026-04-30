@@ -1,7 +1,7 @@
 {
   "component": "github/codeql-action/upload-sarif@v3",
   "first_seen_at": "2026-04-18T04:38:51.315908+00:00",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -197,6 +197,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/scorecards.yml",
       "source_repo": "symfony/symfony"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/msvc_analysis.yml",
+      "source_repo": "DiligentGraphics/DiligentSamples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/msvc_analysis.yml",
+      "source_repo": "DiligentGraphics/DiligentTools"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "tianocore/edk2"
     }
   ]
 }

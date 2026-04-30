@@ -1381,6 +1381,18 @@
       "source_repo": "PKU-Alignment/safe-rlhf",
       "status": "candidate-context",
       "text": "<!-- markdownlint-disable first-line-h1 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "YangLing0818/RPG-DiffusionMaster",
+      "status": "candidate-context",
+      "text": "[ICML 2024] Mastering Text-to-Image Diffusion: Recaptioning, Planning, and Generating with Multimodal LLMs (RPG)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YangLing0818/RPG-DiffusionMaster",
+      "status": "candidate-context",
+      "text": "<a href=\"https://trendshift.io/repositories/7230\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/7230\" alt=\"YangLing0818%2FRPG-DiffusionMaster | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>"
     }
   ],
   "candidate_glosses": [
@@ -2073,6 +2085,12 @@
       "source_repo": "PKU-Alignment/safe-rlhf",
       "status": "candidate",
       "text": "<!-- markdownlint-disable first-line-h1 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YangLing0818/RPG-DiffusionMaster",
+      "status": "candidate",
+      "text": "<a href=\"https://trendshift.io/repositories/7230\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/7230\" alt=\"YangLing0818%2FRPG-DiffusionMaster | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>"
     }
   ],
   "candidate_related_terms": [],
@@ -3370,11 +3388,41 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "reasoning-machines/prompt-lib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/LongLoRA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "ByteVisionLab/TokenFlow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "YangLing0818/RPG-DiffusionMaster"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "mlc-ai/web-llm-assistant"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "echo-yiyiyi/cube"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

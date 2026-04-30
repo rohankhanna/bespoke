@@ -1,0 +1,96 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vimdoc.yaml"
+    },
+    {
+      "component": "rhysd/action-setup-vim@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vimdoc.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ibhagwan/ts-vimdoc.nvim",
+      "target": "ikatyang/tree-sitter-markdown",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ibhagwan/ts-vimdoc.nvim",
+      "target": "mdeiml/tree-sitter-markdown",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vimdoc.yaml",
+      "source_repo": "ibhagwan/ts-vimdoc.nvim",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vimdoc.yaml",
+      "source_repo": "ibhagwan/ts-vimdoc.nvim",
+      "target": "rhysd/action-setup-vim@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/vimdoc.yaml",
+      "source_repo": "ibhagwan/ts-vimdoc.nvim",
+      "target": "vimdoc",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:42:47.551256+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6038
+    },
+    {
+      "path": ".github/workflows/vimdoc.yaml",
+      "size": 1534
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "ibhagwan/ts-vimdoc.nvim",
+    "html_url": "https://github.com/ibhagwan/ts-vimdoc.nvim",
+    "language": "Scheme",
+    "pushed_at": "2026-04-05T12:32:50Z",
+    "stargazers_count": 17,
+    "topics": [],
+    "updated_at": "2026-04-05T12:21:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ikatyang/tree-sitter-markdown",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mdeiml/tree-sitter-markdown",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "vimdoc",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/vimdoc.yaml",
+      "term": "vimdoc"
+    }
+  ]
+}

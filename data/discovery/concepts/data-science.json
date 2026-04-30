@@ -631,6 +631,54 @@
       "source_repo": "treeverse/dvc",
       "status": "candidate-context",
       "text": "|Banner|"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pymc-devs/pymc-resources",
+      "status": "candidate-context",
+      "text": "PyMC educational resources"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pymc-devs/pymc-resources",
+      "status": "candidate-context",
+      "text": "PyMC educational resources, including the PyMC port of the following books (original models in STAN/BUGS/JAGS etc,.):"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubeflow/pipelines",
+      "status": "candidate-context",
+      "text": "Machine Learning Pipelines for Kubeflow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubeflow/pipelines",
+      "status": "candidate-context",
+      "text": "[![SDK Documentation Status](https://readthedocs.org/projects/kubeflow-pipelines/badge/?version=latest)](https://kubeflow-pipelines.readthedocs.io/en/stable/?badge=latest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MilesCranmer/PySR",
+      "status": "candidate-context",
+      "text": "High-Performance Symbolic Regression in Python and Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MilesCranmer/PySR",
+      "status": "candidate-context",
+      "text": "[//]: # (Logo:)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaAI/MLJ.jl",
+      "status": "candidate-context",
+      "text": "A Julia machine learning framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaAI/MLJ.jl",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -945,6 +993,30 @@
       "source_repo": "treeverse/dvc",
       "status": "candidate",
       "text": "|Banner|"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pymc-devs/pymc-resources",
+      "status": "candidate",
+      "text": "PyMC educational resources, including the PyMC port of the following books (original models in STAN/BUGS/JAGS etc,.):"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubeflow/pipelines",
+      "status": "candidate",
+      "text": "[![SDK Documentation Status](https://readthedocs.org/projects/kubeflow-pipelines/badge/?version=latest)](https://kubeflow-pipelines.readthedocs.io/en/stable/?badge=latest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MilesCranmer/PySR",
+      "status": "candidate",
+      "text": "[//]: # (Logo:)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaAI/MLJ.jl",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -1360,11 +1432,35 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "openhackathons-org/gpubootcamp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "pymc-devs/pymc-resources"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "kubeflow/pipelines"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "MilesCranmer/PySR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "JuliaAI/MLJ.jl"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

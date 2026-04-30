@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tmux-plugins/tmux-logging",
+      "target": "tmux-plugins/tmux-sessionist",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T20:01:30.433200+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4209
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Easy logging and screen capturing for Tmux.",
+    "fork": false,
+    "full_name": "tmux-plugins/tmux-logging",
+    "html_url": "https://github.com/tmux-plugins/tmux-logging",
+    "language": "Shell",
+    "pushed_at": "2024-05-18T16:42:36Z",
+    "stargazers_count": 1228,
+    "topics": [],
+    "updated_at": "2026-04-28T16:53:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tmux-plugins/tmux-sessionist",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

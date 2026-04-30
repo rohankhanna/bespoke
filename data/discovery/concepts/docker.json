@@ -2902,6 +2902,66 @@
       "source_repo": "cheshire-cat-ai/core",
       "status": "candidate-context",
       "text": "<a name=\"readme-top\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "replicate/cog",
+      "status": "candidate-context",
+      "text": "Containers for machine learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "replicate/cog",
+      "status": "candidate-context",
+      "text": "Cog is an open-source tool that lets you package machine learning models in a standard, production-ready container."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MilesCranmer/PySR",
+      "status": "candidate-context",
+      "text": "High-Performance Symbolic Regression in Python and Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MilesCranmer/PySR",
+      "status": "candidate-context",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "testcontainers/testcontainers-rs",
+      "status": "candidate-context",
+      "text": "A library for integration-testing against docker containers from within Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "testcontainers/testcontainers-rs",
+      "status": "candidate-context",
+      "text": "![Continuous Integration](https://github.com/testcontainers/testcontainers-rs/actions/workflows/ci.yml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hadolint/hadolint",
+      "status": "candidate-context",
+      "text": "Dockerfile linter, validate inline bash, written in Haskell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hadolint/hadolint",
+      "status": "candidate-context",
+      "text": "[![GPL-3 licensed][license-img]][license]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "veggiemonk/awesome-docker",
+      "status": "candidate-context",
+      "text": ":whale: A curated list of Docker resources and projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "veggiemonk/awesome-docker",
+      "status": "candidate-context",
+      "text": "> A curated list of Docker resources and projects"
     }
   ],
   "candidate_glosses": [
@@ -4362,6 +4422,36 @@
       "source_repo": "cheshire-cat-ai/core",
       "status": "candidate",
       "text": "<a name=\"readme-top\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "replicate/cog",
+      "status": "candidate",
+      "text": "Cog is an open-source tool that lets you package machine learning models in a standard, production-ready container."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MilesCranmer/PySR",
+      "status": "candidate",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "testcontainers/testcontainers-rs",
+      "status": "candidate",
+      "text": "![Continuous Integration](https://github.com/testcontainers/testcontainers-rs/actions/workflows/ci.yml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hadolint/hadolint",
+      "status": "candidate",
+      "text": "[![GPL-3 licensed][license-img]][license]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "veggiemonk/awesome-docker",
+      "status": "candidate",
+      "text": "> A curated list of Docker resources and projects"
     }
   ],
   "candidate_related_terms": [
@@ -6607,11 +6697,65 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "cheshire-cat-ai/core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "replicate/cog"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/CI_docker.yml",
+      "source_repo": "MilesCranmer/PySR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "testcontainers/testcontainers-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "docker-archive/compose-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "spaceship-prompt/spaceship-prompt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "geocompx/docker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "hadolint/hadolint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "veggiemonk/awesome-docker"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

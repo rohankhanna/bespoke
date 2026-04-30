@@ -56,13 +56,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "datalab-to/marker",
-      "target": "datalab-to/chandra",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "datalab-to/marker",
       "target": "vikparuchuri/marker",
       "target_type": "repository"
     },
@@ -78,6 +71,13 @@
       "source_file": "README.md",
       "source_repo": "datalab-to/marker",
       "target": "vikparuchuri/texify",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "datalab-to/marker",
+      "target": "vikparuchuri/marker",
       "target_type": "repository"
     },
     {
@@ -179,7 +179,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T14:58:34.777895+00:00",
+  "fetched_at": "2026-04-30T19:59:54.051051+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -220,16 +220,11 @@
     "html_url": "https://github.com/datalab-to/marker",
     "language": "Python",
     "pushed_at": "2026-04-24T18:33:10Z",
-    "stargazers_count": 34553,
+    "stargazers_count": 34559,
     "topics": [],
-    "updated_at": "2026-04-30T14:54:57Z"
+    "updated_at": "2026-04-30T18:13:19Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "datalab-to/chandra",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "vikparuchuri/marker",
@@ -244,6 +239,11 @@
       "edge_type": "explicit-github-link",
       "full_name": "vikparuchuri/texify",
       "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vikparuchuri/marker",
+      "source_file": "pyproject.toml"
     }
   ],
   "terms": [

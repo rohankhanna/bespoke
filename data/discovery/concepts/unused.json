@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "unused"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "darky/pg-unused-index-tui",
+      "status": "candidate-context",
+      "text": "TUI for showing unused indexes of Postgres"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "darky/pg-unused-index-tui",
+      "status": "candidate-context",
+      "text": "TUI for showing unused indexes of Postgres"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "darky/pg-unused-index-tui",
+      "status": "candidate",
+      "text": "TUI for showing unused indexes of Postgres"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39963363,
+      "status": "candidate",
+      "text": "clean"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39959516,
+      "status": "candidate",
+      "text": "inactive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39944634,
+      "status": "candidate",
+      "text": "idle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39873833,
+      "status": "candidate",
+      "text": "fresh"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39873770,
+      "status": "candidate",
+      "text": "new"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23056,
+      "status": "candidate",
+      "text": "fresh"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17074,
+      "status": "candidate",
+      "text": "clean"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15054,
+      "status": "candidate",
+      "text": "new"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10036,
+      "status": "candidate",
+      "text": "inactive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "idle"
+    }
+  ],
+  "canonical_name": "unused",
+  "concept_id": "unused",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "darky/pg-unused-index-tui"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "unused",
+      "sense_id": "unused#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

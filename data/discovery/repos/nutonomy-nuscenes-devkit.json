@@ -1,0 +1,64 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml",
+      "source_repo": "nutonomy/nuscenes-devkit",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pipeline.yml",
+      "source_repo": "nutonomy/nuscenes-devkit",
+      "target": "nuscenes-devkit CI pipeline",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:38:11.213377+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14953
+    },
+    {
+      "path": ".github/workflows/pipeline.yml",
+      "size": 625
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The devkit of the nuScenes dataset.",
+    "fork": false,
+    "full_name": "nutonomy/nuscenes-devkit",
+    "html_url": "https://github.com/nutonomy/nuscenes-devkit",
+    "language": "Python",
+    "pushed_at": "2025-08-28T05:18:29Z",
+    "stargazers_count": 2730,
+    "topics": [],
+    "updated_at": "2026-04-30T05:09:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "nuscenes-devkit CI pipeline",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pipeline.yml",
+      "term": "nuscenes-devkit CI pipeline"
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Cherry-pick to release"
+    "Cherry-pick to release",
+    "Cherry Pick to Release"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "coder/coder",
       "status": "candidate-context",
       "text": "Cherry-pick to release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/nvidia-resiliency-ext",
+      "status": "candidate-context",
+      "text": "NVIDIA Resiliency Extension is a python package for framework developers and users to implement fault-tolerant features. It improves the effective training time by minimizing the downtime due to failures and interruptions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/nvidia-resiliency-ext",
+      "status": "candidate-context",
+      "text": "Cherry Pick to Release"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "coder/coder",
       "status": "candidate",
       "text": "Cherry-pick to release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/nvidia-resiliency-ext",
+      "status": "candidate",
+      "text": "Cherry Pick to Release"
     }
   ],
   "candidate_related_terms": [
@@ -64,6 +83,41 @@
       "score": 4074,
       "status": "candidate",
       "text": "absolution"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34430,
+      "status": "candidate",
+      "text": "cull"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18169,
+      "status": "candidate",
+      "text": "stone"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18098,
+      "status": "candidate",
+      "text": "block"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18098,
+      "status": "candidate",
+      "text": "stem"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18034,
+      "status": "candidate",
+      "text": "eye"
     }
   ],
   "candidate_synonyms": [],
@@ -76,11 +130,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/cherry-pick.yaml",
       "source_repo": "coder/coder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/cherry_pick_release.yml",
+      "source_repo": "NVIDIA/nvidia-resiliency-ext"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

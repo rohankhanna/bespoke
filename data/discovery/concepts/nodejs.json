@@ -2911,6 +2911,78 @@
       "source_repo": "electron-vite/electron-vite-react",
       "status": "candidate-context",
       "text": "[![awesome-vite](https://awesome.re/mentioned-badge.svg)](https://github.com/vitejs/awesome-vite)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "decibri/decibri",
+      "status": "candidate-context",
+      "text": "Audio capture, playback, and processing for Node.js and the browser. One Rust codebase, zero system dependencies."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "decibri/decibri",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable MD033 MD041 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bazel-contrib/rules_nodejs",
+      "status": "candidate-context",
+      "text": "NodeJS toolchain for Bazel."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazel-contrib/rules_nodejs",
+      "status": "candidate-context",
+      "text": "[![Build status](https://badge.buildkite.com/af1a592b39b11923ef0f523cbb223dd3dbd61629f8bc813c07.svg?branch=stable)](https://buildkite.com/bazel/nodejs-rules-nodejs-postsubmit)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "i18next/i18next-http-middleware",
+      "status": "candidate-context",
+      "text": "i18next-http-middleware is a middleware to be used with Node.js web frameworks like express or Fastify and also for Deno."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i18next/i18next-http-middleware",
+      "status": "candidate-context",
+      "text": "[![Actions](https://github.com/i18next/i18next-http-middleware/workflows/node/badge.svg)](https://github.com/i18next/i18next-http-middleware/actions?query=workflow%3Anode)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dreamscached/i18next-cli-plugin-svelte",
+      "status": "candidate-context",
+      "text": "\ud83d\udcdc i18next-cli plugin to extract Javascript/Typescript from Svelte components"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dreamscached/i18next-cli-plugin-svelte",
+      "status": "candidate-context",
+      "text": "[![GitHub branch check runs](https://img.shields.io/github/check-runs/dreamscached/i18next-cli-plugin-svelte/master)](https://github.com/dreamscached/i18next-cli-plugin-svelte/actions/workflows/checks.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heineiuo/isomorphic-ws",
+      "status": "candidate-context",
+      "text": "Isomorphic implementation of WebSocket (https://www.npmjs.com/package/ws)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heineiuo/isomorphic-ws",
+      "status": "candidate-context",
+      "text": "Isomorphic implementation of WebSocket."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aksakalli/gtop",
+      "status": "candidate-context",
+      "text": "System monitoring dashboard for terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aksakalli/gtop",
+      "status": "candidate-context",
+      "text": "![screen record](https://raw.githubusercontent.com/aksakalli/gtop/master/img/demo.gif)"
     }
   ],
   "candidate_glosses": [
@@ -4365,6 +4437,42 @@
       "source_repo": "electron-vite/electron-vite-react",
       "status": "candidate",
       "text": "[![awesome-vite](https://awesome.re/mentioned-badge.svg)](https://github.com/vitejs/awesome-vite)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "decibri/decibri",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable MD033 MD041 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazel-contrib/rules_nodejs",
+      "status": "candidate",
+      "text": "[![Build status](https://badge.buildkite.com/af1a592b39b11923ef0f523cbb223dd3dbd61629f8bc813c07.svg?branch=stable)](https://buildkite.com/bazel/nodejs-rules-nodejs-postsubmit)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i18next/i18next-http-middleware",
+      "status": "candidate",
+      "text": "[![Actions](https://github.com/i18next/i18next-http-middleware/workflows/node/badge.svg)](https://github.com/i18next/i18next-http-middleware/actions?query=workflow%3Anode)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dreamscached/i18next-cli-plugin-svelte",
+      "status": "candidate",
+      "text": "[![GitHub branch check runs](https://img.shields.io/github/check-runs/dreamscached/i18next-cli-plugin-svelte/master)](https://github.com/dreamscached/i18next-cli-plugin-svelte/actions/workflows/checks.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heineiuo/isomorphic-ws",
+      "status": "candidate",
+      "text": "Isomorphic implementation of WebSocket."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aksakalli/gtop",
+      "status": "candidate",
+      "text": "![screen record](https://raw.githubusercontent.com/aksakalli/gtop/master/img/demo.gif)"
     }
   ],
   "candidate_related_terms": [],
@@ -6472,11 +6580,101 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "electron-vite/electron-vite-react"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "decibri/decibri"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "bazel-contrib/rules_nodejs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "babashka/nbb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "i18next/i18next-http-middleware"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "dreamscached/i18next-cli-plugin-svelte"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "heineiuo/isomorphic-ws"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "TooTallNate/proxy-agents"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/to-regex-range"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/braces"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/is-glob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "base-repos/base"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "standard/standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "standard/snazzy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "aksakalli/gtop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

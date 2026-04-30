@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Recurrent Video Restoration Transformer with Guided Deformable Attention (NeurlPS2022, official repository)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[arxiv](https://arxiv.org/abs/2206.02146)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[arxiv](https://arxiv.org/abs/2206.02146)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "video-sr",
+      "sense_id": "video-sr#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "video-sr",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "video-sr",
+  "observation_id": "f700d886e3e9d19c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "video-sr",
+  "source_context_snippet": "[arxiv](https://arxiv.org/abs/2206.02146)",
+  "source_file": null,
+  "source_repo": "JingyunLiang/RVRT",
+  "source_repo_description": "Recurrent Video Restoration Transformer with Guided Deformable Attention (NeurlPS2022, official repository)"
+}

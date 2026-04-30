@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "BOSH release of CredHub server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "CredHub Release provides a BOSH Release for [CredHub](https://github.com/cloudfoundry-incubator/credhub)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "CredHub Release provides a BOSH Release for [CredHub](https://github.com/cloudfoundry-incubator/credhub)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "credhub",
+      "sense_id": "credhub#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "credhub",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "credhub",
+  "observation_id": "74d2cdd1954e31d4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "credhub",
+  "source_context_snippet": "CredHub Release provides a BOSH Release for [CredHub](https://github.com/cloudfoundry-incubator/credhub).",
+  "source_file": null,
+  "source_repo": "pivotal/credhub-release",
+  "source_repo_description": "BOSH release of CredHub server"
+}

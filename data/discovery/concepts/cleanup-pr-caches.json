@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Cleanup PR Caches"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "delta-io/delta-rs",
+      "status": "candidate-context",
+      "text": "A native Rust library for Delta Lake, with bindings into Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "delta-io/delta-rs",
+      "status": "candidate-context",
+      "text": "Cleanup PR Caches"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "delta-io/delta-rs",
+      "status": "candidate",
+      "text": "Cleanup PR Caches"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20213,
+      "status": "candidate",
+      "text": "key"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12480,
+      "status": "candidate",
+      "text": "bucket"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12480,
+      "status": "candidate",
+      "text": "corduroy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12480,
+      "status": "candidate",
+      "text": "corduroys"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12480,
+      "status": "candidate",
+      "text": "deacon"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Cleanup PR Caches",
+  "concept_id": "cleanup-pr-caches",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/cleanup-pr-cache.yml",
+      "source_repo": "delta-io/delta-rs"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Cleanup PR Caches",
+      "sense_id": "cleanup-pr-caches#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

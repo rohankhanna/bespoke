@@ -55,6 +55,30 @@
       "source_repo": "filipradenovic/revisitop",
       "status": "candidate-context",
       "text": "We revisit and address issues with Oxford 5k and Paris 6k image retrieval benchmarks. New annotation for both datasets is created with an extra attention to the reliability of the ground truth and three new protocols of varying difficulty are introduced. We additionally introduc\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gmberton/MegaLoc",
+      "status": "candidate-context",
+      "text": "An image retrieval model for any localization task"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gmberton/MegaLoc",
+      "status": "candidate-context",
+      "text": "An image retrieval model for any localization task, which achieves SOTA on most VPR datasets, including indoor and outdoor ones."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yxgeee/OpenIBL",
+      "status": "candidate-context",
+      "text": "[ECCV-2020 (spotlight)] Self-supervising Fine-grained Region Similarities for Large-scale Image Localization. \ud83c\udf0f PyTorch open-source toolbox for image-based localization (place recognition)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yxgeee/OpenIBL",
+      "status": "candidate-context",
+      "text": "<!-- ![Python >=3.5](https://img.shields.io/badge/Python->=3.5-blue.svg)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "filipradenovic/revisitop",
       "status": "candidate",
       "text": "We revisit and address issues with Oxford 5k and Paris 6k image retrieval benchmarks. New annotation for both datasets is created with an extra attention to the reliability of the ground truth and three new protocols of varying difficulty are introduced. We additionally introduc\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gmberton/MegaLoc",
+      "status": "candidate",
+      "text": "An image retrieval model for any localization task, which achieves SOTA on most VPR datasets, including indoor and outdoor ones."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yxgeee/OpenIBL",
+      "status": "candidate",
+      "text": "<!-- ![Python >=3.5](https://img.shields.io/badge/Python->=3.5-blue.svg)"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +148,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "filipradenovic/revisitop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "gmberton/MegaLoc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "yxgeee/OpenIBL"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

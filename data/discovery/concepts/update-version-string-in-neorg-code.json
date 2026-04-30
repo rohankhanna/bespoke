@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update Version String in Neorg Code"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvim-neorg/neorg",
+      "status": "candidate-context",
+      "text": "Modernity meets insane extensibility. The future of organizing your life in Neovim."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-neorg/neorg",
+      "status": "candidate-context",
+      "text": "Update Version String in Neorg Code"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-neorg/neorg",
+      "status": "candidate",
+      "text": "Update Version String in Neorg Code"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43237,
+      "status": "candidate",
+      "text": "define"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43237,
+      "status": "candidate",
+      "text": "defining"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32985,
+      "status": "candidate",
+      "text": "defined"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32974,
+      "status": "candidate",
+      "text": "triplet code"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28240,
+      "status": "candidate",
+      "text": "edition"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update Version String in Neorg Code",
+  "concept_id": "update-version-string-in-neorg-code",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/version_in_code.yml",
+      "source_repo": "nvim-neorg/neorg"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Version String in Neorg Code",
+      "sense_id": "update-version-string-in-neorg-code#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

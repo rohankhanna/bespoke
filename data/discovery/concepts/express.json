@@ -139,6 +139,18 @@
       "source_repo": "jaydenseric/graphql-upload",
       "status": "candidate-context",
       "text": "graphql-upload \u2014 Middleware and a scalar Upload to add support for GraphQL multipart requests (file uploads via queries and mutations) to various Node.js GraphQL servers."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "i18next/i18next-http-middleware",
+      "status": "candidate-context",
+      "text": "i18next-http-middleware is a middleware to be used with Node.js web frameworks like express or Fastify and also for Deno."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i18next/i18next-http-middleware",
+      "status": "candidate-context",
+      "text": "[![Actions](https://github.com/i18next/i18next-http-middleware/workflows/node/badge.svg)](https://github.com/i18next/i18next-http-middleware/actions?query=workflow%3Anode)"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +219,12 @@
       "source_repo": "jaydenseric/graphql-upload",
       "status": "candidate",
       "text": "graphql-upload \u2014 Middleware and a scalar Upload to add support for GraphQL multipart requests (file uploads via queries and mutations) to various Node.js GraphQL servers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i18next/i18next-http-middleware",
+      "status": "candidate",
+      "text": "[![Actions](https://github.com/i18next/i18next-http-middleware/workflows/node/badge.svg)](https://github.com/i18next/i18next-http-middleware/actions?query=workflow%3Anode)"
     }
   ],
   "candidate_related_terms": [
@@ -400,11 +418,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "i18next/i18next-http-middleware"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

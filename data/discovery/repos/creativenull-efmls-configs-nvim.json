@@ -1,0 +1,164 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "creativenull/efmls-configs-nvim",
+      "target": "williamboman/mason.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "creativenull/efmls-configs-nvim",
+      "target": "nvimdev/guard.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "creativenull/efmls-configs-nvim",
+      "target": "mhartington/formatter.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "creativenull/efmls-configs-nvim",
+      "target": "lukas-reineke/lsp-format.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "creativenull/efmls-configs-nvim",
+      "target": "efm-langserver",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "creativenull/efmls-configs-nvim",
+      "target": "formatters",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "creativenull/efmls-configs-nvim",
+      "target": "linters",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "creativenull/efmls-configs-nvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "creativenull/efmls-configs-nvim",
+      "target": "nvim-lsp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "creativenull/efmls-configs-nvim",
+      "target": "nvim-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:05:36.238411+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6894
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An unofficial collection of linters and formatters configured for efm-langserver for neovim.",
+    "fork": false,
+    "full_name": "creativenull/efmls-configs-nvim",
+    "html_url": "https://github.com/creativenull/efmls-configs-nvim",
+    "language": "Lua",
+    "pushed_at": "2026-04-10T13:31:48Z",
+    "stargazers_count": 312,
+    "topics": [
+      "efm-langserver",
+      "formatters",
+      "linters",
+      "lua",
+      "neovim",
+      "nvim-lsp",
+      "nvim-plugin"
+    ],
+    "updated_at": "2026-04-29T13:10:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lukas-reineke/lsp-format.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mhartington/formatter.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvimdev/guard.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "williamboman/mason.nvim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<a href=\"https://dotfyle.com/plugins/creativenull/efmls-configs-nvim\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "efm-langserver"
+    },
+    {
+      "context_snippet": "<a href=\"https://dotfyle.com/plugins/creativenull/efmls-configs-nvim\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "formatters"
+    },
+    {
+      "context_snippet": "<a href=\"https://dotfyle.com/plugins/creativenull/efmls-configs-nvim\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linters"
+    },
+    {
+      "context_snippet": "<a href=\"https://dotfyle.com/plugins/creativenull/efmls-configs-nvim\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "<a href=\"https://dotfyle.com/plugins/creativenull/efmls-configs-nvim\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim-lsp"
+    },
+    {
+      "context_snippet": "<a href=\"https://dotfyle.com/plugins/creativenull/efmls-configs-nvim\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim-plugin"
+    }
+  ]
+}

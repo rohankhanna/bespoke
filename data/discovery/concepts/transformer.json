@@ -1069,6 +1069,30 @@
       "source_repo": "posthtml/posthtml",
       "status": "candidate-context",
       "text": "posthtml \u2014 HTML/XML processor"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wenet-e2e/wenet",
+      "status": "candidate-context",
+      "text": "Production First and Production Ready End-to-End Speech Recognition Toolkit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wenet-e2e/wenet",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-brightgreen.svg)](https://opensource.org/licenses/Apache-2.0)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JingyunLiang/RVRT",
+      "status": "candidate-context",
+      "text": "Recurrent Video Restoration Transformer with Guided Deformable Attention (NeurlPS2022, official repository)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JingyunLiang/RVRT",
+      "status": "candidate-context",
+      "text": "[arxiv](https://arxiv.org/abs/2206.02146)"
     }
   ],
   "candidate_glosses": [
@@ -1605,6 +1629,18 @@
       "source_repo": "posthtml/posthtml",
       "status": "candidate",
       "text": "posthtml \u2014 HTML/XML processor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wenet-e2e/wenet",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-brightgreen.svg)](https://opensource.org/licenses/Apache-2.0)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JingyunLiang/RVRT",
+      "status": "candidate",
+      "text": "[arxiv](https://arxiv.org/abs/2206.02146)"
     }
   ],
   "candidate_related_terms": [
@@ -2380,11 +2416,29 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "posthtml/posthtml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "wenet-e2e/wenet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "LiyuanLucasLiu/Transformer-Clinic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "JingyunLiang/RVRT"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

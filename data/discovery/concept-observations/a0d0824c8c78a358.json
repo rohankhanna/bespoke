@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Preprocessing Library for Natural Language Processing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/prenlp.svg?style=flat-square&color=important)](https://pypi.org/project/prenlp/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/prenlp.svg?style=flat-square&color=important)](https://pypi.org/project/prenlp/)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "preprocessing-library",
+      "sense_id": "preprocessing-library#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "preprocessing-library",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "preprocessing-library",
+  "observation_id": "a0d0824c8c78a358",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "preprocessing-library",
+  "source_context_snippet": "[![PyPI](https://img.shields.io/pypi/v/prenlp.svg?style=flat-square&color=important)](https://pypi.org/project/prenlp/)",
+  "source_file": null,
+  "source_repo": "lyeoni/prenlp",
+  "source_repo_description": "Preprocessing Library for Natural Language Processing"
+}

@@ -115,6 +115,18 @@
       "source_repo": "zdaxie/PixPro",
       "status": "candidate-context",
       "text": "By [Zhenda Xie](https://scholar.google.com/citations?user=0C4cDloAAAAJ)\\*, [Yutong Lin](https://scholar.google.com/citations?user=mjUgH44AAAAJ)\\*, [Zheng Zhang](https://www.microsoft.com/en-us/research/people/zhez/), [Yue Cao](http://yue-cao.me), [Stephen Lin](https://www.micros\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JingyunLiang/FKP",
+      "status": "candidate-context",
+      "text": "Official PyTorch code for Flow-based Kernel Prior with Application to Blind Super-Resolution (FKP, CVPR2021)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JingyunLiang/FKP",
+      "status": "candidate-context",
+      "text": "This repository is the official PyTorch implementation of Flow-based Kernel Prior with Application to Blind Super-Resolution"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +183,12 @@
       "source_repo": "zdaxie/PixPro",
       "status": "candidate",
       "text": "By [Zhenda Xie](https://scholar.google.com/citations?user=0C4cDloAAAAJ)\\*, [Yutong Lin](https://scholar.google.com/citations?user=mjUgH44AAAAJ)\\*, [Zheng Zhang](https://www.microsoft.com/en-us/research/people/zhez/), [Yue Cao](http://yue-cao.me), [Stephen Lin](https://www.micros\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JingyunLiang/FKP",
+      "status": "candidate",
+      "text": "This repository is the official PyTorch implementation of Flow-based Kernel Prior with Application to Blind Super-Resolution"
     }
   ],
   "candidate_related_terms": [],
@@ -232,11 +250,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "zdaxie/PixPro"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "JingyunLiang/FKP"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

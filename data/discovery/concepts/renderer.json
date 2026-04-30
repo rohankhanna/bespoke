@@ -91,6 +91,18 @@
       "source_repo": "DiligentGraphics/DiligentFX",
       "status": "candidate-context",
       "text": "DiligentFX is the [Diligent Engine](https://github.com/DiligentGraphics/DiligentEngine)'s high-level rendering framework."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DiligentGraphics/DiligentSamples",
+      "status": "candidate-context",
+      "text": "Sample projects demonstrating the usage of Diligent Engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DiligentGraphics/DiligentSamples",
+      "status": "candidate-context",
+      "text": "This module contains tutorials and sample applications intended to demonstrate the usage of"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "DiligentGraphics/DiligentFX",
       "status": "candidate",
       "text": "DiligentFX is the [Diligent Engine](https://github.com/DiligentGraphics/DiligentEngine)'s high-level rendering framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DiligentGraphics/DiligentSamples",
+      "status": "candidate",
+      "text": "This module contains tutorials and sample applications intended to demonstrate the usage of"
     }
   ],
   "candidate_related_terms": [
@@ -220,11 +238,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "DiligentGraphics/DiligentFX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "DiligentGraphics/DiligentSamples"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

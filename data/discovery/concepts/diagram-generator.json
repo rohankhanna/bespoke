@@ -19,6 +19,18 @@
       "source_repo": "Deep-Symmetry/bytefield-svg",
       "status": "candidate-context",
       "text": "A Node module for generating byte field diagrams like"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Deep-Symmetry/asciidoctor-bytefield",
+      "status": "candidate-context",
+      "text": "Asciidoctor.js extension to render byte field diagrams as SVG"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Deep-Symmetry/asciidoctor-bytefield",
+      "status": "candidate-context",
+      "text": "Asciidoctor.js extension to render byte field diagrams as SVG."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "Deep-Symmetry/bytefield-svg",
       "status": "candidate",
       "text": "A Node module for generating byte field diagrams like"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Deep-Symmetry/asciidoctor-bytefield",
+      "status": "candidate",
+      "text": "Asciidoctor.js extension to render byte field diagrams as SVG."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "Deep-Symmetry/bytefield-svg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/asciidoctor-bytefield"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

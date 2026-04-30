@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:10:17.311509+00:00",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "sources": [
     {
       "discovered_via": "inline-code",
@@ -146,6 +146,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "pawel-wiejacha/tmux-picker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ankitpokhrel/jira-cli"
     }
   ],
   "term": "productivity"

@@ -1,0 +1,244 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docs.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cherry_pick_release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude_review.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude_review.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_code.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_code.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit_test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit_test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit_test.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit_test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docs.yml",
+      "source_repo": "NVIDIA/nvidia-resiliency-ext",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docs.yml",
+      "source_repo": "NVIDIA/nvidia-resiliency-ext",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_docs.yml",
+      "source_repo": "NVIDIA/nvidia-resiliency-ext",
+      "target": "Build and Deploy Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cherry_pick_release.yml",
+      "source_repo": "NVIDIA/nvidia-resiliency-ext",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cherry_pick_release.yml",
+      "source_repo": "NVIDIA/nvidia-resiliency-ext",
+      "target": "Cherry Pick to Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude_review.yml",
+      "source_repo": "NVIDIA/nvidia-resiliency-ext",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude_review.yml",
+      "source_repo": "NVIDIA/nvidia-resiliency-ext",
+      "target": "anthropics/claude-code-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude_review.yml",
+      "source_repo": "NVIDIA/nvidia-resiliency-ext",
+      "target": "Claude Code Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_code.yml",
+      "source_repo": "NVIDIA/nvidia-resiliency-ext",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_code.yml",
+      "source_repo": "NVIDIA/nvidia-resiliency-ext",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint_code.yml",
+      "source_repo": "NVIDIA/nvidia-resiliency-ext",
+      "target": "Lint Code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit_test.yml",
+      "source_repo": "NVIDIA/nvidia-resiliency-ext",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit_test.yml",
+      "source_repo": "NVIDIA/nvidia-resiliency-ext",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit_test.yml",
+      "source_repo": "NVIDIA/nvidia-resiliency-ext",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit_test.yml",
+      "source_repo": "NVIDIA/nvidia-resiliency-ext",
+      "target": "Run Unit Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:44:17.563179+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4139
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3656
+    },
+    {
+      "path": ".github/workflows/build_docs.yml",
+      "size": 2185
+    },
+    {
+      "path": ".github/workflows/cherry_pick_release.yml",
+      "size": 3968
+    },
+    {
+      "path": ".github/workflows/claude_review.yml",
+      "size": 2368
+    },
+    {
+      "path": ".github/workflows/lint_code.yml",
+      "size": 656
+    },
+    {
+      "path": ".github/workflows/unit_test.yml",
+      "size": 3133
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "NVIDIA Resiliency Extension is a python package for framework developers and users to implement fault-tolerant features. It improves the effective training time by minimizing the downtime due to failures and interruptions.",
+    "fork": false,
+    "full_name": "NVIDIA/nvidia-resiliency-ext",
+    "html_url": "https://github.com/NVIDIA/nvidia-resiliency-ext",
+    "language": "Python",
+    "pushed_at": "2026-04-30T01:06:00Z",
+    "stargazers_count": 287,
+    "topics": [],
+    "updated_at": "2026-04-29T19:16:24Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build and Deploy Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_docs.yml",
+      "term": "Build and Deploy Docs"
+    },
+    {
+      "context_snippet": "Cherry Pick to Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cherry_pick_release.yml",
+      "term": "Cherry Pick to Release"
+    },
+    {
+      "context_snippet": "Claude Code Review",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude_review.yml",
+      "term": "Claude Code Review"
+    },
+    {
+      "context_snippet": "Lint Code",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint_code.yml",
+      "term": "Lint Code"
+    },
+    {
+      "context_snippet": "Run Unit Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit_test.yml",
+      "term": "Run Unit Tests"
+    }
+  ]
+}

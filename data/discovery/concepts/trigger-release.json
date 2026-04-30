@@ -19,6 +19,18 @@
       "source_repo": "JLLeitschuh/ktlint-gradle",
       "status": "candidate-context",
       "text": "\"Trigger Release\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dropwizard/dropwizard",
+      "status": "candidate-context",
+      "text": "A damn simple library for building production-ready RESTful web services."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dropwizard/dropwizard",
+      "status": "candidate-context",
+      "text": "Trigger Release"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "JLLeitschuh/ktlint-gradle",
       "status": "candidate",
       "text": "\"Trigger Release\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dropwizard/dropwizard",
+      "status": "candidate",
+      "text": "Trigger Release"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/trigger-release.yaml",
       "source_repo": "JLLeitschuh/ktlint-gradle"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/trigger-release.yml",
+      "source_repo": "dropwizard/dropwizard"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Code Style Check"
+    "Code Style Check",
+    "Code style check"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -55,6 +56,18 @@
       "source_repo": "PFCCLab/PPOCRLabel",
       "status": "candidate-context",
       "text": "Code Style Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spacemeshos/app-spacemesh",
+      "status": "candidate-context",
+      "text": "Spacemesh app for Ledger Wallet"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spacemeshos/app-spacemesh",
+      "status": "candidate-context",
+      "text": "Code style check"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +94,12 @@
       "source_repo": "PFCCLab/PPOCRLabel",
       "status": "candidate",
       "text": "Code Style Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spacemeshos/app-spacemesh",
+      "status": "candidate",
+      "text": "Code style check"
     }
   ],
   "candidate_related_terms": [
@@ -184,11 +203,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/code-style.yml",
       "source_repo": "argotorg/solidity"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/lint-workflow.yml",
+      "source_repo": "spacemeshos/app-spacemesh"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/code-style.yml",
+      "source_repo": "argotorg/solidity"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

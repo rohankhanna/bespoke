@@ -1,7 +1,7 @@
 {
   "component": "cachix/cachix-action@v16",
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -67,6 +67,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/nix-build.yml",
       "source_repo": "lumen-oss/luarocks-build-treesitter-parser"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml",
+      "source_repo": "90-008/nix-cargo-integration"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-prepare.yml",
+      "source_repo": "holochain/holochain"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "holochain/holochain"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cachix.yml",
+      "source_repo": "kitknox/helix"
     }
   ]
 }

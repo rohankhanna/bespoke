@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T19:49:16.186499+00:00",
+  "fetched_files": [
+    {
+      "path": "go.mod",
+      "size": 1245
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "qri filesystem abstraction",
+    "fork": false,
+    "full_name": "qri-io/qfs",
+    "html_url": "https://github.com/qri-io/qfs",
+    "language": "Go",
+    "pushed_at": "2023-02-25T08:30:20Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2022-11-09T18:02:18Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

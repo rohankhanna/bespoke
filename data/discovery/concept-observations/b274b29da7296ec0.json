@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A library for integration-testing against docker containers from within Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Continuous Integration](https://github.com/testcontainers/testcontainers-rs/actions/workflows/ci.yml/badge.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Continuous Integration](https://github.com/testcontainers/testcontainers-rs/actions/workflows/ci.yml/badge.svg)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "test-automation",
+      "sense_id": "test-automation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "test-automation",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "test-automation",
+  "observation_id": "b274b29da7296ec0",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "test-automation",
+  "source_context_snippet": "![Continuous Integration](https://github.com/testcontainers/testcontainers-rs/actions/workflows/ci.yml/badge.svg)",
+  "source_file": null,
+  "source_repo": "testcontainers/testcontainers-rs",
+  "source_repo_description": "A library for integration-testing against docker containers from within Rust."
+}

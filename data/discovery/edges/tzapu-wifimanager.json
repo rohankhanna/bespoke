@@ -1,0 +1,139 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tzapu/WiFiManager",
+      "target": "esp8266/arduino",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tzapu/WiFiManager",
+      "target": "espressif/arduino-esp32",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tzapu/WiFiManager",
+      "target": "chriscook8/esp-arduino-apboot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile_examples.yaml",
+      "source_repo": "tzapu/WiFiManager",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile_examples.yaml",
+      "source_repo": "tzapu/WiFiManager",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile_examples.yaml",
+      "source_repo": "tzapu/WiFiManager",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compile_examples.yaml",
+      "source_repo": "tzapu/WiFiManager",
+      "target": "Compile examples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile_library.yml",
+      "source_repo": "tzapu/WiFiManager",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile_library.yml",
+      "source_repo": "tzapu/WiFiManager",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile_library.yml",
+      "source_repo": "tzapu/WiFiManager",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compile_library.yml",
+      "source_repo": "tzapu/WiFiManager",
+      "target": "Compile Library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_lint.yml",
+      "source_repo": "tzapu/WiFiManager",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_lint.yml",
+      "source_repo": "tzapu/WiFiManager",
+      "target": "reviewdog/action-cpplint@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cpp_lint.yml",
+      "source_repo": "tzapu/WiFiManager",
+      "target": "cpplint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tzapu/WiFiManager",
+      "target": "arduino",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tzapu/WiFiManager",
+      "target": "captive",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tzapu/WiFiManager",
+      "target": "configuration-portal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tzapu/WiFiManager",
+      "target": "esp8266",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tzapu/WiFiManager",
+      "target": "wifimanager",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T18:36:26.757967+00:00",
+  "source_repo": "tzapu/WiFiManager"
+}

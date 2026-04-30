@@ -2,7 +2,8 @@
   "aliases": [
     "Publish package to npm",
     "Publish package to NPM",
-    "Publish Package to npm"
+    "Publish Package to npm",
+    "Publish Package to NPM"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -45,6 +46,18 @@
       "source_repo": "fengyuanchen/compressorjs",
       "status": "candidate-context",
       "text": "Publish Package to npm"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "markdoc/markdoc",
+      "status": "candidate-context",
+      "text": "A powerful, flexible, Markdown-based authoring framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "markdoc/markdoc",
+      "status": "candidate-context",
+      "text": "Publish Package to NPM"
     }
   ],
   "candidate_glosses": [
@@ -65,6 +78,12 @@
       "source_repo": "fengyuanchen/compressorjs",
       "status": "candidate",
       "text": "Publish Package to npm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "markdoc/markdoc",
+      "status": "candidate",
+      "text": "Publish Package to NPM"
     }
   ],
   "candidate_related_terms": [
@@ -126,11 +145,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/npm-publish.yml",
       "source_repo": "fengyuanchen/compressorjs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "markdoc/markdoc"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

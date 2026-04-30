@@ -55,6 +55,18 @@
       "source_repo": "sagiegurari/cargo-make",
       "status": "candidate-context",
       "text": "[![crates.io](https://img.shields.io/crates/v/cargo-make.svg)](https://crates.io/crates/cargo-make)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cargo-public-api/cargo-public-api",
+      "status": "candidate-context",
+      "text": "List and diff the public API of Rust library crates between releases and commits. Detect breaking API changes and semver violations via CI or a CLI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cargo-public-api/cargo-public-api",
+      "status": "candidate-context",
+      "text": "List and diff the public API of Rust library crates between releases and commits. Detect breaking API changes and semver violations via CI or a CLI. Relies on and automatically builds [rustdoc JSON](https://github.com/rust-lang/rust/issues/76578), for which a recent version of t\u2026"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "sagiegurari/cargo-make",
       "status": "candidate",
       "text": "[![crates.io](https://img.shields.io/crates/v/cargo-make.svg)](https://crates.io/crates/cargo-make)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cargo-public-api/cargo-public-api",
+      "status": "candidate",
+      "text": "List and diff the public API of Rust library crates between releases and commits. Detect breaking API changes and semver violations via CI or a CLI. Relies on and automatically builds [rustdoc JSON](https://github.com/rust-lang/rust/issues/76578), for which a recent version of t\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-24T18:19:44.660705+00:00",
       "source_file": null,
       "source_repo": "sagiegurari/cargo-make"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "cargo-public-api/cargo-public-api"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

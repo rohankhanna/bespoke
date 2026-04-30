@@ -248,6 +248,18 @@
       "source_repo": "testcontainers/testcontainers-python",
       "status": "candidate-context",
       "text": "lint-pr"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abatilo/actions-poetry",
+      "status": "candidate-context",
+      "text": "GitHub Actions for Python projects using poetry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abatilo/actions-poetry",
+      "status": "candidate-context",
+      "text": "\"Lint PR\""
     }
   ],
   "candidate_glosses": [
@@ -370,6 +382,12 @@
       "source_repo": "testcontainers/testcontainers-python",
       "status": "candidate",
       "text": "lint-pr"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abatilo/actions-poetry",
+      "status": "candidate",
+      "text": "\"Lint PR\""
     }
   ],
   "candidate_related_terms": [
@@ -563,11 +581,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/check-pr.yml",
       "source_repo": "vega/altair"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/lint-pr.yml",
+      "source_repo": "abatilo/actions-poetry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/check-pr.yml",
+      "source_repo": "vega/altair"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

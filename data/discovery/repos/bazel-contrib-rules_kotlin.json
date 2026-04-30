@@ -45,13 +45,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "bazel-contrib/rules_kotlin",
-      "target": "square/bazel_maven_repository",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "bazel-contrib/rules_kotlin",
       "target": "johnynek/bazel-deps",
       "target_type": "repository"
     },
@@ -126,7 +119,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T14:11:44.754196+00:00",
+  "fetched_at": "2026-04-30T19:45:16.839075+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -181,11 +174,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "johnynek/bazel-deps",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "square/bazel_maven_repository",
       "source_file": "README.md"
     }
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Closing Stale Issues"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/echarts",
+      "status": "candidate-context",
+      "text": "Apache ECharts is a powerful, interactive charting and data visualization library for browser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/echarts",
+      "status": "candidate-context",
+      "text": "Closing Stale Issues"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/echarts",
+      "status": "candidate",
+      "text": "Closing Stale Issues"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18045,
+      "status": "candidate",
+      "text": "locking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18045,
+      "status": "candidate",
+      "text": "locks"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18045,
+      "status": "candidate",
+      "text": "near"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18045,
+      "status": "candidate",
+      "text": "snap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18045,
+      "status": "candidate",
+      "text": "tag"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Closing Stale Issues",
+  "concept_id": "closing-stale-issues",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "apache/echarts"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Closing Stale Issues",
+      "sense_id": "closing-stale-issues#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

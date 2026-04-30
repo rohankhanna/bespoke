@@ -227,6 +227,18 @@
       "source_repo": "oclif/plugin-search",
       "status": "candidate-context",
       "text": "automerge"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "f4pga/prjxray",
+      "status": "candidate-context",
+      "text": "Documenting the Xilinx 7-series bit-stream format."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "f4pga/prjxray",
+      "status": "candidate-context",
+      "text": "Automerge"
     }
   ],
   "candidate_glosses": [
@@ -343,6 +355,12 @@
       "source_repo": "oclif/plugin-search",
       "status": "candidate",
       "text": "automerge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "f4pga/prjxray",
+      "status": "candidate",
+      "text": "Automerge"
     }
   ],
   "candidate_related_terms": [],
@@ -464,11 +482,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/automerge.yml",
       "source_repo": "oclif/plugin-search"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/Automerge.yml",
+      "source_repo": "f4pga/prjxray"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

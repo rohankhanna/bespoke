@@ -1,7 +1,7 @@
 {
   "component": "actions/github-script@v7",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1932,6 +1932,51 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/artifacts.yml",
       "source_repo": "elixir-lang/ex_doc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/report.yml",
+      "source_repo": "salesforcecli/status"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-pr.yaml",
+      "source_repo": "remix-run/remix"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codex-pr-review.yaml",
+      "source_repo": "remix-run/remix"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pull-request-formatting-validator.yml",
+      "source_repo": "tianocore/edk2"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/review-checklist.yml",
+      "source_repo": "lumen-oss/rocks-config.nvim"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/review-checklist.yml",
+      "source_repo": "lumen-oss/rocks-dev.nvim"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/review-checklist.yml",
+      "source_repo": "lumen-oss/rocks-git.nvim"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-issue-triage.yml",
+      "source_repo": "facebook/hermes"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/autotag.yaml",
+      "source_repo": "apernet/hysteria"
     }
   ]
 }

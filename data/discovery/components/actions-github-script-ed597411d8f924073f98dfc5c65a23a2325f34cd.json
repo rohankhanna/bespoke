@@ -1,7 +1,7 @@
 {
   "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -732,6 +732,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/issue_autolabel.yml",
       "source_repo": "flagos-ai/vllm-FL"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/continuous_deployment.yml",
+      "source_repo": "DiligentGraphics/glslang"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dev_pr.yml",
+      "source_repo": "delta-io/delta-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/automoderator.yaml",
+      "source_repo": "surrealdb/surrealdb"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/community-pr-label.yml",
+      "source_repo": "surrealdb/surrealdb"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-assign-pr.yml",
+      "source_repo": "rolldown/rolldown"
     }
   ]
 }

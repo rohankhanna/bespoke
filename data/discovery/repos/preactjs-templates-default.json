@@ -1,0 +1,97 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "preactjs-templates/default",
+      "target": "developit/preact-cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "preactjs-templates/default",
+      "target": "preactjs/enzyme-adapter-preact-pure",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "preactjs-templates/default",
+      "target": "preact",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "preactjs-templates/default",
+      "target": "preact-cli",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "preactjs-templates/default",
+      "target": "preact-cli-template",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:48:03.849902+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1756
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The default template for Preact CLI",
+    "fork": false,
+    "full_name": "preactjs-templates/default",
+    "html_url": "https://github.com/preactjs-templates/default",
+    "language": "JavaScript",
+    "pushed_at": "2023-01-31T08:26:18Z",
+    "stargazers_count": 79,
+    "topics": [
+      "preact",
+      "preact-cli",
+      "preact-cli-template"
+    ],
+    "updated_at": "2026-02-09T02:25:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "developit/preact-cli",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "preactjs/enzyme-adapter-preact-pure",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![Lighthouse-Badge](https://img.shields.io/badge/lighthouse-100%2F100-brightgreen.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "preact"
+    },
+    {
+      "context_snippet": "![Lighthouse-Badge](https://img.shields.io/badge/lighthouse-100%2F100-brightgreen.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "preact-cli"
+    },
+    {
+      "context_snippet": "![Lighthouse-Badge](https://img.shields.io/badge/lighthouse-100%2F100-brightgreen.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "preact-cli-template"
+    }
+  ]
+}

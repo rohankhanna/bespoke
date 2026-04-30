@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Peer to peer data syncronization [ DEPRECATED - More info on active projects and modules at https://dat-ecosystem.org/ ] "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Node CD"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Node CD"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10523,
+      "status": "candidate",
+      "text": "skip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10509,
+      "status": "candidate",
+      "text": "lumen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10509,
+      "status": "candidate",
+      "text": "pricket"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10509,
+      "status": "candidate",
+      "text": "quarrier"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10509,
+      "status": "candidate",
+      "text": "wick"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Node CD",
+      "sense_id": "node-cd#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "node-cd",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "node-cd",
+  "observation_id": "5d1b21f816a5633b",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "Node CD",
+  "source_context_snippet": "Node CD",
+  "source_file": ".github/workflows/nodejs.yml",
+  "source_repo": "dat-ecosystem-archive/dat-desktop",
+  "source_repo_description": "Peer to peer data syncronization [ DEPRECATED - More info on active projects and modules at https://dat-ecosystem.org/ ] "
+}

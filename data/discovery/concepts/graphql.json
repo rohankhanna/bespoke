@@ -721,6 +721,54 @@
       "source_repo": "TanStack/query",
       "status": "candidate-context",
       "text": "<img referrerpolicy=\"no-referrer-when-downgrade\" src=\"https://static.scarf.sh/a.png?x-pxid=be2d8a11-9712-4c1d-9963-580b2d4fb133\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wundergraph/cosmo",
+      "status": "candidate-context",
+      "text": "The open-source solution to building, maintaining, and collaborating on GraphQL Federation at Scale. The alternative to Apollo Studio and GraphOS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wundergraph/cosmo",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apollographql/supergraph-demo",
+      "status": "candidate-context",
+      "text": "\ud83c\udf7f Compose subgraphs into a Federation v1 supergraph at build-time with static composition to power a federated graph router at runtime."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/supergraph-demo",
+      "status": "candidate-context",
+      "text": "![smoke test](https://github.com/apollographql/supergraph-demo/actions/workflows/main.yml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graphql-rust/juniper",
+      "status": "candidate-context",
+      "text": "GraphQL server library for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql-rust/juniper",
+      "status": "candidate-context",
+      "text": "<img src=\"https://github.com/graphql-rust/juniper/raw/master/assets/logo/juniper-dark-word.png\" alt=\"Juniper\" width=\"500\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dunglas/mercure",
+      "status": "candidate-context",
+      "text": "\ud83e\udebd An open, easy, fast, reliable and battery-efficient solution for real-time communications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dunglas/mercure",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\"><a href=\"https://mercure.rocks\"><img src=\"public/mercure.svg\" alt=\"Mercure: Real-time Made Easy\" title=\"Live Updates Made Easy\"></a></h1>"
     }
   ],
   "candidate_glosses": [
@@ -1083,6 +1131,30 @@
       "source_repo": "TanStack/query",
       "status": "candidate",
       "text": "<img referrerpolicy=\"no-referrer-when-downgrade\" src=\"https://static.scarf.sh/a.png?x-pxid=be2d8a11-9712-4c1d-9963-580b2d4fb133\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wundergraph/cosmo",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/supergraph-demo",
+      "status": "candidate",
+      "text": "![smoke test](https://github.com/apollographql/supergraph-demo/actions/workflows/main.yml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql-rust/juniper",
+      "status": "candidate",
+      "text": "<img src=\"https://github.com/graphql-rust/juniper/raw/master/assets/logo/juniper-dark-word.png\" alt=\"Juniper\" width=\"500\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dunglas/mercure",
+      "status": "candidate",
+      "text": "<h1 align=\"center\"><a href=\"https://mercure.rocks\"><img src=\"public/mercure.svg\" alt=\"Mercure: Real-time Made Easy\" title=\"Live Updates Made Easy\"></a></h1>"
     }
   ],
   "candidate_related_terms": [
@@ -1654,11 +1726,71 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "TanStack/query"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "wundergraph/cosmo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/supergraph-demo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-scalajs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-tooling"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "graphql-hive/graphql-eslint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "Urigo/graphql-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "graphql-hive/graphql-config"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "graphql-hive/graphql-inspector"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "graphql-rust/juniper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "dunglas/mercure"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

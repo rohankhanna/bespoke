@@ -117,6 +117,18 @@
       "source_repo": "lesismal/arpc",
       "status": "candidate-context",
       "text": "build-macos"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "getlantern/lantern",
+      "status": "candidate-context",
+      "text": "Open-source VPN for speed, privacy, and censorship circumvention. Free to download on Android, iOS, Windows, macOS, and Linux."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getlantern/lantern",
+      "status": "candidate-context",
+      "text": "Build macOS"
     }
   ],
   "candidate_glosses": [
@@ -173,6 +185,12 @@
       "source_repo": "lesismal/arpc",
       "status": "candidate",
       "text": "build-macos"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getlantern/lantern",
+      "status": "candidate",
+      "text": "Build macOS"
     }
   ],
   "candidate_related_terms": [
@@ -396,11 +414,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/build-macos.yml",
       "source_repo": "triton-lang/triton"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "getlantern/lantern"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -98,7 +98,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T04:04:52.521320+00:00",
+  "fetched_at": "2026-04-30T18:50:31.556065+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -131,7 +131,7 @@
     "html_url": "https://github.com/alacritty/alacritty",
     "language": "Rust",
     "pushed_at": "2026-04-28T01:21:51Z",
-    "stargazers_count": 63757,
+    "stargazers_count": 63785,
     "topics": [
       "bsd",
       "gpu",
@@ -144,7 +144,7 @@
       "vte",
       "windows"
     ],
-    "updated_at": "2026-04-30T03:22:51Z"
+    "updated_at": "2026-04-30T17:21:34Z"
   },
   "repo_links": [],
   "terms": [

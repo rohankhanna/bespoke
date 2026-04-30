@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "expose"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fatedier/frp",
+      "status": "candidate-context",
+      "text": "A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fatedier/frp",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://circleci.com/gh/fatedier/frp.svg?style=shield)](https://circleci.com/gh/fatedier/frp)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fatedier/frp",
+      "status": "candidate",
+      "text": "[![Build Status](https://circleci.com/gh/fatedier/frp.svg?style=shield)](https://circleci.com/gh/fatedier/frp)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40039181,
+      "status": "candidate",
+      "text": "disclose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40035776,
+      "status": "candidate",
+      "text": "bring out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40035515,
+      "status": "candidate",
+      "text": "discover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40034172,
+      "status": "candidate",
+      "text": "divulge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40029484,
+      "status": "candidate",
+      "text": "let out"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 63035,
+      "status": "candidate",
+      "text": "impart"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 57049,
+      "status": "candidate",
+      "text": "exhibit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 56049,
+      "status": "candidate",
+      "text": "display"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 46079,
+      "status": "candidate",
+      "text": "break"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 44032,
+      "status": "candidate",
+      "text": "divulge"
+    }
+  ],
+  "canonical_name": "expose",
+  "concept_id": "expose",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "fatedier/frp"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "expose",
+      "sense_id": "expose#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

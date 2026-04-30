@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LucHermitte/vim-build-tools-wrapper",
+      "target": "bling/vim-airline",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LucHermitte/vim-build-tools-wrapper",
+      "target": "build-tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LucHermitte/vim-build-tools-wrapper",
+      "target": "cmake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LucHermitte/vim-build-tools-wrapper",
+      "target": "compiler-wrapper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LucHermitte/vim-build-tools-wrapper",
+      "target": "vim-plugins",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:59:31.721326+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2284
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Projects building plugin for Vim",
+    "fork": false,
+    "full_name": "LucHermitte/vim-build-tools-wrapper",
+    "html_url": "https://github.com/LucHermitte/vim-build-tools-wrapper",
+    "language": "VimL",
+    "pushed_at": "2024-04-29T13:34:18Z",
+    "stargazers_count": 27,
+    "topics": [
+      "build-tool",
+      "cmake",
+      "compiler-wrapper",
+      "vim",
+      "vim-plugins"
+    ],
+    "updated_at": "2025-08-07T19:30:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bling/vim-airline",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "BTW has two main purposes:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "build-tool"
+    },
+    {
+      "context_snippet": "BTW has two main purposes:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cmake"
+    },
+    {
+      "context_snippet": "BTW has two main purposes:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compiler-wrapper"
+    },
+    {
+      "context_snippet": "BTW has two main purposes:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-plugins"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "webinterface"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "snapcast/snapweb",
+      "status": "candidate-context",
+      "text": "Web interface for Snapcast"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "snapcast/snapweb",
+      "status": "candidate-context",
+      "text": "Web client for [Snapcast](https://github.com/snapcast/snapcast), optimized for"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "snapcast/snapweb",
+      "status": "candidate",
+      "text": "Web client for [Snapcast](https://github.com/snapcast/snapcast), optimized for"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "webinterface",
+  "concept_id": "webinterface",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "snapcast/snapweb"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "webinterface",
+      "sense_id": "webinterface#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

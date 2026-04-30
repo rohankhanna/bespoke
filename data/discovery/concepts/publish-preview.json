@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "publish-preview"
+    "publish-preview",
+    "Publish preview"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "apollographql/apollo-kotlin",
       "status": "candidate-context",
       "text": "publish-preview"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "storybookjs/addon-cssresources",
+      "status": "candidate-context",
+      "text": "A storybook addon to switch between css resources at runtime for your story"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "storybookjs/addon-cssresources",
+      "status": "candidate-context",
+      "text": "Publish preview"
     }
   ],
   "candidate_glosses": [
@@ -27,9 +40,51 @@
       "source_repo": "apollographql/apollo-kotlin",
       "status": "candidate",
       "text": "publish-preview"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "storybookjs/addon-cssresources",
+      "status": "candidate",
+      "text": "Publish preview"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10780,
+      "status": "candidate",
+      "text": "progress"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10780,
+      "status": "candidate",
+      "text": "trailer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10770,
+      "status": "candidate",
+      "text": "aut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10770,
+      "status": "candidate",
+      "text": "blazon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10770,
+      "status": "candidate",
+      "text": "blazoned"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "publish-preview",
   "concept_id": "publish-preview",
@@ -46,11 +101,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/publish-preview.yml",
       "source_repo": "apollographql/apollo-kotlin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/publish-preview.yml",
+      "source_repo": "storybookjs/addon-cssresources"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

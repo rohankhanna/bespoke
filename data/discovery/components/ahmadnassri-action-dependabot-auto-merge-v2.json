@@ -1,7 +1,7 @@
 {
   "component": "ahmadnassri/action-dependabot-auto-merge@v2",
   "first_seen_at": "2026-04-18T09:10:17.311509+00:00",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -37,6 +37,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/auto-merge.yaml",
       "source_repo": "appbaseio/searchbox"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependabot_auto_merge.yml",
+      "source_repo": "hchiam/how-draggable"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependabot_auto_merge.yml",
+      "source_repo": "hchiam/generator-hchiam-learning"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependabot_auto_merge.yml",
+      "source_repo": "hchiam/learning-tauri"
     }
   ]
 }

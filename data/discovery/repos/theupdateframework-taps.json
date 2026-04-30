@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "theupdateframework/taps",
+      "target": "security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "theupdateframework/taps",
+      "target": "software",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "theupdateframework/taps",
+      "target": "update",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:44:29.739242+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1866
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "TUF Augmentation Proposals (TAPs)",
+    "fork": false,
+    "full_name": "theupdateframework/taps",
+    "html_url": "https://github.com/theupdateframework/taps",
+    "language": null,
+    "pushed_at": "2025-08-28T11:36:17Z",
+    "stargazers_count": 37,
+    "topics": [
+      "security",
+      "software",
+      "update"
+    ],
+    "updated_at": "2026-01-22T13:28:32Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "* [TAP 1: TAP Purpose and Guidelines](tap1.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security"
+    },
+    {
+      "context_snippet": "* [TAP 1: TAP Purpose and Guidelines](tap1.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "software"
+    },
+    {
+      "context_snippet": "* [TAP 1: TAP Purpose and Guidelines](tap1.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "update"
+    }
+  ]
+}

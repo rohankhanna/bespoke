@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Prevent build artifacts in PR"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thomasloven/hass-browser_mod",
+      "status": "candidate-context",
+      "text": "\ud83d\udd39 A Home Assistant integration to turn your browser into a controllable entity and media player"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thomasloven/hass-browser_mod",
+      "status": "candidate-context",
+      "text": "Prevent build artifacts in PR"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thomasloven/hass-browser_mod",
+      "status": "candidate",
+      "text": "Prevent build artifacts in PR"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19521,
+      "status": "candidate",
+      "text": "fic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19521,
+      "status": "candidate",
+      "text": "fix"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19128,
+      "status": "candidate",
+      "text": "articles"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19128,
+      "status": "candidate",
+      "text": "instrumentation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19128,
+      "status": "candidate",
+      "text": "items"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Prevent build artifacts in PR",
+  "concept_id": "prevent-build-artifacts-in-pr",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/prevent-build-artifacts-in-pr.yaml",
+      "source_repo": "thomasloven/hass-browser_mod"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Prevent build artifacts in PR",
+      "sense_id": "prevent-build-artifacts-in-pr#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

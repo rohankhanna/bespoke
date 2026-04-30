@@ -1,0 +1,315 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-selfhosted.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-selfhosted.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/stale@v10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hanselime/paqet",
+      "target": "gfw-knocker/gfw_resist_tcp_proxy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hanselime/paqet",
+      "target": "the-tcpdump-group/libpcap",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hanselime/paqet",
+      "target": "gopacket/gopacket",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hanselime/paqet",
+      "target": "xtaci/smux",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-selfhosted.yml",
+      "source_repo": "hanselime/paqet",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-selfhosted.yml",
+      "source_repo": "hanselime/paqet",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-selfhosted.yml",
+      "source_repo": "hanselime/paqet",
+      "target": "Build Linux Self-Hosted",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "hanselime/paqet",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "hanselime/paqet",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "hanselime/paqet",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "hanselime/paqet",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "hanselime/paqet",
+      "target": "actions/download-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "hanselime/paqet",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "hanselime/paqet",
+      "target": "Build and Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "hanselime/paqet",
+      "target": "actions/stale@v10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "hanselime/paqet",
+      "target": "stale issues and pull requests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hanselime/paqet",
+      "target": "gopacket",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hanselime/paqet",
+      "target": "paqet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hanselime/paqet",
+      "target": "pcap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hanselime/paqet",
+      "target": "tcpdump",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:57:38.005588+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14209
+    },
+    {
+      "path": "go.mod",
+      "size": 863
+    },
+    {
+      "path": ".github/workflows/build-selfhosted.yml",
+      "size": 3968
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 13410
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 1176
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Ferries Packets Across Forbidden Boundaries \ud83d\udc40",
+    "fork": false,
+    "full_name": "hanselime/paqet",
+    "html_url": "https://github.com/hanselime/paqet",
+    "language": "Go",
+    "pushed_at": "2026-04-18T04:54:55Z",
+    "stargazers_count": 1089,
+    "topics": [
+      "gopacket",
+      "kcp",
+      "paqet",
+      "pcap",
+      "tcpdump"
+    ],
+    "updated_at": "2026-04-30T17:22:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gfw-knocker/gfw_resist_tcp_proxy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gopacket/gopacket",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "the-tcpdump-group/libpcap",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xtaci/smux",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build Linux Self-Hosted",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-selfhosted.yml",
+      "term": "Build Linux Self-Hosted"
+    },
+    {
+      "context_snippet": "Build and Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build and Release"
+    },
+    {
+      "context_snippet": "stale issues and pull requests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "stale issues and pull requests"
+    },
+    {
+      "context_snippet": "[![Go Version](https://img.shields.io/badge/go-1.25+-blue.svg)](https://golang.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gopacket"
+    },
+    {
+      "context_snippet": "[![Go Version](https://img.shields.io/badge/go-1.25+-blue.svg)](https://golang.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "paqet"
+    },
+    {
+      "context_snippet": "[![Go Version](https://img.shields.io/badge/go-1.25+-blue.svg)](https://golang.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pcap"
+    },
+    {
+      "context_snippet": "[![Go Version](https://img.shields.io/badge/go-1.25+-blue.svg)](https://golang.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tcpdump"
+    }
+  ]
+}

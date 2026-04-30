@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Python reference implementation of The Update Framework (TUF)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![CI badge](https://github.com/theupdateframework/python-tuf/actions/workflows/ci.yml/badge.svg)](https://github.com/theupdateframework/python-tuf/actions/workflows/ci.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![CI badge](https://github.com/theupdateframework/python-tuf/actions/workflows/ci.yml/badge.svg)](https://github.com/theupdateframework/python-tuf/actions/workflows/ci.yml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30014924,
+      "status": "candidate",
+      "text": "repealing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30014856,
+      "status": "candidate",
+      "text": "revoke"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30014741,
+      "status": "candidate",
+      "text": "cancellation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30014699,
+      "status": "candidate",
+      "text": "rescission"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30014502,
+      "status": "candidate",
+      "text": "annulment"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "revocation",
+      "sense_id": "revocation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "revocation",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "revocation",
+  "observation_id": "c080b05a5ce117b5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "revocation",
+  "source_context_snippet": "[![CI badge](https://github.com/theupdateframework/python-tuf/actions/workflows/ci.yml/badge.svg)](https://github.com/theupdateframework/python-tuf/actions/workflows/ci.yml)",
+  "source_file": null,
+  "source_repo": "theupdateframework/python-tuf",
+  "source_repo_description": "Python reference implementation of The Update Framework (TUF)"
+}

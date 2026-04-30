@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Holochain release dispatch"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "holochain/holochain",
+      "status": "candidate-context",
+      "text": "The current, performant & industrial strength version of Holochain on Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "holochain/holochain",
+      "status": "candidate-context",
+      "text": "\"Holochain release dispatch\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "holochain/holochain",
+      "status": "candidate",
+      "text": "\"Holochain release dispatch\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12238,
+      "status": "candidate",
+      "text": "clearance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12238,
+      "status": "candidate",
+      "text": "dateline"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12238,
+      "status": "candidate",
+      "text": "delivery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12238,
+      "status": "candidate",
+      "text": "distribution"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12238,
+      "status": "candidate",
+      "text": "flash"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Holochain release dispatch",
+  "concept_id": "holochain-release-dispatch",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/release-dispatch.yml",
+      "source_repo": "holochain/holochain"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Holochain release dispatch",
+      "sense_id": "holochain-release-dispatch#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

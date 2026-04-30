@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T18:50:11.541239+00:00",
+  "fetched_files": [
+    {
+      "path": "Cargo.toml",
+      "size": 352
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "not-fl3/sapp-jsutils",
+    "html_url": "https://github.com/not-fl3/sapp-jsutils",
+    "language": "Rust",
+    "pushed_at": "2024-09-10T14:29:16Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2025-07-11T12:31:51Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,125 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "Vimjas/vint",
+      "target": "kuniwak/vint",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "Vimjas/vint",
+      "target": "vim-jp/vim-vimlparser",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Vimjas/vint",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Vimjas/vint",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Vimjas/vint",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Vimjas/vint",
+      "target": "lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Vimjas/vint",
+      "target": "vim-script",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:05:42.687444+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 6661
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 796
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Fast and Highly Extensible Vim script Language Lint implemented in Python.",
+    "fork": false,
+    "full_name": "Vimjas/vint",
+    "html_url": "https://github.com/Vimjas/vint",
+    "language": "Python",
+    "pushed_at": "2023-12-29T07:20:16Z",
+    "stargazers_count": 702,
+    "topics": [
+      "lint",
+      "vim",
+      "vim-script"
+    ],
+    "updated_at": "2026-04-26T10:39:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kuniwak/vint",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vim-jp/vim-vimlparser",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": ".. figure:: https://raw.githubusercontent.com/Kuniwak/vint/logo/logo.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lint"
+    },
+    {
+      "context_snippet": ".. figure:: https://raw.githubusercontent.com/Kuniwak/vint/logo/logo.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-script"
+    }
+  ]
+}

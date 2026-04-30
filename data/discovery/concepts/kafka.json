@@ -295,6 +295,18 @@
       "source_repo": "adidas/api-guidelines",
       "status": "candidate-context",
       "text": "<figure><picture><source srcset=\".gitbook/assets/adidas_company_logo_BWr.png\" media=\"(prefers-color-scheme: dark)\"><img src=\".gitbook/assets/adidas_company_logo_BWp.png\" alt=\"\"></picture><figcaption></figcaption></figure>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "didier-wenzek/ocaml-kafka",
+      "status": "candidate-context",
+      "text": "OCaml bindings for Kafka"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "didier-wenzek/ocaml-kafka",
+      "status": "candidate-context",
+      "text": "OCaml bindings for Kafka"
     }
   ],
   "candidate_glosses": [
@@ -441,6 +453,12 @@
       "source_repo": "adidas/api-guidelines",
       "status": "candidate",
       "text": "<figure><picture><source srcset=\".gitbook/assets/adidas_company_logo_BWr.png\" media=\"(prefers-color-scheme: dark)\"><img src=\".gitbook/assets/adidas_company_logo_BWp.png\" alt=\"\"></picture><figcaption></figcaption></figure>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "didier-wenzek/ocaml-kafka",
+      "status": "candidate",
+      "text": "OCaml bindings for Kafka"
     }
   ],
   "candidate_related_terms": [
@@ -672,11 +690,29 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "adidas/api-guidelines"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "karafka/example-apps"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "karafka/rdkafka-ruby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "didier-wenzek/ocaml-kafka"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

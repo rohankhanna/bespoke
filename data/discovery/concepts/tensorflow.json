@@ -1207,6 +1207,42 @@
       "source_repo": "TimoBolkart/voca",
       "status": "candidate-context",
       "text": "This is an official [VOCA](https://voca.is.tue.mpg.de) repository."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ufoym/deepo",
+      "status": "candidate-context",
+      "text": "Setup and customize deep learning environment in seconds."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ufoym/deepo",
+      "status": "candidate-context",
+      "text": "![deepo](https://user-images.githubusercontent.com/2270240/32102393-aecf573c-bb4e-11e7-811c-dc673cae7b9c.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ksachdeva/rethinking-tensorflow-probability",
+      "status": "candidate-context",
+      "text": "Statistical Rethinking (2nd Ed) with Tensorflow Probability"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ksachdeva/rethinking-tensorflow-probability",
+      "status": "candidate-context",
+      "text": "This repository provides jupyter notebooks that port various R code fragments found in the"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "replicate/cog",
+      "status": "candidate-context",
+      "text": "Containers for machine learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "replicate/cog",
+      "status": "candidate-context",
+      "text": "Cog is an open-source tool that lets you package machine learning models in a standard, production-ready container."
     }
   ],
   "candidate_glosses": [
@@ -1809,6 +1845,24 @@
       "source_repo": "TimoBolkart/voca",
       "status": "candidate",
       "text": "This is an official [VOCA](https://voca.is.tue.mpg.de) repository."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ufoym/deepo",
+      "status": "candidate",
+      "text": "![deepo](https://user-images.githubusercontent.com/2270240/32102393-aecf573c-bb4e-11e7-811c-dc673cae7b9c.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ksachdeva/rethinking-tensorflow-probability",
+      "status": "candidate",
+      "text": "This repository provides jupyter notebooks that port various R code fragments found in the"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "replicate/cog",
+      "status": "candidate",
+      "text": "Cog is an open-source tool that lets you package machine learning models in a standard, production-ready container."
     }
   ],
   "candidate_related_terms": [
@@ -2596,11 +2650,35 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "TimoBolkart/voca"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "nsfw-filter/nsfw-filter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "ufoym/deepo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "ksachdeva/rethinking-tensorflow-probability"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "replicate/cog"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

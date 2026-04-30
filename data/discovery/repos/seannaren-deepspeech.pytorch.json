@@ -1,0 +1,169 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-test.yml"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SeanNaren/deepspeech.pytorch",
+      "target": "pytorchlightning/pytorch-lightning",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SeanNaren/deepspeech.pytorch",
+      "target": "parlance/ctcdecode",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SeanNaren/deepspeech.pytorch",
+      "target": "demiseom/specaugment",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "SeanNaren/deepspeech.pytorch",
+      "target": "parlance/ctcdecode",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-test.yml",
+      "source_repo": "SeanNaren/deepspeech.pytorch",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-test.yml",
+      "source_repo": "SeanNaren/deepspeech.pytorch",
+      "target": "actions/setup-node@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-test.yml",
+      "source_repo": "SeanNaren/deepspeech.pytorch",
+      "target": "ci-test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml",
+      "source_repo": "SeanNaren/deepspeech.pytorch",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml",
+      "source_repo": "SeanNaren/deepspeech.pytorch",
+      "target": "actions/setup-node@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull-request.yml",
+      "source_repo": "SeanNaren/deepspeech.pytorch",
+      "target": "pull-request",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:37:18.365871+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13382
+    },
+    {
+      "path": "Dockerfile",
+      "size": 713
+    },
+    {
+      "path": "requirements.txt",
+      "size": 259
+    },
+    {
+      "path": ".github/workflows/ci-test.yml",
+      "size": 815
+    },
+    {
+      "path": ".github/workflows/pull-request.yml",
+      "size": 828
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Speech Recognition using DeepSpeech2.",
+    "fork": false,
+    "full_name": "SeanNaren/deepspeech.pytorch",
+    "html_url": "https://github.com/SeanNaren/deepspeech.pytorch",
+    "language": "Python",
+    "pushed_at": "2022-12-13T15:05:51Z",
+    "stargazers_count": 2137,
+    "topics": [],
+    "updated_at": "2026-04-22T09:52:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "demiseom/specaugment",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "parlance/ctcdecode",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pytorchlightning/pytorch-lightning",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "parlance/ctcdecode",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "ci-test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-test.yml",
+      "term": "ci-test"
+    },
+    {
+      "context_snippet": "pull-request",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull-request.yml",
+      "term": "pull-request"
+    }
+  ]
+}

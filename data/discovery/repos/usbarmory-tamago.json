@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "usbarmory/tamago",
+      "target": "aifoundry-org/et-platform",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "usbarmory/tamago",
+      "target": "usbarmory/armory-drive",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "usbarmory/tamago",
+      "target": "usbarmory/armory-boot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "usbarmory/tamago",
+      "target": "abarisani/abarisani.github.io",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:51:30.863446+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19134
+    },
+    {
+      "path": "go.mod",
+      "size": 46
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "TamaGo - bare metal Go",
+    "fork": false,
+    "full_name": "usbarmory/tamago",
+    "html_url": "https://github.com/usbarmory/tamago",
+    "language": "Go",
+    "pushed_at": "2026-04-30T13:17:15Z",
+    "stargazers_count": 1928,
+    "topics": [],
+    "updated_at": "2026-04-30T05:38:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abarisani/abarisani.github.io",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aifoundry-org/et-platform",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "usbarmory/armory-boot",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "usbarmory/armory-drive",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

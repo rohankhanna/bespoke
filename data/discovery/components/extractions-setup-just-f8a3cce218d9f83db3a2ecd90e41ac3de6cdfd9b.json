@@ -1,7 +1,7 @@
 {
   "component": "extractions/setup-just@f8a3cce218d9f83db3a2ecd90e41ac3de6cdfd9b",
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

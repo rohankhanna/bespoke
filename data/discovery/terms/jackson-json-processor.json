@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "sources": [
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "michel-kraemer/bson4jackson"
+    }
+  ],
+  "term": "jackson-json-processor"
+}

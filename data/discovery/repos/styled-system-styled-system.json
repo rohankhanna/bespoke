@@ -1,0 +1,447 @@
+{
+  "components": [
+    {
+      "component": "react-scripts",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/core",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/plugin-transform-runtime",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/preset-env",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/preset-react",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/register",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "husky",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest-emotion",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lerna",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lint-staged",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-test-renderer",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "styled-system/styled-system",
+      "target": "priceline/design-system",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "styled-system/styled-system",
+      "target": "jmhobbs/cultofthepartyparrot.com",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "styled-system/styled-system",
+      "target": "mrmrs/elements",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "styled-system/styled-system",
+      "target": "broccolini/react-website-starter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "styled-system/styled-system",
+      "target": "react-scripts",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "styled-system/styled-system",
+      "target": "@babel/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "styled-system/styled-system",
+      "target": "@babel/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "styled-system/styled-system",
+      "target": "@babel/plugin-transform-runtime",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "styled-system/styled-system",
+      "target": "@babel/preset-env",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "styled-system/styled-system",
+      "target": "@babel/preset-react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "styled-system/styled-system",
+      "target": "@babel/register",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "styled-system/styled-system",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "styled-system/styled-system",
+      "target": "jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "styled-system/styled-system",
+      "target": "jest-emotion",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "styled-system/styled-system",
+      "target": "lerna",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "styled-system/styled-system",
+      "target": "lint-staged",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "styled-system/styled-system",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "styled-system/styled-system",
+      "target": "react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "styled-system/styled-system",
+      "target": "react-test-renderer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "styled-system/styled-system",
+      "target": "colors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "styled-system/styled-system",
+      "target": "css-in-js",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "styled-system/styled-system",
+      "target": "design-systems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "styled-system/styled-system",
+      "target": "emotion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "styled-system/styled-system",
+      "target": "layout",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "styled-system/styled-system",
+      "target": "react",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "styled-system/styled-system",
+      "target": "responsive",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "styled-system/styled-system",
+      "target": "style-props",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "styled-system/styled-system",
+      "target": "styled-components",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "styled-system/styled-system",
+      "target": "styling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "styled-system/styled-system",
+      "target": "theming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "styled-system/styled-system",
+      "target": "tokens",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "styled-system/styled-system",
+      "target": "typography",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:52:53.666410+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7540
+    },
+    {
+      "path": "package.json",
+      "size": 2178
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u2b22 Style props for rapid UI development",
+    "fork": false,
+    "full_name": "styled-system/styled-system",
+    "html_url": "https://github.com/styled-system/styled-system",
+    "language": "JavaScript",
+    "pushed_at": "2024-01-12T19:55:49Z",
+    "stargazers_count": 7871,
+    "topics": [
+      "colors",
+      "css",
+      "css-in-js",
+      "design-systems",
+      "emotion",
+      "layout",
+      "react",
+      "responsive",
+      "style-props",
+      "styled-components",
+      "styling",
+      "theming",
+      "tokens",
+      "typography"
+    ],
+    "updated_at": "2026-04-27T06:16:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "broccolini/react-website-starter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jmhobbs/cultofthepartyparrot.com",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mrmrs/elements",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "priceline/design-system",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img src='https://styled-system.com/logo.svg' width='128' height='128' />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "colors"
+    },
+    {
+      "context_snippet": "<img src='https://styled-system.com/logo.svg' width='128' height='128' />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "css-in-js"
+    },
+    {
+      "context_snippet": "<img src='https://styled-system.com/logo.svg' width='128' height='128' />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "design-systems"
+    },
+    {
+      "context_snippet": "<img src='https://styled-system.com/logo.svg' width='128' height='128' />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emotion"
+    },
+    {
+      "context_snippet": "<img src='https://styled-system.com/logo.svg' width='128' height='128' />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "layout"
+    },
+    {
+      "context_snippet": "<img src='https://styled-system.com/logo.svg' width='128' height='128' />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "react"
+    },
+    {
+      "context_snippet": "<img src='https://styled-system.com/logo.svg' width='128' height='128' />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "responsive"
+    },
+    {
+      "context_snippet": "<img src='https://styled-system.com/logo.svg' width='128' height='128' />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "style-props"
+    },
+    {
+      "context_snippet": "<img src='https://styled-system.com/logo.svg' width='128' height='128' />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "styled-components"
+    },
+    {
+      "context_snippet": "<img src='https://styled-system.com/logo.svg' width='128' height='128' />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "styling"
+    },
+    {
+      "context_snippet": "<img src='https://styled-system.com/logo.svg' width='128' height='128' />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "theming"
+    },
+    {
+      "context_snippet": "<img src='https://styled-system.com/logo.svg' width='128' height='128' />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tokens"
+    },
+    {
+      "context_snippet": "<img src='https://styled-system.com/logo.svg' width='128' height='128' />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "typography"
+    }
+  ]
+}

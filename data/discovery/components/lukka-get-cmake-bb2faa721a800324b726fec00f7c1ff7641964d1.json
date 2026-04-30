@@ -1,0 +1,17 @@
+{
+  "component": "lukka/get-cmake@bb2faa721a800324b726fec00f7c1ff7641964d1",
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/continuous_deployment.yml",
+      "source_repo": "DiligentGraphics/glslang"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/continuous_integration.yml",
+      "source_repo": "DiligentGraphics/glslang"
+    }
+  ]
+}

@@ -1,0 +1,342 @@
+{
+  "components": [
+    {
+      "component": "@bazel/bazelisk",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@bazel/buildifier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@bazel/buildozer",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@commitlint/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@commitlint/config-conventional",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "conventional-changelog-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildifier.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "bazel-contrib/setup-bazel@0.18.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "amannn/action-semantic-pull-request@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conventional-commits.yaml"
+    },
+    {
+      "component": "bazel-contrib/publish-to-bcr/.github/workflows/publish.yaml@v1.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "bazel-contrib/.github/.github/workflows/release_ruleset.yaml@v7.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag.yaml"
+    },
+    {
+      "component": "smlx/ccv@7318e2f25a52dcd550e75384b84983973251a1f8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bazel-contrib/rules_nodejs",
+      "target": "@bazel/bazelisk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bazel-contrib/rules_nodejs",
+      "target": "@bazel/buildifier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bazel-contrib/rules_nodejs",
+      "target": "@bazel/buildozer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bazel-contrib/rules_nodejs",
+      "target": "@commitlint/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bazel-contrib/rules_nodejs",
+      "target": "@commitlint/config-conventional",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bazel-contrib/rules_nodejs",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bazel-contrib/rules_nodejs",
+      "target": "conventional-changelog-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildifier.yaml",
+      "source_repo": "bazel-contrib/rules_nodejs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/buildifier.yaml",
+      "source_repo": "bazel-contrib/rules_nodejs",
+      "target": "Buildifier",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "bazel-contrib/rules_nodejs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "bazel-contrib/rules_nodejs",
+      "target": "bazel-contrib/setup-bazel@0.18.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conventional-commits.yaml",
+      "source_repo": "bazel-contrib/rules_nodejs",
+      "target": "amannn/action-semantic-pull-request@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "bazel-contrib/rules_nodejs",
+      "target": "bazel-contrib/publish-to-bcr/.github/workflows/publish.yaml@v1.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "bazel-contrib/rules_nodejs",
+      "target": "bazel-contrib/.github/.github/workflows/release_ruleset.yaml@v7.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "bazel-contrib/rules_nodejs",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag.yaml",
+      "source_repo": "bazel-contrib/rules_nodejs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag.yaml",
+      "source_repo": "bazel-contrib/rules_nodejs",
+      "target": "smlx/ccv@7318e2f25a52dcd550e75384b84983973251a1f8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tag.yaml",
+      "source_repo": "bazel-contrib/rules_nodejs",
+      "target": "Tag a Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bazel-contrib/rules_nodejs",
+      "target": "aspect-build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bazel-contrib/rules_nodejs",
+      "target": "bazel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bazel-contrib/rules_nodejs",
+      "target": "bazel-rules",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bazel-contrib/rules_nodejs",
+      "target": "nodejs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:46:39.404573+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1446
+    },
+    {
+      "path": "package.json",
+      "size": 947
+    },
+    {
+      "path": ".github/workflows/buildifier.yaml",
+      "size": 471
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 721
+    },
+    {
+      "path": ".github/workflows/conventional-commits.yaml",
+      "size": 328
+    },
+    {
+      "path": ".github/workflows/publish.yaml",
+      "size": 1030
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 821
+    },
+    {
+      "path": ".github/workflows/release_docs.sh",
+      "size": 528
+    },
+    {
+      "path": ".github/workflows/release_prep.sh",
+      "size": 1358
+    },
+    {
+      "path": ".github/workflows/tag.yaml",
+      "size": 1641
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "NodeJS toolchain for Bazel.",
+    "fork": false,
+    "full_name": "bazel-contrib/rules_nodejs",
+    "html_url": "https://github.com/bazel-contrib/rules_nodejs",
+    "language": "Starlark",
+    "pushed_at": "2026-04-17T04:40:19Z",
+    "stargazers_count": 759,
+    "topics": [
+      "aspect-build",
+      "bazel",
+      "bazel-rules",
+      "nodejs"
+    ],
+    "updated_at": "2026-04-17T04:40:22Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Buildifier",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/buildifier.yaml",
+      "term": "Buildifier"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Tag a Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tag.yaml",
+      "term": "Tag a Release"
+    },
+    {
+      "context_snippet": "[![Build status](https://badge.buildkite.com/af1a592b39b11923ef0f523cbb223dd3dbd61629f8bc813c07.svg?branch=stable)](https://buildkite.com/bazel/nodejs-rules-nodejs-postsubmit)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aspect-build"
+    },
+    {
+      "context_snippet": "[![Build status](https://badge.buildkite.com/af1a592b39b11923ef0f523cbb223dd3dbd61629f8bc813c07.svg?branch=stable)](https://buildkite.com/bazel/nodejs-rules-nodejs-postsubmit)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bazel"
+    },
+    {
+      "context_snippet": "[![Build status](https://badge.buildkite.com/af1a592b39b11923ef0f523cbb223dd3dbd61629f8bc813c07.svg?branch=stable)](https://buildkite.com/bazel/nodejs-rules-nodejs-postsubmit)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bazel-rules"
+    },
+    {
+      "context_snippet": "[![Build status](https://badge.buildkite.com/af1a592b39b11923ef0f523cbb223dd3dbd61629f8bc813c07.svg?branch=stable)](https://buildkite.com/bazel/nodejs-rules-nodejs-postsubmit)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    }
+  ]
+}

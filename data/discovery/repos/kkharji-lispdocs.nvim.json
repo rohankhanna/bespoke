@@ -1,0 +1,83 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2.3.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v12",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "EndBug/add-and-commit@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "kkharji/lispdocs.nvim",
+      "target": "actions/checkout@v2.3.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "kkharji/lispdocs.nvim",
+      "target": "cachix/install-nix-action@v12",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "kkharji/lispdocs.nvim",
+      "target": "EndBug/add-and-commit@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "kkharji/lispdocs.nvim",
+      "target": "Build",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:41:10.086796+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1685
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 355
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "https://clojuredocs.org examples and notes, instantly under your finger tips ",
+    "fork": false,
+    "full_name": "kkharji/lispdocs.nvim",
+    "html_url": "https://github.com/kkharji/lispdocs.nvim",
+    "language": "Lua",
+    "pushed_at": "2022-07-05T07:48:54Z",
+    "stargazers_count": 45,
+    "topics": [],
+    "updated_at": "2026-01-28T18:47:09Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"Build\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    }
+  ]
+}

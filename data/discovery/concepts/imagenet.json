@@ -151,6 +151,18 @@
       "source_repo": "apple/ml-cvnets",
       "status": "candidate-context",
       "text": "CVNets is a computer vision toolkit that allows researchers and engineers to train standard and novel mobile-"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HRNet/HRNet-Image-Classification",
+      "status": "candidate-context",
+      "text": "Train the HRNet model on ImageNet"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HRNet/HRNet-Image-Classification",
+      "status": "candidate-context",
+      "text": "- [2021/01/20] Add some stronger ImageNet pretrained models, e.g., the HRNet_W48_C_ssld_pretrained.pth achieved top-1 acc 83.6%."
     }
   ],
   "candidate_glosses": [
@@ -225,6 +237,12 @@
       "source_repo": "apple/ml-cvnets",
       "status": "candidate",
       "text": "CVNets is a computer vision toolkit that allows researchers and engineers to train standard and novel mobile-"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HRNet/HRNet-Image-Classification",
+      "status": "candidate",
+      "text": "- [2021/01/20] Add some stronger ImageNet pretrained models, e.g., the HRNet_W48_C_ssld_pretrained.pth achieved top-1 acc 83.6%."
     }
   ],
   "candidate_related_terms": [
@@ -400,11 +418,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "apple/ml-cvnets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "HRNet/HRNet-Image-Classification"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

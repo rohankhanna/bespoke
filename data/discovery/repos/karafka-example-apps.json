@@ -70,13 +70,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "karafka/example-apps",
-      "target": "karafka/karafka-web",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "karafka/example-apps",
@@ -161,7 +154,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T14:54:31.905283+00:00",
+  "fetched_at": "2026-04-30T19:51:42.449845+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -205,11 +198,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "karafka/example-app",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "karafka/karafka-web",
       "source_file": "README.md"
     }
   ],

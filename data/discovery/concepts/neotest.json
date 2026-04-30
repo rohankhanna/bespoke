@@ -19,6 +19,30 @@
       "source_repo": "alfaix/neotest-gtest",
       "status": "candidate-context",
       "text": "![CI status](https://github.com/alfaix/neotest-gtest/actions/workflows/workflow.yaml/badge.svg?event=push)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "benelan/neotest-stenciljs",
+      "status": "candidate-context",
+      "text": "An unofficial StencilJS adapter for the \"neotest\" nvim plugin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "benelan/neotest-stenciljs",
+      "status": "candidate-context",
+      "text": "This plugin provides a [StencilJS](https://stenciljs.com) adapter for the"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fredrikaverpil/neotest-golang",
+      "status": "candidate-context",
+      "text": "Reliable Neotest adapter for running Go tests in Neovim."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fredrikaverpil/neotest-golang",
+      "status": "candidate-context",
+      "text": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/fredrikaverpil/neotest-golang)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "alfaix/neotest-gtest",
       "status": "candidate",
       "text": "![CI status](https://github.com/alfaix/neotest-gtest/actions/workflows/workflow.yaml/badge.svg?event=push)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "benelan/neotest-stenciljs",
+      "status": "candidate",
+      "text": "This plugin provides a [StencilJS](https://stenciljs.com) adapter for the"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fredrikaverpil/neotest-golang",
+      "status": "candidate",
+      "text": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/fredrikaverpil/neotest-golang)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "alfaix/neotest-gtest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "benelan/neotest-stenciljs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "fredrikaverpil/neotest-golang"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

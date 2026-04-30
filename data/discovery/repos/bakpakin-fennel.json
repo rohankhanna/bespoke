@@ -1,0 +1,73 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bakpakin/Fennel",
+      "target": "compiler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bakpakin/Fennel",
+      "target": "language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bakpakin/Fennel",
+      "target": "lisp",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:05:50.331851+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5751
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Lua Lisp Language",
+    "fork": false,
+    "full_name": "bakpakin/Fennel",
+    "html_url": "https://github.com/bakpakin/Fennel",
+    "language": "Fennel",
+    "pushed_at": "2026-02-08T04:40:28Z",
+    "stargazers_count": 2727,
+    "topics": [
+      "compiler",
+      "language",
+      "lisp",
+      "lua"
+    ],
+    "updated_at": "2026-04-29T03:58:04Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[Fennel][1] is a lisp that compiles to Lua. It aims to be easy to use,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compiler"
+    },
+    {
+      "context_snippet": "[Fennel][1] is a lisp that compiles to Lua. It aims to be easy to use,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language"
+    },
+    {
+      "context_snippet": "[Fennel][1] is a lisp that compiles to Lua. It aims to be easy to use,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lisp"
+    }
+  ]
+}

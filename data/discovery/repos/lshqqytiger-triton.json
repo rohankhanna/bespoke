@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lshqqytiger/triton",
+      "target": "srush/triton-puzzles",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:43:51.640521+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15063
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 984
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Development repository for the Triton language and compiler",
+    "fork": true,
+    "full_name": "lshqqytiger/triton",
+    "html_url": "https://github.com/lshqqytiger/triton",
+    "language": "MLIR",
+    "pushed_at": "2025-08-15T12:13:01Z",
+    "stargazers_count": 31,
+    "topics": [],
+    "updated_at": "2026-04-16T06:37:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "srush/triton-puzzles",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

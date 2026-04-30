@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T18:44:43.607564+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6464
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Cross-platform COM interop library for .NET Core 2.1 or newer",
+    "fork": false,
+    "full_name": "Const-me/ComLightInterop",
+    "html_url": "https://github.com/Const-me/ComLightInterop",
+    "language": "C#",
+    "pushed_at": "2026-04-08T22:23:55Z",
+    "stargazers_count": 55,
+    "topics": [],
+    "updated_at": "2026-02-20T22:17:12Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

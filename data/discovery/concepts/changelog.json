@@ -586,6 +586,18 @@
       "source_repo": "smithy-lang/smithy",
       "status": "candidate-context",
       "text": "changelog"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "argoproj/argo-events",
+      "status": "candidate-context",
+      "text": "Event-driven Automation Framework for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj/argo-events",
+      "status": "candidate-context",
+      "text": "Changelog"
     }
   ],
   "candidate_glosses": [
@@ -876,6 +888,12 @@
       "source_repo": "smithy-lang/smithy",
       "status": "candidate",
       "text": "changelog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj/argo-events",
+      "status": "candidate",
+      "text": "Changelog"
     }
   ],
   "candidate_related_terms": [
@@ -1309,11 +1327,29 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/changelog-ci.yml",
       "source_repo": "smithy-lang/smithy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/changelog.yaml",
+      "source_repo": "argoproj/argo-events"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "conventional-changelog/conventional-changelog"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "ipfs/kubo"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

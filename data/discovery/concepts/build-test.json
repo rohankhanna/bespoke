@@ -6,7 +6,8 @@
     "Build test",
     "Build, Test",
     "Build&Test",
-    "build & test"
+    "build & test",
+    "Build & test"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -499,6 +500,18 @@
       "source_repo": "mruby/mruby",
       "status": "candidate-context",
       "text": "Build & Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Jakuje/virt_cacard",
+      "status": "candidate-context",
+      "text": "Virtual CAC using libcacard, virtualsmartcard's vpcd and softhsm2 to provide PCSC accessible virtual smart card."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jakuje/virt_cacard",
+      "status": "candidate-context",
+      "text": "Build & test"
     }
   ],
   "candidate_glosses": [
@@ -753,6 +766,12 @@
       "source_repo": "mruby/mruby",
       "status": "candidate",
       "text": "Build & Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jakuje/virt_cacard",
+      "status": "candidate",
+      "text": "Build & test"
     }
   ],
   "candidate_related_terms": [
@@ -1312,11 +1331,35 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "mruby/mruby"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "gobackup/gobackup"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "Jakuje/virt_cacard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "facebook/create-react-app"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

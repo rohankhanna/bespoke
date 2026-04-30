@@ -1,7 +1,8 @@
 {
   "aliases": [
     "SonarCloud",
-    "sonarcloud"
+    "sonarcloud",
+    "Sonarcloud"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -94,6 +95,18 @@
       "source_repo": "SonarSource/sonar-java",
       "status": "candidate-context",
       "text": "Code Quality and Security for Java [![Build Status](https://github.com/SonarSource/sonar-java/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/SonarSource/sonar-java/actions/workflows/build.yml) [![Quality Gate](https://next.sonarqube.com/sonarqube/api/pr\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spacemeshos/app-spacemesh",
+      "status": "candidate-context",
+      "text": "Spacemesh app for Ledger Wallet"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spacemeshos/app-spacemesh",
+      "status": "candidate-context",
+      "text": "Sonarcloud"
     }
   ],
   "candidate_glosses": [
@@ -138,6 +151,12 @@
       "source_repo": "SonarSource/sonar-java",
       "status": "candidate",
       "text": "Code Quality and Security for Java [![Build Status](https://github.com/SonarSource/sonar-java/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/SonarSource/sonar-java/actions/workflows/build.yml) [![Quality Gate](https://next.sonarqube.com/sonarqube/api/pr\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spacemeshos/app-spacemesh",
+      "status": "candidate",
+      "text": "Sonarcloud"
     }
   ],
   "candidate_related_terms": [],
@@ -187,11 +206,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "SonarSource/sonar-java"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/sonarcloud.yml",
+      "source_repo": "spacemeshos/app-spacemesh"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

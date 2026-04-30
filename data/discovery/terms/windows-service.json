@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -11,6 +11,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "jenkinsci/winsw-maven-packaging"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build-windows-service.yml",
+      "source_repo": "getlantern/lantern"
     }
   ],
   "term": "windows-service"

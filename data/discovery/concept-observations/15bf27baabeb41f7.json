@@ -84,7 +84,7 @@
   "normalized_form": "require-pr-label",
   "observation_id": "15bf27baabeb41f7",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
   "observed_text": "Require PR label",
   "source_context_snippet": "Require PR label",
   "source_file": ".github/workflows/require-pr-label.yml",

@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "VNC client web application"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Translate"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Translate"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40044345,
+      "status": "candidate",
+      "text": "interpret"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040274,
+      "status": "candidate",
+      "text": "read"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028696,
+      "status": "candidate",
+      "text": "transform"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028158,
+      "status": "candidate",
+      "text": "understand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30046488,
+      "status": "candidate",
+      "text": "translation"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Translate",
+      "sense_id": "translate#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28037,
+      "status": "candidate",
+      "text": "understand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27042,
+      "status": "candidate",
+      "text": "transform"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22040,
+      "status": "candidate",
+      "text": "interpret"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11056,
+      "status": "candidate",
+      "text": "read"
+    }
+  ],
+  "concept_id": "translate",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "translate",
+  "observation_id": "d28924969232a054",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "Translate",
+  "source_context_snippet": "Translate",
+  "source_file": ".github/workflows/translate.yml",
+  "source_repo": "novnc/noVNC",
+  "source_repo_description": "VNC client web application"
+}

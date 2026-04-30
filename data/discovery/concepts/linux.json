@@ -1888,6 +1888,66 @@
       "source_repo": "hazelcast/hazelcast-cpp-client",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MilesCranmer/PySR",
+      "status": "candidate-context",
+      "text": "High-Performance Symbolic Regression in Python and Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MilesCranmer/PySR",
+      "status": "candidate-context",
+      "text": "Linux"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Alexays/Waybar",
+      "status": "candidate-context",
+      "text": "Highly customizable Wayland bar for Sway and Wlroots based compositors. :v: :tada:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alexays/Waybar",
+      "status": "candidate-context",
+      "text": "linux"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebook/fbthrift",
+      "status": "candidate-context",
+      "text": "Facebook's branch of Apache Thrift, including a new C++ server."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/fbthrift",
+      "status": "candidate-context",
+      "text": "linux"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexcrichton/ssh2-rs",
+      "status": "candidate-context",
+      "text": "Rust bindings for libssh2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexcrichton/ssh2-rs",
+      "status": "candidate-context",
+      "text": "linux"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "drduh/Router-Guide",
+      "status": "candidate-context",
+      "text": "Guide to building a Linux or BSD router on the PC Engines APU platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drduh/Router-Guide",
+      "status": "candidate-context",
+      "text": "**Important** After many years of service, the PC Engines APU platform is now [EOL](https://www.pcengines.ch/eol.htm)."
     }
   ],
   "candidate_glosses": [
@@ -2844,6 +2904,36 @@
       "source_repo": "hazelcast/hazelcast-cpp-client",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MilesCranmer/PySR",
+      "status": "candidate",
+      "text": "Linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alexays/Waybar",
+      "status": "candidate",
+      "text": "linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/fbthrift",
+      "status": "candidate",
+      "text": "linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexcrichton/ssh2-rs",
+      "status": "candidate",
+      "text": "linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drduh/Router-Guide",
+      "status": "candidate",
+      "text": "**Important** After many years of service, the PC Engines APU platform is now [EOL](https://www.pcengines.ch/eol.htm)."
     }
   ],
   "candidate_related_terms": [
@@ -4207,11 +4297,71 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "MilesCranmer/PySR"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "alacritty/alacritty"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "Alexays/Waybar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "XAMPPRocky/tokei"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-fern"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/getdeps_linux.yml",
+      "source_repo": "facebook/fbthrift"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "alexcrichton/ssh2-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "drduh/Router-Guide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

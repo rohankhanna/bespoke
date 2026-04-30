@@ -1,0 +1,139 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HRNet/HRNet-Image-Classification",
+      "target": "leoxiaobin/deep-high-resolution-net.pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HRNet/HRNet-Image-Classification",
+      "target": "hrnet/hrnet-semantic-segmentation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HRNet/HRNet-Image-Classification",
+      "target": "hrnet/hrnet-object-detection",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HRNet/HRNet-Image-Classification",
+      "target": "hrnet/hrnet-facial-landmark-detection",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HRNet/HRNet-Image-Classification",
+      "target": "high-resolution-net",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HRNet/HRNet-Image-Classification",
+      "target": "hrnets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HRNet/HRNet-Image-Classification",
+      "target": "image-classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HRNet/HRNet-Image-Classification",
+      "target": "imagenet",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:42:02.885342+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7118
+    },
+    {
+      "path": "requirements.txt",
+      "size": 135
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Train the HRNet model on ImageNet",
+    "fork": false,
+    "full_name": "HRNet/HRNet-Image-Classification",
+    "html_url": "https://github.com/HRNet/HRNet-Image-Classification",
+    "language": "Python",
+    "pushed_at": "2021-12-02T05:55:54Z",
+    "stargazers_count": 1053,
+    "topics": [
+      "high-resolution-net",
+      "hrnets",
+      "image-classification",
+      "imagenet"
+    ],
+    "updated_at": "2026-04-25T19:10:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hrnet/hrnet-facial-landmark-detection",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hrnet/hrnet-object-detection",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hrnet/hrnet-semantic-segmentation",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "leoxiaobin/deep-high-resolution-net.pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "- [2021/01/20] Add some stronger ImageNet pretrained models, e.g., the HRNet_W48_C_ssld_pretrained.pth achieved top-1 acc 83.6%.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "high-resolution-net"
+    },
+    {
+      "context_snippet": "- [2021/01/20] Add some stronger ImageNet pretrained models, e.g., the HRNet_W48_C_ssld_pretrained.pth achieved top-1 acc 83.6%.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hrnets"
+    },
+    {
+      "context_snippet": "- [2021/01/20] Add some stronger ImageNet pretrained models, e.g., the HRNet_W48_C_ssld_pretrained.pth achieved top-1 acc 83.6%.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-classification"
+    },
+    {
+      "context_snippet": "- [2021/01/20] Add some stronger ImageNet pretrained models, e.g., the HRNet_W48_C_ssld_pretrained.pth achieved top-1 acc 83.6%.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "imagenet"
+    }
+  ]
+}

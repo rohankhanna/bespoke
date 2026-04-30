@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build and deploy Hadolint Online"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hadolint/hadolint",
+      "status": "candidate-context",
+      "text": "Dockerfile linter, validate inline bash, written in Haskell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hadolint/hadolint",
+      "status": "candidate-context",
+      "text": "Build and deploy Hadolint Online"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hadolint/hadolint",
+      "status": "candidate",
+      "text": "Build and deploy Hadolint Online"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20220,
+      "status": "candidate",
+      "text": "implemented"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20220,
+      "status": "candidate",
+      "text": "set"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20169,
+      "status": "candidate",
+      "text": "use"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19789,
+      "status": "candidate",
+      "text": "manoeuvre"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19582,
+      "status": "candidate",
+      "text": "orchestrate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build and deploy Hadolint Online",
+  "concept_id": "build-and-deploy-hadolint-online",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "hadolint/hadolint"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build and deploy Hadolint Online",
+      "sense_id": "build-and-deploy-hadolint-online#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

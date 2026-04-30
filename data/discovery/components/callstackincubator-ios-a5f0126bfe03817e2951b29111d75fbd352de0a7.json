@@ -1,0 +1,12 @@
+{
+  "component": "callstackincubator/ios@a5f0126bfe03817e2951b29111d75fbd352de0a7",
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e-metro.yml",
+      "source_repo": "module-federation/core"
+    }
+  ]
+}

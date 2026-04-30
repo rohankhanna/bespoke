@@ -43,6 +43,18 @@
       "source_repo": "alexpasmantier/television",
       "status": "candidate-context",
       "text": "CD # Continuous Deployment"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akiomik/mado",
+      "status": "candidate-context",
+      "text": "A fast Markdown linter written in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akiomik/mado",
+      "status": "candidate-context",
+      "text": "CD # Continuous Deployment"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +73,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "alexpasmantier/television",
+      "status": "candidate",
+      "text": "CD # Continuous Deployment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akiomik/mado",
       "status": "candidate",
       "text": "CD # Continuous Deployment"
     }
@@ -124,11 +142,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/cd.yml",
       "source_repo": "alexpasmantier/television"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "akiomik/mado"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

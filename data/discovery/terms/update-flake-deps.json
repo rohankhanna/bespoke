@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/flake-update.yml",
+      "source_repo": "90-008/nix-cargo-integration"
+    }
+  ],
+  "term": "Update Flake Deps"
+}

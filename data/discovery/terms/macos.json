@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:57:17.167988+00:00",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -806,6 +806,26 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "sparkle-project/Sparkle"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ronaldoussoren/pyobjc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "alexcrichton/ssh2-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "drduh/macOS-Security-and-Privacy-Guide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "nikitabobko/brew-install-path"
     }
   ],
   "term": "macos"

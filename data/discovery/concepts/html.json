@@ -583,6 +583,30 @@
       "source_repo": "Adobe-CEP/Getting-Started-guides",
       "status": "candidate-context",
       "text": "Getting Started guides and samples for CEP extensions"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DioxusLabs/dioxus",
+      "status": "candidate-context",
+      "text": "Fullstack app framework for web, desktop, and mobile."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DioxusLabs/dioxus",
+      "status": "candidate-context",
+      "text": "<p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "novnc/noVNC",
+      "status": "candidate-context",
+      "text": "VNC client web application"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "novnc/noVNC",
+      "status": "candidate-context",
+      "text": "[![Test Status](https://github.com/novnc/noVNC/workflows/Test/badge.svg)](https://github.com/novnc/noVNC/actions?query=workflow%3ATest)"
     }
   ],
   "candidate_glosses": [
@@ -873,6 +897,18 @@
       "source_repo": "Adobe-CEP/Getting-Started-guides",
       "status": "candidate",
       "text": "Getting Started guides and samples for CEP extensions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DioxusLabs/dioxus",
+      "status": "candidate",
+      "text": "<p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "novnc/noVNC",
+      "status": "candidate",
+      "text": "[![Test Status](https://github.com/novnc/noVNC/workflows/Test/badge.svg)](https://github.com/novnc/noVNC/actions?query=workflow%3ATest)"
     }
   ],
   "candidate_related_terms": [
@@ -1272,11 +1308,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "Adobe-CEP/Getting-Started-guides"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "DioxusLabs/dioxus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "novnc/noVNC"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

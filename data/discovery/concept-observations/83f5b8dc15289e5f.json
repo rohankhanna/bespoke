@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "MD5 hash function"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "The package provides the [MD5] hash function."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "The package provides the [MD5] hash function."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31427,
+      "status": "candidate",
+      "text": "algorithmic program"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31427,
+      "status": "candidate",
+      "text": "algorithmic rule"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31425,
+      "status": "candidate",
+      "text": "routines"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31424,
+      "status": "candidate",
+      "text": "processes"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31423,
+      "status": "candidate",
+      "text": "recipes"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "algorithms",
+      "sense_id": "algorithms#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "algorithms",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "algorithms",
+  "observation_id": "83f5b8dc15289e5f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "algorithms",
+  "source_context_snippet": "The package provides the [MD5] hash function.",
+  "source_file": null,
+  "source_repo": "stainless-steel/md5",
+  "source_repo_description": "MD5 hash function"
+}

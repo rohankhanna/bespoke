@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NaJeongMo/Colab-for-MDX_B",
+      "target": "tsurumeso/vocal-remover",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:37:14.751858+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1706
+    },
+    {
+      "path": "requirements.txt",
+      "size": 169
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Colaboratory Notebook for MDX Model B",
+    "fork": false,
+    "full_name": "NaJeongMo/Colab-for-MDX_B",
+    "html_url": "https://github.com/NaJeongMo/Colab-for-MDX_B",
+    "language": "Python",
+    "pushed_at": "2025-04-17T17:26:11Z",
+    "stargazers_count": 18,
+    "topics": [],
+    "updated_at": "2026-03-15T13:55:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tsurumeso/vocal-remover",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

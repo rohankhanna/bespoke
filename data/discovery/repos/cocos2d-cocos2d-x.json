@@ -1,0 +1,247 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cocos2d/cocos2d-x",
+      "target": "cocos/cocos-engine",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "cocos2d/cocos2d-x",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cocos2d/cocos2d-x",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cocos2d/cocos2d-x",
+      "target": "c-plus-plus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cocos2d/cocos2d-x",
+      "target": "cocos2d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cocos2d/cocos2d-x",
+      "target": "cocos2d-x",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cocos2d/cocos2d-x",
+      "target": "game-development",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cocos2d/cocos2d-x",
+      "target": "game-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cocos2d/cocos2d-x",
+      "target": "gamedev",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cocos2d/cocos2d-x",
+      "target": "linx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cocos2d/cocos2d-x",
+      "target": "metal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cocos2d/cocos2d-x",
+      "target": "windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:45:24.532322+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8369
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 3298
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "v4",
+    "description": "Cocos2d-x is a suite of open-source, cross-platform, game-development tools utilized by millions of developers across the globe. Its core has evolved to serve as the foundation for Cocos Creator 1.x & 2.x.",
+    "fork": false,
+    "full_name": "cocos2d/cocos2d-x",
+    "html_url": "https://github.com/cocos2d/cocos2d-x",
+    "language": "C++",
+    "pushed_at": "2025-05-09T03:36:03Z",
+    "stargazers_count": 19008,
+    "topics": [
+      "android",
+      "c-plus-plus",
+      "cocos2d",
+      "cocos2d-x",
+      "game-development",
+      "game-engine",
+      "gamedev",
+      "ios",
+      "linx",
+      "lua",
+      "metal",
+      "windows"
+    ],
+    "updated_at": "2026-04-30T18:19:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cocos/cocos-engine",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img src=\"http://www.cocos2d-x.org/attachments/801/cocos2dx_portrait.png\" width=200>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "<img src=\"http://www.cocos2d-x.org/attachments/801/cocos2dx_portrait.png\" width=200>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus"
+    },
+    {
+      "context_snippet": "<img src=\"http://www.cocos2d-x.org/attachments/801/cocos2dx_portrait.png\" width=200>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cocos2d"
+    },
+    {
+      "context_snippet": "<img src=\"http://www.cocos2d-x.org/attachments/801/cocos2dx_portrait.png\" width=200>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cocos2d-x"
+    },
+    {
+      "context_snippet": "<img src=\"http://www.cocos2d-x.org/attachments/801/cocos2dx_portrait.png\" width=200>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "game-development"
+    },
+    {
+      "context_snippet": "<img src=\"http://www.cocos2d-x.org/attachments/801/cocos2dx_portrait.png\" width=200>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "game-engine"
+    },
+    {
+      "context_snippet": "<img src=\"http://www.cocos2d-x.org/attachments/801/cocos2dx_portrait.png\" width=200>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gamedev"
+    },
+    {
+      "context_snippet": "<img src=\"http://www.cocos2d-x.org/attachments/801/cocos2dx_portrait.png\" width=200>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linx"
+    },
+    {
+      "context_snippet": "<img src=\"http://www.cocos2d-x.org/attachments/801/cocos2dx_portrait.png\" width=200>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "metal"
+    },
+    {
+      "context_snippet": "<img src=\"http://www.cocos2d-x.org/attachments/801/cocos2dx_portrait.png\" width=200>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    }
+  ]
+}

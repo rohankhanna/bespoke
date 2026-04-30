@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Workflow Compiler Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubeflow/pipelines",
+      "status": "candidate-context",
+      "text": "Machine Learning Pipelines for Kubeflow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubeflow/pipelines",
+      "status": "candidate-context",
+      "text": "Workflow Compiler Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubeflow/pipelines",
+      "status": "candidate",
+      "text": "Workflow Compiler Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22391,
+      "status": "candidate",
+      "text": "checking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22367,
+      "status": "candidate",
+      "text": "statement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22366,
+      "status": "candidate",
+      "text": "calculating"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22366,
+      "status": "candidate",
+      "text": "capture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22366,
+      "status": "candidate",
+      "text": "develop"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Workflow Compiler Tests",
+  "concept_id": "workflow-compiler-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/compiler-tests.yml",
+      "source_repo": "kubeflow/pipelines"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Workflow Compiler Tests",
+      "sense_id": "workflow-compiler-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

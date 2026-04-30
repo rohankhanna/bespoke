@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KhronosGroup/glTF-Sample-Models",
+      "target": "khronosgroup/gltf-sample-assets",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KhronosGroup/glTF-Sample-Models",
+      "target": "khronosgroup/gltf-asset-generator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KhronosGroup/glTF-Sample-Models",
+      "target": "analyticalgraphicsinc/cesium",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KhronosGroup/glTF-Sample-Models",
+      "target": "kalmykov/fr24-3d-models",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:45:00.672312+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4360
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "glTF Sample Models",
+    "fork": false,
+    "full_name": "KhronosGroup/glTF-Sample-Models",
+    "html_url": "https://github.com/KhronosGroup/glTF-Sample-Models",
+    "language": "Mathematica",
+    "pushed_at": "2023-12-22T16:15:52Z",
+    "stargazers_count": 3524,
+    "topics": [],
+    "updated_at": "2026-04-29T17:26:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "analyticalgraphicsinc/cesium",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kalmykov/fr24-3d-models",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "khronosgroup/gltf-asset-generator",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "khronosgroup/gltf-sample-assets",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

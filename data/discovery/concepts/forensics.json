@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "forensics"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "polimi-ispl/GAN-image-detection",
+      "status": "candidate-context",
+      "text": "GAN-generated image detection based on CNNs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "polimi-ispl/GAN-image-detection",
+      "status": "candidate-context",
+      "text": "This repository contains a GAN-generated image detector developed to distinguish real images from synthetic ones."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "polimi-ispl/GAN-image-detection",
+      "status": "candidate",
+      "text": "This repository contains a GAN-generated image detector developed to distinguish real images from synthetic ones."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29995180,
+      "status": "candidate",
+      "text": "rhetorical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20026677,
+      "status": "candidate",
+      "text": "criminalistics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20018418,
+      "status": "candidate",
+      "text": "examiner"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20016099,
+      "status": "candidate",
+      "text": "coroner"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20015874,
+      "status": "candidate",
+      "text": "legal"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "forensics",
+  "concept_id": "forensics",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "polimi-ispl/GAN-image-detection"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "forensics",
+      "sense_id": "forensics#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,17 @@
+{
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "sources": [
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "dreamscached/i18next-cli-plugin-svelte"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "PBK-B/i18next-cli-vue"
+    }
+  ],
+  "term": "i18next-cli"
+}

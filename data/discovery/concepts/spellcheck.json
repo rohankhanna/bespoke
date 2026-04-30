@@ -167,6 +167,30 @@
       "source_repo": "vlajos/misspell-fixer",
       "status": "candidate-context",
       "text": "[![Build Status](https://travis-ci.org/vlajos/misspell-fixer.svg?branch=master)](https://travis-ci.org/vlajos/misspell-fixer)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "redis/redis-doc",
+      "status": "candidate-context",
+      "text": "Redis documentation source code for markdown and metadata files, conversion scripts, and so forth"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis/redis-doc",
+      "status": "candidate-context",
+      "text": "Spellcheck"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "languagetool-org/languagetool",
+      "status": "candidate-context",
+      "text": "Style and Grammar Checker for 25+ Languages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "languagetool-org/languagetool",
+      "status": "candidate-context",
+      "text": "**LanguageTool** is open-source proofreading software for English, Spanish, French, German,"
     }
   ],
   "candidate_glosses": [
@@ -247,6 +271,18 @@
       "source_repo": "vlajos/misspell-fixer",
       "status": "candidate",
       "text": "[![Build Status](https://travis-ci.org/vlajos/misspell-fixer.svg?branch=master)](https://travis-ci.org/vlajos/misspell-fixer)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis/redis-doc",
+      "status": "candidate",
+      "text": "Spellcheck"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "languagetool-org/languagetool",
+      "status": "candidate",
+      "text": "**LanguageTool** is open-source proofreading software for English, Spanish, French, German,"
     }
   ],
   "candidate_related_terms": [
@@ -494,11 +530,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/spellcheck.yml",
       "source_repo": "meta-llama/llama-cookbook"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/spellcheck.yml",
+      "source_repo": "redis/redis-doc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "languagetool-org/languagetool"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

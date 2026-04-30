@@ -19,6 +19,18 @@
       "source_repo": "Fuco1/smartparens",
       "status": "candidate-context",
       "text": "[![Join the chat at https://gitter.im/smartparens/Lobby](https://badges.gitter.im/smartparens/Lobby.svg)](https://gitter.im/smartparens/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bakpakin/Fennel",
+      "status": "candidate-context",
+      "text": "Lua Lisp Language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bakpakin/Fennel",
+      "status": "candidate-context",
+      "text": "[Fennel][1] is a lisp that compiles to Lua. It aims to be easy to use,"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "Fuco1/smartparens",
       "status": "candidate",
       "text": "[![Join the chat at https://gitter.im/smartparens/Lobby](https://badges.gitter.im/smartparens/Lobby.svg)](https://gitter.im/smartparens/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bakpakin/Fennel",
+      "status": "candidate",
+      "text": "[Fennel][1] is a lisp that compiles to Lua. It aims to be easy to use,"
     }
   ],
   "candidate_related_terms": [
@@ -84,11 +102,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "Fuco1/smartparens"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "bakpakin/Fennel"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "proofreading"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "languagetool-org/languagetool",
+      "status": "candidate-context",
+      "text": "Style and Grammar Checker for 25+ Languages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "languagetool-org/languagetool",
+      "status": "candidate-context",
+      "text": "**LanguageTool** is open-source proofreading software for English, Spanish, French, German,"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "languagetool-org/languagetool",
+      "status": "candidate",
+      "text": "**LanguageTool** is open-source proofreading software for English, Spanish, French, German,"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40014216,
+      "status": "candidate",
+      "text": "proof"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30024161,
+      "status": "candidate",
+      "text": "marking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29991037,
+      "status": "candidate",
+      "text": "rereading"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29972433,
+      "status": "candidate",
+      "text": "corrections"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29823954,
+      "status": "candidate",
+      "text": "scoring"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "proofreading",
+  "concept_id": "proofreading",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "languagetool-org/languagetool"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "proofreading",
+      "sense_id": "proofreading#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

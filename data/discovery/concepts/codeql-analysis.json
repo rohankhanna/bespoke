@@ -383,6 +383,30 @@
       "source_repo": "winsiderss/systeminformer",
       "status": "candidate-context",
       "text": "'CodeQL Analysis'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actions/setup-java",
+      "status": "candidate-context",
+      "text": "Set up your GitHub Actions workflow with a specific version of Java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/setup-java",
+      "status": "candidate-context",
+      "text": "CodeQL analysis"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "theupdateframework/python-tuf",
+      "status": "candidate-context",
+      "text": "Python reference implementation of The Update Framework (TUF)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "theupdateframework/python-tuf",
+      "status": "candidate-context",
+      "text": "\"CodeQL Analysis\""
     }
   ],
   "candidate_glosses": [
@@ -577,6 +601,18 @@
       "source_repo": "winsiderss/systeminformer",
       "status": "candidate",
       "text": "'CodeQL Analysis'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/setup-java",
+      "status": "candidate",
+      "text": "CodeQL analysis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "theupdateframework/python-tuf",
+      "status": "candidate",
+      "text": "\"CodeQL Analysis\""
     }
   ],
   "candidate_related_terms": [
@@ -830,11 +866,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/scan.yml",
       "source_repo": "winsiderss/systeminformer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "actions/setup-java"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "theupdateframework/python-tuf"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

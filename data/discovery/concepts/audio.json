@@ -427,6 +427,18 @@
       "source_repo": "germangb/minimp3-rs",
       "status": "candidate-context",
       "text": "Rust bindings and high-level wrapper for the minimp3 library."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "decibri/decibri",
+      "status": "candidate-context",
+      "text": "Audio capture, playback, and processing for Node.js and the browser. One Rust codebase, zero system dependencies."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "decibri/decibri",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable MD033 MD041 -->"
     }
   ],
   "candidate_glosses": [
@@ -639,6 +651,12 @@
       "source_repo": "germangb/minimp3-rs",
       "status": "candidate",
       "text": "Rust bindings and high-level wrapper for the minimp3 library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "decibri/decibri",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable MD033 MD041 -->"
     }
   ],
   "candidate_related_terms": [
@@ -955,11 +973,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "germangb/minimp3-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "decibri/decibri"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "snapcast/snapcast"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

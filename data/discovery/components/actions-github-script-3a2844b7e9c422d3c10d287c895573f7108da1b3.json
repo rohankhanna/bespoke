@@ -1,7 +1,7 @@
 {
   "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
   "first_seen_at": "2026-04-18T04:44:33.621188+00:00",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -607,6 +607,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/check_generated_vrl_docs_comment.yml",
       "source_repo": "vectordotdev/vector"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "theupdateframework/python-tuf"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/maintainer-permissions-reminder.yml",
+      "source_repo": "theupdateframework/python-tuf"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/create-cross-functional-issues.yml",
+      "source_repo": "weaviate/weaviate"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/broken_links.yml",
+      "source_repo": "veggiemonk/awesome-docker"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/health_report.yml",
+      "source_repo": "veggiemonk/awesome-docker"
     }
   ]
 }

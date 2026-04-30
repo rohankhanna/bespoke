@@ -157,6 +157,30 @@
       "source_repo": "CocoaPods/Rome",
       "status": "candidate-context",
       "text": "![](yolo.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ronaldoussoren/pyobjc",
+      "status": "candidate-context",
+      "text": "The Python <-> Objective-C Bridge with bindings for macOS frameworks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ronaldoussoren/pyobjc",
+      "status": "candidate-context",
+      "text": "The Python <-> Objective-C Bridge with bindings for macOS frameworks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Quick/Quick",
+      "status": "candidate-context",
+      "text": "The Swift (and Objective-C) testing framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Quick/Quick",
+      "status": "candidate-context",
+      "text": "![](http://f.cl.ly/items/0r1E192C1R0b2g2Q3h2w/QuickLogo_Color.png)"
     }
   ],
   "candidate_glosses": [
@@ -231,6 +255,18 @@
       "source_repo": "CocoaPods/Rome",
       "status": "candidate",
       "text": "![](yolo.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ronaldoussoren/pyobjc",
+      "status": "candidate",
+      "text": "The Python <-> Objective-C Bridge with bindings for macOS frameworks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Quick/Quick",
+      "status": "candidate",
+      "text": "![](http://f.cl.ly/items/0r1E192C1R0b2g2Q3h2w/QuickLogo_Color.png)"
     }
   ],
   "candidate_related_terms": [
@@ -358,11 +394,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "CocoaPods/Rome"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "ronaldoussoren/pyobjc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "Quick/Quick"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

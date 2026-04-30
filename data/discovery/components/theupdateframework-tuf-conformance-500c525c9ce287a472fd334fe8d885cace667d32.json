@@ -1,0 +1,12 @@
+{
+  "component": "theupdateframework/tuf-conformance@500c525c9ce287a472fd334fe8d885cace667d32",
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yml",
+      "source_repo": "theupdateframework/python-tuf"
+    }
+  ]
+}

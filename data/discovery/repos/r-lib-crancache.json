@@ -1,0 +1,29 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T18:58:13.632817+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9997
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Transparent caching of CRAN package files - WORK IN PROGRESS!",
+    "fork": false,
+    "full_name": "r-lib/crancache",
+    "html_url": "https://github.com/r-lib/crancache",
+    "language": "R",
+    "pushed_at": "2023-07-25T18:13:53Z",
+    "stargazers_count": 27,
+    "topics": [
+      "r"
+    ],
+    "updated_at": "2025-10-06T09:21:13Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

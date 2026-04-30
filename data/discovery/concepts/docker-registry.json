@@ -31,6 +31,18 @@
       "source_repo": "docker/login-action",
       "status": "candidate-context",
       "text": "[![GitHub release](https://img.shields.io/github/release/docker/login-action.svg?style=flat-square)](https://github.com/docker/login-action/releases/latest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "veggiemonk/awesome-docker",
+      "status": "candidate-context",
+      "text": ":whale: A curated list of Docker resources and projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "veggiemonk/awesome-docker",
+      "status": "candidate-context",
+      "text": "> A curated list of Docker resources and projects"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "docker/login-action",
       "status": "candidate",
       "text": "[![GitHub release](https://img.shields.io/github/release/docker/login-action.svg?style=flat-square)](https://github.com/docker/login-action/releases/latest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "veggiemonk/awesome-docker",
+      "status": "candidate",
+      "text": "> A curated list of Docker resources and projects"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "docker/login-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "veggiemonk/awesome-docker"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

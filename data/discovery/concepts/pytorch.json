@@ -5059,6 +5059,78 @@
       "source_repo": "apple/ml-cvnets",
       "status": "candidate-context",
       "text": "CVNets is a computer vision toolkit that allows researchers and engineers to train standard and novel mobile-"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wenet-e2e/wenet",
+      "status": "candidate-context",
+      "text": "Production First and Production Ready End-to-End Speech Recognition Toolkit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wenet-e2e/wenet",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-brightgreen.svg)](https://opensource.org/licenses/Apache-2.0)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yeyupiaoling/AudioClassification-Pytorch",
+      "status": "candidate-context",
+      "text": "The Pytorch implementation of sound classification supports EcapaTdnn, PANNS, TDNN, Res2Net, ResNetSE and other models, as well as a variety of preprocessing methods."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yeyupiaoling/AudioClassification-Pytorch",
+      "status": "candidate-context",
+      "text": "\u7b80\u4f53\u4e2d\u6587 | [English](./README_en.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yeyupiaoling/VoiceprintRecognition-Pytorch",
+      "status": "candidate-context",
+      "text": "This project uses a variety of advanced voiceprint recognition models such as EcapaTdnn, ResNetSE, ERes2Net, CAM++, etc. It is not excluded that more models will be supported in the future. At the same time, this project also supports MelSpectrogram, Spectrogram data preprocessing methods"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yeyupiaoling/VoiceprintRecognition-Pytorch",
+      "status": "candidate-context",
+      "text": "\u7b80\u4f53\u4e2d\u6587 | [English](./README_en.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ufoym/deepo",
+      "status": "candidate-context",
+      "text": "Setup and customize deep learning environment in seconds."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ufoym/deepo",
+      "status": "candidate-context",
+      "text": "![deepo](https://user-images.githubusercontent.com/2270240/32102393-aecf573c-bb4e-11e7-811c-dc673cae7b9c.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "1adrianb/expert-binary-networks",
+      "status": "candidate-context",
+      "text": "Code for High-Capacity Expert Binary Networks (ICLR 2021)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1adrianb/expert-binary-networks",
+      "status": "candidate-context",
+      "text": "This code provides the core components for building networks based on the architectures and Expert Binary Convolutional Block introduced in the _High-Capacity Expert Binary Networks_ paper. You can find the full version of the paper [here](https://arxiv.org/pdf/2010.03558)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "replicate/cog",
+      "status": "candidate-context",
+      "text": "Containers for machine learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "replicate/cog",
+      "status": "candidate-context",
+      "text": "Cog is an open-source tool that lets you package machine learning models in a standard, production-ready container."
     }
   ],
   "candidate_glosses": [
@@ -7587,6 +7659,42 @@
       "source_repo": "apple/ml-cvnets",
       "status": "candidate",
       "text": "CVNets is a computer vision toolkit that allows researchers and engineers to train standard and novel mobile-"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wenet-e2e/wenet",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-brightgreen.svg)](https://opensource.org/licenses/Apache-2.0)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yeyupiaoling/AudioClassification-Pytorch",
+      "status": "candidate",
+      "text": "\u7b80\u4f53\u4e2d\u6587 | [English](./README_en.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yeyupiaoling/VoiceprintRecognition-Pytorch",
+      "status": "candidate",
+      "text": "\u7b80\u4f53\u4e2d\u6587 | [English](./README_en.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ufoym/deepo",
+      "status": "candidate",
+      "text": "![deepo](https://user-images.githubusercontent.com/2270240/32102393-aecf573c-bb4e-11e7-811c-dc673cae7b9c.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1adrianb/expert-binary-networks",
+      "status": "candidate",
+      "text": "This code provides the core components for building networks based on the architectures and Expert Binary Convolutional Block introduced in the _High-Capacity Expert Binary Networks_ paper. You can find the full version of the paper [here](https://arxiv.org/pdf/2010.03558)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "replicate/cog",
+      "status": "candidate",
+      "text": "Cog is an open-source tool that lets you package machine learning models in a standard, production-ready container."
     }
   ],
   "candidate_related_terms": [
@@ -11080,11 +11188,101 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "apple/ml-cvnets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "webdataset/webdataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "wenet-e2e/wenet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "yeyupiaoling/AudioClassification-Pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "yeyupiaoling/VoiceprintRecognition-Pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "deepspeedai/DeepSpeed"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "ufoym/deepo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "intel/BigDL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "intel/ipex-llm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "docarray/docarray"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "Comfy-Org/ComfyUI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "XPixelGroup/BasicSR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "1adrianb/expert-binary-networks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "cuiziteng/ICCV_MAET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "replicate/cog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "facebookresearch/fairseq"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

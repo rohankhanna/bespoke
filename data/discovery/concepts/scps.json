@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "scps"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lite-xl/lite-xl-plugin-manager",
+      "status": "candidate-context",
+      "text": "A Lite XL plugin manager."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lite-xl/lite-xl-plugin-manager",
+      "status": "candidate-context",
+      "text": "![image](https://user-images.githubusercontent.com/1034518/216748882-3ae8c8d4-a767-4d97-acc4-c1cde7e3e331.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lite-xl/lite-xl-plugin-manager",
+      "status": "candidate",
+      "text": "![image](https://user-images.githubusercontent.com/1034518/216748882-3ae8c8d4-a767-4d97-acc4-c1cde7e3e331.png)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10014870,
+      "status": "candidate",
+      "text": "chp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10014352,
+      "status": "candidate",
+      "text": "cpa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10014093,
+      "status": "candidate",
+      "text": "gwp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10014024,
+      "status": "candidate",
+      "text": "sdc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10013979,
+      "status": "candidate",
+      "text": "cac"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "scps",
+  "concept_id": "scps",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "lite-xl/lite-xl-plugin-manager"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "scps",
+      "sense_id": "scps#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

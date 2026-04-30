@@ -19,6 +19,18 @@
       "source_repo": "navidrome/navidrome",
       "status": "candidate-context",
       "text": "<a href=\"https://www.navidrome.org\"><img src=\"resources/logo-192x192.png\" alt=\"Navidrome logo\" title=\"navidrome\" align=\"right\" height=\"60px\" /></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dunglas/mercure",
+      "status": "candidate-context",
+      "text": "\ud83e\udebd An open, easy, fast, reliable and battery-efficient solution for real-time communications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dunglas/mercure",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\"><a href=\"https://mercure.rocks\"><img src=\"public/mercure.svg\" alt=\"Mercure: Real-time Made Easy\" title=\"Live Updates Made Easy\"></a></h1>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "navidrome/navidrome",
       "status": "candidate",
       "text": "<a href=\"https://www.navidrome.org\"><img src=\"resources/logo-192x192.png\" alt=\"Navidrome logo\" title=\"navidrome\" align=\"right\" height=\"60px\" /></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dunglas/mercure",
+      "status": "candidate",
+      "text": "<h1 align=\"center\"><a href=\"https://mercure.rocks\"><img src=\"public/mercure.svg\" alt=\"Mercure: Real-time Made Easy\" title=\"Live Updates Made Easy\"></a></h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "navidrome/navidrome"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "dunglas/mercure"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

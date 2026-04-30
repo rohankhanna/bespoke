@@ -516,6 +516,30 @@
       "source_repo": "spring-projects/spring-ai-examples",
       "status": "candidate-context",
       "text": "Integration Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "andreigh/triton",
+      "status": "candidate-context",
+      "text": "Development repository for the Triton language and compiler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andreigh/triton",
+      "status": "candidate-context",
+      "text": "Integration Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eaplatanios/triton",
+      "status": "candidate-context",
+      "text": "Development repository for the Triton language and compiler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eaplatanios/triton",
+      "status": "candidate-context",
+      "text": "Integration Tests"
     }
   ],
   "candidate_glosses": [
@@ -774,6 +798,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "spring-projects/spring-ai-examples",
+      "status": "candidate",
+      "text": "Integration Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andreigh/triton",
+      "status": "candidate",
+      "text": "Integration Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eaplatanios/triton",
       "status": "candidate",
       "text": "Integration Tests"
     }
@@ -1191,11 +1227,41 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/integration-tests.yml",
       "source_repo": "spring-projects/spring-ai-examples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "andreigh/triton"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "eaplatanios/triton"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/integration-tests.yml.in",
+      "source_repo": "eaplatanios/triton"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/integration_tests.yml",
+      "source_repo": "spotipy-dev/spotipy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "lumen-oss/rocks.nvim"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

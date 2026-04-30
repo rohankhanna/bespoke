@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[AAAI 2026] VisionReward: Fine-Grained Multi-Dimensional Human Preference Learning for Image and Video Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39981584,
+      "status": "candidate",
+      "text": "druthers"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39977668,
+      "status": "candidate",
+      "text": "predilection"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39959045,
+      "status": "candidate",
+      "text": "penchant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39877802,
+      "status": "candidate",
+      "text": "taste"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29981650,
+      "status": "candidate",
+      "text": "prefer"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "preference",
+      "sense_id": "preference#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27036,
+      "status": "candidate",
+      "text": "predilection"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21036,
+      "status": "candidate",
+      "text": "penchant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7063,
+      "status": "candidate",
+      "text": "taste"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4024,
+      "status": "candidate",
+      "text": "druthers"
+    }
+  ],
+  "concept_id": "preference",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "preference",
+  "observation_id": "2d354af40d22fcde",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "preference",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "zai-org/VisionReward",
+  "source_repo_description": "[AAAI 2026] VisionReward: Fine-Grained Multi-Dimensional Human Preference Learning for Image and Video Generation"
+}

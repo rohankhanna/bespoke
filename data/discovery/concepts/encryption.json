@@ -163,6 +163,18 @@
       "source_repo": "rclone/rclone",
       "status": "candidate-context",
       "text": "<!-- markdownlint-disable-next-line first-line-heading no-inline-html -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "drduh/pwd.sh",
+      "status": "candidate-context",
+      "text": "GnuPG symmetric secrets manager using Bash."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drduh/pwd.sh",
+      "status": "candidate-context",
+      "text": "pwd.sh is a Bash shell script to manage text-based secrets, such as passwords."
     }
   ],
   "candidate_glosses": [
@@ -243,6 +255,12 @@
       "source_repo": "rclone/rclone",
       "status": "candidate",
       "text": "<!-- markdownlint-disable-next-line first-line-heading no-inline-html -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drduh/pwd.sh",
+      "status": "candidate",
+      "text": "pwd.sh is a Bash shell script to manage text-based secrets, such as passwords."
     }
   ],
   "candidate_related_terms": [
@@ -384,11 +402,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "dwyl/phoenix-ecto-encryption-example"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "drduh/pwd.sh"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

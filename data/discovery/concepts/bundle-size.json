@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "bundle-size"
+    "bundle-size",
+    "Bundle Size"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -31,6 +34,18 @@
       "source_repo": "vio/bundle-stats-action",
       "status": "candidate-context",
       "text": "This action generates [bundle-stats](https://github.com/relative-ci/bundle-stats) reports for webpack stats and sets the total bundle size as status description for the commit."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "module-federation/core",
+      "status": "candidate-context",
+      "text": "Module Federation is a concept that allows developers to share code and resources across multiple JavaScript applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "module-federation/core",
+      "status": "candidate-context",
+      "text": "Bundle Size"
     }
   ],
   "candidate_glosses": [
@@ -45,9 +60,51 @@
       "source_repo": "vio/bundle-stats-action",
       "status": "candidate",
       "text": "This action generates [bundle-stats](https://github.com/relative-ci/bundle-stats) reports for webpack stats and sets the total bundle size as status description for the commit."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "module-federation/core",
+      "status": "candidate",
+      "text": "Bundle Size"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11930,
+      "status": "candidate",
+      "text": "full"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11930,
+      "status": "candidate",
+      "text": "head"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11930,
+      "status": "candidate",
+      "text": "neck"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11930,
+      "status": "candidate",
+      "text": "pad"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11930,
+      "status": "candidate",
+      "text": "parcel"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "bundle-size",
   "concept_id": "bundle-size",
@@ -64,11 +121,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "vio/bundle-stats-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/bundle-size.yml",
+      "source_repo": "module-federation/core"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,7 +1,7 @@
 {
   "component": "peter-evans/repository-dispatch@28959ce8df70de7be546dd1250a005dd32156697",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -57,6 +57,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/trigger-wiki-refresh.yml",
       "source_repo": "karafka/karafka-web"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs_release.yml",
+      "source_repo": "delta-io/delta-rs"
     }
   ]
 }

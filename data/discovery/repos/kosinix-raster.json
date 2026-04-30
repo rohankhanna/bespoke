@@ -1,0 +1,76 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kosinix/raster",
+      "target": "image-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kosinix/raster",
+      "target": "raster",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kosinix/raster",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:40:23.515000+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 499
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 602
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An image processing library for Rust",
+    "fork": false,
+    "full_name": "kosinix/raster",
+    "html_url": "https://github.com/kosinix/raster",
+    "language": "Rust",
+    "pushed_at": "2024-04-28T19:55:31Z",
+    "stargazers_count": 94,
+    "topics": [
+      "image-processing",
+      "raster",
+      "rust"
+    ],
+    "updated_at": "2025-03-09T11:52:13Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![](http://meritbadge.herokuapp.com/raster)](https://crates.io/crates/raster)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-processing"
+    },
+    {
+      "context_snippet": "[![](http://meritbadge.herokuapp.com/raster)](https://crates.io/crates/raster)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "raster"
+    },
+    {
+      "context_snippet": "[![](http://meritbadge.herokuapp.com/raster)](https://crates.io/crates/raster)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

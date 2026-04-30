@@ -130,6 +130,18 @@
       "source_repo": "dashbitco/nimble_parsec",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/dashbitco/nimble_parsec/actions/workflows/ci.yml/badge.svg)](https://github.com/dashbitco/nimble_parsec/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "michel-kraemer/bson4jackson",
+      "status": "candidate-context",
+      "text": "\ud83e\uddac A pluggable BSON generator and parser for the Jackson JSON processor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "michel-kraemer/bson4jackson",
+      "status": "candidate-context",
+      "text": "This library adds support for [BSON](https://bsonspec.org) to the"
     }
   ],
   "candidate_glosses": [
@@ -192,6 +204,12 @@
       "source_repo": "dashbitco/nimble_parsec",
       "status": "candidate",
       "text": "[![CI](https://github.com/dashbitco/nimble_parsec/actions/workflows/ci.yml/badge.svg)](https://github.com/dashbitco/nimble_parsec/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "michel-kraemer/bson4jackson",
+      "status": "candidate",
+      "text": "This library adds support for [BSON](https://bsonspec.org) to the"
     }
   ],
   "candidate_related_terms": [
@@ -329,11 +347,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "dashbitco/nimble_parsec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "michel-kraemer/bson4jackson"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

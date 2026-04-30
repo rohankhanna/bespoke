@@ -1,0 +1,104 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "go-task/setup-task@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "stretchr/objx",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "stretchr/objx",
+      "target": "go-task/setup-task@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "stretchr/objx",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stretchr/objx",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stretchr/objx",
+      "target": "objx",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:43:32.631948+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3211
+    },
+    {
+      "path": "go.mod",
+      "size": 41
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 530
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Go package for dealing with maps, slices, JSON and other data.",
+    "fork": false,
+    "full_name": "stretchr/objx",
+    "html_url": "https://github.com/stretchr/objx",
+    "language": "Go",
+    "pushed_at": "2026-03-20T13:17:27Z",
+    "stargazers_count": 851,
+    "topics": [
+      "go",
+      "golang",
+      "objx"
+    ],
+    "updated_at": "2026-04-25T14:38:32Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/stretchr/objx.svg?branch=master)](https://travis-ci.org/stretchr/objx)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/stretchr/objx.svg?branch=master)](https://travis-ci.org/stretchr/objx)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "objx"
+    }
+  ]
+}

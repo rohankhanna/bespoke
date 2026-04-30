@@ -1,0 +1,127 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nayuki/Nayuki-web-published-code",
+      "target": "algorithm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nayuki/Nayuki-web-published-code",
+      "target": "c-plus-plus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nayuki/Nayuki-web-published-code",
+      "target": "c-sharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nayuki/Nayuki-web-published-code",
+      "target": "data-structure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nayuki/Nayuki-web-published-code",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nayuki/Nayuki-web-published-code",
+      "target": "library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nayuki/Nayuki-web-published-code",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:37:37.807477+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Complete collection of code files (*.java/js/py/cpp/etc.) published on Project Nayuki website.",
+    "fork": false,
+    "full_name": "nayuki/Nayuki-web-published-code",
+    "html_url": "https://github.com/nayuki/Nayuki-web-published-code",
+    "language": "Java",
+    "pushed_at": "2026-03-13T18:30:58Z",
+    "stargazers_count": 151,
+    "topics": [
+      "algorithm",
+      "c",
+      "c-plus-plus",
+      "c-sharp",
+      "data-structure",
+      "java",
+      "javascript",
+      "library",
+      "python",
+      "rust",
+      "typescript"
+    ],
+    "updated_at": "2026-03-18T17:27:47Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Complete collection of code files (*.java/js/py/cpp/etc.) published on Project Nayuki website.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "algorithm"
+    },
+    {
+      "context_snippet": "Complete collection of code files (*.java/js/py/cpp/etc.) published on Project Nayuki website.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus"
+    },
+    {
+      "context_snippet": "Complete collection of code files (*.java/js/py/cpp/etc.) published on Project Nayuki website.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-sharp"
+    },
+    {
+      "context_snippet": "Complete collection of code files (*.java/js/py/cpp/etc.) published on Project Nayuki website.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-structure"
+    },
+    {
+      "context_snippet": "Complete collection of code files (*.java/js/py/cpp/etc.) published on Project Nayuki website.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "Complete collection of code files (*.java/js/py/cpp/etc.) published on Project Nayuki website.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "library"
+    },
+    {
+      "context_snippet": "Complete collection of code files (*.java/js/py/cpp/etc.) published on Project Nayuki website.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

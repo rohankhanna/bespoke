@@ -1,0 +1,137 @@
+{
+  "components": [
+    {
+      "component": "react",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-dom",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "shadow-cljs",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "electron",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "electron-packager",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ahonn/shadow-electron-starter",
+      "target": "react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ahonn/shadow-electron-starter",
+      "target": "react-dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ahonn/shadow-electron-starter",
+      "target": "shadow-cljs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ahonn/shadow-electron-starter",
+      "target": "electron",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ahonn/shadow-electron-starter",
+      "target": "electron-packager",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ahonn/shadow-electron-starter",
+      "target": "clojurescript",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ahonn/shadow-electron-starter",
+      "target": "reagent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ahonn/shadow-electron-starter",
+      "target": "shadow-cljs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:59:49.505013+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 236
+    },
+    {
+      "path": "package.json",
+      "size": 654
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "ClojureScript + Shadow-cljs + Electron + Reagent",
+    "fork": false,
+    "full_name": "ahonn/shadow-electron-starter",
+    "html_url": "https://github.com/ahonn/shadow-electron-starter",
+    "language": "Clojure",
+    "pushed_at": "2023-06-09T04:09:59Z",
+    "stargazers_count": 93,
+    "topics": [
+      "clojurescript",
+      "reagent",
+      "shadow-cljs"
+    ],
+    "updated_at": "2026-01-22T11:43:58Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "ClojureScript + Shadow-cljs + Electron + Reagent",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojurescript"
+    },
+    {
+      "context_snippet": "ClojureScript + Shadow-cljs + Electron + Reagent",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reagent"
+    },
+    {
+      "context_snippet": "ClojureScript + Shadow-cljs + Electron + Reagent",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shadow-cljs"
+    }
+  ]
+}

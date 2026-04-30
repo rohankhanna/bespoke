@@ -145,6 +145,18 @@
       "source_repo": "elastic/elasticsearch",
       "status": "candidate-context",
       "text": "\"Validate Gradle Wrapper\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mstrobel/procyon",
+      "status": "candidate-context",
+      "text": "Procyon is a suite of Java metaprogramming tools, including a rich reflection API, a LINQ-inspired expression tree API for runtime code generation, and a Java decompiler."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mstrobel/procyon",
+      "status": "candidate-context",
+      "text": "\"Validate Gradle Wrapper\""
     }
   ],
   "candidate_glosses": [
@@ -217,6 +229,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "elastic/elasticsearch",
+      "status": "candidate",
+      "text": "\"Validate Gradle Wrapper\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mstrobel/procyon",
       "status": "candidate",
       "text": "\"Validate Gradle Wrapper\""
     }
@@ -358,11 +376,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/gradle-wrapper-validation.yml",
       "source_repo": "grpc/grpc-java"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "mstrobel/procyon"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -178,6 +178,18 @@
       "source_repo": "smithy-lang/smithy",
       "status": "candidate-context",
       "text": "post-release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "golangci/misspell",
+      "status": "candidate-context",
+      "text": "Correct commonly misspelled English words in source files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "golangci/misspell",
+      "status": "candidate-context",
+      "text": "\"Post release\""
     }
   ],
   "candidate_glosses": [
@@ -264,6 +276,12 @@
       "source_repo": "smithy-lang/smithy",
       "status": "candidate",
       "text": "post-release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "golangci/misspell",
+      "status": "candidate",
+      "text": "\"Post release\""
     }
   ],
   "candidate_related_terms": [
@@ -415,11 +433,29 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/post-release.yml",
       "source_repo": "smithy-lang/smithy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/post-release.yml",
+      "source_repo": "clap-rs/clap"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/post-release.yml",
+      "source_repo": "crate-ci/cargo-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/post-release.yml",
+      "source_repo": "golangci/misspell"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -815,6 +815,30 @@
       "source_repo": "py-cov-action/python-coverage-comment-action-v2-example",
       "status": "candidate-context",
       "text": "> **Note**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abatilo/github-action-locks",
+      "status": "candidate-context",
+      "text": "Guarantee atomic execution of your GitHub Action workflows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abatilo/github-action-locks",
+      "status": "candidate-context",
+      "text": "[![Main](https://github.com/abatilo/github-action-locks/workflows/Main/badge.svg)](https://github.com/abatilo/github-action-locks/actions?query=workflow%3AMain)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akiomik/mado",
+      "status": "candidate-context",
+      "text": "A fast Markdown linter written in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akiomik/mado",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/akiomik/mado/actions/workflows/ci.yml/badge.svg)](https://github.com/akiomik/mado/actions/workflows/ci.yml)"
     }
   ],
   "candidate_glosses": [
@@ -1225,6 +1249,18 @@
       "source_repo": "py-cov-action/python-coverage-comment-action-v2-example",
       "status": "candidate",
       "text": "> **Note**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abatilo/github-action-locks",
+      "status": "candidate",
+      "text": "[![Main](https://github.com/abatilo/github-action-locks/workflows/Main/badge.svg)](https://github.com/abatilo/github-action-locks/actions?query=workflow%3AMain)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akiomik/mado",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/akiomik/mado/actions/workflows/ci.yml/badge.svg)](https://github.com/akiomik/mado/actions/workflows/ci.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -1754,11 +1790,29 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "ChristopherHX/runner.server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "abatilo/github-action-locks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "akiomik/mado"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks-action"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

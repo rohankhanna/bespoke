@@ -1360,6 +1360,54 @@
       "source_repo": "yoshoku/numo-narray-alt",
       "status": "candidate-context",
       "text": "[![Gem Version](https://badge.fury.io/rb/numo-narray-alt.svg)](https://badge.fury.io/rb/numo-narray-alt)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ruby/typeprof",
+      "status": "candidate-context",
+      "text": "An experimental type-level Ruby interpreter for testing and understanding Ruby code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/typeprof",
+      "status": "candidate-context",
+      "text": "Ruby"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Asmod4n/mruby-argon2",
+      "status": "candidate-context",
+      "text": "The password hash Argon2, winner of PHC for mruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Asmod4n/mruby-argon2",
+      "status": "candidate-context",
+      "text": "Ruby"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ruby/mspec",
+      "status": "candidate-context",
+      "text": "RSpec-like test runner for the Ruby Spec Suite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/mspec",
+      "status": "candidate-context",
+      "text": "MSpec is a specialized framework that is syntax-compatible with RSpec 2 for"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/exercism-fetcher",
+      "status": "candidate-context",
+      "text": "Fetch Exercism Tracks Data \ud83d\udcaa\ud83d\udd3d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/exercism-fetcher",
+      "status": "candidate-context",
+      "text": "Ruby"
     }
   ],
   "candidate_glosses": [
@@ -2052,6 +2100,30 @@
       "source_repo": "yoshoku/numo-narray-alt",
       "status": "candidate",
       "text": "[![Gem Version](https://badge.fury.io/rb/numo-narray-alt.svg)](https://badge.fury.io/rb/numo-narray-alt)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/typeprof",
+      "status": "candidate",
+      "text": "Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Asmod4n/mruby-argon2",
+      "status": "candidate",
+      "text": "Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/mspec",
+      "status": "candidate",
+      "text": "MSpec is a specialized framework that is syntax-compatible with RSpec 2 for"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/exercism-fetcher",
+      "status": "candidate",
+      "text": "Ruby"
     }
   ],
   "candidate_related_terms": [
@@ -2893,11 +2965,59 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "rbenv/rbenv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ruby/typeprof"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "rbenv/ruby-build"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "Asmod4n/mruby-argon2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "standardrb/standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "truffleruby/truffleruby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "ruby/mspec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "karafka/rdkafka-ruby"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "2KAbhishek/exercism-fetcher"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

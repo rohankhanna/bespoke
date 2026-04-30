@@ -1,0 +1,178 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dep_build_v2.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dep_build_v2.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dep_build_v3.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dep_build_v3.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FasterXML/jackson-modules-base",
+      "target": "raphw/byte-buddy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dep_build_v2.yml",
+      "source_repo": "FasterXML/jackson-modules-base",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dep_build_v2.yml",
+      "source_repo": "FasterXML/jackson-modules-base",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dep_build_v2.yml",
+      "source_repo": "FasterXML/jackson-modules-base",
+      "target": "Re-build on jackson-databind v2 push",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dep_build_v3.yml",
+      "source_repo": "FasterXML/jackson-modules-base",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dep_build_v3.yml",
+      "source_repo": "FasterXML/jackson-modules-base",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dep_build_v3.yml",
+      "source_repo": "FasterXML/jackson-modules-base",
+      "target": "Re-build on jackson-databind v3 push",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "FasterXML/jackson-modules-base",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "FasterXML/jackson-modules-base",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "FasterXML/jackson-modules-base",
+      "target": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "FasterXML/jackson-modules-base",
+      "target": "Build and Deploy Snapshot",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:54:08.074543+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2054
+    },
+    {
+      "path": ".github/workflows/dep_build_v2.yml",
+      "size": 883
+    },
+    {
+      "path": ".github/workflows/dep_build_v3.yml",
+      "size": 881
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 2742
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "3.x",
+    "description": "Uber-project for foundational modules of Jackson that build directly on core components but nothing else; not including data format or datatype modules",
+    "fork": false,
+    "full_name": "FasterXML/jackson-modules-base",
+    "html_url": "https://github.com/FasterXML/jackson-modules-base",
+    "language": "Java",
+    "pushed_at": "2026-04-28T20:23:44Z",
+    "stargazers_count": 180,
+    "topics": [],
+    "updated_at": "2026-04-14T15:29:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "raphw/byte-buddy",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Re-build on jackson-databind v2 push",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dep_build_v2.yml",
+      "term": "Re-build on jackson-databind v2 push"
+    },
+    {
+      "context_snippet": "Re-build on jackson-databind v3 push",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dep_build_v3.yml",
+      "term": "Re-build on jackson-databind v3 push"
+    },
+    {
+      "context_snippet": "Build and Deploy Snapshot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Build and Deploy Snapshot"
+    }
+  ]
+}

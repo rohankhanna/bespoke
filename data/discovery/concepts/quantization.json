@@ -367,6 +367,18 @@
       "source_repo": "IST-DASLab/Quartet-II",
       "status": "candidate-context",
       "text": "This is the official code for the Quartet II NVFP4 training paper [![arXiv](https://img.shields.io/badge/arXiv-2601.22813-b31b1b.svg)](https://arxiv.org/abs/2601.22813)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Aaronhuang-778/BiLLM",
+      "status": "candidate-context",
+      "text": "[ICML 2024] BiLLM: Pushing the Limit of Post-Training Quantization for LLMs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Aaronhuang-778/BiLLM",
+      "status": "candidate-context",
+      "text": "![intuition](imgs/author.png)"
     }
   ],
   "candidate_glosses": [
@@ -549,6 +561,12 @@
       "source_repo": "IST-DASLab/Quartet-II",
       "status": "candidate",
       "text": "This is the official code for the Quartet II NVFP4 training paper [![arXiv](https://img.shields.io/badge/arXiv-2601.22813-b31b1b.svg)](https://arxiv.org/abs/2601.22813)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Aaronhuang-778/BiLLM",
+      "status": "candidate",
+      "text": "![intuition](imgs/author.png)"
     }
   ],
   "candidate_related_terms": [
@@ -972,11 +990,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "IST-DASLab/Quartet-II"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "Aaronhuang-778/BiLLM"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

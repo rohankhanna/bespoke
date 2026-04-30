@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Deep-Symmetry/asciidoctor-bytefield",
+      "target": "bytefield-svg",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Deep-Symmetry/asciidoctor-bytefield",
+      "target": "asciidoctor",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/asciidoctor-bytefield",
+      "target": "asciidoctor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/asciidoctor-bytefield",
+      "target": "byte",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/asciidoctor-bytefield",
+      "target": "clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/asciidoctor-bytefield",
+      "target": "diagram-generator",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T18:36:26.757967+00:00",
+  "source_repo": "Deep-Symmetry/asciidoctor-bytefield"
+}

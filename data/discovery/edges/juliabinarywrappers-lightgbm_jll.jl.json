@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaBinaryWrappers/LightGBM_jll.jl",
+      "target": "juliabinarywrappers/cuda_runtime_jll.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaBinaryWrappers/LightGBM_jll.jl",
+      "target": "juliabinarywrappers/compilersupportlibraries_jll.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaBinaryWrappers/LightGBM_jll.jl",
+      "target": "juliabinarywrappers/llvmopenmp_jll.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaBinaryWrappers/LightGBM_jll.jl",
+      "target": "juliabinarywrappers/boost_jll.jl",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-30T18:36:26.757967+00:00",
+  "source_repo": "JuliaBinaryWrappers/LightGBM_jll.jl"
+}

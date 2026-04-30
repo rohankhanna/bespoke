@@ -1,0 +1,164 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/job-specs.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/job-specs.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pivotal/credhub-release",
+      "target": "cloudfoundry-incubator/credhub",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pivotal/credhub-release",
+      "target": "cloudfoundry-incubator/credhub-cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pivotal/credhub-release",
+      "target": "cloudfoundry-incubator/credhub-acceptance-tests",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/job-specs.yml",
+      "source_repo": "pivotal/credhub-release",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/job-specs.yml",
+      "source_repo": "pivotal/credhub-release",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/job-specs.yml",
+      "source_repo": "pivotal/credhub-release",
+      "target": "CredHub Release Job Specs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "pivotal/credhub-release",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "pivotal/credhub-release",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "pivotal/credhub-release",
+      "target": "CredHub Release Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pivotal/credhub-release",
+      "target": "credhub",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:04:27.574371+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2106
+    },
+    {
+      "path": ".github/workflows/job-specs.yml",
+      "size": 607
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 626
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "BOSH release of CredHub server",
+    "fork": false,
+    "full_name": "pivotal/credhub-release",
+    "html_url": "https://github.com/pivotal/credhub-release",
+    "language": "Ruby",
+    "pushed_at": "2026-04-30T18:39:00Z",
+    "stargazers_count": 37,
+    "topics": [
+      "credhub"
+    ],
+    "updated_at": "2026-04-30T18:39:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudfoundry-incubator/credhub",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudfoundry-incubator/credhub-acceptance-tests",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudfoundry-incubator/credhub-cli",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CredHub Release Job Specs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/job-specs.yml",
+      "term": "CredHub Release Job Specs"
+    },
+    {
+      "context_snippet": "CredHub Release Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "CredHub Release Lint"
+    },
+    {
+      "context_snippet": "CredHub Release provides a BOSH Release for [CredHub](https://github.com/cloudfoundry-incubator/credhub).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "credhub"
+    }
+  ]
+}

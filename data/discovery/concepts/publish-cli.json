@@ -19,12 +19,30 @@
       "source_repo": "eclipse-openvsx/openvsx",
       "status": "candidate-context",
       "text": "Publish CLI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DioxusLabs/dioxus",
+      "status": "candidate-context",
+      "text": "Fullstack app framework for web, desktop, and mobile."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DioxusLabs/dioxus",
+      "status": "candidate-context",
+      "text": "Publish CLI"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "eclipse-openvsx/openvsx",
+      "status": "candidate",
+      "text": "Publish CLI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DioxusLabs/dioxus",
       "status": "candidate",
       "text": "Publish CLI"
     }
@@ -118,11 +136,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/publish-cli.yml",
       "source_repo": "eclipse-openvsx/openvsx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "DioxusLabs/dioxus"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/publish-cli.yml",
+      "source_repo": "eclipse-openvsx/openvsx"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,7 +1,7 @@
 {
   "component": "actions/github-script@v8",
   "first_seen_at": "2026-04-18T03:54:46.759203+00:00",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -982,6 +982,51 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "anthropics/anthropic-sdk-ruby"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/add-ci-passed-label.yml",
+      "source_repo": "kubeflow/pipelines"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "remix-run/remix"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto_assign.yml",
+      "source_repo": "facebook/pyrefly"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/autoport-41.yml",
+      "source_repo": "netty/netty"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/autoport-42.yml",
+      "source_repo": "netty/netty"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/autoport-50.yml",
+      "source_repo": "netty/netty"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/reqcheck.yml",
+      "source_repo": "WebKitForWindows/WebKitRequirements"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-preview.yml",
+      "source_repo": "apache/echarts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-notice-year.yml",
+      "source_repo": "apache/echarts"
     }
   ]
 }

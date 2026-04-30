@@ -91,6 +91,30 @@
       "source_repo": "swaywm/sway",
       "status": "candidate-context",
       "text": "**[English][en]** - [\u0639\u0631\u0628\u064a][ar] - [Az\u0259rbaycanca][az] - [\u010cesky][cs] - [Deutsch][de] - [Dansk][dk] - [Espa\u00f1ol][es] - [Fran\u00e7ais][fr] - [\u10e5\u10d0\u10e0\u10d7\u10e3\u10da\u10d8][ge] - [\u0395\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ac][gr] - [\u0939\u093f\u0928\u094d\u0926\u0940][hi] - [Magyar][hu] - [\u0641\u0627\u0631\u0633\u06cc][ir] - [Italiano][it] - [\u65e5\u672c\u8a9e][ja] - [\ud55c\uad6d\uc5b4][ko] - [Nederlands][nl] - [Norsk][no]\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swaywm/swaybg",
+      "status": "candidate-context",
+      "text": "Wallpaper tool for Wayland compositors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swaywm/swaybg",
+      "status": "candidate-context",
+      "text": "swaybg is a wallpaper utility for Wayland compositors. It is compatible with"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Alexays/Waybar",
+      "status": "candidate-context",
+      "text": "Highly customizable Wayland bar for Sway and Wlroots based compositors. :v: :tada:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alexays/Waybar",
+      "status": "candidate-context",
+      "text": "> Highly customizable Wayland bar for Sway and Wlroots based compositors.<br>"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +159,18 @@
       "source_repo": "swaywm/sway",
       "status": "candidate",
       "text": "**[English][en]** - [\u0639\u0631\u0628\u064a][ar] - [Az\u0259rbaycanca][az] - [\u010cesky][cs] - [Deutsch][de] - [Dansk][dk] - [Espa\u00f1ol][es] - [Fran\u00e7ais][fr] - [\u10e5\u10d0\u10e0\u10d7\u10e3\u10da\u10d8][ge] - [\u0395\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ac][gr] - [\u0939\u093f\u0928\u094d\u0926\u0940][hi] - [Magyar][hu] - [\u0641\u0627\u0631\u0633\u06cc][ir] - [Italiano][it] - [\u65e5\u672c\u8a9e][ja] - [\ud55c\uad6d\uc5b4][ko] - [Nederlands][nl] - [Norsk][no]\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swaywm/swaybg",
+      "status": "candidate",
+      "text": "swaybg is a wallpaper utility for Wayland compositors. It is compatible with"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alexays/Waybar",
+      "status": "candidate",
+      "text": "> Highly customizable Wayland bar for Sway and Wlroots based compositors.<br>"
     }
   ],
   "candidate_related_terms": [
@@ -235,11 +271,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "swaywm/sway"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "swaywm/swaybg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "Alexays/Waybar"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

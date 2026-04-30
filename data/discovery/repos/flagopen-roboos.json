@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FlagOpen/RoboOS",
+      "target": "flagopen/robobrain2.0",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FlagOpen/RoboOS",
+      "target": "flagopen/robobrain",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "FlagOpen/RoboOS",
+      "target": "flagopen/flagscale",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:44:15.438362+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6079
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1671
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83e\udd16 RoboOS: A Universal Embodied Operating System for Cross-Embodied and Multi-Robot Collaboration",
+    "fork": false,
+    "full_name": "FlagOpen/RoboOS",
+    "html_url": "https://github.com/FlagOpen/RoboOS",
+    "language": "Python",
+    "pushed_at": "2025-12-18T10:43:26Z",
+    "stargazers_count": 328,
+    "topics": [],
+    "updated_at": "2026-04-30T10:20:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "flagopen/robobrain",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "flagopen/robobrain2.0",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "flagopen/flagscale",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": []
+}

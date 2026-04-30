@@ -146,13 +146,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "gulp-sourcemaps/gulp-sourcemaps",
-      "target": "gulpjs/vinyl",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "gulp-sourcemaps/gulp-sourcemaps",
       "target": "gulp-sourcemaps/vinyl-sourcemaps-apply",
       "target_type": "repository"
     },
@@ -360,7 +353,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-04-23T05:34:14.220947+00:00",
+  "fetched_at": "2026-04-30T18:53:17.799281+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -389,11 +382,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "gulp-sourcemaps/vinyl-sourcemaps-apply",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "gulpjs/vinyl",
       "source_file": "README.md"
     },
     {

@@ -487,6 +487,18 @@
       "source_repo": "Pixelworlds/opnsense-mcp-server",
       "status": "candidate-context",
       "text": "A modular Model Context Protocol (MCP) server that provides **88 module-based tools** giving access to over 2000 OPNsense firewall management methods through a type-safe TypeScript interface."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "getsavvyinc/savvy-cli",
+      "status": "candidate-context",
+      "text": "Automatically capture and surface your team's tribal knowledge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getsavvyinc/savvy-cli",
+      "status": "candidate-context",
+      "text": "<h3 align=\"left\">"
     }
   ],
   "candidate_glosses": [
@@ -729,6 +741,12 @@
       "source_repo": "Pixelworlds/opnsense-mcp-server",
       "status": "candidate",
       "text": "A modular Model Context Protocol (MCP) server that provides **88 module-based tools** giving access to over 2000 OPNsense firewall management methods through a type-safe TypeScript interface."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getsavvyinc/savvy-cli",
+      "status": "candidate",
+      "text": "<h3 align=\"left\">"
     }
   ],
   "candidate_related_terms": [
@@ -1047,11 +1065,29 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "ChristopherHX/runner.server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml-agent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "getsavvyinc/savvy-cli"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

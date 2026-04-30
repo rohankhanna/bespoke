@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Windows Directory Monitor (WDM) is a threaded directories monitor for Windows."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Source gem"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Source gem"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28418,
+      "status": "candidate",
+      "text": "beryl"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12079,
+      "status": "candidate",
+      "text": "oyster"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12079,
+      "status": "candidate",
+      "text": "zircon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11987,
+      "status": "candidate",
+      "text": "burn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11987,
+      "status": "candidate",
+      "text": "olivine"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Source gem",
+      "sense_id": "source-gem#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "source-gem",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "source-gem",
+  "observation_id": "be93c724a6e5ffa9",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "Source gem",
+  "source_context_snippet": "Source gem",
+  "source_file": ".github/workflows/ci.yml",
+  "source_repo": "Maher4Ever/wdm",
+  "source_repo_description": "Windows Directory Monitor (WDM) is a threaded directories monitor for Windows."
+}

@@ -247,6 +247,18 @@
       "source_repo": "conda-forge/equinox-feedstock",
       "status": "candidate-context",
       "text": "Build conda package"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "conda-forge/scikit-optimize-feedstock",
+      "status": "candidate-context",
+      "text": "A conda-smithy repository for scikit-optimize."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda-forge/scikit-optimize-feedstock",
+      "status": "candidate-context",
+      "text": "Build conda package"
     }
   ],
   "candidate_glosses": [
@@ -367,6 +379,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "conda-forge/equinox-feedstock",
+      "status": "candidate",
+      "text": "Build conda package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda-forge/scikit-optimize-feedstock",
       "status": "candidate",
       "text": "Build conda package"
     }
@@ -532,11 +550,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/conda-build.yml",
       "source_repo": "conda-forge/equinox-feedstock"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/conda-build.yml",
+      "source_repo": "conda-forge/scikit-optimize-feedstock"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

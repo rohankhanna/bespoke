@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Password hashing functions / KDFs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "balloon-hash"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "balloon-hash"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "balloon-hash",
+      "sense_id": "balloon-hash#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "balloon-hash",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "balloon-hash",
+  "observation_id": "9a9fa8dbfbf0fe72",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "balloon-hash",
+  "source_context_snippet": "balloon-hash",
+  "source_file": ".github/workflows/balloon-hash.yml",
+  "source_repo": "RustCrypto/password-hashes",
+  "source_repo_description": "Password hashing functions / KDFs"
+}

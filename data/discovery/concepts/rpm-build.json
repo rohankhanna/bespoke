@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "RPM build"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Jakuje/virt_cacard",
+      "status": "candidate-context",
+      "text": "Virtual CAC using libcacard, virtualsmartcard's vpcd and softhsm2 to provide PCSC accessible virtual smart card."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jakuje/virt_cacard",
+      "status": "candidate-context",
+      "text": "RPM build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jakuje/virt_cacard",
+      "status": "candidate",
+      "text": "RPM build"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12721,
+      "status": "candidate",
+      "text": "rev"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12679,
+      "status": "candidate",
+      "text": "rate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12679,
+      "status": "candidate",
+      "text": "speed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12679,
+      "status": "candidate",
+      "text": "tach"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12299,
+      "status": "candidate",
+      "text": "single"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "RPM build",
+  "concept_id": "rpm-build",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/rpm.yml",
+      "source_repo": "Jakuje/virt_cacard"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "RPM build",
+      "sense_id": "rpm-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

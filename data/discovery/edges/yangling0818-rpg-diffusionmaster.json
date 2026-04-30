@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "YangLing0818/RPG-DiffusionMaster",
+      "target": "yangling0818/itercomp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "YangLing0818/RPG-DiffusionMaster",
+      "target": "hako-mikan/sd-webui-regional-prompter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YangLing0818/RPG-DiffusionMaster",
+      "target": "image-editting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YangLing0818/RPG-DiffusionMaster",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YangLing0818/RPG-DiffusionMaster",
+      "target": "multimodal-large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YangLing0818/RPG-DiffusionMaster",
+      "target": "text-to-image",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T18:36:26.757967+00:00",
+  "source_repo": "YangLing0818/RPG-DiffusionMaster"
+}

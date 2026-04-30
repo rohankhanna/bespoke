@@ -301,6 +301,66 @@
       "source_repo": "JuliaDocs/Documenter.jl",
       "status": "candidate-context",
       "text": "*A documentation generator for Julia.*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MilesCranmer/PySR",
+      "status": "candidate-context",
+      "text": "High-Performance Symbolic Regression in Python and Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MilesCranmer/PySR",
+      "status": "candidate-context",
+      "text": "[//]: # (Logo:)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaLang/Pkg.jl",
+      "status": "candidate-context",
+      "text": "Pkg - Package manager for the Julia programming language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLang/Pkg.jl",
+      "status": "candidate-context",
+      "text": "Development repository for Julia's package manager,"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fredrikekre/Literate.jl",
+      "status": "candidate-context",
+      "text": "Simple package for literate programming in Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fredrikekre/Literate.jl",
+      "status": "candidate-context",
+      "text": "[![Documentation](https://img.shields.io/badge/docs-latest%20release-blue.svg)](https://fredrikekre.github.io/Literate.jl/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaDocs/DemoCards.jl",
+      "status": "candidate-context",
+      "text": "Let's focus on writing demos"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDocs/DemoCards.jl",
+      "status": "candidate-context",
+      "text": "| **Documentation** | **Build Status** |"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaAI/MLJ.jl",
+      "status": "candidate-context",
+      "text": "A Julia machine learning framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaAI/MLJ.jl",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -453,6 +513,36 @@
       "source_repo": "JuliaDocs/Documenter.jl",
       "status": "candidate",
       "text": "*A documentation generator for Julia.*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MilesCranmer/PySR",
+      "status": "candidate",
+      "text": "[//]: # (Logo:)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLang/Pkg.jl",
+      "status": "candidate",
+      "text": "Development repository for Julia's package manager,"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fredrikekre/Literate.jl",
+      "status": "candidate",
+      "text": "[![Documentation](https://img.shields.io/badge/docs-latest%20release-blue.svg)](https://fredrikekre.github.io/Literate.jl/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDocs/DemoCards.jl",
+      "status": "candidate",
+      "text": "| **Documentation** | **Build Status** |"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaAI/MLJ.jl",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -658,11 +748,47 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "JuliaDocs/Documenter.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "MilesCranmer/PySR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "JuliaLang/Pkg.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "JuliaDiff/BlueStyle"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "fredrikekre/Literate.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "JuliaDocs/DemoCards.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "JuliaAI/MLJ.jl"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

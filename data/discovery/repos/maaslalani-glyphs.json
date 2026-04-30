@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T19:40:25.085399+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 866
+    },
+    {
+      "path": "go.mod",
+      "size": 1143
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Unicode symbols on the command line",
+    "fork": false,
+    "full_name": "maaslalani/glyphs",
+    "html_url": "https://github.com/maaslalani/glyphs",
+    "language": "Go",
+    "pushed_at": "2024-02-08T15:49:46Z",
+    "stargazers_count": 126,
+    "topics": [],
+    "updated_at": "2026-04-27T16:27:11Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

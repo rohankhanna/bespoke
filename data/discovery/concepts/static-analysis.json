@@ -575,6 +575,42 @@
       "source_repo": "symfony/symfony",
       "status": "candidate-context",
       "text": "Static Analysis"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stefanlogue/meteor",
+      "status": "candidate-context",
+      "text": "A highly configurable CLI tool for writing conventional commits"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stefanlogue/meteor",
+      "status": "candidate-context",
+      "text": "Static Analysis"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Antonboom/testifylint",
+      "status": "candidate-context",
+      "text": "The Golang linter that checks usage of github.com/stretchr/testify."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Antonboom/testifylint",
+      "status": "candidate-context",
+      "text": "![Latest release](https://img.shields.io/github/v/release/Antonboom/testifylint)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hadolint/hadolint",
+      "status": "candidate-context",
+      "text": "Dockerfile linter, validate inline bash, written in Haskell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hadolint/hadolint",
+      "status": "candidate-context",
+      "text": "[![GPL-3 licensed][license-img]][license]"
     }
   ],
   "candidate_glosses": [
@@ -853,6 +889,24 @@
       "source_repo": "symfony/symfony",
       "status": "candidate",
       "text": "Static Analysis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stefanlogue/meteor",
+      "status": "candidate",
+      "text": "Static Analysis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Antonboom/testifylint",
+      "status": "candidate",
+      "text": "![Latest release](https://img.shields.io/github/v/release/Antonboom/testifylint)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hadolint/hadolint",
+      "status": "candidate",
+      "text": "[![GPL-3 licensed][license-img]][license]"
     }
   ],
   "candidate_related_terms": [
@@ -1274,11 +1328,41 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/static-analysis.yml",
       "source_repo": "symfony/symfony"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "clj-kondo/clj-kondo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/pull-request.yml",
+      "source_repo": "stefanlogue/meteor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "Antonboom/testifylint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "hadolint/hadolint"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1841,6 +1841,54 @@
       "source_repo": "sparkle-project/Sparkle",
       "status": "candidate-context",
       "text": "Build & Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ronaldoussoren/pyobjc",
+      "status": "candidate-context",
+      "text": "The Python <-> Objective-C Bridge with bindings for macOS frameworks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ronaldoussoren/pyobjc",
+      "status": "candidate-context",
+      "text": "The Python <-> Objective-C Bridge with bindings for macOS frameworks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexcrichton/ssh2-rs",
+      "status": "candidate-context",
+      "text": "Rust bindings for libssh2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexcrichton/ssh2-rs",
+      "status": "candidate-context",
+      "text": "macOS"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "drduh/macOS-Security-and-Privacy-Guide",
+      "status": "candidate-context",
+      "text": "Community guide to securing and improving privacy on macOS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drduh/macOS-Security-and-Privacy-Guide",
+      "status": "candidate-context",
+      "text": "This guide is a collection of techniques for improving the security and privacy of [Apple silicon](https://support.apple.com/116943) Mac computers running a [currently supported](https://support.apple.com/HT201222) version of macOS. **Using Macs with Intel CPUs leaves you open t\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nikitabobko/brew-install-path",
+      "status": "candidate-context",
+      "text": "Simple script that allows installing homebrew formulas/casks from paths"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nikitabobko/brew-install-path",
+      "status": "candidate-context",
+      "text": "Homebrew 4.6.4 introduced a breaking change that disabled the possibility of installing formulas/casks from paths."
     }
   ],
   "candidate_glosses": [
@@ -2773,6 +2821,30 @@
       "source_repo": "sparkle-project/Sparkle",
       "status": "candidate",
       "text": "Build & Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ronaldoussoren/pyobjc",
+      "status": "candidate",
+      "text": "The Python <-> Objective-C Bridge with bindings for macOS frameworks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexcrichton/ssh2-rs",
+      "status": "candidate",
+      "text": "macOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drduh/macOS-Security-and-Privacy-Guide",
+      "status": "candidate",
+      "text": "This guide is a collection of techniques for improving the security and privacy of [Apple silicon](https://support.apple.com/116943) Mac computers running a [currently supported](https://support.apple.com/HT201222) version of macOS. **Using Macs with Intel CPUs leaves you open t\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nikitabobko/brew-install-path",
+      "status": "candidate",
+      "text": "Homebrew 4.6.4 introduced a breaking change that disabled the possibility of installing formulas/casks from paths."
     }
   ],
   "candidate_related_terms": [
@@ -4034,11 +4106,65 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "sparkle-project/Sparkle"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "ronaldoussoren/pyobjc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "igor-makarov/xcake"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/mac.yml",
+      "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "alacritty/alacritty"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "XAMPPRocky/tokei"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "alexcrichton/ssh2-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "drduh/macOS-Security-and-Privacy-Guide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "nikitabobko/brew-install-path"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/mac2k"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

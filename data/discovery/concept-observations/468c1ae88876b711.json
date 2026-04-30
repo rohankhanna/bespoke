@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[ECCV-2020 (spotlight)] Self-supervising Fine-grained Region Similarities for Large-scale Image Localization. \ud83c\udf0f PyTorch open-source toolbox for image-based localization (place recognition)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<!-- ![Python >=3.5](https://img.shields.io/badge/Python->=3.5-blue.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<!-- ![Python >=3.5](https://img.shields.io/badge/Python->=3.5-blue.svg)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30049700,
+      "status": "candidate",
+      "text": "localisation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30045612,
+      "status": "candidate",
+      "text": "location"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29958369,
+      "status": "candidate",
+      "text": "fix"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20049735,
+      "status": "candidate",
+      "text": "locating"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20046170,
+      "status": "candidate",
+      "text": "locality"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "localization",
+      "sense_id": "localization#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15045,
+      "status": "candidate",
+      "text": "location"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9069,
+      "status": "candidate",
+      "text": "fix"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2018,
+      "status": "candidate",
+      "text": "locating"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23,
+      "status": "candidate",
+      "text": "localisation"
+    }
+  ],
+  "concept_id": "localization",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "localization",
+  "observation_id": "468c1ae88876b711",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "localization",
+  "source_context_snippet": "<!-- ![Python >=3.5](https://img.shields.io/badge/Python->=3.5-blue.svg)",
+  "source_file": null,
+  "source_repo": "yxgeee/OpenIBL",
+  "source_repo_description": "[ECCV-2020 (spotlight)] Self-supervising Fine-grained Region Similarities for Large-scale Image Localization. \ud83c\udf0f PyTorch open-source toolbox for image-based localization (place recognition)."
+}

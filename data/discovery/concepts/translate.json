@@ -1,0 +1,129 @@
+{
+  "aliases": [
+    "Translate"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "novnc/noVNC",
+      "status": "candidate-context",
+      "text": "VNC client web application"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "novnc/noVNC",
+      "status": "candidate-context",
+      "text": "Translate"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "novnc/noVNC",
+      "status": "candidate",
+      "text": "Translate"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40044345,
+      "status": "candidate",
+      "text": "interpret"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040274,
+      "status": "candidate",
+      "text": "read"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028696,
+      "status": "candidate",
+      "text": "transform"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028158,
+      "status": "candidate",
+      "text": "understand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30046488,
+      "status": "candidate",
+      "text": "translation"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28037,
+      "status": "candidate",
+      "text": "understand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27042,
+      "status": "candidate",
+      "text": "transform"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22040,
+      "status": "candidate",
+      "text": "interpret"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11056,
+      "status": "candidate",
+      "text": "read"
+    }
+  ],
+  "canonical_name": "Translate",
+  "concept_id": "translate",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/translate.yml",
+      "source_repo": "novnc/noVNC"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Translate",
+      "sense_id": "translate#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

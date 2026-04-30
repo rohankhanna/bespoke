@@ -85,6 +85,18 @@
       "source_repo": "spring-io/spring-javaformat",
       "status": "candidate-context",
       "text": "Build and Deploy Snapshot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FasterXML/jackson-modules-base",
+      "status": "candidate-context",
+      "text": "Uber-project for foundational modules of Jackson that build directly on core components but nothing else; not including data format or datatype modules"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FasterXML/jackson-modules-base",
+      "status": "candidate-context",
+      "text": "Build and Deploy Snapshot"
     }
   ],
   "candidate_glosses": [
@@ -127,6 +139,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "spring-io/spring-javaformat",
+      "status": "candidate",
+      "text": "Build and Deploy Snapshot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FasterXML/jackson-modules-base",
       "status": "candidate",
       "text": "Build and Deploy Snapshot"
     }
@@ -214,11 +232,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/build-and-deploy-snapshot.yml",
       "source_repo": "spring-io/spring-javaformat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "FasterXML/jackson-modules-base"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

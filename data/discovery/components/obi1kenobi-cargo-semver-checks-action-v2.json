@@ -1,7 +1,7 @@
 {
   "component": "obi1kenobi/cargo-semver-checks-action@v2",
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -127,6 +127,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "djc/tokio-retry"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/crypto-bigint.yml",
+      "source_repo": "RustCrypto/crypto-bigint"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "hermit-os/tokio"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "stanislav-tkach/os_info"
     }
   ]
 }

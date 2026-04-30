@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Statistical Rethinking (2nd Ed) with Tensorflow Probability"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repository provides jupyter notebooks that port various R code fragments found in the"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repository provides jupyter notebooks that port various R code fragments found in the"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "bayesian-statistics",
+      "sense_id": "bayesian-statistics#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "bayesian-statistics",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bayesian-statistics",
+  "observation_id": "69f02b61fe833ccf",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "bayesian-statistics",
+  "source_context_snippet": "This repository provides jupyter notebooks that port various R code fragments found in the",
+  "source_file": null,
+  "source_repo": "ksachdeva/rethinking-tensorflow-probability",
+  "source_repo_description": "Statistical Rethinking (2nd Ed) with Tensorflow Probability"
+}

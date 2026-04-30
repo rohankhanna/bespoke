@@ -55,6 +55,18 @@
       "source_repo": "LibreHardwareMonitor/LibreHardwareMonitor",
       "status": "candidate-context",
       "text": "[![GitHub license](https://img.shields.io/github/license/LibreHardwareMonitor/LibreHardwareMonitor)](https://github.com/LibreHardwareMonitor/LibreHardwareMonitor/blob/master/LICENSE) [![Nuget](https://img.shields.io/nuget/v/LibreHardwareMonitorLib)](https://www.nuget.org/package\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aksakalli/gtop",
+      "status": "candidate-context",
+      "text": "System monitoring dashboard for terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aksakalli/gtop",
+      "status": "candidate-context",
+      "text": "![screen record](https://raw.githubusercontent.com/aksakalli/gtop/master/img/demo.gif)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "LibreHardwareMonitor/LibreHardwareMonitor",
       "status": "candidate",
       "text": "[![GitHub license](https://img.shields.io/github/license/LibreHardwareMonitor/LibreHardwareMonitor)](https://github.com/LibreHardwareMonitor/LibreHardwareMonitor/blob/master/LICENSE) [![Nuget](https://img.shields.io/nuget/v/LibreHardwareMonitorLib)](https://www.nuget.org/package\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aksakalli/gtop",
+      "status": "candidate",
+      "text": "![screen record](https://raw.githubusercontent.com/aksakalli/gtop/master/img/demo.gif)"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "LibreHardwareMonitor/LibreHardwareMonitor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "aksakalli/gtop"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

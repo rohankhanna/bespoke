@@ -1,0 +1,89 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zai-org/VisionReward",
+      "target": "thudm/cogvlm2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zai-org/VisionReward",
+      "target": "diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zai-org/VisionReward",
+      "target": "preference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zai-org/VisionReward",
+      "target": "rlhf",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:44:34.700587+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7451
+    },
+    {
+      "path": "requirements.txt",
+      "size": 702
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[AAAI 2026] VisionReward: Fine-Grained Multi-Dimensional Human Preference Learning for Image and Video Generation",
+    "fork": false,
+    "full_name": "zai-org/VisionReward",
+    "html_url": "https://github.com/zai-org/VisionReward",
+    "language": "Python",
+    "pushed_at": "2025-03-26T10:07:04Z",
+    "stargazers_count": 400,
+    "topics": [
+      "diffusion",
+      "preference",
+      "rlhf"
+    ],
+    "updated_at": "2026-04-24T10:49:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thudm/cogvlm2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "preference"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rlhf"
+    }
+  ]
+}

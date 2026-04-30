@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A scalable, distributed, collaborative, document-graph database, for the realtime web"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Automatically Moderate Github Comments"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Automatically Moderate Github Comments"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17999,
+      "status": "candidate",
+      "text": "sense"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17919,
+      "status": "candidate",
+      "text": "automatism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17919,
+      "status": "candidate",
+      "text": "reflex"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17919,
+      "status": "candidate",
+      "text": "servomechanism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17905,
+      "status": "candidate",
+      "text": "home"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Automatically Moderate Github Comments",
+      "sense_id": "automatically-moderate-github-comments#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "automatically-moderate-github-comments",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "automatically-moderate-github-comments",
+  "observation_id": "611dd392aaa29fc3",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "Automatically Moderate Github Comments",
+  "source_context_snippet": "Automatically Moderate Github Comments",
+  "source_file": ".github/workflows/automoderator.yaml",
+  "source_repo": "surrealdb/surrealdb",
+  "source_repo_description": "A scalable, distributed, collaborative, document-graph database, for the realtime web"
+}

@@ -1,0 +1,191 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "hendrikmuhs/ccache-action@v1.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "awalsh128/cache-apt-pkgs-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "enjoy-digital/litex",
+      "target": "enjoy-digital/litedram",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "enjoy-digital/litex",
+      "target": "enjoy-digital/liteeth",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "enjoy-digital/litex",
+      "target": "enjoy-digital/liteiclink",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "enjoy-digital/litex",
+      "target": "enjoy-digital/fpga_101",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "enjoy-digital/litex",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "enjoy-digital/litex",
+      "target": "hendrikmuhs/ccache-action@v1.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "enjoy-digital/litex",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "enjoy-digital/litex",
+      "target": "awalsh128/cache-apt-pkgs-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "enjoy-digital/litex",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "enjoy-digital/litex",
+      "target": "fpga",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "enjoy-digital/litex",
+      "target": "hardware",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "enjoy-digital/litex",
+      "target": "system-on-chip",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:46:11.567949+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13793
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 7685
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Build your hardware, easily!",
+    "fork": false,
+    "full_name": "enjoy-digital/litex",
+    "html_url": "https://github.com/enjoy-digital/litex",
+    "language": "Python",
+    "pushed_at": "2026-04-30T09:04:18Z",
+    "stargazers_count": 3857,
+    "topics": [
+      "fpga",
+      "hardware",
+      "system-on-chip"
+    ],
+    "updated_at": "2026-04-30T16:54:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "enjoy-digital/fpga_101",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "enjoy-digital/litedram",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "enjoy-digital/liteeth",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "enjoy-digital/liteiclink",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://raw.githubusercontent.com/enjoy-digital/litex/master/doc/litex.png\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fpga"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://raw.githubusercontent.com/enjoy-digital/litex/master/doc/litex.png\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hardware"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://raw.githubusercontent.com/enjoy-digital/litex/master/doc/litex.png\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "system-on-chip"
+    }
+  ]
+}

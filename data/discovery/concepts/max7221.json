@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "max7221"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MajicDesigns/MD_MAX72XX",
+      "status": "candidate-context",
+      "text": "LED Matrix Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MajicDesigns/MD_MAX72XX",
+      "status": "candidate-context",
+      "text": "[![arduino-library-badge](https://www.ardu-badge.com/badge/MD_MAX72XX.svg?)](https://www.ardu-badge.com/MD_MAX72XX)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MajicDesigns/MD_Parola",
+      "status": "candidate-context",
+      "text": "Library for modular scrolling LED matrix text displays"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MajicDesigns/MD_Parola",
+      "status": "candidate-context",
+      "text": "[![arduino-library-badge](https://www.ardu-badge.com/badge/MD_Parola.svg?)](https://www.ardu-badge.com/MD_Parola)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MajicDesigns/MD_MAX72XX",
+      "status": "candidate",
+      "text": "[![arduino-library-badge](https://www.ardu-badge.com/badge/MD_MAX72XX.svg?)](https://www.ardu-badge.com/MD_MAX72XX)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MajicDesigns/MD_Parola",
+      "status": "candidate",
+      "text": "[![arduino-library-badge](https://www.ardu-badge.com/badge/MD_Parola.svg?)](https://www.ardu-badge.com/MD_Parola)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "max7221",
+  "concept_id": "max7221",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "MajicDesigns/MD_MAX72XX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "MajicDesigns/MD_Parola"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "max7221",
+      "sense_id": "max7221#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

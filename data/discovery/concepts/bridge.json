@@ -67,6 +67,18 @@
       "source_repo": "novnc/websockify",
       "status": "candidate-context",
       "text": "websockify was formerly named wsproxy and was part of the"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mono/CppSharp",
+      "status": "candidate-context",
+      "text": "Tools and libraries to glue C/C++ APIs to high-level languages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mono/CppSharp",
+      "status": "candidate-context",
+      "text": "<img src=\"docs/logo.svg\" width=\"128\">"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "novnc/websockify",
       "status": "candidate",
       "text": "websockify was formerly named wsproxy and was part of the"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mono/CppSharp",
+      "status": "candidate",
+      "text": "<img src=\"docs/logo.svg\" width=\"128\">"
     }
   ],
   "candidate_related_terms": [
@@ -208,11 +226,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "novnc/websockify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "mono/CppSharp"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

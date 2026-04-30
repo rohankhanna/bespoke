@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "1hunters/LIMPQ",
+      "target": "zhutmost/lsq-net",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "1hunters/LIMPQ",
+      "target": "coin-or/pulp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "1hunters/LIMPQ",
+      "target": "eric-mingjie/network-slimming",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "1hunters/LIMPQ",
+      "target": "zhen-dong/hawq",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:40:13.177740+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8262
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official implementation for ECCV 2022 paper LIMPQ - \"Mixed-Precision Neural Network Quantization via Learned Layer-wise Importance\"",
+    "fork": false,
+    "full_name": "1hunters/LIMPQ",
+    "html_url": "https://github.com/1hunters/LIMPQ",
+    "language": "Python",
+    "pushed_at": "2023-03-19T19:52:32Z",
+    "stargazers_count": 61,
+    "topics": [],
+    "updated_at": "2026-04-13T21:10:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "coin-or/pulp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eric-mingjie/network-slimming",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zhen-dong/hawq",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zhutmost/lsq-net",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

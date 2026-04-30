@@ -1,0 +1,120 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jpmml/jpmml-sklearn",
+      "target": "jpmml/jpmml-h2o",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jpmml/jpmml-sklearn",
+      "target": "jpmml/jpmml-statsmodels",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jpmml/jpmml-sklearn",
+      "target": "jpmml/jpmml-xgboost",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jpmml/jpmml-sklearn",
+      "target": "jpmml/jpmml-evaluator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "jpmml/jpmml-sklearn",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "jpmml/jpmml-sklearn",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "jpmml/jpmml-sklearn",
+      "target": "maven",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:03:55.398499+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9501
+    },
+    {
+      "path": ".github/workflows/maven.yml",
+      "size": 375
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Java library and command-line application for converting Scikit-Learn pipelines to PMML",
+    "fork": false,
+    "full_name": "jpmml/jpmml-sklearn",
+    "html_url": "https://github.com/jpmml/jpmml-sklearn",
+    "language": "Java",
+    "pushed_at": "2026-04-28T17:23:57Z",
+    "stargazers_count": 540,
+    "topics": [],
+    "updated_at": "2026-04-28T17:24:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jpmml/jpmml-evaluator",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jpmml/jpmml-h2o",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jpmml/jpmml-statsmodels",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jpmml/jpmml-xgboost",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "maven",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven.yml",
+      "term": "maven"
+    }
+  ]
+}

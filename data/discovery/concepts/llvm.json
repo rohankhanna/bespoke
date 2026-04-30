@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "llvm"
+    "llvm",
+    "LLVM"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -141,6 +142,18 @@
       "source_repo": "intel/llvm",
       "status": "candidate-context",
       "text": "This is the Intel staging area for llvm.org contributions and the home for"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mono/CppSharp",
+      "status": "candidate-context",
+      "text": "Tools and libraries to glue C/C++ APIs to high-level languages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mono/CppSharp",
+      "status": "candidate-context",
+      "text": "LLVM"
     }
   ],
   "candidate_glosses": [
@@ -209,6 +222,12 @@
       "source_repo": "intel/llvm",
       "status": "candidate",
       "text": "This is the Intel staging area for llvm.org contributions and the home for"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mono/CppSharp",
+      "status": "candidate",
+      "text": "LLVM"
     }
   ],
   "candidate_related_terms": [
@@ -341,11 +360,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "swiftlang/swift-llbuild"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/llvm.yml",
+      "source_repo": "mono/CppSharp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "swiftlang/swift-llbuild"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

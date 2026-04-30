@@ -280,6 +280,30 @@
       "source_repo": "opencv/opencv-python",
       "status": "candidate-context",
       "text": "[![Downloads](https://static.pepy.tech/badge/opencv-python)](http://pepy.tech/project/opencv-python)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "argoproj-labs/hera",
+      "status": "candidate-context",
+      "text": "Hera makes Python code easy to orchestrate on Argo Workflows through native Python integrations. It lets you construct and submit your Workflows entirely in Python. \u2b50\ufe0f Remember to star!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj-labs/hera",
+      "status": "candidate-context",
+      "text": "| <img src=\"https://raw.githubusercontent.com/argoproj-labs/hera/main/docs/assets/hera-logo.svg\" alt=\"Hera mascot\"> | Hera is the go-to Python SDK to make Argo Workflows simple and intuitive. Easily turn Python functions into containerised templates that run on Kubernetes, with \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "litex-hub/pythondata-cpu-vexriscv",
+      "status": "candidate-context",
+      "text": "Python module containing verilog files for vexriscv cpu (for use with LiteX)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "litex-hub/pythondata-cpu-vexriscv",
+      "status": "candidate-context",
+      "text": "PyPI"
     }
   ],
   "candidate_glosses": [
@@ -420,6 +444,18 @@
       "source_repo": "opencv/opencv-python",
       "status": "candidate",
       "text": "[![Downloads](https://static.pepy.tech/badge/opencv-python)](http://pepy.tech/project/opencv-python)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj-labs/hera",
+      "status": "candidate",
+      "text": "| <img src=\"https://raw.githubusercontent.com/argoproj-labs/hera/main/docs/assets/hera-logo.svg\" alt=\"Hera mascot\"> | Hera is the go-to Python SDK to make Argo Workflows simple and intuitive. Easily turn Python functions into containerised templates that run on Kubernetes, with \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "litex-hub/pythondata-cpu-vexriscv",
+      "status": "candidate",
+      "text": "PyPI"
     }
   ],
   "candidate_related_terms": [],
@@ -703,11 +739,29 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "google-deepmind/bsuite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "argoproj-labs/hera"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "source_repo": "google-deepmind/optax"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "litex-hub/pythondata-cpu-vexriscv"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

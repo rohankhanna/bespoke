@@ -5,32 +5,11 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "microsoft/DirectML",
-      "target": "microsoft/windows-machine-learning",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "microsoft/DirectML",
-      "target": "microsoft/tensorflow-directml",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "microsoft/DirectML",
-      "target": "microsoft/tensorflow-directml-plugin",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "microsoft/DirectML",
       "target": "microsoft/directml-samples",
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-04-30T13:05:44.059706+00:00",
+  "fetched_at": "2026-04-30T18:40:38.447714+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -55,21 +34,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "microsoft/directml-samples",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "microsoft/tensorflow-directml",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "microsoft/tensorflow-directml-plugin",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "microsoft/windows-machine-learning",
       "source_file": "README.md"
     }
   ],

@@ -1,0 +1,502 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatting.yml"
+    },
+    {
+      "component": "JohnnyMorganz/stylua-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatting.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/neovim.yml"
+    },
+    {
+      "component": "MunifTanjim/setup-neovim-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/neovim.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/neovim.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/neovim.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/patch.yml"
+    },
+    {
+      "component": "kdheepak/panvimdoc@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/patch.yml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/patch.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/patch.yml"
+    },
+    {
+      "component": "MunifTanjim/setup-neovim-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/patch.yml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/patch.yml"
+    },
+    {
+      "component": "googleapis/release-please-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "nvim-neorocks/luarocks-tag-release@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "MunifTanjim/setup-neovim-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "catppuccin/nvim",
+      "target": "catppuccin/catppuccin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "catppuccin/nvim",
+      "target": "catppuccin/vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "catppuccin/nvim",
+      "target": "comfysage/artio.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "catppuccin/nvim",
+      "target": "bekaboo/dropbar.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatting.yml",
+      "source_repo": "catppuccin/nvim",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatting.yml",
+      "source_repo": "catppuccin/nvim",
+      "target": "JohnnyMorganz/stylua-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/formatting.yml",
+      "source_repo": "catppuccin/nvim",
+      "target": "StyLua",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/neovim.yml",
+      "source_repo": "catppuccin/nvim",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/neovim.yml",
+      "source_repo": "catppuccin/nvim",
+      "target": "MunifTanjim/setup-neovim-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/neovim.yml",
+      "source_repo": "catppuccin/nvim",
+      "target": "Neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/patch.yml",
+      "source_repo": "catppuccin/nvim",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/patch.yml",
+      "source_repo": "catppuccin/nvim",
+      "target": "kdheepak/panvimdoc@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/patch.yml",
+      "source_repo": "catppuccin/nvim",
+      "target": "stefanzweifel/git-auto-commit-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/patch.yml",
+      "source_repo": "catppuccin/nvim",
+      "target": "MunifTanjim/setup-neovim-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/patch.yml",
+      "source_repo": "catppuccin/nvim",
+      "target": "Patch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "catppuccin/nvim",
+      "target": "googleapis/release-please-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "catppuccin/nvim",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "catppuccin/nvim",
+      "target": "nvim-neorocks/luarocks-tag-release@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "catppuccin/nvim",
+      "target": "release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "catppuccin/nvim",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "catppuccin/nvim",
+      "target": "MunifTanjim/setup-neovim-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "catppuccin/nvim",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "catppuccin/nvim",
+      "target": "catppuccin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "catppuccin/nvim",
+      "target": "colorscheme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "catppuccin/nvim",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "catppuccin/nvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "catppuccin/nvim",
+      "target": "neovim-colorscheme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "catppuccin/nvim",
+      "target": "neovim-lua",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "catppuccin/nvim",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "catppuccin/nvim",
+      "target": "neovim-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "catppuccin/nvim",
+      "target": "nvim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "catppuccin/nvim",
+      "target": "theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "catppuccin/nvim",
+      "target": "vim-theme",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:41:30.611602+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 38385
+    },
+    {
+      "path": ".github/workflows/formatting.yml",
+      "size": 389
+    },
+    {
+      "path": ".github/workflows/neovim.yml",
+      "size": 1391
+    },
+    {
+      "path": ".github/workflows/patch.yml",
+      "size": 1252
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1356
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 1102
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83c\udf68 Soothing pastel theme for Neovim",
+    "fork": false,
+    "full_name": "catppuccin/nvim",
+    "html_url": "https://github.com/catppuccin/nvim",
+    "language": "Lua",
+    "pushed_at": "2026-04-29T10:57:29Z",
+    "stargazers_count": 7398,
+    "topics": [
+      "catppuccin",
+      "colorscheme",
+      "hacktoberfest",
+      "lua",
+      "neovim",
+      "neovim-colorscheme",
+      "neovim-lua",
+      "neovim-plugin",
+      "neovim-theme",
+      "nvim",
+      "theme",
+      "vim",
+      "vim-theme"
+    ],
+    "updated_at": "2026-04-30T19:09:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bekaboo/dropbar.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "catppuccin/catppuccin",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "catppuccin/vim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "comfysage/artio.nvim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "StyLua",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/formatting.yml",
+      "term": "StyLua"
+    },
+    {
+      "context_snippet": "Neovim",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/neovim.yml",
+      "term": "Neovim"
+    },
+    {
+      "context_snippet": "Patch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/patch.yml",
+      "term": "Patch"
+    },
+    {
+      "context_snippet": "release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "release"
+    },
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "<!-- panvimdoc-ignore-start -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "catppuccin"
+    },
+    {
+      "context_snippet": "<!-- panvimdoc-ignore-start -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "colorscheme"
+    },
+    {
+      "context_snippet": "<!-- panvimdoc-ignore-start -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "<!-- panvimdoc-ignore-start -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "<!-- panvimdoc-ignore-start -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-colorscheme"
+    },
+    {
+      "context_snippet": "<!-- panvimdoc-ignore-start -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-lua"
+    },
+    {
+      "context_snippet": "<!-- panvimdoc-ignore-start -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    },
+    {
+      "context_snippet": "<!-- panvimdoc-ignore-start -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-theme"
+    },
+    {
+      "context_snippet": "<!-- panvimdoc-ignore-start -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim"
+    },
+    {
+      "context_snippet": "<!-- panvimdoc-ignore-start -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "theme"
+    },
+    {
+      "context_snippet": "<!-- panvimdoc-ignore-start -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-theme"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ai-bot-pro/pipeline-py",
+      "target": "weedge/pipeline-go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ai-bot-pro/pipeline-py",
+      "target": "weedge/pipeline-py",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ai-bot-pro/pipeline-py",
+      "target": "pipecat-ai/pipecat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai-bot-pro/pipeline-py",
+      "target": "pipeline",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:37:01.966140+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4547
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 259
+    },
+    {
+      "path": "requirements.txt",
+      "size": 17
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "python pipeline for data  processors",
+    "fork": false,
+    "full_name": "ai-bot-pro/pipeline-py",
+    "html_url": "https://github.com/ai-bot-pro/pipeline-py",
+    "language": "Python",
+    "pushed_at": "2025-11-28T14:05:41Z",
+    "stargazers_count": 2,
+    "topics": [
+      "pipeline",
+      "python"
+    ],
+    "updated_at": "2025-11-28T14:05:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pipecat-ai/pipecat",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "weedge/pipeline-go",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "weedge/pipeline-py",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pipeline"
+    }
+  ]
+}

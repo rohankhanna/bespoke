@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-java@v4",
   "first_seen_at": "2026-04-17T18:04:43.852571+00:00",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1462,6 +1462,56 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/java_compatibility_check.yaml",
       "source_repo": "googleapis/sdk-platform-java"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/base-windows.yml",
+      "source_repo": "graalvm/mandrel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/base.yml",
+      "source_repo": "graalvm/mandrel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-quarkus.yml",
+      "source_repo": "graalvm/mandrel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/github-issue-updater.yml",
+      "source_repo": "graalvm/mandrel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "jpmml/jpmml-sklearn"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "codymikol/neotest-kotlin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e-metro.yml",
+      "source_repo": "module-federation/core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-deploy.yml",
+      "source_repo": "netty/netty"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-pr.yml",
+      "source_repo": "netty/netty"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-android.yml",
+      "source_repo": "getlantern/lantern"
     }
   ]
 }

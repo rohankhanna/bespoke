@@ -31,6 +31,18 @@
       "source_repo": "EclipseFdn/open-vsx.org",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AyushSaini00/holi-theme",
+      "status": "candidate-context",
+      "text": "\ud83c\udf08 A Clean Visual Studio Code dark theme inspired by the festival of colors - Holi"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AyushSaini00/holi-theme",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "EclipseFdn/open-vsx.org",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AyushSaini00/holi-theme",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
     }
@@ -157,11 +175,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "eclipse-openvsx/openvsx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "AyushSaini00/holi-theme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-openvsx/openvsx"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

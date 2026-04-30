@@ -84,7 +84,7 @@
   "normalized_form": "nightly-full-tests",
   "observation_id": "bf2a21408d76a978",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
   "observed_text": "Nightly Full Tests",
   "source_context_snippet": "Nightly Full Tests",
   "source_file": ".github/workflows/nightly.yml",

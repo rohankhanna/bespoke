@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T18:41:10.655350+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3140
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Common project repo for all Argo Projects",
+    "fork": false,
+    "full_name": "argoproj/argoproj",
+    "html_url": "https://github.com/argoproj/argoproj",
+    "language": "Python",
+    "pushed_at": "2026-04-17T16:56:58Z",
+    "stargazers_count": 742,
+    "topics": [],
+    "updated_at": "2026-04-29T21:56:52Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

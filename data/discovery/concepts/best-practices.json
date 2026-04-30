@@ -139,6 +139,18 @@
       "source_repo": "cawa-93/vite-electron-builder",
       "status": "candidate-context",
       "text": "> [!Important]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SciML/ColPrac",
+      "status": "candidate-context",
+      "text": "Contributor's Guide on Collaborative Practices for Community Packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SciML/ColPrac",
+      "status": "candidate-context",
+      "text": "[![Global Docs](https://img.shields.io/badge/docs-SciML-blue.svg)](https://docs.sciml.ai/ColPrac/stable/)"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +219,12 @@
       "source_repo": "cawa-93/vite-electron-builder",
       "status": "candidate",
       "text": "> [!Important]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SciML/ColPrac",
+      "status": "candidate",
+      "text": "[![Global Docs](https://img.shields.io/badge/docs-SciML-blue.svg)](https://docs.sciml.ai/ColPrac/stable/)"
     }
   ],
   "candidate_related_terms": [],
@@ -298,11 +316,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "MrGemy95/Tensorflow-Project-Template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "SciML/ColPrac"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

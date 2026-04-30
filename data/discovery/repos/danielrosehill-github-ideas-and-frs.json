@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T19:59:11.126474+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1668
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Ideas and feature requests contributed to Github projects",
+    "fork": false,
+    "full_name": "danielrosehill/Github-Ideas-And-FRs",
+    "html_url": "https://github.com/danielrosehill/Github-Ideas-And-FRs",
+    "language": "Typst",
+    "pushed_at": "2026-04-19T14:44:04Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-19T14:44:09Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

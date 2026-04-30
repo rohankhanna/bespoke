@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A fast type checker and language server for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Issue Priority Ranking"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Issue Priority Ranking"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35552,
+      "status": "candidate",
+      "text": "precedence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19312,
+      "status": "candidate",
+      "text": "first"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18129,
+      "status": "candidate",
+      "text": "place"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18129,
+      "status": "candidate",
+      "text": "placed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18129,
+      "status": "candidate",
+      "text": "placing"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Issue Priority Ranking",
+      "sense_id": "issue-priority-ranking#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "issue-priority-ranking",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "issue-priority-ranking",
+  "observation_id": "0d1b92ad3c7b7461",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "Issue Priority Ranking",
+  "source_context_snippet": "Issue Priority Ranking",
+  "source_file": ".github/workflows/issue_ranking.yml",
+  "source_repo": "facebook/pyrefly",
+  "source_repo_description": "A fast type checker and language server for Python"
+}

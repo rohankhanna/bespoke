@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "asmvik/skhd",
+      "target": "jackielii/skhd.zig",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T20:03:56.835930+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6590
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": " Simple hotkey daemon for macOS",
+    "fork": false,
+    "full_name": "asmvik/skhd",
+    "html_url": "https://github.com/asmvik/skhd",
+    "language": "C",
+    "pushed_at": "2025-12-09T23:24:45Z",
+    "stargazers_count": 7939,
+    "topics": [],
+    "updated_at": "2026-04-30T03:16:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jackielii/skhd.zig",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -379,6 +379,18 @@
       "source_repo": "2KAbhishek/exercism.nvim",
       "status": "candidate-context",
       "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bakpakin/Fennel",
+      "status": "candidate-context",
+      "text": "Lua Lisp Language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bakpakin/Fennel",
+      "status": "candidate-context",
+      "text": "[Fennel][1] is a lisp that compiles to Lua. It aims to be easy to use,"
     }
   ],
   "candidate_glosses": [
@@ -567,6 +579,12 @@
       "source_repo": "2KAbhishek/exercism.nvim",
       "status": "candidate",
       "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bakpakin/Fennel",
+      "status": "candidate",
+      "text": "[Fennel][1] is a lisp that compiles to Lua. It aims to be easy to use,"
     }
   ],
   "candidate_related_terms": [
@@ -904,11 +922,29 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "2KAbhishek/exercism.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "babashka/sci"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "bakpakin/Fennel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "argotorg/solidity"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

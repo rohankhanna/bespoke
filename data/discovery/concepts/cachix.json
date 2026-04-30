@@ -19,12 +19,30 @@
       "source_repo": "helix-editor/helix",
       "status": "candidate-context",
       "text": "Cachix"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kitknox/helix",
+      "status": "candidate-context",
+      "text": "A post-modern modal text editor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kitknox/helix",
+      "status": "candidate-context",
+      "text": "Cachix"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "helix-editor/helix",
+      "status": "candidate",
+      "text": "Cachix"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kitknox/helix",
       "status": "candidate",
       "text": "Cachix"
     }
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/cachix.yml",
       "source_repo": "helix-editor/helix"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/cachix.yml",
+      "source_repo": "kitknox/helix"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Add Qwik support to storybook"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Vercel Preview and Storybook Test\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Vercel Preview and Storybook Test\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28673,
+      "status": "candidate",
+      "text": "sneak preview"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20945,
+      "status": "candidate",
+      "text": "tale"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19876,
+      "status": "candidate",
+      "text": "waltz"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12935,
+      "status": "candidate",
+      "text": "ever"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12935,
+      "status": "candidate",
+      "text": "once"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Vercel Preview and Storybook Test",
+      "sense_id": "vercel-preview-and-storybook-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "vercel-preview-and-storybook-test",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "vercel-preview-and-storybook-test",
+  "observation_id": "4e55a49312533764",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "Vercel Preview and Storybook Test",
+  "source_context_snippet": "\"Vercel Preview and Storybook Test\"",
+  "source_file": ".github/workflows/preview-and-test.yml",
+  "source_repo": "literalpie/storybook-framework-qwik",
+  "source_repo_description": "Add Qwik support to storybook"
+}

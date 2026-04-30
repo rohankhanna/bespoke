@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -101,6 +101,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "marmelab/react-admin-helpdesk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaDocs/DemoCards.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/demo.yml",
+      "source_repo": "better-auth/better-auth"
     }
   ],
   "term": "demo"

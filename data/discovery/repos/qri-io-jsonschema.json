@@ -1,0 +1,62 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "qri-io/jsonschema",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "qri-io/jsonschema",
+      "target": "json-schema",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:49:15.068638+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5782
+    },
+    {
+      "path": "go.mod",
+      "size": 177
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "golang implementation of  https://json-schema.org drafts 7 & 2019-09",
+    "fork": false,
+    "full_name": "qri-io/jsonschema",
+    "html_url": "https://github.com/qri-io/jsonschema",
+    "language": "Go",
+    "pushed_at": "2024-12-18T08:22:28Z",
+    "stargazers_count": 481,
+    "topics": [
+      "golang",
+      "json-schema"
+    ],
+    "updated_at": "2026-04-02T11:36:35Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Qri](https://img.shields.io/badge/made%20by-qri-magenta.svg?style=flat-square)](https://qri.io)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "[![Qri](https://img.shields.io/badge/made%20by-qri-magenta.svg?style=flat-square)](https://qri.io)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json-schema"
+    }
+  ]
+}

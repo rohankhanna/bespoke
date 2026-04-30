@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T18:37:39.805325+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 907
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Add-on packages for Vector class library",
+    "fork": false,
+    "full_name": "vectorclass/add-on",
+    "html_url": "https://github.com/vectorclass/add-on",
+    "language": "C++",
+    "pushed_at": "2023-11-25T08:29:58Z",
+    "stargazers_count": 75,
+    "topics": [],
+    "updated_at": "2026-04-17T03:12:47Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

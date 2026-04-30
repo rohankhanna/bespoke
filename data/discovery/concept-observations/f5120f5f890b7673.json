@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Highly customizable Wayland bar for Sway and Wlroots based compositors. :v: :tada:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> Highly customizable Wayland bar for Sway and Wlroots based compositors.<br>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> Highly customizable Wayland bar for Sway and Wlroots based compositors.<br>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "wlroots",
+      "sense_id": "wlroots#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "wlroots",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "wlroots",
+  "observation_id": "f5120f5f890b7673",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "wlroots",
+  "source_context_snippet": "> Highly customizable Wayland bar for Sway and Wlroots based compositors.<br>",
+  "source_file": null,
+  "source_repo": "Alexays/Waybar",
+  "source_repo_description": "Highly customizable Wayland bar for Sway and Wlroots based compositors. :v: :tada:"
+}

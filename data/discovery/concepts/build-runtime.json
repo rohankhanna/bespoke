@@ -19,12 +19,30 @@
       "source_repo": "boxlite-ai/boxlite",
       "status": "candidate-context",
       "text": "Build Runtime"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wenet-e2e/wenet",
+      "status": "candidate-context",
+      "text": "Production First and Production Ready End-to-End Speech Recognition Toolkit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wenet-e2e/wenet",
+      "status": "candidate-context",
+      "text": "Build Runtime"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "boxlite-ai/boxlite",
+      "status": "candidate",
+      "text": "Build Runtime"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wenet-e2e/wenet",
       "status": "candidate",
       "text": "Build Runtime"
     }
@@ -82,11 +100,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/build-runtime.yml",
       "source_repo": "boxlite-ai/boxlite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/runtime.yml",
+      "source_repo": "wenet-e2e/wenet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/build-runtime.yml",
+      "source_repo": "boxlite-ai/boxlite"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

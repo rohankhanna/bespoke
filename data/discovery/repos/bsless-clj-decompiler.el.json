@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T18:54:42.265580+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Small wrapper for clj-java-decompiler in GNU Emacs on top of Cider",
+    "fork": false,
+    "full_name": "bsless/clj-decompiler.el",
+    "html_url": "https://github.com/bsless/clj-decompiler.el",
+    "language": "Emacs Lisp",
+    "pushed_at": "2022-01-03T17:46:43Z",
+    "stargazers_count": 29,
+    "topics": [],
+    "updated_at": "2025-09-30T13:50:48Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

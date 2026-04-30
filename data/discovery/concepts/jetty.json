@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "jetty"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dropwizard/dropwizard",
+      "status": "candidate-context",
+      "text": "A damn simple library for building production-ready RESTful web services."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dropwizard/dropwizard",
+      "status": "candidate-context",
+      "text": "Dropwizard"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dropwizard/dropwizard",
+      "status": "candidate",
+      "text": "Dropwizard"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40045312,
+      "status": "candidate",
+      "text": "breakwater"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40045309,
+      "status": "candidate",
+      "text": "groyne"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40044323,
+      "status": "candidate",
+      "text": "seawall"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40034670,
+      "status": "candidate",
+      "text": "bulwark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39834245,
+      "status": "candidate",
+      "text": "mole"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 58037,
+      "status": "candidate",
+      "text": "bulwark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12055,
+      "status": "candidate",
+      "text": "groin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11075,
+      "status": "candidate",
+      "text": "mole"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7039,
+      "status": "candidate",
+      "text": "breakwater"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5032,
+      "status": "candidate",
+      "text": "groyne"
+    }
+  ],
+  "canonical_name": "jetty",
+  "concept_id": "jetty",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "dropwizard/dropwizard"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "jetty",
+      "sense_id": "jetty#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

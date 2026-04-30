@@ -31,6 +31,18 @@
       "source_repo": "bhauman/flappy-bird-demo-new",
       "status": "candidate-context",
       "text": "This is the original Flappy Bird Demo updated to use the newer versions"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bhauman/lein-figwheel",
+      "status": "candidate-context",
+      "text": "Figwheel builds your ClojureScript code and hot loads it into the browser as you are coding!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bhauman/lein-figwheel",
+      "status": "candidate-context",
+      "text": "[![CircleCI](https://circleci.com/gh/bhauman/lein-figwheel.svg?style=svg)](https://circleci.com/gh/bhauman/lein-figwheel)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "bhauman/flappy-bird-demo-new",
       "status": "candidate",
       "text": "This is the original Flappy Bird Demo updated to use the newer versions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bhauman/lein-figwheel",
+      "status": "candidate",
+      "text": "[![CircleCI](https://circleci.com/gh/bhauman/lein-figwheel.svg?style=svg)](https://circleci.com/gh/bhauman/lein-figwheel)"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "bhauman/flappy-bird-demo-new"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "bhauman/lein-figwheel"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

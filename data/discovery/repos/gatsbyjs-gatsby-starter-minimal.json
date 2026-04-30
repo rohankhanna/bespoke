@@ -1,0 +1,69 @@
+{
+  "components": [
+    {
+      "component": "gatsby",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-dom",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "gatsbyjs/gatsby-starter-minimal",
+      "target": "gatsby",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "gatsbyjs/gatsby-starter-minimal",
+      "target": "react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "gatsbyjs/gatsby-starter-minimal",
+      "target": "react-dom",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:57:59.554859+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1895
+    },
+    {
+      "path": "package.json",
+      "size": 514
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "gatsbyjs/gatsby-starter-minimal",
+    "html_url": "https://github.com/gatsbyjs/gatsby-starter-minimal",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-01T21:52:44Z",
+    "stargazers_count": 30,
+    "topics": [],
+    "updated_at": "2026-04-01T21:52:48Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

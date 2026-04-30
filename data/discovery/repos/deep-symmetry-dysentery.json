@@ -1,0 +1,239 @@
+{
+  "components": [
+    {
+      "component": "@antora/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@antora/site-generator",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@antora/lunr-extension",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@deepsymmetry/asciidoctor-bytefield",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@djencks/asciidoctor-mathjax",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analysis.yml"
+    },
+    {
+      "component": "shimataro/ssh-key-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analysis.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analysis.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Deep-Symmetry/dysentery",
+      "target": "brunchboy/dysentery",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Deep-Symmetry/dysentery",
+      "target": "brunchboy/beat-link",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Deep-Symmetry/dysentery",
+      "target": "brunchboy/beat-link-trigger",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Deep-Symmetry/dysentery",
+      "target": "brunchboy/afterglow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Deep-Symmetry/dysentery",
+      "target": "@antora/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Deep-Symmetry/dysentery",
+      "target": "@antora/site-generator",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Deep-Symmetry/dysentery",
+      "target": "@antora/lunr-extension",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Deep-Symmetry/dysentery",
+      "target": "@deepsymmetry/asciidoctor-bytefield",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Deep-Symmetry/dysentery",
+      "target": "@djencks/asciidoctor-mathjax",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analysis.yml",
+      "source_repo": "Deep-Symmetry/dysentery",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analysis.yml",
+      "source_repo": "Deep-Symmetry/dysentery",
+      "target": "shimataro/ssh-key-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analysis.yml",
+      "source_repo": "Deep-Symmetry/dysentery",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/analysis.yml",
+      "source_repo": "Deep-Symmetry/dysentery",
+      "target": "Build and publish the protocol analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/dysentery",
+      "target": "dj-link",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/dysentery",
+      "target": "network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/dysentery",
+      "target": "pioneer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:53:50.389484+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16029
+    },
+    {
+      "path": "package.json",
+      "size": 1064
+    },
+    {
+      "path": ".github/workflows/analysis.yml",
+      "size": 851
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Exploring ways to participate in a Pioneer Pro DJ Link network",
+    "fork": false,
+    "full_name": "Deep-Symmetry/dysentery",
+    "html_url": "https://github.com/Deep-Symmetry/dysentery",
+    "language": "Clojure",
+    "pushed_at": "2026-03-28T04:47:31Z",
+    "stargazers_count": 245,
+    "topics": [
+      "dj-link",
+      "network",
+      "pioneer"
+    ],
+    "updated_at": "2026-04-27T16:02:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "brunchboy/afterglow",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "brunchboy/beat-link",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "brunchboy/beat-link-trigger",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "brunchboy/dysentery",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build and publish the protocol analysis",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/analysis.yml",
+      "term": "Build and publish the protocol analysis"
+    },
+    {
+      "context_snippet": "Exploring ways to participate in a Pioneer Pro DJ Link network.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dj-link"
+    },
+    {
+      "context_snippet": "Exploring ways to participate in a Pioneer Pro DJ Link network.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "network"
+    },
+    {
+      "context_snippet": "Exploring ways to participate in a Pioneer Pro DJ Link network.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pioneer"
+    }
+  ]
+}

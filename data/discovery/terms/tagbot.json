@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -166,6 +166,56 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/tagbot.yml",
       "source_repo": "Lyceum/MuJoCo.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "StatisticalRethinkingJulia/TuringModels.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaDebug/JuliaInterpreter.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "timholy/Revise.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "GunnarFarneback/LocalPackageServer.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaComputing/Registrator.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "fredrikekre/Literate.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaDocs/DemoCards.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaDocs/DocumenterCitations.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaDocs/DocumenterInterLinks.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaAI/MLJ.jl"
     }
   ],
   "term": "TagBot"

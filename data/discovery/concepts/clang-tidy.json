@@ -155,6 +155,18 @@
       "source_repo": "intel/llvm",
       "status": "candidate-context",
       "text": "clang-tidy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Alexays/Waybar",
+      "status": "candidate-context",
+      "text": "Highly customizable Wayland bar for Sway and Wlroots based compositors. :v: :tada:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alexays/Waybar",
+      "status": "candidate-context",
+      "text": "clang-tidy"
     }
   ],
   "candidate_glosses": [
@@ -227,6 +239,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "intel/llvm",
+      "status": "candidate",
+      "text": "clang-tidy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alexays/Waybar",
       "status": "candidate",
       "text": "clang-tidy"
     }
@@ -362,11 +380,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/clang-tidy.yml",
       "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/clang-tidy.yml",
+      "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/clang-tidy.yml.bak",
+      "source_repo": "Alexays/Waybar"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

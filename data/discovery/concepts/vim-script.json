@@ -43,6 +43,18 @@
       "source_repo": "thinca/vim-themis",
       "status": "candidate-context",
       "text": "themis.vim is a testing framework for Vim script."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Vimjas/vint",
+      "status": "candidate-context",
+      "text": "Fast and Highly Extensible Vim script Language Lint implemented in Python."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Vimjas/vint",
+      "status": "candidate-context",
+      "text": ".. figure:: https://raw.githubusercontent.com/Kuniwak/vint/logo/logo.png"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "thinca/vim-themis",
       "status": "candidate",
       "text": "themis.vim is a testing framework for Vim script."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Vimjas/vint",
+      "status": "candidate",
+      "text": ".. figure:: https://raw.githubusercontent.com/Kuniwak/vint/logo/logo.png"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "thinca/vim-themis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "Vimjas/vint"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

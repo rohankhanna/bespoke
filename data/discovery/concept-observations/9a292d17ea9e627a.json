@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":rocket: A high performance gin middleware to cache http response. Compared to gin-contrib/cache, It has a huge performance improvement. \u9ad8\u6027\u80fdgin\u7f13\u5b58\u4e2d\u95f4\u4ef6\uff0c\u76f8\u6bd4\u4e8e\u5b98\u65b9\u7248\u672c\uff0c\u6709\u5de8\u5927\u6027\u80fd\u63d0\u5347\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "module github.com/chenyahui/gin-cache go 1.13 require ( github.com/gin-gonic/gin v1.7.7 github.com/go-redis/redis/v8 v8.11.5 github.com/jellydator/ttlcache/v2 v2.11.1 github.com/stretchr/testify v1.7.1 golang.org/x/sync v0.0.0-20220722155255-886fb9371eb4 gopkg.in/yaml.v3 v3.0.0-\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "module github.com/chenyahui/gin-cache go 1.13 require ( github.com/gin-gonic/gin v1.7.7 github.com/go-redis/redis/v8 v8.11.5 github.com/jellydator/ttlcache/v2 v2.11.1 github.com/stretchr/testify v1.7.1 golang.org/x/sync v0.0.0-20220722155255-886fb9371eb4 gopkg.in/yaml.v3 v3.0.0-\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "singleflight",
+      "sense_id": "singleflight#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "singleflight",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "singleflight",
+  "observation_id": "9a292d17ea9e627a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "singleflight",
+  "source_context_snippet": "module github.com/chenyahui/gin-cache go 1.13 require ( github.com/gin-gonic/gin v1.7.7 github.com/go-redis/redis/v8 v8.11.5 github.com/jellydator/ttlcache/v2 v2.11.1 github.com/stretchr/testify v1.7.1 golang.org/x/sync v0.0.0-20220722155255-886fb9371eb4 gopkg.in/yaml.v3 v3.0.0-\u2026",
+  "source_file": null,
+  "source_repo": "chenyahui/gin-cache",
+  "source_repo_description": ":rocket: A high performance gin middleware to cache http response. Compared to gin-contrib/cache, It has a huge performance improvement. \u9ad8\u6027\u80fdgin\u7f13\u5b58\u4e2d\u95f4\u4ef6\uff0c\u76f8\u6bd4\u4e8e\u5b98\u65b9\u7248\u672c\uff0c\u6709\u5de8\u5927\u6027\u80fd\u63d0\u5347\u3002"
+}

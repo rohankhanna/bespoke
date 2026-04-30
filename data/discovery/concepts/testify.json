@@ -19,6 +19,18 @@
       "source_repo": "stretchr/testify",
       "status": "candidate-context",
       "text": "Testify - Thou Shalt Write Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Antonboom/testifylint",
+      "status": "candidate-context",
+      "text": "The Golang linter that checks usage of github.com/stretchr/testify."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Antonboom/testifylint",
+      "status": "candidate-context",
+      "text": "![Latest release](https://img.shields.io/github/v/release/Antonboom/testifylint)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "stretchr/testify",
       "status": "candidate",
       "text": "Testify - Thou Shalt Write Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Antonboom/testifylint",
+      "status": "candidate",
+      "text": "![Latest release](https://img.shields.io/github/v/release/Antonboom/testifylint)"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "stretchr/testify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "Antonboom/testifylint"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

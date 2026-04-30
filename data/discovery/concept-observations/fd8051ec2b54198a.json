@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A scalable, distributed, collaborative, document-graph database, for the realtime web"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Performance Benchmarks"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Performance Benchmarks"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16526,
+      "status": "candidate",
+      "text": "goals"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16526,
+      "status": "candidate",
+      "text": "indicators"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16526,
+      "status": "candidate",
+      "text": "objectives"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16526,
+      "status": "candidate",
+      "text": "targets"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16285,
+      "status": "candidate",
+      "text": "benchmark"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Performance Benchmarks",
+      "sense_id": "performance-benchmarks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "performance-benchmarks",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "performance-benchmarks",
+  "observation_id": "fd8051ec2b54198a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "Performance Benchmarks",
+  "source_context_snippet": "Performance Benchmarks",
+  "source_file": ".github/workflows/crud-bench.yml",
+  "source_repo": "surrealdb/surrealdb",
+  "source_repo_description": "A scalable, distributed, collaborative, document-graph database, for the realtime web"
+}

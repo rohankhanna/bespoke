@@ -1,0 +1,116 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "2KAbhishek/exercism-fetcher",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "2KAbhishek/exercism-fetcher",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "2KAbhishek/exercism-fetcher",
+      "target": "Ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2KAbhishek/exercism-fetcher",
+      "target": "exercism",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2KAbhishek/exercism-fetcher",
+      "target": "ruby-gem",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2KAbhishek/exercism-fetcher",
+      "target": "utility",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T20:03:59.403388+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3598
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 448
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Fetch Exercism Tracks Data \ud83d\udcaa\ud83d\udd3d",
+    "fork": false,
+    "full_name": "2KAbhishek/exercism-fetcher",
+    "html_url": "https://github.com/2KAbhishek/exercism-fetcher",
+    "language": "Ruby",
+    "pushed_at": "2024-12-01T17:26:26Z",
+    "stargazers_count": 0,
+    "topics": [
+      "cli",
+      "exercism",
+      "gem",
+      "ruby-gem",
+      "utility"
+    ],
+    "updated_at": "2024-12-01T17:26:30Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Ruby",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Ruby"
+    },
+    {
+      "context_snippet": "<div align = \"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "exercism"
+    },
+    {
+      "context_snippet": "<div align = \"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby-gem"
+    },
+    {
+      "context_snippet": "<div align = \"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "utility"
+    }
+  ]
+}

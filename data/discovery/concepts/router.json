@@ -91,6 +91,30 @@
       "source_repo": "dimfeld/httptreemux",
       "status": "candidate-context",
       "text": "httptreemux [![Build Status](https://travis-ci.org/dimfeld/httptreemux.png?branch=master)](https://travis-ci.org/dimfeld/httptreemux) [![GoDoc](https://godoc.org/github.com/dimfeld/httptreemux?status.svg)](https://godoc.org/github.com/dimfeld/httptreemux)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "drduh/Router-Guide",
+      "status": "candidate-context",
+      "text": "Guide to building a Linux or BSD router on the PC Engines APU platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drduh/Router-Guide",
+      "status": "candidate-context",
+      "text": "**Important** After many years of service, the PC Engines APU platform is now [EOL](https://www.pcengines.ch/eol.htm)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "getlantern/lantern",
+      "status": "candidate-context",
+      "text": "Open-source VPN for speed, privacy, and censorship circumvention. Free to download on Android, iOS, Windows, macOS, and Linux."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getlantern/lantern",
+      "status": "candidate-context",
+      "text": "[![en](https://github.com/getlantern/.github/blob/main/resources/English.svg)](https://github.com/getlantern/.github/blob/main/profile/README.md)"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +159,18 @@
       "source_repo": "dimfeld/httptreemux",
       "status": "candidate",
       "text": "httptreemux [![Build Status](https://travis-ci.org/dimfeld/httptreemux.png?branch=master)](https://travis-ci.org/dimfeld/httptreemux) [![GoDoc](https://godoc.org/github.com/dimfeld/httptreemux?status.svg)](https://godoc.org/github.com/dimfeld/httptreemux)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drduh/Router-Guide",
+      "status": "candidate",
+      "text": "**Important** After many years of service, the PC Engines APU platform is now [EOL](https://www.pcengines.ch/eol.htm)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getlantern/lantern",
+      "status": "candidate",
+      "text": "[![en](https://github.com/getlantern/.github/blob/main/resources/English.svg)](https://github.com/getlantern/.github/blob/main/profile/README.md)"
     }
   ],
   "candidate_related_terms": [
@@ -226,11 +262,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "dimfeld/httptreemux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "drduh/Router-Guide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "getlantern/lantern"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

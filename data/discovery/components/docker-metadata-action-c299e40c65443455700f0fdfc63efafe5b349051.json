@@ -1,7 +1,7 @@
 {
   "component": "docker/metadata-action@c299e40c65443455700f0fdfc63efafe5b349051",
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -107,6 +107,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/publish-docker-image.yml",
       "source_repo": "aboutcode-org/scancode.io"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/controller-release.yml",
+      "source_repo": "openlit/openlit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/otel-gpu-collector-release.yml",
+      "source_repo": "openlit/openlit"
     }
   ]
 }

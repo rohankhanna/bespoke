@@ -178,6 +178,18 @@
       "source_repo": "dagger/dagger",
       "status": "candidate-context",
       "text": "Dagger is a platform for automating software delivery. It can build, test and ship any codebase, reliably and at scale."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DiligentGraphics/glslang",
+      "status": "candidate-context",
+      "text": "Khronos reference front-end for GLSL and ESSL, and sample SPIR-V generator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DiligentGraphics/glslang",
+      "status": "candidate-context",
+      "text": "Continuous Deployment"
     }
   ],
   "candidate_glosses": [
@@ -264,6 +276,12 @@
       "source_repo": "dagger/dagger",
       "status": "candidate",
       "text": "Dagger is a platform for automating software delivery. It can build, test and ship any codebase, reliably and at scale."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DiligentGraphics/glslang",
+      "status": "candidate",
+      "text": "Continuous Deployment"
     }
   ],
   "candidate_related_terms": [
@@ -384,11 +402,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "dagger/dagger"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/continuous_deployment.yml",
+      "source_repo": "DiligentGraphics/glslang"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

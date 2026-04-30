@@ -19,6 +19,18 @@
       "source_repo": "kacperkan/conerf-kubric-dataset",
       "status": "candidate-context",
       "text": "[![MIT license](https://img.shields.io/badge/license-Apache%20v2.0-white.svg)](https://github.com/kacperkan/conerf-kubric-dataset/blob/main/LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kacperkan/conerf",
+      "status": "candidate-context",
+      "text": "\ud83d\ude2eThe official implementation of \"CoNeRF: Controllable Neural Radiance Fields\" \ud83d\ude2e"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kacperkan/conerf",
+      "status": "candidate-context",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-2112.01983-red.svg)](https://arxiv.org/abs/2112.01983)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "kacperkan/conerf-kubric-dataset",
       "status": "candidate",
       "text": "[![MIT license](https://img.shields.io/badge/license-Apache%20v2.0-white.svg)](https://github.com/kacperkan/conerf-kubric-dataset/blob/main/LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kacperkan/conerf",
+      "status": "candidate",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-2112.01983-red.svg)](https://arxiv.org/abs/2112.01983)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "kacperkan/conerf-kubric-dataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "kacperkan/conerf"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

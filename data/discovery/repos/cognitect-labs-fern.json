@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T19:00:17.248188+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4995
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Easy language for data",
+    "fork": false,
+    "full_name": "cognitect-labs/fern",
+    "html_url": "https://github.com/cognitect-labs/fern",
+    "language": "Clojure",
+    "pushed_at": "2024-07-15T17:48:28Z",
+    "stargazers_count": 130,
+    "topics": [],
+    "updated_at": "2026-03-22T10:52:49Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

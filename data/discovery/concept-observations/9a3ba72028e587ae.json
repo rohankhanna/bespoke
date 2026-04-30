@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Highly customizable Wayland bar for Sway and Wlroots based compositors. :v: :tada:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> Highly customizable Wayland bar for Sway and Wlroots based compositors.<br>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> Highly customizable Wayland bar for Sway and Wlroots based compositors.<br>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28543637,
+      "status": "candidate",
+      "text": "wieland"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19851399,
+      "status": "candidate",
+      "text": "wayland the smith"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19851398,
+      "status": "candidate",
+      "text": "reproductive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019407,
+      "status": "candidate",
+      "text": "wotan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019406,
+      "status": "candidate",
+      "text": "wyrd"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "wayland",
+      "sense_id": "wayland#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12,
+      "status": "candidate",
+      "text": "wayland the smith"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "wieland"
+    }
+  ],
+  "concept_id": "wayland",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "wayland",
+  "observation_id": "9a3ba72028e587ae",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "wayland",
+  "source_context_snippet": "> Highly customizable Wayland bar for Sway and Wlroots based compositors.<br>",
+  "source_file": null,
+  "source_repo": "Alexays/Waybar",
+  "source_repo_description": "Highly customizable Wayland bar for Sway and Wlroots based compositors. :v: :tada:"
+}

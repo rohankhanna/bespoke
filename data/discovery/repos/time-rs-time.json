@@ -1,0 +1,381 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "taiki-e/install-action@cargo-hack",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@nightly",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@nightly",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@nightly",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "time-rs/time-rs.github.io/.github/workflows/trigger-deploy.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "taiki-e/install-action@cargo-llvm-cov",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-audit.yaml"
+    },
+    {
+      "component": "EmbarkStudios/cargo-deny-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-audit.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-release.yaml"
+    },
+    {
+      "component": "ncipollo/release-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-release.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/powerset.yaml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/powerset.yaml"
+    },
+    {
+      "component": "taiki-e/install-action@cargo-hack",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/powerset.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "time-rs/time",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "time-rs/time",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "time-rs/time",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "time-rs/time",
+      "target": "taiki-e/install-action@cargo-hack",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "time-rs/time",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "time-rs/time",
+      "target": "dtolnay/rust-toolchain@nightly",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "time-rs/time",
+      "target": "time-rs/time-rs.github.io/.github/workflows/trigger-deploy.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "time-rs/time",
+      "target": "taiki-e/install-action@cargo-llvm-cov",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "time-rs/time",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "time-rs/time",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-audit.yaml",
+      "source_repo": "time-rs/time",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-audit.yaml",
+      "source_repo": "time-rs/time",
+      "target": "EmbarkStudios/cargo-deny-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependency-audit.yaml",
+      "source_repo": "time-rs/time",
+      "target": "Dependency audit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-release.yaml",
+      "source_repo": "time-rs/time",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-release.yaml",
+      "source_repo": "time-rs/time",
+      "target": "ncipollo/release-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github-release.yaml",
+      "source_repo": "time-rs/time",
+      "target": "GitHub release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/powerset.yaml",
+      "source_repo": "time-rs/time",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/powerset.yaml",
+      "source_repo": "time-rs/time",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/powerset.yaml",
+      "source_repo": "time-rs/time",
+      "target": "taiki-e/install-action@cargo-hack",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/powerset.yaml",
+      "source_repo": "time-rs/time",
+      "target": "Check powerset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "time-rs/time",
+      "target": "date",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "time-rs/time",
+      "target": "no-std",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "time-rs/time",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "time-rs/time",
+      "target": "time",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:40:13.056295+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2560
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 5063
+    },
+    {
+      "path": ".github/workflows/build.yaml",
+      "size": 9098
+    },
+    {
+      "path": ".github/workflows/dependency-audit.yaml",
+      "size": 344
+    },
+    {
+      "path": ".github/workflows/github-release.yaml",
+      "size": 538
+    },
+    {
+      "path": ".github/workflows/powerset.yaml",
+      "size": 3390
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Date and time handling in Rust.",
+    "fork": false,
+    "full_name": "time-rs/time",
+    "html_url": "https://github.com/time-rs/time",
+    "language": "Rust",
+    "pushed_at": "2026-04-29T08:13:53Z",
+    "stargazers_count": 1303,
+    "topics": [
+      "date",
+      "no-std",
+      "rust",
+      "time"
+    ],
+    "updated_at": "2026-04-29T08:13:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Dependency audit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependency-audit.yaml",
+      "term": "Dependency audit"
+    },
+    {
+      "context_snippet": "GitHub release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github-release.yaml",
+      "term": "GitHub release"
+    },
+    {
+      "context_snippet": "\"Check powerset\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/powerset.yaml",
+      "term": "Check powerset"
+    },
+    {
+      "context_snippet": "[![minimum rustc: 1.88.0](https://img.shields.io/badge/minimum%20rustc-1.88.0-yellowgreen?logo=rust&style=flat-square)](https://www.whatrustisit.com)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "date"
+    },
+    {
+      "context_snippet": "[![minimum rustc: 1.88.0](https://img.shields.io/badge/minimum%20rustc-1.88.0-yellowgreen?logo=rust&style=flat-square)](https://www.whatrustisit.com)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "no-std"
+    },
+    {
+      "context_snippet": "[![minimum rustc: 1.88.0](https://img.shields.io/badge/minimum%20rustc-1.88.0-yellowgreen?logo=rust&style=flat-square)](https://www.whatrustisit.com)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "[![minimum rustc: 1.88.0](https://img.shields.io/badge/minimum%20rustc-1.88.0-yellowgreen?logo=rust&style=flat-square)](https://www.whatrustisit.com)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "time"
+    }
+  ]
+}

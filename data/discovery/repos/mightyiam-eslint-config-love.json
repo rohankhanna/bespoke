@@ -226,7 +226,7 @@
       "source_file": ".github/workflows/test.yaml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "msimerson/node-lts-versions@main",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yaml"
     }
@@ -541,6 +541,13 @@
       "target_type": "component"
     },
     {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "mightyiam/eslint-config-love",
+      "target": "msimerson/node-lts-versions@main",
+      "target_type": "component"
+    },
+    {
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/test.yaml",
       "source_repo": "mightyiam/eslint-config-love",
@@ -562,7 +569,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T14:57:12.167641+00:00",
+  "fetched_at": "2026-04-30T19:56:03.581521+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -578,7 +585,7 @@
     },
     {
       "path": ".github/workflows/test.yaml",
-      "size": 2126
+      "size": 1980
     }
   ],
   "related_repositories": [],
@@ -590,7 +597,7 @@
     "full_name": "mightyiam/eslint-config-love",
     "html_url": "https://github.com/mightyiam/eslint-config-love",
     "language": "TypeScript",
-    "pushed_at": "2026-04-30T10:37:59Z",
+    "pushed_at": "2026-04-30T15:58:10Z",
     "stargazers_count": 817,
     "topics": [
       "eslint",
@@ -598,7 +605,7 @@
       "javascript",
       "typescript"
     ],
-    "updated_at": "2026-04-30T07:18:11Z"
+    "updated_at": "2026-04-30T15:58:13Z"
   },
   "repo_links": [],
   "terms": [

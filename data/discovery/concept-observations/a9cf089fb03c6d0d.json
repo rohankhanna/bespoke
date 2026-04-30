@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Routing for Clojure & ClojureScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "The core functionality of Silk in `domkm.silk` is fully compatible with both Clojure and ClojureScript and was designed to be so from the ground up."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "The core functionality of Silk in `domkm.silk` is fully compatible with both Clojure and ClojureScript and was designed to be so from the ground up."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40026778,
+      "status": "candidate",
+      "text": "mob"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40018874,
+      "status": "candidate",
+      "text": "expel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40018724,
+      "status": "candidate",
+      "text": "spread-eagle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39996363,
+      "status": "candidate",
+      "text": "rabble"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39986096,
+      "status": "candidate",
+      "text": "discomfiture"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "routing",
+      "sense_id": "routing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "routing",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "routing",
+  "observation_id": "a9cf089fb03c6d0d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "routing",
+  "source_context_snippet": "The core functionality of Silk in `domkm.silk` is fully compatible with both Clojure and ClojureScript and was designed to be so from the ground up.",
+  "source_file": null,
+  "source_repo": "domkm/silk",
+  "source_repo_description": "Routing for Clojure & ClojureScript"
+}

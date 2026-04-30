@@ -19,6 +19,18 @@
       "source_repo": "bazel-contrib/rules_oci",
       "status": "candidate-context",
       "text": "Very simple Bazel rules based on the Open Containers Initiative specification: <https://opencontainers.org/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bazel-contrib/rules_nodejs",
+      "status": "candidate-context",
+      "text": "NodeJS toolchain for Bazel."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazel-contrib/rules_nodejs",
+      "status": "candidate-context",
+      "text": "[![Build status](https://badge.buildkite.com/af1a592b39b11923ef0f523cbb223dd3dbd61629f8bc813c07.svg?branch=stable)](https://buildkite.com/bazel/nodejs-rules-nodejs-postsubmit)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "bazel-contrib/rules_oci",
       "status": "candidate",
       "text": "Very simple Bazel rules based on the Open Containers Initiative specification: <https://opencontainers.org/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazel-contrib/rules_nodejs",
+      "status": "candidate",
+      "text": "[![Build status](https://badge.buildkite.com/af1a592b39b11923ef0f523cbb223dd3dbd61629f8bc813c07.svg?branch=stable)](https://buildkite.com/bazel/nodejs-rules-nodejs-postsubmit)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "bazel-contrib/rules_oci"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "bazel-contrib/rules_nodejs"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,71 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "guard/rb-inotify",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "guard/rb-inotify",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "guard/rb-inotify",
+      "target": "Test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:50:05.642457+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4129
+    },
+    {
+      "path": ".github/workflows/test.yaml",
+      "size": 998
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A thorough inotify wrapper for Ruby using FFI.",
+    "fork": false,
+    "full_name": "guard/rb-inotify",
+    "html_url": "https://github.com/guard/rb-inotify",
+    "language": "Ruby",
+    "pushed_at": "2024-05-19T00:31:02Z",
+    "stargazers_count": 316,
+    "topics": [],
+    "updated_at": "2026-04-30T12:27:11Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "term": "Test"
+    }
+  ]
+}

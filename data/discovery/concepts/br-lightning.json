@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "BR & Lightning"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pingcap/tidb",
+      "status": "candidate-context",
+      "text": "TiDB is built for agentic workloads that grow unpredictably, with ACID guarantees and native support for transactions, analytics, and vector search. No data silos. No noisy neighbors. No infrastructure ceiling."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pingcap/tidb",
+      "status": "candidate-context",
+      "text": "BR & Lightning"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pingcap/tidb",
+      "status": "candidate",
+      "text": "BR & Lightning"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10906,
+      "status": "candidate",
+      "text": "apt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10906,
+      "status": "candidate",
+      "text": "bravo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10906,
+      "status": "candidate",
+      "text": "bream"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10906,
+      "status": "candidate",
+      "text": "breech"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10906,
+      "status": "candidate",
+      "text": "hock"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "BR & Lightning",
+  "concept_id": "br-lightning",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/integration-test-compile-br.yml",
+      "source_repo": "pingcap/tidb"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "BR & Lightning",
+      "sense_id": "br-lightning#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

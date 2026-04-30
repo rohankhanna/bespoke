@@ -1,0 +1,129 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-reltest.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "h2o/picohttpparser",
+      "target": "h2o/h2o",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "h2o/picohttpparser",
+      "target": "fukamachi/fast-http",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "h2o/picohttpparser",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-reltest.yml",
+      "source_repo": "h2o/picohttpparser",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-reltest.yml",
+      "source_repo": "h2o/picohttpparser",
+      "target": "Release Reltest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "h2o/picohttpparser",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "h2o/picohttpparser",
+      "target": "Release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:02:32.807936+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4343
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 372
+    },
+    {
+      "path": ".github/workflows/release-reltest.yml",
+      "size": 668
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 611
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "tiny HTTP parser written in C (used in HTTP::Parser::XS et al.)",
+    "fork": false,
+    "full_name": "h2o/picohttpparser",
+    "html_url": "https://github.com/h2o/picohttpparser",
+    "language": "C",
+    "pushed_at": "2026-04-06T05:31:48Z",
+    "stargazers_count": 2058,
+    "topics": [],
+    "updated_at": "2026-04-28T02:17:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fukamachi/fast-http",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "h2o/h2o",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Release Reltest",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-reltest.yml",
+      "term": "Release Reltest"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    }
+  ]
+}

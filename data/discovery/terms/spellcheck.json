@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -66,6 +66,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "vlajos/misspell-fixer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/spellcheck.yml",
+      "source_repo": "redis/redis-doc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "languagetool-org/languagetool"
     }
   ],
   "term": "SpellCheck"

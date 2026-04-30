@@ -31,6 +31,18 @@
       "source_repo": "hadronized/glsl",
       "status": "candidate-context",
       "text": "The project has moved to [sourcehut](https://sr.ht/~hadronized/glsl)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vulkano-rs/vulkano",
+      "status": "candidate-context",
+      "text": "Safe and rich Rust wrapper around the Vulkan API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vulkano-rs/vulkano",
+      "status": "candidate-context",
+      "text": "<img align=\"left\" alt=\"\" src=\"logo.png\" height=\"150\" />"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "hadronized/glsl",
       "status": "candidate",
       "text": "The project has moved to [sourcehut](https://sr.ht/~hadronized/glsl)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vulkano-rs/vulkano",
+      "status": "candidate",
+      "text": "<img align=\"left\" alt=\"\" src=\"logo.png\" height=\"150\" />"
     }
   ],
   "candidate_related_terms": [],
@@ -70,11 +88,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "hadronized/glsl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "vulkano-rs/vulkano"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

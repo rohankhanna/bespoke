@@ -1,7 +1,7 @@
 {
   "component": "cachix/install-nix-action@v31",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -402,6 +402,41 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/binaries.yml",
       "source_repo": "ocaml/dune"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "vulkano-rs/vulkano"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nix-tests.yml",
+      "source_repo": "Alexays/Waybar"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nix-update-flake-lock.yml",
+      "source_repo": "Alexays/Waybar"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-pkg.yml",
+      "source_repo": "akiomik/mado"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-prepare.yml",
+      "source_repo": "holochain/holochain"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "holochain/holochain"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cachix.yml",
+      "source_repo": "kitknox/helix"
     }
   ]
 }

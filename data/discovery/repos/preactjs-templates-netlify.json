@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "preactjs-templates/netlify",
+      "target": "developit/preact-cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "preactjs-templates/netlify",
+      "target": "mzgoddard/preact-render-spy",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:48:05.846269+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1752
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A preactjs and netlify CMS template",
+    "fork": false,
+    "full_name": "preactjs-templates/netlify",
+    "html_url": "https://github.com/preactjs-templates/netlify",
+    "language": "JavaScript",
+    "pushed_at": "2022-07-25T02:55:10Z",
+    "stargazers_count": 38,
+    "topics": [],
+    "updated_at": "2023-08-14T09:58:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "developit/preact-cli",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mzgoddard/preact-render-spy",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

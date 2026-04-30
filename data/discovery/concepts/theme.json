@@ -445,6 +445,78 @@
       "source_repo": "pradyunsg/furo",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">Furo</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ArmandPhilippot/coldark",
+      "status": "candidate-context",
+      "text": "A theme in shades of blue-grey, available in dark and light versions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ArmandPhilippot/coldark",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AyushSaini00/holi-theme",
+      "status": "candidate-context",
+      "text": "\ud83c\udf08 A Clean Visual Studio Code dark theme inspired by the festival of colors - Holi"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AyushSaini00/holi-theme",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pinpox/base16-universal-manager",
+      "status": "candidate-context",
+      "text": "A universal manager to set base16 themes for any supported application"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pinpox/base16-universal-manager",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://api.travis-ci.org/pinpox/base16-universal-manager.svg)](http://travis-ci.org/pinpox/base16-universal-manager) [![GoDoc](https://godoc.org/github.com/pinpox/base16-universal-manager?status.svg)](http://godoc.org/github.com/pinpox/base16-universal-manager)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vitalets/react-native-extended-stylesheet",
+      "status": "candidate-context",
+      "text": "Extended StyleSheets for React Native"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vitalets/react-native-extended-stylesheet",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/vitalets/react-native-extended-stylesheet.svg?branch=master)](https://travis-ci.org/vitalets/react-native-extended-stylesheet)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Binaryify/OneDark-Pro",
+      "status": "candidate-context",
+      "text": "Atom's iconic One Dark theme for Visual Studio Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Binaryify/OneDark-Pro",
+      "status": "candidate-context",
+      "text": "Atom's iconic One Dark theme, and one of the most installed [themes](https://marketplace.visualstudio.com/search?target=VSCode&category=Themes&sortBy=Installs) for VS Code!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "catppuccin/nvim",
+      "status": "candidate-context",
+      "text": "\ud83c\udf68 Soothing pastel theme for Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "catppuccin/nvim",
+      "status": "candidate-context",
+      "text": "<!-- panvimdoc-ignore-start -->"
     }
   ],
   "candidate_glosses": [
@@ -663,6 +735,42 @@
       "source_repo": "pradyunsg/furo",
       "status": "candidate",
       "text": "<h1 align=\"center\">Furo</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ArmandPhilippot/coldark",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AyushSaini00/holi-theme",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pinpox/base16-universal-manager",
+      "status": "candidate",
+      "text": "[![Build Status](https://api.travis-ci.org/pinpox/base16-universal-manager.svg)](http://travis-ci.org/pinpox/base16-universal-manager) [![GoDoc](https://godoc.org/github.com/pinpox/base16-universal-manager?status.svg)](http://godoc.org/github.com/pinpox/base16-universal-manager)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vitalets/react-native-extended-stylesheet",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/vitalets/react-native-extended-stylesheet.svg?branch=master)](https://travis-ci.org/vitalets/react-native-extended-stylesheet)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Binaryify/OneDark-Pro",
+      "status": "candidate",
+      "text": "Atom's iconic One Dark theme, and one of the most installed [themes](https://marketplace.visualstudio.com/search?target=VSCode&category=Themes&sortBy=Installs) for VS Code!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "catppuccin/nvim",
+      "status": "candidate",
+      "text": "<!-- panvimdoc-ignore-start -->"
     }
   ],
   "candidate_related_terms": [
@@ -1072,11 +1180,71 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "pradyunsg/furo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "ArmandPhilippot/coldark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "AyushSaini00/holi-theme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "tinted-theming/tinted-builder-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "pinpox/base16-universal-manager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "vitalets/react-native-extended-stylesheet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "adelarsq/vim-emoji-icon-theme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "Binaryify/OneDark-Pro"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "catppuccin/nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "ahmadawais/base16-shades-of-purple"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

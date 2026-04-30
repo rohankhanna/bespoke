@@ -139,6 +139,18 @@
       "source_repo": "microsoft/cpprestsdk",
       "status": "candidate-context",
       "text": "**The C++ REST SDK is in maintenance-only mode and we do not recommend its use in new projects."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "better-auth/better-auth",
+      "status": "candidate-context",
+      "text": "The most comprehensive authentication framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "better-auth/better-auth",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +219,12 @@
       "source_repo": "microsoft/cpprestsdk",
       "status": "candidate",
       "text": "**The C++ REST SDK is in maintenance-only mode and we do not recommend its use in new projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "better-auth/better-auth",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -298,11 +316,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "ueberauth/oauth2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "better-auth/better-auth"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

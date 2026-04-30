@@ -19,6 +19,18 @@
       "source_repo": "hacs/integration",
       "status": "candidate-context",
       "text": "_Manage (Install, track, upgrade) and discover custom elements for Home Assistant directly from the UI._"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/Home-Assistant-Index",
+      "status": "candidate-context",
+      "text": "Indexing repo for HA projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Home-Assistant-Index",
+      "status": "candidate-context",
+      "text": "[![Master Index](https://img.shields.io/badge/Master%20Index-All%20Repositories-purple?style=for-the-badge&logo=github)](https://github.com/danielrosehill/Github-Master-Index)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "hacs/integration",
       "status": "candidate",
       "text": "_Manage (Install, track, upgrade) and discover custom elements for Home Assistant directly from the UI._"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Home-Assistant-Index",
+      "status": "candidate",
+      "text": "[![Master Index](https://img.shields.io/badge/Master%20Index-All%20Repositories-purple?style=for-the-badge&logo=github)](https://github.com/danielrosehill/Github-Master-Index)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "hacs/integration"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Home-Assistant-Index"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

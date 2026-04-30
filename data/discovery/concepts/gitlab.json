@@ -91,6 +91,30 @@
       "source_repo": "danger/danger",
       "status": "candidate-context",
       "text": "[![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/orta/danger/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "philips-labs/tabia",
+      "status": "candidate-context",
+      "text": "Repository characteristics "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "philips-labs/tabia",
+      "status": "candidate-context",
+      "text": "[![Go CI](https://github.com/philips-labs/tabia/workflows/Go%20CI/badge.svg)](https://github.com/philips-labs/tabia/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prontolabs/pronto",
+      "status": "candidate-context",
+      "text": "Quick automated code review of your changes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prontolabs/pronto",
+      "status": "candidate-context",
+      "text": "[![Gem Version](https://badge.fury.io/rb/pronto.svg)](http://badge.fury.io/rb/pronto)"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +159,18 @@
       "source_repo": "danger/danger",
       "status": "candidate",
       "text": "[![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/orta/danger/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "philips-labs/tabia",
+      "status": "candidate",
+      "text": "[![Go CI](https://github.com/philips-labs/tabia/workflows/Go%20CI/badge.svg)](https://github.com/philips-labs/tabia/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prontolabs/pronto",
+      "status": "candidate",
+      "text": "[![Gem Version](https://badge.fury.io/rb/pronto.svg)](http://badge.fury.io/rb/pronto)"
     }
   ],
   "candidate_related_terms": [
@@ -220,11 +256,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "danger/danger"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "philips-labs/tabia"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "prontolabs/pronto"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

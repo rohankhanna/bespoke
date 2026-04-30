@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "React to Issue Assignment"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tianocore/edk2",
+      "status": "candidate-context",
+      "text": "EDK II"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tianocore/edk2",
+      "status": "candidate-context",
+      "text": "React to Issue Assignment"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tianocore/edk2",
+      "status": "candidate",
+      "text": "React to Issue Assignment"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18459,
+      "status": "candidate",
+      "text": "work"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18383,
+      "status": "candidate",
+      "text": "address"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18355,
+      "status": "candidate",
+      "text": "act"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18355,
+      "status": "candidate",
+      "text": "behave"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18355,
+      "status": "candidate",
+      "text": "behaving"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "React to Issue Assignment",
+  "concept_id": "react-to-issue-assignment",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/issue-assignment.yml",
+      "source_repo": "tianocore/edk2"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "React to Issue Assignment",
+      "sense_id": "react-to-issue-assignment#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

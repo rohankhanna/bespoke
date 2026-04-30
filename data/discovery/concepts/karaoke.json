@@ -19,6 +19,18 @@
       "source_repo": "Anjok07/ultimatevocalremovergui",
       "status": "candidate-context",
       "text": "<img src=\"https://raw.githubusercontent.com/Anjok07/ultimatevocalremovergui/master/gui_data/img/UVR_v5.6.png?raw=true\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "baskeboler/cljs-karaoke-client",
+      "status": "candidate-context",
+      "text": "web karaoke player"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baskeboler/cljs-karaoke-client",
+      "status": "candidate-context",
+      "text": "[![Netlify Status](https://api.netlify.com/api/v1/badges/8cdcf70f-1a6c-40bb-a3f0-02cb24eda852/deploy-status)](https://app.netlify.com/sites/karaoke-player/deploys)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "Anjok07/ultimatevocalremovergui",
       "status": "candidate",
       "text": "<img src=\"https://raw.githubusercontent.com/Anjok07/ultimatevocalremovergui/master/gui_data/img/UVR_v5.6.png?raw=true\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baskeboler/cljs-karaoke-client",
+      "status": "candidate",
+      "text": "[![Netlify Status](https://api.netlify.com/api/v1/badges/8cdcf70f-1a6c-40bb-a3f0-02cb24eda852/deploy-status)](https://app.netlify.com/sites/karaoke-player/deploys)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "Anjok07/ultimatevocalremovergui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "baskeboler/cljs-karaoke-client"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

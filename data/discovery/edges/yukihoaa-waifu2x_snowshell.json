@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "YukihoAA/waifu2x_snowshell",
+      "target": "nihui/waifu2x-ncnn-vulkan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "YukihoAA/waifu2x_snowshell",
+      "target": "nihui/realcugan-ncnn-vulkan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "YukihoAA/waifu2x_snowshell",
+      "target": "xinntao/real-esrgan-ncnn-vulkan",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-30T18:36:26.757967+00:00",
+  "source_repo": "YukihoAA/waifu2x_snowshell"
+}

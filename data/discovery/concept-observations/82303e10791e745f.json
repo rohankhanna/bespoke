@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[ECCV-2020 (spotlight)] Self-supervising Fine-grained Region Similarities for Large-scale Image Localization. \ud83c\udf0f PyTorch open-source toolbox for image-based localization (place recognition)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<!-- ![Python >=3.5](https://img.shields.io/badge/Python->=3.5-blue.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<!-- ![Python >=3.5](https://img.shields.io/badge/Python->=3.5-blue.svg)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "image-based-localisation",
+      "sense_id": "image-based-localisation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "image-based-localisation",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "image-based-localisation",
+  "observation_id": "82303e10791e745f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "image-based-localisation",
+  "source_context_snippet": "<!-- ![Python >=3.5](https://img.shields.io/badge/Python->=3.5-blue.svg)",
+  "source_file": null,
+  "source_repo": "yxgeee/OpenIBL",
+  "source_repo_description": "[ECCV-2020 (spotlight)] Self-supervising Fine-grained Region Similarities for Large-scale Image Localization. \ud83c\udf0f PyTorch open-source toolbox for image-based localization (place recognition)."
+}

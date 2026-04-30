@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Complete collection of code files (*.java/js/py/cpp/etc.) published on Project Nayuki website."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Complete collection of code files (*.java/js/py/cpp/etc.) published on Project Nayuki website."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Complete collection of code files (*.java/js/py/cpp/etc.) published on Project Nayuki website."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30024838,
+      "status": "candidate",
+      "text": "algorithmic program"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30024838,
+      "status": "candidate",
+      "text": "algorithmic rule"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30021757,
+      "status": "candidate",
+      "text": "calculus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30021456,
+      "status": "candidate",
+      "text": "arithmetic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29939009,
+      "status": "candidate",
+      "text": "significance"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "algorithm",
+      "sense_id": "algorithm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "algorithmic program"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "algorithmic rule"
+    }
+  ],
+  "concept_id": "algorithm",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "algorithm",
+  "observation_id": "f76d3ed80027038d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "algorithm",
+  "source_context_snippet": "Complete collection of code files (*.java/js/py/cpp/etc.) published on Project Nayuki website.",
+  "source_file": null,
+  "source_repo": "nayuki/Nayuki-web-published-code",
+  "source_repo_description": "Complete collection of code files (*.java/js/py/cpp/etc.) published on Project Nayuki website."
+}

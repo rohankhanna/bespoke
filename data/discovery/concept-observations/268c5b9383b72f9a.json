@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Turbo Base64 - Fastest Base64 SIMD:SSE/AVX2/AVX512/Neon/Altivec - Faster than memcpy!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build ubuntu](https://github.com/powturbo/Turbo-Base64/actions/workflows/build.yaml/badge.svg)](https://github.com/powturbo/Turbo-Base64/actions/workflows/build.yaml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build ubuntu](https://github.com/powturbo/Turbo-Base64/actions/workflows/build.yaml/badge.svg)](https://github.com/powturbo/Turbo-Base64/actions/workflows/build.yaml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "avx512",
+      "sense_id": "avx512#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "avx512",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "avx512",
+  "observation_id": "268c5b9383b72f9a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "avx512",
+  "source_context_snippet": "[![Build ubuntu](https://github.com/powturbo/Turbo-Base64/actions/workflows/build.yaml/badge.svg)](https://github.com/powturbo/Turbo-Base64/actions/workflows/build.yaml)",
+  "source_file": null,
+  "source_repo": "powturbo/Turbo-Base64",
+  "source_repo_description": "Turbo Base64 - Fastest Base64 SIMD:SSE/AVX2/AVX512/Neon/Altivec - Faster than memcpy!"
+}

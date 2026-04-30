@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Routing for Clojure & ClojureScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "The core functionality of Silk in `domkm.silk` is fully compatible with both Clojure and ClojureScript and was designed to be so from the ground up."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "The core functionality of Silk in `domkm.silk` is fully compatible with both Clojure and ClojureScript and was designed to be so from the ground up."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39574904,
+      "status": "candidate",
+      "text": "isomorphous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19840458,
+      "status": "candidate",
+      "text": "equivalent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19840457,
+      "status": "candidate",
+      "text": "isostructural"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19840456,
+      "status": "candidate",
+      "text": "equipotent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19840455,
+      "status": "candidate",
+      "text": "homologous"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "isomorphic",
+      "sense_id": "isomorphic#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25,
+      "status": "candidate",
+      "text": "isomorphous"
+    }
+  ],
+  "concept_id": "isomorphic",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "isomorphic",
+  "observation_id": "578d797cddfe222f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "isomorphic",
+  "source_context_snippet": "The core functionality of Silk in `domkm.silk` is fully compatible with both Clojure and ClojureScript and was designed to be so from the ground up.",
+  "source_file": null,
+  "source_repo": "domkm/silk",
+  "source_repo_description": "Routing for Clojure & ClojureScript"
+}

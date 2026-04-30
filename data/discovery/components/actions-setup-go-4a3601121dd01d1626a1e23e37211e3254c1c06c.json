@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
   "first_seen_at": "2026-04-18T09:09:30.058377+00:00",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1847,6 +1847,76 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test.yaml",
       "source_repo": "Masterminds/semver"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "surrealdb/surrealdb"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "golangci/misspell"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/go-cross.yml",
+      "source_repo": "golangci/misspell"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "golangci/misspell"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/licence_updater.yaml",
+      "source_repo": "weaviate/weaviate"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "weaviate/weaviate"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/broken_links.yml",
+      "source_repo": "veggiemonk/awesome-docker"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pages.yml",
+      "source_repo": "veggiemonk/awesome-docker"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/health_report.yml",
+      "source_repo": "veggiemonk/awesome-docker"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "veggiemonk/awesome-docker"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "goreleaser/nfpm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "goreleaser/nfpm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/generate.yml",
+      "source_repo": "goreleaser/nfpm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "goreleaser/nfpm"
     }
   ]
 }

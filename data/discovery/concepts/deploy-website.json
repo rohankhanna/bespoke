@@ -2,7 +2,8 @@
   "aliases": [
     "Deploy website",
     "Deploy Website",
-    "Deploy Website \ud83d\ude80"
+    "Deploy Website \ud83d\ude80",
+    "deploy-website"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -81,6 +82,30 @@
       "source_repo": "facebookresearch/mmf",
       "status": "candidate-context",
       "text": "Deploy Website \ud83d\ude80"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jaredwray/keyv",
+      "status": "candidate-context",
+      "text": "Simple key-value storage with support for multiple backends"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaredwray/keyv",
+      "status": "candidate-context",
+      "text": "deploy-website"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebook/pyrefly",
+      "status": "candidate-context",
+      "text": "A fast type checker and language server for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/pyrefly",
+      "status": "candidate-context",
+      "text": "Deploy Website"
     }
   ],
   "candidate_glosses": [
@@ -119,6 +144,18 @@
       "source_repo": "facebookresearch/mmf",
       "status": "candidate",
       "text": "Deploy Website \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaredwray/keyv",
+      "status": "candidate",
+      "text": "deploy-website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/pyrefly",
+      "status": "candidate",
+      "text": "Deploy Website"
     }
   ],
   "candidate_related_terms": [
@@ -198,11 +235,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/deploy_website.yaml",
       "source_repo": "facebookresearch/mmf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/deploy-website.yaml",
+      "source_repo": "jaredwray/keyv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/deploy_website.yml",
+      "source_repo": "facebook/pyrefly"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

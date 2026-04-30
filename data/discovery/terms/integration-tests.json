@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -221,6 +221,21 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/integration-tests.yml",
       "source_repo": "spring-projects/spring-ai-examples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "andreigh/triton"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "eaplatanios/triton"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/integration-tests.yml.in",
+      "source_repo": "eaplatanios/triton"
     }
   ],
   "term": "Integration Tests"

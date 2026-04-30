@@ -1,0 +1,137 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "abatilo/github-action-locks",
+      "target": "pulumi/pulumi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "abatilo/github-action-locks",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "abatilo/github-action-locks",
+      "target": "Main",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abatilo/github-action-locks",
+      "target": "dynamodb",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abatilo/github-action-locks",
+      "target": "github-actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abatilo/github-action-locks",
+      "target": "lock",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abatilo/github-action-locks",
+      "target": "locking",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:56:36.448959+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4532
+    },
+    {
+      "path": "Dockerfile",
+      "size": 137
+    },
+    {
+      "path": "go.mod",
+      "size": 165
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 644
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Guarantee atomic execution of your GitHub Action workflows",
+    "fork": false,
+    "full_name": "abatilo/github-action-locks",
+    "html_url": "https://github.com/abatilo/github-action-locks",
+    "language": "Go",
+    "pushed_at": "2022-10-23T14:27:37Z",
+    "stargazers_count": 16,
+    "topics": [
+      "dynamodb",
+      "github-actions",
+      "lock",
+      "locking"
+    ],
+    "updated_at": "2024-06-27T12:09:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pulumi/pulumi",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Main",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Main"
+    },
+    {
+      "context_snippet": "[![Main](https://github.com/abatilo/github-action-locks/workflows/Main/badge.svg)](https://github.com/abatilo/github-action-locks/actions?query=workflow%3AMain)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dynamodb"
+    },
+    {
+      "context_snippet": "[![Main](https://github.com/abatilo/github-action-locks/workflows/Main/badge.svg)](https://github.com/abatilo/github-action-locks/actions?query=workflow%3AMain)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-actions"
+    },
+    {
+      "context_snippet": "[![Main](https://github.com/abatilo/github-action-locks/workflows/Main/badge.svg)](https://github.com/abatilo/github-action-locks/actions?query=workflow%3AMain)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lock"
+    },
+    {
+      "context_snippet": "[![Main](https://github.com/abatilo/github-action-locks/workflows/Main/badge.svg)](https://github.com/abatilo/github-action-locks/actions?query=workflow%3AMain)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "locking"
+    }
+  ]
+}

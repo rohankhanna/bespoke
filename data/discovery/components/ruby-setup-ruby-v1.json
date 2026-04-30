@@ -1,7 +1,7 @@
 {
   "component": "ruby/setup-ruby@v1",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -2002,6 +2002,136 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/rubocop.yml",
       "source_repo": "yoshoku/numo-narray-alt"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ruby/typeprof"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "linebender/resvg-test-suite"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "topfunky/gruff"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "Asmod4n/mruby-argon2"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/command_shell_acceptance.yml",
+      "source_repo": "rapid7/metasploit-framework"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "rapid7/metasploit-framework"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ldap_acceptance.yml",
+      "source_repo": "rapid7/metasploit-framework"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "rapid7/metasploit-framework"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cocoapods.yml",
+      "source_repo": "Quick/Quick"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/danger.yml",
+      "source_repo": "Quick/Quick"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/job-specs.yml",
+      "source_repo": "pivotal/credhub-release"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "pivotal/credhub-release"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "twitter/scalding"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "twitter/scalding"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e-metro.yml",
+      "source_repo": "module-federation/core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pronto.yml",
+      "source_repo": "prontolabs/pronto"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/specs.yml",
+      "source_repo": "prontolabs/pronto"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rails/spring"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "rails/spring"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/documentation_coverage.yml",
+      "source_repo": "rspec/rspec"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rspec.yml",
+      "source_repo": "rspec/rspec"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rubocop.yml",
+      "source_repo": "rspec/rspec"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Maher4Ever/wdm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "guard/rb-inotify"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ruby/mspec"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "2KAbhishek/exercism-fetcher"
     }
   ]
 }

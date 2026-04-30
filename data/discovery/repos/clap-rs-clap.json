@@ -513,7 +513,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T00:55:12.230332+00:00",
+  "fetched_at": "2026-04-30T19:01:39.866032+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -565,8 +565,8 @@
     "full_name": "clap-rs/clap",
     "html_url": "https://github.com/clap-rs/clap",
     "language": "Rust",
-    "pushed_at": "2026-04-22T23:59:22Z",
-    "stargazers_count": 16329,
+    "pushed_at": "2026-04-27T14:44:44Z",
+    "stargazers_count": 16346,
     "topics": [
       "argument-parser",
       "argument-parsing",
@@ -577,7 +577,7 @@
       "rust",
       "subcommands"
     ],
-    "updated_at": "2026-04-23T08:36:07Z"
+    "updated_at": "2026-04-30T16:34:49Z"
   },
   "repo_links": [],
   "terms": [

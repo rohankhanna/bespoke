@@ -31,6 +31,18 @@
       "source_repo": "antlr/antlr4",
       "status": "candidate-context",
       "text": "[![Java 11+](https://img.shields.io/badge/java-11+-4c7e9f.svg)](http://java.oracle.com)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0x2a-42/lelwel",
+      "status": "candidate-context",
+      "text": "Resilient LL(1) parser generator for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0x2a-42/lelwel",
+      "status": "candidate-context",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/lelwel)](https://crates.io/crates/lelwel)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "antlr/antlr4",
       "status": "candidate",
       "text": "[![Java 11+](https://img.shields.io/badge/java-11+-4c7e9f.svg)](http://java.oracle.com)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0x2a-42/lelwel",
+      "status": "candidate",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/lelwel)](https://crates.io/crates/lelwel)"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "antlr/antlr4"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "0x2a-42/lelwel"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -84,7 +84,7 @@
   "normalized_form": "update-ruby-definitions",
   "observation_id": "639c82369cf2548f",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
   "observed_text": "Update Ruby definitions",
   "source_context_snippet": "Update Ruby definitions",
   "source_file": ".github/workflows/update-ruby.yml",

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83e\udebd An open, easy, fast, reliable and battery-efficient solution for real-time communications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Lint and Test Chart"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Lint and Test Chart"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25852,
+      "status": "candidate",
+      "text": "ekg"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25839,
+      "status": "candidate",
+      "text": "eye chart"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25801,
+      "status": "candidate",
+      "text": "snellen test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20658,
+      "status": "candidate",
+      "text": "strip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20479,
+      "status": "candidate",
+      "text": "screen"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Lint and Test Chart",
+      "sense_id": "lint-and-test-chart#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "lint-and-test-chart",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "lint-and-test-chart",
+  "observation_id": "d1f011eba1277a55",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "Lint and Test Chart",
+  "source_context_snippet": "Lint and Test Chart",
+  "source_file": ".github/workflows/ci-chart.yml",
+  "source_repo": "dunglas/mercure",
+  "source_repo_description": "\ud83e\udebd An open, easy, fast, reliable and battery-efficient solution for real-time communications"
+}

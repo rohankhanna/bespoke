@@ -19,12 +19,30 @@
       "source_repo": "Keats/os_info",
       "status": "candidate-context",
       "text": "Rust version compatibility check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stanislav-tkach/os_info",
+      "status": "candidate-context",
+      "text": "Rust library to detect the operating system type"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stanislav-tkach/os_info",
+      "status": "candidate-context",
+      "text": "Rust version compatibility check"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "Keats/os_info",
+      "status": "candidate",
+      "text": "Rust version compatibility check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stanislav-tkach/os_info",
       "status": "candidate",
       "text": "Rust version compatibility check"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/version.yml",
       "source_repo": "Keats/os_info"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/version.yml",
+      "source_repo": "stanislav-tkach/os_info"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

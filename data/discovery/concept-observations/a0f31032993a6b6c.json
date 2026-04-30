@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Fullstack app framework for web, desktop, and mobile."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031778,
+      "status": "candidate",
+      "text": "autochthonic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031762,
+      "status": "candidate",
+      "text": "autochthonal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031734,
+      "status": "candidate",
+      "text": "autochthonous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031721,
+      "status": "candidate",
+      "text": "indigenous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031650,
+      "status": "candidate",
+      "text": "native-born"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "native",
+      "sense_id": "native#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27054,
+      "status": "candidate",
+      "text": "pure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22060,
+      "status": "candidate",
+      "text": "natural"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17023,
+      "status": "candidate",
+      "text": "connatural"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16053,
+      "status": "candidate",
+      "text": "domestic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14066,
+      "status": "candidate",
+      "text": "endemic"
+    }
+  ],
+  "concept_id": "native",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "native",
+  "observation_id": "a0f31032993a6b6c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "native",
+  "source_context_snippet": "<p>",
+  "source_file": null,
+  "source_repo": "DioxusLabs/dioxus",
+  "source_repo_description": "Fullstack app framework for web, desktop, and mobile."
+}

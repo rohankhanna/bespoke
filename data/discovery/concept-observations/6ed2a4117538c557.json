@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Tools and libraries to glue C/C++ APIs to high-level languages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img src=\"docs/logo.svg\" width=\"128\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img src=\"docs/logo.svg\" width=\"128\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39861244,
+      "status": "candidate",
+      "text": "mononucleosis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39700941,
+      "status": "candidate",
+      "text": "monaural"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39627395,
+      "status": "candidate",
+      "text": "monophonic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29861258,
+      "status": "candidate",
+      "text": "single-channel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29828717,
+      "status": "candidate",
+      "text": "diiodotyrosine"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mono",
+      "sense_id": "mono#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1031,
+      "status": "candidate",
+      "text": "monaural"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1030,
+      "status": "candidate",
+      "text": "monophonic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 41,
+      "status": "candidate",
+      "text": "mononucleosis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10,
+      "status": "candidate",
+      "text": "single-channel"
+    }
+  ],
+  "concept_id": "mono",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "mono",
+  "observation_id": "6ed2a4117538c557",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "mono",
+  "source_context_snippet": "<img src=\"docs/logo.svg\" width=\"128\">",
+  "source_file": null,
+  "source_repo": "mono/CppSharp",
+  "source_repo_description": "Tools and libraries to glue C/C++ APIs to high-level languages"
+}

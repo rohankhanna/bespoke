@@ -189,6 +189,30 @@
       "source_repo": "hazelcast/hazelcast-nodejs-client",
       "status": "candidate-context",
       "text": "Generate docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lumen-oss/rocks-git.nvim",
+      "status": "candidate-context",
+      "text": "Use rocks.nvim to install plugins from git!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lumen-oss/rocks-git.nvim",
+      "status": "candidate-context",
+      "text": "Generate docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/utils.nvim",
+      "status": "candidate-context",
+      "text": "Powerful Utilities for Neovim Plugin Devs \ud83d\udee0\ufe0f\ud83e\uddf0"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/utils.nvim",
+      "status": "candidate-context",
+      "text": "Generate Docs"
     }
   ],
   "candidate_glosses": [
@@ -281,6 +305,18 @@
       "source_repo": "hazelcast/hazelcast-nodejs-client",
       "status": "candidate",
       "text": "Generate docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lumen-oss/rocks-git.nvim",
+      "status": "candidate",
+      "text": "Generate docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/utils.nvim",
+      "status": "candidate",
+      "text": "Generate Docs"
     }
   ],
   "candidate_related_terms": [
@@ -420,11 +456,29 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/generate-docs.yml",
       "source_repo": "hazelcast/hazelcast-nodejs-client"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/docgen.yaml",
+      "source_repo": "nvim-neotest/neotest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/docgen.yaml",
+      "source_repo": "lumen-oss/rocks-git.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "2KAbhishek/utils.nvim"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

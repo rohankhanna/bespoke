@@ -559,6 +559,42 @@
       "source_repo": "RubyCrypto/rbnacl",
       "status": "candidate-context",
       "text": "![RbNaCl](https://raw.github.com/RubyCrypto/rbnacl/master/images/logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stainless-steel/md5",
+      "status": "candidate-context",
+      "text": "MD5 hash function"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stainless-steel/md5",
+      "status": "candidate-context",
+      "text": "The package provides the [MD5] hash function."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "debris/tiny-keccak",
+      "status": "candidate-context",
+      "text": "An implementation of Keccak derived functions specified in FIPS-202, SP800-185 and KangarooTwelve"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "debris/tiny-keccak",
+      "status": "candidate-context",
+      "text": "An implementation of Keccak derived functions specified in [`FIPS-202`], [`SP800-185`] and [`KangarooTwelve`]."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zcash/pasta",
+      "status": "candidate-context",
+      "text": "Generator and supporting evidence for security of the Pallas/Vesta pair of elliptic curves suitable for Halo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zcash/pasta",
+      "status": "candidate-context",
+      "text": "Pallas/Vesta supporting evidence"
     }
   ],
   "candidate_glosses": [
@@ -843,6 +879,24 @@
       "source_repo": "RubyCrypto/rbnacl",
       "status": "candidate",
       "text": "![RbNaCl](https://raw.github.com/RubyCrypto/rbnacl/master/images/logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stainless-steel/md5",
+      "status": "candidate",
+      "text": "The package provides the [MD5] hash function."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "debris/tiny-keccak",
+      "status": "candidate",
+      "text": "An implementation of Keccak derived functions specified in [`FIPS-202`], [`SP800-185`] and [`KangarooTwelve`]."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zcash/pasta",
+      "status": "candidate",
+      "text": "Pallas/Vesta supporting evidence"
     }
   ],
   "candidate_related_terms": [
@@ -1276,11 +1330,41 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "RubyCrypto/rbnacl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "hacl-star/hacl-star"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "stainless-steel/md5"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "debris/tiny-keccak"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "zcash/pasta"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "arkworks-rs/poly-commit"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

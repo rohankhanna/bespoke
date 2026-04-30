@@ -81,6 +81,18 @@
       "source_repo": "kkharji/sqlite.lua",
       "status": "candidate-context",
       "text": "sqlite.lua \ud83d\udcab"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fredrikaverpil/neotest-golang",
+      "status": "candidate-context",
+      "text": "Reliable Neotest adapter for running Go tests in Neovim."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fredrikaverpil/neotest-golang",
+      "status": "candidate-context",
+      "text": "luarocks"
     }
   ],
   "candidate_glosses": [
@@ -119,6 +131,12 @@
       "source_repo": "kkharji/sqlite.lua",
       "status": "candidate",
       "text": "sqlite.lua \ud83d\udcab"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fredrikaverpil/neotest-golang",
+      "status": "candidate",
+      "text": "luarocks"
     }
   ],
   "candidate_related_terms": [],
@@ -174,11 +192,35 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "lumen-oss/rocks.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/luarocks-tag-release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/nurr"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "fredrikaverpil/neotest-golang"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

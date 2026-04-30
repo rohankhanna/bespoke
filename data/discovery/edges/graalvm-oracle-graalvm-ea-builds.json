@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/micronaut.yml",
+      "source_repo": "graalvm/oracle-graalvm-ea-builds",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/micronaut.yml",
+      "source_repo": "graalvm/oracle-graalvm-ea-builds",
+      "target": "Micronaut Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reachability-metadata.yml",
+      "source_repo": "graalvm/oracle-graalvm-ea-builds",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reachability-metadata.yml",
+      "source_repo": "graalvm/oracle-graalvm-ea-builds",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reachability-metadata.yml",
+      "source_repo": "graalvm/oracle-graalvm-ea-builds",
+      "target": "Reachability Metadata Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spring.yml",
+      "source_repo": "graalvm/oracle-graalvm-ea-builds",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spring.yml",
+      "source_repo": "graalvm/oracle-graalvm-ea-builds",
+      "target": "Spring Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "graalvm/oracle-graalvm-ea-builds",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "graalvm/oracle-graalvm-ea-builds",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "graalvm/oracle-graalvm-ea-builds",
+      "target": "Validate",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T18:36:26.757967+00:00",
+  "source_repo": "graalvm/oracle-graalvm-ea-builds"
+}

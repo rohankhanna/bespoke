@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/GitHub-Management-Tools-Index",
+      "target": "danielrosehill/github-to-openwebui-context-pipeline",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/GitHub-Management-Tools-Index",
+      "target": "danielrosehill/ai-dev-repo-template-oct-2025",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/GitHub-Management-Tools-Index",
+      "target": "danielrosehill/claude-code-repo-managers-claudemd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/GitHub-Management-Tools-Index",
+      "target": "danielrosehill/git-github-plugin",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:59:13.863418+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3681
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Index of repositories for GitHub and repository management tools, automation, and utilities",
+    "fork": false,
+    "full_name": "danielrosehill/GitHub-Management-Tools-Index",
+    "html_url": "https://github.com/danielrosehill/GitHub-Management-Tools-Index",
+    "language": null,
+    "pushed_at": "2026-03-25T12:10:46Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-03-25T12:10:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/ai-dev-repo-template-oct-2025",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/claude-code-repo-managers-claudemd",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/git-github-plugin",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/github-to-openwebui-context-pipeline",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

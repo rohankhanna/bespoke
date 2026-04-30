@@ -1,0 +1,12 @@
+{
+  "component": "time-rs/time-rs.github.io/.github/workflows/trigger-deploy.yaml@main",
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "time-rs/time"
+    }
+  ]
+}

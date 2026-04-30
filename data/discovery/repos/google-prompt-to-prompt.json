@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T18:43:01.554537+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5080
+    },
+    {
+      "path": "requirements.txt",
+      "size": 59
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "google/prompt-to-prompt",
+    "html_url": "https://github.com/google/prompt-to-prompt",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-05-14T08:06:32Z",
+    "stargazers_count": 3446,
+    "topics": [],
+    "updated_at": "2026-04-21T02:32:43Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

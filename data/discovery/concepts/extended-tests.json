@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Extended tests"
+    "Extended tests",
+    "Extended Tests"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "open-quantum-safe/liboqs",
       "status": "candidate-context",
       "text": "Extended tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rapid7/metasploit-framework",
+      "status": "candidate-context",
+      "text": "Metasploit Framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapid7/metasploit-framework",
+      "status": "candidate-context",
+      "text": "Extended Tests"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "open-quantum-safe/liboqs",
       "status": "candidate",
       "text": "Extended tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapid7/metasploit-framework",
+      "status": "candidate",
+      "text": "Extended Tests"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/extended.yml",
       "source_repo": "open-quantum-safe/liboqs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/extended_tests.yml",
+      "source_repo": "rapid7/metasploit-framework"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

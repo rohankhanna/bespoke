@@ -952,6 +952,30 @@
       "source_repo": "nodemailer/nodemailer",
       "status": "candidate-context",
       "text": "'Close stale issues and PRs'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "michel-kraemer/bson4jackson",
+      "status": "candidate-context",
+      "text": "\ud83e\uddac A pluggable BSON generator and parser for the Jackson JSON processor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "michel-kraemer/bson4jackson",
+      "status": "candidate-context",
+      "text": "Close stale issues and PRs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fatedier/frp",
+      "status": "candidate-context",
+      "text": "A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fatedier/frp",
+      "status": "candidate-context",
+      "text": "\"Close stale issues and PRs\""
     }
   ],
   "candidate_glosses": [
@@ -1422,6 +1446,18 @@
       "source_repo": "nodemailer/nodemailer",
       "status": "candidate",
       "text": "'Close stale issues and PRs'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "michel-kraemer/bson4jackson",
+      "status": "candidate",
+      "text": "Close stale issues and PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fatedier/frp",
+      "status": "candidate",
+      "text": "\"Close stale issues and PRs\""
     }
   ],
   "candidate_related_terms": [
@@ -2089,11 +2125,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "nodemailer/nodemailer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "michel-kraemer/bson4jackson"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "fatedier/frp"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

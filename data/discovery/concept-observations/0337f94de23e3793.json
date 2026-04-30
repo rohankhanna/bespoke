@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Official Pytorch implementation of \"Pose2Mesh: Graph Convolutional Network for 3D Human Pose and Mesh Recovery from a 2D Human Pose\", ECCV 2020"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![pose to mesh](./asset/pose_mesh.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![pose to mesh](./asset/pose_mesh.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "eccv2020",
+      "sense_id": "eccv2020#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "eccv2020",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "eccv2020",
+  "observation_id": "0337f94de23e3793",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "eccv2020",
+  "source_context_snippet": "![pose to mesh](./asset/pose_mesh.png)",
+  "source_file": null,
+  "source_repo": "hongsukchoi/Pose2Mesh_RELEASE",
+  "source_repo_description": "Official Pytorch implementation of \"Pose2Mesh: Graph Convolutional Network for 3D Human Pose and Mesh Recovery from a 2D Human Pose\", ECCV 2020"
+}

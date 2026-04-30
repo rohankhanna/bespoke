@@ -733,6 +733,30 @@
       "source_repo": "GoogleChromeLabs/squoosh",
       "status": "candidate-context",
       "text": "Node.js CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aheckmann/gm",
+      "status": "candidate-context",
+      "text": "GraphicsMagick for node"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aheckmann/gm",
+      "status": "candidate-context",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aksakalli/gtop",
+      "status": "candidate-context",
+      "text": "System monitoring dashboard for terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aksakalli/gtop",
+      "status": "candidate-context",
+      "text": "Node.js CI"
     }
   ],
   "candidate_glosses": [
@@ -1093,6 +1117,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "GoogleChromeLabs/squoosh",
+      "status": "candidate",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aheckmann/gm",
+      "status": "candidate",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aksakalli/gtop",
       "status": "candidate",
       "text": "Node.js CI"
     }
@@ -1696,11 +1732,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/node.js.yml",
       "source_repo": "GoogleChromeLabs/squoosh"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "aheckmann/gm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "aksakalli/gtop"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

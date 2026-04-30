@@ -863,6 +863,42 @@
       "source_repo": "cockroachdb/client_golang",
       "status": "candidate-context",
       "text": "golangci-lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fatedier/frp",
+      "status": "candidate-context",
+      "text": "A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fatedier/frp",
+      "status": "candidate-context",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "weaviate/weaviate",
+      "status": "candidate-context",
+      "text": "Weaviate is an open-source vector database that stores both objects and vectors, allowing for the combination of vector search with structured filtering with the fault tolerance and scalability of a cloud-native database\u200b."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "weaviate/weaviate",
+      "status": "candidate-context",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "goreleaser/nfpm",
+      "status": "candidate-context",
+      "text": "nFPM is Not FPM - a simple deb, rpm, apk, ipk, and arch linux packager written in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goreleaser/nfpm",
+      "status": "candidate-context",
+      "text": "golangci-lint"
     }
   ],
   "candidate_glosses": [
@@ -1283,6 +1319,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "cockroachdb/client_golang",
+      "status": "candidate",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fatedier/frp",
+      "status": "candidate",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "weaviate/weaviate",
+      "status": "candidate",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goreleaser/nfpm",
       "status": "candidate",
       "text": "golangci-lint"
     }
@@ -1868,11 +1922,35 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/golangci-lint.yml",
       "source_repo": "cockroachdb/client_golang"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "fatedier/frp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "weaviate/weaviate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "goreleaser/nfpm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "apache/casbin"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

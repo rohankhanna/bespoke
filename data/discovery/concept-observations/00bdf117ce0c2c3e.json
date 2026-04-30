@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "New home for Smile format (https://en.wikipedia.org/wiki/Smile_(data_interchange_format))"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Smile\" is a binary data format that defines a binary equivalent of standard"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Smile\" is a binary data format that defines a binary equivalent of standard"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "smile-format",
+      "sense_id": "smile-format#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "smile-format",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "smile-format",
+  "observation_id": "00bdf117ce0c2c3e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "smile-format",
+  "source_context_snippet": "\"Smile\" is a binary data format that defines a binary equivalent of standard",
+  "source_file": null,
+  "source_repo": "FasterXML/smile-format-specification",
+  "source_repo_description": "New home for Smile format (https://en.wikipedia.org/wiki/Smile_(data_interchange_format))"
+}

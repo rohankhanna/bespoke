@@ -1216,6 +1216,42 @@
       "source_repo": "openframeworks/openFrameworks",
       "status": "candidate-context",
       "text": "[openFrameworks](http://openframeworks.cc/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cocos2d/cocos2d-x",
+      "status": "candidate-context",
+      "text": "Cocos2d-x is a suite of open-source, cross-platform, game-development tools utilized by millions of developers across the globe. Its core has evolved to serve as the foundation for Cocos Creator 1.x & 2.x."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cocos2d/cocos2d-x",
+      "status": "candidate-context",
+      "text": "<img src=\"http://www.cocos2d-x.org/attachments/801/cocos2dx_portrait.png\" width=200>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DioxusLabs/dioxus",
+      "status": "candidate-context",
+      "text": "Fullstack app framework for web, desktop, and mobile."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DioxusLabs/dioxus",
+      "status": "candidate-context",
+      "text": "<p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crossbario/autobahn-java",
+      "status": "candidate-context",
+      "text": "WebSocket & WAMP in Java for Android and Java 8"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crossbario/autobahn-java",
+      "status": "candidate-context",
+      "text": "Client library providing [WAMP](http://wamp-proto.org/) on Java 8 ([Netty](https://netty.io/)) and Android, plus (secure) WebSocket for Android."
     }
   ],
   "candidate_glosses": [
@@ -1842,6 +1878,24 @@
       "source_repo": "openframeworks/openFrameworks",
       "status": "candidate",
       "text": "[openFrameworks](http://openframeworks.cc/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cocos2d/cocos2d-x",
+      "status": "candidate",
+      "text": "<img src=\"http://www.cocos2d-x.org/attachments/801/cocos2dx_portrait.png\" width=200>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DioxusLabs/dioxus",
+      "status": "candidate",
+      "text": "<p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crossbario/autobahn-java",
+      "status": "candidate",
+      "text": "Client library providing [WAMP](http://wamp-proto.org/) on Java 8 ([Netty](https://netty.io/)) and Android, plus (secure) WebSocket for Android."
     }
   ],
   "candidate_related_terms": [
@@ -2638,11 +2692,41 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "openframeworks/openFrameworks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "cocos2d/cocos2d-x"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "DioxusLabs/dioxus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "snapcast/snapdroid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "crossbario/autobahn-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

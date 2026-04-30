@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A cookiecutter recipe for JupyterLab extensions in Typescript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Check alignment with copier template"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Check alignment with copier template"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29562,
+      "status": "candidate",
+      "text": "guide"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28634,
+      "status": "candidate",
+      "text": "sort"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28554,
+      "status": "candidate",
+      "text": "guided"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28554,
+      "status": "candidate",
+      "text": "guiding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28414,
+      "status": "candidate",
+      "text": "balancing"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check alignment with copier template",
+      "sense_id": "check-alignment-with-copier-template#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "check-alignment-with-copier-template",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "check-alignment-with-copier-template",
+  "observation_id": "29a6bc5200256daa",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "Check alignment with copier template",
+  "source_context_snippet": "Check alignment with copier template",
+  "source_file": ".github/workflows/alignment.yml",
+  "source_repo": "jupyterlab/extension-cookiecutter-ts",
+  "source_repo_description": "A cookiecutter recipe for JupyterLab extensions in Typescript"
+}

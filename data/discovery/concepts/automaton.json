@@ -1,0 +1,129 @@
+{
+  "aliases": [
+    "automaton"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/regex",
+      "status": "candidate-context",
+      "text": "An implementation of regular expressions for Rust. This implementation uses finite automata and guarantees linear time matching on all inputs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/regex",
+      "status": "candidate-context",
+      "text": "regex"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/regex",
+      "status": "candidate",
+      "text": "regex"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39814881,
+      "status": "candidate",
+      "text": "robot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39796495,
+      "status": "candidate",
+      "text": "zombi"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39791923,
+      "status": "candidate",
+      "text": "golem"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39518346,
+      "status": "candidate",
+      "text": "zombie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19990196,
+      "status": "candidate",
+      "text": "sequencer"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16025,
+      "status": "candidate",
+      "text": "golem"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8054,
+      "status": "candidate",
+      "text": "robot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3048,
+      "status": "candidate",
+      "text": "zombie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1020,
+      "status": "candidate",
+      "text": "zombi"
+    }
+  ],
+  "canonical_name": "automaton",
+  "concept_id": "automaton",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/regex"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "automaton",
+      "sense_id": "automaton#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

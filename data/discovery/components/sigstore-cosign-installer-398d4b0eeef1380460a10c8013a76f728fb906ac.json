@@ -1,7 +1,7 @@
 {
   "component": "sigstore/cosign-installer@398d4b0eeef1380460a10c8013a76f728fb906ac",
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/docker-image-arm64.yml",
       "source_repo": "QuantumNous/new-api"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/controller-release.yml",
+      "source_repo": "openlit/openlit"
     }
   ]
 }

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udd39 A Home Assistant integration to turn your browser into a controllable entity and media player"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Prevent build artifacts in PR"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Prevent build artifacts in PR"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19521,
+      "status": "candidate",
+      "text": "fic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19521,
+      "status": "candidate",
+      "text": "fix"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19128,
+      "status": "candidate",
+      "text": "articles"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19128,
+      "status": "candidate",
+      "text": "instrumentation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19128,
+      "status": "candidate",
+      "text": "items"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Prevent build artifacts in PR",
+      "sense_id": "prevent-build-artifacts-in-pr#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "prevent-build-artifacts-in-pr",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "prevent-build-artifacts-in-pr",
+  "observation_id": "87887f3fd13ace13",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "Prevent build artifacts in PR",
+  "source_context_snippet": "Prevent build artifacts in PR",
+  "source_file": ".github/workflows/prevent-build-artifacts-in-pr.yaml",
+  "source_repo": "thomasloven/hass-browser_mod",
+  "source_repo_description": "\ud83d\udd39 A Home Assistant integration to turn your browser into a controllable entity and media player"
+}

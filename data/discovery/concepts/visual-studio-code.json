@@ -103,6 +103,30 @@
       "source_repo": "latex-lsp/texlab-vscode",
       "status": "candidate-context",
       "text": "A [Visual Studio Code](https://code.visualstudio.com) extension that provides rich editing support for the"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/live-share",
+      "status": "candidate-context",
+      "text": "Real-time collaborative development from the comfort of your favorite tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/live-share",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JustusAdam/language-haskell",
+      "status": "candidate-context",
+      "text": "Highlighting support for the Haskell language in visual studio code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JustusAdam/language-haskell",
+      "status": "candidate-context",
+      "text": "Syntax highlighting support for Haskell and associated languages (e.g. Cabal, Happy and Alex) in Visual Studio Code."
     }
   ],
   "candidate_glosses": [
@@ -153,6 +177,18 @@
       "source_repo": "latex-lsp/texlab-vscode",
       "status": "candidate",
       "text": "A [Visual Studio Code](https://code.visualstudio.com) extension that provides rich editing support for the"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/live-share",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JustusAdam/language-haskell",
+      "status": "candidate",
+      "text": "Syntax highlighting support for Haskell and associated languages (e.g. Cabal, Happy and Alex) in Visual Studio Code."
     }
   ],
   "candidate_related_terms": [],
@@ -232,11 +268,29 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "haskell/vscode-haskell"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/live-share"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "spring-projects/spring-tools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "JustusAdam/language-haskell"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

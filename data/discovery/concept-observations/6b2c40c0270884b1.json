@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The gold standard Stax XML API implementation. Now at Github."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "The gold standard [Stax](https://en.wikipedia.org/wiki/StAX) XML \"pull\" API (`javax.xml.stream`) implementation."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "The gold standard [Stax](https://en.wikipedia.org/wiki/StAX) XML \"pull\" API (`javax.xml.stream`) implementation."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "stax-api",
+      "sense_id": "stax-api#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "stax-api",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "stax-api",
+  "observation_id": "6b2c40c0270884b1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "stax-api",
+  "source_context_snippet": "The gold standard [Stax](https://en.wikipedia.org/wiki/StAX) XML \"pull\" API (`javax.xml.stream`) implementation.",
+  "source_file": null,
+  "source_repo": "FasterXML/woodstox",
+  "source_repo_description": "The gold standard Stax XML API implementation. Now at Github."
+}

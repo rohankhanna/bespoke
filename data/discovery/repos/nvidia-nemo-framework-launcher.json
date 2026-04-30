@@ -1,0 +1,125 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoconf.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/launcher.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/style.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "NVIDIA/NeMo-Framework-Launcher",
+      "target": "nvidia/nemo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoconf.yml",
+      "source_repo": "NVIDIA/NeMo-Framework-Launcher",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autoconf.yml",
+      "source_repo": "NVIDIA/NeMo-Framework-Launcher",
+      "target": "autoconf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/launcher.yml",
+      "source_repo": "NVIDIA/NeMo-Framework-Launcher",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/launcher.yml",
+      "source_repo": "NVIDIA/NeMo-Framework-Launcher",
+      "target": "launcher",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/style.yml",
+      "source_repo": "NVIDIA/NeMo-Framework-Launcher",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:44:21.270533+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3589
+    },
+    {
+      "path": "Dockerfile",
+      "size": 5803
+    },
+    {
+      "path": "requirements.txt",
+      "size": 233
+    },
+    {
+      "path": ".github/workflows/autoconf.yml",
+      "size": 517
+    },
+    {
+      "path": ".github/workflows/launcher.yml",
+      "size": 488
+    },
+    {
+      "path": ".github/workflows/style.yml",
+      "size": 455
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Provides end-to-end model development pipelines for LLMs and Multimodal models that can be launched on-prem or cloud-native.",
+    "fork": false,
+    "full_name": "NVIDIA/NeMo-Framework-Launcher",
+    "html_url": "https://github.com/NVIDIA/NeMo-Framework-Launcher",
+    "language": "Python",
+    "pushed_at": "2025-04-18T18:12:41Z",
+    "stargazers_count": 517,
+    "topics": [],
+    "updated_at": "2026-04-29T08:25:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidia/nemo",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "autoconf",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autoconf.yml",
+      "term": "autoconf"
+    },
+    {
+      "context_snippet": "launcher",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/launcher.yml",
+      "term": "launcher"
+    }
+  ]
+}

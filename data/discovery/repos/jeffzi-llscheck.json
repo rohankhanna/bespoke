@@ -1,0 +1,140 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llscheck.yml"
+    },
+    {
+      "component": "Homebrew/actions/setup-homebrew@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llscheck.yml"
+    },
+    {
+      "component": "leafo/gh-actions-lua@v11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llscheck.yml"
+    },
+    {
+      "component": "luarocks/gh-actions-luarocks@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llscheck.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luacheck.yml"
+    },
+    {
+      "component": "lunarmodules/luacheck@v1.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luacheck.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llscheck.yml",
+      "source_repo": "jeffzi/llscheck",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llscheck.yml",
+      "source_repo": "jeffzi/llscheck",
+      "target": "Homebrew/actions/setup-homebrew@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llscheck.yml",
+      "source_repo": "jeffzi/llscheck",
+      "target": "leafo/gh-actions-lua@v11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llscheck.yml",
+      "source_repo": "jeffzi/llscheck",
+      "target": "luarocks/gh-actions-luarocks@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/llscheck.yml",
+      "source_repo": "jeffzi/llscheck",
+      "target": "LLSCheck",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luacheck.yml",
+      "source_repo": "jeffzi/llscheck",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luacheck.yml",
+      "source_repo": "jeffzi/llscheck",
+      "target": "lunarmodules/luacheck@v1.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/luacheck.yml",
+      "source_repo": "jeffzi/llscheck",
+      "target": "Luacheck",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:42:44.790349+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3519
+    },
+    {
+      "path": "Dockerfile",
+      "size": 776
+    },
+    {
+      "path": ".github/workflows/llscheck.yml",
+      "size": 1710
+    },
+    {
+      "path": ".github/workflows/luacheck.yml",
+      "size": 222
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Convert Lua Language Server diagnostics for human and CI friendly interpretation",
+    "fork": false,
+    "full_name": "jeffzi/llscheck",
+    "html_url": "https://github.com/jeffzi/llscheck",
+    "language": "Lua",
+    "pushed_at": "2026-04-06T21:57:13Z",
+    "stargazers_count": 12,
+    "topics": [],
+    "updated_at": "2026-04-19T22:53:04Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "LLSCheck",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/llscheck.yml",
+      "term": "LLSCheck"
+    },
+    {
+      "context_snippet": "Luacheck",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/luacheck.yml",
+      "term": "Luacheck"
+    }
+  ]
+}

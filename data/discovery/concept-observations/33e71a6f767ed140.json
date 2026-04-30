@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Apache ECharts is a powerful, interactive charting and data visualization library for browser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Source Release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Source Release"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11717,
+      "status": "candidate",
+      "text": "arise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11717,
+      "status": "candidate",
+      "text": "authority"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11717,
+      "status": "candidate",
+      "text": "feedback"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11717,
+      "status": "candidate",
+      "text": "fire"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11717,
+      "status": "candidate",
+      "text": "free"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Source Release",
+      "sense_id": "source-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "source-release",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "source-release",
+  "observation_id": "33e71a6f767ed140",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "Source Release",
+  "source_context_snippet": "Source Release",
+  "source_file": ".github/workflows/source-release.yml",
+  "source_repo": "apache/echarts",
+  "source_repo_description": "Apache ECharts is a powerful, interactive charting and data visualization library for browser"
+}

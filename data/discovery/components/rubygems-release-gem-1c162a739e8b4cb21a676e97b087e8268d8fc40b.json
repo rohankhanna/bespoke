@@ -1,0 +1,12 @@
+{
+  "component": "rubygems/release-gem@1c162a739e8b4cb21a676e97b087e8268d8fc40b",
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/push_gem.yml",
+      "source_repo": "prontolabs/pronto"
+    }
+  ]
+}

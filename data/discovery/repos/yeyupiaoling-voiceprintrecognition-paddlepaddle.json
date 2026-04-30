@@ -1,0 +1,153 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yeyupiaoling/VoiceprintRecognition-PaddlePaddle",
+      "target": "tracyone/program_font",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yeyupiaoling/VoiceprintRecognition-PaddlePaddle",
+      "target": "yeyupiaoling/paddlepaddle-mobilefacenets",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yeyupiaoling/VoiceprintRecognition-PaddlePaddle",
+      "target": "alibaba-damo-academy/3d-speaker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yeyupiaoling/VoiceprintRecognition-PaddlePaddle",
+      "target": "wenet-e2e/wespeaker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yeyupiaoling/VoiceprintRecognition-PaddlePaddle",
+      "target": "arcface",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yeyupiaoling/VoiceprintRecognition-PaddlePaddle",
+      "target": "ecapa-tdnn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yeyupiaoling/VoiceprintRecognition-PaddlePaddle",
+      "target": "paddlepaddle",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yeyupiaoling/VoiceprintRecognition-PaddlePaddle",
+      "target": "speaker-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yeyupiaoling/VoiceprintRecognition-PaddlePaddle",
+      "target": "voice-recognition",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:37:33.616187+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 32070
+    },
+    {
+      "path": "requirements.txt",
+      "size": 188
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "\u672c\u9879\u76ee\u4f7f\u7528\u4e86EcapaTdnn\u3001ResNetSE\u3001ERes2Net\u3001CAM++\u7b49\u591a\u79cd\u5148\u8fdb\u7684\u58f0\u7eb9\u8bc6\u522b\u6a21\u578b\uff0c\u540c\u65f6\u672c\u9879\u76ee\u4e5f\u652f\u6301\u4e86MelSpectrogram\u3001Spectrogram\u3001MFCC\u3001Fbank\u7b49\u591a\u79cd\u6570\u636e\u9884\u5904\u7406\u65b9\u6cd5",
+    "fork": false,
+    "full_name": "yeyupiaoling/VoiceprintRecognition-PaddlePaddle",
+    "html_url": "https://github.com/yeyupiaoling/VoiceprintRecognition-PaddlePaddle",
+    "language": "Python",
+    "pushed_at": "2025-12-17T13:08:21Z",
+    "stargazers_count": 312,
+    "topics": [
+      "arcface",
+      "ecapa-tdnn",
+      "paddlepaddle",
+      "speaker-recognition",
+      "voice-recognition"
+    ],
+    "updated_at": "2026-04-21T07:21:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alibaba-damo-academy/3d-speaker",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tracyone/program_font",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wenet-e2e/wespeaker",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yeyupiaoling/paddlepaddle-mobilefacenets",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![python version](https://img.shields.io/badge/python-3.8+-orange.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arcface"
+    },
+    {
+      "context_snippet": "![python version](https://img.shields.io/badge/python-3.8+-orange.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ecapa-tdnn"
+    },
+    {
+      "context_snippet": "![python version](https://img.shields.io/badge/python-3.8+-orange.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "paddlepaddle"
+    },
+    {
+      "context_snippet": "![python version](https://img.shields.io/badge/python-3.8+-orange.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speaker-recognition"
+    },
+    {
+      "context_snippet": "![python version](https://img.shields.io/badge/python-3.8+-orange.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "voice-recognition"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NorfairKing/feedback",
+      "target": "schell/steeloverseer",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:55:29.424316+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3120
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Declarative feedback loop manager",
+    "fork": false,
+    "full_name": "NorfairKing/feedback",
+    "html_url": "https://github.com/NorfairKing/feedback",
+    "language": "Haskell",
+    "pushed_at": "2025-12-03T10:16:34Z",
+    "stargazers_count": 65,
+    "topics": [],
+    "updated_at": "2025-12-11T17:35:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "schell/steeloverseer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

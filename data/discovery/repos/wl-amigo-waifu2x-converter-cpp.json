@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T18:40:37.099346+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2509
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "waifu2x(original : https://github.com/nagadomi/waifu2x) re-implementation in C++ using OpenCV [NO LONGER UPDATED]",
+    "fork": false,
+    "full_name": "WL-Amigo/waifu2x-converter-cpp",
+    "html_url": "https://github.com/WL-Amigo/waifu2x-converter-cpp",
+    "language": "C++",
+    "pushed_at": "2023-06-08T17:24:36Z",
+    "stargazers_count": 392,
+    "topics": [],
+    "updated_at": "2026-02-25T01:29:10Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

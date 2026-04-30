@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "colorschemes"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Misterio77/nix-colors",
+      "status": "candidate-context",
+      "text": "Modules and schemes to make theming with Nix awesome."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Misterio77/nix-colors",
+      "status": "candidate-context",
+      "text": "This repo is designed to help with Nix(OS) theming."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Misterio77/nix-colors",
+      "status": "candidate",
+      "text": "This repo is designed to help with Nix(OS) theming."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "colorschemes",
+  "concept_id": "colorschemes",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "Misterio77/nix-colors"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "colorschemes",
+      "sense_id": "colorschemes#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

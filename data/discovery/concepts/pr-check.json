@@ -152,6 +152,18 @@
       "source_repo": "dbeaver/dbeaver",
       "status": "candidate-context",
       "text": "PR Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ivo-toby/mcp-openapi-server",
+      "status": "candidate-context",
+      "text": "MCP Server (Model Context Protocol) for turning OpenAPI specifications into a MCP Resource"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ivo-toby/mcp-openapi-server",
+      "status": "candidate-context",
+      "text": "PR Check"
     }
   ],
   "candidate_glosses": [
@@ -224,6 +236,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "dbeaver/dbeaver",
+      "status": "candidate",
+      "text": "PR Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ivo-toby/mcp-openapi-server",
       "status": "candidate",
       "text": "PR Check"
     }
@@ -413,11 +431,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/pr-check.yml",
       "source_repo": "QuantumNous/new-api"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/pr-check.yml",
+      "source_repo": "ivo-toby/mcp-openapi-server"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

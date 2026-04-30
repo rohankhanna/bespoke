@@ -1,0 +1,352 @@
+{
+  "components": [
+    {
+      "component": "etils-actions/pypi-auto-publish@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-publish-dry-run.yml"
+    },
+    {
+      "component": "etils-actions/pypi-auto-publish@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-publish.yml"
+    },
+    {
+      "component": "etils-actions/pypi-auto-publish@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-publish.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_push_docker.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3.11.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_push_docker.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_push_docker.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_image.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3.11.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_image.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_image.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/multiprocess_tests.yml"
+    },
+    {
+      "component": "actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/multiprocess_tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-publish-dry-run.yml",
+      "source_repo": "google/orbax",
+      "target": "etils-actions/pypi-auto-publish@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-publish-dry-run.yml",
+      "source_repo": "google/orbax",
+      "target": "Auto-publish Dry-Run",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-publish.yml",
+      "source_repo": "google/orbax",
+      "target": "etils-actions/pypi-auto-publish@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-publish.yml",
+      "source_repo": "google/orbax",
+      "target": "Auto-publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "google/orbax",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "google/orbax",
+      "target": "actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "google/orbax",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "google/orbax",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "google/orbax",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_push_docker.yml",
+      "source_repo": "google/orbax",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_push_docker.yml",
+      "source_repo": "google/orbax",
+      "target": "docker/setup-buildx-action@v3.11.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_push_docker.yml",
+      "source_repo": "google/orbax",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_and_push_docker.yml",
+      "source_repo": "google/orbax",
+      "target": "Build and Push Orbax-checkpoint Docker Images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_image.yml",
+      "source_repo": "google/orbax",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_image.yml",
+      "source_repo": "google/orbax",
+      "target": "docker/setup-buildx-action@v3.11.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_image.yml",
+      "source_repo": "google/orbax",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/multiprocess_tests.yml",
+      "source_repo": "google/orbax",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/multiprocess_tests.yml",
+      "source_repo": "google/orbax",
+      "target": "actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/multiprocess_tests.yml",
+      "source_repo": "google/orbax",
+      "target": "multiprocess-tests-schedule-run",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/orbax",
+      "target": "checkpoint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/orbax",
+      "target": "flax",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:42:43.752934+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2270
+    },
+    {
+      "path": ".github/workflows/auto-publish-dry-run.yml",
+      "size": 426
+    },
+    {
+      "path": ".github/workflows/auto-publish.yml",
+      "size": 1312
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 17163
+    },
+    {
+      "path": ".github/workflows/build_and_push_docker.yml",
+      "size": 1596
+    },
+    {
+      "path": ".github/workflows/build_image.yml",
+      "size": 1661
+    },
+    {
+      "path": ".github/workflows/multiprocess_tests.yml",
+      "size": 4317
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Orbax provides common checkpointing and persistence utilities for JAX users",
+    "fork": false,
+    "full_name": "google/orbax",
+    "html_url": "https://github.com/google/orbax",
+    "language": "Python",
+    "pushed_at": "2026-04-30T17:26:35Z",
+    "stargazers_count": 506,
+    "topics": [
+      "checkpoint",
+      "flax",
+      "jax"
+    ],
+    "updated_at": "2026-04-30T05:25:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Auto-publish Dry-Run",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-publish-dry-run.yml",
+      "term": "Auto-publish Dry-Run"
+    },
+    {
+      "context_snippet": "Auto-publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-publish.yml",
+      "term": "Auto-publish"
+    },
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "Build and Push Orbax-checkpoint Docker Images",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_and_push_docker.yml",
+      "term": "Build and Push Orbax-checkpoint Docker Images"
+    },
+    {
+      "context_snippet": "multiprocess-tests-schedule-run",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/multiprocess_tests.yml",
+      "term": "multiprocess-tests-schedule-run"
+    },
+    {
+      "context_snippet": "[Orbax](https://orbax.readthedocs.io/en/latest/) provides common checkpointing and persistence utilities for JAX users.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "checkpoint"
+    },
+    {
+      "context_snippet": "[Orbax](https://orbax.readthedocs.io/en/latest/) provides common checkpointing and persistence utilities for JAX users.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flax"
+    }
+  ]
+}

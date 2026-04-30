@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "roginfarrer/vim-dirvish-dovish",
+      "target": "sindresorhus/trash-cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "roginfarrer/vim-dirvish-dovish",
+      "target": "melandel/desktop",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "roginfarrer/vim-dirvish-dovish",
+      "target": "file-management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "roginfarrer/vim-dirvish-dovish",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "roginfarrer/vim-dirvish-dovish",
+      "target": "vim-dirvish",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T18:36:26.757967+00:00",
+  "source_repo": "roginfarrer/vim-dirvish-dovish"
+}

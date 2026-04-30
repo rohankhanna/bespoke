@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ai-bot-pro/pipeline-go",
+      "target": "weedge/pipeline-py",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:37:03.106889+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3384
+    },
+    {
+      "path": "go.mod",
+      "size": 367
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "pipeline golang ,  a simple pipeline see: https://github.com/weedge/lib/blob/main/chain/handler.go \uff1bvibe coding use golang to reconstruct pipeline-py: https://github.com/weedge/pipeline-py",
+    "fork": false,
+    "full_name": "ai-bot-pro/pipeline-go",
+    "html_url": "https://github.com/ai-bot-pro/pipeline-go",
+    "language": "Go",
+    "pushed_at": "2025-10-27T15:45:48Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-10-29T05:34:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "weedge/pipeline-py",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

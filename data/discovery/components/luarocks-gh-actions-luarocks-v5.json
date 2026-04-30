@@ -1,12 +1,17 @@
 {
   "component": "luarocks/gh-actions-luarocks@v5",
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "NeogitOrg/neogit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gendoc.yml",
+      "source_repo": "nvim-neorg/neorg"
     }
   ]
 }

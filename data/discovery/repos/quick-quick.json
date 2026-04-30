@@ -1,0 +1,403 @@
+{
+  "components": [
+    {
+      "component": "fkirc/skip-duplicate-actions@v5.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-swiftpm.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-swiftpm.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-swiftpm.yml"
+    },
+    {
+      "component": "fkirc/skip-duplicate-actions@v5.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-xcode.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-xcode.yml"
+    },
+    {
+      "component": "fkirc/skip-duplicate-actions@v5.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cocoapods.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cocoapods.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cocoapods.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/danger.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/danger.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swiftlint.yml"
+    },
+    {
+      "component": "norio-nomura/action-swiftlint@3.2.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swiftlint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Quick/Quick",
+      "target": "rspec/rspec",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Quick/Quick",
+      "target": "specta/specta",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Quick/Quick",
+      "target": "quick/nimble",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-swiftpm.yml",
+      "source_repo": "Quick/Quick",
+      "target": "fkirc/skip-duplicate-actions@v5.3.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-swiftpm.yml",
+      "source_repo": "Quick/Quick",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-swiftpm.yml",
+      "source_repo": "Quick/Quick",
+      "target": "CI (SwiftPM)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-xcode.yml",
+      "source_repo": "Quick/Quick",
+      "target": "fkirc/skip-duplicate-actions@v5.3.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-xcode.yml",
+      "source_repo": "Quick/Quick",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-xcode.yml",
+      "source_repo": "Quick/Quick",
+      "target": "CI (Xcode)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cocoapods.yml",
+      "source_repo": "Quick/Quick",
+      "target": "fkirc/skip-duplicate-actions@v5.3.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cocoapods.yml",
+      "source_repo": "Quick/Quick",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cocoapods.yml",
+      "source_repo": "Quick/Quick",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cocoapods.yml",
+      "source_repo": "Quick/Quick",
+      "target": "CocoaPods",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/danger.yml",
+      "source_repo": "Quick/Quick",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/danger.yml",
+      "source_repo": "Quick/Quick",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/danger.yml",
+      "source_repo": "Quick/Quick",
+      "target": "Danger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Quick/Quick",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Quick/Quick",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Quick/Quick",
+      "target": "Release Artifacts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swiftlint.yml",
+      "source_repo": "Quick/Quick",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swiftlint.yml",
+      "source_repo": "Quick/Quick",
+      "target": "norio-nomura/action-swiftlint@3.2.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/swiftlint.yml",
+      "source_repo": "Quick/Quick",
+      "target": "SwiftLint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Quick/Quick",
+      "target": "carthage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Quick/Quick",
+      "target": "cocoapods",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Quick/Quick",
+      "target": "objective-c",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Quick/Quick",
+      "target": "swift",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Quick/Quick",
+      "target": "testing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:04:12.624758+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4585
+    },
+    {
+      "path": ".github/workflows/ci-swiftpm.yml",
+      "size": 1510
+    },
+    {
+      "path": ".github/workflows/ci-xcode.yml",
+      "size": 1219
+    },
+    {
+      "path": ".github/workflows/cocoapods.yml",
+      "size": 935
+    },
+    {
+      "path": ".github/workflows/danger.yml",
+      "size": 392
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 641
+    },
+    {
+      "path": ".github/workflows/swiftlint.yml",
+      "size": 277
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The Swift (and Objective-C) testing framework.",
+    "fork": false,
+    "full_name": "Quick/Quick",
+    "html_url": "https://github.com/Quick/Quick",
+    "language": "Swift",
+    "pushed_at": "2026-04-13T10:39:46Z",
+    "stargazers_count": 9828,
+    "topics": [
+      "bdd",
+      "carthage",
+      "cocoapods",
+      "ios",
+      "objective-c",
+      "swift",
+      "testing"
+    ],
+    "updated_at": "2026-04-30T00:25:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "quick/nimble",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rspec/rspec",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "specta/specta",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CI (SwiftPM)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-swiftpm.yml",
+      "term": "CI (SwiftPM)"
+    },
+    {
+      "context_snippet": "CI (Xcode)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-xcode.yml",
+      "term": "CI (Xcode)"
+    },
+    {
+      "context_snippet": "CocoaPods",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cocoapods.yml",
+      "term": "CocoaPods"
+    },
+    {
+      "context_snippet": "Danger",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/danger.yml",
+      "term": "Danger"
+    },
+    {
+      "context_snippet": "\"Release Artifacts\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release Artifacts"
+    },
+    {
+      "context_snippet": "SwiftLint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/swiftlint.yml",
+      "term": "SwiftLint"
+    },
+    {
+      "context_snippet": "![](http://f.cl.ly/items/0r1E192C1R0b2g2Q3h2w/QuickLogo_Color.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "carthage"
+    },
+    {
+      "context_snippet": "![](http://f.cl.ly/items/0r1E192C1R0b2g2Q3h2w/QuickLogo_Color.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cocoapods"
+    },
+    {
+      "context_snippet": "![](http://f.cl.ly/items/0r1E192C1R0b2g2Q3h2w/QuickLogo_Color.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "objective-c"
+    },
+    {
+      "context_snippet": "![](http://f.cl.ly/items/0r1E192C1R0b2g2Q3h2w/QuickLogo_Color.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift"
+    },
+    {
+      "context_snippet": "![](http://f.cl.ly/items/0r1E192C1R0b2g2Q3h2w/QuickLogo_Color.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testing"
+    }
+  ]
+}

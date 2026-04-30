@@ -43,6 +43,18 @@
       "source_repo": "cssnano/cssnano",
       "status": "candidate-context",
       "text": "Publish Package to npmjs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openlit/openlit",
+      "status": "candidate-context",
+      "text": "Open source platform for AI Engineering: OpenTelemetry-native LLM Observability, GPU Monitoring, Guardrails, Evaluations, Prompt Management, Vault, Playground. \ud83d\ude80\ud83d\udcbb Integrates with 50+ LLM Providers, VectorDBs, Agent Frameworks and GPUs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openlit/openlit",
+      "status": "candidate-context",
+      "text": "Publish Package to npmjs"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +73,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "cssnano/cssnano",
+      "status": "candidate",
+      "text": "Publish Package to npmjs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openlit/openlit",
       "status": "candidate",
       "text": "Publish Package to npmjs"
     }
@@ -124,11 +142,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "cssnano/cssnano"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/npm-release.yml",
+      "source_repo": "openlit/openlit"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

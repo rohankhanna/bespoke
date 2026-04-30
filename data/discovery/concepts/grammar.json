@@ -79,6 +79,30 @@
       "source_repo": "argdown/argdown",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "languagetool-org/languagetool",
+      "status": "candidate-context",
+      "text": "Style and Grammar Checker for 25+ Languages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "languagetool-org/languagetool",
+      "status": "candidate-context",
+      "text": "**LanguageTool** is open-source proofreading software for English, Spanish, French, German,"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0x2a-42/lelwel",
+      "status": "candidate-context",
+      "text": "Resilient LL(1) parser generator for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0x2a-42/lelwel",
+      "status": "candidate-context",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/lelwel)](https://crates.io/crates/lelwel)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +141,18 @@
       "source_repo": "argdown/argdown",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "languagetool-org/languagetool",
+      "status": "candidate",
+      "text": "**LanguageTool** is open-source proofreading software for English, Spanish, French, German,"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0x2a-42/lelwel",
+      "status": "candidate",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/lelwel)](https://crates.io/crates/lelwel)"
     }
   ],
   "candidate_related_terms": [
@@ -196,11 +232,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "argdown/argdown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "languagetool-org/languagetool"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "0x2a-42/lelwel"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

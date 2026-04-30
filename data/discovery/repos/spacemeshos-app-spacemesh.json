@@ -1,0 +1,240 @@
+{
+  "components": [
+    {
+      "component": "LedgerHQ/ledger-app-workflows/.github/workflows/reusable_build.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml"
+    },
+    {
+      "component": "LedgerHQ/ledger-app-workflows/.github/workflows/reusable_ragger_tests.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-workflow.yml"
+    },
+    {
+      "component": "DoozyX/clang-format-lint-action@v0.13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-workflow.yml"
+    },
+    {
+      "component": "DoozyX/clang-format-lint-action@v0.13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-workflow.yml"
+    },
+    {
+      "component": "codespell-project/actions-codespell@2391250ab05295bddd51e36a8c6295edb6343b0e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonarcloud.yml"
+    },
+    {
+      "component": "actions/setup-java@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonarcloud.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "spacemeshos/app-spacemesh",
+      "target": "ledgerhq/udev-rules",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "spacemeshos/app-spacemesh",
+      "target": "ledgerhq/ledger-app-builder",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "spacemeshos/app-spacemesh",
+      "target": "ledgerhq/blue-loader-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "spacemeshos/app-spacemesh",
+      "target": "ledgerhq/ledger-secure-sdk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml",
+      "source_repo": "spacemeshos/app-spacemesh",
+      "target": "LedgerHQ/ledger-app-workflows/.github/workflows/reusable_build.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml",
+      "source_repo": "spacemeshos/app-spacemesh",
+      "target": "LedgerHQ/ledger-app-workflows/.github/workflows/reusable_ragger_tests.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml",
+      "source_repo": "spacemeshos/app-spacemesh",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-workflow.yml",
+      "source_repo": "spacemeshos/app-spacemesh",
+      "target": "Compilation & tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-workflow.yml",
+      "source_repo": "spacemeshos/app-spacemesh",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-workflow.yml",
+      "source_repo": "spacemeshos/app-spacemesh",
+      "target": "DoozyX/clang-format-lint-action@v0.13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-workflow.yml",
+      "source_repo": "spacemeshos/app-spacemesh",
+      "target": "codespell-project/actions-codespell@2391250ab05295bddd51e36a8c6295edb6343b0e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-workflow.yml",
+      "source_repo": "spacemeshos/app-spacemesh",
+      "target": "Code style check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonarcloud.yml",
+      "source_repo": "spacemeshos/app-spacemesh",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonarcloud.yml",
+      "source_repo": "spacemeshos/app-spacemesh",
+      "target": "actions/setup-java@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sonarcloud.yml",
+      "source_repo": "spacemeshos/app-spacemesh",
+      "target": "Sonarcloud",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:57:01.914341+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6221
+    },
+    {
+      "path": "requirements.txt",
+      "size": 8476
+    },
+    {
+      "path": ".github/workflows/ci-workflow.yml",
+      "size": 1029
+    },
+    {
+      "path": ".github/workflows/lint-workflow.yml",
+      "size": 1086
+    },
+    {
+      "path": ".github/workflows/sonarcloud.yml",
+      "size": 2560
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Spacemesh app for Ledger Wallet",
+    "fork": true,
+    "full_name": "spacemeshos/app-spacemesh",
+    "html_url": "https://github.com/spacemeshos/app-spacemesh",
+    "language": "C",
+    "pushed_at": "2025-04-23T15:52:48Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2024-05-27T18:26:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ledgerhq/blue-loader-python",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ledgerhq/ledger-app-builder",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ledgerhq/ledger-secure-sdk",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ledgerhq/udev-rules",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Compilation & tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-workflow.yml",
+      "term": "Compilation & tests"
+    },
+    {
+      "context_snippet": "Code style check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-workflow.yml",
+      "term": "Code style check"
+    },
+    {
+      "context_snippet": "Sonarcloud",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sonarcloud.yml",
+      "term": "Sonarcloud"
+    }
+  ]
+}

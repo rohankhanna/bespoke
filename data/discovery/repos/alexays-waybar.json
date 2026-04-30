@@ -1,0 +1,443 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format.yml"
+    },
+    {
+      "component": "RafikFarhad/clang-format-github-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy.yml.bak"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy.yml.bak"
+    },
+    {
+      "component": "cpp-linter/cpp-linter-action@v2.9.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy.yml.bak"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/freebsd.yml"
+    },
+    {
+      "component": "cross-platform-actions/action@v0.28.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/freebsd.yml"
+    },
+    {
+      "component": "github/issue-labeler@v3.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-tests.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v31",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-update-flake-lock.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v31",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-update-flake-lock.yml"
+    },
+    {
+      "component": "DeterminateSystems/update-flake-lock@v28",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-update-flake-lock.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format.yml",
+      "source_repo": "Alexays/Waybar",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format.yml",
+      "source_repo": "Alexays/Waybar",
+      "target": "RafikFarhad/clang-format-github-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-format.yml",
+      "source_repo": "Alexays/Waybar",
+      "target": "clang-format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy.yml.bak",
+      "source_repo": "Alexays/Waybar",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy.yml.bak",
+      "source_repo": "Alexays/Waybar",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy.yml.bak",
+      "source_repo": "Alexays/Waybar",
+      "target": "cpp-linter/cpp-linter-action@v2.9.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-tidy.yml.bak",
+      "source_repo": "Alexays/Waybar",
+      "target": "clang-tidy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "Alexays/Waybar",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "Alexays/Waybar",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "Alexays/Waybar",
+      "target": "docker/build-push-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "Alexays/Waybar",
+      "target": "Build and Push Docker Image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/freebsd.yml",
+      "source_repo": "Alexays/Waybar",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/freebsd.yml",
+      "source_repo": "Alexays/Waybar",
+      "target": "cross-platform-actions/action@v0.28.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/freebsd.yml",
+      "source_repo": "Alexays/Waybar",
+      "target": "freebsd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "Alexays/Waybar",
+      "target": "github/issue-labeler@v3.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "Alexays/Waybar",
+      "target": "Issue Labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "Alexays/Waybar",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "Alexays/Waybar",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-tests.yml",
+      "source_repo": "Alexays/Waybar",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-tests.yml",
+      "source_repo": "Alexays/Waybar",
+      "target": "cachix/install-nix-action@v31",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nix-tests.yml",
+      "source_repo": "Alexays/Waybar",
+      "target": "Nix-Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-update-flake-lock.yml",
+      "source_repo": "Alexays/Waybar",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-update-flake-lock.yml",
+      "source_repo": "Alexays/Waybar",
+      "target": "cachix/install-nix-action@v31",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-update-flake-lock.yml",
+      "source_repo": "Alexays/Waybar",
+      "target": "DeterminateSystems/update-flake-lock@v28",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nix-update-flake-lock.yml",
+      "source_repo": "Alexays/Waybar",
+      "target": "update-flake-lock",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alexays/Waybar",
+      "target": "i3status",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alexays/Waybar",
+      "target": "statusbar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alexays/Waybar",
+      "target": "sway",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alexays/Waybar",
+      "target": "wayland",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alexays/Waybar",
+      "target": "wlroots",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:50:51.607604+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3832
+    },
+    {
+      "path": ".github/workflows/clang-format.yml",
+      "size": 434
+    },
+    {
+      "path": ".github/workflows/clang-tidy.yml.bak",
+      "size": 1603
+    },
+    {
+      "path": ".github/workflows/docker.yml",
+      "size": 947
+    },
+    {
+      "path": ".github/workflows/freebsd.yml",
+      "size": 1274
+    },
+    {
+      "path": ".github/workflows/labeler.yml",
+      "size": 383
+    },
+    {
+      "path": ".github/workflows/linux.yml",
+      "size": 731
+    },
+    {
+      "path": ".github/workflows/nix-tests.yml",
+      "size": 601
+    },
+    {
+      "path": ".github/workflows/nix-update-flake-lock.yml",
+      "size": 638
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Highly customizable Wayland bar for Sway and Wlroots based compositors. :v: :tada:",
+    "fork": false,
+    "full_name": "Alexays/Waybar",
+    "html_url": "https://github.com/Alexays/Waybar",
+    "language": "C++",
+    "pushed_at": "2026-04-22T18:50:48Z",
+    "stargazers_count": 11172,
+    "topics": [
+      "bar",
+      "gtk",
+      "i3status",
+      "statusbar",
+      "sway",
+      "wayland",
+      "wlroots"
+    ],
+    "updated_at": "2026-04-30T18:05:33Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "clang-format",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-format.yml",
+      "term": "clang-format"
+    },
+    {
+      "context_snippet": "clang-tidy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-tidy.yml.bak",
+      "term": "clang-tidy"
+    },
+    {
+      "context_snippet": "Build and Push Docker Image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "term": "Build and Push Docker Image"
+    },
+    {
+      "context_snippet": "freebsd",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/freebsd.yml",
+      "term": "freebsd"
+    },
+    {
+      "context_snippet": "\"Issue Labeler\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "term": "Issue Labeler"
+    },
+    {
+      "context_snippet": "linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux.yml",
+      "term": "linux"
+    },
+    {
+      "context_snippet": "\"Nix-Tests\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nix-tests.yml",
+      "term": "Nix-Tests"
+    },
+    {
+      "context_snippet": "update-flake-lock",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nix-update-flake-lock.yml",
+      "term": "update-flake-lock"
+    },
+    {
+      "context_snippet": "> Highly customizable Wayland bar for Sway and Wlroots based compositors.<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "i3status"
+    },
+    {
+      "context_snippet": "> Highly customizable Wayland bar for Sway and Wlroots based compositors.<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "statusbar"
+    },
+    {
+      "context_snippet": "> Highly customizable Wayland bar for Sway and Wlroots based compositors.<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sway"
+    },
+    {
+      "context_snippet": "> Highly customizable Wayland bar for Sway and Wlroots based compositors.<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wayland"
+    },
+    {
+      "context_snippet": "> Highly customizable Wayland bar for Sway and Wlroots based compositors.<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wlroots"
+    }
+  ]
+}

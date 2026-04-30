@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Lean geopolitical forecasting council: 5-model panel, grounded SITREP, structured predictions per horizon, deterministic Typst report"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A lean geopolitical forecasting council. Spin-off of [Hypothesis-Council](https://github.com/danielrosehill/Hypothesis-Council), and a much cheaper cousin of my Snowglobe-style [Geopol-Forecaster](https://github.com/danielrosehill/Geopol-Forecaster) \u2014 which simulates ~40 actors \u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A lean geopolitical forecasting council. Spin-off of [Hypothesis-Council](https://github.com/danielrosehill/Hypothesis-Council), and a much cheaper cousin of my Snowglobe-style [Geopol-Forecaster](https://github.com/danielrosehill/Geopol-Forecaster) \u2014 which simulates ~40 actors \u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20025113,
+      "status": "candidate",
+      "text": "political geography"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20025112,
+      "status": "candidate",
+      "text": "geography"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20025111,
+      "status": "candidate",
+      "text": "geoeconomics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20025110,
+      "status": "candidate",
+      "text": "geostrategy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20025109,
+      "status": "candidate",
+      "text": "political economy"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "geopolitics",
+      "sense_id": "geopolitics#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "geopolitics",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "geopolitics",
+  "observation_id": "288496fc1302782d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "geopolitics",
+  "source_context_snippet": "A lean geopolitical forecasting council. Spin-off of [Hypothesis-Council](https://github.com/danielrosehill/Hypothesis-Council), and a much cheaper cousin of my Snowglobe-style [Geopol-Forecaster](https://github.com/danielrosehill/Geopol-Forecaster) \u2014 which simulates ~40 actors \u2026",
+  "source_file": null,
+  "source_repo": "danielrosehill/Geopol-Forecast-Council",
+  "source_repo_description": "Lean geopolitical forecasting council: 5-model panel, grounded SITREP, structured predictions per horizon, deterministic Typst report"
+}

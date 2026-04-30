@@ -1,11 +1,31 @@
 {
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/integrate.yml",
       "source_repo": "medikoo/type"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/integrate.yaml",
+      "source_repo": "php/doc-base"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/integrate.yaml",
+      "source_repo": "php/doc-de"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/integrate.yaml",
+      "source_repo": "php/doc-en"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/integrate.yaml",
+      "source_repo": "php/doc-es"
     }
   ],
   "term": "Integrate"

@@ -19,6 +19,54 @@
       "source_repo": "medikoo/type",
       "status": "candidate-context",
       "text": "Integrate"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "php/doc-base",
+      "status": "candidate-context",
+      "text": "Tools for the PHP documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "php/doc-base",
+      "status": "candidate-context",
+      "text": "\"Integrate\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "php/doc-de",
+      "status": "candidate-context",
+      "text": "German translation of the PHP documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "php/doc-de",
+      "status": "candidate-context",
+      "text": "\"Integrate\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "php/doc-en",
+      "status": "candidate-context",
+      "text": "English PHP documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "php/doc-en",
+      "status": "candidate-context",
+      "text": "\"Integrate\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "php/doc-es",
+      "status": "candidate-context",
+      "text": "Spanish translation of the PHP documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "php/doc-es",
+      "status": "candidate-context",
+      "text": "\"Integrate\""
     }
   ],
   "candidate_glosses": [
@@ -27,6 +75,30 @@
       "source_repo": "medikoo/type",
       "status": "candidate",
       "text": "Integrate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "php/doc-base",
+      "status": "candidate",
+      "text": "\"Integrate\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "php/doc-de",
+      "status": "candidate",
+      "text": "\"Integrate\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "php/doc-en",
+      "status": "candidate",
+      "text": "\"Integrate\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "php/doc-es",
+      "status": "candidate",
+      "text": "\"Integrate\""
     }
   ],
   "candidate_related_terms": [
@@ -98,11 +170,35 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/integrate.yml",
       "source_repo": "medikoo/type"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/integrate.yaml",
+      "source_repo": "php/doc-base"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/integrate.yaml",
+      "source_repo": "php/doc-de"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/integrate.yaml",
+      "source_repo": "php/doc-en"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/integrate.yaml",
+      "source_repo": "php/doc-es"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

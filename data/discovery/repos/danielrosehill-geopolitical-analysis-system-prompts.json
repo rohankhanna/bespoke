@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T19:58:42.777354+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2046
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "System prompts for geopolitical related AI assistants and tools",
+    "fork": false,
+    "full_name": "danielrosehill/Geopolitical-Analysis-System-Prompts",
+    "html_url": "https://github.com/danielrosehill/Geopolitical-Analysis-System-Prompts",
+    "language": null,
+    "pushed_at": "2025-04-06T15:13:35Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2026-04-10T15:52:19Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

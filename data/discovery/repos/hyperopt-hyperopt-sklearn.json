@@ -1,0 +1,79 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "hyperopt/hyperopt-sklearn",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "hyperopt/hyperopt-sklearn",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "hyperopt/hyperopt-sklearn",
+      "target": "Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:41:22.375843+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9465
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 98
+    },
+    {
+      "path": "requirements.txt",
+      "size": 124
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 579
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Hyper-parameter optimization for sklearn",
+    "fork": false,
+    "full_name": "hyperopt/hyperopt-sklearn",
+    "html_url": "https://github.com/hyperopt/hyperopt-sklearn",
+    "language": "Python",
+    "pushed_at": "2025-04-15T17:15:54Z",
+    "stargazers_count": 1647,
+    "topics": [],
+    "updated_at": "2026-04-07T13:49:24Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "Tests"
+    }
+  ]
+}

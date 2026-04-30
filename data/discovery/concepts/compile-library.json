@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Compile Library"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tzapu/WiFiManager",
+      "status": "candidate-context",
+      "text": "ESP8266 WiFi Connection manager with web captive portal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tzapu/WiFiManager",
+      "status": "candidate-context",
+      "text": "Compile Library"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tzapu/WiFiManager",
+      "status": "candidate",
+      "text": "Compile Library"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 48885,
+      "status": "candidate",
+      "text": "catalogue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12485,
+      "status": "candidate",
+      "text": "catalog"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12431,
+      "status": "candidate",
+      "text": "reference"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11464,
+      "status": "candidate",
+      "text": "cataloged"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11464,
+      "status": "candidate",
+      "text": "compiling"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Compile Library",
+  "concept_id": "compile-library",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/compile_library.yml",
+      "source_repo": "tzapu/WiFiManager"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Compile Library",
+      "sense_id": "compile-library#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

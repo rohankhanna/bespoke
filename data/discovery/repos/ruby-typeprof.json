@@ -1,0 +1,83 @@
+{
+  "components": [
+    {
+      "component": "ruby/actions/.github/workflows/ruby_versions.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ruby/typeprof",
+      "target": "ruby/actions/.github/workflows/ruby_versions.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ruby/typeprof",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ruby/typeprof",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ruby/typeprof",
+      "target": "Ruby",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:48:17.123955+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1218
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1151
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An experimental type-level Ruby interpreter for testing and understanding Ruby code",
+    "fork": false,
+    "full_name": "ruby/typeprof",
+    "html_url": "https://github.com/ruby/typeprof",
+    "language": "Ruby",
+    "pushed_at": "2026-04-29T00:40:26Z",
+    "stargazers_count": 832,
+    "topics": [],
+    "updated_at": "2026-04-29T00:40:31Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Ruby",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Ruby"
+    }
+  ]
+}

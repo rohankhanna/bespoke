@@ -1,0 +1,101 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spellcheck.yml"
+    },
+    {
+      "component": "redis-stack/github-actions/spellcheck@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spellcheck.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "redis/redis-doc",
+      "target": "redis/docs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spellcheck.yml",
+      "source_repo": "redis/redis-doc",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spellcheck.yml",
+      "source_repo": "redis/redis-doc",
+      "target": "redis-stack/github-actions/spellcheck@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spellcheck.yml",
+      "source_repo": "redis/redis-doc",
+      "target": "Spellcheck",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/trigger-build.yml",
+      "source_repo": "redis/redis-doc",
+      "target": "Trigger master website deploy",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:46:23.336296+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5539
+    },
+    {
+      "path": ".github/workflows/spellcheck.yml",
+      "size": 423
+    },
+    {
+      "path": ".github/workflows/trigger-build.yml",
+      "size": 528
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Redis documentation source code for markdown and metadata files, conversion scripts, and so forth",
+    "fork": false,
+    "full_name": "redis/redis-doc",
+    "html_url": "https://github.com/redis/redis-doc",
+    "language": "Shell",
+    "pushed_at": "2025-06-23T17:08:09Z",
+    "stargazers_count": 2310,
+    "topics": [],
+    "updated_at": "2026-04-16T14:40:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "redis/docs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Spellcheck",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spellcheck.yml",
+      "term": "Spellcheck"
+    },
+    {
+      "context_snippet": "Trigger master website deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/trigger-build.yml",
+      "term": "Trigger master website deploy"
+    }
+  ]
+}

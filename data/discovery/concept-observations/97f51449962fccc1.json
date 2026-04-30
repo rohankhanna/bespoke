@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Asciidoctor.js extension to render byte field diagrams as SVG"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Asciidoctor.js extension to render byte field diagrams as SVG."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Asciidoctor.js extension to render byte field diagrams as SVG."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "asciidoctor",
+      "sense_id": "asciidoctor#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "asciidoctor",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "asciidoctor",
+  "observation_id": "97f51449962fccc1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "asciidoctor",
+  "source_context_snippet": "Asciidoctor.js extension to render byte field diagrams as SVG.",
+  "source_file": null,
+  "source_repo": "Deep-Symmetry/asciidoctor-bytefield",
+  "source_repo_description": "Asciidoctor.js extension to render byte field diagrams as SVG"
+}

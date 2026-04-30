@@ -96,13 +96,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "hhu-stups/jupyterlab-prolog-codemirror-extension",
-      "target": "jupyterlab/extension-cookiecutter-ts",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "hhu-stups/jupyterlab-prolog-codemirror-extension",
       "target": "anbre/prolog-jupyter-kernel",
       "target_type": "repository"
     },
@@ -240,7 +233,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-04-30T14:12:10.958543+00:00",
+  "fetched_at": "2026-04-30T19:46:03.898370+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -273,11 +266,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "anbre/prolog-jupyter-kernel",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "jupyterlab/extension-cookiecutter-ts",
       "source_file": "README.md"
     },
     {

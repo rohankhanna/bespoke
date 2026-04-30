@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Snap.Net.Avalonia MacOS"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stijnvdb88/Snap.Net",
+      "status": "candidate-context",
+      "text": "A cross-platform control client and player for https://github.com/badaix/snapcast"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stijnvdb88/Snap.Net",
+      "status": "candidate-context",
+      "text": "Build Snap.Net.Avalonia MacOS"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stijnvdb88/Snap.Net",
+      "status": "candidate",
+      "text": "Build Snap.Net.Avalonia MacOS"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11304,
+      "status": "candidate",
+      "text": "android"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11304,
+      "status": "candidate",
+      "text": "linux"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5000,
+      "status": "candidate",
+      "text": "windows"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4424,
+      "status": "candidate",
+      "text": "accra"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4424,
+      "status": "candidate",
+      "text": "accrete"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Snap.Net.Avalonia MacOS",
+  "concept_id": "build-snap.net.avalonia-macos",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "stijnvdb88/Snap.Net"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Snap.Net.Avalonia MacOS",
+      "sense_id": "build-snap.net.avalonia-macos#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

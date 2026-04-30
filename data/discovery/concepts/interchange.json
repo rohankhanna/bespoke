@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "interchange"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AcademySoftwareFoundation/OpenTimelineIO",
+      "status": "candidate-context",
+      "text": "Open Source API and interchange format for editorial timeline information."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AcademySoftwareFoundation/OpenTimelineIO",
+      "status": "candidate-context",
+      "text": "OpenTimelineIO"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AcademySoftwareFoundation/OpenTimelineIO",
+      "status": "candidate",
+      "text": "OpenTimelineIO"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39929089,
+      "status": "candidate",
+      "text": "transpose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39927791,
+      "status": "candidate",
+      "text": "change"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39925025,
+      "status": "candidate",
+      "text": "reciprocation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39924213,
+      "status": "candidate",
+      "text": "counterchange"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39923398,
+      "status": "candidate",
+      "text": "alternate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22056,
+      "status": "candidate",
+      "text": "change"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14077,
+      "status": "candidate",
+      "text": "exchange"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13045,
+      "status": "candidate",
+      "text": "transpose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11069,
+      "status": "candidate",
+      "text": "switch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10050,
+      "status": "candidate",
+      "text": "alternate"
+    }
+  ],
+  "canonical_name": "interchange",
+  "concept_id": "interchange",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "AcademySoftwareFoundation/OpenTimelineIO"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "interchange",
+      "sense_id": "interchange#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

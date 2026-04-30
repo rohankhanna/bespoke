@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TMElyralab/MusePose",
+      "target": "humanaigc/animateanyone",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TMElyralab/MusePose",
+      "target": "moorethreads/moore-animateanyone",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TMElyralab/MusePose",
+      "target": "tmelyralab/comfyui-musepose",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TMElyralab/MusePose",
+      "target": "facefusion/facefusion",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:39:53.755136+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11909
+    },
+    {
+      "path": "requirements.txt",
+      "size": 596
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "MusePose: a Pose-Driven Image-to-Video Framework for Virtual Human Generation",
+    "fork": false,
+    "full_name": "TMElyralab/MusePose",
+    "html_url": "https://github.com/TMElyralab/MusePose",
+    "language": "Python",
+    "pushed_at": "2025-03-05T11:37:41Z",
+    "stargazers_count": 2667,
+    "topics": [],
+    "updated_at": "2026-04-26T04:47:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facefusion/facefusion",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "humanaigc/animateanyone",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "moorethreads/moore-animateanyone",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tmelyralab/comfyui-musepose",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

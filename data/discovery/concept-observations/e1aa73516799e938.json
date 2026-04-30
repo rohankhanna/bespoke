@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Rojo website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This is the Rojo website."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This is the Rojo website."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18583506,
+      "status": "candidate",
+      "text": "benitez"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17055810,
+      "status": "candidate",
+      "text": "font"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16801072,
+      "status": "candidate",
+      "text": "rouge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16798062,
+      "status": "candidate",
+      "text": "red"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16776828,
+      "status": "candidate",
+      "text": "bluefin"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rojo",
+      "sense_id": "rojo#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "rojo",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "rojo",
+  "observation_id": "e1aa73516799e938",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "rojo",
+  "source_context_snippet": "This is the Rojo website.",
+  "source_file": null,
+  "source_repo": "rojo-rbx/rojo.space",
+  "source_repo_description": "Rojo website"
+}

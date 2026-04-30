@@ -1,0 +1,12 @@
+{
+  "component": "github/codeql-action/init@74483a38d39275f33fcff5f35b679b5ca4a26a99",
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "rdimitrov/go-tuf-metadata"
+    }
+  ]
+}

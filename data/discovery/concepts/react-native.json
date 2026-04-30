@@ -475,6 +475,18 @@
       "source_repo": "storybookjs/storybook",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vitalets/react-native-extended-stylesheet",
+      "status": "candidate-context",
+      "text": "Extended StyleSheets for React Native"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vitalets/react-native-extended-stylesheet",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/vitalets/react-native-extended-stylesheet.svg?branch=master)](https://travis-ci.org/vitalets/react-native-extended-stylesheet)"
     }
   ],
   "candidate_glosses": [
@@ -711,6 +723,12 @@
       "source_repo": "storybookjs/storybook",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vitalets/react-native-extended-stylesheet",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/vitalets/react-native-extended-stylesheet.svg?branch=master)](https://travis-ci.org/vitalets/react-native-extended-stylesheet)"
     }
   ],
   "candidate_related_terms": [],
@@ -1000,11 +1018,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "callstack/react-native-builder-bob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "appbaseio/searchbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "vitalets/react-native-extended-stylesheet"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

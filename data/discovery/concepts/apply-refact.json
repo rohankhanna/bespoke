@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "apply-refact"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mpickering/apply-refact",
+      "status": "candidate-context",
+      "text": "Refactor Haskell source files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mpickering/apply-refact",
+      "status": "candidate-context",
+      "text": "apply-refact"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mpickering/apply-refact",
+      "status": "candidate",
+      "text": "apply-refact"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "apply-refact",
+  "concept_id": "apply-refact",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/haskell-ci.yml",
+      "source_repo": "mpickering/apply-refact"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "apply-refact",
+      "sense_id": "apply-refact#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

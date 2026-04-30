@@ -1,0 +1,102 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/erlang.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/erlang.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/erlang.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/erlang.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/erlang.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/erlang.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/erlang.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ergenius/eargon2",
+      "target": "ergenius/phc-winner-argon2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/erlang.yml",
+      "source_repo": "ergenius/eargon2",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/erlang.yml",
+      "source_repo": "ergenius/eargon2",
+      "target": "Test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:57:10.357432+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3902
+    },
+    {
+      "path": ".github/workflows/erlang.yml",
+      "size": 1780
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Argon2 password hashing for Erlang.",
+    "fork": false,
+    "full_name": "ergenius/eargon2",
+    "html_url": "https://github.com/ergenius/eargon2",
+    "language": "Erlang",
+    "pushed_at": "2024-08-24T11:51:37Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2026-04-19T11:44:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ergenius/phc-winner-argon2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/erlang.yml",
+      "term": "Test"
+    }
+  ]
+}

@@ -1,12 +1,17 @@
 {
   "component": "MinoruSekine/setup-scoop@v4.0.2",
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "clojure-emacs/cider"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-pkg.yml",
+      "source_repo": "akiomik/mado"
     }
   ]
 }

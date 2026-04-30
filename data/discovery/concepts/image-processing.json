@@ -487,6 +487,18 @@
       "source_repo": "withoutbg/withoutbg",
       "status": "candidate-context",
       "text": "**Background removal that runs locally or through the API. Pick whichever fits your constraints.**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kosinix/raster",
+      "status": "candidate-context",
+      "text": "An image processing library for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kosinix/raster",
+      "status": "candidate-context",
+      "text": "[![](http://meritbadge.herokuapp.com/raster)](https://crates.io/crates/raster)"
     }
   ],
   "candidate_glosses": [
@@ -729,6 +741,12 @@
       "source_repo": "withoutbg/withoutbg",
       "status": "candidate",
       "text": "**Background removal that runs locally or through the API. Pick whichever fits your constraints.**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kosinix/raster",
+      "status": "candidate",
+      "text": "[![](http://meritbadge.herokuapp.com/raster)](https://crates.io/crates/raster)"
     }
   ],
   "candidate_related_terms": [],
@@ -1048,11 +1066,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "kosinix/raster"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

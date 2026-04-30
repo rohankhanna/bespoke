@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T18:45:31.071013+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1085
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Radeon Rays is ray intersection acceleration library for hardware and software multiplatforms using CPU and GPU",
+    "fork": false,
+    "full_name": "GPUOpen-LibrariesAndSDKs/RadeonRays_SDK",
+    "html_url": "https://github.com/GPUOpen-LibrariesAndSDKs/RadeonRays_SDK",
+    "language": "C++",
+    "pushed_at": "2024-03-10T18:39:51Z",
+    "stargazers_count": 1101,
+    "topics": [],
+    "updated_at": "2026-04-20T11:16:12Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

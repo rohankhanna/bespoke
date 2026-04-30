@@ -177,6 +177,18 @@
       "source_repo": "oceanbase/ob-operator",
       "status": "candidate-context",
       "text": "build binaries"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebook/pyrefly",
+      "status": "candidate-context",
+      "text": "A fast type checker and language server for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/pyrefly",
+      "status": "candidate-context",
+      "text": "Build binaries"
     }
   ],
   "candidate_glosses": [
@@ -263,6 +275,12 @@
       "source_repo": "oceanbase/ob-operator",
       "status": "candidate",
       "text": "build binaries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/pyrefly",
+      "status": "candidate",
+      "text": "Build binaries"
     }
   ],
   "candidate_related_terms": [
@@ -438,11 +456,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/build-binaries.yml",
       "source_repo": "astral-sh/ruff"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/build_binaries.yml",
+      "source_repo": "facebook/pyrefly"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

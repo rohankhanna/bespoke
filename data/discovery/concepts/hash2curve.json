@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "hash2curve"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RustCrypto/elliptic-curves",
+      "status": "candidate-context",
+      "text": "Collection of pure Rust elliptic curve implementations: NIST P-224, P-256, P-384, P-521, secp256k1, SM2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RustCrypto/elliptic-curves",
+      "status": "candidate-context",
+      "text": "hash2curve"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RustCrypto/elliptic-curves",
+      "status": "candidate",
+      "text": "hash2curve"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "hash2curve",
+  "concept_id": "hash2curve",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/hash2curve.yml",
+      "source_repo": "RustCrypto/elliptic-curves"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "hash2curve",
+      "sense_id": "hash2curve#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

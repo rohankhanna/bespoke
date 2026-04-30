@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "go-sql-driver/sql-benchmark",
+      "target": "ziutek/mymysql",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:46:07.697309+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21460
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A synthetic benchmark to compare the performance of various sql-drivers for Go's database/sql package",
+    "fork": false,
+    "full_name": "go-sql-driver/sql-benchmark",
+    "html_url": "https://github.com/go-sql-driver/sql-benchmark",
+    "language": "Go",
+    "pushed_at": "2021-05-23T21:33:25Z",
+    "stargazers_count": 81,
+    "topics": [],
+    "updated_at": "2026-03-14T23:12:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ziutek/mymysql",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

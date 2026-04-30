@@ -1,0 +1,239 @@
+{
+  "components": [
+    {
+      "component": "blessed",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "blessed-contrib",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "systeminformation",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "marked-man",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-node@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "aksakalli/gtop",
+      "target": "blessed",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "aksakalli/gtop",
+      "target": "blessed-contrib",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "aksakalli/gtop",
+      "target": "systeminformation",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aksakalli/gtop",
+      "target": "marked-man",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aksakalli/gtop",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "aksakalli/gtop",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "aksakalli/gtop",
+      "target": "actions/setup-node@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "aksakalli/gtop",
+      "target": "Node.js CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "aksakalli/gtop",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "aksakalli/gtop",
+      "target": "actions/setup-node@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "aksakalli/gtop",
+      "target": "Node.js Package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aksakalli/gtop",
+      "target": "command-line",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aksakalli/gtop",
+      "target": "monitoring",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aksakalli/gtop",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aksakalli/gtop",
+      "target": "system-monitoring",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T20:03:18.318855+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1457
+    },
+    {
+      "path": "Dockerfile",
+      "size": 225
+    },
+    {
+      "path": "package.json",
+      "size": 1190
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 459
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 438
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "System monitoring dashboard for terminal",
+    "fork": false,
+    "full_name": "aksakalli/gtop",
+    "html_url": "https://github.com/aksakalli/gtop",
+    "language": "JavaScript",
+    "pushed_at": "2025-11-06T13:55:02Z",
+    "stargazers_count": 9916,
+    "topics": [
+      "command-line",
+      "monitoring",
+      "nodejs",
+      "system-monitoring",
+      "top",
+      "tui"
+    ],
+    "updated_at": "2026-04-29T23:33:54Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Node.js CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Node.js CI"
+    },
+    {
+      "context_snippet": "Node.js Package",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Node.js Package"
+    },
+    {
+      "context_snippet": "![screen record](https://raw.githubusercontent.com/aksakalli/gtop/master/img/demo.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "command-line"
+    },
+    {
+      "context_snippet": "![screen record](https://raw.githubusercontent.com/aksakalli/gtop/master/img/demo.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monitoring"
+    },
+    {
+      "context_snippet": "![screen record](https://raw.githubusercontent.com/aksakalli/gtop/master/img/demo.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    },
+    {
+      "context_snippet": "![screen record](https://raw.githubusercontent.com/aksakalli/gtop/master/img/demo.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "system-monitoring"
+    }
+  ]
+}

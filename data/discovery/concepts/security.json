@@ -1300,6 +1300,66 @@
       "source_repo": "winsiderss/systeminformer",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "theupdateframework/python-tuf",
+      "status": "candidate-context",
+      "text": "Python reference implementation of The Update Framework (TUF)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "theupdateframework/python-tuf",
+      "status": "candidate-context",
+      "text": "[![CI badge](https://github.com/theupdateframework/python-tuf/actions/workflows/ci.yml/badge.svg)](https://github.com/theupdateframework/python-tuf/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "theupdateframework/taps",
+      "status": "candidate-context",
+      "text": "TUF Augmentation Proposals (TAPs)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "theupdateframework/taps",
+      "status": "candidate-context",
+      "text": "* [TAP 1: TAP Purpose and Guidelines](tap1.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "drduh/macOS-Security-and-Privacy-Guide",
+      "status": "candidate-context",
+      "text": "Community guide to securing and improving privacy on macOS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drduh/macOS-Security-and-Privacy-Guide",
+      "status": "candidate-context",
+      "text": "This guide is a collection of techniques for improving the security and privacy of [Apple silicon](https://support.apple.com/116943) Mac computers running a [currently supported](https://support.apple.com/HT201222) version of macOS. **Using Macs with Intel CPUs leaves you open t\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "drduh/Router-Guide",
+      "status": "candidate-context",
+      "text": "Guide to building a Linux or BSD router on the PC Engines APU platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drduh/Router-Guide",
+      "status": "candidate-context",
+      "text": "**Important** After many years of service, the PC Engines APU platform is now [EOL](https://www.pcengines.ch/eol.htm)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "drduh/pwd.sh",
+      "status": "candidate-context",
+      "text": "GnuPG symmetric secrets manager using Bash."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drduh/pwd.sh",
+      "status": "candidate-context",
+      "text": "pwd.sh is a Bash shell script to manage text-based secrets, such as passwords."
     }
   ],
   "candidate_glosses": [
@@ -1938,6 +1998,36 @@
       "source_repo": "winsiderss/systeminformer",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "theupdateframework/python-tuf",
+      "status": "candidate",
+      "text": "[![CI badge](https://github.com/theupdateframework/python-tuf/actions/workflows/ci.yml/badge.svg)](https://github.com/theupdateframework/python-tuf/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "theupdateframework/taps",
+      "status": "candidate",
+      "text": "* [TAP 1: TAP Purpose and Guidelines](tap1.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drduh/macOS-Security-and-Privacy-Guide",
+      "status": "candidate",
+      "text": "This guide is a collection of techniques for improving the security and privacy of [Apple silicon](https://support.apple.com/116943) Mac computers running a [currently supported](https://support.apple.com/HT201222) version of macOS. **Using Macs with Intel CPUs leaves you open t\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drduh/Router-Guide",
+      "status": "candidate",
+      "text": "**Important** After many years of service, the PC Engines APU platform is now [EOL](https://www.pcengines.ch/eol.htm)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drduh/pwd.sh",
+      "status": "candidate",
+      "text": "pwd.sh is a Bash shell script to manage text-based secrets, such as passwords."
     }
   ],
   "candidate_related_terms": [
@@ -2803,11 +2893,71 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "winsiderss/systeminformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "hacl-star/hacl-star"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "boxlite-ai/boxlite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "theupdateframework/python-tuf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "theupdateframework/taps"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "drduh/macOS-Security-and-Privacy-Guide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "drduh/Router-Guide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "drduh/pwd.sh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "endojs/endo"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

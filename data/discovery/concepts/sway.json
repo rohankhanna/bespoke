@@ -31,6 +31,30 @@
       "source_repo": "2KAbhishek/sway2k",
       "status": "candidate-context",
       "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swaywm/swaybg",
+      "status": "candidate-context",
+      "text": "Wallpaper tool for Wayland compositors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swaywm/swaybg",
+      "status": "candidate-context",
+      "text": "swaybg is a wallpaper utility for Wayland compositors. It is compatible with"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Alexays/Waybar",
+      "status": "candidate-context",
+      "text": "Highly customizable Wayland bar for Sway and Wlroots based compositors. :v: :tada:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alexays/Waybar",
+      "status": "candidate-context",
+      "text": "> Highly customizable Wayland bar for Sway and Wlroots based compositors.<br>"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "2KAbhishek/sway2k",
       "status": "candidate",
       "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swaywm/swaybg",
+      "status": "candidate",
+      "text": "swaybg is a wallpaper utility for Wayland compositors. It is compatible with"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alexays/Waybar",
+      "status": "candidate",
+      "text": "> Highly customizable Wayland bar for Sway and Wlroots based compositors.<br>"
     }
   ],
   "candidate_related_terms": [
@@ -136,11 +172,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "2KAbhishek/sway2k"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "swaywm/swaybg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "Alexays/Waybar"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

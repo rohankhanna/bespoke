@@ -48,7 +48,7 @@
   "normalized_form": "cd-ascend3.2",
   "observation_id": "f7a2caf630c1ff97",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
   "observed_text": "CD-Ascend3.2",
   "source_context_snippet": "CD-Ascend3.2",
   "source_file": ".github/workflows/ascend3.2-delivery.yml",

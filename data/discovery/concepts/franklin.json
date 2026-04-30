@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "franklin"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "StatisticalRethinkingJulia/TuringModels.jl",
+      "status": "candidate-context",
+      "text": "Implementations of the models from the Statistical Rethinking book with Turing.jl"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "StatisticalRethinkingJulia/TuringModels.jl",
+      "status": "candidate-context",
+      "text": "[![CI][ci-img]][ci-url]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "StatisticalRethinkingJulia/TuringModels.jl",
+      "status": "candidate",
+      "text": "[![CI][ci-img]][ci-url]"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26759375,
+      "status": "candidate",
+      "text": "demille"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26756980,
+      "status": "candidate",
+      "text": "ladd"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26755378,
+      "status": "candidate",
+      "text": "zucker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25094628,
+      "status": "candidate",
+      "text": "benjamin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24983650,
+      "status": "candidate",
+      "text": "squire"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "franklin",
+  "concept_id": "franklin",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "StatisticalRethinkingJulia/TuringModels.jl"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "franklin",
+      "sense_id": "franklin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

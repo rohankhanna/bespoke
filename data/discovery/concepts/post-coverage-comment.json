@@ -140,6 +140,18 @@
       "source_repo": "py-cov-action/python-coverage-comment-action-v2-example",
       "status": "candidate-context",
       "text": "Post coverage comment"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FasterXML/woodstox",
+      "status": "candidate-context",
+      "text": "The gold standard Stax XML API implementation. Now at Github."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FasterXML/woodstox",
+      "status": "candidate-context",
+      "text": "Post Coverage Comment"
     }
   ],
   "candidate_glosses": [
@@ -208,6 +220,12 @@
       "source_repo": "py-cov-action/python-coverage-comment-action-v2-example",
       "status": "candidate",
       "text": "Post coverage comment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FasterXML/woodstox",
+      "status": "candidate",
+      "text": "Post Coverage Comment"
     }
   ],
   "candidate_related_terms": [
@@ -359,11 +377,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/coverage-comment.yml",
       "source_repo": "a2aproject/a2a-js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/coverage-comment.yml",
+      "source_repo": "FasterXML/woodstox"
     }
   ],
   "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

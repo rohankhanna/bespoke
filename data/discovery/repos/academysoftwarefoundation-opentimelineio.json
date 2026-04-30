@@ -1,0 +1,512 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/setup-python@42375524e23c412d93fb67b49958b491fce71c38",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/setup-python@42375524e23c412d93fb67b49958b491fce71c38",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "dawidd6/action-download-artifact@ac66b43f0e6a346234dd65d4d0c8fbb31cb316e5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish.yml"
+    },
+    {
+      "component": "dawidd6/action-download-artifact@ac66b43f0e6a346234dd65d4d0c8fbb31cb316e5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@ed0c53931b1dc9bd32cbe73a98c7f6766f8a527e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    },
+    {
+      "component": "codecov/codecov-action@b9fd7d16f6d7d1b5d2bec1a2887e65ceed900238",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    },
+    {
+      "component": "msys2/setup-msys2@4f806de0a5a7294ffabaff804b38a9b435a73bda",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    },
+    {
+      "component": "actions/setup-python@42375524e23c412d93fb67b49958b491fce71c38",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    },
+    {
+      "component": "codecov/codecov-action@b9fd7d16f6d7d1b5d2bec1a2887e65ceed900238",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    },
+    {
+      "component": "pypa/cibuildwheel@9c00cb4f6b517705a3794b22395aedc36257242c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    },
+    {
+      "component": "actions/setup-python@42375524e23c412d93fb67b49958b491fce71c38",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-preview.yml"
+    },
+    {
+      "component": "release-drafter/release-drafter@09c613e259eb8d4e7c81c2cb00618eb5fc4575a7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-preview.yml"
+    },
+    {
+      "component": "LoveToKnow/slackify-markdown-action@444d1c5cb9c46a046c29bb88cc032e9c27d31f38",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-preview.yml"
+    },
+    {
+      "component": "rtCamp/action-slack-notify@e31e87e03dd19038e411e38ae27cbad084a90661",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-preview.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-publish.yml"
+    },
+    {
+      "component": "LoveToKnow/slackify-markdown-action@444d1c5cb9c46a046c29bb88cc032e9c27d31f38",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-publish.yml"
+    },
+    {
+      "component": "rtCamp/action-slack-notify@e31e87e03dd19038e411e38ae27cbad084a90661",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenTimelineIO",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenTimelineIO",
+      "target": "actions/setup-python@42375524e23c412d93fb67b49958b491fce71c38",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenTimelineIO",
+      "target": "docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenTimelineIO",
+      "target": "dawidd6/action-download-artifact@ac66b43f0e6a346234dd65d4d0c8fbb31cb316e5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenTimelineIO",
+      "target": "pypa/gh-action-pypi-publish@ed0c53931b1dc9bd32cbe73a98c7f6766f8a527e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenTimelineIO",
+      "target": "Publish Release to PyPI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenTimelineIO",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenTimelineIO",
+      "target": "codecov/codecov-action@b9fd7d16f6d7d1b5d2bec1a2887e65ceed900238",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenTimelineIO",
+      "target": "msys2/setup-msys2@4f806de0a5a7294ffabaff804b38a9b435a73bda",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenTimelineIO",
+      "target": "actions/setup-python@42375524e23c412d93fb67b49958b491fce71c38",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenTimelineIO",
+      "target": "pypa/cibuildwheel@9c00cb4f6b517705a3794b22395aedc36257242c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenTimelineIO",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenTimelineIO",
+      "target": "OpenTimelineIO",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-preview.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenTimelineIO",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-preview.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenTimelineIO",
+      "target": "release-drafter/release-drafter@09c613e259eb8d4e7c81c2cb00618eb5fc4575a7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-preview.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenTimelineIO",
+      "target": "LoveToKnow/slackify-markdown-action@444d1c5cb9c46a046c29bb88cc032e9c27d31f38",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-preview.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenTimelineIO",
+      "target": "rtCamp/action-slack-notify@e31e87e03dd19038e411e38ae27cbad084a90661",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-preview.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenTimelineIO",
+      "target": "Release Preview",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-publish.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenTimelineIO",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-publish.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenTimelineIO",
+      "target": "LoveToKnow/slackify-markdown-action@444d1c5cb9c46a046c29bb88cc032e9c27d31f38",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-publish.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenTimelineIO",
+      "target": "rtCamp/action-slack-notify@e31e87e03dd19038e411e38ae27cbad084a90661",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-publish.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenTimelineIO",
+      "target": "Publish Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AcademySoftwareFoundation/OpenTimelineIO",
+      "target": "animation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AcademySoftwareFoundation/OpenTimelineIO",
+      "target": "editing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AcademySoftwareFoundation/OpenTimelineIO",
+      "target": "editorial",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AcademySoftwareFoundation/OpenTimelineIO",
+      "target": "film",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AcademySoftwareFoundation/OpenTimelineIO",
+      "target": "film-editing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AcademySoftwareFoundation/OpenTimelineIO",
+      "target": "interchange",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AcademySoftwareFoundation/OpenTimelineIO",
+      "target": "interchange-format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AcademySoftwareFoundation/OpenTimelineIO",
+      "target": "otio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AcademySoftwareFoundation/OpenTimelineIO",
+      "target": "timeline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AcademySoftwareFoundation/OpenTimelineIO",
+      "target": "video-editing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:43:23.753723+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9209
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 224
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 3043
+    },
+    {
+      "path": ".github/workflows/pypi-publish.yml",
+      "size": 1331
+    },
+    {
+      "path": ".github/workflows/python-package.yml",
+      "size": 8466
+    },
+    {
+      "path": ".github/workflows/release-preview.yml",
+      "size": 3127
+    },
+    {
+      "path": ".github/workflows/release-publish.yml",
+      "size": 1790
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Open Source API and interchange format for editorial timeline information.",
+    "fork": false,
+    "full_name": "AcademySoftwareFoundation/OpenTimelineIO",
+    "html_url": "https://github.com/AcademySoftwareFoundation/OpenTimelineIO",
+    "language": "Python",
+    "pushed_at": "2026-04-28T17:29:17Z",
+    "stargazers_count": 1849,
+    "topics": [
+      "animation",
+      "cut",
+      "editing",
+      "editorial",
+      "film",
+      "film-editing",
+      "interchange",
+      "interchange-format",
+      "nle",
+      "otio",
+      "timeline",
+      "vfx",
+      "video-editing"
+    ],
+    "updated_at": "2026-04-30T04:58:11Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "docs"
+    },
+    {
+      "context_snippet": "Publish Release to PyPI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "term": "Publish Release to PyPI"
+    },
+    {
+      "context_snippet": "OpenTimelineIO",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/python-package.yml",
+      "term": "OpenTimelineIO"
+    },
+    {
+      "context_snippet": "Release Preview",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-preview.yml",
+      "term": "Release Preview"
+    },
+    {
+      "context_snippet": "Publish Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-publish.yml",
+      "term": "Publish Release"
+    },
+    {
+      "context_snippet": "OpenTimelineIO",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "animation"
+    },
+    {
+      "context_snippet": "OpenTimelineIO",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "editing"
+    },
+    {
+      "context_snippet": "OpenTimelineIO",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "editorial"
+    },
+    {
+      "context_snippet": "OpenTimelineIO",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "film"
+    },
+    {
+      "context_snippet": "OpenTimelineIO",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "film-editing"
+    },
+    {
+      "context_snippet": "OpenTimelineIO",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "interchange"
+    },
+    {
+      "context_snippet": "OpenTimelineIO",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "interchange-format"
+    },
+    {
+      "context_snippet": "OpenTimelineIO",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "otio"
+    },
+    {
+      "context_snippet": "OpenTimelineIO",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "timeline"
+    },
+    {
+      "context_snippet": "OpenTimelineIO",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-editing"
+    }
+  ]
+}

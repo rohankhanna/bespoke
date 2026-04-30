@@ -79,6 +79,18 @@
       "source_repo": "rolldown/tsdown",
       "status": "candidate-context",
       "text": "<img src=\"./docs/public/og-image.svg\" alt=\"tsdown\" width=\"100%\" /><br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rolldown/rolldown",
+      "status": "candidate-context",
+      "text": "Fast Rust bundler for JavaScript/TypeScript with Rollup-compatible API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rolldown/rolldown",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "rolldown/tsdown",
       "status": "candidate",
       "text": "<img src=\"./docs/public/og-image.svg\" alt=\"tsdown\" width=\"100%\" /><br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rolldown/rolldown",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -214,11 +232,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "rolldown/tsdown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "rolldown/rolldown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "browserify/browserify"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

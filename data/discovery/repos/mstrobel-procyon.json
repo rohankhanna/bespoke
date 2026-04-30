@@ -1,0 +1,84 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml"
+    },
+    {
+      "component": "gradle/wrapper-validation-action@v1.0.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mstrobel/procyon",
+      "target": "konloch/bytecode-viewer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "mstrobel/procyon",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "mstrobel/procyon",
+      "target": "gradle/wrapper-validation-action@v1.0.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "mstrobel/procyon",
+      "target": "Validate Gradle Wrapper",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:54:44.126425+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5535
+    },
+    {
+      "path": ".github/workflows/gradle-wrapper-validation.yml",
+      "size": 234
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Procyon is a suite of Java metaprogramming tools, including a rich reflection API, a LINQ-inspired expression tree API for runtime code generation, and a Java decompiler.",
+    "fork": false,
+    "full_name": "mstrobel/procyon",
+    "html_url": "https://github.com/mstrobel/procyon",
+    "language": "Java",
+    "pushed_at": "2022-06-12T17:09:04Z",
+    "stargazers_count": 1193,
+    "topics": [],
+    "updated_at": "2026-04-28T18:23:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "konloch/bytecode-viewer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Validate Gradle Wrapper\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "term": "Validate Gradle Wrapper"
+    }
+  ]
+}

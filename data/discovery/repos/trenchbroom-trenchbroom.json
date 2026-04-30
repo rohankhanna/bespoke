@@ -23,6 +23,11 @@
     {
       "component": "actions/checkout@v4",
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-windows.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/clang-tidy-check.yml"
     },
     {
@@ -138,6 +143,20 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-windows.yml",
+      "source_repo": "TrenchBroom/TrenchBroom",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-windows.yml",
+      "source_repo": "TrenchBroom/TrenchBroom",
+      "target": "CI Windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/clang-tidy-check.yml",
       "source_repo": "TrenchBroom/TrenchBroom",
       "target": "actions/checkout@v4",
@@ -242,7 +261,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T13:48:33.652509+00:00",
+  "fetched_at": "2026-04-30T18:45:34.198487+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -255,6 +274,10 @@
     {
       "path": ".github/workflows/ci-macos.yml",
       "size": 5025
+    },
+    {
+      "path": ".github/workflows/ci-windows.yml",
+      "size": 3096
     },
     {
       "path": ".github/workflows/ci.yml",
@@ -286,15 +309,15 @@
     "full_name": "TrenchBroom/TrenchBroom",
     "html_url": "https://github.com/TrenchBroom/TrenchBroom",
     "language": "C++",
-    "pushed_at": "2026-04-29T20:47:21Z",
-    "stargazers_count": 2594,
+    "pushed_at": "2026-04-30T17:56:05Z",
+    "stargazers_count": 2595,
     "topics": [
       "c-plus-plus",
       "game-development",
       "games",
       "level-editor"
     ],
-    "updated_at": "2026-04-30T04:41:48Z"
+    "updated_at": "2026-04-30T18:41:43Z"
   },
   "repo_links": [
     {
@@ -315,6 +338,12 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/ci-macos.yml",
       "term": "CI macOS"
+    },
+    {
+      "context_snippet": "CI Windows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-windows.yml",
+      "term": "CI Windows"
     },
     {
       "context_snippet": "CPP Linter",

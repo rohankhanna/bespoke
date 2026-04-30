@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The Swift (and Objective-C) testing framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Release Artifacts\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Release Artifacts\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12178,
+      "status": "candidate",
+      "text": "article"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12178,
+      "status": "candidate",
+      "text": "exposition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11937,
+      "status": "candidate",
+      "text": "articles"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11937,
+      "status": "candidate",
+      "text": "artifact"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11764,
+      "status": "candidate",
+      "text": "blow"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release Artifacts",
+      "sense_id": "release-artifacts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "release-artifacts",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "release-artifacts",
+  "observation_id": "124af2e26b7d9f5a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "Release Artifacts",
+  "source_context_snippet": "\"Release Artifacts\"",
+  "source_file": ".github/workflows/release.yml",
+  "source_repo": "Quick/Quick",
+  "source_repo_description": "The Swift (and Objective-C) testing framework."
+}

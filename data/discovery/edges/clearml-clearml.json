@@ -4,28 +4,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "clearml/clearml",
-      "target": "clearml/clearml-agent",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "clearml/clearml",
-      "target": "clearml/clearml-serving",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "clearml/clearml",
-      "target": "clearml/clearml-fractional-gpu",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "clearml/clearml",
-      "target": "clearml/clearml-session",
+      "target": "google/python-fire",
       "target_type": "repository"
     },
     {
@@ -162,6 +141,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "generated_at": "2026-04-30T18:36:26.757967+00:00",
   "source_repo": "clearml/clearml"
 }

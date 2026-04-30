@@ -1,0 +1,638 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-cross-functional-issues.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-cross-functional-issues.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-cross-functional-issues.yml"
+    },
+    {
+      "component": "weaviate/weaviate-github-issue-triage@6a20f3ea7980102999f6a6ca009bafbf19014b6d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/find-duplicates.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/licence_updater.yaml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/licence_updater.yaml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/licence_updater.yaml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@1e7e51e771db61008b38414a730f564565cf7c20",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml"
+    },
+    {
+      "component": "yoheimuta/action-protolint@e62319541dc5107df5e3a5010acb8987004d3d25",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml"
+    },
+    {
+      "component": "psf/black@c6755bb741b6481d6b3d3bb563c83fa060db96c9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-security-lint.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "weaviate/weaviate",
+      "target": "weaviate/agent-skills",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "weaviate/weaviate",
+      "target": "weaviate/elysia",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "weaviate/weaviate",
+      "target": "weaviate/healthsearch-demo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "weaviate/weaviate",
+      "target": "weaviate-tutorials/awesome-moviate",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cleanup.yaml",
+      "source_repo": "weaviate/weaviate",
+      "target": "cleanup caches by a branch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-cross-functional-issues.yml",
+      "source_repo": "weaviate/weaviate",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-cross-functional-issues.yml",
+      "source_repo": "weaviate/weaviate",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-cross-functional-issues.yml",
+      "source_repo": "weaviate/weaviate",
+      "target": "Create Cross-Functional Issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/find-duplicates.yaml",
+      "source_repo": "weaviate/weaviate",
+      "target": "weaviate/weaviate-github-issue-triage@6a20f3ea7980102999f6a6ca009bafbf19014b6d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/find-duplicates.yaml",
+      "source_repo": "weaviate/weaviate",
+      "target": "Find Issue Duplicates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/licence_updater.yaml",
+      "source_repo": "weaviate/weaviate",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/licence_updater.yaml",
+      "source_repo": "weaviate/weaviate",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/licence_updater.yaml",
+      "source_repo": "weaviate/weaviate",
+      "target": "peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/licence_updater.yaml",
+      "source_repo": "weaviate/weaviate",
+      "target": "License Header Updater",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "weaviate/weaviate",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "weaviate/weaviate",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "weaviate/weaviate",
+      "target": "golangci/golangci-lint-action@1e7e51e771db61008b38414a730f564565cf7c20",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "weaviate/weaviate",
+      "target": "yoheimuta/action-protolint@e62319541dc5107df5e3a5010acb8987004d3d25",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "weaviate/weaviate",
+      "target": "psf/black@c6755bb741b6481d6b3d3bb563c83fa060db96c9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "weaviate/weaviate",
+      "target": "golangci-lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-security-lint.yaml",
+      "source_repo": "weaviate/weaviate",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-security-lint.yaml",
+      "source_repo": "weaviate/weaviate",
+      "target": "PR Security Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weaviate/weaviate",
+      "target": "approximate-nearest-neighbor-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weaviate/weaviate",
+      "target": "generative-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weaviate/weaviate",
+      "target": "grpc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weaviate/weaviate",
+      "target": "hnsw",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weaviate/weaviate",
+      "target": "hybrid-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weaviate/weaviate",
+      "target": "image-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weaviate/weaviate",
+      "target": "information-retrieval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weaviate/weaviate",
+      "target": "mlops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weaviate/weaviate",
+      "target": "nearest-neighbor-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weaviate/weaviate",
+      "target": "neural-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weaviate/weaviate",
+      "target": "recommender-system",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weaviate/weaviate",
+      "target": "search-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weaviate/weaviate",
+      "target": "semantic-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weaviate/weaviate",
+      "target": "semantic-search-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weaviate/weaviate",
+      "target": "similarity-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weaviate/weaviate",
+      "target": "vector-database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weaviate/weaviate",
+      "target": "vector-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weaviate/weaviate",
+      "target": "vector-search-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weaviate/weaviate",
+      "target": "vectors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weaviate/weaviate",
+      "target": "weaviate",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:59:43.552710+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18503
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2276
+    },
+    {
+      "path": "go.mod",
+      "size": 13838
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 80
+    },
+    {
+      "path": ".github/workflows/cleanup.yaml",
+      "size": 839
+    },
+    {
+      "path": ".github/workflows/create-cross-functional-issues.yml",
+      "size": 3369
+    },
+    {
+      "path": ".github/workflows/find-duplicates.yaml",
+      "size": 1236
+    },
+    {
+      "path": ".github/workflows/licence_updater.yaml",
+      "size": 1090
+    },
+    {
+      "path": ".github/workflows/linter.yml",
+      "size": 1367
+    },
+    {
+      "path": ".github/workflows/pr-security-lint.yaml",
+      "size": 3091
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Weaviate is an open-source vector database that stores both objects and vectors, allowing for the combination of vector search with structured filtering with the fault tolerance and scalability of a cloud-native database\u200b.",
+    "fork": false,
+    "full_name": "weaviate/weaviate",
+    "html_url": "https://github.com/weaviate/weaviate",
+    "language": "Go",
+    "pushed_at": "2026-04-30T19:19:37Z",
+    "stargazers_count": 16105,
+    "topics": [
+      "approximate-nearest-neighbor-search",
+      "generative-search",
+      "grpc",
+      "hnsw",
+      "hybrid-search",
+      "image-search",
+      "information-retrieval",
+      "mlops",
+      "nearest-neighbor-search",
+      "neural-search",
+      "recommender-system",
+      "search-engine",
+      "semantic-search",
+      "semantic-search-engine",
+      "similarity-search",
+      "vector-database",
+      "vector-search",
+      "vector-search-engine",
+      "vectors",
+      "weaviate"
+    ],
+    "updated_at": "2026-04-30T19:58:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "weaviate-tutorials/awesome-moviate",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "weaviate/agent-skills",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "weaviate/elysia",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "weaviate/healthsearch-demo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "cleanup caches by a branch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cleanup.yaml",
+      "term": "cleanup caches by a branch"
+    },
+    {
+      "context_snippet": "Create Cross-Functional Issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-cross-functional-issues.yml",
+      "term": "Create Cross-Functional Issues"
+    },
+    {
+      "context_snippet": "Find Issue Duplicates",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/find-duplicates.yaml",
+      "term": "Find Issue Duplicates"
+    },
+    {
+      "context_snippet": "License Header Updater",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/licence_updater.yaml",
+      "term": "License Header Updater"
+    },
+    {
+      "context_snippet": "golangci-lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linter.yml",
+      "term": "golangci-lint"
+    },
+    {
+      "context_snippet": "PR Security Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-security-lint.yaml",
+      "term": "PR Security Lint"
+    },
+    {
+      "context_snippet": "[![GitHub Repo stars](https://img.shields.io/github/stars/weaviate/weaviate?style=social)](https://github.com/weaviate/weaviate)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "approximate-nearest-neighbor-search"
+    },
+    {
+      "context_snippet": "[![GitHub Repo stars](https://img.shields.io/github/stars/weaviate/weaviate?style=social)](https://github.com/weaviate/weaviate)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-search"
+    },
+    {
+      "context_snippet": "[![GitHub Repo stars](https://img.shields.io/github/stars/weaviate/weaviate?style=social)](https://github.com/weaviate/weaviate)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grpc"
+    },
+    {
+      "context_snippet": "[![GitHub Repo stars](https://img.shields.io/github/stars/weaviate/weaviate?style=social)](https://github.com/weaviate/weaviate)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hnsw"
+    },
+    {
+      "context_snippet": "[![GitHub Repo stars](https://img.shields.io/github/stars/weaviate/weaviate?style=social)](https://github.com/weaviate/weaviate)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hybrid-search"
+    },
+    {
+      "context_snippet": "[![GitHub Repo stars](https://img.shields.io/github/stars/weaviate/weaviate?style=social)](https://github.com/weaviate/weaviate)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-search"
+    },
+    {
+      "context_snippet": "[![GitHub Repo stars](https://img.shields.io/github/stars/weaviate/weaviate?style=social)](https://github.com/weaviate/weaviate)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "information-retrieval"
+    },
+    {
+      "context_snippet": "[![GitHub Repo stars](https://img.shields.io/github/stars/weaviate/weaviate?style=social)](https://github.com/weaviate/weaviate)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mlops"
+    },
+    {
+      "context_snippet": "[![GitHub Repo stars](https://img.shields.io/github/stars/weaviate/weaviate?style=social)](https://github.com/weaviate/weaviate)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nearest-neighbor-search"
+    },
+    {
+      "context_snippet": "[![GitHub Repo stars](https://img.shields.io/github/stars/weaviate/weaviate?style=social)](https://github.com/weaviate/weaviate)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-search"
+    },
+    {
+      "context_snippet": "[![GitHub Repo stars](https://img.shields.io/github/stars/weaviate/weaviate?style=social)](https://github.com/weaviate/weaviate)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "recommender-system"
+    },
+    {
+      "context_snippet": "[![GitHub Repo stars](https://img.shields.io/github/stars/weaviate/weaviate?style=social)](https://github.com/weaviate/weaviate)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "search-engine"
+    },
+    {
+      "context_snippet": "[![GitHub Repo stars](https://img.shields.io/github/stars/weaviate/weaviate?style=social)](https://github.com/weaviate/weaviate)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-search"
+    },
+    {
+      "context_snippet": "[![GitHub Repo stars](https://img.shields.io/github/stars/weaviate/weaviate?style=social)](https://github.com/weaviate/weaviate)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-search-engine"
+    },
+    {
+      "context_snippet": "[![GitHub Repo stars](https://img.shields.io/github/stars/weaviate/weaviate?style=social)](https://github.com/weaviate/weaviate)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "similarity-search"
+    },
+    {
+      "context_snippet": "[![GitHub Repo stars](https://img.shields.io/github/stars/weaviate/weaviate?style=social)](https://github.com/weaviate/weaviate)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vector-database"
+    },
+    {
+      "context_snippet": "[![GitHub Repo stars](https://img.shields.io/github/stars/weaviate/weaviate?style=social)](https://github.com/weaviate/weaviate)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vector-search"
+    },
+    {
+      "context_snippet": "[![GitHub Repo stars](https://img.shields.io/github/stars/weaviate/weaviate?style=social)](https://github.com/weaviate/weaviate)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vector-search-engine"
+    },
+    {
+      "context_snippet": "[![GitHub Repo stars](https://img.shields.io/github/stars/weaviate/weaviate?style=social)](https://github.com/weaviate/weaviate)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vectors"
+    },
+    {
+      "context_snippet": "[![GitHub Repo stars](https://img.shields.io/github/stars/weaviate/weaviate?style=social)](https://github.com/weaviate/weaviate)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "weaviate"
+    }
+  ]
+}

@@ -67,6 +67,18 @@
       "source_repo": "SillyTavern/SillyTavern",
       "status": "candidate-context",
       "text": "Node.js Package"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aksakalli/gtop",
+      "status": "candidate-context",
+      "text": "System monitoring dashboard for terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aksakalli/gtop",
+      "status": "candidate-context",
+      "text": "Node.js Package"
     }
   ],
   "candidate_glosses": [
@@ -97,6 +109,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "SillyTavern/SillyTavern",
+      "status": "candidate",
+      "text": "Node.js Package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aksakalli/gtop",
       "status": "candidate",
       "text": "Node.js Package"
     }
@@ -172,11 +190,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/npm-publish.yml",
       "source_repo": "SillyTavern/SillyTavern"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "aksakalli/gtop"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -6280,6 +6280,336 @@
       "source_repo": "germangb/minimp3-rs",
       "status": "candidate-context",
       "text": "Rust bindings and high-level wrapper for the minimp3 library."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "decibri/decibri",
+      "status": "candidate-context",
+      "text": "Audio capture, playback, and processing for Node.js and the browser. One Rust codebase, zero system dependencies."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "decibri/decibri",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable MD033 MD041 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nayuki/Nayuki-web-published-code",
+      "status": "candidate-context",
+      "text": "Complete collection of code files (*.java/js/py/cpp/etc.) published on Project Nayuki website."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nayuki/Nayuki-web-published-code",
+      "status": "candidate-context",
+      "text": "Complete collection of code files (*.java/js/py/cpp/etc.) published on Project Nayuki website."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kosinix/raster",
+      "status": "candidate-context",
+      "text": "An image processing library for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kosinix/raster",
+      "status": "candidate-context",
+      "text": "[![](http://meritbadge.herokuapp.com/raster)](https://crates.io/crates/raster)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "testcontainers/testcontainers-rs",
+      "status": "candidate-context",
+      "text": "A library for integration-testing against docker containers from within Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "testcontainers/testcontainers-rs",
+      "status": "candidate-context",
+      "text": "![Continuous Integration](https://github.com/testcontainers/testcontainers-rs/actions/workflows/ci.yml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ozkriff/awesome-quads",
+      "status": "candidate-context",
+      "text": "\u25a6\u29c9\u229e\u25a1 A curated list of links to miniquad/macroquad-related code & resources"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ozkriff/awesome-quads",
+      "status": "candidate-context",
+      "text": "A curated list of links to miniquad/macroquad-related code & resources."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vulkano-rs/vulkano",
+      "status": "candidate-context",
+      "text": "Safe and rich Rust wrapper around the Vulkan API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vulkano-rs/vulkano",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vulkano-rs/vulkano",
+      "status": "candidate-context",
+      "text": "<img align=\"left\" alt=\"\" src=\"logo.png\" height=\"150\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RazrFalcon/fontdb",
+      "status": "candidate-context",
+      "text": "A simple, in-memory font database with CSS-like queries."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RazrFalcon/fontdb",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RazrFalcon/pico-args",
+      "status": "candidate-context",
+      "text": "An ultra simple CLI arguments parser."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RazrFalcon/pico-args",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ccbrown/iocraft",
+      "status": "candidate-context",
+      "text": "A Rust crate for beautiful, artisanally crafted CLIs, TUIs, and text-based IO."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ccbrown/iocraft",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DioxusLabs/dioxus",
+      "status": "candidate-context",
+      "text": "Fullstack app framework for web, desktop, and mobile."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DioxusLabs/dioxus",
+      "status": "candidate-context",
+      "text": "<p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "90-008/nix-cargo-integration",
+      "status": "candidate-context",
+      "text": "Library to easily and effortlessly integrate Cargo projects with Nix."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "90-008/nix-cargo-integration",
+      "status": "candidate-context",
+      "text": "Easily and effortlessly integrate Cargo projects with Nix."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RustCrypto/elliptic-curves",
+      "status": "candidate-context",
+      "text": "Collection of pure Rust elliptic curve implementations: NIST P-224, P-256, P-384, P-521, secp256k1, SM2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RustCrypto/elliptic-curves",
+      "status": "candidate-context",
+      "text": "General purpose Elliptic Curve Cryptography (ECC) support, including types"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "debris/tiny-keccak",
+      "status": "candidate-context",
+      "text": "An implementation of Keccak derived functions specified in FIPS-202, SP800-185 and KangarooTwelve"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "debris/tiny-keccak",
+      "status": "candidate-context",
+      "text": "An implementation of Keccak derived functions specified in [`FIPS-202`], [`SP800-185`] and [`KangarooTwelve`]."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/regex",
+      "status": "candidate-context",
+      "text": "An implementation of regular expressions for Rust. This implementation uses finite automata and guarantees linear time matching on all inputs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/regex",
+      "status": "candidate-context",
+      "text": "regex"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hermit-os/safe-mmio",
+      "status": "candidate-context",
+      "text": "A Rust library crate with types for safe MMIO device access"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hermit-os/safe-mmio",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "delta-io/delta-rs",
+      "status": "candidate-context",
+      "text": "A native Rust library for Delta Lake, with bindings into Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "delta-io/delta-rs",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebook/pyrefly",
+      "status": "candidate-context",
+      "text": "A fast type checker and language server for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/pyrefly",
+      "status": "candidate-context",
+      "text": "[![pyrefly](https://img.shields.io/endpoint?url=https://pyrefly.org/badge.json)](https://github.com/facebook/pyrefly)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akiomik/mado",
+      "status": "candidate-context",
+      "text": "A fast Markdown linter written in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akiomik/mado",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/akiomik/mado/actions/workflows/ci.yml/badge.svg)](https://github.com/akiomik/mado/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "time-rs/time",
+      "status": "candidate-context",
+      "text": "Date and time handling in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "time-rs/time",
+      "status": "candidate-context",
+      "text": "[![minimum rustc: 1.88.0](https://img.shields.io/badge/minimum%20rustc-1.88.0-yellowgreen?logo=rust&style=flat-square)](https://www.whatrustisit.com)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Dicklesworthstone/franken_agent_detection",
+      "status": "candidate-context",
+      "text": "Deterministic, local filesystem-based detection of installed coding-agent connectors for Rust tooling."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dicklesworthstone/franken_agent_detection",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Dicklesworthstone/frankensearch",
+      "status": "candidate-context",
+      "text": "Two-tier hybrid search for Rust: sub-millisecond initial results via potion-128M, quality-refined rankings in 150ms via MiniLM-L6-v2. Combines lexical (Tantivy BM25) and semantic (vector cosine) search with Reciprocal Rank Fusion. Progressive iterator API, f16 SIMD vector index, feature-gated compilation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dicklesworthstone/frankensearch",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Dicklesworthstone/frankensqlite",
+      "status": "candidate-context",
+      "text": "Independent ground-up Rust reimplementation of SQLite with concurrent writers and information-theoretic durability"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dicklesworthstone/frankensqlite",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Dicklesworthstone/frankentui",
+      "status": "candidate-context",
+      "text": "Minimal, high-performance terminal UI kernel with diff-based rendering, inline mode, and RAII terminal cleanup"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dicklesworthstone/frankentui",
+      "status": "candidate-context",
+      "text": "```"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0x2a-42/lelwel",
+      "status": "candidate-context",
+      "text": "Resilient LL(1) parser generator for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0x2a-42/lelwel",
+      "status": "candidate-context",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/lelwel)](https://crates.io/crates/lelwel)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cargo-public-api/cargo-public-api",
+      "status": "candidate-context",
+      "text": "List and diff the public API of Rust library crates between releases and commits. Detect breaking API changes and semver violations via CI or a CLI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cargo-public-api/cargo-public-api",
+      "status": "candidate-context",
+      "text": "List and diff the public API of Rust library crates between releases and commits. Detect breaking API changes and semver violations via CI or a CLI. Relies on and automatically builds [rustdoc JSON](https://github.com/rust-lang/rust/issues/76578), for which a recent version of t\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graphql-rust/juniper",
+      "status": "candidate-context",
+      "text": "GraphQL server library for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql-rust/juniper",
+      "status": "candidate-context",
+      "text": "<img src=\"https://github.com/graphql-rust/juniper/raw/master/assets/logo/juniper-dark-word.png\" alt=\"Juniper\" width=\"500\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "holochain/holochain",
+      "status": "candidate-context",
+      "text": "The current, performant & industrial strength version of Holochain on Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "holochain/holochain",
+      "status": "candidate-context",
+      "text": "[![Project](https://img.shields.io/badge/Project-Holochain-blue.svg?style=flat-square)](http://holochain.org/)"
     }
   ],
   "candidate_glosses": [
@@ -9504,6 +9834,174 @@
       "source_repo": "germangb/minimp3-rs",
       "status": "candidate",
       "text": "Rust bindings and high-level wrapper for the minimp3 library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "decibri/decibri",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable MD033 MD041 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nayuki/Nayuki-web-published-code",
+      "status": "candidate",
+      "text": "Complete collection of code files (*.java/js/py/cpp/etc.) published on Project Nayuki website."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kosinix/raster",
+      "status": "candidate",
+      "text": "[![](http://meritbadge.herokuapp.com/raster)](https://crates.io/crates/raster)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "testcontainers/testcontainers-rs",
+      "status": "candidate",
+      "text": "![Continuous Integration](https://github.com/testcontainers/testcontainers-rs/actions/workflows/ci.yml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ozkriff/awesome-quads",
+      "status": "candidate",
+      "text": "A curated list of links to miniquad/macroquad-related code & resources."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vulkano-rs/vulkano",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vulkano-rs/vulkano",
+      "status": "candidate",
+      "text": "<img align=\"left\" alt=\"\" src=\"logo.png\" height=\"150\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RazrFalcon/fontdb",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RazrFalcon/pico-args",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ccbrown/iocraft",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DioxusLabs/dioxus",
+      "status": "candidate",
+      "text": "<p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "90-008/nix-cargo-integration",
+      "status": "candidate",
+      "text": "Easily and effortlessly integrate Cargo projects with Nix."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RustCrypto/elliptic-curves",
+      "status": "candidate",
+      "text": "General purpose Elliptic Curve Cryptography (ECC) support, including types"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "debris/tiny-keccak",
+      "status": "candidate",
+      "text": "An implementation of Keccak derived functions specified in [`FIPS-202`], [`SP800-185`] and [`KangarooTwelve`]."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/regex",
+      "status": "candidate",
+      "text": "regex"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hermit-os/safe-mmio",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "delta-io/delta-rs",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/pyrefly",
+      "status": "candidate",
+      "text": "[![pyrefly](https://img.shields.io/endpoint?url=https://pyrefly.org/badge.json)](https://github.com/facebook/pyrefly)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akiomik/mado",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/akiomik/mado/actions/workflows/ci.yml/badge.svg)](https://github.com/akiomik/mado/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "time-rs/time",
+      "status": "candidate",
+      "text": "[![minimum rustc: 1.88.0](https://img.shields.io/badge/minimum%20rustc-1.88.0-yellowgreen?logo=rust&style=flat-square)](https://www.whatrustisit.com)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dicklesworthstone/franken_agent_detection",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dicklesworthstone/frankensearch",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dicklesworthstone/frankensqlite",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dicklesworthstone/frankentui",
+      "status": "candidate",
+      "text": "```"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0x2a-42/lelwel",
+      "status": "candidate",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/lelwel)](https://crates.io/crates/lelwel)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cargo-public-api/cargo-public-api",
+      "status": "candidate",
+      "text": "List and diff the public API of Rust library crates between releases and commits. Detect breaking API changes and semver violations via CI or a CLI. Relies on and automatically builds [rustdoc JSON](https://github.com/rust-lang/rust/issues/76578), for which a recent version of t\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql-rust/juniper",
+      "status": "candidate",
+      "text": "<img src=\"https://github.com/graphql-rust/juniper/raw/master/assets/logo/juniper-dark-word.png\" alt=\"Juniper\" width=\"500\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "holochain/holochain",
+      "status": "candidate",
+      "text": "[![Project](https://img.shields.io/badge/Project-Holochain-blue.svg?style=flat-square)](http://holochain.org/)"
     }
   ],
   "candidate_related_terms": [
@@ -14185,11 +14683,317 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "chelsea0x3b/dfdx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "decibri/decibri"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "nayuki/Nayuki-web-published-code"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "kosinix/raster"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "testcontainers/testcontainers-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "ozkriff/awesome-quads"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "vulkano-rs/vulkano"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "vulkano-rs/vulkano"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "RazrFalcon/fontdb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "RazrFalcon/pico-args"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "alacritty/alacritty"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "vaporif/parry-guard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "ccbrown/iocraft"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "DioxusLabs/dioxus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "90-008/nix-cargo-integration"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "RustCrypto/elliptic-curves"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "debris/tiny-keccak"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "XAMPPRocky/tokei"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "clap-rs/clap"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/regex"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "hermit-os/safe-mmio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "hermit-os/rust-std-hermit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "hermit-os/hermit-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "delta-io/delta-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "facebook/pyrefly"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "akiomik/mado"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-corrosion/corrosion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/rust-analyzer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "time-rs/time"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "Dicklesworthstone/franken_agent_detection"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "Dicklesworthstone/frankensearch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "Dicklesworthstone/frankensqlite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "Dicklesworthstone/frankentui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "0x2a-42/lelwel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "EmmyLuaLs/emmylua-analyzer-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "dmtrKovalenko/fff"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "crate-ci/cargo-release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "cargo-public-api/cargo-public-api"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "graphql-rust/juniper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "holochain/holochain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "arkworks-rs/poly-commit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "arkworks-rs/std"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "Layr-Labs/bn254-bls-keystore-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "dirs-dev/dirs-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/vscode-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "psmux/pstop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "psmux/psmux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "psmux/Tmux-Plugin-Panel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-rs"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

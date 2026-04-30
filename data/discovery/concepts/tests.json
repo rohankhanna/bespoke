@@ -4675,6 +4675,210 @@
       "source_repo": "de-mh/g2p_fa",
       "status": "candidate-context",
       "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebookresearch/demucs",
+      "status": "candidate-context",
+      "text": "Code for the paper Hybrid Spectrogram and Waveform Source Separation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookresearch/demucs",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "marella/ctransformers",
+      "status": "candidate-context",
+      "text": "Python bindings for the Transformer models implemented in C/C++ using GGML library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marella/ctransformers",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hyperopt/hyperopt-sklearn",
+      "status": "candidate-context",
+      "text": "Hyper-parameter optimization for sklearn"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyperopt/hyperopt-sklearn",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "svg-sprite/grunt-svg-sprite",
+      "status": "candidate-context",
+      "text": "SVG sprites & stacks galore \u2014 Grunt plugin wrapping around svg-sprite that reads in a bunch of SVG files, optimizes them and creates SVG sprites and CSS resources in various flavours"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "svg-sprite/grunt-svg-sprite",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "svg-sprite/gulp-svg-sprite",
+      "status": "candidate-context",
+      "text": "SVG sprites & stacks galore \u2014 Gulp plugin wrapping around svg-sprite that reads in a bunch of SVG files, optimizes them and creates SVG sprites and CSS resources in various flavours"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "svg-sprite/gulp-svg-sprite",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jaredwray/keyv",
+      "status": "candidate-context",
+      "text": "Simple key-value storage with support for multiple backends"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaredwray/keyv",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bolasblack/shadow-cljs-vite-plugin",
+      "status": "candidate-context",
+      "text": "A robust Vite plugin for seamless integration with shadow-cljs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bolasblack/shadow-cljs-vite-plugin",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "weavejester/cljfmt",
+      "status": "candidate-context",
+      "text": "A tool for formatting Clojure code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "weavejester/cljfmt",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0x2a-42/lelwel",
+      "status": "candidate-context",
+      "text": "Resilient LL(1) parser generator for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0x2a-42/lelwel",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "catppuccin/nvim",
+      "status": "candidate-context",
+      "text": "\ud83c\udf68 Soothing pastel theme for Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "catppuccin/nvim",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Beaglefoot/prettier-plugin-awk",
+      "status": "candidate-context",
+      "text": "AWK plugin for Prettier code formatter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Beaglefoot/prettier-plugin-awk",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Beaglefoot/tree-sitter-awk",
+      "status": "candidate-context",
+      "text": "GNU AWK grammar for tree-sitter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Beaglefoot/tree-sitter-awk",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codymikol/neotest-kotlin",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rdimitrov/go-tuf-metadata",
+      "status": "candidate-context",
+      "text": "Go implementation of The Update Framework heavily influenced by python-tuf"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rdimitrov/go-tuf-metadata",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hertz-contrib/casbin",
+      "status": "candidate-context",
+      "text": "The casbin extension for Hertz."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hertz-contrib/casbin",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hertz-contrib/etag",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mr-fatalyst/fastopenapi",
+      "status": "candidate-context",
+      "text": "FastOpenAPI is a library for generating and integrating OpenAPI schemas using Pydantic v2 and various frameworks (AioHttp, Django, Falcon, Flask, Quart, Sanic, Starlette, Tornado)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mr-fatalyst/fastopenapi",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "distatus/battery",
+      "status": "candidate-context",
+      "text": "cross-platform, normalized battery information library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "distatus/battery",
+      "status": "candidate-context",
+      "text": "tests"
     }
   ],
   "candidate_glosses": [
@@ -7047,6 +7251,114 @@
       "source_repo": "de-mh/g2p_fa",
       "status": "candidate",
       "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookresearch/demucs",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marella/ctransformers",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyperopt/hyperopt-sklearn",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "svg-sprite/grunt-svg-sprite",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "svg-sprite/gulp-svg-sprite",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaredwray/keyv",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bolasblack/shadow-cljs-vite-plugin",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "weavejester/cljfmt",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0x2a-42/lelwel",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "catppuccin/nvim",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Beaglefoot/prettier-plugin-awk",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Beaglefoot/tree-sitter-awk",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codymikol/neotest-kotlin",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rdimitrov/go-tuf-metadata",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hertz-contrib/casbin",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hertz-contrib/etag",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mr-fatalyst/fastopenapi",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "distatus/battery",
+      "status": "candidate",
+      "text": "tests"
     }
   ],
   "candidate_related_terms": [
@@ -10095,11 +10407,191 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/tests.yaml",
       "source_repo": "de-mh/g2p_fa"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "facebookresearch/demucs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "marella/ctransformers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "hyperopt/hyperopt-sklearn"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/run_tests.yaml",
+      "source_repo": "deforum/sd-webui-deforum"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "google-deepmind/optax"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "svg-sprite/grunt-svg-sprite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "svg-sprite/gulp-svg-sprite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "aws/serverless-application-model"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "jaredwray/keyv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "bolasblack/shadow-cljs-vite-plugin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "weavejester/cljfmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "0x2a-42/lelwel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "catppuccin/nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "Beaglefoot/prettier-plugin-awk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "Beaglefoot/tree-sitter-awk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "codymikol/neotest-kotlin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "conventional-changelog/conventional-changelog"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/ci-pr.yml",
+      "source_repo": "clog-tool/clog-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "rdimitrov/go-tuf-metadata"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "coasys/perspective-diff-sync"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "hertz-contrib/casbin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "hertz-contrib/etag"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "standardrb/standard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "Layr-Labs/incredible-squaring-avs-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "Uniswap/v3-core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "Uniswap/v3-periphery"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "micromatch/micromatch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/master.yml",
+      "source_repo": "mr-fatalyst/fastopenapi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "wardencommunity/warden"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "distatus/battery"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

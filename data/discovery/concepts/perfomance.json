@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "perfomance"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "buger/jsonparser",
+      "status": "candidate-context",
+      "text": "One of the fastest alternative JSON parser for Go that does not require schema"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "buger/jsonparser",
+      "status": "candidate-context",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/buger/jsonparser)](https://goreportcard.com/report/github.com/buger/jsonparser) ![License](https://img.shields.io/dub/l/vibe-d.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mailru/easyjson",
+      "status": "candidate-context",
+      "text": "Fast JSON serializer for golang."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mailru/easyjson",
+      "status": "candidate-context",
+      "text": "Package easyjson provides a fast and easy way to marshal/unmarshal Go structs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "buger/jsonparser",
+      "status": "candidate",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/buger/jsonparser)](https://goreportcard.com/report/github.com/buger/jsonparser) ![License](https://img.shields.io/dub/l/vibe-d.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mailru/easyjson",
+      "status": "candidate",
+      "text": "Package easyjson provides a fast and easy way to marshal/unmarshal Go structs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": null,
+      "status": "candidate",
+      "text": "achiever"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": null,
+      "status": "candidate",
+      "text": "achievers"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": null,
+      "status": "candidate",
+      "text": "administrator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": null,
+      "status": "candidate",
+      "text": "barometers"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": null,
+      "status": "candidate",
+      "text": "caliber"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "perfomance",
+  "concept_id": "perfomance",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "buger/jsonparser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "mailru/easyjson"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "perfomance",
+      "sense_id": "perfomance#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

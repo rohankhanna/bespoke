@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Stale Issues and Pull Requests",
-    "Stale issues and pull requests"
+    "Stale issues and pull requests",
+    "stale issues and pull requests"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -32,6 +33,18 @@
       "source_repo": "google/cadvisor",
       "status": "candidate-context",
       "text": "Stale issues and pull requests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hanselime/paqet",
+      "status": "candidate-context",
+      "text": "Ferries Packets Across Forbidden Boundaries \ud83d\udc40"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hanselime/paqet",
+      "status": "candidate-context",
+      "text": "stale issues and pull requests"
     }
   ],
   "candidate_glosses": [
@@ -46,6 +59,12 @@
       "source_repo": "google/cadvisor",
       "status": "candidate",
       "text": "Stale issues and pull requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hanselime/paqet",
+      "status": "candidate",
+      "text": "stale issues and pull requests"
     }
   ],
   "candidate_related_terms": [
@@ -149,11 +168,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "licensee/licensed"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "licensee/licensed"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "hanselime/paqet"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

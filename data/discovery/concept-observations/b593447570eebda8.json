@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udc1c\ud83d\udc1c\ud83d\udc1c ants is the most powerful and reliable pooling solution for Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39754700,
+      "status": "candidate",
+      "text": "pond"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39751356,
+      "status": "candidate",
+      "text": "puddle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39619778,
+      "status": "candidate",
+      "text": "kitty"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39618791,
+      "status": "candidate",
+      "text": "syndicate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39614576,
+      "status": "candidate",
+      "text": "combine"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pool",
+      "sense_id": "pool#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 40047,
+      "status": "candidate",
+      "text": "consortium"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27056,
+      "status": "candidate",
+      "text": "syndicate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8037,
+      "status": "candidate",
+      "text": "kitty"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7043,
+      "status": "candidate",
+      "text": "puddle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22,
+      "status": "candidate",
+      "text": "pocket billiards"
+    }
+  ],
+  "concept_id": "pool",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pool",
+  "observation_id": "b593447570eebda8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "pool",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "panjf2000/ants",
+  "source_repo_description": "\ud83d\udc1c\ud83d\udc1c\ud83d\udc1c ants is the most powerful and reliable pooling solution for Go."
+}

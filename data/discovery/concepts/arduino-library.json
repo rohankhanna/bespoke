@@ -19,6 +19,42 @@
       "source_repo": "bblanchon/ArduinoJson",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adafruit/Adafruit_NeoPixel",
+      "status": "candidate-context",
+      "text": "Arduino library for controlling single-wire LED pixels (NeoPixel, WS2812, etc.)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adafruit/Adafruit_NeoPixel",
+      "status": "candidate-context",
+      "text": "Arduino library for controlling single-wire-based LED pixels and strip such as the [Adafruit 60 LED/meter Digital LED strip][strip], the [Adafruit FLORA RGB Smart Pixel][flora], the [Adafruit Breadboard-friendly RGB Smart Pixel][pixel], the [Adafruit NeoPixel Stick][stick], and \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MajicDesigns/MD_MAX72XX",
+      "status": "candidate-context",
+      "text": "LED Matrix Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MajicDesigns/MD_MAX72XX",
+      "status": "candidate-context",
+      "text": "[![arduino-library-badge](https://www.ardu-badge.com/badge/MD_MAX72XX.svg?)](https://www.ardu-badge.com/MD_MAX72XX)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MajicDesigns/MD_Parola",
+      "status": "candidate-context",
+      "text": "Library for modular scrolling LED matrix text displays"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MajicDesigns/MD_Parola",
+      "status": "candidate-context",
+      "text": "[![arduino-library-badge](https://www.ardu-badge.com/badge/MD_Parola.svg?)](https://www.ardu-badge.com/MD_Parola)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +63,24 @@
       "source_repo": "bblanchon/ArduinoJson",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adafruit/Adafruit_NeoPixel",
+      "status": "candidate",
+      "text": "Arduino library for controlling single-wire-based LED pixels and strip such as the [Adafruit 60 LED/meter Digital LED strip][strip], the [Adafruit FLORA RGB Smart Pixel][flora], the [Adafruit Breadboard-friendly RGB Smart Pixel][pixel], the [Adafruit NeoPixel Stick][stick], and \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MajicDesigns/MD_MAX72XX",
+      "status": "candidate",
+      "text": "[![arduino-library-badge](https://www.ardu-badge.com/badge/MD_MAX72XX.svg?)](https://www.ardu-badge.com/MD_MAX72XX)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MajicDesigns/MD_Parola",
+      "status": "candidate",
+      "text": "[![arduino-library-badge](https://www.ardu-badge.com/badge/MD_Parola.svg?)](https://www.ardu-badge.com/MD_Parola)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +94,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "bblanchon/ArduinoJson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "adafruit/Adafruit_NeoPixel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "MajicDesigns/MD_MAX72XX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "MajicDesigns/MD_Parola"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

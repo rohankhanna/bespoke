@@ -1,0 +1,71 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "BurntSushi/walkdir",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "BurntSushi/walkdir",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:40:11.060248+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3976
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 794
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2818
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Rust library for walking directories recursively.",
+    "fork": false,
+    "full_name": "BurntSushi/walkdir",
+    "html_url": "https://github.com/BurntSushi/walkdir",
+    "language": "Rust",
+    "pushed_at": "2024-12-31T13:29:59Z",
+    "stargazers_count": 1499,
+    "topics": [],
+    "updated_at": "2026-04-29T07:37:42Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

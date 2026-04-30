@@ -286,6 +286,18 @@
       "source_repo": "thheller/shadow-cljs",
       "status": "candidate-context",
       "text": "<img src=\"https://raw.githubusercontent.com/thheller/shadow-cljs/master/src/main/shadow/cljs/devtools/server/web/resources/img/shadow-cljs.png\" width=\"120\" height=\"120\" align=\"right\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bhauman/lein-figwheel",
+      "status": "candidate-context",
+      "text": "Figwheel builds your ClojureScript code and hot loads it into the browser as you are coding!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bhauman/lein-figwheel",
+      "status": "candidate-context",
+      "text": "[![CircleCI](https://circleci.com/gh/bhauman/lein-figwheel.svg?style=svg)](https://circleci.com/gh/bhauman/lein-figwheel)"
     }
   ],
   "candidate_glosses": [
@@ -426,6 +438,12 @@
       "source_repo": "thheller/shadow-cljs",
       "status": "candidate",
       "text": "<img src=\"https://raw.githubusercontent.com/thheller/shadow-cljs/master/src/main/shadow/cljs/devtools/server/web/resources/img/shadow-cljs.png\" width=\"120\" height=\"120\" align=\"right\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bhauman/lein-figwheel",
+      "status": "candidate",
+      "text": "[![CircleCI](https://circleci.com/gh/bhauman/lein-figwheel.svg?style=svg)](https://circleci.com/gh/bhauman/lein-figwheel)"
     }
   ],
   "candidate_related_terms": [
@@ -607,11 +625,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "thheller/shadow-cljs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "bhauman/lein-figwheel"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

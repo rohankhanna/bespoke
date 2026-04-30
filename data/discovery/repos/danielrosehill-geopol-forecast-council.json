@@ -1,0 +1,89 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Geopol-Forecast-Council",
+      "target": "danielrosehill/hypothesis-council",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Geopol-Forecast-Council",
+      "target": "geopolitical-forecasts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Geopol-Forecast-Council",
+      "target": "geopolitics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Geopol-Forecast-Council",
+      "target": "osint",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:58:40.245526+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5120
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 573
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Lean geopolitical forecasting council: 5-model panel, grounded SITREP, structured predictions per horizon, deterministic Typst report",
+    "fork": false,
+    "full_name": "danielrosehill/Geopol-Forecast-Council",
+    "html_url": "https://github.com/danielrosehill/Geopol-Forecast-Council",
+    "language": "Typst",
+    "pushed_at": "2026-04-19T23:55:51Z",
+    "stargazers_count": 0,
+    "topics": [
+      "geopolitical-forecasts",
+      "geopolitics",
+      "osint"
+    ],
+    "updated_at": "2026-04-19T23:55:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/hypothesis-council",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A lean geopolitical forecasting council. Spin-off of [Hypothesis-Council](https://github.com/danielrosehill/Hypothesis-Council), and a much cheaper cousin of my Snowglobe-style [Geopol-Forecaster](https://github.com/danielrosehill/Geopol-Forecaster) \u2014 which simulates ~40 actors \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geopolitical-forecasts"
+    },
+    {
+      "context_snippet": "A lean geopolitical forecasting council. Spin-off of [Hypothesis-Council](https://github.com/danielrosehill/Hypothesis-Council), and a much cheaper cousin of my Snowglobe-style [Geopol-Forecaster](https://github.com/danielrosehill/Geopol-Forecaster) \u2014 which simulates ~40 actors \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geopolitics"
+    },
+    {
+      "context_snippet": "A lean geopolitical forecasting council. Spin-off of [Hypothesis-Council](https://github.com/danielrosehill/Hypothesis-Council), and a much cheaper cousin of my Snowglobe-style [Geopol-Forecaster](https://github.com/danielrosehill/Geopol-Forecaster) \u2014 which simulates ~40 actors \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "osint"
+    }
+  ]
+}

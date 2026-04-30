@@ -1,0 +1,541 @@
+{
+  "components": [
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-ci-passed-label.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-ci-passed-label.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api-server-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api-server-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api-server-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-visualization.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-visualization.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push.yml"
+    },
+    {
+      "component": "actions/attest-build-provenance@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-tools-images.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-tools-images.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-tools-images.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-tools-images.yml"
+    },
+    {
+      "component": "wechuli/allcheckspassed@0b68b3b7d92e595bcbdea0c860d05605720cf479",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-checks.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-checks.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compiler-tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-ci-passed-label.yml",
+      "source_repo": "kubeflow/pipelines",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-ci-passed-label.yml",
+      "source_repo": "kubeflow/pipelines",
+      "target": "Add CI Passed Label",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api-server-tests.yml",
+      "source_repo": "kubeflow/pipelines",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/api-server-tests.yml",
+      "source_repo": "kubeflow/pipelines",
+      "target": "API Server Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-visualization.yml",
+      "source_repo": "kubeflow/pipelines",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-visualization.yml",
+      "source_repo": "kubeflow/pipelines",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backend-visualization.yml",
+      "source_repo": "kubeflow/pipelines",
+      "target": "KFP backend visualization tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push.yml",
+      "source_repo": "kubeflow/pipelines",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push.yml",
+      "source_repo": "kubeflow/pipelines",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push.yml",
+      "source_repo": "kubeflow/pipelines",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push.yml",
+      "source_repo": "kubeflow/pipelines",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push.yml",
+      "source_repo": "kubeflow/pipelines",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push.yml",
+      "source_repo": "kubeflow/pipelines",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push.yml",
+      "source_repo": "kubeflow/pipelines",
+      "target": "actions/attest-build-provenance@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-push.yml",
+      "source_repo": "kubeflow/pipelines",
+      "target": "Build and Push images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-tools-images.yml",
+      "source_repo": "kubeflow/pipelines",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-tools-images.yml",
+      "source_repo": "kubeflow/pipelines",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-tools-images.yml",
+      "source_repo": "kubeflow/pipelines",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-tools-images.yml",
+      "source_repo": "kubeflow/pipelines",
+      "target": "Build tools images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-checks.yml",
+      "source_repo": "kubeflow/pipelines",
+      "target": "wechuli/allcheckspassed@0b68b3b7d92e595bcbdea0c860d05605720cf479",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-checks.yml",
+      "source_repo": "kubeflow/pipelines",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-checks.yml",
+      "source_repo": "kubeflow/pipelines",
+      "target": "CI Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "kubeflow/pipelines",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "kubeflow/pipelines",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "kubeflow/pipelines",
+      "target": "github/codeql-action/autobuild@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "kubeflow/pipelines",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "kubeflow/pipelines",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compiler-tests.yml",
+      "source_repo": "kubeflow/pipelines",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compiler-tests.yml",
+      "source_repo": "kubeflow/pipelines",
+      "target": "Workflow Compiler Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubeflow/pipelines",
+      "target": "data-science",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubeflow/pipelines",
+      "target": "kubeflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubeflow/pipelines",
+      "target": "kubeflow-pipelines",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubeflow/pipelines",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubeflow/pipelines",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubeflow/pipelines",
+      "target": "mlops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubeflow/pipelines",
+      "target": "pipeline",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:41:13.496829+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6540
+    },
+    {
+      "path": "go.mod",
+      "size": 13628
+    },
+    {
+      "path": ".github/workflows/add-ci-passed-label.yml",
+      "size": 7745
+    },
+    {
+      "path": ".github/workflows/api-server-tests.yml",
+      "size": 10556
+    },
+    {
+      "path": ".github/workflows/backend-visualization.yml",
+      "size": 730
+    },
+    {
+      "path": ".github/workflows/build-and-push.yml",
+      "size": 8104
+    },
+    {
+      "path": ".github/workflows/build-tools-images.yml",
+      "size": 1976
+    },
+    {
+      "path": ".github/workflows/ci-checks.yml",
+      "size": 4064
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 2849
+    },
+    {
+      "path": ".github/workflows/compiler-tests.yml",
+      "size": 1932
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Machine Learning Pipelines for Kubeflow",
+    "fork": false,
+    "full_name": "kubeflow/pipelines",
+    "html_url": "https://github.com/kubeflow/pipelines",
+    "language": "Python",
+    "pushed_at": "2026-04-30T18:01:03Z",
+    "stargazers_count": 4130,
+    "topics": [
+      "data-science",
+      "kubeflow",
+      "kubeflow-pipelines",
+      "kubernetes",
+      "machine-learning",
+      "mlops",
+      "pipeline"
+    ],
+    "updated_at": "2026-04-30T18:01:15Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Add CI Passed Label",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-ci-passed-label.yml",
+      "term": "Add CI Passed Label"
+    },
+    {
+      "context_snippet": "API Server Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/api-server-tests.yml",
+      "term": "API Server Tests"
+    },
+    {
+      "context_snippet": "KFP backend visualization tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backend-visualization.yml",
+      "term": "KFP backend visualization tests"
+    },
+    {
+      "context_snippet": "Build and Push images",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-push.yml",
+      "term": "Build and Push images"
+    },
+    {
+      "context_snippet": "Build tools images",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-tools-images.yml",
+      "term": "Build tools images"
+    },
+    {
+      "context_snippet": "CI Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-checks.yml",
+      "term": "CI Check"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Workflow Compiler Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compiler-tests.yml",
+      "term": "Workflow Compiler Tests"
+    },
+    {
+      "context_snippet": "[![SDK Documentation Status](https://readthedocs.org/projects/kubeflow-pipelines/badge/?version=latest)](https://kubeflow-pipelines.readthedocs.io/en/stable/?badge=latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-science"
+    },
+    {
+      "context_snippet": "[![SDK Documentation Status](https://readthedocs.org/projects/kubeflow-pipelines/badge/?version=latest)](https://kubeflow-pipelines.readthedocs.io/en/stable/?badge=latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubeflow"
+    },
+    {
+      "context_snippet": "[![SDK Documentation Status](https://readthedocs.org/projects/kubeflow-pipelines/badge/?version=latest)](https://kubeflow-pipelines.readthedocs.io/en/stable/?badge=latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubeflow-pipelines"
+    },
+    {
+      "context_snippet": "[![SDK Documentation Status](https://readthedocs.org/projects/kubeflow-pipelines/badge/?version=latest)](https://kubeflow-pipelines.readthedocs.io/en/stable/?badge=latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "[![SDK Documentation Status](https://readthedocs.org/projects/kubeflow-pipelines/badge/?version=latest)](https://kubeflow-pipelines.readthedocs.io/en/stable/?badge=latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "[![SDK Documentation Status](https://readthedocs.org/projects/kubeflow-pipelines/badge/?version=latest)](https://kubeflow-pipelines.readthedocs.io/en/stable/?badge=latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mlops"
+    },
+    {
+      "context_snippet": "[![SDK Documentation Status](https://readthedocs.org/projects/kubeflow-pipelines/badge/?version=latest)](https://kubeflow-pipelines.readthedocs.io/en/stable/?badge=latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pipeline"
+    }
+  ]
+}

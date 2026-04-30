@@ -403,6 +403,18 @@
       "source_repo": "electron-userland/electron-webpack",
       "status": "candidate-context",
       "text": "electron-webpack"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dat-ecosystem-archive/dat-desktop",
+      "status": "candidate-context",
+      "text": "Peer to peer data syncronization [ DEPRECATED - More info on active projects and modules at https://dat-ecosystem.org/ ] "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dat-ecosystem-archive/dat-desktop",
+      "status": "candidate-context",
+      "text": "[![deprecated](http://badges.github.io/stability-badges/dist/deprecated.svg)](https://dat-ecosystem.org/)"
     }
   ],
   "candidate_glosses": [
@@ -603,6 +615,12 @@
       "source_repo": "electron-userland/electron-webpack",
       "status": "candidate",
       "text": "electron-webpack"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dat-ecosystem-archive/dat-desktop",
+      "status": "candidate",
+      "text": "[![deprecated](http://badges.github.io/stability-badges/dist/deprecated.svg)](https://dat-ecosystem.org/)"
     }
   ],
   "candidate_related_terms": [
@@ -940,11 +958,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "electron-userland/electron-webpack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "dat-ecosystem-archive/dat-desktop"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

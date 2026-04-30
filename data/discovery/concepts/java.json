@@ -2086,6 +2086,66 @@
       "source_repo": "konsoletyper/teavm",
       "status": "candidate-context",
       "text": "[![.github/workflows/ci.yml](https://github.com/konsoletyper/teavm/actions/workflows/ci.yml/badge.svg)](https://github.com/konsoletyper/teavm/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nayuki/Nayuki-web-published-code",
+      "status": "candidate-context",
+      "text": "Complete collection of code files (*.java/js/py/cpp/etc.) published on Project Nayuki website."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nayuki/Nayuki-web-published-code",
+      "status": "candidate-context",
+      "text": "Complete collection of code files (*.java/js/py/cpp/etc.) published on Project Nayuki website."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "neoclide/coc-java",
+      "status": "candidate-context",
+      "text": "Java extension for coc.nvim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neoclide/coc-java",
+      "status": "candidate-context",
+      "text": "coc-java \u2014 Java language extension for coc.nvim"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crossbario/autobahn-java",
+      "status": "candidate-context",
+      "text": "WebSocket & WAMP in Java for Android and Java 8"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crossbario/autobahn-java",
+      "status": "candidate-context",
+      "text": "Client library providing [WAMP](http://wamp-proto.org/) on Java 8 ([Netty](https://netty.io/)) and Android, plus (secure) WebSocket for Android."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dropwizard/dropwizard",
+      "status": "candidate-context",
+      "text": "A damn simple library for building production-ready RESTful web services."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dropwizard/dropwizard",
+      "status": "candidate-context",
+      "text": "Dropwizard"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "michel-kraemer/bson4jackson",
+      "status": "candidate-context",
+      "text": "\ud83e\uddac A pluggable BSON generator and parser for the Jackson JSON processor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "michel-kraemer/bson4jackson",
+      "status": "candidate-context",
+      "text": "This library adds support for [BSON](https://bsonspec.org) to the"
     }
   ],
   "candidate_glosses": [
@@ -3126,6 +3186,36 @@
       "source_repo": "konsoletyper/teavm",
       "status": "candidate",
       "text": "[![.github/workflows/ci.yml](https://github.com/konsoletyper/teavm/actions/workflows/ci.yml/badge.svg)](https://github.com/konsoletyper/teavm/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nayuki/Nayuki-web-published-code",
+      "status": "candidate",
+      "text": "Complete collection of code files (*.java/js/py/cpp/etc.) published on Project Nayuki website."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neoclide/coc-java",
+      "status": "candidate",
+      "text": "coc-java \u2014 Java language extension for coc.nvim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crossbario/autobahn-java",
+      "status": "candidate",
+      "text": "Client library providing [WAMP](http://wamp-proto.org/) on Java 8 ([Netty](https://netty.io/)) and Android, plus (secure) WebSocket for Android."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dropwizard/dropwizard",
+      "status": "candidate",
+      "text": "Dropwizard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "michel-kraemer/bson4jackson",
+      "status": "candidate",
+      "text": "This library adds support for [BSON](https://bsonspec.org) to the"
     }
   ],
   "candidate_related_terms": [
@@ -4605,11 +4695,95 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "konsoletyper/teavm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "nayuki/Nayuki-web-published-code"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "helidon-io/helidon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "atom/ide-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-jdtls/eclipse.jdt.ls"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-lsp4j/lsp4j"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "neoclide/coc-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "MSPaintIDE/MSPaintIDE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-lemminx/lemminx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-tm4e/tm4e"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "crossbario/autobahn-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "dropwizard/dropwizard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "michel-kraemer/bson4jackson"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

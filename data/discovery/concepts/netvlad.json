@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "netvlad"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yxgeee/OpenIBL",
+      "status": "candidate-context",
+      "text": "[ECCV-2020 (spotlight)] Self-supervising Fine-grained Region Similarities for Large-scale Image Localization. \ud83c\udf0f PyTorch open-source toolbox for image-based localization (place recognition)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yxgeee/OpenIBL",
+      "status": "candidate-context",
+      "text": "<!-- ![Python >=3.5](https://img.shields.io/badge/Python->=3.5-blue.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yxgeee/OpenIBL",
+      "status": "candidate",
+      "text": "<!-- ![Python >=3.5](https://img.shields.io/badge/Python->=3.5-blue.svg)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "netvlad",
+  "concept_id": "netvlad",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "yxgeee/OpenIBL"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "netvlad",
+      "sense_id": "netvlad#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

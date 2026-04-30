@@ -13,6 +13,18 @@
       "source_repo": "nvim-neotest/neotest-plenary",
       "status": "candidate-context",
       "text": "[Neotest](https://github.com/rcarriga/neotest) adapter for [plenary.nvim](https://github.com/nvim-lua/plenary.nvim) busted tests."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ellisonleao/nvim-plugin-template",
+      "status": "candidate-context",
+      "text": "A neovim plugin template for github repos"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ellisonleao/nvim-plugin-template",
+      "status": "candidate-context",
+      "text": "![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/ellisonleao/nvim-plugin-template/lint-test.yml?branch=main&style=for-the-badge)"
     }
   ],
   "candidate_glosses": [
@@ -21,6 +33,12 @@
       "source_repo": "nvim-neotest/neotest-plenary",
       "status": "candidate",
       "text": "[Neotest](https://github.com/rcarriga/neotest) adapter for [plenary.nvim](https://github.com/nvim-lua/plenary.nvim) busted tests."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ellisonleao/nvim-plugin-template",
+      "status": "candidate",
+      "text": "![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/ellisonleao/nvim-plugin-template/lint-test.yml?branch=main&style=for-the-badge)"
     }
   ],
   "candidate_related_terms": [
@@ -78,11 +96,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "nvim-neotest/neotest-plenary"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "ellisonleao/nvim-plugin-template"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

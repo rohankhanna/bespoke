@@ -1,0 +1,194 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/configure-pages@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/jekyll-build-pages@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "poloclub/diffusiondb",
+      "target": "laion-ai/laion-safety",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "poloclub/diffusiondb",
+      "target": "unitaryai/detoxify",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "poloclub/diffusiondb",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "poloclub/diffusiondb",
+      "target": "actions/configure-pages@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "poloclub/diffusiondb",
+      "target": "actions/jekyll-build-pages@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "poloclub/diffusiondb",
+      "target": "actions/upload-pages-artifact@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "poloclub/diffusiondb",
+      "target": "actions/deploy-pages@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "poloclub/diffusiondb",
+      "target": "ai-art",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "poloclub/diffusiondb",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "poloclub/diffusiondb",
+      "target": "image-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "poloclub/diffusiondb",
+      "target": "prompt-engineering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "poloclub/diffusiondb",
+      "target": "stable-diffusion",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:44:30.383119+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16913
+    },
+    {
+      "path": "requirements.txt",
+      "size": 15
+    },
+    {
+      "path": ".github/workflows/pages.yml",
+      "size": 1230
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A large-scale text-to-image prompt gallery dataset based on Stable Diffusion",
+    "fork": false,
+    "full_name": "poloclub/diffusiondb",
+    "html_url": "https://github.com/poloclub/diffusiondb",
+    "language": "Python",
+    "pushed_at": "2024-07-11T16:10:02Z",
+    "stargazers_count": 1376,
+    "topics": [
+      "ai-art",
+      "computer-vision",
+      "image-generation",
+      "prompt-engineering",
+      "stable-diffusion"
+    ],
+    "updated_at": "2026-04-28T15:29:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "laion-ai/laion-safety",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "unitaryai/detoxify",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![hugging](https://img.shields.io/badge/\ud83e\udd17%20Hugging%20Face-Datasets-yellow)](https://huggingface.co/datasets/poloclub/diffusiondb)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-art"
+    },
+    {
+      "context_snippet": "[![hugging](https://img.shields.io/badge/\ud83e\udd17%20Hugging%20Face-Datasets-yellow)](https://huggingface.co/datasets/poloclub/diffusiondb)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "[![hugging](https://img.shields.io/badge/\ud83e\udd17%20Hugging%20Face-Datasets-yellow)](https://huggingface.co/datasets/poloclub/diffusiondb)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-generation"
+    },
+    {
+      "context_snippet": "[![hugging](https://img.shields.io/badge/\ud83e\udd17%20Hugging%20Face-Datasets-yellow)](https://huggingface.co/datasets/poloclub/diffusiondb)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prompt-engineering"
+    },
+    {
+      "context_snippet": "[![hugging](https://img.shields.io/badge/\ud83e\udd17%20Hugging%20Face-Datasets-yellow)](https://huggingface.co/datasets/poloclub/diffusiondb)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion"
+    }
+  ]
+}

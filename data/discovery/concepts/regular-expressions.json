@@ -19,6 +19,18 @@
       "source_repo": "fancy-regex/fancy-regex",
       "status": "candidate-context",
       "text": "A Rust library for compiling and matching regular expressions. It uses a hybrid"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/regex",
+      "status": "candidate-context",
+      "text": "An implementation of regular expressions for Rust. This implementation uses finite automata and guarantees linear time matching on all inputs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/regex",
+      "status": "candidate-context",
+      "text": "regex"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "fancy-regex/fancy-regex",
       "status": "candidate",
       "text": "A Rust library for compiling and matching regular expressions. It uses a hybrid"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/regex",
+      "status": "candidate",
+      "text": "regex"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "fancy-regex/fancy-regex"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/regex"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

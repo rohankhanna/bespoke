@@ -216,13 +216,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "jawah/charset_normalizer",
-      "target": "pyyoshi/cchardet",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "jawah/charset_normalizer",
       "target": "ousret/charset_normalizer",
       "target_type": "repository"
     },
@@ -423,7 +416,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T14:55:05.293683+00:00",
+  "fetched_at": "2026-04-30T19:52:11.417423+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -475,11 +468,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "ousret/charset_normalizer",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "pyyoshi/cchardet",
       "source_file": "README.md"
     }
   ],

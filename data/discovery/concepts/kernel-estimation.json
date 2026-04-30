@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "kernel-estimation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JingyunLiang/FKP",
+      "status": "candidate-context",
+      "text": "Official PyTorch code for Flow-based Kernel Prior with Application to Blind Super-Resolution (FKP, CVPR2021)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JingyunLiang/FKP",
+      "status": "candidate-context",
+      "text": "This repository is the official PyTorch implementation of Flow-based Kernel Prior with Application to Blind Super-Resolution"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JingyunLiang/MANet",
+      "status": "candidate-context",
+      "text": "Official PyTorch code for Mutual Affine Network for Spatially Variant Kernel Estimation in Blind Image Super-Resolution (MANet, ICCV2021)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JingyunLiang/MANet",
+      "status": "candidate-context",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2108.05302)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JingyunLiang/FKP",
+      "status": "candidate",
+      "text": "This repository is the official PyTorch implementation of Flow-based Kernel Prior with Application to Blind Super-Resolution"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JingyunLiang/MANet",
+      "status": "candidate",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2108.05302)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "kernel-estimation",
+  "concept_id": "kernel-estimation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "JingyunLiang/FKP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "JingyunLiang/MANet"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "kernel-estimation",
+      "sense_id": "kernel-estimation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

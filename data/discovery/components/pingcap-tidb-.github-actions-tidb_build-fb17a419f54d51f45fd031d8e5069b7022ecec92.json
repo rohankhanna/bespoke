@@ -1,0 +1,12 @@
+{
+  "component": "pingcap/tidb/.github/actions/tidb_build@fb17a419f54d51f45fd031d8e5069b7022ecec92",
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/generate-bazel-files.yml",
+      "source_repo": "pingcap/tidb"
+    }
+  ]
+}

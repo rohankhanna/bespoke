@@ -19,6 +19,18 @@
       "source_repo": "deni2312/prisma-engine",
       "status": "candidate-context",
       "text": "<p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DaveH355/clustered-shading",
+      "status": "candidate-context",
+      "text": "An OpenGL tutorial on clustered shading. A technique for efficiently rendering thousands of dynamic lights in games."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DaveH355/clustered-shading",
+      "status": "candidate-context",
+      "text": "Clustered shading is a technique that allows for efficient rendering of"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "deni2312/prisma-engine",
       "status": "candidate",
       "text": "<p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DaveH355/clustered-shading",
+      "status": "candidate",
+      "text": "Clustered shading is a technique that allows for efficient rendering of"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "deni2312/prisma-engine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "DaveH355/clustered-shading"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

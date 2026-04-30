@@ -94,6 +94,18 @@
       "source_repo": "dalance/ptags",
       "status": "candidate-context",
       "text": "Regression"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaAI/MLJ.jl",
+      "status": "candidate-context",
+      "text": "A Julia machine learning framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaAI/MLJ.jl",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -138,6 +150,12 @@
       "source_repo": "dalance/ptags",
       "status": "candidate",
       "text": "Regression"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaAI/MLJ.jl",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -319,11 +337,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/regression.yml",
       "source_repo": "abaplint/transpiler"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/regression.yml",
+      "source_repo": "abaplint/transpiler"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "JuliaAI/MLJ.jl"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

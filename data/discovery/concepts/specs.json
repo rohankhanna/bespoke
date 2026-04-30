@@ -94,6 +94,18 @@
       "source_repo": "spacemeshos/product",
       "status": "candidate-context",
       "text": "This repo contains the Spacemesh product specifications and designs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prontolabs/pronto",
+      "status": "candidate-context",
+      "text": "Quick automated code review of your changes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prontolabs/pronto",
+      "status": "candidate-context",
+      "text": "Specs"
     }
   ],
   "candidate_glosses": [
@@ -138,6 +150,12 @@
       "source_repo": "spacemeshos/product",
       "status": "candidate",
       "text": "This repo contains the Spacemesh product specifications and designs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prontolabs/pronto",
+      "status": "candidate",
+      "text": "Specs"
     }
   ],
   "candidate_related_terms": [
@@ -245,11 +263,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "spacemeshos/product"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/specs.yml",
+      "source_repo": "prontolabs/pronto"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

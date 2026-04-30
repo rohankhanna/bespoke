@@ -1,7 +1,7 @@
 {
   "component": "docker/setup-buildx-action@v1",
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -332,6 +332,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build-cpp-filecoin.yml",
       "source_repo": "filecoin-project/cpp-filecoin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apollographql/supergraph-demo"
     }
   ]
 }

@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Misterio77/dotfiles",
+      "target": "alexays/waybar",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Misterio77/dotfiles",
+      "target": "celluloid-player/celluloid",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Misterio77/dotfiles",
+      "target": "ckb-next/ckb-next",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Misterio77/dotfiles",
+      "target": "clementtsang/bottom",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:50:40.204048+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2220
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "sway",
+    "description": "Dotfiles for my Arch setup.",
+    "fork": false,
+    "full_name": "Misterio77/dotfiles",
+    "html_url": "https://github.com/Misterio77/dotfiles",
+    "language": "Mustache",
+    "pushed_at": "2021-07-07T22:02:55Z",
+    "stargazers_count": 19,
+    "topics": [],
+    "updated_at": "2025-09-19T13:13:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexays/waybar",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "celluloid-player/celluloid",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ckb-next/ckb-next",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clementtsang/bottom",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

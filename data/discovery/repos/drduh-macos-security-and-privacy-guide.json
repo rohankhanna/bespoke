@@ -1,0 +1,220 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "drduh/macOS-Security-and-Privacy-Guide",
+      "target": "axi0mx/ipwndfu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "drduh/macOS-Security-and-Privacy-Guide",
+      "target": "arkenfox/user.js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "drduh/macOS-Security-and-Privacy-Guide",
+      "target": "buskill/buskill-app",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "drduh/macOS-Security-and-Privacy-Guide",
+      "target": "cisofy/lynis",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drduh/macOS-Security-and-Privacy-Guide",
+      "target": "apple",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drduh/macOS-Security-and-Privacy-Guide",
+      "target": "disk-encryption",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drduh/macOS-Security-and-Privacy-Guide",
+      "target": "dnscrypt-proxy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drduh/macOS-Security-and-Privacy-Guide",
+      "target": "macbook-configuration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drduh/macOS-Security-and-Privacy-Guide",
+      "target": "macbook-security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drduh/macOS-Security-and-Privacy-Guide",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drduh/macOS-Security-and-Privacy-Guide",
+      "target": "macos-security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drduh/macOS-Security-and-Privacy-Guide",
+      "target": "macos-setup",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drduh/macOS-Security-and-Privacy-Guide",
+      "target": "privacy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drduh/macOS-Security-and-Privacy-Guide",
+      "target": "security",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:54:31.644859+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 101729
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Community guide to securing and improving privacy on macOS.",
+    "fork": false,
+    "full_name": "drduh/macOS-Security-and-Privacy-Guide",
+    "html_url": "https://github.com/drduh/macOS-Security-and-Privacy-Guide",
+    "language": null,
+    "pushed_at": "2026-01-02T02:27:53Z",
+    "stargazers_count": 22402,
+    "topics": [
+      "apple",
+      "disk-encryption",
+      "dnscrypt-proxy",
+      "macbook-configuration",
+      "macbook-security",
+      "macos",
+      "macos-security",
+      "macos-setup",
+      "osx",
+      "privacy",
+      "security"
+    ],
+    "updated_at": "2026-04-29T18:28:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arkenfox/user.js",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "axi0mx/ipwndfu",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "buskill/buskill-app",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cisofy/lynis",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This guide is a collection of techniques for improving the security and privacy of [Apple silicon](https://support.apple.com/116943) Mac computers running a [currently supported](https://support.apple.com/HT201222) version of macOS. **Using Macs with Intel CPUs leaves you open t\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apple"
+    },
+    {
+      "context_snippet": "This guide is a collection of techniques for improving the security and privacy of [Apple silicon](https://support.apple.com/116943) Mac computers running a [currently supported](https://support.apple.com/HT201222) version of macOS. **Using Macs with Intel CPUs leaves you open t\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "disk-encryption"
+    },
+    {
+      "context_snippet": "This guide is a collection of techniques for improving the security and privacy of [Apple silicon](https://support.apple.com/116943) Mac computers running a [currently supported](https://support.apple.com/HT201222) version of macOS. **Using Macs with Intel CPUs leaves you open t\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dnscrypt-proxy"
+    },
+    {
+      "context_snippet": "This guide is a collection of techniques for improving the security and privacy of [Apple silicon](https://support.apple.com/116943) Mac computers running a [currently supported](https://support.apple.com/HT201222) version of macOS. **Using Macs with Intel CPUs leaves you open t\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macbook-configuration"
+    },
+    {
+      "context_snippet": "This guide is a collection of techniques for improving the security and privacy of [Apple silicon](https://support.apple.com/116943) Mac computers running a [currently supported](https://support.apple.com/HT201222) version of macOS. **Using Macs with Intel CPUs leaves you open t\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macbook-security"
+    },
+    {
+      "context_snippet": "This guide is a collection of techniques for improving the security and privacy of [Apple silicon](https://support.apple.com/116943) Mac computers running a [currently supported](https://support.apple.com/HT201222) version of macOS. **Using Macs with Intel CPUs leaves you open t\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "This guide is a collection of techniques for improving the security and privacy of [Apple silicon](https://support.apple.com/116943) Mac computers running a [currently supported](https://support.apple.com/HT201222) version of macOS. **Using Macs with Intel CPUs leaves you open t\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos-security"
+    },
+    {
+      "context_snippet": "This guide is a collection of techniques for improving the security and privacy of [Apple silicon](https://support.apple.com/116943) Mac computers running a [currently supported](https://support.apple.com/HT201222) version of macOS. **Using Macs with Intel CPUs leaves you open t\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos-setup"
+    },
+    {
+      "context_snippet": "This guide is a collection of techniques for improving the security and privacy of [Apple silicon](https://support.apple.com/116943) Mac computers running a [currently supported](https://support.apple.com/HT201222) version of macOS. **Using Macs with Intel CPUs leaves you open t\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "privacy"
+    },
+    {
+      "context_snippet": "This guide is a collection of techniques for improving the security and privacy of [Apple silicon](https://support.apple.com/116943) Mac computers running a [currently supported](https://support.apple.com/HT201222) version of macOS. **Using Macs with Intel CPUs leaves you open t\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security"
+    }
+  ]
+}

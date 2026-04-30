@@ -187,6 +187,18 @@
       "source_repo": "PKU-Alignment/safe-rlhf",
       "status": "candidate-context",
       "text": "<!-- markdownlint-disable first-line-h1 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zai-org/VisionReward",
+      "status": "candidate-context",
+      "text": "[AAAI 2026] VisionReward: Fine-Grained Multi-Dimensional Human Preference Learning for Image and Video Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zai-org/VisionReward",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -279,6 +291,12 @@
       "source_repo": "PKU-Alignment/safe-rlhf",
       "status": "candidate",
       "text": "<!-- markdownlint-disable first-line-h1 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zai-org/VisionReward",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -412,11 +430,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "PKU-Alignment/safe-rlhf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/ImageReward"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/VisionReward"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

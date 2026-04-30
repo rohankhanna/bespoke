@@ -1,0 +1,102 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ruby/mspec",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ruby/mspec",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ruby/mspec",
+      "target": "mspec",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ruby/mspec",
+      "target": "ruby",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:51:39.860116+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2649
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 761
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "RSpec-like test runner for the Ruby Spec Suite",
+    "fork": false,
+    "full_name": "ruby/mspec",
+    "html_url": "https://github.com/ruby/mspec",
+    "language": "Ruby",
+    "pushed_at": "2026-04-26T22:04:26Z",
+    "stargazers_count": 65,
+    "topics": [
+      "mspec",
+      "ruby"
+    ],
+    "updated_at": "2026-04-26T22:04:31Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "MSpec is a specialized framework that is syntax-compatible with RSpec 2 for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mspec"
+    },
+    {
+      "context_snippet": "MSpec is a specialized framework that is syntax-compatible with RSpec 2 for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -811,6 +811,31 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "hazelcast/hazelcast-cpp-client"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "MilesCranmer/PySR"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "Alexays/Waybar"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/getdeps_linux.yml",
+      "source_repo": "facebook/fbthrift"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "alexcrichton/ssh2-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "drduh/Router-Guide"
     }
   ],
   "term": "linux"

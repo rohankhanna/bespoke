@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T19:43:07.159747+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2263
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A git implementation in awk",
+    "fork": false,
+    "full_name": "djanderson/aho",
+    "html_url": "https://github.com/djanderson/aho",
+    "language": "Awk",
+    "pushed_at": "2021-10-14T05:06:17Z",
+    "stargazers_count": 819,
+    "topics": [],
+    "updated_at": "2026-03-15T21:05:26Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

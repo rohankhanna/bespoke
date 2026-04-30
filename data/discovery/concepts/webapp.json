@@ -43,6 +43,18 @@
       "source_repo": "dbeaver/cloudbeaver",
       "status": "candidate-context",
       "text": "<img src=\"https://github.com/dbeaver/cloudbeaver/wiki/images/cloudbeaver-logo.png\" alt=\"CloudBeaver logo\" align=\"right\" width=\"250\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "snapcast/snapweb",
+      "status": "candidate-context",
+      "text": "Web interface for Snapcast"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "snapcast/snapweb",
+      "status": "candidate-context",
+      "text": "Web client for [Snapcast](https://github.com/snapcast/snapcast), optimized for"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "dbeaver/cloudbeaver",
       "status": "candidate",
       "text": "<img src=\"https://github.com/dbeaver/cloudbeaver/wiki/images/cloudbeaver-logo.png\" alt=\"CloudBeaver logo\" align=\"right\" width=\"250\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "snapcast/snapweb",
+      "status": "candidate",
+      "text": "Web client for [Snapcast](https://github.com/snapcast/snapcast), optimized for"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "dbeaver/cloudbeaver"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "snapcast/snapweb"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

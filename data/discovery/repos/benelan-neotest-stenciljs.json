@@ -1,0 +1,153 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "benelan/neotest-stenciljs",
+      "target": "rcarriga/neotest",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "benelan/neotest-stenciljs",
+      "target": "marilari88/neotest-vitest",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "benelan/neotest-stenciljs",
+      "target": "neotest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "benelan/neotest-stenciljs",
+      "target": "neotest-adapter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "benelan/neotest-stenciljs",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "benelan/neotest-stenciljs",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "benelan/neotest-stenciljs",
+      "target": "plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "benelan/neotest-stenciljs",
+      "target": "published",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "benelan/neotest-stenciljs",
+      "target": "stenciljs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:43:15.125101+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5717
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An unofficial StencilJS adapter for the \"neotest\" nvim plugin",
+    "fork": false,
+    "full_name": "benelan/neotest-stenciljs",
+    "html_url": "https://github.com/benelan/neotest-stenciljs",
+    "language": "Lua",
+    "pushed_at": "2024-08-15T08:05:22Z",
+    "stargazers_count": 3,
+    "topics": [
+      "neotest",
+      "neotest-adapter",
+      "neovim",
+      "neovim-plugin",
+      "plugin",
+      "published",
+      "stenciljs"
+    ],
+    "updated_at": "2025-12-20T22:36:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "marilari88/neotest-vitest",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rcarriga/neotest",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This plugin provides a [StencilJS](https://stenciljs.com) adapter for the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neotest"
+    },
+    {
+      "context_snippet": "This plugin provides a [StencilJS](https://stenciljs.com) adapter for the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neotest-adapter"
+    },
+    {
+      "context_snippet": "This plugin provides a [StencilJS](https://stenciljs.com) adapter for the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "This plugin provides a [StencilJS](https://stenciljs.com) adapter for the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    },
+    {
+      "context_snippet": "This plugin provides a [StencilJS](https://stenciljs.com) adapter for the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plugin"
+    },
+    {
+      "context_snippet": "This plugin provides a [StencilJS](https://stenciljs.com) adapter for the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "published"
+    },
+    {
+      "context_snippet": "This plugin provides a [StencilJS](https://stenciljs.com) adapter for the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stenciljs"
+    }
+  ]
+}

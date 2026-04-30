@@ -84,7 +84,7 @@
   "normalized_form": "regex",
   "observation_id": "a2f13a8b67287adf",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
   "observed_text": "regex",
   "source_context_snippet": "> Pass two numbers, get a regex-compatible source string for matching ranges. Validated against more than 2.78 million test assertions.",
   "source_file": null,

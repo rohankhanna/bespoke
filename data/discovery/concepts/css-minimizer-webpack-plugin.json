@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "css-minimizer-webpack-plugin"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webpack/css-minimizer-webpack-plugin",
+      "status": "candidate-context",
+      "text": "cssnano plugin for Webpack"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webpack/css-minimizer-webpack-plugin",
+      "status": "candidate-context",
+      "text": "css-minimizer-webpack-plugin"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webpack/css-minimizer-webpack-plugin",
+      "status": "candidate",
+      "text": "css-minimizer-webpack-plugin"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "css-minimizer-webpack-plugin",
+  "concept_id": "css-minimizer-webpack-plugin",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "webpack/css-minimizer-webpack-plugin"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "css-minimizer-webpack-plugin",
+      "sense_id": "css-minimizer-webpack-plugin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -55,6 +55,18 @@
       "source_repo": "snapcast/snapdroid",
       "status": "candidate-context",
       "text": "Snapcast control client and player for Android"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "snapcast/snapweb",
+      "status": "candidate-context",
+      "text": "Web interface for Snapcast"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "snapcast/snapweb",
+      "status": "candidate-context",
+      "text": "Web client for [Snapcast](https://github.com/snapcast/snapcast), optimized for"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "snapcast/snapdroid",
       "status": "candidate",
       "text": "Snapcast control client and player for Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "snapcast/snapweb",
+      "status": "candidate",
+      "text": "Web client for [Snapcast](https://github.com/snapcast/snapcast), optimized for"
     }
   ],
   "candidate_related_terms": [],
@@ -118,11 +136,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "snapcast/snapdroid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "snapcast/snapweb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "snapcast/snapdroid"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

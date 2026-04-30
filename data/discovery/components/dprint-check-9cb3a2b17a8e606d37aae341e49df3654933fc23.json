@@ -1,12 +1,17 @@
 {
   "component": "dprint/check@9cb3a2b17a8e606d37aae341e49df3654933fc23",
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "scipy/scipy-stubs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dprint.yml",
+      "source_repo": "wincent/command-t"
     }
   ]
 }

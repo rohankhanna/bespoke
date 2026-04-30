@@ -1,0 +1,265 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "graalvm/mandrel",
+      "target": "graalvm/mandrel-packaging",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/base-windows-wrapper.yml",
+      "source_repo": "graalvm/mandrel",
+      "target": "Mandrel-Quarkus windows tests wrapper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base-windows.yml",
+      "source_repo": "graalvm/mandrel",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base-windows.yml",
+      "source_repo": "graalvm/mandrel",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base-windows.yml",
+      "source_repo": "graalvm/mandrel",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base-windows.yml",
+      "source_repo": "graalvm/mandrel",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base-windows.yml",
+      "source_repo": "graalvm/mandrel",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base-windows.yml",
+      "source_repo": "graalvm/mandrel",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/base-windows.yml",
+      "source_repo": "graalvm/mandrel",
+      "target": "Windows Mandrel-Quarkus tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/base-wrapper.yml",
+      "source_repo": "graalvm/mandrel",
+      "target": "Mandrel-Quarkus tests wrapper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base.yml",
+      "source_repo": "graalvm/mandrel",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base.yml",
+      "source_repo": "graalvm/mandrel",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base.yml",
+      "source_repo": "graalvm/mandrel",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base.yml",
+      "source_repo": "graalvm/mandrel",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base.yml",
+      "source_repo": "graalvm/mandrel",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base.yml",
+      "source_repo": "graalvm/mandrel",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/base.yml",
+      "source_repo": "graalvm/mandrel",
+      "target": "Mandrel-Quarkus tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-quarkus.yml",
+      "source_repo": "graalvm/mandrel",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-quarkus.yml",
+      "source_repo": "graalvm/mandrel",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-quarkus.yml",
+      "source_repo": "graalvm/mandrel",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-quarkus.yml",
+      "source_repo": "graalvm/mandrel",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-quarkus.yml",
+      "source_repo": "graalvm/mandrel",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-quarkus.yml",
+      "source_repo": "graalvm/mandrel",
+      "target": "Build Quarkus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-issue-updater.yml",
+      "source_repo": "graalvm/mandrel",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-issue-updater.yml",
+      "source_repo": "graalvm/mandrel",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github-issue-updater.yml",
+      "source_repo": "graalvm/mandrel",
+      "target": "GitHub Issue Updater",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mark-stale-issues-and-prs.yml",
+      "source_repo": "graalvm/mandrel",
+      "target": "actions/stale@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mark-stale-issues-and-prs.yml",
+      "source_repo": "graalvm/mandrel",
+      "target": "Mark stale issues and PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/monthly.yml",
+      "source_repo": "graalvm/mandrel",
+      "target": "Monthly CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-tests-stats-upload.yml",
+      "source_repo": "graalvm/mandrel",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-tests-stats-upload.yml",
+      "source_repo": "graalvm/mandrel",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/native-tests-stats-upload.yml",
+      "source_repo": "graalvm/mandrel",
+      "target": "Native tests stats upload",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "graalvm/mandrel",
+      "target": "graalvm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "graalvm/mandrel",
+      "target": "graalvm-native-image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "graalvm/mandrel",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "graalvm/mandrel",
+      "target": "mandrel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "graalvm/mandrel",
+      "target": "quarkus",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T18:36:26.757967+00:00",
+  "source_repo": "graalvm/mandrel"
+}

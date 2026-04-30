@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T19:42:46.358157+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3005
+    },
+    {
+      "path": "go.mod",
+      "size": 92
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Tool for automatically converting markdown to vimdoc format",
+    "fork": false,
+    "full_name": "FooSoft/md2vim",
+    "html_url": "https://github.com/FooSoft/md2vim",
+    "language": "Go",
+    "pushed_at": "2022-07-14T21:18:24Z",
+    "stargazers_count": 76,
+    "topics": [],
+    "updated_at": "2026-04-12T09:59:18Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

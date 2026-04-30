@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "1adrianb/expert-binary-networks",
+      "target": "binary-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "1adrianb/expert-binary-networks",
+      "target": "conditional-computing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "1adrianb/expert-binary-networks",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "1adrianb/expert-binary-networks",
+      "target": "ondeviceai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "1adrianb/expert-binary-networks",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:40:09.326583+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1905
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Code for High-Capacity Expert Binary Networks (ICLR 2021).",
+    "fork": false,
+    "full_name": "1adrianb/expert-binary-networks",
+    "html_url": "https://github.com/1adrianb/expert-binary-networks",
+    "language": "Python",
+    "pushed_at": "2021-12-03T00:25:23Z",
+    "stargazers_count": 27,
+    "topics": [
+      "binary-networks",
+      "conditional-computing",
+      "deep-learning",
+      "ondeviceai",
+      "pytorch"
+    ],
+    "updated_at": "2024-10-21T08:03:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This code provides the core components for building networks based on the architectures and Expert Binary Convolutional Block introduced in the _High-Capacity Expert Binary Networks_ paper. You can find the full version of the paper [here](https://arxiv.org/pdf/2010.03558).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "binary-networks"
+    },
+    {
+      "context_snippet": "This code provides the core components for building networks based on the architectures and Expert Binary Convolutional Block introduced in the _High-Capacity Expert Binary Networks_ paper. You can find the full version of the paper [here](https://arxiv.org/pdf/2010.03558).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conditional-computing"
+    },
+    {
+      "context_snippet": "This code provides the core components for building networks based on the architectures and Expert Binary Convolutional Block introduced in the _High-Capacity Expert Binary Networks_ paper. You can find the full version of the paper [here](https://arxiv.org/pdf/2010.03558).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "This code provides the core components for building networks based on the architectures and Expert Binary Convolutional Block introduced in the _High-Capacity Expert Binary Networks_ paper. You can find the full version of the paper [here](https://arxiv.org/pdf/2010.03558).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ondeviceai"
+    },
+    {
+      "context_snippet": "This code provides the core components for building networks based on the architectures and Expert Binary Convolutional Block introduced in the _High-Capacity Expert Binary Networks_ paper. You can find the full version of the paper [here](https://arxiv.org/pdf/2010.03558).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

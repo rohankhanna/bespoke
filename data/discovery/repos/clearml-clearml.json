@@ -26,28 +26,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "clearml/clearml",
-      "target": "clearml/clearml-agent",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "clearml/clearml",
-      "target": "clearml/clearml-serving",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "clearml/clearml",
-      "target": "clearml/clearml-fractional-gpu",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "clearml/clearml",
-      "target": "clearml/clearml-session",
+      "target": "google/python-fire",
       "target_type": "repository"
     },
     {
@@ -184,7 +163,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T03:54:59.837424+00:00",
+  "fetched_at": "2026-04-30T18:41:35.179456+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -212,7 +191,7 @@
     "full_name": "clearml/clearml",
     "html_url": "https://github.com/clearml/clearml",
     "language": "Python",
-    "pushed_at": "2026-04-27T13:06:01Z",
+    "pushed_at": "2026-04-30T11:38:46Z",
     "stargazers_count": 6653,
     "topics": [
       "ai",
@@ -232,27 +211,12 @@
       "version",
       "version-control"
     ],
-    "updated_at": "2026-04-29T17:18:14Z"
+    "updated_at": "2026-04-30T11:38:50Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "clearml/clearml-agent",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "clearml/clearml-fractional-gpu",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "clearml/clearml-serving",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "clearml/clearml-session",
+      "full_name": "google/python-fire",
       "source_file": "README.md"
     }
   ],

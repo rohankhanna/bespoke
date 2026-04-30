@@ -1,7 +1,7 @@
 {
   "component": "leafo/gh-actions-luarocks@v4",
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -67,6 +67,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "mah0x211/lua-libmdbx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/luacheck.yml",
+      "source_repo": "chentau/marks.nvim"
     }
   ]
 }

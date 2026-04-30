@@ -31,6 +31,18 @@
       "source_repo": "Yelp/dumb-init",
       "status": "candidate-context",
       "text": "Security Review"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Yelp/aactivator",
+      "status": "candidate-context",
+      "text": "Automatically source and unsource a project's environment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Yelp/aactivator",
+      "status": "candidate-context",
+      "text": "Security Review"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Yelp/dumb-init",
+      "status": "candidate",
+      "text": "Security Review"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Yelp/aactivator",
       "status": "candidate",
       "text": "Security Review"
     }
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/security-review.yml",
       "source_repo": "Yelp/dumb-init"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/security-review.yml",
+      "source_repo": "Yelp/aactivator"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

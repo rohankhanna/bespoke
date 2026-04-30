@@ -1,0 +1,12 @@
+{
+  "component": "golang/govulncheck-action@7da72f730e37eeaad891fcff0a532d27ed737cd4",
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/linting.yml",
+      "source_repo": "rdimitrov/go-tuf-metadata"
+    }
+  ]
+}

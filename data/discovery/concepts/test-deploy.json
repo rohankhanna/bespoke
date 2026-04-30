@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Test + Deploy",
-    "Test & deploy"
+    "Test & deploy",
+    "Test Deploy"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -68,6 +69,18 @@
       "source_repo": "facebookresearch/minihack",
       "status": "candidate-context",
       "text": "Test & deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mr-fatalyst/fastopenapi",
+      "status": "candidate-context",
+      "text": "FastOpenAPI is a library for generating and integrating OpenAPI schemas using Pydantic v2 and various frameworks (AioHttp, Django, Falcon, Flask, Quart, Sanic, Starlette, Tornado)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mr-fatalyst/fastopenapi",
+      "status": "candidate-context",
+      "text": "Test Deploy"
     }
   ],
   "candidate_glosses": [
@@ -100,6 +113,12 @@
       "source_repo": "facebookresearch/minihack",
       "status": "candidate",
       "text": "Test & deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mr-fatalyst/fastopenapi",
+      "status": "candidate",
+      "text": "Test Deploy"
     }
   ],
   "candidate_related_terms": [
@@ -191,11 +210,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/test_and_deploy.yml",
       "source_repo": "facebookresearch/minihack"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/test-deploy.yml",
+      "source_repo": "mr-fatalyst/fastopenapi"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,254 @@
+{
+  "components": [
+    {
+      "component": "scientific-python/circleci-artifacts-redirector-action@5d358ff96e96429a5c64a969bb4a574555439f4f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "scientific-python/attach-next-milestone-action@c9cfab10ad0c67fed91b01103db26b7f16634639",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/milestone-merged-prs.yml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-python@e797f83bcb11b83ae66e0230d6156d7c80228e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@ed0c53931b1dc9bd32cbe73a98c7f6766f8a527e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-check.yml",
+      "source_repo": "numpy/numpydoc",
+      "target": "Labels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "numpy/numpydoc",
+      "target": "scientific-python/circleci-artifacts-redirector-action@5d358ff96e96429a5c64a969bb4a574555439f4f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/milestone-merged-prs.yml",
+      "source_repo": "numpy/numpydoc",
+      "target": "scientific-python/attach-next-milestone-action@c9cfab10ad0c67fed91b01103db26b7f16634639",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/milestone-merged-prs.yml",
+      "source_repo": "numpy/numpydoc",
+      "target": "Milestone",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "numpy/numpydoc",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "numpy/numpydoc",
+      "target": "actions/setup-python@e797f83bcb11b83ae66e0230d6156d7c80228e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "numpy/numpydoc",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "numpy/numpydoc",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "numpy/numpydoc",
+      "target": "pypa/gh-action-pypi-publish@ed0c53931b1dc9bd32cbe73a98c7f6766f8a527e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "numpy/numpydoc",
+      "target": "Build Wheel and Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "numpy/numpydoc",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "numpy/numpydoc",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "numpy/numpydoc",
+      "target": "numpydoc tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:46:05.756366+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 1200
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3928
+    },
+    {
+      "path": ".github/workflows/label-check.yml",
+      "size": 376
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 504
+    },
+    {
+      "path": ".github/workflows/milestone-merged-prs.yml",
+      "size": 377
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1426
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 6183
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Numpy's Sphinx extensions",
+    "fork": false,
+    "full_name": "numpy/numpydoc",
+    "html_url": "https://github.com/numpy/numpydoc",
+    "language": "Python",
+    "pushed_at": "2026-04-23T15:16:39Z",
+    "stargazers_count": 350,
+    "topics": [],
+    "updated_at": "2026-04-23T15:16:49Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Labels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-check.yml",
+      "term": "Labels"
+    },
+    {
+      "context_snippet": "Milestone",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/milestone-merged-prs.yml",
+      "term": "Milestone"
+    },
+    {
+      "context_snippet": "Build Wheel and Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Build Wheel and Release"
+    },
+    {
+      "context_snippet": "numpydoc tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "numpydoc tests"
+    }
+  ]
+}

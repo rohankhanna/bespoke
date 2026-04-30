@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -26,6 +26,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "andi611/Mockingjay-Speech-Representation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "yeyupiaoling/VoiceprintRecognition-Pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "yeyupiaoling/VoiceprintRecognition-PaddlePaddle"
     }
   ],
   "term": "speaker-recognition"

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T19:50:04.443212+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3358
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An FFI wrapper for kqueue",
+    "fork": false,
+    "full_name": "mat813/rb-kqueue",
+    "html_url": "https://github.com/mat813/rb-kqueue",
+    "language": "Ruby",
+    "pushed_at": "2023-07-25T15:48:06Z",
+    "stargazers_count": 22,
+    "topics": [],
+    "updated_at": "2024-07-31T01:35:38Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

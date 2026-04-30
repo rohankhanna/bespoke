@@ -1,0 +1,12 @@
+{
+  "component": "PyO3/maturin-action@3e2bdf6ba6453a61e649744019b8a2d906c7eb38",
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-ci.yml",
+      "source_repo": "decibri/decibri"
+    }
+  ]
+}

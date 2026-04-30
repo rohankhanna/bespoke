@@ -1,0 +1,54 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ronaldoussoren/pyobjc",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ronaldoussoren/pyobjc",
+      "target": "objective-c",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:37:43.691012+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The Python <-> Objective-C Bridge with bindings for macOS frameworks",
+    "fork": false,
+    "full_name": "ronaldoussoren/pyobjc",
+    "html_url": "https://github.com/ronaldoussoren/pyobjc",
+    "language": "Python",
+    "pushed_at": "2026-03-16T19:47:03Z",
+    "stargazers_count": 781,
+    "topics": [
+      "macos",
+      "objective-c",
+      "python"
+    ],
+    "updated_at": "2026-04-24T15:29:02Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "The Python <-> Objective-C Bridge with bindings for macOS frameworks",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "The Python <-> Objective-C Bridge with bindings for macOS frameworks",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "objective-c"
+    }
+  ]
+}

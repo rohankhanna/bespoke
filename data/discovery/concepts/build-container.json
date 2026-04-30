@@ -25,6 +25,18 @@
       "source_repo": "crc-org/engineering-docs",
       "status": "candidate-context",
       "text": "Build Container"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebook/fbthrift",
+      "status": "candidate-context",
+      "text": "Facebook's branch of Apache Thrift, including a new C++ server."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/fbthrift",
+      "status": "candidate-context",
+      "text": "Build Container"
     }
   ],
   "candidate_glosses": [
@@ -37,6 +49,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "crc-org/engineering-docs",
+      "status": "candidate",
+      "text": "Build Container"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/fbthrift",
       "status": "candidate",
       "text": "Build Container"
     }
@@ -94,11 +112,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/container.yml",
       "source_repo": "crc-org/engineering-docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/devcontainer.yml",
+      "source_repo": "facebook/fbthrift"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

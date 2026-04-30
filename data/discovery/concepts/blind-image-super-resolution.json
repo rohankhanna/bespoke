@@ -19,6 +19,18 @@
       "source_repo": "cszn/BSRGAN",
       "status": "candidate-context",
       "text": "![visitors](https://visitor-badge.glitch.me/badge?page_id=cszn/BSRGAN)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JingyunLiang/MANet",
+      "status": "candidate-context",
+      "text": "Official PyTorch code for Mutual Affine Network for Spatially Variant Kernel Estimation in Blind Image Super-Resolution (MANet, ICCV2021)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JingyunLiang/MANet",
+      "status": "candidate-context",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2108.05302)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "cszn/BSRGAN",
       "status": "candidate",
       "text": "![visitors](https://visitor-badge.glitch.me/badge?page_id=cszn/BSRGAN)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JingyunLiang/MANet",
+      "status": "candidate",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2108.05302)"
     }
   ],
   "candidate_related_terms": [],
@@ -58,11 +76,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "cszn/BSRGAN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "JingyunLiang/MANet"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

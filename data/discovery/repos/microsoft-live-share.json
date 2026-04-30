@@ -1,0 +1,145 @@
+{
+  "components": [
+    {
+      "component": "actions/stale@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CloseInactiveIssues.yml"
+    },
+    {
+      "component": "actions/stale@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-issues.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CloseInactiveIssues.yml",
+      "source_repo": "microsoft/live-share",
+      "target": "actions/stale@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CloseInactiveIssues.yml",
+      "source_repo": "microsoft/live-share",
+      "target": "Close stale issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-issues.yml",
+      "source_repo": "microsoft/live-share",
+      "target": "actions/stale@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-issues.yml",
+      "source_repo": "microsoft/live-share",
+      "target": "label-untriaged-issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/live-share",
+      "target": "collaboration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/live-share",
+      "target": "pair-programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/live-share",
+      "target": "visual-studio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/live-share",
+      "target": "visual-studio-code",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:00:05.802183+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2685
+    },
+    {
+      "path": ".github/workflows/CloseInactiveIssues.yml",
+      "size": 681
+    },
+    {
+      "path": ".github/workflows/label-issues.yml",
+      "size": 944
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Real-time collaborative development from the comfort of your favorite tools",
+    "fork": false,
+    "full_name": "microsoft/live-share",
+    "html_url": "https://github.com/microsoft/live-share",
+    "language": null,
+    "pushed_at": "2024-06-07T20:27:38Z",
+    "stargazers_count": 2376,
+    "topics": [
+      "collaboration",
+      "pair-programming",
+      "visual-studio",
+      "visual-studio-code"
+    ],
+    "updated_at": "2026-04-25T14:09:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "'Close stale issues'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CloseInactiveIssues.yml",
+      "term": "Close stale issues"
+    },
+    {
+      "context_snippet": "label-untriaged-issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-issues.yml",
+      "term": "label-untriaged-issues"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "collaboration"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pair-programming"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-studio"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-studio-code"
+    }
+  ]
+}

@@ -550,6 +550,42 @@
       "source_repo": "Reference-LAPACK/lapack",
       "status": "candidate-context",
       "text": "CMake"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "erwincoumans/bullet3",
+      "status": "candidate-context",
+      "text": "Bullet Physics SDK: real-time collision detection and multi-physics simulation for VR, games, visual effects, robotics, machine learning etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erwincoumans/bullet3",
+      "status": "candidate-context",
+      "text": "CMake"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ilyachur/cmake4vim",
+      "status": "candidate-context",
+      "text": "Vim plugin for CMake projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ilyachur/cmake4vim",
+      "status": "candidate-context",
+      "text": "<p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LucHermitte/vim-build-tools-wrapper",
+      "status": "candidate-context",
+      "text": "Projects building plugin for Vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LucHermitte/vim-build-tools-wrapper",
+      "status": "candidate-context",
+      "text": "BTW has two main purposes:"
     }
   ],
   "candidate_glosses": [
@@ -822,6 +858,24 @@
       "source_repo": "Reference-LAPACK/lapack",
       "status": "candidate",
       "text": "CMake"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erwincoumans/bullet3",
+      "status": "candidate",
+      "text": "CMake"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ilyachur/cmake4vim",
+      "status": "candidate",
+      "text": "<p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LucHermitte/vim-build-tools-wrapper",
+      "status": "candidate",
+      "text": "BTW has two main purposes:"
     }
   ],
   "candidate_related_terms": [
@@ -1177,11 +1231,35 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/cmake.yml",
       "source_repo": "Reference-LAPACK/lapack"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "erwincoumans/bullet3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "ilyachur/cmake4vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "LucHermitte/vim-build-tools-wrapper"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "edge-classic/EDGE-classic"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -163,6 +163,18 @@
       "source_repo": "vizzuhq/vizzu-lib",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/echarts",
+      "status": "candidate-context",
+      "text": "Apache ECharts is a powerful, interactive charting and data visualization library for browser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/echarts",
+      "status": "candidate-context",
+      "text": "<a href=\"https://echarts.apache.org/\">"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +255,12 @@
       "source_repo": "vizzuhq/vizzu-lib",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/echarts",
+      "status": "candidate",
+      "text": "<a href=\"https://echarts.apache.org/\">"
     }
   ],
   "candidate_related_terms": [
@@ -382,11 +400,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "helm/helm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "apache/echarts"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

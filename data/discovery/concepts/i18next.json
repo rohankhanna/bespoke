@@ -175,6 +175,42 @@
       "source_repo": "i18next/i18next-cli",
       "status": "candidate-context",
       "text": "A unified, high-performance i18next CLI toolchain, powered by SWC."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "i18next/i18next-http-middleware",
+      "status": "candidate-context",
+      "text": "i18next-http-middleware is a middleware to be used with Node.js web frameworks like express or Fastify and also for Deno."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i18next/i18next-http-middleware",
+      "status": "candidate-context",
+      "text": "[![Actions](https://github.com/i18next/i18next-http-middleware/workflows/node/badge.svg)](https://github.com/i18next/i18next-http-middleware/actions?query=workflow%3Anode)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dreamscached/i18next-cli-plugin-svelte",
+      "status": "candidate-context",
+      "text": "\ud83d\udcdc i18next-cli plugin to extract Javascript/Typescript from Svelte components"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dreamscached/i18next-cli-plugin-svelte",
+      "status": "candidate-context",
+      "text": "[![GitHub branch check runs](https://img.shields.io/github/check-runs/dreamscached/i18next-cli-plugin-svelte/master)](https://github.com/dreamscached/i18next-cli-plugin-svelte/actions/workflows/checks.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PBK-B/i18next-cli-vue",
+      "status": "candidate-context",
+      "text": "i18next-cli plugin for extracting i18n keys from Vue SFC files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PBK-B/i18next-cli-vue",
+      "status": "candidate-context",
+      "text": "[![npm version](https://img.shields.io/npm/v/i18next-cli-vue.svg)](https://www.npmjs.com/package/i18next-cli-vue) [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) [![Vue 2.6+](https://img.shields.io/badge/Vue-2.6+-41b883.svg)](https://vuejs.org/) [![Vue 3\u2026"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +297,24 @@
       "source_repo": "i18next/i18next-cli",
       "status": "candidate",
       "text": "A unified, high-performance i18next CLI toolchain, powered by SWC."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i18next/i18next-http-middleware",
+      "status": "candidate",
+      "text": "[![Actions](https://github.com/i18next/i18next-http-middleware/workflows/node/badge.svg)](https://github.com/i18next/i18next-http-middleware/actions?query=workflow%3Anode)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dreamscached/i18next-cli-plugin-svelte",
+      "status": "candidate",
+      "text": "[![GitHub branch check runs](https://img.shields.io/github/check-runs/dreamscached/i18next-cli-plugin-svelte/master)](https://github.com/dreamscached/i18next-cli-plugin-svelte/actions/workflows/checks.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PBK-B/i18next-cli-vue",
+      "status": "candidate",
+      "text": "[![npm version](https://img.shields.io/npm/v/i18next-cli-vue.svg)](https://www.npmjs.com/package/i18next-cli-vue) [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) [![Vue 2.6+](https://img.shields.io/badge/Vue-2.6+-41b883.svg)](https://vuejs.org/) [![Vue 3\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -412,11 +466,29 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "i18next/i18next-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "i18next/i18next-http-middleware"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "dreamscached/i18next-cli-plugin-svelte"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "PBK-B/i18next-cli-vue"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

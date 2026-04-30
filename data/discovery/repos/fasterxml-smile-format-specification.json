@@ -1,0 +1,107 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FasterXML/smile-format-specification",
+      "target": "dakrone/cheshire",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FasterXML/smile-format-specification",
+      "target": "pierre/libsmile",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FasterXML/smile-format-specification",
+      "target": "ngyewch/smile-js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FasterXML/smile-format-specification",
+      "target": "jhosmer/pysmile",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FasterXML/smile-format-specification",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FasterXML/smile-format-specification",
+      "target": "smile-format",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:54:18.908357+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3926
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "New home for Smile format (https://en.wikipedia.org/wiki/Smile_(data_interchange_format))",
+    "fork": false,
+    "full_name": "FasterXML/smile-format-specification",
+    "html_url": "https://github.com/FasterXML/smile-format-specification",
+    "language": null,
+    "pushed_at": "2025-08-27T22:46:19Z",
+    "stargazers_count": 109,
+    "topics": [
+      "hacktoberfest",
+      "smile-format"
+    ],
+    "updated_at": "2026-02-27T06:17:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dakrone/cheshire",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jhosmer/pysmile",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ngyewch/smile-js",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pierre/libsmile",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Smile\" is a binary data format that defines a binary equivalent of standard",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "\"Smile\" is a binary data format that defines a binary equivalent of standard",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "smile-format"
+    }
+  ]
+}

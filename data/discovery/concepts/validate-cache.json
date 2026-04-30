@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Validate cache"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actions/setup-java",
+      "status": "candidate-context",
+      "text": "Set up your GitHub Actions workflow with a specific version of Java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/setup-java",
+      "status": "candidate-context",
+      "text": "Validate cache"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/setup-java",
+      "status": "candidate",
+      "text": "Validate cache"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10751,
+      "status": "candidate",
+      "text": "establish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10751,
+      "status": "candidate",
+      "text": "seal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10590,
+      "status": "candidate",
+      "text": "advantage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10590,
+      "status": "candidate",
+      "text": "agent provocateur"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10590,
+      "status": "candidate",
+      "text": "amplifier"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Validate cache",
+  "concept_id": "validate-cache",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/e2e-cache.yml",
+      "source_repo": "actions/setup-java"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Validate cache",
+      "sense_id": "validate-cache#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

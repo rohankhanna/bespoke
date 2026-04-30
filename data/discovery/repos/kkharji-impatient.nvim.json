@@ -1,0 +1,82 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kkharji/impatient.nvim",
+      "target": "lewis6991/impatient.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kkharji/impatient.nvim",
+      "target": "tami5/sqlite.lua",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kkharji/impatient.nvim",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kkharji/impatient.nvim",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:41:09.019614+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 797
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1845
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Improve startup time for Neovim",
+    "fork": true,
+    "full_name": "kkharji/impatient.nvim",
+    "html_url": "https://github.com/kkharji/impatient.nvim",
+    "language": "Lua",
+    "pushed_at": "2021-12-27T20:23:00Z",
+    "stargazers_count": 12,
+    "topics": [],
+    "updated_at": "2024-10-24T11:29:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lewis6991/impatient.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tami5/sqlite.lua",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

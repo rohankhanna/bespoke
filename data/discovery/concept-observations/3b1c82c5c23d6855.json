@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Safe and rich Rust wrapper around the Vulkan API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img align=\"left\" alt=\"\" src=\"logo.png\" height=\"150\" />"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img align=\"left\" alt=\"\" src=\"logo.png\" height=\"150\" />"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "graphics-programming",
+      "sense_id": "graphics-programming#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "graphics-programming",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "graphics-programming",
+  "observation_id": "3b1c82c5c23d6855",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "graphics-programming",
+  "source_context_snippet": "<img align=\"left\" alt=\"\" src=\"logo.png\" height=\"150\" />",
+  "source_file": null,
+  "source_repo": "vulkano-rs/vulkano",
+  "source_repo_description": "Safe and rich Rust wrapper around the Vulkan API"
+}

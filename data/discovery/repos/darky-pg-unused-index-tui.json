@@ -1,0 +1,227 @@
+{
+  "components": [
+    {
+      "component": "ink",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ink-big-text",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ink-table",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ink-text-input",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nbb",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "pg",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "pg-connection-string",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rocket-pipes-slim",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ink-testing-library",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "uvu",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blank.yml"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blank.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "darky/pg-unused-index-tui",
+      "target": "ink",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "darky/pg-unused-index-tui",
+      "target": "ink-big-text",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "darky/pg-unused-index-tui",
+      "target": "ink-table",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "darky/pg-unused-index-tui",
+      "target": "ink-text-input",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "darky/pg-unused-index-tui",
+      "target": "nbb",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "darky/pg-unused-index-tui",
+      "target": "pg",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "darky/pg-unused-index-tui",
+      "target": "pg-connection-string",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "darky/pg-unused-index-tui",
+      "target": "rocket-pipes-slim",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "darky/pg-unused-index-tui",
+      "target": "ink-testing-library",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "darky/pg-unused-index-tui",
+      "target": "uvu",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blank.yml",
+      "source_repo": "darky/pg-unused-index-tui",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blank.yml",
+      "source_repo": "darky/pg-unused-index-tui",
+      "target": "actions/setup-node@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "darky/pg-unused-index-tui",
+      "target": "index",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "darky/pg-unused-index-tui",
+      "target": "postgres",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "darky/pg-unused-index-tui",
+      "target": "unused",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:54:13.953507+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 549
+    },
+    {
+      "path": "package.json",
+      "size": 974
+    },
+    {
+      "path": ".github/workflows/blank.yml",
+      "size": 357
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "TUI for showing unused indexes of Postgres",
+    "fork": false,
+    "full_name": "darky/pg-unused-index-tui",
+    "html_url": "https://github.com/darky/pg-unused-index-tui",
+    "language": "Clojure",
+    "pushed_at": "2022-11-28T21:29:18Z",
+    "stargazers_count": 6,
+    "topics": [
+      "index",
+      "pg",
+      "postgres",
+      "tui",
+      "unused"
+    ],
+    "updated_at": "2024-11-05T08:29:46Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "TUI for showing unused indexes of Postgres",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "index"
+    },
+    {
+      "context_snippet": "TUI for showing unused indexes of Postgres",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "postgres"
+    },
+    {
+      "context_snippet": "TUI for showing unused indexes of Postgres",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unused"
+    }
+  ]
+}

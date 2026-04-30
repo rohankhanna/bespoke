@@ -5,28 +5,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "rstackjs/awesome-rstack",
-      "target": "addfox/addfox",
+      "target": "atom-yang/aumi",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "rstackjs/awesome-rstack",
-      "target": "aliezzahn/rsbuild-plugin-markdown-loader",
+      "target": "alonronin/react-tailwind-rsbuild-boilerplate",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "rstackjs/awesome-rstack",
-      "target": "aliezzahn/rsbuild-plugin-css-optimizer",
+      "target": "applelo/unplugin-inject-preload",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "rstackjs/awesome-rstack",
-      "target": "2heal1/rspress-plugin-annotation-words",
+      "target": "anolilab/unplugin-favicons",
       "target_type": "repository"
     },
     {
@@ -107,7 +107,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T09:17:54.560165+00:00",
+  "fetched_at": "2026-04-30T19:47:36.642878+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -143,22 +143,22 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "2heal1/rspress-plugin-annotation-words",
+      "full_name": "alonronin/react-tailwind-rsbuild-boilerplate",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "addfox/addfox",
+      "full_name": "anolilab/unplugin-favicons",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "aliezzahn/rsbuild-plugin-css-optimizer",
+      "full_name": "applelo/unplugin-inject-preload",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "aliezzahn/rsbuild-plugin-markdown-loader",
+      "full_name": "atom-yang/aumi",
       "source_file": "README.md"
     }
   ],

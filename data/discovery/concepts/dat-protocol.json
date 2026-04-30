@@ -19,6 +19,18 @@
       "source_repo": "dat-ecosystem/dat",
       "status": "candidate-context",
       "text": "More info on active projects and modules at [dat-ecosystem.org](https://dat-ecosystem.org/) <img src=\"https://i.imgur.com/qZWlO1y.jpg\" width=\"30\" height=\"30\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dat-ecosystem-archive/dat-node",
+      "status": "candidate-context",
+      "text": "Node module for creating dat compatible tools on file systems [ DEPRECATED - More info on active projects and modules at https://dat-ecosystem.org/ ] "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dat-ecosystem-archive/dat-node",
+      "status": "candidate-context",
+      "text": "dat-node \u2014 Build node applications with Dat archives on the file system."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "dat-ecosystem/dat",
       "status": "candidate",
       "text": "More info on active projects and modules at [dat-ecosystem.org](https://dat-ecosystem.org/) <img src=\"https://i.imgur.com/qZWlO1y.jpg\" width=\"30\" height=\"30\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dat-ecosystem-archive/dat-node",
+      "status": "candidate",
+      "text": "dat-node \u2014 Build node applications with Dat archives on the file system."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "dat-ecosystem/dat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "dat-ecosystem/dat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "dat-ecosystem-archive/dat-node"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

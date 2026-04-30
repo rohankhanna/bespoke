@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "captive"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tzapu/WiFiManager",
+      "status": "candidate-context",
+      "text": "ESP8266 WiFi Connection manager with web captive portal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tzapu/WiFiManager",
+      "status": "candidate-context",
+      "text": "Espressif ESPx WiFi Connection manager with fallback web configuration portal"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tzapu/WiFiManager",
+      "status": "candidate",
+      "text": "Espressif ESPx WiFi Connection manager with fallback web configuration portal"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40026184,
+      "status": "candidate",
+      "text": "prisoner"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40018852,
+      "status": "candidate",
+      "text": "confined"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39909573,
+      "status": "candidate",
+      "text": "unfree"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30027287,
+      "status": "candidate",
+      "text": "imprisoned"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30027287,
+      "status": "candidate",
+      "text": "jailed"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 32029,
+      "status": "candidate",
+      "text": "confined"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6019,
+      "status": "candidate",
+      "text": "unfree"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4039,
+      "status": "candidate",
+      "text": "prisoner"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2021,
+      "status": "candidate",
+      "text": "imprisoned"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1017,
+      "status": "candidate",
+      "text": "jailed"
+    }
+  ],
+  "canonical_name": "captive",
+  "concept_id": "captive",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "tzapu/WiFiManager"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "captive",
+      "sense_id": "captive#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

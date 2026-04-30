@@ -131,28 +131,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "day8/re-frame-10x",
-      "target": "bhauman/figwheel-main",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "day8/re-frame-10x",
-      "target": "binaryage/cljs-devtools",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "day8/re-frame-10x",
-      "target": "day8/re-com",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "day8/re-frame-10x",
-      "target": "day8/re-frame-debux",
+      "target": "emezeske/lein-cljsbuild",
       "target_type": "repository"
     },
     {
@@ -282,7 +261,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T00:39:03.488920+00:00",
+  "fetched_at": "2026-04-30T18:59:57.711605+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -310,7 +289,7 @@
     "full_name": "day8/re-frame-10x",
     "html_url": "https://github.com/day8/re-frame-10x",
     "language": "Clojure",
-    "pushed_at": "2026-04-29T11:07:07Z",
+    "pushed_at": "2026-04-30T09:11:10Z",
     "stargazers_count": 652,
     "topics": [
       "debugging",
@@ -318,27 +297,12 @@
       "reagent",
       "tracing"
     ],
-    "updated_at": "2026-04-29T11:07:11Z"
+    "updated_at": "2026-04-30T09:11:15Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "bhauman/figwheel-main",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "binaryage/cljs-devtools",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "day8/re-com",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "day8/re-frame-debux",
+      "full_name": "emezeske/lein-cljsbuild",
       "source_file": "README.md"
     }
   ],

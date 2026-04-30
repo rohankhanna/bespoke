@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "File manipulation commands for vim-dirvish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> The file manipulation commands for [vim-dirvish][dirvish] that you've always wanted"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> The file manipulation commands for [vim-dirvish][dirvish] that you've always wanted"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "neovim",
+      "sense_id": "neovim#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "neovim",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "neovim",
+  "observation_id": "36e99331c0398943",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "neovim",
+  "source_context_snippet": "> The file manipulation commands for [vim-dirvish][dirvish] that you've always wanted",
+  "source_file": null,
+  "source_repo": "roginfarrer/vim-dirvish-dovish",
+  "source_repo_description": "File manipulation commands for vim-dirvish"
+}

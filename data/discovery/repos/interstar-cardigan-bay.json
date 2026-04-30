@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "interstar/cardigan-bay",
+      "target": "clojure/core.logic",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "interstar/cardigan-bay",
+      "target": "interstar/patterning-core",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "interstar/cardigan-bay",
+      "target": "interstar/thoughtstorms",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:54:23.506998+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11937
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A new wiki engine in Clojure ... ",
+    "fork": false,
+    "full_name": "interstar/cardigan-bay",
+    "html_url": "https://github.com/interstar/cardigan-bay",
+    "language": "Clojure",
+    "pushed_at": "2025-03-20T16:00:21Z",
+    "stargazers_count": 115,
+    "topics": [],
+    "updated_at": "2026-02-10T14:01:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clojure/core.logic",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "interstar/patterning-core",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "interstar/thoughtstorms",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

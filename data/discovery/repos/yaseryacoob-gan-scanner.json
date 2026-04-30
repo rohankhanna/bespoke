@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yaseryacoob/GAN-Scanner",
+      "target": "yuval-alaluf/sam",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yaseryacoob/GAN-Scanner",
+      "target": "yandex-research/navigan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yaseryacoob/GAN-Scanner",
+      "target": "saic-mdal/cips",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:42:30.700422+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9253
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "GAN image Detector",
+    "fork": false,
+    "full_name": "yaseryacoob/GAN-Scanner",
+    "html_url": "https://github.com/yaseryacoob/GAN-Scanner",
+    "language": null,
+    "pushed_at": "2021-10-01T23:35:19Z",
+    "stargazers_count": 9,
+    "topics": [],
+    "updated_at": "2025-05-02T09:01:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "saic-mdal/cips",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yandex-research/navigan",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yuval-alaluf/sam",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

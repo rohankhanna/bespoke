@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update Flake Deps"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "90-008/nix-cargo-integration",
+      "status": "candidate-context",
+      "text": "Library to easily and effortlessly integrate Cargo projects with Nix."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "90-008/nix-cargo-integration",
+      "status": "candidate-context",
+      "text": "\"Update Flake Deps\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "90-008/nix-cargo-integration",
+      "status": "candidate",
+      "text": "\"Update Flake Deps\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10331,
+      "status": "candidate",
+      "text": "gains"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10331,
+      "status": "candidate",
+      "text": "growth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10331,
+      "status": "candidate",
+      "text": "increases"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10331,
+      "status": "candidate",
+      "text": "ups"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10004,
+      "status": "candidate",
+      "text": "stas"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update Flake Deps",
+  "concept_id": "update-flake-deps",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/flake-update.yml",
+      "source_repo": "90-008/nix-cargo-integration"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Flake Deps",
+      "sense_id": "update-flake-deps#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

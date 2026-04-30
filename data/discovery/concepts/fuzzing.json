@@ -244,6 +244,18 @@
       "source_repo": "Dicklesworthstone/coding_agent_session_search",
       "status": "candidate-context",
       "text": "Fuzzing"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "surrealdb/surrealdb",
+      "status": "candidate-context",
+      "text": "A scalable, distributed, collaborative, document-graph database, for the realtime web"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "surrealdb/surrealdb",
+      "status": "candidate-context",
+      "text": "Fuzzing"
     }
   ],
   "candidate_glosses": [
@@ -364,6 +376,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Dicklesworthstone/coding_agent_session_search",
+      "status": "candidate",
+      "text": "Fuzzing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "surrealdb/surrealdb",
       "status": "candidate",
       "text": "Fuzzing"
     }
@@ -535,11 +553,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/fuzz.yml",
       "source_repo": "Dicklesworthstone/coding_agent_session_search"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/fuzzing.yml",
+      "source_repo": "surrealdb/surrealdb"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

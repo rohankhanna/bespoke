@@ -19,6 +19,30 @@
       "source_repo": "theupdateframework/go-tuf",
       "status": "candidate-context",
       "text": "![GitHub Workflow Status (with branch)](https://img.shields.io/github/actions/workflow/status/theupdateframework/go-tuf/ci.yml?branch=master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "theupdateframework/python-tuf",
+      "status": "candidate-context",
+      "text": "Python reference implementation of The Update Framework (TUF)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "theupdateframework/python-tuf",
+      "status": "candidate-context",
+      "text": "[![CI badge](https://github.com/theupdateframework/python-tuf/actions/workflows/ci.yml/badge.svg)](https://github.com/theupdateframework/python-tuf/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "theupdateframework/taps",
+      "status": "candidate-context",
+      "text": "TUF Augmentation Proposals (TAPs)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "theupdateframework/taps",
+      "status": "candidate-context",
+      "text": "* [TAP 1: TAP Purpose and Guidelines](tap1.md)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "theupdateframework/go-tuf",
       "status": "candidate",
       "text": "![GitHub Workflow Status (with branch)](https://img.shields.io/github/actions/workflow/status/theupdateframework/go-tuf/ci.yml?branch=master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "theupdateframework/python-tuf",
+      "status": "candidate",
+      "text": "[![CI badge](https://github.com/theupdateframework/python-tuf/actions/workflows/ci.yml/badge.svg)](https://github.com/theupdateframework/python-tuf/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "theupdateframework/taps",
+      "status": "candidate",
+      "text": "* [TAP 1: TAP Purpose and Guidelines](tap1.md)"
     }
   ],
   "candidate_related_terms": [
@@ -84,11 +120,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "theupdateframework/go-tuf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "theupdateframework/python-tuf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "theupdateframework/taps"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

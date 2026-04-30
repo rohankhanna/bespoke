@@ -1,0 +1,73 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nikitabobko/brew-install-path",
+      "target": "brew",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nikitabobko/brew-install-path",
+      "target": "homebrew",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nikitabobko/brew-install-path",
+      "target": "macos",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T20:03:57.541094+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2045
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Simple script that allows installing homebrew formulas/casks from paths",
+    "fork": false,
+    "full_name": "nikitabobko/brew-install-path",
+    "html_url": "https://github.com/nikitabobko/brew-install-path",
+    "language": "Ruby",
+    "pushed_at": "2025-11-12T23:44:28Z",
+    "stargazers_count": 10,
+    "topics": [
+      "brew",
+      "homebrew",
+      "mac",
+      "macos"
+    ],
+    "updated_at": "2026-04-20T07:51:21Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Homebrew 4.6.4 introduced a breaking change that disabled the possibility of installing formulas/casks from paths.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "brew"
+    },
+    {
+      "context_snippet": "Homebrew 4.6.4 introduced a breaking change that disabled the possibility of installing formulas/casks from paths.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "homebrew"
+    },
+    {
+      "context_snippet": "Homebrew 4.6.4 introduced a breaking change that disabled the possibility of installing formulas/casks from paths.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    }
+  ]
+}

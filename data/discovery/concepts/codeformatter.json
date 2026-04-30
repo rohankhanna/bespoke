@@ -55,6 +55,18 @@
       "source_repo": "hhatto/autopep8",
       "status": "candidate-context",
       "text": "========"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Koihik/LuaFormatter",
+      "status": "candidate-context",
+      "text": "Code formatter for Lua"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Koihik/LuaFormatter",
+      "status": "candidate-context",
+      "text": "Reformats your Lua source code."
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "hhatto/autopep8",
       "status": "candidate",
       "text": "========"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Koihik/LuaFormatter",
+      "status": "candidate",
+      "text": "Reformats your Lua source code."
     }
   ],
   "candidate_related_terms": [],
@@ -172,11 +190,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "psf/black"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "Koihik/LuaFormatter"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HRNet/HRNet-Image-Classification",
+      "target": "leoxiaobin/deep-high-resolution-net.pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HRNet/HRNet-Image-Classification",
+      "target": "hrnet/hrnet-semantic-segmentation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HRNet/HRNet-Image-Classification",
+      "target": "hrnet/hrnet-object-detection",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HRNet/HRNet-Image-Classification",
+      "target": "hrnet/hrnet-facial-landmark-detection",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HRNet/HRNet-Image-Classification",
+      "target": "high-resolution-net",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HRNet/HRNet-Image-Classification",
+      "target": "hrnets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HRNet/HRNet-Image-Classification",
+      "target": "image-classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HRNet/HRNet-Image-Classification",
+      "target": "imagenet",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T18:36:26.757967+00:00",
+  "source_repo": "HRNet/HRNet-Image-Classification"
+}

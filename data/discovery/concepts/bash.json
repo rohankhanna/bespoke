@@ -697,6 +697,18 @@
       "source_repo": "ehmicky/fetch-node-website",
       "status": "candidate-context",
       "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/fetch-node-website)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "drduh/pwd.sh",
+      "status": "candidate-context",
+      "text": "GnuPG symmetric secrets manager using Bash."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drduh/pwd.sh",
+      "status": "candidate-context",
+      "text": "pwd.sh is a Bash shell script to manage text-based secrets, such as passwords."
     }
   ],
   "candidate_glosses": [
@@ -1041,6 +1053,12 @@
       "source_repo": "ehmicky/fetch-node-website",
       "status": "candidate",
       "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/fetch-node-website)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drduh/pwd.sh",
+      "status": "candidate",
+      "text": "pwd.sh is a Bash shell script to manage text-based secrets, such as passwords."
     }
   ],
   "candidate_related_terms": [
@@ -1630,11 +1648,29 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "rbenv/rbenv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "babashka/babashka"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/micromatch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "drduh/pwd.sh"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

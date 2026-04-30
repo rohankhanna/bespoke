@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "i18next-cli"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dreamscached/i18next-cli-plugin-svelte",
+      "status": "candidate-context",
+      "text": "\ud83d\udcdc i18next-cli plugin to extract Javascript/Typescript from Svelte components"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dreamscached/i18next-cli-plugin-svelte",
+      "status": "candidate-context",
+      "text": "[![GitHub branch check runs](https://img.shields.io/github/check-runs/dreamscached/i18next-cli-plugin-svelte/master)](https://github.com/dreamscached/i18next-cli-plugin-svelte/actions/workflows/checks.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PBK-B/i18next-cli-vue",
+      "status": "candidate-context",
+      "text": "i18next-cli plugin for extracting i18n keys from Vue SFC files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PBK-B/i18next-cli-vue",
+      "status": "candidate-context",
+      "text": "[![npm version](https://img.shields.io/npm/v/i18next-cli-vue.svg)](https://www.npmjs.com/package/i18next-cli-vue) [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) [![Vue 2.6+](https://img.shields.io/badge/Vue-2.6+-41b883.svg)](https://vuejs.org/) [![Vue 3\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dreamscached/i18next-cli-plugin-svelte",
+      "status": "candidate",
+      "text": "[![GitHub branch check runs](https://img.shields.io/github/check-runs/dreamscached/i18next-cli-plugin-svelte/master)](https://github.com/dreamscached/i18next-cli-plugin-svelte/actions/workflows/checks.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PBK-B/i18next-cli-vue",
+      "status": "candidate",
+      "text": "[![npm version](https://img.shields.io/npm/v/i18next-cli-vue.svg)](https://www.npmjs.com/package/i18next-cli-vue) [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) [![Vue 2.6+](https://img.shields.io/badge/Vue-2.6+-41b883.svg)](https://vuejs.org/) [![Vue 3\u2026"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "i18next-cli",
+  "concept_id": "i18next-cli",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "dreamscached/i18next-cli-plugin-svelte"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "PBK-B/i18next-cli-vue"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "i18next-cli",
+      "sense_id": "i18next-cli#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

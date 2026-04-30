@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -36,6 +36,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "sdras/ecommerce-netlify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "better-auth/better-auth"
     }
   ],
   "term": "stripe"

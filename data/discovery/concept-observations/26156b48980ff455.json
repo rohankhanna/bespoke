@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A JavaScript engine optimized for running React Native."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "build-hermesc-linux"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "build-hermesc-linux"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "build-hermesc-linux",
+      "sense_id": "build-hermesc-linux#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-hermesc-linux",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-hermesc-linux",
+  "observation_id": "26156b48980ff455",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "build-hermesc-linux",
+  "source_context_snippet": "build-hermesc-linux",
+  "source_file": ".github/workflows/build-hermesc-linux.yml",
+  "source_repo": "facebook/hermes",
+  "source_repo_description": "A JavaScript engine optimized for running React Native."
+}

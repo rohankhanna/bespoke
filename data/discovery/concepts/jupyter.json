@@ -343,6 +343,18 @@
       "source_repo": "akabe/ocaml-jupyter",
       "status": "candidate-context",
       "text": "[![Jupyter protocol][protocol-img]][protocol] [![License][license-img]][license] [![CI](https://github.com/akabe/ocaml-jupyter/actions/workflows/ci.yaml/badge.svg)](https://github.com/akabe/ocaml-jupyter/actions/workflows/ci.yaml) [![Sponsor](https://img.shields.io/static/v1?lab\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ufoym/deepo",
+      "status": "candidate-context",
+      "text": "Setup and customize deep learning environment in seconds."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ufoym/deepo",
+      "status": "candidate-context",
+      "text": "![deepo](https://user-images.githubusercontent.com/2270240/32102393-aecf573c-bb4e-11e7-811c-dc673cae7b9c.png)"
     }
   ],
   "candidate_glosses": [
@@ -513,6 +525,12 @@
       "source_repo": "akabe/ocaml-jupyter",
       "status": "candidate",
       "text": "[![Jupyter protocol][protocol-img]][protocol] [![License][license-img]][license] [![CI](https://github.com/akabe/ocaml-jupyter/actions/workflows/ci.yaml/badge.svg)](https://github.com/akabe/ocaml-jupyter/actions/workflows/ci.yaml) [![Sponsor](https://img.shields.io/static/v1?lab\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ufoym/deepo",
+      "status": "candidate",
+      "text": "![deepo](https://user-images.githubusercontent.com/2270240/32102393-aecf573c-bb4e-11e7-811c-dc673cae7b9c.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -754,11 +772,29 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "akabe/ocaml-jupyter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "ufoym/deepo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "jupyter-server/jupyter_server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "jupyter/nbclassic"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

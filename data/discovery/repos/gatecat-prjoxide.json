@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gatecat/prjoxide",
+      "target": "symbiflow/fpga-interchange-schema",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gatecat/prjoxide",
+      "target": "gregdavill/ecpprog",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:46:30.341289+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3823
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Documenting Lattice's 28nm FPGA parts",
+    "fork": false,
+    "full_name": "gatecat/prjoxide",
+    "html_url": "https://github.com/gatecat/prjoxide",
+    "language": "Python",
+    "pushed_at": "2026-02-26T14:26:23Z",
+    "stargazers_count": 150,
+    "topics": [],
+    "updated_at": "2026-04-26T16:42:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gregdavill/ecpprog",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "symbiflow/fpga-interchange-schema",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

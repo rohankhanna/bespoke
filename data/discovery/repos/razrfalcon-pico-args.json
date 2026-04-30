@@ -1,0 +1,88 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RazrFalcon/pico-args",
+      "target": "rust-cli/argparse-benchmarks-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "RazrFalcon/pico-args",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "RazrFalcon/pico-args",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "RazrFalcon/pico-args",
+      "target": "Rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:50:19.267747+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2905
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 447
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 837
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An ultra simple CLI arguments parser.",
+    "fork": false,
+    "full_name": "RazrFalcon/pico-args",
+    "html_url": "https://github.com/RazrFalcon/pico-args",
+    "language": "Rust",
+    "pushed_at": "2023-10-19T07:31:56Z",
+    "stargazers_count": 634,
+    "topics": [],
+    "updated_at": "2026-04-13T05:53:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rust-cli/argparse-benchmarks-rs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Rust",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Rust"
+    }
+  ]
+}

@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "windows-service"
+    "windows-service",
+    "Windows Service"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -31,6 +34,18 @@
       "source_repo": "jenkinsci/winsw-maven-packaging",
       "status": "candidate-context",
       "text": "Maven Packaging for [Windows Service Wrapper](https://github.com/winsw/winsw)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "getlantern/lantern",
+      "status": "candidate-context",
+      "text": "Open-source VPN for speed, privacy, and censorship circumvention. Free to download on Android, iOS, Windows, macOS, and Linux."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getlantern/lantern",
+      "status": "candidate-context",
+      "text": "Windows Service"
     }
   ],
   "candidate_glosses": [
@@ -45,9 +60,51 @@
       "source_repo": "jenkinsci/winsw-maven-packaging",
       "status": "candidate",
       "text": "Maven Packaging for [Windows Service Wrapper](https://github.com/winsw/winsw)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getlantern/lantern",
+      "status": "candidate",
+      "text": "Windows Service"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12529,
+      "status": "candidate",
+      "text": "dos"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12529,
+      "status": "candidate",
+      "text": "tint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12486,
+      "status": "candidate",
+      "text": "user"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12486,
+      "status": "candidate",
+      "text": "usn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12486,
+      "status": "candidate",
+      "text": "vista"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "windows-service",
   "concept_id": "windows-service",
@@ -70,11 +127,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "winsw/winsw"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/build-windows-service.yml",
+      "source_repo": "getlantern/lantern"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

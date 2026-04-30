@@ -91,6 +91,18 @@
       "source_repo": "2KAbhishek/octohub.nvim",
       "status": "candidate-context",
       "text": "CI Lint and Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/utils.nvim",
+      "status": "candidate-context",
+      "text": "Powerful Utilities for Neovim Plugin Devs \ud83d\udee0\ufe0f\ud83e\uddf0"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/utils.nvim",
+      "status": "candidate-context",
+      "text": "CI Lint and Test"
     }
   ],
   "candidate_glosses": [
@@ -133,6 +145,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "2KAbhishek/octohub.nvim",
+      "status": "candidate",
+      "text": "CI Lint and Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/utils.nvim",
       "status": "candidate",
       "text": "CI Lint and Test"
     }
@@ -220,11 +238,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "2KAbhishek/octohub.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "2KAbhishek/utils.nvim"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

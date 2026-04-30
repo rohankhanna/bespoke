@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Unit Test Shard Matrix"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Dicklesworthstone/frankensqlite",
+      "status": "candidate-context",
+      "text": "Independent ground-up Rust reimplementation of SQLite with concurrent writers and information-theoretic durability"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dicklesworthstone/frankensqlite",
+      "status": "candidate-context",
+      "text": "Unit Test Shard Matrix"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dicklesworthstone/frankensqlite",
+      "status": "candidate",
+      "text": "Unit Test Shard Matrix"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34253,
+      "status": "candidate",
+      "text": "megaton"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26132,
+      "status": "candidate",
+      "text": "cis-trans test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23645,
+      "status": "candidate",
+      "text": "light"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23645,
+      "status": "candidate",
+      "text": "magnitude"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23532,
+      "status": "candidate",
+      "text": "splinter"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Unit Test Shard Matrix",
+  "concept_id": "unit-test-shard-matrix",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/unit-test-shard-matrix.yml",
+      "source_repo": "Dicklesworthstone/frankensqlite"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Unit Test Shard Matrix",
+      "sense_id": "unit-test-shard-matrix#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

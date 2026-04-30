@@ -331,6 +331,18 @@
       "source_repo": "HumanSignal/label-studio",
       "status": "candidate-context",
       "text": "<img src=\"https://user-images.githubusercontent.com/12534576/192582340-4c9e4401-1fe6-4dbb-95bb-fdbba5493f61.png\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HRNet/HRNet-Image-Classification",
+      "status": "candidate-context",
+      "text": "Train the HRNet model on ImageNet"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HRNet/HRNet-Image-Classification",
+      "status": "candidate-context",
+      "text": "- [2021/01/20] Add some stronger ImageNet pretrained models, e.g., the HRNet_W48_C_ssld_pretrained.pth achieved top-1 acc 83.6%."
     }
   ],
   "candidate_glosses": [
@@ -495,6 +507,12 @@
       "source_repo": "HumanSignal/label-studio",
       "status": "candidate",
       "text": "<img src=\"https://user-images.githubusercontent.com/12534576/192582340-4c9e4401-1fe6-4dbb-95bb-fdbba5493f61.png\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HRNet/HRNet-Image-Classification",
+      "status": "candidate",
+      "text": "- [2021/01/20] Add some stronger ImageNet pretrained models, e.g., the HRNet_W48_C_ssld_pretrained.pth achieved top-1 acc 83.6%."
     }
   ],
   "candidate_related_terms": [],
@@ -736,11 +754,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "cvat-ai/cvat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "HRNet/HRNet-Image-Classification"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T18:37:40.489751+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 614
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Manual for the C++ vector class library",
+    "fork": false,
+    "full_name": "vectorclass/manual",
+    "html_url": "https://github.com/vectorclass/manual",
+    "language": "TeX",
+    "pushed_at": "2023-11-25T08:31:47Z",
+    "stargazers_count": 33,
+    "topics": [],
+    "updated_at": "2026-03-14T18:23:59Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

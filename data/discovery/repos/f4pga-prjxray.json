@@ -1,0 +1,320 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Pipeline.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Pipeline.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Pipeline.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Pipeline.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "f4pga/prjxray",
+      "target": "kijewski/pyjson5",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "f4pga/prjxray",
+      "target": "f4pga/prjxray-db",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "f4pga/prjxray",
+      "target": "wking/signed-off-by",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "f4pga/prjxray",
+      "target": "probot/dco",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Automerge.yml",
+      "source_repo": "f4pga/prjxray",
+      "target": "Automerge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Pipeline.yml",
+      "source_repo": "f4pga/prjxray",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Pipeline.yml",
+      "source_repo": "f4pga/prjxray",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Pipeline.yml",
+      "source_repo": "f4pga/prjxray",
+      "target": "Pipeline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "f4pga/prjxray",
+      "target": "artix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "f4pga/prjxray",
+      "target": "artix7",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "f4pga/prjxray",
+      "target": "bitstream",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "f4pga/prjxray",
+      "target": "fpga",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "f4pga/prjxray",
+      "target": "fuzzer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "f4pga/prjxray",
+      "target": "kintex7",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "f4pga/prjxray",
+      "target": "symbiflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "f4pga/prjxray",
+      "target": "toolchain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "f4pga/prjxray",
+      "target": "tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "f4pga/prjxray",
+      "target": "vivado",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "f4pga/prjxray",
+      "target": "xilinx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "f4pga/prjxray",
+      "target": "xilinx-fpga",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:46:25.858767+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11358
+    },
+    {
+      "path": "requirements.txt",
+      "size": 227
+    },
+    {
+      "path": ".github/workflows/Automerge.yml",
+      "size": 838
+    },
+    {
+      "path": ".github/workflows/Pipeline.yml",
+      "size": 3366
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Documenting the Xilinx 7-series bit-stream format.",
+    "fork": false,
+    "full_name": "f4pga/prjxray",
+    "html_url": "https://github.com/f4pga/prjxray",
+    "language": "Python",
+    "pushed_at": "2025-06-05T15:15:54Z",
+    "stargazers_count": 875,
+    "topics": [
+      "artix",
+      "artix7",
+      "bitstream",
+      "fpga",
+      "fuzzer",
+      "kintex7",
+      "symbiflow",
+      "toolchain",
+      "tools",
+      "vivado",
+      "xilinx",
+      "xilinx-fpga"
+    ],
+    "updated_at": "2026-04-28T16:53:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "f4pga/prjxray-db",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kijewski/pyjson5",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "probot/dco",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wking/signed-off-by",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Automerge",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Automerge.yml",
+      "term": "Automerge"
+    },
+    {
+      "context_snippet": "Pipeline",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Pipeline.yml",
+      "term": "Pipeline"
+    },
+    {
+      "context_snippet": "[![Documentation Status](https://img.shields.io/readthedocs/prjxray?longCache=true&style=flat-square&logo=ReadTheDocs&logoColor=fff)](http://prjxray.readthedocs.org/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artix"
+    },
+    {
+      "context_snippet": "[![Documentation Status](https://img.shields.io/readthedocs/prjxray?longCache=true&style=flat-square&logo=ReadTheDocs&logoColor=fff)](http://prjxray.readthedocs.org/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artix7"
+    },
+    {
+      "context_snippet": "[![Documentation Status](https://img.shields.io/readthedocs/prjxray?longCache=true&style=flat-square&logo=ReadTheDocs&logoColor=fff)](http://prjxray.readthedocs.org/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bitstream"
+    },
+    {
+      "context_snippet": "[![Documentation Status](https://img.shields.io/readthedocs/prjxray?longCache=true&style=flat-square&logo=ReadTheDocs&logoColor=fff)](http://prjxray.readthedocs.org/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fpga"
+    },
+    {
+      "context_snippet": "[![Documentation Status](https://img.shields.io/readthedocs/prjxray?longCache=true&style=flat-square&logo=ReadTheDocs&logoColor=fff)](http://prjxray.readthedocs.org/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fuzzer"
+    },
+    {
+      "context_snippet": "[![Documentation Status](https://img.shields.io/readthedocs/prjxray?longCache=true&style=flat-square&logo=ReadTheDocs&logoColor=fff)](http://prjxray.readthedocs.org/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kintex7"
+    },
+    {
+      "context_snippet": "[![Documentation Status](https://img.shields.io/readthedocs/prjxray?longCache=true&style=flat-square&logo=ReadTheDocs&logoColor=fff)](http://prjxray.readthedocs.org/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "symbiflow"
+    },
+    {
+      "context_snippet": "[![Documentation Status](https://img.shields.io/readthedocs/prjxray?longCache=true&style=flat-square&logo=ReadTheDocs&logoColor=fff)](http://prjxray.readthedocs.org/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "toolchain"
+    },
+    {
+      "context_snippet": "[![Documentation Status](https://img.shields.io/readthedocs/prjxray?longCache=true&style=flat-square&logo=ReadTheDocs&logoColor=fff)](http://prjxray.readthedocs.org/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tools"
+    },
+    {
+      "context_snippet": "[![Documentation Status](https://img.shields.io/readthedocs/prjxray?longCache=true&style=flat-square&logo=ReadTheDocs&logoColor=fff)](http://prjxray.readthedocs.org/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vivado"
+    },
+    {
+      "context_snippet": "[![Documentation Status](https://img.shields.io/readthedocs/prjxray?longCache=true&style=flat-square&logo=ReadTheDocs&logoColor=fff)](http://prjxray.readthedocs.org/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xilinx"
+    },
+    {
+      "context_snippet": "[![Documentation Status](https://img.shields.io/readthedocs/prjxray?longCache=true&style=flat-square&logo=ReadTheDocs&logoColor=fff)](http://prjxray.readthedocs.org/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xilinx-fpga"
+    }
+  ]
+}

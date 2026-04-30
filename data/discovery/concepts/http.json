@@ -1075,6 +1075,18 @@
       "source_repo": "ninenines/gun",
       "status": "candidate-context",
       "text": "Check Gun"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kludex/starlette",
+      "status": "candidate-context",
+      "text": "The little ASGI framework that shines. \ud83c\udf1f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kludex/starlette",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -1611,6 +1623,12 @@
       "source_repo": "ninenines/gun",
       "status": "candidate",
       "text": "Check Gun"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kludex/starlette",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -2346,11 +2364,29 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "ninenines/gun"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "Kludex/starlette"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-fasthttp-auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "TooTallNate/proxy-agents"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,275 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-check.yml"
+    },
+    {
+      "component": "actions/dependency-review-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-check.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "languagetool-org/languagetool",
+      "target": "meyayl/docker-languagetool",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "languagetool-org/languagetool",
+      "target": "erikvl87/docker-languagetool",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "languagetool-org/languagetool",
+      "target": "silvio/docker-languagetool",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "languagetool-org/languagetool",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "languagetool-org/languagetool",
+      "target": "github/codeql-action/init@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "languagetool-org/languagetool",
+      "target": "github/codeql-action/autobuild@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "languagetool-org/languagetool",
+      "target": "github/codeql-action/analyze@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "languagetool-org/languagetool",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependency-check-ok.yml",
+      "source_repo": "languagetool-org/languagetool",
+      "target": "Dependency Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-check.yml",
+      "source_repo": "languagetool-org/languagetool",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-check.yml",
+      "source_repo": "languagetool-org/languagetool",
+      "target": "actions/dependency-review-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependency-check.yml",
+      "source_repo": "languagetool-org/languagetool",
+      "target": "Dependency Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "languagetool-org/languagetool",
+      "target": "grammar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "languagetool-org/languagetool",
+      "target": "natural-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "languagetool-org/languagetool",
+      "target": "natural-language-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "languagetool-org/languagetool",
+      "target": "proofreading",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "languagetool-org/languagetool",
+      "target": "spellcheck",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "languagetool-org/languagetool",
+      "target": "style-checker",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:05:27.474531+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5923
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 2513
+    },
+    {
+      "path": ".github/workflows/dependency-check-ok.yml",
+      "size": 221
+    },
+    {
+      "path": ".github/workflows/dependency-check.yml",
+      "size": 325
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Style and Grammar Checker for 25+ Languages",
+    "fork": false,
+    "full_name": "languagetool-org/languagetool",
+    "html_url": "https://github.com/languagetool-org/languagetool",
+    "language": "Java",
+    "pushed_at": "2026-04-30T16:33:33Z",
+    "stargazers_count": 14423,
+    "topics": [
+      "grammar",
+      "natural-language",
+      "natural-language-processing",
+      "proofreading",
+      "spellcheck",
+      "style-checker"
+    ],
+    "updated_at": "2026-04-30T16:34:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "erikvl87/docker-languagetool",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "meyayl/docker-languagetool",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "silvio/docker-languagetool",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "'Dependency Review'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependency-check-ok.yml",
+      "term": "Dependency Review"
+    },
+    {
+      "context_snippet": "'Dependency Review'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependency-check.yml",
+      "term": "Dependency Review"
+    },
+    {
+      "context_snippet": "**LanguageTool** is open-source proofreading software for English, Spanish, French, German,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grammar"
+    },
+    {
+      "context_snippet": "**LanguageTool** is open-source proofreading software for English, Spanish, French, German,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "natural-language"
+    },
+    {
+      "context_snippet": "**LanguageTool** is open-source proofreading software for English, Spanish, French, German,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "natural-language-processing"
+    },
+    {
+      "context_snippet": "**LanguageTool** is open-source proofreading software for English, Spanish, French, German,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "proofreading"
+    },
+    {
+      "context_snippet": "**LanguageTool** is open-source proofreading software for English, Spanish, French, German,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spellcheck"
+    },
+    {
+      "context_snippet": "**LanguageTool** is open-source proofreading software for English, Spanish, French, German,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "style-checker"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T18:37:15.457749+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 80
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Contributors of WeNet, including individual and companies.",
+    "fork": false,
+    "full_name": "wenet-e2e/wenet-contributors",
+    "html_url": "https://github.com/wenet-e2e/wenet-contributors",
+    "language": null,
+    "pushed_at": "2023-02-13T11:28:12Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2023-04-30T01:54:33Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

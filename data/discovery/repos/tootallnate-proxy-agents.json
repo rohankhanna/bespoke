@@ -286,7 +286,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T06:58:32.471761+00:00",
+  "fetched_at": "2026-04-30T19:49:00.155703+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -315,7 +315,7 @@
     "html_url": "https://github.com/TooTallNate/proxy-agents",
     "language": "TypeScript",
     "pushed_at": "2026-04-17T00:52:51Z",
-    "stargazers_count": 1135,
+    "stargazers_count": 1137,
     "topics": [
       "agent",
       "http",
@@ -325,7 +325,7 @@
       "proxy",
       "socks"
     ],
-    "updated_at": "2026-04-16T06:55:44Z"
+    "updated_at": "2026-04-30T13:57:23Z"
   },
   "repo_links": [],
   "terms": [

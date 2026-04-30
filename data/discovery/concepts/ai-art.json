@@ -67,6 +67,18 @@
       "source_repo": "rewbs/sd-parseq",
       "status": "candidate-context",
       "text": "![example workflow](https://github.com/rewbs/sd-parseq/actions/workflows/firebase-hosting-merge.yml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "poloclub/diffusiondb",
+      "status": "candidate-context",
+      "text": "A large-scale text-to-image prompt gallery dataset based on Stable Diffusion"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "poloclub/diffusiondb",
+      "status": "candidate-context",
+      "text": "[![hugging](https://img.shields.io/badge/\ud83e\udd17%20Hugging%20Face-Datasets-yellow)](https://huggingface.co/datasets/poloclub/diffusiondb)"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "rewbs/sd-parseq",
       "status": "candidate",
       "text": "![example workflow](https://github.com/rewbs/sd-parseq/actions/workflows/firebase-hosting-merge.yml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "poloclub/diffusiondb",
+      "status": "candidate",
+      "text": "[![hugging](https://img.shields.io/badge/\ud83e\udd17%20Hugging%20Face-Datasets-yellow)](https://huggingface.co/datasets/poloclub/diffusiondb)"
     }
   ],
   "candidate_related_terms": [],
@@ -154,11 +172,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "invoke-ai/InvokeAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "poloclub/diffusiondb"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

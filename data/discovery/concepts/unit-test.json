@@ -147,6 +147,18 @@
       "source_repo": "rolldown/tsdown",
       "status": "candidate-context",
       "text": "Unit Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaDocs/DemoCards.jl",
+      "status": "candidate-context",
+      "text": "Let's focus on writing demos"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDocs/DemoCards.jl",
+      "status": "candidate-context",
+      "text": "Unit test"
     }
   ],
   "candidate_glosses": [
@@ -227,6 +239,12 @@
       "source_repo": "rolldown/tsdown",
       "status": "candidate",
       "text": "Unit Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDocs/DemoCards.jl",
+      "status": "candidate",
+      "text": "Unit test"
     }
   ],
   "candidate_related_terms": [
@@ -438,11 +456,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/UnitTests.yml",
       "source_repo": "AI-Hypercomputer/maxdiffusion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/UnitTest.yml",
+      "source_repo": "JuliaDocs/DemoCards.jl"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

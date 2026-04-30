@@ -1,0 +1,135 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ozkriff/awesome-quads",
+      "target": "andreivasiliu/cybersub",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ozkriff/awesome-quads",
+      "target": "baehyunsol/quoridor-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ozkriff/awesome-quads",
+      "target": "0b01/tigris-and-euphrates",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ozkriff/awesome-quads",
+      "target": "adambiltcliffe/macroquad-jfa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ozkriff/awesome-quads",
+      "target": "awesome-list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ozkriff/awesome-quads",
+      "target": "gamedev",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ozkriff/awesome-quads",
+      "target": "opensource",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ozkriff/awesome-quads",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:50:03.186050+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18123
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u25a6\u29c9\u229e\u25a1 A curated list of links to miniquad/macroquad-related code & resources",
+    "fork": false,
+    "full_name": "ozkriff/awesome-quads",
+    "html_url": "https://github.com/ozkriff/awesome-quads",
+    "language": null,
+    "pushed_at": "2025-08-11T15:19:15Z",
+    "stargazers_count": 243,
+    "topics": [
+      "awesome-list",
+      "gamedev",
+      "opensource",
+      "rust"
+    ],
+    "updated_at": "2026-04-26T11:14:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "0b01/tigris-and-euphrates",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adambiltcliffe/macroquad-jfa",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "andreivasiliu/cybersub",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "baehyunsol/quoridor-rs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A curated list of links to miniquad/macroquad-related code & resources.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome-list"
+    },
+    {
+      "context_snippet": "A curated list of links to miniquad/macroquad-related code & resources.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gamedev"
+    },
+    {
+      "context_snippet": "A curated list of links to miniquad/macroquad-related code & resources.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opensource"
+    },
+    {
+      "context_snippet": "A curated list of links to miniquad/macroquad-related code & resources.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

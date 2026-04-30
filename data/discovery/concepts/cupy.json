@@ -67,6 +67,18 @@
       "source_repo": "chainer/chainercv",
       "status": "candidate-context",
       "text": "[![](docs/images/logo.png)](http://chainercv.readthedocs.io/en/stable/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tsurumeso/waifu2x-chainer",
+      "status": "candidate-context",
+      "text": "Chainer implementation of waifu2x"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tsurumeso/waifu2x-chainer",
+      "status": "candidate-context",
+      "text": "This is a Chainer implementation of waifu2x [[1]](https://github.com/nagadomi/waifu2x)."
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "chainer/chainercv",
       "status": "candidate",
       "text": "[![](docs/images/logo.png)](http://chainercv.readthedocs.io/en/stable/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tsurumeso/waifu2x-chainer",
+      "status": "candidate",
+      "text": "This is a Chainer implementation of waifu2x [[1]](https://github.com/nagadomi/waifu2x)."
     }
   ],
   "candidate_related_terms": [
@@ -172,11 +190,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "chainer/chainercv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "tsurumeso/waifu2x-chainer"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

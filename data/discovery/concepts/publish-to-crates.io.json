@@ -103,6 +103,42 @@
       "source_repo": "rust-lang/rust-semverver",
       "status": "candidate-context",
       "text": "Publish to crates.io"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RustCrypto/crypto-bigint",
+      "status": "candidate-context",
+      "text": "Cryptography-oriented big integer library with constant-time, stack-allocated (no_std-friendly) implementations of modern formulas"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RustCrypto/crypto-bigint",
+      "status": "candidate-context",
+      "text": "Publish to crates.io"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RustCrypto/MACs",
+      "status": "candidate-context",
+      "text": "Message authentication code algorithms written in pure Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RustCrypto/MACs",
+      "status": "candidate-context",
+      "text": "Publish to crates.io"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RustCrypto/password-hashes",
+      "status": "candidate-context",
+      "text": "Password hashing functions / KDFs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RustCrypto/password-hashes",
+      "status": "candidate-context",
+      "text": "Publish to crates.io"
     }
   ],
   "candidate_glosses": [
@@ -151,6 +187,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "rust-lang/rust-semverver",
+      "status": "candidate",
+      "text": "Publish to crates.io"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RustCrypto/crypto-bigint",
+      "status": "candidate",
+      "text": "Publish to crates.io"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RustCrypto/MACs",
+      "status": "candidate",
+      "text": "Publish to crates.io"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RustCrypto/password-hashes",
       "status": "candidate",
       "text": "Publish to crates.io"
     }
@@ -256,11 +310,29 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/deploy.yml",
       "source_repo": "kurrent-io/KurrentDB-Client-Rust"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "RustCrypto/crypto-bigint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "RustCrypto/MACs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "RustCrypto/password-hashes"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

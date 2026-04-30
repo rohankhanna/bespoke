@@ -1,0 +1,87 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tsurumeso/waifu2x-chainer",
+      "target": "caffe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tsurumeso/waifu2x-chainer",
+      "target": "chainer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tsurumeso/waifu2x-chainer",
+      "target": "cupy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tsurumeso/waifu2x-chainer",
+      "target": "waifu2x",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:40:35.024477+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3030
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Chainer implementation of waifu2x",
+    "fork": false,
+    "full_name": "tsurumeso/waifu2x-chainer",
+    "html_url": "https://github.com/tsurumeso/waifu2x-chainer",
+    "language": "Python",
+    "pushed_at": "2023-04-05T23:42:41Z",
+    "stargazers_count": 168,
+    "topics": [
+      "caffe",
+      "chainer",
+      "cupy",
+      "python",
+      "waifu2x"
+    ],
+    "updated_at": "2026-04-12T03:04:09Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This is a Chainer implementation of waifu2x [[1]](https://github.com/nagadomi/waifu2x).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "caffe"
+    },
+    {
+      "context_snippet": "This is a Chainer implementation of waifu2x [[1]](https://github.com/nagadomi/waifu2x).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chainer"
+    },
+    {
+      "context_snippet": "This is a Chainer implementation of waifu2x [[1]](https://github.com/nagadomi/waifu2x).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cupy"
+    },
+    {
+      "context_snippet": "This is a Chainer implementation of waifu2x [[1]](https://github.com/nagadomi/waifu2x).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "waifu2x"
+    }
+  ]
+}

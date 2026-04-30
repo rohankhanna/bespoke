@@ -595,6 +595,30 @@
       "source_repo": "niuiic/awesome-neovim-plugins",
       "status": "candidate-context",
       "text": "Awesome neovim plugins I have written."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ozkriff/awesome-quads",
+      "status": "candidate-context",
+      "text": "\u25a6\u29c9\u229e\u25a1 A curated list of links to miniquad/macroquad-related code & resources"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ozkriff/awesome-quads",
+      "status": "candidate-context",
+      "text": "A curated list of links to miniquad/macroquad-related code & resources."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "veggiemonk/awesome-docker",
+      "status": "candidate-context",
+      "text": ":whale: A curated list of Docker resources and projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "veggiemonk/awesome-docker",
+      "status": "candidate-context",
+      "text": "> A curated list of Docker resources and projects"
     }
   ],
   "candidate_glosses": [
@@ -885,6 +909,18 @@
       "source_repo": "niuiic/awesome-neovim-plugins",
       "status": "candidate",
       "text": "Awesome neovim plugins I have written."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ozkriff/awesome-quads",
+      "status": "candidate",
+      "text": "A curated list of links to miniquad/macroquad-related code & resources."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "veggiemonk/awesome-docker",
+      "status": "candidate",
+      "text": "> A curated list of Docker resources and projects"
     }
   ],
   "candidate_related_terms": [],
@@ -1252,11 +1288,29 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "niuiic/awesome-neovim-plugins"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "ozkriff/awesome-quads"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "rstackjs/awesome-rstack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "veggiemonk/awesome-docker"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

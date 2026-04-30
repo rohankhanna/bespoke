@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Luacheck"
+    "Luacheck",
+    "LuaCheck"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -67,6 +68,30 @@
       "source_repo": "ColinKennedy/nvim-best-practices-plugin-template",
       "status": "candidate-context",
       "text": "Luacheck"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chentau/marks.nvim",
+      "status": "candidate-context",
+      "text": "A better user experience for viewing and interacting with Vim marks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chentau/marks.nvim",
+      "status": "candidate-context",
+      "text": "LuaCheck"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jeffzi/llscheck",
+      "status": "candidate-context",
+      "text": "Convert Lua Language Server diagnostics for human and CI friendly interpretation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jeffzi/llscheck",
+      "status": "candidate-context",
+      "text": "Luacheck"
     }
   ],
   "candidate_glosses": [
@@ -97,6 +122,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ColinKennedy/nvim-best-practices-plugin-template",
+      "status": "candidate",
+      "text": "Luacheck"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chentau/marks.nvim",
+      "status": "candidate",
+      "text": "LuaCheck"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jeffzi/llscheck",
       "status": "candidate",
       "text": "Luacheck"
     }
@@ -142,11 +179,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/luacheck.yml",
       "source_repo": "ColinKennedy/nvim-best-practices-plugin-template"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/luacheck.yml",
+      "source_repo": "chentau/marks.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/luacheck.yml",
+      "source_repo": "jeffzi/llscheck"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

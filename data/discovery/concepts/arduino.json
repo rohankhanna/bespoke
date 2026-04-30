@@ -67,6 +67,42 @@
       "source_repo": "olikraus/u8g2",
       "status": "candidate-context",
       "text": "[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/olikraus/u8g2)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MajicDesigns/MD_MAX72XX",
+      "status": "candidate-context",
+      "text": "LED Matrix Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MajicDesigns/MD_MAX72XX",
+      "status": "candidate-context",
+      "text": "[![arduino-library-badge](https://www.ardu-badge.com/badge/MD_MAX72XX.svg?)](https://www.ardu-badge.com/MD_MAX72XX)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MajicDesigns/MD_Parola",
+      "status": "candidate-context",
+      "text": "Library for modular scrolling LED matrix text displays"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MajicDesigns/MD_Parola",
+      "status": "candidate-context",
+      "text": "[![arduino-library-badge](https://www.ardu-badge.com/badge/MD_Parola.svg?)](https://www.ardu-badge.com/MD_Parola)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tzapu/WiFiManager",
+      "status": "candidate-context",
+      "text": "ESP8266 WiFi Connection manager with web captive portal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tzapu/WiFiManager",
+      "status": "candidate-context",
+      "text": "Espressif ESPx WiFi Connection manager with fallback web configuration portal"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +135,24 @@
       "source_repo": "olikraus/u8g2",
       "status": "candidate",
       "text": "[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/olikraus/u8g2)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MajicDesigns/MD_MAX72XX",
+      "status": "candidate",
+      "text": "[![arduino-library-badge](https://www.ardu-badge.com/badge/MD_MAX72XX.svg?)](https://www.ardu-badge.com/MD_MAX72XX)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MajicDesigns/MD_Parola",
+      "status": "candidate",
+      "text": "[![arduino-library-badge](https://www.ardu-badge.com/badge/MD_Parola.svg?)](https://www.ardu-badge.com/MD_Parola)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tzapu/WiFiManager",
+      "status": "candidate",
+      "text": "Espressif ESPx WiFi Connection manager with fallback web configuration portal"
     }
   ],
   "candidate_related_terms": [
@@ -172,11 +226,29 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "olikraus/u8g2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "MajicDesigns/MD_MAX72XX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "MajicDesigns/MD_Parola"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "tzapu/WiFiManager"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

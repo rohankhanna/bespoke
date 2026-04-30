@@ -1,0 +1,252 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "msys2/setup-msys2@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "powturbo/Turbo-Base64",
+      "target": "powturbo/turbobase64",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "powturbo/Turbo-Base64",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "powturbo/Turbo-Base64",
+      "target": "msys2/setup-msys2@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "powturbo/Turbo-Base64",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "powturbo/Turbo-Base64",
+      "target": "avx2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "powturbo/Turbo-Base64",
+      "target": "avx512",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "powturbo/Turbo-Base64",
+      "target": "base64",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "powturbo/Turbo-Base64",
+      "target": "base64-decoding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "powturbo/Turbo-Base64",
+      "target": "base64-encoding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "powturbo/Turbo-Base64",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "powturbo/Turbo-Base64",
+      "target": "encoding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "powturbo/Turbo-Base64",
+      "target": "encoding-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "powturbo/Turbo-Base64",
+      "target": "library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "powturbo/Turbo-Base64",
+      "target": "neon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "powturbo/Turbo-Base64",
+      "target": "simd",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:02:34.738726+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10360
+    },
+    {
+      "path": ".github/workflows/build.yaml",
+      "size": 1122
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Turbo Base64 - Fastest Base64 SIMD:SSE/AVX2/AVX512/Neon/Altivec - Faster than memcpy!",
+    "fork": false,
+    "full_name": "powturbo/Turbo-Base64",
+    "html_url": "https://github.com/powturbo/Turbo-Base64",
+    "language": "C",
+    "pushed_at": "2026-04-11T17:47:42Z",
+    "stargazers_count": 330,
+    "topics": [
+      "arm",
+      "avx",
+      "avx2",
+      "avx512",
+      "base64",
+      "base64-decoding",
+      "base64-encoding",
+      "benchmark",
+      "encoding",
+      "encoding-library",
+      "library",
+      "neon",
+      "simd",
+      "sse"
+    ],
+    "updated_at": "2026-04-16T13:51:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "powturbo/turbobase64",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "[![Build ubuntu](https://github.com/powturbo/Turbo-Base64/actions/workflows/build.yaml/badge.svg)](https://github.com/powturbo/Turbo-Base64/actions/workflows/build.yaml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "avx2"
+    },
+    {
+      "context_snippet": "[![Build ubuntu](https://github.com/powturbo/Turbo-Base64/actions/workflows/build.yaml/badge.svg)](https://github.com/powturbo/Turbo-Base64/actions/workflows/build.yaml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "avx512"
+    },
+    {
+      "context_snippet": "[![Build ubuntu](https://github.com/powturbo/Turbo-Base64/actions/workflows/build.yaml/badge.svg)](https://github.com/powturbo/Turbo-Base64/actions/workflows/build.yaml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "base64"
+    },
+    {
+      "context_snippet": "[![Build ubuntu](https://github.com/powturbo/Turbo-Base64/actions/workflows/build.yaml/badge.svg)](https://github.com/powturbo/Turbo-Base64/actions/workflows/build.yaml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "base64-decoding"
+    },
+    {
+      "context_snippet": "[![Build ubuntu](https://github.com/powturbo/Turbo-Base64/actions/workflows/build.yaml/badge.svg)](https://github.com/powturbo/Turbo-Base64/actions/workflows/build.yaml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "base64-encoding"
+    },
+    {
+      "context_snippet": "[![Build ubuntu](https://github.com/powturbo/Turbo-Base64/actions/workflows/build.yaml/badge.svg)](https://github.com/powturbo/Turbo-Base64/actions/workflows/build.yaml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "[![Build ubuntu](https://github.com/powturbo/Turbo-Base64/actions/workflows/build.yaml/badge.svg)](https://github.com/powturbo/Turbo-Base64/actions/workflows/build.yaml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "encoding"
+    },
+    {
+      "context_snippet": "[![Build ubuntu](https://github.com/powturbo/Turbo-Base64/actions/workflows/build.yaml/badge.svg)](https://github.com/powturbo/Turbo-Base64/actions/workflows/build.yaml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "encoding-library"
+    },
+    {
+      "context_snippet": "[![Build ubuntu](https://github.com/powturbo/Turbo-Base64/actions/workflows/build.yaml/badge.svg)](https://github.com/powturbo/Turbo-Base64/actions/workflows/build.yaml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "library"
+    },
+    {
+      "context_snippet": "[![Build ubuntu](https://github.com/powturbo/Turbo-Base64/actions/workflows/build.yaml/badge.svg)](https://github.com/powturbo/Turbo-Base64/actions/workflows/build.yaml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neon"
+    },
+    {
+      "context_snippet": "[![Build ubuntu](https://github.com/powturbo/Turbo-Base64/actions/workflows/build.yaml/badge.svg)](https://github.com/powturbo/Turbo-Base64/actions/workflows/build.yaml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simd"
+    }
+  ]
+}

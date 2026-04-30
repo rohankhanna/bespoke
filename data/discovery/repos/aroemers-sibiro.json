@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aroemers/sibiro",
+      "target": "mmcgrana/clj-routing",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aroemers/sibiro",
+      "target": "weavejester/clout",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aroemers/sibiro",
+      "target": "aroemers/sibiro-swagger",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:00:10.715834+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7064
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Simple bidirectional data-driven request routing for Clojure and ClojureScript",
+    "fork": false,
+    "full_name": "aroemers/sibiro",
+    "html_url": "https://github.com/aroemers/sibiro",
+    "language": "Clojure",
+    "pushed_at": "2024-05-24T19:40:30Z",
+    "stargazers_count": 46,
+    "topics": [],
+    "updated_at": "2025-08-31T14:43:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aroemers/sibiro-swagger",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mmcgrana/clj-routing",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "weavejester/clout",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

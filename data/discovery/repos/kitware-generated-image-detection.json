@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T18:42:27.578558+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1909
+    },
+    {
+      "path": "requirements.txt",
+      "size": 96
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "Kitware/generated-image-detection",
+    "html_url": "https://github.com/Kitware/generated-image-detection",
+    "language": "Python",
+    "pushed_at": "2024-03-06T17:34:04Z",
+    "stargazers_count": 16,
+    "topics": [],
+    "updated_at": "2025-03-03T10:53:46Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

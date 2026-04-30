@@ -1,0 +1,529 @@
+{
+  "components": [
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autotag.yaml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autotag.yaml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autotag.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-common.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-common.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-common.yml"
+    },
+    {
+      "component": "nttld/setup-ndk@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-common.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-common.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-common.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-common.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "shallwefootball/upload-s3-action@v1.3.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scripts.yml"
+    },
+    {
+      "component": "cloudflare/pages-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scripts.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autotag.yaml",
+      "source_repo": "apernet/hysteria",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autotag.yaml",
+      "source_repo": "apernet/hysteria",
+      "target": "Create release tags for nested modules",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-common.yml",
+      "source_repo": "apernet/hysteria",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-common.yml",
+      "source_repo": "apernet/hysteria",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-common.yml",
+      "source_repo": "apernet/hysteria",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-common.yml",
+      "source_repo": "apernet/hysteria",
+      "target": "nttld/setup-ndk@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-common.yml",
+      "source_repo": "apernet/hysteria",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-common.yml",
+      "source_repo": "apernet/hysteria",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-common.yml",
+      "source_repo": "apernet/hysteria",
+      "target": "Build common",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "apernet/hysteria",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "apernet/hysteria",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "apernet/hysteria",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "apernet/hysteria",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "apernet/hysteria",
+      "target": "docker/build-push-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "apernet/hysteria",
+      "target": "Build Docker Image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/experimental.yml",
+      "source_repo": "apernet/hysteria",
+      "target": "Build experimental branches",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/master.yml",
+      "source_repo": "apernet/hysteria",
+      "target": "Build master branch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apernet/hysteria",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apernet/hysteria",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apernet/hysteria",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apernet/hysteria",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apernet/hysteria",
+      "target": "shallwefootball/upload-s3-action@v1.3.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apernet/hysteria",
+      "target": "Build release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scripts.yml",
+      "source_repo": "apernet/hysteria",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scripts.yml",
+      "source_repo": "apernet/hysteria",
+      "target": "cloudflare/pages-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scripts.yml",
+      "source_repo": "apernet/hysteria",
+      "target": "Publish scripts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apernet/hysteria",
+      "target": "censorship-circumvention",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apernet/hysteria",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apernet/hysteria",
+      "target": "http-proxy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apernet/hysteria",
+      "target": "hysteria",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apernet/hysteria",
+      "target": "proxy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apernet/hysteria",
+      "target": "quic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apernet/hysteria",
+      "target": "relay",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apernet/hysteria",
+      "target": "reliable-udp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apernet/hysteria",
+      "target": "socks5",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:57:06.464173+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2258
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1335
+    },
+    {
+      "path": "requirements.txt",
+      "size": 260
+    },
+    {
+      "path": ".github/workflows/autotag.yaml",
+      "size": 3552
+    },
+    {
+      "path": ".github/workflows/build-common.yml",
+      "size": 1946
+    },
+    {
+      "path": ".github/workflows/docker.yml",
+      "size": 1171
+    },
+    {
+      "path": ".github/workflows/experimental.yml",
+      "size": 141
+    },
+    {
+      "path": ".github/workflows/master.yml",
+      "size": 133
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1452
+    },
+    {
+      "path": ".github/workflows/scripts.yml",
+      "size": 668
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Hysteria is a powerful, lightning fast and censorship resistant proxy.",
+    "fork": false,
+    "full_name": "apernet/hysteria",
+    "html_url": "https://github.com/apernet/hysteria",
+    "language": "Go",
+    "pushed_at": "2026-04-26T21:26:19Z",
+    "stargazers_count": 19822,
+    "topics": [
+      "censorship-circumvention",
+      "golang",
+      "http-proxy",
+      "hysteria",
+      "proxy",
+      "quic",
+      "relay",
+      "reliable-udp",
+      "socks5",
+      "tun",
+      "vpn"
+    ],
+    "updated_at": "2026-04-30T18:56:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"Create release tags for nested modules\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autotag.yaml",
+      "term": "Create release tags for nested modules"
+    },
+    {
+      "context_snippet": "\"Build common\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-common.yml",
+      "term": "Build common"
+    },
+    {
+      "context_snippet": "\"Build Docker Image\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "term": "Build Docker Image"
+    },
+    {
+      "context_snippet": "\"Build experimental branches\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/experimental.yml",
+      "term": "Build experimental branches"
+    },
+    {
+      "context_snippet": "\"Build master branch\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/master.yml",
+      "term": "Build master branch"
+    },
+    {
+      "context_snippet": "\"Build release\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Build release"
+    },
+    {
+      "context_snippet": "\"Publish scripts\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scripts.yml",
+      "term": "Publish scripts"
+    },
+    {
+      "context_snippet": "[![License][1]][2] [![Release][3]][4] [![Telegram][5]][6] [![Discussions][7]][8]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "censorship-circumvention"
+    },
+    {
+      "context_snippet": "[![License][1]][2] [![Release][3]][4] [![Telegram][5]][6] [![Discussions][7]][8]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "[![License][1]][2] [![Release][3]][4] [![Telegram][5]][6] [![Discussions][7]][8]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http-proxy"
+    },
+    {
+      "context_snippet": "[![License][1]][2] [![Release][3]][4] [![Telegram][5]][6] [![Discussions][7]][8]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hysteria"
+    },
+    {
+      "context_snippet": "[![License][1]][2] [![Release][3]][4] [![Telegram][5]][6] [![Discussions][7]][8]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "proxy"
+    },
+    {
+      "context_snippet": "[![License][1]][2] [![Release][3]][4] [![Telegram][5]][6] [![Discussions][7]][8]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quic"
+    },
+    {
+      "context_snippet": "[![License][1]][2] [![Release][3]][4] [![Telegram][5]][6] [![Discussions][7]][8]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "relay"
+    },
+    {
+      "context_snippet": "[![License][1]][2] [![Release][3]][4] [![Telegram][5]][6] [![Discussions][7]][8]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reliable-udp"
+    },
+    {
+      "context_snippet": "[![License][1]][2] [![Release][3]][4] [![Telegram][5]][6] [![Discussions][7]][8]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "socks5"
+    }
+  ]
+}

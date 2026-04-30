@@ -12,18 +12,11 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "mit-han-lab/omniserve",
-      "target": "gkamradt/llmtest_needleinahaystack",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "mit-han-lab/omniserve",
       "target": "efficient-large-model/vila",
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-04-30T13:02:00.441701+00:00",
+  "fetched_at": "2026-04-30T18:38:06.013152+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -52,11 +45,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "efficient-large-model/vila",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "gkamradt/llmtest_needleinahaystack",
       "source_file": "README.md"
     },
     {

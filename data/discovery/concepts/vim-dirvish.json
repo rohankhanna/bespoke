@@ -25,6 +25,18 @@
       "source_repo": "brianhuster/dirvish-git.nvim",
       "status": "candidate-context",
       "text": "[dirvish-git.nvim](https://github.com/brianhuster/vim-dirvish-git.lua) is a plugin for Neovim that provides Gitsigns integration for the builtin [vim-dirvish](https://github.com/justinmk/vim-dirvish) by Justin M. Keyes. Inspired by [vim-dirvish-git](https://github.com/kristijanh\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "roginfarrer/vim-dirvish-dovish",
+      "status": "candidate-context",
+      "text": "File manipulation commands for vim-dirvish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "roginfarrer/vim-dirvish-dovish",
+      "status": "candidate-context",
+      "text": "> The file manipulation commands for [vim-dirvish][dirvish] that you've always wanted"
     }
   ],
   "candidate_glosses": [
@@ -39,6 +51,12 @@
       "source_repo": "brianhuster/dirvish-git.nvim",
       "status": "candidate",
       "text": "[dirvish-git.nvim](https://github.com/brianhuster/vim-dirvish-git.lua) is a plugin for Neovim that provides Gitsigns integration for the builtin [vim-dirvish](https://github.com/justinmk/vim-dirvish) by Justin M. Keyes. Inspired by [vim-dirvish-git](https://github.com/kristijanh\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "roginfarrer/vim-dirvish-dovish",
+      "status": "candidate",
+      "text": "> The file manipulation commands for [vim-dirvish][dirvish] that you've always wanted"
     }
   ],
   "candidate_related_terms": [],
@@ -58,11 +76,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "brianhuster/dirvish-git.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "roginfarrer/vim-dirvish-dovish"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "brianhuster/dirvish-git.nvim"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

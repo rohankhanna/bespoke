@@ -1,0 +1,145 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "stainless-steel/md5",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "stainless-steel/md5",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stainless-steel/md5",
+      "target": "algorithms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stainless-steel/md5",
+      "target": "checksum",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stainless-steel/md5",
+      "target": "cryptography",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stainless-steel/md5",
+      "target": "digest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stainless-steel/md5",
+      "target": "hash",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:58:38.069261+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1613
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 847
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 880
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "MD5 hash function",
+    "fork": false,
+    "full_name": "stainless-steel/md5",
+    "html_url": "https://github.com/stainless-steel/md5",
+    "language": "Rust",
+    "pushed_at": "2025-06-26T13:20:22Z",
+    "stargazers_count": 83,
+    "topics": [
+      "algorithms",
+      "checksum",
+      "cryptography",
+      "digest",
+      "hash",
+      "md5"
+    ],
+    "updated_at": "2026-03-07T17:13:02Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "The package provides the [MD5] hash function.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "algorithms"
+    },
+    {
+      "context_snippet": "The package provides the [MD5] hash function.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "checksum"
+    },
+    {
+      "context_snippet": "The package provides the [MD5] hash function.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cryptography"
+    },
+    {
+      "context_snippet": "The package provides the [MD5] hash function.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "digest"
+    },
+    {
+      "context_snippet": "The package provides the [MD5] hash function.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hash"
+    }
+  ]
+}

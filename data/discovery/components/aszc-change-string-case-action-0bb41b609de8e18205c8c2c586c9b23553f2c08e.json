@@ -1,0 +1,12 @@
+{
+  "component": "ASzc/change-string-case-action@0bb41b609de8e18205c8c2c586c9b23553f2c08e",
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/install.yml",
+      "source_repo": "salesforcecli/status"
+    }
+  ]
+}

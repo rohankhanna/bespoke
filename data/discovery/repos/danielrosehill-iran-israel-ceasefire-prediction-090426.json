@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T19:58:41.781736+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8445
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Open-sourced geopolitical forecast: Iran-Israel-US ceasefire durability assessment (09/04/2026). Two-stage pipeline (Snowglobe + LLM Council) with 38-actor simulation and 6-lens analytical panel.",
+    "fork": false,
+    "full_name": "danielrosehill/Iran-Israel-Ceasefire-Prediction-090426",
+    "html_url": "https://github.com/danielrosehill/Iran-Israel-Ceasefire-Prediction-090426",
+    "language": "Python",
+    "pushed_at": "2026-04-10T14:44:15Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-10T14:44:19Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

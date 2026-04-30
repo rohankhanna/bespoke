@@ -1,0 +1,108 @@
+{
+  "components": [
+    {
+      "component": "actions/stale@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-stale-issues.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "10up/actions-wordpress",
+      "target": "10up/action-wordpress-plugin-build-zip",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "10up/actions-wordpress",
+      "target": "10up/action-wordpress-plugin-asset-update",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "10up/actions-wordpress",
+      "target": "10up/action-repo-automator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "10up/actions-wordpress",
+      "target": "10up/.github",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-stale-issues.yml",
+      "source_repo": "10up/actions-wordpress",
+      "target": "actions/stale@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-stale-issues.yml",
+      "source_repo": "10up/actions-wordpress",
+      "target": "Close stale issues",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:56:33.192232+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12097
+    },
+    {
+      "path": ".github/workflows/close-stale-issues.yml",
+      "size": 1672
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "stable",
+    "description": "GitHub Actions for WordPress!",
+    "fork": false,
+    "full_name": "10up/actions-wordpress",
+    "html_url": "https://github.com/10up/actions-wordpress",
+    "language": "Shell",
+    "pushed_at": "2025-10-09T03:12:12Z",
+    "stargazers_count": 462,
+    "topics": [],
+    "updated_at": "2026-04-27T16:01:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "10up/.github",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "10up/action-repo-automator",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "10up/action-wordpress-plugin-asset-update",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "10up/action-wordpress-plugin-build-zip",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "'Close stale issues'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-stale-issues.yml",
+      "term": "Close stale issues"
+    }
+  ]
+}

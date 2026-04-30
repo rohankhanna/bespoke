@@ -43,6 +43,18 @@
       "source_repo": "dockur/windows",
       "status": "candidate-context",
       "text": "# syntax=docker/dockerfile:1 ARG VERSION_ARG=\"latest\" FROM scratch AS build-amd64 COPY --from=qemux/qemu:7.29 / / ARG TARGETARCH ARG DEBCONF_NOWARNINGS=\"yes\" ARG DEBIAN_FRONTEND=\"noninteractive\" ARG DEBCONF_NONINTERACTIVE_SEEN=\"true\" RUN set -eu && \\ apt-get update && \\ apt-get \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "veggiemonk/awesome-docker",
+      "status": "candidate-context",
+      "text": ":whale: A curated list of Docker resources and projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "veggiemonk/awesome-docker",
+      "status": "candidate-context",
+      "text": "> A curated list of Docker resources and projects"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "dockur/windows",
       "status": "candidate",
       "text": "# syntax=docker/dockerfile:1 ARG VERSION_ARG=\"latest\" FROM scratch AS build-amd64 COPY --from=qemux/qemu:7.29 / / ARG TARGETARCH ARG DEBCONF_NOWARNINGS=\"yes\" ARG DEBIAN_FRONTEND=\"noninteractive\" ARG DEBCONF_NONINTERACTIVE_SEEN=\"true\" RUN set -eu && \\ apt-get update && \\ apt-get \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "veggiemonk/awesome-docker",
+      "status": "candidate",
+      "text": "> A curated list of Docker resources and projects"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "dockur/windows"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "veggiemonk/awesome-docker"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

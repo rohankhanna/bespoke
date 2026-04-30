@@ -1,12 +1,17 @@
 {
   "component": "anthropics/claude-code-security-review@0c6a49f1fa56a1d472575da86a94dbc1edb78eda",
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/security-review.yml",
       "source_repo": "Yelp/dumb-init"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/security-review.yml",
+      "source_repo": "Yelp/aactivator"
     }
   ]
 }

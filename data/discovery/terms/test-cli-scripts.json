@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/scripts.yml",
       "source_repo": "datalab-to/marker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/scripts.yml",
+      "source_repo": "datalab-to/surya"
     }
   ],
   "term": "Test CLI scripts"

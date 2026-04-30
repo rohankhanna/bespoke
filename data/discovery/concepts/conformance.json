@@ -208,6 +208,18 @@
       "source_repo": "googleapis/nodejs-bigtable",
       "status": "candidate-context",
       "text": "conformance"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "theupdateframework/python-tuf",
+      "status": "candidate-context",
+      "text": "Python reference implementation of The Update Framework (TUF)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "theupdateframework/python-tuf",
+      "status": "candidate-context",
+      "text": "Conformance"
     }
   ],
   "candidate_glosses": [
@@ -312,6 +324,12 @@
       "source_repo": "googleapis/nodejs-bigtable",
       "status": "candidate",
       "text": "conformance"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "theupdateframework/python-tuf",
+      "status": "candidate",
+      "text": "Conformance"
     }
   ],
   "candidate_related_terms": [
@@ -489,11 +507,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/conformance.yaml",
       "source_repo": "googleapis/nodejs-bigtable"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/conformance.yml",
+      "source_repo": "theupdateframework/python-tuf"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

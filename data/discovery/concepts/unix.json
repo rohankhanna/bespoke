@@ -175,6 +175,30 @@
       "source_repo": "drduh/Purse",
       "status": "candidate-context",
       "text": "Purse is a Bash shell script based on [drduh/pwd.sh](https://github.com/drduh/pwd.sh)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AlecAivazis/survey",
+      "status": "candidate-context",
+      "text": "A golang library for building interactive and accessible prompts with full support for windows and posix terminals."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AlecAivazis/survey",
+      "status": "candidate-context",
+      "text": "[![GoDoc](http://img.shields.io/badge/godoc-reference-5272B4.svg)](https://pkg.go.dev/github.com/AlecAivazis/survey/v2)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "drduh/pwd.sh",
+      "status": "candidate-context",
+      "text": "GnuPG symmetric secrets manager using Bash."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drduh/pwd.sh",
+      "status": "candidate-context",
+      "text": "pwd.sh is a Bash shell script to manage text-based secrets, such as passwords."
     }
   ],
   "candidate_glosses": [
@@ -261,6 +285,18 @@
       "source_repo": "drduh/Purse",
       "status": "candidate",
       "text": "Purse is a Bash shell script based on [drduh/pwd.sh](https://github.com/drduh/pwd.sh)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AlecAivazis/survey",
+      "status": "candidate",
+      "text": "[![GoDoc](http://img.shields.io/badge/godoc-reference-5272B4.svg)](https://pkg.go.dev/github.com/AlecAivazis/survey/v2)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drduh/pwd.sh",
+      "status": "candidate",
+      "text": "pwd.sh is a Bash shell script to manage text-based secrets, such as passwords."
     }
   ],
   "candidate_related_terms": [
@@ -403,11 +439,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "drduh/Purse"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "AlecAivazis/survey"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "drduh/pwd.sh"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

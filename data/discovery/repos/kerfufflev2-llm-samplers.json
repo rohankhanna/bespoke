@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KerfuffleV2/llm-samplers",
+      "target": "ggerganov/llama.cpp",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:45:56.617640+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5306
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 357
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A collection of LLM token samplers in Rust",
+    "fork": false,
+    "full_name": "KerfuffleV2/llm-samplers",
+    "html_url": "https://github.com/KerfuffleV2/llm-samplers",
+    "language": "Rust",
+    "pushed_at": "2023-11-09T08:28:36Z",
+    "stargazers_count": 18,
+    "topics": [],
+    "updated_at": "2025-06-23T21:09:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggerganov/llama.cpp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

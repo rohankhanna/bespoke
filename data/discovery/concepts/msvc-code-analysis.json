@@ -31,6 +31,30 @@
       "source_repo": "DiligentGraphics/DiligentFX",
       "status": "candidate-context",
       "text": "MSVC Code Analysis"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DiligentGraphics/DiligentSamples",
+      "status": "candidate-context",
+      "text": "Sample projects demonstrating the usage of Diligent Engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DiligentGraphics/DiligentSamples",
+      "status": "candidate-context",
+      "text": "MSVC Code Analysis"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DiligentGraphics/DiligentTools",
+      "status": "candidate-context",
+      "text": "Utilities built on top of core module"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DiligentGraphics/DiligentTools",
+      "status": "candidate-context",
+      "text": "MSVC Code Analysis"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +67,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "DiligentGraphics/DiligentFX",
+      "status": "candidate",
+      "text": "MSVC Code Analysis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DiligentGraphics/DiligentSamples",
+      "status": "candidate",
+      "text": "MSVC Code Analysis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DiligentGraphics/DiligentTools",
       "status": "candidate",
       "text": "MSVC Code Analysis"
     }
@@ -100,11 +136,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/msvc_analysis.yml",
       "source_repo": "DiligentGraphics/DiligentFX"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/msvc_analysis.yml",
+      "source_repo": "DiligentGraphics/DiligentSamples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/msvc_analysis.yml",
+      "source_repo": "DiligentGraphics/DiligentTools"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

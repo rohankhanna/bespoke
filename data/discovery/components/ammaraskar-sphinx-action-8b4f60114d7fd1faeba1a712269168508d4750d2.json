@@ -1,0 +1,12 @@
+{
+  "component": "ammaraskar/sphinx-action@8b4f60114d7fd1faeba1a712269168508d4750d2",
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "dropwizard/dropwizard"
+    }
+  ]
+}

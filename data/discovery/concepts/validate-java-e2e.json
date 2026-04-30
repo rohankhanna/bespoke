@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Validate Java e2e"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actions/setup-java",
+      "status": "candidate-context",
+      "text": "Set up your GitHub Actions workflow with a specific version of Java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/setup-java",
+      "status": "candidate-context",
+      "text": "Validate Java e2e"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/setup-java",
+      "status": "candidate",
+      "text": "Validate Java e2e"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11136,
+      "status": "candidate",
+      "text": "decaf"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11136,
+      "status": "candidate",
+      "text": "joe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11115,
+      "status": "candidate",
+      "text": "chip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11115,
+      "status": "candidate",
+      "text": "duster"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11115,
+      "status": "candidate",
+      "text": "leakproof"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Validate Java e2e",
+  "concept_id": "validate-java-e2e",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/e2e-versions.yml",
+      "source_repo": "actions/setup-java"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Validate Java e2e",
+      "sense_id": "validate-java-e2e#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

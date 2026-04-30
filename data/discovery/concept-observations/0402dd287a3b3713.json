@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u25a6\u29c9\u229e\u25a1 A curated list of links to miniquad/macroquad-related code & resources"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A curated list of links to miniquad/macroquad-related code & resources."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A curated list of links to miniquad/macroquad-related code & resources."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20022631,
+      "status": "candidate",
+      "text": "linux"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20022630,
+      "status": "candidate",
+      "text": "nonfree"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20022629,
+      "status": "candidate",
+      "text": "lgpl"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20022628,
+      "status": "candidate",
+      "text": "sourcecode"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20022627,
+      "status": "candidate",
+      "text": "freeware"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "opensource",
+      "sense_id": "opensource#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "opensource",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "opensource",
+  "observation_id": "0402dd287a3b3713",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_text": "opensource",
+  "source_context_snippet": "A curated list of links to miniquad/macroquad-related code & resources.",
+  "source_file": null,
+  "source_repo": "ozkriff/awesome-quads",
+  "source_repo_description": "\u25a6\u29c9\u229e\u25a1 A curated list of links to miniquad/macroquad-related code & resources"
+}

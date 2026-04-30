@@ -863,7 +863,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T13:54:02.039543+00:00",
+  "fetched_at": "2026-04-30T18:52:24.964361+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -911,7 +911,7 @@
     "full_name": "graphql-hive/graphql-inspector",
     "html_url": "https://github.com/graphql-hive/graphql-inspector",
     "language": "TypeScript",
-    "pushed_at": "2026-04-24T20:59:04Z",
+    "pushed_at": "2026-04-30T18:12:30Z",
     "stargazers_count": 1744,
     "topics": [
       "api",

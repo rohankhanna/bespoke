@@ -1,0 +1,214 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/easyjson.yml"
+    },
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/easyjson.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/easyjson.yml"
+    },
+    {
+      "component": "uraimo/run-on-arch-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/easyjson.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mailru/easyjson",
+      "target": "pquerna/ffjson",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mailru/easyjson",
+      "target": "ugorji/go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mailru/easyjson",
+      "target": "esnme/ultrajson",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/easyjson.yml",
+      "source_repo": "mailru/easyjson",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/easyjson.yml",
+      "source_repo": "mailru/easyjson",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/easyjson.yml",
+      "source_repo": "mailru/easyjson",
+      "target": "uraimo/run-on-arch-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/easyjson.yml",
+      "source_repo": "mailru/easyjson",
+      "target": "easyjson",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mailru/easyjson",
+      "target": "code-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mailru/easyjson",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mailru/easyjson",
+      "target": "json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mailru/easyjson",
+      "target": "json-parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mailru/easyjson",
+      "target": "json-serialization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mailru/easyjson",
+      "target": "perfomance",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:48:11.039549+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17428
+    },
+    {
+      "path": "go.mod",
+      "size": 87
+    },
+    {
+      "path": ".github/workflows/easyjson.yml",
+      "size": 1790
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Fast JSON serializer for golang.",
+    "fork": false,
+    "full_name": "mailru/easyjson",
+    "html_url": "https://github.com/mailru/easyjson",
+    "language": "Go",
+    "pushed_at": "2026-03-14T14:52:53Z",
+    "stargazers_count": 4881,
+    "topics": [
+      "code-generation",
+      "golang",
+      "json",
+      "json-parser",
+      "json-serialization",
+      "perfomance"
+    ],
+    "updated_at": "2026-04-26T10:26:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "esnme/ultrajson",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pquerna/ffjson",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ugorji/go",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "easyjson",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/easyjson.yml",
+      "term": "easyjson"
+    },
+    {
+      "context_snippet": "Package easyjson provides a fast and easy way to marshal/unmarshal Go structs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-generation"
+    },
+    {
+      "context_snippet": "Package easyjson provides a fast and easy way to marshal/unmarshal Go structs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "Package easyjson provides a fast and easy way to marshal/unmarshal Go structs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json"
+    },
+    {
+      "context_snippet": "Package easyjson provides a fast and easy way to marshal/unmarshal Go structs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json-parser"
+    },
+    {
+      "context_snippet": "Package easyjson provides a fast and easy way to marshal/unmarshal Go structs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json-serialization"
+    },
+    {
+      "context_snippet": "Package easyjson provides a fast and easy way to marshal/unmarshal Go structs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "perfomance"
+    }
+  ]
+}

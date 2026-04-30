@@ -1,7 +1,7 @@
 {
   "component": "actions/cache/save@v4",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -432,6 +432,51 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "Anush008/fastembed-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "eaplatanios/triton"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml.in",
+      "source_repo": "eaplatanios/triton"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/haskell-ci.yml",
+      "source_repo": "haskell-compat/base-orphans"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/getdeps_linux.yml",
+      "source_repo": "facebook/fbthrift"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/getdeps_mac.yml",
+      "source_repo": "facebook/fbthrift"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/getdeps_python_linux.yml",
+      "source_repo": "facebook/fbthrift"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/getdeps_python_linux_container.yml",
+      "source_repo": "facebook/fbthrift"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/getdeps_windows.yml",
+      "source_repo": "facebook/fbthrift"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-hermes-macos.yml",
+      "source_repo": "facebook/hermes"
     }
   ]
 }

@@ -1,0 +1,59 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aiya000/vim-ghcid-quickfix",
+      "target": "ghcid",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aiya000/vim-ghcid-quickfix",
+      "target": "haskell",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:55:20.558598+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1184
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Increse your Haskell development via ghcid!",
+    "fork": false,
+    "full_name": "aiya000/vim-ghcid-quickfix",
+    "html_url": "https://github.com/aiya000/vim-ghcid-quickfix",
+    "language": "Vim script",
+    "pushed_at": "2021-10-18T22:02:03Z",
+    "stargazers_count": 32,
+    "topics": [
+      "ghcid",
+      "haskell",
+      "vim"
+    ],
+    "updated_at": "2026-04-06T02:47:37Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "- - -",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ghcid"
+    },
+    {
+      "context_snippet": "- - -",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "haskell"
+    }
+  ]
+}

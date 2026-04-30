@@ -1,0 +1,262 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "drduh/Router-Guide",
+      "target": "drduh/pc-engines-apu-router-guide",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "drduh/Router-Guide",
+      "target": "3mdeb/3mdeb-secpack",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "drduh/Router-Guide",
+      "target": "elad/openbsd-apu2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "drduh/Router-Guide",
+      "target": "martinbaillie/homebrew-openbsd-pcengines-router",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drduh/Router-Guide",
+      "target": "debian",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drduh/Router-Guide",
+      "target": "firewall",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drduh/Router-Guide",
+      "target": "home-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drduh/Router-Guide",
+      "target": "home-security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drduh/Router-Guide",
+      "target": "homelab",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drduh/Router-Guide",
+      "target": "iptables",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drduh/Router-Guide",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drduh/Router-Guide",
+      "target": "openbsd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drduh/Router-Guide",
+      "target": "pcengines",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drduh/Router-Guide",
+      "target": "privacy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drduh/Router-Guide",
+      "target": "router",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drduh/Router-Guide",
+      "target": "security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drduh/Router-Guide",
+      "target": "walkthrough",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T19:54:38.063710+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 31408
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Guide to building a Linux or BSD router on the PC Engines APU platform",
+    "fork": false,
+    "full_name": "drduh/Router-Guide",
+    "html_url": "https://github.com/drduh/Router-Guide",
+    "language": null,
+    "pushed_at": "2025-05-11T23:50:37Z",
+    "stargazers_count": 180,
+    "topics": [
+      "debian",
+      "firewall",
+      "home-network",
+      "home-security",
+      "homelab",
+      "iptables",
+      "linux",
+      "openbsd",
+      "pcengines",
+      "privacy",
+      "router",
+      "security",
+      "vpn",
+      "walkthrough"
+    ],
+    "updated_at": "2026-01-12T20:31:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "3mdeb/3mdeb-secpack",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "drduh/pc-engines-apu-router-guide",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "elad/openbsd-apu2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "martinbaillie/homebrew-openbsd-pcengines-router",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**Important** After many years of service, the PC Engines APU platform is now [EOL](https://www.pcengines.ch/eol.htm).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "debian"
+    },
+    {
+      "context_snippet": "**Important** After many years of service, the PC Engines APU platform is now [EOL](https://www.pcengines.ch/eol.htm).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "firewall"
+    },
+    {
+      "context_snippet": "**Important** After many years of service, the PC Engines APU platform is now [EOL](https://www.pcengines.ch/eol.htm).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "home-network"
+    },
+    {
+      "context_snippet": "**Important** After many years of service, the PC Engines APU platform is now [EOL](https://www.pcengines.ch/eol.htm).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "home-security"
+    },
+    {
+      "context_snippet": "**Important** After many years of service, the PC Engines APU platform is now [EOL](https://www.pcengines.ch/eol.htm).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "homelab"
+    },
+    {
+      "context_snippet": "**Important** After many years of service, the PC Engines APU platform is now [EOL](https://www.pcengines.ch/eol.htm).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iptables"
+    },
+    {
+      "context_snippet": "**Important** After many years of service, the PC Engines APU platform is now [EOL](https://www.pcengines.ch/eol.htm).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "**Important** After many years of service, the PC Engines APU platform is now [EOL](https://www.pcengines.ch/eol.htm).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openbsd"
+    },
+    {
+      "context_snippet": "**Important** After many years of service, the PC Engines APU platform is now [EOL](https://www.pcengines.ch/eol.htm).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pcengines"
+    },
+    {
+      "context_snippet": "**Important** After many years of service, the PC Engines APU platform is now [EOL](https://www.pcengines.ch/eol.htm).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "privacy"
+    },
+    {
+      "context_snippet": "**Important** After many years of service, the PC Engines APU platform is now [EOL](https://www.pcengines.ch/eol.htm).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "router"
+    },
+    {
+      "context_snippet": "**Important** After many years of service, the PC Engines APU platform is now [EOL](https://www.pcengines.ch/eol.htm).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security"
+    },
+    {
+      "context_snippet": "**Important** After many years of service, the PC Engines APU platform is now [EOL](https://www.pcengines.ch/eol.htm).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "walkthrough"
+    }
+  ]
+}

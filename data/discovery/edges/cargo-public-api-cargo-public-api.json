@@ -1,0 +1,167 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "cargo-public-api/cargo-public-api",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "cargo-public-api/cargo-public-api",
+      "target": "taiki-e/install-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Nightly.yml",
+      "source_repo": "cargo-public-api/cargo-public-api",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Nightly.yml",
+      "source_repo": "cargo-public-api/cargo-public-api",
+      "target": "Nightly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Release-all.yml",
+      "source_repo": "cargo-public-api/cargo-public-api",
+      "target": "Release All",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release-cargo-public-api.yml",
+      "source_repo": "cargo-public-api/cargo-public-api",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release-cargo-public-api.yml",
+      "source_repo": "cargo-public-api/cargo-public-api",
+      "target": "rust-lang/crates-io-auth-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Release-cargo-public-api.yml",
+      "source_repo": "cargo-public-api/cargo-public-api",
+      "target": "Release cargo-public-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release-public-api.yml",
+      "source_repo": "cargo-public-api/cargo-public-api",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release-public-api.yml",
+      "source_repo": "cargo-public-api/cargo-public-api",
+      "target": "rust-lang/crates-io-auth-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Release-public-api.yml",
+      "source_repo": "cargo-public-api/cargo-public-api",
+      "target": "Release public-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release-rustdoc-json.yml",
+      "source_repo": "cargo-public-api/cargo-public-api",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release-rustdoc-json.yml",
+      "source_repo": "cargo-public-api/cargo-public-api",
+      "target": "rust-lang/crates-io-auth-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release-rustup-toolchain.yml",
+      "source_repo": "cargo-public-api/cargo-public-api",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release-rustup-toolchain.yml",
+      "source_repo": "cargo-public-api/cargo-public-api",
+      "target": "rust-lang/crates-io-auth-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Release-rustup-toolchain.yml",
+      "source_repo": "cargo-public-api/cargo-public-api",
+      "target": "Release rustup-toolchain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cargo-public-api/cargo-public-api",
+      "target": "cargo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cargo-public-api/cargo-public-api",
+      "target": "cargo-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cargo-public-api/cargo-public-api",
+      "target": "cargo-subcommand",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cargo-public-api/cargo-public-api",
+      "target": "diff",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cargo-public-api/cargo-public-api",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cargo-public-api/cargo-public-api",
+      "target": "rustdoc-json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cargo-public-api/cargo-public-api",
+      "target": "semver",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T18:36:26.757967+00:00",
+  "source_repo": "cargo-public-api/cargo-public-api"
+}

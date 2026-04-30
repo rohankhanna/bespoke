@@ -30,13 +30,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "nvim-neotest/neotest-go",
-      "target": "stretchr/testify",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/action.yml",
       "source_repo": "nvim-neotest/neotest-go",
@@ -65,7 +58,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T09:14:51.609201+00:00",
+  "fetched_at": "2026-04-30T19:43:14.080997+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -94,11 +87,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "rcarriga/neotest",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "stretchr/testify",
       "source_file": "README.md"
     }
   ],

@@ -70,7 +70,7 @@
   "normalized_form": "lua-ci",
   "observation_id": "e8e7cdf70908f38d",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_at": "2026-04-30T18:36:26.757967+00:00",
   "observed_text": "Lua CI",
   "source_context_snippet": "Lua CI",
   "source_file": ".github/workflows/lua.yml",

@@ -1,0 +1,328 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "rolldown/rolldown",
+      "target": "oxc-project/oxc-index-vec",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "rolldown/rolldown",
+      "target": "oxc-project/oxc-resolver",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "rolldown/rolldown",
+      "target": "oxc-project/oxc-sourcemap",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "rolldown/rolldown",
+      "target": "@oxc-node/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "rolldown/rolldown",
+      "target": "@oxc-project/runtime",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "rolldown/rolldown",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "rolldown/rolldown",
+      "target": "cjs-module-lexer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "rolldown/rolldown",
+      "target": "knip",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "rolldown/rolldown",
+      "target": "playwright-chromium",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "rolldown/rolldown",
+      "target": "publint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "rolldown/rolldown",
+      "target": "remove-unused-vars",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "rolldown/rolldown",
+      "target": "rolldown",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "rolldown/rolldown",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "rolldown/rolldown",
+      "target": "vite-plus",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-assign-pr.yml",
+      "source_repo": "rolldown/rolldown",
+      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-assign-pr.yml",
+      "source_repo": "rolldown/rolldown",
+      "target": "Auto Assign PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yml",
+      "source_repo": "rolldown/rolldown",
+      "target": "taiki-e/checkout-action@7d1e50e93dc4fb3bba58f85018fadf77898aee8b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yml",
+      "source_repo": "rolldown/rolldown",
+      "target": "voidzero-dev/setup-vp@4f5aa3e38c781f1b01e78fb9255527cee8a6efa6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yml",
+      "source_repo": "rolldown/rolldown",
+      "target": "oxc-project/setup-rust@23f38cfb0c04af97a055f76acee94d5be71c7c82",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yml",
+      "source_repo": "rolldown/rolldown",
+      "target": "autofix-ci/action@c5b2d67aa2274e7b5a18224e8171550871fc7e4a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automate-jobs.yml",
+      "source_repo": "rolldown/rolldown",
+      "target": "actions-cool/issues-helper@200c78641dbf33838311e5a1e0c31bbdb92d7cf0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/automate-jobs.yml",
+      "source_repo": "rolldown/rolldown",
+      "target": "Automate Jobs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automation-labeled.yml",
+      "source_repo": "rolldown/rolldown",
+      "target": "peter-evans/find-comment@b30e6a3c0ed37e7c023ccd3f1db5c6c0b0c23aad",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automation-labeled.yml",
+      "source_repo": "rolldown/rolldown",
+      "target": "peter-evans/create-or-update-comment@e8674b075228eee787fea43ef493e45ece1004c9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automation-labeled.yml",
+      "source_repo": "rolldown/rolldown",
+      "target": "dacbd/create-issue-action@fec641442c0897e734fad173cfe83ae21a2284a3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/automation-labeled.yml",
+      "source_repo": "rolldown/rolldown",
+      "target": "Automation Labeled",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-node.yml",
+      "source_repo": "rolldown/rolldown",
+      "target": "taiki-e/checkout-action@7d1e50e93dc4fb3bba58f85018fadf77898aee8b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-node.yml",
+      "source_repo": "rolldown/rolldown",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-node.yml",
+      "source_repo": "rolldown/rolldown",
+      "target": "voidzero-dev/setup-vp@4f5aa3e38c781f1b01e78fb9255527cee8a6efa6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-node.yml",
+      "source_repo": "rolldown/rolldown",
+      "target": "oxc-project/setup-rust@23f38cfb0c04af97a055f76acee94d5be71c7c82",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-node.yml",
+      "source_repo": "rolldown/rolldown",
+      "target": "benchmark-action/github-action-benchmark@a60cea5bc7b49e15c1f58f411161f99e0df48372",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-node.yml",
+      "source_repo": "rolldown/rolldown",
+      "target": "dmnemec/copy_file_to_another_repo_action@bbebd3da22e4a37d04dca5f782edd5201cb97083",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark-node.yml",
+      "source_repo": "rolldown/rolldown",
+      "target": "Benchmarks Node",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-rust.yml",
+      "source_repo": "rolldown/rolldown",
+      "target": "taiki-e/checkout-action@7d1e50e93dc4fb3bba58f85018fadf77898aee8b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-rust.yml",
+      "source_repo": "rolldown/rolldown",
+      "target": "voidzero-dev/setup-vp@4f5aa3e38c781f1b01e78fb9255527cee8a6efa6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-rust.yml",
+      "source_repo": "rolldown/rolldown",
+      "target": "oxc-project/setup-rust@23f38cfb0c04af97a055f76acee94d5be71c7c82",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-rust.yml",
+      "source_repo": "rolldown/rolldown",
+      "target": "CodSpeedHQ/action@c381be0bfd20e844fb45594f6aa182ffcd94545c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark-rust.yml",
+      "source_repo": "rolldown/rolldown",
+      "target": "Benchmarks Rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rolldown/rolldown",
+      "target": "taiki-e/checkout-action@7d1e50e93dc4fb3bba58f85018fadf77898aee8b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rolldown/rolldown",
+      "target": "dorny/paths-filter@fbd0ab8f3e69293af611ebaee6363fc25e6d187d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rolldown/rolldown",
+      "target": "oxc-project/setup-rust@23f38cfb0c04af97a055f76acee94d5be71c7c82",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rolldown/rolldown",
+      "target": "voidzero-dev/setup-vp@4f5aa3e38c781f1b01e78fb9255527cee8a6efa6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rolldown/rolldown",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rolldown/rolldown",
+      "target": "samypr100/setup-dev-drive@30f0f98ae5636b2b6501e181dfb3631b9974818d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rolldown/rolldown",
+      "target": "crate-ci/typos@cf5f1c29a8ac336af8568821ec41919923b05a83",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rolldown/rolldown",
+      "target": "bundler",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T18:36:26.757967+00:00",
+  "source_repo": "rolldown/rolldown"
+}

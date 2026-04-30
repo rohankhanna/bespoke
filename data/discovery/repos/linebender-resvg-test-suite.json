@@ -1,0 +1,112 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@4.1.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "linebender/resvg-test-suite",
+      "target": "razrfalcon/resvg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "linebender/resvg-test-suite",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "linebender/resvg-test-suite",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "linebender/resvg-test-suite",
+      "target": "JamesIves/github-pages-deploy-action@4.1.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "linebender/resvg-test-suite",
+      "target": "resvg-test-suite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "linebender/resvg-test-suite",
+      "target": "test-suite",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:50:13.226512+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 453
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 836
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "resvg test suite",
+    "fork": false,
+    "full_name": "linebender/resvg-test-suite",
+    "html_url": "https://github.com/linebender/resvg-test-suite",
+    "language": "C++",
+    "pushed_at": "2024-10-29T13:08:27Z",
+    "stargazers_count": 33,
+    "topics": [
+      "svg",
+      "test-suite"
+    ],
+    "updated_at": "2026-04-16T18:46:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "razrfalcon/resvg",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "resvg-test-suite",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "resvg-test-suite"
+    },
+    {
+      "context_snippet": "- `tests/` - actual tests",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "test-suite"
+    }
+  ]
+}

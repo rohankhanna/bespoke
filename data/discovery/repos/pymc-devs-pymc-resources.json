@@ -1,0 +1,157 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "pre-commit/action@v2.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pymc-devs/pymc-resources",
+      "target": "pymc-devs/resources",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "pymc-devs/pymc-resources",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "pymc-devs/pymc-resources",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "pymc-devs/pymc-resources",
+      "target": "pre-commit/action@v2.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "pymc-devs/pymc-resources",
+      "target": "pre-commit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pymc-devs/pymc-resources",
+      "target": "bayesian-inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pymc-devs/pymc-resources",
+      "target": "bayesian-statistics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pymc-devs/pymc-resources",
+      "target": "data-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pymc-devs/pymc-resources",
+      "target": "data-science",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:40:50.644269+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2163
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 134
+    },
+    {
+      "path": ".github/workflows/pre-commit.yml",
+      "size": 231
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "PyMC educational resources",
+    "fork": false,
+    "full_name": "pymc-devs/pymc-resources",
+    "html_url": "https://github.com/pymc-devs/pymc-resources",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-12-23T21:26:01Z",
+    "stargazers_count": 2086,
+    "topics": [
+      "bayesian-inference",
+      "bayesian-statistics",
+      "data-analysis",
+      "data-science"
+    ],
+    "updated_at": "2026-04-27T06:23:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pymc-devs/resources",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "pre-commit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "term": "pre-commit"
+    },
+    {
+      "context_snippet": "PyMC educational resources, including the PyMC port of the following books (original models in STAN/BUGS/JAGS etc,.):",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bayesian-inference"
+    },
+    {
+      "context_snippet": "PyMC educational resources, including the PyMC port of the following books (original models in STAN/BUGS/JAGS etc,.):",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bayesian-statistics"
+    },
+    {
+      "context_snippet": "PyMC educational resources, including the PyMC port of the following books (original models in STAN/BUGS/JAGS etc,.):",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-analysis"
+    },
+    {
+      "context_snippet": "PyMC educational resources, including the PyMC port of the following books (original models in STAN/BUGS/JAGS etc,.):",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-science"
+    }
+  ]
+}

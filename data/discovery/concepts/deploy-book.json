@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Deploy Book",
-    "Deploy book"
+    "Deploy book",
+    "deploy-book"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -56,6 +57,18 @@
       "source_repo": "pulldown-cmark/pulldown-cmark",
       "status": "candidate-context",
       "text": "Deploy Book"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ksachdeva/rethinking-tensorflow-probability",
+      "status": "candidate-context",
+      "text": "Statistical Rethinking (2nd Ed) with Tensorflow Probability"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ksachdeva/rethinking-tensorflow-probability",
+      "status": "candidate-context",
+      "text": "deploy-book"
     }
   ],
   "candidate_glosses": [
@@ -82,6 +95,12 @@
       "source_repo": "pulldown-cmark/pulldown-cmark",
       "status": "candidate",
       "text": "Deploy Book"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ksachdeva/rethinking-tensorflow-probability",
+      "status": "candidate",
+      "text": "deploy-book"
     }
   ],
   "candidate_related_terms": [
@@ -155,11 +174,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/book.yml",
       "source_repo": "pulldown-cmark/pulldown-cmark"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/book.yml",
+      "source_repo": "ksachdeva/rethinking-tensorflow-probability"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

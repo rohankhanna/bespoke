@@ -44,6 +44,18 @@
       "source_repo": "Kong/kong-manager",
       "status": "candidate-context",
       "text": "Run E2E Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "getsavvyinc/savvy-cli",
+      "status": "candidate-context",
+      "text": "Automatically capture and surface your team's tribal knowledge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getsavvyinc/savvy-cli",
+      "status": "candidate-context",
+      "text": "Run E2E Tests"
     }
   ],
   "candidate_glosses": [
@@ -62,6 +74,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Kong/kong-manager",
+      "status": "candidate",
+      "text": "Run E2E Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getsavvyinc/savvy-cli",
       "status": "candidate",
       "text": "Run E2E Tests"
     }
@@ -125,11 +143,17 @@
       "observed_at": "2026-04-24T18:19:44.660705+00:00",
       "source_file": ".github/workflows/.reusable_e2e_tests.yml",
       "source_repo": "Kong/kong-manager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "getsavvyinc/savvy-cli"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Track doc-en changes"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "php/doc-es",
+      "status": "candidate-context",
+      "text": "Spanish translation of the PHP documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "php/doc-es",
+      "status": "candidate-context",
+      "text": "\"Track doc-en changes\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "php/doc-es",
+      "status": "candidate",
+      "text": "\"Track doc-en changes\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11640,
+      "status": "candidate",
+      "text": "course"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11640,
+      "status": "candidate",
+      "text": "curve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11640,
+      "status": "candidate",
+      "text": "double"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11640,
+      "status": "candidate",
+      "text": "hunt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11640,
+      "status": "candidate",
+      "text": "hunted"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Track doc-en changes",
+  "concept_id": "track-doc-en-changes",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/track-en-changes.yml",
+      "source_repo": "php/doc-es"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Track doc-en changes",
+      "sense_id": "track-doc-en-changes#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

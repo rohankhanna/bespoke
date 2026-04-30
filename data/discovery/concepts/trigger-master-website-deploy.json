@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Trigger master website deploy"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "redis/redis-doc",
+      "status": "candidate-context",
+      "text": "Redis documentation source code for markdown and metadata files, conversion scripts, and so forth"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis/redis-doc",
+      "status": "candidate-context",
+      "text": "Trigger master website deploy"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis/redis-doc",
+      "status": "candidate",
+      "text": "Trigger master website deploy"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29867,
+      "status": "candidate",
+      "text": "bringing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29867,
+      "status": "candidate",
+      "text": "move"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29867,
+      "status": "candidate",
+      "text": "overrun"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29786,
+      "status": "candidate",
+      "text": "draw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29664,
+      "status": "candidate",
+      "text": "address"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Trigger master website deploy",
+  "concept_id": "trigger-master-website-deploy",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/trigger-build.yml",
+      "source_repo": "redis/redis-doc"
+    }
+  ],
+  "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Trigger master website deploy",
+      "sense_id": "trigger-master-website-deploy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

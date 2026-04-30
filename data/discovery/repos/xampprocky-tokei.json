@@ -138,20 +138,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "XAMPPRocky/tokei",
-      "target": "earthly/earthly",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "XAMPPRocky/tokei",
-      "target": "laixintao/tokei-pie",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/mean_bean_ci.yml",
       "source_repo": "XAMPPRocky/tokei",
@@ -376,7 +362,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T18:53:15.896431+00:00",
+  "fetched_at": "2026-04-30T19:01:30.273145+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -413,7 +399,7 @@
     "html_url": "https://github.com/XAMPPRocky/tokei",
     "language": "Rust",
     "pushed_at": "2026-01-25T10:11:13Z",
-    "stargazers_count": 14332,
+    "stargazers_count": 14339,
     "topics": [
       "badge",
       "cli",
@@ -428,20 +414,9 @@
       "tokei",
       "windows"
     ],
-    "updated_at": "2026-04-29T18:27:38Z"
+    "updated_at": "2026-04-30T18:39:51Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "earthly/earthly",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "laixintao/tokei-pie",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Mean Bean CI",

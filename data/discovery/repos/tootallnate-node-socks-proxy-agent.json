@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T19:49:02.070757+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 166
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "A SOCKS (v4/v5) proxy `http.Agent` implementation for HTTP and HTTPS",
+    "fork": false,
+    "full_name": "TooTallNate/node-socks-proxy-agent",
+    "html_url": "https://github.com/TooTallNate/node-socks-proxy-agent",
+    "language": null,
+    "pushed_at": "2023-05-05T01:06:42Z",
+    "stargazers_count": 332,
+    "topics": [],
+    "updated_at": "2025-12-19T02:46:25Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

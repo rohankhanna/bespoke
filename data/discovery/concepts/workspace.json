@@ -58,6 +58,18 @@
       "source_repo": "devhammed/insomnia-plugin-documenter",
       "status": "candidate-context",
       "text": "Export Insomnia workspace HTML documentation."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RustCrypto/MACs",
+      "status": "candidate-context",
+      "text": "Message authentication code algorithms written in pure Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RustCrypto/MACs",
+      "status": "candidate-context",
+      "text": "Workspace"
     }
   ],
   "candidate_glosses": [
@@ -84,6 +96,12 @@
       "source_repo": "devhammed/insomnia-plugin-documenter",
       "status": "candidate",
       "text": "Export Insomnia workspace HTML documentation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RustCrypto/MACs",
+      "status": "candidate",
+      "text": "Workspace"
     }
   ],
   "candidate_related_terms": [
@@ -151,11 +169,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "devhammed/insomnia-plugin-documenter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/workspace.yml",
+      "source_repo": "RustCrypto/MACs"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -45,6 +45,12 @@
       "source_repo": "kdheepak/tabline.nvim",
       "status": "candidate-context",
       "text": "vimdoc"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ibhagwan/ts-vimdoc.nvim",
+      "status": "candidate-context",
+      "text": "vimdoc"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +69,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "kdheepak/tabline.nvim",
+      "status": "candidate",
+      "text": "vimdoc"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ibhagwan/ts-vimdoc.nvim",
       "status": "candidate",
       "text": "vimdoc"
     }
@@ -90,11 +102,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "kdheepak/tabline.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/vimdoc.yaml",
+      "source_repo": "ibhagwan/ts-vimdoc.nvim"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

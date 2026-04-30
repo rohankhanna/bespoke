@@ -19,6 +19,18 @@
       "source_repo": "Doubiiu/DynamiCrafter",
       "status": "candidate-context",
       "text": "<!-- ![](./assets/logo_long.png#gh-light-mode-only){: width=\"50%\"} -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KlingAIResearch/LivePortrait",
+      "status": "candidate-context",
+      "text": "Bring portraits to life!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KlingAIResearch/LivePortrait",
+      "status": "candidate-context",
+      "text": "-r requirements_base.txt onnxruntime-gpu==1.18.0 transformers==4.38.0"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "Doubiiu/DynamiCrafter",
       "status": "candidate",
       "text": "<!-- ![](./assets/logo_long.png#gh-light-mode-only){: width=\"50%\"} -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KlingAIResearch/LivePortrait",
+      "status": "candidate",
+      "text": "-r requirements_base.txt onnxruntime-gpu==1.18.0 transformers==4.38.0"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "Doubiiu/DynamiCrafter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": null,
+      "source_repo": "KlingAIResearch/LivePortrait"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

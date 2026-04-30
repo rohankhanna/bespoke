@@ -553,6 +553,18 @@
       "source_repo": "cachix/secretspec",
       "status": "candidate-context",
       "text": "Claude Code Review"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/nvidia-resiliency-ext",
+      "status": "candidate-context",
+      "text": "NVIDIA Resiliency Extension is a python package for framework developers and users to implement fault-tolerant features. It improves the effective training time by minimizing the downtime due to failures and interruptions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/nvidia-resiliency-ext",
+      "status": "candidate-context",
+      "text": "Claude Code Review"
     }
   ],
   "candidate_glosses": [
@@ -835,6 +847,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "cachix/secretspec",
+      "status": "candidate",
+      "text": "Claude Code Review"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/nvidia-resiliency-ext",
       "status": "candidate",
       "text": "Claude Code Review"
     }
@@ -1318,11 +1336,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/claude-code-review.yml",
       "source_repo": "harbor-framework/terminal-bench"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/claude_review.yml",
+      "source_repo": "NVIDIA/nvidia-resiliency-ext"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T18:36:26.757967+00:00",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "winfunc/opcode"
     }
   ],
   "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "lexical_providers": [
     "datamuse"
   ],

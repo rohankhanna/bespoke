@@ -36,28 +36,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "standardrb/standard",
-      "target": "rubocop/rubocop-performance",
+      "target": "standardrb/lint_roller",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "standardrb/standard",
-      "target": "julianrubisch/pronto-standardrb",
+      "target": "standardrb/standard-rails",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "standardrb/standard",
-      "target": "lakim/spring-commands-standard",
+      "target": "standardrb/standard-performance",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "standardrb/standard",
-      "target": "lobsters/lobsters",
+      "target": "standardrb/standard-custom",
       "target_type": "repository"
     },
     {
@@ -145,7 +145,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T09:19:32.565307+00:00",
+  "fetched_at": "2026-04-30T19:49:53.282532+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -170,34 +170,34 @@
     "html_url": "https://github.com/standardrb/standard",
     "language": "Ruby",
     "pushed_at": "2026-04-21T01:32:31Z",
-    "stargazers_count": 2891,
+    "stargazers_count": 2892,
     "topics": [
       "formatter",
       "linter",
       "rubocop",
       "ruby"
     ],
-    "updated_at": "2026-04-28T13:37:37Z"
+    "updated_at": "2026-04-30T11:30:31Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "julianrubisch/pronto-standardrb",
+      "full_name": "standardrb/lint_roller",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "lakim/spring-commands-standard",
+      "full_name": "standardrb/standard-custom",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "lobsters/lobsters",
+      "full_name": "standardrb/standard-performance",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "rubocop/rubocop-performance",
+      "full_name": "standardrb/standard-rails",
       "source_file": "README.md"
     }
   ],

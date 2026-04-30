@@ -1,0 +1,151 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sammycage/lunasvg",
+      "target": "eka2l1/eka2l1",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sammycage/lunasvg",
+      "target": "bitfieldaudio/otto",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sammycage/lunasvg",
+      "target": "etodanik/svgbooga",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sammycage/lunasvg",
+      "target": "aui-framework/aui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "sammycage/lunasvg",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "sammycage/lunasvg",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sammycage/lunasvg",
+      "target": "plutovg",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sammycage/lunasvg",
+      "target": "svg2png",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T18:43:19.001214+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9460
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1190
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "SVG rendering and manipulation library in C++",
+    "fork": false,
+    "full_name": "sammycage/lunasvg",
+    "html_url": "https://github.com/sammycage/lunasvg",
+    "language": "C",
+    "pushed_at": "2026-02-05T06:59:06Z",
+    "stargazers_count": 1147,
+    "topics": [
+      "cpp",
+      "css",
+      "plutovg",
+      "png",
+      "svg",
+      "svg2png"
+    ],
+    "updated_at": "2026-04-30T01:02:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aui-framework/aui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bitfieldaudio/otto",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eka2l1/eka2l1",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "etodanik/svgbooga",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "[![Actions](https://github.com/sammycage/lunasvg/actions/workflows/main.yml/badge.svg)](https://github.com/sammycage/lunasvg/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plutovg"
+    },
+    {
+      "context_snippet": "[![Actions](https://github.com/sammycage/lunasvg/actions/workflows/main.yml/badge.svg)](https://github.com/sammycage/lunasvg/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "svg2png"
+    }
+  ]
+}
