@@ -1,0 +1,169 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clearml/clearml-pycharm-plugin",
+      "target": "allegroai/clearml-agent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clearml/clearml-pycharm-plugin",
+      "target": "allegroai/clearml-pycharm-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clearml/clearml-pycharm-plugin",
+      "target": "allegroai/clearml",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clearml/clearml-pycharm-plugin",
+      "target": "clearml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clearml/clearml-pycharm-plugin",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clearml/clearml-pycharm-plugin",
+      "target": "pycharm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clearml/clearml-pycharm-plugin",
+      "target": "pycharm-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clearml/clearml-pycharm-plugin",
+      "target": "remote-debug",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clearml/clearml-pycharm-plugin",
+      "target": "version-control",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clearml/clearml-pycharm-plugin",
+      "target": "versioning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:06:59.783161+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2507
+    },
+    {
+      "path": ".github/workflows/git_issue_to_pylon.yml",
+      "size": 946
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "ClearML PyCharm Plugin",
+    "fork": false,
+    "full_name": "clearml/clearml-pycharm-plugin",
+    "html_url": "https://github.com/clearml/clearml-pycharm-plugin",
+    "language": "Java",
+    "pushed_at": "2026-03-12T14:25:44Z",
+    "stargazers_count": 36,
+    "topics": [
+      "clearml",
+      "deep-learning",
+      "pycharm",
+      "pycharm-plugin",
+      "remote-debug",
+      "version-control",
+      "versioning"
+    ],
+    "updated_at": "2026-03-12T14:27:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "allegroai/clearml",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "allegroai/clearml-agent",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "allegroai/clearml-pycharm-plugin",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![GitHub license](https://img.shields.io/github/license/allegroai/clearml-pycharm-plugin.svg)](https://img.shields.io/github/license/allegroai/clearml-pycharm-plugin.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clearml"
+    },
+    {
+      "context_snippet": "[![GitHub license](https://img.shields.io/github/license/allegroai/clearml-pycharm-plugin.svg)](https://img.shields.io/github/license/allegroai/clearml-pycharm-plugin.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "[![GitHub license](https://img.shields.io/github/license/allegroai/clearml-pycharm-plugin.svg)](https://img.shields.io/github/license/allegroai/clearml-pycharm-plugin.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pycharm"
+    },
+    {
+      "context_snippet": "[![GitHub license](https://img.shields.io/github/license/allegroai/clearml-pycharm-plugin.svg)](https://img.shields.io/github/license/allegroai/clearml-pycharm-plugin.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pycharm-plugin"
+    },
+    {
+      "context_snippet": "[![GitHub license](https://img.shields.io/github/license/allegroai/clearml-pycharm-plugin.svg)](https://img.shields.io/github/license/allegroai/clearml-pycharm-plugin.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "remote-debug"
+    },
+    {
+      "context_snippet": "[![GitHub license](https://img.shields.io/github/license/allegroai/clearml-pycharm-plugin.svg)](https://img.shields.io/github/license/allegroai/clearml-pycharm-plugin.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "version-control"
+    },
+    {
+      "context_snippet": "[![GitHub license](https://img.shields.io/github/license/allegroai/clearml-pycharm-plugin.svg)](https://img.shields.io/github/license/allegroai/clearml-pycharm-plugin.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "versioning"
+    }
+  ]
+}

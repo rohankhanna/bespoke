@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Main checks"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GoogleChromeLabs/jsvu",
+      "status": "candidate-context",
+      "text": "JavaScript (engine) Version Updater"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleChromeLabs/jsvu",
+      "status": "candidate-context",
+      "text": "Main checks"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleChromeLabs/jsvu",
+      "status": "candidate",
+      "text": "Main checks"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12014,
+      "status": "candidate",
+      "text": "clear"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11896,
+      "status": "candidate",
+      "text": "book"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11896,
+      "status": "candidate",
+      "text": "booking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11896,
+      "status": "candidate",
+      "text": "books"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11896,
+      "status": "candidate",
+      "text": "eyes"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Main checks",
+  "concept_id": "main-checks",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "GoogleChromeLabs/jsvu"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Main checks",
+      "sense_id": "main-checks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

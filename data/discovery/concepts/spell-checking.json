@@ -104,6 +104,18 @@
       "source_repo": "prometheus-community/windows_exporter",
       "status": "candidate-context",
       "text": "Spell checking"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rubocop/rubocop-performance",
+      "status": "candidate-context",
+      "text": "An extension of RuboCop focused on code performance checks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rubocop/rubocop-performance",
+      "status": "candidate-context",
+      "text": "Spell Checking"
     }
   ],
   "candidate_glosses": [
@@ -154,6 +166,12 @@
       "source_repo": "prometheus-community/windows_exporter",
       "status": "candidate",
       "text": "Spell checking"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rubocop/rubocop-performance",
+      "status": "candidate",
+      "text": "Spell Checking"
     }
   ],
   "candidate_related_terms": [
@@ -251,11 +269,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/spell_checking.yml",
       "source_repo": "rubocop/rubocop"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/spell_checking.yml",
+      "source_repo": "rubocop/rubocop-performance"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

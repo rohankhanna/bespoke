@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T13:56:59.901593+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1904
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Racing game utilizing a pseudo-3D rendering algorithm for race tracks. Parody of Persona 4.",
+    "fork": true,
+    "full_name": "timfel/racing-all-afternoon",
+    "html_url": "https://github.com/timfel/racing-all-afternoon",
+    "language": "Python",
+    "pushed_at": "2023-09-27T12:15:14Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2025-01-23T14:57:44Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

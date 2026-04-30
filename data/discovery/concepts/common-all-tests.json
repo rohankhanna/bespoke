@@ -19,12 +19,48 @@
       "source_repo": "flagos-ai/FlagScale",
       "status": "candidate-context",
       "text": "Common All Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flagos-ai/Megatron-LM-FL",
+      "status": "candidate-context",
+      "text": "Megatron-LM-FL is a fork of Megatron-LM that introduces a plugin-based architecture for supporting diverse AI chips, built on top of FlagOS, a unified open-source AI system software stack."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flagos-ai/Megatron-LM-FL",
+      "status": "candidate-context",
+      "text": "Common All Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flagos-ai/TransformerEngine-FL",
+      "status": "candidate-context",
+      "text": "TransformerEngine-FL is a fork of TransformerEngine that introduces a plugin-based architecture for supporting diverse AI chips, built on top of FlagOS, a unified open-source AI system software stack."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flagos-ai/TransformerEngine-FL",
+      "status": "candidate-context",
+      "text": "Common All Tests"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "flagos-ai/FlagScale",
+      "status": "candidate",
+      "text": "Common All Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flagos-ai/Megatron-LM-FL",
+      "status": "candidate",
+      "text": "Common All Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flagos-ai/TransformerEngine-FL",
       "status": "candidate",
       "text": "Common All Tests"
     }
@@ -76,11 +112,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/all_tests_common.yml",
       "source_repo": "flagos-ai/FlagScale"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/all_tests_common.yml",
+      "source_repo": "flagos-ai/Megatron-LM-FL"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/all_tests_common.yml",
+      "source_repo": "flagos-ai/TransformerEngine-FL"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

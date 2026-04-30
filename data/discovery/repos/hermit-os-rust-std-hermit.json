@@ -1,0 +1,93 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hermit-os/rust-std-hermit",
+      "target": "hermitcore/rust-std-hermit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "hermit-os/rust-std-hermit",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hermit-os/rust-std-hermit",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hermit-os/rust-std-hermit",
+      "target": "rust-std-lib",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:04:50.335502+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1107
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1465
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Installable distribution artifacts of rust-std for hermit.",
+    "fork": false,
+    "full_name": "hermit-os/rust-std-hermit",
+    "html_url": "https://github.com/hermit-os/rust-std-hermit",
+    "language": "Shell",
+    "pushed_at": "2026-04-20T09:19:26Z",
+    "stargazers_count": 9,
+    "topics": [
+      "rust",
+      "rust-std-lib"
+    ],
+    "updated_at": "2026-04-20T09:06:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hermitcore/rust-std-hermit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository provides installable distribution artifacts of `rust-std` for the `hermit` targets.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "This repository provides installable distribution artifacts of `rust-std` for the `hermit` targets.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust-std-lib"
+    }
+  ]
+}

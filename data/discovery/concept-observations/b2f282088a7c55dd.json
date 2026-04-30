@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A simple package with guard clause extensions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![logo](media/logotype%201024.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![logo](media/logotype%201024.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dotnet-core",
+      "sense_id": "dotnet-core#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "dotnet-core",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dotnet-core",
+  "observation_id": "b2f282088a7c55dd",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "dotnet-core",
+  "source_context_snippet": "![logo](media/logotype%201024.png)",
+  "source_file": null,
+  "source_repo": "ardalis/GuardClauses",
+  "source_repo_description": "A simple package with guard clause extensions."
+}

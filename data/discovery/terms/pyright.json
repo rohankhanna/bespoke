@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -21,6 +21,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "jordemort/action-pyright"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pyright.yml",
+      "source_repo": "chungmin99/pyroki"
     }
   ],
   "term": "pyright"

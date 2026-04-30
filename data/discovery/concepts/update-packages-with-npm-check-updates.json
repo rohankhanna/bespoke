@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update packages with \"npm-check-updates"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "readthedocs/addons",
+      "status": "candidate-context",
+      "text": "JavaScript client to integrate with Read the Docs nicely"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "readthedocs/addons",
+      "status": "candidate-context",
+      "text": "Update packages with \"npm-check-updates\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "readthedocs/addons",
+      "status": "candidate",
+      "text": "Update packages with \"npm-check-updates\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11519,
+      "status": "candidate",
+      "text": "post"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11519,
+      "status": "candidate",
+      "text": "posted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10599,
+      "status": "candidate",
+      "text": "developments"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10599,
+      "status": "candidate",
+      "text": "maintaining"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10599,
+      "status": "candidate",
+      "text": "patch"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update packages with \"npm-check-updates",
+  "concept_id": "update-packages-with-npm-check-updates",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/ncu.yaml",
+      "source_repo": "readthedocs/addons"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update packages with \"npm-check-updates",
+      "sense_id": "update-packages-with-npm-check-updates#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

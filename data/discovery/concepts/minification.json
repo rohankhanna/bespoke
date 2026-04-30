@@ -73,6 +73,18 @@
       "source_repo": "excubo-ag/WebCompiler",
       "status": "candidate-context",
       "text": "[![Nuget](https://img.shields.io/nuget/v/Excubo.WebCompiler)](https://www.nuget.org/packages/Excubo.WebCompiler/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cssnano/cssnano",
+      "status": "candidate-context",
+      "text": "A modular minifier, built on top of the PostCSS ecosystem."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cssnano/cssnano",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -111,6 +123,12 @@
       "source_repo": "excubo-ag/WebCompiler",
       "status": "candidate",
       "text": "[![Nuget](https://img.shields.io/nuget/v/Excubo.WebCompiler)](https://www.nuget.org/packages/Excubo.WebCompiler/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cssnano/cssnano",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -208,11 +226,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "clean-css/clean-css"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "cssnano/cssnano"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

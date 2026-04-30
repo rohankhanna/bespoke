@@ -1,7 +1,7 @@
 {
   "component": "@inquirer/prompts",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",

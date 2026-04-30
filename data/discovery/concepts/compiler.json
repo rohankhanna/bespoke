@@ -619,6 +619,42 @@
       "source_repo": "v8/v8",
       "status": "candidate-context",
       "text": "V8 JavaScript Engine"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opal/opal",
+      "status": "candidate-context",
+      "text": "Ruby \u2665\ufe0e JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opal/opal",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oxc-project/oxc",
+      "status": "candidate-context",
+      "text": "\u2693 A collection of high-performance JavaScript tools."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oxc-project/oxc",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AdaptiveCpp/AdaptiveCpp",
+      "status": "candidate-context",
+      "text": "Compiler for multiple programming models (SYCL, C++ standard parallelism, HIP/CUDA) for CPUs and GPUs from all vendors: The independent, community-driven compiler for C++-based heterogeneous programming models. Lets applications adapt themselves to all the hardware in the system - even at runtime!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdaptiveCpp/AdaptiveCpp",
+      "status": "candidate-context",
+      "text": "![Project logo](/doc/img/logo/logo-color.png)"
     }
   ],
   "candidate_glosses": [
@@ -927,6 +963,24 @@
       "source_repo": "v8/v8",
       "status": "candidate",
       "text": "V8 JavaScript Engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opal/opal",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oxc-project/oxc",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdaptiveCpp/AdaptiveCpp",
+      "status": "candidate",
+      "text": "![Project logo](/doc/img/logo/logo-color.png)"
     }
   ],
   "candidate_related_terms": [
@@ -1333,11 +1387,35 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "v8/v8"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "opal/opal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "oxc-project/oxc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "AdaptiveCpp/AdaptiveCpp"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

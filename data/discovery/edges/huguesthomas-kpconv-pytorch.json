@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HuguesTHOMAS/KPConv-PyTorch",
+      "target": "huguesthomas/kpconv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HuguesTHOMAS/KPConv-PyTorch",
+      "target": "nicolas-chaulet/torch-points3d",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-30T12:45:20.475770+00:00",
+  "source_repo": "HuguesTHOMAS/KPConv-PyTorch"
+}

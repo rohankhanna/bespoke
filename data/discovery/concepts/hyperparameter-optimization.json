@@ -127,6 +127,30 @@
       "source_repo": "wandb/wandb",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scikit-optimize/scikit-optimize",
+      "status": "candidate-context",
+      "text": "Sequential model-based optimization with a  `scipy.optimize` interface"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scikit-optimize/scikit-optimize",
+      "status": "candidate-context",
+      "text": "|Logo|"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubeflow/sdk",
+      "status": "candidate-context",
+      "text": "Universal Python SDK to run AI workloads on Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubeflow/sdk",
+      "status": "candidate-context",
+      "text": "[![PyPI version](https://img.shields.io/pypi/v/kubeflow?color=%2334D058&label=pypi%20package)](https://pypi.org/project/kubeflow/)"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +213,18 @@
       "source_repo": "wandb/wandb",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scikit-optimize/scikit-optimize",
+      "status": "candidate",
+      "text": "|Logo|"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubeflow/sdk",
+      "status": "candidate",
+      "text": "[![PyPI version](https://img.shields.io/pypi/v/kubeflow?color=%2334D058&label=pypi%20package)](https://pypi.org/project/kubeflow/)"
     }
   ],
   "candidate_related_terms": [],
@@ -256,11 +292,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "wandb/wandb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "scikit-optimize/scikit-optimize"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "kubeflow/sdk"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

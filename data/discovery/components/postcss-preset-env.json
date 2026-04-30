@@ -1,7 +1,7 @@
 {
   "component": "postcss-preset-env",
   "first_seen_at": "2026-04-18T09:23:05.253565+00:00",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",
@@ -77,6 +77,11 @@
       "discovered_via": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "swagger-api/swagger-editor"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleChromeLabs/ProjectVisBug"
     }
   ]
 }

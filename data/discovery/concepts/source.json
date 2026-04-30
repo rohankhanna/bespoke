@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "Source"
+    "Source",
+    "source"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,18 @@
       "source_repo": "curl/curl",
       "status": "candidate-context",
       "text": "'Source'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Anjok07/ultimatevocalremovergui",
+      "status": "candidate-context",
+      "text": " GUI for a Vocal Remover that uses Deep Neural Networks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Anjok07/ultimatevocalremovergui",
+      "status": "candidate-context",
+      "text": "<img src=\"https://raw.githubusercontent.com/Anjok07/ultimatevocalremovergui/master/gui_data/img/UVR_v5.6.png?raw=true\" />"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +42,12 @@
       "source_repo": "curl/curl",
       "status": "candidate",
       "text": "'Source'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Anjok07/ultimatevocalremovergui",
+      "status": "candidate",
+      "text": "<img src=\"https://raw.githubusercontent.com/Anjok07/ultimatevocalremovergui/master/gui_data/img/UVR_v5.6.png?raw=true\" />"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +133,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/checksrc.yml",
       "source_repo": "curl/curl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Anjok07/ultimatevocalremovergui"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kitknox/rootshell",
+      "target": "kitknox/tsshd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kitknox/rootshell",
+      "target": "kitknox/helix",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:57:45.533103+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14271
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Rootshell - The terminal, reimagined for Apple platforms",
+    "fork": false,
+    "full_name": "kitknox/rootshell",
+    "html_url": "https://github.com/kitknox/rootshell",
+    "language": null,
+    "pushed_at": "2026-04-22T21:07:37Z",
+    "stargazers_count": 174,
+    "topics": [],
+    "updated_at": "2026-04-30T12:48:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kitknox/helix",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kitknox/tsshd",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

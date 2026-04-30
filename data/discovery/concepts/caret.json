@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "caret"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Masterminds/semver",
+      "status": "candidate-context",
+      "text": "Work with Semantic Versions in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Masterminds/semver",
+      "status": "candidate-context",
+      "text": "The `semver` package provides the ability to work with [Semantic Versions](http://semver.org) in Go. Specifically it provides the ability to:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Masterminds/semver",
+      "status": "candidate",
+      "text": "The `semver` package provides the ability to work with [Semantic Versions](http://semver.org) in Go. Specifically it provides the ability to:"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19974858,
+      "status": "candidate",
+      "text": "catchmark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19974857,
+      "status": "candidate",
+      "text": "inverted caret"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19974856,
+      "status": "candidate",
+      "text": "stet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19974855,
+      "status": "candidate",
+      "text": "cursor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19974854,
+      "status": "candidate",
+      "text": "catchline"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "caret",
+  "concept_id": "caret",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Masterminds/semver"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "caret",
+      "sense_id": "caret#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

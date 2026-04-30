@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Simple, Elegant, Typed Argument Parsing with argparse"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Build Status](https://github.com/lebrice/SimpleParsing/actions/workflows/build.yml/badge.svg) [![PyPI version](https://badge.fury.io/py/simple-parsing.svg)](https://badge.fury.io/py/simple-parsing)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Build Status](https://github.com/lebrice/SimpleParsing/actions/workflows/build.yml/badge.svg) [![PyPI version](https://badge.fury.io/py/simple-parsing.svg)](https://badge.fury.io/py/simple-parsing)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "argparse",
+      "sense_id": "argparse#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "argparse",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "argparse",
+  "observation_id": "d71bd45292ab44db",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "argparse",
+  "source_context_snippet": "![Build Status](https://github.com/lebrice/SimpleParsing/actions/workflows/build.yml/badge.svg) [![PyPI version](https://badge.fury.io/py/simple-parsing.svg)](https://badge.fury.io/py/simple-parsing)",
+  "source_file": null,
+  "source_repo": "lebrice/SimpleParsing",
+  "source_repo_description": "Simple, Elegant, Typed Argument Parsing with argparse"
+}

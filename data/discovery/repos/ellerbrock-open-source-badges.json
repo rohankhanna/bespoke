@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ellerbrock/open-source-badges",
+      "target": "ellerbrock/typescript-badges",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ellerbrock/open-source-badges",
+      "target": "badge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ellerbrock/open-source-badges",
+      "target": "badges",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ellerbrock/open-source-badges",
+      "target": "open-source",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:03:03.619480+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11599
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":octocat: Open Source & Licence Badges",
+    "fork": false,
+    "full_name": "ellerbrock/open-source-badges",
+    "html_url": "https://github.com/ellerbrock/open-source-badges",
+    "language": null,
+    "pushed_at": "2022-08-03T07:01:12Z",
+    "stargazers_count": 547,
+    "topics": [
+      "badge",
+      "badges",
+      "open-source"
+    ],
+    "updated_at": "2026-04-11T03:05:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ellerbrock/typescript-badges",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Badges to show your love for Open Source and the Community.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "badge"
+    },
+    {
+      "context_snippet": "Badges to show your love for Open Source and the Community.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "badges"
+    },
+    {
+      "context_snippet": "Badges to show your love for Open Source and the Community.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-source"
+    }
+  ]
+}

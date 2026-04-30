@@ -1,0 +1,270 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "novnc/websockify",
+      "target": "novnc/novnc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "novnc/websockify",
+      "target": "novnc/websockify-js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "novnc/websockify",
+      "target": "novnc/websockify-other",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "novnc/websockify",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "novnc/websockify",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "novnc/websockify",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "novnc/websockify",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "novnc/websockify",
+      "target": "bridge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "novnc/websockify",
+      "target": "certificate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "novnc/websockify",
+      "target": "novnc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "novnc/websockify",
+      "target": "proxy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "novnc/websockify",
+      "target": "subprotocol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "novnc/websockify",
+      "target": "traffic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "novnc/websockify",
+      "target": "websocket-protocol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "novnc/websockify",
+      "target": "websocket-proxy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "novnc/websockify",
+      "target": "websockets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "novnc/websockify",
+      "target": "websockify",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:59:51.565957+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8808
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 420
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 939
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Websockify is a WebSocket to TCP proxy/bridge. This allows a browser to connect  to any application/server/service.",
+    "fork": false,
+    "full_name": "novnc/websockify",
+    "html_url": "https://github.com/novnc/websockify",
+    "language": "Python",
+    "pushed_at": "2026-02-11T16:10:56Z",
+    "stargazers_count": 4383,
+    "topics": [
+      "bridge",
+      "certificate",
+      "javascript",
+      "novnc",
+      "proxy",
+      "python",
+      "ssl",
+      "subprotocol",
+      "traffic",
+      "websocket-protocol",
+      "websocket-proxy",
+      "websockets",
+      "websockify",
+      "wss"
+    ],
+    "updated_at": "2026-04-29T17:19:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "novnc/novnc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "novnc/websockify-js",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "novnc/websockify-other",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "websockify was formerly named wsproxy and was part of the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bridge"
+    },
+    {
+      "context_snippet": "websockify was formerly named wsproxy and was part of the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "certificate"
+    },
+    {
+      "context_snippet": "websockify was formerly named wsproxy and was part of the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "novnc"
+    },
+    {
+      "context_snippet": "websockify was formerly named wsproxy and was part of the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "proxy"
+    },
+    {
+      "context_snippet": "websockify was formerly named wsproxy and was part of the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "subprotocol"
+    },
+    {
+      "context_snippet": "websockify was formerly named wsproxy and was part of the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "traffic"
+    },
+    {
+      "context_snippet": "websockify was formerly named wsproxy and was part of the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "websocket-protocol"
+    },
+    {
+      "context_snippet": "websockify was formerly named wsproxy and was part of the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "websocket-proxy"
+    },
+    {
+      "context_snippet": "websockify was formerly named wsproxy and was part of the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "websockets"
+    },
+    {
+      "context_snippet": "websockify was formerly named wsproxy and was part of the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "websockify"
+    }
+  ]
+}

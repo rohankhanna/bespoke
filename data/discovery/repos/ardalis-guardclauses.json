@@ -1,0 +1,418 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "irongut/CodeCoverageSummary@v1.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "joshjohanning/CodeCoverageSummary@v1.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "dawidd6/action-download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment-on-pr.yml"
+    },
+    {
+      "component": "dawidd6/action-download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment-on-pr.yml"
+    },
+    {
+      "component": "marocchino/sticky-pull-request-comment@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment-on-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "rohith/publish-nuget@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ardalis/GuardClauses",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ardalis/GuardClauses",
+      "target": "actions/setup-dotnet@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ardalis/GuardClauses",
+      "target": "irongut/CodeCoverageSummary@v1.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ardalis/GuardClauses",
+      "target": "joshjohanning/CodeCoverageSummary@v1.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ardalis/GuardClauses",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "ardalis/GuardClauses",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "ardalis/GuardClauses",
+      "target": "github/codeql-action/init@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "ardalis/GuardClauses",
+      "target": "github/codeql-action/autobuild@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "ardalis/GuardClauses",
+      "target": "github/codeql-action/analyze@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "ardalis/GuardClauses",
+      "target": "CodeQL Analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment-on-pr.yml",
+      "source_repo": "ardalis/GuardClauses",
+      "target": "dawidd6/action-download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment-on-pr.yml",
+      "source_repo": "ardalis/GuardClauses",
+      "target": "marocchino/sticky-pull-request-comment@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/comment-on-pr.yml",
+      "source_repo": "ardalis/GuardClauses",
+      "target": "Comment on the Pull Request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ardalis/GuardClauses",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ardalis/GuardClauses",
+      "target": "actions/setup-dotnet@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ardalis/GuardClauses",
+      "target": "rohith/publish-nuget@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ardalis/GuardClauses",
+      "target": "publish Ardalis.GuardClauses to nuget",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ardalis/GuardClauses",
+      "target": "clean-architecture",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ardalis/GuardClauses",
+      "target": "clean-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ardalis/GuardClauses",
+      "target": "design-patterns",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ardalis/GuardClauses",
+      "target": "dotnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ardalis/GuardClauses",
+      "target": "dotnet-core",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ardalis/GuardClauses",
+      "target": "guard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ardalis/GuardClauses",
+      "target": "guard-clause",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ardalis/GuardClauses",
+      "target": "guard-clauses",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ardalis/GuardClauses",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ardalis/GuardClauses",
+      "target": "pattern",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ardalis/GuardClauses",
+      "target": "patterns",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:08:04.980484+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5031
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 2031
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 698
+    },
+    {
+      "path": ".github/workflows/comment-on-pr.yml",
+      "size": 1246
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 1305
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A simple package with guard clause extensions.",
+    "fork": false,
+    "full_name": "ardalis/GuardClauses",
+    "html_url": "https://github.com/ardalis/GuardClauses",
+    "language": "C#",
+    "pushed_at": "2025-03-03T13:06:47Z",
+    "stargazers_count": 3295,
+    "topics": [
+      "clean-architecture",
+      "clean-code",
+      "design-patterns",
+      "dotnet",
+      "dotnet-core",
+      "guard",
+      "guard-clause",
+      "guard-clauses",
+      "hacktoberfest",
+      "pattern",
+      "patterns"
+    ],
+    "updated_at": "2026-04-29T11:57:06Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CodeQL Analysis",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL Analysis"
+    },
+    {
+      "context_snippet": "Comment on the Pull Request",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/comment-on-pr.yml",
+      "term": "Comment on the Pull Request"
+    },
+    {
+      "context_snippet": "publish Ardalis.GuardClauses to nuget",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "publish Ardalis.GuardClauses to nuget"
+    },
+    {
+      "context_snippet": "![logo](media/logotype%201024.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clean-architecture"
+    },
+    {
+      "context_snippet": "![logo](media/logotype%201024.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clean-code"
+    },
+    {
+      "context_snippet": "![logo](media/logotype%201024.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "design-patterns"
+    },
+    {
+      "context_snippet": "![logo](media/logotype%201024.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet"
+    },
+    {
+      "context_snippet": "![logo](media/logotype%201024.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet-core"
+    },
+    {
+      "context_snippet": "![logo](media/logotype%201024.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "guard"
+    },
+    {
+      "context_snippet": "![logo](media/logotype%201024.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "guard-clause"
+    },
+    {
+      "context_snippet": "![logo](media/logotype%201024.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "guard-clauses"
+    },
+    {
+      "context_snippet": "![logo](media/logotype%201024.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "![logo](media/logotype%201024.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pattern"
+    },
+    {
+      "context_snippet": "![logo](media/logotype%201024.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "patterns"
+    }
+  ]
+}

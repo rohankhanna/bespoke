@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T15:11:53.556844+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10401
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[ICCV 2023] Official repository of FLatten Transformer",
+    "fork": false,
+    "full_name": "LeapLabTHU/FLatten-Transformer",
+    "html_url": "https://github.com/LeapLabTHU/FLatten-Transformer",
+    "language": "Python",
+    "pushed_at": "2024-11-04T16:05:06Z",
+    "stargazers_count": 447,
+    "topics": [],
+    "updated_at": "2026-04-04T20:08:31Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

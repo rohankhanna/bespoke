@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Geopolitical-And-OSINT-Index",
+      "target": "danielrosehill/claude-osint-investigator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Geopolitical-And-OSINT-Index",
+      "target": "danielrosehill/claude-georeaction-researcher",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Geopolitical-And-OSINT-Index",
+      "target": "danielrosehill/geopolitical-analysis-system-prompts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Geopolitical-And-OSINT-Index",
+      "target": "danielrosehill/claude-preparedness-planner",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-30T12:45:20.475770+00:00",
+  "source_repo": "danielrosehill/Geopolitical-And-OSINT-Index"
+}

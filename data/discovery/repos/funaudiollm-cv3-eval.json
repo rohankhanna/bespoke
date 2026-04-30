@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T16:12:58.386759+00:00",
+  "fetched_files": [
+    {
+      "path": "requirements.txt",
+      "size": 227
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "FunAudioLLM/CV3-Eval",
+    "html_url": "https://github.com/FunAudioLLM/CV3-Eval",
+    "language": "Python",
+    "pushed_at": "2025-08-25T02:43:21Z",
+    "stargazers_count": 181,
+    "topics": [],
+    "updated_at": "2026-04-28T03:20:46Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

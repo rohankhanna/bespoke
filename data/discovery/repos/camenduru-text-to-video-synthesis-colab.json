@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "camenduru/text-to-video-synthesis-colab",
+      "target": "deforum-art/sd-webui-text2video",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "camenduru/text-to-video-synthesis-colab",
+      "target": "colab",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "camenduru/text-to-video-synthesis-colab",
+      "target": "colab-notebook",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "camenduru/text-to-video-synthesis-colab",
+      "target": "colaboratory",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "camenduru/text-to-video-synthesis-colab",
+      "target": "text-to-video",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:09:48.322684+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12965
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Text To Video Synthesis Colab",
+    "fork": false,
+    "full_name": "camenduru/text-to-video-synthesis-colab",
+    "html_url": "https://github.com/camenduru/text-to-video-synthesis-colab",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-03-28T08:15:17Z",
+    "stargazers_count": 1517,
+    "topics": [
+      "colab",
+      "colab-notebook",
+      "colaboratory",
+      "t2v",
+      "text-to-video"
+    ],
+    "updated_at": "2026-04-29T06:34:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deforum-art/sd-webui-text2video",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\ud83d\udc23 Please follow me for new updates https://twitter.com/camenduru <br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "colab"
+    },
+    {
+      "context_snippet": "\ud83d\udc23 Please follow me for new updates https://twitter.com/camenduru <br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "colab-notebook"
+    },
+    {
+      "context_snippet": "\ud83d\udc23 Please follow me for new updates https://twitter.com/camenduru <br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "colaboratory"
+    },
+    {
+      "context_snippet": "\ud83d\udc23 Please follow me for new updates https://twitter.com/camenduru <br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-video"
+    }
+  ]
+}

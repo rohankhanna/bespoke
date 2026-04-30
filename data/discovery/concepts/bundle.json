@@ -46,6 +46,18 @@
       "source_repo": "web-infra-dev/rsdoctor",
       "status": "candidate-context",
       "text": "<picture>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "symfony/symfony",
+      "status": "candidate-context",
+      "text": "The Symfony PHP framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "symfony/symfony",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><a href=\"https://symfony.com\" target=\"_blank\">"
     }
   ],
   "candidate_glosses": [
@@ -66,6 +78,12 @@
       "source_repo": "web-infra-dev/rsdoctor",
       "status": "candidate",
       "text": "<picture>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "symfony/symfony",
+      "status": "candidate",
+      "text": "<p align=\"center\"><a href=\"https://symfony.com\" target=\"_blank\">"
     }
   ],
   "candidate_related_terms": [
@@ -163,11 +181,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "web-infra-dev/rsdoctor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "symfony/symfony"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

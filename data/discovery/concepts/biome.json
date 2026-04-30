@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "biome"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HumanSignal/label-studio",
+      "status": "candidate-context",
+      "text": "Label Studio is a multi-type data labeling and annotation tool with standardized output format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HumanSignal/label-studio",
+      "status": "candidate-context",
+      "text": "\"biome\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HumanSignal/label-studio",
+      "status": "candidate",
+      "text": "\"biome\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29572589,
+      "status": "candidate",
+      "text": "bgc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20019812,
+      "status": "candidate",
+      "text": "biocommunity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20019811,
+      "status": "candidate",
+      "text": "pedobiome"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20019810,
+      "status": "candidate",
+      "text": "biota"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20019809,
+      "status": "candidate",
+      "text": "pathobiome"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "biome",
+  "concept_id": "biome",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/biome.yml",
+      "source_repo": "HumanSignal/label-studio"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "biome",
+      "sense_id": "biome#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

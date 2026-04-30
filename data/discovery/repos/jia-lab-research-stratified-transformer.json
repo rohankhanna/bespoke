@@ -5,13 +5,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "JIA-Lab-research/Stratified-Transformer",
-      "target": "yanx27/pointnet_pointnet2_pytorch",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "JIA-Lab-research/Stratified-Transformer",
       "target": "dvlab-research/pointgroup",
       "target_type": "repository"
     },
@@ -44,7 +37,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T10:14:30.116648+00:00",
+  "fetched_at": "2026-04-30T15:09:03.349186+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -78,11 +71,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "dvlab-research/pointgroup",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "yanx27/pointnet_pointnet2_pytorch",
       "source_file": "README.md"
     }
   ],

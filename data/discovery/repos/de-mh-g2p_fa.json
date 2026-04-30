@@ -1,0 +1,63 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "de-mh/g2p_fa",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "de-mh/g2p_fa",
+      "target": "Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:14:11.635789+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2202
+    },
+    {
+      "path": "requirements.txt",
+      "size": 5
+    },
+    {
+      "path": ".github/workflows/tests.yaml",
+      "size": 411
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Grapheme to Phoneme model using LSTM implemented in pytorch",
+    "fork": false,
+    "full_name": "de-mh/g2p_fa",
+    "html_url": "https://github.com/de-mh/g2p_fa",
+    "language": "Python",
+    "pushed_at": "2022-07-06T08:00:37Z",
+    "stargazers_count": 14,
+    "topics": [],
+    "updated_at": "2026-04-17T10:12:12Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yaml",
+      "term": "Tests"
+    }
+  ]
+}

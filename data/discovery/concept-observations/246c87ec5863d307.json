@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "igraph R package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "rcc"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "rcc"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20019541,
+      "status": "candidate",
+      "text": "chromophobe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20019276,
+      "status": "candidate",
+      "text": "bcr"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20007477,
+      "status": "candidate",
+      "text": "sac"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20005096,
+      "status": "candidate",
+      "text": "ada"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19980331,
+      "status": "candidate",
+      "text": "crc"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "rcc",
+      "sense_id": "rcc#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "rcc",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "rcc",
+  "observation_id": "246c87ec5863d307",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "rcc",
+  "source_context_snippet": "rcc",
+  "source_file": ".github/workflows/R-CMD-check.yaml",
+  "source_repo": "igraph/rigraph",
+  "source_repo_description": "igraph R package"
+}

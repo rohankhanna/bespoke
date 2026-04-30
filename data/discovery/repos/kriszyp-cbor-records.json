@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kriszyp/cbor-records",
+      "target": "shanewholloway/js-cbor-codec",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:11:39.806508+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12356
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Registration for CBOR tag for records",
+    "fork": false,
+    "full_name": "kriszyp/cbor-records",
+    "html_url": "https://github.com/kriszyp/cbor-records",
+    "language": null,
+    "pushed_at": "2023-11-10T14:25:40Z",
+    "stargazers_count": 11,
+    "topics": [],
+    "updated_at": "2024-12-30T16:54:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shanewholloway/js-cbor-codec",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

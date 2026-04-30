@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Change data capture for a variety of databases. Please log issues at https://github.com/debezium/dbz/issues."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Commit Sign-off Check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Commit Sign-off Check"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26105,
+      "status": "candidate",
+      "text": "kite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18541,
+      "status": "candidate",
+      "text": "endorse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18515,
+      "status": "candidate",
+      "text": "approve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18515,
+      "status": "candidate",
+      "text": "approved"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18474,
+      "status": "candidate",
+      "text": "certification"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Commit Sign-off Check",
+      "sense_id": "commit-sign-off-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "commit-sign-off-check",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "commit-sign-off-check",
+  "observation_id": "0f3d50c68e4be509",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "Commit Sign-off Check",
+  "source_context_snippet": "Commit Sign-off Check",
+  "source_file": ".github/workflows/commit-signoff-check.yml",
+  "source_repo": "debezium/debezium",
+  "source_repo_description": "Change data capture for a variety of databases. Please log issues at https://github.com/debezium/dbz/issues."
+}

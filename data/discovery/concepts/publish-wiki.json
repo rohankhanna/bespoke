@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Publish wiki"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Blinue/Magpie",
+      "status": "candidate-context",
+      "text": "A general-purpose window upscaler for Windows 10/11."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Blinue/Magpie",
+      "status": "candidate-context",
+      "text": "Publish wiki"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Blinue/Magpie",
+      "status": "candidate",
+      "text": "Publish wiki"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13035,
+      "status": "candidate",
+      "text": "wikia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10760,
+      "status": "candidate",
+      "text": "above"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10760,
+      "status": "candidate",
+      "text": "address"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10760,
+      "status": "candidate",
+      "text": "advertisement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10760,
+      "status": "candidate",
+      "text": "album"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Publish wiki",
+  "concept_id": "publish-wiki",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/wiki.yml",
+      "source_repo": "Blinue/Magpie"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish wiki",
+      "sense_id": "publish-wiki#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

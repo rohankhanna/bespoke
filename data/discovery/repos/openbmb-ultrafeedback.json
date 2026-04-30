@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T14:58:32.610425+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19154
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A large-scale, fine-grained, diverse preference dataset (and models).",
+    "fork": false,
+    "full_name": "OpenBMB/UltraFeedback",
+    "html_url": "https://github.com/OpenBMB/UltraFeedback",
+    "language": "Python",
+    "pushed_at": "2023-12-29T16:39:19Z",
+    "stargazers_count": 367,
+    "topics": [],
+    "updated_at": "2026-04-05T12:54:09Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

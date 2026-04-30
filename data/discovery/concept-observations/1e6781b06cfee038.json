@@ -1,0 +1,88 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Spring AI Integration Tests (Manual Only)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Spring AI Integration Tests (Manual Only)"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26487,
+      "status": "candidate",
+      "text": "battleship"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17222,
+      "status": "candidate",
+      "text": "code review"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17222,
+      "status": "candidate",
+      "text": "coupon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17222,
+      "status": "candidate",
+      "text": "dark field illumination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17222,
+      "status": "candidate",
+      "text": "dark ground illumination"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Spring AI Integration Tests (Manual Only)",
+      "sense_id": "spring-ai-integration-tests-manual-only#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "spring-ai-integration-tests-manual-only",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "spring-ai-integration-tests-manual-only",
+  "observation_id": "1e6781b06cfee038",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "Spring AI Integration Tests (Manual Only)",
+  "source_context_snippet": "Spring AI Integration Tests (Manual Only)",
+  "source_file": ".github/workflows/spring-ai-integration-tests-manual-only.yml",
+  "source_repo": "spring-projects/spring-ai-integration-tests",
+  "source_repo_description": null
+}

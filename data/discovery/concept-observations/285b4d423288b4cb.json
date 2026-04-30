@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "ctransformers wheels with pre-built CUDA binaries for additional CUDA and AVX versions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Deploy package index to Pages"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Deploy package index to Pages"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28911,
+      "status": "candidate",
+      "text": "collate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28908,
+      "status": "candidate",
+      "text": "open"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28880,
+      "status": "candidate",
+      "text": "inset"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28880,
+      "status": "candidate",
+      "text": "paginate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28879,
+      "status": "candidate",
+      "text": "lock"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy package index to Pages",
+      "sense_id": "deploy-package-index-to-pages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "deploy-package-index-to-pages",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "deploy-package-index-to-pages",
+  "observation_id": "285b4d423288b4cb",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "Deploy package index to Pages",
+  "source_context_snippet": "Deploy package index to Pages",
+  "source_file": ".github/workflows/deploy-index.yml",
+  "source_repo": "jllllll/ctransformers-cuBLAS-wheels",
+  "source_repo_description": "ctransformers wheels with pre-built CUDA binaries for additional CUDA and AVX versions."
+}

@@ -19,6 +19,42 @@
       "source_repo": "secretflow/secretflow",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ViTAE-Transformer/ViTAE-Transformer-Matting",
+      "status": "candidate-context",
+      "text": "A comprehensive list [AIM@IJCAI'21, P3M@MM'21, GFM@IJCV'22, RIM@CVPR'23, P3MNet@IJCV'23] of our research works related to image matting, including papers, codes, datasets, demos, and citations. Note: The repo for [IJCV'23] \"Rethinking Portrait Matting with Privacy Preserving\" has been moved to: https://github.com/ViTAE-Transformer/P3M-Net"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/ViTAE-Transformer-Matting",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Image Matting</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "secretflow/kuscia",
+      "status": "candidate-context",
+      "text": "Kuscia(Kubernetes-based Secure Collaborative InfrA) is a K8s-based privacy-preserving computing task orchestration framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "secretflow/kuscia",
+      "status": "candidate-context",
+      "text": "[![CircleCI](https://dl.circleci.com/status-badge/img/gh/secretflow/kuscia/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/secretflow/kuscia/tree/main)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "secretflow/spu",
+      "status": "candidate-context",
+      "text": "SPU (Secure Processing Unit) aims to be a provable, measurable secure computation device, which provides computation ability while keeping your private data protected."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "secretflow/spu",
+      "status": "candidate-context",
+      "text": "[![CircleCI](https://dl.circleci.com/status-badge/img/gh/secretflow/spu/tree/main.svg?style=shield)](https://dl.circleci.com/status-badge/redirect/gh/secretflow/spu/tree/main)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +63,24 @@
       "source_repo": "secretflow/secretflow",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/ViTAE-Transformer-Matting",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Image Matting</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "secretflow/kuscia",
+      "status": "candidate",
+      "text": "[![CircleCI](https://dl.circleci.com/status-badge/img/gh/secretflow/kuscia/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/secretflow/kuscia/tree/main)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "secretflow/spu",
+      "status": "candidate",
+      "text": "[![CircleCI](https://dl.circleci.com/status-badge/img/gh/secretflow/spu/tree/main.svg?style=shield)](https://dl.circleci.com/status-badge/redirect/gh/secretflow/spu/tree/main)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +94,29 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "secretflow/secretflow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/ViTAE-Transformer-Matting"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "secretflow/kuscia"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "secretflow/spu"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

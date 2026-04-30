@@ -38,34 +38,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "hermit-os/hermit-gcc",
-      "target": "hermit-os/binutils",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "hermit-os/hermit-gcc",
-      "target": "hermit-os/newlib",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "hermit-os/hermit-gcc",
-      "target": "hermit-os/pthread-embedded",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "hermit-os/hermit-gcc",
-      "target": "hermit-os/gcc",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "hermit-os/hermit-gcc",
@@ -108,7 +80,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T09:11:36.410978+00:00",
+  "fetched_at": "2026-04-30T14:04:51.964170+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -137,28 +109,7 @@
     "topics": [],
     "updated_at": "2026-03-02T10:15:27Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "hermit-os/binutils",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "hermit-os/gcc",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "hermit-os/newlib",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "hermit-os/pthread-embedded",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Publish",

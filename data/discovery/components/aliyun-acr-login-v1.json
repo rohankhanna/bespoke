@@ -1,0 +1,52 @@
+{
+  "component": "aliyun/acr-login@v1",
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/backup-to-acr.yml",
+      "source_repo": "Oneflow-Inc/docker-images"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cuda-llvm.yml",
+      "source_repo": "Oneflow-Inc/docker-images"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/hf-transformers-pytorch-deepspeed.yml",
+      "source_repo": "Oneflow-Inc/docker-images"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/oneflow-devcontainer.yml",
+      "source_repo": "Oneflow-Inc/docker-images"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/oneflow-nightly.yml",
+      "source_repo": "Oneflow-Inc/docker-images"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/openvino.yml",
+      "source_repo": "Oneflow-Inc/docker-images"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/serving.yml",
+      "source_repo": "Oneflow-Inc/docker-images"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-with-pytorch.yml",
+      "source_repo": "Oneflow-Inc/docker-images"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-with-tf.yml",
+      "source_repo": "Oneflow-Inc/docker-images"
+    }
+  ]
+}

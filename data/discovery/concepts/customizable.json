@@ -37,6 +37,18 @@
       "source_repo": "codefuse-ai/MFTCoder",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pradyunsg/furo",
+      "status": "candidate-context",
+      "text": "A clean customizable documentation theme for Sphinx"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pradyunsg/furo",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Furo</h1>"
     }
   ],
   "candidate_glosses": [
@@ -57,6 +69,12 @@
       "source_repo": "codefuse-ai/MFTCoder",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pradyunsg/furo",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Furo</h1>"
     }
   ],
   "candidate_related_terms": [
@@ -118,11 +136,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "codefuse-ai/MFTCoder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "pradyunsg/furo"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

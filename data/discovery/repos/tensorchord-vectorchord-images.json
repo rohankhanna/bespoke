@@ -1,0 +1,748 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_pg_tokenizer_scratch.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_pg_tokenizer_scratch.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_pg_tokenizer_scratch.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_pg_tokenizer_scratch.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_pg_tokenizer_scratch.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_pg_tokenizer_scratch.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_pg_tokenizer_scratch.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_pg_tokenizer_scratch.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_pg_tokenizer_scratch.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_pg_tokenizer_scratch.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_bm25_postgres.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_bm25_postgres.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_bm25_postgres.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_bm25_postgres.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_bm25_postgres.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_bm25_postgres.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_bm25_postgres.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_bm25_postgres.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_bm25_postgres.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_bm25_postgres.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_bm25_scratch.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_bm25_scratch.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_bm25_scratch.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_bm25_scratch.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_bm25_scratch.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_bm25_scratch.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_bm25_scratch.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_bm25_scratch.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_bm25_scratch.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_bm25_scratch.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_cnpg.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_cnpg.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_cnpg.yml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_cnpg.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_cnpg.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_cnpg.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_cnpg.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_postgres.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_postgres.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_postgres.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_postgres.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_postgres.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_postgres.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_postgres.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_postgres.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_postgres.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_postgres.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_scratch.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_scratch.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_scratch.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_scratch.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_scratch.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_scratch.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_scratch.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_scratch.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_scratch.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_scratch.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_suite.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_suite.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_suite.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_suite.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_suite.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_suite.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_suite.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_suite.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_suite.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_suite.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tensorchord/VectorChord-images",
+      "target": "tensorchord/pg_tokenizer.rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tensorchord/VectorChord-images",
+      "target": "tensorchord/vectorchord-bm25",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_pg_tokenizer_scratch.yml",
+      "source_repo": "tensorchord/VectorChord-images",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_pg_tokenizer_scratch.yml",
+      "source_repo": "tensorchord/VectorChord-images",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_pg_tokenizer_scratch.yml",
+      "source_repo": "tensorchord/VectorChord-images",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_pg_tokenizer_scratch.yml",
+      "source_repo": "tensorchord/VectorChord-images",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_pg_tokenizer_scratch.yml",
+      "source_repo": "tensorchord/VectorChord-images",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_bm25_postgres.yml",
+      "source_repo": "tensorchord/VectorChord-images",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_bm25_postgres.yml",
+      "source_repo": "tensorchord/VectorChord-images",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_bm25_postgres.yml",
+      "source_repo": "tensorchord/VectorChord-images",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_bm25_postgres.yml",
+      "source_repo": "tensorchord/VectorChord-images",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_bm25_postgres.yml",
+      "source_repo": "tensorchord/VectorChord-images",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_vchord_bm25_postgres.yml",
+      "source_repo": "tensorchord/VectorChord-images",
+      "target": "VectorChord-bm25 PostgreSQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_bm25_scratch.yml",
+      "source_repo": "tensorchord/VectorChord-images",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_bm25_scratch.yml",
+      "source_repo": "tensorchord/VectorChord-images",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_bm25_scratch.yml",
+      "source_repo": "tensorchord/VectorChord-images",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_bm25_scratch.yml",
+      "source_repo": "tensorchord/VectorChord-images",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_bm25_scratch.yml",
+      "source_repo": "tensorchord/VectorChord-images",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_vchord_bm25_scratch.yml",
+      "source_repo": "tensorchord/VectorChord-images",
+      "target": "VectorChord-bm25 Scratch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_cnpg.yml",
+      "source_repo": "tensorchord/VectorChord-images",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_cnpg.yml",
+      "source_repo": "tensorchord/VectorChord-images",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_cnpg.yml",
+      "source_repo": "tensorchord/VectorChord-images",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_cnpg.yml",
+      "source_repo": "tensorchord/VectorChord-images",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_cnpg.yml",
+      "source_repo": "tensorchord/VectorChord-images",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_cnpg.yml",
+      "source_repo": "tensorchord/VectorChord-images",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_vchord_cnpg.yml",
+      "source_repo": "tensorchord/VectorChord-images",
+      "target": "VectorChord CNPG Image Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_postgres.yml",
+      "source_repo": "tensorchord/VectorChord-images",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_postgres.yml",
+      "source_repo": "tensorchord/VectorChord-images",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_postgres.yml",
+      "source_repo": "tensorchord/VectorChord-images",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_postgres.yml",
+      "source_repo": "tensorchord/VectorChord-images",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_postgres.yml",
+      "source_repo": "tensorchord/VectorChord-images",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_vchord_postgres.yml",
+      "source_repo": "tensorchord/VectorChord-images",
+      "target": "VectorChord PostgreSQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_scratch.yml",
+      "source_repo": "tensorchord/VectorChord-images",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_scratch.yml",
+      "source_repo": "tensorchord/VectorChord-images",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_scratch.yml",
+      "source_repo": "tensorchord/VectorChord-images",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_scratch.yml",
+      "source_repo": "tensorchord/VectorChord-images",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_scratch.yml",
+      "source_repo": "tensorchord/VectorChord-images",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_vchord_scratch.yml",
+      "source_repo": "tensorchord/VectorChord-images",
+      "target": "VectorChord Scratch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_suite.yml",
+      "source_repo": "tensorchord/VectorChord-images",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_suite.yml",
+      "source_repo": "tensorchord/VectorChord-images",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_suite.yml",
+      "source_repo": "tensorchord/VectorChord-images",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_suite.yml",
+      "source_repo": "tensorchord/VectorChord-images",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_vchord_suite.yml",
+      "source_repo": "tensorchord/VectorChord-images",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_vchord_suite.yml",
+      "source_repo": "tensorchord/VectorChord-images",
+      "target": "Monthly All-in-One Image Build",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:01:35.922888+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3409
+    },
+    {
+      "path": ".github/workflows/release_pg_tokenizer_scratch.yml",
+      "size": 3522
+    },
+    {
+      "path": ".github/workflows/release_vchord_bm25_postgres.yml",
+      "size": 4420
+    },
+    {
+      "path": ".github/workflows/release_vchord_bm25_scratch.yml",
+      "size": 3510
+    },
+    {
+      "path": ".github/workflows/release_vchord_cnpg.yml",
+      "size": 4844
+    },
+    {
+      "path": ".github/workflows/release_vchord_postgres.yml",
+      "size": 3727
+    },
+    {
+      "path": ".github/workflows/release_vchord_scratch.yml",
+      "size": 3440
+    },
+    {
+      "path": ".github/workflows/release_vchord_suite.yml",
+      "size": 6400
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "tensorchord/VectorChord-images",
+    "html_url": "https://github.com/tensorchord/VectorChord-images",
+    "language": "Dockerfile",
+    "pushed_at": "2026-02-11T04:22:18Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2026-03-22T18:33:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tensorchord/pg_tokenizer.rs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tensorchord/vectorchord-bm25",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "VectorChord-bm25 PostgreSQL",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_vchord_bm25_postgres.yml",
+      "term": "VectorChord-bm25 PostgreSQL"
+    },
+    {
+      "context_snippet": "VectorChord-bm25 Scratch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_vchord_bm25_scratch.yml",
+      "term": "VectorChord-bm25 Scratch"
+    },
+    {
+      "context_snippet": "VectorChord CNPG Image Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_vchord_cnpg.yml",
+      "term": "VectorChord CNPG Image Build"
+    },
+    {
+      "context_snippet": "VectorChord PostgreSQL",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_vchord_postgres.yml",
+      "term": "VectorChord PostgreSQL"
+    },
+    {
+      "context_snippet": "VectorChord Scratch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_vchord_scratch.yml",
+      "term": "VectorChord Scratch"
+    },
+    {
+      "context_snippet": "Monthly All-in-One Image Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_vchord_suite.yml",
+      "term": "Monthly All-in-One Image Build"
+    }
+  ]
+}

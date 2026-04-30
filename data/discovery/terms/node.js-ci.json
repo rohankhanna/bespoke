@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:50:06.115508+00:00",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -271,6 +271,46 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "zhipeng-jia/snappyjs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "Unitech/pm2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/node-ci.yml",
+      "source_repo": "shanewholloway/js-cbor-codec"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "Azure/azure-api-style-guide"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "anvaka/panzoom"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jprichardson/node-fs-extra"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "taylorhakes/fecha"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "ErKeLost/squoosh-node-latest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "GoogleChromeLabs/squoosh"
     }
   ],
   "term": "Node.js CI"

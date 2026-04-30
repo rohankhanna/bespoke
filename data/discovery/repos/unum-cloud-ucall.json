@@ -1,0 +1,584 @@
+{
+  "components": [
+    {
+      "component": "@semantic-release/exec",
+      "edge_type": "package-json:devDependencies",
+      "source_file": ".github/workflows/package.json"
+    },
+    {
+      "component": "@semantic-release/git",
+      "edge_type": "package-json:devDependencies",
+      "source_file": ".github/workflows/package.json"
+    },
+    {
+      "component": "conventional-changelog-eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": ".github/workflows/package.json"
+    },
+    {
+      "component": "semantic-release",
+      "edge_type": "package-json:devDependencies",
+      "source_file": ".github/workflows/package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prerelease.yml"
+    },
+    {
+      "component": "ashvardanian/tinysemver@v2.0.7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prerelease.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prerelease.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prerelease.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "ashvardanian/tinysemver@v2.0.7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/configure-pages@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "unum-cloud/UCall",
+      "target": "unum-cloud/ukv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "unum-cloud/UCall",
+      "target": "powturbo/turbo-base64",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "unum-cloud/UCall",
+      "target": "h2o/picohttpparser",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": ".github/workflows/package.json",
+      "source_repo": "unum-cloud/UCall",
+      "target": "@semantic-release/exec",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": ".github/workflows/package.json",
+      "source_repo": "unum-cloud/UCall",
+      "target": "@semantic-release/git",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": ".github/workflows/package.json",
+      "source_repo": "unum-cloud/UCall",
+      "target": "conventional-changelog-eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": ".github/workflows/package.json",
+      "source_repo": "unum-cloud/UCall",
+      "target": "semantic-release",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prerelease.yml",
+      "source_repo": "unum-cloud/UCall",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prerelease.yml",
+      "source_repo": "unum-cloud/UCall",
+      "target": "ashvardanian/tinysemver@v2.0.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prerelease.yml",
+      "source_repo": "unum-cloud/UCall",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prerelease.yml",
+      "source_repo": "unum-cloud/UCall",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prerelease.yml",
+      "source_repo": "unum-cloud/UCall",
+      "target": "Pre-Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "unum-cloud/UCall",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "unum-cloud/UCall",
+      "target": "ashvardanian/tinysemver@v2.0.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "unum-cloud/UCall",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "unum-cloud/UCall",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "unum-cloud/UCall",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "unum-cloud/UCall",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "unum-cloud/UCall",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "unum-cloud/UCall",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "unum-cloud/UCall",
+      "target": "actions/configure-pages@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "unum-cloud/UCall",
+      "target": "actions/upload-pages-artifact@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "unum-cloud/UCall",
+      "target": "actions/deploy-pages@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "unum-cloud/UCall",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unum-cloud/UCall",
+      "target": "backend",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unum-cloud/UCall",
+      "target": "cpython",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unum-cloud/UCall",
+      "target": "dpdk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unum-cloud/UCall",
+      "target": "epoll",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unum-cloud/UCall",
+      "target": "fast-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unum-cloud/UCall",
+      "target": "flask",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unum-cloud/UCall",
+      "target": "http",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unum-cloud/UCall",
+      "target": "http-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unum-cloud/UCall",
+      "target": "io-uring",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unum-cloud/UCall",
+      "target": "json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unum-cloud/UCall",
+      "target": "json-rpc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unum-cloud/UCall",
+      "target": "liburing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unum-cloud/UCall",
+      "target": "linux-kernel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unum-cloud/UCall",
+      "target": "rest-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unum-cloud/UCall",
+      "target": "rpc-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unum-cloud/UCall",
+      "target": "simd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unum-cloud/UCall",
+      "target": "tcp-ip",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:03:56.981146+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11313
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1263
+    },
+    {
+      "path": ".github/workflows/package.json",
+      "size": 1790
+    },
+    {
+      "path": ".github/workflows/prerelease.yml",
+      "size": 1732
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 3934
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Web Serving and Remote Procedure Calls at 50x lower latency and 70x higher bandwidth than FastAPI, implementing JSON-RPC & REST over io_uring \u260e\ufe0f",
+    "fork": false,
+    "full_name": "unum-cloud/UCall",
+    "html_url": "https://github.com/unum-cloud/UCall",
+    "language": "C",
+    "pushed_at": "2025-09-16T13:07:15Z",
+    "stargazers_count": 1324,
+    "topics": [
+      "backend",
+      "cpython",
+      "dpdk",
+      "epoll",
+      "fast-api",
+      "flask",
+      "http",
+      "http-server",
+      "io-uring",
+      "json",
+      "json-rpc",
+      "liburing",
+      "linux-kernel",
+      "python",
+      "rest-api",
+      "rpc",
+      "rpc-framework",
+      "simd",
+      "tcp",
+      "tcp-ip"
+    ],
+    "updated_at": "2026-04-30T09:05:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "h2o/picohttpparser",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "powturbo/turbo-base64",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "unum-cloud/ukv",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Pre-Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prerelease.yml",
+      "term": "Pre-Release"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">UCall</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "backend"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">UCall</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpython"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">UCall</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dpdk"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">UCall</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "epoll"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">UCall</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fast-api"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">UCall</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flask"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">UCall</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">UCall</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http-server"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">UCall</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "io-uring"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">UCall</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">UCall</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json-rpc"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">UCall</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "liburing"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">UCall</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux-kernel"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">UCall</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rest-api"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">UCall</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rpc-framework"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">UCall</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simd"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">UCall</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tcp-ip"
+    }
+  ]
+}

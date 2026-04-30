@@ -139,6 +139,18 @@
       "source_repo": "nvarner/typst-lsp",
       "status": "candidate-context",
       "text": "This project is no longer maintained. It has been deprecated in favor of [tinymist](https://github.com/Myriad-Dreamin/tinymist)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Shopify/ruby-lsp",
+      "status": "candidate-context",
+      "text": "An opinionated language server for Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shopify/ruby-lsp",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +219,12 @@
       "source_repo": "nvarner/typst-lsp",
       "status": "candidate",
       "text": "This project is no longer maintained. It has been deprecated in favor of [tinymist](https://github.com/Myriad-Dreamin/tinymist)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shopify/ruby-lsp",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -304,11 +322,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "nvarner/typst-lsp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/rust-analyzer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Shopify/ruby-lsp"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

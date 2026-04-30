@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Official repo for VGen: a holistic video generation ecosystem for video generation building on diffusion models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "easydict==1.10 tokenizers==0.12.1 numpy>=1.19.2 ftfy==6.1.1 transformers==4.18.0 imageio==2.15.0 fairscale==0.4.6 ipdb open-clip-torch==2.0.2 xformers==0.0.13 chardet==5.1.0 torchdiffeq==0.2.3 opencv-python==4.4.0.46 opencv-python-headless==4.7.0.68 torchsde==0.2.6 simplejson==3\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "easydict==1.10 tokenizers==0.12.1 numpy>=1.19.2 ftfy==6.1.1 transformers==4.18.0 imageio==2.15.0 fairscale==0.4.6 ipdb open-clip-torch==2.0.2 xformers==0.0.13 chardet==5.1.0 torchdiffeq==0.2.3 opencv-python==4.4.0.46 opencv-python-headless==4.7.0.68 torchsde==0.2.6 simplejson==3\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "diffusion-models",
+      "sense_id": "diffusion-models#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "diffusion-models",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "diffusion-models",
+  "observation_id": "f3a43e76ccecf46d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "diffusion-models",
+  "source_context_snippet": "easydict==1.10 tokenizers==0.12.1 numpy>=1.19.2 ftfy==6.1.1 transformers==4.18.0 imageio==2.15.0 fairscale==0.4.6 ipdb open-clip-torch==2.0.2 xformers==0.0.13 chardet==5.1.0 torchdiffeq==0.2.3 opencv-python==4.4.0.46 opencv-python-headless==4.7.0.68 torchsde==0.2.6 simplejson==3\u2026",
+  "source_file": null,
+  "source_repo": "ali-vilab/VGen",
+  "source_repo_description": "Official repo for VGen: a holistic video generation ecosystem for video generation building on diffusion models"
+}

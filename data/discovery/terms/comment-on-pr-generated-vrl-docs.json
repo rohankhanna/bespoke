@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/check_generated_vrl_docs_comment.yml",
       "source_repo": "openobserve/vector"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/check_generated_vrl_docs_comment.yml",
+      "source_repo": "vectordotdev/vector"
     }
   ],
   "term": "Comment on PR (Generated VRL Docs)"

@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T14:52:00.083817+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 46
+    },
+    {
+      "path": "go.mod",
+      "size": 4297
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "consul registry to support rpcx",
+    "fork": false,
+    "full_name": "rpcxio/rpcx-consul",
+    "html_url": "https://github.com/rpcxio/rpcx-consul",
+    "language": "Go",
+    "pushed_at": "2024-11-20T05:50:44Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2024-11-20T05:50:31Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

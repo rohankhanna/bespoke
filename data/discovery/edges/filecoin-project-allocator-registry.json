@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "filecoin-project/Allocator-Registry",
+      "target": "fidlabs/allocator-tooling",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "filecoin-project/Allocator-Registry",
+      "target": "threesigmaxyz/filplus-allocator-bot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-if-repository-application-is-installed.yml",
+      "source_repo": "filecoin-project/Allocator-Registry",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-if-repository-application-is-installed.yml",
+      "source_repo": "filecoin-project/Allocator-Registry",
+      "target": "tj-actions/changed-files@v46",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-if-repository-application-is-installed.yml",
+      "source_repo": "filecoin-project/Allocator-Registry",
+      "target": "Check If Repository Application Is Installed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_to_pr.yml",
+      "source_repo": "filecoin-project/Allocator-Registry",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_to_pr.yml",
+      "source_repo": "filecoin-project/Allocator-Registry",
+      "target": "ad-m/github-push-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_to_pr.yml",
+      "source_repo": "filecoin-project/Allocator-Registry",
+      "target": "repo-sync/pull-request@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/syntax.yml",
+      "source_repo": "filecoin-project/Allocator-Registry",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/syntax.yml",
+      "source_repo": "filecoin-project/Allocator-Registry",
+      "target": "super-linter/super-linter/slim@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/watch.yml",
+      "source_repo": "filecoin-project/Allocator-Registry",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/watch.yml",
+      "source_repo": "filecoin-project/Allocator-Registry",
+      "target": "Add or Update Allocators on Merge",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T12:45:20.475770+00:00",
+  "source_repo": "filecoin-project/Allocator-Registry"
+}

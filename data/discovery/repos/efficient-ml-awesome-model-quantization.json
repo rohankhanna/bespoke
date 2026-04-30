@@ -1,0 +1,219 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Efficient-ML/Awesome-Model-Quantization",
+      "target": "aaronhuang-778/billm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Efficient-ML/Awesome-Model-Quantization",
+      "target": "42shawn/causal-dfq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Efficient-ML/Awesome-Model-Quantization",
+      "target": "1hunters/limpq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Efficient-ML/Awesome-Model-Quantization",
+      "target": "1adrianb/expert-binary-networks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Efficient-ML/Awesome-Model-Quantization",
+      "target": "awesome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Efficient-ML/Awesome-Model-Quantization",
+      "target": "binarized-neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Efficient-ML/Awesome-Model-Quantization",
+      "target": "binary-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Efficient-ML/Awesome-Model-Quantization",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Efficient-ML/Awesome-Model-Quantization",
+      "target": "efficient-deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Efficient-ML/Awesome-Model-Quantization",
+      "target": "lightweight-neural-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Efficient-ML/Awesome-Model-Quantization",
+      "target": "model-acceleration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Efficient-ML/Awesome-Model-Quantization",
+      "target": "model-compression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Efficient-ML/Awesome-Model-Quantization",
+      "target": "model-quantization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Efficient-ML/Awesome-Model-Quantization",
+      "target": "quantization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:04:32.815747+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 155405
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A list of papers, docs, codes about model quantization. This repo is aimed to provide the info for model quantization research, we are continuously improving the project. Welcome to PR the works (papers, repositories) that are missed by the repo.",
+    "fork": false,
+    "full_name": "Efficient-ML/Awesome-Model-Quantization",
+    "html_url": "https://github.com/Efficient-ML/Awesome-Model-Quantization",
+    "language": null,
+    "pushed_at": "2026-04-25T11:45:19Z",
+    "stargazers_count": 2360,
+    "topics": [
+      "awesome",
+      "binarized-neural-networks",
+      "binary-network",
+      "deep-learning",
+      "efficient-deep-learning",
+      "lightweight-neural-network",
+      "model-acceleration",
+      "model-compression",
+      "model-quantization",
+      "quantization"
+    ],
+    "updated_at": "2026-04-28T08:50:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "1adrianb/expert-binary-networks",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "1hunters/limpq",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "42shawn/causal-dfq",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aaronhuang-778/billm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repo collects papers, documents, and codes about model quantization for anyone who wants to research it. We are continuously improving the project. Welcome to PR the works (papers, repositories) that the repo misses.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome"
+    },
+    {
+      "context_snippet": "This repo collects papers, documents, and codes about model quantization for anyone who wants to research it. We are continuously improving the project. Welcome to PR the works (papers, repositories) that the repo misses.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "binarized-neural-networks"
+    },
+    {
+      "context_snippet": "This repo collects papers, documents, and codes about model quantization for anyone who wants to research it. We are continuously improving the project. Welcome to PR the works (papers, repositories) that the repo misses.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "binary-network"
+    },
+    {
+      "context_snippet": "This repo collects papers, documents, and codes about model quantization for anyone who wants to research it. We are continuously improving the project. Welcome to PR the works (papers, repositories) that the repo misses.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "This repo collects papers, documents, and codes about model quantization for anyone who wants to research it. We are continuously improving the project. Welcome to PR the works (papers, repositories) that the repo misses.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "efficient-deep-learning"
+    },
+    {
+      "context_snippet": "This repo collects papers, documents, and codes about model quantization for anyone who wants to research it. We are continuously improving the project. Welcome to PR the works (papers, repositories) that the repo misses.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lightweight-neural-network"
+    },
+    {
+      "context_snippet": "This repo collects papers, documents, and codes about model quantization for anyone who wants to research it. We are continuously improving the project. Welcome to PR the works (papers, repositories) that the repo misses.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "model-acceleration"
+    },
+    {
+      "context_snippet": "This repo collects papers, documents, and codes about model quantization for anyone who wants to research it. We are continuously improving the project. Welcome to PR the works (papers, repositories) that the repo misses.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "model-compression"
+    },
+    {
+      "context_snippet": "This repo collects papers, documents, and codes about model quantization for anyone who wants to research it. We are continuously improving the project. Welcome to PR the works (papers, repositories) that the repo misses.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "model-quantization"
+    },
+    {
+      "context_snippet": "This repo collects papers, documents, and codes about model quantization for anyone who wants to research it. We are continuously improving the project. Welcome to PR the works (papers, repositories) that the repo misses.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quantization"
+    }
+  ]
+}

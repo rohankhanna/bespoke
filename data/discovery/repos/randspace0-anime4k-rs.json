@@ -1,0 +1,266 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/download-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "montudor/action-zip@v0.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/download-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "montudor/action-zip@v0.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/download-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "montudor/action-zip@v0.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ncipollo/release-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "randspace0/Anime4K-rs",
+      "target": "kosinix/raster",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "randspace0/Anime4K-rs",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "randspace0/Anime4K-rs",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "randspace0/Anime4K-rs",
+      "target": "actions/upload-artifact@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "randspace0/Anime4K-rs",
+      "target": "actions/download-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "randspace0/Anime4K-rs",
+      "target": "montudor/action-zip@v0.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "randspace0/Anime4K-rs",
+      "target": "ncipollo/release-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "randspace0/Anime4K-rs",
+      "target": "anime",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "randspace0/Anime4K-rs",
+      "target": "anime4k",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "randspace0/Anime4K-rs",
+      "target": "computer-graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "randspace0/Anime4K-rs",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "randspace0/Anime4K-rs",
+      "target": "upsamling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "randspace0/Anime4K-rs",
+      "target": "upscaling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "randspace0/Anime4K-rs",
+      "target": "video",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "randspace0/Anime4K-rs",
+      "target": "video-pro",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:04:47.990059+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1987
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 333
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2693
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An attempt to write Anime4K in Rust",
+    "fork": false,
+    "full_name": "randspace0/Anime4K-rs",
+    "html_url": "https://github.com/randspace0/Anime4K-rs",
+    "language": "Rust",
+    "pushed_at": "2022-06-06T18:50:53Z",
+    "stargazers_count": 130,
+    "topics": [
+      "anime",
+      "anime4k",
+      "computer-graphics",
+      "rust",
+      "upsamling",
+      "upscaling",
+      "video",
+      "video-pro"
+    ],
+    "updated_at": "2026-04-15T16:46:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kosinix/raster",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "An attempt to write Anime4K in Rust.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "anime"
+    },
+    {
+      "context_snippet": "An attempt to write Anime4K in Rust.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "anime4k"
+    },
+    {
+      "context_snippet": "An attempt to write Anime4K in Rust.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-graphics"
+    },
+    {
+      "context_snippet": "An attempt to write Anime4K in Rust.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "An attempt to write Anime4K in Rust.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "upsamling"
+    },
+    {
+      "context_snippet": "An attempt to write Anime4K in Rust.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "upscaling"
+    },
+    {
+      "context_snippet": "An attempt to write Anime4K in Rust.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video"
+    },
+    {
+      "context_snippet": "An attempt to write Anime4K in Rust.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-pro"
+    }
+  ]
+}

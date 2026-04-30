@@ -31,6 +31,30 @@
       "source_repo": "KonanM/tser",
       "status": "candidate-context",
       "text": "<img src=\"tser.png\" height=\"300\" align=\"center\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lieff/minimp3",
+      "status": "candidate-context",
+      "text": "Minimalistic MP3 decoder single header library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lieff/minimp3",
+      "status": "candidate-context",
+      "text": "minimp3"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sindresorhus/ky",
+      "status": "candidate-context",
+      "text": "\ud83c\udf33 Tiny & elegant JavaScript HTTP client based on the Fetch API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/ky",
+      "status": "candidate-context",
+      "text": "ky \u2014 Tiny and elegant HTTP client based on the Fetch API"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "KonanM/tser",
       "status": "candidate",
       "text": "<img src=\"tser.png\" height=\"300\" align=\"center\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lieff/minimp3",
+      "status": "candidate",
+      "text": "minimp3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/ky",
+      "status": "candidate",
+      "text": "ky \u2014 Tiny and elegant HTTP client based on the Fetch API"
     }
   ],
   "candidate_related_terms": [
@@ -136,11 +172,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "KonanM/tser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "lieff/minimp3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "sindresorhus/ky"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

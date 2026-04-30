@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T14:05:29.772084+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1366
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The bit that takes some bits, mashes them together with other bits, and produces a new bit",
+    "fork": false,
+    "full_name": "cloudfoundry/buildpackapplifecycle",
+    "html_url": "https://github.com/cloudfoundry/buildpackapplifecycle",
+    "language": "Go",
+    "pushed_at": "2026-02-25T15:59:44Z",
+    "stargazers_count": 18,
+    "topics": [],
+    "updated_at": "2026-02-25T16:05:39Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

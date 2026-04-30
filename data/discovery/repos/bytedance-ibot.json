@@ -1,0 +1,59 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bytedance/ibot",
+      "target": "ibot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bytedance/ibot",
+      "target": "research",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:08:47.060895+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16881
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "iBOT :robot:: Image BERT Pre-Training with Online Tokenizer (ICLR 2022)",
+    "fork": false,
+    "full_name": "bytedance/ibot",
+    "html_url": "https://github.com/bytedance/ibot",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2022-04-14T12:32:13Z",
+    "stargazers_count": 771,
+    "topics": [
+      "ibot",
+      "research",
+      "ssl"
+    ],
+    "updated_at": "2026-04-21T02:16:12Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/ibot-image-bert-pre-training-with-online/unsupervised-image-classification-on-imagenet)](https://paperswithcode.com/sota/unsupervised-image-classification-on-imagenet?p=ibot-image-bert-pre-training-\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ibot"
+    },
+    {
+      "context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/ibot-image-bert-pre-training-with-online/unsupervised-image-classification-on-imagenet)](https://paperswithcode.com/sota/unsupervised-image-classification-on-imagenet?p=ibot-image-bert-pre-training-\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "research"
+    }
+  ]
+}

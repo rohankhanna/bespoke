@@ -19,12 +19,78 @@
       "source_repo": "hyper-mcp-rs/arxiv-plugin",
       "status": "candidate-context",
       "text": "Release (ORAS)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hyper-mcp-rs/context7-plugin",
+      "status": "candidate-context",
+      "text": "This plugin provides tools to interact with the Context7 API, allowing for resolving library IDs and fetching documentation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyper-mcp-rs/context7-plugin",
+      "status": "candidate-context",
+      "text": "Release (ORAS)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hyper-mcp-rs/crates-io-plugin",
+      "status": "candidate-context",
+      "text": "A plugin that fetches crate information and latest versions from crates.io"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyper-mcp-rs/crates-io-plugin",
+      "status": "candidate-context",
+      "text": "Release (ORAS)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyper-mcp-rs/crypto-price-plugin",
+      "status": "candidate-context",
+      "text": "Release (ORAS)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hyper-mcp-rs/defuddle-plugin",
+      "status": "candidate-context",
+      "text": "Get the main content of any page as Markdown."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyper-mcp-rs/defuddle-plugin",
+      "status": "candidate-context",
+      "text": "Release (ORAS)"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "hyper-mcp-rs/arxiv-plugin",
+      "status": "candidate",
+      "text": "Release (ORAS)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyper-mcp-rs/context7-plugin",
+      "status": "candidate",
+      "text": "Release (ORAS)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyper-mcp-rs/crates-io-plugin",
+      "status": "candidate",
+      "text": "Release (ORAS)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyper-mcp-rs/crypto-price-plugin",
+      "status": "candidate",
+      "text": "Release (ORAS)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyper-mcp-rs/defuddle-plugin",
       "status": "candidate",
       "text": "Release (ORAS)"
     }
@@ -76,11 +142,35 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "hyper-mcp-rs/arxiv-plugin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "hyper-mcp-rs/context7-plugin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "hyper-mcp-rs/crates-io-plugin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "hyper-mcp-rs/crypto-price-plugin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/release-oras.yml",
+      "source_repo": "hyper-mcp-rs/defuddle-plugin"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

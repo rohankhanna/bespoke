@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T16:12:09.651337+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 217
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Code samples for YouTube APIs, including the YouTube Data API, YouTube Analytics API, and YouTube Live Streaming API. The repo contains language-specific directories that contain the samples.",
+    "fork": false,
+    "full_name": "youtube/api-samples",
+    "html_url": "https://github.com/youtube/api-samples",
+    "language": "Java",
+    "pushed_at": "2024-06-09T20:38:03Z",
+    "stargazers_count": 5974,
+    "topics": [],
+    "updated_at": "2026-04-30T12:34:02Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

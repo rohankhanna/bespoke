@@ -43,6 +43,18 @@
       "source_repo": "smartstore/Smartstore",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chromedp/chromedp",
+      "status": "candidate-context",
+      "text": "A faster, simpler way to drive browsers supporting the Chrome DevTools Protocol."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chromedp/chromedp",
+      "status": "candidate-context",
+      "text": "Package `chromedp` is a faster, simpler way to drive browsers supporting the"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "smartstore/Smartstore",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chromedp/chromedp",
+      "status": "candidate",
+      "text": "Package `chromedp` is a faster, simpler way to drive browsers supporting the"
     }
   ],
   "candidate_related_terms": [
@@ -160,11 +178,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "smartstore/Smartstore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "chromedp/chromedp"
     }
   ],
   "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,143 @@
+{
+  "components": [
+    {
+      "component": "@types/glob",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tap",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "glob",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ahmadnassri/actions/.github/workflows/pull-request-target.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request_target.yml"
+    },
+    {
+      "component": "ahmadnassri/actions/.github/workflows/push-javascript.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ahmadnassri/node-glob-promise",
+      "target": "@types/glob",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ahmadnassri/node-glob-promise",
+      "target": "tap",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "ahmadnassri/node-glob-promise",
+      "target": "glob",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request_target.yml",
+      "source_repo": "ahmadnassri/node-glob-promise",
+      "target": "ahmadnassri/actions/.github/workflows/pull-request-target.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "ahmadnassri/node-glob-promise",
+      "target": "ahmadnassri/actions/.github/workflows/push-javascript.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "ahmadnassri/node-glob-promise",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "ahmadnassri/node-glob-promise",
+      "target": "push",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ahmadnassri/node-glob-promise",
+      "target": "node",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:07:54.877291+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2936
+    },
+    {
+      "path": "package.json",
+      "size": 1055
+    },
+    {
+      "path": ".github/workflows/pull_request_target.yml",
+      "size": 346
+    },
+    {
+      "path": ".github/workflows/push.yml",
+      "size": 448
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Promise version of glob",
+    "fork": false,
+    "full_name": "ahmadnassri/node-glob-promise",
+    "html_url": "https://github.com/ahmadnassri/node-glob-promise",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-17T14:02:51Z",
+    "stargazers_count": 54,
+    "topics": [
+      "lib",
+      "node"
+    ],
+    "updated_at": "2025-08-27T12:07:29Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "push",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push.yml",
+      "term": "push"
+    },
+    {
+      "context_snippet": "Match files using the patterns the shell uses, like stars and stuff.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "node"
+    }
+  ]
+}

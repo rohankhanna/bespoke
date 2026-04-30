@@ -1,0 +1,376 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/depup.yml"
+    },
+    {
+      "component": "haya14busa/action-depup@94a1aaf4e4923064019214b48a43276218af7ad5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/depup.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@98357b18bf14b5342f975ff684046ec3b2a07725",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/depup.yml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/depup.yml"
+    },
+    {
+      "component": "haya14busa/action-depup@94a1aaf4e4923064019214b48a43276218af7ad5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/depup.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@98357b18bf14b5342f975ff684046ec3b2a07725",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/depup.yml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "haya14busa/action-bumpr@78ab5a104d20896c9c9122c64221b3aecf1a8cbb",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "haya14busa/action-update-semver@fb48464b2438ae82cc78237be61afb4f461265a1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "haya14busa/action-cond@94f77f7a80cd666cb3155084e428254fea4281fd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "haya14busa/action-bumpr@78ab5a104d20896c9c9122c64221b3aecf1a8cbb",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reviewdog.yml"
+    },
+    {
+      "component": "reviewdog/action-shellcheck@57079a832290a049f49cee90984b072c870fb7d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reviewdog.yml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reviewdog.yml"
+    },
+    {
+      "component": "reviewdog/action-misspell@9daa94af4357dddb6fd3775de806bc0a8e98d3e4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reviewdog.yml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/yamllint.yml"
+    },
+    {
+      "component": "reviewdog/action-yamllint@f01d8a48fd8d89f89895499fca2cff09f9e9e8c0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/yamllint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "reviewdog/action-hadolint",
+      "target": "hadolint/hadolint",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/depup.yml",
+      "source_repo": "reviewdog/action-hadolint",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/depup.yml",
+      "source_repo": "reviewdog/action-hadolint",
+      "target": "haya14busa/action-depup@94a1aaf4e4923064019214b48a43276218af7ad5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/depup.yml",
+      "source_repo": "reviewdog/action-hadolint",
+      "target": "peter-evans/create-pull-request@98357b18bf14b5342f975ff684046ec3b2a07725",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/depup.yml",
+      "source_repo": "reviewdog/action-hadolint",
+      "target": "depup",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "reviewdog/action-hadolint",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "reviewdog/action-hadolint",
+      "target": "haya14busa/action-bumpr@78ab5a104d20896c9c9122c64221b3aecf1a8cbb",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "reviewdog/action-hadolint",
+      "target": "haya14busa/action-update-semver@fb48464b2438ae82cc78237be61afb4f461265a1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "reviewdog/action-hadolint",
+      "target": "haya14busa/action-cond@94f77f7a80cd666cb3155084e428254fea4281fd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "reviewdog/action-hadolint",
+      "target": "release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "reviewdog/action-hadolint",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "reviewdog/action-hadolint",
+      "target": "reviewdog/action-shellcheck@57079a832290a049f49cee90984b072c870fb7d4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "reviewdog/action-hadolint",
+      "target": "reviewdog/action-misspell@9daa94af4357dddb6fd3775de806bc0a8e98d3e4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "reviewdog/action-hadolint",
+      "target": "reviewdog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "reviewdog/action-hadolint",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "reviewdog/action-hadolint",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/yamllint.yml",
+      "source_repo": "reviewdog/action-hadolint",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/yamllint.yml",
+      "source_repo": "reviewdog/action-hadolint",
+      "target": "reviewdog/action-yamllint@f01d8a48fd8d89f89895499fca2cff09f9e9e8c0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/yamllint.yml",
+      "source_repo": "reviewdog/action-hadolint",
+      "target": "yamllint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "reviewdog/action-hadolint",
+      "target": "github-actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "reviewdog/action-hadolint",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "reviewdog/action-hadolint",
+      "target": "hadolint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "reviewdog/action-hadolint",
+      "target": "reviewdog",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:56:32.142595+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4492
+    },
+    {
+      "path": ".github/workflows/depup.yml",
+      "size": 2869
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1880
+    },
+    {
+      "path": ".github/workflows/reviewdog.yml",
+      "size": 780
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 756
+    },
+    {
+      "path": ".github/workflows/yamllint.yml",
+      "size": 526
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Run hadolint with reviewdog \ud83d\udc36",
+    "fork": false,
+    "full_name": "reviewdog/action-hadolint",
+    "html_url": "https://github.com/reviewdog/action-hadolint",
+    "language": "Shell",
+    "pushed_at": "2026-04-21T20:09:49Z",
+    "stargazers_count": 55,
+    "topics": [
+      "github-actions",
+      "hacktoberfest",
+      "hadolint",
+      "reviewdog"
+    ],
+    "updated_at": "2026-04-06T21:45:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hadolint/hadolint",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "depup",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/depup.yml",
+      "term": "depup"
+    },
+    {
+      "context_snippet": "release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "release"
+    },
+    {
+      "context_snippet": "reviewdog",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "term": "reviewdog"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "yamllint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/yamllint.yml",
+      "term": "yamllint"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/github/license/reviewdog/action-hadolint)](./LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-actions"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/github/license/reviewdog/action-hadolint)](./LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/github/license/reviewdog/action-hadolint)](./LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hadolint"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/github/license/reviewdog/action-hadolint)](./LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reviewdog"
+    }
+  ]
+}

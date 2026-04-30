@@ -1,0 +1,182 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "mshick/add-pr-comment@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-draft-release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-draft-release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "sparkle-project/Sparkle",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "sparkle-project/Sparkle",
+      "target": "mshick/add-pr-comment@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "sparkle-project/Sparkle",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "sparkle-project/Sparkle",
+      "target": "Build & Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-draft-release.yml",
+      "source_repo": "sparkle-project/Sparkle",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-draft-release.yml",
+      "source_repo": "sparkle-project/Sparkle",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-draft-release.yml",
+      "source_repo": "sparkle-project/Sparkle",
+      "target": "Create Draft Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sparkle-project/Sparkle",
+      "target": "framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sparkle-project/Sparkle",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sparkle-project/Sparkle",
+      "target": "software-update",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sparkle-project/Sparkle",
+      "target": "update",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:11:45.412134+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 4086
+    },
+    {
+      "path": ".github/workflows/create-draft-release.yml",
+      "size": 3932
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "2.x",
+    "description": "A software update framework for macOS",
+    "fork": false,
+    "full_name": "sparkle-project/Sparkle",
+    "html_url": "https://github.com/sparkle-project/Sparkle",
+    "language": "Objective-C",
+    "pushed_at": "2026-04-30T03:59:34Z",
+    "stargazers_count": 8934,
+    "topics": [
+      "framework",
+      "macos",
+      "software-update",
+      "update"
+    ],
+    "updated_at": "2026-04-30T15:34:00Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build & Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Build & Tests"
+    },
+    {
+      "context_snippet": "\"Create Draft Release\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-draft-release.yml",
+      "term": "Create Draft Release"
+    },
+    {
+      "context_snippet": "Build & Tests",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "framework"
+    },
+    {
+      "context_snippet": "Build & Tests",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "Build & Tests",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "software-update"
+    },
+    {
+      "context_snippet": "Build & Tests",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "update"
+    }
+  ]
+}

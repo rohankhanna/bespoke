@@ -1,12 +1,17 @@
 {
   "component": "golangci/golangci-lint-action@1481404843c368bc19ca9406f87d6e0fc97bdcfd",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/tests.yaml",
       "source_repo": "nats-io/nats-server"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/linting.yml",
+      "source_repo": "theupdateframework/go-tuf"
     }
   ]
 }

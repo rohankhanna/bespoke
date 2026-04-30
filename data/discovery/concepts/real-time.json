@@ -343,6 +343,54 @@
       "source_repo": "hazelcast/hazelcast",
       "status": "candidate-context",
       "text": "[![Slack](https://img.shields.io/badge/slack-chat-green.svg)](https://slack.hazelcast.com/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "websockets/ws",
+      "status": "candidate-context",
+      "text": "Simple to use, blazing fast and thoroughly tested WebSocket client and server for Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "websockets/ws",
+      "status": "candidate-context",
+      "text": "[![Version npm](https://img.shields.io/npm/v/ws.svg?logo=npm)](https://www.npmjs.com/package/ws)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "marmelab/react-admin-helpdesk",
+      "status": "candidate-context",
+      "text": "An example react-admin app simulating a help desk UI for support agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marmelab/react-admin-helpdesk",
+      "status": "candidate-context",
+      "text": "This application is a fake a Help Desk for an imaginary refrigerator company with a few support agents. You can test it online at https://marmelab.com/react-admin-helpdesk. It is a demo of the [react-admin](https://github.com/marmelab/react-admin) library."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA-AI-IOT/nanosam",
+      "status": "candidate-context",
+      "text": "A distilled Segment Anything (SAM) model capable of running real-time with NVIDIA TensorRT"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA-AI-IOT/nanosam",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\"><span>NanoSAM</span></h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Intellindust-AI-Lab/DEIMv2",
+      "status": "candidate-context",
+      "text": "[DEIMv2] Real Time Object Detection Meets DINOv3 "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Intellindust-AI-Lab/DEIMv2",
+      "status": "candidate-context",
+      "text": "<h2 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -513,6 +561,30 @@
       "source_repo": "hazelcast/hazelcast",
       "status": "candidate",
       "text": "[![Slack](https://img.shields.io/badge/slack-chat-green.svg)](https://slack.hazelcast.com/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "websockets/ws",
+      "status": "candidate",
+      "text": "[![Version npm](https://img.shields.io/npm/v/ws.svg?logo=npm)](https://www.npmjs.com/package/ws)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marmelab/react-admin-helpdesk",
+      "status": "candidate",
+      "text": "This application is a fake a Help Desk for an imaginary refrigerator company with a few support agents. You can test it online at https://marmelab.com/react-admin-helpdesk. It is a demo of the [react-admin](https://github.com/marmelab/react-admin) library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA-AI-IOT/nanosam",
+      "status": "candidate",
+      "text": "<h1 align=\"center\"><span>NanoSAM</span></h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Intellindust-AI-Lab/DEIMv2",
+      "status": "candidate",
+      "text": "<h2 align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -724,11 +796,35 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "hazelcast/hazelcast"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "websockets/ws"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "marmelab/react-admin-helpdesk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA-AI-IOT/nanosam"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Intellindust-AI-Lab/DEIMv2"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

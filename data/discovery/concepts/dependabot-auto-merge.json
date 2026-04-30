@@ -468,6 +468,66 @@
       "source_repo": "dalance/ptags",
       "status": "candidate-context",
       "text": "Dependabot auto-merge"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "macisamuele/language-formatters-pre-commit-hooks",
+      "status": "candidate-context",
+      "text": "Collection of custom pre-commit hooks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "macisamuele/language-formatters-pre-commit-hooks",
+      "status": "candidate-context",
+      "text": "Dependabot Auto-Merge"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Shopify/ruby-lsp",
+      "status": "candidate-context",
+      "text": "An opinionated language server for Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shopify/ruby-lsp",
+      "status": "candidate-context",
+      "text": "Dependabot auto-merge"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-openapi/strfmt",
+      "status": "candidate-context",
+      "text": "openapi toolkit common string formats"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-openapi/strfmt",
+      "status": "candidate-context",
+      "text": "Dependabot auto-merge"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-openapi/swag",
+      "status": "candidate-context",
+      "text": "goodie bag in use in the go-openapi projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-openapi/swag",
+      "status": "candidate-context",
+      "text": "Dependabot auto-merge"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cockroachdb/client_golang",
+      "status": "candidate-context",
+      "text": "Prometheus instrumentation library for Go applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cockroachdb/client_golang",
+      "status": "candidate-context",
+      "text": "Dependabot auto-merge"
     }
   ],
   "candidate_glosses": [
@@ -690,6 +750,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "dalance/ptags",
+      "status": "candidate",
+      "text": "Dependabot auto-merge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "macisamuele/language-formatters-pre-commit-hooks",
+      "status": "candidate",
+      "text": "Dependabot Auto-Merge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shopify/ruby-lsp",
+      "status": "candidate",
+      "text": "Dependabot auto-merge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-openapi/strfmt",
+      "status": "candidate",
+      "text": "Dependabot auto-merge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-openapi/swag",
+      "status": "candidate",
+      "text": "Dependabot auto-merge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cockroachdb/client_golang",
       "status": "candidate",
       "text": "Dependabot auto-merge"
     }
@@ -963,11 +1053,41 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/dependabot_merge.yml",
       "source_repo": "dalance/ptags"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/dependabot-auto-merge.yml",
+      "source_repo": "macisamuele/language-formatters-pre-commit-hooks"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/dependabot_automerge.yml",
+      "source_repo": "Shopify/ruby-lsp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "go-openapi/strfmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "go-openapi/swag"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/automerge-dependabot.yml",
+      "source_repo": "cockroachdb/client_golang"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

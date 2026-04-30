@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Desktop app powered by Electron. For personal teaching use."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![version](https://img.shields.io/github/release/hchiam/anonymous-input) [![Build Status](https://travis-ci.org/hchiam/anonymous-input.svg?branch=master)](https://travis-ci.org/hchiam/anonymous-input) [![Coverage Status](https://coveralls.io/repos/github/hchiam/anonymous-input/b\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![version](https://img.shields.io/github/release/hchiam/anonymous-input) [![Build Status](https://travis-ci.org/hchiam/anonymous-input.svg?branch=master)](https://travis-ci.org/hchiam/anonymous-input) [![Coverage Status](https://coveralls.io/repos/github/hchiam/anonymous-input/b\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20050627,
+      "status": "candidate",
+      "text": "cappuccino"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20041432,
+      "status": "candidate",
+      "text": "moka"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19758904,
+      "status": "candidate",
+      "text": "arabian"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10050701,
+      "status": "candidate",
+      "text": "mochaccino"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10050700,
+      "status": "candidate",
+      "text": "caff\u00e8 mocha"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mocha",
+      "sense_id": "mocha#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "mocha",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "mocha",
+  "observation_id": "33e76667c9005f26",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "mocha",
+  "source_context_snippet": "![version](https://img.shields.io/github/release/hchiam/anonymous-input) [![Build Status](https://travis-ci.org/hchiam/anonymous-input.svg?branch=master)](https://travis-ci.org/hchiam/anonymous-input) [![Coverage Status](https://coveralls.io/repos/github/hchiam/anonymous-input/b\u2026",
+  "source_file": null,
+  "source_repo": "hchiam/anonymous-input",
+  "source_repo_description": "Desktop app powered by Electron. For personal teaching use."
+}

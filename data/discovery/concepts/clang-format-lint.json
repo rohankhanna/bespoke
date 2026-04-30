@@ -32,6 +32,18 @@
       "source_repo": "microsoft/onnxruntime-genai",
       "status": "candidate-context",
       "text": "Clang Format Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mobile-shell/mosh",
+      "status": "candidate-context",
+      "text": "Mobile Shell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mobile-shell/mosh",
+      "status": "candidate-context",
+      "text": "clang-format-lint"
     }
   ],
   "candidate_glosses": [
@@ -46,6 +58,12 @@
       "source_repo": "microsoft/onnxruntime-genai",
       "status": "candidate",
       "text": "Clang Format Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mobile-shell/mosh",
+      "status": "candidate",
+      "text": "clang-format-lint"
     }
   ],
   "candidate_related_terms": [
@@ -101,11 +119,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/clang-format-lint.yml",
       "source_repo": "microsoft/onnxruntime-genai"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/clang-format.yml",
+      "source_repo": "mobile-shell/mosh"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,52 @@
+{
+  "component": "oxc-project/setup-node@4c26e7cb3605b6bdef5450dacd02c434b10fd8ba",
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "oxc-project/eslint-plugin-oxlint"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bump_oxlint.yml",
+      "source_repo": "oxc-project/eslint-plugin-oxlint"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/generate.yml",
+      "source_repo": "oxc-project/eslint-plugin-oxlint"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "oxc-project/eslint-plugin-oxlint"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "oxc-project/eslint-plugin-oxlint"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yml",
+      "source_repo": "oxc-project/oxc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "oxc-project/oxc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yml",
+      "source_repo": "oxc-project/oxc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "oxc-project/oxc"
+    }
+  ]
+}

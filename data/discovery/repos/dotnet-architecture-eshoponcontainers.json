@@ -1,0 +1,116 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet-architecture/eShopOnContainers",
+      "target": "ddd-patterns",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet-architecture/eShopOnContainers",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet-architecture/eShopOnContainers",
+      "target": "microservices",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet-architecture/eShopOnContainers",
+      "target": "netcore",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet-architecture/eShopOnContainers",
+      "target": "windowscontainers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet-architecture/eShopOnContainers",
+      "target": "xamarin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:08:14.120316+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 305
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "repo_moved",
+    "description": "Cross-platform .NET sample microservices and container based application that runs on Linux Windows and macOS. Powered by .NET 7, Docker Containers and Azure Kubernetes Services. Supports Visual Studio, VS for Mac and CLI based environments with Docker CLI, dotnet CLI, VS Code or any other code editor. Moved to https://github.com/dotnet/eShop.",
+    "fork": false,
+    "full_name": "dotnet-architecture/eShopOnContainers",
+    "html_url": "https://github.com/dotnet-architecture/eShopOnContainers",
+    "language": "C#",
+    "pushed_at": "2023-11-15T22:27:17Z",
+    "stargazers_count": 24380,
+    "topics": [
+      "ddd",
+      "ddd-patterns",
+      "docker",
+      "microservices",
+      "netcore",
+      "spa",
+      "windowscontainers",
+      "xamarin"
+    ],
+    "updated_at": "2026-04-30T13:54:42Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "As of November 2023, the eShop sample application has been updated and moved to https://github.com/dotnet/eShop. Active development will continue there.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ddd-patterns"
+    },
+    {
+      "context_snippet": "As of November 2023, the eShop sample application has been updated and moved to https://github.com/dotnet/eShop. Active development will continue there.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "As of November 2023, the eShop sample application has been updated and moved to https://github.com/dotnet/eShop. Active development will continue there.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microservices"
+    },
+    {
+      "context_snippet": "As of November 2023, the eShop sample application has been updated and moved to https://github.com/dotnet/eShop. Active development will continue there.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "netcore"
+    },
+    {
+      "context_snippet": "As of November 2023, the eShop sample application has been updated and moved to https://github.com/dotnet/eShop. Active development will continue there.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windowscontainers"
+    },
+    {
+      "context_snippet": "As of November 2023, the eShop sample application has been updated and moved to https://github.com/dotnet/eShop. Active development will continue there.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xamarin"
+    }
+  ]
+}

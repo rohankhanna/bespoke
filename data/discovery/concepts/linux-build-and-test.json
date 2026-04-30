@@ -38,6 +38,18 @@
       "source_repo": "intel/ScalableVectorSearch",
       "status": "candidate-context",
       "text": "Linux Build and Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AdaptiveCpp/AdaptiveCpp",
+      "status": "candidate-context",
+      "text": "Compiler for multiple programming models (SYCL, C++ standard parallelism, HIP/CUDA) for CPUs and GPUs from all vendors: The independent, community-driven compiler for C++-based heterogeneous programming models. Lets applications adapt themselves to all the hardware in the system - even at runtime!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdaptiveCpp/AdaptiveCpp",
+      "status": "candidate-context",
+      "text": "Linux build and test"
     }
   ],
   "candidate_glosses": [
@@ -58,6 +70,12 @@
       "source_repo": "intel/ScalableVectorSearch",
       "status": "candidate",
       "text": "Linux Build and Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdaptiveCpp/AdaptiveCpp",
+      "status": "candidate",
+      "text": "Linux build and test"
     }
   ],
   "candidate_related_terms": [
@@ -119,11 +137,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/build-linux.yml",
       "source_repo": "intel/ScalableVectorSearch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "AdaptiveCpp/AdaptiveCpp"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

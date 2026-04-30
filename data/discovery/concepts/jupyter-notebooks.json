@@ -19,6 +19,18 @@
       "source_repo": "jupyter/docker-stacks",
       "status": "candidate-context",
       "text": "[![GitHub Actions badge](https://github.com/jupyter/docker-stacks/actions/workflows/docker.yml/badge.svg)](https://github.com/jupyter/docker-stacks/actions/workflows/docker.yml?query=branch%3Amain \"Docker images build status\")"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rgbkrk/chatlab",
+      "status": "candidate-context",
+      "text": "\u26a1\ufe0f\ud83e\uddea Fast LLM Tool Calling Experimentation, big and smol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rgbkrk/chatlab",
+      "status": "candidate-context",
+      "text": "**Chat Experiments, Simplified**"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "jupyter/docker-stacks",
       "status": "candidate",
       "text": "[![GitHub Actions badge](https://github.com/jupyter/docker-stacks/actions/workflows/docker.yml/badge.svg)](https://github.com/jupyter/docker-stacks/actions/workflows/docker.yml?query=branch%3Amain \"Docker images build status\")"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rgbkrk/chatlab",
+      "status": "candidate",
+      "text": "**Chat Experiments, Simplified**"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "jupyter/docker-stacks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "rgbkrk/chatlab"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

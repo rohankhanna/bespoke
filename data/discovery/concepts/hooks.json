@@ -97,6 +97,30 @@
       "source_repo": "sebelga/promised-hooks",
       "status": "candidate-context",
       "text": "[![NPM Version][npm-image]][npm-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "evilmartians/lefthook",
+      "status": "candidate-context",
+      "text": "Fast and powerful Git hooks manager for any type of projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evilmartians/lefthook",
+      "status": "candidate-context",
+      "text": "![Build Status](https://github.com/evilmartians/lefthook/actions/workflows/test.yml/badge.svg?branch=master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TanStack/query",
+      "status": "candidate-context",
+      "text": "\ud83e\udd16 Powerful asynchronous state management, server-state utilities and data fetching for the web. TS/JS, React Query, Solid Query, Svelte Query and Vue Query."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TanStack/query",
+      "status": "candidate-context",
+      "text": "<img referrerpolicy=\"no-referrer-when-downgrade\" src=\"https://static.scarf.sh/a.png?x-pxid=be2d8a11-9712-4c1d-9963-580b2d4fb133\" />"
     }
   ],
   "candidate_glosses": [
@@ -147,6 +171,18 @@
       "source_repo": "sebelga/promised-hooks",
       "status": "candidate",
       "text": "[![NPM Version][npm-image]][npm-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evilmartians/lefthook",
+      "status": "candidate",
+      "text": "![Build Status](https://github.com/evilmartians/lefthook/actions/workflows/test.yml/badge.svg?branch=master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TanStack/query",
+      "status": "candidate",
+      "text": "<img referrerpolicy=\"no-referrer-when-downgrade\" src=\"https://static.scarf.sh/a.png?x-pxid=be2d8a11-9712-4c1d-9963-580b2d4fb133\" />"
     }
   ],
   "candidate_related_terms": [
@@ -244,11 +280,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "sebelga/promised-hooks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "evilmartians/lefthook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "TanStack/query"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

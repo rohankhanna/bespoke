@@ -1,0 +1,611 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jdk-compat.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jdk-compat.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-release.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-release.yml"
+    },
+    {
+      "component": "actions/cache/restore@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-release.yml"
+    },
+    {
+      "component": "actions/cache/save@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-release.yml"
+    },
+    {
+      "component": "dawidd6/action-send-mail@d38f3f7cd391cdebfe0d38efc3998b935e951c4f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/openssf-scorecard.yml"
+    },
+    {
+      "component": "ossf/scorecard-action@4eaacf0543bb3f2c246792bd56e8cdeffafb205a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/openssf-scorecard.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/openssf-scorecard.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/openssf-scorecard.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test262.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test262.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test262.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd.yml",
+      "source_repo": "karatelabs/karate",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd.yml",
+      "source_repo": "karatelabs/karate",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cicd.yml",
+      "source_repo": "karatelabs/karate",
+      "target": "cicd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "karatelabs/karate",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "karatelabs/karate",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "karatelabs/karate",
+      "target": "github/codeql-action/init@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "karatelabs/karate",
+      "target": "github/codeql-action/analyze@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "karatelabs/karate",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jdk-compat.yml",
+      "source_repo": "karatelabs/karate",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jdk-compat.yml",
+      "source_repo": "karatelabs/karate",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jdk-compat.yml",
+      "source_repo": "karatelabs/karate",
+      "target": "jdk-compat",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-release.yml",
+      "source_repo": "karatelabs/karate",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-release.yml",
+      "source_repo": "karatelabs/karate",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-release.yml",
+      "source_repo": "karatelabs/karate",
+      "target": "actions/cache/restore@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-release.yml",
+      "source_repo": "karatelabs/karate",
+      "target": "actions/cache/save@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-release.yml",
+      "source_repo": "karatelabs/karate",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-release.yml",
+      "source_repo": "karatelabs/karate",
+      "target": "dawidd6/action-send-mail@d38f3f7cd391cdebfe0d38efc3998b935e951c4f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven-release.yml",
+      "source_repo": "karatelabs/karate",
+      "target": "maven-release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/openssf-scorecard.yml",
+      "source_repo": "karatelabs/karate",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/openssf-scorecard.yml",
+      "source_repo": "karatelabs/karate",
+      "target": "ossf/scorecard-action@4eaacf0543bb3f2c246792bd56e8cdeffafb205a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/openssf-scorecard.yml",
+      "source_repo": "karatelabs/karate",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/openssf-scorecard.yml",
+      "source_repo": "karatelabs/karate",
+      "target": "github/codeql-action/upload-sarif@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/openssf-scorecard.yml",
+      "source_repo": "karatelabs/karate",
+      "target": "OpenSSF Scorecard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test262.yml",
+      "source_repo": "karatelabs/karate",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test262.yml",
+      "source_repo": "karatelabs/karate",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test262.yml",
+      "source_repo": "karatelabs/karate",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test262.yml",
+      "source_repo": "karatelabs/karate",
+      "target": "test262",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "karatelabs/karate",
+      "target": "api-testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "karatelabs/karate",
+      "target": "assertions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "karatelabs/karate",
+      "target": "automated-testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "karatelabs/karate",
+      "target": "automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "karatelabs/karate",
+      "target": "contract-testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "karatelabs/karate",
+      "target": "cucumber",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "karatelabs/karate",
+      "target": "developer-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "karatelabs/karate",
+      "target": "load-testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "karatelabs/karate",
+      "target": "microservices",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "karatelabs/karate",
+      "target": "mock-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "karatelabs/karate",
+      "target": "test-automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "karatelabs/karate",
+      "target": "testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "karatelabs/karate",
+      "target": "testing-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "karatelabs/karate",
+      "target": "testing-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "karatelabs/karate",
+      "target": "webdriver",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:04:00.904067+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2139
+    },
+    {
+      "path": ".github/workflows/cicd.yml",
+      "size": 993
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 1087
+    },
+    {
+      "path": ".github/workflows/jdk-compat.yml",
+      "size": 643
+    },
+    {
+      "path": ".github/workflows/maven-release.yml",
+      "size": 7472
+    },
+    {
+      "path": ".github/workflows/openssf-scorecard.yml",
+      "size": 1093
+    },
+    {
+      "path": ".github/workflows/test262.yml",
+      "size": 3520
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Test Automation Made Simple",
+    "fork": false,
+    "full_name": "karatelabs/karate",
+    "html_url": "https://github.com/karatelabs/karate",
+    "language": "Java",
+    "pushed_at": "2026-04-30T05:29:55Z",
+    "stargazers_count": 8846,
+    "topics": [
+      "api-testing",
+      "assertions",
+      "automated-testing",
+      "automation",
+      "bdd",
+      "contract-testing",
+      "cucumber",
+      "developer-tools",
+      "load-testing",
+      "microservices",
+      "mock-server",
+      "test-automation",
+      "testing",
+      "testing-framework",
+      "testing-tools",
+      "webdriver"
+    ],
+    "updated_at": "2026-04-30T05:29:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "cicd",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cicd.yml",
+      "term": "cicd"
+    },
+    {
+      "context_snippet": "CodeQL",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "jdk-compat",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jdk-compat.yml",
+      "term": "jdk-compat"
+    },
+    {
+      "context_snippet": "maven-release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven-release.yml",
+      "term": "maven-release"
+    },
+    {
+      "context_snippet": "OpenSSF Scorecard",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/openssf-scorecard.yml",
+      "term": "OpenSSF Scorecard"
+    },
+    {
+      "context_snippet": "test262",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test262.yml",
+      "term": "test262"
+    },
+    {
+      "context_snippet": "**The open-source tool that combines API testing, mocks, performance testing, and UI automation into a single, unified framework.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "api-testing"
+    },
+    {
+      "context_snippet": "**The open-source tool that combines API testing, mocks, performance testing, and UI automation into a single, unified framework.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "assertions"
+    },
+    {
+      "context_snippet": "**The open-source tool that combines API testing, mocks, performance testing, and UI automation into a single, unified framework.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automated-testing"
+    },
+    {
+      "context_snippet": "**The open-source tool that combines API testing, mocks, performance testing, and UI automation into a single, unified framework.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automation"
+    },
+    {
+      "context_snippet": "**The open-source tool that combines API testing, mocks, performance testing, and UI automation into a single, unified framework.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "contract-testing"
+    },
+    {
+      "context_snippet": "**The open-source tool that combines API testing, mocks, performance testing, and UI automation into a single, unified framework.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cucumber"
+    },
+    {
+      "context_snippet": "**The open-source tool that combines API testing, mocks, performance testing, and UI automation into a single, unified framework.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "developer-tools"
+    },
+    {
+      "context_snippet": "**The open-source tool that combines API testing, mocks, performance testing, and UI automation into a single, unified framework.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "load-testing"
+    },
+    {
+      "context_snippet": "**The open-source tool that combines API testing, mocks, performance testing, and UI automation into a single, unified framework.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microservices"
+    },
+    {
+      "context_snippet": "**The open-source tool that combines API testing, mocks, performance testing, and UI automation into a single, unified framework.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mock-server"
+    },
+    {
+      "context_snippet": "**The open-source tool that combines API testing, mocks, performance testing, and UI automation into a single, unified framework.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "test-automation"
+    },
+    {
+      "context_snippet": "**The open-source tool that combines API testing, mocks, performance testing, and UI automation into a single, unified framework.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testing"
+    },
+    {
+      "context_snippet": "**The open-source tool that combines API testing, mocks, performance testing, and UI automation into a single, unified framework.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testing-framework"
+    },
+    {
+      "context_snippet": "**The open-source tool that combines API testing, mocks, performance testing, and UI automation into a single, unified framework.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testing-tools"
+    },
+    {
+      "context_snippet": "**The open-source tool that combines API testing, mocks, performance testing, and UI automation into a single, unified framework.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webdriver"
+    }
+  ]
+}

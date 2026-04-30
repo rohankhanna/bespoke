@@ -1,0 +1,374 @@
+{
+  "components": [
+    {
+      "component": "dependabot/fetch-metadata@dbb049abf0d677abbd7f7eee0375145b417fdd34",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automerge-dependabot.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@48ab28a6f5dbc2a99bf1e0131198dd8f1df78169",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@48ab28a6f5dbc2a99bf1e0131198dd8f1df78169",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@48ab28a6f5dbc2a99bf1e0131198dd8f1df78169",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container_description.yml"
+    },
+    {
+      "component": "christian-korneck/update-container-description-action@d36005551adeaba9698d8d67a296bd16fa91f8e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container_description.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container_description.yml"
+    },
+    {
+      "component": "christian-korneck/update-container-description-action@d36005551adeaba9698d8d67a296bd16fa91f8e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container_description.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v5.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml"
+    },
+    {
+      "component": "actions/setup-go@3041bf56c941b39c61721a86cd11f3bb1338122a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@971e284b6050e8a5849b72094c50ab08da042db8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "ossf/scorecard-action@62b2cac7ed8198b15735ed49ab1e5cf35480ba46",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "actions/upload-artifact@6f51ac03b9356f520e9adb1b1b7802705f340c2b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@48ab28a6f5dbc2a99bf1e0131198dd8f1df78169",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-go-versions.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@67ccf781d68cd99b580ae25a5c18a1cc84ffff1f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-go-versions.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automerge-dependabot.yml",
+      "source_repo": "cockroachdb/client_golang",
+      "target": "dependabot/fetch-metadata@dbb049abf0d677abbd7f7eee0375145b417fdd34",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/automerge-dependabot.yml",
+      "source_repo": "cockroachdb/client_golang",
+      "target": "Dependabot auto-merge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "cockroachdb/client_golang",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "cockroachdb/client_golang",
+      "target": "github/codeql-action/init@48ab28a6f5dbc2a99bf1e0131198dd8f1df78169",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "cockroachdb/client_golang",
+      "target": "github/codeql-action/autobuild@48ab28a6f5dbc2a99bf1e0131198dd8f1df78169",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "cockroachdb/client_golang",
+      "target": "github/codeql-action/analyze@48ab28a6f5dbc2a99bf1e0131198dd8f1df78169",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "cockroachdb/client_golang",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container_description.yml",
+      "source_repo": "cockroachdb/client_golang",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container_description.yml",
+      "source_repo": "cockroachdb/client_golang",
+      "target": "christian-korneck/update-container-description-action@d36005551adeaba9698d8d67a296bd16fa91f8e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/container_description.yml",
+      "source_repo": "cockroachdb/client_golang",
+      "target": "Push README to Docker Hub",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "cockroachdb/client_golang",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "cockroachdb/client_golang",
+      "target": "actions/setup-go@v5.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "cockroachdb/client_golang",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "cockroachdb/client_golang",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "cockroachdb/client_golang",
+      "target": "actions/setup-go@3041bf56c941b39c61721a86cd11f3bb1338122a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "cockroachdb/client_golang",
+      "target": "golangci/golangci-lint-action@971e284b6050e8a5849b72094c50ab08da042db8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "cockroachdb/client_golang",
+      "target": "golangci-lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "cockroachdb/client_golang",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "cockroachdb/client_golang",
+      "target": "ossf/scorecard-action@62b2cac7ed8198b15735ed49ab1e5cf35480ba46",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "cockroachdb/client_golang",
+      "target": "actions/upload-artifact@6f51ac03b9356f520e9adb1b1b7802705f340c2b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "cockroachdb/client_golang",
+      "target": "github/codeql-action/upload-sarif@48ab28a6f5dbc2a99bf1e0131198dd8f1df78169",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "cockroachdb/client_golang",
+      "target": "Scorecard supply-chain security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-go-versions.yml",
+      "source_repo": "cockroachdb/client_golang",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-go-versions.yml",
+      "source_repo": "cockroachdb/client_golang",
+      "target": "peter-evans/create-pull-request@67ccf781d68cd99b580ae25a5c18a1cc84ffff1f",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:01:33.549866+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3982
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1415
+    },
+    {
+      "path": "go.mod",
+      "size": 1060
+    },
+    {
+      "path": ".github/workflows/automerge-dependabot.yml",
+      "size": 974
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 2805
+    },
+    {
+      "path": ".github/workflows/container_description.yml",
+      "size": 2359
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 1891
+    },
+    {
+      "path": ".github/workflows/golangci-lint.yml",
+      "size": 1253
+    },
+    {
+      "path": ".github/workflows/scorecard.yml",
+      "size": 1948
+    },
+    {
+      "path": ".github/workflows/update-go-versions.yml",
+      "size": 1080
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Prometheus instrumentation library for Go applications",
+    "fork": true,
+    "full_name": "cockroachdb/client_golang",
+    "html_url": "https://github.com/cockroachdb/client_golang",
+    "language": null,
+    "pushed_at": "2025-02-11T21:49:10Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-03-23T15:35:41Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Dependabot auto-merge",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/automerge-dependabot.yml",
+      "term": "Dependabot auto-merge"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Push README to Docker Hub",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/container_description.yml",
+      "term": "Push README to Docker Hub"
+    },
+    {
+      "context_snippet": "golangci-lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "term": "golangci-lint"
+    },
+    {
+      "context_snippet": "Scorecard supply-chain security",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "term": "Scorecard supply-chain security"
+    }
+  ]
+}

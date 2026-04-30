@@ -67,6 +67,30 @@
       "source_repo": "2KAbhishek/pickme.nvim",
       "status": "candidate-context",
       "text": "CI Lint and Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/exercism.nvim",
+      "status": "candidate-context",
+      "text": "Exercism Meets Neovim \ud83d\udcaa\ud83e\udde0"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/exercism.nvim",
+      "status": "candidate-context",
+      "text": "CI Lint and Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/octohub.nvim",
+      "status": "candidate-context",
+      "text": "All Your GitHub repos and more in Neovim \ud83d\udc19\ud83d\udee0\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/octohub.nvim",
+      "status": "candidate-context",
+      "text": "CI Lint and Test"
     }
   ],
   "candidate_glosses": [
@@ -97,6 +121,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "2KAbhishek/pickme.nvim",
+      "status": "candidate",
+      "text": "CI Lint and Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/exercism.nvim",
+      "status": "candidate",
+      "text": "CI Lint and Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/octohub.nvim",
       "status": "candidate",
       "text": "CI Lint and Test"
     }
@@ -172,11 +208,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "2KAbhishek/pickme.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "2KAbhishek/exercism.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "2KAbhishek/octohub.nvim"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

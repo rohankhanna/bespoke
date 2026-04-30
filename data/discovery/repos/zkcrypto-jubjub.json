@@ -1,0 +1,177 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lints-beta.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@beta",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lints-beta.yml"
+    },
+    {
+      "component": "actions-rs/clippy-check@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lints-beta.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lints-stable.yml"
+    },
+    {
+      "component": "actions-rs/clippy-check@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lints-stable.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "zkcrypto/jubjub",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "zkcrypto/jubjub",
+      "target": "CI checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lints-beta.yml",
+      "source_repo": "zkcrypto/jubjub",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lints-beta.yml",
+      "source_repo": "zkcrypto/jubjub",
+      "target": "dtolnay/rust-toolchain@beta",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lints-beta.yml",
+      "source_repo": "zkcrypto/jubjub",
+      "target": "actions-rs/clippy-check@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lints-beta.yml",
+      "source_repo": "zkcrypto/jubjub",
+      "target": "Beta lints",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lints-stable.yml",
+      "source_repo": "zkcrypto/jubjub",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lints-stable.yml",
+      "source_repo": "zkcrypto/jubjub",
+      "target": "actions-rs/clippy-check@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lints-stable.yml",
+      "source_repo": "zkcrypto/jubjub",
+      "target": "Stable lints",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:52:52.418006+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3011
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1240
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1558
+    },
+    {
+      "path": ".github/workflows/lints-beta.yml",
+      "size": 710
+    },
+    {
+      "path": ".github/workflows/lints-stable.yml",
+      "size": 455
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Implementation of the Jubjub elliptic curve group",
+    "fork": false,
+    "full_name": "zkcrypto/jubjub",
+    "html_url": "https://github.com/zkcrypto/jubjub",
+    "language": "Rust",
+    "pushed_at": "2026-02-25T06:54:13Z",
+    "stargazers_count": 121,
+    "topics": [],
+    "updated_at": "2026-02-25T06:38:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CI checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "CI checks"
+    },
+    {
+      "context_snippet": "Beta lints",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lints-beta.yml",
+      "term": "Beta lints"
+    },
+    {
+      "context_snippet": "Stable lints",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lints-stable.yml",
+      "term": "Stable lints"
+    }
+  ]
+}

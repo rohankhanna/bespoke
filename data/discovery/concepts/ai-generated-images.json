@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "ai-generated-images"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lcysyzxdxc/AGIQA-3k-Database",
+      "status": "candidate-context",
+      "text": "[IEEE TCSVT2023] A Fine-grained Subjective Perception & Alignment Database for AI Generated Image Quality Assessment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lcysyzxdxc/AGIQA-3k-Database",
+      "status": "candidate-context",
+      "text": "The AGIQA-3K is a fine-grained AI-Generated Image (AGI) subjective quality assessment database. Please refer to our paper (AGIQA-3K: An Open Database for AI-Generated Image Quality Assessment) [here](https://arxiv.org/abs/2306.04717) for more details."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lcysyzxdxc/AGIQA-3k-Database",
+      "status": "candidate",
+      "text": "The AGIQA-3K is a fine-grained AI-Generated Image (AGI) subjective quality assessment database. Please refer to our paper (AGIQA-3K: An Open Database for AI-Generated Image Quality Assessment) [here](https://arxiv.org/abs/2306.04717) for more details."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "ai-generated-images",
+  "concept_id": "ai-generated-images",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "lcysyzxdxc/AGIQA-3k-Database"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ai-generated-images",
+      "sense_id": "ai-generated-images#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

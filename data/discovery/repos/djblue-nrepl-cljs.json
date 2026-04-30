@@ -1,0 +1,115 @@
+{
+  "components": [
+    {
+      "component": "source-map-support",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ws",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "djblue/nrepl-cljs",
+      "target": "source-map-support",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "djblue/nrepl-cljs",
+      "target": "ws",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "djblue/nrepl-cljs",
+      "target": "clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "djblue/nrepl-cljs",
+      "target": "clojurescript",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "djblue/nrepl-cljs",
+      "target": "nrepl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "djblue/nrepl-cljs",
+      "target": "nrepl-server",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:01:29.095024+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 525
+    },
+    {
+      "path": "package.json",
+      "size": 554
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "nrepl server implemented for bootstrap clojurescript",
+    "fork": false,
+    "full_name": "djblue/nrepl-cljs",
+    "html_url": "https://github.com/djblue/nrepl-cljs",
+    "language": "Clojure",
+    "pushed_at": "2024-06-18T01:17:12Z",
+    "stargazers_count": 39,
+    "topics": [
+      "clojure",
+      "clojurescript",
+      "nrepl",
+      "nrepl-server"
+    ],
+    "updated_at": "2024-05-31T07:56:02Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Initial implementation of [nrepl](https://github.com/nrepl/nrepl) in",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    },
+    {
+      "context_snippet": "Initial implementation of [nrepl](https://github.com/nrepl/nrepl) in",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojurescript"
+    },
+    {
+      "context_snippet": "Initial implementation of [nrepl](https://github.com/nrepl/nrepl) in",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nrepl"
+    },
+    {
+      "context_snippet": "Initial implementation of [nrepl](https://github.com/nrepl/nrepl) in",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nrepl-server"
+    }
+  ]
+}

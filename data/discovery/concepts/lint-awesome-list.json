@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Lint Awesome List"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sdras/awesome-actions",
+      "status": "candidate-context",
+      "text": "A curated list of awesome actions to use on GitHub"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sdras/awesome-actions",
+      "status": "candidate-context",
+      "text": "Lint Awesome List"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sdras/awesome-actions",
+      "status": "candidate",
+      "text": "Lint Awesome List"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19963,
+      "status": "candidate",
+      "text": "tent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19798,
+      "status": "candidate",
+      "text": "hexameter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19798,
+      "status": "candidate",
+      "text": "rhapsody"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19762,
+      "status": "candidate",
+      "text": "muse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19762,
+      "status": "candidate",
+      "text": "toy"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Lint Awesome List",
+  "concept_id": "lint-awesome-list",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "sdras/awesome-actions"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Lint Awesome List",
+      "sense_id": "lint-awesome-list#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

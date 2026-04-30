@@ -1,0 +1,307 @@
+{
+  "components": [
+    {
+      "component": "command-line-args",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "command-line-usage",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@antora/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@antora/site-generator",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@antora/lunr-extension",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@djencks/asciidoctor-mathjax",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "shadow-cljs",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "source-map-support",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/guide.yml"
+    },
+    {
+      "component": "shimataro/ssh-key-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/guide.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/guide.yml"
+    },
+    {
+      "component": "DeLaGuardo/setup-clojure@10.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/guide.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/guide.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/guide.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Deep-Symmetry/bytefield-svg",
+      "target": "borkdude/sci",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Deep-Symmetry/bytefield-svg",
+      "target": "deep-symmetry/asciidoctor-bytefield",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Deep-Symmetry/bytefield-svg",
+      "target": "deep-symmetry/dysentery",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Deep-Symmetry/bytefield-svg",
+      "target": "command-line-args",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Deep-Symmetry/bytefield-svg",
+      "target": "command-line-usage",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Deep-Symmetry/bytefield-svg",
+      "target": "@antora/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Deep-Symmetry/bytefield-svg",
+      "target": "@antora/site-generator",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Deep-Symmetry/bytefield-svg",
+      "target": "@antora/lunr-extension",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Deep-Symmetry/bytefield-svg",
+      "target": "@djencks/asciidoctor-mathjax",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Deep-Symmetry/bytefield-svg",
+      "target": "shadow-cljs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Deep-Symmetry/bytefield-svg",
+      "target": "source-map-support",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/guide.yml",
+      "source_repo": "Deep-Symmetry/bytefield-svg",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/guide.yml",
+      "source_repo": "Deep-Symmetry/bytefield-svg",
+      "target": "shimataro/ssh-key-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/guide.yml",
+      "source_repo": "Deep-Symmetry/bytefield-svg",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/guide.yml",
+      "source_repo": "Deep-Symmetry/bytefield-svg",
+      "target": "DeLaGuardo/setup-clojure@10.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/guide.yml",
+      "source_repo": "Deep-Symmetry/bytefield-svg",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/guide.yml",
+      "source_repo": "Deep-Symmetry/bytefield-svg",
+      "target": "Build and publish the user guide",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/bytefield-svg",
+      "target": "byte",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/bytefield-svg",
+      "target": "clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/bytefield-svg",
+      "target": "diagram-generator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/bytefield-svg",
+      "target": "nodejs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:55:04.924238+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7023
+    },
+    {
+      "path": "package.json",
+      "size": 1172
+    },
+    {
+      "path": ".github/workflows/guide.yml",
+      "size": 1530
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Node module that generates byte field diagrams in SVG format",
+    "fork": false,
+    "full_name": "Deep-Symmetry/bytefield-svg",
+    "html_url": "https://github.com/Deep-Symmetry/bytefield-svg",
+    "language": "Clojure",
+    "pushed_at": "2025-03-24T03:56:10Z",
+    "stargazers_count": 195,
+    "topics": [
+      "byte",
+      "clojure",
+      "diagram-generator",
+      "nodejs",
+      "svg"
+    ],
+    "updated_at": "2026-04-29T11:27:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "borkdude/sci",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deep-symmetry/asciidoctor-bytefield",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deep-symmetry/dysentery",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build and publish the user guide",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/guide.yml",
+      "term": "Build and publish the user guide"
+    },
+    {
+      "context_snippet": "A Node module for generating byte field diagrams like",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "byte"
+    },
+    {
+      "context_snippet": "A Node module for generating byte field diagrams like",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    },
+    {
+      "context_snippet": "A Node module for generating byte field diagrams like",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diagram-generator"
+    },
+    {
+      "context_snippet": "A Node module for generating byte field diagrams like",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    }
+  ]
+}

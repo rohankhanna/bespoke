@@ -1,0 +1,189 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agencyenterprise/PromptInject",
+      "target": "adversarial-attacks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agencyenterprise/PromptInject",
+      "target": "agi-alignment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agencyenterprise/PromptInject",
+      "target": "ai-alignment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agencyenterprise/PromptInject",
+      "target": "ai-safety",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agencyenterprise/PromptInject",
+      "target": "chain-of-thought",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agencyenterprise/PromptInject",
+      "target": "gpt-3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agencyenterprise/PromptInject",
+      "target": "language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agencyenterprise/PromptInject",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agencyenterprise/PromptInject",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agencyenterprise/PromptInject",
+      "target": "ml-safety",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agencyenterprise/PromptInject",
+      "target": "prompt-engineering",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:58:25.843750+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3786
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 950
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "PromptInject is a framework that assembles prompts in a modular fashion to provide a quantitative analysis of the robustness of LLMs to adversarial prompt attacks. \ud83c\udfc6 Best Paper Awards @ NeurIPS ML Safety Workshop 2022",
+    "fork": false,
+    "full_name": "agencyenterprise/PromptInject",
+    "html_url": "https://github.com/agencyenterprise/PromptInject",
+    "language": "Python",
+    "pushed_at": "2026-04-27T18:55:36Z",
+    "stargazers_count": 487,
+    "topics": [
+      "adversarial-attacks",
+      "agi",
+      "agi-alignment",
+      "ai-alignment",
+      "ai-safety",
+      "chain-of-thought",
+      "gpt-3",
+      "language-models",
+      "large-language-models",
+      "machine-learning",
+      "ml-safety",
+      "prompt-engineering"
+    ],
+    "updated_at": "2026-04-29T15:50:07Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[**Paper: Ignore Previous Prompt: Attack Techniques For Language Models**](https://arxiv.org/abs/2211.09527)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adversarial-attacks"
+    },
+    {
+      "context_snippet": "[**Paper: Ignore Previous Prompt: Attack Techniques For Language Models**](https://arxiv.org/abs/2211.09527)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agi-alignment"
+    },
+    {
+      "context_snippet": "[**Paper: Ignore Previous Prompt: Attack Techniques For Language Models**](https://arxiv.org/abs/2211.09527)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-alignment"
+    },
+    {
+      "context_snippet": "[**Paper: Ignore Previous Prompt: Attack Techniques For Language Models**](https://arxiv.org/abs/2211.09527)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-safety"
+    },
+    {
+      "context_snippet": "[**Paper: Ignore Previous Prompt: Attack Techniques For Language Models**](https://arxiv.org/abs/2211.09527)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chain-of-thought"
+    },
+    {
+      "context_snippet": "[**Paper: Ignore Previous Prompt: Attack Techniques For Language Models**](https://arxiv.org/abs/2211.09527)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt-3"
+    },
+    {
+      "context_snippet": "[**Paper: Ignore Previous Prompt: Attack Techniques For Language Models**](https://arxiv.org/abs/2211.09527)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-models"
+    },
+    {
+      "context_snippet": "[**Paper: Ignore Previous Prompt: Attack Techniques For Language Models**](https://arxiv.org/abs/2211.09527)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "[**Paper: Ignore Previous Prompt: Attack Techniques For Language Models**](https://arxiv.org/abs/2211.09527)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "[**Paper: Ignore Previous Prompt: Attack Techniques For Language Models**](https://arxiv.org/abs/2211.09527)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ml-safety"
+    },
+    {
+      "context_snippet": "[**Paper: Ignore Previous Prompt: Attack Techniques For Language Models**](https://arxiv.org/abs/2211.09527)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prompt-engineering"
+    }
+  ]
+}

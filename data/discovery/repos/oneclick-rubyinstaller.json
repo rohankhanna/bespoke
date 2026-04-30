@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T15:03:25.969716+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6609
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "RubyInstaller for Windows - Build recipes",
+    "fork": false,
+    "full_name": "oneclick/rubyinstaller",
+    "html_url": "https://github.com/oneclick/rubyinstaller",
+    "language": "Ruby",
+    "pushed_at": "2021-05-22T05:12:24Z",
+    "stargazers_count": 1186,
+    "topics": [],
+    "updated_at": "2026-04-07T13:43:21Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

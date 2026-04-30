@@ -1,0 +1,747 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android_swift_sdk.yml"
+    },
+    {
+      "component": "apple/swift-nio/.github/workflows/swift_test_matrix.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android_swift_sdk.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    },
+    {
+      "component": "apple/swift-nio/.github/workflows/swift_test_matrix.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake_tests.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cxx_interop.yml"
+    },
+    {
+      "component": "apple/swift-nio/.github/workflows/swift_test_matrix.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cxx_interop.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos_benchmarks.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos_benchmarks.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos_tests.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos_tests.yml"
+    },
+    {
+      "component": "apple/swift-nio/.github/workflows/unit_tests.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "apple/swift-nio/.github/workflows/cxx_interop.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "apple/swift-nio/.github/workflows/benchmarks.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "apple/swift-nio/.github/workflows/swift_test_matrix.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "apple/swift-nio/.github/workflows/static_sdk.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "apple/swift-nio/.github/workflows/wasm_swift_sdk.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "apple/swift-nio/.github/workflows/android_swift_sdk.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "apple/swift-nio/.github/workflows/macos_tests.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "apple/swift-nio/.github/workflows/release_builds.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "swiftlang/github-workflows/.github/workflows/soundness.yml@0.0.10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    },
+    {
+      "component": "apple/swift-nio/.github/workflows/unit_tests.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    },
+    {
+      "component": "apple/swift-nio/.github/workflows/benchmarks.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    },
+    {
+      "component": "apple/swift-nio/.github/workflows/cxx_interop.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    },
+    {
+      "component": "apple/swift-nio/.github/workflows/swift_test_matrix.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    },
+    {
+      "component": "apple/swift-nio/.github/workflows/macos_tests.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    },
+    {
+      "component": "apple/swift-nio/.github/workflows/static_sdk.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    },
+    {
+      "component": "apple/swift-nio/.github/workflows/wasm_swift_sdk.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    },
+    {
+      "component": "apple/swift-nio/.github/workflows/android_swift_sdk.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    },
+    {
+      "component": "apple/swift-nio/.github/workflows/release_builds.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request_label.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apple/swift-nio",
+      "target": "apple/swift-nio-ssl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apple/swift-nio",
+      "target": "apple/swift-nio-http2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apple/swift-nio",
+      "target": "apple/swift-nio-extras",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apple/swift-nio",
+      "target": "apple/swift-nio-ssh",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android_swift_sdk.yml",
+      "source_repo": "apple/swift-nio",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android_swift_sdk.yml",
+      "source_repo": "apple/swift-nio",
+      "target": "apple/swift-nio/.github/workflows/swift_test_matrix.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/android_swift_sdk.yml",
+      "source_repo": "apple/swift-nio",
+      "target": "Android Swift SDK",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "apple/swift-nio",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "apple/swift-nio",
+      "target": "apple/swift-nio/.github/workflows/swift_test_matrix.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "apple/swift-nio",
+      "target": "Benchmarks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake_tests.yml",
+      "source_repo": "apple/swift-nio",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake_tests.yml",
+      "source_repo": "apple/swift-nio",
+      "target": "CMake build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cxx_interop.yml",
+      "source_repo": "apple/swift-nio",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cxx_interop.yml",
+      "source_repo": "apple/swift-nio",
+      "target": "apple/swift-nio/.github/workflows/swift_test_matrix.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cxx_interop.yml",
+      "source_repo": "apple/swift-nio",
+      "target": "Cxx interop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos_benchmarks.yml",
+      "source_repo": "apple/swift-nio",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos_benchmarks.yml",
+      "source_repo": "apple/swift-nio",
+      "target": "macOS benchmarks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos_tests.yml",
+      "source_repo": "apple/swift-nio",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos_tests.yml",
+      "source_repo": "apple/swift-nio",
+      "target": "macOS tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "apple/swift-nio",
+      "target": "apple/swift-nio/.github/workflows/unit_tests.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "apple/swift-nio",
+      "target": "apple/swift-nio/.github/workflows/cxx_interop.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "apple/swift-nio",
+      "target": "apple/swift-nio/.github/workflows/benchmarks.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "apple/swift-nio",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "apple/swift-nio",
+      "target": "apple/swift-nio/.github/workflows/swift_test_matrix.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "apple/swift-nio",
+      "target": "apple/swift-nio/.github/workflows/static_sdk.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "apple/swift-nio",
+      "target": "apple/swift-nio/.github/workflows/wasm_swift_sdk.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "apple/swift-nio",
+      "target": "apple/swift-nio/.github/workflows/android_swift_sdk.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "apple/swift-nio",
+      "target": "apple/swift-nio/.github/workflows/macos_tests.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "apple/swift-nio",
+      "target": "apple/swift-nio/.github/workflows/release_builds.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "apple/swift-nio",
+      "target": "Main",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "apple/swift-nio",
+      "target": "swiftlang/github-workflows/.github/workflows/soundness.yml@0.0.10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "apple/swift-nio",
+      "target": "apple/swift-nio/.github/workflows/unit_tests.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "apple/swift-nio",
+      "target": "apple/swift-nio/.github/workflows/benchmarks.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "apple/swift-nio",
+      "target": "apple/swift-nio/.github/workflows/cxx_interop.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "apple/swift-nio",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "apple/swift-nio",
+      "target": "apple/swift-nio/.github/workflows/swift_test_matrix.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "apple/swift-nio",
+      "target": "apple/swift-nio/.github/workflows/macos_tests.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "apple/swift-nio",
+      "target": "apple/swift-nio/.github/workflows/static_sdk.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "apple/swift-nio",
+      "target": "apple/swift-nio/.github/workflows/wasm_swift_sdk.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "apple/swift-nio",
+      "target": "apple/swift-nio/.github/workflows/android_swift_sdk.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "apple/swift-nio",
+      "target": "apple/swift-nio/.github/workflows/release_builds.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request_label.yml",
+      "source_repo": "apple/swift-nio",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull_request_label.yml",
+      "source_repo": "apple/swift-nio",
+      "target": "PR label",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apple/swift-nio",
+      "target": "asynchronous-io",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apple/swift-nio",
+      "target": "event-driven",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apple/swift-nio",
+      "target": "high-performance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apple/swift-nio",
+      "target": "networking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apple/swift-nio",
+      "target": "non-blocking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apple/swift-nio",
+      "target": "non-blocking-io",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apple/swift-nio",
+      "target": "swift",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apple/swift-nio",
+      "target": "swift-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apple/swift-nio",
+      "target": "swift5",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apple/swift-nio",
+      "target": "swiftnio",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:02:57.200603+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 30763
+    },
+    {
+      "path": ".github/workflows/android_swift_sdk.yml",
+      "size": 2898
+    },
+    {
+      "path": ".github/workflows/benchmarks.yml",
+      "size": 6278
+    },
+    {
+      "path": ".github/workflows/cmake_tests.yml",
+      "size": 2190
+    },
+    {
+      "path": ".github/workflows/cxx_interop.yml",
+      "size": 6487
+    },
+    {
+      "path": ".github/workflows/macos_benchmarks.yml",
+      "size": 10762
+    },
+    {
+      "path": ".github/workflows/macos_tests.yml",
+      "size": 38104
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 3923
+    },
+    {
+      "path": ".github/workflows/pull_request.yml",
+      "size": 4621
+    },
+    {
+      "path": ".github/workflows/pull_request_label.yml",
+      "size": 604
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Event-driven network application framework for high performance protocol servers & clients, non-blocking.",
+    "fork": false,
+    "full_name": "apple/swift-nio",
+    "html_url": "https://github.com/apple/swift-nio",
+    "language": "Swift",
+    "pushed_at": "2026-04-23T12:37:33Z",
+    "stargazers_count": 8445,
+    "topics": [
+      "asynchronous-io",
+      "event-driven",
+      "high-performance",
+      "networking",
+      "non-blocking",
+      "non-blocking-io",
+      "swift",
+      "swift-server",
+      "swift5",
+      "swiftnio"
+    ],
+    "updated_at": "2026-04-28T17:00:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apple/swift-nio-extras",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apple/swift-nio-http2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apple/swift-nio-ssh",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apple/swift-nio-ssl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Android Swift SDK",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/android_swift_sdk.yml",
+      "term": "Android Swift SDK"
+    },
+    {
+      "context_snippet": "Benchmarks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "term": "Benchmarks"
+    },
+    {
+      "context_snippet": "CMake build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake_tests.yml",
+      "term": "CMake build"
+    },
+    {
+      "context_snippet": "Cxx interop",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cxx_interop.yml",
+      "term": "Cxx interop"
+    },
+    {
+      "context_snippet": "macOS benchmarks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos_benchmarks.yml",
+      "term": "macOS benchmarks"
+    },
+    {
+      "context_snippet": "macOS tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos_tests.yml",
+      "term": "macOS tests"
+    },
+    {
+      "context_snippet": "Main",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Main"
+    },
+    {
+      "context_snippet": "PR label",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull_request_label.yml",
+      "term": "PR label"
+    },
+    {
+      "context_snippet": "[![sswg:graduated|104x20](https://img.shields.io/badge/sswg-graduated-green.svg)](https://github.com/swift-server/sswg/blob/main/process/incubation.md#graduated-level)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asynchronous-io"
+    },
+    {
+      "context_snippet": "[![sswg:graduated|104x20](https://img.shields.io/badge/sswg-graduated-green.svg)](https://github.com/swift-server/sswg/blob/main/process/incubation.md#graduated-level)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "event-driven"
+    },
+    {
+      "context_snippet": "[![sswg:graduated|104x20](https://img.shields.io/badge/sswg-graduated-green.svg)](https://github.com/swift-server/sswg/blob/main/process/incubation.md#graduated-level)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "high-performance"
+    },
+    {
+      "context_snippet": "[![sswg:graduated|104x20](https://img.shields.io/badge/sswg-graduated-green.svg)](https://github.com/swift-server/sswg/blob/main/process/incubation.md#graduated-level)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "networking"
+    },
+    {
+      "context_snippet": "[![sswg:graduated|104x20](https://img.shields.io/badge/sswg-graduated-green.svg)](https://github.com/swift-server/sswg/blob/main/process/incubation.md#graduated-level)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "non-blocking"
+    },
+    {
+      "context_snippet": "[![sswg:graduated|104x20](https://img.shields.io/badge/sswg-graduated-green.svg)](https://github.com/swift-server/sswg/blob/main/process/incubation.md#graduated-level)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "non-blocking-io"
+    },
+    {
+      "context_snippet": "[![sswg:graduated|104x20](https://img.shields.io/badge/sswg-graduated-green.svg)](https://github.com/swift-server/sswg/blob/main/process/incubation.md#graduated-level)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift"
+    },
+    {
+      "context_snippet": "[![sswg:graduated|104x20](https://img.shields.io/badge/sswg-graduated-green.svg)](https://github.com/swift-server/sswg/blob/main/process/incubation.md#graduated-level)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift-server"
+    },
+    {
+      "context_snippet": "[![sswg:graduated|104x20](https://img.shields.io/badge/sswg-graduated-green.svg)](https://github.com/swift-server/sswg/blob/main/process/incubation.md#graduated-level)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift5"
+    },
+    {
+      "context_snippet": "[![sswg:graduated|104x20](https://img.shields.io/badge/sswg-graduated-green.svg)](https://github.com/swift-server/sswg/blob/main/process/incubation.md#graduated-level)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swiftnio"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ArulselvanMadhavan/diffusers-ocaml",
+      "target": "deeplearning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ArulselvanMadhavan/diffusers-ocaml",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ArulselvanMadhavan/diffusers-ocaml",
+      "target": "huggingface-diffusers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ArulselvanMadhavan/diffusers-ocaml",
+      "target": "ocaml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ArulselvanMadhavan/diffusers-ocaml",
+      "target": "stable-diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ArulselvanMadhavan/diffusers-ocaml",
+      "target": "torch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:56:22.672461+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Diffusers API in OCaml",
+    "fork": false,
+    "full_name": "ArulselvanMadhavan/diffusers-ocaml",
+    "html_url": "https://github.com/ArulselvanMadhavan/diffusers-ocaml",
+    "language": "OCaml",
+    "pushed_at": "2022-12-09T00:10:36Z",
+    "stargazers_count": 21,
+    "topics": [
+      "deeplearning",
+      "diffusion-models",
+      "huggingface-diffusers",
+      "ocaml",
+      "stable-diffusion",
+      "torch"
+    ],
+    "updated_at": "2025-02-03T02:47:02Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Diffusers API in OCaml",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deeplearning"
+    },
+    {
+      "context_snippet": "Diffusers API in OCaml",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    },
+    {
+      "context_snippet": "Diffusers API in OCaml",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "huggingface-diffusers"
+    },
+    {
+      "context_snippet": "Diffusers API in OCaml",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ocaml"
+    },
+    {
+      "context_snippet": "Diffusers API in OCaml",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion"
+    },
+    {
+      "context_snippet": "Diffusers API in OCaml",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "torch"
+    }
+  ]
+}

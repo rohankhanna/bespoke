@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T13:03:39.324378+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5708
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "whole",
+    "description": "Blind Face Restoration via Deep Multi-scale Component Dictionaries (ECCV 2020)",
+    "fork": false,
+    "full_name": "csxmli2016/DFDNet",
+    "html_url": "https://github.com/csxmli2016/DFDNet",
+    "language": "Python",
+    "pushed_at": "2022-12-05T02:39:35Z",
+    "stargazers_count": 944,
+    "topics": [],
+    "updated_at": "2026-04-17T00:30:59Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

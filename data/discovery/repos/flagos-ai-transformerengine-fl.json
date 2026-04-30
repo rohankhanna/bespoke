@@ -1,0 +1,276 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/all_tests_common.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blossom-ci.yml"
+    },
+    {
+      "component": "NVIDIA/blossom-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blossom-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_nightly_docs.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v1.0.7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_nightly_docs.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v2.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_nightly_docs.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "flagos-ai/TransformerEngine-FL",
+      "target": "lightning-ai/lightning",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "flagos-ai/TransformerEngine-FL",
+      "target": "nvidia/nemo-megatron-launcher",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "flagos-ai/TransformerEngine-FL",
+      "target": "stanford-crfm/levanter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/all_tests_common.yml",
+      "source_repo": "flagos-ai/TransformerEngine-FL",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/all_tests_common.yml",
+      "source_repo": "flagos-ai/TransformerEngine-FL",
+      "target": "Common All Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blossom-ci.yml",
+      "source_repo": "flagos-ai/TransformerEngine-FL",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blossom-ci.yml",
+      "source_repo": "flagos-ai/TransformerEngine-FL",
+      "target": "NVIDIA/blossom-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/blossom-ci.yml",
+      "source_repo": "flagos-ai/TransformerEngine-FL",
+      "target": "Blossom-CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "flagos-ai/TransformerEngine-FL",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "flagos-ai/TransformerEngine-FL",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_nightly_docs.yml",
+      "source_repo": "flagos-ai/TransformerEngine-FL",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_nightly_docs.yml",
+      "source_repo": "flagos-ai/TransformerEngine-FL",
+      "target": "actions/upload-pages-artifact@v1.0.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_nightly_docs.yml",
+      "source_repo": "flagos-ai/TransformerEngine-FL",
+      "target": "actions/deploy-pages@v2.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy_nightly_docs.yml",
+      "source_repo": "flagos-ai/TransformerEngine-FL",
+      "target": "Deploy nightly docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "flagos-ai/TransformerEngine-FL",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "flagos-ai/TransformerEngine-FL",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "flagos-ai/TransformerEngine-FL",
+      "target": "Documentation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:08:47.300597+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 24139
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 409
+    },
+    {
+      "path": ".github/workflows/all_tests_ascend.yml",
+      "size": 784
+    },
+    {
+      "path": ".github/workflows/all_tests_common.yml",
+      "size": 6677
+    },
+    {
+      "path": ".github/workflows/all_tests_cuda.yml",
+      "size": 831
+    },
+    {
+      "path": ".github/workflows/all_tests_metax.yml",
+      "size": 845
+    },
+    {
+      "path": ".github/workflows/blossom-ci.yml",
+      "size": 2543
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1811
+    },
+    {
+      "path": ".github/workflows/deploy_nightly_docs.yml",
+      "size": 977
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 1046
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "TransformerEngine-FL is a fork of TransformerEngine that introduces a plugin-based architecture for supporting diverse AI chips, built on top of FlagOS, a unified open-source AI system software stack.",
+    "fork": true,
+    "full_name": "flagos-ai/TransformerEngine-FL",
+    "html_url": "https://github.com/flagos-ai/TransformerEngine-FL",
+    "language": "Python",
+    "pushed_at": "2026-04-24T10:04:59Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2026-04-24T10:07:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lightning-ai/lightning",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidia/nemo-megatron-launcher",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stanford-crfm/levanter",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Common All Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/all_tests_common.yml",
+      "term": "Common All Tests"
+    },
+    {
+      "context_snippet": "Blossom-CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/blossom-ci.yml",
+      "term": "Blossom-CI"
+    },
+    {
+      "context_snippet": "'Build'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Deploy nightly docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy_nightly_docs.yml",
+      "term": "Deploy nightly docs"
+    },
+    {
+      "context_snippet": "'Documentation'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Documentation"
+    }
+  ]
+}

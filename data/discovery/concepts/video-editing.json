@@ -55,6 +55,18 @@
       "source_repo": "KyujinHan/Awesome-Training-Free-WAN2.1-Editing",
       "status": "candidate-context",
       "text": "**Star\ud83c\udf1f is a great help in open source development!**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wangjiangshan0725/RF-Solver-Edit",
+      "status": "candidate-context",
+      "text": "[\ud83d\ude80ICML 2025] \"Taming Rectified Flow for Inversion and Editing\"  Using FLUX and HunyuanVideo for image and video editing!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wangjiangshan0725/RF-Solver-Edit",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "KyujinHan/Awesome-Training-Free-WAN2.1-Editing",
       "status": "candidate",
       "text": "**Star\ud83c\udf1f is a great help in open source development!**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wangjiangshan0725/RF-Solver-Edit",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -118,11 +136,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "KyujinHan/Awesome-Training-Free-WAN2.1-Editing"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "wangjiangshan0725/RF-Solver-Edit"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

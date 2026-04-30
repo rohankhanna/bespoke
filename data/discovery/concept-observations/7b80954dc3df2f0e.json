@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "FlagCX is a scalable and adaptive cross-chip communication library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Sync to remote site"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Sync to remote site"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25969,
+      "status": "candidate",
+      "text": "allochthonous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25900,
+      "status": "candidate",
+      "text": "backhaul"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25900,
+      "status": "candidate",
+      "text": "den"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24458,
+      "status": "candidate",
+      "text": "lip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23522,
+      "status": "candidate",
+      "text": "off"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Sync to remote site",
+      "sense_id": "sync-to-remote-site#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "sync-to-remote-site",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sync-to-remote-site",
+  "observation_id": "7b80954dc3df2f0e",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "Sync to remote site",
+  "source_context_snippet": "Sync to remote site",
+  "source_file": ".github/workflows/auto-sync.yaml",
+  "source_repo": "flagos-ai/FlagCX",
+  "source_repo_description": "FlagCX is a scalable and adaptive cross-chip communication library."
+}

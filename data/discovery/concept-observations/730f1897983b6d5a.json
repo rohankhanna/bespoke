@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Immutable transaction isolated sql driver for golang"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://travis-ci.org/DATA-DOG/go-txdb.svg?branch=master)](https://travis-ci.org/DATA-DOG/go-txdb)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/DATA-DOG/go-txdb.svg?branch=master)](https://travis-ci.org/DATA-DOG/go-txdb)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "integration-testing",
+      "sense_id": "integration-testing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "integration-testing",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "integration-testing",
+  "observation_id": "730f1897983b6d5a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "integration-testing",
+  "source_context_snippet": "[![Build Status](https://travis-ci.org/DATA-DOG/go-txdb.svg?branch=master)](https://travis-ci.org/DATA-DOG/go-txdb)",
+  "source_file": null,
+  "source_repo": "DATA-DOG/go-txdb",
+  "source_repo_description": "Immutable transaction isolated sql driver for golang"
+}

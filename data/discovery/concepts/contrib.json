@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "contrib"
+    "contrib",
+    "Contrib"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "coder/coder",
       "status": "candidate-context",
       "text": "contrib"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haproxy/haproxy",
+      "status": "candidate-context",
+      "text": "HAProxy Load Balancer's development branch (mirror of git.haproxy.org)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haproxy/haproxy",
+      "status": "candidate-context",
+      "text": "Contrib"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "coder/coder",
       "status": "candidate",
       "text": "contrib"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haproxy/haproxy",
+      "status": "candidate",
+      "text": "Contrib"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/contrib.yaml",
       "source_repo": "coder/coder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/contrib.yml",
+      "source_repo": "haproxy/haproxy"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

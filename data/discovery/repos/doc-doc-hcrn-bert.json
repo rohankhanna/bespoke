@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "doc-doc/HCRN-BERT",
+      "target": "thaolmk54/hcrn-videoqa",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:11:04.071449+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1041
+    },
+    {
+      "path": "requirements.txt",
+      "size": 85
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "doc-doc/HCRN-BERT",
+    "html_url": "https://github.com/doc-doc/HCRN-BERT",
+    "language": "Python",
+    "pushed_at": "2021-11-16T14:20:33Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2021-11-17T11:40:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thaolmk54/hcrn-videoqa",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

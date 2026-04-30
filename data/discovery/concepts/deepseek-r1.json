@@ -103,6 +103,30 @@
       "source_repo": "beehive-lab/GPULlama3.java",
       "status": "candidate-context",
       "text": "![Java Version](https://img.shields.io/badge/java-21-blue?style=&logo=openjdk)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "om-ai-lab/VLM-R1",
+      "status": "candidate-context",
+      "text": "Solve Visual Understanding with Reinforced VLMs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "om-ai-lab/VLM-R1",
+      "status": "candidate-context",
+      "text": "<font size=4><div align='center' > [[\ud83e\udd17 REC Demo](https://huggingface.co/spaces/omlab/VLM-R1-Referral-Expression)] [[\ud83e\udd17 OVD Demo](https://huggingface.co/spaces/omlab/VLM-R1-OVD)] [[\ud83e\udd17 REC Data](https://huggingface.co/datasets/omlab/VLM-R1)] [[\ud83e\udd17 Checkpoints](https://huggingface.co/c\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "johnbean393/Sidekick",
+      "status": "candidate-context",
+      "text": "A native macOS app that allows users to chat with a local LLM that can respond with information from files, folders and websites on your Mac without installing any other software. Powered by llama.cpp."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "johnbean393/Sidekick",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +177,18 @@
       "source_repo": "beehive-lab/GPULlama3.java",
       "status": "candidate",
       "text": "![Java Version](https://img.shields.io/badge/java-21-blue?style=&logo=openjdk)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "om-ai-lab/VLM-R1",
+      "status": "candidate",
+      "text": "<font size=4><div align='center' > [[\ud83e\udd17 REC Demo](https://huggingface.co/spaces/omlab/VLM-R1-Referral-Expression)] [[\ud83e\udd17 OVD Demo](https://huggingface.co/spaces/omlab/VLM-R1-OVD)] [[\ud83e\udd17 REC Data](https://huggingface.co/datasets/omlab/VLM-R1)] [[\ud83e\udd17 Checkpoints](https://huggingface.co/c\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "johnbean393/Sidekick",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -238,11 +274,29 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "modelscope/ms-swift"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/ms-swift"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "om-ai-lab/VLM-R1"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "johnbean393/Sidekick"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

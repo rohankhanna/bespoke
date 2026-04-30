@@ -19,12 +19,30 @@
       "source_repo": "NVlabs/ProtoMotions",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HansZ8/RoboJuDo",
+      "status": "candidate-context",
+      "text": "A plug-and-play deploy framework for robots. Just deploy, just do."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HansZ8/RoboJuDo",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "NVlabs/ProtoMotions",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HansZ8/RoboJuDo",
       "status": "candidate",
       "text": "<div align=\"center\">"
     }
@@ -91,11 +109,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "NVlabs/ProtoMotions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "HansZ8/RoboJuDo"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

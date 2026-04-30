@@ -71,6 +71,18 @@
       "source_repo": "Redocly/redoc",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ShishirPatil/gorilla",
+      "status": "candidate-context",
+      "text": "Gorilla: Training and Evaluating LLMs for Function Calls (Tool Calls)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ShishirPatil/gorilla",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -101,6 +113,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Redocly/redoc",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ShishirPatil/gorilla",
       "status": "candidate",
       "text": "<div align=\"center\">"
     }
@@ -182,11 +200,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "Redocly/redoc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Redocly/redoc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ShishirPatil/gorilla"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -19,6 +19,18 @@
       "source_repo": "ray-x/navigator.lua",
       "status": "candidate-context",
       "text": "- Source code analysis and navigate tool"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mason-org/mason-lspconfig.nvim",
+      "status": "candidate-context",
+      "text": "Extension to mason.nvim that makes it easier to use lspconfig with mason.nvim."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mason-org/mason-lspconfig.nvim",
+      "status": "candidate-context",
+      "text": "![Linux](https://img.shields.io/badge/Linux-%23.svg?logo=linux&color=FCC624&logoColor=black)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "ray-x/navigator.lua",
       "status": "candidate",
       "text": "- Source code analysis and navigate tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mason-org/mason-lspconfig.nvim",
+      "status": "candidate",
+      "text": "![Linux](https://img.shields.io/badge/Linux-%23.svg?logo=linux&color=FCC624&logoColor=black)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "ray-x/navigator.lua"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "mason-org/mason-lspconfig.nvim"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -58,6 +58,18 @@
       "source_repo": "miurahr/aqtinstall",
       "status": "candidate-context",
       "text": "Another Qt installer(aqt)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tronkko/dirent",
+      "status": "candidate-context",
+      "text": "C/C++ library for retrieving information on files and directories"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tronkko/dirent",
+      "status": "candidate-context",
+      "text": "MSVC"
     }
   ],
   "candidate_glosses": [
@@ -84,6 +96,12 @@
       "source_repo": "miurahr/aqtinstall",
       "status": "candidate",
       "text": "Another Qt installer(aqt)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tronkko/dirent",
+      "status": "candidate",
+      "text": "MSVC"
     }
   ],
   "candidate_related_terms": [],
@@ -115,11 +133,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "miurahr/aqtinstall"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/msvc.yml",
+      "source_repo": "tronkko/dirent"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

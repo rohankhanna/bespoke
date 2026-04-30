@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "w2x-runner"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DeadSix27/waifu2x-converter-cpp",
+      "status": "candidate-context",
+      "text": "Improved fork of Waifu2X C++ using OpenCL and OpenCV"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DeadSix27/waifu2x-converter-cpp",
+      "status": "candidate-context",
+      "text": "w2x-runner"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DeadSix27/waifu2x-converter-cpp",
+      "status": "candidate",
+      "text": "w2x-runner"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "w2x-runner",
+  "concept_id": "w2x-runner",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/w2x-runner.yml",
+      "source_repo": "DeadSix27/waifu2x-converter-cpp"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "w2x-runner",
+      "sense_id": "w2x-runner#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

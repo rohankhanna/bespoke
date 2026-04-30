@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "License Compliance"
+    "License Compliance",
+    "license-compliance"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,18 @@
       "source_repo": "elixir-lang/elixir",
       "status": "candidate-context",
       "text": "License Compliance"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aboutcode-org/scancode.io",
+      "status": "candidate-context",
+      "text": "ScanCode.io is a server to script and automate software composition analysis with pipelines. This project is sponsored by the European Commission, NLnet NGI0, the Google Summer of Code, nexB and others generous sponsors!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aboutcode-org/scancode.io",
+      "status": "candidate-context",
+      "text": "==========="
     }
   ],
   "candidate_glosses": [
@@ -27,6 +42,12 @@
       "source_repo": "elixir-lang/elixir",
       "status": "candidate",
       "text": "License Compliance"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aboutcode-org/scancode.io",
+      "status": "candidate",
+      "text": "==========="
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +97,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/license_compliance.yml",
       "source_repo": "elixir-lang/elixir"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "aboutcode-org/scancode.io"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

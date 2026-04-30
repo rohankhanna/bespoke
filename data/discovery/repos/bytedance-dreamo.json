@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bytedance/DreamO",
+      "target": "mit-han-lab/nunchaku",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bytedance/DreamO",
+      "target": "tothebeginning/comfyui-dreamo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bytedance/DreamO",
+      "target": "xxx/xxx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "bytedance/DreamO",
+      "target": "tothebeginning/facexlib",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:53:34.919345+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7905
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 646
+    },
+    {
+      "path": "requirements.txt",
+      "size": 234
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[SIGGRAPH Asia 2025] DreamO: A Unified Framework for Image Customization",
+    "fork": false,
+    "full_name": "bytedance/DreamO",
+    "html_url": "https://github.com/bytedance/DreamO",
+    "language": "Python",
+    "pushed_at": "2025-08-14T11:46:35Z",
+    "stargazers_count": 1645,
+    "topics": [],
+    "updated_at": "2026-04-30T14:45:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mit-han-lab/nunchaku",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tothebeginning/comfyui-dreamo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xxx/xxx",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tothebeginning/facexlib",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": []
+}

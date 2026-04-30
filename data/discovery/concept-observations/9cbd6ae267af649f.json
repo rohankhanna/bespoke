@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Code for the paper 'Learning TSP Requires Rethinking Generalization' (CP 2021)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repository contains code for the paper [**\"Learning TSP Requires Rethinking Generalization\"**](https://arxiv.org/abs/2006.07054) by Chaitanya K. Joshi, Quentin Cappart, Louis-Martin Rousseau, Thomas Laurent, accepted to the **27th International Conference on Principles and \u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repository contains code for the paper [**\"Learning TSP Requires Rethinking Generalization\"**](https://arxiv.org/abs/2006.07054) by Chaitanya K. Joshi, Quentin Cappart, Louis-Martin Rousseau, Thomas Laurent, accepted to the **27th International Conference on Principles and \u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "travelling-salesman-problem",
+      "sense_id": "travelling-salesman-problem#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "travelling-salesman-problem",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "travelling-salesman-problem",
+  "observation_id": "9cbd6ae267af649f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "travelling-salesman-problem",
+  "source_context_snippet": "This repository contains code for the paper [**\"Learning TSP Requires Rethinking Generalization\"**](https://arxiv.org/abs/2006.07054) by Chaitanya K. Joshi, Quentin Cappart, Louis-Martin Rousseau, Thomas Laurent, accepted to the **27th International Conference on Principles and \u2026",
+  "source_file": null,
+  "source_repo": "chaitjo/learning-tsp",
+  "source_repo_description": "Code for the paper 'Learning TSP Requires Rethinking Generalization' (CP 2021)"
+}

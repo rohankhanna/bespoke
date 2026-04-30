@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rmcelreath/stat_rethinking_2022",
+      "target": "pymc-devs/resources",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rmcelreath/stat_rethinking_2022",
+      "target": "asuagar/statrethink-course-numpyro-2019",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rmcelreath/stat_rethinking_2022",
+      "target": "ksachdeva/rethinking-tensorflow-probability",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rmcelreath/stat_rethinking_2022",
+      "target": "statisticalrethinkingjulia/turingmodels.jl",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:06:13.722907+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8302
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Statistical Rethinking course winter 2022",
+    "fork": false,
+    "full_name": "rmcelreath/stat_rethinking_2022",
+    "html_url": "https://github.com/rmcelreath/stat_rethinking_2022",
+    "language": "R",
+    "pushed_at": "2022-03-15T15:07:26Z",
+    "stargazers_count": 4103,
+    "topics": [],
+    "updated_at": "2026-04-27T02:46:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "asuagar/statrethink-course-numpyro-2019",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ksachdeva/rethinking-tensorflow-probability",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pymc-devs/resources",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "statisticalrethinkingjulia/turingmodels.jl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

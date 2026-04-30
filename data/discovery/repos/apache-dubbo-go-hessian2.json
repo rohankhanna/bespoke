@@ -1,0 +1,249 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions.yml"
+    },
+    {
+      "component": "zcong1993/actions-ding@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions.yml"
+    },
+    {
+      "component": "zcong1993/actions-ding@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions.yml",
+      "source_repo": "apache/dubbo-go-hessian2",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions.yml",
+      "source_repo": "apache/dubbo-go-hessian2",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions.yml",
+      "source_repo": "apache/dubbo-go-hessian2",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions.yml",
+      "source_repo": "apache/dubbo-go-hessian2",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions.yml",
+      "source_repo": "apache/dubbo-go-hessian2",
+      "target": "zcong1993/actions-ding@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/dubbo-go-hessian2",
+      "target": "apache-dubbo-go",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/dubbo-go-hessian2",
+      "target": "caucho",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/dubbo-go-hessian2",
+      "target": "dubbo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/dubbo-go-hessian2",
+      "target": "dubbo-go",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/dubbo-go-hessian2",
+      "target": "dubbo-hessian",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/dubbo-go-hessian2",
+      "target": "dubbo-hessian-lite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/dubbo-go-hessian2",
+      "target": "dubbogo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/dubbo-go-hessian2",
+      "target": "dubbox",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/dubbo-go-hessian2",
+      "target": "hessian",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/dubbo-go-hessian2",
+      "target": "hessian2",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:52:04.274550+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16738
+    },
+    {
+      "path": "go.mod",
+      "size": 350
+    },
+    {
+      "path": ".github/workflows/github-actions.yml",
+      "size": 5533
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "caucho hessian2 implementation in Go for [apache/dubbo-go](https://github.com/apache/dubbo-go) which is compatible with [dubbo-hessian-lite](https://github.com/apache/dubbo-hessian-lite)",
+    "fork": false,
+    "full_name": "apache/dubbo-go-hessian2",
+    "html_url": "https://github.com/apache/dubbo-go-hessian2",
+    "language": "Go",
+    "pushed_at": "2026-04-29T13:02:57Z",
+    "stargazers_count": 231,
+    "topics": [
+      "apache-dubbo-go",
+      "caucho",
+      "dubbo",
+      "dubbo-go",
+      "dubbo-hessian",
+      "dubbo-hessian-lite",
+      "dubbogo",
+      "dubbox",
+      "hessian",
+      "hessian2"
+    ],
+    "updated_at": "2026-04-29T13:03:02Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/apache/dubbo-go-hessian2.png?branch=master)](https://travis-ci.org/apache/dubbo-go-hessian2)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apache-dubbo-go"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/apache/dubbo-go-hessian2.png?branch=master)](https://travis-ci.org/apache/dubbo-go-hessian2)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "caucho"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/apache/dubbo-go-hessian2.png?branch=master)](https://travis-ci.org/apache/dubbo-go-hessian2)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dubbo"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/apache/dubbo-go-hessian2.png?branch=master)](https://travis-ci.org/apache/dubbo-go-hessian2)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dubbo-go"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/apache/dubbo-go-hessian2.png?branch=master)](https://travis-ci.org/apache/dubbo-go-hessian2)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dubbo-hessian"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/apache/dubbo-go-hessian2.png?branch=master)](https://travis-ci.org/apache/dubbo-go-hessian2)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dubbo-hessian-lite"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/apache/dubbo-go-hessian2.png?branch=master)](https://travis-ci.org/apache/dubbo-go-hessian2)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dubbogo"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/apache/dubbo-go-hessian2.png?branch=master)](https://travis-ci.org/apache/dubbo-go-hessian2)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dubbox"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/apache/dubbo-go-hessian2.png?branch=master)](https://travis-ci.org/apache/dubbo-go-hessian2)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hessian"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/apache/dubbo-go-hessian2.png?branch=master)](https://travis-ci.org/apache/dubbo-go-hessian2)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hessian2"
+    }
+  ]
+}

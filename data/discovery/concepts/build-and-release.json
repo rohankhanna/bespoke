@@ -230,6 +230,30 @@
       "source_repo": "devhammed/insomnia-plugin-documenter",
       "status": "candidate-context",
       "text": "Build and Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spacemeshos/smcli",
+      "status": "candidate-context",
+      "text": "Spacemesh command-line tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spacemeshos/smcli",
+      "status": "candidate-context",
+      "text": "Build and Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pradyunsg/furo",
+      "status": "candidate-context",
+      "text": "A clean customizable documentation theme for Sphinx"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pradyunsg/furo",
+      "status": "candidate-context",
+      "text": "Build and release"
     }
   ],
   "candidate_glosses": [
@@ -352,6 +376,18 @@
       "source_repo": "devhammed/insomnia-plugin-documenter",
       "status": "candidate",
       "text": "Build and Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spacemeshos/smcli",
+      "status": "candidate",
+      "text": "Build and Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pradyunsg/furo",
+      "status": "candidate",
+      "text": "Build and release"
     }
   ],
   "candidate_related_terms": [
@@ -533,11 +569,29 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "devhammed/insomnia-plugin-documenter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "nsfw-filter/nsfw-filter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "spacemeshos/smcli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "pradyunsg/furo"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

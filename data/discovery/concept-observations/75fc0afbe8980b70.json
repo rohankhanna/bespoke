@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Camouflaged Object Detection, CVPR 2020 (Oral)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> Authors:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> Authors:"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39934224,
+      "status": "candidate",
+      "text": "see-through"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39934098,
+      "status": "candidate",
+      "text": "pellucid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39933925,
+      "status": "candidate",
+      "text": "diaphanous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39933873,
+      "status": "candidate",
+      "text": "clear"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39933752,
+      "status": "candidate",
+      "text": "limpid"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "transparent",
+      "sense_id": "transparent#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 49041,
+      "status": "candidate",
+      "text": "pellucid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 43072,
+      "status": "candidate",
+      "text": "clear"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 36038,
+      "status": "candidate",
+      "text": "gossamer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 32039,
+      "status": "candidate",
+      "text": "diaphanous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31038,
+      "status": "candidate",
+      "text": "obvious"
+    }
+  ],
+  "concept_id": "transparent",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "transparent",
+  "observation_id": "75fc0afbe8980b70",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "transparent",
+  "source_context_snippet": "> Authors:",
+  "source_file": null,
+  "source_repo": "DengPingFan/SINet",
+  "source_repo_description": "Camouflaged Object Detection, CVPR 2020 (Oral)"
+}

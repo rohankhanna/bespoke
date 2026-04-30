@@ -31,6 +31,42 @@
       "source_repo": "tachyons-css/tachyons",
       "status": "candidate-context",
       "text": "Functional CSS for humans."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet-architecture/eShopOnWeb",
+      "status": "candidate-context",
+      "text": "Sample ASP.NET Core 8.0 reference application, now community supported: https://github.com/NimblePros/eShopOnWeb"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet-architecture/eShopOnWeb",
+      "status": "candidate-context",
+      "text": "> eShop sample applications have been updated and moved to https://github.com/dotnet/eShop. Active development will continue there. We also recommend the [Reliable Web App](https://learn.microsoft.com/azure/architecture/web-apps/guides/reliable-web-app/overview) patterns guidanc\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ardalis/GuardClauses",
+      "status": "candidate-context",
+      "text": "A simple package with guard clause extensions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ardalis/GuardClauses",
+      "status": "candidate-context",
+      "text": "![logo](media/logotype%201024.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ardalis/Result",
+      "status": "candidate-context",
+      "text": "A result abstraction that can be mapped to HTTP response codes if needed."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ardalis/Result",
+      "status": "candidate-context",
+      "text": "[![Ardalis.Result - NuGet](https://img.shields.io/nuget/v/Ardalis.Result.svg?label=Ardalis.Result%20-%20nuget)](https://www.nuget.org/packages/Ardalis.Result) [![NuGet](https://img.shields.io/nuget/dt/Ardalis.Result.svg)](https://www.nuget.org/packages/Ardalis.Result) [![Build S\u2026"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +81,24 @@
       "source_repo": "tachyons-css/tachyons",
       "status": "candidate",
       "text": "Functional CSS for humans."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet-architecture/eShopOnWeb",
+      "status": "candidate",
+      "text": "> eShop sample applications have been updated and moved to https://github.com/dotnet/eShop. Active development will continue there. We also recommend the [Reliable Web App](https://learn.microsoft.com/azure/architecture/web-apps/guides/reliable-web-app/overview) patterns guidanc\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ardalis/GuardClauses",
+      "status": "candidate",
+      "text": "![logo](media/logotype%201024.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ardalis/Result",
+      "status": "candidate",
+      "text": "[![Ardalis.Result - NuGet](https://img.shields.io/nuget/v/Ardalis.Result.svg?label=Ardalis.Result%20-%20nuget)](https://www.nuget.org/packages/Ardalis.Result) [![NuGet](https://img.shields.io/nuget/dt/Ardalis.Result.svg)](https://www.nuget.org/packages/Ardalis.Result) [![Build S\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +118,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "tachyons-css/tachyons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "dotnet-architecture/eShopOnWeb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ardalis/GuardClauses"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ardalis/Result"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

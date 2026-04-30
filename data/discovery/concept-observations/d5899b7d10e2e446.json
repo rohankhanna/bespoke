@@ -84,7 +84,7 @@
   "normalized_form": "pr-checks-bun-run-check",
   "observation_id": "d5899b7d10e2e446",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
   "observed_text": "PR Checks (bun run check)",
   "source_context_snippet": "PR Checks (bun run check)",
   "source_file": ".github/workflows/pr-check.yml",

@@ -1,0 +1,108 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DyegoCosta/snake-game",
+      "target": "game",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DyegoCosta/snake-game",
+      "target": "game-2d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DyegoCosta/snake-game",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DyegoCosta/snake-game",
+      "target": "snake-game",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DyegoCosta/snake-game",
+      "target": "terminal-game",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:59:49.611784+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 448
+    },
+    {
+      "path": "Dockerfile",
+      "size": 255
+    },
+    {
+      "path": "go.mod",
+      "size": 135
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Terminal-based Snake game",
+    "fork": false,
+    "full_name": "DyegoCosta/snake-game",
+    "html_url": "https://github.com/DyegoCosta/snake-game",
+    "language": "Go",
+    "pushed_at": "2025-11-04T14:19:06Z",
+    "stargazers_count": 267,
+    "topics": [
+      "game",
+      "game-2d",
+      "golang",
+      "snake-game",
+      "terminal-game"
+    ],
+    "updated_at": "2026-04-24T06:17:39Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/DyegoCosta/snake-game.svg?branch=master)](https://travis-ci.org/DyegoCosta/snake-game)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "game"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/DyegoCosta/snake-game.svg?branch=master)](https://travis-ci.org/DyegoCosta/snake-game)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "game-2d"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/DyegoCosta/snake-game.svg?branch=master)](https://travis-ci.org/DyegoCosta/snake-game)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/DyegoCosta/snake-game.svg?branch=master)](https://travis-ci.org/DyegoCosta/snake-game)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "snake-game"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/DyegoCosta/snake-game.svg?branch=master)](https://travis-ci.org/DyegoCosta/snake-game)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal-game"
+    }
+  ]
+}

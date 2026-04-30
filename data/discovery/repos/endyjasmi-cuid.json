@@ -1,0 +1,118 @@
+{
+  "components": [
+    {
+      "component": "grunt",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "grunt-contrib-connect",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "grunt-contrib-watch",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "grunt-phpcs",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "grunt-phpdocumentor",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "grunt-phpunit",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "endyjasmi/cuid",
+      "target": "paralleldrive/cuid2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "endyjasmi/cuid",
+      "target": "grunt",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "endyjasmi/cuid",
+      "target": "grunt-contrib-connect",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "endyjasmi/cuid",
+      "target": "grunt-contrib-watch",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "endyjasmi/cuid",
+      "target": "grunt-phpcs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "endyjasmi/cuid",
+      "target": "grunt-phpdocumentor",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "endyjasmi/cuid",
+      "target": "grunt-phpunit",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:02:45.314819+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3580
+    },
+    {
+      "path": "package.json",
+      "size": 223
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Collision resistant id (hashes) for php",
+    "fork": false,
+    "full_name": "endyjasmi/cuid",
+    "html_url": "https://github.com/endyjasmi/cuid",
+    "language": "PHP",
+    "pushed_at": "2023-02-09T03:08:46Z",
+    "stargazers_count": 72,
+    "topics": [],
+    "updated_at": "2023-03-19T17:44:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "paralleldrive/cuid2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

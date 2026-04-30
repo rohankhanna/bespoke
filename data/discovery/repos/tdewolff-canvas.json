@@ -1,0 +1,225 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tdewolff/canvas",
+      "target": "aldernero/gaul",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tdewolff/canvas",
+      "target": "aldernero/spider",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tdewolff/canvas",
+      "target": "browserjam/jam001",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tdewolff/canvas",
+      "target": "carbocation/genomisc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "tdewolff/canvas",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "tdewolff/canvas",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "tdewolff/canvas",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tdewolff/canvas",
+      "target": "cairo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tdewolff/canvas",
+      "target": "canvas",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tdewolff/canvas",
+      "target": "html-canvas",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tdewolff/canvas",
+      "target": "opengl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tdewolff/canvas",
+      "target": "path",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tdewolff/canvas",
+      "target": "rasterizer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tdewolff/canvas",
+      "target": "vector-graphics",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:56:17.082038+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15435
+    },
+    {
+      "path": "go.mod",
+      "size": 4087
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 790
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Vector graphics in Go",
+    "fork": false,
+    "full_name": "tdewolff/canvas",
+    "html_url": "https://github.com/tdewolff/canvas",
+    "language": "Go",
+    "pushed_at": "2026-04-06T09:19:17Z",
+    "stargazers_count": 1807,
+    "topics": [
+      "cairo",
+      "canvas",
+      "eps",
+      "html-canvas",
+      "opengl",
+      "path",
+      "pdf",
+      "rasterizer",
+      "svg",
+      "vector-graphics"
+    ],
+    "updated_at": "2026-04-28T10:10:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aldernero/gaul",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aldernero/spider",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "browserjam/jam001",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "carbocation/genomisc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![Canvas](https://raw.githubusercontent.com/tdewolff/canvas/master/resources/title/title.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cairo"
+    },
+    {
+      "context_snippet": "![Canvas](https://raw.githubusercontent.com/tdewolff/canvas/master/resources/title/title.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "canvas"
+    },
+    {
+      "context_snippet": "![Canvas](https://raw.githubusercontent.com/tdewolff/canvas/master/resources/title/title.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "html-canvas"
+    },
+    {
+      "context_snippet": "![Canvas](https://raw.githubusercontent.com/tdewolff/canvas/master/resources/title/title.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opengl"
+    },
+    {
+      "context_snippet": "![Canvas](https://raw.githubusercontent.com/tdewolff/canvas/master/resources/title/title.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "path"
+    },
+    {
+      "context_snippet": "![Canvas](https://raw.githubusercontent.com/tdewolff/canvas/master/resources/title/title.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rasterizer"
+    },
+    {
+      "context_snippet": "![Canvas](https://raw.githubusercontent.com/tdewolff/canvas/master/resources/title/title.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vector-graphics"
+    }
+  ]
+}

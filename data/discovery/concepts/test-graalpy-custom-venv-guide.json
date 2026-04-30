@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test GraalPy Custom Venv Guide"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graalvm/graal-languages-demos",
+      "status": "candidate-context",
+      "text": "Graal Languages - Demos and Guides"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graalvm/graal-languages-demos",
+      "status": "candidate-context",
+      "text": "Test GraalPy Custom Venv Guide"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graalvm/graal-languages-demos",
+      "status": "candidate",
+      "text": "Test GraalPy Custom Venv Guide"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26117,
+      "status": "candidate",
+      "text": "key"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26117,
+      "status": "candidate",
+      "text": "keying"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26117,
+      "status": "candidate",
+      "text": "keys"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18899,
+      "status": "candidate",
+      "text": "standard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17973,
+      "status": "candidate",
+      "text": "bear"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test GraalPy Custom Venv Guide",
+  "concept_id": "test-graalpy-custom-venv-guide",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/graalpy-custom-venv-guide.yml",
+      "source_repo": "graalvm/graal-languages-demos"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test GraalPy Custom Venv Guide",
+      "sense_id": "test-graalpy-custom-venv-guide#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

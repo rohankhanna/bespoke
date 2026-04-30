@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Smithy is a protocol-agnostic interface definition language and set of tools for generating clients, servers, and documentation for any programming language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "sdk-codegen-ci"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "sdk-codegen-ci"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "sdk-codegen-ci",
+      "sense_id": "sdk-codegen-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "sdk-codegen-ci",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sdk-codegen-ci",
+  "observation_id": "efbbf9e562ae5926",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "sdk-codegen-ci",
+  "source_context_snippet": "sdk-codegen-ci",
+  "source_file": ".github/workflows/sdk-codegen-ci.yml",
+  "source_repo": "smithy-lang/smithy",
+  "source_repo_description": "Smithy is a protocol-agnostic interface definition language and set of tools for generating clients, servers, and documentation for any programming language."
+}

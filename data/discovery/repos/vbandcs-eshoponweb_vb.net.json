@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "VBAndCs/eShopOnWeb_VB.NET",
+      "target": "vbandcs/vazor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "VBAndCs/eShopOnWeb_VB.NET",
+      "target": "vbandcs/zml",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:08:20.250455+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1399
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A VB.NET version of eShopOnWeb, a Microsoft ASP.NET Core 3.1 MVC and Razor pages full app, with views and pages designed by Vazor and ZML",
+    "fork": false,
+    "full_name": "VBAndCs/eShopOnWeb_VB.NET",
+    "html_url": "https://github.com/VBAndCs/eShopOnWeb_VB.NET",
+    "language": "C#",
+    "pushed_at": "2023-01-06T20:27:41Z",
+    "stargazers_count": 30,
+    "topics": [],
+    "updated_at": "2024-11-15T08:28:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vbandcs/vazor",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vbandcs/zml",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,7 +1,7 @@
 {
   "component": "actions/download-artifact@v8",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1647,6 +1647,81 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release-python.yml",
       "source_repo": "mongodb/winkerberos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "cawa-93/vite-electron-builder"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/installers-conda.yml",
+      "source_repo": "spyder-ide/spyder"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Blinue/Magpie"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "JuliaDocs/Documenter.jl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dist-verification-ci.yml",
+      "source_repo": "jruby/jruby"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "alloy-rs/svm-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "miurahr/py7zr"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml",
+      "source_repo": "navidrome/navidrome"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sdk_android_build.yml",
+      "source_repo": "KhronosGroup/Vulkan-ValidationLayers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "evilmartians/lefthook"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_publish_docker_image.yml",
+      "source_repo": "rclone/rclone"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "messense/py-promql-parser"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Heapy/awesome-kotlin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "treeverse/dvc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/make-docs.yml",
+      "source_repo": "smithy-lang/smithy"
     }
   ]
 }

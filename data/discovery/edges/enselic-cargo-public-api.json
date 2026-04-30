@@ -1,0 +1,132 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Enselic/cargo-public-api",
+      "target": "rust-lang/regex",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Enselic/cargo-public-api",
+      "target": "cargo-public-api/cargo-public-api",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "Enselic/cargo-public-api",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "Enselic/cargo-public-api",
+      "target": "taiki-e/install-action@ae97ff9daf1cd2e216671a047d80ff48461e30bb",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Nightly.yml",
+      "source_repo": "Enselic/cargo-public-api",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Nightly.yml",
+      "source_repo": "Enselic/cargo-public-api",
+      "target": "Nightly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Release-all.yml",
+      "source_repo": "Enselic/cargo-public-api",
+      "target": "Release All",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release-cargo-public-api.yml",
+      "source_repo": "Enselic/cargo-public-api",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release-cargo-public-api.yml",
+      "source_repo": "Enselic/cargo-public-api",
+      "target": "rust-lang/crates-io-auth-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Release-cargo-public-api.yml",
+      "source_repo": "Enselic/cargo-public-api",
+      "target": "Release cargo-public-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release-public-api.yml",
+      "source_repo": "Enselic/cargo-public-api",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release-public-api.yml",
+      "source_repo": "Enselic/cargo-public-api",
+      "target": "rust-lang/crates-io-auth-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Release-public-api.yml",
+      "source_repo": "Enselic/cargo-public-api",
+      "target": "Release public-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release-rustdoc-json.yml",
+      "source_repo": "Enselic/cargo-public-api",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release-rustdoc-json.yml",
+      "source_repo": "Enselic/cargo-public-api",
+      "target": "rust-lang/crates-io-auth-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release-rustup-toolchain.yml",
+      "source_repo": "Enselic/cargo-public-api",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release-rustup-toolchain.yml",
+      "source_repo": "Enselic/cargo-public-api",
+      "target": "rust-lang/crates-io-auth-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Release-rustup-toolchain.yml",
+      "source_repo": "Enselic/cargo-public-api",
+      "target": "Release rustup-toolchain",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T12:45:20.475770+00:00",
+  "source_repo": "Enselic/cargo-public-api"
+}

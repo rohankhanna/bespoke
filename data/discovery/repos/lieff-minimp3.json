@@ -1,0 +1,262 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lieff/minimp3",
+      "target": "germangb/minimp3-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lieff/minimp3",
+      "target": "johangu/node-minimp3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lieff/minimp3",
+      "target": "bashi/minimp3-wasm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lieff/minimp3",
+      "target": "dasziesel/minimp3-delphi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lieff/minimp3",
+      "target": "audio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lieff/minimp3",
+      "target": "codec",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lieff/minimp3",
+      "target": "decoder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lieff/minimp3",
+      "target": "mini",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lieff/minimp3",
+      "target": "mini-mp3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lieff/minimp3",
+      "target": "minimal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lieff/minimp3",
+      "target": "mp3-decoder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lieff/minimp3",
+      "target": "music",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lieff/minimp3",
+      "target": "single-header",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lieff/minimp3",
+      "target": "single-header-lib",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lieff/minimp3",
+      "target": "small",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lieff/minimp3",
+      "target": "sound",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lieff/minimp3",
+      "target": "tiny",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T12:49:40.041405+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13929
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Minimalistic MP3 decoder single header library",
+    "fork": false,
+    "full_name": "lieff/minimp3",
+    "html_url": "https://github.com/lieff/minimp3",
+    "language": "C",
+    "pushed_at": "2026-03-12T19:47:55Z",
+    "stargazers_count": 1884,
+    "topics": [
+      "audio",
+      "codec",
+      "decoder",
+      "mini",
+      "mini-mp3",
+      "minimal",
+      "mp3",
+      "mp3-decoder",
+      "music",
+      "single-header",
+      "single-header-lib",
+      "small",
+      "sound",
+      "tiny"
+    ],
+    "updated_at": "2026-04-28T16:30:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bashi/minimp3-wasm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dasziesel/minimp3-delphi",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "germangb/minimp3-rs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "johangu/node-minimp3",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "minimp3",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio"
+    },
+    {
+      "context_snippet": "minimp3",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "codec"
+    },
+    {
+      "context_snippet": "minimp3",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "decoder"
+    },
+    {
+      "context_snippet": "minimp3",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mini"
+    },
+    {
+      "context_snippet": "minimp3",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mini-mp3"
+    },
+    {
+      "context_snippet": "minimp3",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minimal"
+    },
+    {
+      "context_snippet": "minimp3",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mp3-decoder"
+    },
+    {
+      "context_snippet": "minimp3",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "music"
+    },
+    {
+      "context_snippet": "minimp3",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "single-header"
+    },
+    {
+      "context_snippet": "minimp3",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "single-header-lib"
+    },
+    {
+      "context_snippet": "minimp3",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "small"
+    },
+    {
+      "context_snippet": "minimp3",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sound"
+    },
+    {
+      "context_snippet": "minimp3",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tiny"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rmcelreath/stat_rethinking_2022",
+      "target": "pymc-devs/resources",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rmcelreath/stat_rethinking_2022",
+      "target": "asuagar/statrethink-course-numpyro-2019",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rmcelreath/stat_rethinking_2022",
+      "target": "ksachdeva/rethinking-tensorflow-probability",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rmcelreath/stat_rethinking_2022",
+      "target": "statisticalrethinkingjulia/turingmodels.jl",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-30T12:45:20.475770+00:00",
+  "source_repo": "rmcelreath/stat_rethinking_2022"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A high-performance observability data pipeline."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Nightly](https://github.com/vectordotdev/vector/actions/workflows/nightly.yml/badge.svg)](https://github.com/vectordotdev/vector/actions/workflows/nightly.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Nightly](https://github.com/vectordotdev/vector/actions/workflows/nightly.yml/badge.svg)](https://github.com/vectordotdev/vector/actions/workflows/nightly.yml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19694706,
+      "status": "candidate",
+      "text": "backlog"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19664879,
+      "status": "candidate",
+      "text": "corduroy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19631957,
+      "status": "candidate",
+      "text": "lumber"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19469832,
+      "status": "candidate",
+      "text": "rough"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19446926,
+      "status": "candidate",
+      "text": "unsmooth"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "logs",
+      "sense_id": "logs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "logs",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "logs",
+  "observation_id": "dd0b5ce02078ed8d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "logs",
+  "source_context_snippet": "[![Nightly](https://github.com/vectordotdev/vector/actions/workflows/nightly.yml/badge.svg)](https://github.com/vectordotdev/vector/actions/workflows/nightly.yml)",
+  "source_file": null,
+  "source_repo": "vectordotdev/vector",
+  "source_repo_description": "A high-performance observability data pipeline."
+}

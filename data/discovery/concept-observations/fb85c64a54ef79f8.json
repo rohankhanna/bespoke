@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "UUID Creator is a Java library for generating Universally Unique Identifiers. It generates all standard identifiers from UUIDv1 to UUIDv7. It also provides an alternative to the classic JDK's UUID (alt.GUID), many codecs (codec.*) and several utilities (util.*)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Code Scan with Spotbugs and PMD"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Code Scan with Spotbugs and PMD"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10309,
+      "status": "candidate",
+      "text": "comedy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10095,
+      "status": "candidate",
+      "text": "review"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10095,
+      "status": "candidate",
+      "text": "reviewing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9973,
+      "status": "candidate",
+      "text": "browse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9973,
+      "status": "candidate",
+      "text": "consideration"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Code Scan with Spotbugs and PMD",
+      "sense_id": "code-scan-with-spotbugs-and-pmd#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "code-scan-with-spotbugs-and-pmd",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "code-scan-with-spotbugs-and-pmd",
+  "observation_id": "fb85c64a54ef79f8",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "Code Scan with Spotbugs and PMD",
+  "source_context_snippet": "Code Scan with Spotbugs and PMD",
+  "source_file": ".github/workflows/codescan.yml",
+  "source_repo": "f4b6a3/uuid-creator",
+  "source_repo_description": "UUID Creator is a Java library for generating Universally Unique Identifiers. It generates all standard identifiers from UUIDv1 to UUIDv7. It also provides an alternative to the classic JDK's UUID (alt.GUID), many codecs (codec.*) and several utilities (util.*)."
+}

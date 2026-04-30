@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "iterable"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0no-co/wonka",
+      "status": "candidate-context",
+      "text": "\ud83c\udfa9 A tiny but capable push & pull stream library for TypeScript and Flow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0no-co/wonka",
+      "status": "candidate-context",
+      "text": "A tiny but capable push & pull stream library for TypeScript and Flow,"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0no-co/wonka",
+      "status": "candidate",
+      "text": "A tiny but capable push & pull stream library for TypeScript and Flow,"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029739,
+      "status": "candidate",
+      "text": "reiterable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029738,
+      "status": "candidate",
+      "text": "incrementable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029737,
+      "status": "candidate",
+      "text": "recitable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029736,
+      "status": "candidate",
+      "text": "rerunnable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029735,
+      "status": "candidate",
+      "text": "retriable"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "iterable",
+  "concept_id": "iterable",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "0no-co/wonka"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "iterable",
+      "sense_id": "iterable#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

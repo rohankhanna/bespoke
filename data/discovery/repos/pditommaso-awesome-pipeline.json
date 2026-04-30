@@ -1,0 +1,107 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pditommaso/awesome-pipeline",
+      "target": "aiidateam/aiida-core",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pditommaso/awesome-pipeline",
+      "target": "agnostiqhq/covalent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pditommaso/awesome-pipeline",
+      "target": "adaptivegenome/openge",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pditommaso/awesome-pipeline",
+      "target": "4dn-dcic/tibanna",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pditommaso/awesome-pipeline",
+      "target": "awesome-list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pditommaso/awesome-pipeline",
+      "target": "workflow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:00:20.503993+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 29552
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A curated list of awesome pipeline toolkits inspired by Awesome Sysadmin",
+    "fork": false,
+    "full_name": "pditommaso/awesome-pipeline",
+    "html_url": "https://github.com/pditommaso/awesome-pipeline",
+    "language": null,
+    "pushed_at": "2026-04-17T09:32:07Z",
+    "stargazers_count": 6569,
+    "topics": [
+      "awesome-list",
+      "workflow"
+    ],
+    "updated_at": "2026-04-30T06:53:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "4dn-dcic/tibanna",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adaptivegenome/openge",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "agnostiqhq/covalent",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aiidateam/aiida-core",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Awesome Pipeline",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome-list"
+    },
+    {
+      "context_snippet": "Awesome Pipeline",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "workflow"
+    }
+  ]
+}

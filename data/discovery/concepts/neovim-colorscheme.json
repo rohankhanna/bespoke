@@ -19,6 +19,18 @@
       "source_repo": "folke/tokyonight.nvim",
       "status": "candidate-context",
       "text": "A dark and light [Neovim](https://github.com/neovim/neovim) theme written in"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "olimorris/onedarkpro.nvim",
+      "status": "candidate-context",
+      "text": "\ud83c\udfa8 Atom's iconic One Dark theme. Cacheable, fully customisable, Tree-sitter and LSP semantic token support. Comes with variants"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "olimorris/onedarkpro.nvim",
+      "status": "candidate-context",
+      "text": "<!-- panvimdoc-ignore-start -->"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "folke/tokyonight.nvim",
       "status": "candidate",
       "text": "A dark and light [Neovim](https://github.com/neovim/neovim) theme written in"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "olimorris/onedarkpro.nvim",
+      "status": "candidate",
+      "text": "<!-- panvimdoc-ignore-start -->"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "folke/tokyonight.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "olimorris/onedarkpro.nvim"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -306,7 +306,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T09:12:42.259538+00:00",
+  "fetched_at": "2026-04-30T14:05:48.097081+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -350,7 +350,7 @@
     "full_name": "databrickslabs/ucx",
     "html_url": "https://github.com/databrickslabs/ucx",
     "language": "Python",
-    "pushed_at": "2026-04-29T21:37:15Z",
+    "pushed_at": "2026-04-30T13:34:32Z",
     "stargazers_count": 305,
     "topics": [
       "databricks",

@@ -1,0 +1,107 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions-cpp-check.yml"
+    },
+    {
+      "component": "jidicula/clang-format-action@v4.6.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions-cpp-check.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions-python-check.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions-python-check.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions-cpp-check.yml",
+      "source_repo": "microsoft/tensorflow-directml-plugin",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions-cpp-check.yml",
+      "source_repo": "microsoft/tensorflow-directml-plugin",
+      "target": "jidicula/clang-format-action@v4.6.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github-actions-cpp-check.yml",
+      "source_repo": "microsoft/tensorflow-directml-plugin",
+      "target": "C++ Code Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions-python-check.yml",
+      "source_repo": "microsoft/tensorflow-directml-plugin",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions-python-check.yml",
+      "source_repo": "microsoft/tensorflow-directml-plugin",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:05:47.845755+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6547
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 55
+    },
+    {
+      "path": "requirements.txt",
+      "size": 145
+    },
+    {
+      "path": ".github/workflows/github-actions-cpp-check.yml",
+      "size": 550
+    },
+    {
+      "path": ".github/workflows/github-actions-python-check.yml",
+      "size": 619
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "DirectML PluggableDevice plugin for TensorFlow 2",
+    "fork": false,
+    "full_name": "microsoft/tensorflow-directml-plugin",
+    "html_url": "https://github.com/microsoft/tensorflow-directml-plugin",
+    "language": "C++",
+    "pushed_at": "2025-02-27T19:03:11Z",
+    "stargazers_count": 196,
+    "topics": [],
+    "updated_at": "2026-04-08T15:01:46Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "C++ Code Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github-actions-cpp-check.yml",
+      "term": "C++ Code Check"
+    }
+  ]
+}

@@ -199,6 +199,66 @@
       "source_repo": "czczup/ViT-Adapter",
       "status": "candidate-context",
       "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/vision-transformer-adapter-for-dense/semantic-segmentation-on-ade20k)](https://paperswithcode.com/sota/semantic-segmentation-on-ade20k?p=vision-transformer-adapter-for-dense)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Oneflow-Inc/libai",
+      "status": "candidate-context",
+      "text": "LiBai(\u674e\u767d): A Toolbox for Large-Scale Distributed Parallel Training"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Oneflow-Inc/libai",
+      "status": "candidate-context",
+      "text": "<!-- \u914d\u56fe -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ViTAE-Transformer/P3M-Net",
+      "status": "candidate-context",
+      "text": "The official repo for [IJCV'23] \"Rethinking Portrait Matting with Privacy Preserving\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/P3M-Net",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Rethinking Portrait Matting with Privacy Preserving [IJCV-2023]</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ViTAE-Transformer/ViTAE-Transformer-Matting",
+      "status": "candidate-context",
+      "text": "A comprehensive list [AIM@IJCAI'21, P3M@MM'21, GFM@IJCV'22, RIM@CVPR'23, P3MNet@IJCV'23] of our research works related to image matting, including papers, codes, datasets, demos, and citations. Note: The repo for [IJCV'23] \"Rethinking Portrait Matting with Privacy Preserving\" has been moved to: https://github.com/ViTAE-Transformer/P3M-Net"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/ViTAE-Transformer-Matting",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Image Matting</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OFA-Sys/ONE-PEACE",
+      "status": "candidate-context",
+      "text": "A general representation model across vision, audio, language modalities. Paper: ONE-PEACE: Exploring One General Representation Model Toward Unlimited Modalities"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OFA-Sys/ONE-PEACE",
+      "status": "candidate-context",
+      "text": "<!---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Blaizzy/mlx-vlm",
+      "status": "candidate-context",
+      "text": "MLX-VLM is a package for inference and fine-tuning of Vision Language Models (VLMs) on your Mac using MLX."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Blaizzy/mlx-vlm",
+      "status": "candidate-context",
+      "text": "[![Upload Python Package](https://github.com/Blaizzy/mlx-vlm/actions/workflows/python-publish.yml/badge.svg)](https://github.com/Blaizzy/mlx-vlm/actions/workflows/python-publish.yml)"
     }
   ],
   "candidate_glosses": [
@@ -297,6 +357,36 @@
       "source_repo": "czczup/ViT-Adapter",
       "status": "candidate",
       "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/vision-transformer-adapter-for-dense/semantic-segmentation-on-ade20k)](https://paperswithcode.com/sota/semantic-segmentation-on-ade20k?p=vision-transformer-adapter-for-dense)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Oneflow-Inc/libai",
+      "status": "candidate",
+      "text": "<!-- \u914d\u56fe -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/P3M-Net",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Rethinking Portrait Matting with Privacy Preserving [IJCV-2023]</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/ViTAE-Transformer-Matting",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Image Matting</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OFA-Sys/ONE-PEACE",
+      "status": "candidate",
+      "text": "<!---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Blaizzy/mlx-vlm",
+      "status": "candidate",
+      "text": "[![Upload Python Package](https://github.com/Blaizzy/mlx-vlm/actions/workflows/python-publish.yml/badge.svg)](https://github.com/Blaizzy/mlx-vlm/actions/workflows/python-publish.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -424,11 +514,41 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "czczup/ViT-Adapter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Oneflow-Inc/libai"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/P3M-Net"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/ViTAE-Transformer-Matting"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "OFA-Sys/ONE-PEACE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Blaizzy/mlx-vlm"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

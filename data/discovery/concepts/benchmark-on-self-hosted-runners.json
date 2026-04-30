@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Benchmark on self-hosted runners"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AdaptiveCpp/AdaptiveCpp",
+      "status": "candidate-context",
+      "text": "Compiler for multiple programming models (SYCL, C++ standard parallelism, HIP/CUDA) for CPUs and GPUs from all vendors: The independent, community-driven compiler for C++-based heterogeneous programming models. Lets applications adapt themselves to all the hardware in the system - even at runtime!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdaptiveCpp/AdaptiveCpp",
+      "status": "candidate-context",
+      "text": "Benchmark on self-hosted runners"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdaptiveCpp/AdaptiveCpp",
+      "status": "candidate",
+      "text": "Benchmark on self-hosted runners"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9795,
+      "status": "candidate",
+      "text": "base"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9594,
+      "status": "candidate",
+      "text": "bunches"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9594,
+      "status": "candidate",
+      "text": "bunching"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9594,
+      "status": "candidate",
+      "text": "lap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9594,
+      "status": "candidate",
+      "text": "sacrifice"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Benchmark on self-hosted runners",
+  "concept_id": "benchmark-on-self-hosted-runners",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/benchmark-self-hosted.yml",
+      "source_repo": "AdaptiveCpp/AdaptiveCpp"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Benchmark on self-hosted runners",
+      "sense_id": "benchmark-on-self-hosted-runners#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

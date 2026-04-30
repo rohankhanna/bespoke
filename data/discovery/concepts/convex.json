@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "convex"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SarahWeiii/CoACD",
+      "status": "candidate-context",
+      "text": "[SIGGRAPH2022] Approximate Convex Decomposition for 3D Meshes with Collision-Aware Concavity and Tree Search"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SarahWeiii/CoACD",
+      "status": "candidate-context",
+      "text": "[\\[project\\]](https://colin97.github.io/CoACD/) [\\[paper\\]](https://arxiv.org/pdf/2205.02961.pdf) [\\[video\\]](https://www.youtube.com/watch?v=r12O0z0723s)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SarahWeiii/CoACD",
+      "status": "candidate",
+      "text": "[\\[project\\]](https://colin97.github.io/CoACD/) [\\[paper\\]](https://arxiv.org/pdf/2205.02961.pdf) [\\[video\\]](https://www.youtube.com/watch?v=r12O0z0723s)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39916159,
+      "status": "candidate",
+      "text": "biconvex"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39913166,
+      "status": "candidate",
+      "text": "planoconvex"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39908817,
+      "status": "candidate",
+      "text": "lenticular"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39908413,
+      "status": "candidate",
+      "text": "lentiform"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39829360,
+      "status": "candidate",
+      "text": "gibbous"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12039,
+      "status": "candidate",
+      "text": "gibbous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4037,
+      "status": "candidate",
+      "text": "lenticular"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2026,
+      "status": "candidate",
+      "text": "bulging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2023,
+      "status": "candidate",
+      "text": "hogged"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2016,
+      "status": "candidate",
+      "text": "broken-backed"
+    }
+  ],
+  "canonical_name": "convex",
+  "concept_id": "convex",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "SarahWeiii/CoACD"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "convex",
+      "sense_id": "convex#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

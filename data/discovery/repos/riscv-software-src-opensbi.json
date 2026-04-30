@@ -1,0 +1,84 @@
+{
+  "components": [
+    {
+      "component": "dessant/repo-lockdown@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-lockdown.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "riscv-software-src/opensbi",
+      "target": "riscv/riscv-sbi-doc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "riscv-software-src/opensbi",
+      "target": "kendryte/kendryte-standalone-sdk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-lockdown.yml",
+      "source_repo": "riscv-software-src/opensbi",
+      "target": "dessant/repo-lockdown@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/repo-lockdown.yml",
+      "source_repo": "riscv-software-src/opensbi",
+      "target": "Repo Lockdown",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:04:46.139178+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15977
+    },
+    {
+      "path": ".github/workflows/repo-lockdown.yml",
+      "size": 680
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "RISC-V Open Source Supervisor Binary Interface",
+    "fork": false,
+    "full_name": "riscv-software-src/opensbi",
+    "html_url": "https://github.com/riscv-software-src/opensbi",
+    "language": "C",
+    "pushed_at": "2026-04-08T12:38:50Z",
+    "stargazers_count": 1453,
+    "topics": [],
+    "updated_at": "2026-04-29T22:13:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kendryte/kendryte-standalone-sdk",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "riscv/riscv-sbi-doc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "'Repo Lockdown'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/repo-lockdown.yml",
+      "term": "Repo Lockdown"
+    }
+  ]
+}

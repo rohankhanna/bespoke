@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T15:58:27.975125+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3106
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "usegalaxy-eu/cvmfs-example",
+    "html_url": "https://github.com/usegalaxy-eu/cvmfs-example",
+    "language": null,
+    "pushed_at": "2024-11-24T20:42:40Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2024-11-24T20:42:43Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

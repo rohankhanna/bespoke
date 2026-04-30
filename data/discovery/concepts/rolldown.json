@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "rolldown"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rolldown/tsdown",
+      "status": "candidate-context",
+      "text": "The elegant bundler for libraries powered by Rolldown"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rolldown/tsdown",
+      "status": "candidate-context",
+      "text": "<img src=\"./docs/public/og-image.svg\" alt=\"tsdown\" width=\"100%\" /><br>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rolldown/tsdown",
+      "status": "candidate",
+      "text": "<img src=\"./docs/public/og-image.svg\" alt=\"tsdown\" width=\"100%\" /><br>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20018979,
+      "status": "candidate",
+      "text": "rollable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20018978,
+      "status": "candidate",
+      "text": "unrollable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20018977,
+      "status": "candidate",
+      "text": "furlable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20018976,
+      "status": "candidate",
+      "text": "rerollable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20018975,
+      "status": "candidate",
+      "text": "derailable"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "rolldown",
+  "concept_id": "rolldown",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "rolldown/tsdown"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rolldown",
+      "sense_id": "rolldown#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

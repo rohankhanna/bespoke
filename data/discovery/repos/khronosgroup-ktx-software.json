@@ -438,7 +438,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T10:31:03.466007+00:00",
+  "fetched_at": "2026-04-30T16:05:21.527814+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -491,14 +491,14 @@
     "html_url": "https://github.com/KhronosGroup/KTX-Software",
     "language": "C++",
     "pushed_at": "2026-04-30T05:34:45Z",
-    "stargazers_count": 1239,
+    "stargazers_count": 1241,
     "topics": [
       "ktx",
       "ktx-library",
       "opengl",
       "textures"
     ],
-    "updated_at": "2026-04-27T21:38:55Z"
+    "updated_at": "2026-04-30T14:38:23Z"
   },
   "repo_links": [
     {

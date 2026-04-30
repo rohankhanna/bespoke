@@ -1,0 +1,114 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ArulselvanMadhavan/mini_dalle",
+      "target": "dalle",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ArulselvanMadhavan/mini_dalle",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ArulselvanMadhavan/mini_dalle",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ArulselvanMadhavan/mini_dalle",
+      "target": "machine-lea",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ArulselvanMadhavan/mini_dalle",
+      "target": "ocaml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ArulselvanMadhavan/mini_dalle",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:56:24.076148+00:00",
+  "fetched_files": [
+    {
+      "path": "requirements.txt",
+      "size": 34
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "mini-dalle in OCaml",
+    "fork": false,
+    "full_name": "ArulselvanMadhavan/mini_dalle",
+    "html_url": "https://github.com/ArulselvanMadhavan/mini_dalle",
+    "language": "OCaml",
+    "pushed_at": "2022-11-06T22:10:42Z",
+    "stargazers_count": 39,
+    "topics": [
+      "dalle",
+      "deep-learning",
+      "diffusion-models",
+      "machine-lea",
+      "ocaml",
+      "pytorch"
+    ],
+    "updated_at": "2025-02-02T02:48:04Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "numpy torch torchvision min_dalle",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dalle"
+    },
+    {
+      "context_snippet": "numpy torch torchvision min_dalle",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "numpy torch torchvision min_dalle",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    },
+    {
+      "context_snippet": "numpy torch torchvision min_dalle",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-lea"
+    },
+    {
+      "context_snippet": "numpy torch torchvision min_dalle",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ocaml"
+    },
+    {
+      "context_snippet": "numpy torch torchvision min_dalle",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TimoBolkart/voca",
+      "target": "sasageyoorg/voca-blender",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TimoBolkart/voca",
+      "target": "timobolkart/tf_flame",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TimoBolkart/voca",
+      "target": "3d-face",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TimoBolkart/voca",
+      "target": "3d-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TimoBolkart/voca",
+      "target": "animation-sequence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TimoBolkart/voca",
+      "target": "computer-graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TimoBolkart/voca",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TimoBolkart/voca",
+      "target": "face-animation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TimoBolkart/voca",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TimoBolkart/voca",
+      "target": "morphable-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TimoBolkart/voca",
+      "target": "python3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TimoBolkart/voca",
+      "target": "tensorflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TimoBolkart/voca",
+      "target": "voca",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:16:28.191859+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10159
+    },
+    {
+      "path": "requirements.txt",
+      "size": 143
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This codebase demonstrates how to synthesize realistic 3D character animations given an arbitrary speech signal and a static character mesh.",
+    "fork": false,
+    "full_name": "TimoBolkart/voca",
+    "html_url": "https://github.com/TimoBolkart/voca",
+    "language": "Python",
+    "pushed_at": "2024-08-20T10:53:36Z",
+    "stargazers_count": 1260,
+    "topics": [
+      "3d-face",
+      "3d-models",
+      "animation-sequence",
+      "computer-graphics",
+      "computer-vision",
+      "face-animation",
+      "machine-learning",
+      "morphable-model",
+      "python",
+      "python3",
+      "tensorflow",
+      "voca"
+    ],
+    "updated_at": "2026-04-28T21:50:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sasageyoorg/voca-blender",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "timobolkart/tf_flame",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This is an official [VOCA](https://voca.is.tue.mpg.de) repository.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-face"
+    },
+    {
+      "context_snippet": "This is an official [VOCA](https://voca.is.tue.mpg.de) repository.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-models"
+    },
+    {
+      "context_snippet": "This is an official [VOCA](https://voca.is.tue.mpg.de) repository.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "animation-sequence"
+    },
+    {
+      "context_snippet": "This is an official [VOCA](https://voca.is.tue.mpg.de) repository.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-graphics"
+    },
+    {
+      "context_snippet": "This is an official [VOCA](https://voca.is.tue.mpg.de) repository.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "This is an official [VOCA](https://voca.is.tue.mpg.de) repository.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-animation"
+    },
+    {
+      "context_snippet": "This is an official [VOCA](https://voca.is.tue.mpg.de) repository.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "This is an official [VOCA](https://voca.is.tue.mpg.de) repository.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "morphable-model"
+    },
+    {
+      "context_snippet": "This is an official [VOCA](https://voca.is.tue.mpg.de) repository.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python3"
+    },
+    {
+      "context_snippet": "This is an official [VOCA](https://voca.is.tue.mpg.de) repository.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    },
+    {
+      "context_snippet": "This is an official [VOCA](https://voca.is.tue.mpg.de) repository.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "voca"
+    }
+  ]
+}

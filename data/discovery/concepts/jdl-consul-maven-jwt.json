@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "JDL Consul Maven JWT"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hipster-labs/jhipster-daily-builds",
+      "status": "candidate-context",
+      "text": ":construction_worker: :rocket: Additional builds for generator-jhipster repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hipster-labs/jhipster-daily-builds",
+      "status": "candidate-context",
+      "text": "JDL Consul Maven JWT"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hipster-labs/jhipster-daily-builds",
+      "status": "candidate",
+      "text": "JDL Consul Maven JWT"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10464,
+      "status": "candidate",
+      "text": "claudius"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10464,
+      "status": "candidate",
+      "text": "regulus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10459,
+      "status": "candidate",
+      "text": "merlin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10459,
+      "status": "candidate",
+      "text": "troi"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10424,
+      "status": "candidate",
+      "text": "counselor"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "JDL Consul Maven JWT",
+  "concept_id": "jdl-consul-maven-jwt",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/jdl-consul-maven-jwt.yaml",
+      "source_repo": "hipster-labs/jhipster-daily-builds"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "JDL Consul Maven JWT",
+      "sense_id": "jdl-consul-maven-jwt#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

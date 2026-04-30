@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T15:06:26.312453+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21546
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "SERENGETI: Massively Multilingual Language Models for Africa",
+    "fork": false,
+    "full_name": "UBC-NLP/serengeti",
+    "html_url": "https://github.com/UBC-NLP/serengeti",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-10-26T02:44:08Z",
+    "stargazers_count": 17,
+    "topics": [],
+    "updated_at": "2025-09-11T14:12:13Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Implementation of Anime4K in WebGPU"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "University of Pennsylvania, CIS 565: GPU Programming and Architecture, Final Project"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "University of Pennsylvania, CIS 565: GPU Programming and Architecture, Final Project"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29726934,
+      "status": "candidate",
+      "text": "gum anime"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29726934,
+      "status": "candidate",
+      "text": "zanzibar copal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29726933,
+      "status": "candidate",
+      "text": "oleoresin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20012546,
+      "status": "candidate",
+      "text": "manga"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20012545,
+      "status": "candidate",
+      "text": "animanga"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "anime",
+      "sense_id": "anime#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8,
+      "status": "candidate",
+      "text": "gum anime"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "zanzibar copal"
+    }
+  ],
+  "concept_id": "anime",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "anime",
+  "observation_id": "44a2edf1f2746e26",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "anime",
+  "source_context_snippet": "University of Pennsylvania, CIS 565: GPU Programming and Architecture, Final Project",
+  "source_file": null,
+  "source_repo": "Anime4KWebBoost/Anime4K-WebGPU",
+  "source_repo_description": "Implementation of Anime4K in WebGPU"
+}

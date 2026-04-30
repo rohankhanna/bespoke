@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Uber-project for (some) standard Jackson textual format backends: csv, properties, yaml (xml to be added in future)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This is a multi-module umbrella project for [Jackson](../../../jackson)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This is a multi-module umbrella project for [Jackson](../../../jackson)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19067972,
+      "status": "candidate",
+      "text": "andrew jackson"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19067972,
+      "status": "candidate",
+      "text": "capital of mississippi"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19067972,
+      "status": "candidate",
+      "text": "old hickory"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19067971,
+      "status": "candidate",
+      "text": "drummond"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19066025,
+      "status": "candidate",
+      "text": "vaughan"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "jackson",
+      "sense_id": "jackson#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "capital of mississippi"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "andrew jackson"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "old hickory"
+    }
+  ],
+  "concept_id": "jackson",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "jackson",
+  "observation_id": "1d0700d8cf73804c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "jackson",
+  "source_context_snippet": "This is a multi-module umbrella project for [Jackson](../../../jackson)",
+  "source_file": null,
+  "source_repo": "FasterXML/jackson-dataformats-text",
+  "source_repo_description": "Uber-project for (some) standard Jackson textual format backends: csv, properties, yaml (xml to be added in future)"
+}

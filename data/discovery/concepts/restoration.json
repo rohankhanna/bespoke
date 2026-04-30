@@ -67,6 +67,18 @@
       "source_repo": "Fanghua-Yu/SUPIR",
       "status": "candidate-context",
       "text": "> [[Paper](https://arxiv.org/abs/2401.13627)] &emsp; [[Project Page](http://supir.xpixel.group/)] &emsp; [[Online App]](https://supir.suppixel.ai/home) <br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jhogsett/EMA-VFI-WebUI",
+      "status": "candidate-context",
+      "text": "Advanced AI-Based Video Renovation UI Using EMA-VFI & Real-ESRGAN"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jhogsett/EMA-VFI-WebUI",
+      "status": "candidate-context",
+      "text": "[![Pylint](https://github.com/jhogsett/EMA-VFI-WebUI/actions/workflows/pylint.yml/badge.svg)](https://github.com/jhogsett/EMA-VFI-WebUI/actions/workflows/pylint.yml)"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "Fanghua-Yu/SUPIR",
       "status": "candidate",
       "text": "> [[Paper](https://arxiv.org/abs/2401.13627)] &emsp; [[Project Page](http://supir.xpixel.group/)] &emsp; [[Online App]](https://supir.suppixel.ai/home) <br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jhogsett/EMA-VFI-WebUI",
+      "status": "candidate",
+      "text": "[![Pylint](https://github.com/jhogsett/EMA-VFI-WebUI/actions/workflows/pylint.yml/badge.svg)](https://github.com/jhogsett/EMA-VFI-WebUI/actions/workflows/pylint.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -213,11 +231,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "Fanghua-Yu/SUPIR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "XPixelGroup/BasicSR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "jhogsett/EMA-VFI-WebUI"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

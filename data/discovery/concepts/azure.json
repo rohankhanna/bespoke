@@ -427,6 +427,54 @@
       "source_repo": "smartstore/Smartstore",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/generative-ai-for-beginners",
+      "status": "candidate-context",
+      "text": "21 Lessons, Get Started Building with Generative AI "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/generative-ai-for-beginners",
+      "status": "candidate-context",
+      "text": "![Generative AI For Beginners](./images/repo-thumbnailv4-fixed.png?WT.mc_id=academic-105485-koreyst)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure-Samples/agent-openai-java-banking-assistant",
+      "status": "candidate-context",
+      "text": "Multi-agent banking assistant with Java and Langchain4j"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/agent-openai-java-banking-assistant",
+      "status": "candidate-context",
+      "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure-Samples/azureai-samples",
+      "status": "candidate-context",
+      "text": "Official community-driven Azure AI Examples"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/azureai-samples",
+      "status": "candidate-context",
+      "text": "[![license: MIT](https://img.shields.io/badge/License-MIT-purple.svg)](LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "smartstore/SmartStoreNET",
+      "status": "candidate-context",
+      "text": "Open Source ASP.NET MVC Enterprise eCommerce Shopping Cart Solution"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smartstore/SmartStoreNET",
+      "status": "candidate-context",
+      "text": "This repository is outdated and no longer being actively maintained by the Smartstore devs."
     }
   ],
   "candidate_glosses": [
@@ -639,6 +687,30 @@
       "source_repo": "smartstore/Smartstore",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/generative-ai-for-beginners",
+      "status": "candidate",
+      "text": "![Generative AI For Beginners](./images/repo-thumbnailv4-fixed.png?WT.mc_id=academic-105485-koreyst)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/agent-openai-java-banking-assistant",
+      "status": "candidate",
+      "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/azureai-samples",
+      "status": "candidate",
+      "text": "[![license: MIT](https://img.shields.io/badge/License-MIT-purple.svg)](LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smartstore/SmartStoreNET",
+      "status": "candidate",
+      "text": "This repository is outdated and no longer being actively maintained by the Smartstore devs."
     }
   ],
   "candidate_related_terms": [
@@ -1000,11 +1072,47 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "smartstore/Smartstore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "docker-archive/compose-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "SpecterOps/AzureHound"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/generative-ai-for-beginners"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Azure-Samples/agent-openai-java-banking-assistant"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Azure-Samples/azureai-samples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "smartstore/SmartStoreNET"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

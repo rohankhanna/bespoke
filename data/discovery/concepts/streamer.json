@@ -1,0 +1,129 @@
+{
+  "aliases": [
+    "streamer"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "navidrome/navidrome",
+      "status": "candidate-context",
+      "text": "\ud83c\udfa7 Your Personal Streaming Service "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "navidrome/navidrome",
+      "status": "candidate-context",
+      "text": "<a href=\"https://www.navidrome.org\"><img src=\"resources/logo-192x192.png\" alt=\"Navidrome logo\" title=\"navidrome\" align=\"right\" height=\"60px\" /></a>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "navidrome/navidrome",
+      "status": "candidate",
+      "text": "<a href=\"https://www.navidrome.org\"><img src=\"resources/logo-192x192.png\" alt=\"Navidrome logo\" title=\"navidrome\" align=\"right\" height=\"60px\" /></a>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40008178,
+      "status": "candidate",
+      "text": "pennon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40007972,
+      "status": "candidate",
+      "text": "banner"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40006452,
+      "status": "candidate",
+      "text": "pennant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39942947,
+      "status": "candidate",
+      "text": "waft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20008938,
+      "status": "candidate",
+      "text": "banderole"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 32037,
+      "status": "candidate",
+      "text": "waft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7029,
+      "status": "candidate",
+      "text": "pennon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5050,
+      "status": "candidate",
+      "text": "banner"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "pennant"
+    }
+  ],
+  "canonical_name": "streamer",
+  "concept_id": "streamer",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "navidrome/navidrome"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "streamer",
+      "sense_id": "streamer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

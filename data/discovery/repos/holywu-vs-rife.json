@@ -1,0 +1,103 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HolyWu/vs-rife",
+      "target": "vapoursynth/vs-miscfilters-obsolete",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HolyWu/vs-rife",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HolyWu/vs-rife",
+      "target": "rife",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HolyWu/vs-rife",
+      "target": "tensorrt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HolyWu/vs-rife",
+      "target": "vapoursynth",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:05:22.473610+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1182
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 812
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "RIFE function for VapourSynth",
+    "fork": false,
+    "full_name": "HolyWu/vs-rife",
+    "html_url": "https://github.com/HolyWu/vs-rife",
+    "language": "Python",
+    "pushed_at": "2026-02-09T04:51:20Z",
+    "stargazers_count": 149,
+    "topics": [
+      "pytorch",
+      "rife",
+      "tensorrt",
+      "vapoursynth"
+    ],
+    "updated_at": "2026-03-23T12:56:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vapoursynth/vs-miscfilters-obsolete",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Real-Time Intermediate Flow Estimation for Video Frame Interpolation, based on https://github.com/hzwer/Practical-RIFE.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "Real-Time Intermediate Flow Estimation for Video Frame Interpolation, based on https://github.com/hzwer/Practical-RIFE.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rife"
+    },
+    {
+      "context_snippet": "Real-Time Intermediate Flow Estimation for Video Frame Interpolation, based on https://github.com/hzwer/Practical-RIFE.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorrt"
+    },
+    {
+      "context_snippet": "Real-Time Intermediate Flow Estimation for Video Frame Interpolation, based on https://github.com/hzwer/Practical-RIFE.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vapoursynth"
+    }
+  ]
+}

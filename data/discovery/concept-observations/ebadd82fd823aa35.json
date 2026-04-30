@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "VSCode AI coding assistant powered by self-hosted llama.cpp endpoint."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "cli-release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "cli-release"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "cli-release",
+      "sense_id": "cli-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cli-release",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cli-release",
+  "observation_id": "ebadd82fd823aa35",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "cli-release",
+  "source_context_snippet": "cli-release",
+  "source_file": ".github/workflows/cli-release.yml",
+  "source_repo": "iohub/collama",
+  "source_repo_description": "VSCode AI coding assistant powered by self-hosted llama.cpp endpoint."
+}

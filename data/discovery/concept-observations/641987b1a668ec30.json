@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Code for \"Social GAN: Socially Acceptable Trajectories with Generative Adversarial Networks\", Gupta et al, CVPR 2018"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This is the code for the paper"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This is the code for the paper"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "human-trajectory-prediction",
+      "sense_id": "human-trajectory-prediction#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "human-trajectory-prediction",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "human-trajectory-prediction",
+  "observation_id": "641987b1a668ec30",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "human-trajectory-prediction",
+  "source_context_snippet": "This is the code for the paper",
+  "source_file": null,
+  "source_repo": "agrimgupta92/sgan",
+  "source_repo_description": "Code for \"Social GAN: Socially Acceptable Trajectories with Generative Adversarial Networks\", Gupta et al, CVPR 2018"
+}

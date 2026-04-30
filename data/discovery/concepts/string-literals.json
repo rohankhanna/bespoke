@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "string-literals"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adamyaxley/Obfuscate",
+      "status": "candidate-context",
+      "text": "Guaranteed compile-time string literal obfuscation header-only library for C++14"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adamyaxley/Obfuscate",
+      "status": "candidate-context",
+      "text": "**[Source available on GitHub](https://github.com/adamyaxley/Obfuscate)**"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adamyaxley/Obfuscate",
+      "status": "candidate",
+      "text": "**[Source available on GitHub](https://github.com/adamyaxley/Obfuscate)**"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "string-literals",
+  "concept_id": "string-literals",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "adamyaxley/Obfuscate"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "string-literals",
+      "sense_id": "string-literals#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

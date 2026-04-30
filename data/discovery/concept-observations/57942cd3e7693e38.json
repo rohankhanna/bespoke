@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Vector graphics in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Canvas](https://raw.githubusercontent.com/tdewolff/canvas/master/resources/title/title.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Canvas](https://raw.githubusercontent.com/tdewolff/canvas/master/resources/title/title.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "html-canvas",
+      "sense_id": "html-canvas#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "html-canvas",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "html-canvas",
+  "observation_id": "57942cd3e7693e38",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "html-canvas",
+  "source_context_snippet": "![Canvas](https://raw.githubusercontent.com/tdewolff/canvas/master/resources/title/title.png)",
+  "source_file": null,
+  "source_repo": "tdewolff/canvas",
+  "source_repo_description": "Vector graphics in Go"
+}

@@ -151,6 +151,30 @@
       "source_repo": "saphyr-rs/saphyr",
       "status": "candidate-context",
       "text": "This repository is home to `saphyr-parser`, `saphyr` and soon-to-be"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adamyaxley/Unformat",
+      "status": "candidate-context",
+      "text": "Fastest type-safe parsing library in the world for C++14 or C++17 (up to 300x faster than std::regex)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adamyaxley/Unformat",
+      "status": "candidate-context",
+      "text": "**[Source available on GitHub](https://github.com/adamyaxley/Unformat)**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "taylorhakes/fecha",
+      "status": "candidate-context",
+      "text": "Lightweight and simple JS date formatting and parsing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "taylorhakes/fecha",
+      "status": "candidate-context",
+      "text": "Lightweight date formatting and parsing (~2KB). Meant to replace parsing and formatting functionality of moment.js."
     }
   ],
   "candidate_glosses": [
@@ -225,6 +249,18 @@
       "source_repo": "saphyr-rs/saphyr",
       "status": "candidate",
       "text": "This repository is home to `saphyr-parser`, `saphyr` and soon-to-be"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adamyaxley/Unformat",
+      "status": "candidate",
+      "text": "**[Source available on GitHub](https://github.com/adamyaxley/Unformat)**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "taylorhakes/fecha",
+      "status": "candidate",
+      "text": "Lightweight date formatting and parsing (~2KB). Meant to replace parsing and formatting functionality of moment.js."
     }
   ],
   "candidate_related_terms": [
@@ -352,11 +388,29 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "pydantic/pydantic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "adamyaxley/Unformat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "pydantic/pydantic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "taylorhakes/fecha"
     }
   ],
   "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

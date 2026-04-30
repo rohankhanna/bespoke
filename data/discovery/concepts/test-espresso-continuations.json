@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test Espresso Continuations"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graalvm/graal-languages-demos",
+      "status": "candidate-context",
+      "text": "Graal Languages - Demos and Guides"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graalvm/graal-languages-demos",
+      "status": "candidate-context",
+      "text": "Test Espresso Continuations"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graalvm/graal-languages-demos",
+      "status": "candidate",
+      "text": "Test Espresso Continuations"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15064,
+      "status": "candidate",
+      "text": "sideburns"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14305,
+      "status": "candidate",
+      "text": "subsistence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11129,
+      "status": "candidate",
+      "text": "solo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11009,
+      "status": "candidate",
+      "text": "crema"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10846,
+      "status": "candidate",
+      "text": "positive"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test Espresso Continuations",
+  "concept_id": "test-espresso-continuations",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/espresso-continuations.yml",
+      "source_repo": "graalvm/graal-languages-demos"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test Espresso Continuations",
+      "sense_id": "test-espresso-continuations#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

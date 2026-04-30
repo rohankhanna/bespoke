@@ -19,6 +19,18 @@
       "source_repo": "containers/aardvark-dns",
       "status": "candidate-context",
       "text": "Aardvark-dns is an authoritative dns server for `A/AAAA` container records. It can forward other requests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "drduh/config",
+      "status": "candidate-context",
+      "text": "Configuration files and scripts used in guides and for system setup."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drduh/config",
+      "status": "candidate-context",
+      "text": "Miscellaneous scripts and program configuration files used in:"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "containers/aardvark-dns",
       "status": "candidate",
       "text": "Aardvark-dns is an authoritative dns server for `A/AAAA` container records. It can forward other requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drduh/config",
+      "status": "candidate",
+      "text": "Miscellaneous scripts and program configuration files used in:"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "containers/aardvark-dns"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "drduh/config"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A microservice based application to demonstrate how chaos engineering works with Simmy using chaos policies in a distributed system."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A microservice based application to demonstrate how chaos engineering works with [Simmy](https://github.com/Polly-Contrib/Simmy) using chaos policies in a distributed system and how we can inject even a custom behavior given our needs or infrastructure, this time injecting custo\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A microservice based application to demonstrate how chaos engineering works with [Simmy](https://github.com/Polly-Contrib/Simmy) using chaos policies in a distributed system and how we can inject even a custom behavior given our needs or infrastructure, this time injecting custo\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40011856,
+      "status": "candidate",
+      "text": "resiliency"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39959943,
+      "status": "candidate",
+      "text": "irrepressibility"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39886142,
+      "status": "candidate",
+      "text": "buoyancy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30020893,
+      "status": "candidate",
+      "text": "solidity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30020656,
+      "status": "candidate",
+      "text": "capability"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "resilience",
+      "sense_id": "resilience#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11046,
+      "status": "candidate",
+      "text": "buoyancy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4016,
+      "status": "candidate",
+      "text": "irrepressibility"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2028,
+      "status": "candidate",
+      "text": "resiliency"
+    }
+  ],
+  "concept_id": "resilience",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "resilience",
+  "observation_id": "cecdbf96d0ac652c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "resilience",
+  "source_context_snippet": "A microservice based application to demonstrate how chaos engineering works with [Simmy](https://github.com/Polly-Contrib/Simmy) using chaos policies in a distributed system and how we can inject even a custom behavior given our needs or infrastructure, this time injecting custo\u2026",
+  "source_file": null,
+  "source_repo": "vany0114/chaos-injection-using-simmy",
+  "source_repo_description": "A microservice based application to demonstrate how chaos engineering works with Simmy using chaos policies in a distributed system."
+}

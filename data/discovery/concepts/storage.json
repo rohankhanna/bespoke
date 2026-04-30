@@ -211,6 +211,18 @@
       "source_repo": "kriszyp/lmdb-js",
       "status": "candidate-context",
       "text": "[![license](https://img.shields.io/badge/license-MIT-brightgreen)](LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "deven96/ahnlich",
+      "status": "candidate-context",
+      "text": "Suite of tools containing an in-memory vector datastore and AI proxy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deven96/ahnlich",
+      "status": "candidate-context",
+      "text": "<p align=\"left\"><img src=\"assets/logo.jpg\" alt=\"ahnlich\" height=\"120px\"></p>"
     }
   ],
   "candidate_glosses": [
@@ -315,6 +327,12 @@
       "source_repo": "kriszyp/lmdb-js",
       "status": "candidate",
       "text": "[![license](https://img.shields.io/badge/license-MIT-brightgreen)](LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deven96/ahnlich",
+      "status": "candidate",
+      "text": "<p align=\"left\"><img src=\"assets/logo.jpg\" alt=\"ahnlich\" height=\"120px\"></p>"
     }
   ],
   "candidate_related_terms": [
@@ -550,11 +568,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "kriszyp/lmdb-js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "coaidev/blob-service"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "deven96/ahnlich"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

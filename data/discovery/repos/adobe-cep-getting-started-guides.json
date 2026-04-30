@@ -1,0 +1,111 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Adobe-CEP/Getting-Started-guides",
+      "target": "cep-extension",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Adobe-CEP/Getting-Started-guides",
+      "target": "extendscript",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Adobe-CEP/Getting-Started-guides",
+      "target": "html",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Adobe-CEP/Getting-Started-guides",
+      "target": "illustrator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Adobe-CEP/Getting-Started-guides",
+      "target": "indesign",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Adobe-CEP/Getting-Started-guides",
+      "target": "photoshop",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:15:48.081434+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Getting Started guides and samples for CEP extensions",
+    "fork": false,
+    "full_name": "Adobe-CEP/Getting-Started-guides",
+    "html_url": "https://github.com/Adobe-CEP/Getting-Started-guides",
+    "language": "JavaScript",
+    "pushed_at": "2025-06-18T16:00:30Z",
+    "stargazers_count": 654,
+    "topics": [
+      "cep",
+      "cep-extension",
+      "extendscript",
+      "html",
+      "illustrator",
+      "indesign",
+      "javascript",
+      "photoshop"
+    ],
+    "updated_at": "2026-04-29T14:22:38Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Getting Started guides and samples for CEP extensions",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cep-extension"
+    },
+    {
+      "context_snippet": "Getting Started guides and samples for CEP extensions",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "extendscript"
+    },
+    {
+      "context_snippet": "Getting Started guides and samples for CEP extensions",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "html"
+    },
+    {
+      "context_snippet": "Getting Started guides and samples for CEP extensions",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "illustrator"
+    },
+    {
+      "context_snippet": "Getting Started guides and samples for CEP extensions",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "indesign"
+    },
+    {
+      "context_snippet": "Getting Started guides and samples for CEP extensions",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "photoshop"
+    }
+  ]
+}

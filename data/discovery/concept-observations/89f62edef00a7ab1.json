@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Happy and lightweight Python Package that Provides an API to search for articles on Google News and returns a JSON response."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Contributors][contributors-shield]][contributors-url]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Contributors][contributors-shield]][contributors-url]"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9832334,
+      "status": "candidate",
+      "text": "established"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9784133,
+      "status": "candidate",
+      "text": "familiar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9761373,
+      "status": "candidate",
+      "text": "old"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9749234,
+      "status": "candidate",
+      "text": "customary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9686916,
+      "status": "candidate",
+      "text": "traditional"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "gnews",
+      "sense_id": "gnews#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "gnews",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "gnews",
+  "observation_id": "89f62edef00a7ab1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "gnews",
+  "source_context_snippet": "[![Contributors][contributors-shield]][contributors-url]",
+  "source_file": null,
+  "source_repo": "ranahaani/GNews",
+  "source_repo_description": "A Happy and lightweight Python Package that Provides an API to search for articles on Google News and returns a JSON response."
+}

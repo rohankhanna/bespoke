@@ -1756,6 +1756,138 @@
       "source_repo": "nativium/nativium-modules",
       "status": "candidate-context",
       "text": "Linux"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "beeequeue/nvm-rust",
+      "status": "candidate-context",
+      "text": "A cross-platform node version manager that doesn't suck as much"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beeequeue/nvm-rust",
+      "status": "candidate-context",
+      "text": "\u26a0\ufe0f This tool is deprecated, I recommend using **mise** instead as it has excellent UX and works on all platforms!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JupiterRider/ffi",
+      "status": "candidate-context",
+      "text": "A purego binding for libffi."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JupiterRider/ffi",
+      "status": "candidate-context",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/jupiterrider/ffi.svg)](https://pkg.go.dev/github.com/jupiterrider/ffi)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flightlessmango/MangoHud",
+      "status": "candidate-context",
+      "text": "A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flightlessmango/MangoHud",
+      "status": "candidate-context",
+      "text": "A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "git-cola/git-cola",
+      "status": "candidate-context",
+      "text": "git-cola: The highly caffeinated Git GUI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "git-cola/git-cola",
+      "status": "candidate-context",
+      "text": "Git Cola is a powerful Git GUI with a slick and intuitive user interface."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DiligentGraphics/DiligentFX",
+      "status": "candidate-context",
+      "text": "High-level rendering components"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DiligentGraphics/DiligentFX",
+      "status": "candidate-context",
+      "text": "DiligentFX is the [Diligent Engine](https://github.com/DiligentGraphics/DiligentEngine)'s high-level rendering framework."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "i3/i3",
+      "status": "candidate-context",
+      "text": "A tiling window manager for X11"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i3/i3",
+      "status": "candidate-context",
+      "text": "![Logo](docs/logo-30.png) i3: A tiling window manager"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BestBurning/platform_device_id",
+      "status": "candidate-context",
+      "text": "flutter plugin to get device id"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BestBurning/platform_device_id",
+      "status": "candidate-context",
+      "text": "get device id from android\u3001ios\u3001windows\u3001linux\u3001mac\u3001web"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uperl/Kafka-Librd",
+      "status": "candidate-context",
+      "text": "perl bindings to librdkafka"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uperl/Kafka-Librd",
+      "status": "candidate-context",
+      "text": "linux"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cjbassi/gotop",
+      "status": "candidate-context",
+      "text": "A terminal based graphical activity monitor inspired by gtop and vtop"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cjbassi/gotop",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openframeworks/openFrameworks",
+      "status": "candidate-context",
+      "text": "openFrameworks is a community-developed cross platform toolkit for creative coding in C++."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openframeworks/openFrameworks",
+      "status": "candidate-context",
+      "text": "[openFrameworks](http://openframeworks.cc/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hazelcast/hazelcast-cpp-client",
+      "status": "candidate-context",
+      "text": "Hazelcast IMDG C++ Client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hazelcast/hazelcast-cpp-client",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -2646,6 +2778,72 @@
       "source_repo": "nativium/nativium-modules",
       "status": "candidate",
       "text": "Linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beeequeue/nvm-rust",
+      "status": "candidate",
+      "text": "\u26a0\ufe0f This tool is deprecated, I recommend using **mise** instead as it has excellent UX and works on all platforms!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JupiterRider/ffi",
+      "status": "candidate",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/jupiterrider/ffi.svg)](https://pkg.go.dev/github.com/jupiterrider/ffi)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flightlessmango/MangoHud",
+      "status": "candidate",
+      "text": "A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "git-cola/git-cola",
+      "status": "candidate",
+      "text": "Git Cola is a powerful Git GUI with a slick and intuitive user interface."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DiligentGraphics/DiligentFX",
+      "status": "candidate",
+      "text": "DiligentFX is the [Diligent Engine](https://github.com/DiligentGraphics/DiligentEngine)'s high-level rendering framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i3/i3",
+      "status": "candidate",
+      "text": "![Logo](docs/logo-30.png) i3: A tiling window manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BestBurning/platform_device_id",
+      "status": "candidate",
+      "text": "get device id from android\u3001ios\u3001windows\u3001linux\u3001mac\u3001web"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uperl/Kafka-Librd",
+      "status": "candidate",
+      "text": "linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cjbassi/gotop",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openframeworks/openFrameworks",
+      "status": "candidate",
+      "text": "[openFrameworks](http://openframeworks.cc/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hazelcast/hazelcast-cpp-client",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -3895,11 +4093,125 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "beeequeue/nvm-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "JupiterRider/ffi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "invoke-ai/InvokeAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "flightlessmango/MangoHud"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "git-cola/git-cola"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "DiligentGraphics/DiligentFX"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "i3/i3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "BestBurning/platform_device_id"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-fern"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "uperl/Kafka-Librd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "cjbassi/gotop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "openframeworks/openFrameworks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "webinstall/webi-installers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast-cpp-client"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "preservim/tagbar"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

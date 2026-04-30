@@ -1,0 +1,73 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MSPaintIDE/NewOCR",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MSPaintIDE/NewOCR",
+      "target": "java-ocr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MSPaintIDE/NewOCR",
+      "target": "ocr-library",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:06:38.615398+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1877
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A custom OCR library in pure Java made as a replacement for MS Paint IDE's OCR",
+    "fork": false,
+    "full_name": "MSPaintIDE/NewOCR",
+    "html_url": "https://github.com/MSPaintIDE/NewOCR",
+    "language": "Java",
+    "pushed_at": "2022-03-11T17:16:04Z",
+    "stargazers_count": 72,
+    "topics": [
+      "hacktoberfest",
+      "java-ocr",
+      "ocr",
+      "ocr-library"
+    ],
+    "updated_at": "2026-04-19T09:03:01Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "<div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java-ocr"
+    },
+    {
+      "context_snippet": "<div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ocr-library"
+    }
+  ]
+}

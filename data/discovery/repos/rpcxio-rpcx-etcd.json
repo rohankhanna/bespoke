@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T14:52:00.828748+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 579
+    },
+    {
+      "path": "go.mod",
+      "size": 4115
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "etcd plugin for rpcx",
+    "fork": false,
+    "full_name": "rpcxio/rpcx-etcd",
+    "html_url": "https://github.com/rpcxio/rpcx-etcd",
+    "language": "Go",
+    "pushed_at": "2026-01-15T03:37:37Z",
+    "stargazers_count": 33,
+    "topics": [],
+    "updated_at": "2026-04-25T05:41:34Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

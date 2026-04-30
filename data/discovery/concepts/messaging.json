@@ -115,6 +115,18 @@
       "source_repo": "zeromq/libzmq",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/zeromq/libzmq/actions/workflows/CI.yaml/badge.svg)](https://github.com/zeromq/libzmq/actions/workflows/CI.yaml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/rocketmq-clients",
+      "status": "candidate-context",
+      "text": "RocketMQ Clients - Collection of Client Bindings for Apache RocketMQ"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/rocketmq-clients",
+      "status": "candidate-context",
+      "text": "[![License][license-image]][license-url] [![Build][build-image]][build-url]"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +183,12 @@
       "source_repo": "zeromq/libzmq",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/zeromq/libzmq/actions/workflows/CI.yaml/badge.svg)](https://github.com/zeromq/libzmq/actions/workflows/CI.yaml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/rocketmq-clients",
+      "status": "candidate",
+      "text": "[![License][license-image]][license-url] [![Build][build-image]][build-url]"
     }
   ],
   "candidate_related_terms": [
@@ -268,11 +286,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "zeromq/libzmq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "apache/rocketmq-clients"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

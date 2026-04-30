@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Get your documents ready for gen AI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Run Heavy Examples CI\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Run Heavy Examples CI\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18540,
+      "status": "candidate",
+      "text": "demonstrate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18185,
+      "status": "candidate",
+      "text": "rings"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18146,
+      "status": "candidate",
+      "text": "extra"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18146,
+      "status": "candidate",
+      "text": "ground"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18146,
+      "status": "candidate",
+      "text": "grounded"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Run Heavy Examples CI",
+      "sense_id": "run-heavy-examples-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "run-heavy-examples-ci",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "run-heavy-examples-ci",
+  "observation_id": "a7ef84a84d178901",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "Run Heavy Examples CI",
+  "source_context_snippet": "\"Run Heavy Examples CI\"",
+  "source_file": ".github/workflows/ci-heavy-examples.yml",
+  "source_repo": "docling-project/docling",
+  "source_repo_description": "Get your documents ready for gen AI"
+}

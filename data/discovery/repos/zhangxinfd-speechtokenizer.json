@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ZhangXInFD/SpeechTokenizer",
+      "target": "0nutation/slmtokbench",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ZhangXInFD/SpeechTokenizer",
+      "target": "0nutation/uslm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ZhangXInFD/SpeechTokenizer",
+      "target": "zhangxinfd/soundstorm-speechtokenizer",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:12:56.506898+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9068
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This is the code for the SpeechTokenizer presented in the SpeechTokenizer: Unified Speech Tokenizer for Speech Language Models. Samples are presented on",
+    "fork": false,
+    "full_name": "ZhangXInFD/SpeechTokenizer",
+    "html_url": "https://github.com/ZhangXInFD/SpeechTokenizer",
+    "language": "Python",
+    "pushed_at": "2024-06-09T13:44:13Z",
+    "stargazers_count": 655,
+    "topics": [],
+    "updated_at": "2026-04-21T04:29:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "0nutation/slmtokbench",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "0nutation/uslm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zhangxinfd/soundstorm-speechtokenizer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

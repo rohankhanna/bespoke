@@ -637,6 +637,102 @@
       "source_repo": "zhipeng-jia/snappyjs",
       "status": "candidate-context",
       "text": "Node.js CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Unitech/pm2",
+      "status": "candidate-context",
+      "text": "Node.js Production Process Manager with a built-in Load Balancer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Unitech/pm2",
+      "status": "candidate-context",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shanewholloway/js-cbor-codec",
+      "status": "candidate-context",
+      "text": "CBOR Codec for NodeJS and the Web."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shanewholloway/js-cbor-codec",
+      "status": "candidate-context",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/azure-api-style-guide",
+      "status": "candidate-context",
+      "text": "Spectral rules to check conformance to Azure API Guidelines"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-api-style-guide",
+      "status": "candidate-context",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anvaka/panzoom",
+      "status": "candidate-context",
+      "text": "Universal pan and zoom library (DOM, SVG, Custom)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anvaka/panzoom",
+      "status": "candidate-context",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jprichardson/node-fs-extra",
+      "status": "candidate-context",
+      "text": "Node.js: extra methods for the fs object like copy(), remove(), mkdirs()"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jprichardson/node-fs-extra",
+      "status": "candidate-context",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "taylorhakes/fecha",
+      "status": "candidate-context",
+      "text": "Lightweight and simple JS date formatting and parsing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "taylorhakes/fecha",
+      "status": "candidate-context",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ErKeLost/squoosh-node-latest",
+      "status": "candidate-context",
+      "text": "fock squoosh support node, browser "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ErKeLost/squoosh-node-latest",
+      "status": "candidate-context",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GoogleChromeLabs/squoosh",
+      "status": "candidate-context",
+      "text": "Make images smaller using best-in-class codecs, right in the browser."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleChromeLabs/squoosh",
+      "status": "candidate-context",
+      "text": "Node.js CI"
     }
   ],
   "candidate_glosses": [
@@ -949,6 +1045,54 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "zhipeng-jia/snappyjs",
+      "status": "candidate",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Unitech/pm2",
+      "status": "candidate",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shanewholloway/js-cbor-codec",
+      "status": "candidate",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-api-style-guide",
+      "status": "candidate",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anvaka/panzoom",
+      "status": "candidate",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jprichardson/node-fs-extra",
+      "status": "candidate",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "taylorhakes/fecha",
+      "status": "candidate",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ErKeLost/squoosh-node-latest",
+      "status": "candidate",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleChromeLabs/squoosh",
       "status": "candidate",
       "text": "Node.js CI"
     }
@@ -1468,11 +1612,95 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "zhipeng-jia/snappyjs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "JakeChampion/fetch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "Unitech/pm2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/node-ci.yml",
+      "source_repo": "shanewholloway/js-cbor-codec"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/tests.js.yml",
+      "source_repo": "highlightjs/highlight.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "vipermind/flake-idgen"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "node-lightning/node-lightning"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "Azure/azure-api-style-guide"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "webinstall/webi-installers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "DefinitelyTyped/dts-critic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "anvaka/panzoom"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jprichardson/node-fs-extra"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "taylorhakes/fecha"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "ErKeLost/squoosh-node-latest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "GoogleChromeLabs/squoosh"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

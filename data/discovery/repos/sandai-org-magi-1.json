@@ -1,0 +1,89 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SandAI-org/MAGI-1",
+      "target": "google-deepmind/physics-iq-benchmark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SandAI-org/MAGI-1",
+      "target": "autoregressive",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SandAI-org/MAGI-1",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SandAI-org/MAGI-1",
+      "target": "video-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:08:04.181143+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19671
+    },
+    {
+      "path": "requirements.txt",
+      "size": 409
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "MAGI-1: Autoregressive Video Generation at Scale",
+    "fork": false,
+    "full_name": "SandAI-org/MAGI-1",
+    "html_url": "https://github.com/SandAI-org/MAGI-1",
+    "language": "Python",
+    "pushed_at": "2025-06-17T06:26:04Z",
+    "stargazers_count": 3683,
+    "topics": [
+      "autoregressive",
+      "diffusion-models",
+      "video-generation"
+    ],
+    "updated_at": "2026-04-29T21:58:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-deepmind/physics-iq-benchmark",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![magi-logo](figures/logo_black.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autoregressive"
+    },
+    {
+      "context_snippet": "![magi-logo](figures/logo_black.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    },
+    {
+      "context_snippet": "![magi-logo](figures/logo_black.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-generation"
+    }
+  ]
+}

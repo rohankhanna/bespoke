@@ -1,0 +1,645 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-protected-classes.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-protected-classes.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-protected-classes.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit-check.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit-check.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit-check.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit-check.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit-check.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit-check.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-snapshot.yml"
+    },
+    {
+      "component": "actions/setup-java@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-snapshot.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-website-on-branch-update.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-website-on-branch-update.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonar-branch.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonar-branch.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonar-branch.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonar-branch.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonar-branch.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonar-pr-from-fork-build.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonar-pr-from-fork-build.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonar-pr-from-fork-build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonar-pr-from-fork-build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonar-pr-from-fork-build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonar-pr-from-fork-scan.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonar-pr-from-fork-scan.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonar-pr-from-fork-scan.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonar-pr-from-fork-scan.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonar-pr-from-fork-scan.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonar-pr-from-fork-scan.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonar-pr-from-fork-scan.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonar-pr-from-fork-scan.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonar-pr-from-fork-scan.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apache/ignite",
+      "target": "apache/ignite-3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-protected-classes.yml",
+      "source_repo": "apache/ignite",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-protected-classes.yml",
+      "source_repo": "apache/ignite",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-protected-classes.yml",
+      "source_repo": "apache/ignite",
+      "target": "Protected Classes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit-check.yml",
+      "source_repo": "apache/ignite",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit-check.yml",
+      "source_repo": "apache/ignite",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit-check.yml",
+      "source_repo": "apache/ignite",
+      "target": "actions/setup-dotnet@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit-check.yml",
+      "source_repo": "apache/ignite",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/commit-check.yml",
+      "source_repo": "apache/ignite",
+      "target": "Code Style, Abandoned Tests, Javadocs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-snapshot.yml",
+      "source_repo": "apache/ignite",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-snapshot.yml",
+      "source_repo": "apache/ignite",
+      "target": "actions/setup-java@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-website-on-branch-update.yml",
+      "source_repo": "apache/ignite",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-website-on-branch-update.yml",
+      "source_repo": "apache/ignite",
+      "target": "Publish website documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonar-branch.yml",
+      "source_repo": "apache/ignite",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonar-branch.yml",
+      "source_repo": "apache/ignite",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonar-branch.yml",
+      "source_repo": "apache/ignite",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sonar-branch.yml",
+      "source_repo": "apache/ignite",
+      "target": "Sonar Quality Branch Analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonar-pr-from-fork-build.yml",
+      "source_repo": "apache/ignite",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonar-pr-from-fork-build.yml",
+      "source_repo": "apache/ignite",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonar-pr-from-fork-build.yml",
+      "source_repo": "apache/ignite",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonar-pr-from-fork-build.yml",
+      "source_repo": "apache/ignite",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sonar-pr-from-fork-build.yml",
+      "source_repo": "apache/ignite",
+      "target": "SonarBuild",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonar-pr-from-fork-scan.yml",
+      "source_repo": "apache/ignite",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonar-pr-from-fork-scan.yml",
+      "source_repo": "apache/ignite",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonar-pr-from-fork-scan.yml",
+      "source_repo": "apache/ignite",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonar-pr-from-fork-scan.yml",
+      "source_repo": "apache/ignite",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonar-pr-from-fork-scan.yml",
+      "source_repo": "apache/ignite",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sonar-pr-from-fork-scan.yml",
+      "source_repo": "apache/ignite",
+      "target": "Sonar Quality Pull Request Analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/ignite",
+      "target": "big-data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/ignite",
+      "target": "cache",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/ignite",
+      "target": "cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/ignite",
+      "target": "data-management-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/ignite",
+      "target": "database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/ignite",
+      "target": "distributed-sql-database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/ignite",
+      "target": "hadoop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/ignite",
+      "target": "ignite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/ignite",
+      "target": "in-memory-computing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/ignite",
+      "target": "in-memory-database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/ignite",
+      "target": "network-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/ignite",
+      "target": "network-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/ignite",
+      "target": "osgi",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:03:52.834329+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4163
+    },
+    {
+      "path": "README.txt",
+      "size": 2927
+    },
+    {
+      "path": ".github/workflows/check-protected-classes.yml",
+      "size": 4438
+    },
+    {
+      "path": ".github/workflows/commit-check.yml",
+      "size": 3802
+    },
+    {
+      "path": ".github/workflows/publish-snapshot.yml",
+      "size": 1553
+    },
+    {
+      "path": ".github/workflows/publish-website-on-branch-update.yml",
+      "size": 3930
+    },
+    {
+      "path": ".github/workflows/sonar-branch.yml",
+      "size": 3148
+    },
+    {
+      "path": ".github/workflows/sonar-pr-from-fork-build.yml",
+      "size": 2986
+    },
+    {
+      "path": ".github/workflows/sonar-pr-from-fork-scan.yml",
+      "size": 6632
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Apache Ignite",
+    "fork": false,
+    "full_name": "apache/ignite",
+    "html_url": "https://github.com/apache/ignite",
+    "language": "Java",
+    "pushed_at": "2026-04-30T11:52:41Z",
+    "stargazers_count": 5065,
+    "topics": [
+      "big-data",
+      "cache",
+      "cloud",
+      "data-management-platform",
+      "database",
+      "distributed-sql-database",
+      "hadoop",
+      "ignite",
+      "in-memory-computing",
+      "in-memory-database",
+      "iot",
+      "network-client",
+      "network-server",
+      "osgi",
+      "sql"
+    ],
+    "updated_at": "2026-04-30T11:52:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apache/ignite-3",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Protected Classes",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-protected-classes.yml",
+      "term": "Protected Classes"
+    },
+    {
+      "context_snippet": "Code Style, Abandoned Tests, Javadocs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/commit-check.yml",
+      "term": "Code Style, Abandoned Tests, Javadocs"
+    },
+    {
+      "context_snippet": "Publish website documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-website-on-branch-update.yml",
+      "term": "Publish website documentation"
+    },
+    {
+      "context_snippet": "Sonar Quality Branch Analysis",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sonar-branch.yml",
+      "term": "Sonar Quality Branch Analysis"
+    },
+    {
+      "context_snippet": "SonarBuild",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sonar-pr-from-fork-build.yml",
+      "term": "SonarBuild"
+    },
+    {
+      "context_snippet": "Sonar Quality Pull Request Analysis",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sonar-pr-from-fork-scan.yml",
+      "term": "Sonar Quality Pull Request Analysis"
+    },
+    {
+      "context_snippet": "<a href=\"https://ignite.apache.org/\"><img src=\"https://github.com/apache/ignite-website/blob/master/assets/images/apache_ignite_logo.svg\" hspace=\"20\"/></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "big-data"
+    },
+    {
+      "context_snippet": "<a href=\"https://ignite.apache.org/\"><img src=\"https://github.com/apache/ignite-website/blob/master/assets/images/apache_ignite_logo.svg\" hspace=\"20\"/></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cache"
+    },
+    {
+      "context_snippet": "<a href=\"https://ignite.apache.org/\"><img src=\"https://github.com/apache/ignite-website/blob/master/assets/images/apache_ignite_logo.svg\" hspace=\"20\"/></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloud"
+    },
+    {
+      "context_snippet": "<a href=\"https://ignite.apache.org/\"><img src=\"https://github.com/apache/ignite-website/blob/master/assets/images/apache_ignite_logo.svg\" hspace=\"20\"/></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-management-platform"
+    },
+    {
+      "context_snippet": "<a href=\"https://ignite.apache.org/\"><img src=\"https://github.com/apache/ignite-website/blob/master/assets/images/apache_ignite_logo.svg\" hspace=\"20\"/></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "database"
+    },
+    {
+      "context_snippet": "<a href=\"https://ignite.apache.org/\"><img src=\"https://github.com/apache/ignite-website/blob/master/assets/images/apache_ignite_logo.svg\" hspace=\"20\"/></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distributed-sql-database"
+    },
+    {
+      "context_snippet": "<a href=\"https://ignite.apache.org/\"><img src=\"https://github.com/apache/ignite-website/blob/master/assets/images/apache_ignite_logo.svg\" hspace=\"20\"/></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hadoop"
+    },
+    {
+      "context_snippet": "<a href=\"https://ignite.apache.org/\"><img src=\"https://github.com/apache/ignite-website/blob/master/assets/images/apache_ignite_logo.svg\" hspace=\"20\"/></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ignite"
+    },
+    {
+      "context_snippet": "<a href=\"https://ignite.apache.org/\"><img src=\"https://github.com/apache/ignite-website/blob/master/assets/images/apache_ignite_logo.svg\" hspace=\"20\"/></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "in-memory-computing"
+    },
+    {
+      "context_snippet": "<a href=\"https://ignite.apache.org/\"><img src=\"https://github.com/apache/ignite-website/blob/master/assets/images/apache_ignite_logo.svg\" hspace=\"20\"/></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "in-memory-database"
+    },
+    {
+      "context_snippet": "<a href=\"https://ignite.apache.org/\"><img src=\"https://github.com/apache/ignite-website/blob/master/assets/images/apache_ignite_logo.svg\" hspace=\"20\"/></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "network-client"
+    },
+    {
+      "context_snippet": "<a href=\"https://ignite.apache.org/\"><img src=\"https://github.com/apache/ignite-website/blob/master/assets/images/apache_ignite_logo.svg\" hspace=\"20\"/></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "network-server"
+    },
+    {
+      "context_snippet": "<a href=\"https://ignite.apache.org/\"><img src=\"https://github.com/apache/ignite-website/blob/master/assets/images/apache_ignite_logo.svg\" hspace=\"20\"/></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "osgi"
+    }
+  ]
+}

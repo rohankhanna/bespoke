@@ -1,0 +1,57 @@
+{
+  "components": [
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rimraf",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "broccolijs/node-symlink-or-copy",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "broccolijs/node-symlink-or-copy",
+      "target": "rimraf",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:05:44.639599+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2583
+    },
+    {
+      "path": "package.json",
+      "size": 524
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Symlink files or directories, falling back to copying on Windows",
+    "fork": false,
+    "full_name": "broccolijs/node-symlink-or-copy",
+    "html_url": "https://github.com/broccolijs/node-symlink-or-copy",
+    "language": "JavaScript",
+    "pushed_at": "2021-05-10T20:53:12Z",
+    "stargazers_count": 12,
+    "topics": [],
+    "updated_at": "2024-04-02T20:42:15Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

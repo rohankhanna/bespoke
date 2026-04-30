@@ -55,6 +55,18 @@
       "source_repo": "jedisct1/minisign",
       "status": "candidate-context",
       "text": "![CodeQL scan](https://github.com/jedisct1/minisign/workflows/CodeQL%20scan/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "patrick-kidger/signatory",
+      "status": "candidate-context",
+      "text": "Differentiable computations of the signature and logsignature transforms, on both CPU and GPU. (ICLR 2021)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "patrick-kidger/signatory",
+      "status": "candidate-context",
+      "text": "|Signatory|"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "jedisct1/minisign",
       "status": "candidate",
       "text": "![CodeQL scan](https://github.com/jedisct1/minisign/workflows/CodeQL%20scan/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "patrick-kidger/signatory",
+      "status": "candidate",
+      "text": "|Signatory|"
     }
   ],
   "candidate_related_terms": [
@@ -154,11 +172,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "jedisct1/minisign"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "patrick-kidger/signatory"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "text-simplification"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grammarly/gector",
+      "status": "candidate-context",
+      "text": "Official implementation of the papers \"GECToR \u2013 Grammatical Error Correction: Tag, Not Rewrite\" (BEA-20) and \"Text Simplification by Tagging\" (BEA-21)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grammarly/gector",
+      "status": "candidate-context",
+      "text": "This repository provides code for training and testing state-of-the-art models for grammatical error correction with the official PyTorch implementation of the following paper:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grammarly/gector",
+      "status": "candidate",
+      "text": "This repository provides code for training and testing state-of-the-art models for grammatical error correction with the official PyTorch implementation of the following paper:"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "text-simplification",
+  "concept_id": "text-simplification",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "grammarly/gector"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "text-simplification",
+      "sense_id": "text-simplification#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1336,6 +1336,192 @@
       "source_repo": "devhammed/insomnia-plugin-documenter",
       "status": "candidate-context",
       "text": "Export Insomnia workspace HTML documentation."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uxlfoundation/oneMath",
+      "status": "candidate-context",
+      "text": "oneAPI Math Library (oneMath)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/oneMath",
+      "status": "candidate-context",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autowarefoundation/autoware-documentation",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flagos-ai/TransformerEngine-FL",
+      "status": "candidate-context",
+      "text": "TransformerEngine-FL is a fork of TransformerEngine that introduces a plugin-based architecture for supporting diverse AI chips, built on top of FlagOS, a unified open-source AI system software stack."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flagos-ai/TransformerEngine-FL",
+      "status": "candidate-context",
+      "text": "'Documentation'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aviatesk/JET.jl",
+      "status": "candidate-context",
+      "text": "A code analyzer for Julia. No need for additional type annotations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aviatesk/JET.jl",
+      "status": "candidate-context",
+      "text": "documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ColinKennedy/mega.cmdparse",
+      "status": "candidate-context",
+      "text": "A Neovim command-mode parser. Similar to Python's argparse module"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ColinKennedy/mega.cmdparse",
+      "status": "candidate-context",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ColinKennedy/nvim-best-practices-plugin-template",
+      "status": "candidate-context",
+      "text": "A no-nonsense template for making high-quality Neovim plugins. It has all the best opinions, pinky promise"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ColinKennedy/nvim-best-practices-plugin-template",
+      "status": "candidate-context",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kdheepak/panvimdoc",
+      "status": "candidate-context",
+      "text": "Write documentation in pandoc markdown. Generate documentation in vimdoc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kdheepak/panvimdoc",
+      "status": "candidate-context",
+      "text": "[![Docs](https://img.shields.io/badge/docs-dev-blue.svg)](https://kdheepak.com/panvimdoc/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "storybookjs/storybook",
+      "status": "candidate-context",
+      "text": "Storybook is the industry standard workshop for building, documenting, and testing UI components in isolation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "storybookjs/storybook",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/Claude-Code-Context-Feature-Requests",
+      "status": "candidate-context",
+      "text": "A couple of feature requests (including my own) discussing context handling in Claude code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Claude-Code-Context-Feature-Requests",
+      "status": "candidate-context",
+      "text": "A collection of feature requests related to context and task management in Claude Code."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubeflow/sdk",
+      "status": "candidate-context",
+      "text": "Universal Python SDK to run AI workloads on Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubeflow/sdk",
+      "status": "candidate-context",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eclipse-sumo/sumo",
+      "status": "candidate-context",
+      "text": "Eclipse SUMO is an open source, highly portable, microscopic and continuous traffic simulation package designed to handle large networks. It allows for intermodal simulation including pedestrians and comes with a large set of tools for scenario creation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-sumo/sumo",
+      "status": "candidate-context",
+      "text": "documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lyceum/MuJoCo.jl",
+      "status": "candidate-context",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "liuliu/s4nnc",
+      "status": "candidate-context",
+      "text": "Swift for NNC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liuliu/s4nnc",
+      "status": "candidate-context",
+      "text": "documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mermaid-js/mermaid",
+      "status": "candidate-context",
+      "text": "Generation of diagrams like flowcharts or sequence diagrams from text in a similar manner as markdown"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mermaid-js/mermaid",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pradyunsg/furo",
+      "status": "candidate-context",
+      "text": "A clean customizable documentation theme for Sphinx"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pradyunsg/furo",
+      "status": "candidate-context",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pradyunsg/furo",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Furo</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AdaptiveCpp/AdaptiveCpp",
+      "status": "candidate-context",
+      "text": "Compiler for multiple programming models (SYCL, C++ standard parallelism, HIP/CUDA) for CPUs and GPUs from all vendors: The independent, community-driven compiler for C++-based heterogeneous programming models. Lets applications adapt themselves to all the hardware in the system - even at runtime!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdaptiveCpp/AdaptiveCpp",
+      "status": "candidate-context",
+      "text": "Documentation"
     }
   ],
   "candidate_glosses": [
@@ -2010,6 +2196,108 @@
       "source_repo": "devhammed/insomnia-plugin-documenter",
       "status": "candidate",
       "text": "Export Insomnia workspace HTML documentation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/oneMath",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autowarefoundation/autoware-documentation",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flagos-ai/TransformerEngine-FL",
+      "status": "candidate",
+      "text": "'Documentation'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aviatesk/JET.jl",
+      "status": "candidate",
+      "text": "documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ColinKennedy/mega.cmdparse",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ColinKennedy/nvim-best-practices-plugin-template",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kdheepak/panvimdoc",
+      "status": "candidate",
+      "text": "[![Docs](https://img.shields.io/badge/docs-dev-blue.svg)](https://kdheepak.com/panvimdoc/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "storybookjs/storybook",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Claude-Code-Context-Feature-Requests",
+      "status": "candidate",
+      "text": "A collection of feature requests related to context and task management in Claude Code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubeflow/sdk",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-sumo/sumo",
+      "status": "candidate",
+      "text": "documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lyceum/MuJoCo.jl",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liuliu/s4nnc",
+      "status": "candidate",
+      "text": "documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mermaid-js/mermaid",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pradyunsg/furo",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pradyunsg/furo",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Furo</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdaptiveCpp/AdaptiveCpp",
+      "status": "candidate",
+      "text": "Documentation"
     }
   ],
   "candidate_related_terms": [
@@ -2922,11 +3210,149 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "devhammed/insomnia-plugin-documenter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-jekyll-builder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "uxlfoundation/oneMath"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "autowarefoundation/autoware-documentation"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "web-platform-tests/wpt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "flagos-ai/TransformerEngine-FL"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "aviatesk/JET.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "atom/flight-manual.atom.io"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "ColinKennedy/mega.cmdparse"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "ColinKennedy/nvim-best-practices-plugin-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "kdheepak/panvimdoc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "storybookjs/storybook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Code-Context-Feature-Requests"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "kubeflow/sdk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "eclipse-sumo/sumo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "Lyceum/MuJoCo.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/documentation.yaml",
+      "source_repo": "liuliu/s4nnc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "triton-lang/triton"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "mermaid-js/mermaid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "insodoc/insomnia-documenter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "pradyunsg/furo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "pradyunsg/furo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "AdaptiveCpp/AdaptiveCpp"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

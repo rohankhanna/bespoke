@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "csguoh/FastVAR",
+      "target": "foundationvision/infinity",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:02:12.699143+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8392
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICCV2025]Generate one 2K image on single 24GB 3090 GPU!",
+    "fork": false,
+    "full_name": "csguoh/FastVAR",
+    "html_url": "https://github.com/csguoh/FastVAR",
+    "language": "Python",
+    "pushed_at": "2025-09-08T08:28:16Z",
+    "stargazers_count": 86,
+    "topics": [],
+    "updated_at": "2026-04-29T04:06:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "foundationvision/infinity",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

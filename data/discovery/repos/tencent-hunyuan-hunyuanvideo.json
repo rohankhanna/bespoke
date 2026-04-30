@@ -1,0 +1,125 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tencent-Hunyuan/HunyuanVideo",
+      "target": "comfyanonymous/comfyui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tencent-Hunyuan/HunyuanVideo",
+      "target": "liewfeng/teacache",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tencent-Hunyuan/HunyuanVideo",
+      "target": "dashtoon/hunyuan-video-keyframe-control-lora",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tencent-Hunyuan/HunyuanVideo",
+      "target": "dvlab-research/jenga",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanVideo",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanVideo",
+      "target": "diffusion-transformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanVideo",
+      "target": "video-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:10:40.277537+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 28693
+    },
+    {
+      "path": "requirements.txt",
+      "size": 253
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "HunyuanVideo: A Systematic Framework For Large Video Generation Model",
+    "fork": false,
+    "full_name": "Tencent-Hunyuan/HunyuanVideo",
+    "html_url": "https://github.com/Tencent-Hunyuan/HunyuanVideo",
+    "language": "Python",
+    "pushed_at": "2025-11-21T06:36:57Z",
+    "stargazers_count": 12040,
+    "topics": [
+      "diffusion-models",
+      "diffusion-transformer",
+      "video-generation"
+    ],
+    "updated_at": "2026-04-30T10:37:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "comfyanonymous/comfyui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dashtoon/hunyuan-video-keyframe-control-lora",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dvlab-research/jenga",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "liewfeng/teacache",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<!-- ## **HunyuanVideo** -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    },
+    {
+      "context_snippet": "<!-- ## **HunyuanVideo** -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-transformer"
+    },
+    {
+      "context_snippet": "<!-- ## **HunyuanVideo** -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-generation"
+    }
+  ]
+}

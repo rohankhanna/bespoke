@@ -55,6 +55,30 @@
       "source_repo": "lucidrains/flamingo-pytorch",
       "status": "candidate-context",
       "text": "<img src=\"./flamingo.png\" width=\"500px\"></img>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "peteanderson80/bottom-up-attention",
+      "status": "candidate-context",
+      "text": "Bottom-up attention model for image captioning and VQA, based on Faster R-CNN and Visual Genome"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "peteanderson80/bottom-up-attention",
+      "status": "candidate-context",
+      "text": "This code implements a bottom-up attention model, based on multi-gpu training of Faster R-CNN with ResNet-101, using object and attribute annotations from [Visual Genome](http://visualgenome.org/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OFA-Sys/OFA",
+      "status": "candidate-context",
+      "text": "Official repository of OFA (ICML 2022). Paper: OFA: Unifying Architectures, Tasks, and Modalities Through a Simple Sequence-to-Sequence Learning Framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OFA-Sys/OFA",
+      "status": "candidate-context",
+      "text": "<!---"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "lucidrains/flamingo-pytorch",
       "status": "candidate",
       "text": "<img src=\"./flamingo.png\" width=\"500px\"></img>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "peteanderson80/bottom-up-attention",
+      "status": "candidate",
+      "text": "This code implements a bottom-up attention model, based on multi-gpu training of Faster R-CNN with ResNet-101, using object and attribute annotations from [Visual Genome](http://visualgenome.org/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OFA-Sys/OFA",
+      "status": "candidate",
+      "text": "<!---"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +148,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "lucidrains/flamingo-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "peteanderson80/bottom-up-attention"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "OFA-Sys/OFA"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

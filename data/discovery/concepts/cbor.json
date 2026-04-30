@@ -115,6 +115,30 @@
       "source_repo": "ldclabs/ic-cose",
       "status": "candidate-context",
       "text": "\u2699\ufe0f A decentralized COnfiguration service with Signing and Encryption on the Internet Computer."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FasterXML/jackson-dataformats-binary",
+      "status": "candidate-context",
+      "text": "Uber-project for standard Jackson binary format backends: avro, cbor, ion, protobuf, smile"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FasterXML/jackson-dataformats-binary",
+      "status": "candidate-context",
+      "text": "This is a multi-module umbrella project for [Jackson](../../../jackson)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stephenberry/glaze",
+      "status": "candidate-context",
+      "text": "Extremely fast, in memory, serialization, reflection, and RPC library for C++. JSON, BEVE, BSON, CBOR, CSV, JSONB, MessagePack, TOML, YAML, EETF"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stephenberry/glaze",
+      "status": "candidate-context",
+      "text": "One of the fastest JSON libraries in the world. Glaze reads and writes from object memory, simplifying interfaces and offering incredible performance."
     }
   ],
   "candidate_glosses": [
@@ -171,6 +195,18 @@
       "source_repo": "ldclabs/ic-cose",
       "status": "candidate",
       "text": "\u2699\ufe0f A decentralized COnfiguration service with Signing and Encryption on the Internet Computer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FasterXML/jackson-dataformats-binary",
+      "status": "candidate",
+      "text": "This is a multi-module umbrella project for [Jackson](../../../jackson)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stephenberry/glaze",
+      "status": "candidate",
+      "text": "One of the fastest JSON libraries in the world. Glaze reads and writes from object memory, simplifying interfaces and offering incredible performance."
     }
   ],
   "candidate_related_terms": [
@@ -267,11 +303,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "ldclabs/ic-cose"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "FasterXML/jackson-dataformats-binary"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "stephenberry/glaze"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

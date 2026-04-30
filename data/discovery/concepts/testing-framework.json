@@ -43,6 +43,18 @@
       "source_repo": "web-infra-dev/rstest",
       "status": "candidate-context",
       "text": "<picture>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "karatelabs/karate",
+      "status": "candidate-context",
+      "text": "Test Automation Made Simple"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karatelabs/karate",
+      "status": "candidate-context",
+      "text": "**The open-source tool that combines API testing, mocks, performance testing, and UI automation into a single, unified framework.**"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "web-infra-dev/rstest",
       "status": "candidate",
       "text": "<picture>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karatelabs/karate",
+      "status": "candidate",
+      "text": "**The open-source tool that combines API testing, mocks, performance testing, and UI automation into a single, unified framework.**"
     }
   ],
   "candidate_related_terms": [],
@@ -94,11 +112,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "web-infra-dev/rstest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "karatelabs/karate"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

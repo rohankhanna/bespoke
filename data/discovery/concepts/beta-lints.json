@@ -19,12 +19,48 @@
       "source_repo": "zkcrypto/bls12_381",
       "status": "candidate-context",
       "text": "Beta lints"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zcash/pasta_curves",
+      "status": "candidate-context",
+      "text": "Rust implementation for zcash/pasta"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zcash/pasta_curves",
+      "status": "candidate-context",
+      "text": "Beta lints"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zkcrypto/jubjub",
+      "status": "candidate-context",
+      "text": "Implementation of the Jubjub elliptic curve group"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zkcrypto/jubjub",
+      "status": "candidate-context",
+      "text": "Beta lints"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "zkcrypto/bls12_381",
+      "status": "candidate",
+      "text": "Beta lints"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zcash/pasta_curves",
+      "status": "candidate",
+      "text": "Beta lints"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zkcrypto/jubjub",
       "status": "candidate",
       "text": "Beta lints"
     }
@@ -76,11 +112,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/lints-beta.yml",
       "source_repo": "zkcrypto/bls12_381"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/lints-beta.yml",
+      "source_repo": "zcash/pasta_curves"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/lints-beta.yml",
+      "source_repo": "zkcrypto/jubjub"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

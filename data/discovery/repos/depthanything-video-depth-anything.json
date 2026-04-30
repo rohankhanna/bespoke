@@ -1,0 +1,90 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DepthAnything/Video-Depth-Anything",
+      "target": "depth-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DepthAnything/Video-Depth-Anything",
+      "target": "monocular-depth-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DepthAnything/Video-Depth-Anything",
+      "target": "transformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DepthAnything/Video-Depth-Anything",
+      "target": "video-depth",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:08:31.826263+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9409
+    },
+    {
+      "path": "requirements.txt",
+      "size": 184
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR 2025 Highlight] Video Depth Anything: Consistent Depth Estimation for Super-Long Videos",
+    "fork": false,
+    "full_name": "DepthAnything/Video-Depth-Anything",
+    "html_url": "https://github.com/DepthAnything/Video-Depth-Anything",
+    "language": "Python",
+    "pushed_at": "2025-10-07T06:00:12Z",
+    "stargazers_count": 1888,
+    "topics": [
+      "depth-estimation",
+      "monocular-depth-estimation",
+      "transformer",
+      "video-depth"
+    ],
+    "updated_at": "2026-04-30T05:43:04Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "depth-estimation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monocular-depth-estimation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-depth"
+    }
+  ]
+}

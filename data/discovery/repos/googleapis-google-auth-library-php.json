@@ -72,13 +72,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "googleapis/google-auth-library-php",
-      "target": "guzzle/guzzle",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "googleapis/google-auth-library-php",
@@ -156,7 +149,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T08:11:06.950285+00:00",
+  "fetched_at": "2026-04-30T16:12:13.147778+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -198,11 +191,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "google/google-auth-library-php",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "guzzle/guzzle",
       "source_file": "README.md"
     }
   ],

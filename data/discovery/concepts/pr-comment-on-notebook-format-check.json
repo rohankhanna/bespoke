@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "PR Comment on Notebook Format Check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/accelerated-computing-hub",
+      "status": "candidate-context",
+      "text": "NVIDIA curated collection of educational resources related to general purpose GPU programming."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/accelerated-computing-hub",
+      "status": "candidate-context",
+      "text": "PR Comment on Notebook Format Check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/accelerated-computing-hub",
+      "status": "candidate",
+      "text": "PR Comment on Notebook Format Check"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28293,
+      "status": "candidate",
+      "text": "key"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28293,
+      "status": "candidate",
+      "text": "keying"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28293,
+      "status": "candidate",
+      "text": "keys"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28293,
+      "status": "candidate",
+      "text": "plot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28293,
+      "status": "candidate",
+      "text": "plotted"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "PR Comment on Notebook Format Check",
+  "concept_id": "pr-comment-on-notebook-format-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/pr-comment-notebook-format.yml",
+      "source_repo": "NVIDIA/accelerated-computing-hub"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PR Comment on Notebook Format Check",
+      "sense_id": "pr-comment-on-notebook-format-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

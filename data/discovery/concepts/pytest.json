@@ -371,6 +371,54 @@
       "source_repo": "oh-my-ocr/text_renderer",
       "status": "candidate-context",
       "text": "pytest"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jpmml/sklearn2pmml",
+      "status": "candidate-context",
+      "text": "Python library for converting Scikit-Learn pipelines to PMML"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jpmml/sklearn2pmml",
+      "status": "candidate-context",
+      "text": "pytest"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "verbiiyo/rigl-torch",
+      "status": "candidate-context",
+      "text": "Lightweight torch implementation of rigl, a sparse-to-sparse optimizer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "verbiiyo/rigl-torch",
+      "status": "candidate-context",
+      "text": "PyTest"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chungmin99/pyroki",
+      "status": "candidate-context",
+      "text": "A Modular Toolkit for Robot Kinematic Optimization"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chungmin99/pyroki",
+      "status": "candidate-context",
+      "text": "pytest"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dbfixtures/pytest-postgresql",
+      "status": "candidate-context",
+      "text": "This is a pytest plugin, that enables you to test your code that relies on a running PostgreSQL Database. It allows you to specify fixtures for PostgreSQL process and client."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dbfixtures/pytest-postgresql",
+      "status": "candidate-context",
+      "text": ".. image:: https://raw.githubusercontent.com/dbfixtures/pytest-postgresql/main/logo.png"
     }
   ],
   "candidate_glosses": [
@@ -553,6 +601,30 @@
       "source_repo": "oh-my-ocr/text_renderer",
       "status": "candidate",
       "text": "pytest"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jpmml/sklearn2pmml",
+      "status": "candidate",
+      "text": "pytest"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "verbiiyo/rigl-torch",
+      "status": "candidate",
+      "text": "PyTest"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chungmin99/pyroki",
+      "status": "candidate",
+      "text": "pytest"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dbfixtures/pytest-postgresql",
+      "status": "candidate",
+      "text": ".. image:: https://raw.githubusercontent.com/dbfixtures/pytest-postgresql/main/logo.png"
     }
   ],
   "candidate_related_terms": [
@@ -872,11 +944,65 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/pytest.yaml",
       "source_repo": "SWE-bench/SWE-bench"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "jpmml/sklearn2pmml"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "verbiiyo/rigl-torch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "google-deepmind/dm-haiku"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "google-deepmind/sonnet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "OpenHands/ToM-SWE"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "chungmin99/pyroki"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "google-deepmind/bsuite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "15r10nk/inline-snapshot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "dbfixtures/pytest-postgresql"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

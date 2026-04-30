@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A documentation generator for Julia."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Update Status Labels When Author Replies"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Update Status Labels When Author Replies"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44557,
+      "status": "candidate",
+      "text": "tune"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35001,
+      "status": "candidate",
+      "text": "traffic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34106,
+      "status": "candidate",
+      "text": "label"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32605,
+      "status": "candidate",
+      "text": "mark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32542,
+      "status": "candidate",
+      "text": "signal"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Status Labels When Author Replies",
+      "sense_id": "update-status-labels-when-author-replies#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "update-status-labels-when-author-replies",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "update-status-labels-when-author-replies",
+  "observation_id": "7af5602d2f743246",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "Update Status Labels When Author Replies",
+  "source_context_snippet": "Update Status Labels When Author Replies",
+  "source_file": ".github/workflows/labels.yml",
+  "source_repo": "JuliaDocs/Documenter.jl",
+  "source_repo_description": "A documentation generator for Julia."
+}

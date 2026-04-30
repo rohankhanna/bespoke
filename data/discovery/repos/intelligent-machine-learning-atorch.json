@@ -1,0 +1,50 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "intelligent-machine-learning/atorch",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:54:01.369103+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4695
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 652
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An industrial extension library of pytorch to accelerate large scale model training",
+    "fork": false,
+    "full_name": "intelligent-machine-learning/atorch",
+    "html_url": "https://github.com/intelligent-machine-learning/atorch",
+    "language": "Python",
+    "pushed_at": "2025-08-13T03:24:45Z",
+    "stargazers_count": 61,
+    "topics": [],
+    "updated_at": "2026-04-29T09:32:12Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

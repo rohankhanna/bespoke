@@ -97,6 +97,30 @@
       "source_repo": "JLLeitschuh/ktlint-gradle",
       "status": "candidate-context",
       "text": "**Provides a convenient wrapper plugin over the [ktlint](https://github.com/pinterest/ktlint) project.**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graalvm/native-build-tools",
+      "status": "candidate-context",
+      "text": "Native-image plugins for various build tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graalvm/native-build-tools",
+      "status": "candidate-context",
+      "text": "![](https://github.com/graalvm/native-build-tools/actions/workflows/test-native-gradle-plugin.yml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cortinico/ktfmt-gradle",
+      "status": "candidate-context",
+      "text": "A Gradle plugin to apply ktfmt to your builds, and reformat you Kotlin source code like a glimpse \ud83e\uddf9\ud83d\udc18"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cortinico/ktfmt-gradle",
+      "status": "candidate-context",
+      "text": "A wrapper to apply [ktfmt](https://github.com/facebookincubator/ktfmt) to your Gradle builds, and reformat you Kotlin"
     }
   ],
   "candidate_glosses": [
@@ -147,6 +171,18 @@
       "source_repo": "JLLeitschuh/ktlint-gradle",
       "status": "candidate",
       "text": "**Provides a convenient wrapper plugin over the [ktlint](https://github.com/pinterest/ktlint) project.**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graalvm/native-build-tools",
+      "status": "candidate",
+      "text": "![](https://github.com/graalvm/native-build-tools/actions/workflows/test-native-gradle-plugin.yml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cortinico/ktfmt-gradle",
+      "status": "candidate",
+      "text": "A wrapper to apply [ktfmt](https://github.com/facebookincubator/ktfmt) to your Gradle builds, and reformat you Kotlin"
     }
   ],
   "candidate_related_terms": [
@@ -238,11 +274,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "JLLeitschuh/ktlint-gradle"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "graalvm/native-build-tools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "cortinico/ktfmt-gradle"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

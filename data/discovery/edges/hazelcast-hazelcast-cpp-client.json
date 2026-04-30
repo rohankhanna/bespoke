@@ -1,0 +1,272 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pr.yml",
+      "source_repo": "hazelcast/hazelcast-cpp-client",
+      "target": "hazelcast/hazelcast-tpm/membership@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pr.yml",
+      "source_repo": "hazelcast/hazelcast-cpp-client",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-pr.yml",
+      "source_repo": "hazelcast/hazelcast-cpp-client",
+      "target": "Build&Test PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage-report.yaml",
+      "source_repo": "hazelcast/hazelcast-cpp-client",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage-report.yaml",
+      "source_repo": "hazelcast/hazelcast-cpp-client",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage-report.yaml",
+      "source_repo": "hazelcast/hazelcast-cpp-client",
+      "target": "Code coverage report to Codecov",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release-branch.yml",
+      "source_repo": "hazelcast/hazelcast-cpp-client",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release-branch.yml",
+      "source_repo": "hazelcast/hazelcast-cpp-client",
+      "target": "madhead/semver-utils@36d1e0ed361bd7b4b77665de8093092eaeabe6ba",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release-branch.yml",
+      "source_repo": "hazelcast/hazelcast-cpp-client",
+      "target": "hazelcast/hazelcast-cpp-client/.github/actions/update-project-version@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-release-branch.yml",
+      "source_repo": "hazelcast/hazelcast-cpp-client",
+      "target": "Create release branch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/get-shared-matrix.yml",
+      "source_repo": "hazelcast/hazelcast-cpp-client",
+      "target": "Get common matrix configuration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jira.yml",
+      "source_repo": "hazelcast/hazelcast-cpp-client",
+      "target": "hazelcast/github-jira-tool-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jira.yml",
+      "source_repo": "hazelcast/hazelcast-cpp-client",
+      "target": "Create Jira issue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-macos-x86_64.yml",
+      "source_repo": "hazelcast/hazelcast-cpp-client",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-ubuntu-x86_64.yml",
+      "source_repo": "hazelcast/hazelcast-cpp-client",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-windows.yml",
+      "source_repo": "hazelcast/hazelcast-cpp-client",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-windows.yml",
+      "source_repo": "hazelcast/hazelcast-cpp-client",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-windows.yml",
+      "source_repo": "hazelcast/hazelcast-cpp-client",
+      "target": "nightly-Windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "hazelcast/hazelcast-cpp-client",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "hazelcast/hazelcast-cpp-client",
+      "target": "peter-evans/create-pull-request@c0f553fe549906ede9cf27b5156039d195d2ece0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "hazelcast/hazelcast-cpp-client",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast-cpp-client",
+      "target": "big-data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast-cpp-client",
+      "target": "boost",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast-cpp-client",
+      "target": "c-plus-plus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast-cpp-client",
+      "target": "caching",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast-cpp-client",
+      "target": "clustering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast-cpp-client",
+      "target": "cmake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast-cpp-client",
+      "target": "cpp98",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast-cpp-client",
+      "target": "datagrid",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast-cpp-client",
+      "target": "distributed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast-cpp-client",
+      "target": "hazelcast",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast-cpp-client",
+      "target": "hazelcast-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast-cpp-client",
+      "target": "imdg",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast-cpp-client",
+      "target": "in-memory",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast-cpp-client",
+      "target": "library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast-cpp-client",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast-cpp-client",
+      "target": "scalability",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast-cpp-client",
+      "target": "windows",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T12:45:20.475770+00:00",
+  "source_repo": "hazelcast/hazelcast-cpp-client"
+}

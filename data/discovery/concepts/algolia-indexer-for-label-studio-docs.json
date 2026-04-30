@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Algolia Indexer for Label Studio Docs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HumanSignal/label-studio",
+      "status": "candidate-context",
+      "text": "Label Studio is a multi-type data labeling and annotation tool with standardized output format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HumanSignal/label-studio",
+      "status": "candidate-context",
+      "text": "Algolia Indexer for Label Studio Docs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HumanSignal/label-studio",
+      "status": "candidate",
+      "text": "Algolia Indexer for Label Studio Docs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18828,
+      "status": "candidate",
+      "text": "loge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18724,
+      "status": "candidate",
+      "text": "antoine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18724,
+      "status": "candidate",
+      "text": "grade"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18724,
+      "status": "candidate",
+      "text": "paper"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18724,
+      "status": "candidate",
+      "text": "signature"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Algolia Indexer for Label Studio Docs",
+  "concept_id": "algolia-indexer-for-label-studio-docs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/algolia-crawler-ls-docs.yml",
+      "source_repo": "HumanSignal/label-studio"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Algolia Indexer for Label Studio Docs",
+      "sense_id": "algolia-indexer-for-label-studio-docs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

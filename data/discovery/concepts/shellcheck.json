@@ -143,6 +143,18 @@
       "source_repo": "Botspot/pi-apps",
       "status": "candidate-context",
       "text": "Shellcheck"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reviewdog/action-shellcheck",
+      "status": "candidate-context",
+      "text": "Run shellcheck with reviewdog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-shellcheck",
+      "status": "candidate-context",
+      "text": "[![Docker Image CI](https://github.com/reviewdog/action-shellcheck/workflows/Docker%20Image%20CI/badge.svg)](https://github.com/reviewdog/action-shellcheck/actions)"
     }
   ],
   "candidate_glosses": [
@@ -211,6 +223,12 @@
       "source_repo": "Botspot/pi-apps",
       "status": "candidate",
       "text": "Shellcheck"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-shellcheck",
+      "status": "candidate",
+      "text": "[![Docker Image CI](https://github.com/reviewdog/action-shellcheck/workflows/Docker%20Image%20CI/badge.svg)](https://github.com/reviewdog/action-shellcheck/actions)"
     }
   ],
   "candidate_related_terms": [],
@@ -284,11 +302,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/shellcheck.yml",
       "source_repo": "Botspot/pi-apps"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "reviewdog/action-shellcheck"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

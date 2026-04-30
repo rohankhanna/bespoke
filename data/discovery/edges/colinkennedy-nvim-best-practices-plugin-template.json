@@ -1,0 +1,279 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ColinKennedy/nvim-best-practices-plugin-template",
+      "target": "echasnovski/mini.doc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ColinKennedy/nvim-best-practices-plugin-template",
+      "target": "cppcxy/emmylua-analyzer-rust",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ColinKennedy/nvim-best-practices-plugin-template",
+      "target": "jeffzi/llscheck",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ColinKennedy/nvim-best-practices-plugin-template",
+      "target": "ellisonleao/nvim-plugin-template",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checkhealth.yml",
+      "source_repo": "ColinKennedy/nvim-best-practices-plugin-template",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checkhealth.yml",
+      "source_repo": "ColinKennedy/nvim-best-practices-plugin-template",
+      "target": "rhysd/action-setup-vim@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checkhealth.yml",
+      "source_repo": "ColinKennedy/nvim-best-practices-plugin-template",
+      "target": "ColinKennedy/nvim-checkhealth-gh-action@v1.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checkhealth.yml",
+      "source_repo": "ColinKennedy/nvim-best-practices-plugin-template",
+      "target": "Neovim checkhealth",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commitlint.yml",
+      "source_repo": "ColinKennedy/nvim-best-practices-plugin-template",
+      "target": "opensource-nepal/commitlint@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/commitlint.yml",
+      "source_repo": "ColinKennedy/nvim-best-practices-plugin-template",
+      "target": "Commitlint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "ColinKennedy/nvim-best-practices-plugin-template",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "ColinKennedy/nvim-best-practices-plugin-template",
+      "target": "baptiste0928/cargo-install@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "ColinKennedy/nvim-best-practices-plugin-template",
+      "target": "mhausenblas/mkdocs-deploy-gh-pages@1.26",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "ColinKennedy/nvim-best-practices-plugin-template",
+      "target": "rhysd/action-setup-vim@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "ColinKennedy/nvim-best-practices-plugin-template",
+      "target": "kdheepak/panvimdoc@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "ColinKennedy/nvim-best-practices-plugin-template",
+      "target": "stefanzweifel/git-auto-commit-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "ColinKennedy/nvim-best-practices-plugin-template",
+      "target": "Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llscheck.yml",
+      "source_repo": "ColinKennedy/nvim-best-practices-plugin-template",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llscheck.yml",
+      "source_repo": "ColinKennedy/nvim-best-practices-plugin-template",
+      "target": "rhysd/action-setup-vim@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llscheck.yml",
+      "source_repo": "ColinKennedy/nvim-best-practices-plugin-template",
+      "target": "leafo/gh-actions-lua@v13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llscheck.yml",
+      "source_repo": "ColinKennedy/nvim-best-practices-plugin-template",
+      "target": "jdx/mise-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llscheck.yml",
+      "source_repo": "ColinKennedy/nvim-best-practices-plugin-template",
+      "target": "ColinKennedy/gh-actions-luarocks@v1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/llscheck.yml",
+      "source_repo": "ColinKennedy/nvim-best-practices-plugin-template",
+      "target": "llscheck",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luacheck.yml",
+      "source_repo": "ColinKennedy/nvim-best-practices-plugin-template",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/luacheck.yml",
+      "source_repo": "ColinKennedy/nvim-best-practices-plugin-template",
+      "target": "Luacheck",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luacov.yml",
+      "source_repo": "ColinKennedy/nvim-best-practices-plugin-template",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luacov.yml",
+      "source_repo": "ColinKennedy/nvim-best-practices-plugin-template",
+      "target": "rhysd/action-setup-vim@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luacov.yml",
+      "source_repo": "ColinKennedy/nvim-best-practices-plugin-template",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luacov.yml",
+      "source_repo": "ColinKennedy/nvim-best-practices-plugin-template",
+      "target": "luarocks/gh-actions-lua@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luacov.yml",
+      "source_repo": "ColinKennedy/nvim-best-practices-plugin-template",
+      "target": "ColinKennedy/gh-actions-luarocks@v1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/luacov.yml",
+      "source_repo": "ColinKennedy/nvim-best-practices-plugin-template",
+      "target": "LuaCov",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mdformat.yml",
+      "source_repo": "ColinKennedy/nvim-best-practices-plugin-template",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mdformat.yml",
+      "source_repo": "ColinKennedy/nvim-best-practices-plugin-template",
+      "target": "mdformat",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/news.yml",
+      "source_repo": "ColinKennedy/nvim-best-practices-plugin-template",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ColinKennedy/nvim-best-practices-plugin-template",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ColinKennedy/nvim-best-practices-plugin-template",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ColinKennedy/nvim-best-practices-plugin-template",
+      "target": "nvim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ColinKennedy/nvim-best-practices-plugin-template",
+      "target": "nvim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ColinKennedy/nvim-best-practices-plugin-template",
+      "target": "plugin-template",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T12:45:20.475770+00:00",
+  "source_repo": "ColinKennedy/nvim-best-practices-plugin-template"
+}

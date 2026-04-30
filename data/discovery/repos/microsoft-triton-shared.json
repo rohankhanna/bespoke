@@ -1,0 +1,139 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-plugin.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-plugin.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format.yml",
+      "source_repo": "microsoft/triton-shared",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format.yml",
+      "source_repo": "microsoft/triton-shared",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-format.yml",
+      "source_repo": "microsoft/triton-shared",
+      "target": "clang-format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "microsoft/triton-shared",
+      "target": "Integration Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-tests.yml",
+      "source_repo": "microsoft/triton-shared",
+      "target": "Nightly Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-plugin.yml",
+      "source_repo": "microsoft/triton-shared",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-plugin.yml",
+      "source_repo": "microsoft/triton-shared",
+      "target": "Triton-Shared Plugin Testing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:58:40.909429+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12240
+    },
+    {
+      "path": ".github/workflows/clang-format.yml",
+      "size": 526
+    },
+    {
+      "path": ".github/workflows/integration-tests.yml",
+      "size": 228
+    },
+    {
+      "path": ".github/workflows/nightly-tests.yml",
+      "size": 2166
+    },
+    {
+      "path": ".github/workflows/test-plugin.yml",
+      "size": 6032
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Shared Middle-Layer for Triton Compilation",
+    "fork": false,
+    "full_name": "microsoft/triton-shared",
+    "html_url": "https://github.com/microsoft/triton-shared",
+    "language": "MLIR",
+    "pushed_at": "2025-12-05T22:58:50Z",
+    "stargazers_count": 331,
+    "topics": [],
+    "updated_at": "2026-04-22T16:55:05Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "clang-format",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-format.yml",
+      "term": "clang-format"
+    },
+    {
+      "context_snippet": "Integration Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "term": "Integration Tests"
+    },
+    {
+      "context_snippet": "Nightly Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-tests.yml",
+      "term": "Nightly Tests"
+    },
+    {
+      "context_snippet": "Triton-Shared Plugin Testing",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-plugin.yml",
+      "term": "Triton-Shared Plugin Testing"
+    }
+  ]
+}

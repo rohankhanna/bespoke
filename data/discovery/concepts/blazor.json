@@ -67,6 +67,18 @@
       "source_repo": "koenvzeijl/AspNetCore.SassCompiler",
       "status": "candidate-context",
       "text": "[![NuGet Version](https://img.shields.io/nuget/v/AspNetCore.SassCompiler.svg?style=flat)](https://www.nuget.org/packages/AspNetCore.SassCompiler/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IEvangelist/blazor-azure-openai",
+      "status": "candidate-context",
+      "text": "The Blazor WebAssembly app that inspired the Microsoft //Build 2023 demo app."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IEvangelist/blazor-azure-openai",
+      "status": "candidate-context",
+      "text": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "koenvzeijl/AspNetCore.SassCompiler",
       "status": "candidate",
       "text": "[![NuGet Version](https://img.shields.io/nuget/v/AspNetCore.SassCompiler.svg?style=flat)](https://www.nuget.org/packages/AspNetCore.SassCompiler/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IEvangelist/blazor-azure-openai",
+      "status": "candidate",
+      "text": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->"
     }
   ],
   "candidate_related_terms": [
@@ -172,11 +190,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "koenvzeijl/AspNetCore.SassCompiler"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "IEvangelist/blazor-azure-openai"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

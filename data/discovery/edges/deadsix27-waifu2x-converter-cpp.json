@@ -1,0 +1,111 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DeadSix27/waifu2x-converter-cpp",
+      "target": "yukihoaa/waifu2x_snowshell",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DeadSix27/waifu2x-converter-cpp",
+      "target": "kazuho/picojson",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/w2x-runner.yml",
+      "source_repo": "DeadSix27/waifu2x-converter-cpp",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/w2x-runner.yml",
+      "source_repo": "DeadSix27/waifu2x-converter-cpp",
+      "target": "actions/upload-artifact@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/w2x-runner.yml",
+      "source_repo": "DeadSix27/waifu2x-converter-cpp",
+      "target": "w2x-runner",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DeadSix27/waifu2x-converter-cpp",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DeadSix27/waifu2x-converter-cpp",
+      "target": "intel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DeadSix27/waifu2x-converter-cpp",
+      "target": "nvidia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DeadSix27/waifu2x-converter-cpp",
+      "target": "opencl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DeadSix27/waifu2x-converter-cpp",
+      "target": "opencv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DeadSix27/waifu2x-converter-cpp",
+      "target": "upscale",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DeadSix27/waifu2x-converter-cpp",
+      "target": "upscaler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DeadSix27/waifu2x-converter-cpp",
+      "target": "waifu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DeadSix27/waifu2x-converter-cpp",
+      "target": "waifu2x",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DeadSix27/waifu2x-converter-cpp",
+      "target": "waifu2x-converter-cpp",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T12:45:20.475770+00:00",
+  "source_repo": "DeadSix27/waifu2x-converter-cpp"
+}

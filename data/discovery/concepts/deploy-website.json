@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Deploy website",
-    "Deploy Website"
+    "Deploy Website",
+    "Deploy Website \ud83d\ude80"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -68,6 +69,18 @@
       "source_repo": "graffle-js/graffle",
       "status": "candidate-context",
       "text": "Deploy Website"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebookresearch/mmf",
+      "status": "candidate-context",
+      "text": "A modular framework for vision & language multimodal research from Facebook AI Research (FAIR)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookresearch/mmf",
+      "status": "candidate-context",
+      "text": "Deploy Website \ud83d\ude80"
     }
   ],
   "candidate_glosses": [
@@ -100,6 +113,12 @@
       "source_repo": "graffle-js/graffle",
       "status": "candidate",
       "text": "Deploy Website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookresearch/mmf",
+      "status": "candidate",
+      "text": "Deploy Website \ud83d\ude80"
     }
   ],
   "candidate_related_terms": [
@@ -173,11 +192,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/deploy-website.yml",
       "source_repo": "graffle-js/graffle"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/deploy_website.yaml",
+      "source_repo": "facebookresearch/mmf"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -535,6 +535,102 @@
       "source_repo": "PKU-YuanGroup/ChronoMagic-Bench",
       "status": "candidate-context",
       "text": "<div align=center>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ali-vilab/VGen",
+      "status": "candidate-context",
+      "text": "Official repo for VGen: a holistic video generation ecosystem for video generation building on diffusion models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ali-vilab/VGen",
+      "status": "candidate-context",
+      "text": "easydict==1.10 tokenizers==0.12.1 numpy>=1.19.2 ftfy==6.1.1 transformers==4.18.0 imageio==2.15.0 fairscale==0.4.6 ipdb open-clip-torch==2.0.2 xformers==0.0.13 chardet==5.1.0 torchdiffeq==0.2.3 opencv-python==4.4.0.46 opencv-python-headless==4.7.0.68 torchsde==0.2.6 simplejson==3\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SandAI-org/MAGI-1",
+      "status": "candidate-context",
+      "text": "MAGI-1: Autoregressive Video Generation at Scale"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SandAI-org/MAGI-1",
+      "status": "candidate-context",
+      "text": "![magi-logo](figures/logo_black.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zai-org/ImageReward",
+      "status": "candidate-context",
+      "text": "[NeurIPS 2023] ImageReward: Learning and Evaluating Human Preferences for Text-to-image Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zai-org/ImageReward",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PKU-YuanGroup/ConsisID",
+      "status": "candidate-context",
+      "text": "[CVPR 2025 Highlight\ud83d\udd25] Identity-Preserving Text-to-Video Generation by Frequency Decomposition"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PKU-YuanGroup/ConsisID",
+      "status": "candidate-context",
+      "text": "<div align=center>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ArulselvanMadhavan/diffusers-ocaml",
+      "status": "candidate-context",
+      "text": "Diffusers API in OCaml"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ArulselvanMadhavan/diffusers-ocaml",
+      "status": "candidate-context",
+      "text": "Diffusers API in OCaml"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ArulselvanMadhavan/mini_dalle",
+      "status": "candidate-context",
+      "text": "mini-dalle in OCaml"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ArulselvanMadhavan/mini_dalle",
+      "status": "candidate-context",
+      "text": "numpy torch torchvision min_dalle"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Tencent-Hunyuan/HunyuanVideo",
+      "status": "candidate-context",
+      "text": "HunyuanVideo: A Systematic Framework For Large Video Generation Model"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent-Hunyuan/HunyuanVideo",
+      "status": "candidate-context",
+      "text": "<!-- ## **HunyuanVideo** -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shivammehta25/Matcha-TTS",
+      "status": "candidate-context",
+      "text": "[ICASSP 2024] \ud83c\udf75 Matcha-TTS: A fast TTS architecture with conditional flow matching"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shivammehta25/Matcha-TTS",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -801,6 +897,54 @@
       "source_repo": "PKU-YuanGroup/ChronoMagic-Bench",
       "status": "candidate",
       "text": "<div align=center>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ali-vilab/VGen",
+      "status": "candidate",
+      "text": "easydict==1.10 tokenizers==0.12.1 numpy>=1.19.2 ftfy==6.1.1 transformers==4.18.0 imageio==2.15.0 fairscale==0.4.6 ipdb open-clip-torch==2.0.2 xformers==0.0.13 chardet==5.1.0 torchdiffeq==0.2.3 opencv-python==4.4.0.46 opencv-python-headless==4.7.0.68 torchsde==0.2.6 simplejson==3\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SandAI-org/MAGI-1",
+      "status": "candidate",
+      "text": "![magi-logo](figures/logo_black.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zai-org/ImageReward",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PKU-YuanGroup/ConsisID",
+      "status": "candidate",
+      "text": "<div align=center>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ArulselvanMadhavan/diffusers-ocaml",
+      "status": "candidate",
+      "text": "Diffusers API in OCaml"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ArulselvanMadhavan/mini_dalle",
+      "status": "candidate",
+      "text": "numpy torch torchvision min_dalle"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent-Hunyuan/HunyuanVideo",
+      "status": "candidate",
+      "text": "<!-- ## **HunyuanVideo** -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shivammehta25/Matcha-TTS",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -1138,11 +1282,83 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "ali-vilab/TeaCache"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/finetrainers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ali-vilab/VGen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "SandAI-org/MAGI-1"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/ImageReward"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "diff-usion/Awesome-Diffusion-Models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "PKU-YuanGroup/ConsisID"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ArulselvanMadhavan/diffusers-ocaml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ArulselvanMadhavan/mini_dalle"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanVideo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "shivammehta25/Matcha-TTS"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

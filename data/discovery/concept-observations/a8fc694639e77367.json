@@ -84,7 +84,7 @@
   "normalized_form": "frontend-tests",
   "observation_id": "a8fc694639e77367",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
   "observed_text": "frontend tests",
   "source_context_snippet": "'frontend tests'",
   "source_file": ".github/workflows/frontend-tests.yml",

@@ -43,6 +43,18 @@
       "source_repo": "dwyl/learn-elm",
       "status": "candidate-context",
       "text": "> It's _difficult_ to _introduce_ elm to someone"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/learn-redux",
+      "status": "candidate-context",
+      "text": ":boom: Comprehensive Notes for Learning (how to use) Redux to manage state in your Web/Mobile (React.js) Apps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/learn-redux",
+      "status": "candidate-context",
+      "text": "![learn-redux-header](https://cloud.githubusercontent.com/assets/194400/12328626/12f025de-bad4-11e5-9ebd-c0994b8f2f24.png)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "dwyl/learn-elm",
       "status": "candidate",
       "text": "> It's _difficult_ to _introduce_ elm to someone"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/learn-redux",
+      "status": "candidate",
+      "text": "![learn-redux-header](https://cloud.githubusercontent.com/assets/194400/12328626/12f025de-bad4-11e5-9ebd-c0994b8f2f24.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -94,11 +112,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "dwyl/learn-elm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/learn-redux"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

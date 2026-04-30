@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83c\udfa8\ud83d\udca7 An easy to use base16 scheme manager that integrates with any workflow."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40022285,
+      "status": "candidate",
+      "text": "panchromatic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40021759,
+      "status": "candidate",
+      "text": "colouring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40010653,
+      "status": "candidate",
+      "text": "colour in"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40009187,
+      "status": "candidate",
+      "text": "color in"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39999615,
+      "status": "candidate",
+      "text": "gloss"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "color",
+      "sense_id": "color#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26035,
+      "status": "candidate",
+      "text": "distort"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25032,
+      "status": "candidate",
+      "text": "semblance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19059,
+      "status": "candidate",
+      "text": "gloss"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15027,
+      "status": "candidate",
+      "text": "emblazon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8019,
+      "status": "candidate",
+      "text": "vividness"
+    }
+  ],
+  "concept_id": "color",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "color",
+  "observation_id": "3bf00b812fe3deee",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "color",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "Misterio77/flavours",
+  "source_repo_description": "\ud83c\udfa8\ud83d\udca7 An easy to use base16 scheme manager that integrates with any workflow."
+}

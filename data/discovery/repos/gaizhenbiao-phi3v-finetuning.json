@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T15:14:19.629414+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5979
+    },
+    {
+      "path": "requirements.txt",
+      "size": 2432
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Parameter-efficient finetuning script for Phi-3-vision, the strong multimodal language model by Microsoft.",
+    "fork": false,
+    "full_name": "GaiZhenbiao/Phi3V-Finetuning",
+    "html_url": "https://github.com/GaiZhenbiao/Phi3V-Finetuning",
+    "language": "Python",
+    "pushed_at": "2024-06-17T09:13:35Z",
+    "stargazers_count": 59,
+    "topics": [],
+    "updated_at": "2026-04-17T14:17:48Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

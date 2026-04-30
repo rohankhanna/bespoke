@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T15:14:26.895196+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7132
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "RISE-Video: Can Video Generators Decode Implicit World Rules?",
+    "fork": false,
+    "full_name": "VisionXLab/Rise-Video",
+    "html_url": "https://github.com/VisionXLab/Rise-Video",
+    "language": "Python",
+    "pushed_at": "2026-03-26T08:38:05Z",
+    "stargazers_count": 28,
+    "topics": [],
+    "updated_at": "2026-04-16T12:31:13Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "process-supervision"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dbfixtures/mirakuru",
+      "status": "candidate-context",
+      "text": "Mirakuru - a python library that starts your subprocess and waits for a clear indication, that it's running (process orchestrator)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dbfixtures/mirakuru",
+      "status": "candidate-context",
+      "text": ".. image:: https://raw.githubusercontent.com/dbfixtures/mirakuru/master/logo.png"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dbfixtures/mirakuru",
+      "status": "candidate",
+      "text": ".. image:: https://raw.githubusercontent.com/dbfixtures/mirakuru/master/logo.png"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "process-supervision",
+  "concept_id": "process-supervision",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "dbfixtures/mirakuru"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "process-supervision",
+      "sense_id": "process-supervision#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

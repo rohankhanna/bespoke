@@ -181,6 +181,54 @@
       "source_repo": "AleshaOleg/postcss-sass",
       "status": "candidate-context",
       "text": "[![Build Status](https://travis-ci.org/AleshaOleg/postcss-sass.svg?branch=master)](https://travis-ci.org/AleshaOleg/postcss-sass) [![Coverage Status](https://coveralls.io/repos/github/AleshaOleg/postcss-sass/badge.svg)](https://coveralls.io/github/AleshaOleg/postcss-sass) [![Gre\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "svg-sprite/svg-sprite",
+      "status": "candidate-context",
+      "text": "SVG sprites & stacks galore \u2014 A low-level Node.js module that takes a bunch of SVG files, optimizes them and bakes them into SVG sprites of several types along with suitable stylesheet resources (e.g. CSS, Sass, LESS, Stylus, etc.)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "svg-sprite/svg-sprite",
+      "status": "candidate-context",
+      "text": "[![npm version][npm-image]][npm-url] [![Build Status][ci-image]][ci-url] [![Coverage Status][coveralls-image]][coveralls-url] [![npm downloads][npm-downloads]][npm-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "smartstore/SmartStoreNET",
+      "status": "candidate-context",
+      "text": "Open Source ASP.NET MVC Enterprise eCommerce Shopping Cart Solution"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smartstore/SmartStoreNET",
+      "status": "candidate-context",
+      "text": "This repository is outdated and no longer being actively maintained by the Smartstore devs."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "electron-vite/electron-vite-react",
+      "status": "candidate-context",
+      "text": ":electron: Electron + Vite + React + Sass boilerplate."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron-vite/electron-vite-react",
+      "status": "candidate-context",
+      "text": "[![awesome-vite](https://awesome.re/mentioned-badge.svg)](https://github.com/vitejs/awesome-vite)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hyperbrew/bolt-cep",
+      "status": "candidate-context",
+      "text": "A lightning-fast framework for building Adobe CEP Extensions in Svelte, React, or Vue built on Vite + TypeScript + Sass"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyperbrew/bolt-cep",
+      "status": "candidate-context",
+      "text": "<img src=\"src/js/assets/bolt-cep.svg\" alt=\"Bolt CEP\" title=\"Bolt CEP\" width=\"400\" />"
     }
   ],
   "candidate_glosses": [
@@ -273,6 +321,30 @@
       "source_repo": "AleshaOleg/postcss-sass",
       "status": "candidate",
       "text": "[![Build Status](https://travis-ci.org/AleshaOleg/postcss-sass.svg?branch=master)](https://travis-ci.org/AleshaOleg/postcss-sass) [![Coverage Status](https://coveralls.io/repos/github/AleshaOleg/postcss-sass/badge.svg)](https://coveralls.io/github/AleshaOleg/postcss-sass) [![Gre\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "svg-sprite/svg-sprite",
+      "status": "candidate",
+      "text": "[![npm version][npm-image]][npm-url] [![Build Status][ci-image]][ci-url] [![Coverage Status][coveralls-image]][coveralls-url] [![npm downloads][npm-downloads]][npm-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smartstore/SmartStoreNET",
+      "status": "candidate",
+      "text": "This repository is outdated and no longer being actively maintained by the Smartstore devs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron-vite/electron-vite-react",
+      "status": "candidate",
+      "text": "[![awesome-vite](https://awesome.re/mentioned-badge.svg)](https://github.com/vitejs/awesome-vite)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyperbrew/bolt-cep",
+      "status": "candidate",
+      "text": "<img src=\"src/js/assets/bolt-cep.svg\" alt=\"Bolt CEP\" title=\"Bolt CEP\" width=\"400\" />"
     }
   ],
   "candidate_related_terms": [
@@ -435,11 +507,35 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "AleshaOleg/postcss-sass"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "svg-sprite/svg-sprite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "smartstore/SmartStoreNET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "electron-vite/electron-vite-react"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "hyperbrew/bolt-cep"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -661,6 +661,30 @@
       "source_repo": "ParRes/Kernels",
       "status": "candidate-context",
       "text": "![PRK logo.](https://github.com/ParRes/Kernels/blob/default/logo/PRK%20logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abey79/vsketch",
+      "status": "candidate-context",
+      "text": "Generative plotter art environment for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abey79/vsketch",
+      "status": "candidate-context",
+      "text": "![python](https://img.shields.io/github/languages/top/abey79/vsketch)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TimoBolkart/voca",
+      "status": "candidate-context",
+      "text": "This codebase demonstrates how to synthesize realistic 3D character animations given an arbitrary speech signal and a static character mesh."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TimoBolkart/voca",
+      "status": "candidate-context",
+      "text": "This is an official [VOCA](https://voca.is.tue.mpg.de) repository."
     }
   ],
   "candidate_glosses": [
@@ -987,6 +1011,18 @@
       "source_repo": "ParRes/Kernels",
       "status": "candidate",
       "text": "![PRK logo.](https://github.com/ParRes/Kernels/blob/default/logo/PRK%20logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abey79/vsketch",
+      "status": "candidate",
+      "text": "![python](https://img.shields.io/github/languages/top/abey79/vsketch)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TimoBolkart/voca",
+      "status": "candidate",
+      "text": "This is an official [VOCA](https://voca.is.tue.mpg.de) repository."
     }
   ],
   "candidate_related_terms": [],
@@ -1432,11 +1468,65 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "ParRes/Kernels"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/labelImg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "zhayujie/CowAgent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "tinted-theming/tinted-builder-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "RealFerdinandDeSaussure/base16-builder-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "astral-sh/ruff"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "PyCQA/isort"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "abey79/vsketch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "TimoBolkart/voca"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

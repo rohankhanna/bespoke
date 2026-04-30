@@ -157,6 +157,60 @@
       "source_repo": "cloudwego/netpoll-benchmark",
       "status": "candidate-context",
       "text": "Pull Request Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudwego/gjson",
+      "status": "candidate-context",
+      "text": "Faster substitution of tidwall/gjson"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudwego/gjson",
+      "status": "candidate-context",
+      "text": "Pull Request Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudwego/hertz-examples",
+      "status": "candidate-context",
+      "text": "Examples for Hertz."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudwego/hertz-examples",
+      "status": "candidate-context",
+      "text": "Pull Request Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hertz-contrib/autotls",
+      "status": "candidate-context",
+      "text": "Autotls for Hertz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hertz-contrib/autotls",
+      "status": "candidate-context",
+      "text": "Pull Request Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hertz-contrib/cache",
+      "status": "candidate-context",
+      "text": "Pull Request Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kitex-contrib/codec-dubbo-tests",
+      "status": "candidate-context",
+      "text": "Tests for Kitex's codec-dubbo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kitex-contrib/codec-dubbo-tests",
+      "status": "candidate-context",
+      "text": "Pull Request Check"
     }
   ],
   "candidate_glosses": [
@@ -235,6 +289,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "cloudwego/netpoll-benchmark",
+      "status": "candidate",
+      "text": "Pull Request Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudwego/gjson",
+      "status": "candidate",
+      "text": "Pull Request Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudwego/hertz-examples",
+      "status": "candidate",
+      "text": "Pull Request Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hertz-contrib/autotls",
+      "status": "candidate",
+      "text": "Pull Request Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hertz-contrib/cache",
+      "status": "candidate",
+      "text": "Pull Request Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kitex-contrib/codec-dubbo-tests",
       "status": "candidate",
       "text": "Pull Request Check"
     }
@@ -358,11 +442,41 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/pr-check.yml",
       "source_repo": "cloudwego/netpoll-benchmark"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/pr-check.yml",
+      "source_repo": "cloudwego/gjson"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/pr-check.yml",
+      "source_repo": "cloudwego/hertz-examples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/pr-check.yml",
+      "source_repo": "hertz-contrib/autotls"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/pr-check.yml",
+      "source_repo": "hertz-contrib/cache"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/pr-check.yml",
+      "source_repo": "kitex-contrib/codec-dubbo-tests"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -19,6 +19,18 @@
       "source_repo": "earthly/earthly",
       "status": "candidate-context",
       "text": "<h1>Earthly</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "qri-io/qri",
+      "status": "candidate-context",
+      "text": "you're invited to a data party!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qri-io/qri",
+      "status": "candidate-context",
+      "text": "[![Qri](https://img.shields.io/badge/made%20by-qri-magenta.svg?style=flat-square)](https://qri.io) [![GoDoc](https://godoc.org/github.com/qri-io/qri?status.svg)](http://godoc.org/github.com/qri-io/qri) [![License](https://img.shields.io/github/license/qri-io/qri.svg?style=flat-s\u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "earthly/earthly",
       "status": "candidate",
       "text": "<h1>Earthly</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qri-io/qri",
+      "status": "candidate",
+      "text": "[![Qri](https://img.shields.io/badge/made%20by-qri-magenta.svg?style=flat-square)](https://qri.io) [![GoDoc](https://godoc.org/github.com/qri-io/qri?status.svg)](http://godoc.org/github.com/qri-io/qri) [![License](https://img.shields.io/github/license/qri-io/qri.svg?style=flat-s\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "earthly/earthly"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "qri-io/qri"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

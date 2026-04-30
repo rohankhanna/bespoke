@@ -19,6 +19,18 @@
       "source_repo": "Trusted-AI/adversarial-robustness-toolbox",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agencyenterprise/PromptInject",
+      "status": "candidate-context",
+      "text": "PromptInject is a framework that assembles prompts in a modular fashion to provide a quantitative analysis of the robustness of LLMs to adversarial prompt attacks. \ud83c\udfc6 Best Paper Awards @ NeurIPS ML Safety Workshop 2022"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agencyenterprise/PromptInject",
+      "status": "candidate-context",
+      "text": "[**Paper: Ignore Previous Prompt: Attack Techniques For Language Models**](https://arxiv.org/abs/2211.09527)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "Trusted-AI/adversarial-robustness-toolbox",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agencyenterprise/PromptInject",
+      "status": "candidate",
+      "text": "[**Paper: Ignore Previous Prompt: Attack Techniques For Language Models**](https://arxiv.org/abs/2211.09527)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "Trusted-AI/adversarial-robustness-toolbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "agencyenterprise/PromptInject"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

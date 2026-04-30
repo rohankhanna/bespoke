@@ -1,0 +1,170 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "modelscope/FunCodec",
+      "target": "alibaba/funcodec",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "modelscope/FunCodec",
+      "target": "alibaba/funasr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "modelscope/FunCodec",
+      "target": "mikxox/encodec_trainer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "modelscope/FunCodec",
+      "target": "audio-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "modelscope/FunCodec",
+      "target": "audio-quantization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "modelscope/FunCodec",
+      "target": "codec",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "modelscope/FunCodec",
+      "target": "encodec",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "modelscope/FunCodec",
+      "target": "speech-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "modelscope/FunCodec",
+      "target": "speech-to-text",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "modelscope/FunCodec",
+      "target": "voicecloning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:13:01.920622+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9387
+    },
+    {
+      "path": "requirements.txt",
+      "size": 89
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "FunCodec is a research-oriented toolkit for audio quantization and downstream applications, such as text-to-speech synthesis, music generation et.al. ",
+    "fork": false,
+    "full_name": "modelscope/FunCodec",
+    "html_url": "https://github.com/modelscope/FunCodec",
+    "language": "Python",
+    "pushed_at": "2024-01-25T11:56:17Z",
+    "stargazers_count": 443,
+    "topics": [
+      "audio-generation",
+      "audio-quantization",
+      "codec",
+      "encodec",
+      "speech-synthesis",
+      "speech-to-text",
+      "tts",
+      "voicecloning"
+    ],
+    "updated_at": "2026-03-31T07:43:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alibaba/funasr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alibaba/funcodec",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mikxox/encodec_trainer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This project is still working on progress. To make FunCodec better, please let me know your concerns and feel free to comment them in the `Issues` part.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio-generation"
+    },
+    {
+      "context_snippet": "This project is still working on progress. To make FunCodec better, please let me know your concerns and feel free to comment them in the `Issues` part.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio-quantization"
+    },
+    {
+      "context_snippet": "This project is still working on progress. To make FunCodec better, please let me know your concerns and feel free to comment them in the `Issues` part.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "codec"
+    },
+    {
+      "context_snippet": "This project is still working on progress. To make FunCodec better, please let me know your concerns and feel free to comment them in the `Issues` part.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "encodec"
+    },
+    {
+      "context_snippet": "This project is still working on progress. To make FunCodec better, please let me know your concerns and feel free to comment them in the `Issues` part.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-synthesis"
+    },
+    {
+      "context_snippet": "This project is still working on progress. To make FunCodec better, please let me know your concerns and feel free to comment them in the `Issues` part.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-to-text"
+    },
+    {
+      "context_snippet": "This project is still working on progress. To make FunCodec better, please let me know your concerns and feel free to comment them in the `Issues` part.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "voicecloning"
+    }
+  ]
+}

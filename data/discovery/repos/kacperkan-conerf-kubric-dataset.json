@@ -1,0 +1,113 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kacperkan/conerf-kubric-dataset",
+      "target": "kacperkan/conerf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kacperkan/conerf-kubric-dataset",
+      "target": "dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kacperkan/conerf-kubric-dataset",
+      "target": "nerf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kacperkan/conerf-kubric-dataset",
+      "target": "neural-radiance-fields",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kacperkan/conerf-kubric-dataset",
+      "target": "novel-view-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kacperkan/conerf-kubric-dataset",
+      "target": "synthetic-dataset-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:08:30.990314+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4543
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Repository used to generate synthetic dataset from Kubric, used in \"CoNeRF: Controllable Neural Radiance Fields\"",
+    "fork": false,
+    "full_name": "kacperkan/conerf-kubric-dataset",
+    "html_url": "https://github.com/kacperkan/conerf-kubric-dataset",
+    "language": "Python",
+    "pushed_at": "2022-04-08T15:28:16Z",
+    "stargazers_count": 7,
+    "topics": [
+      "dataset",
+      "nerf",
+      "neural-radiance-fields",
+      "novel-view-synthesis",
+      "synthetic-dataset-generation"
+    ],
+    "updated_at": "2024-01-03T10:51:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kacperkan/conerf",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![MIT license](https://img.shields.io/badge/license-Apache%20v2.0-white.svg)](https://github.com/kacperkan/conerf-kubric-dataset/blob/main/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataset"
+    },
+    {
+      "context_snippet": "[![MIT license](https://img.shields.io/badge/license-Apache%20v2.0-white.svg)](https://github.com/kacperkan/conerf-kubric-dataset/blob/main/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nerf"
+    },
+    {
+      "context_snippet": "[![MIT license](https://img.shields.io/badge/license-Apache%20v2.0-white.svg)](https://github.com/kacperkan/conerf-kubric-dataset/blob/main/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-radiance-fields"
+    },
+    {
+      "context_snippet": "[![MIT license](https://img.shields.io/badge/license-Apache%20v2.0-white.svg)](https://github.com/kacperkan/conerf-kubric-dataset/blob/main/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "novel-view-synthesis"
+    },
+    {
+      "context_snippet": "[![MIT license](https://img.shields.io/badge/license-Apache%20v2.0-white.svg)](https://github.com/kacperkan/conerf-kubric-dataset/blob/main/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "synthetic-dataset-generation"
+    }
+  ]
+}

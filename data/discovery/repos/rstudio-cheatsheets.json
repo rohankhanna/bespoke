@@ -1,0 +1,107 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "quarto-dev/quarto-actions/setup@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "r-lib/actions/setup-r@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "r-lib/actions/setup-renv@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "quarto-dev/quarto-actions/publish@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "rstudio/cheatsheets",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "rstudio/cheatsheets",
+      "target": "quarto-dev/quarto-actions/setup@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "rstudio/cheatsheets",
+      "target": "r-lib/actions/setup-r@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "rstudio/cheatsheets",
+      "target": "r-lib/actions/setup-renv@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "rstudio/cheatsheets",
+      "target": "quarto-dev/quarto-actions/publish@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "rstudio/cheatsheets",
+      "target": "Quarto Publish",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:59:13.829547+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8738
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 962
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Posit Cheat Sheets - Can also be found at https://posit.co/resources/cheatsheets/.",
+    "fork": false,
+    "full_name": "rstudio/cheatsheets",
+    "html_url": "https://github.com/rstudio/cheatsheets",
+    "language": "TeX",
+    "pushed_at": "2026-04-09T12:39:18Z",
+    "stargazers_count": 6342,
+    "topics": [],
+    "updated_at": "2026-04-28T18:22:39Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Quarto Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Quarto Publish"
+    }
+  ]
+}

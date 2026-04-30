@@ -58,6 +58,18 @@
       "source_repo": "erg-lang/erg",
       "status": "candidate-context",
       "text": "Notify"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "box/box-openapi",
+      "status": "candidate-context",
+      "text": "OpenAPI 3.0 Specification for the Box APIs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "box/box-openapi",
+      "status": "candidate-context",
+      "text": "Notify"
     }
   ],
   "candidate_glosses": [
@@ -88,6 +100,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "erg-lang/erg",
+      "status": "candidate",
+      "text": "Notify"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "box/box-openapi",
       "status": "candidate",
       "text": "Notify"
     }
@@ -199,11 +217,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/notify.yml",
       "source_repo": "erg-lang/erg"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/notify.yml",
+      "source_repo": "box/box-openapi"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

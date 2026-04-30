@@ -84,7 +84,7 @@
   "normalized_form": "delete-changeset-bot-comments",
   "observation_id": "b21c30c7e13886ef",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
   "observed_text": "\ud83d\uddd1\ufe0f Delete Changeset Bot Comments",
   "source_context_snippet": "\ud83d\uddd1\ufe0f Delete Changeset Bot Comments",
   "source_file": ".github/workflows/delete-changeset-bot-comments.yml",

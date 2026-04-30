@@ -1,0 +1,97 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "benjamimgois/goverlay",
+      "target": "dadschoorse/vkbasalt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "benjamimgois/goverlay",
+      "target": "boukehaarsma23/zenergy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "benjamimgois/goverlay",
+      "target": "benjamimgois/pascube",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "benjamimgois/goverlay",
+      "target": "artur-graniszewski/dlss-enabler",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/appimage.yml",
+      "source_repo": "benjamimgois/goverlay",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/appimage.yml",
+      "source_repo": "benjamimgois/goverlay",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/appimage.yml",
+      "source_repo": "benjamimgois/goverlay",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/appimage.yml",
+      "source_repo": "benjamimgois/goverlay",
+      "target": "actions/download-artifact@v4.1.9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/appimage.yml",
+      "source_repo": "benjamimgois/goverlay",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/appimage.yml",
+      "source_repo": "benjamimgois/goverlay",
+      "target": "AppImage CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flatpak-release.yml",
+      "source_repo": "benjamimgois/goverlay",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flatpak-release.yml",
+      "source_repo": "benjamimgois/goverlay",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/flatpak-release.yml",
+      "source_repo": "benjamimgois/goverlay",
+      "target": "Flatpak CI",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T12:45:20.475770+00:00",
+  "source_repo": "benjamimgois/goverlay"
+}

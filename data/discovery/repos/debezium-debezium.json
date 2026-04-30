@@ -1,0 +1,448 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apicurio-check-workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apicurio-check-workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apicurio-check-workflow.yml"
+    },
+    {
+      "component": "debezium/dbz/.github/actions/check-dco@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit-signoff-check.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/connector-informix-workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/connector-informix-workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/connector-jdbc-workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/connector-mariadb-workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/connector-mongodb-workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/connector-mysql-workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/connector-oracle-workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/connector-postgresql-workflow.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apicurio-check-workflow.yml",
+      "source_repo": "debezium/debezium",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/apicurio-check-workflow.yml",
+      "source_repo": "debezium/debezium",
+      "target": "Apicurio PR check workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit-signoff-check.yml",
+      "source_repo": "debezium/debezium",
+      "target": "debezium/dbz/.github/actions/check-dco@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/commit-signoff-check.yml",
+      "source_repo": "debezium/debezium",
+      "target": "Commit Sign-off Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/connector-informix-workflow.yml",
+      "source_repo": "debezium/debezium",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/connector-informix-workflow.yml",
+      "source_repo": "debezium/debezium",
+      "target": "Informix Builds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/connector-jdbc-workflow.yml",
+      "source_repo": "debezium/debezium",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/connector-jdbc-workflow.yml",
+      "source_repo": "debezium/debezium",
+      "target": "JDBC Builds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/connector-mariadb-workflow.yml",
+      "source_repo": "debezium/debezium",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/connector-mariadb-workflow.yml",
+      "source_repo": "debezium/debezium",
+      "target": "MariaDB Builds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/connector-mongodb-workflow.yml",
+      "source_repo": "debezium/debezium",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/connector-mongodb-workflow.yml",
+      "source_repo": "debezium/debezium",
+      "target": "MongoDB Builds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/connector-mysql-workflow.yml",
+      "source_repo": "debezium/debezium",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/connector-mysql-workflow.yml",
+      "source_repo": "debezium/debezium",
+      "target": "MySQL Builds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/connector-oracle-workflow.yml",
+      "source_repo": "debezium/debezium",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/connector-oracle-workflow.yml",
+      "source_repo": "debezium/debezium",
+      "target": "Oracle Builds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/connector-postgresql-workflow.yml",
+      "source_repo": "debezium/debezium",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/connector-postgresql-workflow.yml",
+      "source_repo": "debezium/debezium",
+      "target": "PostgreSQL Builds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "debezium/debezium",
+      "target": "apache-kafka",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "debezium/debezium",
+      "target": "change-data-capture",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "debezium/debezium",
+      "target": "data-pipeline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "debezium/debezium",
+      "target": "database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "debezium/debezium",
+      "target": "debezium",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "debezium/debezium",
+      "target": "event-streaming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "debezium/debezium",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "debezium/debezium",
+      "target": "kafka",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "debezium/debezium",
+      "target": "kafka-connect",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "debezium/debezium",
+      "target": "kafka-producer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T12:53:43.386852+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17208
+    },
+    {
+      "path": ".github/workflows/apicurio-check-workflow.yml",
+      "size": 1830
+    },
+    {
+      "path": ".github/workflows/commit-signoff-check.yml",
+      "size": 636
+    },
+    {
+      "path": ".github/workflows/connector-informix-workflow.yml",
+      "size": 1607
+    },
+    {
+      "path": ".github/workflows/connector-jdbc-workflow.yml",
+      "size": 1040
+    },
+    {
+      "path": ".github/workflows/connector-mariadb-workflow.yml",
+      "size": 1319
+    },
+    {
+      "path": ".github/workflows/connector-mongodb-workflow.yml",
+      "size": 942
+    },
+    {
+      "path": ".github/workflows/connector-mysql-workflow.yml",
+      "size": 1561
+    },
+    {
+      "path": ".github/workflows/connector-oracle-workflow.yml",
+      "size": 1143
+    },
+    {
+      "path": ".github/workflows/connector-postgresql-workflow.yml",
+      "size": 964
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Change data capture for a variety of databases. Please log issues at https://github.com/debezium/dbz/issues.",
+    "fork": false,
+    "full_name": "debezium/debezium",
+    "html_url": "https://github.com/debezium/debezium",
+    "language": "Java",
+    "pushed_at": "2026-04-30T07:15:26Z",
+    "stargazers_count": 12674,
+    "topics": [
+      "apache-kafka",
+      "cdc",
+      "change-data-capture",
+      "data-pipeline",
+      "database",
+      "debezium",
+      "event-streaming",
+      "hacktoberfest",
+      "kafka",
+      "kafka-connect",
+      "kafka-producer"
+    ],
+    "updated_at": "2026-04-30T07:15:35Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Apicurio PR check workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/apicurio-check-workflow.yml",
+      "term": "Apicurio PR check workflow"
+    },
+    {
+      "context_snippet": "Commit Sign-off Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/commit-signoff-check.yml",
+      "term": "Commit Sign-off Check"
+    },
+    {
+      "context_snippet": "Informix Builds",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/connector-informix-workflow.yml",
+      "term": "Informix Builds"
+    },
+    {
+      "context_snippet": "JDBC Builds",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/connector-jdbc-workflow.yml",
+      "term": "JDBC Builds"
+    },
+    {
+      "context_snippet": "MariaDB Builds",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/connector-mariadb-workflow.yml",
+      "term": "MariaDB Builds"
+    },
+    {
+      "context_snippet": "MongoDB Builds",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/connector-mongodb-workflow.yml",
+      "term": "MongoDB Builds"
+    },
+    {
+      "context_snippet": "MySQL Builds",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/connector-mysql-workflow.yml",
+      "term": "MySQL Builds"
+    },
+    {
+      "context_snippet": "Oracle Builds",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/connector-oracle-workflow.yml",
+      "term": "Oracle Builds"
+    },
+    {
+      "context_snippet": "PostgreSQL Builds",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/connector-postgresql-workflow.yml",
+      "term": "PostgreSQL Builds"
+    },
+    {
+      "context_snippet": "[![License](http://img.shields.io/:license-apache%202.0-brightgreen.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apache-kafka"
+    },
+    {
+      "context_snippet": "[![License](http://img.shields.io/:license-apache%202.0-brightgreen.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "change-data-capture"
+    },
+    {
+      "context_snippet": "[![License](http://img.shields.io/:license-apache%202.0-brightgreen.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-pipeline"
+    },
+    {
+      "context_snippet": "[![License](http://img.shields.io/:license-apache%202.0-brightgreen.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "database"
+    },
+    {
+      "context_snippet": "[![License](http://img.shields.io/:license-apache%202.0-brightgreen.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "debezium"
+    },
+    {
+      "context_snippet": "[![License](http://img.shields.io/:license-apache%202.0-brightgreen.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "event-streaming"
+    },
+    {
+      "context_snippet": "[![License](http://img.shields.io/:license-apache%202.0-brightgreen.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[![License](http://img.shields.io/:license-apache%202.0-brightgreen.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kafka"
+    },
+    {
+      "context_snippet": "[![License](http://img.shields.io/:license-apache%202.0-brightgreen.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kafka-connect"
+    },
+    {
+      "context_snippet": "[![License](http://img.shields.io/:license-apache%202.0-brightgreen.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kafka-producer"
+    }
+  ]
+}

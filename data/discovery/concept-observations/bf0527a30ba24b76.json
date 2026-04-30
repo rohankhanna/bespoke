@@ -84,7 +84,7 @@
   "normalized_form": "publish-ad4m",
   "observation_id": "bf0527a30ba24b76",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
   "observed_text": "Publish AD4M",
   "source_context_snippet": "Publish AD4M",
   "source_file": ".github/workflows/publish.yml",

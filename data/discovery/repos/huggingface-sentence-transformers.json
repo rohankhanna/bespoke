@@ -132,7 +132,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T19:53:35.858044+00:00",
+  "fetched_at": "2026-04-30T15:11:20.677131+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -164,10 +164,10 @@
     "full_name": "huggingface/sentence-transformers",
     "html_url": "https://github.com/huggingface/sentence-transformers",
     "language": "Python",
-    "pushed_at": "2026-04-24T13:12:37Z",
-    "stargazers_count": 18610,
+    "pushed_at": "2026-04-30T10:56:38Z",
+    "stargazers_count": 18615,
     "topics": [],
-    "updated_at": "2026-04-29T16:33:15Z"
+    "updated_at": "2026-04-30T14:35:22Z"
   },
   "repo_links": [],
   "terms": [

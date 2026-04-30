@@ -1,0 +1,71 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml"
+    },
+    {
+      "component": "asdf-vm/actions/plugin-test@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml",
+      "source_repo": "asdf-vm/asdf-nodejs",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml",
+      "source_repo": "asdf-vm/asdf-nodejs",
+      "target": "asdf-vm/actions/plugin-test@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/workflow.yml",
+      "source_repo": "asdf-vm/asdf-nodejs",
+      "target": "Main workflow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T12:48:02.031384+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9050
+    },
+    {
+      "path": ".github/workflows/workflow.yml",
+      "size": 694
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Node.js plugin for asdf version manager",
+    "fork": false,
+    "full_name": "asdf-vm/asdf-nodejs",
+    "html_url": "https://github.com/asdf-vm/asdf-nodejs",
+    "language": "Shell",
+    "pushed_at": "2026-02-24T13:45:19Z",
+    "stargazers_count": 987,
+    "topics": [],
+    "updated_at": "2026-04-13T08:58:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Main workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/workflow.yml",
+      "term": "Main workflow"
+    }
+  ]
+}

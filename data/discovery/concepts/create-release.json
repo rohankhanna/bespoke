@@ -746,6 +746,54 @@
       "source_repo": "KhronosGroup/OpenCL-SDK",
       "status": "candidate-context",
       "text": "Create Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chu-tianxiang/vllm-gptq",
+      "status": "candidate-context",
+      "text": "A high-throughput and memory-efficient inference and serving engine for LLMs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chu-tianxiang/vllm-gptq",
+      "status": "candidate-context",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vbenjs/vite-plugin-imagemin",
+      "status": "candidate-context",
+      "text": "A vite plugin for compressing image assets."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vbenjs/vite-plugin-imagemin",
+      "status": "candidate-context",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kkharji/sqlite.lua",
+      "status": "candidate-context",
+      "text": "SQLite LuaJIT binding with a very simple api."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kkharji/sqlite.lua",
+      "status": "candidate-context",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actions/python-versions",
+      "status": "candidate-context",
+      "text": "Python builds for Actions Runner Images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/python-versions",
+      "status": "candidate-context",
+      "text": "Create release"
     }
   ],
   "candidate_glosses": [
@@ -1120,6 +1168,30 @@
       "source_repo": "KhronosGroup/OpenCL-SDK",
       "status": "candidate",
       "text": "Create Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chu-tianxiang/vllm-gptq",
+      "status": "candidate",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vbenjs/vite-plugin-imagemin",
+      "status": "candidate",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kkharji/sqlite.lua",
+      "status": "candidate",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/python-versions",
+      "status": "candidate",
+      "text": "Create release"
     }
   ],
   "candidate_related_terms": [
@@ -1685,11 +1757,59 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "KhronosGroup/OpenCL-SDK"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "langflow-ai/langflow"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "chu-tianxiang/vllm-gptq"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "vbenjs/vite-plugin-imagemin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/create-gh-release.yml",
+      "source_repo": "spring-projects/spring-tools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "kkharji/sqlite.lua"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "actions/python-versions"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/create_release.yml",
+      "source_repo": "triton-lang/triton"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,216 @@
+{
+  "components": [
+    {
+      "component": "tinted-theming/home/.github/workflows/shared-auto-assign-issues.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-assign-issues.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "tinted-theming/home/.github/workflows/shared-build-template-and-commit-themes.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tinted-theming/tinted-vim",
+      "target": "tinted-theming/schemes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-assign-issues.yml",
+      "source_repo": "tinted-theming/tinted-vim",
+      "target": "tinted-theming/home/.github/workflows/shared-auto-assign-issues.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-assign-issues.yml",
+      "source_repo": "tinted-theming/tinted-vim",
+      "target": "Auto assignment for issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "tinted-theming/tinted-vim",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "tinted-theming/tinted-vim",
+      "target": "Pull Request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "tinted-theming/tinted-vim",
+      "target": "tinted-theming/home/.github/workflows/shared-build-template-and-commit-themes.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "tinted-theming/tinted-vim",
+      "target": "Update with the latest tinted-theming colorschemes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tinted-theming/tinted-vim",
+      "target": "base16",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tinted-theming/tinted-vim",
+      "target": "base16-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tinted-theming/tinted-vim",
+      "target": "base24",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tinted-theming/tinted-vim",
+      "target": "theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tinted-theming/tinted-vim",
+      "target": "themes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tinted-theming/tinted-vim",
+      "target": "tinted-theming",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:52:37.418616+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6567
+    },
+    {
+      "path": ".github/workflows/auto-assign-issues.yml",
+      "size": 237
+    },
+    {
+      "path": ".github/workflows/pr.yml",
+      "size": 475
+    },
+    {
+      "path": ".github/workflows/update.yml",
+      "size": 465
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "tinted-vim refreshes and commits new themes weekly automatically and has a documented build process.",
+    "fork": false,
+    "full_name": "tinted-theming/tinted-vim",
+    "html_url": "https://github.com/tinted-theming/tinted-vim",
+    "language": "Vim Script",
+    "pushed_at": "2026-04-25T02:24:22Z",
+    "stargazers_count": 161,
+    "topics": [
+      "base16",
+      "base16-theme",
+      "base24",
+      "theme",
+      "themes",
+      "tinted-theming",
+      "vim"
+    ],
+    "updated_at": "2026-04-25T02:24:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tinted-theming/schemes",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Auto assignment for issues\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-assign-issues.yml",
+      "term": "Auto assignment for issues"
+    },
+    {
+      "context_snippet": "\"Pull Request\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr.yml",
+      "term": "Pull Request"
+    },
+    {
+      "context_snippet": "Update with the latest tinted-theming colorschemes",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update.yml",
+      "term": "Update with the latest tinted-theming colorschemes"
+    },
+    {
+      "context_snippet": "Formerly base16-vim, but now supports multiple scheme systems, currently",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "base16"
+    },
+    {
+      "context_snippet": "Formerly base16-vim, but now supports multiple scheme systems, currently",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "base16-theme"
+    },
+    {
+      "context_snippet": "Formerly base16-vim, but now supports multiple scheme systems, currently",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "base24"
+    },
+    {
+      "context_snippet": "Formerly base16-vim, but now supports multiple scheme systems, currently",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "theme"
+    },
+    {
+      "context_snippet": "Formerly base16-vim, but now supports multiple scheme systems, currently",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "themes"
+    },
+    {
+      "context_snippet": "Formerly base16-vim, but now supports multiple scheme systems, currently",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tinted-theming"
+    }
+  ]
+}

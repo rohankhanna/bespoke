@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Rerun tests if failed"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "meta-pytorch/captum",
+      "status": "candidate-context",
+      "text": "Model interpretability and understanding for PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meta-pytorch/captum",
+      "status": "candidate-context",
+      "text": "Rerun tests if failed"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meta-pytorch/captum",
+      "status": "candidate",
+      "text": "Rerun tests if failed"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34628,
+      "status": "candidate",
+      "text": "grounded"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34618,
+      "status": "candidate",
+      "text": "over"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34415,
+      "status": "candidate",
+      "text": "runs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34175,
+      "status": "candidate",
+      "text": "echo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33806,
+      "status": "candidate",
+      "text": "theocracy"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Rerun tests if failed",
+  "concept_id": "rerun-tests-if-failed",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/retry.yml",
+      "source_repo": "meta-pytorch/captum"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Rerun tests if failed",
+      "sense_id": "rerun-tests-if-failed#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

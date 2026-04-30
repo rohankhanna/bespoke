@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T15:57:37.119643+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17123
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 77
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Natural language command line tool for ripgrep.",
+    "fork": false,
+    "full_name": "frankfralick/dripgrep",
+    "html_url": "https://github.com/frankfralick/dripgrep",
+    "language": "Rust",
+    "pushed_at": "2024-03-12T00:06:23Z",
+    "stargazers_count": 167,
+    "topics": [],
+    "updated_at": "2026-03-21T15:05:56Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

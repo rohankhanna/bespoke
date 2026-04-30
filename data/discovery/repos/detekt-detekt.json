@@ -232,7 +232,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "detekt/detekt",
-      "target": "detekt/detekt-intellij-plugin",
+      "target": "ozsie/detekt-maven-plugin",
       "target_type": "repository"
     },
     {
@@ -537,7 +537,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T10:25:04.328215+00:00",
+  "fetched_at": "2026-04-30T15:59:33.680992+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -589,7 +589,7 @@
     "full_name": "detekt/detekt",
     "html_url": "https://github.com/detekt/detekt",
     "language": "Kotlin",
-    "pushed_at": "2026-04-30T06:41:33Z",
+    "pushed_at": "2026-04-30T14:46:58Z",
     "stargazers_count": 6927,
     "topics": [
       "analysis",
@@ -608,11 +608,6 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "detekt/detekt-intellij-plugin",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "detekt/sonar-kotlin",
       "source_file": "README.md"
     },
@@ -624,6 +619,11 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "matheusflauzino/smells-experiment-kotlin-and-java",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ozsie/detekt-maven-plugin",
       "source_file": "README.md"
     }
   ],

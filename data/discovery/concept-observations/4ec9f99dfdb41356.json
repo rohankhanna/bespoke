@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Universal Python SDK to run AI workloads on Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Cleanup Dependency Overrides"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Cleanup Dependency Overrides"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20601,
+      "status": "candidate",
+      "text": "prosthodontics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20601,
+      "status": "candidate",
+      "text": "surgery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20296,
+      "status": "candidate",
+      "text": "absolute"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20296,
+      "status": "candidate",
+      "text": "abuse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20296,
+      "status": "candidate",
+      "text": "all"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Cleanup Dependency Overrides",
+      "sense_id": "cleanup-dependency-overrides#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cleanup-dependency-overrides",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cleanup-dependency-overrides",
+  "observation_id": "4ec9f99dfdb41356",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "Cleanup Dependency Overrides",
+  "source_context_snippet": "Cleanup Dependency Overrides",
+  "source_file": ".github/workflows/cleanup-overrides.yaml",
+  "source_repo": "kubeflow/sdk",
+  "source_repo_description": "Universal Python SDK to run AI workloads on Kubernetes"
+}

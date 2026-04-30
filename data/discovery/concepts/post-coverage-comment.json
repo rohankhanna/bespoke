@@ -92,6 +92,54 @@
       "source_repo": "py-cov-action/python-coverage-comment-action-v3-example",
       "status": "candidate-context",
       "text": "Post coverage comment"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FasterXML/jackson-dataformat-xml",
+      "status": "candidate-context",
+      "text": "Extension for Jackson JSON processor that adds support for serializing POJOs as XML (and deserializing from XML) as an alternative to JSON"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FasterXML/jackson-dataformat-xml",
+      "status": "candidate-context",
+      "text": "Post Coverage Comment"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FasterXML/jackson-dataformats-binary",
+      "status": "candidate-context",
+      "text": "Uber-project for standard Jackson binary format backends: avro, cbor, ion, protobuf, smile"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FasterXML/jackson-dataformats-binary",
+      "status": "candidate-context",
+      "text": "Post Coverage Comment"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FasterXML/jackson-dataformats-text",
+      "status": "candidate-context",
+      "text": "Uber-project for (some) standard Jackson textual format backends: csv, properties, yaml (xml to be added in future)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FasterXML/jackson-dataformats-text",
+      "status": "candidate-context",
+      "text": "Post Coverage Comment"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "py-cov-action/python-coverage-comment-action-v2-example",
+      "status": "candidate-context",
+      "text": "Example repo for v2 of python-coverage-comment-action"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "py-cov-action/python-coverage-comment-action-v2-example",
+      "status": "candidate-context",
+      "text": "Post coverage comment"
     }
   ],
   "candidate_glosses": [
@@ -134,6 +182,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "py-cov-action/python-coverage-comment-action-v3-example",
+      "status": "candidate",
+      "text": "Post coverage comment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FasterXML/jackson-dataformat-xml",
+      "status": "candidate",
+      "text": "Post Coverage Comment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FasterXML/jackson-dataformats-binary",
+      "status": "candidate",
+      "text": "Post Coverage Comment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FasterXML/jackson-dataformats-text",
+      "status": "candidate",
+      "text": "Post Coverage Comment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "py-cov-action/python-coverage-comment-action-v2-example",
       "status": "candidate",
       "text": "Post coverage comment"
     }
@@ -251,11 +323,47 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/coverage.yml",
       "source_repo": "py-cov-action/python-coverage-comment-action-v3-example"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/coverage-comment.yml",
+      "source_repo": "FasterXML/jackson-dataformat-xml"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/coverage-comment.yml",
+      "source_repo": "FasterXML/jackson-dataformats-binary"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/coverage-comment.yml",
+      "source_repo": "FasterXML/jackson-dataformats-text"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "pydantic/pydantic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "py-cov-action/python-coverage-comment-action-v2-example"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/coverage-comment.yml",
+      "source_repo": "a2aproject/a2a-js"
     }
   ],
   "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

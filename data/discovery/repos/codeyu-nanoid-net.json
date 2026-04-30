@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T15:02:43.056112+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3498
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ".NET implementation of ai's nanoid",
+    "fork": false,
+    "full_name": "codeyu/nanoid-net",
+    "html_url": "https://github.com/codeyu/nanoid-net",
+    "language": "C#",
+    "pushed_at": "2025-12-09T16:12:16Z",
+    "stargazers_count": 559,
+    "topics": [],
+    "updated_at": "2026-04-28T14:37:22Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

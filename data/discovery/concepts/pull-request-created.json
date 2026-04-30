@@ -31,6 +31,18 @@
       "source_repo": "stephanj/sonarlint-devoxxgenie-intellij",
       "status": "candidate-context",
       "text": "Pull Request Created"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SonarSource/sonarlint-intellij",
+      "status": "candidate-context",
+      "text": "SonarLint for IntelliJ"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SonarSource/sonarlint-intellij",
+      "status": "candidate-context",
+      "text": "Pull Request Created"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "stephanj/sonarlint-devoxxgenie-intellij",
+      "status": "candidate",
+      "text": "Pull Request Created"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SonarSource/sonarlint-intellij",
       "status": "candidate",
       "text": "Pull Request Created"
     }
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/PullRequestCreated.yml",
       "source_repo": "stephanj/sonarlint-devoxxgenie-intellij"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/PullRequestCreated.yml",
+      "source_repo": "SonarSource/sonarlint-intellij"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,69 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "oneclick/rubyinstaller2-packages",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "oneclick/rubyinstaller2-packages",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "oneclick/rubyinstaller2-packages",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:03:26.882848+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2265
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 3304
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "MSYS2-MINGW packages for RubyInstaller2",
+    "fork": false,
+    "full_name": "oneclick/rubyinstaller2-packages",
+    "html_url": "https://github.com/oneclick/rubyinstaller2-packages",
+    "language": "Shell",
+    "pushed_at": "2026-04-21T10:48:49Z",
+    "stargazers_count": 18,
+    "topics": [],
+    "updated_at": "2026-04-21T10:48:53Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

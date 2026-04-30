@@ -136,7 +136,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "snapcast/snapcast",
-      "target": "snapcast/snapdroid",
+      "target": "snapcast/snapweb",
       "target_type": "repository"
     },
     {
@@ -157,7 +157,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "snapcast/snapcast",
-      "target": "novnc/websockify",
+      "target": "stijnvdb88/snap.net",
       "target_type": "repository"
     },
     {
@@ -252,7 +252,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T09:07:50.419942+00:00",
+  "fetched_at": "2026-04-30T13:59:56.091023+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -277,7 +277,7 @@
     "html_url": "https://github.com/snapcast/snapcast",
     "language": "C++",
     "pushed_at": "2026-03-10T14:27:11Z",
-    "stargazers_count": 7603,
+    "stargazers_count": 7604,
     "topics": [
       "audio",
       "audio-player",
@@ -288,7 +288,7 @@
       "sonos",
       "synchronous"
     ],
-    "updated_at": "2026-04-30T06:36:38Z"
+    "updated_at": "2026-04-30T13:08:03Z"
   },
   "repo_links": [
     {
@@ -303,12 +303,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "novnc/websockify",
+      "full_name": "snapcast/snapweb",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "snapcast/snapdroid",
+      "full_name": "stijnvdb88/snap.net",
       "source_file": "README.md"
     }
   ],

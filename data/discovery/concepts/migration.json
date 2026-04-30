@@ -19,6 +19,18 @@
       "source_repo": "phodal/migration",
       "status": "candidate-context",
       "text": "// \u7248\u672c\uff1av0.1.0"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "acro5piano/kysely-migration-cli",
+      "status": "candidate-context",
+      "text": "A thin library to create a migration script using Kysely "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "acro5piano/kysely-migration-cli",
+      "status": "candidate-context",
+      "text": "A lightweight migration CLI **library** for [Kysely](https://github.com/koskimas/kysely)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "phodal/migration",
       "status": "candidate",
       "text": "// \u7248\u672c\uff1av0.1.0"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "acro5piano/kysely-migration-cli",
+      "status": "candidate",
+      "text": "A lightweight migration CLI **library** for [Kysely](https://github.com/koskimas/kysely)"
     }
   ],
   "candidate_related_terms": [
@@ -82,11 +100,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "phodal/migration"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "acro5piano/kysely-migration-cli"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

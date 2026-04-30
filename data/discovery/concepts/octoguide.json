@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "OctoGuide"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mochajs/mocha",
+      "status": "candidate-context",
+      "text": "\u2615\ufe0f Classic, reliable, trusted test framework for Node.js and the browser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mochajs/mocha",
+      "status": "candidate-context",
+      "text": "OctoGuide"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mochajs/mocha",
+      "status": "candidate",
+      "text": "OctoGuide"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "OctoGuide",
+  "concept_id": "octoguide",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/octoguide.yml",
+      "source_repo": "mochajs/mocha"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "OctoGuide",
+      "sense_id": "octoguide#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

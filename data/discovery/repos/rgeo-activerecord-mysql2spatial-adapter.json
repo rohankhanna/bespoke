@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T16:12:27.452099+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "ActiveRecord connection adapter for MySQL Spatial Extensions, based on mysql2 and rgeo",
+    "fork": false,
+    "full_name": "rgeo/activerecord-mysql2spatial-adapter",
+    "html_url": "https://github.com/rgeo/activerecord-mysql2spatial-adapter",
+    "language": "Ruby",
+    "pushed_at": "2024-10-10T11:01:53Z",
+    "stargazers_count": 48,
+    "topics": [],
+    "updated_at": "2025-10-07T05:24:10Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

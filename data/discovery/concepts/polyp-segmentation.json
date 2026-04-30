@@ -31,6 +31,30 @@
       "source_repo": "plemeri/UACANet",
       "status": "candidate-context",
       "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/uacanet-uncertainty-augmented-context/medical-image-segmentation-on-cvc-colondb)](https://paperswithcode.com/sota/medical-image-segmentation-on-cvc-colondb?p=uacanet-uncertainty-augmented-context)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ai4colonoscopy/IntelliScope",
+      "status": "candidate-context",
+      "text": "Frontiers in Intelligent Colonoscopy [ColonSurvey | ColonINST | ColonGPT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai4colonoscopy/IntelliScope",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ai4colonoscopy/PraNet-V2",
+      "status": "candidate-context",
+      "text": "PraNet-V2: Upgrading PraNet from binary (V1) to multi-class (V2) segmentation . Support both Jittor & PyTorch DL frameworks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai4colonoscopy/PraNet-V2",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">PraNet-V2: Dual-Supervised Reverse Attention for Medical Image Segmentation</h1>"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "plemeri/UACANet",
       "status": "candidate",
       "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/uacanet-uncertainty-augmented-context/medical-image-segmentation-on-cvc-colondb)](https://paperswithcode.com/sota/medical-image-segmentation-on-cvc-colondb?p=uacanet-uncertainty-augmented-context)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai4colonoscopy/IntelliScope",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai4colonoscopy/PraNet-V2",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">PraNet-V2: Dual-Supervised Reverse Attention for Medical Image Segmentation</h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +100,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "plemeri/UACANet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ai4colonoscopy/IntelliScope"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ai4colonoscopy/PraNet-V2"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

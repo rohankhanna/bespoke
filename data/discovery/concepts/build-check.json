@@ -32,6 +32,18 @@
       "source_repo": "dzeiocom/lucide-astro",
       "status": "candidate-context",
       "text": "Build, check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cristianbote/goober",
+      "status": "candidate-context",
+      "text": "\ud83e\udd5c goober, a less than 1KB \ud83c\udf89  css-in-js alternative with a familiar API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cristianbote/goober",
+      "status": "candidate-context",
+      "text": "Build Check"
     }
   ],
   "candidate_glosses": [
@@ -46,6 +58,12 @@
       "source_repo": "dzeiocom/lucide-astro",
       "status": "candidate",
       "text": "Build, check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cristianbote/goober",
+      "status": "candidate",
+      "text": "Build Check"
     }
   ],
   "candidate_related_terms": [
@@ -101,11 +119,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/check.yaml",
       "source_repo": "dzeiocom/lucide-astro"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/pr_build.yml",
+      "source_repo": "cristianbote/goober"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

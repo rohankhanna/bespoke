@@ -55,6 +55,18 @@
       "source_repo": "cjpais/Handy",
       "status": "candidate-context",
       "text": "[![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/invite/WVBeWsNXK4)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "analyticsinmotion/wake-word",
+      "status": "candidate-context",
+      "text": "Hands-free voice activation for VS Code, Cursor, and compatible editors. Route voice commands to any AI assistant or editor feature."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analyticsinmotion/wake-word",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable MD033 MD041 -->"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "cjpais/Handy",
       "status": "candidate",
       "text": "[![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/invite/WVBeWsNXK4)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analyticsinmotion/wake-word",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable MD033 MD041 -->"
     }
   ],
   "candidate_related_terms": [
@@ -177,11 +195,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "cjpais/Handy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "analyticsinmotion/wake-word"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

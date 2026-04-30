@@ -56,6 +56,18 @@
       "source_repo": "openai/openai-agents-js",
       "status": "candidate-context",
       "text": "Changeset"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "blitz-js/blitz",
+      "status": "candidate-context",
+      "text": "\u26a1\ufe0f The Missing Fullstack Toolkit for Next.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blitz-js/blitz",
+      "status": "candidate-context",
+      "text": "Changeset"
     }
   ],
   "candidate_glosses": [
@@ -80,6 +92,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "openai/openai-agents-js",
+      "status": "candidate",
+      "text": "Changeset"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blitz-js/blitz",
       "status": "candidate",
       "text": "Changeset"
     }
@@ -149,11 +167,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/changeset.yml",
       "source_repo": "openai/openai-agents-js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/changeset_check.yml",
+      "source_repo": "blitz-js/blitz"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IST-DASLab/nanochat-qat",
+      "target": "simonw/files-to-prompt",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:00:32.761654+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11096
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1322
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The best ChatGPT that $100 can buy.",
+    "fork": true,
+    "full_name": "IST-DASLab/nanochat-qat",
+    "html_url": "https://github.com/IST-DASLab/nanochat-qat",
+    "language": null,
+    "pushed_at": "2025-10-31T11:26:56Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2025-11-19T07:08:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "simonw/files-to-prompt",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

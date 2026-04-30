@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "language-vision"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unum-cloud/UForm",
+      "status": "candidate-context",
+      "text": "Pocket-Sized Multimodal AI for content understanding and generation across multilingual texts, images, and \ud83d\udd1c video, up to 5x faster than OpenAI CLIP and LLaVA \ud83d\uddbc\ufe0f & \ud83d\udd8b\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unum-cloud/UForm",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">UForm</h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unum-cloud/UForm",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">UForm</h1>"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "language-vision",
+  "concept_id": "language-vision",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "unum-cloud/UForm"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "language-vision",
+      "sense_id": "language-vision#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

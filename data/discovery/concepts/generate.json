@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "generate"
+    "generate",
+    "Generate"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -105,6 +106,18 @@
       "source_repo": "base-repos/base",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rhysd/actionlint",
+      "status": "candidate-context",
+      "text": ":octocat: Static checker for GitHub Actions workflow files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rhysd/actionlint",
+      "status": "candidate-context",
+      "text": "Generate"
     }
   ],
   "candidate_glosses": [
@@ -155,6 +168,12 @@
       "source_repo": "base-repos/base",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rhysd/actionlint",
+      "status": "candidate",
+      "text": "Generate"
     }
   ],
   "candidate_related_terms": [
@@ -288,11 +307,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "base-repos/base"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "base-repos/base"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/generate.yaml",
+      "source_repo": "rhysd/actionlint"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

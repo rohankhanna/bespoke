@@ -1,0 +1,122 @@
+{
+  "aliases": [
+    "delete"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jprichardson/node-fs-extra",
+      "status": "candidate-context",
+      "text": "Node.js: extra methods for the fs object like copy(), remove(), mkdirs()"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jprichardson/node-fs-extra",
+      "status": "candidate-context",
+      "text": "Node.js: fs-extra"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jprichardson/node-fs-extra",
+      "status": "candidate",
+      "text": "Node.js: fs-extra"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40035822,
+      "status": "candidate",
+      "text": "erase"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39983064,
+      "status": "candidate",
+      "text": "cancel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39956963,
+      "status": "candidate",
+      "text": "blue-pencil"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30036149,
+      "status": "candidate",
+      "text": "deletion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30035970,
+      "status": "candidate",
+      "text": "expunge"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4022,
+      "status": "candidate",
+      "text": "blue-pencil"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3046,
+      "status": "candidate",
+      "text": "erase"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1053,
+      "status": "candidate",
+      "text": "cancel"
+    }
+  ],
+  "canonical_name": "delete",
+  "concept_id": "delete",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "jprichardson/node-fs-extra"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "delete",
+      "sense_id": "delete#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

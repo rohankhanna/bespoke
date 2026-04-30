@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVIDIA-AI-IOT/jetson-intro-to-distillation",
+      "target": "nvidia-ai-iot/clip-distillation",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:06:20.969757+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 28844
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A tutorial introducing knowledge distillation as an optimization technique for deployment on NVIDIA Jetson",
+    "fork": false,
+    "full_name": "NVIDIA-AI-IOT/jetson-intro-to-distillation",
+    "html_url": "https://github.com/NVIDIA-AI-IOT/jetson-intro-to-distillation",
+    "language": "Python",
+    "pushed_at": "2023-11-14T20:38:59Z",
+    "stargazers_count": 241,
+    "topics": [],
+    "updated_at": "2026-04-25T13:52:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidia-ai-iot/clip-distillation",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

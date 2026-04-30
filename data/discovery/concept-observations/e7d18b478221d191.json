@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "LiBai(\u674e\u767d): A Toolbox for Large-Scale Distributed Parallel Training"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Document Release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Document Release"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28835,
+      "status": "candidate",
+      "text": "discharge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28035,
+      "status": "candidate",
+      "text": "declassify"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28035,
+      "status": "candidate",
+      "text": "discharged"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28035,
+      "status": "candidate",
+      "text": "discharging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28035,
+      "status": "candidate",
+      "text": "pardon"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Document Release",
+      "sense_id": "document-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "document-release",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "document-release",
+  "observation_id": "e7d18b478221d191",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "Document Release",
+  "source_context_snippet": "Document Release",
+  "source_file": ".github/workflows/docs-release.yml",
+  "source_repo": "Oneflow-Inc/libai",
+  "source_repo_description": "LiBai(\u674e\u767d): A Toolbox for Large-Scale Distributed Parallel Training"
+}

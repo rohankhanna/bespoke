@@ -46,6 +46,18 @@
       "source_repo": "dependabot/smoke-tests",
       "status": "candidate-context",
       "text": "yamllint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reviewdog/action-hadolint",
+      "status": "candidate-context",
+      "text": "Run hadolint with reviewdog \ud83d\udc36"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-hadolint",
+      "status": "candidate-context",
+      "text": "yamllint"
     }
   ],
   "candidate_glosses": [
@@ -64,6 +76,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "dependabot/smoke-tests",
+      "status": "candidate",
+      "text": "yamllint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-hadolint",
       "status": "candidate",
       "text": "yamllint"
     }
@@ -91,11 +109,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/yamllint.yml",
       "source_repo": "dependabot/smoke-tests"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/yamllint.yml",
+      "source_repo": "reviewdog/action-hadolint"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

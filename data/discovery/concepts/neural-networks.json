@@ -283,6 +283,54 @@
       "source_repo": "google-research/rigl",
       "status": "candidate-context",
       "text": "<img src=\"https://github.com/google-research/rigl/blob/master/imgs/flops8.jpg\" alt=\"80% Sparse Resnet-50\" width=\"45%\" align=\"middle\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LeelaChessZero/lc0",
+      "status": "candidate-context",
+      "text": "Open source neural network chess engine with GPU acceleration and broad hardware support."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LeelaChessZero/lc0",
+      "status": "candidate-context",
+      "text": "[![CircleCI](https://circleci.com/gh/LeelaChessZero/lc0.svg?style=shield)](https://circleci.com/gh/LeelaChessZero/lc0)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Anime4KWebBoost/Anime4K-WebGPU",
+      "status": "candidate-context",
+      "text": "Implementation of Anime4K in WebGPU"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Anime4KWebBoost/Anime4K-WebGPU",
+      "status": "candidate-context",
+      "text": "University of Pennsylvania, CIS 565: GPU Programming and Architecture, Final Project"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "patrick-kidger/diffrax",
+      "status": "candidate-context",
+      "text": "Numerical differential equation solvers in JAX. Autodifferentiable and GPU-capable. https://docs.kidger.site/diffrax/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "patrick-kidger/diffrax",
+      "status": "candidate-context",
+      "text": "<h1 align='center'>Diffrax</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "isl-org/ZoeDepth",
+      "status": "candidate-context",
+      "text": "Metric depth estimation from a single image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isl-org/ZoeDepth",
+      "status": "candidate-context",
+      "text": "This project will no longer be maintained by Intel."
     }
   ],
   "candidate_glosses": [
@@ -423,6 +471,30 @@
       "source_repo": "google-research/rigl",
       "status": "candidate",
       "text": "<img src=\"https://github.com/google-research/rigl/blob/master/imgs/flops8.jpg\" alt=\"80% Sparse Resnet-50\" width=\"45%\" align=\"middle\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LeelaChessZero/lc0",
+      "status": "candidate",
+      "text": "[![CircleCI](https://circleci.com/gh/LeelaChessZero/lc0.svg?style=shield)](https://circleci.com/gh/LeelaChessZero/lc0)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Anime4KWebBoost/Anime4K-WebGPU",
+      "status": "candidate",
+      "text": "University of Pennsylvania, CIS 565: GPU Programming and Architecture, Final Project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "patrick-kidger/diffrax",
+      "status": "candidate",
+      "text": "<h1 align='center'>Diffrax</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isl-org/ZoeDepth",
+      "status": "candidate",
+      "text": "This project will no longer be maintained by Intel."
     }
   ],
   "candidate_related_terms": [],
@@ -640,11 +712,65 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "google-research/rigl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "LeelaChessZero/lc0"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Anime4KWebBoost/Anime4K-WebGPU"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "patrick-kidger/diffrax"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/lab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/graph_nets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm-haiku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/sonnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/ZoeDepth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA-NeMo/NeMo"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

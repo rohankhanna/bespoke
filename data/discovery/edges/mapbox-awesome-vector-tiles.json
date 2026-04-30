@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mapbox/awesome-vector-tiles",
+      "target": "aliflux/vectortilerenderer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mapbox/awesome-vector-tiles",
+      "target": "amyantis/python-vt2geojson",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mapbox/awesome-vector-tiles",
+      "target": "anandthakker/vt-pbf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mapbox/awesome-vector-tiles",
+      "target": "addresscloud/serverless-tiles",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-30T12:45:20.475770+00:00",
+  "source_repo": "mapbox/awesome-vector-tiles"
+}

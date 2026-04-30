@@ -103,6 +103,30 @@
       "source_repo": "clojure/tools.deps",
       "status": "candidate-context",
       "text": "Snapshot on demand"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clojure/clojure",
+      "status": "candidate-context",
+      "text": "The Clojure programming language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure/clojure",
+      "status": "candidate-context",
+      "text": "Snapshot on demand"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clojure/tools.analyzer.jvm",
+      "status": "candidate-context",
+      "text": "Additional jvm-specific passes for tools.analyzer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure/tools.analyzer.jvm",
+      "status": "candidate-context",
+      "text": "Snapshot on demand"
     }
   ],
   "candidate_glosses": [
@@ -151,6 +175,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "clojure/tools.deps",
+      "status": "candidate",
+      "text": "Snapshot on demand"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure/clojure",
+      "status": "candidate",
+      "text": "Snapshot on demand"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure/tools.analyzer.jvm",
       "status": "candidate",
       "text": "Snapshot on demand"
     }
@@ -244,11 +280,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/snapshot.yml",
       "source_repo": "clojure/tools.deps"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/snapshot.yml",
+      "source_repo": "clojure/clojure"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/snapshot.yml",
+      "source_repo": "clojure/tools.analyzer.jvm"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

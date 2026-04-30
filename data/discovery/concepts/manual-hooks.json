@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Manual hooks"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mruby/mruby",
+      "status": "candidate-context",
+      "text": "Lightweight Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mruby/mruby",
+      "status": "candidate-context",
+      "text": "Manual hooks"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mruby/mruby",
+      "status": "candidate",
+      "text": "Manual hooks"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10565,
+      "status": "candidate",
+      "text": "grapnel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10565,
+      "status": "candidate",
+      "text": "hook"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10565,
+      "status": "candidate",
+      "text": "lure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10565,
+      "status": "candidate",
+      "text": "plug"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10496,
+      "status": "candidate",
+      "text": "allosteric"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Manual hooks",
+  "concept_id": "manual-hooks",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/pre-commit-manual.yml",
+      "source_repo": "mruby/mruby"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Manual hooks",
+      "sense_id": "manual-hooks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

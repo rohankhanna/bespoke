@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Notify users based on issue labels"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rclone/rclone",
+      "status": "candidate-context",
+      "text": "\"rsync for cloud storage\" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Azure Blob, Azure Files, Yandex Files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rclone/rclone",
+      "status": "candidate-context",
+      "text": "Notify users based on issue labels"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rclone/rclone",
+      "status": "candidate",
+      "text": "Notify users based on issue labels"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 47730,
+      "status": "candidate",
+      "text": "signal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 47730,
+      "status": "candidate",
+      "text": "signaling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 47730,
+      "status": "candidate",
+      "text": "signalling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 47550,
+      "status": "candidate",
+      "text": "label"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 46598,
+      "status": "candidate",
+      "text": "deal"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Notify users based on issue labels",
+  "concept_id": "notify-users-based-on-issue-labels",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/notify.yml",
+      "source_repo": "rclone/rclone"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Notify users based on issue labels",
+      "sense_id": "notify-users-based-on-issue-labels#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -19,6 +19,18 @@
       "source_repo": "gautamkrishnar/refined-github-feeds",
       "status": "candidate-context",
       "text": "Making the GitHub news feeds great again. This extension enables you to filter the GitHub news feeds based on different event types:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "addfox/addfox",
+      "status": "candidate-context",
+      "text": "\ud83e\udde9 Accelerate your browser extension development. Built on Rsbuild \u2014 fast, simple, and free"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "addfox/addfox",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "gautamkrishnar/refined-github-feeds",
       "status": "candidate",
       "text": "Making the GitHub news feeds great again. This extension enables you to filter the GitHub news feeds based on different event types:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "addfox/addfox",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "gautamkrishnar/refined-github-feeds"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "addfox/addfox"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

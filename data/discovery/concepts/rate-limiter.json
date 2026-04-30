@@ -19,6 +19,18 @@
       "source_repo": "resilience4j/resilience4j",
       "status": "candidate-context",
       "text": "FROM gitpod/workspace-full RUN bash -c \". /home/gitpod/.sdkman/bin/sdkman-init.sh && sdk install java 11.0.23-tem\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ZhuoZhuoCrayon/throttled-py",
+      "status": "candidate-context",
+      "text": "\ud83d\udd27 High-performance Python rate limiting library with multiple algorithms (Fixed Window, Sliding Window, Token Bucket, Leaky Bucket & GCRA) and storage backends (Redis, In-Memory)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ZhuoZhuoCrayon/throttled-py",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">throttled-py</h1>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "resilience4j/resilience4j",
       "status": "candidate",
       "text": "FROM gitpod/workspace-full RUN bash -c \". /home/gitpod/.sdkman/bin/sdkman-init.sh && sdk install java 11.0.23-tem\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ZhuoZhuoCrayon/throttled-py",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">throttled-py</h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "resilience4j/resilience4j"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ZhuoZhuoCrayon/throttled-py"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

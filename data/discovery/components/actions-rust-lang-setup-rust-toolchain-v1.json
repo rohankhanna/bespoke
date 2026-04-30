@@ -1,7 +1,7 @@
 {
   "component": "actions-rust-lang/setup-rust-toolchain@v1",
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -367,6 +367,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "matter-labs/zksync-crypto"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci_cuda.yaml",
+      "source_repo": "EricLBuehler/candle"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "brandur/redis-cell"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/commit.yaml",
+      "source_repo": "cachix/iocraft"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "macisamuele/language-formatters-pre-commit-hooks"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "bencevans/camtrap-detector"
     }
   ]
 }

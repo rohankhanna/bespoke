@@ -1,0 +1,219 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Polly-Contrib/Simmy",
+      "target": "polly-contrib/polly.contrib.simmydemo_webapi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Polly-Contrib/Simmy",
+      "target": "app-vnext/simmy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Polly-Contrib/Simmy",
+      "target": "vany0114/chaos-injection-using-simmy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Polly-Contrib/Simmy",
+      "target": "bjartnes/bounded-disturbances",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Polly-Contrib/Simmy",
+      "target": "chaos-engineering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Polly-Contrib/Simmy",
+      "target": "fault-based-testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Polly-Contrib/Simmy",
+      "target": "fault-injection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Polly-Contrib/Simmy",
+      "target": "fault-tolerance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Polly-Contrib/Simmy",
+      "target": "fault-tolerant",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Polly-Contrib/Simmy",
+      "target": "polly-resilience",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Polly-Contrib/Simmy",
+      "target": "resilience",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Polly-Contrib/Simmy",
+      "target": "resilience-testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Polly-Contrib/Simmy",
+      "target": "resiliency",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Polly-Contrib/Simmy",
+      "target": "resilient",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:07:55.950794+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13427
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Simmy is a chaos-engineering and fault-injection tool, integrating with the Polly resilience project for .NET",
+    "fork": false,
+    "full_name": "Polly-Contrib/Simmy",
+    "html_url": "https://github.com/Polly-Contrib/Simmy",
+    "language": "C#",
+    "pushed_at": "2022-06-02T22:59:13Z",
+    "stargazers_count": 584,
+    "topics": [
+      "chaos-engineering",
+      "fault-based-testing",
+      "fault-injection",
+      "fault-tolerance",
+      "fault-tolerant",
+      "polly-resilience",
+      "resilience",
+      "resilience-testing",
+      "resiliency",
+      "resilient"
+    ],
+    "updated_at": "2026-04-10T01:21:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "app-vnext/simmy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bjartnes/bounded-disturbances",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "polly-contrib/polly.contrib.simmydemo_webapi",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vany0114/chaos-injection-using-simmy",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Simmy is a [chaos-engineering](http://principlesofchaos.org/) and fault-injection tool, integrating with the [Polly resilience project for .NET](https://github.com/App-vNext/Polly). It is releasing April 2019 and works with [Polly v7.0.0](https://www.nuget.org/packages/Polly/7.1\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chaos-engineering"
+    },
+    {
+      "context_snippet": "Simmy is a [chaos-engineering](http://principlesofchaos.org/) and fault-injection tool, integrating with the [Polly resilience project for .NET](https://github.com/App-vNext/Polly). It is releasing April 2019 and works with [Polly v7.0.0](https://www.nuget.org/packages/Polly/7.1\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fault-based-testing"
+    },
+    {
+      "context_snippet": "Simmy is a [chaos-engineering](http://principlesofchaos.org/) and fault-injection tool, integrating with the [Polly resilience project for .NET](https://github.com/App-vNext/Polly). It is releasing April 2019 and works with [Polly v7.0.0](https://www.nuget.org/packages/Polly/7.1\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fault-injection"
+    },
+    {
+      "context_snippet": "Simmy is a [chaos-engineering](http://principlesofchaos.org/) and fault-injection tool, integrating with the [Polly resilience project for .NET](https://github.com/App-vNext/Polly). It is releasing April 2019 and works with [Polly v7.0.0](https://www.nuget.org/packages/Polly/7.1\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fault-tolerance"
+    },
+    {
+      "context_snippet": "Simmy is a [chaos-engineering](http://principlesofchaos.org/) and fault-injection tool, integrating with the [Polly resilience project for .NET](https://github.com/App-vNext/Polly). It is releasing April 2019 and works with [Polly v7.0.0](https://www.nuget.org/packages/Polly/7.1\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fault-tolerant"
+    },
+    {
+      "context_snippet": "Simmy is a [chaos-engineering](http://principlesofchaos.org/) and fault-injection tool, integrating with the [Polly resilience project for .NET](https://github.com/App-vNext/Polly). It is releasing April 2019 and works with [Polly v7.0.0](https://www.nuget.org/packages/Polly/7.1\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "polly-resilience"
+    },
+    {
+      "context_snippet": "Simmy is a [chaos-engineering](http://principlesofchaos.org/) and fault-injection tool, integrating with the [Polly resilience project for .NET](https://github.com/App-vNext/Polly). It is releasing April 2019 and works with [Polly v7.0.0](https://www.nuget.org/packages/Polly/7.1\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "resilience"
+    },
+    {
+      "context_snippet": "Simmy is a [chaos-engineering](http://principlesofchaos.org/) and fault-injection tool, integrating with the [Polly resilience project for .NET](https://github.com/App-vNext/Polly). It is releasing April 2019 and works with [Polly v7.0.0](https://www.nuget.org/packages/Polly/7.1\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "resilience-testing"
+    },
+    {
+      "context_snippet": "Simmy is a [chaos-engineering](http://principlesofchaos.org/) and fault-injection tool, integrating with the [Polly resilience project for .NET](https://github.com/App-vNext/Polly). It is releasing April 2019 and works with [Polly v7.0.0](https://www.nuget.org/packages/Polly/7.1\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "resiliency"
+    },
+    {
+      "context_snippet": "Simmy is a [chaos-engineering](http://principlesofchaos.org/) and fault-injection tool, integrating with the [Polly resilience project for .NET](https://github.com/App-vNext/Polly). It is releasing April 2019 and works with [Polly v7.0.0](https://www.nuget.org/packages/Polly/7.1\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "resilient"
+    }
+  ]
+}

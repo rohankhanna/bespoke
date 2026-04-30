@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cyw-3d/SAR3D",
+      "target": "3d-understanding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cyw-3d/SAR3D",
+      "target": "multimodal-large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cyw-3d/SAR3D",
+      "target": "single-image-to-3d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cyw-3d/SAR3D",
+      "target": "text-to-3d",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:02:13.249133+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4760
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official repository for \"SAR3D: Autoregressive 3D Object Generation and Understanding via Multi-scale 3D VQVAE\"",
+    "fork": false,
+    "full_name": "cyw-3d/SAR3D",
+    "html_url": "https://github.com/cyw-3d/SAR3D",
+    "language": "Python",
+    "pushed_at": "2025-06-08T13:15:24Z",
+    "stargazers_count": 195,
+    "topics": [
+      "3d-understanding",
+      "multimodal-large-language-models",
+      "single-image-to-3d",
+      "text-to-3d"
+    ],
+    "updated_at": "2026-04-20T12:23:45Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-understanding"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimodal-large-language-models"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "single-image-to-3d"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-3d"
+    }
+  ]
+}

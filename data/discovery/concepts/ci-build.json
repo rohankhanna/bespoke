@@ -208,6 +208,30 @@
       "source_repo": "google/triage-party",
       "status": "candidate-context",
       "text": "CI Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/Silk.NET",
+      "status": "candidate-context",
+      "text": "The high-speed OpenGL, OpenCL, OpenAL, OpenXR, GLFW, SDL, Vulkan, Assimp, WebGPU, and DirectX bindings library your mother warned you about."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/Silk.NET",
+      "status": "candidate-context",
+      "text": "CI Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KhronosGroup/Vulkan-Loader",
+      "status": "candidate-context",
+      "text": "Vulkan Loader"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KhronosGroup/Vulkan-Loader",
+      "status": "candidate-context",
+      "text": "CI Build"
     }
   ],
   "candidate_glosses": [
@@ -316,6 +340,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "google/triage-party",
+      "status": "candidate",
+      "text": "CI Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/Silk.NET",
+      "status": "candidate",
+      "text": "CI Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KhronosGroup/Vulkan-Loader",
       "status": "candidate",
       "text": "CI Build"
     }
@@ -553,11 +589,35 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "amazon-ion/ion-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "amazon-ion/ion-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dotnet/Silk.NET"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "KhronosGroup/Vulkan-Loader"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check crate publishing works"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pubgrub-rs/pubgrub",
+      "status": "candidate-context",
+      "text": "PubGrub version solving algorithm implemented in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pubgrub-rs/pubgrub",
+      "status": "candidate-context",
+      "text": "Check crate publishing works"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pubgrub-rs/pubgrub",
+      "status": "candidate",
+      "text": "Check crate publishing works"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31689,
+      "status": "candidate",
+      "text": "review"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31650,
+      "status": "candidate",
+      "text": "keeps"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31581,
+      "status": "candidate",
+      "text": "spill"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31581,
+      "status": "candidate",
+      "text": "spilling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31581,
+      "status": "candidate",
+      "text": "touch"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check crate publishing works",
+  "concept_id": "check-crate-publishing-works",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/cargo_publish_dry_run.yml",
+      "source_repo": "pubgrub-rs/pubgrub"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check crate publishing works",
+      "sense_id": "check-crate-publishing-works#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

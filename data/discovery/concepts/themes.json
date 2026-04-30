@@ -115,6 +115,48 @@
       "source_repo": "tinted-theming/tinted-shell",
       "status": "candidate-context",
       "text": "[![Matrix Chat](https://img.shields.io/matrix/tinted-theming:matrix.org)](https://matrix.to/#/#tinted-theming:matrix.org)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LekoArts/gatsby-themes",
+      "status": "candidate-context",
+      "text": "Get high-quality and customizable Gatsby themes to quickly bootstrap your website! Choose from many professionally created and impressive designs with a wide variety of features and customization options."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LekoArts/gatsby-themes",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tinted-theming/tinted-vim",
+      "status": "candidate-context",
+      "text": "tinted-vim refreshes and commits new themes weekly automatically and has a documented build process."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/tinted-vim",
+      "status": "candidate-context",
+      "text": "Formerly base16-vim, but now supports multiple scheme systems, currently"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/base16-waybar",
+      "status": "candidate-context",
+      "text": "This repo provides templates for using"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tinted-theming/tinted-xresources",
+      "status": "candidate-context",
+      "text": "Base16 and Base24 for Xresources"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/tinted-xresources",
+      "status": "candidate-context",
+      "text": "Tinted themes for [Xresources]. Have a look at the [gallery] page for"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +213,30 @@
       "source_repo": "tinted-theming/tinted-shell",
       "status": "candidate",
       "text": "[![Matrix Chat](https://img.shields.io/matrix/tinted-theming:matrix.org)](https://matrix.to/#/#tinted-theming:matrix.org)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LekoArts/gatsby-themes",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/tinted-vim",
+      "status": "candidate",
+      "text": "Formerly base16-vim, but now supports multiple scheme systems, currently"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/base16-waybar",
+      "status": "candidate",
+      "text": "This repo provides templates for using"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/tinted-xresources",
+      "status": "candidate",
+      "text": "Tinted themes for [Xresources]. Have a look at the [gallery] page for"
     }
   ],
   "candidate_related_terms": [
@@ -382,11 +448,65 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "psmux/omp-manager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Cle2ment/CherryStudio_themes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "LekoArts/gatsby-themes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "tinted-theming/base16-jetbrains"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "tinted-theming/tinted-vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "tinted-theming/base16-waybar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "psmux/omp-manager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "tinted-theming/tinted-xfce4-terminal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "tinted-theming/tinted-xresources"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

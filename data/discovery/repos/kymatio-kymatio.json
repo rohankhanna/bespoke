@@ -1,0 +1,270 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pip.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pip.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda.yml",
+      "source_repo": "kymatio/kymatio",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conda.yml",
+      "source_repo": "kymatio/kymatio",
+      "target": "Kymatio Conda CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "kymatio/kymatio",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "kymatio/kymatio",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "kymatio/kymatio",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "kymatio/kymatio",
+      "target": "Kymatio build and upload docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pip.yml",
+      "source_repo": "kymatio/kymatio",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pip.yml",
+      "source_repo": "kymatio/kymatio",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pip.yml",
+      "source_repo": "kymatio/kymatio",
+      "target": "Kymatio Pip CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kymatio/kymatio",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kymatio/kymatio",
+      "target": "keras",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kymatio/kymatio",
+      "target": "numpy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kymatio/kymatio",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kymatio/kymatio",
+      "target": "scattering-transform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kymatio/kymatio",
+      "target": "scikit-learn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kymatio/kymatio",
+      "target": "tensorflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kymatio/kymatio",
+      "target": "wavelets",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:15:26.072149+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7892
+    },
+    {
+      "path": "requirements.txt",
+      "size": 43
+    },
+    {
+      "path": ".github/workflows/conda.yml",
+      "size": 2140
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 1866
+    },
+    {
+      "path": ".github/workflows/pip.yml",
+      "size": 2274
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Wavelet scattering transforms in Python with GPU acceleration",
+    "fork": false,
+    "full_name": "kymatio/kymatio",
+    "html_url": "https://github.com/kymatio/kymatio",
+    "language": "Python",
+    "pushed_at": "2025-01-28T08:26:25Z",
+    "stargazers_count": 842,
+    "topics": [
+      "deep-learning",
+      "keras",
+      "numpy",
+      "pytorch",
+      "scattering-transform",
+      "scikit-learn",
+      "tensorflow",
+      "wavelets"
+    ],
+    "updated_at": "2026-04-29T11:48:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Kymatio Conda CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conda.yml",
+      "term": "Kymatio Conda CI"
+    },
+    {
+      "context_snippet": "Kymatio build and upload docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Kymatio build and upload docs"
+    },
+    {
+      "context_snippet": "Kymatio Pip CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pip.yml",
+      "term": "Kymatio Pip CI"
+    },
+    {
+      "context_snippet": "Kymatio: Wavelet scattering in Python",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "Kymatio: Wavelet scattering in Python",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "keras"
+    },
+    {
+      "context_snippet": "Kymatio: Wavelet scattering in Python",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "numpy"
+    },
+    {
+      "context_snippet": "Kymatio: Wavelet scattering in Python",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "Kymatio: Wavelet scattering in Python",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scattering-transform"
+    },
+    {
+      "context_snippet": "Kymatio: Wavelet scattering in Python",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scikit-learn"
+    },
+    {
+      "context_snippet": "Kymatio: Wavelet scattering in Python",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    },
+    {
+      "context_snippet": "Kymatio: Wavelet scattering in Python",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wavelets"
+    }
+  ]
+}

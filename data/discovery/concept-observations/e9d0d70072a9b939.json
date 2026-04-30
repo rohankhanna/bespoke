@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Pytorch\u5b9e\u73b0\u7684\u6d41\u5f0f\u4e0e\u975e\u6d41\u5f0f\u7684\u81ea\u52a8\u8bed\u97f3\u8bc6\u522b\u6846\u67b6\uff0c\u540c\u65f6\u517c\u5bb9\u5728\u7ebf\u548c\u79bb\u7ebf\u8bc6\u522b\uff0c\u76ee\u524d\u652f\u6301Conformer\u3001Squeezeformer\u3001DeepSpeech2\u6a21\u578b\uff0c\u652f\u6301\u591a\u79cd\u6570\u636e\u589e\u5f3a\u65b9\u6cd5\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![python version](https://img.shields.io/badge/python-3.11+-orange.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![python version](https://img.shields.io/badge/python-3.11+-orange.svg)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "speech-to-text",
+      "sense_id": "speech-to-text#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "speech-to-text",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "speech-to-text",
+  "observation_id": "e9d0d70072a9b939",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "speech-to-text",
+  "source_context_snippet": "![python version](https://img.shields.io/badge/python-3.11+-orange.svg)",
+  "source_file": null,
+  "source_repo": "yeyupiaoling/MASR",
+  "source_repo_description": "Pytorch\u5b9e\u73b0\u7684\u6d41\u5f0f\u4e0e\u975e\u6d41\u5f0f\u7684\u81ea\u52a8\u8bed\u97f3\u8bc6\u522b\u6846\u67b6\uff0c\u540c\u65f6\u517c\u5bb9\u5728\u7ebf\u548c\u79bb\u7ebf\u8bc6\u522b\uff0c\u76ee\u524d\u652f\u6301Conformer\u3001Squeezeformer\u3001DeepSpeech2\u6a21\u578b\uff0c\u652f\u6301\u591a\u79cd\u6570\u636e\u589e\u5f3a\u65b9\u6cd5\u3002"
+}

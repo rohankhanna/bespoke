@@ -667,6 +667,30 @@
       "source_repo": "rstackjs/awesome-rstack",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Efficient-ML/Awesome-Model-Quantization",
+      "status": "candidate-context",
+      "text": "A list of papers, docs, codes about model quantization. This repo is aimed to provide the info for model quantization research, we are continuously improving the project. Welcome to PR the works (papers, repositories) that are missed by the repo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Efficient-ML/Awesome-Model-Quantization",
+      "status": "candidate-context",
+      "text": "This repo collects papers, documents, and codes about model quantization for anyone who wants to research it. We are continuously improving the project. Welcome to PR the works (papers, repositories) that the repo misses."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sdras/awesome-actions",
+      "status": "candidate-context",
+      "text": "A curated list of awesome actions to use on GitHub"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sdras/awesome-actions",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -991,6 +1015,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "rstackjs/awesome-rstack",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Efficient-ML/Awesome-Model-Quantization",
+      "status": "candidate",
+      "text": "This repo collects papers, documents, and codes about model quantization for anyone who wants to research it. We are continuously improving the project. Welcome to PR the works (papers, repositories) that the repo misses."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sdras/awesome-actions",
       "status": "candidate",
       "text": "<p align=\"center\">"
     }
@@ -1426,11 +1462,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "rstackjs/awesome-rstack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Efficient-ML/Awesome-Model-Quantization"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "sdras/awesome-actions"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

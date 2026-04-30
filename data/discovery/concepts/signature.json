@@ -43,6 +43,18 @@
       "source_repo": "bitbeans/minisign-net",
       "status": "candidate-context",
       "text": "![.NET Core](https://github.com/bitbeans/minisign-net/workflows/.NET%208/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "patrick-kidger/signatory",
+      "status": "candidate-context",
+      "text": "Differentiable computations of the signature and logsignature transforms, on both CPU and GPU. (ICLR 2021)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "patrick-kidger/signatory",
+      "status": "candidate-context",
+      "text": "|Signatory|"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "bitbeans/minisign-net",
       "status": "candidate",
       "text": "![.NET Core](https://github.com/bitbeans/minisign-net/workflows/.NET%208/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "patrick-kidger/signatory",
+      "status": "candidate",
+      "text": "|Signatory|"
     }
   ],
   "candidate_related_terms": [
@@ -153,11 +171,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "bitbeans/minisign-net"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "patrick-kidger/signatory"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

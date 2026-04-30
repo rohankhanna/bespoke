@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T12:59:03.708857+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9436
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Convert images of go diagrams to SGF format using Python and OpenCV",
+    "fork": false,
+    "full_name": "hanysz/img2sgf",
+    "html_url": "https://github.com/hanysz/img2sgf",
+    "language": "Python",
+    "pushed_at": "2023-10-03T23:47:01Z",
+    "stargazers_count": 62,
+    "topics": [],
+    "updated_at": "2026-03-18T07:10:49Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

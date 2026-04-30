@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Language Server for AWK and associated VSCode client extension"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![tests](https://github.com/Beaglefoot/awk-language-server/actions/workflows/tests.yml/badge.svg)](https://github.com/Beaglefoot/awk-language-server/actions/workflows/tests.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![tests](https://github.com/Beaglefoot/awk-language-server/actions/workflows/tests.yml/badge.svg)](https://github.com/Beaglefoot/awk-language-server/actions/workflows/tests.yml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "language-server-protocol",
+      "sense_id": "language-server-protocol#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "language-server-protocol",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "language-server-protocol",
+  "observation_id": "54f8686c7f0f267a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "language-server-protocol",
+  "source_context_snippet": "[![tests](https://github.com/Beaglefoot/awk-language-server/actions/workflows/tests.yml/badge.svg)](https://github.com/Beaglefoot/awk-language-server/actions/workflows/tests.yml)",
+  "source_file": null,
+  "source_repo": "Beaglefoot/awk-language-server",
+  "source_repo_description": "Language Server for AWK and associated VSCode client extension"
+}

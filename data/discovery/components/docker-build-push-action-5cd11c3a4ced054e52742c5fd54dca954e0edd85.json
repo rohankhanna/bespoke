@@ -1,12 +1,17 @@
 {
   "component": "docker/build-push-action@5cd11c3a4ced054e52742c5fd54dca954e0edd85",
   "first_seen_at": "2026-04-24T18:19:44.660705+00:00",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/docker-image.yml",
       "source_repo": "theroyallab/tabbyAPI"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "deven96/ahnlich"
     }
   ]
 }

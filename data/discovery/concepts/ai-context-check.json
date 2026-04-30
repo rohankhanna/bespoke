@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "AI Context Check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "skforecast/skforecast",
+      "status": "candidate-context",
+      "text": "Python library for time series forecasting using scikit-learn compatible models, statistical methods, and foundation models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "skforecast/skforecast",
+      "status": "candidate-context",
+      "text": "AI Context Check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "skforecast/skforecast",
+      "status": "candidate",
+      "text": "AI Context Check"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23383,
+      "status": "candidate",
+      "text": "list"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22542,
+      "status": "candidate",
+      "text": "lab"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22321,
+      "status": "candidate",
+      "text": "moves"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16629,
+      "status": "candidate",
+      "text": "robotics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15579,
+      "status": "candidate",
+      "text": "isolative"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "AI Context Check",
+  "concept_id": "ai-context-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/ai-context-check.yml",
+      "source_repo": "skforecast/skforecast"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "AI Context Check",
+      "sense_id": "ai-context-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

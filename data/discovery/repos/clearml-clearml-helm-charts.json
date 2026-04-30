@@ -1,0 +1,215 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4.1.7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4.1.7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "helm/kind-action@v1.10.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "helm/chart-testing-action@v2.6.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/stale@v8.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/inactive-issues.yaml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "helm/chart-releaser-action@v1.5.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "clearml/clearml-helm-charts",
+      "target": "actions/checkout@v4.1.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "clearml/clearml-helm-charts",
+      "target": "helm/kind-action@v1.10.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "clearml/clearml-helm-charts",
+      "target": "helm/chart-testing-action@v2.6.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "clearml/clearml-helm-charts",
+      "target": "Lint and Test Charts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/inactive-issues.yaml",
+      "source_repo": "clearml/clearml-helm-charts",
+      "target": "actions/stale@v8.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/inactive-issues.yaml",
+      "source_repo": "clearml/clearml-helm-charts",
+      "target": "Close inactive issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "clearml/clearml-helm-charts",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "clearml/clearml-helm-charts",
+      "target": "helm/chart-releaser-action@v1.5.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "clearml/clearml-helm-charts",
+      "target": "Release Charts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clearml/clearml-helm-charts",
+      "target": "clearml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clearml/clearml-helm-charts",
+      "target": "helm-charts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clearml/clearml-helm-charts",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clearml/clearml-helm-charts",
+      "target": "mlops",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:06:39.994213+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3158
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 2351
+    },
+    {
+      "path": ".github/workflows/inactive-issues.yaml",
+      "size": 709
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 969
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Helm chart repository for the new unified way to deploy ClearML on Kubernetes. ClearML - Auto-Magical CI/CD to streamline your AI workload. Experiment Management, Data Management, Pipeline, Orchestration, Scheduling & Serving in one MLOps/LLMOps solution ",
+    "fork": false,
+    "full_name": "clearml/clearml-helm-charts",
+    "html_url": "https://github.com/clearml/clearml-helm-charts",
+    "language": "Smarty",
+    "pushed_at": "2026-03-12T14:25:18Z",
+    "stargazers_count": 46,
+    "topics": [
+      "clearml",
+      "helm-charts",
+      "kubernetes",
+      "mlops"
+    ],
+    "updated_at": "2026-03-25T03:31:49Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Lint and Test Charts",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "term": "Lint and Test Charts"
+    },
+    {
+      "context_snippet": "Close inactive issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/inactive-issues.yaml",
+      "term": "Close inactive issues"
+    },
+    {
+      "context_snippet": "Release Charts",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "Release Charts"
+    },
+    {
+      "context_snippet": "Helm charts provided by [ClearML](https://clear.ml), ready to launch on Kubernetes using [Kubernetes Helm](https://github.com/helm/helm).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clearml"
+    },
+    {
+      "context_snippet": "Helm charts provided by [ClearML](https://clear.ml), ready to launch on Kubernetes using [Kubernetes Helm](https://github.com/helm/helm).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "helm-charts"
+    },
+    {
+      "context_snippet": "Helm charts provided by [ClearML](https://clear.ml), ready to launch on Kubernetes using [Kubernetes Helm](https://github.com/helm/helm).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "Helm charts provided by [ClearML](https://clear.ml), ready to launch on Kubernetes using [Kubernetes Helm](https://github.com/helm/helm).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mlops"
+    }
+  ]
+}

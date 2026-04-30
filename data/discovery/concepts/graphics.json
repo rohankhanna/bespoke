@@ -367,6 +367,42 @@
       "source_repo": "sumcumo/imagemin-merlin",
       "status": "candidate-context",
       "text": "Merlin is an extension of [imagemin](https://www.npmjs.com/package/imagemin) that makes it _super-easy_ to automatically, efficiently compress GIF, JPG and PNG graphics."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DiligentGraphics/DiligentCore",
+      "status": "candidate-context",
+      "text": "A modern cross-platform low-level graphics API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DiligentGraphics/DiligentCore",
+      "status": "candidate-context",
+      "text": "Diligent Core is a modern, cross-platform low-level graphics API that forms the foundation of [Diligent Engine](https://github.com/DiligentGraphics/DiligentEngine)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openframeworks/openFrameworks",
+      "status": "candidate-context",
+      "text": "openFrameworks is a community-developed cross platform toolkit for creative coding in C++."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openframeworks/openFrameworks",
+      "status": "candidate-context",
+      "text": "[openFrameworks](http://openframeworks.cc/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/Silk.NET",
+      "status": "candidate-context",
+      "text": "The high-speed OpenGL, OpenCL, OpenAL, OpenXR, GLFW, SDL, Vulkan, Assimp, WebGPU, and DirectX bindings library your mother warned you about."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/Silk.NET",
+      "status": "candidate-context",
+      "text": "<!-- Begin exclude from NuGet readme. -->"
     }
   ],
   "candidate_glosses": [
@@ -549,6 +585,24 @@
       "source_repo": "sumcumo/imagemin-merlin",
       "status": "candidate",
       "text": "Merlin is an extension of [imagemin](https://www.npmjs.com/package/imagemin) that makes it _super-easy_ to automatically, efficiently compress GIF, JPG and PNG graphics."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DiligentGraphics/DiligentCore",
+      "status": "candidate",
+      "text": "Diligent Core is a modern, cross-platform low-level graphics API that forms the foundation of [Diligent Engine](https://github.com/DiligentGraphics/DiligentEngine)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openframeworks/openFrameworks",
+      "status": "candidate",
+      "text": "[openFrameworks](http://openframeworks.cc/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/Silk.NET",
+      "status": "candidate",
+      "text": "<!-- Begin exclude from NuGet readme. -->"
     }
   ],
   "candidate_related_terms": [
@@ -794,11 +848,29 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "sumcumo/imagemin-merlin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "DiligentGraphics/DiligentCore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "openframeworks/openFrameworks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/Silk.NET"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

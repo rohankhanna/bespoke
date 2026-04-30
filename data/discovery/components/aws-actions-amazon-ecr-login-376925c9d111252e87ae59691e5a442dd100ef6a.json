@@ -1,0 +1,12 @@
+{
+  "component": "aws-actions/amazon-ecr-login@376925c9d111252e87ae59691e5a442dd100ef6a",
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "SonarSource/sonarlint-intellij"
+    }
+  ]
+}

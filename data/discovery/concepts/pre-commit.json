@@ -1259,6 +1259,114 @@
       "source_repo": "shapely/shapely",
       "status": "candidate-context",
       "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autowarefoundation/autoware-github-actions",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Peterande/D-FINE",
+      "status": "candidate-context",
+      "text": "D-FINE: Redefine Regression Task of DETRs as Fine-grained Distribution Refinement  [ICLR 2025 Spotlight]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Peterande/D-FINE",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "web-arena-x/webarena",
+      "status": "candidate-context",
+      "text": "Code repo for \"WebArena: A Realistic Web Environment for Building Autonomous Agents\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-arena-x/webarena",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "macisamuele/language-formatters-pre-commit-hooks",
+      "status": "candidate-context",
+      "text": "Collection of custom pre-commit hooks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "macisamuele/language-formatters-pre-commit-hooks",
+      "status": "candidate-context",
+      "text": "[![Github Actions CI](https://github.com/macisamuele/language-formatters-pre-commit-hooks/workflows/Build/badge.svg)](https://github.com/macisamuele/language-formatters-pre-commit-hooks/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zopefoundation/meta",
+      "status": "candidate-context",
+      "text": "Meta issues concerning many/all of the zopefoundation repositories."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zopefoundation/meta",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flagos-ai/vllm-FL",
+      "status": "candidate-context",
+      "text": "A high-throughput and memory-efficient inference and serving engine for LLMs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flagos-ai/vllm-FL",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mingrammer/diagrams",
+      "status": "candidate-context",
+      "text": ":art: Diagram as Code for prototyping cloud system architectures"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mingrammer/diagrams",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure-Samples/azureai-samples",
+      "status": "candidate-context",
+      "text": "Official community-driven Azure AI Examples"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/azureai-samples",
+      "status": "candidate-context",
+      "text": "Pre-Commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autowarefoundation/.github",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mruby/mruby",
+      "status": "candidate-context",
+      "text": "Lightweight Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mruby/mruby",
+      "status": "candidate-context",
+      "text": "pre-commit"
     }
   ],
   "candidate_glosses": [
@@ -1889,6 +1997,66 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "shapely/shapely",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autowarefoundation/autoware-github-actions",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Peterande/D-FINE",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-arena-x/webarena",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "macisamuele/language-formatters-pre-commit-hooks",
+      "status": "candidate",
+      "text": "[![Github Actions CI](https://github.com/macisamuele/language-formatters-pre-commit-hooks/workflows/Build/badge.svg)](https://github.com/macisamuele/language-formatters-pre-commit-hooks/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zopefoundation/meta",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flagos-ai/vllm-FL",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mingrammer/diagrams",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/azureai-samples",
+      "status": "candidate",
+      "text": "Pre-Commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autowarefoundation/.github",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mruby/mruby",
       "status": "candidate",
       "text": "pre-commit"
     }
@@ -2756,11 +2924,107 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/pre-commit.yml",
       "source_repo": "shapely/shapely"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "autowarefoundation/autoware-github-actions"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "Peterande/D-FINE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "adamchainz/blacken-docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "web-arena-x/webarena"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "ogx-ai/ogx-client-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "macisamuele/language-formatters-pre-commit-hooks"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "crate-ci/cargo-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "zopefoundation/meta"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/precommit.yml",
+      "source_repo": "eclipse-paho/paho.mqtt.python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "flagos-ai/vllm-FL"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "arcee-ai/mergekit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "OpenHands/ToM-SWE"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "mingrammer/diagrams"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "Azure-Samples/azureai-samples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "autowarefoundation/.github"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "mruby/mruby"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

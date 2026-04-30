@@ -1,0 +1,637 @@
+{
+  "components": [
+    {
+      "component": "actions/github-script@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/download-link-on-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml"
+    },
+    {
+      "component": "msys2/setup-msys2@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml"
+    },
+    {
+      "component": "nick-fields/retry@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-translations.yml"
+    },
+    {
+      "component": "dessant/lock-threads@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    },
+    {
+      "component": "actions/stale@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-translations.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-translations.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/download-link-on-pr.yml",
+      "source_repo": "navidrome/navidrome",
+      "target": "actions/github-script@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/download-link-on-pr.yml",
+      "source_repo": "navidrome/navidrome",
+      "target": "Add download link to PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml",
+      "source_repo": "navidrome/navidrome",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml",
+      "source_repo": "navidrome/navidrome",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml",
+      "source_repo": "navidrome/navidrome",
+      "target": "golangci/golangci-lint-action@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml",
+      "source_repo": "navidrome/navidrome",
+      "target": "msys2/setup-msys2@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml",
+      "source_repo": "navidrome/navidrome",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml",
+      "source_repo": "navidrome/navidrome",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml",
+      "source_repo": "navidrome/navidrome",
+      "target": "docker/build-push-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml",
+      "source_repo": "navidrome/navidrome",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml",
+      "source_repo": "navidrome/navidrome",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml",
+      "source_repo": "navidrome/navidrome",
+      "target": "nick-fields/retry@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml",
+      "source_repo": "navidrome/navidrome",
+      "target": "goreleaser/goreleaser-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pipeline.yml",
+      "source_repo": "navidrome/navidrome",
+      "target": "Pipeline: Test, Lint, Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-translations.yml",
+      "source_repo": "navidrome/navidrome",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push-translations.yml",
+      "source_repo": "navidrome/navidrome",
+      "target": "POEditor export",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "navidrome/navidrome",
+      "target": "dessant/lock-threads@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "navidrome/navidrome",
+      "target": "actions/stale@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "navidrome/navidrome",
+      "target": "Close stale issues and PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-translations.yml",
+      "source_repo": "navidrome/navidrome",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-translations.yml",
+      "source_repo": "navidrome/navidrome",
+      "target": "peter-evans/create-pull-request@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-translations.yml",
+      "source_repo": "navidrome/navidrome",
+      "target": "POEditor import",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "navidrome/navidrome",
+      "target": "airsonic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "navidrome/navidrome",
+      "target": "madsonic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "navidrome/navidrome",
+      "target": "media-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "navidrome/navidrome",
+      "target": "music",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "navidrome/navidrome",
+      "target": "music-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "navidrome/navidrome",
+      "target": "navidrome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "navidrome/navidrome",
+      "target": "opensubsonic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "navidrome/navidrome",
+      "target": "raspberry-pi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "navidrome/navidrome",
+      "target": "self-hosted",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "navidrome/navidrome",
+      "target": "streamer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "navidrome/navidrome",
+      "target": "streaming-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "navidrome/navidrome",
+      "target": "streaming-audio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "navidrome/navidrome",
+      "target": "subsonic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "navidrome/navidrome",
+      "target": "subsonic-server",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:02:23.544499+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5961
+    },
+    {
+      "path": "Dockerfile",
+      "size": 5900
+    },
+    {
+      "path": "go.mod",
+      "size": 6375
+    },
+    {
+      "path": ".github/workflows/download-link-on-pr.yml",
+      "size": 2442
+    },
+    {
+      "path": ".github/workflows/pipeline.yml",
+      "size": 17402
+    },
+    {
+      "path": ".github/workflows/push-translations.sh",
+      "size": 4166
+    },
+    {
+      "path": ".github/workflows/push-translations.yml",
+      "size": 931
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 2584
+    },
+    {
+      "path": ".github/workflows/update-translations.sh",
+      "size": 2481
+    },
+    {
+      "path": ".github/workflows/update-translations.yml",
+      "size": 1161
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83c\udfa7 Your Personal Streaming Service ",
+    "fork": false,
+    "full_name": "navidrome/navidrome",
+    "html_url": "https://github.com/navidrome/navidrome",
+    "language": "Go",
+    "pushed_at": "2026-04-30T12:07:23Z",
+    "stargazers_count": 20804,
+    "topics": [
+      "airsonic",
+      "madsonic",
+      "media-server",
+      "music",
+      "music-server",
+      "navidrome",
+      "opensubsonic",
+      "raspberry-pi",
+      "self-hosted",
+      "streamer",
+      "streaming-api",
+      "streaming-audio",
+      "subsonic",
+      "subsonic-server"
+    ],
+    "updated_at": "2026-04-30T14:48:43Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Add download link to PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/download-link-on-pr.yml",
+      "term": "Add download link to PR"
+    },
+    {
+      "context_snippet": "\"Pipeline: Test, Lint, Build\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pipeline.yml",
+      "term": "Pipeline: Test, Lint, Build"
+    },
+    {
+      "context_snippet": "POEditor export",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push-translations.yml",
+      "term": "POEditor export"
+    },
+    {
+      "context_snippet": "'Close stale issues and PRs'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Close stale issues and PRs"
+    },
+    {
+      "context_snippet": "POEditor import",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-translations.yml",
+      "term": "POEditor import"
+    },
+    {
+      "context_snippet": "<a href=\"https://www.navidrome.org\"><img src=\"resources/logo-192x192.png\" alt=\"Navidrome logo\" title=\"navidrome\" align=\"right\" height=\"60px\" /></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "airsonic"
+    },
+    {
+      "context_snippet": "<a href=\"https://www.navidrome.org\"><img src=\"resources/logo-192x192.png\" alt=\"Navidrome logo\" title=\"navidrome\" align=\"right\" height=\"60px\" /></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "madsonic"
+    },
+    {
+      "context_snippet": "<a href=\"https://www.navidrome.org\"><img src=\"resources/logo-192x192.png\" alt=\"Navidrome logo\" title=\"navidrome\" align=\"right\" height=\"60px\" /></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "media-server"
+    },
+    {
+      "context_snippet": "<a href=\"https://www.navidrome.org\"><img src=\"resources/logo-192x192.png\" alt=\"Navidrome logo\" title=\"navidrome\" align=\"right\" height=\"60px\" /></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "music"
+    },
+    {
+      "context_snippet": "<a href=\"https://www.navidrome.org\"><img src=\"resources/logo-192x192.png\" alt=\"Navidrome logo\" title=\"navidrome\" align=\"right\" height=\"60px\" /></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "music-server"
+    },
+    {
+      "context_snippet": "<a href=\"https://www.navidrome.org\"><img src=\"resources/logo-192x192.png\" alt=\"Navidrome logo\" title=\"navidrome\" align=\"right\" height=\"60px\" /></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "navidrome"
+    },
+    {
+      "context_snippet": "<a href=\"https://www.navidrome.org\"><img src=\"resources/logo-192x192.png\" alt=\"Navidrome logo\" title=\"navidrome\" align=\"right\" height=\"60px\" /></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opensubsonic"
+    },
+    {
+      "context_snippet": "<a href=\"https://www.navidrome.org\"><img src=\"resources/logo-192x192.png\" alt=\"Navidrome logo\" title=\"navidrome\" align=\"right\" height=\"60px\" /></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "raspberry-pi"
+    },
+    {
+      "context_snippet": "<a href=\"https://www.navidrome.org\"><img src=\"resources/logo-192x192.png\" alt=\"Navidrome logo\" title=\"navidrome\" align=\"right\" height=\"60px\" /></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "self-hosted"
+    },
+    {
+      "context_snippet": "<a href=\"https://www.navidrome.org\"><img src=\"resources/logo-192x192.png\" alt=\"Navidrome logo\" title=\"navidrome\" align=\"right\" height=\"60px\" /></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "streamer"
+    },
+    {
+      "context_snippet": "<a href=\"https://www.navidrome.org\"><img src=\"resources/logo-192x192.png\" alt=\"Navidrome logo\" title=\"navidrome\" align=\"right\" height=\"60px\" /></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "streaming-api"
+    },
+    {
+      "context_snippet": "<a href=\"https://www.navidrome.org\"><img src=\"resources/logo-192x192.png\" alt=\"Navidrome logo\" title=\"navidrome\" align=\"right\" height=\"60px\" /></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "streaming-audio"
+    },
+    {
+      "context_snippet": "<a href=\"https://www.navidrome.org\"><img src=\"resources/logo-192x192.png\" alt=\"Navidrome logo\" title=\"navidrome\" align=\"right\" height=\"60px\" /></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "subsonic"
+    },
+    {
+      "context_snippet": "<a href=\"https://www.navidrome.org\"><img src=\"resources/logo-192x192.png\" alt=\"Navidrome logo\" title=\"navidrome\" align=\"right\" height=\"60px\" /></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "subsonic-server"
+    }
+  ]
+}

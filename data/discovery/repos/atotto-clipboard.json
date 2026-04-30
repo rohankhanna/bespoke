@@ -1,0 +1,49 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "atotto/clipboard",
+      "target": "clipboard",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:08:00.380319+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 934
+    },
+    {
+      "path": "go.mod",
+      "size": 35
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "clipboard for golang",
+    "fork": false,
+    "full_name": "atotto/clipboard",
+    "html_url": "https://github.com/atotto/clipboard",
+    "language": "Go",
+    "pushed_at": "2026-03-26T01:19:54Z",
+    "stargazers_count": 1365,
+    "topics": [
+      "clipboard",
+      "go"
+    ],
+    "updated_at": "2026-04-28T13:33:29Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.com/atotto/clipboard.svg?branch=master)](https://travis-ci.com/atotto/clipboard)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clipboard"
+    }
+  ]
+}

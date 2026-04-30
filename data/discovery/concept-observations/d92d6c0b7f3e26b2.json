@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Rust vorbis decoder"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "lewton"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "lewton"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8574275,
+      "status": "candidate",
+      "text": "lewington"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8574274,
+      "status": "candidate",
+      "text": "lewison"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8574273,
+      "status": "candidate",
+      "text": "lewsey"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8574272,
+      "status": "candidate",
+      "text": "lewey"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8574271,
+      "status": "candidate",
+      "text": "lewter"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "lewton",
+      "sense_id": "lewton#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "lewton",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "lewton",
+  "observation_id": "d92d6c0b7f3e26b2",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "lewton",
+  "source_context_snippet": "lewton",
+  "source_file": ".github/workflows/lewton.yml",
+  "source_repo": "RustAudio/lewton",
+  "source_repo_description": "Rust vorbis decoder"
+}

@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T14:03:34.734642+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "abolish.vim: Work with several variants of a word at once",
+    "fork": false,
+    "full_name": "tpope/vim-abolish",
+    "html_url": "https://github.com/tpope/vim-abolish",
+    "language": "Vim Script",
+    "pushed_at": "2024-08-07T21:16:02Z",
+    "stargazers_count": 2943,
+    "topics": [],
+    "updated_at": "2026-04-29T08:44:48Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

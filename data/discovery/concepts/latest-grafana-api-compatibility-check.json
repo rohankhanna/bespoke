@@ -1,0 +1,118 @@
+{
+  "aliases": [
+    "Latest Grafana API compatibility check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ovh/grafana-akvorado",
+      "status": "candidate-context",
+      "text": "Latest Grafana API compatibility check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "quickwit-oss/quickwit-datasource",
+      "status": "candidate-context",
+      "text": "Quickwit data source for Grafana"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quickwit-oss/quickwit-datasource",
+      "status": "candidate-context",
+      "text": "Latest Grafana API compatibility check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ovh/grafana-akvorado",
+      "status": "candidate",
+      "text": "Latest Grafana API compatibility check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quickwit-oss/quickwit-datasource",
+      "status": "candidate",
+      "text": "Latest Grafana API compatibility check"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32318,
+      "status": "candidate",
+      "text": "final"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32109,
+      "status": "candidate",
+      "text": "snub"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32039,
+      "status": "candidate",
+      "text": "cut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23327,
+      "status": "candidate",
+      "text": "bee line"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22027,
+      "status": "candidate",
+      "text": "jump"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Latest Grafana API compatibility check",
+  "concept_id": "latest-grafana-api-compatibility-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/is-compatible.yml",
+      "source_repo": "ovh/grafana-akvorado"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/is-compatible.yml",
+      "source_repo": "quickwit-oss/quickwit-datasource"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Latest Grafana API compatibility check",
+      "sense_id": "latest-grafana-api-compatibility-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

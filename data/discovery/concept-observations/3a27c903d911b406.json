@@ -48,7 +48,7 @@
   "normalized_form": "issue-close-user-survey",
   "observation_id": "3a27c903d911b406",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
   "observed_text": "issue-close-user-survey",
   "source_context_snippet": "issue-close-user-survey",
   "source_file": ".github/workflows/issue-close-user-survey.yml",

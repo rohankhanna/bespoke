@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "profiles"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eclipse-embed-cdt/org.eclipse.epp.packages",
+      "status": "candidate-context",
+      "text": "A fork of the Eclipse project used to generate distributable binaries, extended to include the Eclipse Embedded CDT plug-ins. The archive of previous packages is also here, as Releases."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-embed-cdt/org.eclipse.epp.packages",
+      "status": "candidate-context",
+      "text": "The EPP Build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-embed-cdt/org.eclipse.epp.packages",
+      "status": "candidate",
+      "text": "The EPP Build"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51526,
+      "status": "candidate",
+      "text": "backgrounds"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51526,
+      "status": "candidate",
+      "text": "briefings"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51526,
+      "status": "candidate",
+      "text": "briefs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51526,
+      "status": "candidate",
+      "text": "characteristics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51526,
+      "status": "candidate",
+      "text": "curves"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "profiles",
+  "concept_id": "profiles",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-embed-cdt/org.eclipse.epp.packages"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "profiles",
+      "sense_id": "profiles#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

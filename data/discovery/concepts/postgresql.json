@@ -367,6 +367,54 @@
       "source_repo": "tensorchord/VectorChord",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gajus/slonik",
+      "status": "candidate-context",
+      "text": "A Node.js PostgreSQL client with runtime and build time type safety, and composable SQL."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gajus/slonik",
+      "status": "candidate-context",
+      "text": "[![NPM version](http://img.shields.io/npm/v/slonik.svg?style=flat-square)](https://www.npmjs.org/package/slonik)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dbfixtures/pytest-postgresql",
+      "status": "candidate-context",
+      "text": "This is a pytest plugin, that enables you to test your code that relies on a running PostgreSQL Database. It allows you to specify fixtures for PostgreSQL process and client."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dbfixtures/pytest-postgresql",
+      "status": "candidate-context",
+      "text": ".. image:: https://raw.githubusercontent.com/dbfixtures/pytest-postgresql/main/logo.png"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FuzzyGrim/Yamtrack",
+      "status": "candidate-context",
+      "text": "A self hosted media tracker."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FuzzyGrim/Yamtrack",
+      "status": "candidate-context",
+      "text": "![App Tests](https://github.com/FuzzyGrim/Yamtrack/actions/workflows/app-tests.yml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rgeo/activerecord-postgis-adapter",
+      "status": "candidate-context",
+      "text": "ActiveRecord connection adapter for PostGIS, based on postgresql and rgeo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rgeo/activerecord-postgis-adapter",
+      "status": "candidate-context",
+      "text": "[![Gem Version](https://badge.fury.io/rb/activerecord-postgis-adapter.svg)](https://badge.fury.io/rb/activerecord-postgis-adapter)"
     }
   ],
   "candidate_glosses": [
@@ -549,6 +597,30 @@
       "source_repo": "tensorchord/VectorChord",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gajus/slonik",
+      "status": "candidate",
+      "text": "[![NPM version](http://img.shields.io/npm/v/slonik.svg?style=flat-square)](https://www.npmjs.org/package/slonik)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dbfixtures/pytest-postgresql",
+      "status": "candidate",
+      "text": ".. image:: https://raw.githubusercontent.com/dbfixtures/pytest-postgresql/main/logo.png"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FuzzyGrim/Yamtrack",
+      "status": "candidate",
+      "text": "![App Tests](https://github.com/FuzzyGrim/Yamtrack/actions/workflows/app-tests.yml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rgeo/activerecord-postgis-adapter",
+      "status": "candidate",
+      "text": "[![Gem Version](https://badge.fury.io/rb/activerecord-postgis-adapter.svg)](https://badge.fury.io/rb/activerecord-postgis-adapter)"
     }
   ],
   "candidate_related_terms": [
@@ -813,11 +885,59 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "tensorchord/VectorChord"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "gobackup/gobackup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "babashka/babashka-sql-pods"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "KDJDEV/imagehash-reverse-image-search-tutorial"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "gajus/slonik"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "dbfixtures/pytest-postgresql"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "FuzzyGrim/Yamtrack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "rgeo/activerecord-postgis-adapter"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Go Test",
-    "go-test"
+    "go-test",
+    "go test"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -232,6 +233,30 @@
       "source_repo": "ipfs/go-graphsync",
       "status": "candidate-context",
       "text": "Go Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-openapi/strfmt",
+      "status": "candidate-context",
+      "text": "openapi toolkit common string formats"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-openapi/strfmt",
+      "status": "candidate-context",
+      "text": "go test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-openapi/swag",
+      "status": "candidate-context",
+      "text": "goodie bag in use in the go-openapi projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-openapi/swag",
+      "status": "candidate-context",
+      "text": "go test"
     }
   ],
   "candidate_glosses": [
@@ -348,6 +373,18 @@
       "source_repo": "ipfs/go-graphsync",
       "status": "candidate",
       "text": "Go Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-openapi/strfmt",
+      "status": "candidate",
+      "text": "go test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-openapi/swag",
+      "status": "candidate",
+      "text": "go test"
     }
   ],
   "candidate_related_terms": [
@@ -511,11 +548,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/go-test.yml",
       "source_repo": "ipfs/go-graphsync"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/go-test.yml",
+      "source_repo": "go-openapi/strfmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/go-test.yml",
+      "source_repo": "go-openapi/swag"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

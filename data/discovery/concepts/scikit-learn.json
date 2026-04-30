@@ -127,6 +127,54 @@
       "source_repo": "kubeflow/katib",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/kubeflow/katib/actions/workflows/test-go.yaml/badge.svg?branch=master)](https://github.com/kubeflow/katib/actions/workflows/test-go.yaml?branch=master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/Windows-Machine-Learning",
+      "status": "candidate-context",
+      "text": "Samples and Tools for Windows ML."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Windows-Machine-Learning",
+      "status": "candidate-context",
+      "text": "> \u26a0\ufe0f **IMPORTANT**<br/>For the latest documentation about Windows Machine Learning, see [What is Windows ML](/windows/ai/new-windows-ml/overview). That documentation describes APIs that are in the **Microsoft.Windows.AI.MachineLearning** namespace, which ships in the Windows App\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scikit-optimize/scikit-optimize",
+      "status": "candidate-context",
+      "text": "Sequential model-based optimization with a  `scipy.optimize` interface"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scikit-optimize/scikit-optimize",
+      "status": "candidate-context",
+      "text": "|Logo|"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "skforecast/skforecast",
+      "status": "candidate-context",
+      "text": "Python library for time series forecasting using scikit-learn compatible models, statistical methods, and foundation models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "skforecast/skforecast",
+      "status": "candidate-context",
+      "text": "<h1 align=\"left\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kymatio/kymatio",
+      "status": "candidate-context",
+      "text": "Wavelet scattering transforms in Python with GPU acceleration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kymatio/kymatio",
+      "status": "candidate-context",
+      "text": "Kymatio: Wavelet scattering in Python"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +237,30 @@
       "source_repo": "kubeflow/katib",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/kubeflow/katib/actions/workflows/test-go.yaml/badge.svg?branch=master)](https://github.com/kubeflow/katib/actions/workflows/test-go.yaml?branch=master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Windows-Machine-Learning",
+      "status": "candidate",
+      "text": "> \u26a0\ufe0f **IMPORTANT**<br/>For the latest documentation about Windows Machine Learning, see [What is Windows ML](/windows/ai/new-windows-ml/overview). That documentation describes APIs that are in the **Microsoft.Windows.AI.MachineLearning** namespace, which ships in the Windows App\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scikit-optimize/scikit-optimize",
+      "status": "candidate",
+      "text": "|Logo|"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "skforecast/skforecast",
+      "status": "candidate",
+      "text": "<h1 align=\"left\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kymatio/kymatio",
+      "status": "candidate",
+      "text": "Kymatio: Wavelet scattering in Python"
     }
   ],
   "candidate_related_terms": [
@@ -292,11 +364,41 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "kubeflow/katib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Windows-Machine-Learning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "scikit-optimize/scikit-optimize"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "uxlfoundation/scikit-learn-intelex"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "skforecast/skforecast"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "kymatio/kymatio"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

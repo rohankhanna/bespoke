@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Localization Distillation for Object Detection (CVPR 2022, TPAMI 2023)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Analysis of LD in ZhiHu: [\u76ee\u6807\u68c0\u6d4b-\u5b9a\u4f4d\u84b8\u998f (LD, CVPR 2022)](https://zhuanlan.zhihu.com/p/474955539) and [\u76ee\u6807\u68c0\u6d4b-\u5b9a\u4f4d\u84b8\u998f\u7eed\u96c6\u2014\u2014logit\u84b8\u998f\u4e0efeature\u84b8\u998f\u4e4b\u4e89](https://zhuanlan.zhihu.com/p/498119752)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Analysis of LD in ZhiHu: [\u76ee\u6807\u68c0\u6d4b-\u5b9a\u4f4d\u84b8\u998f (LD, CVPR 2022)](https://zhuanlan.zhihu.com/p/474955539) and [\u76ee\u6807\u68c0\u6d4b-\u5b9a\u4f4d\u84b8\u998f\u7eed\u96c6\u2014\u2014logit\u84b8\u998f\u4e0efeature\u84b8\u998f\u4e4b\u4e89](https://zhuanlan.zhihu.com/p/498119752)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "knowledge-distillation",
+      "sense_id": "knowledge-distillation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "knowledge-distillation",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "knowledge-distillation",
+  "observation_id": "47e83728d3814184",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "knowledge-distillation",
+  "source_context_snippet": "Analysis of LD in ZhiHu: [\u76ee\u6807\u68c0\u6d4b-\u5b9a\u4f4d\u84b8\u998f (LD, CVPR 2022)](https://zhuanlan.zhihu.com/p/474955539) and [\u76ee\u6807\u68c0\u6d4b-\u5b9a\u4f4d\u84b8\u998f\u7eed\u96c6\u2014\u2014logit\u84b8\u998f\u4e0efeature\u84b8\u998f\u4e4b\u4e89](https://zhuanlan.zhihu.com/p/498119752)",
+  "source_file": null,
+  "source_repo": "HikariTJU/LD",
+  "source_repo_description": "Localization Distillation for Object Detection (CVPR 2022, TPAMI 2023)"
+}

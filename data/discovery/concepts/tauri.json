@@ -79,6 +79,18 @@
       "source_repo": "EpicenterHQ/epicenter",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "janhq/jan",
+      "status": "candidate-context",
+      "text": "Jan is an open source alternative to ChatGPT that runs 100% offline on your computer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "janhq/jan",
+      "status": "candidate-context",
+      "text": "<img width=\"2048\" height=\"280\" alt=\"github jan banner\" src=\"https://github.com/user-attachments/assets/f3f87889-c133-433b-b250-236218150d3f\" />"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "EpicenterHQ/epicenter",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "janhq/jan",
+      "status": "candidate",
+      "text": "<img width=\"2048\" height=\"280\" alt=\"github jan banner\" src=\"https://github.com/user-attachments/assets/f3f87889-c133-433b-b250-236218150d3f\" />"
     }
   ],
   "candidate_related_terms": [
@@ -316,11 +334,29 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "janhq/jan"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

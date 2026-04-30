@@ -1,0 +1,475 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-linux.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-linux.yml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-linux.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-osx.yml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-osx.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-smoketest.yml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-smoketest.yml"
+    },
+    {
+      "component": "Jimver/cuda-toolkit@3d45d157f327c09c04b50ee6ccdea2d9d017ec76",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-windows.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-windows.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-windows.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-windows.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/desul-version-check.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/desul-version-check.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mdspan-version-check.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mdspan-version-check.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-cea.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "kokkos/kokkos",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "kokkos/kokkos",
+      "target": "github/codeql-action/init@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "kokkos/kokkos",
+      "target": "github/codeql-action/analyze@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "kokkos/kokkos",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-linux.yml",
+      "source_repo": "kokkos/kokkos",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-linux.yml",
+      "source_repo": "kokkos/kokkos",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/continuous-integration-linux.yml",
+      "source_repo": "kokkos/kokkos",
+      "target": "github-Linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-osx.yml",
+      "source_repo": "kokkos/kokkos",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-osx.yml",
+      "source_repo": "kokkos/kokkos",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/continuous-integration-osx.yml",
+      "source_repo": "kokkos/kokkos",
+      "target": "github-OSX",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-smoketest.yml",
+      "source_repo": "kokkos/kokkos",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-smoketest.yml",
+      "source_repo": "kokkos/kokkos",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/continuous-integration-smoketest.yml",
+      "source_repo": "kokkos/kokkos",
+      "target": "basic-test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/continuous-integration-stager.yml",
+      "source_repo": "kokkos/kokkos",
+      "target": "staged-continuous-integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-windows.yml",
+      "source_repo": "kokkos/kokkos",
+      "target": "Jimver/cuda-toolkit@3d45d157f327c09c04b50ee6ccdea2d9d017ec76",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-windows.yml",
+      "source_repo": "kokkos/kokkos",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/continuous-integration-windows.yml",
+      "source_repo": "kokkos/kokkos",
+      "target": "github-windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/desul-version-check.yml",
+      "source_repo": "kokkos/kokkos",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/desul-version-check.yml",
+      "source_repo": "kokkos/kokkos",
+      "target": "desul version check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mdspan-version-check.yml",
+      "source_repo": "kokkos/kokkos",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mdspan-version-check.yml",
+      "source_repo": "kokkos/kokkos",
+      "target": "mdspan version check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-cea.yml",
+      "source_repo": "kokkos/kokkos",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-cea.yml",
+      "source_repo": "kokkos/kokkos",
+      "target": "Nightly CEA builds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kokkos/kokkos",
+      "target": "abstraction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kokkos/kokkos",
+      "target": "c-plus-plus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kokkos/kokkos",
+      "target": "high-performance-computing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kokkos/kokkos",
+      "target": "hpsf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kokkos/kokkos",
+      "target": "kokkos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kokkos/kokkos",
+      "target": "parallel-computing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kokkos/kokkos",
+      "target": "programming-model",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:00:34.887991+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4167
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 1221
+    },
+    {
+      "path": ".github/workflows/continuous-integration-linux.yml",
+      "size": 7833
+    },
+    {
+      "path": ".github/workflows/continuous-integration-osx.yml",
+      "size": 3154
+    },
+    {
+      "path": ".github/workflows/continuous-integration-smoketest.yml",
+      "size": 1766
+    },
+    {
+      "path": ".github/workflows/continuous-integration-stager.yml",
+      "size": 1398
+    },
+    {
+      "path": ".github/workflows/continuous-integration-windows.yml",
+      "size": 2209
+    },
+    {
+      "path": ".github/workflows/desul-version-check.yml",
+      "size": 969
+    },
+    {
+      "path": ".github/workflows/mdspan-version-check.yml",
+      "size": 784
+    },
+    {
+      "path": ".github/workflows/nightly-cea.yml",
+      "size": 4558
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Kokkos C++ Performance Portability Programming Ecosystem: The Programming Model - Parallel Execution and Memory Abstraction",
+    "fork": false,
+    "full_name": "kokkos/kokkos",
+    "html_url": "https://github.com/kokkos/kokkos",
+    "language": "C++",
+    "pushed_at": "2026-04-30T01:57:28Z",
+    "stargazers_count": 2519,
+    "topics": [
+      "abstraction",
+      "c-plus-plus",
+      "high-performance-computing",
+      "hpsf",
+      "kokkos",
+      "parallel-computing",
+      "programming-model"
+    ],
+    "updated_at": "2026-04-30T01:57:33Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "github-Linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/continuous-integration-linux.yml",
+      "term": "github-Linux"
+    },
+    {
+      "context_snippet": "github-OSX",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/continuous-integration-osx.yml",
+      "term": "github-OSX"
+    },
+    {
+      "context_snippet": "basic-test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/continuous-integration-smoketest.yml",
+      "term": "basic-test"
+    },
+    {
+      "context_snippet": "staged-continuous-integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/continuous-integration-stager.yml",
+      "term": "staged-continuous-integration"
+    },
+    {
+      "context_snippet": "github-windows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/continuous-integration-windows.yml",
+      "term": "github-windows"
+    },
+    {
+      "context_snippet": "desul version check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/desul-version-check.yml",
+      "term": "desul version check"
+    },
+    {
+      "context_snippet": "mdspan version check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mdspan-version-check.yml",
+      "term": "mdspan version check"
+    },
+    {
+      "context_snippet": "Nightly CEA builds",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-cea.yml",
+      "term": "Nightly CEA builds"
+    },
+    {
+      "context_snippet": "[![Kokkos](https://avatars2.githubusercontent.com/u/10199860?s=200&v=4)](https://kokkos.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "abstraction"
+    },
+    {
+      "context_snippet": "[![Kokkos](https://avatars2.githubusercontent.com/u/10199860?s=200&v=4)](https://kokkos.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus"
+    },
+    {
+      "context_snippet": "[![Kokkos](https://avatars2.githubusercontent.com/u/10199860?s=200&v=4)](https://kokkos.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "high-performance-computing"
+    },
+    {
+      "context_snippet": "[![Kokkos](https://avatars2.githubusercontent.com/u/10199860?s=200&v=4)](https://kokkos.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hpsf"
+    },
+    {
+      "context_snippet": "[![Kokkos](https://avatars2.githubusercontent.com/u/10199860?s=200&v=4)](https://kokkos.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kokkos"
+    },
+    {
+      "context_snippet": "[![Kokkos](https://avatars2.githubusercontent.com/u/10199860?s=200&v=4)](https://kokkos.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parallel-computing"
+    },
+    {
+      "context_snippet": "[![Kokkos](https://avatars2.githubusercontent.com/u/10199860?s=200&v=4)](https://kokkos.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "programming-model"
+    }
+  ]
+}

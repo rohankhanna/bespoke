@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T15:14:29.755911+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15862
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 742
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "NexusRaven-13B, a new SOTA Open-Source LLM for function calling. This repo contains everything for reproducing our evaluation on NexusRaven-13B and baselines.",
+    "fork": false,
+    "full_name": "nexusflowai/NexusRaven",
+    "html_url": "https://github.com/nexusflowai/NexusRaven",
+    "language": "Python",
+    "pushed_at": "2023-09-29T21:39:22Z",
+    "stargazers_count": 320,
+    "topics": [],
+    "updated_at": "2026-04-25T23:45:30Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,12 +1,17 @@
 {
   "component": "coactions/setup-xvfb@6b00cf1889f4e1d5a48635647013c0508128ee1a",
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build-and-test.yml",
       "source_repo": "BetterThanTomorrow/calva-power-tools"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "PEZ/vscode-extension-template"
     }
   ]
 }

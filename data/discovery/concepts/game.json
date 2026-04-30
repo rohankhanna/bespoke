@@ -139,6 +139,18 @@
       "source_repo": "NetHack/NetHack",
       "status": "candidate-context",
       "text": "Official NetHack Git Repository"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DyegoCosta/snake-game",
+      "status": "candidate-context",
+      "text": "Terminal-based Snake game"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DyegoCosta/snake-game",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/DyegoCosta/snake-game.svg?branch=master)](https://travis-ci.org/DyegoCosta/snake-game)"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +219,12 @@
       "source_repo": "NetHack/NetHack",
       "status": "candidate",
       "text": "Official NetHack Git Repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DyegoCosta/snake-game",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/DyegoCosta/snake-game.svg?branch=master)](https://travis-ci.org/DyegoCosta/snake-game)"
     }
   ],
   "candidate_related_terms": [
@@ -394,11 +412,29 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "NetHack/NetHack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "DyegoCosta/snake-game"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ably-labs/realtime-multiplayer-space-invaders"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

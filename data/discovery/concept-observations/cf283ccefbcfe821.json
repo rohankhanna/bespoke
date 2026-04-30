@@ -48,7 +48,7 @@
   "normalized_form": "aws-cloudformation",
   "observation_id": "cf283ccefbcfe821",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
   "observed_text": "aws-cloudformation",
   "source_context_snippet": "[![Build Status](https://travis-ci.com/aws-cloudformation/aws-cloudformation-resource-schema.svg?branch=master)](https://travis-ci.com/aws-cloudformation/aws-cloudformation-resource-schema)",
   "source_file": null,

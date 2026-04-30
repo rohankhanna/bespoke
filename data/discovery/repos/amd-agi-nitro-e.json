@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AMD-AGI/Nitro-E",
+      "target": "poloclub/diffusiondb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AMD-AGI/Nitro-E",
+      "target": "amd-agi/nitro-t",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AMD-AGI/Nitro-E",
+      "target": "amd-agi/nitro-1",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:15:45.154066+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5657
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "AMD-AGI/Nitro-E",
+    "html_url": "https://github.com/AMD-AGI/Nitro-E",
+    "language": "Python",
+    "pushed_at": "2026-02-24T01:23:25Z",
+    "stargazers_count": 120,
+    "topics": [],
+    "updated_at": "2026-04-28T15:03:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "amd-agi/nitro-1",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "amd-agi/nitro-t",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "poloclub/diffusiondb",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

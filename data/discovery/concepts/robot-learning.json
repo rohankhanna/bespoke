@@ -19,6 +19,18 @@
       "source_repo": "isaac-sim/IsaacLab",
       "status": "candidate-context",
       "text": "![Isaac Lab](docs/source/_static/isaaclab.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vikashplus/robohive",
+      "status": "candidate-context",
+      "text": "A unified framework for robot learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vikashplus/robohive",
+      "status": "candidate-context",
+      "text": "<!-- ================================================="
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "isaac-sim/IsaacLab",
       "status": "candidate",
       "text": "![Isaac Lab](docs/source/_static/isaaclab.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vikashplus/robohive",
+      "status": "candidate",
+      "text": "<!-- ================================================="
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "isaac-sim/IsaacLab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "vikashplus/robohive"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

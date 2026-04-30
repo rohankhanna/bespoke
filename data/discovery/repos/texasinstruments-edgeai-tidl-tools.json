@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TexasInstruments/edgeai-tidl-tools",
+      "target": "jbeder/yaml-cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TexasInstruments/edgeai-tidl-tools",
+      "target": "ti-processors",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:15:24.162702+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 24231
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Edgeai TIDL Tools and Examples - This repository contains Tools and example developed for Deep learning runtime (DLRT) offering provided by TI\u2019s edge AI solutions. ",
+    "fork": false,
+    "full_name": "TexasInstruments/edgeai-tidl-tools",
+    "html_url": "https://github.com/TexasInstruments/edgeai-tidl-tools",
+    "language": "Python",
+    "pushed_at": "2026-03-17T09:22:00Z",
+    "stargazers_count": 186,
+    "topics": [
+      "ti-processors"
+    ],
+    "updated_at": "2026-04-18T14:09:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jbeder/yaml-cpp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "TIDL is a comprehensive software product for acceleration of Deep Neural Networks (DNNs) on TI's embedded devices. It supports heterogeneous execution of DNNs across cortex-A based MPUs, TI's latest generation C7x DSP and TI's DNN accelerator (MMA). TIDL is released as part of T\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ti-processors"
+    }
+  ]
+}

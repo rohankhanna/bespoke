@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "publish Ardalis.HttpClientTestExtensions to nuget"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ardalis/HttpClientTestExtensions",
+      "status": "candidate-context",
+      "text": "Extensions for testing HTTP endpoints and deserializing the results. Currently works with XUnit."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ardalis/HttpClientTestExtensions",
+      "status": "candidate-context",
+      "text": "publish Ardalis.HttpClientTestExtensions to nuget"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ardalis/HttpClientTestExtensions",
+      "status": "candidate",
+      "text": "publish Ardalis.HttpClientTestExtensions to nuget"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "disclose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "gazette"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "issue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "issued"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "post"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "publish Ardalis.HttpClientTestExtensions to nuget",
+  "concept_id": "publish-ardalis.httpclienttestextensions-to-nuget",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ardalis/HttpClientTestExtensions"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "publish Ardalis.HttpClientTestExtensions to nuget",
+      "sense_id": "publish-ardalis.httpclienttestextensions-to-nuget#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

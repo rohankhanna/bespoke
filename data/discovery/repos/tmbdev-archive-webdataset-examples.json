@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T15:08:42.928952+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3157
+    },
+    {
+      "path": "requirements.txt",
+      "size": 136
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Examples for the WebDataset PyTorch Dataset Library",
+    "fork": false,
+    "full_name": "tmbdev-archive/webdataset-examples",
+    "html_url": "https://github.com/tmbdev-archive/webdataset-examples",
+    "language": "Python",
+    "pushed_at": "2021-06-15T18:16:58Z",
+    "stargazers_count": 51,
+    "topics": [],
+    "updated_at": "2025-08-29T05:18:48Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

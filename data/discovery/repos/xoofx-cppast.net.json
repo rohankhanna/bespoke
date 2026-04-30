@@ -1,0 +1,142 @@
+{
+  "components": [
+    {
+      "component": "xoofx/.github/.github/workflows/dotnet.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "xoofx/CppAst.NET",
+      "target": "xoofx/.github/.github/workflows/dotnet.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xoofx/CppAst.NET",
+      "target": "clang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xoofx/CppAst.NET",
+      "target": "cplusplus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xoofx/CppAst.NET",
+      "target": "csharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xoofx/CppAst.NET",
+      "target": "dotnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xoofx/CppAst.NET",
+      "target": "dotnet-core",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xoofx/CppAst.NET",
+      "target": "libclang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xoofx/CppAst.NET",
+      "target": "parser",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:03:34.211448+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 236
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "CppAst is a .NET library providing a C/C++ parser for header files powered by Clang/libclang with access to the full AST, comments and macros",
+    "fork": false,
+    "full_name": "xoofx/CppAst.NET",
+    "html_url": "https://github.com/xoofx/CppAst.NET",
+    "language": "C#",
+    "pushed_at": "2026-02-10T08:09:38Z",
+    "stargazers_count": 602,
+    "topics": [
+      "ast",
+      "clang",
+      "cplusplus",
+      "csharp",
+      "dotnet",
+      "dotnet-core",
+      "libclang",
+      "parser"
+    ],
+    "updated_at": "2026-04-21T05:23:26Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "ci",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clang"
+    },
+    {
+      "context_snippet": "ci",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cplusplus"
+    },
+    {
+      "context_snippet": "ci",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "csharp"
+    },
+    {
+      "context_snippet": "ci",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet"
+    },
+    {
+      "context_snippet": "ci",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet-core"
+    },
+    {
+      "context_snippet": "ci",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "libclang"
+    },
+    {
+      "context_snippet": "ci",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parser"
+    }
+  ]
+}

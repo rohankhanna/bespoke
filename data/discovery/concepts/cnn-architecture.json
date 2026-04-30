@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "cnn-architecture"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "smhassanerfani/atlantis",
+      "status": "candidate-context",
+      "text": "A Benchmark for Semantic Segmentation of Waterbody Images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smhassanerfani/atlantis",
+      "status": "candidate-context",
+      "text": "This is the repository for the ATLANTIS. All waterbody labels are comprehensively described in [ATLANTIS Wiki](https://github.com/smhassanerfani/atlantis/wiki). This dataset was developed in the [iWERS](http://ce.sc.edu/goharian/) lab at the University of South Carolina."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smhassanerfani/atlantis",
+      "status": "candidate",
+      "text": "This is the repository for the ATLANTIS. All waterbody labels are comprehensively described in [ATLANTIS Wiki](https://github.com/smhassanerfani/atlantis/wiki). This dataset was developed in the [iWERS](http://ce.sc.edu/goharian/) lab at the University of South Carolina."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "cnn-architecture",
+  "concept_id": "cnn-architecture",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "smhassanerfani/atlantis"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cnn-architecture",
+      "sense_id": "cnn-architecture#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

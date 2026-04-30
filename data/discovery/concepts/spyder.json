@@ -19,6 +19,18 @@
       "source_repo": "spyder-ide/qtpy",
       "status": "candidate-context",
       "text": "[![license](https://img.shields.io/pypi/l/qtpy.svg)](./LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spyder-ide/spyder",
+      "status": "candidate-context",
+      "text": "Official repository for Spyder - The Scientific Python Development Environment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spyder-ide/spyder",
+      "status": "candidate-context",
+      "text": "![Spyder \u2014 The Scientific Python Development Environment](https://raw.githubusercontent.com/spyder-ide/spyder/master/branding/logo/spyder_readme_banner.png)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "spyder-ide/qtpy",
       "status": "candidate",
       "text": "[![license](https://img.shields.io/pypi/l/qtpy.svg)](./LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spyder-ide/spyder",
+      "status": "candidate",
+      "text": "![Spyder \u2014 The Scientific Python Development Environment](https://raw.githubusercontent.com/spyder-ide/spyder/master/branding/logo/spyder_readme_banner.png)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "spyder-ide/qtpy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "spyder-ide/spyder"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

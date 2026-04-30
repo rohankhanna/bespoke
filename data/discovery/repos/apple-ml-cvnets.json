@@ -1,0 +1,192 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apple/ml-cvnets",
+      "target": "ade20k",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apple/ml-cvnets",
+      "target": "classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apple/ml-cvnets",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apple/ml-cvnets",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apple/ml-cvnets",
+      "target": "detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apple/ml-cvnets",
+      "target": "imagenet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apple/ml-cvnets",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apple/ml-cvnets",
+      "target": "mscoco",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apple/ml-cvnets",
+      "target": "pascal-voc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apple/ml-cvnets",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apple/ml-cvnets",
+      "target": "segmentation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:15:46.046599+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5952
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 193
+    },
+    {
+      "path": "requirements.txt",
+      "size": 601
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "CVNets: A library for training computer vision networks",
+    "fork": false,
+    "full_name": "apple/ml-cvnets",
+    "html_url": "https://github.com/apple/ml-cvnets",
+    "language": "Python",
+    "pushed_at": "2023-10-30T17:05:10Z",
+    "stargazers_count": 1966,
+    "topics": [
+      "ade20k",
+      "classification",
+      "computer-vision",
+      "deep-learning",
+      "detection",
+      "imagenet",
+      "machine-learning",
+      "mscoco",
+      "pascal-voc",
+      "pytorch",
+      "segmentation"
+    ],
+    "updated_at": "2026-04-27T07:32:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CVNets is a computer vision toolkit that allows researchers and engineers to train standard and novel mobile-",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ade20k"
+    },
+    {
+      "context_snippet": "CVNets is a computer vision toolkit that allows researchers and engineers to train standard and novel mobile-",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "classification"
+    },
+    {
+      "context_snippet": "CVNets is a computer vision toolkit that allows researchers and engineers to train standard and novel mobile-",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "CVNets is a computer vision toolkit that allows researchers and engineers to train standard and novel mobile-",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "CVNets is a computer vision toolkit that allows researchers and engineers to train standard and novel mobile-",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "detection"
+    },
+    {
+      "context_snippet": "CVNets is a computer vision toolkit that allows researchers and engineers to train standard and novel mobile-",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "imagenet"
+    },
+    {
+      "context_snippet": "CVNets is a computer vision toolkit that allows researchers and engineers to train standard and novel mobile-",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "CVNets is a computer vision toolkit that allows researchers and engineers to train standard and novel mobile-",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mscoco"
+    },
+    {
+      "context_snippet": "CVNets is a computer vision toolkit that allows researchers and engineers to train standard and novel mobile-",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pascal-voc"
+    },
+    {
+      "context_snippet": "CVNets is a computer vision toolkit that allows researchers and engineers to train standard and novel mobile-",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "CVNets is a computer vision toolkit that allows researchers and engineers to train standard and novel mobile-",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "segmentation"
+    }
+  ]
+}

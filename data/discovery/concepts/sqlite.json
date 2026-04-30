@@ -331,6 +331,42 @@
       "source_repo": "Dicklesworthstone/beads_rust",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kysely-org/kysely-ctl",
+      "status": "candidate-context",
+      "text": "Command-line tool for Kysely, Knex-compatible, works in Node.js, Deno, Bun, etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kysely-org/kysely-ctl",
+      "status": "candidate-context",
+      "text": "<div style=\"width: 100%;\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kkharji/sqlite.lua",
+      "status": "candidate-context",
+      "text": "SQLite LuaJIT binding with a very simple api."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kkharji/sqlite.lua",
+      "status": "candidate-context",
+      "text": "sqlite.lua \ud83d\udcab"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FuzzyGrim/Yamtrack",
+      "status": "candidate-context",
+      "text": "A self hosted media tracker."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FuzzyGrim/Yamtrack",
+      "status": "candidate-context",
+      "text": "![App Tests](https://github.com/FuzzyGrim/Yamtrack/actions/workflows/app-tests.yml/badge.svg)"
     }
   ],
   "candidate_glosses": [
@@ -495,6 +531,24 @@
       "source_repo": "Dicklesworthstone/beads_rust",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kysely-org/kysely-ctl",
+      "status": "candidate",
+      "text": "<div style=\"width: 100%;\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kkharji/sqlite.lua",
+      "status": "candidate",
+      "text": "sqlite.lua \ud83d\udcab"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FuzzyGrim/Yamtrack",
+      "status": "candidate",
+      "text": "![App Tests](https://github.com/FuzzyGrim/Yamtrack/actions/workflows/app-tests.yml/badge.svg)"
     }
   ],
   "candidate_related_terms": [
@@ -778,11 +832,35 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "WiseLibs/better-sqlite3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "kysely-org/kysely-ctl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "kkharji/sqlite.lua"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "WiseLibs/better-sqlite3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "FuzzyGrim/Yamtrack"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

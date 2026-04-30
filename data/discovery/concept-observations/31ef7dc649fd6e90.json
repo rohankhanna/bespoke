@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The high-speed OpenGL, OpenCL, OpenAL, OpenXR, GLFW, SDL, Vulkan, Assimp, WebGPU, and DirectX bindings library your mother warned you about."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "ANGLE"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "ANGLE"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39952018,
+      "status": "candidate",
+      "text": "weight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39871106,
+      "status": "candidate",
+      "text": "slant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39864765,
+      "status": "candidate",
+      "text": "tilt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39851043,
+      "status": "candidate",
+      "text": "lean"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39847520,
+      "status": "candidate",
+      "text": "tip"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "ANGLE",
+      "sense_id": "angle#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 32058,
+      "status": "candidate",
+      "text": "lean"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27052,
+      "status": "candidate",
+      "text": "tilt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12079,
+      "status": "candidate",
+      "text": "tip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9075,
+      "status": "candidate",
+      "text": "weight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "fish"
+    }
+  ],
+  "concept_id": "angle",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "angle",
+  "observation_id": "31ef7dc649fd6e90",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "ANGLE",
+  "source_context_snippet": "ANGLE",
+  "source_file": ".github/workflows/angle.yml",
+  "source_repo": "dotnet/Silk.NET",
+  "source_repo_description": "The high-speed OpenGL, OpenCL, OpenAL, OpenXR, GLFW, SDL, Vulkan, Assimp, WebGPU, and DirectX bindings library your mother warned you about."
+}

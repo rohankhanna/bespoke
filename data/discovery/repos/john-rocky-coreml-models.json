@@ -1,0 +1,249 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "john-rocky/CoreML-Models",
+      "target": "apple/ml-cvnets",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "john-rocky/CoreML-Models",
+      "target": "ailab-cvc/yolo-world",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "john-rocky/CoreML-Models",
+      "target": "aesrgan/a-esrgan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "john-rocky/CoreML-Models",
+      "target": "amd-agi/nitro-e",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "john-rocky/CoreML-Models",
+      "target": "coreml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "john-rocky/CoreML-Models",
+      "target": "coreml-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "john-rocky/CoreML-Models",
+      "target": "coremltools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "john-rocky/CoreML-Models",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "john-rocky/CoreML-Models",
+      "target": "gans",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "john-rocky/CoreML-Models",
+      "target": "image-classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "john-rocky/CoreML-Models",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "john-rocky/CoreML-Models",
+      "target": "object-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "john-rocky/CoreML-Models",
+      "target": "semantic-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "john-rocky/CoreML-Models",
+      "target": "style-gan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "john-rocky/CoreML-Models",
+      "target": "super-resolution",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "john-rocky/CoreML-Models",
+      "target": "swift",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T12:58:23.947175+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 118324
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Converted CoreML Model Zoo.",
+    "fork": false,
+    "full_name": "john-rocky/CoreML-Models",
+    "html_url": "https://github.com/john-rocky/CoreML-Models",
+    "language": "Swift",
+    "pushed_at": "2026-04-24T15:45:03Z",
+    "stargazers_count": 1738,
+    "topics": [
+      "coreml",
+      "coreml-framework",
+      "coremltools",
+      "deep-learning",
+      "gan",
+      "gans",
+      "image-classification",
+      "ios",
+      "machine-learning",
+      "object-detection",
+      "semantic-segmentation",
+      "style-gan",
+      "super-resolution",
+      "swift"
+    ],
+    "updated_at": "2026-04-30T09:47:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aesrgan/a-esrgan",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ailab-cvc/yolo-world",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "amd-agi/nitro-e",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apple/ml-cvnets",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Converted Core ML Model Zoo.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coreml"
+    },
+    {
+      "context_snippet": "Converted Core ML Model Zoo.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coreml-framework"
+    },
+    {
+      "context_snippet": "Converted Core ML Model Zoo.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coremltools"
+    },
+    {
+      "context_snippet": "Converted Core ML Model Zoo.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "Converted Core ML Model Zoo.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gans"
+    },
+    {
+      "context_snippet": "Converted Core ML Model Zoo.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-classification"
+    },
+    {
+      "context_snippet": "Converted Core ML Model Zoo.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "Converted Core ML Model Zoo.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-detection"
+    },
+    {
+      "context_snippet": "Converted Core ML Model Zoo.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-segmentation"
+    },
+    {
+      "context_snippet": "Converted Core ML Model Zoo.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "style-gan"
+    },
+    {
+      "context_snippet": "Converted Core ML Model Zoo.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "super-resolution"
+    },
+    {
+      "context_snippet": "Converted Core ML Model Zoo.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift"
+    }
+  ]
+}

@@ -91,6 +91,30 @@
       "source_repo": "earthly/earthly",
       "status": "candidate-context",
       "text": "<h1>Earthly</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tweag/rules_haskell",
+      "status": "candidate-context",
+      "text": "Haskell rules for Bazel."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tweag/rules_haskell",
+      "status": "candidate-context",
+      "text": "<p align=\"left\"><img src=\"logo/horizontal.png\" alt=\"rules_haskell\" height=\"100px\"></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "com-lihaoyi/mill",
+      "status": "candidate-context",
+      "text": "A better build tool for Java, Scala and Kotlin: Simpler than Maven, easier than Gradle, with 3-7x faster dev workflows than other JVM build tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "com-lihaoyi/mill",
+      "status": "candidate-context",
+      "text": "'autofix.ci'"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +159,18 @@
       "source_repo": "earthly/earthly",
       "status": "candidate",
       "text": "<h1>Earthly</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tweag/rules_haskell",
+      "status": "candidate",
+      "text": "<p align=\"left\"><img src=\"logo/horizontal.png\" alt=\"rules_haskell\" height=\"100px\"></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "com-lihaoyi/mill",
+      "status": "candidate",
+      "text": "'autofix.ci'"
     }
   ],
   "candidate_related_terms": [],
@@ -208,11 +244,29 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "swiftlang/swift-llbuild"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "swiftlang/swift-llbuild"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "tweag/rules_haskell"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "com-lihaoyi/mill"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

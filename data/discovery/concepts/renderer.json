@@ -67,6 +67,30 @@
       "source_repo": "DiligentGraphics/DiligentEngine",
       "status": "candidate-context",
       "text": "**A Modern Cross-Platform Low-Level 3D Graphics Library and Rendering Framework**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grizzlypeak3d/tlRender",
+      "status": "candidate-context",
+      "text": "tlRender is an open source library for building playback and review applications for visual effects, film, and animation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grizzlypeak3d/tlRender",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DiligentGraphics/DiligentFX",
+      "status": "candidate-context",
+      "text": "High-level rendering components"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DiligentGraphics/DiligentFX",
+      "status": "candidate-context",
+      "text": "DiligentFX is the [Diligent Engine](https://github.com/DiligentGraphics/DiligentEngine)'s high-level rendering framework."
     }
   ],
   "candidate_glosses": [
@@ -99,6 +123,18 @@
       "source_repo": "DiligentGraphics/DiligentEngine",
       "status": "candidate",
       "text": "**A Modern Cross-Platform Low-Level 3D Graphics Library and Rendering Framework**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grizzlypeak3d/tlRender",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DiligentGraphics/DiligentFX",
+      "status": "candidate",
+      "text": "DiligentFX is the [Diligent Engine](https://github.com/DiligentGraphics/DiligentEngine)'s high-level rendering framework."
     }
   ],
   "candidate_related_terms": [
@@ -172,11 +208,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "DiligentGraphics/DiligentEngine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "grizzlypeak3d/tlRender"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "DiligentGraphics/DiligentFX"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

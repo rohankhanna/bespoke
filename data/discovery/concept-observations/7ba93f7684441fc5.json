@@ -84,7 +84,7 @@
   "normalized_form": "nemo-e2e-speech-tests",
   "observation_id": "7ba93f7684441fc5",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
   "observed_text": "NeMo E2E Speech Tests",
   "source_context_snippet": "NeMo E2E Speech Tests",
   "source_file": ".github/workflows/cicd-main-speech.yml",

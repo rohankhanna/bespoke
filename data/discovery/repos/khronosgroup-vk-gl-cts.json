@@ -1,0 +1,128 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KhronosGroup/VK-GL-CTS",
+      "target": "opengl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KhronosGroup/VK-GL-CTS",
+      "target": "opengl-cts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KhronosGroup/VK-GL-CTS",
+      "target": "opengl-es",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KhronosGroup/VK-GL-CTS",
+      "target": "opengl-es-cts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KhronosGroup/VK-GL-CTS",
+      "target": "vulkan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KhronosGroup/VK-GL-CTS",
+      "target": "vulkan-cts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KhronosGroup/VK-GL-CTS",
+      "target": "vulkan-sc",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:14:04.317268+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4685
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Khronos Vulkan, OpenGL, and OpenGL ES Conformance Tests",
+    "fork": false,
+    "full_name": "KhronosGroup/VK-GL-CTS",
+    "html_url": "https://github.com/KhronosGroup/VK-GL-CTS",
+    "language": "C++",
+    "pushed_at": "2026-04-24T14:30:02Z",
+    "stargazers_count": 619,
+    "topics": [
+      "opengl",
+      "opengl-cts",
+      "opengl-es",
+      "opengl-es-cts",
+      "vulkan",
+      "vulkan-cts",
+      "vulkan-sc"
+    ],
+    "updated_at": "2026-04-24T14:30:09Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "VK-GL-CTS README",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opengl"
+    },
+    {
+      "context_snippet": "VK-GL-CTS README",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opengl-cts"
+    },
+    {
+      "context_snippet": "VK-GL-CTS README",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opengl-es"
+    },
+    {
+      "context_snippet": "VK-GL-CTS README",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opengl-es-cts"
+    },
+    {
+      "context_snippet": "VK-GL-CTS README",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulkan"
+    },
+    {
+      "context_snippet": "VK-GL-CTS README",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulkan-cts"
+    },
+    {
+      "context_snippet": "VK-GL-CTS README",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulkan-sc"
+    }
+  ]
+}

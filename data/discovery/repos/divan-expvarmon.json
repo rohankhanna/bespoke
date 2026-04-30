@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T14:59:48.002662+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5365
+    },
+    {
+      "path": "go.mod",
+      "size": 370
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "TermUI based monitor for Go apps using expvars (/debug/vars). Quickest way to monitor your Go app(s).",
+    "fork": false,
+    "full_name": "divan/expvarmon",
+    "html_url": "https://github.com/divan/expvarmon",
+    "language": "Go",
+    "pushed_at": "2023-11-14T02:21:16Z",
+    "stargazers_count": 2046,
+    "topics": [],
+    "updated_at": "2026-04-30T10:01:40Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

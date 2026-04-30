@@ -1,0 +1,108 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lite-xl/lite-xl-colors",
+      "target": "lite-xl/lite-xl-plugin-manager",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lite-xl/lite-xl-colors",
+      "target": "smileyzn/base16",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lite-xl/lite-xl-colors",
+      "target": "juliardi/lite-xl-ayu-theme",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lite-xl/lite-xl-colors",
+      "target": "rohanvashisht1234/justperfect",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml",
+      "source_repo": "lite-xl/lite-xl-colors",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/workflow.yml",
+      "source_repo": "lite-xl/lite-xl-colors",
+      "target": "Update README",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:02:00.142964+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10333
+    },
+    {
+      "path": ".github/workflows/workflow.yml",
+      "size": 1635
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Themes for the Lite XL editor",
+    "fork": false,
+    "full_name": "lite-xl/lite-xl-colors",
+    "html_url": "https://github.com/lite-xl/lite-xl-colors",
+    "language": "Lua",
+    "pushed_at": "2025-10-14T17:32:17Z",
+    "stargazers_count": 85,
+    "topics": [],
+    "updated_at": "2026-04-09T05:22:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliardi/lite-xl-ayu-theme",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lite-xl/lite-xl-plugin-manager",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rohanvashisht1234/justperfect",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "smileyzn/base16",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Update README",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/workflow.yml",
+      "term": "Update README"
+    }
+  ]
+}

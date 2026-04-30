@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T15:10:19.101078+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 873
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Reference models and tools for Cloud TPUs.",
+    "fork": false,
+    "full_name": "tensorflow/tpu",
+    "html_url": "https://github.com/tensorflow/tpu",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-03-25T22:39:59Z",
+    "stargazers_count": 5279,
+    "topics": [],
+    "updated_at": "2026-04-30T11:51:05Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

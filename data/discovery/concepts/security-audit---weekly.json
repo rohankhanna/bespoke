@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Security audit - weekly"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tari-project/randomx-rs",
+      "status": "candidate-context",
+      "text": "Rust bindings to the RandomX proof of work"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tari-project/randomx-rs",
+      "status": "candidate-context",
+      "text": "Security audit - weekly"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tari-project/randomx-rs",
+      "status": "candidate",
+      "text": "Security audit - weekly"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18788,
+      "status": "candidate",
+      "text": "report"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18635,
+      "status": "candidate",
+      "text": "living"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18454,
+      "status": "candidate",
+      "text": "censoring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18454,
+      "status": "candidate",
+      "text": "patrol"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18393,
+      "status": "candidate",
+      "text": "payroll"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Security audit - weekly",
+  "concept_id": "security-audit---weekly",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "tari-project/randomx-rs"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Security audit - weekly",
+      "sense_id": "security-audit---weekly#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

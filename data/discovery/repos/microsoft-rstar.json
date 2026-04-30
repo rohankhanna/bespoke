@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/rStar",
+      "target": "0xwj/code-judge",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/rStar",
+      "target": "volcengine/verl",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:13:55.444961+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11283
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 337
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "microsoft/rStar",
+    "html_url": "https://github.com/microsoft/rStar",
+    "language": "Python",
+    "pushed_at": "2025-09-12T08:26:02Z",
+    "stargazers_count": 1410,
+    "topics": [],
+    "updated_at": "2026-04-29T16:52:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "0xwj/code-judge",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "volcengine/verl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

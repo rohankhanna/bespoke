@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/pr-checks.yml",
       "source_repo": "All-Hands-AI/OpenHands-Cloud"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pull-request-checks.yml",
+      "source_repo": "Azure-Samples/azureai-samples"
     }
   ],
   "term": "Pull Request Checks"

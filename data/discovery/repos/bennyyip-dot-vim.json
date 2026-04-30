@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bennyyip/dot-vim",
+      "target": "vimrc",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:01:17.880041+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 315
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "bennyyip/dot-vim",
+    "html_url": "https://github.com/bennyyip/dot-vim",
+    "language": "Vim Script",
+    "pushed_at": "2026-04-29T05:56:28Z",
+    "stargazers_count": 8,
+    "topics": [
+      "vim",
+      "vimrc"
+    ],
+    "updated_at": "2026-04-29T05:56:31Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository contains BenYip's Vim files. They aren't for everyone, but he sure likes them.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vimrc"
+    }
+  ]
+}

@@ -19,6 +19,18 @@
       "source_repo": "danielgtaylor/apisprout",
       "status": "candidate-context",
       "text": "<img src=\"https://user-images.githubusercontent.com/106826/43119494-78be9224-8ecb-11e8-9d1a-9fc6f3014b91.png\" width=\"300\" alt=\"API Sprout\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "karatelabs/karate",
+      "status": "candidate-context",
+      "text": "Test Automation Made Simple"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karatelabs/karate",
+      "status": "candidate-context",
+      "text": "**The open-source tool that combines API testing, mocks, performance testing, and UI automation into a single, unified framework.**"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "danielgtaylor/apisprout",
       "status": "candidate",
       "text": "<img src=\"https://user-images.githubusercontent.com/106826/43119494-78be9224-8ecb-11e8-9d1a-9fc6f3014b91.png\" width=\"300\" alt=\"API Sprout\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karatelabs/karate",
+      "status": "candidate",
+      "text": "**The open-source tool that combines API testing, mocks, performance testing, and UI automation into a single, unified framework.**"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "danielgtaylor/apisprout"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "karatelabs/karate"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

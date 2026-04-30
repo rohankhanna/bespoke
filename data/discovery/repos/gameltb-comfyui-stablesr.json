@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gameltb/Comfyui-StableSR",
+      "target": "ethansmith2000/comfy-todo",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:07:40.785523+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 935
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": true,
+    "full_name": "gameltb/Comfyui-StableSR",
+    "html_url": "https://github.com/gameltb/Comfyui-StableSR",
+    "language": "Python",
+    "pushed_at": "2024-03-01T11:11:03Z",
+    "stargazers_count": 198,
+    "topics": [],
+    "updated_at": "2026-04-23T09:14:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ethansmith2000/comfy-todo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

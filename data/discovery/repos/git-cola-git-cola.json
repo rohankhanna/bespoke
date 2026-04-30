@@ -1,0 +1,333 @@
+{
+  "components": [
+    {
+      "component": "styfle/cancel-workflow-action@0.13.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "styfle/cancel-workflow-action@0.13.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "git-cola/git-cola",
+      "target": "pyside/pyside",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "git-cola/git-cola",
+      "target": "hsoft/send2trash",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "git-cola/git-cola",
+      "target": "ronaldoussoren/pyobjc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "git-cola/git-cola",
+      "target": "styfle/cancel-workflow-action@0.13.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "git-cola/git-cola",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "git-cola/git-cola",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "git-cola/git-cola",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "git-cola/git-cola",
+      "target": "cross-platform-gui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "git-cola/git-cola",
+      "target": "debian",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "git-cola/git-cola",
+      "target": "diff",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "git-cola/git-cola",
+      "target": "editor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "git-cola/git-cola",
+      "target": "git-addons",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "git-cola/git-cola",
+      "target": "git-cola",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "git-cola/git-cola",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "git-cola/git-cola",
+      "target": "pyqt5",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "git-cola/git-cola",
+      "target": "pyqt6",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "git-cola/git-cola",
+      "target": "qtpy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "git-cola/git-cola",
+      "target": "rebase",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "git-cola/git-cola",
+      "target": "visualization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "git-cola/git-cola",
+      "target": "windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:01:32.975295+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16374
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3384
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 3233
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "git-cola: The highly caffeinated Git GUI",
+    "fork": false,
+    "full_name": "git-cola/git-cola",
+    "html_url": "https://github.com/git-cola/git-cola",
+    "language": "Python",
+    "pushed_at": "2026-04-28T07:20:04Z",
+    "stargazers_count": 2519,
+    "topics": [
+      "cross-platform-gui",
+      "debian",
+      "diff",
+      "editor",
+      "git",
+      "git-addons",
+      "git-cola",
+      "gui",
+      "linux",
+      "osx",
+      "pyqt5",
+      "pyqt6",
+      "python",
+      "qt5",
+      "qt6",
+      "qtpy",
+      "rebase",
+      "vcs",
+      "visualization",
+      "windows"
+    ],
+    "updated_at": "2026-04-28T07:20:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hsoft/send2trash",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pyside/pyside",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ronaldoussoren/pyobjc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Git Cola is a powerful Git GUI with a slick and intuitive user interface.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-platform-gui"
+    },
+    {
+      "context_snippet": "Git Cola is a powerful Git GUI with a slick and intuitive user interface.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "debian"
+    },
+    {
+      "context_snippet": "Git Cola is a powerful Git GUI with a slick and intuitive user interface.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diff"
+    },
+    {
+      "context_snippet": "Git Cola is a powerful Git GUI with a slick and intuitive user interface.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "editor"
+    },
+    {
+      "context_snippet": "Git Cola is a powerful Git GUI with a slick and intuitive user interface.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "git-addons"
+    },
+    {
+      "context_snippet": "Git Cola is a powerful Git GUI with a slick and intuitive user interface.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "git-cola"
+    },
+    {
+      "context_snippet": "Git Cola is a powerful Git GUI with a slick and intuitive user interface.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "Git Cola is a powerful Git GUI with a slick and intuitive user interface.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pyqt5"
+    },
+    {
+      "context_snippet": "Git Cola is a powerful Git GUI with a slick and intuitive user interface.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pyqt6"
+    },
+    {
+      "context_snippet": "Git Cola is a powerful Git GUI with a slick and intuitive user interface.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "qtpy"
+    },
+    {
+      "context_snippet": "Git Cola is a powerful Git GUI with a slick and intuitive user interface.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rebase"
+    },
+    {
+      "context_snippet": "Git Cola is a powerful Git GUI with a slick and intuitive user interface.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visualization"
+    },
+    {
+      "context_snippet": "Git Cola is a powerful Git GUI with a slick and intuitive user interface.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    }
+  ]
+}

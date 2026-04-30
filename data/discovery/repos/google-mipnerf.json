@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/mipnerf",
+      "target": "google/jax",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:04:38.929921+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4300
+    },
+    {
+      "path": "requirements.txt",
+      "size": 144
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "google/mipnerf",
+    "html_url": "https://github.com/google/mipnerf",
+    "language": "Python",
+    "pushed_at": "2022-10-10T18:09:16Z",
+    "stargazers_count": 940,
+    "topics": [],
+    "updated_at": "2026-03-15T09:49:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/jax",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

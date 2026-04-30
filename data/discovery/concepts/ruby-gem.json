@@ -31,6 +31,30 @@
       "source_repo": "kwilczynski/ruby-magic",
       "status": "candidate-context",
       "text": "[![Gem Version](http://badge.fury.io/rb/ruby-magic.svg)](http://badge.fury.io/rb/ruby-magic)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "viafintech/gcra-ruby",
+      "status": "candidate-context",
+      "text": "Generic cell rate algorithm (leaky bucket) implementation for rate limiting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "viafintech/gcra-ruby",
+      "status": "candidate-context",
+      "text": "![Build Status](https://github.com/viafintech/gcra-ruby/actions/workflows/test.yml/badge.svg) [![Code Climate](https://codeclimate.com/github/Barzahlen/gcra-ruby/badges/gpa.svg)](https://codeclimate.com/github/Barzahlen/gcra-ruby) [![RubyDoc](https://img.shields.io/badge/ruby-do\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asafschers/scoruby",
+      "status": "candidate-context",
+      "text": "Ruby Scoring API for PMML"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asafschers/scoruby",
+      "status": "candidate-context",
+      "text": "<a href=\"https://codeclimate.com/github/asafschers/scoruby\"><img src=\"https://codeclimate.com/github/asafschers/scoruby/badges/gpa.svg\" /></a>"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "kwilczynski/ruby-magic",
       "status": "candidate",
       "text": "[![Gem Version](http://badge.fury.io/rb/ruby-magic.svg)](http://badge.fury.io/rb/ruby-magic)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "viafintech/gcra-ruby",
+      "status": "candidate",
+      "text": "![Build Status](https://github.com/viafintech/gcra-ruby/actions/workflows/test.yml/badge.svg) [![Code Climate](https://codeclimate.com/github/Barzahlen/gcra-ruby/badges/gpa.svg)](https://codeclimate.com/github/Barzahlen/gcra-ruby) [![RubyDoc](https://img.shields.io/badge/ruby-do\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asafschers/scoruby",
+      "status": "candidate",
+      "text": "<a href=\"https://codeclimate.com/github/asafschers/scoruby\"><img src=\"https://codeclimate.com/github/asafschers/scoruby/badges/gpa.svg\" /></a>"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +100,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "kwilczynski/ruby-magic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "viafintech/gcra-ruby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "asafschers/scoruby"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

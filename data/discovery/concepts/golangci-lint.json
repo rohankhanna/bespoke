@@ -1,7 +1,8 @@
 {
   "aliases": [
     "golangci-lint",
-    "Golangci-lint"
+    "Golangci-lint",
+    "Golangci-Lint"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -814,6 +815,54 @@
       "source_repo": "oceanbase/ob-operator",
       "status": "candidate-context",
       "text": "golangci-lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "transparency-dev/armored-witness-common",
+      "status": "candidate-context",
+      "text": "Shared components used by multiple armored-witness repos."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "transparency-dev/armored-witness-common",
+      "status": "candidate-context",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Masterminds/semver",
+      "status": "candidate-context",
+      "text": "Work with Semantic Versions in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Masterminds/semver",
+      "status": "candidate-context",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "secretflow/kuscia",
+      "status": "candidate-context",
+      "text": "Kuscia(Kubernetes-based Secure Collaborative InfrA) is a K8s-based privacy-preserving computing task orchestration framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "secretflow/kuscia",
+      "status": "candidate-context",
+      "text": "Golangci-Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cockroachdb/client_golang",
+      "status": "candidate-context",
+      "text": "Prometheus instrumentation library for Go applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cockroachdb/client_golang",
+      "status": "candidate-context",
+      "text": "golangci-lint"
     }
   ],
   "candidate_glosses": [
@@ -1210,6 +1259,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "oceanbase/ob-operator",
+      "status": "candidate",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "transparency-dev/armored-witness-common",
+      "status": "candidate",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Masterminds/semver",
+      "status": "candidate",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "secretflow/kuscia",
+      "status": "candidate",
+      "text": "Golangci-Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cockroachdb/client_golang",
       "status": "candidate",
       "text": "golangci-lint"
     }
@@ -1753,11 +1826,53 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/golangci-lint.yml",
       "source_repo": "oceanbase/ob-operator"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "transparency-dev/armored-witness-common"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "apache/casbin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "redis/go-redis"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "olric-data/olric"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "Masterminds/semver"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "secretflow/kuscia"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "cockroachdb/client_golang"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,12 +1,17 @@
 {
   "component": "ls-lint/action@02e380fe8733d499cbfc9e22276de5085508a5bd",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "lima-vm/lima"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ls-lint.yml",
+      "source_repo": "mruby/mruby"
     }
   ]
 }

@@ -1,0 +1,138 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-tests.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-tests.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-tests.yaml",
+      "source_repo": "Masterminds/vcs",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-tests.yaml",
+      "source_repo": "Masterminds/vcs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-tests.yaml",
+      "source_repo": "Masterminds/vcs",
+      "target": "Linux Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-tests.yaml",
+      "source_repo": "Masterminds/vcs",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-tests.yaml",
+      "source_repo": "Masterminds/vcs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows-tests.yaml",
+      "source_repo": "Masterminds/vcs",
+      "target": "Windows Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Masterminds/vcs",
+      "target": "golang",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:03:10.734269+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2383
+    },
+    {
+      "path": "go.mod",
+      "size": 43
+    },
+    {
+      "path": ".github/workflows/linux-tests.yaml",
+      "size": 583
+    },
+    {
+      "path": ".github/workflows/windows-tests.yaml",
+      "size": 1462
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "VCS Repo management through a common interface in Go",
+    "fork": false,
+    "full_name": "Masterminds/vcs",
+    "html_url": "https://github.com/Masterminds/vcs",
+    "language": "Go",
+    "pushed_at": "2025-12-04T14:52:02Z",
+    "stargazers_count": 203,
+    "topics": [
+      "bzr",
+      "git",
+      "go",
+      "golang",
+      "hg",
+      "scm",
+      "svn",
+      "vcs"
+    ],
+    "updated_at": "2026-04-09T09:49:21Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Linux Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-tests.yaml",
+      "term": "Linux Tests"
+    },
+    {
+      "context_snippet": "Windows Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows-tests.yaml",
+      "term": "Windows Tests"
+    },
+    {
+      "context_snippet": "Manage repos in varying version control systems with ease through a common",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    }
+  ]
+}

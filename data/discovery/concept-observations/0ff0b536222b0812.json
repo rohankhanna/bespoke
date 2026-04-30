@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Imagemin plugin for mozjpeg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "imagemin-mozjpeg \u2014 Imagemin plugin for mozjpeg"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "imagemin-mozjpeg \u2014 Imagemin plugin for mozjpeg"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mozjpeg",
+      "sense_id": "mozjpeg#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "mozjpeg",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "mozjpeg",
+  "observation_id": "0ff0b536222b0812",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "mozjpeg",
+  "source_context_snippet": "imagemin-mozjpeg \u2014 Imagemin plugin for mozjpeg",
+  "source_file": null,
+  "source_repo": "imagemin/imagemin-mozjpeg",
+  "source_repo_description": "Imagemin plugin for mozjpeg"
+}

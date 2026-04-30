@@ -1,0 +1,35 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T14:58:08.777800+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2421
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 498
+    },
+    {
+      "path": "Dockerfile",
+      "size": 834
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Pinecone Assistant MCP server",
+    "fork": false,
+    "full_name": "pinecone-io/assistant-mcp",
+    "html_url": "https://github.com/pinecone-io/assistant-mcp",
+    "language": "Rust",
+    "pushed_at": "2025-04-17T10:32:57Z",
+    "stargazers_count": 42,
+    "topics": [],
+    "updated_at": "2026-04-18T16:01:04Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

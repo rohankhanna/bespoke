@@ -1,0 +1,101 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LogtalkDotOrg/logtalk3",
+      "target": "declarative-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LogtalkDotOrg/logtalk3",
+      "target": "declarative-programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LogtalkDotOrg/logtalk3",
+      "target": "logic-programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LogtalkDotOrg/logtalk3",
+      "target": "logtalk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LogtalkDotOrg/logtalk3",
+      "target": "prolog",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:12:15.829391+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7209
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Logtalk - declarative object-oriented logic programming language",
+    "fork": false,
+    "full_name": "LogtalkDotOrg/logtalk3",
+    "html_url": "https://github.com/LogtalkDotOrg/logtalk3",
+    "language": "Logtalk",
+    "pushed_at": "2026-04-30T11:57:35Z",
+    "stargazers_count": 479,
+    "topics": [
+      "declarative-language",
+      "declarative-programming",
+      "logic-programming",
+      "logtalk",
+      "oop",
+      "prolog"
+    ],
+    "updated_at": "2026-04-30T11:57:41Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "________________________________________________________________________",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "declarative-language"
+    },
+    {
+      "context_snippet": "________________________________________________________________________",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "declarative-programming"
+    },
+    {
+      "context_snippet": "________________________________________________________________________",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "logic-programming"
+    },
+    {
+      "context_snippet": "________________________________________________________________________",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "logtalk"
+    },
+    {
+      "context_snippet": "________________________________________________________________________",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prolog"
+    }
+  ]
+}

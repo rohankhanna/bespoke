@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "uqff"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EricLBuehler/mistral.rs",
+      "status": "candidate-context",
+      "text": "Fast, flexible LLM inference"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EricLBuehler/mistral.rs",
+      "status": "candidate-context",
+      "text": "<a name=\"top\"></a>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EricLBuehler/mistral.rs",
+      "status": "candidate",
+      "text": "<a name=\"top\"></a>"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "uqff",
+  "concept_id": "uqff",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "EricLBuehler/mistral.rs"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "uqff",
+      "sense_id": "uqff#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

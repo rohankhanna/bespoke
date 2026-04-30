@@ -343,6 +343,90 @@
       "source_repo": "andreasdr/tdme2",
       "status": "candidate-context",
       "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/andreasdr/tdme2/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lieff/minimp3",
+      "status": "candidate-context",
+      "text": "Minimalistic MP3 decoder single header library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lieff/minimp3",
+      "status": "candidate-context",
+      "text": "minimp3"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pdeljanov/Symphonia",
+      "status": "candidate-context",
+      "text": "Pure Rust multimedia format demuxing, tag reading, and audio decoding library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pdeljanov/Symphonia",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RustAudio/cpal",
+      "status": "candidate-context",
+      "text": "Cross-platform audio I/O library in pure Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RustAudio/cpal",
+      "status": "candidate-context",
+      "text": "[![Actions Status](https://github.com/RustAudio/cpal/workflows/cpal/badge.svg)](https://github.com/RustAudio/cpal/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Anjok07/ultimatevocalremovergui",
+      "status": "candidate-context",
+      "text": " GUI for a Vocal Remover that uses Deep Neural Networks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Anjok07/ultimatevocalremovergui",
+      "status": "candidate-context",
+      "text": "<img src=\"https://raw.githubusercontent.com/Anjok07/ultimatevocalremovergui/master/gui_data/img/UVR_v5.6.png?raw=true\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openframeworks/openFrameworks",
+      "status": "candidate-context",
+      "text": "openFrameworks is a community-developed cross platform toolkit for creative coding in C++."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openframeworks/openFrameworks",
+      "status": "candidate-context",
+      "text": "[openFrameworks](http://openframeworks.cc/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/Silk.NET",
+      "status": "candidate-context",
+      "text": "The high-speed OpenGL, OpenCL, OpenAL, OpenXR, GLFW, SDL, Vulkan, Assimp, WebGPU, and DirectX bindings library your mother warned you about."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/Silk.NET",
+      "status": "candidate-context",
+      "text": "<!-- Begin exclude from NuGet readme. -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "germangb/minimp3-rs",
+      "status": "candidate-context",
+      "text": "minimp3 rust bindings + wrapper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "germangb/minimp3-rs",
+      "status": "candidate-context",
+      "text": "Rust bindings and high-level wrapper for the minimp3 library."
     }
   ],
   "candidate_glosses": [
@@ -513,6 +597,48 @@
       "source_repo": "andreasdr/tdme2",
       "status": "candidate",
       "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/andreasdr/tdme2/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lieff/minimp3",
+      "status": "candidate",
+      "text": "minimp3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pdeljanov/Symphonia",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RustAudio/cpal",
+      "status": "candidate",
+      "text": "[![Actions Status](https://github.com/RustAudio/cpal/workflows/cpal/badge.svg)](https://github.com/RustAudio/cpal/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Anjok07/ultimatevocalremovergui",
+      "status": "candidate",
+      "text": "<img src=\"https://raw.githubusercontent.com/Anjok07/ultimatevocalremovergui/master/gui_data/img/UVR_v5.6.png?raw=true\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openframeworks/openFrameworks",
+      "status": "candidate",
+      "text": "[openFrameworks](http://openframeworks.cc/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/Silk.NET",
+      "status": "candidate",
+      "text": "<!-- Begin exclude from NuGet readme. -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "germangb/minimp3-rs",
+      "status": "candidate",
+      "text": "Rust bindings and high-level wrapper for the minimp3 library."
     }
   ],
   "candidate_related_terms": [
@@ -775,11 +901,65 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "snapcast/snapcast"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "lieff/minimp3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "pdeljanov/Symphonia"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "RustAudio/cpal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Anjok07/ultimatevocalremovergui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "snapcast/snapcast"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "openframeworks/openFrameworks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/transformers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/Silk.NET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "germangb/minimp3-rs"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

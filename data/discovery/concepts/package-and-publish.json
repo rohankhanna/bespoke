@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Package and Publish"
+    "Package and Publish",
+    "Package and publish"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,30 @@
       "source_repo": "appium/appium-inspector",
       "status": "candidate-context",
       "text": "Package and Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dbfixtures/pytest-postgresql",
+      "status": "candidate-context",
+      "text": "This is a pytest plugin, that enables you to test your code that relies on a running PostgreSQL Database. It allows you to specify fixtures for PostgreSQL process and client."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dbfixtures/pytest-postgresql",
+      "status": "candidate-context",
+      "text": "Package and publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dbfixtures/mirakuru",
+      "status": "candidate-context",
+      "text": "Mirakuru - a python library that starts your subprocess and waits for a clear indication, that it's running (process orchestrator)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dbfixtures/mirakuru",
+      "status": "candidate-context",
+      "text": "Package and publish"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +52,18 @@
       "source_repo": "appium/appium-inspector",
       "status": "candidate",
       "text": "Package and Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dbfixtures/pytest-postgresql",
+      "status": "candidate",
+      "text": "Package and publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dbfixtures/mirakuru",
+      "status": "candidate",
+      "text": "Package and publish"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +113,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/package.yml",
       "source_repo": "appium/appium-inspector"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/pypi.yml",
+      "source_repo": "dbfixtures/pytest-postgresql"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/pypi.yml",
+      "source_repo": "dbfixtures/mirakuru"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

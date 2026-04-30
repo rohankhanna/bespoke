@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The docker image used to build Lite XL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> [!IMPORTANT]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19646612,
+      "status": "candidate",
+      "text": "afrikanerism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19646611,
+      "status": "candidate",
+      "text": "integralism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19646610,
+      "status": "candidate",
+      "text": "pan-sunnism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19646609,
+      "status": "candidate",
+      "text": "indigenism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19646608,
+      "status": "candidate",
+      "text": "plural relations"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ubuntu",
+      "sense_id": "ubuntu#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ubuntu",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ubuntu",
+  "observation_id": "3b7f583e612c3cff",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "ubuntu",
+  "source_context_snippet": "> [!IMPORTANT]",
+  "source_file": null,
+  "source_repo": "lite-xl/lite-xl-build-box",
+  "source_repo_description": "The docker image used to build Lite XL"
+}

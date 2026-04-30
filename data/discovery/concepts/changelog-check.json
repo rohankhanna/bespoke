@@ -110,6 +110,18 @@
       "source_repo": "esp-rs/espflash",
       "status": "candidate-context",
       "text": "Changelog check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rojo-rbx/rojo",
+      "status": "candidate-context",
+      "text": "Rojo enables Roblox developers to use professional-grade software engineering tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rojo-rbx/rojo",
+      "status": "candidate-context",
+      "text": "Changelog Check"
     }
   ],
   "candidate_glosses": [
@@ -172,6 +184,12 @@
       "source_repo": "esp-rs/espflash",
       "status": "candidate",
       "text": "Changelog check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rojo-rbx/rojo",
+      "status": "candidate",
+      "text": "Changelog Check"
     }
   ],
   "candidate_related_terms": [
@@ -275,11 +293,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/changelog.yml",
       "source_repo": "esp-rs/espflash"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "rojo-rbx/rojo"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

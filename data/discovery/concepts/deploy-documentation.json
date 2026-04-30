@@ -404,6 +404,18 @@
       "source_repo": "bsorrentino/java-async-generator",
       "status": "candidate-context",
       "text": "Deploy Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pubgrub-rs/pubgrub",
+      "status": "candidate-context",
+      "text": "PubGrub version solving algorithm implemented in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pubgrub-rs/pubgrub",
+      "status": "candidate-context",
+      "text": "Deploy documentation"
     }
   ],
   "candidate_glosses": [
@@ -604,6 +616,12 @@
       "source_repo": "bsorrentino/java-async-generator",
       "status": "candidate",
       "text": "Deploy Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pubgrub-rs/pubgrub",
+      "status": "candidate",
+      "text": "Deploy documentation"
     }
   ],
   "candidate_related_terms": [
@@ -923,11 +941,35 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/deploy-pages.yaml",
       "source_repo": "bsorrentino/java-async-generator"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "realworld-apps/realworld"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/asciidoctor.yml",
+      "source_repo": "emacs-eldev/eldev"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "gastownhall/beads"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/deploy_documentation.yml",
+      "source_repo": "pubgrub-rs/pubgrub"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

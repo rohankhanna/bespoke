@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T15:57:18.546798+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13321
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "CCL 2022 \u6c49\u8bed\u5b66\u4e60\u8005\u6587\u672c\u7ea0\u9519\u8bc4\u6d4b",
+    "fork": false,
+    "full_name": "blcuicall/CCL2022-CLTC",
+    "html_url": "https://github.com/blcuicall/CCL2022-CLTC",
+    "language": "Macaulay2",
+    "pushed_at": "2022-12-16T04:27:56Z",
+    "stargazers_count": 141,
+    "topics": [],
+    "updated_at": "2026-03-20T02:17:28Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

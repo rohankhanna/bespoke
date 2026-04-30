@@ -1,0 +1,181 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "RubyCrypto/rbnacl",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "RubyCrypto/rbnacl",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RubyCrypto/rbnacl",
+      "target": "chacha20",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RubyCrypto/rbnacl",
+      "target": "cryptography",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RubyCrypto/rbnacl",
+      "target": "ed25519",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RubyCrypto/rbnacl",
+      "target": "libsodium",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RubyCrypto/rbnacl",
+      "target": "nacl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RubyCrypto/rbnacl",
+      "target": "ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RubyCrypto/rbnacl",
+      "target": "salsa20",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RubyCrypto/rbnacl",
+      "target": "x25519",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:12:37.340137+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6819
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 925
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Ruby FFI binding to the Networking and Cryptography (NaCl) library (a.k.a. libsodium)",
+    "fork": false,
+    "full_name": "RubyCrypto/rbnacl",
+    "html_url": "https://github.com/RubyCrypto/rbnacl",
+    "language": "Ruby",
+    "pushed_at": "2025-10-28T14:19:18Z",
+    "stargazers_count": 987,
+    "topics": [
+      "chacha20",
+      "cryptography",
+      "ed25519",
+      "libsodium",
+      "nacl",
+      "ruby",
+      "salsa20",
+      "x25519"
+    ],
+    "updated_at": "2026-04-30T10:02:33Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![RbNaCl](https://raw.github.com/RubyCrypto/rbnacl/master/images/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chacha20"
+    },
+    {
+      "context_snippet": "![RbNaCl](https://raw.github.com/RubyCrypto/rbnacl/master/images/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cryptography"
+    },
+    {
+      "context_snippet": "![RbNaCl](https://raw.github.com/RubyCrypto/rbnacl/master/images/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ed25519"
+    },
+    {
+      "context_snippet": "![RbNaCl](https://raw.github.com/RubyCrypto/rbnacl/master/images/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "libsodium"
+    },
+    {
+      "context_snippet": "![RbNaCl](https://raw.github.com/RubyCrypto/rbnacl/master/images/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nacl"
+    },
+    {
+      "context_snippet": "![RbNaCl](https://raw.github.com/RubyCrypto/rbnacl/master/images/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    },
+    {
+      "context_snippet": "![RbNaCl](https://raw.github.com/RubyCrypto/rbnacl/master/images/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "salsa20"
+    },
+    {
+      "context_snippet": "![RbNaCl](https://raw.github.com/RubyCrypto/rbnacl/master/images/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "x25519"
+    }
+  ]
+}

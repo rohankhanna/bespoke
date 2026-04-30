@@ -260,6 +260,18 @@
       "source_repo": "sinclairzx81/typebox-codegen",
       "status": "candidate-context",
       "text": "GitHub CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jest-community/jest-extended",
+      "status": "candidate-context",
+      "text": "Additional Jest matchers \ud83c\udccf\ud83d\udcaa"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jest-community/jest-extended",
+      "status": "candidate-context",
+      "text": "'GitHub CI'"
     }
   ],
   "candidate_glosses": [
@@ -394,6 +406,12 @@
       "source_repo": "sinclairzx81/typebox-codegen",
       "status": "candidate",
       "text": "GitHub CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jest-community/jest-extended",
+      "status": "candidate",
+      "text": "'GitHub CI'"
     }
   ],
   "candidate_related_terms": [
@@ -569,11 +587,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "sinclairzx81/typebox-codegen"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/releases.yml",
+      "source_repo": "DNSCrypt/dnscrypt-proxy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "jest-community/jest-extended"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

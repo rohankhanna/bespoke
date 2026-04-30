@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T13:59:42.648525+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1937
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "RandomX CUDA implementation",
+    "fork": false,
+    "full_name": "SChernykh/RandomX_CUDA",
+    "html_url": "https://github.com/SChernykh/RandomX_CUDA",
+    "language": "C++",
+    "pushed_at": "2023-04-15T11:17:30Z",
+    "stargazers_count": 37,
+    "topics": [],
+    "updated_at": "2025-08-14T08:41:59Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

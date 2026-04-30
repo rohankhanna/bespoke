@@ -1,0 +1,121 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ClementPinard/FlowNetTorch",
+      "target": "soumith/imagenet-multigpu.torch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ClementPinard/FlowNetTorch",
+      "target": "manuelruder/artistic-videos",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ClementPinard/FlowNetTorch",
+      "target": "szagoruyko/loadcaffe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ClementPinard/FlowNetTorch",
+      "target": "szagoruyko/torch-opencv-demos",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ClementPinard/FlowNetTorch",
+      "target": "flow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ClementPinard/FlowNetTorch",
+      "target": "flownet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ClementPinard/FlowNetTorch",
+      "target": "torch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:56:48.707012+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5760
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Torch implementation of Fischer et al. FlowNet training code",
+    "fork": false,
+    "full_name": "ClementPinard/FlowNetTorch",
+    "html_url": "https://github.com/ClementPinard/FlowNetTorch",
+    "language": "Lua",
+    "pushed_at": "2026-04-15T15:16:49Z",
+    "stargazers_count": 31,
+    "topics": [
+      "flow",
+      "flownet",
+      "torch"
+    ],
+    "updated_at": "2026-04-15T15:16:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "manuelruder/artistic-videos",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "soumith/imagenet-multigpu.torch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "szagoruyko/loadcaffe",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "szagoruyko/torch-opencv-demos",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "FlowNet for Torch",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flow"
+    },
+    {
+      "context_snippet": "FlowNet for Torch",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flownet"
+    },
+    {
+      "context_snippet": "FlowNet for Torch",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "torch"
+    }
+  ]
+}

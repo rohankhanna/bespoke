@@ -1167,6 +1167,198 @@
       "source_repo": "marmelab/react-admin",
       "status": "candidate-context",
       "text": "A frontend Framework for building single-page applications running in the browser on top of REST/GraphQL APIs, using TypeScript, [React](https://facebook.github.io/react/) and [Material Design](https://material.io/). Open sourced and maintained by [marmelab](https://marmelab.com\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cawa-93/vite-electron-builder",
+      "status": "candidate-context",
+      "text": "Secure boilerplate for Electron app based on Vite. TypeScript + Vue/React/Angular/Svelte/Vanilla"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cawa-93/vite-electron-builder",
+      "status": "candidate-context",
+      "text": "> [!Important]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "electron-react-boilerplate/electron-react-boilerplate",
+      "status": "candidate-context",
+      "text": "A Foundation for Scalable Cross-Platform Apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron-react-boilerplate/electron-react-boilerplate",
+      "status": "candidate-context",
+      "text": "<img src=\".erb/img/erb-banner.svg\" width=\"100%\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cristianbote/goober",
+      "status": "candidate-context",
+      "text": "\ud83e\udd5c goober, a less than 1KB \ud83c\udf89  css-in-js alternative with a familiar API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cristianbote/goober",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "blitz-js/blitz",
+      "status": "candidate-context",
+      "text": "\u26a1\ufe0f The Missing Fullstack Toolkit for Next.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blitz-js/blitz",
+      "status": "candidate-context",
+      "text": "[![Blitz.js](https://raw.githubusercontent.com/blitz-js/art/master/github-cover-photo.png)](https://blitzjs.com)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appbaseio/searchbox",
+      "status": "candidate-context",
+      "text": "Lightweight and performance oriented search box UI component libraries for React, Vue, React Native, JS and Flutter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appbaseio/searchbox",
+      "status": "candidate-context",
+      "text": "Searchbox is a lightweight and performance focused search UI component library to query and display results from your ElasticSearch index using declarative props. It's available for React, Vue, React Native and Flutter."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ItsWendell/emotion-native-extended",
+      "status": "candidate-context",
+      "text": "Better styling support for Emotion (React Native): Media queries, relative units, percents, operations and more..."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ItsWendell/emotion-native-extended",
+      "status": "candidate-context",
+      "text": "![npm](https://img.shields.io/npm/v/emotion-native-extended?style=flat-square)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kyleshevlin/shevyjs",
+      "status": "candidate-context",
+      "text": "Configurable Vertical Rhythm & Typography in CSS-in-JS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kyleshevlin/shevyjs",
+      "status": "candidate-context",
+      "text": "> Perfect vertical rhythm for typography and more in CSS-in-JS"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aliezzahn/rsbuild-plugin-css-optimizer",
+      "status": "candidate-context",
+      "text": "An Rsbuild plugin to customize CSS minification, allowing you to choose between cssnano (JavaScript-based) or Lightning CSS (Rust-based) for high-performance CSS compression."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aliezzahn/rsbuild-plugin-css-optimizer",
+      "status": "candidate-context",
+      "text": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/web-infra-dev/awesome-rspack)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aliezzahn/rsbuild-plugin-markdown-loader",
+      "status": "candidate-context",
+      "text": "A plugin for rsbuild.dev that enables importing and rendering Markdown files as React components or pure HTML."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aliezzahn/rsbuild-plugin-markdown-loader",
+      "status": "candidate-context",
+      "text": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/web-infra-dev/awesome-rspack)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "storybookjs/storybook",
+      "status": "candidate-context",
+      "text": "Storybook is the industry standard workshop for building, documenting, and testing UI components in isolation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "storybookjs/storybook",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "marmelab/react-admin-helpdesk",
+      "status": "candidate-context",
+      "text": "An example react-admin app simulating a help desk UI for support agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marmelab/react-admin-helpdesk",
+      "status": "candidate-context",
+      "text": "This application is a fake a Help Desk for an imaginary refrigerator company with a few support agents. You can test it online at https://marmelab.com/react-admin-helpdesk. It is a demo of the [react-admin](https://github.com/marmelab/react-admin) library."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/learn-redux",
+      "status": "candidate-context",
+      "text": ":boom: Comprehensive Notes for Learning (how to use) Redux to manage state in your Web/Mobile (React.js) Apps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/learn-redux",
+      "status": "candidate-context",
+      "text": "![learn-redux-header](https://cloud.githubusercontent.com/assets/194400/12328626/12f025de-bad4-11e5-9ebd-c0994b8f2f24.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "electron-vite/electron-vite-react",
+      "status": "candidate-context",
+      "text": ":electron: Electron + Vite + React + Sass boilerplate."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron-vite/electron-vite-react",
+      "status": "candidate-context",
+      "text": "[![awesome-vite](https://awesome.re/mentioned-badge.svg)](https://github.com/vitejs/awesome-vite)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hyperbrew/bolt-cep",
+      "status": "candidate-context",
+      "text": "A lightning-fast framework for building Adobe CEP Extensions in Svelte, React, or Vue built on Vite + TypeScript + Sass"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyperbrew/bolt-cep",
+      "status": "candidate-context",
+      "text": "<img src=\"src/js/assets/bolt-cep.svg\" alt=\"Bolt CEP\" title=\"Bolt CEP\" width=\"400\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TanStack/query",
+      "status": "candidate-context",
+      "text": "\ud83e\udd16 Powerful asynchronous state management, server-state utilities and data fetching for the web. TS/JS, React Query, Solid Query, Svelte Query and Vue Query."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TanStack/query",
+      "status": "candidate-context",
+      "text": "<img referrerpolicy=\"no-referrer-when-downgrade\" src=\"https://static.scarf.sh/a.png?x-pxid=be2d8a11-9712-4c1d-9963-580b2d4fb133\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "styled-components/styled-components",
+      "status": "candidate-context",
+      "text": "Fast, expressive styling for React. Server components, client components, streaming SSR, React Native\u2014one API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "styled-components/styled-components",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -1751,6 +1943,102 @@
       "source_repo": "marmelab/react-admin",
       "status": "candidate",
       "text": "A frontend Framework for building single-page applications running in the browser on top of REST/GraphQL APIs, using TypeScript, [React](https://facebook.github.io/react/) and [Material Design](https://material.io/). Open sourced and maintained by [marmelab](https://marmelab.com\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cawa-93/vite-electron-builder",
+      "status": "candidate",
+      "text": "> [!Important]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron-react-boilerplate/electron-react-boilerplate",
+      "status": "candidate",
+      "text": "<img src=\".erb/img/erb-banner.svg\" width=\"100%\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cristianbote/goober",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blitz-js/blitz",
+      "status": "candidate",
+      "text": "[![Blitz.js](https://raw.githubusercontent.com/blitz-js/art/master/github-cover-photo.png)](https://blitzjs.com)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appbaseio/searchbox",
+      "status": "candidate",
+      "text": "Searchbox is a lightweight and performance focused search UI component library to query and display results from your ElasticSearch index using declarative props. It's available for React, Vue, React Native and Flutter."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ItsWendell/emotion-native-extended",
+      "status": "candidate",
+      "text": "![npm](https://img.shields.io/npm/v/emotion-native-extended?style=flat-square)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kyleshevlin/shevyjs",
+      "status": "candidate",
+      "text": "> Perfect vertical rhythm for typography and more in CSS-in-JS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aliezzahn/rsbuild-plugin-css-optimizer",
+      "status": "candidate",
+      "text": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/web-infra-dev/awesome-rspack)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aliezzahn/rsbuild-plugin-markdown-loader",
+      "status": "candidate",
+      "text": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/web-infra-dev/awesome-rspack)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "storybookjs/storybook",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marmelab/react-admin-helpdesk",
+      "status": "candidate",
+      "text": "This application is a fake a Help Desk for an imaginary refrigerator company with a few support agents. You can test it online at https://marmelab.com/react-admin-helpdesk. It is a demo of the [react-admin](https://github.com/marmelab/react-admin) library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/learn-redux",
+      "status": "candidate",
+      "text": "![learn-redux-header](https://cloud.githubusercontent.com/assets/194400/12328626/12f025de-bad4-11e5-9ebd-c0994b8f2f24.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron-vite/electron-vite-react",
+      "status": "candidate",
+      "text": "[![awesome-vite](https://awesome.re/mentioned-badge.svg)](https://github.com/vitejs/awesome-vite)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyperbrew/bolt-cep",
+      "status": "candidate",
+      "text": "<img src=\"src/js/assets/bolt-cep.svg\" alt=\"Bolt CEP\" title=\"Bolt CEP\" width=\"400\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TanStack/query",
+      "status": "candidate",
+      "text": "<img referrerpolicy=\"no-referrer-when-downgrade\" src=\"https://static.scarf.sh/a.png?x-pxid=be2d8a11-9712-4c1d-9963-580b2d4fb133\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "styled-components/styled-components",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -2601,11 +2889,149 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "redis-developer/redis-product-search"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "cawa-93/vite-electron-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "electron-react-boilerplate/electron-react-boilerplate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "cristianbote/goober"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "blitz-js/blitz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-scalajs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "appbaseio/searchbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ItsWendell/emotion-native-extended"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "kyleshevlin/shevyjs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "aliezzahn/rsbuild-plugin-css-optimizer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "aliezzahn/rsbuild-plugin-markdown-loader"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "storybookjs/storybook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "facebook/create-react-app"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "marmelab/react-admin-helpdesk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "redis-developer/redis-product-search"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ipfs/ipfs-webui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/learn-redux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "electron-vite/electron-vite-react"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "hyperbrew/bolt-cep"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "TanStack/query"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "styled-components/styled-components"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

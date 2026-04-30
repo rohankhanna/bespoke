@@ -84,7 +84,7 @@
   "normalized_form": "mpp-release",
   "observation_id": "e90f0defdad4be61",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
   "observed_text": "MPP Release",
   "source_context_snippet": "MPP Release",
   "source_file": ".github/workflows/compose-release.yml",

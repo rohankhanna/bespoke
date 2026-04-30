@@ -1,0 +1,258 @@
+{
+  "components": [
+    {
+      "component": "@size-limit/preset-small-lib",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "husky",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "size-limit",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tsdx",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tslib",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "bahmutov/npm-install@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/size.yml"
+    },
+    {
+      "component": "andresz1/size-limit-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/size.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kyleshevlin/shevyjs",
+      "target": "kyleshevlin/shevy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kyleshevlin/shevyjs",
+      "target": "@size-limit/preset-small-lib",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kyleshevlin/shevyjs",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kyleshevlin/shevyjs",
+      "target": "size-limit",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kyleshevlin/shevyjs",
+      "target": "tsdx",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kyleshevlin/shevyjs",
+      "target": "tslib",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kyleshevlin/shevyjs",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "kyleshevlin/shevyjs",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "kyleshevlin/shevyjs",
+      "target": "actions/setup-node@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "kyleshevlin/shevyjs",
+      "target": "bahmutov/npm-install@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/size.yml",
+      "source_repo": "kyleshevlin/shevyjs",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/size.yml",
+      "source_repo": "kyleshevlin/shevyjs",
+      "target": "andresz1/size-limit-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/size.yml",
+      "source_repo": "kyleshevlin/shevyjs",
+      "target": "size",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kyleshevlin/shevyjs",
+      "target": "css-in-js",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kyleshevlin/shevyjs",
+      "target": "react",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kyleshevlin/shevyjs",
+      "target": "typography",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kyleshevlin/shevyjs",
+      "target": "vertical-rhythm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:54:28.206005+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13756
+    },
+    {
+      "path": "package.json",
+      "size": 1072
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 732
+    },
+    {
+      "path": ".github/workflows/size.yml",
+      "size": 258
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Configurable Vertical Rhythm & Typography in CSS-in-JS",
+    "fork": false,
+    "full_name": "kyleshevlin/shevyjs",
+    "html_url": "https://github.com/kyleshevlin/shevyjs",
+    "language": "TypeScript",
+    "pushed_at": "2023-01-08T01:28:02Z",
+    "stargazers_count": 319,
+    "topics": [
+      "css-in-js",
+      "javascript",
+      "react",
+      "typography",
+      "vertical-rhythm"
+    ],
+    "updated_at": "2026-03-19T21:25:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kyleshevlin/shevy",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "size",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/size.yml",
+      "term": "size"
+    },
+    {
+      "context_snippet": "> Perfect vertical rhythm for typography and more in CSS-in-JS",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "css-in-js"
+    },
+    {
+      "context_snippet": "> Perfect vertical rhythm for typography and more in CSS-in-JS",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "react"
+    },
+    {
+      "context_snippet": "> Perfect vertical rhythm for typography and more in CSS-in-JS",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "typography"
+    },
+    {
+      "context_snippet": "> Perfect vertical rhythm for typography and more in CSS-in-JS",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vertical-rhythm"
+    }
+  ]
+}

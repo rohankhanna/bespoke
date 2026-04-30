@@ -439,6 +439,30 @@
       "source_repo": "github/copilot-language-server-release",
       "status": "candidate-context",
       "text": "The Copilot Language Server enables any editor or IDE to integrate with GitHub"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spyder-ide/spyder",
+      "status": "candidate-context",
+      "text": "Official repository for Spyder - The Scientific Python Development Environment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spyder-ide/spyder",
+      "status": "candidate-context",
+      "text": "![Spyder \u2014 The Scientific Python Development Environment](https://raw.githubusercontent.com/spyder-ide/spyder/master/branding/logo/spyder_readme_banner.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Beaglefoot/awk-language-server",
+      "status": "candidate-context",
+      "text": "Language Server for AWK and associated VSCode client extension"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Beaglefoot/awk-language-server",
+      "status": "candidate-context",
+      "text": "[![tests](https://github.com/Beaglefoot/awk-language-server/actions/workflows/tests.yml/badge.svg)](https://github.com/Beaglefoot/awk-language-server/actions/workflows/tests.yml)"
     }
   ],
   "candidate_glosses": [
@@ -657,6 +681,18 @@
       "source_repo": "github/copilot-language-server-release",
       "status": "candidate",
       "text": "The Copilot Language Server enables any editor or IDE to integrate with GitHub"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spyder-ide/spyder",
+      "status": "candidate",
+      "text": "![Spyder \u2014 The Scientific Python Development Environment](https://raw.githubusercontent.com/spyder-ide/spyder/master/branding/logo/spyder_readme_banner.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Beaglefoot/awk-language-server",
+      "status": "candidate",
+      "text": "[![tests](https://github.com/Beaglefoot/awk-language-server/actions/workflows/tests.yml/badge.svg)](https://github.com/Beaglefoot/awk-language-server/actions/workflows/tests.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -1102,11 +1138,53 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "dense-analysis/ale"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "spyder-ide/spyder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "atom/ide-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-jdtls/eclipse.jdt.ls"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-lsp4j/lsp4j"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-lemminx/lemminx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Beaglefoot/awk-language-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "dense-analysis/ale"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

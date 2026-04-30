@@ -871,6 +871,42 @@
       "source_repo": "scivision/linkchecker-markdown",
       "status": "candidate-context",
       "text": "[![ci](https://github.com/scivision/linkchecker-markdown/actions/workflows/ci.yml/badge.svg)](https://github.com/scivision/linkchecker-markdown/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "svsool/memo",
+      "status": "candidate-context",
+      "text": "Markdown knowledge base with bidirectional [[link]]s built on top of VSCode"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "svsool/memo",
+      "status": "candidate-context",
+      "text": "Markdown knowledge base with bidirectional [[link]]s built on top of [VSCode](https://github.com/microsoft/vscode)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kdheepak/panvimdoc",
+      "status": "candidate-context",
+      "text": "Write documentation in pandoc markdown. Generate documentation in vimdoc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kdheepak/panvimdoc",
+      "status": "candidate-context",
+      "text": "[![Docs](https://img.shields.io/badge/docs-dev-blue.svg)](https://kdheepak.com/panvimdoc/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aliezzahn/rsbuild-plugin-markdown-loader",
+      "status": "candidate-context",
+      "text": "A plugin for rsbuild.dev that enables importing and rendering Markdown files as React components or pure HTML."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aliezzahn/rsbuild-plugin-markdown-loader",
+      "status": "candidate-context",
+      "text": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/web-infra-dev/awesome-rspack)"
     }
   ],
   "candidate_glosses": [
@@ -1305,6 +1341,24 @@
       "source_repo": "scivision/linkchecker-markdown",
       "status": "candidate",
       "text": "[![ci](https://github.com/scivision/linkchecker-markdown/actions/workflows/ci.yml/badge.svg)](https://github.com/scivision/linkchecker-markdown/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "svsool/memo",
+      "status": "candidate",
+      "text": "Markdown knowledge base with bidirectional [[link]]s built on top of [VSCode](https://github.com/microsoft/vscode)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kdheepak/panvimdoc",
+      "status": "candidate",
+      "text": "[![Docs](https://img.shields.io/badge/docs-dev-blue.svg)](https://kdheepak.com/panvimdoc/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aliezzahn/rsbuild-plugin-markdown-loader",
+      "status": "candidate",
+      "text": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/web-infra-dev/awesome-rspack)"
     }
   ],
   "candidate_related_terms": [
@@ -1882,11 +1936,59 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "scivision/linkchecker-markdown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "svsool/memo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "artempyanykh/marksman-vscode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-jekyll-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-markdown-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "kdheepak/panvimdoc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "aliezzahn/rsbuild-plugin-markdown-loader"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "docling-project/docling"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

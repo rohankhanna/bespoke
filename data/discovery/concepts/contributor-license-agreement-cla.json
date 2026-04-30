@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Contributor License Agreement (CLA)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Shopify/ruby-lsp",
+      "status": "candidate-context",
+      "text": "An opinionated language server for Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shopify/ruby-lsp",
+      "status": "candidate-context",
+      "text": "Contributor License Agreement (CLA)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shopify/ruby-lsp",
+      "status": "candidate",
+      "text": "Contributor License Agreement (CLA)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26097,
+      "status": "candidate",
+      "text": "licence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20664,
+      "status": "candidate",
+      "text": "contribution"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19965,
+      "status": "candidate",
+      "text": "take"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19942,
+      "status": "candidate",
+      "text": "pass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19930,
+      "status": "candidate",
+      "text": "good"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Contributor License Agreement (CLA)",
+  "concept_id": "contributor-license-agreement-cla",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "Shopify/ruby-lsp"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Contributor License Agreement (CLA)",
+      "sense_id": "contributor-license-agreement-cla#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

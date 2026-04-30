@@ -1,7 +1,7 @@
 {
   "component": "lukka/get-cmake@latest",
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -107,6 +107,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/c-cpp.yml",
       "source_repo": "tevador/RandomX"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cmake_find_package.yml",
+      "source_repo": "microsoft/GSL"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/vvl.yml",
+      "source_repo": "KhronosGroup/Vulkan-ValidationLayers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "LunarG/VulkanTools"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/moltenvk.yml",
+      "source_repo": "dotnet/Silk.NET"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "KhronosGroup/Vulkan-Loader"
     }
   ]
 }

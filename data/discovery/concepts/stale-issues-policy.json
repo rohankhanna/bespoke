@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Stale Issues Policy"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Vchitect/Latte",
+      "status": "candidate-context",
+      "text": "[TMLR 2025] Latte: Latent Diffusion Transformer for Video Generation. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Vchitect/Latte",
+      "status": "candidate-context",
+      "text": "Stale Issues Policy"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Vchitect/Latte",
+      "status": "candidate",
+      "text": "Stale Issues Policy"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33902,
+      "status": "candidate",
+      "text": "glasnost"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25728,
+      "status": "candidate",
+      "text": "matters"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25728,
+      "status": "candidate",
+      "text": "policies"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25728,
+      "status": "candidate",
+      "text": "political"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25728,
+      "status": "candidate",
+      "text": "politics"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Stale Issues Policy",
+  "concept_id": "stale-issues-policy",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/stale-issues.yaml",
+      "source_repo": "Vchitect/Latte"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Stale Issues Policy",
+      "sense_id": "stale-issues-policy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

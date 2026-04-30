@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Mirror Base Images to GHCR"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/accelerated-computing-hub",
+      "status": "candidate-context",
+      "text": "NVIDIA curated collection of educational resources related to general purpose GPU programming."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/accelerated-computing-hub",
+      "status": "candidate-context",
+      "text": "Mirror Base Images to GHCR"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/accelerated-computing-hub",
+      "status": "candidate",
+      "text": "Mirror Base Images to GHCR"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36462,
+      "status": "candidate",
+      "text": "enantiomorph"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35126,
+      "status": "candidate",
+      "text": "twin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27343,
+      "status": "candidate",
+      "text": "twins"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27200,
+      "status": "candidate",
+      "text": "reflective"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27113,
+      "status": "candidate",
+      "text": "actinomorphic"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Mirror Base Images to GHCR",
+  "concept_id": "mirror-base-images-to-ghcr",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/mirror-base-images.yml",
+      "source_repo": "NVIDIA/accelerated-computing-hub"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Mirror Base Images to GHCR",
+      "sense_id": "mirror-base-images-to-ghcr#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

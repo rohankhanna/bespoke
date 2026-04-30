@@ -9,27 +9,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "google-deepmind/tapnet",
-      "target": "riponazad/echotracker",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "pyproject.toml",
-      "source_repo": "google-deepmind/tapnet",
-      "target": "google-research/kubric",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "pyproject.toml",
-      "source_repo": "google-deepmind/tapnet",
-      "target": "google-deepmind/recurrentgemma",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "google-deepmind/tapnet",
@@ -65,7 +44,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T08:21:11.171087+00:00",
+  "fetched_at": "2026-04-30T13:08:26.954073+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -105,21 +84,6 @@
       "edge_type": "explicit-github-link",
       "full_name": "deepmind/tapnet",
       "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "riponazad/echotracker",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "google-deepmind/recurrentgemma",
-      "source_file": "pyproject.toml"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "google-research/kubric",
-      "source_file": "pyproject.toml"
     }
   ],
   "terms": [

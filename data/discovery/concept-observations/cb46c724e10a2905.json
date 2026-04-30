@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Advanced AI-Based Video Renovation UI Using EMA-VFI & Real-ESRGAN"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Pylint](https://github.com/jhogsett/EMA-VFI-WebUI/actions/workflows/pylint.yml/badge.svg)](https://github.com/jhogsett/EMA-VFI-WebUI/actions/workflows/pylint.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Pylint](https://github.com/jhogsett/EMA-VFI-WebUI/actions/workflows/pylint.yml/badge.svg)](https://github.com/jhogsett/EMA-VFI-WebUI/actions/workflows/pylint.yml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39732104,
+      "status": "candidate",
+      "text": "interjection"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39687933,
+      "status": "candidate",
+      "text": "interposition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29794944,
+      "status": "candidate",
+      "text": "interleaving"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29699418,
+      "status": "candidate",
+      "text": "dither"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29693035,
+      "status": "candidate",
+      "text": "altitude"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "interpolation",
+      "sense_id": "interpolation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4036,
+      "status": "candidate",
+      "text": "interjection"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4027,
+      "status": "candidate",
+      "text": "interposition"
+    }
+  ],
+  "concept_id": "interpolation",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "interpolation",
+  "observation_id": "cb46c724e10a2905",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "interpolation",
+  "source_context_snippet": "[![Pylint](https://github.com/jhogsett/EMA-VFI-WebUI/actions/workflows/pylint.yml/badge.svg)](https://github.com/jhogsett/EMA-VFI-WebUI/actions/workflows/pylint.yml)",
+  "source_file": null,
+  "source_repo": "jhogsett/EMA-VFI-WebUI",
+  "source_repo_description": "Advanced AI-Based Video Renovation UI Using EMA-VFI & Real-ESRGAN"
+}

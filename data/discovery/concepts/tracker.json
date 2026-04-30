@@ -31,6 +31,18 @@
       "source_repo": "IgnisDa/ryot",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">Ryot</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flyers/drone-tracking",
+      "status": "candidate-context",
+      "text": "DTB70 -- A Drone Tracking Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flyers/drone-tracking",
+      "status": "candidate-context",
+      "text": "Created by [Siyi Li](http://lisiyi.me) and [Dit-Yan Yeung](http://home.cse.ust.hk/~dyyeung) at HKUST."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "IgnisDa/ryot",
       "status": "candidate",
       "text": "<h1 align=\"center\">Ryot</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flyers/drone-tracking",
+      "status": "candidate",
+      "text": "Created by [Siyi Li](http://lisiyi.me) and [Dit-Yan Yeung](http://home.cse.ust.hk/~dyyeung) at HKUST."
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "IgnisDa/ryot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "flyers/drone-tracking"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

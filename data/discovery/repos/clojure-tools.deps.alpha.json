@@ -1,0 +1,71 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    },
+    {
+      "component": "actions/setup-java@v3.6.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "clojure/tools.deps.alpha",
+      "target": "actions/checkout@v3.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "clojure/tools.deps.alpha",
+      "target": "actions/setup-java@v3.6.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "clojure/tools.deps.alpha",
+      "target": "Java CI",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:01:50.282255+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4223
+    },
+    {
+      "path": ".github/workflows/maven.yml",
+      "size": 341
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "A functional API for transitive dependency graph expansion and the creation of classpaths",
+    "fork": false,
+    "full_name": "clojure/tools.deps.alpha",
+    "html_url": "https://github.com/clojure/tools.deps.alpha",
+    "language": "Clojure",
+    "pushed_at": "2024-07-15T17:54:30Z",
+    "stargazers_count": 437,
+    "topics": [],
+    "updated_at": "2026-02-11T07:00:47Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Java CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven.yml",
+      "term": "Java CI"
+    }
+  ]
+}

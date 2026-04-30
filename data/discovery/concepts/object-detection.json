@@ -787,6 +787,150 @@
       "source_repo": "lvis-dataset/lvis-api",
       "status": "candidate-context",
       "text": "LVIS (pronounced \u2018el-vis\u2019): is a new dataset for Large Vocabulary Instance Segmentation."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Intellindust-AI-Lab/DEIM",
+      "status": "candidate-context",
+      "text": "[CVPR 2025] DEIM: DETR with Improved Matching for Fast Convergence"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Intellindust-AI-Lab/DEIM",
+      "status": "candidate-context",
+      "text": "<h2 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Peterande/D-FINE",
+      "status": "candidate-context",
+      "text": "D-FINE: Redefine Regression Task of DETRs as Fine-grained Distribution Refinement  [ICLR 2025 Spotlight]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Peterande/D-FINE",
+      "status": "candidate-context",
+      "text": "<!--# [D-FINE: Redefine Regression Task of DETRs as Fine-grained Distribution Refinement](https://arxiv.org/abs/xxxxxx) -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "john-rocky/CoreML-Models",
+      "status": "candidate-context",
+      "text": "Converted CoreML Model Zoo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "john-rocky/CoreML-Models",
+      "status": "candidate-context",
+      "text": "Converted Core ML Model Zoo."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "traveller59/second.pytorch",
+      "status": "candidate-context",
+      "text": "SECOND for KITTI/NuScenes object detection"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "traveller59/second.pytorch",
+      "status": "candidate-context",
+      "text": "SECOND detector."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SwinTransformer/Swin-Transformer-Object-Detection",
+      "status": "candidate-context",
+      "text": "This is an official implementation for \"Swin Transformer: Hierarchical Vision Transformer using Shifted Windows\" on Object Detection and Instance Segmentation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SwinTransformer/Swin-Transformer-Object-Detection",
+      "status": "candidate-context",
+      "text": "This repo contains the supported code and configuration files to reproduce object detection results of [Swin Transformer](https://arxiv.org/pdf/2103.14030.pdf). It is based on [mmdetection](https://github.com/open-mmlab/mmdetection)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "isl-org/Open3D-ML",
+      "status": "candidate-context",
+      "text": "An extension of Open3D to address 3D Machine Learning tasks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isl-org/Open3D-ML",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenGVLab/InternImage",
+      "status": "candidate-context",
+      "text": "[CVPR 2023 Highlight] InternImage: Exploring Large-Scale Vision Foundation Models with Deformable Convolutions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenGVLab/InternImage",
+      "status": "candidate-context",
+      "text": "<p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PingoLH/Pytorch-HarDNet",
+      "status": "candidate-context",
+      "text": "35% faster than ResNet: Harmonic DenseNet, A low memory traffic network"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PingoLH/Pytorch-HarDNet",
+      "status": "candidate-context",
+      "text": "* Fully utilize your cuda cores!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenGVLab/InternVL-MMDetSeg",
+      "status": "candidate-context",
+      "text": "Train InternViT-6B in MMSegmentation and MMDetection with DeepSpeed"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenGVLab/InternVL-MMDetSeg",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Intellindust-AI-Lab/DEIMv2",
+      "status": "candidate-context",
+      "text": "[DEIMv2] Real Time Object Detection Meets DINOv3 "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Intellindust-AI-Lab/DEIMv2",
+      "status": "candidate-context",
+      "text": "<h2 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HikariTJU/LD",
+      "status": "candidate-context",
+      "text": "Localization Distillation for Object Detection (CVPR 2022, TPAMI 2023)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HikariTJU/LD",
+      "status": "candidate-context",
+      "text": "Analysis of LD in ZhiHu: [\u76ee\u6807\u68c0\u6d4b-\u5b9a\u4f4d\u84b8\u998f (LD, CVPR 2022)](https://zhuanlan.zhihu.com/p/474955539) and [\u76ee\u6807\u68c0\u6d4b-\u5b9a\u4f4d\u84b8\u998f\u7eed\u96c6\u2014\u2014logit\u84b8\u998f\u4e0efeature\u84b8\u998f\u4e4b\u4e89](https://zhuanlan.zhihu.com/p/498119752)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "VDIGPKU/DynamicDet",
+      "status": "candidate-context",
+      "text": "[CVPR 2023] DynamicDet: A Unified Dynamic Architecture for Object Detection"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VDIGPKU/DynamicDet",
+      "status": "candidate-context",
+      "text": "This repo contains the official implementation of [**\"DynamicDet: A Unified Dynamic Architecture for Object Detection\"**](https://arxiv.org/abs/2304.05552)."
     }
   ],
   "candidate_glosses": [
@@ -1179,6 +1323,78 @@
       "source_repo": "lvis-dataset/lvis-api",
       "status": "candidate",
       "text": "LVIS (pronounced \u2018el-vis\u2019): is a new dataset for Large Vocabulary Instance Segmentation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Intellindust-AI-Lab/DEIM",
+      "status": "candidate",
+      "text": "<h2 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Peterande/D-FINE",
+      "status": "candidate",
+      "text": "<!--# [D-FINE: Redefine Regression Task of DETRs as Fine-grained Distribution Refinement](https://arxiv.org/abs/xxxxxx) -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "john-rocky/CoreML-Models",
+      "status": "candidate",
+      "text": "Converted Core ML Model Zoo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "traveller59/second.pytorch",
+      "status": "candidate",
+      "text": "SECOND detector."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SwinTransformer/Swin-Transformer-Object-Detection",
+      "status": "candidate",
+      "text": "This repo contains the supported code and configuration files to reproduce object detection results of [Swin Transformer](https://arxiv.org/pdf/2103.14030.pdf). It is based on [mmdetection](https://github.com/open-mmlab/mmdetection)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isl-org/Open3D-ML",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenGVLab/InternImage",
+      "status": "candidate",
+      "text": "<p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PingoLH/Pytorch-HarDNet",
+      "status": "candidate",
+      "text": "* Fully utilize your cuda cores!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenGVLab/InternVL-MMDetSeg",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Intellindust-AI-Lab/DEIMv2",
+      "status": "candidate",
+      "text": "<h2 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HikariTJU/LD",
+      "status": "candidate",
+      "text": "Analysis of LD in ZhiHu: [\u76ee\u6807\u68c0\u6d4b-\u5b9a\u4f4d\u84b8\u998f (LD, CVPR 2022)](https://zhuanlan.zhihu.com/p/474955539) and [\u76ee\u6807\u68c0\u6d4b-\u5b9a\u4f4d\u84b8\u998f\u7eed\u96c6\u2014\u2014logit\u84b8\u998f\u4e0efeature\u84b8\u998f\u4e4b\u4e89](https://zhuanlan.zhihu.com/p/498119752)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VDIGPKU/DynamicDet",
+      "status": "candidate",
+      "text": "This repo contains the official implementation of [**\"DynamicDet: A Unified Dynamic Architecture for Object Detection\"**](https://arxiv.org/abs/2304.05552)."
     }
   ],
   "candidate_related_terms": [],
@@ -1654,11 +1870,125 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "lvis-dataset/lvis-api"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "mudler/LocalAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Intellindust-AI-Lab/DEIM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Peterande/D-FINE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "john-rocky/CoreML-Models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "traveller59/second.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "cuiziteng/ICCV_MAET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "SwinTransformer/Swin-Transformer-Object-Detection"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/MaskDINO"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/DN-DETR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/Open3D-ML"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/LargeKernel3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "OpenGVLab/InternImage"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "VITA-Group/SLaK"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "PingoLH/Pytorch-HarDNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "OpenGVLab/InternVL-MMDetSeg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "cvat-ai/cvat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Intellindust-AI-Lab/DEIMv2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "HikariTJU/LD"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "VDIGPKU/DynamicDet"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

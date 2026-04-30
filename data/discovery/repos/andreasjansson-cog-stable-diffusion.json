@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "andreasjansson/cog-stable-diffusion",
+      "target": "replicate/cog",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:07:43.559069+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 673
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Diffusers Stable Diffusion as a Cog model",
+    "fork": true,
+    "full_name": "andreasjansson/cog-stable-diffusion",
+    "html_url": "https://github.com/andreasjansson/cog-stable-diffusion",
+    "language": "Python",
+    "pushed_at": "2022-11-02T08:41:29Z",
+    "stargazers_count": 342,
+    "topics": [],
+    "updated_at": "2026-04-22T00:34:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "replicate/cog",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

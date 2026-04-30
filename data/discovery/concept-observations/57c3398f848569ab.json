@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "LM inference server implementation based on *.cpp."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "sync"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "sync"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39990575,
+      "status": "candidate",
+      "text": "synchronize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29991731,
+      "status": "candidate",
+      "text": "synchronization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29991299,
+      "status": "candidate",
+      "text": "synchrony"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29991233,
+      "status": "candidate",
+      "text": "synch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29990983,
+      "status": "candidate",
+      "text": "synchronicity"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "sync",
+      "sense_id": "sync#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5040,
+      "status": "candidate",
+      "text": "synchronize"
+    }
+  ],
+  "concept_id": "sync",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sync",
+  "observation_id": "57c3398f848569ab",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "sync",
+  "source_context_snippet": "sync",
+  "source_file": ".github/workflows/sync.yml",
+  "source_repo": "gpustack/llama-box",
+  "source_repo_description": "LM inference server implementation based on *.cpp."
+}

@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danburkert/memmap-rs",
+      "target": "rust-lang-nursery/libc",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:58:54.234008+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1785
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 729
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "cross-platform Rust API for memory mapped IO",
+    "fork": false,
+    "full_name": "danburkert/memmap-rs",
+    "html_url": "https://github.com/danburkert/memmap-rs",
+    "language": "Rust",
+    "pushed_at": "2022-02-13T09:20:58Z",
+    "stargazers_count": 574,
+    "topics": [],
+    "updated_at": "2026-04-01T03:37:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rust-lang-nursery/libc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

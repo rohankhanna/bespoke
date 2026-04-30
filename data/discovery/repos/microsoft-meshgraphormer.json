@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/MeshGraphormer",
+      "target": "hrnet/hrnet-image-classification",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/MeshGraphormer",
+      "target": "nkolot/graphcmr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/MeshGraphormer",
+      "target": "mandymo/pytorch_hmr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/MeshGraphormer",
+      "target": "hongsukchoi/pose2mesh_release",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:07:19.559518+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3194
+    },
+    {
+      "path": "requirements.txt",
+      "size": 84
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Research code of ICCV 2021 paper \"Mesh Graphormer\"",
+    "fork": false,
+    "full_name": "microsoft/MeshGraphormer",
+    "html_url": "https://github.com/microsoft/MeshGraphormer",
+    "language": "Python",
+    "pushed_at": "2023-07-06T22:06:34Z",
+    "stargazers_count": 425,
+    "topics": [],
+    "updated_at": "2026-03-15T09:08:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hongsukchoi/pose2mesh_release",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hrnet/hrnet-image-classification",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mandymo/pytorch_hmr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nkolot/graphcmr",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

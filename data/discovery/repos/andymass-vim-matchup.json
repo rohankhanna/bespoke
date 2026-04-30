@@ -60,7 +60,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "andymass/vim-matchup",
-      "target": "machakann/vim-sandwich",
+      "target": "raimondi/delimitmate",
       "target_type": "repository"
     },
     {
@@ -204,7 +204,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T09:10:17.624422+00:00",
+  "fetched_at": "2026-04-30T14:03:01.652669+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -265,7 +265,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "machakann/vim-sandwich",
+      "full_name": "raimondi/delimitmate",
       "source_file": "README.md"
     }
   ],

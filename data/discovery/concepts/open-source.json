@@ -715,6 +715,108 @@
       "source_repo": "swagger-api/swagger-parser",
       "status": "candidate-context",
       "text": "**NOTE:** If you're looking for `swagger-parser` 1.X and OpenAPI 2.0, please refer to [v1 branch](https://github.com/swagger-api/swagger-parser/tree/v1)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "5sControl/operation-control-js",
+      "status": "candidate-context",
+      "text": "Automatically detect when operation was done incorrectly using power of computer vision"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "5sControl/operation-control-js",
+      "status": "candidate-context",
+      "text": "Operation Control is one of the Official [5sControl](https://5sControl.com/) algorithm. Plug it in our video monitoring system with AI analysis and ERP Integration (Open Source) to ensure the quality of your products."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DiligentGraphics/DiligentFX",
+      "status": "candidate-context",
+      "text": "High-level rendering components"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DiligentGraphics/DiligentFX",
+      "status": "candidate-context",
+      "text": "DiligentFX is the [Diligent Engine](https://github.com/DiligentGraphics/DiligentEngine)'s high-level rendering framework."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/octohub.nvim",
+      "status": "candidate-context",
+      "text": "All Your GitHub repos and more in Neovim \ud83d\udc19\ud83d\udee0\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/octohub.nvim",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ellerbrock/open-source-badges",
+      "status": "candidate-context",
+      "text": ":octocat: Open Source & Licence Badges"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ellerbrock/open-source-badges",
+      "status": "candidate-context",
+      "text": "Badges to show your love for Open Source and the Community."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swagger-api/apidom",
+      "status": "candidate-context",
+      "text": "Semantic parser for API specifications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/apidom",
+      "status": "candidate-context",
+      "text": "[comment]: <> (SPDX-FileCopyrightText: Copyright &#40;c&#41; 2015 refractproject)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swagger-api/swagger-core",
+      "status": "candidate-context",
+      "text": "Examples and server integrations for generating the Swagger API Specification, which enables easy access to your REST API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/swagger-core",
+      "status": "candidate-context",
+      "text": "**NOTE:** If you're looking for Swagger Core 1.5.X and OpenAPI 2.0, please refer to [1.5 branch](https://github.com/swagger-api/swagger-core/tree/1.5)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/swagger-inflector",
+      "status": "candidate-context",
+      "text": "[![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.swagger/swagger-inflector/badge.svg?style=plastic)](https://maven-badges.herokuapp.com/maven-central/io.swagger/swagger-inflector)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aboutcode-org/scancode.io",
+      "status": "candidate-context",
+      "text": "ScanCode.io is a server to script and automate software composition analysis with pipelines. This project is sponsored by the European Commission, NLnet NGI0, the Google Summer of Code, nexB and others generous sponsors!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aboutcode-org/scancode.io",
+      "status": "candidate-context",
+      "text": "==========="
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "janhq/jan",
+      "status": "candidate-context",
+      "text": "Jan is an open source alternative to ChatGPT that runs 100% offline on your computer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "janhq/jan",
+      "status": "candidate-context",
+      "text": "<img width=\"2048\" height=\"280\" alt=\"github jan banner\" src=\"https://github.com/user-attachments/assets/f3f87889-c133-433b-b250-236218150d3f\" />"
     }
   ],
   "candidate_glosses": [
@@ -1053,6 +1155,60 @@
       "source_repo": "swagger-api/swagger-parser",
       "status": "candidate",
       "text": "**NOTE:** If you're looking for `swagger-parser` 1.X and OpenAPI 2.0, please refer to [v1 branch](https://github.com/swagger-api/swagger-parser/tree/v1)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "5sControl/operation-control-js",
+      "status": "candidate",
+      "text": "Operation Control is one of the Official [5sControl](https://5sControl.com/) algorithm. Plug it in our video monitoring system with AI analysis and ERP Integration (Open Source) to ensure the quality of your products."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DiligentGraphics/DiligentFX",
+      "status": "candidate",
+      "text": "DiligentFX is the [Diligent Engine](https://github.com/DiligentGraphics/DiligentEngine)'s high-level rendering framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/octohub.nvim",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ellerbrock/open-source-badges",
+      "status": "candidate",
+      "text": "Badges to show your love for Open Source and the Community."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/apidom",
+      "status": "candidate",
+      "text": "[comment]: <> (SPDX-FileCopyrightText: Copyright &#40;c&#41; 2015 refractproject)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/swagger-core",
+      "status": "candidate",
+      "text": "**NOTE:** If you're looking for Swagger Core 1.5.X and OpenAPI 2.0, please refer to [1.5 branch](https://github.com/swagger-api/swagger-core/tree/1.5)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/swagger-inflector",
+      "status": "candidate",
+      "text": "[![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.swagger/swagger-inflector/badge.svg?style=plastic)](https://maven-badges.herokuapp.com/maven-central/io.swagger/swagger-inflector)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aboutcode-org/scancode.io",
+      "status": "candidate",
+      "text": "==========="
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "janhq/jan",
+      "status": "candidate",
+      "text": "<img width=\"2048\" height=\"280\" alt=\"github jan banner\" src=\"https://github.com/user-attachments/assets/f3f87889-c133-433b-b250-236218150d3f\" />"
     }
   ],
   "candidate_related_terms": [
@@ -1642,11 +1798,107 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "swagger-api/swagger-parser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "f/prompts.chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "5sControl/5Scontrol-manual"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "5sControl/operation-control-js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "IDLabMedia/large-lightfields-dataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "DiligentGraphics/DiligentFX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "abap2UI5-addons/layout-management"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "abap2UI5-addons/sql-console"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "langchain-ai/langchain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/octohub.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ellerbrock/open-source-badges"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "swagger-api/apidom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "swagger-api/swagger-core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "swagger-api/swagger-inflector"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "aboutcode-org/scancode.io"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "janhq/jan"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

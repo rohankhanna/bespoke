@@ -6,15 +6,8 @@
       "source_repo": "dwyl/learn-api-design",
       "target": "dwyl/learn-websockets",
       "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "dwyl/learn-api-design",
-      "target": "zalando/restful-api-guidelines",
-      "target_type": "repository"
     }
   ],
-  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "generated_at": "2026-04-30T12:45:20.475770+00:00",
   "source_repo": "dwyl/learn-api-design"
 }

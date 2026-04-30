@@ -203,6 +203,30 @@
       "source_repo": "salesforcecli/cli",
       "status": "candidate-context",
       "text": "automerge"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oclif/plugin-autocomplete",
+      "status": "candidate-context",
+      "text": "autocomplete plugin for oclif"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oclif/plugin-autocomplete",
+      "status": "candidate-context",
+      "text": "automerge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oclif/plugin-commands",
+      "status": "candidate-context",
+      "text": "automerge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oclif/plugin-search",
+      "status": "candidate-context",
+      "text": "automerge"
     }
   ],
   "candidate_glosses": [
@@ -299,6 +323,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "salesforcecli/cli",
+      "status": "candidate",
+      "text": "automerge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oclif/plugin-autocomplete",
+      "status": "candidate",
+      "text": "automerge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oclif/plugin-commands",
+      "status": "candidate",
+      "text": "automerge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oclif/plugin-search",
       "status": "candidate",
       "text": "automerge"
     }
@@ -404,11 +446,29 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/automerge-dependabot.yml",
       "source_repo": "salesforcecli/cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/automerge.yml",
+      "source_repo": "oclif/plugin-autocomplete"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/automerge.yml",
+      "source_repo": "oclif/plugin-commands"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/automerge.yml",
+      "source_repo": "oclif/plugin-search"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

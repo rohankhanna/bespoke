@@ -55,6 +55,18 @@
       "source_repo": "awsdocs/aws-doc-sdk-examples",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/aws/aws-sdk-ruby/workflows/CI/badge.svg)](https://github.com/awsdocs/aws-doc-sdk-examples/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/exercism.nvim",
+      "status": "candidate-context",
+      "text": "Exercism Meets Neovim \ud83d\udcaa\ud83e\udde0"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/exercism.nvim",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "awsdocs/aws-doc-sdk-examples",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/aws/aws-sdk-ruby/workflows/CI/badge.svg)](https://github.com/awsdocs/aws-doc-sdk-examples/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/exercism.nvim",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -169,11 +187,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "awsdocs/aws-doc-sdk-examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/exercism.nvim"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

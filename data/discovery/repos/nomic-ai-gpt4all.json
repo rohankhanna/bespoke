@@ -1,0 +1,166 @@
+{
+  "components": [
+    {
+      "component": "actions/github-script@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close_issues.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml"
+    },
+    {
+      "component": "codespell-project/actions-codespell@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nomic-ai/gpt4all",
+      "target": "ggerganov/llama.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nomic-ai/gpt4all",
+      "target": "weaviate/weaviate",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nomic-ai/gpt4all",
+      "target": "openlit/openlit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close_issues.yml",
+      "source_repo": "nomic-ai/gpt4all",
+      "target": "actions/github-script@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close_issues.yml",
+      "source_repo": "nomic-ai/gpt4all",
+      "target": "Close Issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "nomic-ai/gpt4all",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "nomic-ai/gpt4all",
+      "target": "codespell-project/actions-codespell@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "nomic-ai/gpt4all",
+      "target": "Codespell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nomic-ai/gpt4all",
+      "target": "ai-chat",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nomic-ai/gpt4all",
+      "target": "llm-inference",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:58:31.096676+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5925
+    },
+    {
+      "path": ".github/workflows/close_issues.yml",
+      "size": 1294
+    },
+    {
+      "path": ".github/workflows/codespell.yml",
+      "size": 320
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "GPT4All: Run Local LLMs on Any Device. Open-source and available for commercial use.",
+    "fork": false,
+    "full_name": "nomic-ai/gpt4all",
+    "html_url": "https://github.com/nomic-ai/gpt4all",
+    "language": "C++",
+    "pushed_at": "2025-05-27T20:05:19Z",
+    "stargazers_count": 77376,
+    "topics": [
+      "ai-chat",
+      "llm-inference"
+    ],
+    "updated_at": "2026-04-30T09:06:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggerganov/llama.cpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openlit/openlit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "weaviate/weaviate",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Close Issues\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close_issues.yml",
+      "term": "Close Issues"
+    },
+    {
+      "context_snippet": "Codespell",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codespell.yml",
+      "term": "Codespell"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">GPT4All</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-chat"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">GPT4All</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-inference"
+    }
+  ]
+}

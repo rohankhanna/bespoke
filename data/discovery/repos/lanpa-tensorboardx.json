@@ -81,20 +81,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "lanpa/tensorboardX",
-      "target": "icrar/crc32c",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "lanpa/tensorboardX",
-      "target": "teamhg-memex/tensorboard_logger",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "lanpa/tensorboardX",
       "target": "dmlc/tensorboard",
       "target_type": "repository"
     },
@@ -197,7 +183,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T20:45:31.741192+00:00",
+  "fetched_at": "2026-04-30T15:56:50.384445+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -244,16 +230,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "dmlc/tensorboard",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "icrar/crc32c",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "teamhg-memex/tensorboard_logger",
       "source_file": "README.md"
     }
   ],

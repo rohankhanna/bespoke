@@ -1,0 +1,214 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-app.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-app.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-app.yml",
+      "source_repo": "vikashplus/robohive",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-app.yml",
+      "source_repo": "vikashplus/robohive",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vikashplus/robohive",
+      "target": "benchmarks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vikashplus/robohive",
+      "target": "environments",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vikashplus/robohive",
+      "target": "imitation-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vikashplus/robohive",
+      "target": "mujoco",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vikashplus/robohive",
+      "target": "mujoco-environments",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vikashplus/robohive",
+      "target": "reinforcement-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vikashplus/robohive",
+      "target": "robot-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vikashplus/robohive",
+      "target": "robot-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vikashplus/robohive",
+      "target": "robotics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vikashplus/robohive",
+      "target": "simulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vikashplus/robohive",
+      "target": "tasks",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:54:21.542940+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6126
+    },
+    {
+      "path": ".github/workflows/python-app.yml",
+      "size": 2054
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A unified framework for robot learning",
+    "fork": false,
+    "full_name": "vikashplus/robohive",
+    "html_url": "https://github.com/vikashplus/robohive",
+    "language": "Python",
+    "pushed_at": "2024-11-26T04:10:28Z",
+    "stargazers_count": 622,
+    "topics": [
+      "benchmarks",
+      "environments",
+      "imitation-learning",
+      "mujoco",
+      "mujoco-environments",
+      "python",
+      "reinforcement-learning",
+      "robot-framework",
+      "robot-learning",
+      "robotics",
+      "simulation",
+      "tasks"
+    ],
+    "updated_at": "2026-03-31T07:51:10Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<!-- =================================================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmarks"
+    },
+    {
+      "context_snippet": "<!-- =================================================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "environments"
+    },
+    {
+      "context_snippet": "<!-- =================================================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "imitation-learning"
+    },
+    {
+      "context_snippet": "<!-- =================================================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mujoco"
+    },
+    {
+      "context_snippet": "<!-- =================================================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mujoco-environments"
+    },
+    {
+      "context_snippet": "<!-- =================================================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reinforcement-learning"
+    },
+    {
+      "context_snippet": "<!-- =================================================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robot-framework"
+    },
+    {
+      "context_snippet": "<!-- =================================================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robot-learning"
+    },
+    {
+      "context_snippet": "<!-- =================================================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics"
+    },
+    {
+      "context_snippet": "<!-- =================================================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simulation"
+    },
+    {
+      "context_snippet": "<!-- =================================================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tasks"
+    }
+  ]
+}

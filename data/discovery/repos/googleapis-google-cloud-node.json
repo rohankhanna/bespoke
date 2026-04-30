@@ -161,21 +161,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "googleapis/google-cloud-node",
-      "target": "googleapis/nodejs-logging-winston",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "googleapis/google-cloud-node",
-      "target": "googlecloudplatform/nodejs-getting-started",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "googleapis/google-cloud-node",
       "target": "googlecloudplatform/gcloud-node-todos",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "googleapis/google-cloud-node",
+      "target": "sebelga/gstore-node",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "googleapis/google-cloud-node",
+      "target": "sebelga/gstore-api",
       "target_type": "repository"
     },
     {
@@ -452,7 +452,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T03:05:10.308525+00:00",
+  "fetched_at": "2026-04-30T12:52:41.023433+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -504,7 +504,7 @@
     "full_name": "googleapis/google-cloud-node",
     "html_url": "https://github.com/googleapis/google-cloud-node",
     "language": "JavaScript",
-    "pushed_at": "2026-04-29T21:41:58Z",
+    "pushed_at": "2026-04-30T07:52:12Z",
     "stargazers_count": 3151,
     "topics": [
       "google-cloud",
@@ -520,17 +520,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "googleapis/nodejs-logging-winston",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "googlecloudplatform/gcloud-node-todos",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "googlecloudplatform/nodejs-getting-started",
+      "full_name": "sebelga/gstore-api",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sebelga/gstore-node",
       "source_file": "README.md"
     }
   ],

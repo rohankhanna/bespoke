@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Type checks"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "meta-pytorch/captum",
+      "status": "candidate-context",
+      "text": "Model interpretability and understanding for PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meta-pytorch/captum",
+      "status": "candidate-context",
+      "text": "Type checks"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meta-pytorch/captum",
+      "status": "candidate",
+      "text": "Type checks"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14462,
+      "status": "candidate",
+      "text": "cash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14221,
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14028,
+      "status": "candidate",
+      "text": "blank"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14028,
+      "status": "candidate",
+      "text": "block"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13787,
+      "status": "candidate",
+      "text": "bank"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Type checks",
+  "concept_id": "type-checks",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/type-checks.yml",
+      "source_repo": "meta-pytorch/captum"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Type checks",
+      "sense_id": "type-checks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

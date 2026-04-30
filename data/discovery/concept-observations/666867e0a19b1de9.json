@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Apache Ignite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Code Style, Abandoned Tests, Javadocs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Code Style, Abandoned Tests, Javadocs"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28051,
+      "status": "candidate",
+      "text": "check"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28051,
+      "status": "candidate",
+      "text": "checking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27631,
+      "status": "candidate",
+      "text": "assert"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27631,
+      "status": "candidate",
+      "text": "assertively"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27078,
+      "status": "candidate",
+      "text": "record"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Code Style, Abandoned Tests, Javadocs",
+      "sense_id": "code-style-abandoned-tests-javadocs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "code-style-abandoned-tests-javadocs",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "code-style-abandoned-tests-javadocs",
+  "observation_id": "666867e0a19b1de9",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "Code Style, Abandoned Tests, Javadocs",
+  "source_context_snippet": "Code Style, Abandoned Tests, Javadocs",
+  "source_file": ".github/workflows/commit-check.yml",
+  "source_repo": "apache/ignite",
+  "source_repo_description": "Apache Ignite"
+}

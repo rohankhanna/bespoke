@@ -1,0 +1,103 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "ianyh/Amethyst",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "ianyh/Amethyst",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ianyh/Amethyst",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ianyh/Amethyst",
+      "target": "window-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ianyh/Amethyst",
+      "target": "xmonad",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:00:14.569165+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11655
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 429
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "development",
+    "description": "Automatic tiling window manager for macOS \u00e0 la xmonad.",
+    "fork": false,
+    "full_name": "ianyh/Amethyst",
+    "html_url": "https://github.com/ianyh/Amethyst",
+    "language": "Swift",
+    "pushed_at": "2026-04-05T01:20:10Z",
+    "stargazers_count": 16107,
+    "topics": [
+      "mac",
+      "macos",
+      "window-manager",
+      "xmonad"
+    ],
+    "updated_at": "2026-04-30T10:07:28Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "[![Discussions](https://img.shields.io/github/discussions/ianyh/Amethyst)](https://github.com/ianyh/Amethyst/discussions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "[![Discussions](https://img.shields.io/github/discussions/ianyh/Amethyst)](https://github.com/ianyh/Amethyst/discussions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "window-manager"
+    },
+    {
+      "context_snippet": "[![Discussions](https://img.shields.io/github/discussions/ianyh/Amethyst)](https://github.com/ianyh/Amethyst/discussions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xmonad"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check Pull Request labels"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hacs/integration",
+      "status": "candidate-context",
+      "text": "HACS gives you a powerful UI to handle downloads of all your custom needs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hacs/integration",
+      "status": "candidate-context",
+      "text": "\"Check Pull Request labels\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hacs/integration",
+      "status": "candidate",
+      "text": "\"Check Pull Request labels\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33203,
+      "status": "candidate",
+      "text": "rein"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31798,
+      "status": "candidate",
+      "text": "draw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31715,
+      "status": "candidate",
+      "text": "homo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31652,
+      "status": "candidate",
+      "text": "renege"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31599,
+      "status": "candidate",
+      "text": "monitor"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check Pull Request labels",
+  "concept_id": "check-pull-request-labels",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/pull_requests_labels.yml",
+      "source_repo": "hacs/integration"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Pull Request labels",
+      "sense_id": "check-pull-request-labels#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

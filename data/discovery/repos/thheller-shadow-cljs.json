@@ -1,0 +1,188 @@
+{
+  "components": [
+    {
+      "component": "jsdom",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "readline-sync",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "source-map-support",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ws",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "thheller/shadow-cljs",
+      "target": "day8/re-frame-trace",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "thheller/shadow-cljs",
+      "target": "ahonn/shadow-electorn-starter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "thheller/shadow-cljs",
+      "target": "baskeboler/cljs-karaoke-client",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "thheller/shadow-cljs",
+      "target": "bolasblack/shadow-cljs-vite-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "thheller/shadow-cljs",
+      "target": "jsdom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "thheller/shadow-cljs",
+      "target": "readline-sync",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "thheller/shadow-cljs",
+      "target": "source-map-support",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "thheller/shadow-cljs",
+      "target": "ws",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thheller/shadow-cljs",
+      "target": "cljs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thheller/shadow-cljs",
+      "target": "clojurescript",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thheller/shadow-cljs",
+      "target": "hot-reload",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thheller/shadow-cljs",
+      "target": "repl",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:01:35.716615+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10861
+    },
+    {
+      "path": "package.json",
+      "size": 176
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "ClojureScript compilation made easy",
+    "fork": false,
+    "full_name": "thheller/shadow-cljs",
+    "html_url": "https://github.com/thheller/shadow-cljs",
+    "language": "Clojure",
+    "pushed_at": "2026-04-28T13:04:54Z",
+    "stargazers_count": 2391,
+    "topics": [
+      "cljs",
+      "clojurescript",
+      "hot-reload",
+      "repl"
+    ],
+    "updated_at": "2026-04-29T16:00:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ahonn/shadow-electorn-starter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "baskeboler/cljs-karaoke-client",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bolasblack/shadow-cljs-vite-plugin",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "day8/re-frame-trace",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img src=\"https://raw.githubusercontent.com/thheller/shadow-cljs/master/src/main/shadow/cljs/devtools/server/web/resources/img/shadow-cljs.png\" width=\"120\" height=\"120\" align=\"right\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cljs"
+    },
+    {
+      "context_snippet": "<img src=\"https://raw.githubusercontent.com/thheller/shadow-cljs/master/src/main/shadow/cljs/devtools/server/web/resources/img/shadow-cljs.png\" width=\"120\" height=\"120\" align=\"right\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojurescript"
+    },
+    {
+      "context_snippet": "<img src=\"https://raw.githubusercontent.com/thheller/shadow-cljs/master/src/main/shadow/cljs/devtools/server/web/resources/img/shadow-cljs.png\" width=\"120\" height=\"120\" align=\"right\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hot-reload"
+    },
+    {
+      "context_snippet": "<img src=\"https://raw.githubusercontent.com/thheller/shadow-cljs/master/src/main/shadow/cljs/devtools/server/web/resources/img/shadow-cljs.png\" width=\"120\" height=\"120\" align=\"right\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "repl"
+    }
+  ]
+}

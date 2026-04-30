@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SwinTransformer/Transformer-SSL",
+      "target": "self-supervised-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SwinTransformer/Transformer-SSL",
+      "target": "swin-transformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SwinTransformer/Transformer-SSL",
+      "target": "transformer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:07:32.166026+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9652
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This is an official implementation for \"Self-Supervised Learning with Swin Transformers\".",
+    "fork": false,
+    "full_name": "SwinTransformer/Transformer-SSL",
+    "html_url": "https://github.com/SwinTransformer/Transformer-SSL",
+    "language": "Python",
+    "pushed_at": "2021-05-13T13:43:51Z",
+    "stargazers_count": 667,
+    "topics": [
+      "self-supervised-learning",
+      "swin-transformer",
+      "transformer"
+    ],
+    "updated_at": "2026-04-15T17:45:01Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "By [Zhenda Xie](https://github.com/zdaxie/)\\*, [Yutong Lin](https://github.com/impiga)\\*, [Zhuliang Yao](https://github.com/Howal), [Zheng Zhang](https://stupidzz.github.io/), [Qi Dai](https://www.microsoft.com/en-us/research/people/qid/), [Yue Cao](http://yue-cao.me) and [Han H\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "self-supervised-learning"
+    },
+    {
+      "context_snippet": "By [Zhenda Xie](https://github.com/zdaxie/)\\*, [Yutong Lin](https://github.com/impiga)\\*, [Zhuliang Yao](https://github.com/Howal), [Zheng Zhang](https://stupidzz.github.io/), [Qi Dai](https://www.microsoft.com/en-us/research/people/qid/), [Yue Cao](http://yue-cao.me) and [Han H\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swin-transformer"
+    },
+    {
+      "context_snippet": "By [Zhenda Xie](https://github.com/zdaxie/)\\*, [Yutong Lin](https://github.com/impiga)\\*, [Zhuliang Yao](https://github.com/Howal), [Zheng Zhang](https://stupidzz.github.io/), [Qi Dai](https://www.microsoft.com/en-us/research/people/qid/), [Yue Cao](http://yue-cao.me) and [Han H\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    }
+  ]
+}

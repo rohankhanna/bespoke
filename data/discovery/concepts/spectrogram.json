@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "spectrogram"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Anjok07/ultimatevocalremovergui",
+      "status": "candidate-context",
+      "text": " GUI for a Vocal Remover that uses Deep Neural Networks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Anjok07/ultimatevocalremovergui",
+      "status": "candidate-context",
+      "text": "<img src=\"https://raw.githubusercontent.com/Anjok07/ultimatevocalremovergui/master/gui_data/img/UVR_v5.6.png?raw=true\" />"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Anjok07/ultimatevocalremovergui",
+      "status": "candidate",
+      "text": "<img src=\"https://raw.githubusercontent.com/Anjok07/ultimatevocalremovergui/master/gui_data/img/UVR_v5.6.png?raw=true\" />"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40027245,
+      "status": "candidate",
+      "text": "spectrograph"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20043001,
+      "status": "candidate",
+      "text": "audiospectrogram"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20043000,
+      "status": "candidate",
+      "text": "sonogram"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20042998,
+      "status": "candidate",
+      "text": "sonospectrography"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20042997,
+      "status": "candidate",
+      "text": "spectroscope"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1028,
+      "status": "candidate",
+      "text": "spectrograph"
+    }
+  ],
+  "canonical_name": "spectrogram",
+  "concept_id": "spectrogram",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Anjok07/ultimatevocalremovergui"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "spectrogram",
+      "sense_id": "spectrogram#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

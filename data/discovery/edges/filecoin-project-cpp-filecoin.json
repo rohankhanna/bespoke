@@ -1,0 +1,195 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "filecoin-project/cpp-filecoin",
+      "target": "filecoin-project/filecoin-ffi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "filecoin-project/cpp-filecoin",
+      "target": "soramitsu/hunter-binary-cache",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/asan.yml",
+      "source_repo": "filecoin-project/cpp-filecoin",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/asan.yml",
+      "source_repo": "filecoin-project/cpp-filecoin",
+      "target": "actions/cache@v1.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/asan.yml",
+      "source_repo": "filecoin-project/cpp-filecoin",
+      "target": "ASAN",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cpp-filecoin.yml",
+      "source_repo": "filecoin-project/cpp-filecoin",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cpp-filecoin.yml",
+      "source_repo": "filecoin-project/cpp-filecoin",
+      "target": "docker/login-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cpp-filecoin.yml",
+      "source_repo": "filecoin-project/cpp-filecoin",
+      "target": "docker/metadata-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cpp-filecoin.yml",
+      "source_repo": "filecoin-project/cpp-filecoin",
+      "target": "docker/setup-buildx-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cpp-filecoin.yml",
+      "source_repo": "filecoin-project/cpp-filecoin",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cpp-filecoin.yml",
+      "source_repo": "filecoin-project/cpp-filecoin",
+      "target": "docker/build-push-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-cpp-filecoin.yml",
+      "source_repo": "filecoin-project/cpp-filecoin",
+      "target": "Fuhon (cpp-Filecoin)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "filecoin-project/cpp-filecoin",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "filecoin-project/cpp-filecoin",
+      "target": "actions/cache@v1.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "filecoin-project/cpp-filecoin",
+      "target": "codecov/codecov-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lsan.yml",
+      "source_repo": "filecoin-project/cpp-filecoin",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lsan.yml",
+      "source_repo": "filecoin-project/cpp-filecoin",
+      "target": "actions/cache@v1.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lsan.yml",
+      "source_repo": "filecoin-project/cpp-filecoin",
+      "target": "LSAN",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tsan.yml",
+      "source_repo": "filecoin-project/cpp-filecoin",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tsan.yml",
+      "source_repo": "filecoin-project/cpp-filecoin",
+      "target": "actions/cache@v1.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tsan.yml",
+      "source_repo": "filecoin-project/cpp-filecoin",
+      "target": "TSAN",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubsan.yml",
+      "source_repo": "filecoin-project/cpp-filecoin",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubsan.yml",
+      "source_repo": "filecoin-project/cpp-filecoin",
+      "target": "actions/cache@v1.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ubsan.yml",
+      "source_repo": "filecoin-project/cpp-filecoin",
+      "target": "UBSAN",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filecoin-project/cpp-filecoin",
+      "target": "cpp17",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filecoin-project/cpp-filecoin",
+      "target": "filecoin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filecoin-project/cpp-filecoin",
+      "target": "filecoin-protocol",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T12:45:20.475770+00:00",
+  "source_repo": "filecoin-project/cpp-filecoin"
+}

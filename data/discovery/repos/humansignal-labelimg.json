@@ -47,13 +47,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.rst",
-      "source_repo": "HumanSignal/labelImg",
-      "target": "tzutalin/imagenet_utils",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/package.yml",
       "source_repo": "HumanSignal/labelImg",
@@ -138,7 +131,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T10:13:09.445040+00:00",
+  "fetched_at": "2026-04-30T16:15:07.150954+00:00",
   "fetched_files": [
     {
       "path": "README.rst",
@@ -159,7 +152,7 @@
     "html_url": "https://github.com/HumanSignal/labelImg",
     "language": "Python",
     "pushed_at": "2024-06-07T20:24:32Z",
-    "stargazers_count": 24933,
+    "stargazers_count": 24934,
     "topics": [
       "annotations",
       "deep-learning",
@@ -171,17 +164,12 @@
       "recognition",
       "tools"
     ],
-    "updated_at": "2026-04-30T08:35:43Z"
+    "updated_at": "2026-04-30T14:23:44Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "heartexlabs/label-studio",
-      "source_file": "README.rst"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "tzutalin/imagenet_utils",
       "source_file": "README.rst"
     },
     {

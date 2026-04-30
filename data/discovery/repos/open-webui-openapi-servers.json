@@ -1,0 +1,95 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "open-webui/openapi-servers",
+      "target": "mr-fatalyst/fastopenapi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "open-webui/openapi-servers",
+      "target": "janwilmake/openapi-mcp-server",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "open-webui/openapi-servers",
+      "target": "ivo-toby/mcp-openapi-server",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "open-webui/openapi-servers",
+      "target": "matthewhand/mcp-openapi-proxy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-webui/openapi-servers",
+      "target": "openapi",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:58:07.632912+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7198
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "OpenAPI Tool Servers",
+    "fork": false,
+    "full_name": "open-webui/openapi-servers",
+    "html_url": "https://github.com/open-webui/openapi-servers",
+    "language": "Python",
+    "pushed_at": "2025-09-25T20:35:01Z",
+    "stargazers_count": 938,
+    "topics": [
+      "ai",
+      "mcp",
+      "openapi"
+    ],
+    "updated_at": "2026-04-27T20:48:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ivo-toby/mcp-openapi-server",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "janwilmake/openapi-mcp-server",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "matthewhand/mcp-openapi-proxy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mr-fatalyst/fastopenapi",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository provides reference OpenAPI Tool Server implementations making it easy and secure for developers to integrate external tooling and data sources into LLM agents and workflows. Designed for maximum ease of use and minimal learning curve, these implementations utiliz\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openapi"
+    }
+  ]
+}

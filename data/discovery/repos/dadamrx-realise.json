@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DaDaMrX/ReaLiSe",
+      "target": "wdimmy/automatic-corpus-generation",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:57:19.245035+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5101
+    },
+    {
+      "path": "requirements.txt",
+      "size": 45
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Multi-modal Model Chinese Spell Checker Released on ACL2021.",
+    "fork": false,
+    "full_name": "DaDaMrX/ReaLiSe",
+    "html_url": "https://github.com/DaDaMrX/ReaLiSe",
+    "language": "Python",
+    "pushed_at": "2023-09-21T03:39:28Z",
+    "stargazers_count": 161,
+    "topics": [],
+    "updated_at": "2026-01-29T06:54:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wdimmy/automatic-corpus-generation",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

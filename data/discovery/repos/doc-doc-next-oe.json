@@ -1,0 +1,117 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "doc-doc/NExT-OE",
+      "target": "thaolmk54/hcrn-videoqa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "doc-doc/NExT-OE",
+      "target": "causal-temporal-action-reasoning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "doc-doc/NExT-OE",
+      "target": "multi-object-interaction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "doc-doc/NExT-OE",
+      "target": "video-comprehension",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "doc-doc/NExT-OE",
+      "target": "videoqa",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "doc-doc/NExT-OE",
+      "target": "vision-language",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:11:04.774639+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6187
+    },
+    {
+      "path": "requirements.txt",
+      "size": 990
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "NExT-QA: Next Phase of Question-Answering to Explaining Temporal Actions (CVPR'21)",
+    "fork": false,
+    "full_name": "doc-doc/NExT-OE",
+    "html_url": "https://github.com/doc-doc/NExT-OE",
+    "language": "Python",
+    "pushed_at": "2023-07-18T07:32:11Z",
+    "stargazers_count": 30,
+    "topics": [
+      "causal-temporal-action-reasoning",
+      "multi-object-interaction",
+      "video-comprehension",
+      "videoqa",
+      "vision-language"
+    ],
+    "updated_at": "2025-11-19T12:16:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thaolmk54/hcrn-videoqa",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "We reproduce some SOTA VideoQA methods to provide benchmark results for our NExT-QA dataset accepted to CVPR2021.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "causal-temporal-action-reasoning"
+    },
+    {
+      "context_snippet": "We reproduce some SOTA VideoQA methods to provide benchmark results for our NExT-QA dataset accepted to CVPR2021.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-object-interaction"
+    },
+    {
+      "context_snippet": "We reproduce some SOTA VideoQA methods to provide benchmark results for our NExT-QA dataset accepted to CVPR2021.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-comprehension"
+    },
+    {
+      "context_snippet": "We reproduce some SOTA VideoQA methods to provide benchmark results for our NExT-QA dataset accepted to CVPR2021.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "videoqa"
+    },
+    {
+      "context_snippet": "We reproduce some SOTA VideoQA methods to provide benchmark results for our NExT-QA dataset accepted to CVPR2021.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-language"
+    }
+  ]
+}

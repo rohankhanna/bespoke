@@ -415,6 +415,18 @@
       "source_repo": "drowzy/protobuf_generate",
       "status": "candidate-context",
       "text": "Elixir CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ahamez/protox",
+      "status": "candidate-context",
+      "text": "A reasonably fast, easy to use and 100% conformant Elixir library for Google Protocol Buffers (aka protobuf)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ahamez/protox",
+      "status": "candidate-context",
+      "text": "Elixir CI"
     }
   ],
   "candidate_glosses": [
@@ -619,6 +631,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "drowzy/protobuf_generate",
+      "status": "candidate",
+      "text": "Elixir CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ahamez/protox",
       "status": "candidate",
       "text": "Elixir CI"
     }
@@ -898,11 +916,35 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "drowzy/protobuf_generate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/elixir.yml",
+      "source_repo": "dwyl/quotes"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/phoenix-ecto-encryption-example"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/mvp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/elixir.yml",
+      "source_repo": "ahamez/protox"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

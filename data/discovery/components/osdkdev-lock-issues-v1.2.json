@@ -1,0 +1,12 @@
+{
+  "component": "OSDKDev/lock-issues@v1.2",
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lock.yml",
+      "source_repo": "microsoft/generative-ai-for-beginners"
+    }
+  ]
+}

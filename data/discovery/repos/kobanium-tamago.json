@@ -1,0 +1,189 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kobanium/TamaGo",
+      "target": "alphago",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kobanium/TamaGo",
+      "target": "alphago-zero",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kobanium/TamaGo",
+      "target": "alphagozero",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kobanium/TamaGo",
+      "target": "baduk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kobanium/TamaGo",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kobanium/TamaGo",
+      "target": "go-text-protocol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kobanium/TamaGo",
+      "target": "gumbel-alphazero",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kobanium/TamaGo",
+      "target": "mcts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kobanium/TamaGo",
+      "target": "monte-carlo-tree-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kobanium/TamaGo",
+      "target": "reinforcement-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kobanium/TamaGo",
+      "target": "weiqi",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T12:59:05.846388+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7598
+    },
+    {
+      "path": "requirements.txt",
+      "size": 74
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Computer go engine using Monte-Carlo Tree Search written in Python3.",
+    "fork": false,
+    "full_name": "kobanium/TamaGo",
+    "html_url": "https://github.com/kobanium/TamaGo",
+    "language": "Python",
+    "pushed_at": "2025-09-02T15:11:12Z",
+    "stargazers_count": 71,
+    "topics": [
+      "alphago",
+      "alphago-zero",
+      "alphagozero",
+      "baduk",
+      "deep-learning",
+      "go",
+      "go-text-protocol",
+      "gumbel-alphazero",
+      "mcts",
+      "monte-carlo-tree-search",
+      "reinforcement-learning",
+      "weiqi"
+    ],
+    "updated_at": "2026-03-09T19:30:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "TamaGo is a Go (Weiqi, Baduk) engine implemented in Python.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "alphago"
+    },
+    {
+      "context_snippet": "TamaGo is a Go (Weiqi, Baduk) engine implemented in Python.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "alphago-zero"
+    },
+    {
+      "context_snippet": "TamaGo is a Go (Weiqi, Baduk) engine implemented in Python.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "alphagozero"
+    },
+    {
+      "context_snippet": "TamaGo is a Go (Weiqi, Baduk) engine implemented in Python.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "baduk"
+    },
+    {
+      "context_snippet": "TamaGo is a Go (Weiqi, Baduk) engine implemented in Python.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "TamaGo is a Go (Weiqi, Baduk) engine implemented in Python.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "go-text-protocol"
+    },
+    {
+      "context_snippet": "TamaGo is a Go (Weiqi, Baduk) engine implemented in Python.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gumbel-alphazero"
+    },
+    {
+      "context_snippet": "TamaGo is a Go (Weiqi, Baduk) engine implemented in Python.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mcts"
+    },
+    {
+      "context_snippet": "TamaGo is a Go (Weiqi, Baduk) engine implemented in Python.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monte-carlo-tree-search"
+    },
+    {
+      "context_snippet": "TamaGo is a Go (Weiqi, Baduk) engine implemented in Python.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reinforcement-learning"
+    },
+    {
+      "context_snippet": "TamaGo is a Go (Weiqi, Baduk) engine implemented in Python.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "weiqi"
+    }
+  ]
+}

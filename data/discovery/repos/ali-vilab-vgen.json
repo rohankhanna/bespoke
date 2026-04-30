@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ali-vilab/VGen",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ali-vilab/VGen",
+      "target": "video-synthesis",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:07:10.031025+00:00",
+  "fetched_files": [
+    {
+      "path": "requirements.txt",
+      "size": 491
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official repo for VGen: a holistic video generation ecosystem for video generation building on diffusion models",
+    "fork": false,
+    "full_name": "ali-vilab/VGen",
+    "html_url": "https://github.com/ali-vilab/VGen",
+    "language": "Python",
+    "pushed_at": "2025-01-10T09:09:13Z",
+    "stargazers_count": 3157,
+    "topics": [
+      "diffusion-models",
+      "video-synthesis"
+    ],
+    "updated_at": "2026-04-29T03:26:47Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "easydict==1.10 tokenizers==0.12.1 numpy>=1.19.2 ftfy==6.1.1 transformers==4.18.0 imageio==2.15.0 fairscale==0.4.6 ipdb open-clip-torch==2.0.2 xformers==0.0.13 chardet==5.1.0 torchdiffeq==0.2.3 opencv-python==4.4.0.46 opencv-python-headless==4.7.0.68 torchsde==0.2.6 simplejson==3\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    },
+    {
+      "context_snippet": "easydict==1.10 tokenizers==0.12.1 numpy>=1.19.2 ftfy==6.1.1 transformers==4.18.0 imageio==2.15.0 fairscale==0.4.6 ipdb open-clip-torch==2.0.2 xformers==0.0.13 chardet==5.1.0 torchdiffeq==0.2.3 opencv-python==4.4.0.46 opencv-python-headless==4.7.0.68 torchsde==0.2.6 simplejson==3\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-synthesis"
+    }
+  ]
+}

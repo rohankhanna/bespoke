@@ -19,6 +19,18 @@
       "source_repo": "arnetheduck/nim-results",
       "status": "candidate-context",
       "text": "Result type that can hold either a value or an error, but not both"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ardalis/Result",
+      "status": "candidate-context",
+      "text": "A result abstraction that can be mapped to HTTP response codes if needed."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ardalis/Result",
+      "status": "candidate-context",
+      "text": "[![Ardalis.Result - NuGet](https://img.shields.io/nuget/v/Ardalis.Result.svg?label=Ardalis.Result%20-%20nuget)](https://www.nuget.org/packages/Ardalis.Result) [![NuGet](https://img.shields.io/nuget/dt/Ardalis.Result.svg)](https://www.nuget.org/packages/Ardalis.Result) [![Build S\u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "arnetheduck/nim-results",
       "status": "candidate",
       "text": "Result type that can hold either a value or an error, but not both"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ardalis/Result",
+      "status": "candidate",
+      "text": "[![Ardalis.Result - NuGet](https://img.shields.io/nuget/v/Ardalis.Result.svg?label=Ardalis.Result%20-%20nuget)](https://www.nuget.org/packages/Ardalis.Result) [![NuGet](https://img.shields.io/nuget/dt/Ardalis.Result.svg)](https://www.nuget.org/packages/Ardalis.Result) [![Build S\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "arnetheduck/nim-results"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ardalis/Result"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

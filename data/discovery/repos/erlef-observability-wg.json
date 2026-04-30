@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "erlef/observability-wg",
+      "target": "beam-telemetry/telemetry_metrics",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "erlef/observability-wg",
+      "target": "beam-telemetry/telemetry_metrics_prometheus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "erlef/observability-wg",
+      "target": "akoutmos/prom_ex",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "erlef/observability-wg",
+      "target": "appsignal/appsignal-elixir",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:03:59.253272+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6941
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Project for tracking the work of the Observability Working Group",
+    "fork": false,
+    "full_name": "erlef/observability-wg",
+    "html_url": "https://github.com/erlef/observability-wg",
+    "language": null,
+    "pushed_at": "2022-01-16T17:45:10Z",
+    "stargazers_count": 65,
+    "topics": [],
+    "updated_at": "2026-01-07T18:54:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "akoutmos/prom_ex",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "appsignal/appsignal-elixir",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "beam-telemetry/telemetry_metrics",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "beam-telemetry/telemetry_metrics_prometheus",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

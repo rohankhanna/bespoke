@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Use Open3D as a CMake external project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "See the [main Open3D repo](https://github.com/isl-org/Open3D/tree/main/examples/cmake/open3d-cmake-external-project) for an updated example."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "See the [main Open3D repo](https://github.com/isl-org/Open3D/tree/main/examples/cmake/open3d-cmake-external-project) for an updated example."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "open3d",
+      "sense_id": "open3d#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "open3d",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "open3d",
+  "observation_id": "3fbc418cfa90fc31",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "open3d",
+  "source_context_snippet": "See the [main Open3D repo](https://github.com/isl-org/Open3D/tree/main/examples/cmake/open3d-cmake-external-project) for an updated example.",
+  "source_file": null,
+  "source_repo": "isl-org/open3d-cmake-external-project",
+  "source_repo_description": "Use Open3D as a CMake external project"
+}

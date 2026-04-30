@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T15:10:00.668689+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 619
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "camenduru/MagicTime-replicate",
+    "html_url": "https://github.com/camenduru/MagicTime-replicate",
+    "language": "Python",
+    "pushed_at": "2024-04-13T12:06:11Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2024-08-08T01:33:56Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

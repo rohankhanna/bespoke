@@ -1,0 +1,438 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml"
+    },
+    {
+      "component": "peaceiris/actions-hugo@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml"
+    },
+    {
+      "component": "kerthcet/github-workflow-as-kube/.github/workflows/workflow-golang-ci.yaml@v0.1.21",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang-workflow.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm-chart-verify.yaml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm-chart-verify.yaml"
+    },
+    {
+      "component": "azure/setup-helm@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm-chart-verify.yaml"
+    },
+    {
+      "component": "kerthcet/github-workflow-as-kube/.github/workflows/workflow-as-kubernetes-init.yaml@v0.1.21",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kube-workflow-init.yaml"
+    },
+    {
+      "component": "kerthcet/github-workflow-as-kube/.github/workflows/workflow-as-kubernetes.yaml@v0.1.21",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kube-workflow.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "InftyAI/llmaz",
+      "target": "ggerganov/llama.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "InftyAI/llmaz",
+      "target": "inftyai/scheduler-plugins",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "InftyAI/llmaz",
+      "target": "kubernetes-sigs/lws",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "InftyAI/llmaz",
+      "target": "kubernetes-sigs/karpenter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml",
+      "source_repo": "InftyAI/llmaz",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml",
+      "source_repo": "InftyAI/llmaz",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml",
+      "source_repo": "InftyAI/llmaz",
+      "target": "peaceiris/actions-hugo@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml",
+      "source_repo": "InftyAI/llmaz",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yaml",
+      "source_repo": "InftyAI/llmaz",
+      "target": "Deploy Hugo site to GitHub Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang-workflow.yaml",
+      "source_repo": "InftyAI/llmaz",
+      "target": "kerthcet/github-workflow-as-kube/.github/workflows/workflow-golang-ci.yaml@v0.1.21",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golang-workflow.yaml",
+      "source_repo": "InftyAI/llmaz",
+      "target": "CI Workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm-chart-verify.yaml",
+      "source_repo": "InftyAI/llmaz",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm-chart-verify.yaml",
+      "source_repo": "InftyAI/llmaz",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm-chart-verify.yaml",
+      "source_repo": "InftyAI/llmaz",
+      "target": "azure/setup-helm@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/helm-chart-verify.yaml",
+      "source_repo": "InftyAI/llmaz",
+      "target": "Helm Chart Verify",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kube-workflow-init.yaml",
+      "source_repo": "InftyAI/llmaz",
+      "target": "kerthcet/github-workflow-as-kube/.github/workflows/workflow-as-kubernetes-init.yaml@v0.1.21",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/kube-workflow-init.yaml",
+      "source_repo": "InftyAI/llmaz",
+      "target": "Initialization Workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kube-workflow.yaml",
+      "source_repo": "InftyAI/llmaz",
+      "target": "kerthcet/github-workflow-as-kube/.github/workflows/workflow-as-kubernetes.yaml@v0.1.21",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/kube-workflow.yaml",
+      "source_repo": "InftyAI/llmaz",
+      "target": "Event Workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InftyAI/llmaz",
+      "target": "huggingface",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InftyAI/llmaz",
+      "target": "inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InftyAI/llmaz",
+      "target": "inference-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InftyAI/llmaz",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InftyAI/llmaz",
+      "target": "llamacpp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InftyAI/llmaz",
+      "target": "modelscope",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InftyAI/llmaz",
+      "target": "ollama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InftyAI/llmaz",
+      "target": "sglang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InftyAI/llmaz",
+      "target": "text-generation-inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InftyAI/llmaz",
+      "target": "vllm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:11:22.630885+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6128
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1412
+    },
+    {
+      "path": "go.mod",
+      "size": 5267
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 647
+    },
+    {
+      "path": ".github/workflows/deploy.yaml",
+      "size": 977
+    },
+    {
+      "path": ".github/workflows/golang-workflow.yaml",
+      "size": 198
+    },
+    {
+      "path": ".github/workflows/helm-chart-verify.yaml",
+      "size": 778
+    },
+    {
+      "path": ".github/workflows/kube-workflow-init.yaml",
+      "size": 232
+    },
+    {
+      "path": ".github/workflows/kube-workflow.yaml",
+      "size": 411
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u2638\ufe0f Easy, advanced inference platform for large language models on Kubernetes. \ud83c\udf1f Star to support our work!",
+    "fork": false,
+    "full_name": "InftyAI/llmaz",
+    "html_url": "https://github.com/InftyAI/llmaz",
+    "language": "Go",
+    "pushed_at": "2026-01-26T03:54:54Z",
+    "stargazers_count": 302,
+    "topics": [
+      "huggingface",
+      "inference",
+      "inference-platform",
+      "kubernetes",
+      "llamacpp",
+      "llm",
+      "modelscope",
+      "ollama",
+      "sglang",
+      "text-generation-inference",
+      "vllm"
+    ],
+    "updated_at": "2026-04-29T14:42:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggerganov/llama.cpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "inftyai/scheduler-plugins",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kubernetes-sigs/karpenter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kubernetes-sigs/lws",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Deploy Hugo site to GitHub Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yaml",
+      "term": "Deploy Hugo site to GitHub Pages"
+    },
+    {
+      "context_snippet": "CI Workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golang-workflow.yaml",
+      "term": "CI Workflow"
+    },
+    {
+      "context_snippet": "Helm Chart Verify",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/helm-chart-verify.yaml",
+      "term": "Helm Chart Verify"
+    },
+    {
+      "context_snippet": "Initialization Workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/kube-workflow-init.yaml",
+      "term": "Initialization Workflow"
+    },
+    {
+      "context_snippet": "Event Workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/kube-workflow.yaml",
+      "term": "Event Workflow"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "huggingface"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inference"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inference-platform"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llamacpp"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "modelscope"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ollama"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sglang"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-generation-inference"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vllm"
+    }
+  ]
+}

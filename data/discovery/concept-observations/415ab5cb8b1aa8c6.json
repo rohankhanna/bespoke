@@ -84,7 +84,7 @@
   "normalized_form": "publish-staging-ad4m",
   "observation_id": "415ab5cb8b1aa8c6",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
   "observed_text": "Publish Staging AD4M",
   "source_context_snippet": "Publish Staging AD4M",
   "source_file": ".github/workflows/publish_staging.yml",

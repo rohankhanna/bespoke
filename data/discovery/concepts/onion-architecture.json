@@ -19,6 +19,18 @@
       "source_repo": "lightningnetwork/lightning-onion",
       "status": "candidate-context",
       "text": "This repository houses an implementation of the [Lightning"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NimblePros/eShopOnWeb",
+      "status": "candidate-context",
+      "text": "Sample ASP.NET Core 10.0 reference application, powered by Microsoft, demonstrating a domain-centric application architecture with monolithic deployment model."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NimblePros/eShopOnWeb",
+      "status": "candidate-context",
+      "text": "This Microsoft reference application is now being maintained by [NimblePros](https://nimblepros.com/)."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "lightningnetwork/lightning-onion",
       "status": "candidate",
       "text": "This repository houses an implementation of the [Lightning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NimblePros/eShopOnWeb",
+      "status": "candidate",
+      "text": "This Microsoft reference application is now being maintained by [NimblePros](https://nimblepros.com/)."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "lightningnetwork/lightning-onion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "NimblePros/eShopOnWeb"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

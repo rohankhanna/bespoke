@@ -1,0 +1,223 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache/restore@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache/save@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ipdxco/unified-github-workflows/.github/workflows/release-check.yml@v1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-check.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-check.yml"
+    },
+    {
+      "component": "ipdxco/unified-github-workflows/.github/workflows/releaser.yml@v1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/releaser.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/releaser.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload-release-assets.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "filecoin-project/filecoin-ffi",
+      "target": "filecoin-project/rust-filecoin-proofs-api",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "filecoin-project/filecoin-ffi",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "filecoin-project/filecoin-ffi",
+      "target": "actions/cache/restore@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "filecoin-project/filecoin-ffi",
+      "target": "actions/cache/save@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-check.yml",
+      "source_repo": "filecoin-project/filecoin-ffi",
+      "target": "ipdxco/unified-github-workflows/.github/workflows/release-check.yml@v1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-check.yml",
+      "source_repo": "filecoin-project/filecoin-ffi",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-check.yml",
+      "source_repo": "filecoin-project/filecoin-ffi",
+      "target": "Release Checker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/releaser.yml",
+      "source_repo": "filecoin-project/filecoin-ffi",
+      "target": "ipdxco/unified-github-workflows/.github/workflows/releaser.yml@v1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/releaser.yml",
+      "source_repo": "filecoin-project/filecoin-ffi",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/releaser.yml",
+      "source_repo": "filecoin-project/filecoin-ffi",
+      "target": "Releaser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload-release-assets.yml",
+      "source_repo": "filecoin-project/filecoin-ffi",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/upload-release-assets.yml",
+      "source_repo": "filecoin-project/filecoin-ffi",
+      "target": "Upload Release Assets",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:02:11.464988+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7769
+    },
+    {
+      "path": "go.mod",
+      "size": 1954
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 5986
+    },
+    {
+      "path": ".github/workflows/release-check.yml",
+      "size": 1038
+    },
+    {
+      "path": ".github/workflows/releaser.yml",
+      "size": 973
+    },
+    {
+      "path": ".github/workflows/upload-release-assets.yml",
+      "size": 1046
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "C and CGO bindings for Filecoin's Rust libraries",
+    "fork": false,
+    "full_name": "filecoin-project/filecoin-ffi",
+    "html_url": "https://github.com/filecoin-project/filecoin-ffi",
+    "language": "Rust",
+    "pushed_at": "2026-04-28T05:07:50Z",
+    "stargazers_count": 102,
+    "topics": [],
+    "updated_at": "2026-04-28T05:07:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "filecoin-project/rust-filecoin-proofs-api",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Release Checker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-check.yml",
+      "term": "Release Checker"
+    },
+    {
+      "context_snippet": "Releaser",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/releaser.yml",
+      "term": "Releaser"
+    },
+    {
+      "context_snippet": "Upload Release Assets",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/upload-release-assets.yml",
+      "term": "Upload Release Assets"
+    }
+  ]
+}

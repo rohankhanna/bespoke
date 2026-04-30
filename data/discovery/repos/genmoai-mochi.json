@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "genmoai/mochi",
+      "target": "kijai/comfyui-mochiwrapper",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "genmoai/mochi",
+      "target": "logtd/comfyui-mochiedit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "genmoai/mochi",
+      "target": "xdit-project/mochi-xdit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "genmoai/mochi",
+      "target": "genmoai/models",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:13:28.169741+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7768
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 678
+    },
+    {
+      "path": "requirements.txt",
+      "size": 212
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The best OSS video generation models, created by Genmo",
+    "fork": false,
+    "full_name": "genmoai/mochi",
+    "html_url": "https://github.com/genmoai/mochi",
+    "language": "Python",
+    "pushed_at": "2025-11-14T01:17:56Z",
+    "stargazers_count": 3644,
+    "topics": [],
+    "updated_at": "2026-04-29T21:58:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "genmoai/models",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kijai/comfyui-mochiwrapper",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "logtd/comfyui-mochiedit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xdit-project/mochi-xdit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

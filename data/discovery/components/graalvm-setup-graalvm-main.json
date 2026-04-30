@@ -1,0 +1,17 @@
+{
+  "component": "graalvm/setup-graalvm@main",
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-native-gradle-plugin.yml",
+      "source_repo": "graalvm/native-build-tools"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-native-maven-plugin.yml",
+      "source_repo": "graalvm/native-build-tools"
+    }
+  ]
+}

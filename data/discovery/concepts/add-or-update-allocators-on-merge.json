@@ -1,0 +1,62 @@
+{
+  "aliases": [
+    "Add or Update Allocators on Merge"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "filecoin-project/Allocator-Registry",
+      "status": "candidate-context",
+      "text": "A log of the state of fil+ allocators"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filecoin-project/Allocator-Registry",
+      "status": "candidate-context",
+      "text": "Add or Update Allocators on Merge"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filecoin-project/Allocator-Registry",
+      "status": "candidate",
+      "text": "Add or Update Allocators on Merge"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "Add or Update Allocators on Merge",
+  "concept_id": "add-or-update-allocators-on-merge",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/watch.yml",
+      "source_repo": "filecoin-project/Allocator-Registry"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Add or Update Allocators on Merge",
+      "sense_id": "add-or-update-allocators-on-merge#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

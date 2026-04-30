@@ -103,6 +103,42 @@
       "source_repo": "kokkos/kokkos-kernels",
       "status": "candidate-context",
       "text": "[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/kokkos/kokkos-kernels/badge)](https://securityscorecards.dev/viewer/?uri=github.com/kokkos/kokkos-kernels)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uxlfoundation/oneMath",
+      "status": "candidate-context",
+      "text": "oneAPI Math Library (oneMath)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/oneMath",
+      "status": "candidate-context",
+      "text": "<img src=\"https://github.com/uxlfoundation/artwork/blob/main/foundation/uxl-foundation-logo-horizontal-color.png\" alt=\"UXL Foundation Logo\" width=\"250\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Reference-LAPACK/lapack",
+      "status": "candidate-context",
+      "text": "LAPACK development repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Reference-LAPACK/lapack",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/Reference-LAPACK/lapack.svg?branch=master)](https://travis-ci.org/Reference-LAPACK/lapack)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ROCm/rocBLAS",
+      "status": "candidate-context",
+      "text": "[DEPRECATED] Moved to ROCm/rocm-libraries repo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/rocBLAS",
+      "status": "candidate-context",
+      "text": "> [!CAUTION]"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +189,24 @@
       "source_repo": "kokkos/kokkos-kernels",
       "status": "candidate",
       "text": "[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/kokkos/kokkos-kernels/badge)](https://securityscorecards.dev/viewer/?uri=github.com/kokkos/kokkos-kernels)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/oneMath",
+      "status": "candidate",
+      "text": "<img src=\"https://github.com/uxlfoundation/artwork/blob/main/foundation/uxl-foundation-logo-horizontal-color.png\" alt=\"UXL Foundation Logo\" width=\"250\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Reference-LAPACK/lapack",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/Reference-LAPACK/lapack.svg?branch=master)](https://travis-ci.org/Reference-LAPACK/lapack)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/rocBLAS",
+      "status": "candidate",
+      "text": "> [!CAUTION]"
     }
   ],
   "candidate_related_terms": [
@@ -286,11 +340,35 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "uxlfoundation/oneMath"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Reference-LAPACK/lapack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ROCm/rocBLAS"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

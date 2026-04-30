@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "0nutation/SpeechGPT",
+      "target": "openmoss/anygpt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "0nutation/SpeechGPT",
+      "target": "0nutation/speechagents",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "0nutation/SpeechGPT",
+      "target": "zhangxinfd/speechtokenizer",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T12:54:24.338375+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2447
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "SpeechGPT Series: Speech Large Language Models",
+    "fork": false,
+    "full_name": "0nutation/SpeechGPT",
+    "html_url": "https://github.com/0nutation/SpeechGPT",
+    "language": "Python",
+    "pushed_at": "2024-07-22T10:08:09Z",
+    "stargazers_count": 1407,
+    "topics": [],
+    "updated_at": "2026-04-10T11:54:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "0nutation/speechagents",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openmoss/anygpt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zhangxinfd/speechtokenizer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

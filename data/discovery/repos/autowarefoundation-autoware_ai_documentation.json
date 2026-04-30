@@ -1,0 +1,84 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "autowarefoundation/autoware_ai_documentation",
+      "target": "autoware-ai/documentation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "autowarefoundation/autoware_ai_documentation",
+      "target": "autoware-ai/autoware_ai_documentation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-ci.yaml",
+      "source_repo": "autowarefoundation/autoware_ai_documentation",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/native-ci.yaml",
+      "source_repo": "autowarefoundation/autoware_ai_documentation",
+      "target": "Native CI workflow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:14:37.357189+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 433
+    },
+    {
+      "path": ".github/workflows/native-ci.yaml",
+      "size": 1294
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "autowarefoundation/autoware_ai_documentation",
+    "html_url": "https://github.com/autowarefoundation/autoware_ai_documentation",
+    "language": null,
+    "pushed_at": "2022-08-31T15:06:00Z",
+    "stargazers_count": 23,
+    "topics": [],
+    "updated_at": "2026-01-08T15:36:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "autoware-ai/autoware_ai_documentation",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "autoware-ai/documentation",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Native CI workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/native-ci.yaml",
+      "term": "Native CI workflow"
+    }
+  ]
+}

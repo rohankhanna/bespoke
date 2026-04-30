@@ -1,0 +1,12 @@
+{
+  "component": "extractions/netrc@c3879108aae6b4ed5c4eb60854ae04f06d2f2f68",
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml",
+      "source_repo": "tweag/rules_haskell"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-node-packages.yml",
+      "source_repo": "actions/node-versions",
+      "target": "actions/versions-package-tools/.github/workflows/build-tool-packages.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-node-packages.yml",
+      "source_repo": "actions/node-versions",
+      "target": "Generate Node.js packages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "actions/node-versions",
+      "target": "actions/reusable-workflows/.github/workflows/codeql-analysis.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "actions/node-versions",
+      "target": "CodeQL analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-pr.yml",
+      "source_repo": "actions/node-versions",
+      "target": "actions/versions-package-tools/.github/workflows/create-pr-to-update-manifest.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-pr.yml",
+      "source_repo": "actions/node-versions",
+      "target": "Create Pull Request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/get-node-versions.yml",
+      "source_repo": "actions/node-versions",
+      "target": "actions/versions-package-tools/.github/workflows/get-new-tool-versions.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/get-node-versions.yml",
+      "source_repo": "actions/node-versions",
+      "target": "Get Node versions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-manifest.yml",
+      "source_repo": "actions/node-versions",
+      "target": "actions/versions-package-tools/.github/workflows/validate-manifest.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-manifest.yml",
+      "source_repo": "actions/node-versions",
+      "target": "Validate manifest",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T12:45:20.475770+00:00",
+  "source_repo": "actions/node-versions"
+}

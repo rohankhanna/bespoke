@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test Commands"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla-mobile/fxios-ctl",
+      "status": "candidate-context",
+      "text": "A tool for managing firefox-ios"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-mobile/fxios-ctl",
+      "status": "candidate-context",
+      "text": "Test Commands"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-mobile/fxios-ctl",
+      "status": "candidate",
+      "text": "Test Commands"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11974,
+      "status": "candidate",
+      "text": "general"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11226,
+      "status": "candidate",
+      "text": "captain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11226,
+      "status": "candidate",
+      "text": "command"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11226,
+      "status": "candidate",
+      "text": "command line"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11226,
+      "status": "candidate",
+      "text": "commander"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test Commands",
+  "concept_id": "test-commands",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test-commands.yaml",
+      "source_repo": "mozilla-mobile/fxios-ctl"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test Commands",
+      "sense_id": "test-commands#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -151,6 +151,18 @@
       "source_repo": "Knio/dominate",
       "status": "candidate-context",
       "text": "Dominate"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "deven96/ahnlich",
+      "status": "candidate-context",
+      "text": "Suite of tools containing an in-memory vector datastore and AI proxy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deven96/ahnlich",
+      "status": "candidate-context",
+      "text": "<p align=\"left\"><img src=\"assets/logo.jpg\" alt=\"ahnlich\" height=\"120px\"></p>"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +237,12 @@
       "source_repo": "Knio/dominate",
       "status": "candidate",
       "text": "Dominate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deven96/ahnlich",
+      "status": "candidate",
+      "text": "<p align=\"left\"><img src=\"assets/logo.jpg\" alt=\"ahnlich\" height=\"120px\"></p>"
     }
   ],
   "candidate_related_terms": [],
@@ -304,11 +322,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "Knio/dominate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "deven96/ahnlich"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

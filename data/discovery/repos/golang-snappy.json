@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T16:03:27.367623+00:00",
+  "fetched_files": [
+    {
+      "path": "go.mod",
+      "size": 32
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "The Snappy compression format in the Go programming language.",
+    "fork": false,
+    "full_name": "golang/snappy",
+    "html_url": "https://github.com/golang/snappy",
+    "language": "Go",
+    "pushed_at": "2025-03-07T05:40:28Z",
+    "stargazers_count": 1570,
+    "topics": [],
+    "updated_at": "2026-04-25T19:53:28Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

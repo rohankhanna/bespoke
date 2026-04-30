@@ -633,7 +633,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T18:41:15.628415+00:00",
+  "fetched_at": "2026-04-30T14:59:55.791443+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -678,7 +678,7 @@
     "html_url": "https://github.com/highlightjs/highlight.js",
     "language": "JavaScript",
     "pushed_at": "2025-10-27T17:01:56Z",
-    "stargazers_count": 24908,
+    "stargazers_count": 24909,
     "topics": [
       "hacktoberfest",
       "highlighting",
@@ -687,7 +687,7 @@
       "syntax-highlighter",
       "syntax-highlighting"
     ],
-    "updated_at": "2026-04-29T09:01:41Z"
+    "updated_at": "2026-04-30T14:14:28Z"
   },
   "repo_links": [],
   "terms": [

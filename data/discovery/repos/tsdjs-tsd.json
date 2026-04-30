@@ -303,7 +303,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-04-30T10:19:55.081265+00:00",
+  "fetched_at": "2026-04-30T15:53:28.964345+00:00",
   "fetched_files": [
     {
       "path": "package.json",
@@ -324,9 +324,9 @@
     "html_url": "https://github.com/tsdjs/tsd",
     "language": "TypeScript",
     "pushed_at": "2025-08-05T11:56:46Z",
-    "stargazers_count": 2551,
+    "stargazers_count": 2552,
     "topics": [],
-    "updated_at": "2026-04-23T11:51:22Z"
+    "updated_at": "2026-04-30T11:15:53Z"
   },
   "repo_links": [],
   "terms": []

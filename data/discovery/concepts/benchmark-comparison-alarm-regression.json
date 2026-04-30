@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Benchmark Comparison & Alarm Regression"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Genesis-Embodied-AI/Genesis",
+      "status": "candidate-context",
+      "text": "A generative world for general-purpose robotics & embodied AI learning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Genesis-Embodied-AI/Genesis",
+      "status": "candidate-context",
+      "text": "Benchmark Comparison & Alarm Regression"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Genesis-Embodied-AI/Genesis",
+      "status": "candidate",
+      "text": "Benchmark Comparison & Alarm Regression"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29394,
+      "status": "candidate",
+      "text": "box"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29394,
+      "status": "candidate",
+      "text": "nox"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29394,
+      "status": "candidate",
+      "text": "run"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29370,
+      "status": "candidate",
+      "text": "keying"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29370,
+      "status": "candidate",
+      "text": "keys"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Benchmark Comparison & Alarm Regression",
+  "concept_id": "benchmark-comparison-alarm-regression",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/alarm.yml",
+      "source_repo": "Genesis-Embodied-AI/Genesis"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Benchmark Comparison & Alarm Regression",
+      "sense_id": "benchmark-comparison-alarm-regression#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

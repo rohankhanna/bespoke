@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "purl"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aboutcode-org/scancode.io",
+      "status": "candidate-context",
+      "text": "ScanCode.io is a server to script and automate software composition analysis with pipelines. This project is sponsored by the European Commission, NLnet NGI0, the Google Summer of Code, nexB and others generous sponsors!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aboutcode-org/scancode.io",
+      "status": "candidate-context",
+      "text": "==========="
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aboutcode-org/scancode.io",
+      "status": "candidate",
+      "text": "==========="
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39965038,
+      "status": "candidate",
+      "text": "whirlpool"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39963431,
+      "status": "candidate",
+      "text": "swirl"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39955262,
+      "status": "candidate",
+      "text": "whirl"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39945105,
+      "status": "candidate",
+      "text": "gurge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39939145,
+      "status": "candidate",
+      "text": "eddy"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18039,
+      "status": "candidate",
+      "text": "whirl"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7035,
+      "status": "candidate",
+      "text": "swirl"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7016,
+      "status": "candidate",
+      "text": "gurge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6040,
+      "status": "candidate",
+      "text": "whirlpool"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "eddy"
+    }
+  ],
+  "canonical_name": "purl",
+  "concept_id": "purl",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "aboutcode-org/scancode.io"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "purl",
+      "sense_id": "purl#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

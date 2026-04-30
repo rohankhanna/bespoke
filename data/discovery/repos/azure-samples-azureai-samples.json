@@ -1,0 +1,250 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request-checks.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request-checks.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-samples.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-samples.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-samples.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-samples.yml"
+    },
+    {
+      "component": "azure/login@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-samples.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Azure-Samples/azureai-samples",
+      "target": "azure-samples/azureai-travel-agent-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Azure-Samples/azureai-samples",
+      "target": "azure-samples/azure-ai-projects-file-search",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Azure-Samples/azureai-samples",
+      "target": "azure-samples/contoso-chat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Azure-Samples/azureai-samples",
+      "target": "azure-samples/azureai-assistant-tool",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "Azure-Samples/azureai-samples",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "Azure-Samples/azureai-samples",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "Azure-Samples/azureai-samples",
+      "target": "Pre-Commit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request-checks.yml",
+      "source_repo": "Azure-Samples/azureai-samples",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request-checks.yml",
+      "source_repo": "Azure-Samples/azureai-samples",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull-request-checks.yml",
+      "source_repo": "Azure-Samples/azureai-samples",
+      "target": "Pull Request Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-samples.yml",
+      "source_repo": "Azure-Samples/azureai-samples",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-samples.yml",
+      "source_repo": "Azure-Samples/azureai-samples",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-samples.yml",
+      "source_repo": "Azure-Samples/azureai-samples",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-samples.yml",
+      "source_repo": "Azure-Samples/azureai-samples",
+      "target": "azure/login@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-samples.yml",
+      "source_repo": "Azure-Samples/azureai-samples",
+      "target": "Run Samples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure-Samples/azureai-samples",
+      "target": "azure",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:05:06.436656+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6014
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 595
+    },
+    {
+      "path": ".github/workflows/pre-commit.yml",
+      "size": 474
+    },
+    {
+      "path": ".github/workflows/pull-request-checks.yml",
+      "size": 665
+    },
+    {
+      "path": ".github/workflows/run-samples.yml",
+      "size": 3367
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official community-driven Azure AI Examples",
+    "fork": false,
+    "full_name": "Azure-Samples/azureai-samples",
+    "html_url": "https://github.com/Azure-Samples/azureai-samples",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-03-17T17:21:11Z",
+    "stargazers_count": 534,
+    "topics": [
+      "azure"
+    ],
+    "updated_at": "2026-04-27T21:00:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "azure-samples/azure-ai-projects-file-search",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "azure-samples/azureai-assistant-tool",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "azure-samples/azureai-travel-agent-python",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "azure-samples/contoso-chat",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Pre-Commit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "term": "Pre-Commit"
+    },
+    {
+      "context_snippet": "Pull Request Checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull-request-checks.yml",
+      "term": "Pull Request Checks"
+    },
+    {
+      "context_snippet": "Run Samples",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-samples.yml",
+      "term": "Run Samples"
+    },
+    {
+      "context_snippet": "[![license: MIT](https://img.shields.io/badge/License-MIT-purple.svg)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "azure"
+    }
+  ]
+}

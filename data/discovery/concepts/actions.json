@@ -370,6 +370,54 @@
       "source_repo": "py-cov-action/python-coverage-comment-action-v3-example",
       "status": "candidate-context",
       "text": "> **Note**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graalvm/setup-graalvm",
+      "status": "candidate-context",
+      "text": "Set up your GitHub Actions workflow with a specific GraalVM distribution."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graalvm/setup-graalvm",
+      "status": "candidate-context",
+      "text": "Set up your GitHub Actions workflow with a specific [GraalVM][graalvm] distribution, and use it both as your JDK and for [ahead-of-time Native Image compilation][graalvm]."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sdras/awesome-actions",
+      "status": "candidate-context",
+      "text": "A curated list of awesome actions to use on GitHub"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sdras/awesome-actions",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rhysd/actionlint",
+      "status": "candidate-context",
+      "text": ":octocat: Static checker for GitHub Actions workflow files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rhysd/actionlint",
+      "status": "candidate-context",
+      "text": "actionlint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "py-cov-action/python-coverage-comment-action-v2-example",
+      "status": "candidate-context",
+      "text": "Example repo for v2 of python-coverage-comment-action"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "py-cov-action/python-coverage-comment-action-v2-example",
+      "status": "candidate-context",
+      "text": "> **Note**"
     }
   ],
   "candidate_glosses": [
@@ -550,6 +598,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "py-cov-action/python-coverage-comment-action-v3-example",
+      "status": "candidate",
+      "text": "> **Note**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graalvm/setup-graalvm",
+      "status": "candidate",
+      "text": "Set up your GitHub Actions workflow with a specific [GraalVM][graalvm] distribution, and use it both as your JDK and for [ahead-of-time Native Image compilation][graalvm]."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sdras/awesome-actions",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rhysd/actionlint",
+      "status": "candidate",
+      "text": "actionlint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "py-cov-action/python-coverage-comment-action-v2-example",
       "status": "candidate",
       "text": "> **Note**"
     }
@@ -817,11 +889,47 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "py-cov-action/python-coverage-comment-action-v3-example"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "graalvm/setup-graalvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "sdras/awesome-actions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "rhysd/actionlint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "py-cov-action/python-coverage-comment-action-v2-example"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ChristopherHX/runner.server"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

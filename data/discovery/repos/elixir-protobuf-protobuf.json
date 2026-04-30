@@ -77,13 +77,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "elixir-protobuf/protobuf",
-      "target": "tomas-abrahamsson/gpb",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/latest_conformance.yml",
       "source_repo": "elixir-protobuf/protobuf",
@@ -189,7 +182,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T10:32:28.234478+00:00",
+  "fetched_at": "2026-04-30T16:07:07.588711+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -227,11 +220,6 @@
     "updated_at": "2026-04-23T22:27:32Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "tomas-abrahamsson/gpb",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "tony612/grpc-elixir",

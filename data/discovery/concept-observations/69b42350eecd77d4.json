@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Pocket-Sized Multimodal AI for content understanding and generation across multilingual texts, images, and \ud83d\udd1c video, up to 5x faster than OpenAI CLIP and LLaVA \ud83d\uddbc\ufe0f & \ud83d\udd8b\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h1 align=\"center\">UForm</h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">UForm</h1>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "contrastive-learning",
+      "sense_id": "contrastive-learning#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "contrastive-learning",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "contrastive-learning",
+  "observation_id": "69b42350eecd77d4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "contrastive-learning",
+  "source_context_snippet": "<h1 align=\"center\">UForm</h1>",
+  "source_file": null,
+  "source_repo": "unum-cloud/UForm",
+  "source_repo_description": "Pocket-Sized Multimodal AI for content understanding and generation across multilingual texts, images, and \ud83d\udd1c video, up to 5x faster than OpenAI CLIP and LLaVA \ud83d\uddbc\ufe0f & \ud83d\udd8b\ufe0f"
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T15:03:00.945570+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4168
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Swift Server Working Group (SSWG)",
+    "fork": false,
+    "full_name": "swift-server/sswg",
+    "html_url": "https://github.com/swift-server/sswg",
+    "language": null,
+    "pushed_at": "2025-07-07T13:56:15Z",
+    "stargazers_count": 189,
+    "topics": [],
+    "updated_at": "2026-02-06T19:03:05Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

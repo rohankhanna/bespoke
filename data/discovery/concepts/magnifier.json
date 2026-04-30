@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "magnifier"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Blinue/Magpie",
+      "status": "candidate-context",
+      "text": "A general-purpose window upscaler for Windows 10/11."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Blinue/Magpie",
+      "status": "candidate-context",
+      "text": "<br>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Blinue/Magpie",
+      "status": "candidate",
+      "text": "<br>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30000378,
+      "status": "candidate",
+      "text": "expander"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29999441,
+      "status": "candidate",
+      "text": "magnification"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29997903,
+      "status": "candidate",
+      "text": "amplifier"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29993283,
+      "status": "candidate",
+      "text": "permission"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29991136,
+      "status": "candidate",
+      "text": "authorisation"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "magnifier",
+  "concept_id": "magnifier",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Blinue/Magpie"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "magnifier",
+      "sense_id": "magnifier#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T14:51:59.435985+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6500
+    },
+    {
+      "path": "go.mod",
+      "size": 846
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "benchmark codes for rpcx, gRPC, Dubbo, Motan",
+    "fork": false,
+    "full_name": "rpcx-ecosystem/rpcx-benchmark",
+    "html_url": "https://github.com/rpcx-ecosystem/rpcx-benchmark",
+    "language": "Java",
+    "pushed_at": "2024-09-20T02:51:11Z",
+    "stargazers_count": 180,
+    "topics": [],
+    "updated_at": "2026-02-20T04:37:31Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

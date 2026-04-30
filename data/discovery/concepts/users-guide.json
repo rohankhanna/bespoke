@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Users guide"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tweag/cabal",
+      "status": "candidate-context",
+      "text": "Official upstream development repository for Cabal and cabal-install"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tweag/cabal",
+      "status": "candidate-context",
+      "text": "Users guide"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tweag/cabal",
+      "status": "candidate",
+      "text": "Users guide"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36861,
+      "status": "candidate",
+      "text": "guidebook"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36860,
+      "status": "candidate",
+      "text": "instructions"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36859,
+      "status": "candidate",
+      "text": "rule book"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36858,
+      "status": "candidate",
+      "text": "handbook"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36857,
+      "status": "candidate",
+      "text": "guides"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Users guide",
+  "concept_id": "users-guide",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/users-guide.yml",
+      "source_repo": "tweag/cabal"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Users guide",
+      "sense_id": "users-guide#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

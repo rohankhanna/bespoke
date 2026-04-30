@@ -295,6 +295,54 @@
       "source_repo": "yeyupiaoling/PPASR",
       "status": "candidate-context",
       "text": "![python version](https://img.shields.io/badge/python-3.8+-orange.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FunAudioLLM/CosyVoice",
+      "status": "candidate-context",
+      "text": "Multi-lingual large voice generation model, providing inference, training and deployment full-stack ability."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FunAudioLLM/CosyVoice",
+      "status": "candidate-context",
+      "text": "![SVG Banners](https://svg-banners.vercel.app/api?type=origin&text1=CosyVoice\ud83e\udd20&text2=Text-to-Speech%20\ud83d\udc96%20Large%20Language%20Model&width=800&height=210)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yeyupiaoling/PaddlePaddle-DeepSpeech",
+      "status": "candidate-context",
+      "text": "\u57fa\u4e8ePaddlePaddle\u5b9e\u73b0\u7684\u8bed\u97f3\u8bc6\u522b\uff0c\u4e2d\u6587\u8bed\u97f3\u8bc6\u522b\u3002\u9879\u76ee\u5b8c\u5584\uff0c\u8bc6\u522b\u6548\u679c\u597d\u3002\u652f\u6301Windows\uff0cLinux\u4e0b\u8bad\u7ec3\u548c\u9884\u6d4b\uff0c\u652f\u6301Nvidia Jetson\u5f00\u53d1\u677f\u9884\u6d4b\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yeyupiaoling/PaddlePaddle-DeepSpeech",
+      "status": "candidate-context",
+      "text": "![License](https://img.shields.io/badge/license-Apache%202-red.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OFA-Sys/OFA",
+      "status": "candidate-context",
+      "text": "Official repository of OFA (ICML 2022). Paper: OFA: Unifying Architectures, Tasks, and Modalities Through a Simple Sequence-to-Sequence Learning Framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OFA-Sys/OFA",
+      "status": "candidate-context",
+      "text": "<!---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "airaria/Visual-Chinese-LLaMA-Alpaca",
+      "status": "candidate-context",
+      "text": "\u591a\u6a21\u6001\u4e2d\u6587LLaMA&Alpaca\u5927\u8bed\u8a00\u6a21\u578b\uff08VisualCLA\uff09"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "airaria/Visual-Chinese-LLaMA-Alpaca",
+      "status": "candidate-context",
+      "text": "[**\ud83c\udde8\ud83c\uddf3\u4e2d\u6587**](./README.md) | [**\ud83c\udf10English**](./README_EN.md)"
     }
   ],
   "candidate_glosses": [
@@ -441,6 +489,30 @@
       "source_repo": "yeyupiaoling/PPASR",
       "status": "candidate",
       "text": "![python version](https://img.shields.io/badge/python-3.8+-orange.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FunAudioLLM/CosyVoice",
+      "status": "candidate",
+      "text": "![SVG Banners](https://svg-banners.vercel.app/api?type=origin&text1=CosyVoice\ud83e\udd20&text2=Text-to-Speech%20\ud83d\udc96%20Large%20Language%20Model&width=800&height=210)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yeyupiaoling/PaddlePaddle-DeepSpeech",
+      "status": "candidate",
+      "text": "![License](https://img.shields.io/badge/license-Apache%202-red.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OFA-Sys/OFA",
+      "status": "candidate",
+      "text": "<!---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "airaria/Visual-Chinese-LLaMA-Alpaca",
+      "status": "candidate",
+      "text": "[**\ud83c\udde8\ud83c\uddf3\u4e2d\u6587**](./README.md) | [**\ud83c\udf10English**](./README_EN.md)"
     }
   ],
   "candidate_related_terms": [
@@ -649,11 +721,35 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "yeyupiaoling/PPASR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "FunAudioLLM/CosyVoice"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "yeyupiaoling/PaddlePaddle-DeepSpeech"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "OFA-Sys/OFA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "airaria/Visual-Chinese-LLaMA-Alpaca"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/algolia-crawler-ls-docs.yml",
+      "source_repo": "HumanSignal/label-studio"
+    }
+  ],
+  "term": "Algolia Indexer for Label Studio Docs"
+}

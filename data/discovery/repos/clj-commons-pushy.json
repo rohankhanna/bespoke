@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clj-commons/pushy",
+      "target": "gf3/secretary",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clj-commons/pushy",
+      "target": "domkm/silk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clj-commons/pushy",
+      "target": "darkleaf/router",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clj-commons/pushy",
+      "target": "aroemers/sibiro",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:01:41.853733+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4838
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Clojurescript library for quick and easy HTML5 pushState",
+    "fork": true,
+    "full_name": "clj-commons/pushy",
+    "html_url": "https://github.com/clj-commons/pushy",
+    "language": "Clojure",
+    "pushed_at": "2023-07-28T21:15:25Z",
+    "stargazers_count": 29,
+    "topics": [],
+    "updated_at": "2025-05-21T11:45:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aroemers/sibiro",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "darkleaf/router",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "domkm/silk",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gf3/secretary",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

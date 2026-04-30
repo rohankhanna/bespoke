@@ -19,6 +19,42 @@
       "source_repo": "dunglas/frankenphp-demo",
       "status": "candidate-context",
       "text": "A demo app using [FrankenPHP](https://frankenphp.dev) that uses"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "symfony/cache",
+      "status": "candidate-context",
+      "text": "Provides extended PSR-6, PSR-16 (and tags) implementations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "symfony/cache",
+      "status": "candidate-context",
+      "text": "Symfony PSR-6 implementation for caching"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "symfony/cache-contracts",
+      "status": "candidate-context",
+      "text": "A set of cache abstractions extracted out of the Symfony components"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "symfony/cache-contracts",
+      "status": "candidate-context",
+      "text": "Symfony Cache Contracts"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "symfony/symfony",
+      "status": "candidate-context",
+      "text": "The Symfony PHP framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "symfony/symfony",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><a href=\"https://symfony.com\" target=\"_blank\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +63,24 @@
       "source_repo": "dunglas/frankenphp-demo",
       "status": "candidate",
       "text": "A demo app using [FrankenPHP](https://frankenphp.dev) that uses"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "symfony/cache",
+      "status": "candidate",
+      "text": "Symfony PSR-6 implementation for caching"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "symfony/cache-contracts",
+      "status": "candidate",
+      "text": "Symfony Cache Contracts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "symfony/symfony",
+      "status": "candidate",
+      "text": "<p align=\"center\"><a href=\"https://symfony.com\" target=\"_blank\">"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +130,29 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "dunglas/frankenphp-demo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "symfony/cache"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "symfony/cache-contracts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "symfony/symfony"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

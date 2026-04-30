@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T15:07:15.876606+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3683
+    },
+    {
+      "path": "requirements.txt",
+      "size": 297
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This is the official Pytorch implementation of the paper \"Diffusion Models for Implicit Image Segmentation Ensembles\".",
+    "fork": false,
+    "full_name": "JuliaWolleb/Diffusion-based-Segmentation",
+    "html_url": "https://github.com/JuliaWolleb/Diffusion-based-Segmentation",
+    "language": "Python",
+    "pushed_at": "2023-06-05T13:14:38Z",
+    "stargazers_count": 317,
+    "topics": [],
+    "updated_at": "2026-04-25T15:11:48Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

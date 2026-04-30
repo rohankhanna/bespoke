@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "carla-simulator/carla-autoware",
+      "target": "autoware-ai/simulation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "carla-simulator/carla-autoware",
+      "target": "carla-simulator/ros-bridge",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:54:23.849269+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1803
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2433
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Integration of AutoWare AV software with the CARLA simulator",
+    "fork": false,
+    "full_name": "carla-simulator/carla-autoware",
+    "html_url": "https://github.com/carla-simulator/carla-autoware",
+    "language": "Dockerfile",
+    "pushed_at": "2024-06-10T02:52:38Z",
+    "stargazers_count": 284,
+    "topics": [],
+    "updated_at": "2026-01-20T07:24:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "autoware-ai/simulation",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "carla-simulator/ros-bridge",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": []
+}

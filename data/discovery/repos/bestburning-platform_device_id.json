@@ -1,0 +1,117 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BestBurning/platform_device_id",
+      "target": "andorid",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BestBurning/platform_device_id",
+      "target": "device",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BestBurning/platform_device_id",
+      "target": "deviceid",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BestBurning/platform_device_id",
+      "target": "go-flutter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BestBurning/platform_device_id",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BestBurning/platform_device_id",
+      "target": "windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:02:22.381068+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3910
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "flutter plugin to get device id",
+    "fork": false,
+    "full_name": "BestBurning/platform_device_id",
+    "html_url": "https://github.com/BestBurning/platform_device_id",
+    "language": "C++",
+    "pushed_at": "2024-05-12T07:18:06Z",
+    "stargazers_count": 92,
+    "topics": [
+      "andorid",
+      "device",
+      "deviceid",
+      "go-flutter",
+      "id",
+      "ios",
+      "linux",
+      "mac",
+      "windows"
+    ],
+    "updated_at": "2025-12-01T11:16:38Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "get device id from android\u3001ios\u3001windows\u3001linux\u3001mac\u3001web",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "andorid"
+    },
+    {
+      "context_snippet": "get device id from android\u3001ios\u3001windows\u3001linux\u3001mac\u3001web",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "device"
+    },
+    {
+      "context_snippet": "get device id from android\u3001ios\u3001windows\u3001linux\u3001mac\u3001web",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deviceid"
+    },
+    {
+      "context_snippet": "get device id from android\u3001ios\u3001windows\u3001linux\u3001mac\u3001web",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "go-flutter"
+    },
+    {
+      "context_snippet": "get device id from android\u3001ios\u3001windows\u3001linux\u3001mac\u3001web",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "get device id from android\u3001ios\u3001windows\u3001linux\u3001mac\u3001web",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    }
+  ]
+}

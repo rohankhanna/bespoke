@@ -1,0 +1,214 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integ.yml"
+    },
+    {
+      "component": "gradle/wrapper-validation-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integ.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integ.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-smithy-gradle-plugin-version.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-smithy-version.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integ.yml",
+      "source_repo": "smithy-lang/smithy-examples",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integ.yml",
+      "source_repo": "smithy-lang/smithy-examples",
+      "target": "gradle/wrapper-validation-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integ.yml",
+      "source_repo": "smithy-lang/smithy-examples",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integ.yml",
+      "source_repo": "smithy-lang/smithy-examples",
+      "target": "integ",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-smithy-gradle-plugin-version.yml",
+      "source_repo": "smithy-lang/smithy-examples",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-smithy-gradle-plugin-version.yml",
+      "source_repo": "smithy-lang/smithy-examples",
+      "target": "Get latest smithy gradle plugin version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-smithy-version.yml",
+      "source_repo": "smithy-lang/smithy-examples",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-smithy-version.yml",
+      "source_repo": "smithy-lang/smithy-examples",
+      "target": "Get latest smithy release version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "smithy-lang/smithy-examples",
+      "target": "build-tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "smithy-lang/smithy-examples",
+      "target": "codegen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "smithy-lang/smithy-examples",
+      "target": "examples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "smithy-lang/smithy-examples",
+      "target": "smithy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "smithy-lang/smithy-examples",
+      "target": "smithy-models",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:03:25.162656+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2054
+    },
+    {
+      "path": ".github/workflows/integ.yml",
+      "size": 753
+    },
+    {
+      "path": ".github/workflows/update-smithy-gradle-plugin-version.yml",
+      "size": 2828
+    },
+    {
+      "path": ".github/workflows/update-smithy-version.yml",
+      "size": 2737
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A collection of examples to help users get up and running with Smithy",
+    "fork": false,
+    "full_name": "smithy-lang/smithy-examples",
+    "html_url": "https://github.com/smithy-lang/smithy-examples",
+    "language": "Java",
+    "pushed_at": "2026-04-29T21:44:52Z",
+    "stargazers_count": 92,
+    "topics": [
+      "api",
+      "aws",
+      "build-tool",
+      "codegen",
+      "examples",
+      "smithy",
+      "smithy-models"
+    ],
+    "updated_at": "2026-04-25T18:33:02Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "integ",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integ.yml",
+      "term": "integ"
+    },
+    {
+      "context_snippet": "Get latest smithy gradle plugin version",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-smithy-gradle-plugin-version.yml",
+      "term": "Get latest smithy gradle plugin version"
+    },
+    {
+      "context_snippet": "Get latest smithy release version",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-smithy-version.yml",
+      "term": "Get latest smithy release version"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/smithy-lang/smithy-examples/workflows/integ/badge.svg)](https://github.com/smithy-lang/smithy-examples/actions/workflows/integ.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "build-tool"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/smithy-lang/smithy-examples/workflows/integ/badge.svg)](https://github.com/smithy-lang/smithy-examples/actions/workflows/integ.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "codegen"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/smithy-lang/smithy-examples/workflows/integ/badge.svg)](https://github.com/smithy-lang/smithy-examples/actions/workflows/integ.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "examples"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/smithy-lang/smithy-examples/workflows/integ/badge.svg)](https://github.com/smithy-lang/smithy-examples/actions/workflows/integ.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "smithy"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/smithy-lang/smithy-examples/workflows/integ/badge.svg)](https://github.com/smithy-lang/smithy-examples/actions/workflows/integ.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "smithy-models"
+    }
+  ]
+}

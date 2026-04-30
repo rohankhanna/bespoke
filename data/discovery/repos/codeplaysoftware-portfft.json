@@ -1,0 +1,124 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_clang_format.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "ossf/scorecard-action@62b2cac7ed8198b15735ed49ab1e5cf35480ba46",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "actions/upload-artifact@6f51ac03b9356f520e9adb1b1b7802705f340c2b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@48ab28a6f5dbc2a99bf1e0131198dd8f1df78169",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_clang_format.yml",
+      "source_repo": "codeplaysoftware/portFFT",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_clang_format.yml",
+      "source_repo": "codeplaysoftware/portFFT",
+      "target": "clang-format 11 check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "codeplaysoftware/portFFT",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "codeplaysoftware/portFFT",
+      "target": "ossf/scorecard-action@62b2cac7ed8198b15735ed49ab1e5cf35480ba46",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "codeplaysoftware/portFFT",
+      "target": "actions/upload-artifact@6f51ac03b9356f520e9adb1b1b7802705f340c2b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "codeplaysoftware/portFFT",
+      "target": "github/codeql-action/upload-sarif@48ab28a6f5dbc2a99bf1e0131198dd8f1df78169",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "codeplaysoftware/portFFT",
+      "target": "Scorecard supply-chain security",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:10:52.462586+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6112
+    },
+    {
+      "path": ".github/workflows/check_clang_format.yml",
+      "size": 432
+    },
+    {
+      "path": ".github/workflows/scorecard.yml",
+      "size": 1820
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "portFFT is a library implementing Fast Fourier Transforms using SYCL",
+    "fork": false,
+    "full_name": "codeplaysoftware/portFFT",
+    "html_url": "https://github.com/codeplaysoftware/portFFT",
+    "language": "C++",
+    "pushed_at": "2025-03-01T09:49:19Z",
+    "stargazers_count": 19,
+    "topics": [],
+    "updated_at": "2025-11-19T08:45:31Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "clang-format 11 check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_clang_format.yml",
+      "term": "clang-format 11 check"
+    },
+    {
+      "context_snippet": "Scorecard supply-chain security",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "term": "Scorecard supply-chain security"
+    }
+  ]
+}

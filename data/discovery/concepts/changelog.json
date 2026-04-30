@@ -538,6 +538,54 @@
       "source_repo": "JLLeitschuh/ktlint-gradle",
       "status": "candidate-context",
       "text": "changelog"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "argoproj/argo-workflows",
+      "status": "candidate-context",
+      "text": "Workflow Engine for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj/argo-workflows",
+      "status": "candidate-context",
+      "text": "Changelog"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "robot-descriptions/robot_descriptions.py",
+      "status": "candidate-context",
+      "text": "Access 175+ robot descriptions from the main Python robotics frameworks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robot-descriptions/robot_descriptions.py",
+      "status": "candidate-context",
+      "text": "Changelog"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vectordotdev/vector",
+      "status": "candidate-context",
+      "text": "A high-performance observability data pipeline."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vectordotdev/vector",
+      "status": "candidate-context",
+      "text": "Changelog"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "smithy-lang/smithy",
+      "status": "candidate-context",
+      "text": "Smithy is a protocol-agnostic interface definition language and set of tools for generating clients, servers, and documentation for any programming language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smithy-lang/smithy",
+      "status": "candidate-context",
+      "text": "changelog"
     }
   ],
   "candidate_glosses": [
@@ -802,6 +850,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "JLLeitschuh/ktlint-gradle",
+      "status": "candidate",
+      "text": "changelog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj/argo-workflows",
+      "status": "candidate",
+      "text": "Changelog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robot-descriptions/robot_descriptions.py",
+      "status": "candidate",
+      "text": "Changelog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vectordotdev/vector",
+      "status": "candidate",
+      "text": "Changelog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smithy-lang/smithy",
       "status": "candidate",
       "text": "changelog"
     }
@@ -1195,11 +1267,53 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/changelog.yml",
       "source_repo": "JLLeitschuh/ktlint-gradle"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/changelog.yaml",
+      "source_repo": "argoproj/argo-workflows"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "psf/black"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "conventional-changelog/conventional-changelog"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "robot-descriptions/robot_descriptions.py"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/changelog.yaml",
+      "source_repo": "vectordotdev/vector"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "git-quick-stats/git-quick-stats"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/changelog-ci.yml",
+      "source_repo": "smithy-lang/smithy"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

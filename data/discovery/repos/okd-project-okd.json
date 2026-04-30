@@ -19,14 +19,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "okd-project/okd",
-      "target": "sclorg/mysql-container",
+      "target": "sclorg/mongodb-container",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "okd-project/okd",
-      "target": "sclorg/mongodb-container",
+      "target": "sclorg/postgresql-container",
       "target_type": "repository"
     },
     {
@@ -51,7 +51,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T09:31:04.896342+00:00",
+  "fetched_at": "2026-04-30T15:04:35.279153+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -95,7 +95,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "sclorg/mysql-container",
+      "full_name": "sclorg/postgresql-container",
       "source_file": "README.md"
     }
   ],

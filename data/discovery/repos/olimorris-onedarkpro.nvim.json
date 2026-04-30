@@ -1,0 +1,345 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "tree-sitter/setup-action/cli@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml"
+    },
+    {
+      "component": "JohnnyMorganz/stylua-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml"
+    },
+    {
+      "component": "googleapis/release-please-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "olimorris/onedarkpro.nvim",
+      "target": "binaryify/onedark-pro",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "olimorris/onedarkpro.nvim",
+      "target": "chentau/marks.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "olimorris/onedarkpro.nvim",
+      "target": "echasnovski/mini.diff",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "olimorris/onedarkpro.nvim",
+      "target": "catppuccin/nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "olimorris/onedarkpro.nvim",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "olimorris/onedarkpro.nvim",
+      "target": "tree-sitter/setup-action/cli@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "olimorris/onedarkpro.nvim",
+      "target": "Continuous Integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "olimorris/onedarkpro.nvim",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "olimorris/onedarkpro.nvim",
+      "target": "JohnnyMorganz/stylua-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "olimorris/onedarkpro.nvim",
+      "target": "Format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "olimorris/onedarkpro.nvim",
+      "target": "googleapis/release-please-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "olimorris/onedarkpro.nvim",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "olimorris/onedarkpro.nvim",
+      "target": "colorscheme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "olimorris/onedarkpro.nvim",
+      "target": "dark-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "olimorris/onedarkpro.nvim",
+      "target": "light-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "olimorris/onedarkpro.nvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "olimorris/onedarkpro.nvim",
+      "target": "neovim-colorscheme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "olimorris/onedarkpro.nvim",
+      "target": "neovim-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "olimorris/onedarkpro.nvim",
+      "target": "nvim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "olimorris/onedarkpro.nvim",
+      "target": "onedark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "olimorris/onedarkpro.nvim",
+      "target": "onedarkpro",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "olimorris/onedarkpro.nvim",
+      "target": "onelight",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "olimorris/onedarkpro.nvim",
+      "target": "theme",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:08:25.364995+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 28597
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 960
+    },
+    {
+      "path": ".github/workflows/format.yml",
+      "size": 289
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 298
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83c\udfa8 Atom's iconic One Dark theme. Cacheable, fully customisable, Tree-sitter and LSP semantic token support. Comes with variants",
+    "fork": false,
+    "full_name": "olimorris/onedarkpro.nvim",
+    "html_url": "https://github.com/olimorris/onedarkpro.nvim",
+    "language": "Lua",
+    "pushed_at": "2026-04-11T13:07:57Z",
+    "stargazers_count": 1058,
+    "topics": [
+      "colorscheme",
+      "dark-theme",
+      "light-theme",
+      "neovim",
+      "neovim-colorscheme",
+      "neovim-theme",
+      "nvim",
+      "onedark",
+      "onedarkpro",
+      "onelight",
+      "theme"
+    ],
+    "updated_at": "2026-04-27T00:10:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "binaryify/onedark-pro",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "catppuccin/nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chentau/marks.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "echasnovski/mini.diff",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Continuous Integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Continuous Integration"
+    },
+    {
+      "context_snippet": "Format",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/format.yml",
+      "term": "Format"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "<!-- panvimdoc-ignore-start -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "colorscheme"
+    },
+    {
+      "context_snippet": "<!-- panvimdoc-ignore-start -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dark-theme"
+    },
+    {
+      "context_snippet": "<!-- panvimdoc-ignore-start -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "light-theme"
+    },
+    {
+      "context_snippet": "<!-- panvimdoc-ignore-start -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "<!-- panvimdoc-ignore-start -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-colorscheme"
+    },
+    {
+      "context_snippet": "<!-- panvimdoc-ignore-start -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-theme"
+    },
+    {
+      "context_snippet": "<!-- panvimdoc-ignore-start -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim"
+    },
+    {
+      "context_snippet": "<!-- panvimdoc-ignore-start -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "onedark"
+    },
+    {
+      "context_snippet": "<!-- panvimdoc-ignore-start -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "onedarkpro"
+    },
+    {
+      "context_snippet": "<!-- panvimdoc-ignore-start -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "onelight"
+    },
+    {
+      "context_snippet": "<!-- panvimdoc-ignore-start -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "theme"
+    }
+  ]
+}

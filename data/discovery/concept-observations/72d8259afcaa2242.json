@@ -84,7 +84,7 @@
   "normalized_form": "enforce-pr-label",
   "observation_id": "72d8259afcaa2242",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
   "observed_text": "Enforce PR label",
   "source_context_snippet": "Enforce PR label",
   "source_file": ".github/workflows/enforce-label.yml",

@@ -1,0 +1,80 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ucbdrive/few-shot-object-detection",
+      "target": "few-shot-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ucbdrive/few-shot-object-detection",
+      "target": "few-shot-object-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ucbdrive/few-shot-object-detection",
+      "target": "icml-2020",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:05:55.990937+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8995
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 174
+    },
+    {
+      "path": "requirements.txt",
+      "size": 116
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Implementations of few-shot object detection benchmarks",
+    "fork": false,
+    "full_name": "ucbdrive/few-shot-object-detection",
+    "html_url": "https://github.com/ucbdrive/few-shot-object-detection",
+    "language": "Python",
+    "pushed_at": "2023-11-21T16:16:32Z",
+    "stargazers_count": 1204,
+    "topics": [
+      "few-shot-learning",
+      "few-shot-object-detection",
+      "icml-2020"
+    ],
+    "updated_at": "2026-04-24T14:55:47Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/ucbdrive/few-shot-object-detection.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/ucbdrive/few-shot-object-detection/context:python)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "few-shot-learning"
+    },
+    {
+      "context_snippet": "[![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/ucbdrive/few-shot-object-detection.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/ucbdrive/few-shot-object-detection/context:python)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "few-shot-object-detection"
+    },
+    {
+      "context_snippet": "[![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/ucbdrive/few-shot-object-detection.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/ucbdrive/few-shot-object-detection/context:python)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "icml-2020"
+    }
+  ]
+}

@@ -199,6 +199,30 @@
       "source_repo": "gpuweb/gpuweb",
       "status": "candidate-context",
       "text": "<img alt=\"WebGPU logo\" src=\"logo/webgpu-responsive.svg\" width=\"400\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Anime4KWebBoost/Anime4K-WebGPU",
+      "status": "candidate-context",
+      "text": "Implementation of Anime4K in WebGPU"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Anime4KWebBoost/Anime4K-WebGPU",
+      "status": "candidate-context",
+      "text": "University of Pennsylvania, CIS 565: GPU Programming and Architecture, Final Project"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/Silk.NET",
+      "status": "candidate-context",
+      "text": "The high-speed OpenGL, OpenCL, OpenAL, OpenXR, GLFW, SDL, Vulkan, Assimp, WebGPU, and DirectX bindings library your mother warned you about."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/Silk.NET",
+      "status": "candidate-context",
+      "text": "<!-- Begin exclude from NuGet readme. -->"
     }
   ],
   "candidate_glosses": [
@@ -297,6 +321,18 @@
       "source_repo": "gpuweb/gpuweb",
       "status": "candidate",
       "text": "<img alt=\"WebGPU logo\" src=\"logo/webgpu-responsive.svg\" width=\"400\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Anime4KWebBoost/Anime4K-WebGPU",
+      "status": "candidate",
+      "text": "University of Pennsylvania, CIS 565: GPU Programming and Architecture, Final Project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/Silk.NET",
+      "status": "candidate",
+      "text": "<!-- Begin exclude from NuGet readme. -->"
     }
   ],
   "candidate_related_terms": [],
@@ -418,11 +454,29 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "tracel-ai/burn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Anime4KWebBoost/Anime4K-WebGPU"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/Silk.NET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "tracel-ai/burn"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

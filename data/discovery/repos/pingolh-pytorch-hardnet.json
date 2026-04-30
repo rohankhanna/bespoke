@@ -1,0 +1,125 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PingoLH/Pytorch-HarDNet",
+      "target": "pingolh/centernet-hardnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PingoLH/Pytorch-HarDNet",
+      "target": "mipt-oulu/pytorch_bn_fusion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PingoLH/Pytorch-HarDNet",
+      "target": "densenet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PingoLH/Pytorch-HarDNet",
+      "target": "iccv2019",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PingoLH/Pytorch-HarDNet",
+      "target": "imagenet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PingoLH/Pytorch-HarDNet",
+      "target": "object-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PingoLH/Pytorch-HarDNet",
+      "target": "semantic-segmentation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:10:33.690921+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3354
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "35% faster than ResNet: Harmonic DenseNet, A low memory traffic network",
+    "fork": false,
+    "full_name": "PingoLH/Pytorch-HarDNet",
+    "html_url": "https://github.com/PingoLH/Pytorch-HarDNet",
+    "language": "Python",
+    "pushed_at": "2021-05-13T07:56:30Z",
+    "stargazers_count": 371,
+    "topics": [
+      "densenet",
+      "iccv2019",
+      "imagenet",
+      "object-detection",
+      "semantic-segmentation"
+    ],
+    "updated_at": "2026-04-23T08:56:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mipt-oulu/pytorch_bn_fusion",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pingolh/centernet-hardnet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "* Fully utilize your cuda cores!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "densenet"
+    },
+    {
+      "context_snippet": "* Fully utilize your cuda cores!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iccv2019"
+    },
+    {
+      "context_snippet": "* Fully utilize your cuda cores!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "imagenet"
+    },
+    {
+      "context_snippet": "* Fully utilize your cuda cores!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-detection"
+    },
+    {
+      "context_snippet": "* Fully utilize your cuda cores!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-segmentation"
+    }
+  ]
+}

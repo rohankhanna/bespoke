@@ -1,0 +1,325 @@
+{
+  "components": [
+    {
+      "component": "fizyk/actions-reuse/.github/workflows/shared-automerge.yml@v4.4.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automerge.yml"
+    },
+    {
+      "component": "fizyk/actions-reuse/.github/workflows/shared-pypi.yml@v4.1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "fizyk/actions-reuse/.github/workflows/shared-pr-check.yml@v4.4.7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-check.yml"
+    },
+    {
+      "component": "fizyk/actions-reuse/.github/workflows/shared-pre-commit.yml@v4.2.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "fizyk/actions-reuse/.github/workflows/shared-pypi.yml@v4.1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yml"
+    },
+    {
+      "component": "fizyk/actions-reuse/.github/workflows/shared-release.yml@v4.4.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "fizyk/actions-reuse/.github/workflows/shared-tests-pytests.yml@v4.4.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "fizyk/actions-reuse/.github/workflows/shared-tests-pytests.yml@v4.4.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "fizyk/actions-reuse/.github/actions/pipenv-setup@v4.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "fizyk/actions-reuse/.github/actions/pipenv-run@v4.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "fizyk/actions-reuse/.github/actions/pipenv-run@v4.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v6.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automerge.yml",
+      "source_repo": "dbfixtures/mirakuru",
+      "target": "fizyk/actions-reuse/.github/workflows/shared-automerge.yml@v4.4.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/automerge.yml",
+      "source_repo": "dbfixtures/mirakuru",
+      "target": "Merge me test dependencies!",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dbfixtures/mirakuru",
+      "target": "fizyk/actions-reuse/.github/workflows/shared-pypi.yml@v4.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dbfixtures/mirakuru",
+      "target": "Test build package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-check.yml",
+      "source_repo": "dbfixtures/mirakuru",
+      "target": "fizyk/actions-reuse/.github/workflows/shared-pr-check.yml@v4.4.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-check.yml",
+      "source_repo": "dbfixtures/mirakuru",
+      "target": "Run test commands",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "dbfixtures/mirakuru",
+      "target": "fizyk/actions-reuse/.github/workflows/shared-pre-commit.yml@v4.2.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "dbfixtures/mirakuru",
+      "target": "Run pre-commit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yml",
+      "source_repo": "dbfixtures/mirakuru",
+      "target": "fizyk/actions-reuse/.github/workflows/shared-pypi.yml@v4.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pypi.yml",
+      "source_repo": "dbfixtures/mirakuru",
+      "target": "Package and publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "dbfixtures/mirakuru",
+      "target": "fizyk/actions-reuse/.github/workflows/shared-release.yml@v4.4.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "dbfixtures/mirakuru",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "dbfixtures/mirakuru",
+      "target": "fizyk/actions-reuse/.github/workflows/shared-tests-pytests.yml@v4.4.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "dbfixtures/mirakuru",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "dbfixtures/mirakuru",
+      "target": "fizyk/actions-reuse/.github/actions/pipenv-setup@v4.4.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "dbfixtures/mirakuru",
+      "target": "fizyk/actions-reuse/.github/actions/pipenv-run@v4.4.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "dbfixtures/mirakuru",
+      "target": "codecov/codecov-action@v6.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "dbfixtures/mirakuru",
+      "target": "Run tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dbfixtures/mirakuru",
+      "target": "process-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dbfixtures/mirakuru",
+      "target": "process-supervision",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:58:40.082530+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 10759
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3874
+    },
+    {
+      "path": ".github/workflows/automerge.yml",
+      "size": 453
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 187
+    },
+    {
+      "path": ".github/workflows/pr-check.yml",
+      "size": 162
+    },
+    {
+      "path": ".github/workflows/pre-commit.yml",
+      "size": 194
+    },
+    {
+      "path": ".github/workflows/pypi.yml",
+      "size": 238
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 412
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 1874
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Mirakuru - a python library that starts your subprocess and waits for a clear indication, that it's running (process orchestrator)",
+    "fork": false,
+    "full_name": "dbfixtures/mirakuru",
+    "html_url": "https://github.com/dbfixtures/mirakuru",
+    "language": "Python",
+    "pushed_at": "2026-04-27T22:53:14Z",
+    "stargazers_count": 90,
+    "topics": [
+      "process-manager",
+      "process-supervision",
+      "python"
+    ],
+    "updated_at": "2026-04-27T22:53:16Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Merge me test dependencies!",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/automerge.yml",
+      "term": "Merge me test dependencies!"
+    },
+    {
+      "context_snippet": "Test build package",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Test build package"
+    },
+    {
+      "context_snippet": "Run test commands",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-check.yml",
+      "term": "Run test commands"
+    },
+    {
+      "context_snippet": "Run pre-commit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "term": "Run pre-commit"
+    },
+    {
+      "context_snippet": "Package and publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pypi.yml",
+      "term": "Package and publish"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Run tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "Run tests"
+    },
+    {
+      "context_snippet": ".. image:: https://raw.githubusercontent.com/dbfixtures/mirakuru/master/logo.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "process-manager"
+    },
+    {
+      "context_snippet": ".. image:: https://raw.githubusercontent.com/dbfixtures/mirakuru/master/logo.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "process-supervision"
+    }
+  ]
+}

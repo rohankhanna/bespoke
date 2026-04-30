@@ -19,6 +19,30 @@
       "source_repo": "aws/amazon-ec2-spot-interrupter",
       "status": "candidate-context",
       "text": "The `ec2-spot-interrupter` is a simple CLI tool that triggers Amazon EC2 Spot Interruption Notifications and Rebalance Recommendations."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Polly-Contrib/Simmy",
+      "status": "candidate-context",
+      "text": "Simmy is a chaos-engineering and fault-injection tool, integrating with the Polly resilience project for .NET"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Polly-Contrib/Simmy",
+      "status": "candidate-context",
+      "text": "Simmy is a [chaos-engineering](http://principlesofchaos.org/) and fault-injection tool, integrating with the [Polly resilience project for .NET](https://github.com/App-vNext/Polly). It is releasing April 2019 and works with [Polly v7.0.0](https://www.nuget.org/packages/Polly/7.1\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vany0114/chaos-injection-using-simmy",
+      "status": "candidate-context",
+      "text": "A microservice based application to demonstrate how chaos engineering works with Simmy using chaos policies in a distributed system."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vany0114/chaos-injection-using-simmy",
+      "status": "candidate-context",
+      "text": "A microservice based application to demonstrate how chaos engineering works with [Simmy](https://github.com/Polly-Contrib/Simmy) using chaos policies in a distributed system and how we can inject even a custom behavior given our needs or infrastructure, this time injecting custo\u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "aws/amazon-ec2-spot-interrupter",
       "status": "candidate",
       "text": "The `ec2-spot-interrupter` is a simple CLI tool that triggers Amazon EC2 Spot Interruption Notifications and Rebalance Recommendations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Polly-Contrib/Simmy",
+      "status": "candidate",
+      "text": "Simmy is a [chaos-engineering](http://principlesofchaos.org/) and fault-injection tool, integrating with the [Polly resilience project for .NET](https://github.com/App-vNext/Polly). It is releasing April 2019 and works with [Polly v7.0.0](https://www.nuget.org/packages/Polly/7.1\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vany0114/chaos-injection-using-simmy",
+      "status": "candidate",
+      "text": "A microservice based application to demonstrate how chaos engineering works with [Simmy](https://github.com/Polly-Contrib/Simmy) using chaos policies in a distributed system and how we can inject even a custom behavior given our needs or infrastructure, this time injecting custo\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "aws/amazon-ec2-spot-interrupter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Polly-Contrib/Simmy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "vany0114/chaos-injection-using-simmy"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

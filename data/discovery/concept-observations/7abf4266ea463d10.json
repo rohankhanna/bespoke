@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u2638\ufe0f Easy, advanced inference platform for large language models on Kubernetes. \ud83c\udf1f Star to support our work!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Deploy Hugo site to GitHub Pages"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Deploy Hugo site to GitHub Pages"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24062,
+      "status": "candidate",
+      "text": "pen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22177,
+      "status": "candidate",
+      "text": "lay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22155,
+      "status": "candidate",
+      "text": "page"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22133,
+      "status": "candidate",
+      "text": "book"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22133,
+      "status": "candidate",
+      "text": "booking"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy Hugo site to GitHub Pages",
+      "sense_id": "deploy-hugo-site-to-github-pages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "deploy-hugo-site-to-github-pages",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "deploy-hugo-site-to-github-pages",
+  "observation_id": "7abf4266ea463d10",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "Deploy Hugo site to GitHub Pages",
+  "source_context_snippet": "Deploy Hugo site to GitHub Pages",
+  "source_file": ".github/workflows/deploy.yaml",
+  "source_repo": "InftyAI/llmaz",
+  "source_repo_description": "\u2638\ufe0f Easy, advanced inference platform for large language models on Kubernetes. \ud83c\udf1f Star to support our work!"
+}

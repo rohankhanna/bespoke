@@ -84,7 +84,7 @@
   "normalized_form": "baseline-ci",
   "observation_id": "2907e1d60601bc2b",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
   "observed_text": "Baseline CI",
   "source_context_snippet": "Baseline CI",
   "source_file": ".github/workflows/baseline-ci.yml",

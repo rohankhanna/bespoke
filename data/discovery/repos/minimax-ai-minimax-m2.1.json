@@ -1,0 +1,87 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MiniMax-AI/MiniMax-M2.1",
+      "target": "minimax-ai/minimax-mcp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MiniMax-AI/MiniMax-M2.1",
+      "target": "agentic-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MiniMax-AI/MiniMax-M2.1",
+      "target": "ai-coding-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MiniMax-AI/MiniMax-M2.1",
+      "target": "large-language-models",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:10:57.516186+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12181
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "MiniMax M2.1, a SOTA model for real-world dev & agents.",
+    "fork": false,
+    "full_name": "MiniMax-AI/MiniMax-M2.1",
+    "html_url": "https://github.com/MiniMax-AI/MiniMax-M2.1",
+    "language": null,
+    "pushed_at": "2026-01-28T08:39:36Z",
+    "stargazers_count": 546,
+    "topics": [
+      "agent",
+      "agentic-ai",
+      "ai-coding-models",
+      "large-language-models",
+      "llm"
+    ],
+    "updated_at": "2026-04-25T15:02:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "minimax-ai/minimax-mcp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agentic-ai"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-coding-models"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    }
+  ]
+}

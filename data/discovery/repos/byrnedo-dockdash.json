@@ -1,0 +1,94 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "byrnedo/dockdash",
+      "target": "veggiemonk/awesome-docker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "byrnedo/dockdash",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "byrnedo/dockdash",
+      "target": "monitoring",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "byrnedo/dockdash",
+      "target": "termui",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:59:45.512437+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1265
+    },
+    {
+      "path": "Dockerfile",
+      "size": 261
+    },
+    {
+      "path": "go.mod",
+      "size": 1445
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Docker dashboard using Termui",
+    "fork": false,
+    "full_name": "byrnedo/dockdash",
+    "html_url": "https://github.com/byrnedo/dockdash",
+    "language": "Go",
+    "pushed_at": "2022-06-01T14:59:16Z",
+    "stargazers_count": 125,
+    "topics": [
+      "docker",
+      "gui",
+      "monitoring",
+      "termui"
+    ],
+    "updated_at": "2026-04-23T20:37:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "veggiemonk/awesome-docker",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Realtime docker ps and stats viewer.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "Realtime docker ps and stats viewer.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monitoring"
+    },
+    {
+      "context_snippet": "Realtime docker ps and stats viewer.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "termui"
+    }
+  ]
+}

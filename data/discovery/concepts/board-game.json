@@ -19,6 +19,30 @@
       "source_repo": "SabakiHQ/Sabaki",
       "status": "candidate-context",
       "text": "[![Download the latest release](https://img.shields.io/github/downloads/SabakiHQ/Sabaki/latest/total?label=download)](https://github.com/SabakiHQ/Sabaki/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SabakiHQ/deadstones",
+      "status": "candidate-context",
+      "text": "Simple Monte Carlo algorithm to determine dead stones on a Go board."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SabakiHQ/deadstones",
+      "status": "candidate-context",
+      "text": "Simple Monte Carlo algorithm to determine dead stones on a Go board."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SabakiHQ/go-board",
+      "status": "candidate-context",
+      "text": "A Go board data type."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SabakiHQ/go-board",
+      "status": "candidate-context",
+      "text": "A Go board data type."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "SabakiHQ/Sabaki",
       "status": "candidate",
       "text": "[![Download the latest release](https://img.shields.io/github/downloads/SabakiHQ/Sabaki/latest/total?label=download)](https://github.com/SabakiHQ/Sabaki/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SabakiHQ/deadstones",
+      "status": "candidate",
+      "text": "Simple Monte Carlo algorithm to determine dead stones on a Go board."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SabakiHQ/go-board",
+      "status": "candidate",
+      "text": "A Go board data type."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "SabakiHQ/Sabaki"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "SabakiHQ/deadstones"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "SabakiHQ/go-board"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

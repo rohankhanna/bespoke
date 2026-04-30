@@ -1,0 +1,167 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "artichoke/spec",
+      "target": "oracle/truffleruby",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "artichoke/spec",
+      "target": "opal/opal",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "artichoke/spec",
+      "target": "ruby/mspec",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "artichoke/spec",
+      "target": "rubysl/rubysl-socket",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "artichoke/spec",
+      "target": "artichoke",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "artichoke/spec",
+      "target": "embedded",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "artichoke/spec",
+      "target": "fork",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "artichoke/spec",
+      "target": "ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "artichoke/spec",
+      "target": "spec",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "artichoke/spec",
+      "target": "vendor",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:54:23.348005+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7100
+    },
+    {
+      "path": ".github/workflows/workflow.yml",
+      "size": 0
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "artichoke-vendor",
+    "description": "Artichoke fork of the Ruby Spec Suite aka ruby/spec",
+    "fork": true,
+    "full_name": "artichoke/spec",
+    "html_url": "https://github.com/artichoke/spec",
+    "language": "Ruby",
+    "pushed_at": "2022-09-12T04:08:30Z",
+    "stargazers_count": 0,
+    "topics": [
+      "artichoke",
+      "embedded",
+      "fork",
+      "ruby",
+      "spec",
+      "vendor"
+    ],
+    "updated_at": "2025-11-03T04:34:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opal/opal",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "oracle/truffleruby",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ruby/mspec",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rubysl/rubysl-socket",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/ruby/spec.svg)](https://travis-ci.org/ruby/spec)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artichoke"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/ruby/spec.svg)](https://travis-ci.org/ruby/spec)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "embedded"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/ruby/spec.svg)](https://travis-ci.org/ruby/spec)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fork"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/ruby/spec.svg)](https://travis-ci.org/ruby/spec)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/ruby/spec.svg)](https://travis-ci.org/ruby/spec)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spec"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/ruby/spec.svg)](https://travis-ci.org/ruby/spec)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vendor"
+    }
+  ]
+}

@@ -43,6 +43,18 @@
       "source_repo": "jest-community/eslint-plugin-jest",
       "status": "candidate-context",
       "text": "Prepare CI cache"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jest-community/eslint-plugin-jest-extended",
+      "status": "candidate-context",
+      "text": "Eslint plugin for https://github.com/jest-community/jest-extended"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jest-community/eslint-plugin-jest-extended",
+      "status": "candidate-context",
+      "text": "Prepare CI cache"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +73,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "jest-community/eslint-plugin-jest",
+      "status": "candidate",
+      "text": "Prepare CI cache"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jest-community/eslint-plugin-jest-extended",
       "status": "candidate",
       "text": "Prepare CI cache"
     }
@@ -142,11 +160,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/prepare-cache.yml",
       "source_repo": "jest-community/eslint-plugin-jest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/prepare-cache.yml",
+      "source_repo": "jest-community/eslint-plugin-jest-extended"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

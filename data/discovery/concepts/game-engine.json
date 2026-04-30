@@ -151,6 +151,30 @@
       "source_repo": "ioquake/ioq3",
       "status": "candidate-context",
       "text": "![Build](https://github.com/ioquake/ioq3/workflows/Build/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DiligentGraphics/DiligentFX",
+      "status": "candidate-context",
+      "text": "High-level rendering components"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DiligentGraphics/DiligentFX",
+      "status": "candidate-context",
+      "text": "DiligentFX is the [Diligent Engine](https://github.com/DiligentGraphics/DiligentEngine)'s high-level rendering framework."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "not-fl3/macroquad",
+      "status": "candidate-context",
+      "text": "Cross-platform game engine in Rust. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "not-fl3/macroquad",
+      "status": "candidate-context",
+      "text": "[![Github Actions](https://github.com/not-fl3/macroquad/workflows/CI/badge.svg)](https://github.com/not-fl3/macroquad/actions?query=workflow%3A)"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +249,18 @@
       "source_repo": "ioquake/ioq3",
       "status": "candidate",
       "text": "![Build](https://github.com/ioquake/ioq3/workflows/Build/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DiligentGraphics/DiligentFX",
+      "status": "candidate",
+      "text": "DiligentFX is the [Diligent Engine](https://github.com/DiligentGraphics/DiligentEngine)'s high-level rendering framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "not-fl3/macroquad",
+      "status": "candidate",
+      "text": "[![Github Actions](https://github.com/not-fl3/macroquad/workflows/CI/badge.svg)](https://github.com/not-fl3/macroquad/actions?query=workflow%3A)"
     }
   ],
   "candidate_related_terms": [],
@@ -304,11 +340,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "ioquake/ioq3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "DiligentGraphics/DiligentFX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "not-fl3/macroquad"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

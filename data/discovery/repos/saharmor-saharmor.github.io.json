@@ -1,0 +1,159 @@
+{
+  "components": [
+    {
+      "component": "next",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-dom",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nextjs.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nextjs.yml"
+    },
+    {
+      "component": "actions/configure-pages@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nextjs.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nextjs.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nextjs.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nextjs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "saharmor/saharmor.github.io",
+      "target": "next",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "saharmor/saharmor.github.io",
+      "target": "react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "saharmor/saharmor.github.io",
+      "target": "react-dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nextjs.yml",
+      "source_repo": "saharmor/saharmor.github.io",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nextjs.yml",
+      "source_repo": "saharmor/saharmor.github.io",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nextjs.yml",
+      "source_repo": "saharmor/saharmor.github.io",
+      "target": "actions/configure-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nextjs.yml",
+      "source_repo": "saharmor/saharmor.github.io",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nextjs.yml",
+      "source_repo": "saharmor/saharmor.github.io",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nextjs.yml",
+      "source_repo": "saharmor/saharmor.github.io",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nextjs.yml",
+      "source_repo": "saharmor/saharmor.github.io",
+      "target": "Deploy Next.js site to Pages",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:02:45.874978+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 24
+    },
+    {
+      "path": "package.json",
+      "size": 481
+    },
+    {
+      "path": ".github/workflows/nextjs.yml",
+      "size": 1410
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "saharmor/saharmor.github.io",
+    "html_url": "https://github.com/saharmor/saharmor.github.io",
+    "language": "CSS",
+    "pushed_at": "2026-03-26T22:55:49Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-03-26T22:55:53Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Deploy Next.js site to Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nextjs.yml",
+      "term": "Deploy Next.js site to Pages"
+    }
+  ]
+}

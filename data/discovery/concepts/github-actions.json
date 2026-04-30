@@ -1,7 +1,8 @@
 {
   "aliases": [
     "github-actions",
-    "GitHub Actions"
+    "GitHub Actions",
+    "Github Actions"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -700,6 +701,120 @@
       "source_repo": "andstor/jsdoc-action",
       "status": "candidate-context",
       "text": "> A GitHub Action to build JSDoc documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autowarefoundation/autoware-github-actions",
+      "status": "candidate-context",
+      "text": "This repository contains [Reusable Workflows](https://docs.github.com/ja/actions/learn-github-actions/reusing-workflows) and [Composite Actions](https://docs.github.com/en/actions/creating-actions/about-custom-actions) for [Autoware](https://github.com/autowarefoundation/autowar\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "i3/i3",
+      "status": "candidate-context",
+      "text": "A tiling window manager for X11"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i3/i3",
+      "status": "candidate-context",
+      "text": "GitHub Actions"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graalvm/setup-graalvm",
+      "status": "candidate-context",
+      "text": "Set up your GitHub Actions workflow with a specific GraalVM distribution."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graalvm/setup-graalvm",
+      "status": "candidate-context",
+      "text": "Set up your GitHub Actions workflow with a specific [GraalVM][graalvm] distribution, and use it both as your JDK and for [ahead-of-time Native Image compilation][graalvm]."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sdras/awesome-actions",
+      "status": "candidate-context",
+      "text": "A curated list of awesome actions to use on GitHub"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sdras/awesome-actions",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-flutter-desktop/examples",
+      "status": "candidate-context",
+      "text": "Examples for go-flutter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-flutter-desktop/examples",
+      "status": "candidate-context",
+      "text": "Github Actions"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rhysd/actionlint",
+      "status": "candidate-context",
+      "text": ":octocat: Static checker for GitHub Actions workflow files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rhysd/actionlint",
+      "status": "candidate-context",
+      "text": "actionlint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reviewdog/action-depup",
+      "status": "candidate-context",
+      "text": "Action which updates dependencies automatically"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-depup",
+      "status": "candidate-context",
+      "text": "[![Test](https://github.com/reviewdog/action-depup/workflows/Test/badge.svg)](https://github.com/reviewdog/action-depup/actions?query=workflow%3ATest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reviewdog/action-hadolint",
+      "status": "candidate-context",
+      "text": "Run hadolint with reviewdog \ud83d\udc36"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-hadolint",
+      "status": "candidate-context",
+      "text": "[![](https://img.shields.io/github/license/reviewdog/action-hadolint)](./LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sobolevn/misspell-fixer-action",
+      "status": "candidate-context",
+      "text": "\ud83d\udcddAutomatically fixes typos and mistakes in your source code and docs!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sobolevn/misspell-fixer-action",
+      "status": "candidate-context",
+      "text": "[![wemake.services](https://img.shields.io/badge/%20-wemake.services-green.svg?label=%20&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC%2FxhBQAAAAFzUkdCAK7OHOkAAAAbUExURQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP%2F%2F%2F5TvxDIAAAAIdFJOUwA\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "py-cov-action/python-coverage-comment-action-v2-example",
+      "status": "candidate-context",
+      "text": "Example repo for v2 of python-coverage-comment-action"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "py-cov-action/python-coverage-comment-action-v2-example",
+      "status": "candidate-context",
+      "text": "> **Note**"
     }
   ],
   "candidate_glosses": [
@@ -1050,6 +1165,66 @@
       "source_repo": "andstor/jsdoc-action",
       "status": "candidate",
       "text": "> A GitHub Action to build JSDoc documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autowarefoundation/autoware-github-actions",
+      "status": "candidate",
+      "text": "This repository contains [Reusable Workflows](https://docs.github.com/ja/actions/learn-github-actions/reusing-workflows) and [Composite Actions](https://docs.github.com/en/actions/creating-actions/about-custom-actions) for [Autoware](https://github.com/autowarefoundation/autowar\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i3/i3",
+      "status": "candidate",
+      "text": "GitHub Actions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graalvm/setup-graalvm",
+      "status": "candidate",
+      "text": "Set up your GitHub Actions workflow with a specific [GraalVM][graalvm] distribution, and use it both as your JDK and for [ahead-of-time Native Image compilation][graalvm]."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sdras/awesome-actions",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-flutter-desktop/examples",
+      "status": "candidate",
+      "text": "Github Actions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rhysd/actionlint",
+      "status": "candidate",
+      "text": "actionlint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-depup",
+      "status": "candidate",
+      "text": "[![Test](https://github.com/reviewdog/action-depup/workflows/Test/badge.svg)](https://github.com/reviewdog/action-depup/actions?query=workflow%3ATest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-hadolint",
+      "status": "candidate",
+      "text": "[![](https://img.shields.io/github/license/reviewdog/action-hadolint)](./LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sobolevn/misspell-fixer-action",
+      "status": "candidate",
+      "text": "[![wemake.services](https://img.shields.io/badge/%20-wemake.services-green.svg?label=%20&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC%2FxhBQAAAAFzUkdCAK7OHOkAAAAbUExURQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP%2F%2F%2F5TvxDIAAAAIdFJOUwA\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "py-cov-action/python-coverage-comment-action-v2-example",
+      "status": "candidate",
+      "text": "> **Note**"
     }
   ],
   "candidate_related_terms": [
@@ -1507,11 +1682,83 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "andstor/jsdoc-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "autowarefoundation/autoware-github-actions"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "i3/i3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "graalvm/setup-graalvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "sdras/awesome-actions"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "go-flutter-desktop/examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "rhysd/actionlint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "reviewdog/action-depup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "reviewdog/action-hadolint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "sobolevn/misspell-fixer-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "py-cov-action/python-coverage-comment-action-v2-example"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ChristopherHX/runner.server"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

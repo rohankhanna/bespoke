@@ -104,13 +104,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "kurrent-io/KurrentDB-Bridge-Client",
-      "target": "neon-bindings/neon",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "kurrent-io/KurrentDB-Bridge-Client",
@@ -237,7 +230,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T10:32:16.230685+00:00",
+  "fetched_at": "2026-04-30T16:06:51.173013+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -297,11 +290,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "eventstore/kurrentdb-client-nodejs",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "neon-bindings/neon",
       "source_file": "README.md"
     }
   ],

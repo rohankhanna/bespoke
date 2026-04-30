@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Article title, authors, date and body extraction dataset. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "We release a curated dataset of news articles from more than 200 websites. The dataset contains 424 articles cleaned from any kind of boileplate code, text and ads. Most articles are in English, and were published throughout 2023, most at the end of the year. The dataset is inte\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "We release a curated dataset of news articles from more than 200 websites. The dataset contains 424 articles cleaned from any kind of boileplate code, text and ads. Most articles are in English, and were published throughout 2023, most at the end of the year. The dataset is inte\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39871860,
+      "status": "candidate",
+      "text": "principal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29907721,
+      "status": "candidate",
+      "text": "principal sum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29907720,
+      "status": "candidate",
+      "text": "compendium"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29901939,
+      "status": "candidate",
+      "text": "scheduling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29897866,
+      "status": "candidate",
+      "text": "grouping"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "corpus",
+      "sense_id": "corpus#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24082,
+      "status": "candidate",
+      "text": "principal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "principal sum"
+    }
+  ],
+  "concept_id": "corpus",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "corpus",
+  "observation_id": "571b43cac23c4b92",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "corpus",
+  "source_context_snippet": "We release a curated dataset of news articles from more than 200 websites. The dataset contains 424 articles cleaned from any kind of boileplate code, text and ads. Most articles are in English, and were published throughout 2023, most at the end of the year. The dataset is inte\u2026",
+  "source_file": null,
+  "source_repo": "AndyTheFactory/article-extraction-dataset",
+  "source_repo_description": "Article title, authors, date and body extraction dataset. "
+}

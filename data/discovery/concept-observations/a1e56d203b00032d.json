@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A portable foreign-function interface library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "snapshot-dist-tarball"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "snapshot-dist-tarball"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "snapshot-dist-tarball",
+      "sense_id": "snapshot-dist-tarball#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "snapshot-dist-tarball",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "snapshot-dist-tarball",
+  "observation_id": "a1e56d203b00032d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "snapshot-dist-tarball",
+  "source_context_snippet": "snapshot-dist-tarball",
+  "source_file": ".github/workflows/tarball.yml",
+  "source_repo": "libffi/libffi",
+  "source_repo_description": "A portable foreign-function interface library."
+}

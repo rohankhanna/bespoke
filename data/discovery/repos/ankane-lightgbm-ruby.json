@@ -23,20 +23,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ankane/lightgbm-ruby",
-      "target": "ankane/xgboost-ruby",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ankane/lightgbm-ruby",
-      "target": "ankane/eps",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ankane/lightgbm-ruby",
       "target": "paironair/xgboost-ruby",
       "target_type": "repository"
     },
@@ -83,7 +69,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T04:10:52.395103+00:00",
+  "fetched_at": "2026-04-30T12:54:22.492974+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -113,16 +99,6 @@
     "updated_at": "2026-04-09T07:22:23Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "ankane/eps",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "ankane/xgboost-ruby",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "microsoft/lightgbm",

@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "h4nwei/SPAQ",
+      "target": "dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "h4nwei/SPAQ",
+      "target": "image-quality-assessment",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:09:28.145287+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5326
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[CVPR'20] Official SPAQ & Implementation",
+    "fork": false,
+    "full_name": "h4nwei/SPAQ",
+    "html_url": "https://github.com/h4nwei/SPAQ",
+    "language": "Python",
+    "pushed_at": "2024-01-17T07:55:44Z",
+    "stargazers_count": 196,
+    "topics": [
+      "dataset",
+      "image-quality-assessment"
+    ],
+    "updated_at": "2026-04-22T12:26:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository contains the constructed Smartphone Photography Attribute and Quality (SPAQ) database and implementations for the paper \"Perceptual Quality Assessment of Smartphone Photography\",",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataset"
+    },
+    {
+      "context_snippet": "This repository contains the constructed Smartphone Photography Attribute and Quality (SPAQ) database and implementations for the paper \"Perceptual Quality Assessment of Smartphone Photography\",",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-quality-assessment"
+    }
+  ]
+}

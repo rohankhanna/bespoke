@@ -141,28 +141,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "langgraph4j/langgraph4j",
-      "target": "bhavuklabs/research4j",
+      "target": "langgraph4j/langgraph4j-examples",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "langgraph4j/langgraph4j",
-      "target": "azure-samples/agent-openai-java-banking-assistant-langgraph4j",
+      "target": "imfangs/langgraph4j-deep-researcher",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "langgraph4j/langgraph4j",
-      "target": "bsorrentino/java-async-generator",
+      "target": "moyangzhan/langchain4j-aideepin",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "langgraph4j/langgraph4j",
-      "target": "breezeware-os/dynamo-multi-ai-agent-langgraph4j-starter",
+      "target": "kugaaa/langchain4j-langfuse",
       "target_type": "repository"
     },
     {
@@ -383,7 +383,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T07:20:13.826323+00:00",
+  "fetched_at": "2026-04-30T16:05:09.071508+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -420,7 +420,7 @@
     "html_url": "https://github.com/langgraph4j/langgraph4j",
     "language": "Java",
     "pushed_at": "2026-04-29T15:43:54Z",
-    "stargazers_count": 1593,
+    "stargazers_count": 1595,
     "topics": [
       "agents",
       "ai",
@@ -429,27 +429,27 @@
       "spring-ai",
       "workflow"
     ],
-    "updated_at": "2026-04-29T15:14:56Z"
+    "updated_at": "2026-04-30T14:40:23Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "azure-samples/agent-openai-java-banking-assistant-langgraph4j",
+      "full_name": "imfangs/langgraph4j-deep-researcher",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "bhavuklabs/research4j",
+      "full_name": "kugaaa/langchain4j-langfuse",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "breezeware-os/dynamo-multi-ai-agent-langgraph4j-starter",
+      "full_name": "langgraph4j/langgraph4j-examples",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "bsorrentino/java-async-generator",
+      "full_name": "moyangzhan/langchain4j-aideepin",
       "source_file": "README.md"
     }
   ],

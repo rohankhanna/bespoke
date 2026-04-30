@@ -1,0 +1,69 @@
+{
+  "components": [
+    {
+      "component": "axios",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tsup",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "CatchTheTornado/text-extract-api-client",
+      "target": "axios",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "CatchTheTornado/text-extract-api-client",
+      "target": "tsup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "CatchTheTornado/text-extract-api-client",
+      "target": "typescript",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:58:33.295662+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2002
+    },
+    {
+      "path": "package.json",
+      "size": 883
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The Typescript API Client for pdf-extract-api",
+    "fork": false,
+    "full_name": "CatchTheTornado/text-extract-api-client",
+    "html_url": "https://github.com/CatchTheTornado/text-extract-api-client",
+    "language": "TypeScript",
+    "pushed_at": "2025-01-08T10:09:29Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2025-10-03T04:12:15Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -746,6 +746,54 @@
       "source_repo": "FasterXML/jackson-core",
       "status": "candidate-context",
       "text": "CIFuzz"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenSC/OpenSC",
+      "status": "candidate-context",
+      "text": "Open source smart card tools and middleware. PKCS#11/MiniDriver"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenSC/OpenSC",
+      "status": "candidate-context",
+      "text": "CIFuzz"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mobile-shell/mosh",
+      "status": "candidate-context",
+      "text": "Mobile Shell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mobile-shell/mosh",
+      "status": "candidate-context",
+      "text": "CIFuzz"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pdfminer/pdfminer.six",
+      "status": "candidate-context",
+      "text": "Community maintained fork of pdfminer - we fathom PDF"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pdfminer/pdfminer.six",
+      "status": "candidate-context",
+      "text": "CIFuzz"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mruby/mruby",
+      "status": "candidate-context",
+      "text": "Lightweight Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mruby/mruby",
+      "status": "candidate-context",
+      "text": "CIFuzz"
     }
   ],
   "candidate_glosses": [
@@ -1124,6 +1172,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "FasterXML/jackson-core",
+      "status": "candidate",
+      "text": "CIFuzz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenSC/OpenSC",
+      "status": "candidate",
+      "text": "CIFuzz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mobile-shell/mosh",
+      "status": "candidate",
+      "text": "CIFuzz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pdfminer/pdfminer.six",
+      "status": "candidate",
+      "text": "CIFuzz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mruby/mruby",
       "status": "candidate",
       "text": "CIFuzz"
     }
@@ -1625,11 +1697,59 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/cifuzz.yml",
       "source_repo": "apache/brpc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "OpenSC/OpenSC"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "apache/brpc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "mobile-shell/mosh"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "simdjson/simdjson"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "pdfminer/pdfminer.six"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "libsndfile/libsndfile"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/oss-fuzz.yml",
+      "source_repo": "mruby/mruby"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

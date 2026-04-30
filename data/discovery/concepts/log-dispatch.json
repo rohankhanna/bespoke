@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Log dispatch"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "patrick-kidger/signatory",
+      "status": "candidate-context",
+      "text": "Differentiable computations of the signature and logsignature transforms, on both CPU and GPU. (ICLR 2021)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "patrick-kidger/signatory",
+      "status": "candidate-context",
+      "text": "Log dispatch"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "patrick-kidger/signatory",
+      "status": "candidate",
+      "text": "Log dispatch"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10645,
+      "status": "candidate",
+      "text": "accede"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10645,
+      "status": "candidate",
+      "text": "bar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10645,
+      "status": "candidate",
+      "text": "bump"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10645,
+      "status": "candidate",
+      "text": "bumper"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10645,
+      "status": "candidate",
+      "text": "bunk"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Log dispatch",
+  "concept_id": "log-dispatch",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/log_dispatch.yml",
+      "source_repo": "patrick-kidger/signatory"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Log dispatch",
+      "sense_id": "log-dispatch#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

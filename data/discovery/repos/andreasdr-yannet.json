@@ -1,0 +1,149 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macosx.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml"
+    },
+    {
+      "component": "msys2/setup-msys2@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-mingw.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-mingw.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-msc.yml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-msc.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-msc.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macosx.yml",
+      "source_repo": "andreasdr/yannet",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macosx.yml",
+      "source_repo": "andreasdr/yannet",
+      "target": "CI MacOSX",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml",
+      "source_repo": "andreasdr/yannet",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nix.yml",
+      "source_repo": "andreasdr/yannet",
+      "target": "CI Ubuntu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-mingw.yml",
+      "source_repo": "andreasdr/yannet",
+      "target": "msys2/setup-msys2@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-mingw.yml",
+      "source_repo": "andreasdr/yannet",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-msc.yml",
+      "source_repo": "andreasdr/yannet",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-msc.yml",
+      "source_repo": "andreasdr/yannet",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:09:31.757734+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3759
+    },
+    {
+      "path": ".github/workflows/macosx.yml",
+      "size": 229
+    },
+    {
+      "path": ".github/workflows/nix.yml",
+      "size": 250
+    },
+    {
+      "path": ".github/workflows/windows-mingw.yml",
+      "size": 477
+    },
+    {
+      "path": ".github/workflows/windows-msc.yml",
+      "size": 377
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Yannet - C++ network library for games",
+    "fork": false,
+    "full_name": "andreasdr/yannet",
+    "html_url": "https://github.com/andreasdr/yannet",
+    "language": "C",
+    "pushed_at": "2025-11-08T20:39:30Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2025-11-08T20:39:35Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CI MacOSX",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macosx.yml",
+      "term": "CI MacOSX"
+    },
+    {
+      "context_snippet": "CI Ubuntu",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nix.yml",
+      "term": "CI Ubuntu"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T16:14:53.973593+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 851
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A common repository of ruby version metadata",
+    "fork": false,
+    "full_name": "postmodern/ruby-versions",
+    "html_url": "https://github.com/postmodern/ruby-versions",
+    "language": "Shell",
+    "pushed_at": "2026-04-26T21:33:18Z",
+    "stargazers_count": 77,
+    "topics": [],
+    "updated_at": "2026-04-26T21:33:22Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

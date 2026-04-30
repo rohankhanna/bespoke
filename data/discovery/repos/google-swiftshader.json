@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/swiftshader",
+      "target": "khronosgroup/vulkan-loader",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/swiftshader",
+      "target": "khronosgroup/vk-gl-cts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/swiftshader",
+      "target": "powervr-graphics/native_sdk",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T12:55:30.177678+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7927
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "SwiftShader is a high-performance CPU-based implementation of the Vulkan graphics API. Its goal is to provide hardware independence for advanced 3D graphics.",
+    "fork": false,
+    "full_name": "google/swiftshader",
+    "html_url": "https://github.com/google/swiftshader",
+    "language": "C++",
+    "pushed_at": "2026-04-29T16:19:45Z",
+    "stargazers_count": 2464,
+    "topics": [],
+    "updated_at": "2026-04-30T08:24:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "khronosgroup/vk-gl-cts",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "khronosgroup/vulkan-loader",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "powervr-graphics/native_sdk",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

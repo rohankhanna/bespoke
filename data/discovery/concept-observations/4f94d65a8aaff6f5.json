@@ -84,7 +84,7 @@
   "normalized_form": "build-and-push-agent-images",
   "observation_id": "4f94d65a8aaff6f5",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
   "observed_text": "Build and Push Agent Images",
   "source_context_snippet": "Build and Push Agent Images",
   "source_file": ".github/workflows/build-push-agent-images.yml",

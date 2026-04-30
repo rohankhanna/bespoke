@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "NVIDIA curated collection of educational resources related to general purpose GPU programming."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Test Brev Tutorial Docker Images"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Test Brev Tutorial Docker Images"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26154,
+      "status": "candidate",
+      "text": "tachistoscope"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23237,
+      "status": "candidate",
+      "text": "demo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21363,
+      "status": "candidate",
+      "text": "curb"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21363,
+      "status": "candidate",
+      "text": "hold"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21363,
+      "status": "candidate",
+      "text": "story"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test Brev Tutorial Docker Images",
+      "sense_id": "test-brev-tutorial-docker-images#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "test-brev-tutorial-docker-images",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "test-brev-tutorial-docker-images",
+  "observation_id": "7c476e1a364b87e0",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "Test Brev Tutorial Docker Images",
+  "source_context_snippet": "Test Brev Tutorial Docker Images",
+  "source_file": ".github/workflows/test-brev-tutorial-docker-images.yml",
+  "source_repo": "NVIDIA/accelerated-computing-hub",
+  "source_repo_description": "NVIDIA curated collection of educational resources related to general purpose GPU programming."
+}

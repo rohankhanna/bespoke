@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83e\udd84 Shades of Purple \u2014 A professional theme with hand-picked & bold shades of purple for Base16."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40050115,
+      "status": "candidate",
+      "text": "empurple"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40050115,
+      "status": "candidate",
+      "text": "purplish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40050110,
+      "status": "candidate",
+      "text": "purpurate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40050096,
+      "status": "candidate",
+      "text": "purpleness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40050057,
+      "status": "candidate",
+      "text": "empurpled"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "purple",
+      "sense_id": "purple#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 66041,
+      "status": "candidate",
+      "text": "chromatic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 35045,
+      "status": "candidate",
+      "text": "noble"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 30018,
+      "status": "candidate",
+      "text": "embellished"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25043,
+      "status": "candidate",
+      "text": "regal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17034,
+      "status": "candidate",
+      "text": "majestic"
+    }
+  ],
+  "concept_id": "purple",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "purple",
+  "observation_id": "2e5916da402ed275",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "purple",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "ahmadawais/base16-shades-of-purple",
+  "source_repo_description": "\ud83e\udd84 Shades of Purple \u2014 A professional theme with hand-picked & bold shades of purple for Base16."
+}

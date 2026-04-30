@@ -1,0 +1,584 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "jruby/jruby-ci-build@fbd2cf981aaff3eae190ac20086fa161be3d9060",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dist-verification-ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dist-verification-ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dist-verification-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dist-verification-ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dist-verification-ci.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dist-verification-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshot-publish.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshot-publish.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshot-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jruby/jruby",
+      "target": "sstephenson/rbenv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jruby/jruby",
+      "target": "sstephenson/ruby-build",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jruby/jruby",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jruby/jruby",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jruby/jruby",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jruby/jruby",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jruby/jruby",
+      "target": "jruby/jruby-ci-build@fbd2cf981aaff3eae190ac20086fa161be3d9060",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jruby/jruby",
+      "target": "JRuby CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dist-verification-ci.yml",
+      "source_repo": "jruby/jruby",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dist-verification-ci.yml",
+      "source_repo": "jruby/jruby",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dist-verification-ci.yml",
+      "source_repo": "jruby/jruby",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dist-verification-ci.yml",
+      "source_repo": "jruby/jruby",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dist-verification-ci.yml",
+      "source_repo": "jruby/jruby",
+      "target": "Dist Verification CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manual-snapshot-publish-21.yml",
+      "source_repo": "jruby/jruby",
+      "target": "JRuby snapshot using Java 21",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manual-snapshot-publish.yml",
+      "source_repo": "jruby/jruby",
+      "target": "JRuby snapshot using Java 8",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-snapshot-publish-21.yml",
+      "source_repo": "jruby/jruby",
+      "target": "Nightly Snapshots using Java 21",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-snapshot-publish.yml",
+      "source_repo": "jruby/jruby",
+      "target": "Nightly Snapshots using Java 8",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshot-publish.yml",
+      "source_repo": "jruby/jruby",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshot-publish.yml",
+      "source_repo": "jruby/jruby",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshot-publish.yml",
+      "source_repo": "jruby/jruby",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/snapshot-publish.yml",
+      "source_repo": "jruby/jruby",
+      "target": "JRuby snapshot deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jruby/jruby",
+      "target": "concurrency",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jruby/jruby",
+      "target": "invokedynamic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jruby/jruby",
+      "target": "jruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jruby/jruby",
+      "target": "performance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jruby/jruby",
+      "target": "ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jruby/jruby",
+      "target": "ruby-language",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:57:01.749347+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4338
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 17104
+    },
+    {
+      "path": ".github/workflows/dist-verification-ci.yml",
+      "size": 2333
+    },
+    {
+      "path": ".github/workflows/manual-snapshot-publish-21.yml",
+      "size": 354
+    },
+    {
+      "path": ".github/workflows/manual-snapshot-publish.yml",
+      "size": 352
+    },
+    {
+      "path": ".github/workflows/nightly-snapshot-publish-21.yml",
+      "size": 616
+    },
+    {
+      "path": ".github/workflows/nightly-snapshot-publish.yml",
+      "size": 617
+    },
+    {
+      "path": ".github/workflows/snapshot-publish.yml",
+      "size": 1118
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "JRuby, an implementation of Ruby on the JVM",
+    "fork": false,
+    "full_name": "jruby/jruby",
+    "html_url": "https://github.com/jruby/jruby",
+    "language": "Ruby",
+    "pushed_at": "2026-04-24T00:58:00Z",
+    "stargazers_count": 3896,
+    "topics": [
+      "concurrency",
+      "invokedynamic",
+      "jruby",
+      "jvm",
+      "performance",
+      "ruby",
+      "ruby-language"
+    ],
+    "updated_at": "2026-04-29T13:58:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sstephenson/rbenv",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sstephenson/ruby-build",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "JRuby CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "JRuby CI"
+    },
+    {
+      "context_snippet": "Dist Verification CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dist-verification-ci.yml",
+      "term": "Dist Verification CI"
+    },
+    {
+      "context_snippet": "JRuby snapshot using Java 21",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manual-snapshot-publish-21.yml",
+      "term": "JRuby snapshot using Java 21"
+    },
+    {
+      "context_snippet": "JRuby snapshot using Java 8",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manual-snapshot-publish.yml",
+      "term": "JRuby snapshot using Java 8"
+    },
+    {
+      "context_snippet": "Nightly Snapshots using Java 21",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-snapshot-publish-21.yml",
+      "term": "Nightly Snapshots using Java 21"
+    },
+    {
+      "context_snippet": "Nightly Snapshots using Java 8",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-snapshot-publish.yml",
+      "term": "Nightly Snapshots using Java 8"
+    },
+    {
+      "context_snippet": "JRuby snapshot deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/snapshot-publish.yml",
+      "term": "JRuby snapshot deploy"
+    },
+    {
+      "context_snippet": "Master: [![JRuby CI](https://github.com/jruby/jruby/actions/workflows/ci.yml/badge.svg)](https://github.com/jruby/jruby/actions/workflows/ci.yml), [![JRuby CI (Windows)](https://github.com/jruby/jruby/actions/workflows/ci-windows.yml/badge.svg)](https://github.com/jruby/jruby/ac\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "concurrency"
+    },
+    {
+      "context_snippet": "Master: [![JRuby CI](https://github.com/jruby/jruby/actions/workflows/ci.yml/badge.svg)](https://github.com/jruby/jruby/actions/workflows/ci.yml), [![JRuby CI (Windows)](https://github.com/jruby/jruby/actions/workflows/ci-windows.yml/badge.svg)](https://github.com/jruby/jruby/ac\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "invokedynamic"
+    },
+    {
+      "context_snippet": "Master: [![JRuby CI](https://github.com/jruby/jruby/actions/workflows/ci.yml/badge.svg)](https://github.com/jruby/jruby/actions/workflows/ci.yml), [![JRuby CI (Windows)](https://github.com/jruby/jruby/actions/workflows/ci-windows.yml/badge.svg)](https://github.com/jruby/jruby/ac\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jruby"
+    },
+    {
+      "context_snippet": "Master: [![JRuby CI](https://github.com/jruby/jruby/actions/workflows/ci.yml/badge.svg)](https://github.com/jruby/jruby/actions/workflows/ci.yml), [![JRuby CI (Windows)](https://github.com/jruby/jruby/actions/workflows/ci-windows.yml/badge.svg)](https://github.com/jruby/jruby/ac\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "performance"
+    },
+    {
+      "context_snippet": "Master: [![JRuby CI](https://github.com/jruby/jruby/actions/workflows/ci.yml/badge.svg)](https://github.com/jruby/jruby/actions/workflows/ci.yml), [![JRuby CI (Windows)](https://github.com/jruby/jruby/actions/workflows/ci-windows.yml/badge.svg)](https://github.com/jruby/jruby/ac\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    },
+    {
+      "context_snippet": "Master: [![JRuby CI](https://github.com/jruby/jruby/actions/workflows/ci.yml/badge.svg)](https://github.com/jruby/jruby/actions/workflows/ci.yml), [![JRuby CI (Windows)](https://github.com/jruby/jruby/actions/workflows/ci-windows.yml/badge.svg)](https://github.com/jruby/jruby/ac\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby-language"
+    }
+  ]
+}

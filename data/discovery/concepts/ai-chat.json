@@ -19,6 +19,18 @@
       "source_repo": "hecrj/icebreaker",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nomic-ai/gpt4all",
+      "status": "candidate-context",
+      "text": "GPT4All: Run Local LLMs on Any Device. Open-source and available for commercial use."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nomic-ai/gpt4all",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">GPT4All</h1>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "hecrj/icebreaker",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nomic-ai/gpt4all",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">GPT4All</h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "hecrj/icebreaker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "nomic-ai/gpt4all"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

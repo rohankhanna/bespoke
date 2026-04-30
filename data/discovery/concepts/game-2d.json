@@ -19,6 +19,18 @@
       "source_repo": "hajimehoshi/ebiten",
       "status": "candidate-context",
       "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/hajimehoshi/ebiten/v2.svg)](https://pkg.go.dev/github.com/hajimehoshi/ebiten/v2)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DyegoCosta/snake-game",
+      "status": "candidate-context",
+      "text": "Terminal-based Snake game"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DyegoCosta/snake-game",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/DyegoCosta/snake-game.svg?branch=master)](https://travis-ci.org/DyegoCosta/snake-game)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "hajimehoshi/ebiten",
       "status": "candidate",
       "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/hajimehoshi/ebiten/v2.svg)](https://pkg.go.dev/github.com/hajimehoshi/ebiten/v2)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DyegoCosta/snake-game",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/DyegoCosta/snake-game.svg?branch=master)](https://travis-ci.org/DyegoCosta/snake-game)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "hajimehoshi/ebiten"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "DyegoCosta/snake-game"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-node@v5",
   "first_seen_at": "2026-04-18T03:50:57.229967+00:00",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -442,6 +442,51 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release-npm-ssdk-libs.yml",
       "source_repo": "smithy-lang/smithy-typescript"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/renovate_config_check.yaml",
+      "source_repo": "googleapis/java-cloud-bom"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "blitz-js/blitz"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs-website.yml",
+      "source_repo": "kylebarron/parquet-wasm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "kylebarron/parquet-wasm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/markdown-link-check.yml",
+      "source_repo": "jest-community/eslint-plugin-jest-extended"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "jest-community/eslint-plugin-jest-extended"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/prepare-cache.yml",
+      "source_repo": "jest-community/eslint-plugin-jest-extended"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/smoke-test.yml",
+      "source_repo": "jest-community/eslint-plugin-jest-extended"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "jest-community/eslint-plugin-jest-extended"
     }
   ]
 }

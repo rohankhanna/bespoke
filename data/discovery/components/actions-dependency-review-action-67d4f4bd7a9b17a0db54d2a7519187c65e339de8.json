@@ -1,0 +1,17 @@
+{
+  "component": "actions/dependency-review-action@67d4f4bd7a9b17a0db54d2a7519187c65e339de8",
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "secretflow/kuscia"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "secretflow/scql"
+    }
+  ]
+}

@@ -1,0 +1,303 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crypto-bigint.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crypto-bigint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crypto-bigint.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crypto-bigint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crypto-bigint.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crypto-bigint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crypto-bigint.yml"
+    },
+    {
+      "component": "RustCrypto/actions/cargo-cache@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crypto-bigint.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crypto-bigint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crypto-bigint.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@nightly",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crypto-bigint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crypto-bigint.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@nightly",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crypto-bigint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crypto-bigint.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crypto-bigint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crypto-bigint.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crypto-bigint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crypto-bigint.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crypto-bigint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crypto-bigint.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crypto-bigint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dudect.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dudect.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security-audit.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security-audit.yml"
+    },
+    {
+      "component": "actions-rs/audit-check@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security-audit.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sp1-patches/RustCrypto-bigint",
+      "target": "rustcrypto/crypto-bigint",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "sp1-patches/RustCrypto-bigint",
+      "target": "rustcrypto/crypto-bigint",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crypto-bigint.yml",
+      "source_repo": "sp1-patches/RustCrypto-bigint",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crypto-bigint.yml",
+      "source_repo": "sp1-patches/RustCrypto-bigint",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crypto-bigint.yml",
+      "source_repo": "sp1-patches/RustCrypto-bigint",
+      "target": "RustCrypto/actions/cargo-cache@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crypto-bigint.yml",
+      "source_repo": "sp1-patches/RustCrypto-bigint",
+      "target": "dtolnay/rust-toolchain@nightly",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/crypto-bigint.yml",
+      "source_repo": "sp1-patches/RustCrypto-bigint",
+      "target": "crypto-bigint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dudect.yml",
+      "source_repo": "sp1-patches/RustCrypto-bigint",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dudect.yml",
+      "source_repo": "sp1-patches/RustCrypto-bigint",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dudect.yml",
+      "source_repo": "sp1-patches/RustCrypto-bigint",
+      "target": "dudect",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security-audit.yml",
+      "source_repo": "sp1-patches/RustCrypto-bigint",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security-audit.yml",
+      "source_repo": "sp1-patches/RustCrypto-bigint",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security-audit.yml",
+      "source_repo": "sp1-patches/RustCrypto-bigint",
+      "target": "actions-rs/audit-check@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/security-audit.yml",
+      "source_repo": "sp1-patches/RustCrypto-bigint",
+      "target": "Security Audit",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:00:35.381297+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3030
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 2099
+    },
+    {
+      "path": ".github/workflows/crypto-bigint.yml",
+      "size": 5367
+    },
+    {
+      "path": ".github/workflows/dudect.yml",
+      "size": 555
+    },
+    {
+      "path": ".github/workflows/security-audit.yml",
+      "size": 527
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Cryptography-oriented big integer library with constant-time, stack-allocated (no_std-friendly) implementations of modern formulas",
+    "fork": true,
+    "full_name": "sp1-patches/RustCrypto-bigint",
+    "html_url": "https://github.com/sp1-patches/RustCrypto-bigint",
+    "language": null,
+    "pushed_at": "2026-04-29T21:30:56Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2024-09-17T14:31:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rustcrypto/crypto-bigint",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rustcrypto/crypto-bigint",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "crypto-bigint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/crypto-bigint.yml",
+      "term": "crypto-bigint"
+    },
+    {
+      "context_snippet": "dudect",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dudect.yml",
+      "term": "dudect"
+    },
+    {
+      "context_snippet": "Security Audit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/security-audit.yml",
+      "term": "Security Audit"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[deprecated] can be replaced with i18next-http-middleware"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Can be replaced with: [i18next-http-middleware](https://github.com/i18next/i18next-http-middleware)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Can be replaced with: [i18next-http-middleware](https://github.com/i18next/i18next-http-middleware)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "express-middleware",
+      "sense_id": "express-middleware#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "express-middleware",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "express-middleware",
+  "observation_id": "003012b5bcd66bed",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "express-middleware",
+  "source_context_snippet": "Can be replaced with: [i18next-http-middleware](https://github.com/i18next/i18next-http-middleware)",
+  "source_file": null,
+  "source_repo": "i18next/i18next-express-middleware",
+  "source_repo_description": "[deprecated] can be replaced with i18next-http-middleware"
+}

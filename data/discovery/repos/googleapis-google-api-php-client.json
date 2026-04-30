@@ -78,34 +78,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "googleapis/google-api-php-client",
-      "target": "googleapis/google-cloud-php",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "googleapis/google-api-php-client",
-      "target": "googleapis/google-cloud-php-datastore",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "googleapis/google-api-php-client",
-      "target": "googleapis/google-cloud-php-compute",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "googleapis/google-api-php-client",
-      "target": "googleapis/google-auth-library-php",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/asset-release.yml",
       "source_repo": "googleapis/google-api-php-client",
@@ -183,7 +155,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T03:05:14.923620+00:00",
+  "fetched_at": "2026-04-30T16:12:11.133679+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -216,28 +188,7 @@
     "topics": [],
     "updated_at": "2026-04-29T20:45:10Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "googleapis/google-auth-library-php",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "googleapis/google-cloud-php",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "googleapis/google-cloud-php-compute",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "googleapis/google-cloud-php-datastore",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Add Release Assets",

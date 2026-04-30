@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Make Docs"
+    "Make Docs",
+    "make-docs"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -31,6 +32,18 @@
       "source_repo": "AdaCore/vss-extra",
       "status": "candidate-context",
       "text": "Make Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "smithy-lang/smithy",
+      "status": "candidate-context",
+      "text": "Smithy is a protocol-agnostic interface definition language and set of tools for generating clients, servers, and documentation for any programming language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smithy-lang/smithy",
+      "status": "candidate-context",
+      "text": "make-docs"
     }
   ],
   "candidate_glosses": [
@@ -51,6 +64,12 @@
       "source_repo": "AdaCore/vss-extra",
       "status": "candidate",
       "text": "Make Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smithy-lang/smithy",
+      "status": "candidate",
+      "text": "make-docs"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +131,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/gnatdoc.yml",
       "source_repo": "AdaCore/vss-extra"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/make-docs.yml",
+      "source_repo": "smithy-lang/smithy"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

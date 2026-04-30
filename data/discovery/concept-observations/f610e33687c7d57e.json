@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Train latent diffusion for real-world super-resolution."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repo is used as an example for training and finetuning [latent-diffusion](https://github.com/CompVis/latent-diffusion) used as the baseline in [StableSR](https://github.com/IceClear/StableSR)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repo is used as an example for training and finetuning [latent-diffusion](https://github.com/CompVis/latent-diffusion) used as the baseline in [StableSR](https://github.com/IceClear/StableSR)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "super-resolution",
+      "sense_id": "super-resolution#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "super-resolution",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "super-resolution",
+  "observation_id": "f610e33687c7d57e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "super-resolution",
+  "source_context_snippet": "This repo is used as an example for training and finetuning [latent-diffusion](https://github.com/CompVis/latent-diffusion) used as the baseline in [StableSR](https://github.com/IceClear/StableSR).",
+  "source_file": null,
+  "source_repo": "IceClear/LDM-SRtuning",
+  "source_repo_description": "Train latent diffusion for real-world super-resolution."
+}

@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lltcggie/waifu2x-caffe",
+      "target": "wl-amigo/waifu2x-converter-cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lltcggie/waifu2x-caffe",
+      "target": "tsurumeso/waifu2x-chainer",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-30T12:45:20.475770+00:00",
+  "source_repo": "lltcggie/waifu2x-caffe"
+}

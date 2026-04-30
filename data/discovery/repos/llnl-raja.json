@@ -1,0 +1,281 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "threeal/cmake-action@v1.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "threeal/ctest-action@v1.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "threeal/cmake-action@v1.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "threeal/ctest-action@v1.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "llnl/RAJA",
+      "target": "llnl/raja-project-template",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "llnl/RAJA",
+      "target": "llnl/chai",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "llnl/RAJA",
+      "target": "llnl/blt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "llnl/RAJA",
+      "target": "llnl/camp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "llnl/RAJA",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "llnl/RAJA",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "llnl/RAJA",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "llnl/RAJA",
+      "target": "threeal/cmake-action@v1.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "llnl/RAJA",
+      "target": "threeal/ctest-action@v1.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "llnl/RAJA",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "llnl/RAJA",
+      "target": "c-plus-plus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "llnl/RAJA",
+      "target": "llnl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "llnl/RAJA",
+      "target": "parallel-computing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "llnl/RAJA",
+      "target": "portability",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "llnl/RAJA",
+      "target": "programming-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "llnl/RAJA",
+      "target": "radiuss",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "llnl/RAJA",
+      "target": "raja",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:00:38.904545+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8279
+    },
+    {
+      "path": "Dockerfile",
+      "size": 5268
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 2204
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "RAJA Performance Portability Layer (C++)",
+    "fork": false,
+    "full_name": "llnl/RAJA",
+    "html_url": "https://github.com/llnl/RAJA",
+    "language": "C++",
+    "pushed_at": "2026-04-28T22:37:53Z",
+    "stargazers_count": 577,
+    "topics": [
+      "blt",
+      "c-plus-plus",
+      "cpp",
+      "llnl",
+      "parallel-computing",
+      "portability",
+      "programming-model",
+      "radiuss",
+      "raja"
+    ],
+    "updated_at": "2026-04-30T01:10:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "llnl/blt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "llnl/camp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "llnl/chai",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "llnl/raja-project-template",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "[comment]: # (#################################################################)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus"
+    },
+    {
+      "context_snippet": "[comment]: # (#################################################################)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llnl"
+    },
+    {
+      "context_snippet": "[comment]: # (#################################################################)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parallel-computing"
+    },
+    {
+      "context_snippet": "[comment]: # (#################################################################)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "portability"
+    },
+    {
+      "context_snippet": "[comment]: # (#################################################################)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "programming-model"
+    },
+    {
+      "context_snippet": "[comment]: # (#################################################################)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "radiuss"
+    },
+    {
+      "context_snippet": "[comment]: # (#################################################################)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "raja"
+    }
+  ]
+}

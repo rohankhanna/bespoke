@@ -79,6 +79,42 @@
       "source_repo": "luvit/luv",
       "status": "candidate-context",
       "text": "luv"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kernelsauce/turbo",
+      "status": "candidate-context",
+      "text": "Turbo is a framework built for LuaJIT 2 to simplify the task of building fast and scalable network applications. It uses a event-driven, non-blocking, no thread design to deliver excellent performance and minimal footprint to high-load applications while also providing excellent support for embedded uses. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kernelsauce/turbo",
+      "status": "candidate-context",
+      "text": ".. image:: https://raw.github.com/kernelsauce/turbo/master/doc/design/turbo.png"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kkharji/sqlite.lua",
+      "status": "candidate-context",
+      "text": "SQLite LuaJIT binding with a very simple api."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kkharji/sqlite.lua",
+      "status": "candidate-context",
+      "text": "sqlite.lua \ud83d\udcab"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "luvit/luvi",
+      "status": "candidate-context",
+      "text": "A project in-between luv and luvit."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "luvit/luvi",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/luvit/luvi/actions/workflows/ci.yml/badge.svg)](https://github.com/luvit/luvi/actions/workflows/ci.yml)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +153,24 @@
       "source_repo": "luvit/luv",
       "status": "candidate",
       "text": "luv"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kernelsauce/turbo",
+      "status": "candidate",
+      "text": ".. image:: https://raw.github.com/kernelsauce/turbo/master/doc/design/turbo.png"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kkharji/sqlite.lua",
+      "status": "candidate",
+      "text": "sqlite.lua \ud83d\udcab"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "luvit/luvi",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/luvit/luvi/actions/workflows/ci.yml/badge.svg)](https://github.com/luvit/luvi/actions/workflows/ci.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -196,11 +250,29 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "luvit/luv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "kernelsauce/turbo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "kkharji/sqlite.lua"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "luvit/luvi"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

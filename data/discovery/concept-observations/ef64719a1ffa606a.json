@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "adidas group API design guidelines"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<figure><picture><source srcset=\".gitbook/assets/adidas_company_logo_BWr.png\" media=\"(prefers-color-scheme: dark)\"><img src=\".gitbook/assets/adidas_company_logo_BWp.png\" alt=\"\"></picture><figcaption></figcaption></figure>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<figure><picture><source srcset=\".gitbook/assets/adidas_company_logo_BWr.png\" media=\"(prefers-color-scheme: dark)\"><img src=\".gitbook/assets/adidas_company_logo_BWp.png\" alt=\"\"></picture><figcaption></figcaption></figure>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19773649,
+      "status": "candidate",
+      "text": "porsche"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19773648,
+      "status": "candidate",
+      "text": "adler"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19773647,
+      "status": "candidate",
+      "text": "adolph"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19773646,
+      "status": "candidate",
+      "text": "adelman"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19773645,
+      "status": "candidate",
+      "text": "audi"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "adidas",
+      "sense_id": "adidas#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "adidas",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "adidas",
+  "observation_id": "ef64719a1ffa606a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "adidas",
+  "source_context_snippet": "<figure><picture><source srcset=\".gitbook/assets/adidas_company_logo_BWr.png\" media=\"(prefers-color-scheme: dark)\"><img src=\".gitbook/assets/adidas_company_logo_BWp.png\" alt=\"\"></picture><figcaption></figcaption></figure>",
+  "source_file": null,
+  "source_repo": "adidas/api-guidelines",
+  "source_repo_description": "adidas group API design guidelines"
+}

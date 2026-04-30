@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "P-H-C/phc-winner-argon2",
+      "target": "ergenius/eargon2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "P-H-C/phc-winner-argon2",
+      "target": "cjlarose/argon2-ffi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "P-H-C/phc-winner-argon2",
+      "target": "antelle/argon2-browser",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "P-H-C/phc-winner-argon2",
+      "target": "asmod4n/mruby-argon2",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-30T12:45:20.475770+00:00",
+  "source_repo": "P-H-C/phc-winner-argon2"
+}

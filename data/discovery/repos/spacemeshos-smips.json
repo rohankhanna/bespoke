@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T13:59:33.242071+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 342
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Spacemesh Improvement Proposals",
+    "fork": false,
+    "full_name": "spacemeshos/SMIPS",
+    "html_url": "https://github.com/spacemeshos/SMIPS",
+    "language": null,
+    "pushed_at": "2023-12-26T23:13:31Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2023-12-26T23:13:57Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

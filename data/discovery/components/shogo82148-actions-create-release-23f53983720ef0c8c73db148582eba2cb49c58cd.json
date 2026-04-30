@@ -1,0 +1,12 @@
+{
+  "component": "shogo82148/actions-create-release@23f53983720ef0c8c73db148582eba2cb49c58cd",
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "reviewdog/action-shfmt"
+    }
+  ]
+}

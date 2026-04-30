@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "niuiic/core.nvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "niuiic/core.nvim",
+      "target": "plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "niuiic/core.nvim",
+      "target": "utils",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:07:19.436902+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 99
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Neovim utils",
+    "fork": false,
+    "full_name": "niuiic/core.nvim",
+    "html_url": "https://github.com/niuiic/core.nvim",
+    "language": "Lua",
+    "pushed_at": "2024-05-11T04:33:52Z",
+    "stargazers_count": 11,
+    "topics": [
+      "neovim",
+      "plugin",
+      "utils"
+    ],
+    "updated_at": "2025-06-25T22:10:11Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Neovim utils",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "Neovim utils",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plugin"
+    },
+    {
+      "context_snippet": "Neovim utils",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "utils"
+    }
+  ]
+}

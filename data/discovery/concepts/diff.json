@@ -142,6 +142,18 @@
       "source_repo": "expr-lang/expr",
       "status": "candidate-context",
       "text": "diff"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "git-cola/git-cola",
+      "status": "candidate-context",
+      "text": "git-cola: The highly caffeinated Git GUI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "git-cola/git-cola",
+      "status": "candidate-context",
+      "text": "Git Cola is a powerful Git GUI with a slick and intuitive user interface."
     }
   ],
   "candidate_glosses": [
@@ -210,6 +222,12 @@
       "source_repo": "expr-lang/expr",
       "status": "candidate",
       "text": "diff"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "git-cola/git-cola",
+      "status": "candidate",
+      "text": "Git Cola is a powerful Git GUI with a slick and intuitive user interface."
     }
   ],
   "candidate_related_terms": [
@@ -325,11 +343,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/diff.yml",
       "source_repo": "expr-lang/expr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "git-cola/git-cola"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/diff.yml",
+      "source_repo": "expr-lang/expr"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

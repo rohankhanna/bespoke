@@ -31,6 +31,18 @@
       "source_repo": "aldernero/sketchy",
       "status": "candidate-context",
       "text": "![sketchy_logo](assets/images/logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openframeworks/openFrameworks",
+      "status": "candidate-context",
+      "text": "openFrameworks is a community-developed cross platform toolkit for creative coding in C++."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openframeworks/openFrameworks",
+      "status": "candidate-context",
+      "text": "[openFrameworks](http://openframeworks.cc/)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "aldernero/sketchy",
       "status": "candidate",
       "text": "![sketchy_logo](assets/images/logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openframeworks/openFrameworks",
+      "status": "candidate",
+      "text": "[openFrameworks](http://openframeworks.cc/)"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "aldernero/sketchy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "openframeworks/openFrameworks"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

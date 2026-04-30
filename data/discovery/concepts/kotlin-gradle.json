@@ -19,6 +19,18 @@
       "source_repo": "cortinico/kotlin-gradle-plugin-template",
       "status": "candidate-context",
       "text": "[![Use this template](https://img.shields.io/badge/-Use%20this%20template-brightgreen)](https://github.com/cortinico/kotlin-gradle-plugin-template/generate) [![Pre Merge Checks](https://github.com/cortinico/kotlin-gradle-plugin-template/workflows/Pre%20Merge%20Checks/badge.svg)]\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cortinico/ktfmt-gradle",
+      "status": "candidate-context",
+      "text": "A Gradle plugin to apply ktfmt to your builds, and reformat you Kotlin source code like a glimpse \ud83e\uddf9\ud83d\udc18"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cortinico/ktfmt-gradle",
+      "status": "candidate-context",
+      "text": "A wrapper to apply [ktfmt](https://github.com/facebookincubator/ktfmt) to your Gradle builds, and reformat you Kotlin"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "cortinico/kotlin-gradle-plugin-template",
       "status": "candidate",
       "text": "[![Use this template](https://img.shields.io/badge/-Use%20this%20template-brightgreen)](https://github.com/cortinico/kotlin-gradle-plugin-template/generate) [![Pre Merge Checks](https://github.com/cortinico/kotlin-gradle-plugin-template/workflows/Pre%20Merge%20Checks/badge.svg)]\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cortinico/ktfmt-gradle",
+      "status": "candidate",
+      "text": "A wrapper to apply [ktfmt](https://github.com/facebookincubator/ktfmt) to your Gradle builds, and reformat you Kotlin"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "cortinico/kotlin-gradle-plugin-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "cortinico/ktfmt-gradle"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

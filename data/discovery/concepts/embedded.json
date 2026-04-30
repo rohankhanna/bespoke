@@ -283,6 +283,30 @@
       "source_repo": "eddelbuettel/rinside",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/eddelbuettel/rinside/workflows/ci/badge.svg)](https://github.com/eddelbuettel/rinside/actions?query=workflow%3Aci)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "artichoke/spec",
+      "status": "candidate-context",
+      "text": "Artichoke fork of the Ruby Spec Suite aka ruby/spec"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artichoke/spec",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/ruby/spec.svg)](https://travis-ci.org/ruby/spec)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Sec-ant/prettier-plugin-embed",
+      "status": "candidate-context",
+      "text": "A configurable Prettier plugin to format embedded languages in JS/TS Files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Sec-ant/prettier-plugin-embed",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -423,6 +447,18 @@
       "source_repo": "eddelbuettel/rinside",
       "status": "candidate",
       "text": "[![CI](https://github.com/eddelbuettel/rinside/workflows/ci/badge.svg)](https://github.com/eddelbuettel/rinside/actions?query=workflow%3Aci)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artichoke/spec",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/ruby/spec.svg)](https://travis-ci.org/ruby/spec)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Sec-ant/prettier-plugin-embed",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -619,11 +655,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "eddelbuettel/rinside"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "artichoke/spec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Sec-ant/prettier-plugin-embed"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

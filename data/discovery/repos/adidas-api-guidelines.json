@@ -1,0 +1,241 @@
+{
+  "components": [
+    {
+      "component": "@stoplight/spectral",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@supermodel/cli",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adidas/api-guidelines",
+      "target": "adidas/adidas-contribution-guidelines",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "adidas/api-guidelines",
+      "target": "@stoplight/spectral",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "adidas/api-guidelines",
+      "target": "@supermodel/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adidas/api-guidelines",
+      "target": "adidas",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adidas/api-guidelines",
+      "target": "adidas-group",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adidas/api-guidelines",
+      "target": "architecture",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adidas/api-guidelines",
+      "target": "async-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adidas/api-guidelines",
+      "target": "asynchronous",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adidas/api-guidelines",
+      "target": "guidelines",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adidas/api-guidelines",
+      "target": "http",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adidas/api-guidelines",
+      "target": "kafka",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adidas/api-guidelines",
+      "target": "openapi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adidas/api-guidelines",
+      "target": "protocol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adidas/api-guidelines",
+      "target": "rest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adidas/api-guidelines",
+      "target": "rest-api",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:55:39.923253+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4337
+    },
+    {
+      "path": "package.json",
+      "size": 516
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "adidas group API design guidelines",
+    "fork": false,
+    "full_name": "adidas/api-guidelines",
+    "html_url": "https://github.com/adidas/api-guidelines",
+    "language": null,
+    "pushed_at": "2025-09-19T13:46:58Z",
+    "stargazers_count": 403,
+    "topics": [
+      "adidas",
+      "adidas-group",
+      "api",
+      "architecture",
+      "async-api",
+      "asynchronous",
+      "guidelines",
+      "http",
+      "kafka",
+      "openapi",
+      "protocol",
+      "rest",
+      "rest-api"
+    ],
+    "updated_at": "2026-04-21T11:47:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adidas/adidas-contribution-guidelines",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<figure><picture><source srcset=\".gitbook/assets/adidas_company_logo_BWr.png\" media=\"(prefers-color-scheme: dark)\"><img src=\".gitbook/assets/adidas_company_logo_BWp.png\" alt=\"\"></picture><figcaption></figcaption></figure>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adidas"
+    },
+    {
+      "context_snippet": "<figure><picture><source srcset=\".gitbook/assets/adidas_company_logo_BWr.png\" media=\"(prefers-color-scheme: dark)\"><img src=\".gitbook/assets/adidas_company_logo_BWp.png\" alt=\"\"></picture><figcaption></figcaption></figure>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adidas-group"
+    },
+    {
+      "context_snippet": "<figure><picture><source srcset=\".gitbook/assets/adidas_company_logo_BWr.png\" media=\"(prefers-color-scheme: dark)\"><img src=\".gitbook/assets/adidas_company_logo_BWp.png\" alt=\"\"></picture><figcaption></figcaption></figure>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "architecture"
+    },
+    {
+      "context_snippet": "<figure><picture><source srcset=\".gitbook/assets/adidas_company_logo_BWr.png\" media=\"(prefers-color-scheme: dark)\"><img src=\".gitbook/assets/adidas_company_logo_BWp.png\" alt=\"\"></picture><figcaption></figcaption></figure>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "async-api"
+    },
+    {
+      "context_snippet": "<figure><picture><source srcset=\".gitbook/assets/adidas_company_logo_BWr.png\" media=\"(prefers-color-scheme: dark)\"><img src=\".gitbook/assets/adidas_company_logo_BWp.png\" alt=\"\"></picture><figcaption></figcaption></figure>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asynchronous"
+    },
+    {
+      "context_snippet": "<figure><picture><source srcset=\".gitbook/assets/adidas_company_logo_BWr.png\" media=\"(prefers-color-scheme: dark)\"><img src=\".gitbook/assets/adidas_company_logo_BWp.png\" alt=\"\"></picture><figcaption></figcaption></figure>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "guidelines"
+    },
+    {
+      "context_snippet": "<figure><picture><source srcset=\".gitbook/assets/adidas_company_logo_BWr.png\" media=\"(prefers-color-scheme: dark)\"><img src=\".gitbook/assets/adidas_company_logo_BWp.png\" alt=\"\"></picture><figcaption></figcaption></figure>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http"
+    },
+    {
+      "context_snippet": "<figure><picture><source srcset=\".gitbook/assets/adidas_company_logo_BWr.png\" media=\"(prefers-color-scheme: dark)\"><img src=\".gitbook/assets/adidas_company_logo_BWp.png\" alt=\"\"></picture><figcaption></figcaption></figure>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kafka"
+    },
+    {
+      "context_snippet": "<figure><picture><source srcset=\".gitbook/assets/adidas_company_logo_BWr.png\" media=\"(prefers-color-scheme: dark)\"><img src=\".gitbook/assets/adidas_company_logo_BWp.png\" alt=\"\"></picture><figcaption></figcaption></figure>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openapi"
+    },
+    {
+      "context_snippet": "<figure><picture><source srcset=\".gitbook/assets/adidas_company_logo_BWr.png\" media=\"(prefers-color-scheme: dark)\"><img src=\".gitbook/assets/adidas_company_logo_BWp.png\" alt=\"\"></picture><figcaption></figcaption></figure>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "protocol"
+    },
+    {
+      "context_snippet": "<figure><picture><source srcset=\".gitbook/assets/adidas_company_logo_BWr.png\" media=\"(prefers-color-scheme: dark)\"><img src=\".gitbook/assets/adidas_company_logo_BWp.png\" alt=\"\"></picture><figcaption></figcaption></figure>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rest"
+    },
+    {
+      "context_snippet": "<figure><picture><source srcset=\".gitbook/assets/adidas_company_logo_BWr.png\" media=\"(prefers-color-scheme: dark)\"><img src=\".gitbook/assets/adidas_company_logo_BWp.png\" alt=\"\"></picture><figcaption></figcaption></figure>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rest-api"
+    }
+  ]
+}

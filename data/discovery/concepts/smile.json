@@ -1,0 +1,122 @@
+{
+  "aliases": [
+    "smile"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FasterXML/jackson-dataformats-binary",
+      "status": "candidate-context",
+      "text": "Uber-project for standard Jackson binary format backends: avro, cbor, ion, protobuf, smile"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FasterXML/jackson-dataformats-binary",
+      "status": "candidate-context",
+      "text": "This is a multi-module umbrella project for [Jackson](../../../jackson)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FasterXML/jackson-dataformats-binary",
+      "status": "candidate",
+      "text": "This is a multi-module umbrella project for [Jackson](../../../jackson)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031483,
+      "status": "candidate",
+      "text": "grin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031449,
+      "status": "candidate",
+      "text": "grinning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30031402,
+      "status": "candidate",
+      "text": "smirk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30027284,
+      "status": "candidate",
+      "text": "laughter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30027261,
+      "status": "candidate",
+      "text": "laugh"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 70039,
+      "status": "candidate",
+      "text": "grin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7025,
+      "status": "candidate",
+      "text": "smiling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6022,
+      "status": "candidate",
+      "text": "grinning"
+    }
+  ],
+  "canonical_name": "smile",
+  "concept_id": "smile",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "FasterXML/jackson-dataformats-binary"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "smile",
+      "sense_id": "smile#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,171 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/development.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/development.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/development.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/development.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml"
+    },
+    {
+      "component": "toolmantim/release-drafter@v5.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "guard/listen",
+      "target": "maher4ever/wdm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "guard/listen",
+      "target": "mat813/rb-kqueue",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "guard/listen",
+      "target": "nex3/rb-inotify",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "guard/listen",
+      "target": "stereobooster/rb-fchange",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/development.yml",
+      "source_repo": "guard/listen",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/development.yml",
+      "source_repo": "guard/listen",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/development.yml",
+      "source_repo": "guard/listen",
+      "target": "Development",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "guard/listen",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "guard/listen",
+      "target": "toolmantim/release-drafter@v5.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "guard/listen",
+      "target": "Push",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:53:15.428900+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21636
+    },
+    {
+      "path": ".github/workflows/development.yml",
+      "size": 1407
+    },
+    {
+      "path": ".github/workflows/push.yml",
+      "size": 283
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The Listen gem listens to file modifications and notifies you about the changes.",
+    "fork": false,
+    "full_name": "guard/listen",
+    "html_url": "https://github.com/guard/listen",
+    "language": "Ruby",
+    "pushed_at": "2026-01-16T11:22:13Z",
+    "stargazers_count": 1951,
+    "topics": [],
+    "updated_at": "2026-04-30T12:26:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "maher4ever/wdm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mat813/rb-kqueue",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nex3/rb-inotify",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stereobooster/rb-fchange",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Development",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/development.yml",
+      "term": "Development"
+    },
+    {
+      "context_snippet": "Push",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push.yml",
+      "term": "Push"
+    }
+  ]
+}

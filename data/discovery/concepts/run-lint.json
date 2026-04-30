@@ -19,12 +19,66 @@
       "source_repo": "go-logr/logr",
       "status": "candidate-context",
       "text": "Run lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-logr/glogr",
+      "status": "candidate-context",
+      "text": "An implementation of logr (Go logging) with glog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-logr/glogr",
+      "status": "candidate-context",
+      "text": "Run lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-logr/stdr",
+      "status": "candidate-context",
+      "text": "logr implementation against the stdlib log package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-logr/stdr",
+      "status": "candidate-context",
+      "text": "Run lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-logr/zapr",
+      "status": "candidate-context",
+      "text": "A logr implementation using Zap"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-logr/zapr",
+      "status": "candidate-context",
+      "text": "Run lint"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "go-logr/logr",
+      "status": "candidate",
+      "text": "Run lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-logr/glogr",
+      "status": "candidate",
+      "text": "Run lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-logr/stdr",
+      "status": "candidate",
+      "text": "Run lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-logr/zapr",
       "status": "candidate",
       "text": "Run lint"
     }
@@ -76,11 +130,29 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/lint.yaml",
       "source_repo": "go-logr/logr"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "go-logr/glogr"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "go-logr/stdr"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "go-logr/zapr"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

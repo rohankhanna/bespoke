@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -276,6 +276,26 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/issues.yml",
       "source_repo": "DNSCrypt/dnscrypt-resolvers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/stale-issues.yml",
+      "source_repo": "FunAudioLLM/CosyVoice"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/inactive-issues.yaml",
+      "source_repo": "clearml/clearml-helm-charts"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/cron.yml",
+      "source_repo": "tinyobjloader/tinyobjloader"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/stale-issues.yml",
+      "source_repo": "microsoft/sample-app-aoai-chatGPT"
     }
   ],
   "term": "Close inactive issues"

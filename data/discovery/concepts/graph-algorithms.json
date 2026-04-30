@@ -19,6 +19,18 @@
       "source_repo": "rapidsai/cugraph",
       "status": "candidate-context",
       "text": "<h1 align=\"center\"; style=\"font-style: italic\";>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "igraph/rigraph",
+      "status": "candidate-context",
+      "text": "igraph R package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "igraph/rigraph",
+      "status": "candidate-context",
+      "text": "<!-- badges: start -->"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "rapidsai/cugraph",
       "status": "candidate",
       "text": "<h1 align=\"center\"; style=\"font-style: italic\";>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "igraph/rigraph",
+      "status": "candidate",
+      "text": "<!-- badges: start -->"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "rapidsai/cugraph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "igraph/rigraph"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

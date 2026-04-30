@@ -32,6 +32,18 @@
       "source_repo": "shibing624/text2vec",
       "status": "candidate-context",
       "text": "macOS build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AdaptiveCpp/AdaptiveCpp",
+      "status": "candidate-context",
+      "text": "Compiler for multiple programming models (SYCL, C++ standard parallelism, HIP/CUDA) for CPUs and GPUs from all vendors: The independent, community-driven compiler for C++-based heterogeneous programming models. Lets applications adapt themselves to all the hardware in the system - even at runtime!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdaptiveCpp/AdaptiveCpp",
+      "status": "candidate-context",
+      "text": "macOS build"
     }
   ],
   "candidate_glosses": [
@@ -44,6 +56,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "shibing624/text2vec",
+      "status": "candidate",
+      "text": "macOS build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdaptiveCpp/AdaptiveCpp",
       "status": "candidate",
       "text": "macOS build"
     }
@@ -101,11 +119,17 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/macos.yml",
       "source_repo": "shibing624/text2vec"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "AdaptiveCpp/AdaptiveCpp"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

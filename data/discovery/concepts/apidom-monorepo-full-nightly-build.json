@@ -1,0 +1,93 @@
+{
+  "aliases": [
+    "ApiDOM Monorepo full nightly build"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swagger-api/apidom",
+      "status": "candidate-context",
+      "text": "Semantic parser for API specifications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/apidom",
+      "status": "candidate-context",
+      "text": "ApiDOM Monorepo full nightly build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/apidom",
+      "status": "candidate",
+      "text": "ApiDOM Monorepo full nightly build"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26382,
+      "status": "candidate",
+      "text": "sandbag"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26304,
+      "status": "candidate",
+      "text": "shot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26242,
+      "status": "candidate",
+      "text": "epure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22702,
+      "status": "candidate",
+      "text": "daywork"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "ApiDOM Monorepo full nightly build",
+  "concept_id": "apidom-monorepo-full-nightly-build",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/nightly-build.yml",
+      "source_repo": "swagger-api/apidom"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "ApiDOM Monorepo full nightly build",
+      "sense_id": "apidom-monorepo-full-nightly-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,12 @@
+{
+  "component": "ludeeus/action-require-labels@7ef0dba93830452589680da7cdea2e2c4c0f8dff",
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pull_requests_labels.yml",
+      "source_repo": "hacs/integration"
+    }
+  ]
+}

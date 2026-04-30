@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "OpenAPI 3.0 Specification for the Box APIs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repository contains the Box OpenAPI 3.0 Specification (OAS3) for the [Box Platform API](https://developers.box.com/)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repository contains the Box OpenAPI 3.0 Specification (OAS3) for the [Box Platform API](https://developers.box.com/)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "openapi",
+      "sense_id": "openapi#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "openapi",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "openapi",
+  "observation_id": "1a70d0d8e57d520e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "openapi",
+  "source_context_snippet": "This repository contains the Box OpenAPI 3.0 Specification (OAS3) for the [Box Platform API](https://developers.box.com/).",
+  "source_file": null,
+  "source_repo": "box/box-openapi",
+  "source_repo_description": "OpenAPI 3.0 Specification for the Box APIs"
+}

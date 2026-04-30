@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T15:59:12.279973+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 848
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1457
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Lua PromQL parser",
+    "fork": false,
+    "full_name": "mtrbpr/lua-promql-parser",
+    "html_url": "https://github.com/mtrbpr/lua-promql-parser",
+    "language": "Rust",
+    "pushed_at": "2025-01-18T15:01:22Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2025-10-22T07:34:56Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

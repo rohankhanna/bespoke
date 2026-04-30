@@ -1,0 +1,88 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Monthly All-in-One Image Build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Monthly All-in-One Image Build"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28211,
+      "status": "candidate",
+      "text": "full"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17722,
+      "status": "candidate",
+      "text": "calendar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17722,
+      "status": "candidate",
+      "text": "month"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17722,
+      "status": "candidate",
+      "text": "mooning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17722,
+      "status": "candidate",
+      "text": "quarter"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Monthly All-in-One Image Build",
+      "sense_id": "monthly-all-in-one-image-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "monthly-all-in-one-image-build",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "monthly-all-in-one-image-build",
+  "observation_id": "3956906c7348beab",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "Monthly All-in-One Image Build",
+  "source_context_snippet": "Monthly All-in-One Image Build",
+  "source_file": ".github/workflows/release_vchord_suite.yml",
+  "source_repo": "tensorchord/VectorChord-images",
+  "source_repo_description": null
+}

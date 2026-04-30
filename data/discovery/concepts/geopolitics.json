@@ -55,6 +55,18 @@
       "source_repo": "danielrosehill/Geopol-Forecaster",
       "status": "candidate-context",
       "text": "![Geopol Forecaster](docs/assets/banner.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/Geopol-Forecasts-Index",
+      "status": "candidate-context",
+      "text": "Index of prediction runs from Geopol Forecaster with accuracy tracking. Snowglobe + LLM Council pipeline."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Geopol-Forecasts-Index",
+      "status": "candidate-context",
+      "text": "Index of prediction runs across two related pipelines:"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "danielrosehill/Geopol-Forecaster",
       "status": "candidate",
       "text": "![Geopol Forecaster](docs/assets/banner.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Geopol-Forecasts-Index",
+      "status": "candidate",
+      "text": "Index of prediction runs across two related pipelines:"
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +166,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "danielrosehill/Geopol-Forecaster"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Geopol-Forecasts-Index"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

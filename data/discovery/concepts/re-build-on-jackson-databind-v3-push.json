@@ -1,0 +1,141 @@
+{
+  "aliases": [
+    "Re-build on jackson-databind v3 push"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FasterXML/jackson-dataformat-xml",
+      "status": "candidate-context",
+      "text": "Extension for Jackson JSON processor that adds support for serializing POJOs as XML (and deserializing from XML) as an alternative to JSON"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FasterXML/jackson-dataformat-xml",
+      "status": "candidate-context",
+      "text": "Re-build on jackson-databind v3 push"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FasterXML/jackson-dataformats-binary",
+      "status": "candidate-context",
+      "text": "Uber-project for standard Jackson binary format backends: avro, cbor, ion, protobuf, smile"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FasterXML/jackson-dataformats-binary",
+      "status": "candidate-context",
+      "text": "Re-build on jackson-databind v3 push"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FasterXML/jackson-dataformats-text",
+      "status": "candidate-context",
+      "text": "Uber-project for (some) standard Jackson textual format backends: csv, properties, yaml (xml to be added in future)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FasterXML/jackson-dataformats-text",
+      "status": "candidate-context",
+      "text": "Re-build on jackson-databind v3 push"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FasterXML/jackson-dataformat-xml",
+      "status": "candidate",
+      "text": "Re-build on jackson-databind v3 push"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FasterXML/jackson-dataformats-binary",
+      "status": "candidate",
+      "text": "Re-build on jackson-databind v3 push"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FasterXML/jackson-dataformats-text",
+      "status": "candidate",
+      "text": "Re-build on jackson-databind v3 push"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11104,
+      "status": "candidate",
+      "text": "byte"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11104,
+      "status": "candidate",
+      "text": "coupler"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11104,
+      "status": "candidate",
+      "text": "inch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11104,
+      "status": "candidate",
+      "text": "oncogene"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Re-build on jackson-databind v3 push",
+  "concept_id": "re-build-on-jackson-databind-v3-push",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/dep_build_v3.yml",
+      "source_repo": "FasterXML/jackson-dataformat-xml"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/dep_build_v3.yml",
+      "source_repo": "FasterXML/jackson-dataformats-binary"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/dep_build_v3.yml",
+      "source_repo": "FasterXML/jackson-dataformats-text"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Re-build on jackson-databind v3 push",
+      "sense_id": "re-build-on-jackson-databind-v3-push#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

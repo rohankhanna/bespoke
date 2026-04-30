@@ -115,6 +115,18 @@
       "source_repo": "r-lib/actions",
       "status": "candidate-context",
       "text": "ClusterFuzzLite PR fuzzing"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "quic-go/quic-go",
+      "status": "candidate-context",
+      "text": "A production-ready QUIC implementation in pure Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quic-go/quic-go",
+      "status": "candidate-context",
+      "text": "ClusterFuzzLite PR fuzzing"
     }
   ],
   "candidate_glosses": [
@@ -169,6 +181,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "r-lib/actions",
+      "status": "candidate",
+      "text": "ClusterFuzzLite PR fuzzing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quic-go/quic-go",
       "status": "candidate",
       "text": "ClusterFuzzLite PR fuzzing"
     }
@@ -268,11 +286,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/cflite_pr.yml",
       "source_repo": "r-lib/actions"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/clusterfuzz-lite-pr.yml",
+      "source_repo": "quic-go/quic-go"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

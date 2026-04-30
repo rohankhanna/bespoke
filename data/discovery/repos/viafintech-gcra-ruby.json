@@ -1,0 +1,126 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "shogo82148/actions-setup-redis@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "viafintech/gcra-ruby",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "viafintech/gcra-ruby",
+      "target": "shogo82148/actions-setup-redis@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "viafintech/gcra-ruby",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "viafintech/gcra-ruby",
+      "target": "Ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "viafintech/gcra-ruby",
+      "target": "rate-limiting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "viafintech/gcra-ruby",
+      "target": "redis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "viafintech/gcra-ruby",
+      "target": "ruby-gem",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:49:03.474188+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3406
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 898
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Generic cell rate algorithm (leaky bucket) implementation for rate limiting",
+    "fork": false,
+    "full_name": "viafintech/gcra-ruby",
+    "html_url": "https://github.com/viafintech/gcra-ruby",
+    "language": "Ruby",
+    "pushed_at": "2025-12-29T22:26:27Z",
+    "stargazers_count": 52,
+    "topics": [
+      "rate-limiting",
+      "redis",
+      "ruby-gem"
+    ],
+    "updated_at": "2025-12-29T22:26:28Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Ruby",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Ruby"
+    },
+    {
+      "context_snippet": "![Build Status](https://github.com/viafintech/gcra-ruby/actions/workflows/test.yml/badge.svg) [![Code Climate](https://codeclimate.com/github/Barzahlen/gcra-ruby/badges/gpa.svg)](https://codeclimate.com/github/Barzahlen/gcra-ruby) [![RubyDoc](https://img.shields.io/badge/ruby-do\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rate-limiting"
+    },
+    {
+      "context_snippet": "![Build Status](https://github.com/viafintech/gcra-ruby/actions/workflows/test.yml/badge.svg) [![Code Climate](https://codeclimate.com/github/Barzahlen/gcra-ruby/badges/gpa.svg)](https://codeclimate.com/github/Barzahlen/gcra-ruby) [![RubyDoc](https://img.shields.io/badge/ruby-do\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "redis"
+    },
+    {
+      "context_snippet": "![Build Status](https://github.com/viafintech/gcra-ruby/actions/workflows/test.yml/badge.svg) [![Code Climate](https://codeclimate.com/github/Barzahlen/gcra-ruby/badges/gpa.svg)](https://codeclimate.com/github/Barzahlen/gcra-ruby) [![RubyDoc](https://img.shields.io/badge/ruby-do\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby-gem"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "\ud83d\ude80 Publish Plugin"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bonukai/jellyfin-plugin-mediatracker",
+      "status": "candidate-context",
+      "text": "Jellyfin plugin for MediaTracker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bonukai/jellyfin-plugin-mediatracker",
+      "status": "candidate-context",
+      "text": "'\ud83d\ude80 Publish Plugin'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bonukai/jellyfin-plugin-mediatracker",
+      "status": "candidate",
+      "text": "'\ud83d\ude80 Publish Plugin'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "accrete"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "acidophilus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "add"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "add on"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "add together"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "\ud83d\ude80 Publish Plugin",
+  "concept_id": "publish-plugin",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "bonukai/jellyfin-plugin-mediatracker"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "\ud83d\ude80 Publish Plugin",
+      "sense_id": "publish-plugin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

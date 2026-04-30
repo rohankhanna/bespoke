@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Simple Monte Carlo algorithm to determine dead stones on a Go board."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Simple Monte Carlo algorithm to determine dead stones on a Go board."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Simple Monte Carlo algorithm to determine dead stones on a Go board."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019769,
+      "status": "candidate",
+      "text": "weiqi"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019768,
+      "status": "candidate",
+      "text": "backgammon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019766,
+      "status": "candidate",
+      "text": "table board"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019765,
+      "status": "candidate",
+      "text": "wei qi"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019764,
+      "status": "candidate",
+      "text": "checkerboard"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "baduk",
+      "sense_id": "baduk#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "baduk",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "baduk",
+  "observation_id": "746a044d9fbf956f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "baduk",
+  "source_context_snippet": "Simple Monte Carlo algorithm to determine dead stones on a Go board.",
+  "source_file": null,
+  "source_repo": "SabakiHQ/deadstones",
+  "source_repo_description": "Simple Monte Carlo algorithm to determine dead stones on a Go board."
+}

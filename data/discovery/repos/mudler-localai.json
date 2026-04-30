@@ -249,13 +249,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "Dockerfile",
-      "source_repo": "mudler/LocalAI",
-      "target": "nvidia/isaac-gr00t",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/backend.yml",
       "source_repo": "mudler/LocalAI",
@@ -585,7 +578,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T08:12:37.975293+00:00",
+  "fetched_at": "2026-04-30T16:13:53.517453+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -638,7 +631,7 @@
     "html_url": "https://github.com/mudler/LocalAI",
     "language": "Go",
     "pushed_at": "2026-04-30T06:44:45Z",
-    "stargazers_count": 45937,
+    "stargazers_count": 45947,
     "topics": [
       "agents",
       "ai",
@@ -659,7 +652,7 @@
       "text-generation",
       "tts"
     ],
-    "updated_at": "2026-04-30T07:24:37Z"
+    "updated_at": "2026-04-30T15:29:13Z"
   },
   "repo_links": [
     {
@@ -676,11 +669,6 @@
       "edge_type": "explicit-github-link",
       "full_name": "go-skynet/localai",
       "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "nvidia/isaac-gr00t",
-      "source_file": "Dockerfile"
     }
   ],
   "terms": [

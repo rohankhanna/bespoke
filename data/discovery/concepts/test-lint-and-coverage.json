@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test, lint and coverage"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bombsimon/logrusr",
+      "status": "candidate-context",
+      "text": "\ud83d\udcdd A logr implementation using Logrus"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bombsimon/logrusr",
+      "status": "candidate-context",
+      "text": "Test, lint and coverage"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bombsimon/logrusr",
+      "status": "candidate",
+      "text": "Test, lint and coverage"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20028,
+      "status": "candidate",
+      "text": "screen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19904,
+      "status": "candidate",
+      "text": "view"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19904,
+      "status": "candidate",
+      "text": "viewing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19725,
+      "status": "candidate",
+      "text": "continental quilt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19725,
+      "status": "candidate",
+      "text": "downed"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test, lint and coverage",
+  "concept_id": "test-lint-and-coverage",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "bombsimon/logrusr"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test, lint and coverage",
+      "sense_id": "test-lint-and-coverage#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

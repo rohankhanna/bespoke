@@ -1,0 +1,168 @@
+{
+  "components": [
+    {
+      "component": "es-check",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ahmadnassri/action-dependabot-auto-merge@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot_auto_merge.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hchiam/_2DNote",
+      "target": "hchiam/draggable",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hchiam/_2DNote",
+      "target": "hchiam/generator-hchiam-learning",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hchiam/_2DNote",
+      "target": "hchiam/flying-focus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hchiam/_2DNote",
+      "target": "hchiam/keyboard-focus-trap",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hchiam/_2DNote",
+      "target": "es-check",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot_auto_merge.yml",
+      "source_repo": "hchiam/_2DNote",
+      "target": "ahmadnassri/action-dependabot-auto-merge@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hchiam/_2DNote",
+      "target": "2d-position",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hchiam/_2DNote",
+      "target": "blindness",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hchiam/_2DNote",
+      "target": "sonification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hchiam/_2DNote",
+      "target": "vision",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:50:47.998471+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9700
+    },
+    {
+      "path": "package.json",
+      "size": 670
+    },
+    {
+      "path": ".github/workflows/dependabot_auto_merge.yml",
+      "size": 227
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Potential: power 2D apps that people can use together, regardless of vision capabilities? https://codepen.io/hchiam/full/eYYdVeX",
+    "fork": false,
+    "full_name": "hchiam/_2DNote",
+    "html_url": "https://github.com/hchiam/_2DNote",
+    "language": "HTML",
+    "pushed_at": "2024-08-28T04:13:31Z",
+    "stargazers_count": 5,
+    "topics": [
+      "2d-position",
+      "blindness",
+      "sonification",
+      "vision"
+    ],
+    "updated_at": "2024-08-28T04:13:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hchiam/draggable",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hchiam/flying-focus",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hchiam/generator-hchiam-learning",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hchiam/keyboard-focus-trap",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[Live Demo](https://github.com/hchiam/_2DNote#live-demo)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "2d-position"
+    },
+    {
+      "context_snippet": "[Live Demo](https://github.com/hchiam/_2DNote#live-demo)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blindness"
+    },
+    {
+      "context_snippet": "[Live Demo](https://github.com/hchiam/_2DNote#live-demo)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sonification"
+    },
+    {
+      "context_snippet": "[Live Demo](https://github.com/hchiam/_2DNote#live-demo)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision"
+    }
+  ]
+}

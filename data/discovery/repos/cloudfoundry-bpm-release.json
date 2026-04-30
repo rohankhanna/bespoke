@@ -1,0 +1,127 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "cloudfoundry/bpm-release",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "cloudfoundry/bpm-release",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "cloudfoundry/bpm-release",
+      "target": "golangci/golangci-lint-action@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudfoundry/bpm-release",
+      "target": "bosh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudfoundry/bpm-release",
+      "target": "bosh-addon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudfoundry/bpm-release",
+      "target": "containers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudfoundry/bpm-release",
+      "target": "security",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:05:42.662577+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2985
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 363
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "isolated bosh jobs",
+    "fork": false,
+    "full_name": "cloudfoundry/bpm-release",
+    "html_url": "https://github.com/cloudfoundry/bpm-release",
+    "language": "Go",
+    "pushed_at": "2026-04-25T10:36:33Z",
+    "stargazers_count": 33,
+    "topics": [
+      "bosh",
+      "bosh-addon",
+      "containers",
+      "security"
+    ],
+    "updated_at": "2026-04-25T10:36:36Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "> Isolated BOSH Jobs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bosh"
+    },
+    {
+      "context_snippet": "> Isolated BOSH Jobs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bosh-addon"
+    },
+    {
+      "context_snippet": "> Isolated BOSH Jobs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "containers"
+    },
+    {
+      "context_snippet": "> Isolated BOSH Jobs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security"
+    }
+  ]
+}

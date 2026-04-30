@@ -31,6 +31,42 @@
       "source_repo": "nagadomi/waifu2x",
       "status": "candidate-context",
       "text": "Image Super-Resolution for Anime-style art using Deep Convolutional Neural Networks."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AmusementClub/vs-mlrt",
+      "status": "candidate-context",
+      "text": "Efficient CPU/GPU ML Runtimes for VapourSynth (with built-in support for waifu2x, DPIR, RealESRGANv2/v3, Real-CUGAN, RIFE, SCUNet, ArtCNN and more!)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AmusementClub/vs-mlrt",
+      "status": "candidate-context",
+      "text": "This project provides VapourSynth ML filter runtimes for a variety of platforms:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DeadSix27/waifu2x-converter-cpp",
+      "status": "candidate-context",
+      "text": "Improved fork of Waifu2X C++ using OpenCL and OpenCV"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DeadSix27/waifu2x-converter-cpp",
+      "status": "candidate-context",
+      "text": "[![Discord](https://img.shields.io/badge/Discord-Join-blue.svg)](https://discord.gg/jCAFvHM2WK) :: [![Downloads522](https://img.shields.io/github/downloads/DeadSix27/waifu2x-converter-cpp/latest/total.svg)](https://github.com/DeadSix27/waifu2x-converter-cpp/releases) :: [![Total\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nagadomi/nunif",
+      "status": "candidate-context",
+      "text": "Misc; latest version of waifu2x;  2D video to stereo 3D video conversion"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nagadomi/nunif",
+      "status": "candidate-context",
+      "text": "My playground."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +81,24 @@
       "source_repo": "nagadomi/waifu2x",
       "status": "candidate",
       "text": "Image Super-Resolution for Anime-style art using Deep Convolutional Neural Networks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AmusementClub/vs-mlrt",
+      "status": "candidate",
+      "text": "This project provides VapourSynth ML filter runtimes for a variety of platforms:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DeadSix27/waifu2x-converter-cpp",
+      "status": "candidate",
+      "text": "[![Discord](https://img.shields.io/badge/Discord-Join-blue.svg)](https://discord.gg/jCAFvHM2WK) :: [![Downloads522](https://img.shields.io/github/downloads/DeadSix27/waifu2x-converter-cpp/latest/total.svg)](https://github.com/DeadSix27/waifu2x-converter-cpp/releases) :: [![Total\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nagadomi/nunif",
+      "status": "candidate",
+      "text": "My playground."
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +118,29 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "nagadomi/waifu2x"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "AmusementClub/vs-mlrt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "DeadSix27/waifu2x-converter-cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "nagadomi/nunif"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

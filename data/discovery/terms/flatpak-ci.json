@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/check.yml",
       "source_repo": "flatpak/flatpak"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/flatpak-release.yml",
+      "source_repo": "benjamimgois/goverlay"
     }
   ],
   "term": "Flatpak CI"

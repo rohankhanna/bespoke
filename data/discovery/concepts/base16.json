@@ -175,6 +175,60 @@
       "source_repo": "tinted-theming/tinty",
       "status": "candidate-context",
       "text": "[![Matrix Chat](https://img.shields.io/matrix/tinted-theming:matrix.org)](https://matrix.to/#/#tinted-theming:matrix.org)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Misterio77/flavours",
+      "status": "candidate-context",
+      "text": "\ud83c\udfa8\ud83d\udca7 An easy to use base16 scheme manager that integrates with any workflow."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Misterio77/flavours",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tinted-theming/tinted-vim",
+      "status": "candidate-context",
+      "text": "tinted-vim refreshes and commits new themes weekly automatically and has a documented build process."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/tinted-vim",
+      "status": "candidate-context",
+      "text": "Formerly base16-vim, but now supports multiple scheme systems, currently"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/base16-waybar",
+      "status": "candidate-context",
+      "text": "This repo provides templates for using"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ahmadawais/base16-shades-of-purple",
+      "status": "candidate-context",
+      "text": "\ud83e\udd84 Shades of Purple \u2014 A professional theme with hand-picked & bold shades of purple for Base16."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ahmadawais/base16-shades-of-purple",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tinted-theming/tinted-xresources",
+      "status": "candidate-context",
+      "text": "Base16 and Base24 for Xresources"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/tinted-xresources",
+      "status": "candidate-context",
+      "text": "Tinted themes for [Xresources]. Have a look at the [gallery] page for"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +315,36 @@
       "source_repo": "tinted-theming/tinty",
       "status": "candidate",
       "text": "[![Matrix Chat](https://img.shields.io/matrix/tinted-theming:matrix.org)](https://matrix.to/#/#tinted-theming:matrix.org)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Misterio77/flavours",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/tinted-vim",
+      "status": "candidate",
+      "text": "Formerly base16-vim, but now supports multiple scheme systems, currently"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/base16-waybar",
+      "status": "candidate",
+      "text": "This repo provides templates for using"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ahmadawais/base16-shades-of-purple",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/tinted-xresources",
+      "status": "candidate",
+      "text": "Tinted themes for [Xresources]. Have a look at the [gallery] page for"
     }
   ],
   "candidate_related_terms": [],
@@ -364,11 +448,59 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "tinted-theming/tinty"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "RealFerdinandDeSaussure/base16-builder-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "tinted-theming/base16-jetbrains"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Misterio77/flavours"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "tinted-theming/tinted-vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "tinted-theming/base16-waybar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ahmadawais/base16-shades-of-purple"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "tinted-theming/tinted-xfce4-terminal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "tinted-theming/tinted-xresources"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

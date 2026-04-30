@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Code-Context-Feature-Requests",
+      "target": "ai-clis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Code-Context-Feature-Requests",
+      "target": "claude-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Code-Context-Feature-Requests",
+      "target": "context-handling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Code-Context-Feature-Requests",
+      "target": "documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Code-Context-Feature-Requests",
+      "target": "feature-requests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:57:54.378775+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 677
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A couple of feature requests (including my own) discussing context handling in Claude code",
+    "fork": false,
+    "full_name": "danielrosehill/Claude-Code-Context-Feature-Requests",
+    "html_url": "https://github.com/danielrosehill/Claude-Code-Context-Feature-Requests",
+    "language": null,
+    "pushed_at": "2025-10-09T10:36:16Z",
+    "stargazers_count": 0,
+    "topics": [
+      "ai-clis",
+      "claude-code",
+      "context-handling",
+      "documentation",
+      "feature-requests"
+    ],
+    "updated_at": "2025-10-09T10:36:40Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A collection of feature requests related to context and task management in Claude Code.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-clis"
+    },
+    {
+      "context_snippet": "A collection of feature requests related to context and task management in Claude Code.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code"
+    },
+    {
+      "context_snippet": "A collection of feature requests related to context and task management in Claude Code.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "context-handling"
+    },
+    {
+      "context_snippet": "A collection of feature requests related to context and task management in Claude Code.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "documentation"
+    },
+    {
+      "context_snippet": "A collection of feature requests related to context and task management in Claude Code.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "feature-requests"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dpb587/openvpn-bosh-release",
+      "target": "bosh-release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dpb587/openvpn-bosh-release",
+      "target": "openvpn",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:05:45.283728+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 318
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "A BOSH release to help manage an OpenVPN network.",
+    "fork": true,
+    "full_name": "dpb587/openvpn-bosh-release",
+    "html_url": "https://github.com/dpb587/openvpn-bosh-release",
+    "language": "Shell",
+    "pushed_at": "2022-06-01T16:38:04Z",
+    "stargazers_count": 11,
+    "topics": [
+      "bosh-release",
+      "openvpn",
+      "vpn"
+    ],
+    "updated_at": "2023-07-25T13:53:21Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A [BOSH](https://bosh.io/) release to help manage an [OpenVPN](http://openvpn.net/) network.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bosh-release"
+    },
+    {
+      "context_snippet": "A [BOSH](https://bosh.io/) release to help manage an [OpenVPN](http://openvpn.net/) network.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openvpn"
+    }
+  ]
+}

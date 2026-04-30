@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T13:59:43.952361+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 984
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Proof of concept tool to detect RandomX cryptojacking malware on Windows",
+    "fork": false,
+    "full_name": "tevador/randomx-sniffer",
+    "html_url": "https://github.com/tevador/randomx-sniffer",
+    "language": "C++",
+    "pushed_at": "2022-01-06T13:41:40Z",
+    "stargazers_count": 68,
+    "topics": [],
+    "updated_at": "2026-04-17T20:22:16Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

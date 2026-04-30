@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dreasysnail/RetGen",
+      "target": "facebookresearch/dpr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dreasysnail/RetGen",
+      "target": "microsoft/ance",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dreasysnail/RetGen",
+      "target": "pytorch/fairseq",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:56:26.526604+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11071
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "dreasysnail/RetGen",
+    "html_url": "https://github.com/dreasysnail/RetGen",
+    "language": "Python",
+    "pushed_at": "2022-10-04T06:42:58Z",
+    "stargazers_count": 116,
+    "topics": [],
+    "updated_at": "2026-01-15T15:52:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/dpr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/ance",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pytorch/fairseq",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

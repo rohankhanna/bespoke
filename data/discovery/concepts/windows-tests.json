@@ -69,6 +69,18 @@
       "source_repo": "LavaMoat/LavaMoat",
       "status": "candidate-context",
       "text": "Windows Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Masterminds/vcs",
+      "status": "candidate-context",
+      "text": "VCS Repo management through a common interface in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Masterminds/vcs",
+      "status": "candidate-context",
+      "text": "Windows Tests"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "LavaMoat/LavaMoat",
+      "status": "candidate",
+      "text": "Windows Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Masterminds/vcs",
       "status": "candidate",
       "text": "Windows Tests"
     }
@@ -174,11 +192,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/nodejs-win.yml",
       "source_repo": "LavaMoat/LavaMoat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/windows-tests.yaml",
+      "source_repo": "Masterminds/vcs"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -908,6 +908,54 @@
       "source_repo": "allenai/beaker-py",
       "status": "candidate-context",
       "text": "Main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wamp-proto/wamp-xbr",
+      "status": "candidate-context",
+      "text": "The XBR Protocol - blockchain protocol for decentralized open data markets (https://pypi.org/project/xbr/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wamp-proto/wamp-xbr",
+      "status": "candidate-context",
+      "text": "main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apple/swift-nio",
+      "status": "candidate-context",
+      "text": "Event-driven network application framework for high performance protocol servers & clients, non-blocking."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/swift-nio",
+      "status": "candidate-context",
+      "text": "Main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Alexpux/MINGW-packages",
+      "status": "candidate-context",
+      "text": "Package scripts for MinGW-w64 targets to build under MSYS2. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alexpux/MINGW-packages",
+      "status": "candidate-context",
+      "text": "main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "allenai/beaker-gantry",
+      "status": "candidate-context",
+      "text": "Gantry provides an API that streamlines running experiments in Beaker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/beaker-gantry",
+      "status": "candidate-context",
+      "text": "Main"
     }
   ],
   "candidate_glosses": [
@@ -1364,6 +1412,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "allenai/beaker-py",
+      "status": "candidate",
+      "text": "Main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wamp-proto/wamp-xbr",
+      "status": "candidate",
+      "text": "main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/swift-nio",
+      "status": "candidate",
+      "text": "Main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alexpux/MINGW-packages",
+      "status": "candidate",
+      "text": "main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/beaker-gantry",
       "status": "candidate",
       "text": "Main"
     }
@@ -1943,11 +2015,47 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "allenai/beaker-py"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "wamp-proto/wamp-xbr"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "LuaLS/LLS-Addons-Action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "apple/swift-nio"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Alexpux/MINGW-packages"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "allenai/OLMo-Eval-Legacy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "allenai/beaker-gantry"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

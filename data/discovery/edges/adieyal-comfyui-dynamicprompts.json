@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adieyal/comfyui-dynamicprompts",
+      "target": "adieyal/dynamicprompts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adieyal/comfyui-dynamicprompts",
+      "target": "ltdrdata/comfyui-manager",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-30T12:45:20.475770+00:00",
+  "source_repo": "adieyal/comfyui-dynamicprompts"
+}

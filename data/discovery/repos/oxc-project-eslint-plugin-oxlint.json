@@ -1,0 +1,485 @@
+{
+  "components": [
+    {
+      "component": "jsonc-parser",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@eslint/js",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@oxc-node/core",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@vitest/coverage-v8",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-unicorn",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jiti",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "scule",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript-eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vite",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vite-plugin-dts",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vite-plus",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vitest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "oxlint",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "oxc-project/setup-node@4c26e7cb3605b6bdef5450dacd02c434b10fd8ba",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump_oxlint.yml"
+    },
+    {
+      "component": "oxc-project/setup-node@4c26e7cb3605b6bdef5450dacd02c434b10fd8ba",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump_oxlint.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@1b10c78c7865c340bc4f6099eb2f838309f1e8c3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump_oxlint.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump_oxlint.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate.yml"
+    },
+    {
+      "component": "oxc-project/setup-node@4c26e7cb3605b6bdef5450dacd02c434b10fd8ba",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "oxc-project/setup-node@4c26e7cb3605b6bdef5450dacd02c434b10fd8ba",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "oxc-project/security-action@f14eeb22b9ee0f7d3b242e5017ed0fdfada66f74",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "oxc-project/setup-node@4c26e7cb3605b6bdef5450dacd02c434b10fd8ba",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "oxc-project/eslint-plugin-oxlint",
+      "target": "oxc-project/oxc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "oxc-project/eslint-plugin-oxlint",
+      "target": "jsonc-parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "oxc-project/eslint-plugin-oxlint",
+      "target": "@eslint/js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "oxc-project/eslint-plugin-oxlint",
+      "target": "@oxc-node/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "oxc-project/eslint-plugin-oxlint",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "oxc-project/eslint-plugin-oxlint",
+      "target": "@vitest/coverage-v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "oxc-project/eslint-plugin-oxlint",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "oxc-project/eslint-plugin-oxlint",
+      "target": "eslint-plugin-unicorn",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "oxc-project/eslint-plugin-oxlint",
+      "target": "jiti",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "oxc-project/eslint-plugin-oxlint",
+      "target": "scule",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "oxc-project/eslint-plugin-oxlint",
+      "target": "typescript-eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "oxc-project/eslint-plugin-oxlint",
+      "target": "vite",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "oxc-project/eslint-plugin-oxlint",
+      "target": "vite-plugin-dts",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "oxc-project/eslint-plugin-oxlint",
+      "target": "vite-plus",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "oxc-project/eslint-plugin-oxlint",
+      "target": "vitest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "oxc-project/eslint-plugin-oxlint",
+      "target": "oxlint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "oxc-project/eslint-plugin-oxlint",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "oxc-project/eslint-plugin-oxlint",
+      "target": "oxc-project/setup-node@4c26e7cb3605b6bdef5450dacd02c434b10fd8ba",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "oxc-project/eslint-plugin-oxlint",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump_oxlint.yml",
+      "source_repo": "oxc-project/eslint-plugin-oxlint",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump_oxlint.yml",
+      "source_repo": "oxc-project/eslint-plugin-oxlint",
+      "target": "oxc-project/setup-node@4c26e7cb3605b6bdef5450dacd02c434b10fd8ba",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump_oxlint.yml",
+      "source_repo": "oxc-project/eslint-plugin-oxlint",
+      "target": "actions/create-github-app-token@1b10c78c7865c340bc4f6099eb2f838309f1e8c3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump_oxlint.yml",
+      "source_repo": "oxc-project/eslint-plugin-oxlint",
+      "target": "peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump_oxlint.yml",
+      "source_repo": "oxc-project/eslint-plugin-oxlint",
+      "target": "Bump oxlint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate.yml",
+      "source_repo": "oxc-project/eslint-plugin-oxlint",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate.yml",
+      "source_repo": "oxc-project/eslint-plugin-oxlint",
+      "target": "oxc-project/setup-node@4c26e7cb3605b6bdef5450dacd02c434b10fd8ba",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate.yml",
+      "source_repo": "oxc-project/eslint-plugin-oxlint",
+      "target": "Code generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "oxc-project/eslint-plugin-oxlint",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "oxc-project/eslint-plugin-oxlint",
+      "target": "oxc-project/setup-node@4c26e7cb3605b6bdef5450dacd02c434b10fd8ba",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "oxc-project/eslint-plugin-oxlint",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security.yml",
+      "source_repo": "oxc-project/eslint-plugin-oxlint",
+      "target": "oxc-project/security-action@f14eeb22b9ee0f7d3b242e5017ed0fdfada66f74",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/security.yml",
+      "source_repo": "oxc-project/eslint-plugin-oxlint",
+      "target": "Security Analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "oxc-project/eslint-plugin-oxlint",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "oxc-project/eslint-plugin-oxlint",
+      "target": "oxc-project/setup-node@4c26e7cb3605b6bdef5450dacd02c434b10fd8ba",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "oxc-project/eslint-plugin-oxlint",
+      "target": "Test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T12:54:43.992737+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3175
+    },
+    {
+      "path": "package.json",
+      "size": 2206
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 475
+    },
+    {
+      "path": ".github/workflows/bump_oxlint.yml",
+      "size": 2158
+    },
+    {
+      "path": ".github/workflows/generate.yml",
+      "size": 961
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1276
+    },
+    {
+      "path": ".github/workflows/security.yml",
+      "size": 523
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 603
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Turn off all rules already supported by oxlint",
+    "fork": false,
+    "full_name": "oxc-project/eslint-plugin-oxlint",
+    "html_url": "https://github.com/oxc-project/eslint-plugin-oxlint",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-27T14:52:41Z",
+    "stargazers_count": 440,
+    "topics": [],
+    "updated_at": "2026-04-30T08:44:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "oxc-project/oxc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Bump oxlint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump_oxlint.yml",
+      "term": "Bump oxlint"
+    },
+    {
+      "context_snippet": "Code generation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate.yml",
+      "term": "Code generation"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Security Analysis",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/security.yml",
+      "term": "Security Analysis"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    }
+  ]
+}

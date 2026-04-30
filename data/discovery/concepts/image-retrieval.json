@@ -31,6 +31,30 @@
       "source_repo": "qwertyforce/image_search",
       "status": "candidate-context",
       "text": "new stuff<br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cvg/Hierarchical-Localization",
+      "status": "candidate-context",
+      "text": "Visual localization made easy with hloc"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cvg/Hierarchical-Localization",
+      "status": "candidate-context",
+      "text": "This is `hloc`, a modular toolbox for state-of-the-art 6-DoF visual localization. It implements [Hierarchical Localization](https://arxiv.org/abs/1812.03506), leveraging image retrieval and feature matching, and is fast, accurate, and scalable. This codebase combines and makes e\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "filipradenovic/revisitop",
+      "status": "candidate-context",
+      "text": "Revisiting Oxford and Paris: Large-Scale Image Retrieval Benchmarking"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filipradenovic/revisitop",
+      "status": "candidate-context",
+      "text": "We revisit and address issues with Oxford 5k and Paris 6k image retrieval benchmarks. New annotation for both datasets is created with an extra attention to the reliability of the ground truth and three new protocols of varying difficulty are introduced. We additionally introduc\u2026"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "qwertyforce/image_search",
       "status": "candidate",
       "text": "new stuff<br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cvg/Hierarchical-Localization",
+      "status": "candidate",
+      "text": "This is `hloc`, a modular toolbox for state-of-the-art 6-DoF visual localization. It implements [Hierarchical Localization](https://arxiv.org/abs/1812.03506), leveraging image retrieval and feature matching, and is fast, accurate, and scalable. This codebase combines and makes e\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filipradenovic/revisitop",
+      "status": "candidate",
+      "text": "We revisit and address issues with Oxford 5k and Paris 6k image retrieval benchmarks. New annotation for both datasets is created with an extra attention to the reliability of the ground truth and three new protocols of varying difficulty are introduced. We additionally introduc\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +100,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "qwertyforce/image_search"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "cvg/Hierarchical-Localization"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "filipradenovic/revisitop"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

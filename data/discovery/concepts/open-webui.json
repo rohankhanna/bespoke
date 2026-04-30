@@ -43,6 +43,30 @@
       "source_repo": "metatool-ai/metamcp",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-webui/mcpo",
+      "status": "candidate-context",
+      "text": "A simple, secure MCP-to-OpenAPI proxy server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-webui/mcpo",
+      "status": "candidate-context",
+      "text": "Expose any MCP tool as an OpenAPI-compatible HTTP server\u2014instantly."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-webui/docs",
+      "status": "candidate-context",
+      "text": "https://docs.openwebui.com"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-webui/docs",
+      "status": "candidate-context",
+      "text": "Welcome to the official documentation for **Open WebUI** \u2014 a self-hosted, privacy-focused, and extensible AI interface for LLMs like Ollama and OpenAI-compatible APIs."
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "metatool-ai/metamcp",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-webui/mcpo",
+      "status": "candidate",
+      "text": "Expose any MCP tool as an OpenAPI-compatible HTTP server\u2014instantly."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-webui/docs",
+      "status": "candidate",
+      "text": "Welcome to the official documentation for **Open WebUI** \u2014 a self-hosted, privacy-focused, and extensible AI interface for LLMs like Ollama and OpenAI-compatible APIs."
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +124,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "metatool-ai/metamcp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "open-webui/mcpo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "open-webui/docs"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

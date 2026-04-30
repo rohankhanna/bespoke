@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Better styling support for Emotion (React Native): Media queries, relative units, percents, operations and more..."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![npm](https://img.shields.io/npm/v/emotion-native-extended?style=flat-square)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![npm](https://img.shields.io/npm/v/emotion-native-extended?style=flat-square)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39971941,
+      "status": "candidate",
+      "text": "answering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39971691,
+      "status": "candidate",
+      "text": "respondent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39965761,
+      "status": "candidate",
+      "text": "tractable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39962047,
+      "status": "candidate",
+      "text": "amenable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39960534,
+      "status": "candidate",
+      "text": "susceptible"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "responsive",
+      "sense_id": "responsive#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 51043,
+      "status": "candidate",
+      "text": "amenable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28043,
+      "status": "candidate",
+      "text": "susceptible"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25044,
+      "status": "candidate",
+      "text": "sensitive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10034,
+      "status": "candidate",
+      "text": "tractable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6045,
+      "status": "candidate",
+      "text": "respondent"
+    }
+  ],
+  "concept_id": "responsive",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "responsive",
+  "observation_id": "adfc859046498827",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "responsive",
+  "source_context_snippet": "![npm](https://img.shields.io/npm/v/emotion-native-extended?style=flat-square)",
+  "source_file": null,
+  "source_repo": "ItsWendell/emotion-native-extended",
+  "source_repo_description": "Better styling support for Emotion (React Native): Media queries, relative units, percents, operations and more..."
+}

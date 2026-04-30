@@ -364,6 +364,78 @@
       "source_repo": "nvarner/typst-lsp",
       "status": "candidate-context",
       "text": "This project is no longer maintained. It has been deprecated in favor of [tinymist](https://github.com/Myriad-Dreamin/tinymist)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "svsool/memo",
+      "status": "candidate-context",
+      "text": "Markdown knowledge base with bidirectional [[link]]s built on top of VSCode"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "svsool/memo",
+      "status": "candidate-context",
+      "text": "Markdown knowledge base with bidirectional [[link]]s built on top of [VSCode](https://github.com/microsoft/vscode)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "analyticsinmotion/wake-word",
+      "status": "candidate-context",
+      "text": "Hands-free voice activation for VS Code, Cursor, and compatible editors. Route voice commands to any AI assistant or editor feature."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analyticsinmotion/wake-word",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable MD033 MD041 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vadimcn/codelldb",
+      "status": "candidate-context",
+      "text": "A VSCode debugger extension for native code, powered by LLDB."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vadimcn/codelldb",
+      "status": "candidate-context",
+      "text": "- Conditional breakpoints, function breakpoints, logpoints,"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Shopify/ruby-lsp",
+      "status": "candidate-context",
+      "text": "An opinionated language server for Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shopify/ruby-lsp",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nim-lang/vscode-nim",
+      "status": "candidate-context",
+      "text": "A VS Code plugin for the Nim language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nim-lang/vscode-nim",
+      "status": "candidate-context",
+      "text": "This extension adds language support for the Nim language to VS Code, including:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iohub/collama",
+      "status": "candidate-context",
+      "text": "VSCode AI coding assistant powered by self-hosted llama.cpp endpoint."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iohub/collama",
+      "status": "candidate-context",
+      "text": "<div align=center>"
     }
   ],
   "candidate_glosses": [
@@ -546,6 +618,42 @@
       "source_repo": "nvarner/typst-lsp",
       "status": "candidate",
       "text": "This project is no longer maintained. It has been deprecated in favor of [tinymist](https://github.com/Myriad-Dreamin/tinymist)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "svsool/memo",
+      "status": "candidate",
+      "text": "Markdown knowledge base with bidirectional [[link]]s built on top of [VSCode](https://github.com/microsoft/vscode)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analyticsinmotion/wake-word",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable MD033 MD041 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vadimcn/codelldb",
+      "status": "candidate",
+      "text": "- Conditional breakpoints, function breakpoints, logpoints,"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shopify/ruby-lsp",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nim-lang/vscode-nim",
+      "status": "candidate",
+      "text": "This extension adds language support for the Nim language to VS Code, including:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iohub/collama",
+      "status": "candidate",
+      "text": "<div align=center>"
     }
   ],
   "candidate_related_terms": [],
@@ -817,11 +925,83 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "nvarner/typst-lsp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "svsool/memo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "artempyanykh/marksman-vscode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "analyticsinmotion/wake-word"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "spring-projects/spring-tools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "haskell/vscode-haskell"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "vadimcn/codelldb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Shopify/ruby-lsp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/vscode-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "LuaLS/vscode-lua"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/vscode-js-debug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "nim-lang/vscode-nim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "iohub/collama"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

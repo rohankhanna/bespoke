@@ -127,6 +127,54 @@
       "source_repo": "blurgyy/jaxngp",
       "status": "candidate-context",
       "text": "jaxngp"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-research/multinerf",
+      "status": "candidate-context",
+      "text": "A Code Release for Mip-NeRF 360, Ref-NeRF, and RawNeRF"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-research/multinerf",
+      "status": "candidate-context",
+      "text": "*This is not an officially supported Google product.*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kacperkan/conerf-kubric-dataset",
+      "status": "candidate-context",
+      "text": "Repository used to generate synthetic dataset from Kubric, used in \"CoNeRF: Controllable Neural Radiance Fields\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kacperkan/conerf-kubric-dataset",
+      "status": "candidate-context",
+      "text": "[![MIT license](https://img.shields.io/badge/license-Apache%20v2.0-white.svg)](https://github.com/kacperkan/conerf-kubric-dataset/blob/main/LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nerfstudio-project/nerfacc",
+      "status": "candidate-context",
+      "text": "A General NeRF Acceleration Toolbox in PyTorch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nerfstudio-project/nerfacc",
+      "status": "candidate-context",
+      "text": "<p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nerfstudio-project/nerfstudio",
+      "status": "candidate-context",
+      "text": "A collaboration friendly studio for NeRFs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nerfstudio-project/nerfstudio",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +237,30 @@
       "source_repo": "blurgyy/jaxngp",
       "status": "candidate",
       "text": "jaxngp"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-research/multinerf",
+      "status": "candidate",
+      "text": "*This is not an officially supported Google product.*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kacperkan/conerf-kubric-dataset",
+      "status": "candidate",
+      "text": "[![MIT license](https://img.shields.io/badge/license-Apache%20v2.0-white.svg)](https://github.com/kacperkan/conerf-kubric-dataset/blob/main/LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nerfstudio-project/nerfacc",
+      "status": "candidate",
+      "text": "<p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nerfstudio-project/nerfstudio",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -292,11 +364,35 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "blurgyy/jaxngp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "google-research/multinerf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "kacperkan/conerf-kubric-dataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "nerfstudio-project/nerfacc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "nerfstudio-project/nerfstudio"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

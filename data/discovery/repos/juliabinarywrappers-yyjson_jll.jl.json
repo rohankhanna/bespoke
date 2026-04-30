@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaBinaryWrappers/yyjson_jll.jl",
+      "target": "juliapackaging/binarybuilder.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaBinaryWrappers/yyjson_jll.jl",
+      "target": "juliapackaging/yggdrasil",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:03:45.510007+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2296
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "JuliaBinaryWrappers/yyjson_jll.jl",
+    "html_url": "https://github.com/JuliaBinaryWrappers/yyjson_jll.jl",
+    "language": "Julia",
+    "pushed_at": "2024-09-07T09:40:00Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2024-09-19T20:13:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliapackaging/binarybuilder.jl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliapackaging/yggdrasil",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

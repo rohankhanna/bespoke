@@ -1192,6 +1192,114 @@
       "source_repo": "ServiceNow/DoomArena",
       "status": "candidate-context",
       "text": "<a href='https://arxiv.org/abs/2504.14064'><img src=\"https://img.shields.io/badge/Arxiv-2504.14064-A42C25?style=flat&logo=arXiv&logoColor=A42C25\"></img></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudfoundry/bpm-release",
+      "status": "candidate-context",
+      "text": "isolated bosh jobs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/bpm-release",
+      "status": "candidate-context",
+      "text": "> Isolated BOSH Jobs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebook/pyre-check",
+      "status": "candidate-context",
+      "text": "Performant type-checking for python."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/pyre-check",
+      "status": "candidate-context",
+      "text": "[![tests](https://github.com/facebook/pyre-check/workflows/tests/badge.svg)](https://github.com/facebook/pyre-check/actions/workflows/tests.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenSC/OpenSC",
+      "status": "candidate-context",
+      "text": "Open source smart card tools and middleware. PKCS#11/MiniDriver"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenSC/OpenSC",
+      "status": "candidate-context",
+      "text": "Manual pages for the"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "theupdateframework/go-tuf",
+      "status": "candidate-context",
+      "text": "Go implementation of The Update Framework (TUF)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "theupdateframework/go-tuf",
+      "status": "candidate-context",
+      "text": "![GitHub Workflow Status (with branch)](https://img.shields.io/github/actions/workflow/status/theupdateframework/go-tuf/ci.yml?branch=master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "drduh/config",
+      "status": "candidate-context",
+      "text": "Configuration files and scripts used in guides and for system setup."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drduh/config",
+      "status": "candidate-context",
+      "text": "Miscellaneous scripts and program configuration files used in:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "drduh/Purse",
+      "status": "candidate-context",
+      "text": "GnuPG asymmetric secrets manager - works with YubiKey!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drduh/Purse",
+      "status": "candidate-context",
+      "text": "Purse is a Bash shell script based on [drduh/pwd.sh](https://github.com/drduh/pwd.sh)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "golang-jwt/jwt",
+      "status": "candidate-context",
+      "text": "Go implementation of JSON Web Tokens (JWT)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "golang-jwt/jwt",
+      "status": "candidate-context",
+      "text": "[![build](https://github.com/golang-jwt/jwt/actions/workflows/build.yml/badge.svg)](https://github.com/golang-jwt/jwt/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hynek/argon2-cffi",
+      "status": "candidate-context",
+      "text": "Secure Password Hashes for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hynek/argon2-cffi",
+      "status": "candidate-context",
+      "text": "[![Documentation](https://img.shields.io/badge/Docs-Read%20The%20Docs-black)](https://argon2-cffi.readthedocs.io/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "winsiderss/systeminformer",
+      "status": "candidate-context",
+      "text": "A free, powerful, multi-purpose tool that helps you monitor system resources, debug software and detect malware. Brought to you by Winsider Seminars & Solutions, Inc. @ http://www.windows-internals.com"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "winsiderss/systeminformer",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -1776,6 +1884,60 @@
       "source_repo": "ServiceNow/DoomArena",
       "status": "candidate",
       "text": "<a href='https://arxiv.org/abs/2504.14064'><img src=\"https://img.shields.io/badge/Arxiv-2504.14064-A42C25?style=flat&logo=arXiv&logoColor=A42C25\"></img></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/bpm-release",
+      "status": "candidate",
+      "text": "> Isolated BOSH Jobs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/pyre-check",
+      "status": "candidate",
+      "text": "[![tests](https://github.com/facebook/pyre-check/workflows/tests/badge.svg)](https://github.com/facebook/pyre-check/actions/workflows/tests.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenSC/OpenSC",
+      "status": "candidate",
+      "text": "Manual pages for the"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "theupdateframework/go-tuf",
+      "status": "candidate",
+      "text": "![GitHub Workflow Status (with branch)](https://img.shields.io/github/actions/workflow/status/theupdateframework/go-tuf/ci.yml?branch=master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drduh/config",
+      "status": "candidate",
+      "text": "Miscellaneous scripts and program configuration files used in:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drduh/Purse",
+      "status": "candidate",
+      "text": "Purse is a Bash shell script based on [drduh/pwd.sh](https://github.com/drduh/pwd.sh)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "golang-jwt/jwt",
+      "status": "candidate",
+      "text": "[![build](https://github.com/golang-jwt/jwt/actions/workflows/build.yml/badge.svg)](https://github.com/golang-jwt/jwt/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hynek/argon2-cffi",
+      "status": "candidate",
+      "text": "[![Documentation](https://img.shields.io/badge/Docs-Read%20The%20Docs-black)](https://argon2-cffi.readthedocs.io/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "winsiderss/systeminformer",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -2551,11 +2713,101 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "ServiceNow/DoomArena"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "w3c/trusted-types"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "hacl-star/hacl-star"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "boxlite-ai/boxlite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "cloudfoundry/bpm-release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "facebook/pyre-check"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "OpenSC/OpenSC"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "theupdateframework/go-tuf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "drduh/config"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "drduh/Purse"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "endojs/endo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "golang-jwt/jwt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "hynek/argon2-cffi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "winsiderss/systeminformer"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

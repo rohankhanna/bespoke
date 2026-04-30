@@ -1,12 +1,15 @@
 {
   "aliases": [
     "Integration testing",
-    "Integration Testing"
+    "Integration Testing",
+    "integration-testing"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -44,6 +47,18 @@
       "source_repo": "bitwarden/directory-connector",
       "status": "candidate-context",
       "text": "Integration Testing"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DATA-DOG/go-txdb",
+      "status": "candidate-context",
+      "text": "Immutable transaction isolated sql driver for golang"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DATA-DOG/go-txdb",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/DATA-DOG/go-txdb.svg?branch=master)](https://travis-ci.org/DATA-DOG/go-txdb)"
     }
   ],
   "candidate_glosses": [
@@ -64,6 +79,12 @@
       "source_repo": "bitwarden/directory-connector",
       "status": "candidate",
       "text": "Integration Testing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DATA-DOG/go-txdb",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/DATA-DOG/go-txdb.svg?branch=master)](https://travis-ci.org/DATA-DOG/go-txdb)"
     }
   ],
   "candidate_related_terms": [
@@ -125,11 +146,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/integration-test.yml",
       "source_repo": "bitwarden/directory-connector"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "DATA-DOG/go-txdb"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

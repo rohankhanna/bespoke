@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "ClusterFuzzLite pruning"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "quic-go/quic-go",
+      "status": "candidate-context",
+      "text": "A production-ready QUIC implementation in pure Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quic-go/quic-go",
+      "status": "candidate-context",
+      "text": "ClusterFuzzLite pruning"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quic-go/quic-go",
+      "status": "candidate",
+      "text": "ClusterFuzzLite pruning"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6424,
+      "status": "candidate",
+      "text": "lop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6424,
+      "status": "candidate",
+      "text": "lopper"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6424,
+      "status": "candidate",
+      "text": "proin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6424,
+      "status": "candidate",
+      "text": "pruner"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6424,
+      "status": "candidate",
+      "text": "pruning hook"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "ClusterFuzzLite pruning",
+  "concept_id": "clusterfuzzlite-pruning",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/clusterfuzz-lite-prune.yml",
+      "source_repo": "quic-go/quic-go"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "ClusterFuzzLite pruning",
+      "sense_id": "clusterfuzzlite-pruning#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "C++17 implementation of Filecoin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "TSAN"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "TSAN"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18680282,
+      "status": "candidate",
+      "text": "ning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8682790,
+      "status": "candidate",
+      "text": "tsay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8682789,
+      "status": "candidate",
+      "text": "tian"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8682788,
+      "status": "candidate",
+      "text": "tsao"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8682787,
+      "status": "candidate",
+      "text": "tsou"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "TSAN",
+      "sense_id": "tsan#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "tsan",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "tsan",
+  "observation_id": "5ba8d872ba323ee5",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "TSAN",
+  "source_context_snippet": "TSAN",
+  "source_file": ".github/workflows/tsan.yml",
+  "source_repo": "filecoin-project/cpp-filecoin",
+  "source_repo_description": "C++17 implementation of Filecoin"
+}

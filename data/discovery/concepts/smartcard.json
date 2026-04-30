@@ -19,6 +19,18 @@
       "source_repo": "drduh/YubiKey-Guide",
       "status": "candidate-context",
       "text": "This is a guide to using [YubiKey](https://www.yubico.com/products/identifying-your-yubikey/) as a [smart card](https://security.stackexchange.com/questions/38924/how-does-storing-gpg-ssh-private-keys-on-smart-cards-compare-to-plain-usb-drives) for secure encryption, signature a\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenSC/OpenSC",
+      "status": "candidate-context",
+      "text": "Open source smart card tools and middleware. PKCS#11/MiniDriver"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenSC/OpenSC",
+      "status": "candidate-context",
+      "text": "Manual pages for the"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "drduh/YubiKey-Guide",
       "status": "candidate",
       "text": "This is a guide to using [YubiKey](https://www.yubico.com/products/identifying-your-yubikey/) as a [smart card](https://security.stackexchange.com/questions/38924/how-does-storing-gpg-ssh-private-keys-on-smart-cards-compare-to-plain-usb-drives) for secure encryption, signature a\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenSC/OpenSC",
+      "status": "candidate",
+      "text": "Manual pages for the"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "drduh/YubiKey-Guide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "OpenSC/OpenSC"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

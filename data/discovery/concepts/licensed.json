@@ -103,6 +103,18 @@
       "source_repo": "actions/setup-python",
       "status": "candidate-context",
       "text": "Licensed"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actions/setup-node",
+      "status": "candidate-context",
+      "text": "Set up your GitHub Actions workflow with a specific version of node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/setup-node",
+      "status": "candidate-context",
+      "text": "Licensed"
     }
   ],
   "candidate_glosses": [
@@ -157,6 +169,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "actions/setup-python",
+      "status": "candidate",
+      "text": "Licensed"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/setup-node",
       "status": "candidate",
       "text": "Licensed"
     }
@@ -363,11 +381,29 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/licensed.yml",
       "source_repo": "actions/setup-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/licensed.yml",
+      "source_repo": "actions/setup-node"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/licensed.yml",
+      "source_repo": "actions/container-toolkit-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/licensed.yml",
+      "source_repo": "licensee/licensed"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -2,7 +2,7 @@
   "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
   "discovered_via": "manifest-or-workflow",
   "first_seen_at": "2026-04-17T12:50:06.073855+00:00",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "source_repo": "NousResearch/hermes-agent",
   "sources": [
     {
@@ -784,6 +784,86 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/CI.yml",
       "source_repo": "openai/gpt-oss"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "Dicklesworthstone/coding_agent_session_search"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/browser-tests.yml",
+      "source_repo": "Dicklesworthstone/coding_agent_session_search"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Dicklesworthstone/coding_agent_session_search"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "Dicklesworthstone/coding_agent_session_search"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/fuzz.yml",
+      "source_repo": "Dicklesworthstone/coding_agent_session_search"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/install-test.yml",
+      "source_repo": "Dicklesworthstone/coding_agent_session_search"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "openai/harmony"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "rancher/local-path-provisioner"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/helm-release.yml",
+      "source_repo": "rancher/local-path-provisioner"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/trivy-scan.yaml",
+      "source_repo": "rancher/local-path-provisioner"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "VOICEVOX/voicevox_engine"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-engine-container.yml",
+      "source_repo": "VOICEVOX/voicevox_engine"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-engine.yml",
+      "source_repo": "VOICEVOX/voicevox_engine"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-latest-engine-container.yml",
+      "source_repo": "VOICEVOX/voicevox_engine"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-engine-container.yml",
+      "source_repo": "VOICEVOX/voicevox_engine"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-engine-package.yml",
+      "source_repo": "VOICEVOX/voicevox_engine"
     }
   ]
 }

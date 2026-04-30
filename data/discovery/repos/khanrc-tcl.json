@@ -5,13 +5,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "khanrc/tcl",
-      "target": "nvlabs/groupvit",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "khanrc/tcl",
       "target": "kakaobrain/tcl",
       "target_type": "repository"
     },
@@ -51,7 +44,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T10:14:03.987814+00:00",
+  "fetched_at": "2026-04-30T15:08:41.539702+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -86,11 +79,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "kakaobrain/tcl",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "nvlabs/groupvit",
       "source_file": "README.md"
     }
   ],

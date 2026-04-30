@@ -31,6 +31,18 @@
       "source_repo": "rishikksh20/FastSpeech2",
       "status": "candidate-context",
       "text": "UnOfficial PyTorch implementation of [**FastSpeech 2: Fast and High-Quality End-to-End Text to Speech**](https://arxiv.org/abs/2006.04558). This repo uses the FastSpeech implementation of [Espnet](https://github.com/espnet/espnet) as a base. In this implementation I tried to rep\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shivammehta25/Matcha-TTS",
+      "status": "candidate-context",
+      "text": "[ICASSP 2024] \ud83c\udf75 Matcha-TTS: A fast TTS architecture with conditional flow matching"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shivammehta25/Matcha-TTS",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "rishikksh20/FastSpeech2",
       "status": "candidate",
       "text": "UnOfficial PyTorch implementation of [**FastSpeech 2: Fast and High-Quality End-to-End Text to Speech**](https://arxiv.org/abs/2006.04558). This repo uses the FastSpeech implementation of [Espnet](https://github.com/espnet/espnet) as a base. In this implementation I tried to rep\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shivammehta25/Matcha-TTS",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "rishikksh20/FastSpeech2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "shivammehta25/Matcha-TTS"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

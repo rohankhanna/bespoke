@@ -1,0 +1,655 @@
+{
+  "components": [
+    {
+      "component": "@herb-tools/linter",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@tailwindcss/postcss",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "daisyui",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gulp",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gulp-concat",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gulp-sourcemaps",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gulp-uglify",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lostconf",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "postcss",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "postcss-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tailwindcss",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "through2",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@0cb964fd540e0a24c900370abf38a33466142735",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@0cb964fd540e0a24c900370abf38a33466142735",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@0cb964fd540e0a24c900370abf38a33466142735",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@0cb964fd540e0a24c900370abf38a33466142735",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml"
+    },
+    {
+      "component": "rubygems/release-gem@6317d8d1f7e28c24d28f6eff169ea854948bd9f7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rebuild-assets.yml"
+    },
+    {
+      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rebuild-assets.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rebuild-assets.yml"
+    },
+    {
+      "component": "peter-evans/repository-dispatch@28959ce8df70de7be546dd1250a005dd32156697",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trigger-wiki-refresh.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-action-pins.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "karafka/karafka-web",
+      "target": "@herb-tools/linter",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "karafka/karafka-web",
+      "target": "@tailwindcss/postcss",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "karafka/karafka-web",
+      "target": "daisyui",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "karafka/karafka-web",
+      "target": "gulp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "karafka/karafka-web",
+      "target": "gulp-concat",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "karafka/karafka-web",
+      "target": "gulp-sourcemaps",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "karafka/karafka-web",
+      "target": "gulp-uglify",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "karafka/karafka-web",
+      "target": "lostconf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "karafka/karafka-web",
+      "target": "postcss",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "karafka/karafka-web",
+      "target": "postcss-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "karafka/karafka-web",
+      "target": "tailwindcss",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "karafka/karafka-web",
+      "target": "through2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "karafka/karafka-web",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "karafka/karafka-web",
+      "target": "ruby/setup-ruby@0cb964fd540e0a24c900370abf38a33466142735",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "karafka/karafka-web",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "karafka/karafka-web",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "karafka/karafka-web",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "karafka/karafka-web",
+      "target": "ruby/setup-ruby@0cb964fd540e0a24c900370abf38a33466142735",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "karafka/karafka-web",
+      "target": "rubygems/release-gem@6317d8d1f7e28c24d28f6eff169ea854948bd9f7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "karafka/karafka-web",
+      "target": "Push Gem",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rebuild-assets.yml",
+      "source_repo": "karafka/karafka-web",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rebuild-assets.yml",
+      "source_repo": "karafka/karafka-web",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rebuild-assets.yml",
+      "source_repo": "karafka/karafka-web",
+      "target": "peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rebuild-assets.yml",
+      "source_repo": "karafka/karafka-web",
+      "target": "Rebuild Assets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trigger-wiki-refresh.yml",
+      "source_repo": "karafka/karafka-web",
+      "target": "peter-evans/repository-dispatch@28959ce8df70de7be546dd1250a005dd32156697",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/trigger-wiki-refresh.yml",
+      "source_repo": "karafka/karafka-web",
+      "target": "Trigger Wiki Refresh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-action-pins.yml",
+      "source_repo": "karafka/karafka-web",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/verify-action-pins.yml",
+      "source_repo": "karafka/karafka-web",
+      "target": "Verify Action Pins",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "karafka/karafka-web",
+      "target": "kafka-consumer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "karafka/karafka-web",
+      "target": "kafka-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "karafka/karafka-web",
+      "target": "kafka-monitor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "karafka/karafka-web",
+      "target": "kafka-monitoring",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "karafka/karafka-web",
+      "target": "kafka-monitoring-dashboards",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "karafka/karafka-web",
+      "target": "kafka-producer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "karafka/karafka-web",
+      "target": "kafka-ui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "karafka/karafka-web",
+      "target": "karafka",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "karafka/karafka-web",
+      "target": "karafka-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "karafka/karafka-web",
+      "target": "rails",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "karafka/karafka-web",
+      "target": "ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "karafka/karafka-web",
+      "target": "ruby-on-rails",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "karafka/karafka-web",
+      "target": "streaming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "karafka/karafka-web",
+      "target": "streaming-data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "karafka/karafka-web",
+      "target": "web-",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:54:34.397928+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2677
+    },
+    {
+      "path": "package.json",
+      "size": 379
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 5930
+    },
+    {
+      "path": ".github/workflows/push.yml",
+      "size": 718
+    },
+    {
+      "path": ".github/workflows/rebuild-assets.yml",
+      "size": 1724
+    },
+    {
+      "path": ".github/workflows/trigger-wiki-refresh.yml",
+      "size": 976
+    },
+    {
+      "path": ".github/workflows/verify-action-pins.yml",
+      "size": 545
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Web UI for monitoring and managing Karafka consumers",
+    "fork": false,
+    "full_name": "karafka/karafka-web",
+    "html_url": "https://github.com/karafka/karafka-web",
+    "language": "Ruby",
+    "pushed_at": "2026-04-29T06:55:33Z",
+    "stargazers_count": 57,
+    "topics": [
+      "kafka-consumer",
+      "kafka-manager",
+      "kafka-monitor",
+      "kafka-monitoring",
+      "kafka-monitoring-dashboards",
+      "kafka-producer",
+      "kafka-ui",
+      "karafka",
+      "karafka-framework",
+      "rails",
+      "ruby",
+      "ruby-on-rails",
+      "streaming",
+      "streaming-data",
+      "web-"
+    ],
+    "updated_at": "2026-04-29T06:55:35Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Push Gem",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push.yml",
+      "term": "Push Gem"
+    },
+    {
+      "context_snippet": "Rebuild Assets",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rebuild-assets.yml",
+      "term": "Rebuild Assets"
+    },
+    {
+      "context_snippet": "Trigger Wiki Refresh",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/trigger-wiki-refresh.yml",
+      "term": "Trigger Wiki Refresh"
+    },
+    {
+      "context_snippet": "Verify Action Pins",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/verify-action-pins.yml",
+      "term": "Verify Action Pins"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/karafka/karafka-web/workflows/ci/badge.svg)](https://github.com/karafka/karafka-web/actions?query=workflow%3Aci)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kafka-consumer"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/karafka/karafka-web/workflows/ci/badge.svg)](https://github.com/karafka/karafka-web/actions?query=workflow%3Aci)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kafka-manager"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/karafka/karafka-web/workflows/ci/badge.svg)](https://github.com/karafka/karafka-web/actions?query=workflow%3Aci)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kafka-monitor"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/karafka/karafka-web/workflows/ci/badge.svg)](https://github.com/karafka/karafka-web/actions?query=workflow%3Aci)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kafka-monitoring"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/karafka/karafka-web/workflows/ci/badge.svg)](https://github.com/karafka/karafka-web/actions?query=workflow%3Aci)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kafka-monitoring-dashboards"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/karafka/karafka-web/workflows/ci/badge.svg)](https://github.com/karafka/karafka-web/actions?query=workflow%3Aci)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kafka-producer"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/karafka/karafka-web/workflows/ci/badge.svg)](https://github.com/karafka/karafka-web/actions?query=workflow%3Aci)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kafka-ui"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/karafka/karafka-web/workflows/ci/badge.svg)](https://github.com/karafka/karafka-web/actions?query=workflow%3Aci)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "karafka"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/karafka/karafka-web/workflows/ci/badge.svg)](https://github.com/karafka/karafka-web/actions?query=workflow%3Aci)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "karafka-framework"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/karafka/karafka-web/workflows/ci/badge.svg)](https://github.com/karafka/karafka-web/actions?query=workflow%3Aci)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rails"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/karafka/karafka-web/workflows/ci/badge.svg)](https://github.com/karafka/karafka-web/actions?query=workflow%3Aci)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/karafka/karafka-web/workflows/ci/badge.svg)](https://github.com/karafka/karafka-web/actions?query=workflow%3Aci)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby-on-rails"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/karafka/karafka-web/workflows/ci/badge.svg)](https://github.com/karafka/karafka-web/actions?query=workflow%3Aci)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "streaming"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/karafka/karafka-web/workflows/ci/badge.svg)](https://github.com/karafka/karafka-web/actions?query=workflow%3Aci)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "streaming-data"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/karafka/karafka-web/workflows/ci/badge.svg)](https://github.com/karafka/karafka-web/actions?query=workflow%3Aci)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "web-"
+    }
+  ]
+}

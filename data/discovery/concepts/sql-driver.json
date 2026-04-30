@@ -19,6 +19,18 @@
       "source_repo": "DATA-DOG/go-sqlmock",
       "status": "candidate-context",
       "text": "[![Build Status](https://travis-ci.org/DATA-DOG/go-sqlmock.svg)](https://travis-ci.org/DATA-DOG/go-sqlmock)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DATA-DOG/go-txdb",
+      "status": "candidate-context",
+      "text": "Immutable transaction isolated sql driver for golang"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DATA-DOG/go-txdb",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/DATA-DOG/go-txdb.svg?branch=master)](https://travis-ci.org/DATA-DOG/go-txdb)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "DATA-DOG/go-sqlmock",
       "status": "candidate",
       "text": "[![Build Status](https://travis-ci.org/DATA-DOG/go-sqlmock.svg)](https://travis-ci.org/DATA-DOG/go-sqlmock)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DATA-DOG/go-txdb",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/DATA-DOG/go-txdb.svg?branch=master)](https://travis-ci.org/DATA-DOG/go-txdb)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "DATA-DOG/go-sqlmock"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "DATA-DOG/go-txdb"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

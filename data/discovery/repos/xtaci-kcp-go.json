@@ -1,0 +1,154 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xtaci/kcp-go",
+      "target": "getlantern/lantern",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xtaci/kcp-go",
+      "target": "gonet2/agent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xtaci/kcp-go",
+      "target": "hanselime/paqet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xtaci/kcp-go",
+      "target": "klauspost/reedsolomon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xtaci/kcp-go",
+      "target": "automatic-repeat-request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xtaci/kcp-go",
+      "target": "forward-error-correction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xtaci/kcp-go",
+      "target": "reed-solomon-codes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xtaci/kcp-go",
+      "target": "reliable-udp-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xtaci/kcp-go",
+      "target": "symmetric-key-cryptography",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:57:51.763147+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 26720
+    },
+    {
+      "path": "go.mod",
+      "size": 584
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A crypto-secure Reliable-UDP library for Golang with FEC support.",
+    "fork": false,
+    "full_name": "xtaci/kcp-go",
+    "html_url": "https://github.com/xtaci/kcp-go",
+    "language": "Go",
+    "pushed_at": "2026-03-30T09:59:33Z",
+    "stargazers_count": 4487,
+    "topics": [
+      "automatic-repeat-request",
+      "forward-error-correction",
+      "kcp",
+      "reed-solomon-codes",
+      "reliable-udp-library",
+      "symmetric-key-cryptography"
+    ],
+    "updated_at": "2026-04-30T03:06:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "getlantern/lantern",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gonet2/agent",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hanselime/paqet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "klauspost/reedsolomon",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img src=\"assets/kcp-go.png\" alt=\"kcp-go\" height=\"100px\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automatic-repeat-request"
+    },
+    {
+      "context_snippet": "<img src=\"assets/kcp-go.png\" alt=\"kcp-go\" height=\"100px\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "forward-error-correction"
+    },
+    {
+      "context_snippet": "<img src=\"assets/kcp-go.png\" alt=\"kcp-go\" height=\"100px\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reed-solomon-codes"
+    },
+    {
+      "context_snippet": "<img src=\"assets/kcp-go.png\" alt=\"kcp-go\" height=\"100px\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reliable-udp-library"
+    },
+    {
+      "context_snippet": "<img src=\"assets/kcp-go.png\" alt=\"kcp-go\" height=\"100px\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "symmetric-key-cryptography"
+    }
+  ]
+}

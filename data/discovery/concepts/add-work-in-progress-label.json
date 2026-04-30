@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Add Work In Progress Label"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vectordotdev/vector",
+      "status": "candidate-context",
+      "text": "A high-performance observability data pipeline."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vectordotdev/vector",
+      "status": "candidate-context",
+      "text": "Add Work In Progress Label"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vectordotdev/vector",
+      "status": "candidate",
+      "text": "Add Work In Progress Label"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33780,
+      "status": "candidate",
+      "text": "standstill"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33698,
+      "status": "candidate",
+      "text": "toil"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33685,
+      "status": "candidate",
+      "text": "flog"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33561,
+      "status": "candidate",
+      "text": "annotate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33211,
+      "status": "candidate",
+      "text": "developments"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Add Work In Progress Label",
+  "concept_id": "add-work-in-progress-label",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/add_wip_label.yml",
+      "source_repo": "vectordotdev/vector"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Add Work In Progress Label",
+      "sense_id": "add-work-in-progress-label#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

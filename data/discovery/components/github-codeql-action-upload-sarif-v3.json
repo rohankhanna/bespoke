@@ -1,7 +1,7 @@
 {
   "component": "github/codeql-action/upload-sarif@v3",
   "first_seen_at": "2026-04-18T04:38:51.315908+00:00",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -162,6 +162,41 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/azure-dev-validation.yaml",
       "source_repo": "Azure-Samples/azure-search-openai-javascript"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "uxlfoundation/oneDPL"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/image-scan.yaml",
+      "source_repo": "Apicurio/apicurio-registry"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/msvc_analysis.yml",
+      "source_repo": "DiligentGraphics/DiligentCore"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/msvc_analysis.yml",
+      "source_repo": "DiligentGraphics/DiligentFX"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codescan.yml",
+      "source_repo": "f4b6a3/uuid-creator"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bicep-audit.yml",
+      "source_repo": "Azure-Samples/ai-rag-chat-evaluator"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yml",
+      "source_repo": "symfony/symfony"
     }
   ]
 }

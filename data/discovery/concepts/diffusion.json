@@ -295,6 +295,42 @@
       "source_repo": "datawhalechina/tiny-universe",
       "status": "candidate-context",
       "text": "<div align=center>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gpustack/llama-box",
+      "status": "candidate-context",
+      "text": "LM inference server implementation based on *.cpp."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gpustack/llama-box",
+      "status": "candidate-context",
+      "text": "> [!CAUTION]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prs-eth/Marigold",
+      "status": "candidate-context",
+      "text": "[CVPR 2024 - Oral, Best Paper Award Candidate] Marigold: Repurposing Diffusion-Based Image Generators for Monocular Depth Estimation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prs-eth/Marigold",
+      "status": "candidate-context",
+      "text": "This project implements Marigold, a Computer Vision method for estimating image characteristics. Initially proposed for"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PKU-YuanGroup/ConsisID",
+      "status": "candidate-context",
+      "text": "[CVPR 2025 Highlight\ud83d\udd25] Identity-Preserving Text-to-Video Generation by Frequency Decomposition"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PKU-YuanGroup/ConsisID",
+      "status": "candidate-context",
+      "text": "<div align=center>"
     }
   ],
   "candidate_glosses": [
@@ -439,6 +475,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "datawhalechina/tiny-universe",
+      "status": "candidate",
+      "text": "<div align=center>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gpustack/llama-box",
+      "status": "candidate",
+      "text": "> [!CAUTION]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prs-eth/Marigold",
+      "status": "candidate",
+      "text": "This project implements Marigold, a Computer Vision method for estimating image characteristics. Initially proposed for"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PKU-YuanGroup/ConsisID",
       "status": "candidate",
       "text": "<div align=center>"
     }
@@ -678,11 +732,41 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "datawhalechina/tiny-universe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/finetrainers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "gpustack/llama-box"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "prs-eth/Marigold"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "PKU-YuanGroup/ConsisID"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

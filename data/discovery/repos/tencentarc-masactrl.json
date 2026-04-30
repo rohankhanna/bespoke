@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TencentARC/MasaCtrl",
+      "target": "google/prompt-to-prompt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TencentARC/MasaCtrl",
+      "target": "ljzycmd/t2i-adapter-w-masactrl",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:08:07.315363+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9674
+    },
+    {
+      "path": "requirements.txt",
+      "size": 79
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICCV 2023] Consistent Image Synthesis and Editing",
+    "fork": false,
+    "full_name": "TencentARC/MasaCtrl",
+    "html_url": "https://github.com/TencentARC/MasaCtrl",
+    "language": "Python",
+    "pushed_at": "2024-08-19T05:56:05Z",
+    "stargazers_count": 845,
+    "topics": [],
+    "updated_at": "2026-04-04T08:17:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/prompt-to-prompt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ljzycmd/t2i-adapter-w-masactrl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

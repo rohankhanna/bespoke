@@ -1,0 +1,107 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "niuiic/awesome-neovim-plugins",
+      "target": "niuiic/core.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "niuiic/awesome-neovim-plugins",
+      "target": "niuiic/code-shot.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "niuiic/awesome-neovim-plugins",
+      "target": "niuiic/cp-image.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "niuiic/awesome-neovim-plugins",
+      "target": "niuiic/dap-utils.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "niuiic/awesome-neovim-plugins",
+      "target": "awesome-list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "niuiic/awesome-neovim-plugins",
+      "target": "neovim",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:07:18.665969+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3370
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Awesome neovim plugins I have written.",
+    "fork": false,
+    "full_name": "niuiic/awesome-neovim-plugins",
+    "html_url": "https://github.com/niuiic/awesome-neovim-plugins",
+    "language": null,
+    "pushed_at": "2025-04-24T11:36:23Z",
+    "stargazers_count": 8,
+    "topics": [
+      "awesome-list",
+      "neovim"
+    ],
+    "updated_at": "2025-08-28T10:18:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "niuiic/code-shot.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "niuiic/core.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "niuiic/cp-image.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "niuiic/dap-utils.nvim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Awesome neovim plugins I have written.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome-list"
+    },
+    {
+      "context_snippet": "Awesome neovim plugins I have written.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    }
+  ]
+}

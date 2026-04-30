@@ -1,0 +1,146 @@
+{
+  "components": [
+    {
+      "component": "tap",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "SabakiHQ/go-board",
+      "target": "tap",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "SabakiHQ/go-board",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "SabakiHQ/go-board",
+      "target": "actions/setup-node@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SabakiHQ/go-board",
+      "target": "baduk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SabakiHQ/go-board",
+      "target": "board-game",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SabakiHQ/go-board",
+      "target": "datatype",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SabakiHQ/go-board",
+      "target": "strategy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SabakiHQ/go-board",
+      "target": "weiqi",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T12:59:11.832756+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8973
+    },
+    {
+      "path": "package.json",
+      "size": 658
+    },
+    {
+      "path": ".github/workflows/nodejs.yml",
+      "size": 441
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Go board data type.",
+    "fork": false,
+    "full_name": "SabakiHQ/go-board",
+    "html_url": "https://github.com/SabakiHQ/go-board",
+    "language": "JavaScript",
+    "pushed_at": "2021-09-19T15:06:26Z",
+    "stargazers_count": 27,
+    "topics": [
+      "baduk",
+      "board-game",
+      "datatype",
+      "go",
+      "strategy",
+      "weiqi"
+    ],
+    "updated_at": "2026-02-09T11:19:18Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A Go board data type.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "baduk"
+    },
+    {
+      "context_snippet": "A Go board data type.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "board-game"
+    },
+    {
+      "context_snippet": "A Go board data type.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "datatype"
+    },
+    {
+      "context_snippet": "A Go board data type.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "strategy"
+    },
+    {
+      "context_snippet": "A Go board data type.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "weiqi"
+    }
+  ]
+}

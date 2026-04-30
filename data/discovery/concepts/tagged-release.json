@@ -56,6 +56,18 @@
       "source_repo": "renzmann/treesit-auto",
       "status": "candidate-context",
       "text": "\"tagged-release\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "linebender/resvg",
+      "status": "candidate-context",
+      "text": "An SVG rendering library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "linebender/resvg",
+      "status": "candidate-context",
+      "text": "\"Tagged Release\""
     }
   ],
   "candidate_glosses": [
@@ -82,9 +94,51 @@
       "source_repo": "renzmann/treesit-auto",
       "status": "candidate",
       "text": "\"tagged-release\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "linebender/resvg",
+      "status": "candidate",
+      "text": "\"Tagged Release\""
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13709,
+      "status": "candidate",
+      "text": "dead"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13709,
+      "status": "candidate",
+      "text": "labeled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13709,
+      "status": "candidate",
+      "text": "point"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13709,
+      "status": "candidate",
+      "text": "points"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13709,
+      "status": "candidate",
+      "text": "tag"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "Tagged Release",
   "concept_id": "tagged-release",
@@ -119,11 +173,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "renzmann/treesit-auto"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/tagged-release.yml",
+      "source_repo": "linebender/resvg"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

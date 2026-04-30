@@ -1,0 +1,122 @@
+{
+  "aliases": [
+    "diagnostic"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iamcco/diagnostic-languageserver",
+      "status": "candidate-context",
+      "text": "diagnostic language server integrate with linters"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iamcco/diagnostic-languageserver",
+      "status": "candidate-context",
+      "text": "> General purpose Language Server that integrate with"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iamcco/diagnostic-languageserver",
+      "status": "candidate",
+      "text": "> General purpose Language Server that integrate with"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39833700,
+      "status": "candidate",
+      "text": "symptomatic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39677580,
+      "status": "candidate",
+      "text": "characteristic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29833972,
+      "status": "candidate",
+      "text": "diagnose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29833926,
+      "status": "candidate",
+      "text": "self-diagnosis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29833858,
+      "status": "candidate",
+      "text": "diagnosis"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29041,
+      "status": "candidate",
+      "text": "characteristic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1039,
+      "status": "candidate",
+      "text": "symptomatic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "symptomatic of"
+    }
+  ],
+  "canonical_name": "diagnostic",
+  "concept_id": "diagnostic",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "iamcco/diagnostic-languageserver"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "diagnostic",
+      "sense_id": "diagnostic#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

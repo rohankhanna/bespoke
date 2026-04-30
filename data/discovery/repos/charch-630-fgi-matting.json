@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Charch-630/FGI-Matting",
+      "target": "yaoyi-li/gca-matting",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:07:06.315965+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3111
+    },
+    {
+      "path": "requirements.txt",
+      "size": 91
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The official repository for Deep Image Matting with Flexible Guidance Input",
+    "fork": false,
+    "full_name": "Charch-630/FGI-Matting",
+    "html_url": "https://github.com/Charch-630/FGI-Matting",
+    "language": "Python",
+    "pushed_at": "2021-11-18T12:12:18Z",
+    "stargazers_count": 58,
+    "topics": [],
+    "updated_at": "2024-03-21T15:52:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yaoyi-li/gca-matting",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

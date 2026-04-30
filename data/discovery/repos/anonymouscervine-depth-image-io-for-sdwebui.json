@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T13:07:44.244915+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3212
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An extension to allow managing custom depth inputs to Stable Diffusion depth2img models for the stable-diffusion-webui repo.",
+    "fork": false,
+    "full_name": "AnonymousCervine/depth-image-io-for-SDWebui",
+    "html_url": "https://github.com/AnonymousCervine/depth-image-io-for-SDWebui",
+    "language": "Python",
+    "pushed_at": "2023-02-04T06:57:49Z",
+    "stargazers_count": 72,
+    "topics": [],
+    "updated_at": "2025-11-19T11:30:40Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

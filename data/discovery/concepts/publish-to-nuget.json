@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Publish to Nuget"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ardalis/CleanArchitecture",
+      "status": "candidate-context",
+      "text": "Clean Architecture Solution Template: A proven Clean Architecture Template for ASP.NET Core 10"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ardalis/CleanArchitecture",
+      "status": "candidate-context",
+      "text": "Publish to Nuget"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ardalis/Ardalis.SharedKernel",
+      "status": "candidate-context",
+      "text": "Some useful base classes, mainly used with the CleanArchitecture template. Also, a template to make your own SharedKernel nuget package."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ardalis/Ardalis.SharedKernel",
+      "status": "candidate-context",
+      "text": "Publish to Nuget"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ardalis/CleanArchitecture",
+      "status": "candidate",
+      "text": "Publish to Nuget"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ardalis/Ardalis.SharedKernel",
+      "status": "candidate",
+      "text": "Publish to Nuget"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "disclose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "gazette"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "issue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "issued"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "post"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Publish to Nuget",
+  "concept_id": "publish-to-nuget",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ardalis/CleanArchitecture"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ardalis/Ardalis.SharedKernel"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish to Nuget",
+      "sense_id": "publish-to-nuget#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

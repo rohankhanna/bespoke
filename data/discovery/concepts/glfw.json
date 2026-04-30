@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "glfw"
+    "glfw",
+    "GLFW"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -55,6 +58,36 @@
       "source_repo": "go-flutter-desktop/go-flutter",
       "status": "candidate-context",
       "text": "<img src=\"./mascot.png\" width=\"170\" align=\"right\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vulkan-go/demos",
+      "status": "candidate-context",
+      "text": "Vulkan API crossplatform demos in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vulkan-go/demos",
+      "status": "candidate-context",
+      "text": "- vulcaninfo"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/Silk.NET",
+      "status": "candidate-context",
+      "text": "The high-speed OpenGL, OpenCL, OpenAL, OpenXR, GLFW, SDL, Vulkan, Assimp, WebGPU, and DirectX bindings library your mother warned you about."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/Silk.NET",
+      "status": "candidate-context",
+      "text": "GLFW"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/Silk.NET",
+      "status": "candidate-context",
+      "text": "<!-- Begin exclude from NuGet readme. -->"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +114,24 @@
       "source_repo": "go-flutter-desktop/go-flutter",
       "status": "candidate",
       "text": "<img src=\"./mascot.png\" width=\"170\" align=\"right\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vulkan-go/demos",
+      "status": "candidate",
+      "text": "- vulcaninfo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/Silk.NET",
+      "status": "candidate",
+      "text": "GLFW"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/Silk.NET",
+      "status": "candidate",
+      "text": "<!-- Begin exclude from NuGet readme. -->"
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +199,29 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "go-flutter-desktop/go-flutter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "vulkan-go/demos"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/glfw.yml",
+      "source_repo": "dotnet/Silk.NET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/Silk.NET"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

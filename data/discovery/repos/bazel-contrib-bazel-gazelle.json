@@ -12,14 +12,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "bazel-contrib/bazel-gazelle",
-      "target": "tweag/gazelle_cabal",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "bazel-contrib/bazel-gazelle",
-      "target": "tweag/gazelle_haskell_modules",
+      "target": "tweag/rules_haskell",
       "target_type": "repository"
     },
     {
@@ -30,7 +23,7 @@
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-04-30T08:28:23.446612+00:00",
+  "fetched_at": "2026-04-30T13:57:26.741566+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -68,12 +61,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "tweag/gazelle_cabal",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "tweag/gazelle_haskell_modules",
+      "full_name": "tweag/rules_haskell",
       "source_file": "README.md"
     }
   ],

@@ -1,0 +1,230 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "shivammehta25/Matcha-TTS",
+      "target": "huawei-noah/speech-backbones",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "shivammehta25/Matcha-TTS",
+      "target": "diffeqml/torchdyn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "shivammehta25/Matcha-TTS",
+      "target": "aimhubio/aim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shivammehta25/Matcha-TTS",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shivammehta25/Matcha-TTS",
+      "target": "diffusion-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shivammehta25/Matcha-TTS",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shivammehta25/Matcha-TTS",
+      "target": "flow-matching",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shivammehta25/Matcha-TTS",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shivammehta25/Matcha-TTS",
+      "target": "non-autoregressive",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shivammehta25/Matcha-TTS",
+      "target": "probabilistic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shivammehta25/Matcha-TTS",
+      "target": "probabilistic-machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shivammehta25/Matcha-TTS",
+      "target": "text-to-speech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shivammehta25/Matcha-TTS",
+      "target": "tts-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shivammehta25/Matcha-TTS",
+      "target": "tts-engines",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:13:03.812216+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9680
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 982
+    },
+    {
+      "path": "requirements.txt",
+      "size": 915
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICASSP 2024] \ud83c\udf75 Matcha-TTS: A fast TTS architecture with conditional flow matching",
+    "fork": false,
+    "full_name": "shivammehta25/Matcha-TTS",
+    "html_url": "https://github.com/shivammehta25/Matcha-TTS",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-04-27T22:18:54Z",
+    "stargazers_count": 1294,
+    "topics": [
+      "deep-learning",
+      "diffusion-model",
+      "diffusion-models",
+      "flow-matching",
+      "machine-learning",
+      "non-autoregressive",
+      "probabilistic",
+      "probabilistic-machine-learning",
+      "text-to-speech",
+      "tts",
+      "tts-api",
+      "tts-engines"
+    ],
+    "updated_at": "2026-04-29T03:25:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "diffeqml/torchdyn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "huawei-noah/speech-backbones",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aimhubio/aim",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-model"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flow-matching"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "non-autoregressive"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "probabilistic"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "probabilistic-machine-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-speech"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tts-api"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tts-engines"
+    }
+  ]
+}

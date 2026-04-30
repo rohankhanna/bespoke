@@ -1,0 +1,117 @@
+{
+  "components": [
+    {
+      "component": "bresenham",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "drawille",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "earcut",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gl-matrix",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "browserify",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "performance-now",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "watchify",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "madbence/node-drawille-canvas",
+      "target": "bresenham",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "madbence/node-drawille-canvas",
+      "target": "drawille",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "madbence/node-drawille-canvas",
+      "target": "earcut",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "madbence/node-drawille-canvas",
+      "target": "gl-matrix",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "madbence/node-drawille-canvas",
+      "target": "browserify",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "madbence/node-drawille-canvas",
+      "target": "performance-now",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "madbence/node-drawille-canvas",
+      "target": "watchify",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:00:00.471289+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2340
+    },
+    {
+      "path": "package.json",
+      "size": 933
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "madbence/node-drawille-canvas",
+    "html_url": "https://github.com/madbence/node-drawille-canvas",
+    "language": "JavaScript",
+    "pushed_at": "2022-12-07T06:54:07Z",
+    "stargazers_count": 386,
+    "topics": [],
+    "updated_at": "2025-11-15T10:56:45Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

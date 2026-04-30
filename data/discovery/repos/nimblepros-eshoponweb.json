@@ -1,0 +1,362 @@
+{
+  "components": [
+    {
+      "component": "dawidd6/action-download-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment-on-pr.yml"
+    },
+    {
+      "component": "dawidd6/action-download-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment-on-pr.yml"
+    },
+    {
+      "component": "marocchino/sticky-pull-request-comment@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment-on-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnetcore.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnetcore.yml"
+    },
+    {
+      "component": "irongut/CodeCoverageSummary@v1.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnetcore.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnetcore.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnetcore.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/richnav.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/richnav.yml"
+    },
+    {
+      "component": "microsoft/RichCodeNavIndexer@v0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/richnav.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/toc.yml"
+    },
+    {
+      "component": "technote-space/toc-generator@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/toc.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NimblePros/eShopOnWeb",
+      "target": "dotnet/eshoponcontainers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NimblePros/eShopOnWeb",
+      "target": "vbandcs/eshoponweb_vb.net",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NimblePros/eShopOnWeb",
+      "target": "nitrodevs/fshoponweb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment-on-pr.yml",
+      "source_repo": "NimblePros/eShopOnWeb",
+      "target": "dawidd6/action-download-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment-on-pr.yml",
+      "source_repo": "NimblePros/eShopOnWeb",
+      "target": "marocchino/sticky-pull-request-comment@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/comment-on-pr.yml",
+      "source_repo": "NimblePros/eShopOnWeb",
+      "target": "Comment on the Pull Request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnetcore.yml",
+      "source_repo": "NimblePros/eShopOnWeb",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnetcore.yml",
+      "source_repo": "NimblePros/eShopOnWeb",
+      "target": "actions/setup-dotnet@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnetcore.yml",
+      "source_repo": "NimblePros/eShopOnWeb",
+      "target": "irongut/CodeCoverageSummary@v1.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnetcore.yml",
+      "source_repo": "NimblePros/eShopOnWeb",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dotnetcore.yml",
+      "source_repo": "NimblePros/eShopOnWeb",
+      "target": "eShopOnWeb Build and Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/richnav.yml",
+      "source_repo": "NimblePros/eShopOnWeb",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/richnav.yml",
+      "source_repo": "NimblePros/eShopOnWeb",
+      "target": "actions/setup-dotnet@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/richnav.yml",
+      "source_repo": "NimblePros/eShopOnWeb",
+      "target": "microsoft/RichCodeNavIndexer@v0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/richnav.yml",
+      "source_repo": "NimblePros/eShopOnWeb",
+      "target": "eShopOnWeb - Code Index",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/toc.yml",
+      "source_repo": "NimblePros/eShopOnWeb",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/toc.yml",
+      "source_repo": "NimblePros/eShopOnWeb",
+      "target": "technote-space/toc-generator@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/toc.yml",
+      "source_repo": "NimblePros/eShopOnWeb",
+      "target": "Generate Table of Contents",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NimblePros/eShopOnWeb",
+      "target": "ardalis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NimblePros/eShopOnWeb",
+      "target": "asp-net-core",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NimblePros/eShopOnWeb",
+      "target": "c-sharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NimblePros/eShopOnWeb",
+      "target": "clean-architecture",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NimblePros/eShopOnWeb",
+      "target": "nimblepros",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NimblePros/eShopOnWeb",
+      "target": "onion-architecture",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:08:16.586899+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11824
+    },
+    {
+      "path": ".github/workflows/comment-on-pr.yml",
+      "size": 1266
+    },
+    {
+      "path": ".github/workflows/dotnetcore.yml",
+      "size": 1923
+    },
+    {
+      "path": ".github/workflows/richnav.yml",
+      "size": 508
+    },
+    {
+      "path": ".github/workflows/toc.yml",
+      "size": 420
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Sample ASP.NET Core 10.0 reference application, powered by Microsoft, demonstrating a domain-centric application architecture with monolithic deployment model.",
+    "fork": false,
+    "full_name": "NimblePros/eShopOnWeb",
+    "html_url": "https://github.com/NimblePros/eShopOnWeb",
+    "language": "C#",
+    "pushed_at": "2026-03-02T16:27:57Z",
+    "stargazers_count": 562,
+    "topics": [
+      "ardalis",
+      "asp-net-core",
+      "c-sharp",
+      "clean-architecture",
+      "nimblepros",
+      "onion-architecture"
+    ],
+    "updated_at": "2026-04-28T13:30:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dotnet/eshoponcontainers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nitrodevs/fshoponweb",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vbandcs/eshoponweb_vb.net",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Comment on the Pull Request",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/comment-on-pr.yml",
+      "term": "Comment on the Pull Request"
+    },
+    {
+      "context_snippet": "eShopOnWeb Build and Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dotnetcore.yml",
+      "term": "eShopOnWeb Build and Test"
+    },
+    {
+      "context_snippet": "eShopOnWeb - Code Index",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/richnav.yml",
+      "term": "eShopOnWeb - Code Index"
+    },
+    {
+      "context_snippet": "Generate Table of Contents",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/toc.yml",
+      "term": "Generate Table of Contents"
+    },
+    {
+      "context_snippet": "This Microsoft reference application is now being maintained by [NimblePros](https://nimblepros.com/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ardalis"
+    },
+    {
+      "context_snippet": "This Microsoft reference application is now being maintained by [NimblePros](https://nimblepros.com/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asp-net-core"
+    },
+    {
+      "context_snippet": "This Microsoft reference application is now being maintained by [NimblePros](https://nimblepros.com/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-sharp"
+    },
+    {
+      "context_snippet": "This Microsoft reference application is now being maintained by [NimblePros](https://nimblepros.com/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clean-architecture"
+    },
+    {
+      "context_snippet": "This Microsoft reference application is now being maintained by [NimblePros](https://nimblepros.com/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nimblepros"
+    },
+    {
+      "context_snippet": "This Microsoft reference application is now being maintained by [NimblePros](https://nimblepros.com/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "onion-architecture"
+    }
+  ]
+}

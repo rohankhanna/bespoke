@@ -48,7 +48,7 @@
   "normalized_form": "mypy",
   "observation_id": "cd16eeb1c147b563",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
   "observed_text": "Mypy",
   "source_context_snippet": "Mypy",
   "source_file": ".github/workflows/mypy.yml",

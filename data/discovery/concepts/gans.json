@@ -127,6 +127,18 @@
       "source_repo": "Ha0Tang/C2GAN",
       "status": "candidate-context",
       "text": "[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://github.com/Ha0Tang/C2GAN/blob/master/LICENSE.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "john-rocky/CoreML-Models",
+      "status": "candidate-context",
+      "text": "Converted CoreML Model Zoo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "john-rocky/CoreML-Models",
+      "status": "candidate-context",
+      "text": "Converted Core ML Model Zoo."
     }
   ],
   "candidate_glosses": [
@@ -189,6 +201,12 @@
       "source_repo": "Ha0Tang/C2GAN",
       "status": "candidate",
       "text": "[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://github.com/Ha0Tang/C2GAN/blob/master/LICENSE.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "john-rocky/CoreML-Models",
+      "status": "candidate",
+      "text": "Converted Core ML Model Zoo."
     }
   ],
   "candidate_related_terms": [
@@ -292,11 +310,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "Ha0Tang/C2GAN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "john-rocky/CoreML-Models"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

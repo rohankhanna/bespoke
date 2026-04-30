@@ -43,6 +43,30 @@
       "source_repo": "meta-pytorch/torchft",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Polly-Contrib/Simmy",
+      "status": "candidate-context",
+      "text": "Simmy is a chaos-engineering and fault-injection tool, integrating with the Polly resilience project for .NET"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Polly-Contrib/Simmy",
+      "status": "candidate-context",
+      "text": "Simmy is a [chaos-engineering](http://principlesofchaos.org/) and fault-injection tool, integrating with the [Polly resilience project for .NET](https://github.com/App-vNext/Polly). It is releasing April 2019 and works with [Polly v7.0.0](https://www.nuget.org/packages/Polly/7.1\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vany0114/chaos-injection-using-simmy",
+      "status": "candidate-context",
+      "text": "A microservice based application to demonstrate how chaos engineering works with Simmy using chaos policies in a distributed system."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vany0114/chaos-injection-using-simmy",
+      "status": "candidate-context",
+      "text": "A microservice based application to demonstrate how chaos engineering works with [Simmy](https://github.com/Polly-Contrib/Simmy) using chaos policies in a distributed system and how we can inject even a custom behavior given our needs or infrastructure, this time injecting custo\u2026"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "meta-pytorch/torchft",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Polly-Contrib/Simmy",
+      "status": "candidate",
+      "text": "Simmy is a [chaos-engineering](http://principlesofchaos.org/) and fault-injection tool, integrating with the [Polly resilience project for .NET](https://github.com/App-vNext/Polly). It is releasing April 2019 and works with [Polly v7.0.0](https://www.nuget.org/packages/Polly/7.1\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vany0114/chaos-injection-using-simmy",
+      "status": "candidate",
+      "text": "A microservice based application to demonstrate how chaos engineering works with [Simmy](https://github.com/Polly-Contrib/Simmy) using chaos policies in a distributed system and how we can inject even a custom behavior given our needs or infrastructure, this time injecting custo\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -124,11 +160,35 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "meta-pytorch/torchft"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Polly-Contrib/Simmy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "dkron-io/dkron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "meta-pytorch/torchft"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "vany0114/chaos-injection-using-simmy"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

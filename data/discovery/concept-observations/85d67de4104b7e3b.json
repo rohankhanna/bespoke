@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "oneAPI Math Library (oneMath)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"PR Linters\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"PR Linters\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8444,
+      "status": "candidate",
+      "text": "linter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4740,
+      "status": "candidate",
+      "text": "asphalt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4740,
+      "status": "candidate",
+      "text": "bauxite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4740,
+      "status": "candidate",
+      "text": "beeswax"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4740,
+      "status": "candidate",
+      "text": "benzene"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PR Linters",
+      "sense_id": "pr-linters#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pr-linters",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pr-linters",
+  "observation_id": "85d67de4104b7e3b",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "PR Linters",
+  "source_context_snippet": "\"PR Linters\"",
+  "source_file": ".github/workflows/pr-lint.yml",
+  "source_repo": "uxlfoundation/oneMath",
+  "source_repo_description": "oneAPI Math Library (oneMath)"
+}

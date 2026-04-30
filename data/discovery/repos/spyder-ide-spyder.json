@@ -1,0 +1,644 @@
+{
+  "components": [
+    {
+      "component": "mxschmitt/action-tmate@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-subrepos.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-subrepos.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-subrepos.yml"
+    },
+    {
+      "component": "mamba-org/setup-micromamba@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-subrepos.yml"
+    },
+    {
+      "component": "actions/github-script@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chatops-binder.yaml"
+    },
+    {
+      "component": "spyder-ide/action-close-duplicate-issues@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/duplicates.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/installers-conda.yml"
+    },
+    {
+      "component": "mxschmitt/action-tmate@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/installers-conda.yml"
+    },
+    {
+      "component": "actions/cache/restore@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/installers-conda.yml"
+    },
+    {
+      "component": "actions/cache/restore@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/installers-conda.yml"
+    },
+    {
+      "component": "actions/cache/restore@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/installers-conda.yml"
+    },
+    {
+      "component": "mamba-org/setup-micromamba@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/installers-conda.yml"
+    },
+    {
+      "component": "mamba-org/setup-micromamba@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/installers-conda.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/installers-conda.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/installers-conda.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/installers-conda.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/installers-conda.yml"
+    },
+    {
+      "component": "bruceadams/get-release@v1.3.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/installers-conda.yml"
+    },
+    {
+      "component": "shogo82148/actions-upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/installers-conda.yml"
+    },
+    {
+      "component": "mxschmitt/action-tmate@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-files.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-files.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-files.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-files.yml"
+    },
+    {
+      "component": "mamba-org/setup-micromamba@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-files.yml"
+    },
+    {
+      "component": "mxschmitt/action-tmate@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-linux-qt6.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-linux-qt6.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-linux-qt6.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-linux-qt6.yml"
+    },
+    {
+      "component": "mamba-org/setup-micromamba@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-linux-qt6.yml"
+    },
+    {
+      "component": "mamba-org/setup-micromamba@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-linux-qt6.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-linux-qt6.yml"
+    },
+    {
+      "component": "mxschmitt/action-tmate@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-linux.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-linux.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-linux.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-linux.yml"
+    },
+    {
+      "component": "mamba-org/setup-micromamba@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-linux.yml"
+    },
+    {
+      "component": "mamba-org/setup-micromamba@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-linux.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-linux.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-subrepos.yml",
+      "source_repo": "spyder-ide/spyder",
+      "target": "mxschmitt/action-tmate@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-subrepos.yml",
+      "source_repo": "spyder-ide/spyder",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-subrepos.yml",
+      "source_repo": "spyder-ide/spyder",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-subrepos.yml",
+      "source_repo": "spyder-ide/spyder",
+      "target": "mamba-org/setup-micromamba@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-subrepos.yml",
+      "source_repo": "spyder-ide/spyder",
+      "target": "Create Subrepo Conda Packages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chatops-binder.yaml",
+      "source_repo": "spyder-ide/spyder",
+      "target": "actions/github-script@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/chatops-binder.yaml",
+      "source_repo": "spyder-ide/spyder",
+      "target": "Chatops Binder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/duplicates.yml",
+      "source_repo": "spyder-ide/spyder",
+      "target": "spyder-ide/action-close-duplicate-issues@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/duplicates.yml",
+      "source_repo": "spyder-ide/spyder",
+      "target": "Close duplicate issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/installers-conda.yml",
+      "source_repo": "spyder-ide/spyder",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/installers-conda.yml",
+      "source_repo": "spyder-ide/spyder",
+      "target": "mxschmitt/action-tmate@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/installers-conda.yml",
+      "source_repo": "spyder-ide/spyder",
+      "target": "actions/cache/restore@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/installers-conda.yml",
+      "source_repo": "spyder-ide/spyder",
+      "target": "mamba-org/setup-micromamba@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/installers-conda.yml",
+      "source_repo": "spyder-ide/spyder",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/installers-conda.yml",
+      "source_repo": "spyder-ide/spyder",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/installers-conda.yml",
+      "source_repo": "spyder-ide/spyder",
+      "target": "bruceadams/get-release@v1.3.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/installers-conda.yml",
+      "source_repo": "spyder-ide/spyder",
+      "target": "shogo82148/actions-upload-release-asset@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/installers-conda.yml",
+      "source_repo": "spyder-ide/spyder",
+      "target": "Weekly conda-based installers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/purge-cache.yml",
+      "source_repo": "spyder-ide/spyder",
+      "target": "Purge caches",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-files.yml",
+      "source_repo": "spyder-ide/spyder",
+      "target": "mxschmitt/action-tmate@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-files.yml",
+      "source_repo": "spyder-ide/spyder",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-files.yml",
+      "source_repo": "spyder-ide/spyder",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-files.yml",
+      "source_repo": "spyder-ide/spyder",
+      "target": "mamba-org/setup-micromamba@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-files.yml",
+      "source_repo": "spyder-ide/spyder",
+      "target": "File tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-linux-qt6.yml",
+      "source_repo": "spyder-ide/spyder",
+      "target": "mxschmitt/action-tmate@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-linux-qt6.yml",
+      "source_repo": "spyder-ide/spyder",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-linux-qt6.yml",
+      "source_repo": "spyder-ide/spyder",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-linux-qt6.yml",
+      "source_repo": "spyder-ide/spyder",
+      "target": "mamba-org/setup-micromamba@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-linux-qt6.yml",
+      "source_repo": "spyder-ide/spyder",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-linux-qt6.yml",
+      "source_repo": "spyder-ide/spyder",
+      "target": "Linux tests with PyQt6",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-linux.yml",
+      "source_repo": "spyder-ide/spyder",
+      "target": "mxschmitt/action-tmate@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-linux.yml",
+      "source_repo": "spyder-ide/spyder",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-linux.yml",
+      "source_repo": "spyder-ide/spyder",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-linux.yml",
+      "source_repo": "spyder-ide/spyder",
+      "target": "mamba-org/setup-micromamba@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-linux.yml",
+      "source_repo": "spyder-ide/spyder",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-linux.yml",
+      "source_repo": "spyder-ide/spyder",
+      "target": "Linux tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spyder-ide/spyder",
+      "target": "anaconda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spyder-ide/spyder",
+      "target": "anaconda-distribution",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spyder-ide/spyder",
+      "target": "language-server-protocol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spyder-ide/spyder",
+      "target": "pyqt5",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spyder-ide/spyder",
+      "target": "spyder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spyder-ide/spyder",
+      "target": "winpython",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:01:38.809549+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19335
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 251
+    },
+    {
+      "path": ".github/workflows/build-subrepos.yml",
+      "size": 2854
+    },
+    {
+      "path": ".github/workflows/chatops-binder.yaml",
+      "size": 1855
+    },
+    {
+      "path": ".github/workflows/duplicates.yml",
+      "size": 9194
+    },
+    {
+      "path": ".github/workflows/installers-conda.yml",
+      "size": 14789
+    },
+    {
+      "path": ".github/workflows/purge-cache.yml",
+      "size": 1351
+    },
+    {
+      "path": ".github/workflows/test-files.yml",
+      "size": 3215
+    },
+    {
+      "path": ".github/workflows/test-linux-qt6.yml",
+      "size": 5215
+    },
+    {
+      "path": ".github/workflows/test-linux.yml",
+      "size": 5443
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Official repository for Spyder - The Scientific Python Development Environment",
+    "fork": false,
+    "full_name": "spyder-ide/spyder",
+    "html_url": "https://github.com/spyder-ide/spyder",
+    "language": "Python",
+    "pushed_at": "2026-04-29T21:59:49Z",
+    "stargazers_count": 9207,
+    "topics": [
+      "anaconda",
+      "anaconda-distribution",
+      "ide",
+      "language-server-protocol",
+      "pyqt5",
+      "python",
+      "qt",
+      "spyder",
+      "winpython"
+    ],
+    "updated_at": "2026-04-29T21:07:11Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Create Subrepo Conda Packages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-subrepos.yml",
+      "term": "Create Subrepo Conda Packages"
+    },
+    {
+      "context_snippet": "Chatops Binder",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/chatops-binder.yaml",
+      "term": "Chatops Binder"
+    },
+    {
+      "context_snippet": "Close duplicate issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/duplicates.yml",
+      "term": "Close duplicate issues"
+    },
+    {
+      "context_snippet": "Weekly conda-based installers",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/installers-conda.yml",
+      "term": "Weekly conda-based installers"
+    },
+    {
+      "context_snippet": "Purge caches",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/purge-cache.yml",
+      "term": "Purge caches"
+    },
+    {
+      "context_snippet": "File tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-files.yml",
+      "term": "File tests"
+    },
+    {
+      "context_snippet": "Linux tests with PyQt6",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-linux-qt6.yml",
+      "term": "Linux tests with PyQt6"
+    },
+    {
+      "context_snippet": "Linux tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-linux.yml",
+      "term": "Linux tests"
+    },
+    {
+      "context_snippet": "![Spyder \u2014 The Scientific Python Development Environment](https://raw.githubusercontent.com/spyder-ide/spyder/master/branding/logo/spyder_readme_banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "anaconda"
+    },
+    {
+      "context_snippet": "![Spyder \u2014 The Scientific Python Development Environment](https://raw.githubusercontent.com/spyder-ide/spyder/master/branding/logo/spyder_readme_banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "anaconda-distribution"
+    },
+    {
+      "context_snippet": "![Spyder \u2014 The Scientific Python Development Environment](https://raw.githubusercontent.com/spyder-ide/spyder/master/branding/logo/spyder_readme_banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-server-protocol"
+    },
+    {
+      "context_snippet": "![Spyder \u2014 The Scientific Python Development Environment](https://raw.githubusercontent.com/spyder-ide/spyder/master/branding/logo/spyder_readme_banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pyqt5"
+    },
+    {
+      "context_snippet": "![Spyder \u2014 The Scientific Python Development Environment](https://raw.githubusercontent.com/spyder-ide/spyder/master/branding/logo/spyder_readme_banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spyder"
+    },
+    {
+      "context_snippet": "![Spyder \u2014 The Scientific Python Development Environment](https://raw.githubusercontent.com/spyder-ide/spyder/master/branding/logo/spyder_readme_banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "winpython"
+    }
+  ]
+}

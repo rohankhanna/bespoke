@@ -115,6 +115,18 @@
       "source_repo": "XAMPPRocky/tokei",
       "status": "candidate-context",
       "text": "[![Mean Bean CI](https://github.com/XAMPPRocky/tokei/workflows/Mean%20Bean%20CI/badge.svg)](https://github.com/XAMPPRocky/tokei/actions?query=workflow%3A%22Mean+Bean+CI%22)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ellerbrock/open-source-badges",
+      "status": "candidate-context",
+      "text": ":octocat: Open Source & Licence Badges"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ellerbrock/open-source-badges",
+      "status": "candidate-context",
+      "text": "Badges to show your love for Open Source and the Community."
     }
   ],
   "candidate_glosses": [
@@ -171,6 +183,12 @@
       "source_repo": "XAMPPRocky/tokei",
       "status": "candidate",
       "text": "[![Mean Bean CI](https://github.com/XAMPPRocky/tokei/workflows/Mean%20Bean%20CI/badge.svg)](https://github.com/XAMPPRocky/tokei/actions?query=workflow%3A%22Mean+Bean+CI%22)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ellerbrock/open-source-badges",
+      "status": "candidate",
+      "text": "Badges to show your love for Open Source and the Community."
     }
   ],
   "candidate_related_terms": [
@@ -268,11 +286,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "XAMPPRocky/tokei"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ellerbrock/open-source-badges"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,94 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xjb714/xjb",
+      "target": "abolz/drachennest",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xjb714/xjb",
+      "target": "c4f7fcce9cb06515/schubfach",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xjb714/xjb",
+      "target": "ibireme/c_numconv_benchmark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xjb714/xjb",
+      "target": "cassioneri/teju_jagua",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "xjb714/xjb",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:03:44.926596+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8286
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 428
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "fast float to string algorithm.",
+    "fork": false,
+    "full_name": "xjb714/xjb",
+    "html_url": "https://github.com/xjb714/xjb",
+    "language": "C++",
+    "pushed_at": "2026-04-29T14:37:00Z",
+    "stargazers_count": 28,
+    "topics": [],
+    "updated_at": "2026-04-29T14:45:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abolz/drachennest",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "c4f7fcce9cb06515/schubfach",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cassioneri/teju_jagua",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ibireme/c_numconv_benchmark",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

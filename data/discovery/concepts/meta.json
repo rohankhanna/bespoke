@@ -31,6 +31,18 @@
       "source_repo": "WebAssembly/meetings",
       "status": "candidate-context",
       "text": "This repository hosts information on official WebAssembly meetings hosted by the W3C"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zopefoundation/meta",
+      "status": "candidate-context",
+      "text": "Meta issues concerning many/all of the zopefoundation repositories."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zopefoundation/meta",
+      "status": "candidate-context",
+      "text": "``zope.meta``"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "WebAssembly/meetings",
       "status": "candidate",
       "text": "This repository hosts information on official WebAssembly meetings hosted by the W3C"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zopefoundation/meta",
+      "status": "candidate",
+      "text": "``zope.meta``"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "WebAssembly/meetings"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "zopefoundation/meta"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

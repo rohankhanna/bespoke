@@ -4,13 +4,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Level/multileveldown",
-      "target": "level/many-level",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Level/multileveldown",
       "target": "juliangruber/multilevel",
       "target_type": "repository"
     },
@@ -246,6 +239,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-24T06:47:13.899148+00:00",
+  "generated_at": "2026-04-30T12:45:20.475770+00:00",
   "source_repo": "Level/multileveldown"
 }

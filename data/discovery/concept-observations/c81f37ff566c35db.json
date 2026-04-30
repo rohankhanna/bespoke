@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Gorilla: Training and Evaluating LLMs for Function Calls (Tool Calls)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Update API Zoo Data"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Update API Zoo Data"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22424,
+      "status": "candidate",
+      "text": "item"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22066,
+      "status": "candidate",
+      "text": "sting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22054,
+      "status": "candidate",
+      "text": "nail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22016,
+      "status": "candidate",
+      "text": "message"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22004,
+      "status": "candidate",
+      "text": "lot"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update API Zoo Data",
+      "sense_id": "update-api-zoo-data#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "update-api-zoo-data",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "update-api-zoo-data",
+  "observation_id": "c81f37ff566c35db",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "Update API Zoo Data",
+  "source_context_snippet": "Update API Zoo Data",
+  "source_file": ".github/workflows/push-apizoo-updates.yml",
+  "source_repo": "ShishirPatil/gorilla",
+  "source_repo_description": "Gorilla: Training and Evaluating LLMs for Function Calls (Tool Calls)"
+}

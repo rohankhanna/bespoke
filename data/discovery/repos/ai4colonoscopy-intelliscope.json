@@ -1,0 +1,251 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ai4colonoscopy/IntelliScope",
+      "target": "ai4colonoscopy/colon-x.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ai4colonoscopy/IntelliScope",
+      "target": "ai4colonoscopy/awesome-intelligent-colonoscopy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ai4colonoscopy/IntelliScope",
+      "target": "dvlab-research/mgm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ai4colonoscopy/IntelliScope",
+      "target": "meituan-automl/mobilevlm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai4colonoscopy/IntelliScope",
+      "target": "colonoscopy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai4colonoscopy/IntelliScope",
+      "target": "colonoscopy-survey",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai4colonoscopy/IntelliScope",
+      "target": "endoscopy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai4colonoscopy/IntelliScope",
+      "target": "medical-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai4colonoscopy/IntelliScope",
+      "target": "medical-image-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai4colonoscopy/IntelliScope",
+      "target": "multimodal-colonoscopy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai4colonoscopy/IntelliScope",
+      "target": "multimodal-data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai4colonoscopy/IntelliScope",
+      "target": "multimodal-large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai4colonoscopy/IntelliScope",
+      "target": "polyp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai4colonoscopy/IntelliScope",
+      "target": "polyp-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai4colonoscopy/IntelliScope",
+      "target": "polyp-survey",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai4colonoscopy/IntelliScope",
+      "target": "vision-language",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:10:25.120618+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21109
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1142
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Frontiers in Intelligent Colonoscopy [ColonSurvey | ColonINST | ColonGPT]",
+    "fork": false,
+    "full_name": "ai4colonoscopy/IntelliScope",
+    "html_url": "https://github.com/ai4colonoscopy/IntelliScope",
+    "language": "Python",
+    "pushed_at": "2026-04-18T23:29:22Z",
+    "stargazers_count": 104,
+    "topics": [
+      "colonoscopy",
+      "colonoscopy-survey",
+      "endoscopy",
+      "medical-ai",
+      "medical-image-analysis",
+      "multimodal-colonoscopy",
+      "multimodal-data",
+      "multimodal-large-language-models",
+      "polyp",
+      "polyp-segmentation",
+      "polyp-survey",
+      "vision-language"
+    ],
+    "updated_at": "2026-04-28T07:10:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ai4colonoscopy/awesome-intelligent-colonoscopy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ai4colonoscopy/colon-x.",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dvlab-research/mgm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "meituan-automl/mobilevlm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "colonoscopy"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "colonoscopy-survey"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "endoscopy"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "medical-ai"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "medical-image-analysis"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimodal-colonoscopy"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimodal-data"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimodal-large-language-models"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "polyp"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "polyp-segmentation"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "polyp-survey"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-language"
+    }
+  ]
+}

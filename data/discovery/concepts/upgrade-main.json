@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "upgrade-main"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prasek/supergraph-demo-opentelemetry",
+      "status": "candidate-context",
+      "text": "open-telemetry config for Apollo Server and Apollo Gateway"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prasek/supergraph-demo-opentelemetry",
+      "status": "candidate-context",
+      "text": "upgrade-main"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prasek/supergraph-demo-opentelemetry",
+      "status": "candidate",
+      "text": "upgrade-main"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "upgrade-main",
+  "concept_id": "upgrade-main",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/upgrade-main.yml",
+      "source_repo": "prasek/supergraph-demo-opentelemetry"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "upgrade-main",
+      "sense_id": "upgrade-main#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

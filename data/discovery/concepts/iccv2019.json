@@ -67,6 +67,42 @@
       "source_repo": "mks0601/3DMPPE_ROOTNET_RELEASE",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zjhthu/OANet",
+      "status": "candidate-context",
+      "text": "Implementation of ICCV19 Paper \"Learning Two-View Correspondences and Geometry Using Order-Aware Network\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zjhthu/OANet",
+      "status": "candidate-context",
+      "text": "Pytorch implementation of OANet for ICCV'19 paper [\"Learning Two-View Correspondences and Geometry Using Order-Aware Network\"](https://arxiv.org/abs/1908.04964), by Jiahui Zhang, Dawei Sun, Zixin Luo, Anbang Yao, Lei Zhou, Tianwei Shen, Yurong Chen, Long Quan and Hongen Liao."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PingoLH/FCHarDNet",
+      "status": "candidate-context",
+      "text": "Fully Convolutional HarDNet for Segmentation in Pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PingoLH/FCHarDNet",
+      "status": "candidate-context",
+      "text": "- Added a new v2_transform() method to replace torch.cat + nn.Conv2d combinations with [CatConv2d](https://github.com/PingoLH/CatConv2d), an all-in-1 fused cuda kernel combining Concat and Conv2d."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PingoLH/Pytorch-HarDNet",
+      "status": "candidate-context",
+      "text": "35% faster than ResNet: Harmonic DenseNet, A low memory traffic network"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PingoLH/Pytorch-HarDNet",
+      "status": "candidate-context",
+      "text": "* Fully utilize your cuda cores!"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +135,24 @@
       "source_repo": "mks0601/3DMPPE_ROOTNET_RELEASE",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zjhthu/OANet",
+      "status": "candidate",
+      "text": "Pytorch implementation of OANet for ICCV'19 paper [\"Learning Two-View Correspondences and Geometry Using Order-Aware Network\"](https://arxiv.org/abs/1908.04964), by Jiahui Zhang, Dawei Sun, Zixin Luo, Anbang Yao, Lei Zhou, Tianwei Shen, Yurong Chen, Long Quan and Hongen Liao."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PingoLH/FCHarDNet",
+      "status": "candidate",
+      "text": "- Added a new v2_transform() method to replace torch.cat + nn.Conv2d combinations with [CatConv2d](https://github.com/PingoLH/CatConv2d), an all-in-1 fused cuda kernel combining Concat and Conv2d."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PingoLH/Pytorch-HarDNet",
+      "status": "candidate",
+      "text": "* Fully utilize your cuda cores!"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +190,29 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "mks0601/3DMPPE_ROOTNET_RELEASE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "zjhthu/OANet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "PingoLH/FCHarDNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "PingoLH/Pytorch-HarDNet"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

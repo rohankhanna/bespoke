@@ -84,7 +84,7 @@
   "normalized_form": "label-prs",
   "observation_id": "28c6082276ad7f31",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
   "observed_text": "label PRs",
   "source_context_snippet": "'label PRs'",
   "source_file": ".github/workflows/label-pr.yml",

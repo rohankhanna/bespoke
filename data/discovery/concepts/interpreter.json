@@ -151,6 +151,18 @@
       "source_repo": "v8/v8",
       "status": "candidate-context",
       "text": "V8 JavaScript Engine"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rgbkrk/chatlab",
+      "status": "candidate-context",
+      "text": "\u26a1\ufe0f\ud83e\uddea Fast LLM Tool Calling Experimentation, big and smol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rgbkrk/chatlab",
+      "status": "candidate-context",
+      "text": "**Chat Experiments, Simplified**"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +237,12 @@
       "source_repo": "v8/v8",
       "status": "candidate",
       "text": "V8 JavaScript Engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rgbkrk/chatlab",
+      "status": "candidate",
+      "text": "**Chat Experiments, Simplified**"
     }
   ],
   "candidate_related_terms": [
@@ -400,11 +418,35 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "v8/v8"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "babashka/nbb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "babashka/sci"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "babashka/scittle"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "rgbkrk/chatlab"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -58,6 +58,18 @@
       "source_repo": "ipshipyard/ipfs-deploy-action",
       "status": "candidate-context",
       "text": "This GitHub Action automates the deployment of static sites to IPFS using [CAR files](https://docs.ipfs.tech/concepts/glossary/#car). It pins to either [IPFS Cluster](https://ipfscluster.io/) or a single [Kubo](https://github.com/ipfs/kubo) instance, as well as supporting additi\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Ningsir/pytorch",
+      "status": "candidate-context",
+      "text": "Tensors and Dynamic neural networks in Python with strong GPU acceleration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ningsir/pytorch",
+      "status": "candidate-context",
+      "text": "upload"
     }
   ],
   "candidate_glosses": [
@@ -84,6 +96,12 @@
       "source_repo": "ipshipyard/ipfs-deploy-action",
       "status": "candidate",
       "text": "This GitHub Action automates the deployment of static sites to IPFS using [CAR files](https://docs.ipfs.tech/concepts/glossary/#car). It pins to either [IPFS Cluster](https://ipfscluster.io/) or a single [Kubo](https://github.com/ipfs/kubo) instance, as well as supporting additi\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ningsir/pytorch",
+      "status": "candidate",
+      "text": "upload"
     }
   ],
   "candidate_related_terms": [
@@ -163,11 +181,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/upload-assets.yml",
       "source_repo": "rust-lang/rustfmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/_binary-upload.yml",
+      "source_repo": "Ningsir/pytorch"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

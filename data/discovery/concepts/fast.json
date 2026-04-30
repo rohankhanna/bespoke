@@ -187,6 +187,30 @@
       "source_repo": "NVIDIA-AI-IOT/nanoowl",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">NanoOWL</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stephenberry/glaze",
+      "status": "candidate-context",
+      "text": "Extremely fast, in memory, serialization, reflection, and RPC library for C++. JSON, BEVE, BSON, CBOR, CSV, JSONB, MessagePack, TOML, YAML, EETF"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stephenberry/glaze",
+      "status": "candidate-context",
+      "text": "One of the fastest JSON libraries in the world. Glaze reads and writes from object memory, simplifying interfaces and offering incredible performance."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "css/csso",
+      "status": "candidate-context",
+      "text": "CSS minifier with structural optimizations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "css/csso",
+      "status": "candidate-context",
+      "text": "[![NPM version](https://img.shields.io/npm/v/csso.svg)](https://www.npmjs.com/package/csso)"
     }
   ],
   "candidate_glosses": [
@@ -279,6 +303,18 @@
       "source_repo": "NVIDIA-AI-IOT/nanoowl",
       "status": "candidate",
       "text": "<h1 align=\"center\">NanoOWL</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stephenberry/glaze",
+      "status": "candidate",
+      "text": "One of the fastest JSON libraries in the world. Glaze reads and writes from object memory, simplifying interfaces and offering incredible performance."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "css/csso",
+      "status": "candidate",
+      "text": "[![NPM version](https://img.shields.io/npm/v/csso.svg)](https://www.npmjs.com/package/csso)"
     }
   ],
   "candidate_related_terms": [
@@ -460,11 +496,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "NVIDIA-AI-IOT/nanoowl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "stephenberry/glaze"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "css/csso"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

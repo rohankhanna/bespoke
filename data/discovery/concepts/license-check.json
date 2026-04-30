@@ -130,6 +130,30 @@
       "source_repo": "secretflow/secretflow",
       "status": "candidate-context",
       "text": "License Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "secretflow/heu",
+      "status": "candidate-context",
+      "text": "A high-performance homomorphic encryption algorithm library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "secretflow/heu",
+      "status": "candidate-context",
+      "text": "License Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "secretflow/spu",
+      "status": "candidate-context",
+      "text": "SPU (Secure Processing Unit) aims to be a provable, measurable secure computation device, which provides computation ability while keeping your private data protected."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "secretflow/spu",
+      "status": "candidate-context",
+      "text": "License Check"
     }
   ],
   "candidate_glosses": [
@@ -190,6 +214,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "secretflow/secretflow",
+      "status": "candidate",
+      "text": "License Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "secretflow/heu",
+      "status": "candidate",
+      "text": "License Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "secretflow/spu",
       "status": "candidate",
       "text": "License Check"
     }
@@ -367,11 +403,35 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/license-check.yml",
       "source_repo": "secretflow/secretflow"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/licensecheck.yml",
+      "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/license-eyes.yml",
+      "source_repo": "apache/brpc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/license-check.yml",
+      "source_repo": "secretflow/heu"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/license-check.yml",
+      "source_repo": "secretflow/spu"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

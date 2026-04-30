@@ -5,7 +5,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -211,6 +213,42 @@
       "source_repo": "istio/proxy",
       "status": "candidate-context",
       "text": "The Istio Proxy is a microservice proxy that can be used on the client and server side, and forms a microservice mesh."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actions/setup-node",
+      "status": "candidate-context",
+      "text": "Set up your GitHub Actions workflow with a specific version of node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/setup-node",
+      "status": "candidate-context",
+      "text": "proxy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "novnc/websockify",
+      "status": "candidate-context",
+      "text": "Websockify is a WebSocket to TCP proxy/bridge. This allows a browser to connect  to any application/server/service."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "novnc/websockify",
+      "status": "candidate-context",
+      "text": "websockify was formerly named wsproxy and was part of the"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haproxy/haproxy",
+      "status": "candidate-context",
+      "text": "HAProxy Load Balancer's development branch (mirror of git.haproxy.org)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haproxy/haproxy",
+      "status": "candidate-context",
+      "text": "[![AWS-LC](https://github.com/haproxy/haproxy/actions/workflows/aws-lc.yml/badge.svg)](https://github.com/haproxy/haproxy/actions/workflows/aws-lc.yml)"
     }
   ],
   "candidate_glosses": [
@@ -315,6 +353,24 @@
       "source_repo": "istio/proxy",
       "status": "candidate",
       "text": "The Istio Proxy is a microservice proxy that can be used on the client and server side, and forms a microservice mesh."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/setup-node",
+      "status": "candidate",
+      "text": "proxy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "novnc/websockify",
+      "status": "candidate",
+      "text": "websockify was formerly named wsproxy and was part of the"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haproxy/haproxy",
+      "status": "candidate",
+      "text": "[![AWS-LC](https://github.com/haproxy/haproxy/actions/workflows/aws-lc.yml/badge.svg)](https://github.com/haproxy/haproxy/actions/workflows/aws-lc.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -481,11 +537,35 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "istio/proxy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/proxy.yml",
+      "source_repo": "actions/setup-node"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "novnc/websockify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "DNSCrypt/dnscrypt-proxy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "haproxy/haproxy"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

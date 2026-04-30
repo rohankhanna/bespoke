@@ -1,0 +1,265 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sp1-patches/elliptic-curves",
+      "target": "rustcrypto/elliptic-curves",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bign256.yml",
+      "source_repo": "sp1-patches/elliptic-curves",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bign256.yml",
+      "source_repo": "sp1-patches/elliptic-curves",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bign256.yml",
+      "source_repo": "sp1-patches/elliptic-curves",
+      "target": "RustCrypto/actions/cross-install@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bign256.yml",
+      "source_repo": "sp1-patches/elliptic-curves",
+      "target": "RustCrypto/actions/cargo-cache@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bign256.yml",
+      "source_repo": "sp1-patches/elliptic-curves",
+      "target": "bign256",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bp256.yml",
+      "source_repo": "sp1-patches/elliptic-curves",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bp256.yml",
+      "source_repo": "sp1-patches/elliptic-curves",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bp256.yml",
+      "source_repo": "sp1-patches/elliptic-curves",
+      "target": "RustCrypto/actions/cargo-cache@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bp256.yml",
+      "source_repo": "sp1-patches/elliptic-curves",
+      "target": "bp256",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bp384.yml",
+      "source_repo": "sp1-patches/elliptic-curves",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bp384.yml",
+      "source_repo": "sp1-patches/elliptic-curves",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bp384.yml",
+      "source_repo": "sp1-patches/elliptic-curves",
+      "target": "RustCrypto/actions/cargo-cache@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bp384.yml",
+      "source_repo": "sp1-patches/elliptic-curves",
+      "target": "bp384",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/k256.yml",
+      "source_repo": "sp1-patches/elliptic-curves",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/k256.yml",
+      "source_repo": "sp1-patches/elliptic-curves",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/k256.yml",
+      "source_repo": "sp1-patches/elliptic-curves",
+      "target": "RustCrypto/actions/cross-install@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/k256.yml",
+      "source_repo": "sp1-patches/elliptic-curves",
+      "target": "RustCrypto/actions/cargo-cache@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/k256.yml",
+      "source_repo": "sp1-patches/elliptic-curves",
+      "target": "k256",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/p192.yml",
+      "source_repo": "sp1-patches/elliptic-curves",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/p192.yml",
+      "source_repo": "sp1-patches/elliptic-curves",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/p192.yml",
+      "source_repo": "sp1-patches/elliptic-curves",
+      "target": "RustCrypto/actions/cargo-cache@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/p192.yml",
+      "source_repo": "sp1-patches/elliptic-curves",
+      "target": "p192",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/p224.yml",
+      "source_repo": "sp1-patches/elliptic-curves",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/p224.yml",
+      "source_repo": "sp1-patches/elliptic-curves",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/p224.yml",
+      "source_repo": "sp1-patches/elliptic-curves",
+      "target": "RustCrypto/actions/cargo-cache@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/p224.yml",
+      "source_repo": "sp1-patches/elliptic-curves",
+      "target": "p224",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/p256.yml",
+      "source_repo": "sp1-patches/elliptic-curves",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/p256.yml",
+      "source_repo": "sp1-patches/elliptic-curves",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/p256.yml",
+      "source_repo": "sp1-patches/elliptic-curves",
+      "target": "RustCrypto/actions/cross-install@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/p256.yml",
+      "source_repo": "sp1-patches/elliptic-curves",
+      "target": "RustCrypto/actions/cargo-cache@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/p256.yml",
+      "source_repo": "sp1-patches/elliptic-curves",
+      "target": "p256",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/p384.yml",
+      "source_repo": "sp1-patches/elliptic-curves",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/p384.yml",
+      "source_repo": "sp1-patches/elliptic-curves",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/p384.yml",
+      "source_repo": "sp1-patches/elliptic-curves",
+      "target": "RustCrypto/actions/cross-install@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/p384.yml",
+      "source_repo": "sp1-patches/elliptic-curves",
+      "target": "RustCrypto/actions/cargo-cache@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/p384.yml",
+      "source_repo": "sp1-patches/elliptic-curves",
+      "target": "p384",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T12:45:20.475770+00:00",
+  "source_repo": "sp1-patches/elliptic-curves"
+}

@@ -159,6 +159,42 @@
       "source_repo": "microsoft/multilspy",
       "status": "candidate-context",
       "text": "[![PyPI - Version](https://img.shields.io/pypi/v/multilspy)](https://pypi.org/project/multilspy/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hairyf/genapi",
+      "status": "candidate-context",
+      "text": "API pipeline generator, which is used to convert OpenApi (v2~v3) and any input sources into TS/JS APIs, and currently supports axios, fetch, ky, got, ofetch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hairyf/genapi",
+      "status": "candidate-context",
+      "text": "[![npm version][npm-version-src]][npm-version-href]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hey-api/openapi-ts",
+      "status": "candidate-context",
+      "text": "\ud83c\udf00 OpenAPI to TypeScript codegen. Production-ready SDKs, Zod schemas, TanStack Query hooks, and 20+ plugins. Used by Vercel, OpenCode, and PayPal."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hey-api/openapi-ts",
+      "status": "candidate-context",
+      "text": "openapi-ts-monorepo \u2014 Public @hey-api monorepo"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "smithy-lang/smithy-examples",
+      "status": "candidate-context",
+      "text": "A collection of examples to help users get up and running with Smithy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smithy-lang/smithy-examples",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/smithy-lang/smithy-examples/workflows/integ/badge.svg)](https://github.com/smithy-lang/smithy-examples/actions/workflows/integ.yml)"
     }
   ],
   "candidate_glosses": [
@@ -239,6 +275,24 @@
       "source_repo": "microsoft/multilspy",
       "status": "candidate",
       "text": "[![PyPI - Version](https://img.shields.io/pypi/v/multilspy)](https://pypi.org/project/multilspy/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hairyf/genapi",
+      "status": "candidate",
+      "text": "[![npm version][npm-version-src]][npm-version-href]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hey-api/openapi-ts",
+      "status": "candidate",
+      "text": "openapi-ts-monorepo \u2014 Public @hey-api monorepo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smithy-lang/smithy-examples",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/smithy-lang/smithy-examples/workflows/integ/badge.svg)](https://github.com/smithy-lang/smithy-examples/actions/workflows/integ.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -330,11 +384,29 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "microsoft/multilspy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "hairyf/genapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "hey-api/openapi-ts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "smithy-lang/smithy-examples"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

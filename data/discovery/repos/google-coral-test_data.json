@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T12:55:55.382287+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 169
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Trained and compiled TF Lite models, and other testing data for Coral devices",
+    "fork": false,
+    "full_name": "google-coral/test_data",
+    "html_url": "https://github.com/google-coral/test_data",
+    "language": "Starlark",
+    "pushed_at": "2021-08-19T09:15:25Z",
+    "stargazers_count": 59,
+    "topics": [],
+    "updated_at": "2026-04-19T15:57:35Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,202 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "DeLaGuardo/setup-clojure@13.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/promote.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/promote.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "DeLaGuardo/setup-clojure@13.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clojure/brew-install",
+      "target": "clojure/homebrew-tools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "clojure/brew-install",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "clojure/brew-install",
+      "target": "DeLaGuardo/setup-clojure@13.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "clojure/brew-install",
+      "target": "Check download via setup-clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/promote.yml",
+      "source_repo": "clojure/brew-install",
+      "target": "aws-actions/configure-aws-credentials@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/promote.yml",
+      "source_repo": "clojure/brew-install",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/promote.yml",
+      "source_repo": "clojure/brew-install",
+      "target": "Promote dev to stable",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "clojure/brew-install",
+      "target": "aws-actions/configure-aws-credentials@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "clojure/brew-install",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "clojure/brew-install",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "clojure/brew-install",
+      "target": "DeLaGuardo/setup-clojure@13.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "clojure/brew-install",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "clojure/brew-install",
+      "target": "Release dev version",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:01:48.412567+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2303
+    },
+    {
+      "path": ".github/workflows/check.yml",
+      "size": 973
+    },
+    {
+      "path": ".github/workflows/promote.yml",
+      "size": 1922
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 2214
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "1.12.4",
+    "description": "Clojure CLI installer",
+    "fork": false,
+    "full_name": "clojure/brew-install",
+    "html_url": "https://github.com/clojure/brew-install",
+    "language": "Shell",
+    "pushed_at": "2026-04-06T17:56:21Z",
+    "stargazers_count": 90,
+    "topics": [],
+    "updated_at": "2026-04-06T17:56:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clojure/homebrew-tools",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Check download via setup-clojure",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check.yml",
+      "term": "Check download via setup-clojure"
+    },
+    {
+      "context_snippet": "Promote dev to stable",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/promote.yml",
+      "term": "Promote dev to stable"
+    },
+    {
+      "context_snippet": "Release dev version",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release dev version"
+    }
+  ]
+}

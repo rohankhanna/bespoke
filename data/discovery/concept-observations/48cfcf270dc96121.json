@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Kuscia(Kubernetes-based Secure Collaborative InfrA) is a K8s-based privacy-preserving computing task orchestration framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Unassign Stale OSCP Issues"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Unassign Stale OSCP Issues"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10363,
+      "status": "candidate",
+      "text": "appoint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9497,
+      "status": "candidate",
+      "text": "chestnut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9497,
+      "status": "candidate",
+      "text": "insipid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9497,
+      "status": "candidate",
+      "text": "musty"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9497,
+      "status": "candidate",
+      "text": "platitudinous"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Unassign Stale OSCP Issues",
+      "sense_id": "unassign-stale-oscp-issues#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "unassign-stale-oscp-issues",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "unassign-stale-oscp-issues",
+  "observation_id": "48cfcf270dc96121",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "Unassign Stale OSCP Issues",
+  "source_context_snippet": "Unassign Stale OSCP Issues",
+  "source_file": ".github/workflows/oscp.yml",
+  "source_repo": "secretflow/kuscia",
+  "source_repo_description": "Kuscia(Kubernetes-based Secure Collaborative InfrA) is a K8s-based privacy-preserving computing task orchestration framework."
+}

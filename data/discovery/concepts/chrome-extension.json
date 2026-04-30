@@ -175,6 +175,42 @@
       "source_repo": "appbaseio/dejavu",
       "status": "candidate-context",
       "text": "[![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/appbaseio/dejavu/dev/LICENSE.md) ![React Version](https://img.shields.io/badge/react-v16.6-brightgreen.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appbaseio/mirage",
+      "status": "candidate-context",
+      "text": ":art: GUI for simplifying Elasticsearch Query DSL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appbaseio/mirage",
+      "status": "candidate-context",
+      "text": "[![](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://github.com/appbaseio/mirage/blob/dev/LICENSE.md) [![](https://img.shields.io/badge/angular-2.0.2-red.svg)](https://github.com/appbaseio/mirage/blob/dev/package.json#L20) [![Docker Pulls](https://img.shields.\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "addfox/addfox",
+      "status": "candidate-context",
+      "text": "\ud83e\udde9 Accelerate your browser extension development. Built on Rsbuild \u2014 fast, simple, and free"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "addfox/addfox",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SafetyCulture/grpc-web-devtools",
+      "status": "candidate-context",
+      "text": "Chrome & Firefox Browser extension to aid gRPC-Web development"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SafetyCulture/grpc-web-devtools",
+      "status": "candidate-context",
+      "text": "[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +297,24 @@
       "source_repo": "appbaseio/dejavu",
       "status": "candidate",
       "text": "[![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/appbaseio/dejavu/dev/LICENSE.md) ![React Version](https://img.shields.io/badge/react-v16.6-brightgreen.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appbaseio/mirage",
+      "status": "candidate",
+      "text": "[![](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://github.com/appbaseio/mirage/blob/dev/LICENSE.md) [![](https://img.shields.io/badge/angular-2.0.2-red.svg)](https://github.com/appbaseio/mirage/blob/dev/package.json#L20) [![Docker Pulls](https://img.shields.\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "addfox/addfox",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SafetyCulture/grpc-web-devtools",
+      "status": "candidate",
+      "text": "[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)"
     }
   ],
   "candidate_related_terms": [],
@@ -424,11 +478,47 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "mlc-ai/web-llm-assistant"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "nsfw-filter/nsfw-filter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "appbaseio/mirage"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "addfox/addfox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "mlc-ai/web-llm-assistant"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ipfs/ipfs-companion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "SafetyCulture/grpc-web-devtools"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

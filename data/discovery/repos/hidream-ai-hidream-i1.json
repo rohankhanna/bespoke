@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HiDream-ai/HiDream-I1",
+      "target": "hidream-ai/hidream-e1",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:13:28.975082+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8124
+    },
+    {
+      "path": "requirements.txt",
+      "size": 104
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "HiDream-ai/HiDream-I1",
+    "html_url": "https://github.com/HiDream-ai/HiDream-I1",
+    "language": "Python",
+    "pushed_at": "2025-07-16T14:38:13Z",
+    "stargazers_count": 2494,
+    "topics": [],
+    "updated_at": "2026-04-29T18:11:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hidream-ai/hidream-e1",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

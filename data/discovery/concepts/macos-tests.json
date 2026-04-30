@@ -45,6 +45,18 @@
       "source_repo": "LavaMoat/LavaMoat",
       "status": "candidate-context",
       "text": "macOS Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apple/swift-nio",
+      "status": "candidate-context",
+      "text": "Event-driven network application framework for high performance protocol servers & clients, non-blocking."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/swift-nio",
+      "status": "candidate-context",
+      "text": "macOS tests"
     }
   ],
   "candidate_glosses": [
@@ -65,6 +77,12 @@
       "source_repo": "LavaMoat/LavaMoat",
       "status": "candidate",
       "text": "macOS Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/swift-nio",
+      "status": "candidate",
+      "text": "macOS tests"
     }
   ],
   "candidate_related_terms": [
@@ -132,11 +150,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/nodejs-macos.yml",
       "source_repo": "LavaMoat/LavaMoat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/macos_tests.yml",
+      "source_repo": "apple/swift-nio"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

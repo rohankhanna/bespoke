@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Solve Visual Understanding with Reinforced VLMs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<font size=4><div align='center' > [[\ud83e\udd17 REC Demo](https://huggingface.co/spaces/omlab/VLM-R1-Referral-Expression)] [[\ud83e\udd17 OVD Demo](https://huggingface.co/spaces/omlab/VLM-R1-OVD)] [[\ud83e\udd17 REC Data](https://huggingface.co/datasets/omlab/VLM-R1)] [[\ud83e\udd17 Checkpoints](https://huggingface.co/c\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<font size=4><div align='center' > [[\ud83e\udd17 REC Demo](https://huggingface.co/spaces/omlab/VLM-R1-Referral-Expression)] [[\ud83e\udd17 OVD Demo](https://huggingface.co/spaces/omlab/VLM-R1-OVD)] [[\ud83e\udd17 REC Data](https://huggingface.co/datasets/omlab/VLM-R1)] [[\ud83e\udd17 Checkpoints](https://huggingface.co/c\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "qwen",
+      "sense_id": "qwen#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "qwen",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "qwen",
+  "observation_id": "62af4b1e2709a2e9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "qwen",
+  "source_context_snippet": "<font size=4><div align='center' > [[\ud83e\udd17 REC Demo](https://huggingface.co/spaces/omlab/VLM-R1-Referral-Expression)] [[\ud83e\udd17 OVD Demo](https://huggingface.co/spaces/omlab/VLM-R1-OVD)] [[\ud83e\udd17 REC Data](https://huggingface.co/datasets/omlab/VLM-R1)] [[\ud83e\udd17 Checkpoints](https://huggingface.co/c\u2026",
+  "source_file": null,
+  "source_repo": "om-ai-lab/VLM-R1",
+  "source_repo_description": "Solve Visual Understanding with Reinforced VLMs"
+}

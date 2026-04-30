@@ -48,7 +48,7 @@
   "normalized_form": "semantic-segmentation",
   "observation_id": "643cec3d0ef38002",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
   "observed_text": "semantic-segmentation",
   "source_context_snippet": "This is the implementation of ***LargeKernel3D*** (CVPR 2023). Large kernels are important but expensive in 3D CNNs. We propose spatial-wise partition to conv enable 3D large kernels. High performance on 3D semantic segmentation & object detection.",
   "source_file": null,

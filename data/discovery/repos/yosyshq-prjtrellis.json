@@ -1,0 +1,108 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arch-pkg.yml"
+    },
+    {
+      "component": "2m/arch-pkgbuild-builder@v1.21",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arch-pkg.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "YosysHQ/prjtrellis",
+      "target": "emard/ulx3s",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "YosysHQ/prjtrellis",
+      "target": "yosyshq/prjtrellis-db",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "YosysHQ/prjtrellis",
+      "target": "f4pga/prjxray",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arch-pkg.yml",
+      "source_repo": "YosysHQ/prjtrellis",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arch-pkg.yml",
+      "source_repo": "YosysHQ/prjtrellis",
+      "target": "2m/arch-pkgbuild-builder@v1.21",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/arch-pkg.yml",
+      "source_repo": "YosysHQ/prjtrellis",
+      "target": "arch-pkg",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:51:12.489503+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7614
+    },
+    {
+      "path": ".github/workflows/arch-pkg.yml",
+      "size": 299
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Documenting the Lattice ECP5 bit-stream format.",
+    "fork": false,
+    "full_name": "YosysHQ/prjtrellis",
+    "html_url": "https://github.com/YosysHQ/prjtrellis",
+    "language": "Python",
+    "pushed_at": "2026-02-26T14:26:51Z",
+    "stargazers_count": 454,
+    "topics": [],
+    "updated_at": "2026-04-17T01:00:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "emard/ulx3s",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "f4pga/prjxray",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yosyshq/prjtrellis-db",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "arch-pkg",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/arch-pkg.yml",
+      "term": "arch-pkg"
+    }
+  ]
+}

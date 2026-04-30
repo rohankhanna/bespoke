@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Comment on the pull request"
+    "Comment on the pull request",
+    "Comment on the Pull Request"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -79,6 +80,42 @@
       "source_repo": "grpc/grpc-dart",
       "status": "candidate-context",
       "text": "Comment on the pull request"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ardalis/GuardClauses",
+      "status": "candidate-context",
+      "text": "A simple package with guard clause extensions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ardalis/GuardClauses",
+      "status": "candidate-context",
+      "text": "Comment on the Pull Request"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ardalis/Result",
+      "status": "candidate-context",
+      "text": "A result abstraction that can be mapped to HTTP response codes if needed."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ardalis/Result",
+      "status": "candidate-context",
+      "text": "Comment on the Pull Request"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NimblePros/eShopOnWeb",
+      "status": "candidate-context",
+      "text": "Sample ASP.NET Core 10.0 reference application, powered by Microsoft, demonstrating a domain-centric application architecture with monolithic deployment model."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NimblePros/eShopOnWeb",
+      "status": "candidate-context",
+      "text": "Comment on the Pull Request"
     }
   ],
   "candidate_glosses": [
@@ -111,6 +148,24 @@
       "source_repo": "grpc/grpc-dart",
       "status": "candidate",
       "text": "Comment on the pull request"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ardalis/GuardClauses",
+      "status": "candidate",
+      "text": "Comment on the Pull Request"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ardalis/Result",
+      "status": "candidate",
+      "text": "Comment on the Pull Request"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NimblePros/eShopOnWeb",
+      "status": "candidate",
+      "text": "Comment on the Pull Request"
     }
   ],
   "candidate_related_terms": [
@@ -250,11 +305,41 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/post_summaries.yaml",
       "source_repo": "grpc/grpc-dart"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/post_summaries.yaml",
+      "source_repo": "google/protobuf.dart"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/post_summaries.yaml",
+      "source_repo": "grpc/grpc-dart"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/comment-on-pr.yml",
+      "source_repo": "ardalis/GuardClauses"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/comment-on-pr.yml",
+      "source_repo": "ardalis/Result"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/comment-on-pr.yml",
+      "source_repo": "NimblePros/eShopOnWeb"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

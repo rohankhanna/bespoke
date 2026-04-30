@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Downstream Unmanaged Dependency Check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "googleapis/sdk-platform-java",
+      "status": "candidate-context",
+      "text": "Tooling and shared libraries for Cloud SDK for Java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/sdk-platform-java",
+      "status": "candidate-context",
+      "text": "Downstream Unmanaged Dependency Check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/sdk-platform-java",
+      "status": "candidate",
+      "text": "Downstream Unmanaged Dependency Check"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36584,
+      "status": "candidate",
+      "text": "blow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36584,
+      "status": "candidate",
+      "text": "jump"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36563,
+      "status": "candidate",
+      "text": "keep"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36563,
+      "status": "candidate",
+      "text": "keeps"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33697,
+      "status": "candidate",
+      "text": "jurisdiction"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Downstream Unmanaged Dependency Check",
+  "concept_id": "downstream-unmanaged-dependency-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/downstream_unmanaged_dependency_check.yaml",
+      "source_repo": "googleapis/sdk-platform-java"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Downstream Unmanaged Dependency Check",
+      "sense_id": "downstream-unmanaged-dependency-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

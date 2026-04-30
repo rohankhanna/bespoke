@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "timfel/graalpy-jbang",
+      "target": "graalpy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "timfel/graalpy-jbang",
+      "target": "graalvm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "timfel/graalpy-jbang",
+      "target": "jbang",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:56:58.859856+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 864
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "timfel/graalpy-jbang",
+    "html_url": "https://github.com/timfel/graalpy-jbang",
+    "language": "Java",
+    "pushed_at": "2023-10-05T14:29:49Z",
+    "stargazers_count": 4,
+    "topics": [
+      "graalpy",
+      "graalvm",
+      "jbang"
+    ],
+    "updated_at": "2024-04-06T02:45:48Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository makes it easy to create a [JBang](https://www.jbang.dev/) app that uses GraalPy & Java.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graalpy"
+    },
+    {
+      "context_snippet": "This repository makes it easy to create a [JBang](https://www.jbang.dev/) app that uses GraalPy & Java.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graalvm"
+    },
+    {
+      "context_snippet": "This repository makes it easy to create a [JBang](https://www.jbang.dev/) app that uses GraalPy & Java.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jbang"
+    }
+  ]
+}

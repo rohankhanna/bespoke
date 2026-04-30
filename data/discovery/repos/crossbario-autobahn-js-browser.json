@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T14:52:29.178114+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1245
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Browser release builds of AutobahnJS",
+    "fork": false,
+    "full_name": "crossbario/autobahn-js-browser",
+    "html_url": "https://github.com/crossbario/autobahn-js-browser",
+    "language": "JavaScript",
+    "pushed_at": "2022-11-15T15:56:58Z",
+    "stargazers_count": 42,
+    "topics": [],
+    "updated_at": "2026-03-17T18:25:56Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

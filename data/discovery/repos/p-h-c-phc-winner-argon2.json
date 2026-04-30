@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "P-H-C/phc-winner-argon2",
+      "target": "ergenius/eargon2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "P-H-C/phc-winner-argon2",
+      "target": "cjlarose/argon2-ffi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "P-H-C/phc-winner-argon2",
+      "target": "antelle/argon2-browser",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "P-H-C/phc-winner-argon2",
+      "target": "asmod4n/mruby-argon2",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:59:42.152891+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13724
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The password hash Argon2, winner of PHC ",
+    "fork": false,
+    "full_name": "P-H-C/phc-winner-argon2",
+    "html_url": "https://github.com/P-H-C/phc-winner-argon2",
+    "language": "C",
+    "pushed_at": "2024-08-06T13:28:45Z",
+    "stargazers_count": 5273,
+    "topics": [],
+    "updated_at": "2026-04-29T19:50:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "antelle/argon2-browser",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "asmod4n/mruby-argon2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cjlarose/argon2-ffi",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ergenius/eargon2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

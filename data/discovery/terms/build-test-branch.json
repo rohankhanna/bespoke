@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build-branch.yml",
+      "source_repo": "hazelcast/hazelcast-csharp-client"
+    }
+  ],
+  "term": "Build&Test Branch"
+}

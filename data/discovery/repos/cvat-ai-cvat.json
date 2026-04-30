@@ -466,20 +466,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "cvat-ai/cvat",
-      "target": "cvat-ai/datumaro",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "cvat-ai/cvat",
-      "target": "smhassanerfani/atlantis",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "cvat-ai/cvat",
       "target": "ox-vgg/vgg_face2",
       "target_type": "repository"
     },
@@ -487,7 +473,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "Dockerfile",
       "source_repo": "cvat-ai/cvat",
-      "target": "cisco/openh264",
+      "target": "saml-toolkits/python3-saml",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "cvat-ai/cvat",
+      "target": "stripe/smokescreen",
       "target_type": "repository"
     },
     {
@@ -1303,7 +1296,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T08:14:03.496407+00:00",
+  "fetched_at": "2026-04-30T16:15:10.892134+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1355,8 +1348,8 @@
     "full_name": "cvat-ai/cvat",
     "html_url": "https://github.com/cvat-ai/cvat",
     "language": "Python",
-    "pushed_at": "2026-04-30T07:49:42Z",
-    "stargazers_count": 15749,
+    "pushed_at": "2026-04-30T13:57:37Z",
+    "stargazers_count": 15750,
     "topics": [
       "annotation",
       "annotation-tool",
@@ -1379,14 +1372,9 @@
       "tensorflow",
       "video-annotation"
     ],
-    "updated_at": "2026-04-30T07:47:14Z"
+    "updated_at": "2026-04-30T13:12:02Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "cvat-ai/datumaro",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "ox-vgg/vgg_face2",
@@ -1394,12 +1382,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "smhassanerfani/atlantis",
-      "source_file": "README.md"
+      "full_name": "saml-toolkits/python3-saml",
+      "source_file": "Dockerfile"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "cisco/openh264",
+      "full_name": "stripe/smokescreen",
       "source_file": "Dockerfile"
     }
   ],

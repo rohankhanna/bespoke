@@ -141,6 +141,18 @@
       "source_repo": "hedronvision/bazel-compile-commands-extractor",
       "status": "candidate-context",
       "text": "**What is this project trying to do for me?**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xoofx/CppAst.NET",
+      "status": "candidate-context",
+      "text": "CppAst is a .NET library providing a C/C++ parser for header files powered by Clang/libclang with access to the full AST, comments and macros"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xoofx/CppAst.NET",
+      "status": "candidate-context",
+      "text": "ci"
     }
   ],
   "candidate_glosses": [
@@ -209,6 +221,12 @@
       "source_repo": "hedronvision/bazel-compile-commands-extractor",
       "status": "candidate",
       "text": "**What is this project trying to do for me?**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xoofx/CppAst.NET",
+      "status": "candidate",
+      "text": "ci"
     }
   ],
   "candidate_related_terms": [
@@ -372,11 +390,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "simdjson/simdjson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "simdjson/simdjson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "xoofx/CppAst.NET"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -63,27 +63,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "elixir-grpc/grpc",
-      "target": "elixir-protobuf/protobuf",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "elixir-grpc/grpc",
-      "target": "drowzy/protobuf_generate",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "elixir-grpc/grpc",
-      "target": "elixir-grpc/grpc-reflection",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "elixir-grpc/grpc",
@@ -154,7 +133,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T08:05:19.046507+00:00",
+  "fetched_at": "2026-04-30T16:07:05.383475+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -192,23 +171,7 @@
     ],
     "updated_at": "2026-04-29T12:31:13Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "drowzy/protobuf_generate",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "elixir-grpc/grpc-reflection",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "elixir-protobuf/protobuf",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "[![GitHub CI](https://github.com/elixir-grpc/grpc/actions/workflows/ci.yml/badge.svg)](https://github.com/elixir-grpc/grpc/actions/workflows/ci.yml)",

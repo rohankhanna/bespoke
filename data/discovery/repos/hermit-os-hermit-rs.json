@@ -94,30 +94,9 @@
   "edges": [
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "hermit-os/hermit-rs",
-      "target": "hermit-os/libhermit",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "hermit-os/hermit-rs",
-      "target": "hermit-os/hermit-rs-template",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "hermit-os/hermit-rs",
-      "target": "hermit-os/hermit-playground",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "source_file": "Cargo.toml",
       "source_repo": "hermit-os/hermit-rs",
-      "target": "hermit-os/socket2",
+      "target": "hermit-os/tokio",
       "target_type": "repository"
     },
     {
@@ -233,7 +212,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T04:10:28.090250+00:00",
+  "fetched_at": "2026-04-30T14:04:58.094996+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -262,7 +241,7 @@
     "html_url": "https://github.com/hermit-os/hermit-rs",
     "language": "Rust",
     "pushed_at": "2026-04-27T14:04:18Z",
-    "stargazers_count": 1905,
+    "stargazers_count": 1906,
     "topics": [
       "cloud-computing",
       "high-performance-computing",
@@ -274,27 +253,12 @@
       "unikernel",
       "virtualization"
     ],
-    "updated_at": "2026-04-29T07:23:06Z"
+    "updated_at": "2026-04-30T07:20:48Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "hermit-os/hermit-playground",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "hermit-os/hermit-rs-template",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "hermit-os/libhermit",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "hermit-os/socket2",
+      "full_name": "hermit-os/tokio",
       "source_file": "Cargo.toml"
     }
   ],

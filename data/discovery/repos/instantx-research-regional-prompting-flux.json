@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "instantX-research/Regional-Prompting-FLUX",
+      "target": "yangling0818/rpg-diffusionmaster",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "instantX-research/Regional-Prompting-FLUX",
+      "target": "antonioo-c/regional-prompting-flux",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:08:10.668737+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 22605
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Training-free Regional Prompting for Diffusion Transformers \ud83d\udd25",
+    "fork": false,
+    "full_name": "instantX-research/Regional-Prompting-FLUX",
+    "html_url": "https://github.com/instantX-research/Regional-Prompting-FLUX",
+    "language": "Python",
+    "pushed_at": "2024-11-28T07:27:31Z",
+    "stargazers_count": 696,
+    "topics": [],
+    "updated_at": "2026-04-27T08:38:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "antonioo-c/regional-prompting-flux",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yangling0818/rpg-diffusionmaster",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

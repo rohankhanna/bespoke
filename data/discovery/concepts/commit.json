@@ -166,6 +166,18 @@
       "source_repo": "stoplightio/spectral",
       "status": "candidate-context",
       "text": "Commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cachix/iocraft",
+      "status": "candidate-context",
+      "text": "A Rust crate for beautiful, artisanally crafted CLIs, TUIs, and text-based IO."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cachix/iocraft",
+      "status": "candidate-context",
+      "text": "Commit"
     }
   ],
   "candidate_glosses": [
@@ -244,6 +256,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "stoplightio/spectral",
+      "status": "candidate",
+      "text": "Commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cachix/iocraft",
       "status": "candidate",
       "text": "Commit"
     }
@@ -475,11 +493,29 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/commit.yml",
       "source_repo": "stoplightio/spectral"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/commit.yaml",
+      "source_repo": "cachix/iocraft"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/commit.yml",
+      "source_repo": "conventional-changelog/conventional-changelog"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/commit.yml",
+      "source_repo": "TrigenSoftware/simple-release"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

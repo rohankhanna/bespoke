@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "eShopOnWeb Build and Test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet-architecture/eShopOnWeb",
+      "status": "candidate-context",
+      "text": "Sample ASP.NET Core 8.0 reference application, now community supported: https://github.com/NimblePros/eShopOnWeb"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet-architecture/eShopOnWeb",
+      "status": "candidate-context",
+      "text": "eShopOnWeb Build and Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NimblePros/eShopOnWeb",
+      "status": "candidate-context",
+      "text": "Sample ASP.NET Core 10.0 reference application, powered by Microsoft, demonstrating a domain-centric application architecture with monolithic deployment model."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NimblePros/eShopOnWeb",
+      "status": "candidate-context",
+      "text": "eShopOnWeb Build and Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet-architecture/eShopOnWeb",
+      "status": "candidate",
+      "text": "eShopOnWeb Build and Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NimblePros/eShopOnWeb",
+      "status": "candidate",
+      "text": "eShopOnWeb Build and Test"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11684,
+      "status": "candidate",
+      "text": "form"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11684,
+      "status": "candidate",
+      "text": "kludge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11684,
+      "status": "candidate",
+      "text": "pose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11684,
+      "status": "candidate",
+      "text": "raise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11612,
+      "status": "candidate",
+      "text": "rugged"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "eShopOnWeb Build and Test",
+  "concept_id": "eshoponweb-build-and-test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/dotnetcore.yml",
+      "source_repo": "dotnet-architecture/eShopOnWeb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/dotnetcore.yml",
+      "source_repo": "NimblePros/eShopOnWeb"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "eShopOnWeb Build and Test",
+      "sense_id": "eshoponweb-build-and-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

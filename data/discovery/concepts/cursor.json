@@ -151,6 +151,18 @@
       "source_repo": "kahliburke/Kaimon.jl",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "analyticsinmotion/wake-word",
+      "status": "candidate-context",
+      "text": "Hands-free voice activation for VS Code, Cursor, and compatible editors. Route voice commands to any AI assistant or editor feature."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analyticsinmotion/wake-word",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable MD033 MD041 -->"
     }
   ],
   "candidate_glosses": [
@@ -219,6 +231,12 @@
       "source_repo": "kahliburke/Kaimon.jl",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analyticsinmotion/wake-word",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable MD033 MD041 -->"
     }
   ],
   "candidate_related_terms": [
@@ -420,11 +438,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "analyticsinmotion/wake-word"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "winfunc/opcode"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,196 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "grammarly/gector",
+      "target": "awasthiabhijeet/pie",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "grammarly/gector",
+      "target": "chrisjbryant/errant",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "grammarly/gector",
+      "target": "feralvam/easse",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "grammarly/gector",
+      "target": "cofe-ai/fast-gector",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grammarly/gector",
+      "target": "bert",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grammarly/gector",
+      "target": "grammatical-error-correction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grammarly/gector",
+      "target": "natural-language-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grammarly/gector",
+      "target": "roberta",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grammarly/gector",
+      "target": "sequence-labeling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grammarly/gector",
+      "target": "text-simplification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grammarly/gector",
+      "target": "transformers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grammarly/gector",
+      "target": "xlnet",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:57:13.953128+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9374
+    },
+    {
+      "path": "requirements.txt",
+      "size": 152
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Official implementation of the papers \"GECToR \u2013 Grammatical Error Correction: Tag, Not Rewrite\" (BEA-20) and \"Text Simplification by Tagging\" (BEA-21)",
+    "fork": false,
+    "full_name": "grammarly/gector",
+    "html_url": "https://github.com/grammarly/gector",
+    "language": "Python",
+    "pushed_at": "2024-05-21T06:44:30Z",
+    "stargazers_count": 964,
+    "topics": [
+      "bert",
+      "grammatical-error-correction",
+      "natural-language-processing",
+      "nlp",
+      "roberta",
+      "sequence-labeling",
+      "text-simplification",
+      "transformers",
+      "xlnet"
+    ],
+    "updated_at": "2026-04-21T20:48:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "awasthiabhijeet/pie",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chrisjbryant/errant",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cofe-ai/fast-gector",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "feralvam/easse",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository provides code for training and testing state-of-the-art models for grammatical error correction with the official PyTorch implementation of the following paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bert"
+    },
+    {
+      "context_snippet": "This repository provides code for training and testing state-of-the-art models for grammatical error correction with the official PyTorch implementation of the following paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grammatical-error-correction"
+    },
+    {
+      "context_snippet": "This repository provides code for training and testing state-of-the-art models for grammatical error correction with the official PyTorch implementation of the following paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "natural-language-processing"
+    },
+    {
+      "context_snippet": "This repository provides code for training and testing state-of-the-art models for grammatical error correction with the official PyTorch implementation of the following paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "roberta"
+    },
+    {
+      "context_snippet": "This repository provides code for training and testing state-of-the-art models for grammatical error correction with the official PyTorch implementation of the following paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sequence-labeling"
+    },
+    {
+      "context_snippet": "This repository provides code for training and testing state-of-the-art models for grammatical error correction with the official PyTorch implementation of the following paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-simplification"
+    },
+    {
+      "context_snippet": "This repository provides code for training and testing state-of-the-art models for grammatical error correction with the official PyTorch implementation of the following paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformers"
+    },
+    {
+      "context_snippet": "This repository provides code for training and testing state-of-the-art models for grammatical error correction with the official PyTorch implementation of the following paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xlnet"
+    }
+  ]
+}

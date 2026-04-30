@@ -421,6 +421,54 @@
       "source_repo": "ymcui/Chinese-Mixtral",
       "status": "candidate-context",
       "text": "Mark stale issues and pull requests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ahmadawais/base16-shades-of-purple",
+      "status": "candidate-context",
+      "text": "\ud83e\udd84 Shades of Purple \u2014 A professional theme with hand-picked & bold shades of purple for Base16."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ahmadawais/base16-shades-of-purple",
+      "status": "candidate-context",
+      "text": "Mark stale issues and pull requests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubeflow/sdk",
+      "status": "candidate-context",
+      "text": "Universal Python SDK to run AI workloads on Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubeflow/sdk",
+      "status": "candidate-context",
+      "text": "Mark stale issues and pull requests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebookresearch/ParlAI",
+      "status": "candidate-context",
+      "text": "A framework for training and evaluating AI models on a variety of openly available dialogue datasets."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookresearch/ParlAI",
+      "status": "candidate-context",
+      "text": "Mark stale issues and pull requests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/generative-ai-for-beginners",
+      "status": "candidate-context",
+      "text": "21 Lessons, Get Started Building with Generative AI "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/generative-ai-for-beginners",
+      "status": "candidate-context",
+      "text": "Mark stale issues and pull requests"
     }
   ],
   "candidate_glosses": [
@@ -631,6 +679,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ymcui/Chinese-Mixtral",
+      "status": "candidate",
+      "text": "Mark stale issues and pull requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ahmadawais/base16-shades-of-purple",
+      "status": "candidate",
+      "text": "Mark stale issues and pull requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubeflow/sdk",
+      "status": "candidate",
+      "text": "Mark stale issues and pull requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookresearch/ParlAI",
+      "status": "candidate",
+      "text": "Mark stale issues and pull requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/generative-ai-for-beginners",
       "status": "candidate",
       "text": "Mark stale issues and pull requests"
     }
@@ -922,11 +994,59 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "ymcui/Chinese-Mixtral"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/github-stale.yaml",
+      "source_repo": "kubeflow/trainer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "bazel-contrib/rules_kotlin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "criteo/mesos-term"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ahmadawais/base16-shades-of-purple"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/github-stale.yaml",
+      "source_repo": "kubeflow/sdk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "facebookresearch/ParlAI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "detekt/detekt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "microsoft/generative-ai-for-beginners"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

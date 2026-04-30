@@ -1,0 +1,114 @@
+{
+  "components": [
+    {
+      "component": "@actions/cache",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@actions/core",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "elm-tooling",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@vercel/ncc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-action.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "mpizenberg/elm-tooling-action",
+      "target": "@actions/cache",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "mpizenberg/elm-tooling-action",
+      "target": "@actions/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "mpizenberg/elm-tooling-action",
+      "target": "elm-tooling",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mpizenberg/elm-tooling-action",
+      "target": "@vercel/ncc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-action.yml",
+      "source_repo": "mpizenberg/elm-tooling-action",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mpizenberg/elm-tooling-action",
+      "target": "action",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T12:45:57.872453+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2725
+    },
+    {
+      "path": "package.json",
+      "size": 656
+    },
+    {
+      "path": ".github/workflows/check-action.yml",
+      "size": 717
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "GitHub action to install Elm tools and cache ELM_HOME",
+    "fork": false,
+    "full_name": "mpizenberg/elm-tooling-action",
+    "html_url": "https://github.com/mpizenberg/elm-tooling-action",
+    "language": "JavaScript",
+    "pushed_at": "2025-04-08T14:51:54Z",
+    "stargazers_count": 12,
+    "topics": [
+      "action",
+      "elm"
+    ],
+    "updated_at": "2025-09-17T17:16:40Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "> Warning: do not use this if you have a JavaScript `package.json` already.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "action"
+    }
+  ]
+}

@@ -187,6 +187,54 @@
       "source_repo": "heartcombo/devise",
       "status": "candidate-context",
       "text": "![Devise Logo](https://raw.github.com/heartcombo/devise/main/devise.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lobsters/lobsters",
+      "status": "candidate-context",
+      "text": "Computing-focused community centered around link aggregation and discussion"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lobsters/lobsters",
+      "status": "candidate-context",
+      "text": "[Lobsters](https://lobste.rs) is a Rails codebase and uses a SQL (MariaDB in production) backend for the database."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "karafka/karafka-web",
+      "status": "candidate-context",
+      "text": "Web UI for monitoring and managing Karafka consumers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karafka/karafka-web",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/karafka/karafka-web/workflows/ci/badge.svg)](https://github.com/karafka/karafka-web/actions?query=workflow%3Aci)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rgeo/activerecord-postgis-adapter",
+      "status": "candidate-context",
+      "text": "ActiveRecord connection adapter for PostGIS, based on postgresql and rgeo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rgeo/activerecord-postgis-adapter",
+      "status": "candidate-context",
+      "text": "[![Gem Version](https://badge.fury.io/rb/activerecord-postgis-adapter.svg)](https://badge.fury.io/rb/activerecord-postgis-adapter)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DmitryTsepelev/store_model",
+      "status": "candidate-context",
+      "text": "Work with JSON-backed attributes as ActiveRecord-ish models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DmitryTsepelev/store_model",
+      "status": "candidate-context",
+      "text": "**StoreModel** gem allows you to wrap JSON-backed DB columns with ActiveModel-like classes."
     }
   ],
   "candidate_glosses": [
@@ -279,6 +327,30 @@
       "source_repo": "heartcombo/devise",
       "status": "candidate",
       "text": "![Devise Logo](https://raw.github.com/heartcombo/devise/main/devise.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lobsters/lobsters",
+      "status": "candidate",
+      "text": "[Lobsters](https://lobste.rs) is a Rails codebase and uses a SQL (MariaDB in production) backend for the database."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karafka/karafka-web",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/karafka/karafka-web/workflows/ci/badge.svg)](https://github.com/karafka/karafka-web/actions?query=workflow%3Aci)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rgeo/activerecord-postgis-adapter",
+      "status": "candidate",
+      "text": "[![Gem Version](https://badge.fury.io/rb/activerecord-postgis-adapter.svg)](https://badge.fury.io/rb/activerecord-postgis-adapter)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DmitryTsepelev/store_model",
+      "status": "candidate",
+      "text": "**StoreModel** gem allows you to wrap JSON-backed DB columns with ActiveModel-like classes."
     }
   ],
   "candidate_related_terms": [
@@ -427,11 +499,35 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "heartcombo/devise"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "lobsters/lobsters"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "karafka/karafka-web"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "rgeo/activerecord-postgis-adapter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "DmitryTsepelev/store_model"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -4,13 +4,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "fla-org/flash-bidirectional-linear-attention",
-      "target": "huage001/linfusion",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "fla-org/flash-bidirectional-linear-attention",
       "target": "hp-l33/flash-bidirectional-linear-attention",
       "target_type": "repository"
     },
@@ -18,14 +11,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "fla-org/flash-bidirectional-linear-attention",
-      "target": "leaplabthu/mlla",
+      "target": "zacharymeng/polaformer",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "fla-org/flash-bidirectional-linear-attention",
-      "target": "qhfan/rala",
+      "target": "xie-lab-ml/piecewise-sparse-attention",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fla-org/flash-bidirectional-linear-attention",
+      "target": "sustcsonglin/flash-linear-attention",
       "target_type": "repository"
     },
     {
@@ -50,6 +50,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "generated_at": "2026-04-30T12:45:20.475770+00:00",
   "source_repo": "fla-org/flash-bidirectional-linear-attention"
 }

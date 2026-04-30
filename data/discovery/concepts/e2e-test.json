@@ -105,6 +105,18 @@
       "source_repo": "kubeflow/trainer",
       "status": "candidate-context",
       "text": "E2E Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubeflow/sdk",
+      "status": "candidate-context",
+      "text": "Universal Python SDK to run AI workloads on Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubeflow/sdk",
+      "status": "candidate-context",
+      "text": "E2E Test"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "kubeflow/trainer",
+      "status": "candidate",
+      "text": "E2E Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubeflow/sdk",
       "status": "candidate",
       "text": "E2E Test"
     }
@@ -252,11 +270,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/test-e2e.yaml",
       "source_repo": "kubeflow/trainer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test-e2e.yaml",
+      "source_repo": "kubeflow/trainer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test-e2e.yaml",
+      "source_repo": "kubeflow/sdk"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

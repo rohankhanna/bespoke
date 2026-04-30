@@ -23,13 +23,6 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "tinted-theming/tinted-builder-python",
-      "target": "base24/.github",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "source_file": "pyproject.toml",
       "source_repo": "tinted-theming/tinted-builder-python",
       "target": "base24/base24-builder-python",
@@ -85,7 +78,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T08:25:08.966559+00:00",
+  "fetched_at": "2026-04-30T13:52:21.896108+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -126,11 +119,6 @@
     "updated_at": "2026-01-22T19:22:53Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "base24/.github",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "base24/base24-builder-python",

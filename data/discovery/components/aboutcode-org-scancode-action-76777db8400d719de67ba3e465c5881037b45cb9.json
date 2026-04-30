@@ -1,0 +1,12 @@
+{
+  "component": "aboutcode-org/scancode-action@76777db8400d719de67ba3e465c5881037b45cb9",
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/generate-sboms.yml",
+      "source_repo": "aboutcode-org/scancode.io"
+    }
+  ]
+}

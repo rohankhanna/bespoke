@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T16:12:14.246531+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2279
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "[DEPRECATED] This is end of life and not maintained. Migrate to https://github.com/guzzle/guzzle",
+    "fork": false,
+    "full_name": "guzzle/guzzle3",
+    "html_url": "https://github.com/guzzle/guzzle3",
+    "language": "PHP",
+    "pushed_at": "2021-12-03T02:03:59Z",
+    "stargazers_count": 152,
+    "topics": [],
+    "updated_at": "2025-03-17T10:50:25Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

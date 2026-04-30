@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pinokiofactory/cogstudio",
+      "target": "thudm/cogvideo",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:09:47.646428+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2920
+    },
+    {
+      "path": "requirements.txt",
+      "size": 42
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "pinokiofactory/cogstudio",
+    "html_url": "https://github.com/pinokiofactory/cogstudio",
+    "language": "Python",
+    "pushed_at": "2026-01-04T00:47:22Z",
+    "stargazers_count": 392,
+    "topics": [],
+    "updated_at": "2026-04-17T17:31:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thudm/cogvideo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

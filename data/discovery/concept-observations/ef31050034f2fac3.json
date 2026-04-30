@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Fast vim CtrlP matcher based on python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "ctrlp-py-matcher"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "ctrlp-py-matcher"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19941127,
+      "status": "candidate",
+      "text": "match-maker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19941126,
+      "status": "candidate",
+      "text": "matchmaker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19941125,
+      "status": "candidate",
+      "text": "matchmakee"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19941124,
+      "status": "candidate",
+      "text": "rematchmaker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19941123,
+      "status": "candidate",
+      "text": "matchbreaker"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "matcher",
+      "sense_id": "matcher#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "matcher",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "matcher",
+  "observation_id": "ef31050034f2fac3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "matcher",
+  "source_context_snippet": "ctrlp-py-matcher",
+  "source_file": null,
+  "source_repo": "FelikZ/ctrlp-py-matcher",
+  "source_repo_description": "Fast vim CtrlP matcher based on python"
+}

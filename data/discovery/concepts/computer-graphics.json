@@ -175,6 +175,36 @@
       "source_repo": "isl-org/Open3D",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "randspace0/Anime4K-rs",
+      "status": "candidate-context",
+      "text": "An attempt to write Anime4K in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "randspace0/Anime4K-rs",
+      "status": "candidate-context",
+      "text": "An attempt to write Anime4K in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ScanNet/ScanNet",
+      "status": "candidate-context",
+      "text": "ScanNet is an RGB-D video dataset containing 2.5 million views in more than 1500 scans, annotated with 3D camera poses, surface reconstructions, and instance-level semantic segmentations."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TimoBolkart/voca",
+      "status": "candidate-context",
+      "text": "This codebase demonstrates how to synthesize realistic 3D character animations given an arbitrary speech signal and a static character mesh."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TimoBolkart/voca",
+      "status": "candidate-context",
+      "text": "This is an official [VOCA](https://voca.is.tue.mpg.de) repository."
     }
   ],
   "candidate_glosses": [
@@ -261,6 +291,24 @@
       "source_repo": "isl-org/Open3D",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "randspace0/Anime4K-rs",
+      "status": "candidate",
+      "text": "An attempt to write Anime4K in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ScanNet/ScanNet",
+      "status": "candidate",
+      "text": "ScanNet is an RGB-D video dataset containing 2.5 million views in more than 1500 scans, annotated with 3D camera poses, surface reconstructions, and instance-level semantic segmentations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TimoBolkart/voca",
+      "status": "candidate",
+      "text": "This is an official [VOCA](https://voca.is.tue.mpg.de) repository."
     }
   ],
   "candidate_related_terms": [],
@@ -352,11 +400,29 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "randspace0/Anime4K-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ScanNet/ScanNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "TimoBolkart/voca"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

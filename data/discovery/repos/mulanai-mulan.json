@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mulanai/MuLan",
+      "target": "stability-ai/stablediffusion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mulanai/MuLan",
+      "target": "opengvlab/draggan",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:09:25.027963+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4534
+    },
+    {
+      "path": "requirements.txt",
+      "size": 93
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "MuLan: Adapting Multilingual Diffusion Models for 110+ Languages (\u65e0\u9700\u989d\u5916\u8bad\u7ec3\u4e3a\u4efb\u610f\u6269\u6563\u6a21\u578b\u652f\u6301\u591a\u8bed\u8a00\u80fd\u529b) ",
+    "fork": false,
+    "full_name": "mulanai/MuLan",
+    "html_url": "https://github.com/mulanai/MuLan",
+    "language": "Python",
+    "pushed_at": "2025-01-24T05:20:42Z",
+    "stargazers_count": 149,
+    "topics": [],
+    "updated_at": "2026-03-19T00:51:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opengvlab/draggan",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stability-ai/stablediffusion",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

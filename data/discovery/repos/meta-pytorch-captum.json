@@ -1,0 +1,345 @@
+{
+  "components": [
+    {
+      "component": "pytorch/test-infra/.github/workflows/linux_job_v2.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/linux_job_v2.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-pip-cpu.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/linux_job_v2.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-pip-gpu.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-website-deploy.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/linux_job_v2.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/type-checks.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/website-deploy.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/website-deploy.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "meta-pytorch/captum",
+      "target": "pytorch/captum",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "meta-pytorch/captum",
+      "target": "conda-forge/captum-feedstock",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "meta-pytorch/captum",
+      "target": "pytorch/captum",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "meta-pytorch/captum",
+      "target": "pytorch/test-infra/.github/workflows/linux_job_v2.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "meta-pytorch/captum",
+      "target": "Captum Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/retry.yml",
+      "source_repo": "meta-pytorch/captum",
+      "target": "Rerun tests if failed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-pip-cpu.yml",
+      "source_repo": "meta-pytorch/captum",
+      "target": "pytorch/test-infra/.github/workflows/linux_job_v2.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-pip-cpu.yml",
+      "source_repo": "meta-pytorch/captum",
+      "target": "Unit-tests for Pip install",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-pip-gpu.yml",
+      "source_repo": "meta-pytorch/captum",
+      "target": "pytorch/test-infra/.github/workflows/linux_job_v2.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-pip-gpu.yml",
+      "source_repo": "meta-pytorch/captum",
+      "target": "Unit-tests for Pip install",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-website-deploy.yml",
+      "source_repo": "meta-pytorch/captum",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-website-deploy.yml",
+      "source_repo": "meta-pytorch/captum",
+      "target": "Test deployment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/type-checks.yml",
+      "source_repo": "meta-pytorch/captum",
+      "target": "pytorch/test-infra/.github/workflows/linux_job_v2.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/type-checks.yml",
+      "source_repo": "meta-pytorch/captum",
+      "target": "Type checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/website-deploy.yml",
+      "source_repo": "meta-pytorch/captum",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/website-deploy.yml",
+      "source_repo": "meta-pytorch/captum",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/website-deploy.yml",
+      "source_repo": "meta-pytorch/captum",
+      "target": "Deploy to GitHub Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "meta-pytorch/captum",
+      "target": "feature-attribution",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "meta-pytorch/captum",
+      "target": "feature-importance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "meta-pytorch/captum",
+      "target": "interpretability",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "meta-pytorch/captum",
+      "target": "interpretable-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "meta-pytorch/captum",
+      "target": "interpretable-ml",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:11:16.598806+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 22405
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2156
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 501
+    },
+    {
+      "path": ".github/workflows/retry.yml",
+      "size": 942
+    },
+    {
+      "path": ".github/workflows/test-pip-cpu.yml",
+      "size": 1641
+    },
+    {
+      "path": ".github/workflows/test-pip-gpu.yml",
+      "size": 1037
+    },
+    {
+      "path": ".github/workflows/test-website-deploy.yml",
+      "size": 726
+    },
+    {
+      "path": ".github/workflows/type-checks.yml",
+      "size": 714
+    },
+    {
+      "path": ".github/workflows/website-deploy.yml",
+      "size": 1192
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Model interpretability and understanding for PyTorch",
+    "fork": false,
+    "full_name": "meta-pytorch/captum",
+    "html_url": "https://github.com/meta-pytorch/captum",
+    "language": "Python",
+    "pushed_at": "2026-04-28T21:37:56Z",
+    "stargazers_count": 5619,
+    "topics": [
+      "feature-attribution",
+      "feature-importance",
+      "interpretability",
+      "interpretable-ai",
+      "interpretable-ml"
+    ],
+    "updated_at": "2026-04-30T10:13:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "conda-forge/captum-feedstock",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pytorch/captum",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pytorch/captum",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Captum Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Captum Lint"
+    },
+    {
+      "context_snippet": "Rerun tests if failed",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/retry.yml",
+      "term": "Rerun tests if failed"
+    },
+    {
+      "context_snippet": "Unit-tests for Pip install",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-pip-cpu.yml",
+      "term": "Unit-tests for Pip install"
+    },
+    {
+      "context_snippet": "Unit-tests for Pip install",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-pip-gpu.yml",
+      "term": "Unit-tests for Pip install"
+    },
+    {
+      "context_snippet": "Test deployment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-website-deploy.yml",
+      "term": "Test deployment"
+    },
+    {
+      "context_snippet": "Type checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/type-checks.yml",
+      "term": "Type checks"
+    },
+    {
+      "context_snippet": "Deploy to GitHub Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/website-deploy.yml",
+      "term": "Deploy to GitHub Pages"
+    },
+    {
+      "context_snippet": "![Captum Logo](./website/static/img/captum_logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "feature-attribution"
+    },
+    {
+      "context_snippet": "![Captum Logo](./website/static/img/captum_logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "feature-importance"
+    },
+    {
+      "context_snippet": "![Captum Logo](./website/static/img/captum_logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "interpretability"
+    },
+    {
+      "context_snippet": "![Captum Logo](./website/static/img/captum_logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "interpretable-ai"
+    },
+    {
+      "context_snippet": "![Captum Logo](./website/static/img/captum_logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "interpretable-ml"
+    }
+  ]
+}

@@ -2,7 +2,8 @@
   "aliases": [
     "Dependency Review",
     "dependency-review",
-    "Dependency review"
+    "Dependency review",
+    "dependency review"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -825,6 +826,114 @@
       "source_repo": "swagger-api/swagger-parser",
       "status": "candidate-context",
       "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "App-vNext/Polly-Samples",
+      "status": "candidate-context",
+      "text": "Provides sample implementations of the Polly library. The intent of this project is to help newcomers kick-start their use of Polly within their own projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "App-vNext/Polly-Samples",
+      "status": "candidate-context",
+      "text": "dependency-review"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kysely-org/kysely-ctl",
+      "status": "candidate-context",
+      "text": "Command-line tool for Kysely, Knex-compatible, works in Node.js, Deno, Bun, etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kysely-org/kysely-ctl",
+      "status": "candidate-context",
+      "text": "dependency review"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webpack/postcss-loader",
+      "status": "candidate-context",
+      "text": "PostCSS loader for webpack"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webpack/postcss-loader",
+      "status": "candidate-context",
+      "text": "\"Dependency Review\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "secretflow/kuscia",
+      "status": "candidate-context",
+      "text": "Kuscia(Kubernetes-based Secure Collaborative InfrA) is a K8s-based privacy-preserving computing task orchestration framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "secretflow/kuscia",
+      "status": "candidate-context",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "secretflow/scql",
+      "status": "candidate-context",
+      "text": "SCQL  (Secure Collaborative Query Language) is a system that allows multiple distrusting parties to run joint analysis without revealing their private data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "secretflow/scql",
+      "status": "candidate-context",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "secretflow/spu",
+      "status": "candidate-context",
+      "text": "SPU (Secure Processing Unit) aims to be a provable, measurable secure computation device, which provides computation ability while keeping your private data protected."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "secretflow/spu",
+      "status": "candidate-context",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mermaid-js/mermaid",
+      "status": "candidate-context",
+      "text": "Generation of diagrams like flowcharts or sequence diagrams from text in a similar manner as markdown"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mermaid-js/mermaid",
+      "status": "candidate-context",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swagger-api/swagger-core",
+      "status": "candidate-context",
+      "text": "Examples and server integrations for generating the Swagger API Specification, which enables easy access to your REST API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/swagger-core",
+      "status": "candidate-context",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webpack/webpack-dev-server",
+      "status": "candidate-context",
+      "text": "Serves a webpack app. Updates the browser on changes. Documentation https://webpack.js.org/configuration/dev-server/."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webpack/webpack-dev-server",
+      "status": "candidate-context",
+      "text": "\"Dependency Review\""
     }
   ],
   "candidate_glosses": [
@@ -1235,6 +1344,60 @@
       "source_repo": "swagger-api/swagger-parser",
       "status": "candidate",
       "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "App-vNext/Polly-Samples",
+      "status": "candidate",
+      "text": "dependency-review"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kysely-org/kysely-ctl",
+      "status": "candidate",
+      "text": "dependency review"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webpack/postcss-loader",
+      "status": "candidate",
+      "text": "\"Dependency Review\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "secretflow/kuscia",
+      "status": "candidate",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "secretflow/scql",
+      "status": "candidate",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "secretflow/spu",
+      "status": "candidate",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mermaid-js/mermaid",
+      "status": "candidate",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/swagger-core",
+      "status": "candidate",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webpack/webpack-dev-server",
+      "status": "candidate",
+      "text": "\"Dependency Review\""
     }
   ],
   "candidate_related_terms": [
@@ -1752,11 +1915,71 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/dependency-review.yml",
       "source_repo": "swagger-api/swagger-parser"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "App-vNext/Polly-Samples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "kysely-org/kysely-ctl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "webpack/postcss-loader"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/depreview.yml",
+      "source_repo": "facebookresearch/fairseq"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "secretflow/kuscia"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "secretflow/scql"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "secretflow/spu"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "mermaid-js/mermaid"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "swagger-api/swagger-core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "webpack/webpack-dev-server"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

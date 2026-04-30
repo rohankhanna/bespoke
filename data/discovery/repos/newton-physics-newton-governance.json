@@ -1,0 +1,44 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "newton-physics/newton-governance",
+      "target": "newton-physics",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:55:12.874216+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 523
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Repository for Newton Project Governance Documents",
+    "fork": false,
+    "full_name": "newton-physics/newton-governance",
+    "html_url": "https://github.com/newton-physics/newton-governance",
+    "language": null,
+    "pushed_at": "2026-03-11T15:18:07Z",
+    "stargazers_count": 9,
+    "topics": [
+      "newton-physics"
+    ],
+    "updated_at": "2026-03-19T18:57:42Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository hosts documents related to Newton project governance and legal, and guidelines that apply to the repositories in the `newton-physics` organization.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "newton-physics"
+    }
+  ]
+}

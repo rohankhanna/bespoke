@@ -55,6 +55,18 @@
       "source_repo": "transparency-dev/armored-witness",
       "status": "candidate-context",
       "text": "Test Go"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "transparency-dev/armored-witness-common",
+      "status": "candidate-context",
+      "text": "Shared components used by multiple armored-witness repos."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "transparency-dev/armored-witness-common",
+      "status": "candidate-context",
+      "text": "Test Go"
     }
   ],
   "candidate_glosses": [
@@ -85,6 +97,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "transparency-dev/armored-witness",
+      "status": "candidate",
+      "text": "Test Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "transparency-dev/armored-witness-common",
       "status": "candidate",
       "text": "Test Go"
     }
@@ -160,11 +178,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/go_test.yml",
       "source_repo": "transparency-dev/armored-witness"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/go_test.yml",
+      "source_repo": "transparency-dev/armored-witness-common"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

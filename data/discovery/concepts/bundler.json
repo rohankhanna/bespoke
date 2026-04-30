@@ -67,6 +67,18 @@
       "source_repo": "web-infra-dev/rslib",
       "status": "candidate-context",
       "text": "<picture>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rolldown/tsdown",
+      "status": "candidate-context",
+      "text": "The elegant bundler for libraries powered by Rolldown"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rolldown/tsdown",
+      "status": "candidate-context",
+      "text": "<img src=\"./docs/public/og-image.svg\" alt=\"tsdown\" width=\"100%\" /><br>"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "web-infra-dev/rslib",
       "status": "candidate",
       "text": "<picture>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rolldown/tsdown",
+      "status": "candidate",
+      "text": "<img src=\"./docs/public/og-image.svg\" alt=\"tsdown\" width=\"100%\" /><br>"
     }
   ],
   "candidate_related_terms": [
@@ -190,11 +208,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "browserify/browserify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "rolldown/tsdown"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

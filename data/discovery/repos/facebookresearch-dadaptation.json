@@ -1,0 +1,49 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/dadaptation",
+      "target": "konstmish/prodigy",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:06:02.990794+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3712
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 304
+    },
+    {
+      "path": "requirements.txt",
+      "size": 15
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "D-Adaptation for SGD, Adam and AdaGrad",
+    "fork": false,
+    "full_name": "facebookresearch/dadaptation",
+    "html_url": "https://github.com/facebookresearch/dadaptation",
+    "language": "Python",
+    "pushed_at": "2025-01-22T23:32:50Z",
+    "stargazers_count": 531,
+    "topics": [],
+    "updated_at": "2026-04-15T18:30:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "konstmish/prodigy",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

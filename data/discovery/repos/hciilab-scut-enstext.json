@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T16:15:21.215145+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3281
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "HCIILAB/SCUT-EnsText",
+    "html_url": "https://github.com/HCIILAB/SCUT-EnsText",
+    "language": null,
+    "pushed_at": "2024-04-18T13:51:19Z",
+    "stargazers_count": 68,
+    "topics": [],
+    "updated_at": "2026-03-30T08:15:50Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

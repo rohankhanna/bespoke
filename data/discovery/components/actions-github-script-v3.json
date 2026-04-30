@@ -1,7 +1,7 @@
 {
   "component": "actions/github-script@v3",
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -162,6 +162,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/draft-release.yml",
       "source_repo": "buildpacks/lifecycle"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "cmp-nct/ggllm.cpp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/close_issues.yml",
+      "source_repo": "nomic-ai/gpt4all"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/download-link-on-pr.yml",
+      "source_repo": "navidrome/navidrome"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-assign-milestone.yml",
+      "source_repo": "janhq/jan"
     }
   ]
 }

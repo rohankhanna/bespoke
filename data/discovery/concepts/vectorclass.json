@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "vectorclass"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unevens/avec",
+      "status": "candidate-context",
+      "text": "A little library for using SIMD instructions for x86 and ARM, wrapping Agner Fog's vectorclass for x86 and filling some of its functionality for ARM, and providing containers for aligned memory with views and interleaving/deinterleaving."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unevens/avec",
+      "status": "candidate-context",
+      "text": "*avec* is a little library for using SIMD instructions on both x86 and ARM."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unevens/avec",
+      "status": "candidate",
+      "text": "*avec* is a little library for using SIMD instructions on both x86 and ARM."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "vectorclass",
+  "concept_id": "vectorclass",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "unevens/avec"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vectorclass",
+      "sense_id": "vectorclass#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

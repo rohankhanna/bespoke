@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lichengunc/refer",
+      "target": "pdollar/coco",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:09:36.892392+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3277
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Referring Expression Datasets API",
+    "fork": false,
+    "full_name": "lichengunc/refer",
+    "html_url": "https://github.com/lichengunc/refer",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-08-27T08:53:26Z",
+    "stargazers_count": 570,
+    "topics": [],
+    "updated_at": "2026-04-30T08:07:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pdollar/coco",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

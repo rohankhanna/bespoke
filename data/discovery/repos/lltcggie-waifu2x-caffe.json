@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lltcggie/waifu2x-caffe",
+      "target": "wl-amigo/waifu2x-converter-cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lltcggie/waifu2x-caffe",
+      "target": "tsurumeso/waifu2x-chainer",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:05:37.452466+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14325
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "waifu2x\u306eCaffe\u7248",
+    "fork": false,
+    "full_name": "lltcggie/waifu2x-caffe",
+    "html_url": "https://github.com/lltcggie/waifu2x-caffe",
+    "language": "C++",
+    "pushed_at": "2026-03-25T13:22:48Z",
+    "stargazers_count": 8221,
+    "topics": [],
+    "updated_at": "2026-04-26T09:37:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tsurumeso/waifu2x-chainer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wl-amigo/waifu2x-converter-cpp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

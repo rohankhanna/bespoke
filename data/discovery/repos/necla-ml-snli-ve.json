@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T15:09:37.424350+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7549
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Dataset and starting code for visual entailment dataset",
+    "fork": false,
+    "full_name": "necla-ml/SNLI-VE",
+    "html_url": "https://github.com/necla-ml/SNLI-VE",
+    "language": "Python",
+    "pushed_at": "2022-04-21T14:46:41Z",
+    "stargazers_count": 120,
+    "topics": [],
+    "updated_at": "2026-03-24T03:39:10Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

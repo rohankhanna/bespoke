@@ -403,6 +403,54 @@
       "source_repo": "JamieMair/MuJoCo.jl",
       "status": "candidate-context",
       "text": "[![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://JamieMair.github.io/MuJoCo.jl/dev/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "git-cola/git-cola",
+      "status": "candidate-context",
+      "text": "git-cola: The highly caffeinated Git GUI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "git-cola/git-cola",
+      "status": "candidate-context",
+      "text": "Git Cola is a powerful Git GUI with a slick and intuitive user interface."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scikit-optimize/scikit-optimize",
+      "status": "candidate-context",
+      "text": "Sequential model-based optimization with a  `scipy.optimize` interface"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scikit-optimize/scikit-optimize",
+      "status": "candidate-context",
+      "text": "|Logo|"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "isl-org/Open3D-ML",
+      "status": "candidate-context",
+      "text": "An extension of Open3D to address 3D Machine Learning tasks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isl-org/Open3D-ML",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mujocolab/mjviser",
+      "status": "candidate-context",
+      "text": "Web-based MuJoCo viewer powered by Viser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mujocolab/mjviser",
+      "status": "candidate-context",
+      "text": "[![GitHub Actions](https://img.shields.io/github/actions/workflow/status/mujocolab/mjviser/ci.yml?branch=main)](https://github.com/mujocolab/mjviser/actions/workflows/ci.yml?query=branch%3Amain)"
     }
   ],
   "candidate_glosses": [
@@ -603,6 +651,30 @@
       "source_repo": "JamieMair/MuJoCo.jl",
       "status": "candidate",
       "text": "[![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://JamieMair.github.io/MuJoCo.jl/dev/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "git-cola/git-cola",
+      "status": "candidate",
+      "text": "Git Cola is a powerful Git GUI with a slick and intuitive user interface."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scikit-optimize/scikit-optimize",
+      "status": "candidate",
+      "text": "|Logo|"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isl-org/Open3D-ML",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mujocolab/mjviser",
+      "status": "candidate",
+      "text": "[![GitHub Actions](https://img.shields.io/github/actions/workflow/status/mujocolab/mjviser/ci.yml?branch=main)](https://github.com/mujocolab/mjviser/actions/workflows/ci.yml?query=branch%3Amain)"
     }
   ],
   "candidate_related_terms": [
@@ -865,11 +937,41 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "JamieMair/MuJoCo.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "git-cola/git-cola"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "scikit-optimize/scikit-optimize"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/Open3D-ML"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "mujocolab/mjviser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "lanpa/tensorboardX"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

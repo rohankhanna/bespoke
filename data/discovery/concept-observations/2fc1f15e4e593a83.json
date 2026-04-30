@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Mirakuru - a python library that starts your subprocess and waits for a clear indication, that it's running (process orchestrator)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": ".. image:: https://raw.githubusercontent.com/dbfixtures/mirakuru/master/logo.png"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": ".. image:: https://raw.githubusercontent.com/dbfixtures/mirakuru/master/logo.png"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "process-manager",
+      "sense_id": "process-manager#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "process-manager",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "process-manager",
+  "observation_id": "2fc1f15e4e593a83",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "process-manager",
+  "source_context_snippet": ".. image:: https://raw.githubusercontent.com/dbfixtures/mirakuru/master/logo.png",
+  "source_file": null,
+  "source_repo": "dbfixtures/mirakuru",
+  "source_repo_description": "Mirakuru - a python library that starts your subprocess and waits for a clear indication, that it's running (process orchestrator)"
+}

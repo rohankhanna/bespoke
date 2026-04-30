@@ -18,20 +18,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "tj/n",
-      "target": "mklement0/n-install",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "tj/n",
-      "target": "shadowspawn/node-version-usage",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "tj/n",
@@ -53,7 +39,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-04-30T08:06:56.902898+00:00",
+  "fetched_at": "2026-04-30T12:47:55.644376+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -78,17 +64,6 @@
     "topics": [],
     "updated_at": "2026-04-30T06:28:53Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "mklement0/n-install",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "shadowspawn/node-version-usage",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": []
 }

@@ -271,6 +271,66 @@
       "source_repo": "IceClear/StableSR",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "john-rocky/CoreML-Models",
+      "status": "candidate-context",
+      "text": "Converted CoreML Model Zoo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "john-rocky/CoreML-Models",
+      "status": "candidate-context",
+      "text": "Converted Core ML Model Zoo."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Anime4KWebBoost/Anime4K-WebGPU",
+      "status": "candidate-context",
+      "text": "Implementation of Anime4K in WebGPU"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Anime4KWebBoost/Anime4K-WebGPU",
+      "status": "candidate-context",
+      "text": "University of Pennsylvania, CIS 565: GPU Programming and Architecture, Final Project"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Blinue/Magpie",
+      "status": "candidate-context",
+      "text": "A general-purpose window upscaler for Windows 10/11."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Blinue/Magpie",
+      "status": "candidate-context",
+      "text": "<br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nagadomi/nunif",
+      "status": "candidate-context",
+      "text": "Misc; latest version of waifu2x;  2D video to stereo 3D video conversion"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nagadomi/nunif",
+      "status": "candidate-context",
+      "text": "My playground."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IceClear/LDM-SRtuning",
+      "status": "candidate-context",
+      "text": "Train latent diffusion for real-world super-resolution."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IceClear/LDM-SRtuning",
+      "status": "candidate-context",
+      "text": "This repo is used as an example for training and finetuning [latent-diffusion](https://github.com/CompVis/latent-diffusion) used as the baseline in [StableSR](https://github.com/IceClear/StableSR)."
     }
   ],
   "candidate_glosses": [
@@ -405,6 +465,36 @@
       "source_repo": "IceClear/StableSR",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "john-rocky/CoreML-Models",
+      "status": "candidate",
+      "text": "Converted Core ML Model Zoo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Anime4KWebBoost/Anime4K-WebGPU",
+      "status": "candidate",
+      "text": "University of Pennsylvania, CIS 565: GPU Programming and Architecture, Final Project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Blinue/Magpie",
+      "status": "candidate",
+      "text": "<br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nagadomi/nunif",
+      "status": "candidate",
+      "text": "My playground."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IceClear/LDM-SRtuning",
+      "status": "candidate",
+      "text": "This repo is used as an example for training and finetuning [latent-diffusion](https://github.com/CompVis/latent-diffusion) used as the baseline in [StableSR](https://github.com/IceClear/StableSR)."
     }
   ],
   "candidate_related_terms": [],
@@ -598,11 +688,59 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "IceClear/StableSR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "john-rocky/CoreML-Models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "cszn/BSRGAN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "XPixelGroup/BasicSR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Anime4KWebBoost/Anime4K-WebGPU"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Blinue/Magpie"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "nagadomi/nunif"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "IceClear/LDM-SRtuning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

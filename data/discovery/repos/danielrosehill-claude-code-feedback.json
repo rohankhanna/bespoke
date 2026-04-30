@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T14:58:21.837011+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1171
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Claude Code plugin for filing well-formed bug reports, feature requests, model-behavior reports, and docs issues against anthropics/claude-code",
+    "fork": false,
+    "full_name": "danielrosehill/Claude-Code-Feedback",
+    "html_url": "https://github.com/danielrosehill/Claude-Code-Feedback",
+    "language": null,
+    "pushed_at": "2026-04-20T22:19:27Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-20T22:19:25Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

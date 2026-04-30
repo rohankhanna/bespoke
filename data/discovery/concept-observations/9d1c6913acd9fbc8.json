@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "PraNet-V2: Upgrading PraNet from binary (V1) to multi-class (V2) segmentation . Support both Jittor & PyTorch DL frameworks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h1 align=\"center\">PraNet-V2: Dual-Supervised Reverse Attention for Medical Image Segmentation</h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">PraNet-V2: Dual-Supervised Reverse Attention for Medical Image Segmentation</h1>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20021818,
+      "status": "candidate",
+      "text": "coloscopy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20021817,
+      "status": "candidate",
+      "text": "sigmoidoscopy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20021816,
+      "status": "candidate",
+      "text": "sigmoidoscope"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20021815,
+      "status": "candidate",
+      "text": "proctoscopy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20021814,
+      "status": "candidate",
+      "text": "colotomy"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "colonoscopy",
+      "sense_id": "colonoscopy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "colonoscopy",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "colonoscopy",
+  "observation_id": "9d1c6913acd9fbc8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "colonoscopy",
+  "source_context_snippet": "<h1 align=\"center\">PraNet-V2: Dual-Supervised Reverse Attention for Medical Image Segmentation</h1>",
+  "source_file": null,
+  "source_repo": "ai4colonoscopy/PraNet-V2",
+  "source_repo_description": "PraNet-V2: Upgrading PraNet from binary (V1) to multi-class (V2) segmentation . Support both Jittor & PyTorch DL frameworks."
+}

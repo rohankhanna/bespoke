@@ -19,6 +19,18 @@
       "source_repo": "huggingface/optimum",
       "status": "candidate-context",
       "text": "<!---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graphcore/examples",
+      "status": "candidate-context",
+      "text": "Example code and applications for machine learning on Graphcore IPUs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphcore/examples",
+      "status": "candidate-context",
+      "text": "This repository contains a catalogue of application examples that have been optimised to run on Graphcore IPUs for both training and inference. Access reproducible code for a wide range of popular models covering NLP, Computer Vision, Speech, Multimodal, GNNs, AI for Simulation,\u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "huggingface/optimum",
       "status": "candidate",
       "text": "<!---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphcore/examples",
+      "status": "candidate",
+      "text": "This repository contains a catalogue of application examples that have been optimised to run on Graphcore IPUs for both training and inference. Access reproducible code for a wide range of popular models covering NLP, Computer Vision, Speech, Multimodal, GNNs, AI for Simulation,\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "huggingface/optimum"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "graphcore/examples"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

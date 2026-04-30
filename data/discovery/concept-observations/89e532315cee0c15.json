@@ -4,10 +4,63 @@
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definition_hints": [],
-  "candidate_glosses": [],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An SVG rendering library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Tagged Release\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Tagged Release\""
+    }
+  ],
   "candidate_primary_bucket": "workflow-process",
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13709,
+      "status": "candidate",
+      "text": "dead"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13709,
+      "status": "candidate",
+      "text": "labeled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13709,
+      "status": "candidate",
+      "text": "point"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13709,
+      "status": "candidate",
+      "text": "points"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13709,
+      "status": "candidate",
+      "text": "tag"
+    }
+  ],
   "candidate_senses": [
     {
       "candidate_buckets": [
@@ -24,15 +77,17 @@
   "definition_status": "unresolved",
   "discovered_via": "workflow-name",
   "gloss_status": "unresolved",
-  "lexical_providers": [],
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "normalized_form": "tagged-release",
   "observation_id": "89e532315cee0c15",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-18T11:41:43.530265+00:00",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
   "observed_text": "Tagged Release",
-  "source_context_snippet": null,
+  "source_context_snippet": "\"Tagged Release\"",
   "source_file": ".github/workflows/tagged-release.yml",
   "source_repo": "linebender/resvg",
-  "source_repo_description": null
+  "source_repo_description": "An SVG rendering library."
 }

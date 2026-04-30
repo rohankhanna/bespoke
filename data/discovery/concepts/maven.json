@@ -5,7 +5,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -91,6 +93,30 @@
       "source_repo": "VirtusLab/bazel-steward",
       "status": "candidate-context",
       "text": "<!--suppress HtmlDeprecatedAttribute -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graalvm/native-build-tools",
+      "status": "candidate-context",
+      "text": "Native-image plugins for various build tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graalvm/native-build-tools",
+      "status": "candidate-context",
+      "text": "![](https://github.com/graalvm/native-build-tools/actions/workflows/test-native-gradle-plugin.yml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jpmml/jpmml-lightgbm",
+      "status": "candidate-context",
+      "text": "Java library and command-line application for converting LightGBM models to PMML"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jpmml/jpmml-lightgbm",
+      "status": "candidate-context",
+      "text": "maven"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +161,18 @@
       "source_repo": "VirtusLab/bazel-steward",
       "status": "candidate",
       "text": "<!--suppress HtmlDeprecatedAttribute -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graalvm/native-build-tools",
+      "status": "candidate",
+      "text": "![](https://github.com/graalvm/native-build-tools/actions/workflows/test-native-gradle-plugin.yml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jpmml/jpmml-lightgbm",
+      "status": "candidate",
+      "text": "maven"
     }
   ],
   "candidate_related_terms": [
@@ -268,11 +306,29 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "bazel-contrib/rules_jvm_external"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "graalvm/native-build-tools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "jpmml/jpmml-lightgbm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "bazel-contrib/rules_jvm_external"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "flagos-ai/FlagOS-Robo",
+      "target": "flagopen/roboos",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:08:38.729967+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5242
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "FlagOS-Robot provide end-to-end toolkit for embodied data loading, model training, inference, and evaluation boosting the iteration efficiency of the data-model loop and accelerating both the development and industrial adoption of embodied intelligence technologies.",
+    "fork": false,
+    "full_name": "flagos-ai/FlagOS-Robo",
+    "html_url": "https://github.com/flagos-ai/FlagOS-Robo",
+    "language": null,
+    "pushed_at": "2026-03-26T06:58:57Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2026-03-27T02:19:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "flagopen/roboos",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

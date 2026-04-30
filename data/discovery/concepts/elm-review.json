@@ -31,6 +31,18 @@
       "source_repo": "jfmengels/node-elm-review",
       "status": "candidate-context",
       "text": "Run [`elm-review`] from Node.js."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jfmengels/elm-review-unused",
+      "status": "candidate-context",
+      "text": "Provides elm-review rules to detect unused elements in your Elm project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jfmengels/elm-review-unused",
+      "status": "candidate-context",
+      "text": "Provides [`elm-review`](https://package.elm-lang.org/packages/jfmengels/elm-review/latest/) rules to detect unused elements in your Elm project."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "jfmengels/node-elm-review",
       "status": "candidate",
       "text": "Run [`elm-review`] from Node.js."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jfmengels/elm-review-unused",
+      "status": "candidate",
+      "text": "Provides [`elm-review`](https://package.elm-lang.org/packages/jfmengels/elm-review/latest/) rules to detect unused elements in your Elm project."
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "jfmengels/node-elm-review"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "jfmengels/elm-review-unused"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

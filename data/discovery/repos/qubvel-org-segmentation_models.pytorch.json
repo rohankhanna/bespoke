@@ -118,13 +118,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "qubvel-org/segmentation_models.pytorch",
-      "target": "withoutbg/withoutbg",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "qubvel-org/segmentation_models.pytorch",
       "target": "ternaus/cloths_segmentation",
       "target_type": "repository"
     },
@@ -325,7 +318,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T10:14:38.381834+00:00",
+  "fetched_at": "2026-04-30T15:09:19.132781+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -392,11 +385,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "ternaus/cloths_segmentation",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "withoutbg/withoutbg",
       "source_file": "README.md"
     }
   ],

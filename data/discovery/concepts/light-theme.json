@@ -19,6 +19,18 @@
       "source_repo": "nashamri/spacemacs-theme",
       "status": "candidate-context",
       "text": "[![NonGNU ELPA](https://elpa.nongnu.org/nongnu/spacemacs-theme.svg)](https://elpa.nongnu.org/nongnu/spacemacs-theme.html)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "olimorris/onedarkpro.nvim",
+      "status": "candidate-context",
+      "text": "\ud83c\udfa8 Atom's iconic One Dark theme. Cacheable, fully customisable, Tree-sitter and LSP semantic token support. Comes with variants"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "olimorris/onedarkpro.nvim",
+      "status": "candidate-context",
+      "text": "<!-- panvimdoc-ignore-start -->"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "nashamri/spacemacs-theme",
       "status": "candidate",
       "text": "[![NonGNU ELPA](https://elpa.nongnu.org/nongnu/spacemacs-theme.svg)](https://elpa.nongnu.org/nongnu/spacemacs-theme.html)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "olimorris/onedarkpro.nvim",
+      "status": "candidate",
+      "text": "<!-- panvimdoc-ignore-start -->"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "nashamri/spacemacs-theme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "olimorris/onedarkpro.nvim"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

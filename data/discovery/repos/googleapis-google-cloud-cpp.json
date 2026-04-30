@@ -1,0 +1,582 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/external-account-integration.yml"
+    },
+    {
+      "component": "google-github-actions/auth@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/external-account-integration.yml"
+    },
+    {
+      "component": "google-github-actions/setup-gcloud@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/external-account-integration.yml"
+    },
+    {
+      "component": "google-github-actions/auth@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/external-account-integration.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-bazel.yml"
+    },
+    {
+      "component": "google-github-actions/auth@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-bazel.yml"
+    },
+    {
+      "component": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-cmake.yml"
+    },
+    {
+      "component": "google-github-actions/auth@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-cmake.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-cmake.yml"
+    },
+    {
+      "component": "google-github-actions/setup-gcloud@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-cmake.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-bazel.yml"
+    },
+    {
+      "component": "google-github-actions/auth@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-bazel.yml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@0b201ec74fa43914dc39ae48a89fd1d8cb592756",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-bazel.yml"
+    },
+    {
+      "component": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-cmake.yml"
+    },
+    {
+      "component": "google-github-actions/auth@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-cmake.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-cmake.yml"
+    },
+    {
+      "component": "google-github-actions/setup-gcloud@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-cmake.yml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@0b201ec74fa43914dc39ae48a89fd1d8cb592756",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-cmake.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "googleapis/google-cloud-cpp",
+      "target": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "googleapis/google-cloud-cpp",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "googleapis/google-cloud-cpp",
+      "target": "github/codeql-action/init@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "googleapis/google-cloud-cpp",
+      "target": "github/codeql-action/analyze@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "googleapis/google-cloud-cpp",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/external-account-integration.yml",
+      "source_repo": "googleapis/google-cloud-cpp",
+      "target": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/external-account-integration.yml",
+      "source_repo": "googleapis/google-cloud-cpp",
+      "target": "google-github-actions/auth@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/external-account-integration.yml",
+      "source_repo": "googleapis/google-cloud-cpp",
+      "target": "google-github-actions/setup-gcloud@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/external-account-integration.yml",
+      "source_repo": "googleapis/google-cloud-cpp",
+      "target": "External Account Integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-bazel.yml",
+      "source_repo": "googleapis/google-cloud-cpp",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-bazel.yml",
+      "source_repo": "googleapis/google-cloud-cpp",
+      "target": "google-github-actions/auth@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos-bazel.yml",
+      "source_repo": "googleapis/google-cloud-cpp",
+      "target": "macOS-Bazel-Builds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-cmake.yml",
+      "source_repo": "googleapis/google-cloud-cpp",
+      "target": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-cmake.yml",
+      "source_repo": "googleapis/google-cloud-cpp",
+      "target": "google-github-actions/auth@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-cmake.yml",
+      "source_repo": "googleapis/google-cloud-cpp",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-cmake.yml",
+      "source_repo": "googleapis/google-cloud-cpp",
+      "target": "google-github-actions/setup-gcloud@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos-cmake.yml",
+      "source_repo": "googleapis/google-cloud-cpp",
+      "target": "macOS-CMake-Builds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-runner.yml",
+      "source_repo": "googleapis/google-cloud-cpp",
+      "target": "gha: macOS & Windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-bazel.yml",
+      "source_repo": "googleapis/google-cloud-cpp",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-bazel.yml",
+      "source_repo": "googleapis/google-cloud-cpp",
+      "target": "google-github-actions/auth@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-bazel.yml",
+      "source_repo": "googleapis/google-cloud-cpp",
+      "target": "ilammy/msvc-dev-cmd@0b201ec74fa43914dc39ae48a89fd1d8cb592756",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows-bazel.yml",
+      "source_repo": "googleapis/google-cloud-cpp",
+      "target": "Windows-Builds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-cmake.yml",
+      "source_repo": "googleapis/google-cloud-cpp",
+      "target": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-cmake.yml",
+      "source_repo": "googleapis/google-cloud-cpp",
+      "target": "google-github-actions/auth@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-cmake.yml",
+      "source_repo": "googleapis/google-cloud-cpp",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-cmake.yml",
+      "source_repo": "googleapis/google-cloud-cpp",
+      "target": "google-github-actions/setup-gcloud@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-cmake.yml",
+      "source_repo": "googleapis/google-cloud-cpp",
+      "target": "ilammy/msvc-dev-cmd@0b201ec74fa43914dc39ae48a89fd1d8cb592756",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows-cmake.yml",
+      "source_repo": "googleapis/google-cloud-cpp",
+      "target": "Windows-Builds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "googleapis/google-cloud-cpp",
+      "target": "bigtable",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "googleapis/google-cloud-cpp",
+      "target": "cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "googleapis/google-cloud-cpp",
+      "target": "cpp14",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "googleapis/google-cloud-cpp",
+      "target": "cxx14",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "googleapis/google-cloud-cpp",
+      "target": "google",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "googleapis/google-cloud-cpp",
+      "target": "google-cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "googleapis/google-cloud-cpp",
+      "target": "google-cloud-bigtable",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "googleapis/google-cloud-cpp",
+      "target": "google-cloud-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "googleapis/google-cloud-cpp",
+      "target": "google-cloud-pubsub",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "googleapis/google-cloud-cpp",
+      "target": "google-cloud-spanner",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "googleapis/google-cloud-cpp",
+      "target": "google-cloud-storage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "googleapis/google-cloud-cpp",
+      "target": "spanner",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T12:53:11.844701+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 41657
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 3002
+    },
+    {
+      "path": ".github/workflows/external-account-integration.yml",
+      "size": 3326
+    },
+    {
+      "path": ".github/workflows/macos-bazel.yml",
+      "size": 1783
+    },
+    {
+      "path": ".github/workflows/macos-cmake.yml",
+      "size": 10476
+    },
+    {
+      "path": ".github/workflows/test-runner.yml",
+      "size": 4756
+    },
+    {
+      "path": ".github/workflows/windows-bazel.yml",
+      "size": 3015
+    },
+    {
+      "path": ".github/workflows/windows-cmake.yml",
+      "size": 12187
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "C++ Client Libraries for Google Cloud Services",
+    "fork": false,
+    "full_name": "googleapis/google-cloud-cpp",
+    "html_url": "https://github.com/googleapis/google-cloud-cpp",
+    "language": "C++",
+    "pushed_at": "2026-04-30T11:35:19Z",
+    "stargazers_count": 649,
+    "topics": [
+      "bigtable",
+      "cloud",
+      "cpp",
+      "cpp14",
+      "cxx14",
+      "gcp",
+      "google",
+      "google-cloud",
+      "google-cloud-bigtable",
+      "google-cloud-platform",
+      "google-cloud-pubsub",
+      "google-cloud-spanner",
+      "google-cloud-storage",
+      "spanner"
+    ],
+    "updated_at": "2026-04-28T20:32:03Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "\"External Account Integration\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/external-account-integration.yml",
+      "term": "External Account Integration"
+    },
+    {
+      "context_snippet": "macOS-Bazel-Builds",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos-bazel.yml",
+      "term": "macOS-Bazel-Builds"
+    },
+    {
+      "context_snippet": "macOS-CMake-Builds",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos-cmake.yml",
+      "term": "macOS-CMake-Builds"
+    },
+    {
+      "context_snippet": "\"gha: macOS & Windows\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-runner.yml",
+      "term": "gha: macOS & Windows"
+    },
+    {
+      "context_snippet": "Windows-Builds",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows-bazel.yml",
+      "term": "Windows-Builds"
+    },
+    {
+      "context_snippet": "Windows-Builds",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows-cmake.yml",
+      "term": "Windows-Builds"
+    },
+    {
+      "context_snippet": "<!-- This file is automatically generated by ci/test-markdown/generate-readme.sh -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bigtable"
+    },
+    {
+      "context_snippet": "<!-- This file is automatically generated by ci/test-markdown/generate-readme.sh -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloud"
+    },
+    {
+      "context_snippet": "<!-- This file is automatically generated by ci/test-markdown/generate-readme.sh -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp14"
+    },
+    {
+      "context_snippet": "<!-- This file is automatically generated by ci/test-markdown/generate-readme.sh -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cxx14"
+    },
+    {
+      "context_snippet": "<!-- This file is automatically generated by ci/test-markdown/generate-readme.sh -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google"
+    },
+    {
+      "context_snippet": "<!-- This file is automatically generated by ci/test-markdown/generate-readme.sh -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google-cloud"
+    },
+    {
+      "context_snippet": "<!-- This file is automatically generated by ci/test-markdown/generate-readme.sh -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google-cloud-bigtable"
+    },
+    {
+      "context_snippet": "<!-- This file is automatically generated by ci/test-markdown/generate-readme.sh -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google-cloud-platform"
+    },
+    {
+      "context_snippet": "<!-- This file is automatically generated by ci/test-markdown/generate-readme.sh -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google-cloud-pubsub"
+    },
+    {
+      "context_snippet": "<!-- This file is automatically generated by ci/test-markdown/generate-readme.sh -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google-cloud-spanner"
+    },
+    {
+      "context_snippet": "<!-- This file is automatically generated by ci/test-markdown/generate-readme.sh -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google-cloud-storage"
+    },
+    {
+      "context_snippet": "<!-- This file is automatically generated by ci/test-markdown/generate-readme.sh -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spanner"
+    }
+  ]
+}

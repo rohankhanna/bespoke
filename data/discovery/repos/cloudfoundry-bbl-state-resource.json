@@ -1,0 +1,134 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cloudfoundry/bbl-state-resource",
+      "target": "cloudfoundry/bosh-deployment-resource",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cloudfoundry/bbl-state-resource",
+      "target": "concourse/pool-resource",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudfoundry/bbl-state-resource",
+      "target": "bosh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudfoundry/bbl-state-resource",
+      "target": "concourse",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudfoundry/bbl-state-resource",
+      "target": "concourse-ci",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudfoundry/bbl-state-resource",
+      "target": "concourse-resource",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudfoundry/bbl-state-resource",
+      "target": "golang",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:05:39.425170+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4873
+    },
+    {
+      "path": "Dockerfile",
+      "size": 528
+    },
+    {
+      "path": "go.mod",
+      "size": 1868
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "a concourse resource for manipulating bbl states",
+    "fork": false,
+    "full_name": "cloudfoundry/bbl-state-resource",
+    "html_url": "https://github.com/cloudfoundry/bbl-state-resource",
+    "language": "Go",
+    "pushed_at": "2022-07-08T14:49:16Z",
+    "stargazers_count": 7,
+    "topics": [
+      "bbl",
+      "bosh",
+      "concourse",
+      "concourse-ci",
+      "concourse-resource",
+      "golang"
+    ],
+    "updated_at": "2025-11-21T18:17:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudfoundry/bosh-deployment-resource",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "concourse/pool-resource",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This is a concourse resource for provisioning bosh directors and using [bbl](https://github.com/cloudfoundry/bosh-bootloader) to manipulate cloud-stored bbl-states.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bosh"
+    },
+    {
+      "context_snippet": "This is a concourse resource for provisioning bosh directors and using [bbl](https://github.com/cloudfoundry/bosh-bootloader) to manipulate cloud-stored bbl-states.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "concourse"
+    },
+    {
+      "context_snippet": "This is a concourse resource for provisioning bosh directors and using [bbl](https://github.com/cloudfoundry/bosh-bootloader) to manipulate cloud-stored bbl-states.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "concourse-ci"
+    },
+    {
+      "context_snippet": "This is a concourse resource for provisioning bosh directors and using [bbl](https://github.com/cloudfoundry/bosh-bootloader) to manipulate cloud-stored bbl-states.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "concourse-resource"
+    },
+    {
+      "context_snippet": "This is a concourse resource for provisioning bosh directors and using [bbl](https://github.com/cloudfoundry/bosh-bootloader) to manipulate cloud-stored bbl-states.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    }
+  ]
+}

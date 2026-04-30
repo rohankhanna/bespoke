@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-python@v4",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -3032,6 +3032,281 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/prepare-release-v1.yml",
       "source_repo": "swagger-api/swagger-parser"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/maturin.yml",
+      "source_repo": "EricLBuehler/candle"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python.yml",
+      "source_repo": "EricLBuehler/candle"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "chu-tianxiang/vllm-gptq"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "xingchensong/S3Tokenizer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/unit_test_cpu.yaml",
+      "source_repo": "xingchensong/S3Tokenizer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/param-check.yml",
+      "source_repo": "flightlessmango/MangoHud"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release.yml",
+      "source_repo": "jllllll/ctransformers-cuBLAS-wheels"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/code-quality.yml",
+      "source_repo": "cvg/Hierarchical-Localization"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "ranahaani/GNews"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "web-arena-x/webarena"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "web-arena-x/webarena"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "cdelledonne/vim-cmake"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Sasanidas/Rail"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/prerelease.yml",
+      "source_repo": "unum-cloud/UCall"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/base.yml",
+      "source_repo": "confluentinc/confluent-kafka-go"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "PyCQA/pyflakes"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "datalab-to/marker"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "datalab-to/marker"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "datalab-to/marker"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scripts.yml",
+      "source_repo": "datalab-to/marker"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr_ruff.yml",
+      "source_repo": "prs-eth/Marigold"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "nerfstudio-project/gsplat"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-pypi.yml",
+      "source_repo": "kvcache-ai/ktransformers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-sglang-kt.yml",
+      "source_repo": "kvcache-ai/ktransformers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/building.yml",
+      "source_repo": "nerfstudio-project/nerfacc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/code_checks.yml",
+      "source_repo": "nerfstudio-project/nerfacc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "nerfstudio-project/nerfacc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/core_code_checks.yml",
+      "source_repo": "nerfstudio-project/nerfstudio"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check.yaml",
+      "source_repo": "py-pdf/sample-files"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/file-size-check.yaml",
+      "source_repo": "py-pdf/sample-files"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/black.yml",
+      "source_repo": "ctypesgen/ctypesgen"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/flake8.yml",
+      "source_repo": "ctypesgen/ctypesgen"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ctypesgen/ctypesgen"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "rgbkrk/chatlab"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "robot-descriptions/robot_descriptions.py"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "chungmin99/pyroki"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-brev-tutorial-docker-images.yml",
+      "source_repo": "NVIDIA/accelerated-computing-hub"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "akabe/ocaml-jupyter"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "IST-DASLab/FP-Quant"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "IST-DASLab/Quartet-II"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/next-snapshot-v1.yml",
+      "source_repo": "swagger-api/swagger-inflector"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/next-snapshot.yml",
+      "source_repo": "swagger-api/swagger-inflector"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release-v1.yml",
+      "source_repo": "swagger-api/swagger-inflector"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release.yml",
+      "source_repo": "swagger-api/swagger-inflector"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "Azure-Samples/azureai-samples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pull-request-checks.yml",
+      "source_repo": "Azure-Samples/azureai-samples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/angle.yml",
+      "source_repo": "dotnet/Silk.NET"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/moltenvk.yml",
+      "source_repo": "dotnet/Silk.NET"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "AdaptiveCpp/AdaptiveCpp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/autoqa-migration.yml",
+      "source_repo": "janhq/jan"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/autoqa-reliability.yml",
+      "source_repo": "janhq/jan"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/autoqa-template.yml",
+      "source_repo": "janhq/jan"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/clean-cloudflare-page-preview-url-and-r2.yml",
+      "source_repo": "janhq/jan"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "kymatio/kymatio"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pip.yml",
+      "source_repo": "kymatio/kymatio"
     }
   ]
 }

@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T16:14:15.183211+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7795
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 819
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "https://hf.co/hexgrad/Kokoro-82M",
+    "fork": false,
+    "full_name": "hexgrad/kokoro",
+    "html_url": "https://github.com/hexgrad/kokoro",
+    "language": "JavaScript",
+    "pushed_at": "2025-08-06T22:28:53Z",
+    "stargazers_count": 6813,
+    "topics": [],
+    "updated_at": "2026-04-30T14:14:24Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

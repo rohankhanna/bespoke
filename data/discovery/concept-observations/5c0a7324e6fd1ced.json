@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Web UI for monitoring and managing Karafka consumers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Trigger Wiki Refresh"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Trigger Wiki Refresh"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12590,
+      "status": "candidate",
+      "text": "interwiki"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12329,
+      "status": "candidate",
+      "text": "wikihow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12047,
+      "status": "candidate",
+      "text": "dancehall"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12047,
+      "status": "candidate",
+      "text": "inferno"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9873,
+      "status": "candidate",
+      "text": "address"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Trigger Wiki Refresh",
+      "sense_id": "trigger-wiki-refresh#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "trigger-wiki-refresh",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "trigger-wiki-refresh",
+  "observation_id": "5c0a7324e6fd1ced",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "Trigger Wiki Refresh",
+  "source_context_snippet": "Trigger Wiki Refresh",
+  "source_file": ".github/workflows/trigger-wiki-refresh.yml",
+  "source_repo": "karafka/karafka-web",
+  "source_repo_description": "Web UI for monitoring and managing Karafka consumers"
+}

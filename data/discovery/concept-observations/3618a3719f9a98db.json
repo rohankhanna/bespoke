@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Ruby FFI binding to the Networking and Cryptography (NaCl) library (a.k.a. libsodium)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![RbNaCl](https://raw.github.com/RubyCrypto/rbnacl/master/images/logo.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![RbNaCl](https://raw.github.com/RubyCrypto/rbnacl/master/images/logo.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ed25519",
+      "sense_id": "ed25519#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ed25519",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ed25519",
+  "observation_id": "3618a3719f9a98db",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "ed25519",
+  "source_context_snippet": "![RbNaCl](https://raw.github.com/RubyCrypto/rbnacl/master/images/logo.png)",
+  "source_file": null,
+  "source_repo": "RubyCrypto/rbnacl",
+  "source_repo_description": "Ruby FFI binding to the Networking and Cryptography (NaCl) library (a.k.a. libsodium)"
+}

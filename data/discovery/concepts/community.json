@@ -106,6 +106,18 @@
       "source_repo": "goharbor/community",
       "status": "candidate-context",
       "text": "A place for Harbor community related material."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hacs/integration",
+      "status": "candidate-context",
+      "text": "HACS gives you a powerful UI to handle downloads of all your custom needs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hacs/integration",
+      "status": "candidate-context",
+      "text": "_Manage (Install, track, upgrade) and discover custom elements for Home Assistant directly from the UI._"
     }
   ],
   "candidate_glosses": [
@@ -156,6 +168,12 @@
       "source_repo": "goharbor/community",
       "status": "candidate",
       "text": "A place for Harbor community related material."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hacs/integration",
+      "status": "candidate",
+      "text": "_Manage (Install, track, upgrade) and discover custom elements for Home Assistant directly from the UI._"
     }
   ],
   "candidate_related_terms": [
@@ -289,11 +307,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "goharbor/community"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "hacs/integration"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

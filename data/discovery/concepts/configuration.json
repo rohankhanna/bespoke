@@ -133,6 +133,30 @@
       "source_repo": "syl20bnr/spacemacs",
       "status": "candidate-context",
       "text": "<a name=\"top\" id=\"fork-destination-box\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "drduh/config",
+      "status": "candidate-context",
+      "text": "Configuration files and scripts used in guides and for system setup."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drduh/config",
+      "status": "candidate-context",
+      "text": "Miscellaneous scripts and program configuration files used in:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "carueda/cfg",
+      "status": "candidate-context",
+      "text": "Type safety all the way from configuration spec to  configuration access in Scala"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carueda/cfg",
+      "status": "candidate-context",
+      "text": "Type safety all the way from configuration spec to configuration access in Scala"
     }
   ],
   "candidate_glosses": [
@@ -201,6 +225,18 @@
       "source_repo": "syl20bnr/spacemacs",
       "status": "candidate",
       "text": "<a name=\"top\" id=\"fork-destination-box\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drduh/config",
+      "status": "candidate",
+      "text": "Miscellaneous scripts and program configuration files used in:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carueda/cfg",
+      "status": "candidate",
+      "text": "Type safety all the way from configuration spec to configuration access in Scala"
     }
   ],
   "candidate_related_terms": [
@@ -339,11 +375,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "syl20bnr/spacemacs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "drduh/config"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "carueda/cfg"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

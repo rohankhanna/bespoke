@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "OpenAPI 3.0 Specification for the Box APIs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Process en branch"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Process en branch"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27318,
+      "status": "candidate",
+      "text": "ramus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26480,
+      "status": "candidate",
+      "text": "bioremediation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26118,
+      "status": "candidate",
+      "text": "branching"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26080,
+      "status": "candidate",
+      "text": "analytics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26080,
+      "status": "candidate",
+      "text": "zymurgy"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Process en branch",
+      "sense_id": "process-en-branch#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "process-en-branch",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "process-en-branch",
+  "observation_id": "959867e321150f31",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "Process en branch",
+  "source_context_snippet": "Process en branch",
+  "source_file": ".github/workflows/en-api-docs.yml",
+  "source_repo": "box/box-openapi",
+  "source_repo_description": "OpenAPI 3.0 Specification for the Box APIs"
+}

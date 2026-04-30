@@ -1,0 +1,206 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_page.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_page.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_page.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_page.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest_ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest_ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/render_motion_videos.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/render_motion_videos.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/render_motion_videos.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hshi74/toddlerbot",
+      "target": "stanford-tml/robot_keyframe_kit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_page.yml",
+      "source_repo": "hshi74/toddlerbot",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_page.yml",
+      "source_repo": "hshi74/toddlerbot",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_page.yml",
+      "source_repo": "hshi74/toddlerbot",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_page.yml",
+      "source_repo": "hshi74/toddlerbot",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy_page.yml",
+      "source_repo": "hshi74/toddlerbot",
+      "target": "Deploy Sphinx documentation to Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest_ci.yml",
+      "source_repo": "hshi74/toddlerbot",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest_ci.yml",
+      "source_repo": "hshi74/toddlerbot",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest_ci.yml",
+      "source_repo": "hshi74/toddlerbot",
+      "target": "Run Pytest Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/render_motion_videos.yml",
+      "source_repo": "hshi74/toddlerbot",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/render_motion_videos.yml",
+      "source_repo": "hshi74/toddlerbot",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/render_motion_videos.yml",
+      "source_repo": "hshi74/toddlerbot",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/render_motion_videos.yml",
+      "source_repo": "hshi74/toddlerbot",
+      "target": "Render Motion Gallery Videos",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:55:02.175686+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7522
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1980
+    },
+    {
+      "path": ".github/workflows/deploy_page.yml",
+      "size": 1918
+    },
+    {
+      "path": ".github/workflows/pytest_ci.yml",
+      "size": 959
+    },
+    {
+      "path": ".github/workflows/render_motion_videos.yml",
+      "size": 1797
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "hshi74/toddlerbot",
+    "html_url": "https://github.com/hshi74/toddlerbot",
+    "language": "Python",
+    "pushed_at": "2026-04-19T18:18:05Z",
+    "stargazers_count": 674,
+    "topics": [],
+    "updated_at": "2026-04-30T14:19:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stanford-tml/robot_keyframe_kit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Deploy Sphinx documentation to Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy_page.yml",
+      "term": "Deploy Sphinx documentation to Pages"
+    },
+    {
+      "context_snippet": "Run Pytest Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest_ci.yml",
+      "term": "Run Pytest Tests"
+    },
+    {
+      "context_snippet": "Render Motion Gallery Videos",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/render_motion_videos.yml",
+      "term": "Render Motion Gallery Videos"
+    }
+  ]
+}

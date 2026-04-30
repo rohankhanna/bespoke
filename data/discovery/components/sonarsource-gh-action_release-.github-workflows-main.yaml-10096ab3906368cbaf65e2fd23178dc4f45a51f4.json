@@ -1,0 +1,12 @@
+{
+  "component": "SonarSource/gh-action_release/.github/workflows/main.yaml@10096ab3906368cbaf65e2fd23178dc4f45a51f4",
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "SonarSource/sonarlint-intellij"
+    }
+  ]
+}

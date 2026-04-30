@@ -1,0 +1,12 @@
+{
+  "component": "IsaacShelton/update-existing-release@v1.3.4",
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/manual-release.yml",
+      "source_repo": "openframeworks/openFrameworks"
+    }
+  ]
+}

@@ -79,6 +79,30 @@
       "source_repo": "nordtheme/vim",
       "status": "candidate-context",
       "text": "@nordtheme/vim \u2014 An arctic, north-bluish clean and elegant Vim theme"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Misterio77/flavours",
+      "status": "candidate-context",
+      "text": "\ud83c\udfa8\ud83d\udca7 An easy to use base16 scheme manager that integrates with any workflow."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Misterio77/flavours",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Mofiqul/dracula.nvim",
+      "status": "candidate-context",
+      "text": "Dracula colorscheme for neovim written in Lua"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mofiqul/dracula.nvim",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\" >\ud83e\udddb\u200d\u2642\ufe0f dracula.nvim</h1>"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +141,18 @@
       "source_repo": "nordtheme/vim",
       "status": "candidate",
       "text": "@nordtheme/vim \u2014 An arctic, north-bluish clean and elegant Vim theme"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Misterio77/flavours",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mofiqul/dracula.nvim",
+      "status": "candidate",
+      "text": "<h1 align=\"center\" >\ud83e\udddb\u200d\u2642\ufe0f dracula.nvim</h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -160,11 +196,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "nordtheme/vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Misterio77/flavours"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Mofiqul/dracula.nvim"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

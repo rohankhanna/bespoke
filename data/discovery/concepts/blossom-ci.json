@@ -115,6 +115,18 @@
       "source_repo": "openucx/ucx",
       "status": "candidate-context",
       "text": "Blossom-CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flagos-ai/TransformerEngine-FL",
+      "status": "candidate-context",
+      "text": "TransformerEngine-FL is a fork of TransformerEngine that introduces a plugin-based architecture for supporting diverse AI chips, built on top of FlagOS, a unified open-source AI system software stack."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flagos-ai/TransformerEngine-FL",
+      "status": "candidate-context",
+      "text": "Blossom-CI"
     }
   ],
   "candidate_glosses": [
@@ -169,6 +181,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "openucx/ucx",
+      "status": "candidate",
+      "text": "Blossom-CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flagos-ai/TransformerEngine-FL",
       "status": "candidate",
       "text": "Blossom-CI"
     }
@@ -232,11 +250,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/blossom-ci.yml",
       "source_repo": "openucx/ucx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/blossom-ci.yml",
+      "source_repo": "flagos-ai/TransformerEngine-FL"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

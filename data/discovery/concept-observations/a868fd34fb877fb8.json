@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Set up your GitHub Actions workflow with a specific GraalVM distribution."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Set up your GitHub Actions workflow with a specific [GraalVM][graalvm] distribution, and use it both as your JDK and for [ahead-of-time Native Image compilation][graalvm]."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Set up your GitHub Actions workflow with a specific [GraalVM][graalvm] distribution, and use it both as your JDK and for [ahead-of-time Native Image compilation][graalvm]."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39968049,
+      "status": "candidate",
+      "text": "earthnut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39932697,
+      "status": "candidate",
+      "text": "chocolate truffle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29990467,
+      "status": "candidate",
+      "text": "earth-ball"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29935102,
+      "status": "candidate",
+      "text": "nose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29707339,
+      "status": "candidate",
+      "text": "jerk"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "truffle",
+      "sense_id": "truffle#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25,
+      "status": "candidate",
+      "text": "earthnut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12,
+      "status": "candidate",
+      "text": "chocolate truffle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11,
+      "status": "candidate",
+      "text": "earth-ball"
+    }
+  ],
+  "concept_id": "truffle",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "truffle",
+  "observation_id": "a868fd34fb877fb8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "truffle",
+  "source_context_snippet": "Set up your GitHub Actions workflow with a specific [GraalVM][graalvm] distribution, and use it both as your JDK and for [ahead-of-time Native Image compilation][graalvm].",
+  "source_file": null,
+  "source_repo": "graalvm/setup-graalvm",
+  "source_repo_description": "Set up your GitHub Actions workflow with a specific GraalVM distribution."
+}

@@ -691,6 +691,54 @@
       "source_repo": "vulkan-go/vulkan",
       "status": "candidate-context",
       "text": "<img src=\"https://cl.ly/2H2E3c0T1X16/Vulkan_500px_Mar15.png\" width=\"200\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "blitz-js/blitz",
+      "status": "candidate-context",
+      "text": "\u26a1\ufe0f The Missing Fullstack Toolkit for Next.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blitz-js/blitz",
+      "status": "candidate-context",
+      "text": "[![Blitz.js](https://raw.githubusercontent.com/blitz-js/art/master/github-cover-photo.png)](https://blitzjs.com)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cheshire-cat-ai/core",
+      "status": "candidate-context",
+      "text": "AI agent microservice"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cheshire-cat-ai/core",
+      "status": "candidate-context",
+      "text": "<a name=\"readme-top\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sparkle-project/Sparkle",
+      "status": "candidate-context",
+      "text": "A software update framework for macOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sparkle-project/Sparkle",
+      "status": "candidate-context",
+      "text": "Build & Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "symfony/symfony",
+      "status": "candidate-context",
+      "text": "The Symfony PHP framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "symfony/symfony",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><a href=\"https://symfony.com\" target=\"_blank\">"
     }
   ],
   "candidate_glosses": [
@@ -1035,6 +1083,30 @@
       "source_repo": "vulkan-go/vulkan",
       "status": "candidate",
       "text": "<img src=\"https://cl.ly/2H2E3c0T1X16/Vulkan_500px_Mar15.png\" width=\"200\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blitz-js/blitz",
+      "status": "candidate",
+      "text": "[![Blitz.js](https://raw.githubusercontent.com/blitz-js/art/master/github-cover-photo.png)](https://blitzjs.com)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cheshire-cat-ai/core",
+      "status": "candidate",
+      "text": "<a name=\"readme-top\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sparkle-project/Sparkle",
+      "status": "candidate",
+      "text": "Build & Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "symfony/symfony",
+      "status": "candidate",
+      "text": "<p align=\"center\"><a href=\"https://symfony.com\" target=\"_blank\">"
     }
   ],
   "candidate_related_terms": [
@@ -1588,11 +1660,71 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "vulkan-go/vulkan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "run-llama/llama_index"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "blitz-js/blitz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "coasys/ad4m"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "langchain-ai/langchain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "cheshire-cat-ai/core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "sparkle-project/Sparkle"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "symfony/symfony"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

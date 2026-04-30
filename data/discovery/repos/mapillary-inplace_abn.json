@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T15:10:37.600699+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13087
+    },
+    {
+      "path": "requirements.txt",
+      "size": 100
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "In-Place Activated BatchNorm for Memory-Optimized Training of DNNs",
+    "fork": false,
+    "full_name": "mapillary/inplace_abn",
+    "html_url": "https://github.com/mapillary/inplace_abn",
+    "language": "Python",
+    "pushed_at": "2025-07-08T09:16:47Z",
+    "stargazers_count": 1332,
+    "topics": [],
+    "updated_at": "2026-04-15T12:51:06Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

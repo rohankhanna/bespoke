@@ -1,0 +1,74 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eclipse-embed-cdt/org.eclipse.epp.packages",
+      "target": "eclipse",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eclipse-embed-cdt/org.eclipse.epp.packages",
+      "target": "profiles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eclipse-embed-cdt/org.eclipse.epp.packages",
+      "target": "signing-profiles-enabled",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:12:27.483363+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3556
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "embed-cdt",
+    "description": "A fork of the Eclipse project used to generate distributable binaries, extended to include the Eclipse Embedded CDT plug-ins. The archive of previous packages is also here, as Releases.",
+    "fork": false,
+    "full_name": "eclipse-embed-cdt/org.eclipse.epp.packages",
+    "html_url": "https://github.com/eclipse-embed-cdt/org.eclipse.epp.packages",
+    "language": "Shell",
+    "pushed_at": "2021-11-07T14:13:19Z",
+    "stargazers_count": 105,
+    "topics": [
+      "eclipse",
+      "epp",
+      "profiles",
+      "rcp",
+      "signing-profiles-enabled"
+    ],
+    "updated_at": "2025-08-29T13:22:16Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "The EPP Build",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eclipse"
+    },
+    {
+      "context_snippet": "The EPP Build",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "profiles"
+    },
+    {
+      "context_snippet": "The EPP Build",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "signing-profiles-enabled"
+    }
+  ]
+}

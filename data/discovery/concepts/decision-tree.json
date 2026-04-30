@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "decision-tree"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asafschers/scoruby",
+      "status": "candidate-context",
+      "text": "Ruby Scoring API for PMML"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asafschers/scoruby",
+      "status": "candidate-context",
+      "text": "<a href=\"https://codeclimate.com/github/asafschers/scoruby\"><img src=\"https://codeclimate.com/github/asafschers/scoruby/badges/gpa.svg\" /></a>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asafschers/scoruby",
+      "status": "candidate",
+      "text": "<a href=\"https://codeclimate.com/github/asafschers/scoruby\"><img src=\"https://codeclimate.com/github/asafschers/scoruby/badges/gpa.svg\" /></a>"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "decision-tree",
+  "concept_id": "decision-tree",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "asafschers/scoruby"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "decision-tree",
+      "sense_id": "decision-tree#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

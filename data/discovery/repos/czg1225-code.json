@@ -1,0 +1,90 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "czg1225/CoDe",
+      "target": "auto-regressive-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "czg1225/CoDe",
+      "target": "efficient-image-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "czg1225/CoDe",
+      "target": "model-acceleration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "czg1225/CoDe",
+      "target": "transformers",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:02:14.768498+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6381
+    },
+    {
+      "path": "requirements.txt",
+      "size": 69
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[CVPR 2025] CoDe: Collaborative Decoding Makes Visual Auto-Regressive Modeling Efficient",
+    "fork": false,
+    "full_name": "czg1225/CoDe",
+    "html_url": "https://github.com/czg1225/CoDe",
+    "language": "Python",
+    "pushed_at": "2025-09-27T03:22:03Z",
+    "stargazers_count": 109,
+    "topics": [
+      "auto-regressive-model",
+      "efficient-image-generation",
+      "model-acceleration",
+      "transformers"
+    ],
+    "updated_at": "2026-03-25T09:45:24Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "auto-regressive-model"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "efficient-image-generation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "model-acceleration"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformers"
+    }
+  ]
+}

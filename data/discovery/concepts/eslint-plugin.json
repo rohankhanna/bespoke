@@ -127,6 +127,18 @@
       "source_repo": "gajus/eslint-plugin-sql",
       "status": "candidate-context",
       "text": "<a name=\"user-content-eslint-plugin-sql\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dangreenisrael/eslint-plugin-jest-formatting",
+      "status": "candidate-context",
+      "text": "ESLint rules for formatting test suites written for jest."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dangreenisrael/eslint-plugin-jest-formatting",
+      "status": "candidate-context",
+      "text": "[![CircleCI](https://circleci.com/gh/dangreenisrael/eslint-plugin-jest-formatting/tree/master.svg?style=svg)](https://circleci.com/gh/dangreenisrael/eslint-plugin-jest-formatting/tree/master)"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +201,12 @@
       "source_repo": "gajus/eslint-plugin-sql",
       "status": "candidate",
       "text": "<a name=\"user-content-eslint-plugin-sql\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dangreenisrael/eslint-plugin-jest-formatting",
+      "status": "candidate",
+      "text": "[![CircleCI](https://circleci.com/gh/dangreenisrael/eslint-plugin-jest-formatting/tree/master.svg?style=svg)](https://circleci.com/gh/dangreenisrael/eslint-plugin-jest-formatting/tree/master)"
     }
   ],
   "candidate_related_terms": [],
@@ -280,11 +298,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "gajus/eslint-plugin-sql"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "graphql-hive/graphql-eslint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "dangreenisrael/eslint-plugin-jest-formatting"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,17 @@
+{
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/duplicate-code-detector.lock.yml",
+      "source_repo": "storybookjs/storybook"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/duplicate-code-detector.md",
+      "source_repo": "storybookjs/storybook"
+    }
+  ],
+  "term": "Duplicate Code Detector"
+}

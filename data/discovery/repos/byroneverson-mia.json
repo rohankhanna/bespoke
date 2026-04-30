@@ -1,0 +1,146 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "byroneverson/Mia",
+      "target": "chatbot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "byroneverson/Mia",
+      "target": "gptneox",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "byroneverson/Mia",
+      "target": "learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "byroneverson/Mia",
+      "target": "llama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "byroneverson/Mia",
+      "target": "machine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "byroneverson/Mia",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "byroneverson/Mia",
+      "target": "pythia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "byroneverson/Mia",
+      "target": "stablelm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T12:52:11.935119+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 176
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A simple swift app for MacOS/iOS to test large language models (LLM)",
+    "fork": false,
+    "full_name": "byroneverson/Mia",
+    "html_url": "https://github.com/byroneverson/Mia",
+    "language": "Swift",
+    "pushed_at": "2023-05-09T20:36:46Z",
+    "stargazers_count": 31,
+    "topics": [
+      "ai",
+      "app",
+      "chatbot",
+      "gptneox",
+      "ios",
+      "learning",
+      "llama",
+      "llm",
+      "machine",
+      "macos",
+      "pythia",
+      "stablelm"
+    ],
+    "updated_at": "2026-03-17T12:49:04Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A simple app for MacOS/iOS to test large language models (LLM)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatbot"
+    },
+    {
+      "context_snippet": "A simple app for MacOS/iOS to test large language models (LLM)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gptneox"
+    },
+    {
+      "context_snippet": "A simple app for MacOS/iOS to test large language models (LLM)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "learning"
+    },
+    {
+      "context_snippet": "A simple app for MacOS/iOS to test large language models (LLM)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama"
+    },
+    {
+      "context_snippet": "A simple app for MacOS/iOS to test large language models (LLM)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine"
+    },
+    {
+      "context_snippet": "A simple app for MacOS/iOS to test large language models (LLM)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "A simple app for MacOS/iOS to test large language models (LLM)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pythia"
+    },
+    {
+      "context_snippet": "A simple app for MacOS/iOS to test large language models (LLM)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stablelm"
+    }
+  ]
+}

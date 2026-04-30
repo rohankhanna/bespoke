@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Pure Rust multimedia format demuxing, tag reading, and audio decoding library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39446711,
+      "status": "candidate",
+      "text": "mass media"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29745653,
+      "status": "candidate",
+      "text": "median"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29739614,
+      "status": "candidate",
+      "text": "braces"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29698050,
+      "status": "candidate",
+      "text": "substrates"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29609727,
+      "status": "candidate",
+      "text": "tape"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "media",
+      "sense_id": "media#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25,
+      "status": "candidate",
+      "text": "mass media"
+    }
+  ],
+  "concept_id": "media",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "media",
+  "observation_id": "be0ca07b6ef1a4ce",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "media",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "pdeljanov/Symphonia",
+  "source_repo_description": "Pure Rust multimedia format demuxing, tag reading, and audio decoding library"
+}

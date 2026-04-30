@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "CPU Unit Test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xingchensong/S3Tokenizer",
+      "status": "candidate-context",
+      "text": "Reverse Engineering of Supervised Semantic Speech Tokenizer (S3Tokenizer) proposed in CosyVoice"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xingchensong/S3Tokenizer",
+      "status": "candidate-context",
+      "text": "CPU Unit Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xingchensong/S3Tokenizer",
+      "status": "candidate",
+      "text": "CPU Unit Test"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40077,
+      "status": "candidate",
+      "text": "mips"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40065,
+      "status": "candidate",
+      "text": "mios"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31776,
+      "status": "candidate",
+      "text": "mhz"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25893,
+      "status": "candidate",
+      "text": "megaton"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25823,
+      "status": "candidate",
+      "text": "cis-trans test"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "CPU Unit Test",
+  "concept_id": "cpu-unit-test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/unit_test_cpu.yaml",
+      "source_repo": "xingchensong/S3Tokenizer"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CPU Unit Test",
+      "sense_id": "cpu-unit-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

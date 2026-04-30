@@ -151,6 +151,18 @@
       "source_repo": "nanxstats/ssw-r",
       "status": "candidate-context",
       "text": "pkgdown"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "r-lib/pkgload",
+      "status": "candidate-context",
+      "text": "Simulate installing and loading a package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r-lib/pkgload",
+      "status": "candidate-context",
+      "text": "pkgdown"
     }
   ],
   "candidate_glosses": [
@@ -223,6 +235,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "nanxstats/ssw-r",
+      "status": "candidate",
+      "text": "pkgdown"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r-lib/pkgload",
       "status": "candidate",
       "text": "pkgdown"
     }
@@ -304,11 +322,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/pkgdown.yaml",
       "source_repo": "nanxstats/ssw-r"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/pkgdown.yaml",
+      "source_repo": "r-lib/pkgload"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1315,6 +1315,72 @@
       "source_repo": "ymcui/Chinese-Mixtral",
       "status": "candidate-context",
       "text": "[**\ud83c\udde8\ud83c\uddf3\u4e2d\u6587**](./README.md) | [**\ud83c\udf10English**](./README_EN.md) | [**\ud83d\udcd6\u6587\u6863/Docs**](https://github.com/ymcui/Chinese-Mixtral/wiki) | [**\u2753\u63d0\u95ee/Issues**](https://github.com/ymcui/Chinese-Mixtral/issues) | [**\ud83d\udcac\u8ba8\u8bba/Discussions**](https://github.com/ymcui/Chinese-Mixtral/discussions) | [**\u2694\ufe0f\u7ade\u6280\u573a/A\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IEIT-Yuan/YuanChat",
+      "status": "candidate-context",
+      "text": "<a name=\"readme-top\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ByteVisionLab/TokenFlow",
+      "status": "candidate-context",
+      "text": "[CVPR 2025] \ud83d\udd25 Official impl. of \"TokenFlow: Unified Image Tokenizer for Multimodal Understanding and Generation\"."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ByteVisionLab/TokenFlow",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IQTLabs/snowglobe",
+      "status": "candidate-context",
+      "text": "Open-ended wargames with large language models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IQTLabs/snowglobe",
+      "status": "candidate-context",
+      "text": "***Open-Ended Wargames with Large Language Models***"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agencyenterprise/PromptInject",
+      "status": "candidate-context",
+      "text": "PromptInject is a framework that assembles prompts in a modular fashion to provide a quantitative analysis of the robustness of LLMs to adversarial prompt attacks. \ud83c\udfc6 Best Paper Awards @ NeurIPS ML Safety Workshop 2022"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agencyenterprise/PromptInject",
+      "status": "candidate-context",
+      "text": "[**Paper: Ignore Previous Prompt: Attack Techniques For Language Models**](https://arxiv.org/abs/2211.09527)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MiniMax-AI/MiniMax-M2.1",
+      "status": "candidate-context",
+      "text": "MiniMax M2.1, a SOTA model for real-world dev & agents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MiniMax-AI/MiniMax-M2.1",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PKU-Alignment/safe-rlhf",
+      "status": "candidate-context",
+      "text": "Safe RLHF: Constrained Value Alignment via Safe Reinforcement Learning from Human Feedback"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PKU-Alignment/safe-rlhf",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable first-line-h1 -->"
     }
   ],
   "candidate_glosses": [
@@ -1971,6 +2037,42 @@
       "source_repo": "ymcui/Chinese-Mixtral",
       "status": "candidate",
       "text": "[**\ud83c\udde8\ud83c\uddf3\u4e2d\u6587**](./README.md) | [**\ud83c\udf10English**](./README_EN.md) | [**\ud83d\udcd6\u6587\u6863/Docs**](https://github.com/ymcui/Chinese-Mixtral/wiki) | [**\u2753\u63d0\u95ee/Issues**](https://github.com/ymcui/Chinese-Mixtral/issues) | [**\ud83d\udcac\u8ba8\u8bba/Discussions**](https://github.com/ymcui/Chinese-Mixtral/discussions) | [**\u2694\ufe0f\u7ade\u6280\u573a/A\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IEIT-Yuan/YuanChat",
+      "status": "candidate",
+      "text": "<a name=\"readme-top\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ByteVisionLab/TokenFlow",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IQTLabs/snowglobe",
+      "status": "candidate",
+      "text": "***Open-Ended Wargames with Large Language Models***"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agencyenterprise/PromptInject",
+      "status": "candidate",
+      "text": "[**Paper: Ignore Previous Prompt: Attack Techniques For Language Models**](https://arxiv.org/abs/2211.09527)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MiniMax-AI/MiniMax-M2.1",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PKU-Alignment/safe-rlhf",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable first-line-h1 -->"
     }
   ],
   "candidate_related_terms": [],
@@ -3118,11 +3220,161 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "ymcui/Chinese-Mixtral"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "langflow-ai/langflow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "AutoGPTQ/AutoGPTQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/ChatGLM2-6B"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "xlang-ai/DS-1000"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "AI-Hypercomputer/maxtext"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "IEIT-Yuan/YuanChat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/LongLoRA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ByteVisionLab/TokenFlow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "IQTLabs/snowglobe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "mlc-ai/web-llm-assistant"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "agencyenterprise/PromptInject"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "echo-yiyiyi/cube"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/ggml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "MiniMax-AI/MiniMax-M2.1"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "MME-Benchmarks/Video-MME"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/litgpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "fla-org/flash-linear-attention"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "HKUDS/VideoRAG"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "declare-lab/LLM-PuzzleTest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "PKU-Alignment/safe-rlhf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/MGM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "OpenMOSS/MOSS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "reasoning-machines/pal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "reasoning-machines/prompt-lib"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

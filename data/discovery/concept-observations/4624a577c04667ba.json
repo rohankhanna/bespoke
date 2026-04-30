@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Evals is a framework for evaluating LLMs and LLM systems, and an open-source registry of benchmarks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Run new evals"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Run new evals"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28487,
+      "status": "candidate",
+      "text": "selectman"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28015,
+      "status": "candidate",
+      "text": "seedy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28001,
+      "status": "candidate",
+      "text": "selectwoman"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28001,
+      "status": "candidate",
+      "text": "sour mash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11701,
+      "status": "candidate",
+      "text": "aut"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Run new evals",
+      "sense_id": "run-new-evals#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "run-new-evals",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "run-new-evals",
+  "observation_id": "4624a577c04667ba",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "Run new evals",
+  "source_context_snippet": "Run new evals",
+  "source_file": ".github/workflows/test_eval.yaml",
+  "source_repo": "fixie-ai/evals",
+  "source_repo_description": "Evals is a framework for evaluating LLMs and LLM systems, and an open-source registry of benchmarks."
+}

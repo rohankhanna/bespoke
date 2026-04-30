@@ -1,0 +1,338 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spring-ai-integration-tests-manual-only.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spring-ai-integration-tests-manual-only.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spring-ai-integration-tests-manual-only.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spring-ai-integration-tests-manual-only.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spring-ai-integration-tests-manual-only.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spring-ai-integration-tests-spring-boot-compatibility.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spring-ai-integration-tests-spring-boot-compatibility.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spring-ai-integration-tests-spring-boot-compatibility.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spring-ai-integration-tests-spring-boot-compatibility.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spring-ai-integration-tests-spring-boot-compatibility.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spring-ai-integration-tests-spring-boot-compatibility.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spring-ai-integration-tests-spring-boot-compatibility.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spring-ai-integration-tests-spring-boot-compatibility.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spring-ai-integration-tests-spring-boot-compatibility.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spring-ai-integration-tests-spring-boot-compatibility.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spring-ai-integration-tests-spring-boot-compatibility.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spring-ai-integration-tests-spring-boot-compatibility.yml"
+    },
+    {
+      "component": "jlumbroso/free-disk-space@54081f138730dfa15788a46383842cd2f914a1be",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spring-ai-integration-tests-spring-boot-compatibility.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spring-ai-integration-tests-spring-boot-compatibility.yml"
+    },
+    {
+      "component": "jlumbroso/free-disk-space@54081f138730dfa15788a46383842cd2f914a1be",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spring-ai-integration-tests-spring-boot-compatibility.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spring-ai-integration-tests-spring-boot-compatibility.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spring-ai-integration-tests-spring-boot-compatibility.yml"
+    },
+    {
+      "component": "jlumbroso/free-disk-space@54081f138730dfa15788a46383842cd2f914a1be",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spring-ai-integration-tests-spring-boot-compatibility.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spring-ai-integration-tests-spring-boot-compatibility.yml"
+    },
+    {
+      "component": "jlumbroso/free-disk-space@54081f138730dfa15788a46383842cd2f914a1be",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spring-ai-integration-tests-spring-boot-compatibility.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spring-ai-integration-tests-spring-boot-compatibility.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spring-ai-integration-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spring-ai-integration-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spring-ai-integration-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spring-ai-integration-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spring-ai-integration-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spring-ai-integration-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spring-ai-integration-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spring-ai-integration-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spring-ai-integration-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spring-ai-integration-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spring-ai-integration-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spring-ai-integration-tests.yml"
+    },
+    {
+      "component": "jlumbroso/free-disk-space@54081f138730dfa15788a46383842cd2f914a1be",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spring-ai-integration-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spring-ai-integration-tests.yml"
+    },
+    {
+      "component": "jlumbroso/free-disk-space@54081f138730dfa15788a46383842cd2f914a1be",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spring-ai-integration-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spring-ai-integration-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spring-ai-integration-tests.yml"
+    },
+    {
+      "component": "jlumbroso/free-disk-space@54081f138730dfa15788a46383842cd2f914a1be",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spring-ai-integration-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spring-ai-integration-tests.yml"
+    },
+    {
+      "component": "jlumbroso/free-disk-space@54081f138730dfa15788a46383842cd2f914a1be",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spring-ai-integration-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spring-ai-integration-tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spring-ai-integration-tests-manual-only.yml",
+      "source_repo": "spring-projects/spring-ai-integration-tests",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spring-ai-integration-tests-manual-only.yml",
+      "source_repo": "spring-projects/spring-ai-integration-tests",
+      "target": "Spring AI Integration Tests (Manual Only)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spring-ai-integration-tests-spring-boot-compatibility.yml",
+      "source_repo": "spring-projects/spring-ai-integration-tests",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spring-ai-integration-tests-spring-boot-compatibility.yml",
+      "source_repo": "spring-projects/spring-ai-integration-tests",
+      "target": "jlumbroso/free-disk-space@54081f138730dfa15788a46383842cd2f914a1be",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spring-ai-integration-tests.yml",
+      "source_repo": "spring-projects/spring-ai-integration-tests",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spring-ai-integration-tests.yml",
+      "source_repo": "spring-projects/spring-ai-integration-tests",
+      "target": "jlumbroso/free-disk-space@54081f138730dfa15788a46383842cd2f914a1be",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spring-ai-integration-tests.yml",
+      "source_repo": "spring-projects/spring-ai-integration-tests",
+      "target": "Spring AI Integration Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:59:56.818039+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4825
+    },
+    {
+      "path": ".github/workflows/spring-ai-integration-tests-manual-only.yml",
+      "size": 1947
+    },
+    {
+      "path": ".github/workflows/spring-ai-integration-tests-spring-boot-compatibility.yml",
+      "size": 17261
+    },
+    {
+      "path": ".github/workflows/spring-ai-integration-tests.yml",
+      "size": 17601
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "spring-projects/spring-ai-integration-tests",
+    "html_url": "https://github.com/spring-projects/spring-ai-integration-tests",
+    "language": null,
+    "pushed_at": "2026-04-24T06:19:15Z",
+    "stargazers_count": 11,
+    "topics": [],
+    "updated_at": "2026-04-24T14:54:40Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Spring AI Integration Tests (Manual Only)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spring-ai-integration-tests-manual-only.yml",
+      "term": "Spring AI Integration Tests (Manual Only)"
+    },
+    {
+      "context_snippet": "Spring AI Integration Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spring-ai-integration-tests.yml",
+      "term": "Spring AI Integration Tests"
+    }
+  ]
+}

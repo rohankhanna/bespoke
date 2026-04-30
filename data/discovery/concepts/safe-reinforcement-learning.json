@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "safe-reinforcement-learning"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PKU-Alignment/safe-rlhf",
+      "status": "candidate-context",
+      "text": "Safe RLHF: Constrained Value Alignment via Safe Reinforcement Learning from Human Feedback"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PKU-Alignment/safe-rlhf",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable first-line-h1 -->"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PKU-Alignment/safe-rlhf",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable first-line-h1 -->"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "safe-reinforcement-learning",
+  "concept_id": "safe-reinforcement-learning",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "PKU-Alignment/safe-rlhf"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "safe-reinforcement-learning",
+      "sense_id": "safe-reinforcement-learning#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

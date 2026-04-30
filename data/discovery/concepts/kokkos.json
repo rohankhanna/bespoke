@@ -43,6 +43,18 @@
       "source_repo": "ParRes/Kernels",
       "status": "candidate-context",
       "text": "![PRK logo.](https://github.com/ParRes/Kernels/blob/default/logo/PRK%20logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kokkos/kokkos",
+      "status": "candidate-context",
+      "text": "Kokkos C++ Performance Portability Programming Ecosystem: The Programming Model - Parallel Execution and Memory Abstraction"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kokkos/kokkos",
+      "status": "candidate-context",
+      "text": "[![Kokkos](https://avatars2.githubusercontent.com/u/10199860?s=200&v=4)](https://kokkos.org)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "ParRes/Kernels",
       "status": "candidate",
       "text": "![PRK logo.](https://github.com/ParRes/Kernels/blob/default/logo/PRK%20logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kokkos/kokkos",
+      "status": "candidate",
+      "text": "[![Kokkos](https://avatars2.githubusercontent.com/u/10199860?s=200&v=4)](https://kokkos.org)"
     }
   ],
   "candidate_related_terms": [
@@ -96,11 +114,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "ParRes/Kernels"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "kokkos/kokkos"
     }
   ],
   "first_seen_at": "2026-04-24T18:19:44.660705+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

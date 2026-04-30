@@ -181,13 +181,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "opencv/opencv-python",
-      "target": "lucasg/dependencies",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "opencv/opencv-python",
       "target": "skvark/opencv-python",
       "target_type": "repository"
     },
@@ -374,7 +367,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T08:13:55.883122+00:00",
+  "fetched_at": "2026-04-30T16:15:04.553941+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -426,11 +419,6 @@
     "updated_at": "2026-04-29T13:26:04Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "lucasg/dependencies",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "skvark/opencv-python",

@@ -31,6 +31,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "lightbend/config",
+      "target": "arosien/configz",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lightbend/config",
       "target": "andr83/scalaconfig",
       "target_type": "repository"
     },
@@ -38,21 +45,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "lightbend/config",
-      "target": "aaronp/args4c",
+      "target": "carlpulley/validated-config",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "lightbend/config",
-      "target": "akka-js/shocon",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "lightbend/config",
-      "target": "akkadotnet/hocon",
+      "target": "carueda/cfg",
       "target_type": "repository"
     },
     {
@@ -119,7 +119,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T03:46:53.458557+00:00",
+  "fetched_at": "2026-04-30T12:56:39.970946+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -144,33 +144,33 @@
     "html_url": "https://github.com/lightbend/config",
     "language": "Java",
     "pushed_at": "2026-04-28T10:35:49Z",
-    "stargazers_count": 6295,
+    "stargazers_count": 6296,
     "topics": [
       "configuration-library",
       "hocon",
       "supported"
     ],
-    "updated_at": "2026-04-29T19:29:40Z"
+    "updated_at": "2026-04-30T09:42:36Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "aaronp/args4c",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "akka-js/shocon",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "akkadotnet/hocon",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "andr83/scalaconfig",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arosien/configz",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "carlpulley/validated-config",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "carueda/cfg",
       "source_file": "README.md"
     }
   ],

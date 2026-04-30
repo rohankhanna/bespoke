@@ -1,0 +1,132 @@
+{
+  "aliases": [
+    "traffic"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "novnc/websockify",
+      "status": "candidate-context",
+      "text": "Websockify is a WebSocket to TCP proxy/bridge. This allows a browser to connect  to any application/server/service."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "novnc/websockify",
+      "status": "candidate-context",
+      "text": "websockify was formerly named wsproxy and was part of the"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eclipse-sumo/sumo",
+      "status": "candidate-context",
+      "text": "Eclipse SUMO is an open source, highly portable, microscopic and continuous traffic simulation package designed to handle large networks. It allows for intermodal simulation including pedestrians and comes with a large set of tools for scenario creation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-sumo/sumo",
+      "status": "candidate-context",
+      "text": "<a href=\"https://sumo.dlr.de/docs\"><p align=\"center\"><img width=50% src=\"https://raw.githubusercontent.com/eclipse/sumo/main/docs/web/docs/images/sumo-logo.svg\"></p></a>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "novnc/websockify",
+      "status": "candidate",
+      "text": "websockify was formerly named wsproxy and was part of the"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-sumo/sumo",
+      "status": "candidate",
+      "text": "<a href=\"https://sumo.dlr.de/docs\"><p align=\"center\"><img width=50% src=\"https://raw.githubusercontent.com/eclipse/sumo/main/docs/web/docs/images/sumo-logo.svg\"></p></a>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39942859,
+      "status": "candidate",
+      "text": "dealings"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30021244,
+      "status": "candidate",
+      "text": "transportation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30020742,
+      "status": "candidate",
+      "text": "road"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30020741,
+      "status": "candidate",
+      "text": "crossing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30020699,
+      "status": "candidate",
+      "text": "carriageway"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21,
+      "status": "candidate",
+      "text": "dealings"
+    }
+  ],
+  "canonical_name": "traffic",
+  "concept_id": "traffic",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "novnc/websockify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-sumo/sumo"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "traffic",
+      "sense_id": "traffic#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

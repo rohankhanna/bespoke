@@ -1,0 +1,111 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mozilla/uniffi-rs",
+      "target": "facebook/hermes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mozilla/uniffi-rs",
+      "target": "criccomini/uniffi-bindgen-node-js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mozilla/uniffi-rs",
+      "target": "antoniusnaumann/cargo-swift",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mozilla/uniffi-rs",
+      "target": "bbqsrc/cargo-ndk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozilla/uniffi-rs",
+      "target": "ffi-layer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozilla/uniffi-rs",
+      "target": "rust-crate",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:13:34.945783+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5482
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 2613
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "a multi-language bindings generator for rust",
+    "fork": false,
+    "full_name": "mozilla/uniffi-rs",
+    "html_url": "https://github.com/mozilla/uniffi-rs",
+    "language": "Rust",
+    "pushed_at": "2026-04-30T14:56:56Z",
+    "stargazers_count": 4545,
+    "topics": [
+      "ffi-layer",
+      "rust-crate"
+    ],
+    "updated_at": "2026-04-30T13:00:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "antoniusnaumann/cargo-swift",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bbqsrc/cargo-ndk",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "criccomini/uniffi-bindgen-node-js",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebook/hermes",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "UniFFI is a toolkit for building cross-platform software components in Rust.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ffi-layer"
+    },
+    {
+      "context_snippet": "UniFFI is a toolkit for building cross-platform software components in Rust.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust-crate"
+    }
+  ]
+}

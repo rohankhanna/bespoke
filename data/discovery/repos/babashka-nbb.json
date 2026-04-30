@@ -110,14 +110,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "babashka/nbb",
-      "target": "chr15m/c64core",
+      "target": "chr15m/sitefox",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "babashka/nbb",
-      "target": "chr15m/sitefox",
+      "target": "darky/pg-unused-index-tui",
       "target_type": "repository"
     },
     {
@@ -261,7 +261,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T08:27:07.570563+00:00",
+  "fetched_at": "2026-04-30T13:55:17.204509+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -311,12 +311,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "chr15m/c64core",
+      "full_name": "chr15m/sitefox",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "chr15m/sitefox",
+      "full_name": "darky/pg-unused-index-tui",
       "source_file": "README.md"
     }
   ],

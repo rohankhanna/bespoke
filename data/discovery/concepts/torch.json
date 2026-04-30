@@ -163,6 +163,42 @@
       "source_repo": "junyanz/CycleGAN",
       "status": "candidate-context",
       "text": "<img src='imgs/horse2zebra.gif' align=\"right\" width=384>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubeflow/sdk",
+      "status": "candidate-context",
+      "text": "Universal Python SDK to run AI workloads on Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubeflow/sdk",
+      "status": "candidate-context",
+      "text": "[![PyPI version](https://img.shields.io/pypi/v/kubeflow?color=%2334D058&label=pypi%20package)](https://pypi.org/project/kubeflow/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ArulselvanMadhavan/diffusers-ocaml",
+      "status": "candidate-context",
+      "text": "Diffusers API in OCaml"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ArulselvanMadhavan/diffusers-ocaml",
+      "status": "candidate-context",
+      "text": "Diffusers API in OCaml"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ClementPinard/FlowNetTorch",
+      "status": "candidate-context",
+      "text": "Torch implementation of Fischer et al. FlowNet training code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClementPinard/FlowNetTorch",
+      "status": "candidate-context",
+      "text": "FlowNet for Torch"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +279,24 @@
       "source_repo": "junyanz/CycleGAN",
       "status": "candidate",
       "text": "<img src='imgs/horse2zebra.gif' align=\"right\" width=384>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubeflow/sdk",
+      "status": "candidate",
+      "text": "[![PyPI version](https://img.shields.io/pypi/v/kubeflow?color=%2334D058&label=pypi%20package)](https://pypi.org/project/kubeflow/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ArulselvanMadhavan/diffusers-ocaml",
+      "status": "candidate",
+      "text": "Diffusers API in OCaml"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClementPinard/FlowNetTorch",
+      "status": "candidate",
+      "text": "FlowNet for Torch"
     }
   ],
   "candidate_related_terms": [
@@ -436,11 +490,41 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "junyanz/CycleGAN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "meta-pytorch/torchft"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "DayBreak-u/yolo-face-with-landmark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "kubeflow/sdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ArulselvanMadhavan/diffusers-ocaml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ClementPinard/FlowNetTorch"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

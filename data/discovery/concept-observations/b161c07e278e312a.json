@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The XBR Protocol - blockchain protocol for decentralized open data markets (https://pypi.org/project/xbr/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "release-post-comment"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "release-post-comment"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "release-post-comment",
+      "sense_id": "release-post-comment#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "release-post-comment",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "release-post-comment",
+  "observation_id": "b161c07e278e312a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "release-post-comment",
+  "source_context_snippet": "release-post-comment",
+  "source_file": ".github/workflows/release-post-comment.yml",
+  "source_repo": "wamp-proto/wamp-xbr",
+  "source_repo_description": "The XBR Protocol - blockchain protocol for decentralized open data markets (https://pypi.org/project/xbr/)"
+}

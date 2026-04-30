@@ -67,6 +67,18 @@
       "source_repo": "nikitabobko/AeroSpace",
       "status": "candidate-context",
       "text": "<img src=\"./resources/Assets.xcassets/AppIcon.appiconset/icon.png\" width=\"40%\" align=\"right\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "i3/i3",
+      "status": "candidate-context",
+      "text": "A tiling window manager for X11"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i3/i3",
+      "status": "candidate-context",
+      "text": "![Logo](docs/logo-30.png) i3: A tiling window manager"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "nikitabobko/AeroSpace",
       "status": "candidate",
       "text": "<img src=\"./resources/Assets.xcassets/AppIcon.appiconset/icon.png\" width=\"40%\" align=\"right\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i3/i3",
+      "status": "candidate",
+      "text": "![Logo](docs/logo-30.png) i3: A tiling window manager"
     }
   ],
   "candidate_related_terms": [
@@ -172,11 +190,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "nikitabobko/AeroSpace"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "i3/i3"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

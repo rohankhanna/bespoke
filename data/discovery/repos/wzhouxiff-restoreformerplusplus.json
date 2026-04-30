@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wzhouxiff/RestoreFormerPlusPlus",
+      "target": "blind-face-restoration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wzhouxiff/RestoreFormerPlusPlus",
+      "target": "degrading-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wzhouxiff/RestoreFormerPlusPlus",
+      "target": "dictionary",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wzhouxiff/RestoreFormerPlusPlus",
+      "target": "transformer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:03:35.204818+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8049
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[TPAMI2023] RestoreFormer++",
+    "fork": false,
+    "full_name": "wzhouxiff/RestoreFormerPlusPlus",
+    "html_url": "https://github.com/wzhouxiff/RestoreFormerPlusPlus",
+    "language": "Python",
+    "pushed_at": "2024-09-01T11:21:32Z",
+    "stargazers_count": 278,
+    "topics": [
+      "blind-face-restoration",
+      "degrading-model",
+      "dictionary",
+      "transformer"
+    ],
+    "updated_at": "2026-04-26T14:18:19Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![paper_RestroeForemer++](https://img.shields.io/badge/TPAMI-RestorFormer%2B%2B-green)](https://arxiv.org/pdf/2308.07228)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blind-face-restoration"
+    },
+    {
+      "context_snippet": "[![paper_RestroeForemer++](https://img.shields.io/badge/TPAMI-RestorFormer%2B%2B-green)](https://arxiv.org/pdf/2308.07228)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "degrading-model"
+    },
+    {
+      "context_snippet": "[![paper_RestroeForemer++](https://img.shields.io/badge/TPAMI-RestorFormer%2B%2B-green)](https://arxiv.org/pdf/2308.07228)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dictionary"
+    },
+    {
+      "context_snippet": "[![paper_RestroeForemer++](https://img.shields.io/badge/TPAMI-RestorFormer%2B%2B-green)](https://arxiv.org/pdf/2308.07228)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yaml",
+      "source_repo": "ItsEthra/typst-live",
+      "target": "DeterminateSystems/magic-nix-cache-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yaml",
+      "source_repo": "ItsEthra/typst-live",
+      "target": "cachix/install-nix-action@v22",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yaml",
+      "source_repo": "ItsEthra/typst-live",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nix.yaml",
+      "source_repo": "ItsEthra/typst-live",
+      "target": "Check Nix flake",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T12:45:20.475770+00:00",
+  "source_repo": "ItsEthra/typst-live"
+}

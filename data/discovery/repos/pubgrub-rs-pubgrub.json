@@ -1,0 +1,243 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    },
+    {
+      "component": "moonrepo/setup-rust@abb2d32350334249b178c401e5ec5836e0cd88d3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    },
+    {
+      "component": "CodSpeedHQ/action@db35df748deb45fdef0960669f57d627c1956c30",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo_publish_dry_run.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_documentation.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@4f9cc6602d3f66b9c108549d475ec49e8ef4d45e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_documentation.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pubgrub-rs/pubgrub",
+      "target": "sdispater/mixology",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pubgrub-rs/pubgrub",
+      "target": "dart-lang/pub",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "pubgrub-rs/pubgrub",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "pubgrub-rs/pubgrub",
+      "target": "moonrepo/setup-rust@abb2d32350334249b178c401e5ec5836e0cd88d3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "pubgrub-rs/pubgrub",
+      "target": "CodSpeedHQ/action@db35df748deb45fdef0960669f57d627c1956c30",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "pubgrub-rs/pubgrub",
+      "target": "Benchmarks (CodSpeed)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo_publish_dry_run.yml",
+      "source_repo": "pubgrub-rs/pubgrub",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cargo_publish_dry_run.yml",
+      "source_repo": "pubgrub-rs/pubgrub",
+      "target": "Check crate publishing works",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "pubgrub-rs/pubgrub",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_documentation.yml",
+      "source_repo": "pubgrub-rs/pubgrub",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_documentation.yml",
+      "source_repo": "pubgrub-rs/pubgrub",
+      "target": "peaceiris/actions-gh-pages@4f9cc6602d3f66b9c108549d475ec49e8ef4d45e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy_documentation.yml",
+      "source_repo": "pubgrub-rs/pubgrub",
+      "target": "Deploy documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pubgrub-rs/pubgrub",
+      "target": "dependency-solver",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:07:36.911857+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5096
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1546
+    },
+    {
+      "path": ".github/workflows/benchmarks.yml",
+      "size": 878
+    },
+    {
+      "path": ".github/workflows/cargo_publish_dry_run.yml",
+      "size": 664
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2616
+    },
+    {
+      "path": ".github/workflows/deploy_documentation.yml",
+      "size": 836
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "dev",
+    "description": "PubGrub version solving algorithm implemented in Rust",
+    "fork": false,
+    "full_name": "pubgrub-rs/pubgrub",
+    "html_url": "https://github.com/pubgrub-rs/pubgrub",
+    "language": "Rust",
+    "pushed_at": "2026-04-28T00:24:55Z",
+    "stargazers_count": 766,
+    "topics": [
+      "dependency-solver"
+    ],
+    "updated_at": "2026-04-29T20:50:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dart-lang/pub",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sdispater/mixology",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Benchmarks (CodSpeed)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "term": "Benchmarks (CodSpeed)"
+    },
+    {
+      "context_snippet": "Check crate publishing works",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cargo_publish_dry_run.yml",
+      "term": "Check crate publishing works"
+    },
+    {
+      "context_snippet": "Deploy documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy_documentation.yml",
+      "term": "Deploy documentation"
+    },
+    {
+      "context_snippet": "[![guide](https://img.shields.io/badge/guide-pubgrub-pink?logo=read-the-docs)][guide]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dependency-solver"
+    }
+  ]
+}

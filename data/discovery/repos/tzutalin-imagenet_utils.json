@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tzutalin/ImageNet_Utils",
+      "target": "tzutalin/labelimg",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T12:56:51.446912+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4318
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":arrow_double_down:  Utils to help download images by id, crop bounding box, label images, etc.",
+    "fork": false,
+    "full_name": "tzutalin/ImageNet_Utils",
+    "html_url": "https://github.com/tzutalin/ImageNet_Utils",
+    "language": "Python",
+    "pushed_at": "2021-07-30T17:12:57Z",
+    "stargazers_count": 648,
+    "topics": [],
+    "updated_at": "2026-04-22T14:46:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tzutalin/labelimg",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

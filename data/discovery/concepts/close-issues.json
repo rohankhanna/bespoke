@@ -69,6 +69,18 @@
       "source_repo": "biomejs/biome",
       "status": "candidate-context",
       "text": "Close issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nomic-ai/gpt4all",
+      "status": "candidate-context",
+      "text": "GPT4All: Run Local LLMs on Any Device. Open-source and available for commercial use."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nomic-ai/gpt4all",
+      "status": "candidate-context",
+      "text": "\"Close Issues\""
     }
   ],
   "candidate_glosses": [
@@ -101,6 +113,12 @@
       "source_repo": "biomejs/biome",
       "status": "candidate",
       "text": "Close issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nomic-ai/gpt4all",
+      "status": "candidate",
+      "text": "\"Close Issues\""
     }
   ],
   "candidate_related_terms": [
@@ -198,11 +216,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/close-issues.yml",
       "source_repo": "anomalyco/opencode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/close_issues.yml",
+      "source_repo": "nomic-ai/gpt4all"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

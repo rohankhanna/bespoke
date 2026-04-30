@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "FireBug for designers \u203a Edit any webpage, in any state https://a.nerdy.dev/gimme-visbug"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "VisBug"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "VisBug"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "wsiwyg",
+      "sense_id": "wsiwyg#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "wsiwyg",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "wsiwyg",
+  "observation_id": "14bd48d8ed50138e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "wsiwyg",
+  "source_context_snippet": "VisBug",
+  "source_file": null,
+  "source_repo": "GoogleChromeLabs/ProjectVisBug",
+  "source_repo_description": "FireBug for designers \u203a Edit any webpage, in any state https://a.nerdy.dev/gimme-visbug"
+}

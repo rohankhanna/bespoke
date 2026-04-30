@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T15:53:37.064585+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3477
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Unpaired line drawing generation",
+    "fork": false,
+    "full_name": "carolineec/informative-drawings",
+    "html_url": "https://github.com/carolineec/informative-drawings",
+    "language": "Python",
+    "pushed_at": "2024-09-01T02:51:34Z",
+    "stargazers_count": 437,
+    "topics": [],
+    "updated_at": "2026-04-16T19:05:55Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

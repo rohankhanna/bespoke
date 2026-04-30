@@ -1,0 +1,86 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Configuration files and scripts used in guides and for system setup."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Miscellaneous scripts and program configuration files used in:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Miscellaneous scripts and program configuration files used in:"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29937269,
+      "status": "candidate",
+      "text": "fire"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29836816,
+      "status": "candidate",
+      "text": "server"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29836528,
+      "status": "candidate",
+      "text": "cybersecurity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29834524,
+      "status": "candidate",
+      "text": "stateful"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "firewall",
+      "sense_id": "firewall#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "firewall",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "firewall",
+  "observation_id": "3ebc368d27155e87",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "firewall",
+  "source_context_snippet": "Miscellaneous scripts and program configuration files used in:",
+  "source_file": null,
+  "source_repo": "drduh/config",
+  "source_repo_description": "Configuration files and scripts used in guides and for system setup."
+}

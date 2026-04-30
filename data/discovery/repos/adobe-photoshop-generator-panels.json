@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adobe-photoshop/generator-panels",
+      "target": "adobe-photoshop/generator-assets",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:15:50.305601+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4561
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "CEP-based panels supporting generator.",
+    "fork": false,
+    "full_name": "adobe-photoshop/generator-panels",
+    "html_url": "https://github.com/adobe-photoshop/generator-panels",
+    "language": "CSS",
+    "pushed_at": "2022-06-06T22:26:26Z",
+    "stargazers_count": 66,
+    "topics": [],
+    "updated_at": "2025-05-29T17:13:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adobe-photoshop/generator-assets",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

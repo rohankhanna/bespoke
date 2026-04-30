@@ -232,7 +232,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T21:03:24.011483+00:00",
+  "fetched_at": "2026-04-30T15:56:57.216498+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -284,8 +284,8 @@
     "full_name": "huggingface/transformers",
     "html_url": "https://github.com/huggingface/transformers",
     "language": "Python",
-    "pushed_at": "2026-04-29T17:16:57Z",
-    "stargazers_count": 160086,
+    "pushed_at": "2026-04-30T15:56:49Z",
+    "stargazers_count": 160116,
     "topics": [
       "audio",
       "deep-learning",
@@ -307,7 +307,7 @@
       "transformer",
       "vlm"
     ],
-    "updated_at": "2026-04-29T19:41:25Z"
+    "updated_at": "2026-04-30T15:56:40Z"
   },
   "repo_links": [],
   "terms": [

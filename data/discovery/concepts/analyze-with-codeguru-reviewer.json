@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Analyze with CodeGuru Reviewer"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "smithy-lang/smithy",
+      "status": "candidate-context",
+      "text": "Smithy is a protocol-agnostic interface definition language and set of tools for generating clients, servers, and documentation for any programming language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smithy-lang/smithy",
+      "status": "candidate-context",
+      "text": "Analyze with CodeGuru Reviewer"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smithy-lang/smithy",
+      "status": "candidate",
+      "text": "Analyze with CodeGuru Reviewer"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10639,
+      "status": "candidate",
+      "text": "assay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10639,
+      "status": "candidate",
+      "text": "diagnose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10639,
+      "status": "candidate",
+      "text": "dissect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10639,
+      "status": "candidate",
+      "text": "examine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10639,
+      "status": "candidate",
+      "text": "research"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Analyze with CodeGuru Reviewer",
+  "concept_id": "analyze-with-codeguru-reviewer",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/codeguru-reviewer.yml",
+      "source_repo": "smithy-lang/smithy"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Analyze with CodeGuru Reviewer",
+      "sense_id": "analyze-with-codeguru-reviewer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

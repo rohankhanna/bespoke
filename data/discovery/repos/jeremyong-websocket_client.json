@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T16:07:10.780061+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3068
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Erlang websocket client (ws and wss supported)",
+    "fork": false,
+    "full_name": "jeremyong/websocket_client",
+    "html_url": "https://github.com/jeremyong/websocket_client",
+    "language": "Erlang",
+    "pushed_at": "2022-06-14T20:39:28Z",
+    "stargazers_count": 184,
+    "topics": [],
+    "updated_at": "2025-11-08T14:59:44Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

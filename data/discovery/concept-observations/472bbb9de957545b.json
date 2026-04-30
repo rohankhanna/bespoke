@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Provides extended PSR-6, PSR-16 (and tags) implementations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Symfony PSR-6 implementation for caching"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Symfony PSR-6 implementation for caching"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "symfony-component",
+      "sense_id": "symfony-component#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "symfony-component",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "symfony-component",
+  "observation_id": "472bbb9de957545b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "symfony-component",
+  "source_context_snippet": "Symfony PSR-6 implementation for caching",
+  "source_file": null,
+  "source_repo": "symfony/cache",
+  "source_repo_description": "Provides extended PSR-6, PSR-16 (and tags) implementations"
+}

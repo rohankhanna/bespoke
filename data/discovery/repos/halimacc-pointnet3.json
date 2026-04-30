@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T15:09:16.667777+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 192
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Pytorch implementation for pointnet1 + pointnet2(pointnet++).",
+    "fork": false,
+    "full_name": "halimacc/pointnet3",
+    "html_url": "https://github.com/halimacc/pointnet3",
+    "language": "Python",
+    "pushed_at": "2021-10-26T03:28:20Z",
+    "stargazers_count": 38,
+    "topics": [],
+    "updated_at": "2026-01-12T05:33:52Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,294 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Ha0Tang/LGGAN",
+      "target": "sswuai/panogan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Ha0Tang/LGGAN",
+      "target": "ha0tang/guided-i2i-translation-papers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ha0Tang/LGGAN",
+      "target": "adversarial-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ha0Tang/LGGAN",
+      "target": "cross-view",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ha0Tang/LGGAN",
+      "target": "cvpr-2020",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ha0Tang/LGGAN",
+      "target": "cvpr20",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ha0Tang/LGGAN",
+      "target": "cvpr2020",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ha0Tang/LGGAN",
+      "target": "cvusa-dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ha0Tang/LGGAN",
+      "target": "dayton",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ha0Tang/LGGAN",
+      "target": "generative-adversarial-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ha0Tang/LGGAN",
+      "target": "generative-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ha0Tang/LGGAN",
+      "target": "global",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ha0Tang/LGGAN",
+      "target": "image-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ha0Tang/LGGAN",
+      "target": "image-manipulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ha0Tang/LGGAN",
+      "target": "image-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ha0Tang/LGGAN",
+      "target": "local",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ha0Tang/LGGAN",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ha0Tang/LGGAN",
+      "target": "pytorch-implementation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ha0Tang/LGGAN",
+      "target": "sva-dataset",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:08:00.046881+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6912
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[CVPR 2020] Local Class-Specific and Global Image-Level Generative Adversarial Networks for Semantic-Guided Scene Generation",
+    "fork": false,
+    "full_name": "Ha0Tang/LGGAN",
+    "html_url": "https://github.com/Ha0Tang/LGGAN",
+    "language": "Python",
+    "pushed_at": "2023-02-18T00:51:59Z",
+    "stargazers_count": 143,
+    "topics": [
+      "adversarial-learning",
+      "cross-view",
+      "cvpr-2020",
+      "cvpr20",
+      "cvpr2020",
+      "cvusa-dataset",
+      "dayton",
+      "gan",
+      "generative-adversarial-network",
+      "generative-model",
+      "global",
+      "image-generation",
+      "image-manipulation",
+      "image-translation",
+      "local",
+      "pytorch",
+      "pytorch-implementation",
+      "sva-dataset"
+    ],
+    "updated_at": "2026-03-28T09:01:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ha0tang/guided-i2i-translation-papers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sswuai/panogan",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![Visitors](https://visitor-badge.glitch.me/badge?page_id=Ha0Tang/LGGAN)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adversarial-learning"
+    },
+    {
+      "context_snippet": "![Visitors](https://visitor-badge.glitch.me/badge?page_id=Ha0Tang/LGGAN)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-view"
+    },
+    {
+      "context_snippet": "![Visitors](https://visitor-badge.glitch.me/badge?page_id=Ha0Tang/LGGAN)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr-2020"
+    },
+    {
+      "context_snippet": "![Visitors](https://visitor-badge.glitch.me/badge?page_id=Ha0Tang/LGGAN)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr20"
+    },
+    {
+      "context_snippet": "![Visitors](https://visitor-badge.glitch.me/badge?page_id=Ha0Tang/LGGAN)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr2020"
+    },
+    {
+      "context_snippet": "![Visitors](https://visitor-badge.glitch.me/badge?page_id=Ha0Tang/LGGAN)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvusa-dataset"
+    },
+    {
+      "context_snippet": "![Visitors](https://visitor-badge.glitch.me/badge?page_id=Ha0Tang/LGGAN)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dayton"
+    },
+    {
+      "context_snippet": "![Visitors](https://visitor-badge.glitch.me/badge?page_id=Ha0Tang/LGGAN)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-adversarial-network"
+    },
+    {
+      "context_snippet": "![Visitors](https://visitor-badge.glitch.me/badge?page_id=Ha0Tang/LGGAN)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-model"
+    },
+    {
+      "context_snippet": "![Visitors](https://visitor-badge.glitch.me/badge?page_id=Ha0Tang/LGGAN)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "global"
+    },
+    {
+      "context_snippet": "![Visitors](https://visitor-badge.glitch.me/badge?page_id=Ha0Tang/LGGAN)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-generation"
+    },
+    {
+      "context_snippet": "![Visitors](https://visitor-badge.glitch.me/badge?page_id=Ha0Tang/LGGAN)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-manipulation"
+    },
+    {
+      "context_snippet": "![Visitors](https://visitor-badge.glitch.me/badge?page_id=Ha0Tang/LGGAN)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-translation"
+    },
+    {
+      "context_snippet": "![Visitors](https://visitor-badge.glitch.me/badge?page_id=Ha0Tang/LGGAN)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "local"
+    },
+    {
+      "context_snippet": "![Visitors](https://visitor-badge.glitch.me/badge?page_id=Ha0Tang/LGGAN)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "![Visitors](https://visitor-badge.glitch.me/badge?page_id=Ha0Tang/LGGAN)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch-implementation"
+    },
+    {
+      "context_snippet": "![Visitors](https://visitor-badge.glitch.me/badge?page_id=Ha0Tang/LGGAN)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sva-dataset"
+    }
+  ]
+}

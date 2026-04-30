@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T13:02:15.914986+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6402
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A PyTorch implementation of MAGE: MAsked Generative Encoder to Unify Representation Learning and Image Synthesis",
+    "fork": false,
+    "full_name": "LTH14/mage",
+    "html_url": "https://github.com/LTH14/mage",
+    "language": "Python",
+    "pushed_at": "2023-03-10T07:09:07Z",
+    "stargazers_count": 580,
+    "topics": [],
+    "updated_at": "2026-04-11T07:35:48Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -103,6 +103,18 @@
       "source_repo": "JS-DevTools/version-bump-prompt",
       "status": "candidate-context",
       "text": "[![Cross-Platform Compatibility](https://jstools.dev/img/badges/os-badges.svg)](https://github.com/JS-DevTools/version-bump-prompt/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Masterminds/semver",
+      "status": "candidate-context",
+      "text": "Work with Semantic Versions in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Masterminds/semver",
+      "status": "candidate-context",
+      "text": "The `semver` package provides the ability to work with [Semantic Versions](http://semver.org) in Go. Specifically it provides the ability to:"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "JS-DevTools/version-bump-prompt",
       "status": "candidate",
       "text": "[![Cross-Platform Compatibility](https://jstools.dev/img/badges/os-badges.svg)](https://github.com/JS-DevTools/version-bump-prompt/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Masterminds/semver",
+      "status": "candidate",
+      "text": "The `semver` package provides the ability to work with [Semantic Versions](http://semver.org) in Go. Specifically it provides the ability to:"
     }
   ],
   "candidate_related_terms": [
@@ -244,11 +262,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "JS-DevTools/version-bump-prompt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Masterminds/semver"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

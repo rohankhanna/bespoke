@@ -6701,6 +6701,558 @@
       "source_repo": "postcss/autoprefixer",
       "status": "candidate-context",
       "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oxc-project/eslint-plugin-oxlint",
+      "status": "candidate-context",
+      "text": "Turn off all rules already supported by oxlint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oxc-project/eslint-plugin-oxlint",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "electron-react-boilerplate/electron-react-boilerplate",
+      "status": "candidate-context",
+      "text": "A Foundation for Scalable Cross-Platform Apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron-react-boilerplate/electron-react-boilerplate",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jashkenas/backbone",
+      "status": "candidate-context",
+      "text": "Give your JS App some Backbone with Models, Views, Collections, and Events"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jashkenas/backbone",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adieyal/dynamicprompts",
+      "status": "candidate-context",
+      "text": "Templating language for generating prompts for text to image generators such as Stable Diffusion"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adieyal/dynamicprompts",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "leethomason/tinyxml2",
+      "status": "candidate-context",
+      "text": "TinyXML2 is a simple, small, efficient, C++ XML parser that can be easily integrated into other programs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leethomason/tinyxml2",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-sql-driver/mysql",
+      "status": "candidate-context",
+      "text": "Go MySQL Driver is a MySQL driver for Go's (golang) database/sql package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-sql-driver/mysql",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "postcss/gulp-postcss",
+      "status": "candidate-context",
+      "text": "Pipe CSS through PostCSS processors with a single parse"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "postcss/gulp-postcss",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clojure/clojure",
+      "status": "candidate-context",
+      "text": "The Clojure programming language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure/clojure",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cachix/secretspec",
+      "status": "candidate-context",
+      "text": "Declarative secrets, every environment, any provider."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cachix/secretspec",
+      "status": "candidate-context",
+      "text": "\"Test\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "novnc/websockify",
+      "status": "candidate-context",
+      "text": "Websockify is a WebSocket to TCP proxy/bridge. This allows a browser to connect  to any application/server/service."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "novnc/websockify",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clojure/tools.analyzer.jvm",
+      "status": "candidate-context",
+      "text": "Additional jvm-specific passes for tools.analyzer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure/tools.analyzer.jvm",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xzfc/cached-nix-shell",
+      "status": "candidate-context",
+      "text": "Instant startup time for nix-shell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xzfc/cached-nix-shell",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "onsi/ginkgo",
+      "status": "candidate-context",
+      "text": "A Modern Testing Framework for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "onsi/ginkgo",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "onsi/ginkgo",
+      "status": "candidate-context",
+      "text": "![Ginkgo](https://onsi.github.io/ginkgo/images/ginkgo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EmmyLuaLs/emmylua-analyzer-rust",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kdheepak/panvimdoc",
+      "status": "candidate-context",
+      "text": "Write documentation in pandoc markdown. Generate documentation in vimdoc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kdheepak/panvimdoc",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mochajs/mocha",
+      "status": "candidate-context",
+      "text": "\u2615\ufe0f Classic, reliable, trusted test framework for Node.js and the browser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mochajs/mocha",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "postcss/postcss-load-config",
+      "status": "candidate-context",
+      "text": "Autoload Config for PostCSS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "postcss/postcss-load-config",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mah0x211/lua-libmdbx",
+      "status": "candidate-context",
+      "text": "libmdbx binding for lua."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mah0x211/lua-libmdbx",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "YosysHQ/oss-cad-suite-build",
+      "status": "candidate-context",
+      "text": "Multi-platform nightly builds of open source digital design and verification tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YosysHQ/oss-cad-suite-build",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aliezzahn/rsbuild-plugin-css-optimizer",
+      "status": "candidate-context",
+      "text": "An Rsbuild plugin to customize CSS minification, allowing you to choose between cssnano (JavaScript-based) or Lightning CSS (Rust-based) for high-performance CSS compression."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aliezzahn/rsbuild-plugin-css-optimizer",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aliezzahn/rsbuild-plugin-markdown-loader",
+      "status": "candidate-context",
+      "text": "A plugin for rsbuild.dev that enables importing and rendering Markdown files as React components or pure HTML."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aliezzahn/rsbuild-plugin-markdown-loader",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dop251/goja",
+      "status": "candidate-context",
+      "text": "ECMAScript/JavaScript engine in pure Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dop251/goja",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "julianrubisch/pronto-standardrb",
+      "status": "candidate-context",
+      "text": "pronto runner for standardrb"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "julianrubisch/pronto-standardrb",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "php/phd",
+      "status": "candidate-context",
+      "text": "PHD"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "php/phd",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PyCQA/pyflakes",
+      "status": "candidate-context",
+      "text": "A simple program which checks Python source files for errors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/pyflakes",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reviewdog/action-depup",
+      "status": "candidate-context",
+      "text": "Action which updates dependencies automatically"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-depup",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reviewdog/action-hadolint",
+      "status": "candidate-context",
+      "text": "Run hadolint with reviewdog \ud83d\udc36"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-hadolint",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reviewdog/action-shfmt",
+      "status": "candidate-context",
+      "text": "Run shfmt with reviewdog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-shfmt",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hacs/integration",
+      "status": "candidate-context",
+      "text": "HACS gives you a powerful UI to handle downloads of all your custom needs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hacs/integration",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "minitest/minitest",
+      "status": "candidate-context",
+      "text": "minitest provides a complete suite of testing facilities supporting TDD, BDD, and benchmarking."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "minitest/minitest",
+      "status": "candidate-context",
+      "text": "CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ai/size-limit",
+      "status": "candidate-context",
+      "text": "Calculate the real cost to run your JS app or lib to keep good performance. Show error in pull request if the cost exceeds the limit."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai/size-limit",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "buty4649/mruby-terminal-color",
+      "status": "candidate-context",
+      "text": "A lightweight and flexible library for adding color and style to terminal output in mruby applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "buty4649/mruby-terminal-color",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ctypesgen/ctypesgen",
+      "status": "candidate-context",
+      "text": "Pure-python wrapper generator for ctypes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ctypesgen/ctypesgen",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jest-community/eslint-plugin-jest-extended",
+      "status": "candidate-context",
+      "text": "Eslint plugin for https://github.com/jest-community/jest-extended"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jest-community/eslint-plugin-jest-extended",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wadey/node-microtime",
+      "status": "candidate-context",
+      "text": "Get the current time in microseconds"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wadey/node-microtime",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "evilmartians/lefthook",
+      "status": "candidate-context",
+      "text": "Fast and powerful Git hooks manager for any type of projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evilmartians/lefthook",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aldernero/debugui",
+      "status": "candidate-context",
+      "text": "A UI toolkit for Ebitengine applications, primarily intended for debugging purposes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aldernero/debugui",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Sec-ant/prettier-plugin-embed",
+      "status": "candidate-context",
+      "text": "A configurable Prettier plugin to format embedded languages in JS/TS Files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Sec-ant/prettier-plugin-embed",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chromedp/chromedp",
+      "status": "candidate-context",
+      "text": "A faster, simpler way to drive browsers supporting the Chrome DevTools Protocol."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chromedp/chromedp",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cssnano/cssnano",
+      "status": "candidate-context",
+      "text": "A modular minifier, built on top of the PostCSS ecosystem."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cssnano/cssnano",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "matsadler/magnus",
+      "status": "candidate-context",
+      "text": "Ruby bindings for Rust. Write Ruby extension gems in Rust, or call Ruby from Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matsadler/magnus",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "browserslist/browserslist",
+      "status": "candidate-context",
+      "text": "\ud83e\udd94 Share target browsers between different front-end tools, like Autoprefixer, Stylelint and babel-preset-env"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "browserslist/browserslist",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "imagemin/imagemin-gifsicle",
+      "status": "candidate-context",
+      "text": "Imagemin plugin for Gifsicle"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "imagemin/imagemin-gifsicle",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "imagemin/imagemin-mozjpeg",
+      "status": "candidate-context",
+      "text": "Imagemin plugin for mozjpeg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "imagemin/imagemin-mozjpeg",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "acro5piano/kysely-migration-cli",
+      "status": "candidate-context",
+      "text": "A thin library to create a migration script using Kysely "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "acro5piano/kysely-migration-cli",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "styled-components/styled-components",
+      "status": "candidate-context",
+      "text": "Fast, expressive styling for React. Server components, client components, streaming SSR, React Native\u2014one API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "styled-components/styled-components",
+      "status": "candidate-context",
+      "text": "test"
     }
   ],
   "candidate_glosses": [
@@ -10093,6 +10645,288 @@
       "source_repo": "postcss/autoprefixer",
       "status": "candidate",
       "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oxc-project/eslint-plugin-oxlint",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron-react-boilerplate/electron-react-boilerplate",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jashkenas/backbone",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adieyal/dynamicprompts",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leethomason/tinyxml2",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-sql-driver/mysql",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "postcss/gulp-postcss",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure/clojure",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cachix/secretspec",
+      "status": "candidate",
+      "text": "\"Test\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "novnc/websockify",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure/tools.analyzer.jvm",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xzfc/cached-nix-shell",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "onsi/ginkgo",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "onsi/ginkgo",
+      "status": "candidate",
+      "text": "![Ginkgo](https://onsi.github.io/ginkgo/images/ginkgo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EmmyLuaLs/emmylua-analyzer-rust",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kdheepak/panvimdoc",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mochajs/mocha",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "postcss/postcss-load-config",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mah0x211/lua-libmdbx",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YosysHQ/oss-cad-suite-build",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aliezzahn/rsbuild-plugin-css-optimizer",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aliezzahn/rsbuild-plugin-markdown-loader",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dop251/goja",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "julianrubisch/pronto-standardrb",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "php/phd",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/pyflakes",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-depup",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-hadolint",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-shfmt",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hacs/integration",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "minitest/minitest",
+      "status": "candidate",
+      "text": "CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai/size-limit",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "buty4649/mruby-terminal-color",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ctypesgen/ctypesgen",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jest-community/eslint-plugin-jest-extended",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wadey/node-microtime",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evilmartians/lefthook",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aldernero/debugui",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Sec-ant/prettier-plugin-embed",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chromedp/chromedp",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cssnano/cssnano",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matsadler/magnus",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "browserslist/browserslist",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "imagemin/imagemin-gifsicle",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "imagemin/imagemin-mozjpeg",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "acro5piano/kysely-migration-cli",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "styled-components/styled-components",
+      "status": "candidate",
+      "text": "test"
     }
   ],
   "candidate_related_terms": [
@@ -14389,11 +15223,485 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "postcss/autoprefixer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nodenv/nodenv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "ollama/ollama"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/_test.yml",
+      "source_repo": "chatchat-space/Langchain-Chatchat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ultrajson/ultrajson"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "libvips/ruby-vips"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "oxc-project/eslint-plugin-oxlint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "electron-react-boilerplate/electron-react-boilerplate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "jashkenas/backbone"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "adieyal/dynamicprompts"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "leethomason/tinyxml2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "expr-lang/expr"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "dkron-io/dkron"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "go-sql-driver/mysql"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/Test.yml",
+      "source_repo": "igor-makarov/xcake"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "graphql-hive/graphql-eslint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "astroturfcss/astroturf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "postcss/gulp-postcss"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "clojure/clojure"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "cachix/secretspec"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "licensee/licensed"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "novnc/websockify"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "googlefonts/lang"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "vim-fall/fall.vim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "vim-fall/deno-fall-extra"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "vim-fall/deno-fall-std"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "clojure/tools.analyzer.jvm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "xzfc/cached-nix-shell"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "onsi/ginkgo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "onsi/ginkgo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "PyCQA/eradicate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "wemake-services/flake8-eradicate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/luarocks-tag-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "EmmyLuaLs/emmylua-analyzer-rust"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "kdheepak/panvimdoc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "mochajs/mocha"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "postcss/postcss-load-config"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "mah0x211/lua-libmdbx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "YosysHQ/oss-cad-suite-build"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "aliezzahn/rsbuild-plugin-css-optimizer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "aliezzahn/rsbuild-plugin-markdown-loader"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "dop251/goja"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "julianrubisch/pronto-standardrb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "php/phd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "lambdalisue/vim-gin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "all-contributors/app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "PyCQA/pyflakes"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "reviewdog/action-depup"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "reviewdog/action-hadolint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "reviewdog/action-shfmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "mightyiam/eslint-config-love"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "hacs/integration"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "minitest/minitest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ai/size-limit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "buty4649/mruby-terminal-color"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "electron/rebuild"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "electron/packager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ctypesgen/ctypesgen"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "567-labs/instructor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "jest-community/eslint-plugin-jest-extended"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "wadey/node-microtime"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "PrimeIntellect-ai/verifiers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "evilmartians/lefthook"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "aldernero/debugui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Sec-ant/prettier-plugin-embed"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "chromedp/chromedp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "dukesoferl/re2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Level/level-js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Level/multileveldown"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Level/levelup"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "cssnano/cssnano"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "matsadler/magnus"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "browserslist/browserslist"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-Dotnet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "kurrent-io/KurrentDB-Bridge-Client"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "imagemin/imagemin-gifsicle"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "imagemin/imagemin-mozjpeg"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "acro5piano/kysely-migration-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "styled-components/styled-components"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

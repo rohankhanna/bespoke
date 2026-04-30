@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Manual Release"
+    "Manual Release",
+    "manual-release"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -79,6 +80,18 @@
       "source_repo": "docarray/docarray",
       "status": "candidate-context",
       "text": "Manual Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openframeworks/openFrameworks",
+      "status": "candidate-context",
+      "text": "openFrameworks is a community-developed cross platform toolkit for creative coding in C++."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openframeworks/openFrameworks",
+      "status": "candidate-context",
+      "text": "manual-release"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +130,12 @@
       "source_repo": "docarray/docarray",
       "status": "candidate",
       "text": "Manual Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openframeworks/openFrameworks",
+      "status": "candidate",
+      "text": "manual-release"
     }
   ],
   "candidate_related_terms": [
@@ -208,11 +227,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/force-release.yml",
       "source_repo": "docarray/docarray"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/force-release.yml",
+      "source_repo": "docarray/docarray"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/manual-release.yml",
+      "source_repo": "openframeworks/openFrameworks"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,81 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "graalvm/setup-graalvm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "graalvm/setup-graalvm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "graalvm/polyglot-embedding-demo",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "graalvm/polyglot-embedding-demo",
+      "target": "graalvm/setup-graalvm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "graalvm/polyglot-embedding-demo",
+      "target": "Test demo",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:56:57.500539+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2358
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1191
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Demonstration repository showing polyglot embedding with GraalVM for JDK 21 using Maven and Gradle.",
+    "fork": false,
+    "full_name": "graalvm/polyglot-embedding-demo",
+    "html_url": "https://github.com/graalvm/polyglot-embedding-demo",
+    "language": "C",
+    "pushed_at": "2025-12-10T12:23:06Z",
+    "stargazers_count": 35,
+    "topics": [],
+    "updated_at": "2026-03-28T13:34:42Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Test demo",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Test demo"
+    }
+  ]
+}

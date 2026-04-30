@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Phhofm/models",
+      "target": "dslisleedh/plksr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Phhofm/models",
+      "target": "francis0625/omni-sr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Phhofm/models",
+      "target": "hongyuanyu/span",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Phhofm/models",
+      "target": "hvision-nku/srformer",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:53:40.260153+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 54480
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "All my self trained & released AI upscaling models. After gathering and applying over 600 different upscaling models, I learned how to train my own models, and these are the results.",
+    "fork": false,
+    "full_name": "Phhofm/models",
+    "html_url": "https://github.com/Phhofm/models",
+    "language": "Python",
+    "pushed_at": "2025-11-14T21:28:22Z",
+    "stargazers_count": 590,
+    "topics": [],
+    "updated_at": "2026-04-29T20:31:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dslisleedh/plksr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "francis0625/omni-sr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hongyuanyu/span",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hvision-nku/srformer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

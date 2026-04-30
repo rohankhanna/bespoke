@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AoiDragon/POPE",
+      "target": "lisaanne/hallucination",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:11:08.629629+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5459
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1624
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[EMNLP'23] The official GitHub page for ''Evaluating Object Hallucination in Large Vision-Language Models''",
+    "fork": false,
+    "full_name": "AoiDragon/POPE",
+    "html_url": "https://github.com/AoiDragon/POPE",
+    "language": "Python",
+    "pushed_at": "2025-08-21T12:12:06Z",
+    "stargazers_count": 115,
+    "topics": [],
+    "updated_at": "2026-04-14T02:30:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lisaanne/hallucination",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

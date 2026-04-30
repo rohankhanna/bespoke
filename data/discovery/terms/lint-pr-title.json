@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -101,6 +101,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/pr-title.yaml",
       "source_repo": "bufbuild/homebrew-buf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint-pr-title.yml",
+      "source_repo": "amannn/action-semantic-pull-request"
     }
   ],
   "term": "Lint PR Title"

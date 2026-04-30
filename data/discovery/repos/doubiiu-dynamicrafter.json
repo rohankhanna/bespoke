@@ -1,0 +1,125 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Doubiiu/DynamiCrafter",
+      "target": "camenduru/dynamicrafter-colab",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Doubiiu/DynamiCrafter",
+      "target": "chaojie/comfyui-dynamicrafter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Doubiiu/DynamiCrafter",
+      "target": "ailab-cvc/talecrafter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Doubiiu/DynamiCrafter",
+      "target": "arthur-qiu/longercrafter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Doubiiu/DynamiCrafter",
+      "target": "image-animation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Doubiiu/DynamiCrafter",
+      "target": "image-to-video",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Doubiiu/DynamiCrafter",
+      "target": "video-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:09:58.411875+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16795
+    },
+    {
+      "path": "requirements.txt",
+      "size": 329
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ECCV 2024, Oral] DynamiCrafter: Animating Open-domain Images with Video Diffusion Priors",
+    "fork": false,
+    "full_name": "Doubiiu/DynamiCrafter",
+    "html_url": "https://github.com/Doubiiu/DynamiCrafter",
+    "language": "Python",
+    "pushed_at": "2024-09-08T23:43:53Z",
+    "stargazers_count": 3005,
+    "topics": [
+      "image-animation",
+      "image-to-video",
+      "video-generation"
+    ],
+    "updated_at": "2026-04-28T07:38:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ailab-cvc/talecrafter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arthur-qiu/longercrafter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "camenduru/dynamicrafter-colab",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chaojie/comfyui-dynamicrafter",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<!-- ![](./assets/logo_long.png#gh-light-mode-only){: width=\"50%\"} -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-animation"
+    },
+    {
+      "context_snippet": "<!-- ![](./assets/logo_long.png#gh-light-mode-only){: width=\"50%\"} -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-to-video"
+    },
+    {
+      "context_snippet": "<!-- ![](./assets/logo_long.png#gh-light-mode-only){: width=\"50%\"} -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-generation"
+    }
+  ]
+}

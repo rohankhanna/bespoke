@@ -277,6 +277,30 @@
       "source_repo": "ParRes/Kernels",
       "status": "candidate-context",
       "text": "![PRK logo.](https://github.com/ParRes/Kernels/blob/default/logo/PRK%20logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aviatesk/JET.jl",
+      "status": "candidate-context",
+      "text": "A code analyzer for Julia. No need for additional type annotations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aviatesk/JET.jl",
+      "status": "candidate-context",
+      "text": "[![](https://img.shields.io/badge/docs-latest-blue.svg)](https://aviatesk.github.io/JET.jl/dev/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaDocs/Documenter.jl",
+      "status": "candidate-context",
+      "text": "A documentation generator for Julia."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDocs/Documenter.jl",
+      "status": "candidate-context",
+      "text": "*A documentation generator for Julia.*"
     }
   ],
   "candidate_glosses": [
@@ -417,6 +441,18 @@
       "source_repo": "ParRes/Kernels",
       "status": "candidate",
       "text": "![PRK logo.](https://github.com/ParRes/Kernels/blob/default/logo/PRK%20logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aviatesk/JET.jl",
+      "status": "candidate",
+      "text": "[![](https://img.shields.io/badge/docs-latest-blue.svg)](https://aviatesk.github.io/JET.jl/dev/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDocs/Documenter.jl",
+      "status": "candidate",
+      "text": "*A documentation generator for Julia.*"
     }
   ],
   "candidate_related_terms": [
@@ -610,11 +646,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "ParRes/Kernels"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "aviatesk/JET.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "JuliaDocs/Documenter.jl"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

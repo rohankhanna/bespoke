@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/samples-for-ai",
+      "target": "microsoft/vs-tools-for-ai",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/samples-for-ai",
+      "target": "caffe2/caffe2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/samples-for-ai",
+      "target": "fchollet/keras",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:08:14.895060+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4383
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Samples for getting started with deep learning across TensorFlow, CNTK, Theano and more.",
+    "fork": false,
+    "full_name": "microsoft/samples-for-ai",
+    "html_url": "https://github.com/microsoft/samples-for-ai",
+    "language": "C#",
+    "pushed_at": "2023-06-27T13:03:53Z",
+    "stargazers_count": 602,
+    "topics": [],
+    "updated_at": "2026-04-17T14:07:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "caffe2/caffe2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fchollet/keras",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/vs-tools-for-ai",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

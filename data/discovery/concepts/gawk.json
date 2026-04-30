@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "gawk"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Beaglefoot/awk-language-server",
+      "status": "candidate-context",
+      "text": "Language Server for AWK and associated VSCode client extension"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Beaglefoot/awk-language-server",
+      "status": "candidate-context",
+      "text": "[![tests](https://github.com/Beaglefoot/awk-language-server/actions/workflows/tests.yml/badge.svg)](https://github.com/Beaglefoot/awk-language-server/actions/workflows/tests.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Beaglefoot/awk-language-server",
+      "status": "candidate",
+      "text": "[![tests](https://github.com/Beaglefoot/awk-language-server/actions/workflows/tests.yml/badge.svg)](https://github.com/Beaglefoot/awk-language-server/actions/workflows/tests.yml)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39403572,
+      "status": "candidate",
+      "text": "gape"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39400541,
+      "status": "candidate",
+      "text": "clod"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39397764,
+      "status": "candidate",
+      "text": "lump"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39350673,
+      "status": "candidate",
+      "text": "goggle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39347763,
+      "status": "candidate",
+      "text": "gawp"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 30042,
+      "status": "candidate",
+      "text": "gape"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24037,
+      "status": "candidate",
+      "text": "goon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20023,
+      "status": "candidate",
+      "text": "gawp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13038,
+      "status": "candidate",
+      "text": "clod"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12039,
+      "status": "candidate",
+      "text": "lout"
+    }
+  ],
+  "canonical_name": "gawk",
+  "concept_id": "gawk",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Beaglefoot/awk-language-server"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "gawk",
+      "sense_id": "gawk#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

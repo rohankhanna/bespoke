@@ -1,0 +1,197 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "om-ai-lab/VLM-R1",
+      "target": "hiyouga/llama-factory",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "om-ai-lab/VLM-R1",
+      "target": "deep-agent/r1-v",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "om-ai-lab/VLM-R1",
+      "target": "mikittt/easy-to-understand-reg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "om-ai-lab/VLM-R1",
+      "target": "dvlab-research/lisa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "om-ai-lab/VLM-R1",
+      "target": "deepseek-r1",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "om-ai-lab/VLM-R1",
+      "target": "grpo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "om-ai-lab/VLM-R1",
+      "target": "multimodal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "om-ai-lab/VLM-R1",
+      "target": "multimodal-r1",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "om-ai-lab/VLM-R1",
+      "target": "qwen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "om-ai-lab/VLM-R1",
+      "target": "r1-zero",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "om-ai-lab/VLM-R1",
+      "target": "reinforcement-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "om-ai-lab/VLM-R1",
+      "target": "vlm-r1",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:14:11.390165+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17858
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1110
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Solve Visual Understanding with Reinforced VLMs",
+    "fork": false,
+    "full_name": "om-ai-lab/VLM-R1",
+    "html_url": "https://github.com/om-ai-lab/VLM-R1",
+    "language": "Python",
+    "pushed_at": "2026-03-12T02:58:51Z",
+    "stargazers_count": 5950,
+    "topics": [
+      "deepseek-r1",
+      "grpo",
+      "llm",
+      "multimodal",
+      "multimodal-r1",
+      "qwen",
+      "r1-zero",
+      "reinforcement-learning",
+      "vlm",
+      "vlm-r1"
+    ],
+    "updated_at": "2026-04-29T06:36:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deep-agent/r1-v",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dvlab-research/lisa",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hiyouga/llama-factory",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mikittt/easy-to-understand-reg",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<font size=4><div align='center' > [[\ud83e\udd17 REC Demo](https://huggingface.co/spaces/omlab/VLM-R1-Referral-Expression)] [[\ud83e\udd17 OVD Demo](https://huggingface.co/spaces/omlab/VLM-R1-OVD)] [[\ud83e\udd17 REC Data](https://huggingface.co/datasets/omlab/VLM-R1)] [[\ud83e\udd17 Checkpoints](https://huggingface.co/c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deepseek-r1"
+    },
+    {
+      "context_snippet": "<font size=4><div align='center' > [[\ud83e\udd17 REC Demo](https://huggingface.co/spaces/omlab/VLM-R1-Referral-Expression)] [[\ud83e\udd17 OVD Demo](https://huggingface.co/spaces/omlab/VLM-R1-OVD)] [[\ud83e\udd17 REC Data](https://huggingface.co/datasets/omlab/VLM-R1)] [[\ud83e\udd17 Checkpoints](https://huggingface.co/c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grpo"
+    },
+    {
+      "context_snippet": "<font size=4><div align='center' > [[\ud83e\udd17 REC Demo](https://huggingface.co/spaces/omlab/VLM-R1-Referral-Expression)] [[\ud83e\udd17 OVD Demo](https://huggingface.co/spaces/omlab/VLM-R1-OVD)] [[\ud83e\udd17 REC Data](https://huggingface.co/datasets/omlab/VLM-R1)] [[\ud83e\udd17 Checkpoints](https://huggingface.co/c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimodal"
+    },
+    {
+      "context_snippet": "<font size=4><div align='center' > [[\ud83e\udd17 REC Demo](https://huggingface.co/spaces/omlab/VLM-R1-Referral-Expression)] [[\ud83e\udd17 OVD Demo](https://huggingface.co/spaces/omlab/VLM-R1-OVD)] [[\ud83e\udd17 REC Data](https://huggingface.co/datasets/omlab/VLM-R1)] [[\ud83e\udd17 Checkpoints](https://huggingface.co/c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimodal-r1"
+    },
+    {
+      "context_snippet": "<font size=4><div align='center' > [[\ud83e\udd17 REC Demo](https://huggingface.co/spaces/omlab/VLM-R1-Referral-Expression)] [[\ud83e\udd17 OVD Demo](https://huggingface.co/spaces/omlab/VLM-R1-OVD)] [[\ud83e\udd17 REC Data](https://huggingface.co/datasets/omlab/VLM-R1)] [[\ud83e\udd17 Checkpoints](https://huggingface.co/c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "qwen"
+    },
+    {
+      "context_snippet": "<font size=4><div align='center' > [[\ud83e\udd17 REC Demo](https://huggingface.co/spaces/omlab/VLM-R1-Referral-Expression)] [[\ud83e\udd17 OVD Demo](https://huggingface.co/spaces/omlab/VLM-R1-OVD)] [[\ud83e\udd17 REC Data](https://huggingface.co/datasets/omlab/VLM-R1)] [[\ud83e\udd17 Checkpoints](https://huggingface.co/c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "r1-zero"
+    },
+    {
+      "context_snippet": "<font size=4><div align='center' > [[\ud83e\udd17 REC Demo](https://huggingface.co/spaces/omlab/VLM-R1-Referral-Expression)] [[\ud83e\udd17 OVD Demo](https://huggingface.co/spaces/omlab/VLM-R1-OVD)] [[\ud83e\udd17 REC Data](https://huggingface.co/datasets/omlab/VLM-R1)] [[\ud83e\udd17 Checkpoints](https://huggingface.co/c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reinforcement-learning"
+    },
+    {
+      "context_snippet": "<font size=4><div align='center' > [[\ud83e\udd17 REC Demo](https://huggingface.co/spaces/omlab/VLM-R1-Referral-Expression)] [[\ud83e\udd17 OVD Demo](https://huggingface.co/spaces/omlab/VLM-R1-OVD)] [[\ud83e\udd17 REC Data](https://huggingface.co/datasets/omlab/VLM-R1)] [[\ud83e\udd17 Checkpoints](https://huggingface.co/c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vlm-r1"
+    }
+  ]
+}

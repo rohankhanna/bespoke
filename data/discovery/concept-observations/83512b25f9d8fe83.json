@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Declarative secrets, every environment, any provider."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Publish Crates"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Publish Crates"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15704,
+      "status": "candidate",
+      "text": "cased"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15464,
+      "status": "candidate",
+      "text": "compass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14924,
+      "status": "candidate",
+      "text": "print"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14924,
+      "status": "candidate",
+      "text": "reissue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14924,
+      "status": "candidate",
+      "text": "reprint"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish Crates",
+      "sense_id": "publish-crates#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "publish-crates",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "publish-crates",
+  "observation_id": "83512b25f9d8fe83",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "Publish Crates",
+  "source_context_snippet": "Publish Crates",
+  "source_file": ".github/workflows/publish.yml",
+  "source_repo": "cachix/secretspec",
+  "source_repo_description": "Declarative secrets, every environment, any provider."
+}

@@ -78,21 +78,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "flightcontrolhq/superjson",
-      "target": "blitz-js/blitz",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "flightcontrolhq/superjson",
-      "target": "blitz-js/next-superjson-plugin",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "flightcontrolhq/superjson",
       "target": "all-contributors/all-contributors",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "flightcontrolhq/superjson",
+      "target": "rich-harris/devalue",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "flightcontrolhq/superjson",
+      "target": "iccicci/next-json",
       "target_type": "repository"
     },
     {
@@ -215,7 +215,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T08:25:43.357642+00:00",
+  "fetched_at": "2026-04-30T13:53:22.014525+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -258,17 +258,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "blitz-js/blitz",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "blitz-js/next-superjson-plugin",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "blitz-js/superjson",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "iccicci/next-json",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rich-harris/devalue",
       "source_file": "README.md"
     }
   ],

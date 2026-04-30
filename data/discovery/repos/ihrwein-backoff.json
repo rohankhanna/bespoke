@@ -1,0 +1,98 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_pr.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@88dc2356392166efad76775c878094f4e83ff746",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_pr.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_pr.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@88dc2356392166efad76775c878094f4e83ff746",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_pr.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ihrwein/backoff",
+      "target": "google/google-http-java-client",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_pr.yml",
+      "source_repo": "ihrwein/backoff",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_pr.yml",
+      "source_repo": "ihrwein/backoff",
+      "target": "actions-rs/toolchain@88dc2356392166efad76775c878094f4e83ff746",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_pr.yml",
+      "source_repo": "ihrwein/backoff",
+      "target": "Check PR",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:57:37.966976+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3438
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1530
+    },
+    {
+      "path": ".github/workflows/check_pr.yml",
+      "size": 1291
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Exponential backoff and retry for Rust.",
+    "fork": false,
+    "full_name": "ihrwein/backoff",
+    "html_url": "https://github.com/ihrwein/backoff",
+    "language": "Rust",
+    "pushed_at": "2024-02-05T21:33:58Z",
+    "stargazers_count": 342,
+    "topics": [],
+    "updated_at": "2026-03-20T16:02:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/google-http-java-client",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Check PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_pr.yml",
+      "term": "Check PR"
+    }
+  ]
+}

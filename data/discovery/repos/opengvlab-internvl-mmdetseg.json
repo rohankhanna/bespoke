@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/InternVL-MMDetSeg",
+      "target": "object-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/InternVL-MMDetSeg",
+      "target": "semantic-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/InternVL-MMDetSeg",
+      "target": "vision-foundation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:10:42.628837+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9936
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Train InternViT-6B in MMSegmentation and MMDetection with DeepSpeed",
+    "fork": false,
+    "full_name": "OpenGVLab/InternVL-MMDetSeg",
+    "html_url": "https://github.com/OpenGVLab/InternVL-MMDetSeg",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-10-25T17:21:58Z",
+    "stargazers_count": 108,
+    "topics": [
+      "object-detection",
+      "semantic-segmentation",
+      "vision-foundation"
+    ],
+    "updated_at": "2026-04-20T06:57:03Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-detection"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-segmentation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-foundation"
+    }
+  ]
+}

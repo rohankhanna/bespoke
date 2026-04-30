@@ -1,0 +1,71 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "swaywm/sway",
+      "target": "swaywm/swaybg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "swaywm/sway",
+      "target": "compositor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "swaywm/sway",
+      "target": "wayland",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:51:48.913304+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2819
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "i3-compatible Wayland compositor",
+    "fork": false,
+    "full_name": "swaywm/sway",
+    "html_url": "https://github.com/swaywm/sway",
+    "language": "C",
+    "pushed_at": "2026-04-26T14:35:50Z",
+    "stargazers_count": 16854,
+    "topics": [
+      "compositor",
+      "wayland"
+    ],
+    "updated_at": "2026-04-30T11:38:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "swaywm/swaybg",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**[English][en]** - [\u0639\u0631\u0628\u064a][ar] - [Az\u0259rbaycanca][az] - [\u010cesky][cs] - [Deutsch][de] - [Dansk][dk] - [Espa\u00f1ol][es] - [Fran\u00e7ais][fr] - [\u10e5\u10d0\u10e0\u10d7\u10e3\u10da\u10d8][ge] - [\u0395\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ac][gr] - [\u0939\u093f\u0928\u094d\u0926\u0940][hi] - [Magyar][hu] - [\u0641\u0627\u0631\u0633\u06cc][ir] - [Italiano][it] - [\u65e5\u672c\u8a9e][ja] - [\ud55c\uad6d\uc5b4][ko] - [Nederlands][nl] - [Norsk][no]\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compositor"
+    },
+    {
+      "context_snippet": "**[English][en]** - [\u0639\u0631\u0628\u064a][ar] - [Az\u0259rbaycanca][az] - [\u010cesky][cs] - [Deutsch][de] - [Dansk][dk] - [Espa\u00f1ol][es] - [Fran\u00e7ais][fr] - [\u10e5\u10d0\u10e0\u10d7\u10e3\u10da\u10d8][ge] - [\u0395\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ac][gr] - [\u0939\u093f\u0928\u094d\u0926\u0940][hi] - [Magyar][hu] - [\u0641\u0627\u0631\u0633\u06cc][ir] - [Italiano][it] - [\u65e5\u672c\u8a9e][ja] - [\ud55c\uad6d\uc5b4][ko] - [Nederlands][nl] - [Norsk][no]\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wayland"
+    }
+  ]
+}

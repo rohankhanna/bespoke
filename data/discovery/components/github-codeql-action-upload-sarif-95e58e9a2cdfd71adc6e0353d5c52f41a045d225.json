@@ -1,7 +1,7 @@
 {
   "component": "github/codeql-action/upload-sarif@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -242,6 +242,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/scorecard.yml",
       "source_repo": "JLLeitschuh/ktlint-gradle"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "zip-rs/zip2"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/devskim.yml",
+      "source_repo": "zip-rs/zip2"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yml",
+      "source_repo": "zip-rs/zip2"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/openssf-scorecard.yml",
+      "source_repo": "karatelabs/karate"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scan.yml",
+      "source_repo": "winsiderss/systeminformer"
     }
   ]
 }

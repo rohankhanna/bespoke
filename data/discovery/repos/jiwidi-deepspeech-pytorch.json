@@ -1,0 +1,119 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jiwidi/DeepSpeech-pytorch",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jiwidi/DeepSpeech-pytorch",
+      "target": "e2e-asr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jiwidi/DeepSpeech-pytorch",
+      "target": "librispeech-dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jiwidi/DeepSpeech-pytorch",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jiwidi/DeepSpeech-pytorch",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jiwidi/DeepSpeech-pytorch",
+      "target": "speech-recognition",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:01:17.687263+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3984
+    },
+    {
+      "path": "requirements.txt",
+      "size": 66
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Pytorch implementation for DeepSpeech 2.0",
+    "fork": false,
+    "full_name": "jiwidi/DeepSpeech-pytorch",
+    "html_url": "https://github.com/jiwidi/DeepSpeech-pytorch",
+    "language": "Python",
+    "pushed_at": "2024-07-25T11:07:17Z",
+    "stargazers_count": 32,
+    "topics": [
+      "asr",
+      "deep-learning",
+      "e2e-asr",
+      "librispeech-dataset",
+      "machine-learning",
+      "pytorch",
+      "speech-recognition"
+    ],
+    "updated_at": "2026-04-28T18:17:21Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "e2e-asr"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "librispeech-dataset"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-recognition"
+    }
+  ]
+}

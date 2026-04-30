@@ -55,6 +55,30 @@
       "source_repo": "google/jsonnet",
       "status": "candidate-context",
       "text": "![master branch build status badge](https://github.com/google/jsonnet/actions/workflows/build_and_test.yml/badge.svg?event=push&branch=master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ninenines/gun",
+      "status": "candidate-context",
+      "text": "HTTP/1.1, HTTP/2, Websocket client (and more) for Erlang/OTP."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ninenines/gun",
+      "status": "candidate-context",
+      "text": "Check Gun"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ardalis/Result",
+      "status": "candidate-context",
+      "text": "A result abstraction that can be mapped to HTTP response codes if needed."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ardalis/Result",
+      "status": "candidate-context",
+      "text": "[![Ardalis.Result - NuGet](https://img.shields.io/nuget/v/Ardalis.Result.svg?label=Ardalis.Result%20-%20nuget)](https://www.nuget.org/packages/Ardalis.Result) [![NuGet](https://img.shields.io/nuget/dt/Ardalis.Result.svg)](https://www.nuget.org/packages/Ardalis.Result) [![Build S\u2026"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "google/jsonnet",
       "status": "candidate",
       "text": "![master branch build status badge](https://github.com/google/jsonnet/actions/workflows/build_and_test.yml/badge.svg?event=push&branch=master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ninenines/gun",
+      "status": "candidate",
+      "text": "Check Gun"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ardalis/Result",
+      "status": "candidate",
+      "text": "[![Ardalis.Result - NuGet](https://img.shields.io/nuget/v/Ardalis.Result.svg?label=Ardalis.Result%20-%20nuget)](https://www.nuget.org/packages/Ardalis.Result) [![NuGet](https://img.shields.io/nuget/dt/Ardalis.Result.svg)](https://www.nuget.org/packages/Ardalis.Result) [![Build S\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -190,11 +226,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "google/jsonnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ninenines/gun"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ardalis/Result"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -248,6 +248,18 @@
       "source_repo": "bufbuild/homebrew-buf",
       "status": "candidate-context",
       "text": "Lint PR Title"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amannn/action-semantic-pull-request",
+      "status": "candidate-context",
+      "text": "A GitHub Action that ensures that your PR title matches the Conventional Commits spec"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amannn/action-semantic-pull-request",
+      "status": "candidate-context",
+      "text": "'Lint PR title'"
     }
   ],
   "candidate_glosses": [
@@ -370,6 +382,12 @@
       "source_repo": "bufbuild/homebrew-buf",
       "status": "candidate",
       "text": "Lint PR Title"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amannn/action-semantic-pull-request",
+      "status": "candidate",
+      "text": "'Lint PR title'"
     }
   ],
   "candidate_related_terms": [
@@ -533,11 +551,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/pr-title.yaml",
       "source_repo": "bufbuild/homebrew-buf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/lint-pr-title.yml",
+      "source_repo": "amannn/action-semantic-pull-request"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

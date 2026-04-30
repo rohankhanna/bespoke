@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "ai-clis"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/Claude-Code-Context-Feature-Requests",
+      "status": "candidate-context",
+      "text": "A couple of feature requests (including my own) discussing context handling in Claude code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Claude-Code-Context-Feature-Requests",
+      "status": "candidate-context",
+      "text": "A collection of feature requests related to context and task management in Claude Code."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Claude-Code-Context-Feature-Requests",
+      "status": "candidate",
+      "text": "A collection of feature requests related to context and task management in Claude Code."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "ai-clis",
+  "concept_id": "ai-clis",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Code-Context-Feature-Requests"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ai-clis",
+      "sense_id": "ai-clis#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

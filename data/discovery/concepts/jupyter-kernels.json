@@ -43,6 +43,18 @@
       "source_repo": "SpencerPark/jupyter-jvm-basekernel",
       "status": "candidate-context",
       "text": "This project is a Java implementation of the [Jupyter kernel messaging spec](http://jupyter-client.readthedocs.io/en/latest/messaging.html). Consumers of this project need to simply extend the `BaseKernel` and implement the things specific to the language that the kernel is work\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akabe/ocaml-jupyter",
+      "status": "candidate-context",
+      "text": "An OCaml kernel for Jupyter (IPython) notebook"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akabe/ocaml-jupyter",
+      "status": "candidate-context",
+      "text": "[![Jupyter protocol][protocol-img]][protocol] [![License][license-img]][license] [![CI](https://github.com/akabe/ocaml-jupyter/actions/workflows/ci.yaml/badge.svg)](https://github.com/akabe/ocaml-jupyter/actions/workflows/ci.yaml) [![Sponsor](https://img.shields.io/static/v1?lab\u2026"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "SpencerPark/jupyter-jvm-basekernel",
       "status": "candidate",
       "text": "This project is a Java implementation of the [Jupyter kernel messaging spec](http://jupyter-client.readthedocs.io/en/latest/messaging.html). Consumers of this project need to simply extend the `BaseKernel` and implement the things specific to the language that the kernel is work\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akabe/ocaml-jupyter",
+      "status": "candidate",
+      "text": "[![Jupyter protocol][protocol-img]][protocol] [![License][license-img]][license] [![CI](https://github.com/akabe/ocaml-jupyter/actions/workflows/ci.yaml/badge.svg)](https://github.com/akabe/ocaml-jupyter/actions/workflows/ci.yaml) [![Sponsor](https://img.shields.io/static/v1?lab\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "SpencerPark/jupyter-jvm-basekernel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "akabe/ocaml-jupyter"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

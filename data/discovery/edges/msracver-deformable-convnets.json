@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "msracver/Deformable-ConvNets",
+      "target": "bharatsingh430/deformable-convnets",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "msracver/Deformable-ConvNets",
+      "target": "dmlc/mxnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "msracver/Deformable-ConvNets",
+      "target": "giorking/mx-rfcn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "msracver/Deformable-ConvNets",
+      "target": "apache/incubator-mxnet",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-30T12:45:20.475770+00:00",
+  "source_repo": "msracver/Deformable-ConvNets"
+}

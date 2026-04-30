@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dantelmomsft/chat-with-your-data-java-lza-app-accelerator",
+      "target": "azure/appservice-landing-zone-accelerator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dantelmomsft/chat-with-your-data-java-lza-app-accelerator",
+      "target": "azure/aca-landing-zone-accelerator",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:04:54.549473+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1279
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "dantelmomsft/chat-with-your-data-java-lza-app-accelerator",
+    "html_url": "https://github.com/dantelmomsft/chat-with-your-data-java-lza-app-accelerator",
+    "language": "Bicep",
+    "pushed_at": "2024-04-02T10:41:54Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2025-10-09T13:45:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "azure/aca-landing-zone-accelerator",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "azure/appservice-landing-zone-accelerator",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Geopolitical-And-OSINT-Index",
+      "target": "danielrosehill/claude-osint-investigator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Geopolitical-And-OSINT-Index",
+      "target": "danielrosehill/claude-georeaction-researcher",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Geopolitical-And-OSINT-Index",
+      "target": "danielrosehill/geopolitical-analysis-system-prompts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Geopolitical-And-OSINT-Index",
+      "target": "danielrosehill/claude-preparedness-planner",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:58:03.623119+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11818
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Index of repositories related to OSINT, geopolitical analysis, and situational awareness",
+    "fork": false,
+    "full_name": "danielrosehill/Geopolitical-And-OSINT-Index",
+    "html_url": "https://github.com/danielrosehill/Geopolitical-And-OSINT-Index",
+    "language": null,
+    "pushed_at": "2026-03-25T12:10:47Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-03-25T12:10:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/claude-georeaction-researcher",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/claude-osint-investigator",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/claude-preparedness-planner",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/geopolitical-analysis-system-prompts",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

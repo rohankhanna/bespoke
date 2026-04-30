@@ -1,0 +1,12 @@
+{
+  "component": "spring-io/nexus-sync-action@v0.0.1",
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/promote.yml",
+      "source_repo": "spring-io/spring-javaformat"
+    }
+  ]
+}

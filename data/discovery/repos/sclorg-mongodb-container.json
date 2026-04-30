@@ -1,0 +1,156 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sclorg/mongodb-container",
+      "target": "centos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sclorg/mongodb-container",
+      "target": "container",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sclorg/mongodb-container",
+      "target": "database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sclorg/mongodb-container",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sclorg/mongodb-container",
+      "target": "dockerfile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sclorg/mongodb-container",
+      "target": "fedora",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sclorg/mongodb-container",
+      "target": "mongodb",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sclorg/mongodb-container",
+      "target": "openshift",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sclorg/mongodb-container",
+      "target": "rhel",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:04:36.325241+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 685
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "MongoDB container images based on Red Hat Software Collections and intended for OpenShift and general usage. Users can choose between Red Hat Enterprise Linux, Fedora, and CentOS based images.",
+    "fork": false,
+    "full_name": "sclorg/mongodb-container",
+    "html_url": "https://github.com/sclorg/mongodb-container",
+    "language": "Shell",
+    "pushed_at": "2022-04-19T10:06:06Z",
+    "stargazers_count": 50,
+    "topics": [
+      "centos",
+      "container",
+      "database",
+      "docker",
+      "dockerfile",
+      "fedora",
+      "mongodb",
+      "openshift",
+      "rhel"
+    ],
+    "updated_at": "2025-08-26T12:30:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "MongoDB container images",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "centos"
+    },
+    {
+      "context_snippet": "MongoDB container images",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "container"
+    },
+    {
+      "context_snippet": "MongoDB container images",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "database"
+    },
+    {
+      "context_snippet": "MongoDB container images",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "MongoDB container images",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dockerfile"
+    },
+    {
+      "context_snippet": "MongoDB container images",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fedora"
+    },
+    {
+      "context_snippet": "MongoDB container images",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mongodb"
+    },
+    {
+      "context_snippet": "MongoDB container images",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openshift"
+    },
+    {
+      "context_snippet": "MongoDB container images",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rhel"
+    }
+  ]
+}

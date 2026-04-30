@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Set up your GitHub Actions workflow with a specific GraalVM distribution."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Set up your GitHub Actions workflow with a specific [GraalVM][graalvm] distribution, and use it both as your JDK and for [ahead-of-time Native Image compilation][graalvm]."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Set up your GitHub Actions workflow with a specific [GraalVM][graalvm] distribution, and use it both as your JDK and for [ahead-of-time Native Image compilation][graalvm]."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "jruby"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "openjdk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "jdk mission control"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "java opengl"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "jython"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "graalvm",
+      "sense_id": "graalvm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "graalvm",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "graalvm",
+  "observation_id": "22b66b3b8f24739c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "graalvm",
+  "source_context_snippet": "Set up your GitHub Actions workflow with a specific [GraalVM][graalvm] distribution, and use it both as your JDK and for [ahead-of-time Native Image compilation][graalvm].",
+  "source_file": null,
+  "source_repo": "graalvm/setup-graalvm",
+  "source_repo_description": "Set up your GitHub Actions workflow with a specific GraalVM distribution."
+}

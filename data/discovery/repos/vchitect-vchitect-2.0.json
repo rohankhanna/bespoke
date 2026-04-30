@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Vchitect/Vchitect-2.0",
+      "target": "vchitect/venhancer",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:10:12.498983+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5989
+    },
+    {
+      "path": "requirements.txt",
+      "size": 119
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Vchitect-2.0: Parallel Transformer for Scaling Up Video Diffusion Models",
+    "fork": false,
+    "full_name": "Vchitect/Vchitect-2.0",
+    "html_url": "https://github.com/Vchitect/Vchitect-2.0",
+    "language": "Python",
+    "pushed_at": "2025-03-17T14:18:12Z",
+    "stargazers_count": 925,
+    "topics": [],
+    "updated_at": "2026-04-23T03:10:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vchitect/venhancer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

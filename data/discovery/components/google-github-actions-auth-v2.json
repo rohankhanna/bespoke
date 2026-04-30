@@ -1,7 +1,7 @@
 {
   "component": "google-github-actions/auth@v2",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -92,6 +92,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ubuntu-sycl.yml",
       "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/external-account-integration.yml",
+      "source_repo": "googleapis/google-cloud-cpp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/macos-bazel.yml",
+      "source_repo": "googleapis/google-cloud-cpp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/macos-cmake.yml",
+      "source_repo": "googleapis/google-cloud-cpp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/windows-bazel.yml",
+      "source_repo": "googleapis/google-cloud-cpp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/windows-cmake.yml",
+      "source_repo": "googleapis/google-cloud-cpp"
     }
   ]
 }

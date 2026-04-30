@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "filecoin-project/Allocator-Governance",
+      "target": "filecoin-project/allocator-registry",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "filecoin-project/Allocator-Governance",
+      "target": "filecoin-station/spark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/send-issue-to-apply-allocator-be.yml",
+      "source_repo": "filecoin-project/Allocator-Governance",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/send-issue-to-apply-allocator-be.yml",
+      "source_repo": "filecoin-project/Allocator-Governance",
+      "target": "Send issue to apply.allocator.tech",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T12:45:20.475770+00:00",
+  "source_repo": "filecoin-project/Allocator-Governance"
+}

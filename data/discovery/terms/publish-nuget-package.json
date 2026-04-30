@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/publish.yaml",
       "source_repo": "JoshClose/CsvHelper"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/publish-nuget-package.yml",
+      "source_repo": "DiligentGraphics/DiligentCore"
     }
   ],
   "term": "Publish NuGet Package"

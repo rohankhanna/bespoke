@@ -727,7 +727,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T12:44:05.190630+00:00",
+  "fetched_at": "2026-04-30T15:59:48.294468+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -768,7 +768,7 @@
     "html_url": "https://github.com/phodal/auto-dev",
     "language": "Kotlin",
     "pushed_at": "2026-04-11T01:32:38Z",
-    "stargazers_count": 4456,
+    "stargazers_count": 4464,
     "topics": [
       "aigc",
       "genai",
@@ -776,7 +776,7 @@
       "ide",
       "intellij"
     ],
-    "updated_at": "2026-04-24T12:39:54Z"
+    "updated_at": "2026-04-29T14:40:39Z"
   },
   "repo_links": [],
   "terms": [

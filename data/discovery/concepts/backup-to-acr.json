@@ -1,0 +1,94 @@
+{
+  "aliases": [
+    "Backup to ACR"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Oneflow-Inc/docker-images",
+      "status": "candidate-context",
+      "text": "Backup to ACR"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Oneflow-Inc/docker-images",
+      "status": "candidate",
+      "text": "Backup to ACR"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11831,
+      "status": "candidate",
+      "text": "ins"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11689,
+      "status": "candidate",
+      "text": "back"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11689,
+      "status": "candidate",
+      "text": "bak"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11689,
+      "status": "candidate",
+      "text": "nack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11568,
+      "status": "candidate",
+      "text": "ala"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Backup to ACR",
+  "concept_id": "backup-to-acr",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/backup-to-acr.yml",
+      "source_repo": "Oneflow-Inc/docker-images"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Backup to ACR",
+      "sense_id": "backup-to-acr#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

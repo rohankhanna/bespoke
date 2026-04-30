@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "MEMKIND"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "memkind/memkind",
+      "status": "candidate-context",
+      "text": "Memkind is an easy-to-use, general-purpose allocator which helps to fully utilize various kinds of memory available in the system, including DRAM, NVDIMM, and HBM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "memkind/memkind",
+      "status": "candidate-context",
+      "text": "MEMKIND"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "memkind/memkind",
+      "status": "candidate",
+      "text": "MEMKIND"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "MEMKIND",
+  "concept_id": "memkind",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/gha.yml",
+      "source_repo": "memkind/memkind"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "MEMKIND",
+      "sense_id": "memkind#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

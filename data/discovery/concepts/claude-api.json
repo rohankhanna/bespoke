@@ -19,6 +19,18 @@
       "source_repo": "ConnectAI-E/DingTalk-Claude",
       "status": "candidate-context",
       "text": "\u26f3\ufe0f \u9489\u9489 \u00d7 Claude = \u65e0\u60e7\u89c4\u6a21\u7684AI\u52a9\u624b"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ShishirPatil/gorilla",
+      "status": "candidate-context",
+      "text": "Gorilla: Training and Evaluating LLMs for Function Calls (Tool Calls)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ShishirPatil/gorilla",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "ConnectAI-E/DingTalk-Claude",
       "status": "candidate",
       "text": "\u26f3\ufe0f \u9489\u9489 \u00d7 Claude = \u65e0\u60e7\u89c4\u6a21\u7684AI\u52a9\u624b"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ShishirPatil/gorilla",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "ConnectAI-E/DingTalk-Claude"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ShishirPatil/gorilla"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Backport merged pull request"
+    "Backport merged pull request",
+    "Backport Merged Pull Request"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -49,6 +50,18 @@
       "source_repo": "puppetlabs/puppet",
       "status": "candidate-context",
       "text": "Backport merged pull request"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/agent-lightning",
+      "status": "candidate-context",
+      "text": "The absolute trainer to light up AI agents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/agent-lightning",
+      "status": "candidate-context",
+      "text": "Backport Merged Pull Request"
     }
   ],
   "candidate_glosses": [
@@ -75,6 +88,12 @@
       "source_repo": "puppetlabs/puppet",
       "status": "candidate",
       "text": "Backport merged pull request"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/agent-lightning",
+      "status": "candidate",
+      "text": "Backport Merged Pull Request"
     }
   ],
   "candidate_related_terms": [
@@ -142,11 +161,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/backport.yml",
       "source_repo": "puppetlabs/puppet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "microsoft/agent-lightning"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

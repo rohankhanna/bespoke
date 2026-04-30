@@ -283,6 +283,66 @@
       "source_repo": "tensorchord/VectorChord",
       "status": "candidate-context",
       "text": "\"CLA Assistant\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "secretflow/heu",
+      "status": "candidate-context",
+      "text": "A high-performance homomorphic encryption algorithm library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "secretflow/heu",
+      "status": "candidate-context",
+      "text": "CLA Assistant"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "secretflow/kuscia",
+      "status": "candidate-context",
+      "text": "Kuscia(Kubernetes-based Secure Collaborative InfrA) is a K8s-based privacy-preserving computing task orchestration framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "secretflow/kuscia",
+      "status": "candidate-context",
+      "text": "CLA Assistant"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "secretflow/scql",
+      "status": "candidate-context",
+      "text": "SCQL  (Secure Collaborative Query Language) is a system that allows multiple distrusting parties to run joint analysis without revealing their private data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "secretflow/scql",
+      "status": "candidate-context",
+      "text": "CLA Assistant"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "secretflow/spu",
+      "status": "candidate-context",
+      "text": "SPU (Secure Processing Unit) aims to be a provable, measurable secure computation device, which provides computation ability while keeping your private data protected."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "secretflow/spu",
+      "status": "candidate-context",
+      "text": "CLA Assistant"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "winsiderss/systeminformer",
+      "status": "candidate-context",
+      "text": "A free, powerful, multi-purpose tool that helps you monitor system resources, debug software and detect malware. Brought to you by Winsider Seminars & Solutions, Inc. @ http://www.windows-internals.com"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "winsiderss/systeminformer",
+      "status": "candidate-context",
+      "text": "\"CLA Assistant\""
     }
   ],
   "candidate_glosses": [
@@ -421,6 +481,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "tensorchord/VectorChord",
+      "status": "candidate",
+      "text": "\"CLA Assistant\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "secretflow/heu",
+      "status": "candidate",
+      "text": "CLA Assistant"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "secretflow/kuscia",
+      "status": "candidate",
+      "text": "CLA Assistant"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "secretflow/scql",
+      "status": "candidate",
+      "text": "CLA Assistant"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "secretflow/spu",
+      "status": "candidate",
+      "text": "CLA Assistant"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "winsiderss/systeminformer",
       "status": "candidate",
       "text": "\"CLA Assistant\""
     }
@@ -658,11 +748,53 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/cla.yml",
       "source_repo": "tensorchord/VectorChord"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "SpecterOps/AzureHound"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "arcee-ai/mergekit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "secretflow/heu"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "secretflow/kuscia"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "secretflow/scql"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "secretflow/spu"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "winsiderss/systeminformer"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

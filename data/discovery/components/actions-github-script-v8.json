@@ -1,7 +1,7 @@
 {
   "component": "actions/github-script@v8",
   "first_seen_at": "2026-04-18T03:54:46.759203+00:00",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -892,6 +892,96 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/auto-merge-on-demand.yml",
       "source_repo": "sclorg/mysql-container"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/approve-readme.yaml",
+      "source_repo": "googleapis/java-cloud-bom"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cleanup-workflows.yml",
+      "source_repo": "jakoch/rasterizers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "modelcontextprotocol/inspector"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_release_library.yml",
+      "source_repo": "flagos-ai/Megatron-LM-FL"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-python-packages.yml",
+      "source_repo": "actions/python-versions"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-protected-classes.yml",
+      "source_repo": "apache/ignite"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_pypi.yml",
+      "source_repo": "HumanSignal/label-studio"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_pypi_nightly.yml",
+      "source_repo": "HumanSignal/label-studio"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gh-workflow-approve.yaml",
+      "source_repo": "kubeflow/sdk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/badge-apo.yml",
+      "source_repo": "microsoft/agent-lightning"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/badge-azure.yml",
+      "source_repo": "microsoft/agent-lightning"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/badge-calc-x.yml",
+      "source_repo": "microsoft/agent-lightning"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/badge-chartqa.yml",
+      "source_repo": "microsoft/agent-lightning"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/badge-claude-code.yml",
+      "source_repo": "microsoft/agent-lightning"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/badge-compat.yml",
+      "source_repo": "microsoft/agent-lightning"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/badge-examples.yml",
+      "source_repo": "microsoft/agent-lightning"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/alarm.yml",
+      "source_repo": "Genesis-Embodied-AI/Genesis"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "anthropics/anthropic-sdk-ruby"
     }
   ]
 }

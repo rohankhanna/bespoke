@@ -103,6 +103,42 @@
       "source_repo": "mariolukas/HydraPlay",
       "status": "candidate-context",
       "text": "HydraPlay is an easy to use multiroom audio player. HydraPlay provides an integrated web interface to multiple"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lieff/minimp3",
+      "status": "candidate-context",
+      "text": "Minimalistic MP3 decoder single header library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lieff/minimp3",
+      "status": "candidate-context",
+      "text": "minimp3"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Anjok07/ultimatevocalremovergui",
+      "status": "candidate-context",
+      "text": " GUI for a Vocal Remover that uses Deep Neural Networks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Anjok07/ultimatevocalremovergui",
+      "status": "candidate-context",
+      "text": "<img src=\"https://raw.githubusercontent.com/Anjok07/ultimatevocalremovergui/master/gui_data/img/UVR_v5.6.png?raw=true\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "navidrome/navidrome",
+      "status": "candidate-context",
+      "text": "\ud83c\udfa7 Your Personal Streaming Service "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "navidrome/navidrome",
+      "status": "candidate-context",
+      "text": "<a href=\"https://www.navidrome.org\"><img src=\"resources/logo-192x192.png\" alt=\"Navidrome logo\" title=\"navidrome\" align=\"right\" height=\"60px\" /></a>"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +189,24 @@
       "source_repo": "mariolukas/HydraPlay",
       "status": "candidate",
       "text": "HydraPlay is an easy to use multiroom audio player. HydraPlay provides an integrated web interface to multiple"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lieff/minimp3",
+      "status": "candidate",
+      "text": "minimp3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Anjok07/ultimatevocalremovergui",
+      "status": "candidate",
+      "text": "<img src=\"https://raw.githubusercontent.com/Anjok07/ultimatevocalremovergui/master/gui_data/img/UVR_v5.6.png?raw=true\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "navidrome/navidrome",
+      "status": "candidate",
+      "text": "<a href=\"https://www.navidrome.org\"><img src=\"resources/logo-192x192.png\" alt=\"Navidrome logo\" title=\"navidrome\" align=\"right\" height=\"60px\" /></a>"
     }
   ],
   "candidate_related_terms": [
@@ -278,11 +332,35 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "snapcast/snapcast"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "lieff/minimp3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Anjok07/ultimatevocalremovergui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "snapcast/snapcast"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "navidrome/navidrome"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

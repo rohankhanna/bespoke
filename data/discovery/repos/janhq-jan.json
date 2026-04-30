@@ -1,0 +1,674 @@
+{
+  "components": [
+    {
+      "component": "@tauri-apps/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@vitest/coverage-v8",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "cpx",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "cross-env",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "husky",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jsdom",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rimraf",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "run-script-os",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tar",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "unzipper",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vitest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "toshimaru/auto-author-assign@v1.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-assign-author.yml"
+    },
+    {
+      "component": "actions/github-script@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-assign-milestone.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-label-conventional-commits.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoqa-migration.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoqa-migration.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoqa-migration.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoqa-migration.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoqa-migration.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoqa-migration.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoqa-migration.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoqa-migration.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoqa-migration.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoqa-migration.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoqa-migration.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoqa-migration.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoqa-reliability.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoqa-reliability.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoqa-reliability.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoqa-reliability.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoqa-template.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoqa-template.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoqa-template.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoqa-template.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoqa-template.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoqa-template.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoqa-template.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoqa-template.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoqa-template.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoqa-template.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoqa-template.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoqa-template.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoqa-template.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoqa-template.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoqa-template.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clean-cloudflare-page-preview-url-and-r2.yml"
+    },
+    {
+      "component": "jannekem/run-python-script-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clean-cloudflare-page-preview-url-and-r2.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "janhq/jan",
+      "target": "ggerganov/llama.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "janhq/jan",
+      "target": "@tauri-apps/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "janhq/jan",
+      "target": "@vitest/coverage-v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "janhq/jan",
+      "target": "cpx",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "janhq/jan",
+      "target": "cross-env",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "janhq/jan",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "janhq/jan",
+      "target": "jsdom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "janhq/jan",
+      "target": "rimraf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "janhq/jan",
+      "target": "run-script-os",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "janhq/jan",
+      "target": "tar",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "janhq/jan",
+      "target": "unzipper",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "janhq/jan",
+      "target": "vitest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-assign-author.yml",
+      "source_repo": "janhq/jan",
+      "target": "toshimaru/auto-author-assign@v1.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-assign-author.yml",
+      "source_repo": "janhq/jan",
+      "target": "Auto Assign Author",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-assign-milestone.yml",
+      "source_repo": "janhq/jan",
+      "target": "actions/github-script@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-assign-milestone.yml",
+      "source_repo": "janhq/jan",
+      "target": "Assign Milestone",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-label-conventional-commits.yaml",
+      "source_repo": "janhq/jan",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-label-conventional-commits.yaml",
+      "source_repo": "janhq/jan",
+      "target": "Auto Label Conventional Commits",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autoqa-manual-trigger.yml",
+      "source_repo": "janhq/jan",
+      "target": "Manual trigger AutoQA Test Runner",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoqa-migration.yml",
+      "source_repo": "janhq/jan",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoqa-migration.yml",
+      "source_repo": "janhq/jan",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoqa-migration.yml",
+      "source_repo": "janhq/jan",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autoqa-migration.yml",
+      "source_repo": "janhq/jan",
+      "target": "AutoQA Migration (Manual)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoqa-reliability.yml",
+      "source_repo": "janhq/jan",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoqa-reliability.yml",
+      "source_repo": "janhq/jan",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoqa-reliability.yml",
+      "source_repo": "janhq/jan",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autoqa-reliability.yml",
+      "source_repo": "janhq/jan",
+      "target": "AutoQA Reliability (Manual)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoqa-template.yml",
+      "source_repo": "janhq/jan",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoqa-template.yml",
+      "source_repo": "janhq/jan",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoqa-template.yml",
+      "source_repo": "janhq/jan",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoqa-template.yml",
+      "source_repo": "janhq/jan",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autoqa-template.yml",
+      "source_repo": "janhq/jan",
+      "target": "Auto QA Test Runner Template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clean-cloudflare-page-preview-url-and-r2.yml",
+      "source_repo": "janhq/jan",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clean-cloudflare-page-preview-url-and-r2.yml",
+      "source_repo": "janhq/jan",
+      "target": "jannekem/run-python-script-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "janhq/jan",
+      "target": "chatgpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "janhq/jan",
+      "target": "llamacpp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "janhq/jan",
+      "target": "localai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "janhq/jan",
+      "target": "open-source",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "janhq/jan",
+      "target": "self-hosted",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "janhq/jan",
+      "target": "tauri",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:11:31.209466+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5734
+    },
+    {
+      "path": "package.json",
+      "size": 4334
+    },
+    {
+      "path": ".github/workflows/auto-assign-author.yml",
+      "size": 429
+    },
+    {
+      "path": ".github/workflows/auto-assign-milestone.yml",
+      "size": 1475
+    },
+    {
+      "path": ".github/workflows/auto-label-conventional-commits.yaml",
+      "size": 1174
+    },
+    {
+      "path": ".github/workflows/autoqa-manual-trigger.yml",
+      "size": 1262
+    },
+    {
+      "path": ".github/workflows/autoqa-migration.yml",
+      "size": 10576
+    },
+    {
+      "path": ".github/workflows/autoqa-reliability.yml",
+      "size": 4094
+    },
+    {
+      "path": ".github/workflows/autoqa-template.yml",
+      "size": 16688
+    },
+    {
+      "path": ".github/workflows/clean-cloudflare-page-preview-url-and-r2.yml",
+      "size": 2045
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.",
+    "fork": false,
+    "full_name": "janhq/jan",
+    "html_url": "https://github.com/janhq/jan",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-30T03:45:51Z",
+    "stargazers_count": 42283,
+    "topics": [
+      "chatgpt",
+      "gpt",
+      "llamacpp",
+      "llm",
+      "localai",
+      "open-source",
+      "self-hosted",
+      "tauri"
+    ],
+    "updated_at": "2026-04-30T14:30:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggerganov/llama.cpp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Auto Assign Author\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-assign-author.yml",
+      "term": "Auto Assign Author"
+    },
+    {
+      "context_snippet": "Assign Milestone",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-assign-milestone.yml",
+      "term": "Assign Milestone"
+    },
+    {
+      "context_snippet": "\"Auto Label Conventional Commits\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-label-conventional-commits.yaml",
+      "term": "Auto Label Conventional Commits"
+    },
+    {
+      "context_snippet": "Manual trigger AutoQA Test Runner",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autoqa-manual-trigger.yml",
+      "term": "Manual trigger AutoQA Test Runner"
+    },
+    {
+      "context_snippet": "AutoQA Migration (Manual)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autoqa-migration.yml",
+      "term": "AutoQA Migration (Manual)"
+    },
+    {
+      "context_snippet": "AutoQA Reliability (Manual)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autoqa-reliability.yml",
+      "term": "AutoQA Reliability (Manual)"
+    },
+    {
+      "context_snippet": "Auto QA Test Runner Template",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autoqa-template.yml",
+      "term": "Auto QA Test Runner Template"
+    },
+    {
+      "context_snippet": "<img width=\"2048\" height=\"280\" alt=\"github jan banner\" src=\"https://github.com/user-attachments/assets/f3f87889-c133-433b-b250-236218150d3f\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatgpt"
+    },
+    {
+      "context_snippet": "<img width=\"2048\" height=\"280\" alt=\"github jan banner\" src=\"https://github.com/user-attachments/assets/f3f87889-c133-433b-b250-236218150d3f\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llamacpp"
+    },
+    {
+      "context_snippet": "<img width=\"2048\" height=\"280\" alt=\"github jan banner\" src=\"https://github.com/user-attachments/assets/f3f87889-c133-433b-b250-236218150d3f\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "localai"
+    },
+    {
+      "context_snippet": "<img width=\"2048\" height=\"280\" alt=\"github jan banner\" src=\"https://github.com/user-attachments/assets/f3f87889-c133-433b-b250-236218150d3f\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-source"
+    },
+    {
+      "context_snippet": "<img width=\"2048\" height=\"280\" alt=\"github jan banner\" src=\"https://github.com/user-attachments/assets/f3f87889-c133-433b-b250-236218150d3f\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "self-hosted"
+    },
+    {
+      "context_snippet": "<img width=\"2048\" height=\"280\" alt=\"github jan banner\" src=\"https://github.com/user-attachments/assets/f3f87889-c133-433b-b250-236218150d3f\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tauri"
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-brev-tutorial-docker-images.yml",
+      "source_repo": "NVIDIA/accelerated-computing-hub",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-brev-tutorial-docker-images.yml",
+      "source_repo": "NVIDIA/accelerated-computing-hub",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-brev-tutorial-docker-images.yml",
+      "source_repo": "NVIDIA/accelerated-computing-hub",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-brev-tutorial-docker-images.yml",
+      "source_repo": "NVIDIA/accelerated-computing-hub",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-brev-tutorial-docker-images.yml",
+      "source_repo": "NVIDIA/accelerated-computing-hub",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-brev-tutorial-docker-images.yml",
+      "source_repo": "NVIDIA/accelerated-computing-hub",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-brev-tutorial-docker-images.yml",
+      "source_repo": "NVIDIA/accelerated-computing-hub",
+      "target": "nick-fields/retry@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror-base-images.yml",
+      "source_repo": "NVIDIA/accelerated-computing-hub",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mirror-base-images.yml",
+      "source_repo": "NVIDIA/accelerated-computing-hub",
+      "target": "Mirror Base Images to GHCR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-comment-fork.yml",
+      "source_repo": "NVIDIA/accelerated-computing-hub",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-comment-fork.yml",
+      "source_repo": "NVIDIA/accelerated-computing-hub",
+      "target": "PR Comment on Forks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-comment-git-lfs.yml",
+      "source_repo": "NVIDIA/accelerated-computing-hub",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-comment-git-lfs.yml",
+      "source_repo": "NVIDIA/accelerated-computing-hub",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-comment-git-lfs.yml",
+      "source_repo": "NVIDIA/accelerated-computing-hub",
+      "target": "PR Comment on Git LFS Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-comment-git-signatures.yml",
+      "source_repo": "NVIDIA/accelerated-computing-hub",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-comment-git-signatures.yml",
+      "source_repo": "NVIDIA/accelerated-computing-hub",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-comment-git-signatures.yml",
+      "source_repo": "NVIDIA/accelerated-computing-hub",
+      "target": "PR Comment on Git Signatures Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-comment-links.yml",
+      "source_repo": "NVIDIA/accelerated-computing-hub",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-comment-links.yml",
+      "source_repo": "NVIDIA/accelerated-computing-hub",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-comment-links.yml",
+      "source_repo": "NVIDIA/accelerated-computing-hub",
+      "target": "PR Comment on Link Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-comment-notebook-format.yml",
+      "source_repo": "NVIDIA/accelerated-computing-hub",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-comment-notebook-format.yml",
+      "source_repo": "NVIDIA/accelerated-computing-hub",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-comment-notebook-format.yml",
+      "source_repo": "NVIDIA/accelerated-computing-hub",
+      "target": "PR Comment on Notebook Format Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-comment-yaml.yml",
+      "source_repo": "NVIDIA/accelerated-computing-hub",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-comment-yaml.yml",
+      "source_repo": "NVIDIA/accelerated-computing-hub",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-brev-tutorial-docker-images.yml",
+      "source_repo": "NVIDIA/accelerated-computing-hub",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-brev-tutorial-docker-images.yml",
+      "source_repo": "NVIDIA/accelerated-computing-hub",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-brev-tutorial-docker-images.yml",
+      "source_repo": "NVIDIA/accelerated-computing-hub",
+      "target": "dawidd6/action-download-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-brev-tutorial-docker-images.yml",
+      "source_repo": "NVIDIA/accelerated-computing-hub",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-brev-tutorial-docker-images.yml",
+      "source_repo": "NVIDIA/accelerated-computing-hub",
+      "target": "Test Brev Tutorial Docker Images",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T12:45:20.475770+00:00",
+  "source_repo": "NVIDIA/accelerated-computing-hub"
+}

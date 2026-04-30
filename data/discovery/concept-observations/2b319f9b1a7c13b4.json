@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Pytorch implementation of 2D Discrete Wavelet (DWT) and Dual Tree Complex Wavelet Transforms (DTCWT) and a DTCWT based ScatterNet"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "2D Wavelet Transforms in Pytorch"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "2D Wavelet Transforms in Pytorch"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040968,
+      "status": "candidate",
+      "text": "ripple"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040768,
+      "status": "candidate",
+      "text": "rippling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39988431,
+      "status": "candidate",
+      "text": "riffle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30009424,
+      "status": "candidate",
+      "text": "haar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20041032,
+      "status": "candidate",
+      "text": "wimple"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "wavelet",
+      "sense_id": "wavelet#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23048,
+      "status": "candidate",
+      "text": "ripple"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23039,
+      "status": "candidate",
+      "text": "riffle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4024,
+      "status": "candidate",
+      "text": "rippling"
+    }
+  ],
+  "concept_id": "wavelet",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "wavelet",
+  "observation_id": "2b319f9b1a7c13b4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "wavelet",
+  "source_context_snippet": "2D Wavelet Transforms in Pytorch",
+  "source_file": null,
+  "source_repo": "fbcotter/pytorch_wavelets",
+  "source_repo_description": "Pytorch implementation of 2D Discrete Wavelet (DWT) and Dual Tree Complex Wavelet Transforms (DTCWT) and a DTCWT based ScatterNet"
+}

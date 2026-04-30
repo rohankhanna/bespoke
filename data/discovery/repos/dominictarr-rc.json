@@ -1,0 +1,106 @@
+{
+  "components": [
+    {
+      "component": "deep-extend",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ini",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "minimist",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "strip-json-comments",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dominictarr/rc",
+      "target": "sindresorhus/strip-json-comments",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dominictarr/rc",
+      "target": "anselanza/parse-strings-in-object",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "dominictarr/rc",
+      "target": "deep-extend",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "dominictarr/rc",
+      "target": "ini",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "dominictarr/rc",
+      "target": "minimist",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "dominictarr/rc",
+      "target": "strip-json-comments",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:59:54.048270+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5982
+    },
+    {
+      "path": "package.json",
+      "size": 695
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The non-configurable configuration loader for lazy people.",
+    "fork": false,
+    "full_name": "dominictarr/rc",
+    "html_url": "https://github.com/dominictarr/rc",
+    "language": "JavaScript",
+    "pushed_at": "2022-03-30T18:01:10Z",
+    "stargazers_count": 1026,
+    "topics": [],
+    "updated_at": "2026-04-29T23:52:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "anselanza/parse-strings-in-object",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sindresorhus/strip-json-comments",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

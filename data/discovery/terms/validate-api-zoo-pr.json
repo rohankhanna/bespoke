@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/validate-apizoo-contribution.yml",
+      "source_repo": "ShishirPatil/gorilla"
+    }
+  ],
+  "term": "Validate API Zoo PR"
+}

@@ -1,0 +1,432 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml"
+    },
+    {
+      "component": "korthout/backport-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/badge-apo.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/badge-apo.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/badge-azure.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/badge-azure.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/badge-calc-x.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/badge-calc-x.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/badge-chartqa.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/badge-chartqa.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/badge-claude-code.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/badge-claude-code.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/badge-compat.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/badge-compat.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/badge-examples.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/badge-examples.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/agent-lightning",
+      "target": "af-74413592/deepwerewolf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/agent-lightning",
+      "target": "tencentcloudadp/youtu-agent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "microsoft/agent-lightning",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "microsoft/agent-lightning",
+      "target": "korthout/backport-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "microsoft/agent-lightning",
+      "target": "Backport Merged Pull Request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/badge-apo.yml",
+      "source_repo": "microsoft/agent-lightning",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/badge-apo.yml",
+      "source_repo": "microsoft/agent-lightning",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/badge-apo.yml",
+      "source_repo": "microsoft/agent-lightning",
+      "target": "Badge - APO",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/badge-azure.yml",
+      "source_repo": "microsoft/agent-lightning",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/badge-azure.yml",
+      "source_repo": "microsoft/agent-lightning",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/badge-azure.yml",
+      "source_repo": "microsoft/agent-lightning",
+      "target": "Badge - Azure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/badge-calc-x.yml",
+      "source_repo": "microsoft/agent-lightning",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/badge-calc-x.yml",
+      "source_repo": "microsoft/agent-lightning",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/badge-calc-x.yml",
+      "source_repo": "microsoft/agent-lightning",
+      "target": "Badge - Calc-X",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/badge-chartqa.yml",
+      "source_repo": "microsoft/agent-lightning",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/badge-chartqa.yml",
+      "source_repo": "microsoft/agent-lightning",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/badge-chartqa.yml",
+      "source_repo": "microsoft/agent-lightning",
+      "target": "Badge - ChartQA",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/badge-claude-code.yml",
+      "source_repo": "microsoft/agent-lightning",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/badge-claude-code.yml",
+      "source_repo": "microsoft/agent-lightning",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/badge-claude-code.yml",
+      "source_repo": "microsoft/agent-lightning",
+      "target": "Badge - Claude Code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/badge-compat.yml",
+      "source_repo": "microsoft/agent-lightning",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/badge-compat.yml",
+      "source_repo": "microsoft/agent-lightning",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/badge-compat.yml",
+      "source_repo": "microsoft/agent-lightning",
+      "target": "Badge - Compatibility",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/badge-examples.yml",
+      "source_repo": "microsoft/agent-lightning",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/badge-examples.yml",
+      "source_repo": "microsoft/agent-lightning",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/badge-examples.yml",
+      "source_repo": "microsoft/agent-lightning",
+      "target": "Badge - Examples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/agent-lightning",
+      "target": "agentic-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/agent-lightning",
+      "target": "mlops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/agent-lightning",
+      "target": "reinforcement-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:13:52.180051+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9914
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 8738
+    },
+    {
+      "path": ".github/workflows/backport.yml",
+      "size": 973
+    },
+    {
+      "path": ".github/workflows/badge-apo.yml",
+      "size": 831
+    },
+    {
+      "path": ".github/workflows/badge-azure.yml",
+      "size": 829
+    },
+    {
+      "path": ".github/workflows/badge-calc-x.yml",
+      "size": 843
+    },
+    {
+      "path": ".github/workflows/badge-chartqa.yml",
+      "size": 837
+    },
+    {
+      "path": ".github/workflows/badge-claude-code.yml",
+      "size": 853
+    },
+    {
+      "path": ".github/workflows/badge-compat.yml",
+      "size": 875
+    },
+    {
+      "path": ".github/workflows/badge-examples.yml",
+      "size": 1907
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The absolute trainer to light up AI agents.",
+    "fork": false,
+    "full_name": "microsoft/agent-lightning",
+    "html_url": "https://github.com/microsoft/agent-lightning",
+    "language": "Python",
+    "pushed_at": "2026-04-29T06:32:24Z",
+    "stargazers_count": 17069,
+    "topics": [
+      "agent",
+      "agentic-ai",
+      "llm",
+      "mlops",
+      "reinforcement-learning"
+    ],
+    "updated_at": "2026-04-30T14:20:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "af-74413592/deepwerewolf",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tencentcloudadp/youtu-agent",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Backport Merged Pull Request",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport.yml",
+      "term": "Backport Merged Pull Request"
+    },
+    {
+      "context_snippet": "Badge - APO",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/badge-apo.yml",
+      "term": "Badge - APO"
+    },
+    {
+      "context_snippet": "Badge - Azure",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/badge-azure.yml",
+      "term": "Badge - Azure"
+    },
+    {
+      "context_snippet": "Badge - Calc-X",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/badge-calc-x.yml",
+      "term": "Badge - Calc-X"
+    },
+    {
+      "context_snippet": "Badge - ChartQA",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/badge-chartqa.yml",
+      "term": "Badge - ChartQA"
+    },
+    {
+      "context_snippet": "Badge - Claude Code",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/badge-claude-code.yml",
+      "term": "Badge - Claude Code"
+    },
+    {
+      "context_snippet": "Badge - Compatibility",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/badge-compat.yml",
+      "term": "Badge - Compatibility"
+    },
+    {
+      "context_snippet": "Badge - Examples",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/badge-examples.yml",
+      "term": "Badge - Examples"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agentic-ai"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mlops"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reinforcement-learning"
+    }
+  ]
+}

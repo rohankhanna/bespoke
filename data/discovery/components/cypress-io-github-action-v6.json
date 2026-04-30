@@ -1,7 +1,7 @@
 {
   "component": "cypress-io/github-action@v6",
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -22,6 +22,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/integration-test.disabled",
       "source_repo": "open-webui/open-webui"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e_testing.yml",
+      "source_repo": "LekoArts/gatsby-themes"
     }
   ]
 }

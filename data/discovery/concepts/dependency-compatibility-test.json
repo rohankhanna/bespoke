@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Dependency Compatibility Test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "googleapis/sdk-platform-java",
+      "status": "candidate-context",
+      "text": "Tooling and shared libraries for Cloud SDK for Java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/sdk-platform-java",
+      "status": "candidate-context",
+      "text": "Dependency Compatibility Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/sdk-platform-java",
+      "status": "candidate",
+      "text": "Dependency Compatibility Test"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20549,
+      "status": "candidate",
+      "text": "dependence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20505,
+      "status": "candidate",
+      "text": "unit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19955,
+      "status": "candidate",
+      "text": "meter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19934,
+      "status": "candidate",
+      "text": "ab-"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19934,
+      "status": "candidate",
+      "text": "absolute unit"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Dependency Compatibility Test",
+  "concept_id": "dependency-compatibility-test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/dependency_compatibility_test.yaml",
+      "source_repo": "googleapis/sdk-platform-java"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Dependency Compatibility Test",
+      "sense_id": "dependency-compatibility-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

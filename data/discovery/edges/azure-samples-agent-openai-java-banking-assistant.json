@@ -1,0 +1,174 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Azure-Samples/agent-openai-java-banking-assistant",
+      "target": "azure-samples/azure-search-openai-java",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Azure-Samples/agent-openai-java-banking-assistant",
+      "target": "azure-samples/azureai-samples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aca-deploy.yaml",
+      "source_repo": "Azure-Samples/agent-openai-java-banking-assistant",
+      "target": "azure/login@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aca-deploy.yaml",
+      "source_repo": "Azure-Samples/agent-openai-java-banking-assistant",
+      "target": "azure/container-apps-deploy-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/aca-deploy.yaml",
+      "source_repo": "Azure-Samples/agent-openai-java-banking-assistant",
+      "target": "Reusable Azure Container Apps deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acr-build-push.yaml",
+      "source_repo": "Azure-Samples/agent-openai-java-banking-assistant",
+      "target": "azure/login@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acr-build-push.yaml",
+      "source_repo": "Azure-Samples/agent-openai-java-banking-assistant",
+      "target": "azure/docker-login@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acr-build-push.yaml",
+      "source_repo": "Azure-Samples/agent-openai-java-banking-assistant",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/acr-build-push.yaml",
+      "source_repo": "Azure-Samples/agent-openai-java-banking-assistant",
+      "target": "Reusable ACR Build and Push workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev.yaml",
+      "source_repo": "Azure-Samples/agent-openai-java-banking-assistant",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev.yaml",
+      "source_repo": "Azure-Samples/agent-openai-java-banking-assistant",
+      "target": "dorny/paths-filter@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/infra-ci.yaml",
+      "source_repo": "Azure-Samples/agent-openai-java-banking-assistant",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/infra-ci.yaml",
+      "source_repo": "Azure-Samples/agent-openai-java-banking-assistant",
+      "target": "dorny/paths-filter@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/infra-ci.yaml",
+      "source_repo": "Azure-Samples/agent-openai-java-banking-assistant",
+      "target": "azure/CLI@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/infra-ci.yaml",
+      "source_repo": "Azure-Samples/agent-openai-java-banking-assistant",
+      "target": "microsoft/security-devops-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/infra-ci.yaml",
+      "source_repo": "Azure-Samples/agent-openai-java-banking-assistant",
+      "target": "github/codeql-action/upload-sarif@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/infra-ci.yaml",
+      "source_repo": "Azure-Samples/agent-openai-java-banking-assistant",
+      "target": "Azure/setup-azd@v0.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/infra-ci.yaml",
+      "source_repo": "Azure-Samples/agent-openai-java-banking-assistant",
+      "target": "Infra CI Pipeline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure-Samples/agent-openai-java-banking-assistant",
+      "target": "ai-azd-templates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure-Samples/agent-openai-java-banking-assistant",
+      "target": "azd-templates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure-Samples/agent-openai-java-banking-assistant",
+      "target": "azure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure-Samples/agent-openai-java-banking-assistant",
+      "target": "gpt-4o",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure-Samples/agent-openai-java-banking-assistant",
+      "target": "gpt-4o-mini",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure-Samples/agent-openai-java-banking-assistant",
+      "target": "java",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T12:45:20.475770+00:00",
+  "source_repo": "Azure-Samples/agent-openai-java-banking-assistant"
+}

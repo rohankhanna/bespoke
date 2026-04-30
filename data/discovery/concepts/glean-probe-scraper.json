@@ -67,6 +67,18 @@
       "source_repo": "mozilla-mobile/fenix",
       "status": "candidate-context",
       "text": "Glean probe-scraper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla/application-services",
+      "status": "candidate-context",
+      "text": "Firefox Application Services"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla/application-services",
+      "status": "candidate-context",
+      "text": "Glean probe-scraper"
     }
   ],
   "candidate_glosses": [
@@ -97,6 +109,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "mozilla-mobile/fenix",
+      "status": "candidate",
+      "text": "Glean probe-scraper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla/application-services",
       "status": "candidate",
       "text": "Glean probe-scraper"
     }
@@ -172,11 +190,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/glean-probe-scraper.yml",
       "source_repo": "mozilla-mobile/fenix"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/glean-probe-scraper.yml",
+      "source_repo": "mozilla/application-services"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

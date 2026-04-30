@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T13:00:44.130681+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4725
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\udcc1  A proposal for the .config/ directory.",
+    "fork": false,
+    "full_name": "pi0/config-dir",
+    "html_url": "https://github.com/pi0/config-dir",
+    "language": null,
+    "pushed_at": "2024-11-26T20:59:39Z",
+    "stargazers_count": 745,
+    "topics": [],
+    "updated_at": "2026-04-29T20:00:22Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

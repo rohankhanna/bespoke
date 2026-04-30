@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "geolocation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rgeo/rgeo",
+      "status": "candidate-context",
+      "text": "Geospatial data library for Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rgeo/rgeo",
+      "status": "candidate-context",
+      "text": "[![Gem Version](https://badge.fury.io/rb/rgeo.svg)](http://badge.fury.io/rb/rgeo)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rgeo/rgeo",
+      "status": "candidate",
+      "text": "[![Gem Version](https://badge.fury.io/rb/rgeo.svg)](http://badge.fury.io/rb/rgeo)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10016976,
+      "status": "candidate",
+      "text": "histolocalization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10016975,
+      "status": "candidate",
+      "text": "cytolocation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10016974,
+      "status": "candidate",
+      "text": "echolocalization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10016973,
+      "status": "candidate",
+      "text": "biogeography"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10016972,
+      "status": "candidate",
+      "text": "biologging"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "geolocation",
+  "concept_id": "geolocation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "rgeo/rgeo"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "geolocation",
+      "sense_id": "geolocation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

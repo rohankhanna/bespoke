@@ -1,0 +1,302 @@
+{
+  "components": [
+    {
+      "component": "go-openapi/ci-workflows/.github/workflows/auto-merge.yml@6ed4490472a56b1d952231565aac80f13c2d143c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge.yml"
+    },
+    {
+      "component": "go-openapi/ci-workflows/.github/workflows/bump-release-monorepo.yml@6ed4490472a56b1d952231565aac80f13c2d143c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-release.yml"
+    },
+    {
+      "component": "go-openapi/ci-workflows/.github/workflows/codeql.yml@6ed4490472a56b1d952231565aac80f13c2d143c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "go-openapi/ci-workflows/.github/workflows/contributors.yml@6ed4490472a56b1d952231565aac80f13c2d143c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contributors.yml"
+    },
+    {
+      "component": "go-openapi/ci-workflows/.github/workflows/go-test-monorepo.yml@6ed4490472a56b1d952231565aac80f13c2d143c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml"
+    },
+    {
+      "component": "go-openapi/ci-workflows/.github/workflows/collect-coverage.yml@6ed4490472a56b1d952231565aac80f13c2d143c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml"
+    },
+    {
+      "component": "go-openapi/ci-workflows/.github/workflows/scanner.yml@6ed4490472a56b1d952231565aac80f13c2d143c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scanner.yml"
+    },
+    {
+      "component": "go-openapi/ci-workflows/.github/workflows/release.yml@6ed4490472a56b1d952231565aac80f13c2d143c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag-release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "go-openapi/strfmt",
+      "target": "go-openapi/ci-workflows/.github/workflows/auto-merge.yml@6ed4490472a56b1d952231565aac80f13c2d143c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "go-openapi/strfmt",
+      "target": "Dependabot auto-merge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-release.yml",
+      "source_repo": "go-openapi/strfmt",
+      "target": "go-openapi/ci-workflows/.github/workflows/bump-release-monorepo.yml@6ed4490472a56b1d952231565aac80f13c2d143c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump-release.yml",
+      "source_repo": "go-openapi/strfmt",
+      "target": "Bump Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "go-openapi/strfmt",
+      "target": "go-openapi/ci-workflows/.github/workflows/codeql.yml@6ed4490472a56b1d952231565aac80f13c2d143c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "go-openapi/strfmt",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contributors.yml",
+      "source_repo": "go-openapi/strfmt",
+      "target": "go-openapi/ci-workflows/.github/workflows/contributors.yml@6ed4490472a56b1d952231565aac80f13c2d143c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/contributors.yml",
+      "source_repo": "go-openapi/strfmt",
+      "target": "Contributors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-test.yml",
+      "source_repo": "go-openapi/strfmt",
+      "target": "go-openapi/ci-workflows/.github/workflows/go-test-monorepo.yml@6ed4490472a56b1d952231565aac80f13c2d143c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go-test.yml",
+      "source_repo": "go-openapi/strfmt",
+      "target": "go test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "go-openapi/strfmt",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "go-openapi/strfmt",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "go-openapi/strfmt",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "go-openapi/strfmt",
+      "target": "go-openapi/ci-workflows/.github/workflows/collect-coverage.yml@6ed4490472a56b1d952231565aac80f13c2d143c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "go-openapi/strfmt",
+      "target": "integration test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scanner.yml",
+      "source_repo": "go-openapi/strfmt",
+      "target": "go-openapi/ci-workflows/.github/workflows/scanner.yml@6ed4490472a56b1d952231565aac80f13c2d143c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scanner.yml",
+      "source_repo": "go-openapi/strfmt",
+      "target": "Vulnerability scans",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag-release.yml",
+      "source_repo": "go-openapi/strfmt",
+      "target": "go-openapi/ci-workflows/.github/workflows/release.yml@6ed4490472a56b1d952231565aac80f13c2d143c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tag-release.yml",
+      "source_repo": "go-openapi/strfmt",
+      "target": "Release on tag",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:06:37.861031+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9028
+    },
+    {
+      "path": "go.mod",
+      "size": 320
+    },
+    {
+      "path": ".github/workflows/auto-merge.yml",
+      "size": 306
+    },
+    {
+      "path": ".github/workflows/bump-release.yml",
+      "size": 1033
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 473
+    },
+    {
+      "path": ".github/workflows/contributors.yml",
+      "size": 344
+    },
+    {
+      "path": ".github/workflows/go-test.yml",
+      "size": 286
+    },
+    {
+      "path": ".github/workflows/integration-test.yml",
+      "size": 2470
+    },
+    {
+      "path": ".github/workflows/scanner.yml",
+      "size": 382
+    },
+    {
+      "path": ".github/workflows/tag-release.yml",
+      "size": 381
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "openapi toolkit common string formats",
+    "fork": false,
+    "full_name": "go-openapi/strfmt",
+    "html_url": "https://github.com/go-openapi/strfmt",
+    "language": "Go",
+    "pushed_at": "2026-04-29T11:38:46Z",
+    "stargazers_count": 111,
+    "topics": [],
+    "updated_at": "2026-04-29T11:38:11Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Dependabot auto-merge",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "term": "Dependabot auto-merge"
+    },
+    {
+      "context_snippet": "Bump Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump-release.yml",
+      "term": "Bump Release"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Contributors",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/contributors.yml",
+      "term": "Contributors"
+    },
+    {
+      "context_snippet": "go test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go-test.yml",
+      "term": "go test"
+    },
+    {
+      "context_snippet": "integration test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-test.yml",
+      "term": "integration test"
+    },
+    {
+      "context_snippet": "Vulnerability scans",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scanner.yml",
+      "term": "Vulnerability scans"
+    },
+    {
+      "context_snippet": "Release on tag",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tag-release.yml",
+      "term": "Release on tag"
+    }
+  ]
+}

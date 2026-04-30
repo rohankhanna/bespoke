@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "laksjdjf/IPAdapter-ComfyUI",
+      "target": "comfyanonymous/comfyui",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:07:08.390629+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2081
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "experimental",
+    "fork": false,
+    "full_name": "laksjdjf/IPAdapter-ComfyUI",
+    "html_url": "https://github.com/laksjdjf/IPAdapter-ComfyUI",
+    "language": "Python",
+    "pushed_at": "2023-11-10T07:42:26Z",
+    "stargazers_count": 224,
+    "topics": [],
+    "updated_at": "2026-04-28T11:49:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "comfyanonymous/comfyui",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

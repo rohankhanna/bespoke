@@ -1,7 +1,7 @@
 {
   "component": "peter-evans/create-pull-request@v8",
   "first_seen_at": "2026-04-18T09:17:12.863479+00:00",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -452,6 +452,96 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/prepare-release-v1.yml",
       "source_repo": "swagger-api/swagger-parser"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_update_dependencies.yml",
+      "source_repo": "flagos-ai/Megatron-LM-FL"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bump-releases.yaml",
+      "source_repo": "macisamuele/language-formatters-pre-commit-hooks"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/generate.yaml",
+      "source_repo": "rhysd/actionlint"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-translations.yml",
+      "source_repo": "navidrome/navidrome"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cleanup-overrides.yaml",
+      "source_repo": "kubeflow/sdk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bibtex.yml",
+      "source_repo": "eclipse-sumo/sumo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/i18n.yml",
+      "source_repo": "eclipse-sumo/sumo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/data-update_config-managed-rules.yml",
+      "source_repo": "getmoto/moto"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/data-update_ec2-instance-offerings.yml",
+      "source_repo": "getmoto/moto"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/data-update_ec2-instance-types.yml",
+      "source_repo": "getmoto/moto"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/data-update_emr_instance_types.yml",
+      "source_repo": "getmoto/moto"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release.yml",
+      "source_repo": "swagger-api/swagger-core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "swagger-api/swagger-core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/next-snapshot-v1.yml",
+      "source_repo": "swagger-api/swagger-inflector"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/next-snapshot.yml",
+      "source_repo": "swagger-api/swagger-inflector"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release-v1.yml",
+      "source_repo": "swagger-api/swagger-inflector"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release.yml",
+      "source_repo": "swagger-api/swagger-inflector"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/autogenerate.yml",
+      "source_repo": "mason-org/mason-lspconfig.nvim"
     }
   ]
 }

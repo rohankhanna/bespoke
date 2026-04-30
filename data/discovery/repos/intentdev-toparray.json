@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T15:08:37.453127+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2135
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Small set of tools to facilitate CUDA memory operations with TOPs",
+    "fork": false,
+    "full_name": "IntentDev/TopArray",
+    "html_url": "https://github.com/IntentDev/TopArray",
+    "language": "Python",
+    "pushed_at": "2024-04-01T05:59:34Z",
+    "stargazers_count": 39,
+    "topics": [],
+    "updated_at": "2025-12-16T21:47:08Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -343,6 +343,54 @@
       "source_repo": "metatool-ai/metamcp",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "navidrome/navidrome",
+      "status": "candidate-context",
+      "text": "\ud83c\udfa7 Your Personal Streaming Service "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "navidrome/navidrome",
+      "status": "candidate-context",
+      "text": "<a href=\"https://www.navidrome.org\"><img src=\"resources/logo-192x192.png\" alt=\"Navidrome logo\" title=\"navidrome\" align=\"right\" height=\"60px\" /></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "devfake/flox",
+      "status": "candidate-context",
+      "text": "Self Hosted Movie, Series and Anime Watch List"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devfake/flox",
+      "status": "candidate-context",
+      "text": "Flox"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FuzzyGrim/Yamtrack",
+      "status": "candidate-context",
+      "text": "A self hosted media tracker."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FuzzyGrim/Yamtrack",
+      "status": "candidate-context",
+      "text": "![App Tests](https://github.com/FuzzyGrim/Yamtrack/actions/workflows/app-tests.yml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "janhq/jan",
+      "status": "candidate-context",
+      "text": "Jan is an open source alternative to ChatGPT that runs 100% offline on your computer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "janhq/jan",
+      "status": "candidate-context",
+      "text": "<img width=\"2048\" height=\"280\" alt=\"github jan banner\" src=\"https://github.com/user-attachments/assets/f3f87889-c133-433b-b250-236218150d3f\" />"
     }
   ],
   "candidate_glosses": [
@@ -513,6 +561,30 @@
       "source_repo": "metatool-ai/metamcp",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "navidrome/navidrome",
+      "status": "candidate",
+      "text": "<a href=\"https://www.navidrome.org\"><img src=\"resources/logo-192x192.png\" alt=\"Navidrome logo\" title=\"navidrome\" align=\"right\" height=\"60px\" /></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devfake/flox",
+      "status": "candidate",
+      "text": "Flox"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FuzzyGrim/Yamtrack",
+      "status": "candidate",
+      "text": "![App Tests](https://github.com/FuzzyGrim/Yamtrack/actions/workflows/app-tests.yml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "janhq/jan",
+      "status": "candidate",
+      "text": "<img width=\"2048\" height=\"280\" alt=\"github jan banner\" src=\"https://github.com/user-attachments/assets/f3f87889-c133-433b-b250-236218150d3f\" />"
     }
   ],
   "candidate_related_terms": [
@@ -782,11 +854,47 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "aden-hive/hive"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "navidrome/navidrome"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "aden-hive/hive"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ChristopherHX/runner.server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "devfake/flox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "FuzzyGrim/Yamtrack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "janhq/jan"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

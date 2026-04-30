@@ -283,6 +283,42 @@
       "source_repo": "datawhalechina/self-llm",
       "status": "candidate-context",
       "text": "<div align=center>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EricLBuehler/xlora",
+      "status": "candidate-context",
+      "text": "X-LoRA: Mixture of LoRA Experts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EricLBuehler/xlora",
+      "status": "candidate-context",
+      "text": "Mixture of LoRA Experts: Leverage the power of fine-tuned LoRA experts by employing a mixture of experts, or MoE technique."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mlpc-ucsd/BLIVA",
+      "status": "candidate-context",
+      "text": "(AAAI 2024) BLIVA: A Simple Multimodal LLM for Better Handling of Text-rich Visual Questions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlpc-ucsd/BLIVA",
+      "status": "candidate-context",
+      "text": "[Wenbo Hu*](https://gordonhu608.github.io/), [Yifan Xu*](https://yfxu.com/), [Yi Li](https://jerryli1019.github.io/), [Weiyue Li](https://weiyueli7.github.io/), [Zeyuan Chen](https://zeyuan-chen.com/), and [Zhuowen Tu](https://pages.ucsd.edu/~ztu/). *Equal Contribution"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "airaria/Visual-Chinese-LLaMA-Alpaca",
+      "status": "candidate-context",
+      "text": "\u591a\u6a21\u6001\u4e2d\u6587LLaMA&Alpaca\u5927\u8bed\u8a00\u6a21\u578b\uff08VisualCLA\uff09"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "airaria/Visual-Chinese-LLaMA-Alpaca",
+      "status": "candidate-context",
+      "text": "[**\ud83c\udde8\ud83c\uddf3\u4e2d\u6587**](./README.md) | [**\ud83c\udf10English**](./README_EN.md)"
     }
   ],
   "candidate_glosses": [
@@ -423,6 +459,24 @@
       "source_repo": "datawhalechina/self-llm",
       "status": "candidate",
       "text": "<div align=center>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EricLBuehler/xlora",
+      "status": "candidate",
+      "text": "Mixture of LoRA Experts: Leverage the power of fine-tuned LoRA experts by employing a mixture of experts, or MoE technique."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlpc-ucsd/BLIVA",
+      "status": "candidate",
+      "text": "[Wenbo Hu*](https://gordonhu608.github.io/), [Yifan Xu*](https://yfxu.com/), [Yi Li](https://jerryli1019.github.io/), [Weiyue Li](https://weiyueli7.github.io/), [Zeyuan Chen](https://zeyuan-chen.com/), and [Zhuowen Tu](https://pages.ucsd.edu/~ztu/). *Equal Contribution"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "airaria/Visual-Chinese-LLaMA-Alpaca",
+      "status": "candidate",
+      "text": "[**\ud83c\udde8\ud83c\uddf3\u4e2d\u6587**](./README.md) | [**\ud83c\udf10English**](./README_EN.md)"
     }
   ],
   "candidate_related_terms": [
@@ -706,11 +760,53 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/ms-swift"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "EricLBuehler/xlora"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/LongLoRA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "mlpc-ucsd/BLIVA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "airaria/Visual-Chinese-LLaMA-Alpaca"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "vertical-rhythm"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kyleshevlin/shevyjs",
+      "status": "candidate-context",
+      "text": "Configurable Vertical Rhythm & Typography in CSS-in-JS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kyleshevlin/shevyjs",
+      "status": "candidate-context",
+      "text": "> Perfect vertical rhythm for typography and more in CSS-in-JS"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kyleshevlin/shevyjs",
+      "status": "candidate",
+      "text": "> Perfect vertical rhythm for typography and more in CSS-in-JS"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "vertical-rhythm",
+  "concept_id": "vertical-rhythm",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "kyleshevlin/shevyjs"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vertical-rhythm",
+      "sense_id": "vertical-rhythm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

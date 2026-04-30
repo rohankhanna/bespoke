@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "aggregator"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lobsters/lobsters",
+      "status": "candidate-context",
+      "text": "Computing-focused community centered around link aggregation and discussion"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lobsters/lobsters",
+      "status": "candidate-context",
+      "text": "[Lobsters](https://lobste.rs) is a Rails codebase and uses a SQL (MariaDB in production) backend for the database."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lobsters/lobsters",
+      "status": "candidate",
+      "text": "[Lobsters](https://lobste.rs) is a Rails codebase and uses a SQL (MariaDB in production) backend for the database."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30021257,
+      "status": "candidate",
+      "text": "aggregation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30021239,
+      "status": "candidate",
+      "text": "aggregate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30020895,
+      "status": "candidate",
+      "text": "clustering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30020302,
+      "status": "candidate",
+      "text": "consolidation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30019373,
+      "status": "candidate",
+      "text": "grouping"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "aggregator",
+  "concept_id": "aggregator",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "lobsters/lobsters"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "aggregator",
+      "sense_id": "aggregator#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

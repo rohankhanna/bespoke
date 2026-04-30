@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jiaweizzhao/GaLore",
+      "target": "vita-group/q-galore",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:13:40.403511+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6012
+    },
+    {
+      "path": "requirements.txt",
+      "size": 41
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "GaLore: Memory-Efficient LLM Training by Gradient Low-Rank Projection",
+    "fork": false,
+    "full_name": "jiaweizzhao/GaLore",
+    "html_url": "https://github.com/jiaweizzhao/GaLore",
+    "language": "Python",
+    "pushed_at": "2024-10-28T18:01:54Z",
+    "stargazers_count": 1690,
+    "topics": [],
+    "updated_at": "2026-04-27T12:01:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vita-group/q-galore",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

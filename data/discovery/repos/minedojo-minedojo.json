@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MineDojo/MineDojo",
+      "target": "minedojo/taskcreationui",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:58:50.323975+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17558
+    },
+    {
+      "path": "requirements.txt",
+      "size": 205
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Building Open-Ended Embodied Agents with Internet-Scale Knowledge",
+    "fork": false,
+    "full_name": "MineDojo/MineDojo",
+    "html_url": "https://github.com/MineDojo/MineDojo",
+    "language": "Java",
+    "pushed_at": "2024-03-18T18:10:28Z",
+    "stargazers_count": 2190,
+    "topics": [],
+    "updated_at": "2026-04-29T12:25:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "minedojo/taskcreationui",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

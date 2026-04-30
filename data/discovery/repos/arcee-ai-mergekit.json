@@ -34,6 +34,13 @@
   "edges": [
     {
       "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "arcee-ai/mergekit",
+      "target": "arcee-ai/mergekit.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
       "source_file": "pyproject.toml",
       "source_repo": "arcee-ai/mergekit",
       "target": "cg123/mergekit",
@@ -96,7 +103,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T10:18:34.656674+00:00",
+  "fetched_at": "2026-04-30T15:13:34.505331+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -134,6 +141,11 @@
     "updated_at": "2026-04-30T08:52:41Z"
   },
   "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arcee-ai/mergekit.",
+      "source_file": "README.md"
+    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "cg123/mergekit",

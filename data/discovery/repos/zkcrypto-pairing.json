@@ -1,0 +1,95 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "zkcrypto/pairing",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "zkcrypto/pairing",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "zkcrypto/pairing",
+      "target": "CI checks",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:52:53.883533+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1621
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 538
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 3070
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Pairing-friendly elliptic curve library.",
+    "fork": false,
+    "full_name": "zkcrypto/pairing",
+    "html_url": "https://github.com/zkcrypto/pairing",
+    "language": "Rust",
+    "pushed_at": "2025-04-17T18:02:18Z",
+    "stargazers_count": 353,
+    "topics": [],
+    "updated_at": "2026-03-30T22:54:28Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CI checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "CI checks"
+    }
+  ]
+}

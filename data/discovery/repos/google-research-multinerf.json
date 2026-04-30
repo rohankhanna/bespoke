@@ -1,0 +1,99 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-research/multinerf",
+      "target": "google/jax",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-research/multinerf",
+      "target": "google/mipnerf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-research/multinerf",
+      "target": "rmbrualla/pycolmap",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-research/multinerf",
+      "target": "nerf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-research/multinerf",
+      "target": "neural-radiance-fields",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:04:37.595390+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12505
+    },
+    {
+      "path": "requirements.txt",
+      "size": 98
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "A Code Release for Mip-NeRF 360, Ref-NeRF, and RawNeRF",
+    "fork": false,
+    "full_name": "google-research/multinerf",
+    "html_url": "https://github.com/google-research/multinerf",
+    "language": "Python",
+    "pushed_at": "2023-12-08T20:14:39Z",
+    "stargazers_count": 3800,
+    "topics": [
+      "nerf",
+      "neural-radiance-fields"
+    ],
+    "updated_at": "2026-04-21T04:55:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/jax",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/mipnerf",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rmbrualla/pycolmap",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "*This is not an officially supported Google product.*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nerf"
+    },
+    {
+      "context_snippet": "*This is not an officially supported Google product.*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-radiance-fields"
+    }
+  ]
+}

@@ -251,7 +251,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ollama/ollama",
-      "target": "bionic-gpt/bionic-gpt",
+      "target": "chatgptnextweb/chatgpt-next-web",
       "target_type": "repository"
     },
     {
@@ -272,7 +272,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ollama/ollama",
-      "target": "brainlid/langchain",
+      "target": "cheshire-cat-ai/core",
       "target_type": "repository"
     },
     {
@@ -549,7 +549,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T08:07:32.410008+00:00",
+  "fetched_at": "2026-04-30T16:09:43.861326+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -589,8 +589,8 @@
     "full_name": "ollama/ollama",
     "html_url": "https://github.com/ollama/ollama",
     "language": "Go",
-    "pushed_at": "2026-04-30T03:33:54Z",
-    "stargazers_count": 170370,
+    "pushed_at": "2026-04-30T15:28:19Z",
+    "stargazers_count": 170397,
     "topics": [
       "deepseek",
       "gemma",
@@ -608,7 +608,7 @@
       "ollama",
       "qwen"
     ],
-    "updated_at": "2026-04-30T08:07:21Z"
+    "updated_at": "2026-04-30T15:58:38Z"
   },
   "repo_links": [
     {
@@ -623,12 +623,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "bionic-gpt/bionic-gpt",
+      "full_name": "chatgptnextweb/chatgpt-next-web",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "brainlid/langchain",
+      "full_name": "cheshire-cat-ai/core",
       "source_file": "README.md"
     }
   ],

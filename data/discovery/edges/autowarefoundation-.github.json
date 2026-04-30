@@ -1,0 +1,125 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-optional.yaml",
+      "source_repo": "autowarefoundation/.github",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-optional.yaml",
+      "source_repo": "autowarefoundation/.github",
+      "target": "autowarefoundation/autoware-github-actions/pre-commit@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit-optional.yaml",
+      "source_repo": "autowarefoundation/.github",
+      "target": "pre-commit-optional",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "autowarefoundation/.github",
+      "target": "tibdex/github-app-token@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "autowarefoundation/.github",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "autowarefoundation/.github",
+      "target": "autowarefoundation/autoware-github-actions/set-git-config@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "autowarefoundation/.github",
+      "target": "autowarefoundation/autoware-github-actions/pre-commit@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "autowarefoundation/.github",
+      "target": "pre-commit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/semantic-pull-request.yaml",
+      "source_repo": "autowarefoundation/.github",
+      "target": "autowarefoundation/autoware-github-actions/.github/workflows/semantic-pull-request.yaml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/semantic-pull-request.yaml",
+      "source_repo": "autowarefoundation/.github",
+      "target": "semantic-pull-request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spell-check-differential.yaml",
+      "source_repo": "autowarefoundation/.github",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spell-check-differential.yaml",
+      "source_repo": "autowarefoundation/.github",
+      "target": "autowarefoundation/autoware-github-actions/spell-check@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spell-check-differential.yaml",
+      "source_repo": "autowarefoundation/.github",
+      "target": "spell-check-differential",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-files.yaml",
+      "source_repo": "autowarefoundation/.github",
+      "target": "autowarefoundation/autoware-github-actions/.github/workflows/check-secret.yaml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-files.yaml",
+      "source_repo": "autowarefoundation/.github",
+      "target": "tibdex/github-app-token@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-files.yaml",
+      "source_repo": "autowarefoundation/.github",
+      "target": "autowarefoundation/autoware-github-actions/sync-files@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-files.yaml",
+      "source_repo": "autowarefoundation/.github",
+      "target": "sync-files",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T12:45:20.475770+00:00",
+  "source_repo": "autowarefoundation/.github"
+}

@@ -1,0 +1,171 @@
+{
+  "components": [
+    {
+      "component": "@petamoriken/float16",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rollup/plugin-node-resolve",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "qsrv",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup-plugin-dgnotify",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup-plugin-jsy",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup-plugin-terser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "u8-utils",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node-ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node-ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "shanewholloway/js-cbor-codec",
+      "target": "@petamoriken/float16",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "shanewholloway/js-cbor-codec",
+      "target": "@rollup/plugin-node-resolve",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "shanewholloway/js-cbor-codec",
+      "target": "qsrv",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "shanewholloway/js-cbor-codec",
+      "target": "rollup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "shanewholloway/js-cbor-codec",
+      "target": "rollup-plugin-dgnotify",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "shanewholloway/js-cbor-codec",
+      "target": "rollup-plugin-jsy",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "shanewholloway/js-cbor-codec",
+      "target": "rollup-plugin-terser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "shanewholloway/js-cbor-codec",
+      "target": "u8-utils",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node-ci.yml",
+      "source_repo": "shanewholloway/js-cbor-codec",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node-ci.yml",
+      "source_repo": "shanewholloway/js-cbor-codec",
+      "target": "actions/setup-node@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/node-ci.yml",
+      "source_repo": "shanewholloway/js-cbor-codec",
+      "target": "Node.js CI",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:11:41.832895+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3209
+    },
+    {
+      "path": "package.json",
+      "size": 1638
+    },
+    {
+      "path": ".github/workflows/node-ci.yml",
+      "size": 527
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "CBOR Codec for NodeJS and the Web.",
+    "fork": false,
+    "full_name": "shanewholloway/js-cbor-codec",
+    "html_url": "https://github.com/shanewholloway/js-cbor-codec",
+    "language": "JavaScript",
+    "pushed_at": "2024-06-17T05:54:40Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2023-11-27T17:54:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Node.js CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/node-ci.yml",
+      "term": "Node.js CI"
+    }
+  ]
+}

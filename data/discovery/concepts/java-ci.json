@@ -199,6 +199,30 @@
       "source_repo": "extism/java-sdk",
       "status": "candidate-context",
       "text": "Java CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clojure/tools.deps.alpha",
+      "status": "candidate-context",
+      "text": "A functional API for transitive dependency graph expansion and the creation of classpaths"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure/tools.deps.alpha",
+      "status": "candidate-context",
+      "text": "Java CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "classgraph/classgraph",
+      "status": "candidate-context",
+      "text": "An uber-fast parallelized Java classpath scanner and module scanner."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "classgraph/classgraph",
+      "status": "candidate-context",
+      "text": "Java CI"
     }
   ],
   "candidate_glosses": [
@@ -295,6 +319,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "extism/java-sdk",
+      "status": "candidate",
+      "text": "Java CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure/tools.deps.alpha",
+      "status": "candidate",
+      "text": "Java CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "classgraph/classgraph",
       "status": "candidate",
       "text": "Java CI"
     }
@@ -436,11 +472,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "extism/java-sdk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "clojure/tools.deps.alpha"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "classgraph/classgraph"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

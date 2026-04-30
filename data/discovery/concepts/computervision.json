@@ -43,6 +43,18 @@
       "source_repo": "taesungp/contrastive-unpaired-translation",
       "status": "candidate-context",
       "text": "<br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nightrome/cocostuffapi",
+      "status": "candidate-context",
+      "text": "COCO Stuff API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nightrome/cocostuffapi",
+      "status": "candidate-context",
+      "text": "COCO API - http://cocodataset.org/"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "taesungp/contrastive-unpaired-translation",
       "status": "candidate",
       "text": "<br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nightrome/cocostuffapi",
+      "status": "candidate",
+      "text": "COCO API - http://cocodataset.org/"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +142,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "taesungp/contrastive-unpaired-translation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "nightrome/cocostuffapi"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

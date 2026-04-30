@@ -19,6 +19,30 @@
       "source_repo": "tomchentw/imagemin-lint-staged",
       "status": "candidate-context",
       "text": "> imagemin CLI designed for lint-staged usage with sensible defaults"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "imagemin/imagemin-gifsicle",
+      "status": "candidate-context",
+      "text": "Imagemin plugin for Gifsicle"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "imagemin/imagemin-gifsicle",
+      "status": "candidate-context",
+      "text": "imagemin-gifsicle \u2014 Imagemin plugin for Gifsicle"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "imagemin/imagemin-mozjpeg",
+      "status": "candidate-context",
+      "text": "Imagemin plugin for mozjpeg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "imagemin/imagemin-mozjpeg",
+      "status": "candidate-context",
+      "text": "imagemin-mozjpeg \u2014 Imagemin plugin for mozjpeg"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "tomchentw/imagemin-lint-staged",
       "status": "candidate",
       "text": "> imagemin CLI designed for lint-staged usage with sensible defaults"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "imagemin/imagemin-gifsicle",
+      "status": "candidate",
+      "text": "imagemin-gifsicle \u2014 Imagemin plugin for Gifsicle"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "imagemin/imagemin-mozjpeg",
+      "status": "candidate",
+      "text": "imagemin-mozjpeg \u2014 Imagemin plugin for mozjpeg"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "tomchentw/imagemin-lint-staged"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "imagemin/imagemin-gifsicle"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "imagemin/imagemin-mozjpeg"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

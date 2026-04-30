@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "technobird22/TechnoBot",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "technobird22/TechnoBot",
+      "target": "discord",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "technobird22/TechnoBot",
+      "target": "discord-bot",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:53:47.842359+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1128
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A multipurpose Discord bot utilizing a variety of AI models",
+    "fork": false,
+    "full_name": "technobird22/TechnoBot",
+    "html_url": "https://github.com/technobird22/TechnoBot",
+    "language": "Python",
+    "pushed_at": "2022-05-21T04:54:41Z",
+    "stargazers_count": 14,
+    "topics": [
+      "artificial-intelligence",
+      "discord",
+      "discord-bot"
+    ],
+    "updated_at": "2025-09-25T21:39:29Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A multipurpose Discord bot that can interface with a variety of AI models.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "A multipurpose Discord bot that can interface with a variety of AI models.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "discord"
+    },
+    {
+      "context_snippet": "A multipurpose Discord bot that can interface with a variety of AI models.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "discord-bot"
+    }
+  ]
+}

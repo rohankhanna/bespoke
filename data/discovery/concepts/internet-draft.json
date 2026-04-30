@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "internet-draft"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "martinthomson/i-d-template",
+      "status": "candidate-context",
+      "text": "A template for IETF internet draft git repositories"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "martinthomson/i-d-template",
+      "status": "candidate-context",
+      "text": "The contents of this repository can be used to manage the editing of an"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "martinthomson/i-d-template",
+      "status": "candidate",
+      "text": "The contents of this repository can be used to manage the editing of an"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "internet-draft",
+  "concept_id": "internet-draft",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "martinthomson/i-d-template"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "internet-draft",
+      "sense_id": "internet-draft#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,111 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ByteVisionLab/TokenFlow",
+      "target": "byteflow-ai/tokenflow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ByteVisionLab/TokenFlow",
+      "target": "foundationvision/llamagen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ByteVisionLab/TokenFlow",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ByteVisionLab/TokenFlow",
+      "target": "multimodal-understanding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ByteVisionLab/TokenFlow",
+      "target": "text-to-image-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ByteVisionLab/TokenFlow",
+      "target": "vector-quantization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:02:11.255487+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4439
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR 2025] \ud83d\udd25 Official impl. of \"TokenFlow: Unified Image Tokenizer for Multimodal Understanding and Generation\".",
+    "fork": false,
+    "full_name": "ByteVisionLab/TokenFlow",
+    "html_url": "https://github.com/ByteVisionLab/TokenFlow",
+    "language": "Python",
+    "pushed_at": "2025-08-08T08:32:28Z",
+    "stargazers_count": 459,
+    "topics": [
+      "large-language-models",
+      "multimodal-understanding",
+      "text-to-image-generation",
+      "vector-quantization"
+    ],
+    "updated_at": "2026-04-27T06:25:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "byteflow-ai/tokenflow",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "foundationvision/llamagen",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimodal-understanding"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-image-generation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vector-quantization"
+    }
+  ]
+}

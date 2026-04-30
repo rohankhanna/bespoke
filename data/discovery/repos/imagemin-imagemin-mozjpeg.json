@@ -1,0 +1,200 @@
+{
+  "components": [
+    {
+      "component": "execa",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "is-jpg",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mozjpeg",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ava",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "is-progressive",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "xo",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-node@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "imagemin/imagemin-mozjpeg",
+      "target": "execa",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "imagemin/imagemin-mozjpeg",
+      "target": "is-jpg",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "imagemin/imagemin-mozjpeg",
+      "target": "mozjpeg",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "imagemin/imagemin-mozjpeg",
+      "target": "ava",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "imagemin/imagemin-mozjpeg",
+      "target": "is-progressive",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "imagemin/imagemin-mozjpeg",
+      "target": "xo",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "imagemin/imagemin-mozjpeg",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "imagemin/imagemin-mozjpeg",
+      "target": "actions/setup-node@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "imagemin/imagemin-mozjpeg",
+      "target": "test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "imagemin/imagemin-mozjpeg",
+      "target": "imagemin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "imagemin/imagemin-mozjpeg",
+      "target": "imagemin-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "imagemin/imagemin-mozjpeg",
+      "target": "minify-images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "imagemin/imagemin-mozjpeg",
+      "target": "mozjpeg",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:13:18.369213+00:00",
+  "fetched_files": [
+    {
+      "path": "package.json",
+      "size": 1054
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 528
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Imagemin plugin for mozjpeg",
+    "fork": false,
+    "full_name": "imagemin/imagemin-mozjpeg",
+    "html_url": "https://github.com/imagemin/imagemin-mozjpeg",
+    "language": "JavaScript",
+    "pushed_at": "2021-12-17T05:18:17Z",
+    "stargazers_count": 256,
+    "topics": [
+      "imagemin",
+      "imagemin-plugin",
+      "minify-images",
+      "mozjpeg"
+    ],
+    "updated_at": "2026-04-28T12:28:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "test"
+    },
+    {
+      "context_snippet": "imagemin-mozjpeg \u2014 Imagemin plugin for mozjpeg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "imagemin"
+    },
+    {
+      "context_snippet": "imagemin-mozjpeg \u2014 Imagemin plugin for mozjpeg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "imagemin-plugin"
+    },
+    {
+      "context_snippet": "imagemin-mozjpeg \u2014 Imagemin plugin for mozjpeg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minify-images"
+    },
+    {
+      "context_snippet": "imagemin-mozjpeg \u2014 Imagemin plugin for mozjpeg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mozjpeg"
+    }
+  ]
+}

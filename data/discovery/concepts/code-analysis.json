@@ -216,6 +216,42 @@
       "source_repo": "microsoft/multilspy",
       "status": "candidate-context",
       "text": "[![PyPI - Version](https://img.shields.io/pypi/v/multilspy)](https://pypi.org/project/multilspy/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "detekt/detekt-intellij-plugin",
+      "status": "candidate-context",
+      "text": "detekt plugin for IntelliJ"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "detekt/detekt-intellij-plugin",
+      "status": "candidate-context",
+      "text": "[![Join the chat at https://kotlinlang.slack.com/messages/C88E12QH4/convo/C0BQ5GZ0S-1511956674.000289/](https://img.shields.io/badge/chat-on_slack-red.svg?style=flat-square)](https://kotlinlang.slack.com/messages/C88E12QH4/convo/C0BQ5GZ0S-1511956674.000289/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "detekt/sonar-detekt",
+      "status": "candidate-context",
+      "text": "SonarQube plugin for Kotlin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "detekt/sonar-detekt",
+      "status": "candidate-context",
+      "text": "Now that Sonarqube officially supports Kotlin with detekt issue import, this plugin repository has been archived."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aboutcode-org/scancode.io",
+      "status": "candidate-context",
+      "text": "ScanCode.io is a server to script and automate software composition analysis with pipelines. This project is sponsored by the European Commission, NLnet NGI0, the Google Summer of Code, nexB and others generous sponsors!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aboutcode-org/scancode.io",
+      "status": "candidate-context",
+      "text": "==========="
     }
   ],
   "candidate_glosses": [
@@ -314,6 +350,24 @@
       "source_repo": "microsoft/multilspy",
       "status": "candidate",
       "text": "[![PyPI - Version](https://img.shields.io/pypi/v/multilspy)](https://pypi.org/project/multilspy/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "detekt/detekt-intellij-plugin",
+      "status": "candidate",
+      "text": "[![Join the chat at https://kotlinlang.slack.com/messages/C88E12QH4/convo/C0BQ5GZ0S-1511956674.000289/](https://img.shields.io/badge/chat-on_slack-red.svg?style=flat-square)](https://kotlinlang.slack.com/messages/C88E12QH4/convo/C0BQ5GZ0S-1511956674.000289/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "detekt/sonar-detekt",
+      "status": "candidate",
+      "text": "Now that Sonarqube officially supports Kotlin with detekt issue import, this plugin repository has been archived."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aboutcode-org/scancode.io",
+      "status": "candidate",
+      "text": "==========="
     }
   ],
   "candidate_related_terms": [
@@ -465,11 +519,29 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "microsoft/multilspy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "detekt/detekt-intellij-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "detekt/sonar-detekt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "aboutcode-org/scancode.io"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

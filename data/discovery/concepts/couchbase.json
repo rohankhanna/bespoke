@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "Couchbase"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hipster-labs/jhipster-daily-builds",
+      "status": "candidate-context",
+      "text": ":construction_worker: :rocket: Additional builds for generator-jhipster repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hipster-labs/jhipster-daily-builds",
+      "status": "candidate-context",
+      "text": "Couchbase"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hipster-labs/jhipster-daily-builds",
+      "status": "candidate",
+      "text": "Couchbase"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "Couchbase",
+  "concept_id": "couchbase",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/couchbase.yml",
+      "source_repo": "hipster-labs/jhipster-daily-builds"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Couchbase",
+      "sense_id": "couchbase#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -48,7 +48,7 @@
   "normalized_form": "build-pull-request",
   "observation_id": "22130a8f4b316d1a",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
   "observed_text": "build-pull-request",
   "source_context_snippet": "build-pull-request",
   "source_file": ".github/workflows/build-pull-request.yml",

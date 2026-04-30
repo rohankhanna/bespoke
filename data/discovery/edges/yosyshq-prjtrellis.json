@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "YosysHQ/prjtrellis",
+      "target": "emard/ulx3s",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "YosysHQ/prjtrellis",
+      "target": "yosyshq/prjtrellis-db",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "YosysHQ/prjtrellis",
+      "target": "f4pga/prjxray",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arch-pkg.yml",
+      "source_repo": "YosysHQ/prjtrellis",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arch-pkg.yml",
+      "source_repo": "YosysHQ/prjtrellis",
+      "target": "2m/arch-pkgbuild-builder@v1.21",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/arch-pkg.yml",
+      "source_repo": "YosysHQ/prjtrellis",
+      "target": "arch-pkg",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T12:45:20.475770+00:00",
+  "source_repo": "YosysHQ/prjtrellis"
+}

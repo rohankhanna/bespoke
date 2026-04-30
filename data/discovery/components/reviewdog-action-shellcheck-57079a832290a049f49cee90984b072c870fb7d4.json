@@ -1,0 +1,12 @@
+{
+  "component": "reviewdog/action-shellcheck@57079a832290a049f49cee90984b072c870fb7d4",
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "reviewdog/action-hadolint"
+    }
+  ]
+}

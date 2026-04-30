@@ -331,6 +331,78 @@
       "source_repo": "spacemeshos/smapp",
       "status": "candidate-context",
       "text": "![Latest Release](https://img.shields.io/github/v/release/spacemeshos/smapp)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "electron-vite/electron-vite-vue",
+      "status": "candidate-context",
+      "text": "\ud83e\udd73 Really simple Electron + Vite + Vue boilerplate."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron-vite/electron-vite-vue",
+      "status": "candidate-context",
+      "text": "\ud83e\udd73 Really simple `Electron` + `Vue` + `Vite` boilerplate."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cawa-93/vite-electron-builder",
+      "status": "candidate-context",
+      "text": "Secure boilerplate for Electron app based on Vite. TypeScript + Vue/React/Angular/Svelte/Vanilla"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cawa-93/vite-electron-builder",
+      "status": "candidate-context",
+      "text": "> [!Important]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "electron-react-boilerplate/electron-react-boilerplate",
+      "status": "candidate-context",
+      "text": "A Foundation for Scalable Cross-Platform Apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron-react-boilerplate/electron-react-boilerplate",
+      "status": "candidate-context",
+      "text": "<img src=\".erb/img/erb-banner.svg\" width=\"100%\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hchiam/anonymous-input",
+      "status": "candidate-context",
+      "text": "Desktop app powered by Electron. For personal teaching use."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hchiam/anonymous-input",
+      "status": "candidate-context",
+      "text": "![version](https://img.shields.io/github/release/hchiam/anonymous-input) [![Build Status](https://travis-ci.org/hchiam/anonymous-input.svg?branch=master)](https://travis-ci.org/hchiam/anonymous-input) [![Coverage Status](https://coveralls.io/repos/github/hchiam/anonymous-input/b\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "electron-vite/electron-vite-react",
+      "status": "candidate-context",
+      "text": ":electron: Electron + Vite + React + Sass boilerplate."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron-vite/electron-vite-react",
+      "status": "candidate-context",
+      "text": "[![awesome-vite](https://awesome.re/mentioned-badge.svg)](https://github.com/vitejs/awesome-vite)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "electron-userland/electron-webpack",
+      "status": "candidate-context",
+      "text": "Scripts and configurations to compile Electron applications using webpack"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron-userland/electron-webpack",
+      "status": "candidate-context",
+      "text": "electron-webpack"
     }
   ],
   "candidate_glosses": [
@@ -495,6 +567,42 @@
       "source_repo": "spacemeshos/smapp",
       "status": "candidate",
       "text": "![Latest Release](https://img.shields.io/github/v/release/spacemeshos/smapp)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron-vite/electron-vite-vue",
+      "status": "candidate",
+      "text": "\ud83e\udd73 Really simple `Electron` + `Vue` + `Vite` boilerplate."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cawa-93/vite-electron-builder",
+      "status": "candidate",
+      "text": "> [!Important]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron-react-boilerplate/electron-react-boilerplate",
+      "status": "candidate",
+      "text": "<img src=\".erb/img/erb-banner.svg\" width=\"100%\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hchiam/anonymous-input",
+      "status": "candidate",
+      "text": "![version](https://img.shields.io/github/release/hchiam/anonymous-input) [![Build Status](https://travis-ci.org/hchiam/anonymous-input.svg?branch=master)](https://travis-ci.org/hchiam/anonymous-input) [![Coverage Status](https://coveralls.io/repos/github/hchiam/anonymous-input/b\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron-vite/electron-vite-react",
+      "status": "candidate",
+      "text": "[![awesome-vite](https://awesome.re/mentioned-badge.svg)](https://github.com/vitejs/awesome-vite)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron-userland/electron-webpack",
+      "status": "candidate",
+      "text": "electron-webpack"
     }
   ],
   "candidate_related_terms": [
@@ -778,11 +886,65 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "electron/electron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "electron-vite/electron-vite-vue"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "cawa-93/vite-electron-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "electron-react-boilerplate/electron-react-boilerplate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "hchiam/anonymous-input"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "electron/packager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "electron-userland/electron-wix-msi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "electron/electron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "electron-vite/electron-vite-react"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "electron-userland/electron-webpack"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

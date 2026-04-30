@@ -1,0 +1,92 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "heyoeyo/toadui",
+      "target": "heyoeyo/muggled_sam",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heyoeyo/toadui",
+      "target": "library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heyoeyo/toadui",
+      "target": "numpy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heyoeyo/toadui",
+      "target": "opencv",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:08:33.061393+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5513
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 366
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A UI library, with warts!",
+    "fork": false,
+    "full_name": "heyoeyo/toadui",
+    "html_url": "https://github.com/heyoeyo/toadui",
+    "language": "Python",
+    "pushed_at": "2025-12-06T22:08:17Z",
+    "stargazers_count": 2,
+    "topics": [
+      "gui",
+      "library",
+      "numpy",
+      "opencv",
+      "python",
+      "ui"
+    ],
+    "updated_at": "2025-12-06T22:08:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "heyoeyo/muggled_sam",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "ToadUI is a helper UI library, written in Python, built on top of the basic UI provided by [OpenCV](https://opencv.org/). As such, it inherits much of the UI limitations of OpenCV but also it's ease of use. The goal is to provide ready-to-use UI elements that are not already par\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "library"
+    },
+    {
+      "context_snippet": "ToadUI is a helper UI library, written in Python, built on top of the basic UI provided by [OpenCV](https://opencv.org/). As such, it inherits much of the UI limitations of OpenCV but also it's ease of use. The goal is to provide ready-to-use UI elements that are not already par\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "numpy"
+    },
+    {
+      "context_snippet": "ToadUI is a helper UI library, written in Python, built on top of the basic UI provided by [OpenCV](https://opencv.org/). As such, it inherits much of the UI limitations of OpenCV but also it's ease of use. The goal is to provide ready-to-use UI elements that are not already par\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opencv"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T15:57:17.970798+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2571
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Codes for the paper \"Instantaneous Grammatical Error Correction with Shallow Aggressive Decoding\" (ACL-IJCNLP 2021)",
+    "fork": false,
+    "full_name": "AutoTemp/Shallow-Aggressive-Decoding",
+    "html_url": "https://github.com/AutoTemp/Shallow-Aggressive-Decoding",
+    "language": "Python",
+    "pushed_at": "2021-06-07T11:30:19Z",
+    "stargazers_count": 41,
+    "topics": [],
+    "updated_at": "2025-03-04T02:48:04Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

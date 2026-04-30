@@ -295,6 +295,42 @@
       "source_repo": "galaxyproject/galaxy",
       "status": "candidate-context",
       "text": ".. figure:: https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo.jpg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "argoproj/argo-workflows",
+      "status": "candidate-context",
+      "text": "Workflow Engine for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj/argo-workflows",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable-next-line MD041 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/exercism.nvim",
+      "status": "candidate-context",
+      "text": "Exercism Meets Neovim \ud83d\udcaa\ud83e\udde0"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/exercism.nvim",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pditommaso/awesome-pipeline",
+      "status": "candidate-context",
+      "text": "A curated list of awesome pipeline toolkits inspired by Awesome Sysadmin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pditommaso/awesome-pipeline",
+      "status": "candidate-context",
+      "text": "Awesome Pipeline"
     }
   ],
   "candidate_glosses": [
@@ -441,6 +477,24 @@
       "source_repo": "galaxyproject/galaxy",
       "status": "candidate",
       "text": ".. figure:: https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo.jpg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj/argo-workflows",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable-next-line MD041 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/exercism.nvim",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pditommaso/awesome-pipeline",
+      "status": "candidate",
+      "text": "Awesome Pipeline"
     }
   ],
   "candidate_related_terms": [
@@ -670,11 +724,53 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "galaxyproject/galaxy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "argoproj/argo-workflows"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "lint-staged/lint-staged"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/luarocks-tag-release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "pharmbio/sciluigi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/exercism.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "pditommaso/awesome-pipeline"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "langgraph4j/langgraph4j"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

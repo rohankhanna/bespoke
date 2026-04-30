@@ -235,6 +235,42 @@
       "source_repo": "yhirose/cpp-httplib",
       "status": "candidate-context",
       "text": "[![](https://github.com/yhirose/cpp-httplib/workflows/test/badge.svg)](https://github.com/yhirose/cpp-httplib/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adamyaxley/Obfuscate",
+      "status": "candidate-context",
+      "text": "Guaranteed compile-time string literal obfuscation header-only library for C++14"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adamyaxley/Obfuscate",
+      "status": "candidate-context",
+      "text": "**[Source available on GitHub](https://github.com/adamyaxley/Obfuscate)**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adamyaxley/Unformat",
+      "status": "candidate-context",
+      "text": "Fastest type-safe parsing library in the world for C++14 or C++17 (up to 300x faster than std::regex)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adamyaxley/Unformat",
+      "status": "candidate-context",
+      "text": "**[Source available on GitHub](https://github.com/adamyaxley/Unformat)**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stephenberry/glaze",
+      "status": "candidate-context",
+      "text": "Extremely fast, in memory, serialization, reflection, and RPC library for C++. JSON, BEVE, BSON, CBOR, CSV, JSONB, MessagePack, TOML, YAML, EETF"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stephenberry/glaze",
+      "status": "candidate-context",
+      "text": "One of the fastest JSON libraries in the world. Glaze reads and writes from object memory, simplifying interfaces and offering incredible performance."
     }
   ],
   "candidate_glosses": [
@@ -351,6 +387,24 @@
       "source_repo": "yhirose/cpp-httplib",
       "status": "candidate",
       "text": "[![](https://github.com/yhirose/cpp-httplib/workflows/test/badge.svg)](https://github.com/yhirose/cpp-httplib/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adamyaxley/Obfuscate",
+      "status": "candidate",
+      "text": "**[Source available on GitHub](https://github.com/adamyaxley/Obfuscate)**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adamyaxley/Unformat",
+      "status": "candidate",
+      "text": "**[Source available on GitHub](https://github.com/adamyaxley/Unformat)**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stephenberry/glaze",
+      "status": "candidate",
+      "text": "One of the fastest JSON libraries in the world. Glaze reads and writes from object memory, simplifying interfaces and offering incredible performance."
     }
   ],
   "candidate_related_terms": [
@@ -514,11 +568,35 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "yhirose/cpp-httplib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "adamyaxley/Obfuscate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "adamyaxley/Unformat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "stephenberry/glaze"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

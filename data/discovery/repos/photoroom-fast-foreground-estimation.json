@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Photoroom/fast-foreground-estimation",
+      "target": "background-removal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Photoroom/fast-foreground-estimation",
+      "target": "compositing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Photoroom/fast-foreground-estimation",
+      "target": "matting",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:07:01.409545+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1460
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official repository for the paper Approximate Fast Foreground Colour Estimation. ICIP 2021.",
+    "fork": false,
+    "full_name": "Photoroom/fast-foreground-estimation",
+    "html_url": "https://github.com/Photoroom/fast-foreground-estimation",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-07-05T11:53:11Z",
+    "stargazers_count": 89,
+    "topics": [
+      "background-removal",
+      "compositing",
+      "matting"
+    ],
+    "updated_at": "2026-03-18T13:19:29Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Official repository for the paper [Approximate Fast Foreground Colour Estimation](https://ieeexplore.ieee.org/document/9506164). ICIP 2021.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "background-removal"
+    },
+    {
+      "context_snippet": "Official repository for the paper [Approximate Fast Foreground Colour Estimation](https://ieeexplore.ieee.org/document/9506164). ICIP 2021.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compositing"
+    },
+    {
+      "context_snippet": "Official repository for the paper [Approximate Fast Foreground Colour Estimation](https://ieeexplore.ieee.org/document/9506164). ICIP 2021.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "matting"
+    }
+  ]
+}

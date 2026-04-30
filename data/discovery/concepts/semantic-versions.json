@@ -19,6 +19,18 @@
       "source_repo": "Masterminds/glide",
       "status": "candidate-context",
       "text": "![glide logo](https://glide.sh/assets/logo-small.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Masterminds/semver",
+      "status": "candidate-context",
+      "text": "Work with Semantic Versions in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Masterminds/semver",
+      "status": "candidate-context",
+      "text": "The `semver` package provides the ability to work with [Semantic Versions](http://semver.org) in Go. Specifically it provides the ability to:"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "Masterminds/glide",
       "status": "candidate",
       "text": "![glide logo](https://glide.sh/assets/logo-small.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Masterminds/semver",
+      "status": "candidate",
+      "text": "The `semver` package provides the ability to work with [Semantic Versions](http://semver.org) in Go. Specifically it provides the ability to:"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "Masterminds/glide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Masterminds/semver"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

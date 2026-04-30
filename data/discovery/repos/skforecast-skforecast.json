@@ -1,0 +1,531 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-context-check.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-context-check.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yml"
+    },
+    {
+      "component": "codecov/test-results-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/latest-deps.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/latest-deps.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-context-check.yml",
+      "source_repo": "skforecast/skforecast",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-context-check.yml",
+      "source_repo": "skforecast/skforecast",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ai-context-check.yml",
+      "source_repo": "skforecast/skforecast",
+      "target": "AI Context Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "skforecast/skforecast",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "skforecast/skforecast",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "skforecast/skforecast",
+      "target": "Benchmarks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yml",
+      "source_repo": "skforecast/skforecast",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yml",
+      "source_repo": "skforecast/skforecast",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yml",
+      "source_repo": "skforecast/skforecast",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yml",
+      "source_repo": "skforecast/skforecast",
+      "target": "codecov/test-results-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codecov.yml",
+      "source_repo": "skforecast/skforecast",
+      "target": "Codecov coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/latest-deps.yml",
+      "source_repo": "skforecast/skforecast",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/latest-deps.yml",
+      "source_repo": "skforecast/skforecast",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/latest-deps.yml",
+      "source_repo": "skforecast/skforecast",
+      "target": "Test Latest Dependencies",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "source_repo": "skforecast/skforecast",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "source_repo": "skforecast/skforecast",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "source_repo": "skforecast/skforecast",
+      "target": "Unit Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "skforecast/skforecast",
+      "target": "arima",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "skforecast/skforecast",
+      "target": "backtesting-forecasters",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "skforecast/skforecast",
+      "target": "catboost",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "skforecast/skforecast",
+      "target": "data-science",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "skforecast/skforecast",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "skforecast/skforecast",
+      "target": "exogenous-predictors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "skforecast/skforecast",
+      "target": "forecasting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "skforecast/skforecast",
+      "target": "foundation-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "skforecast/skforecast",
+      "target": "lightgbm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "skforecast/skforecast",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "skforecast/skforecast",
+      "target": "multi-series-forecasting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "skforecast/skforecast",
+      "target": "multi-step-forecasting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "skforecast/skforecast",
+      "target": "prediction-intervals",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "skforecast/skforecast",
+      "target": "probabilistic-forecasting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "skforecast/skforecast",
+      "target": "sarimax",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "skforecast/skforecast",
+      "target": "scikit-learn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "skforecast/skforecast",
+      "target": "time-series",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "skforecast/skforecast",
+      "target": "time-series-forecasting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "skforecast/skforecast",
+      "target": "xgboost",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:05:22.757529+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16390
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 5204
+    },
+    {
+      "path": ".github/workflows/ai-context-check.yml",
+      "size": 402
+    },
+    {
+      "path": ".github/workflows/benchmarks.yml",
+      "size": 5995
+    },
+    {
+      "path": ".github/workflows/codecov.yml",
+      "size": 1155
+    },
+    {
+      "path": ".github/workflows/latest-deps.yml",
+      "size": 1181
+    },
+    {
+      "path": ".github/workflows/unit-tests.yml",
+      "size": 1634
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Python library for time series forecasting using scikit-learn compatible models, statistical methods, and foundation models",
+    "fork": false,
+    "full_name": "skforecast/skforecast",
+    "html_url": "https://github.com/skforecast/skforecast",
+    "language": "Python",
+    "pushed_at": "2026-04-29T09:09:33Z",
+    "stargazers_count": 1483,
+    "topics": [
+      "arima",
+      "backtesting-forecasters",
+      "catboost",
+      "data-science",
+      "deep-learning",
+      "exogenous-predictors",
+      "forecasting",
+      "foundation-models",
+      "lightgbm",
+      "machine-learning",
+      "multi-series-forecasting",
+      "multi-step-forecasting",
+      "prediction-intervals",
+      "probabilistic-forecasting",
+      "python",
+      "sarimax",
+      "scikit-learn",
+      "time-series",
+      "time-series-forecasting",
+      "xgboost"
+    ],
+    "updated_at": "2026-04-30T11:10:28Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "AI Context Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ai-context-check.yml",
+      "term": "AI Context Check"
+    },
+    {
+      "context_snippet": "Benchmarks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "term": "Benchmarks"
+    },
+    {
+      "context_snippet": "Codecov coverage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codecov.yml",
+      "term": "Codecov coverage"
+    },
+    {
+      "context_snippet": "Test Latest Dependencies",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/latest-deps.yml",
+      "term": "Test Latest Dependencies"
+    },
+    {
+      "context_snippet": "Unit Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "term": "Unit Tests"
+    },
+    {
+      "context_snippet": "<h1 align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arima"
+    },
+    {
+      "context_snippet": "<h1 align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "backtesting-forecasters"
+    },
+    {
+      "context_snippet": "<h1 align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "catboost"
+    },
+    {
+      "context_snippet": "<h1 align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-science"
+    },
+    {
+      "context_snippet": "<h1 align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<h1 align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "exogenous-predictors"
+    },
+    {
+      "context_snippet": "<h1 align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "forecasting"
+    },
+    {
+      "context_snippet": "<h1 align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "foundation-models"
+    },
+    {
+      "context_snippet": "<h1 align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lightgbm"
+    },
+    {
+      "context_snippet": "<h1 align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "<h1 align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-series-forecasting"
+    },
+    {
+      "context_snippet": "<h1 align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-step-forecasting"
+    },
+    {
+      "context_snippet": "<h1 align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prediction-intervals"
+    },
+    {
+      "context_snippet": "<h1 align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "probabilistic-forecasting"
+    },
+    {
+      "context_snippet": "<h1 align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sarimax"
+    },
+    {
+      "context_snippet": "<h1 align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scikit-learn"
+    },
+    {
+      "context_snippet": "<h1 align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "time-series"
+    },
+    {
+      "context_snippet": "<h1 align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "time-series-forecasting"
+    },
+    {
+      "context_snippet": "<h1 align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xgboost"
+    }
+  ]
+}

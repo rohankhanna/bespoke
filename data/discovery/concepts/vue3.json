@@ -43,6 +43,18 @@
       "source_repo": "mutoe/vue3-realworld-example-app",
       "status": "candidate-context",
       "text": "[![Codecov branch](https://img.shields.io/codecov/c/github/mutoe/vue3-realworld-example-app?logo=codecov&style=for-the-badge)](https://app.codecov.io/gh/mutoe/vue3-realworld-example-app)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vbenjs/vue-vben-admin",
+      "status": "candidate-context",
+      "text": "A modern vue admin panel built with Vue3, Shadcn UI, Vite, TypeScript, and Monorepo. It's fast!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vbenjs/vue-vben-admin",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "mutoe/vue3-realworld-example-app",
       "status": "candidate",
       "text": "[![Codecov branch](https://img.shields.io/codecov/c/github/mutoe/vue3-realworld-example-app?logo=codecov&style=for-the-badge)](https://app.codecov.io/gh/mutoe/vue3-realworld-example-app)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vbenjs/vue-vben-admin",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "mutoe/vue3-realworld-example-app"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "vbenjs/vue-vben-admin"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

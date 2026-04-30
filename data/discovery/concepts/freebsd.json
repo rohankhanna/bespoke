@@ -208,6 +208,30 @@
       "source_repo": "dmlc/xgboost",
       "status": "candidate-context",
       "text": "FreeBSD"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JupiterRider/ffi",
+      "status": "candidate-context",
+      "text": "A purego binding for libffi."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JupiterRider/ffi",
+      "status": "candidate-context",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/jupiterrider/ffi.svg)](https://pkg.go.dev/github.com/jupiterrider/ffi)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "benoitc/gunicorn",
+      "status": "candidate-context",
+      "text": "gunicorn 'Green Unicorn' is a WSGI HTTP Server for UNIX, fast clients and sleepy applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "benoitc/gunicorn",
+      "status": "candidate-context",
+      "text": "FreeBSD"
     }
   ],
   "candidate_glosses": [
@@ -310,6 +334,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "dmlc/xgboost",
+      "status": "candidate",
+      "text": "FreeBSD"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JupiterRider/ffi",
+      "status": "candidate",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/jupiterrider/ffi.svg)](https://pkg.go.dev/github.com/jupiterrider/ffi)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "benoitc/gunicorn",
       "status": "candidate",
       "text": "FreeBSD"
     }
@@ -450,11 +486,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/freebsd.yml",
       "source_repo": "dmlc/xgboost"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "JupiterRider/ffi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/freebsd.yml",
+      "source_repo": "benoitc/gunicorn"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

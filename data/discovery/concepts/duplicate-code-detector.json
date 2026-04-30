@@ -1,0 +1,118 @@
+{
+  "aliases": [
+    "Duplicate Code Detector"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "storybookjs/storybook",
+      "status": "candidate-context",
+      "text": "Storybook is the industry standard workshop for building, documenting, and testing UI components in isolation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "storybookjs/storybook",
+      "status": "candidate-context",
+      "text": "\"Duplicate Code Detector\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "storybookjs/storybook",
+      "status": "candidate-context",
+      "text": "Duplicate Code Detector"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "storybookjs/storybook",
+      "status": "candidate",
+      "text": "\"Duplicate Code Detector\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "storybookjs/storybook",
+      "status": "candidate",
+      "text": "Duplicate Code Detector"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18312,
+      "status": "candidate",
+      "text": "ping"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18312,
+      "status": "candidate",
+      "text": "scan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18312,
+      "status": "candidate",
+      "text": "scanned"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18312,
+      "status": "candidate",
+      "text": "scanning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18312,
+      "status": "candidate",
+      "text": "trap"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Duplicate Code Detector",
+  "concept_id": "duplicate-code-detector",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/duplicate-code-detector.lock.yml",
+      "source_repo": "storybookjs/storybook"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/duplicate-code-detector.md",
+      "source_repo": "storybookjs/storybook"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Duplicate Code Detector",
+      "sense_id": "duplicate-code-detector#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,517 @@
+{
+  "components": [
+    {
+      "component": "@azure-rest/ai-inference",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@azure/core-auth",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "openai",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "docsify-to-pdf",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "OSDKDev/lock-issues@v1.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lock.yml"
+    },
+    {
+      "component": "actions/stale@v10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-markdown.yml"
+    },
+    {
+      "component": "john0isaac/action-check-markdown@v1.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-markdown.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-markdown.yml"
+    },
+    {
+      "component": "john0isaac/action-check-markdown@v1.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-markdown.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-markdown.yml"
+    },
+    {
+      "component": "john0isaac/action-check-markdown@v1.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-markdown.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-markdown.yml"
+    },
+    {
+      "component": "john0isaac/action-check-markdown@v1.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-markdown.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-markdown.yml"
+    },
+    {
+      "component": "john0isaac/action-check-markdown@v1.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-markdown.yml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/welcome-issue.yml"
+    },
+    {
+      "component": "pozil/auto-assign-issue@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/welcome-issue.yml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/welcome-pr.yml"
+    },
+    {
+      "component": "pozil/auto-assign-issue@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/welcome-pr.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/generative-ai-for-beginners",
+      "target": "microsoft/azd-for-beginners",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/generative-ai-for-beginners",
+      "target": "microsoft/edgeai-for-beginners",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/generative-ai-for-beginners",
+      "target": "microsoft/ai-agents-for-beginners",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/generative-ai-for-beginners",
+      "target": "microsoft/copilotadventures",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/generative-ai-for-beginners",
+      "target": "@azure-rest/ai-inference",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/generative-ai-for-beginners",
+      "target": "@azure/core-auth",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/generative-ai-for-beginners",
+      "target": "openai",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/generative-ai-for-beginners",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/generative-ai-for-beginners",
+      "target": "docsify-to-pdf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lock.yml",
+      "source_repo": "microsoft/generative-ai-for-beginners",
+      "target": "OSDKDev/lock-issues@v1.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lock.yml",
+      "source_repo": "microsoft/generative-ai-for-beginners",
+      "target": "Lock closed issue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "microsoft/generative-ai-for-beginners",
+      "target": "actions/stale@v10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "microsoft/generative-ai-for-beginners",
+      "target": "Mark stale issues and pull requests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-markdown.yml",
+      "source_repo": "microsoft/generative-ai-for-beginners",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-markdown.yml",
+      "source_repo": "microsoft/generative-ai-for-beginners",
+      "target": "john0isaac/action-check-markdown@v1.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/welcome-issue.yml",
+      "source_repo": "microsoft/generative-ai-for-beginners",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/welcome-issue.yml",
+      "source_repo": "microsoft/generative-ai-for-beginners",
+      "target": "pozil/auto-assign-issue@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/welcome-issue.yml",
+      "source_repo": "microsoft/generative-ai-for-beginners",
+      "target": "Welcome to the Microsoft Generative AI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/welcome-pr.yml",
+      "source_repo": "microsoft/generative-ai-for-beginners",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/welcome-pr.yml",
+      "source_repo": "microsoft/generative-ai-for-beginners",
+      "target": "pozil/auto-assign-issue@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/welcome-pr.yml",
+      "source_repo": "microsoft/generative-ai-for-beginners",
+      "target": "Welcome to the Microsoft Generative AI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/generative-ai-for-beginners",
+      "target": "azure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/generative-ai-for-beginners",
+      "target": "chatgpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/generative-ai-for-beginners",
+      "target": "dall-e",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/generative-ai-for-beginners",
+      "target": "generative-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/generative-ai-for-beginners",
+      "target": "generativeai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/generative-ai-for-beginners",
+      "target": "language-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/generative-ai-for-beginners",
+      "target": "llms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/generative-ai-for-beginners",
+      "target": "microsoft-for-beginners",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/generative-ai-for-beginners",
+      "target": "prompt-engineering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/generative-ai-for-beginners",
+      "target": "semantic-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/generative-ai-for-beginners",
+      "target": "transformers",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:04:56.217568+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 24282
+    },
+    {
+      "path": "package.json",
+      "size": 816
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2453
+    },
+    {
+      "path": "requirements.txt",
+      "size": 154
+    },
+    {
+      "path": ".github/workflows/lock.yml",
+      "size": 259
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 1025
+    },
+    {
+      "path": ".github/workflows/validate-markdown.yml",
+      "size": 3044
+    },
+    {
+      "path": ".github/workflows/welcome-issue.yml",
+      "size": 1116
+    },
+    {
+      "path": ".github/workflows/welcome-pr.yml",
+      "size": 1166
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "21 Lessons, Get Started Building with Generative AI ",
+    "fork": false,
+    "full_name": "microsoft/generative-ai-for-beginners",
+    "html_url": "https://github.com/microsoft/generative-ai-for-beginners",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-04-30T09:47:28Z",
+    "stargazers_count": 110039,
+    "topics": [
+      "ai",
+      "azure",
+      "chatgpt",
+      "dall-e",
+      "generative-ai",
+      "generativeai",
+      "gpt",
+      "language-model",
+      "llms",
+      "microsoft-for-beginners",
+      "openai",
+      "prompt-engineering",
+      "semantic-search",
+      "transformers"
+    ],
+    "updated_at": "2026-04-30T14:49:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/ai-agents-for-beginners",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/azd-for-beginners",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/copilotadventures",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/edgeai-for-beginners",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Lock closed issue",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lock.yml",
+      "term": "Lock closed issue"
+    },
+    {
+      "context_snippet": "Mark stale issues and pull requests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Mark stale issues and pull requests"
+    },
+    {
+      "context_snippet": "Welcome to the Microsoft Generative AI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/welcome-issue.yml",
+      "term": "Welcome to the Microsoft Generative AI"
+    },
+    {
+      "context_snippet": "Welcome to the Microsoft Generative AI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/welcome-pr.yml",
+      "term": "Welcome to the Microsoft Generative AI"
+    },
+    {
+      "context_snippet": "![Generative AI For Beginners](./images/repo-thumbnailv4-fixed.png?WT.mc_id=academic-105485-koreyst)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "azure"
+    },
+    {
+      "context_snippet": "![Generative AI For Beginners](./images/repo-thumbnailv4-fixed.png?WT.mc_id=academic-105485-koreyst)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatgpt"
+    },
+    {
+      "context_snippet": "![Generative AI For Beginners](./images/repo-thumbnailv4-fixed.png?WT.mc_id=academic-105485-koreyst)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dall-e"
+    },
+    {
+      "context_snippet": "![Generative AI For Beginners](./images/repo-thumbnailv4-fixed.png?WT.mc_id=academic-105485-koreyst)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-ai"
+    },
+    {
+      "context_snippet": "![Generative AI For Beginners](./images/repo-thumbnailv4-fixed.png?WT.mc_id=academic-105485-koreyst)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generativeai"
+    },
+    {
+      "context_snippet": "![Generative AI For Beginners](./images/repo-thumbnailv4-fixed.png?WT.mc_id=academic-105485-koreyst)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-model"
+    },
+    {
+      "context_snippet": "![Generative AI For Beginners](./images/repo-thumbnailv4-fixed.png?WT.mc_id=academic-105485-koreyst)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llms"
+    },
+    {
+      "context_snippet": "![Generative AI For Beginners](./images/repo-thumbnailv4-fixed.png?WT.mc_id=academic-105485-koreyst)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microsoft-for-beginners"
+    },
+    {
+      "context_snippet": "![Generative AI For Beginners](./images/repo-thumbnailv4-fixed.png?WT.mc_id=academic-105485-koreyst)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prompt-engineering"
+    },
+    {
+      "context_snippet": "![Generative AI For Beginners](./images/repo-thumbnailv4-fixed.png?WT.mc_id=academic-105485-koreyst)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-search"
+    },
+    {
+      "context_snippet": "![Generative AI For Beginners](./images/repo-thumbnailv4-fixed.png?WT.mc_id=academic-105485-koreyst)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformers"
+    }
+  ]
+}

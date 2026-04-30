@@ -84,7 +84,7 @@
   "normalized_form": "generate-tool-specifications",
   "observation_id": "28d22613d1a3d05b",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
   "observed_text": "Generate Tool Specifications",
   "source_context_snippet": "Generate Tool Specifications",
   "source_file": ".github/workflows/generate-tool-specs.yml",

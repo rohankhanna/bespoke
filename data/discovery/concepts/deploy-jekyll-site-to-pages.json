@@ -67,6 +67,18 @@
       "source_repo": "dafny-lang/dafny",
       "status": "candidate-context",
       "text": "Deploy Jekyll site to Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ardalis/Result",
+      "status": "candidate-context",
+      "text": "A result abstraction that can be mapped to HTTP response codes if needed."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ardalis/Result",
+      "status": "candidate-context",
+      "text": "Deploy Jekyll site to Pages"
     }
   ],
   "candidate_glosses": [
@@ -97,6 +109,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "dafny-lang/dafny",
+      "status": "candidate",
+      "text": "Deploy Jekyll site to Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ardalis/Result",
       "status": "candidate",
       "text": "Deploy Jekyll site to Pages"
     }
@@ -184,11 +202,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/jekyll.yml",
       "source_repo": "dafny-lang/dafny"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/jekyll-gh-pages.yml",
+      "source_repo": "ardalis/Result"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

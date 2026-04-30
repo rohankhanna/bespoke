@@ -31,6 +31,18 @@
       "source_repo": "Byron/dua-cli",
       "status": "candidate-context",
       "text": "[![Rust](https://github.com/Byron/dua-cli/workflows/Rust/badge.svg)](https://github.com/byron/dua-cli/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vmchale/tin-summer",
+      "status": "candidate-context",
+      "text": "Find build artifacts that are taking up disk space"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vmchale/tin-summer",
+      "status": "candidate-context",
+      "text": "[![Windows build status](https://ci.appveyor.com/api/projects/status/github/vmchale/tin-summer?svg=true)](https://ci.appveyor.com/project/vmchale/tin-summer)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "Byron/dua-cli",
       "status": "candidate",
       "text": "[![Rust](https://github.com/Byron/dua-cli/workflows/Rust/badge.svg)](https://github.com/byron/dua-cli/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vmchale/tin-summer",
+      "status": "candidate",
+      "text": "[![Windows build status](https://ci.appveyor.com/api/projects/status/github/vmchale/tin-summer?svg=true)](https://ci.appveyor.com/project/vmchale/tin-summer)"
     }
   ],
   "candidate_related_terms": [
@@ -134,11 +152,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "PyCQA/isort"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "vmchale/tin-summer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "PyCQA/isort"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

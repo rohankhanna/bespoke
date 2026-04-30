@@ -1,0 +1,135 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gem-push.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1.147.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gem-push.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gem-push.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1.147.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gem-push.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gem-test.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1.147.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gem-test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yousty/event_store_subscriptions",
+      "target": "yousty/event_store_subscriptions.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gem-push.yml",
+      "source_repo": "yousty/event_store_subscriptions",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gem-push.yml",
+      "source_repo": "yousty/event_store_subscriptions",
+      "target": "ruby/setup-ruby@v1.147.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gem-push.yml",
+      "source_repo": "yousty/event_store_subscriptions",
+      "target": "Test & Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gem-test.yml",
+      "source_repo": "yousty/event_store_subscriptions",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gem-test.yml",
+      "source_repo": "yousty/event_store_subscriptions",
+      "target": "ruby/setup-ruby@v1.147.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gem-test.yml",
+      "source_repo": "yousty/event_store_subscriptions",
+      "target": "Run tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:06:49.201982+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11178
+    },
+    {
+      "path": ".github/workflows/gem-push.yml",
+      "size": 1252
+    },
+    {
+      "path": ".github/workflows/gem-test.yml",
+      "size": 714
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Asyncronus subscriptions manager of EventStore ruby client subscriptions",
+    "fork": false,
+    "full_name": "yousty/event_store_subscriptions",
+    "html_url": "https://github.com/yousty/event_store_subscriptions",
+    "language": "Ruby",
+    "pushed_at": "2023-05-17T13:50:20Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2022-10-04T07:23:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yousty/event_store_subscriptions.",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Test & Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gem-push.yml",
+      "term": "Test & Publish"
+    },
+    {
+      "context_snippet": "Run tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gem-test.yml",
+      "term": "Run tests"
+    }
+  ]
+}

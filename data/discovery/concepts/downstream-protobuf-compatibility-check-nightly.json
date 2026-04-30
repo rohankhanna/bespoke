@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Downstream Protobuf Compatibility Check Nightly"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "googleapis/sdk-platform-java",
+      "status": "candidate-context",
+      "text": "Tooling and shared libraries for Cloud SDK for Java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/sdk-platform-java",
+      "status": "candidate-context",
+      "text": "Downstream Protobuf Compatibility Check Nightly"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/sdk-platform-java",
+      "status": "candidate",
+      "text": "Downstream Protobuf Compatibility Check Nightly"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36566,
+      "status": "candidate",
+      "text": "routine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36555,
+      "status": "candidate",
+      "text": "follow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36555,
+      "status": "candidate",
+      "text": "over"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32555,
+      "status": "candidate",
+      "text": "regular"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23697,
+      "status": "candidate",
+      "text": "below"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Downstream Protobuf Compatibility Check Nightly",
+  "concept_id": "downstream-protobuf-compatibility-check-nightly",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/downstream_protobuf_compatibility_check_nightly.yaml",
+      "source_repo": "googleapis/sdk-platform-java"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Downstream Protobuf Compatibility Check Nightly",
+      "sense_id": "downstream-protobuf-compatibility-check-nightly#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

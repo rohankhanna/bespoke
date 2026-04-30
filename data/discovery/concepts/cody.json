@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "cody"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iohub/collama",
+      "status": "candidate-context",
+      "text": "VSCode AI coding assistant powered by self-hosted llama.cpp endpoint."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iohub/collama",
+      "status": "candidate-context",
+      "text": "<div align=center>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iohub/collama",
+      "status": "candidate",
+      "text": "<div align=center>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27102967,
+      "status": "candidate",
+      "text": "codes"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27100173,
+      "status": "candidate",
+      "text": "zach"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26081091,
+      "status": "candidate",
+      "text": "dad"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25901744,
+      "status": "candidate",
+      "text": "buddy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17113308,
+      "status": "candidate",
+      "text": "cryptogram"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "cody",
+  "concept_id": "cody",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "iohub/collama"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cody",
+      "sense_id": "cody#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

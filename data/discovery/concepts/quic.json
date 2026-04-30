@@ -43,6 +43,18 @@
       "source_repo": "jawah/niquests",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "quic-go/quic-go",
+      "status": "candidate-context",
+      "text": "A production-ready QUIC implementation in pure Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quic-go/quic-go",
+      "status": "candidate-context",
+      "text": "<div align=\"center\" style=\"margin-bottom: 15px;\">"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "jawah/niquests",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quic-go/quic-go",
+      "status": "candidate",
+      "text": "<div align=\"center\" style=\"margin-bottom: 15px;\">"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +142,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "jawah/niquests"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "quic-go/quic-go"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

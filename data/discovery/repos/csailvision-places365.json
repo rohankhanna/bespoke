@@ -1,0 +1,82 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CSAILVision/places365",
+      "target": "kaiminghe/deep-residual-networks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CSAILVision/places365",
+      "target": "szagoruyko/loadcaffe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CSAILVision/places365",
+      "target": "facebook/fb.resnet.torch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CSAILVision/places365",
+      "target": "baseline-cnns",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:08:44.684663+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8849
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The Places365-CNNs for Scene Classification ",
+    "fork": false,
+    "full_name": "CSAILVision/places365",
+    "html_url": "https://github.com/CSAILVision/places365",
+    "language": "Python",
+    "pushed_at": "2025-10-17T23:52:35Z",
+    "stargazers_count": 2061,
+    "topics": [
+      "baseline-cnns",
+      "cnn"
+    ],
+    "updated_at": "2026-04-27T07:13:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebook/fb.resnet.torch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kaiminghe/deep-residual-networks",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "szagoruyko/loadcaffe",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "We release various convolutional neural networks (CNNs) trained on Places365 to the public. Places365 is the latest subset of [Places2 Database](http://places2.csail.mit.edu). There are two versions of Places365: **Places365-Standard** and **Places365-Challenge**. The train set \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "baseline-cnns"
+    }
+  ]
+}

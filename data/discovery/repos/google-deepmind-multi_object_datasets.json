@@ -1,0 +1,123 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-deepmind/multi_object_datasets",
+      "target": "deepmind/dsprites-dataset",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-deepmind/multi_object_datasets",
+      "target": "deepmind/3d-shapes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-deepmind/multi_object_datasets",
+      "target": "rohitgirdhar/cater",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-deepmind/multi_object_datasets",
+      "target": "datasets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-deepmind/multi_object_datasets",
+      "target": "deepmind",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-deepmind/multi_object_datasets",
+      "target": "representation-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-deepmind/multi_object_datasets",
+      "target": "segmentation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:08:29.452620+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11531
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Multi-object image datasets with ground-truth segmentation masks and generative factors.",
+    "fork": false,
+    "full_name": "google-deepmind/multi_object_datasets",
+    "html_url": "https://github.com/google-deepmind/multi_object_datasets",
+    "language": "Python",
+    "pushed_at": "2026-03-03T08:58:15Z",
+    "stargazers_count": 284,
+    "topics": [
+      "datasets",
+      "deepmind",
+      "representation-learning",
+      "segmentation"
+    ],
+    "updated_at": "2026-03-14T05:33:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepmind/3d-shapes",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepmind/dsprites-dataset",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rohitgirdhar/cater",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository contains datasets for multi-object representation learning, used",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "datasets"
+    },
+    {
+      "context_snippet": "This repository contains datasets for multi-object representation learning, used",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deepmind"
+    },
+    {
+      "context_snippet": "This repository contains datasets for multi-object representation learning, used",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "representation-learning"
+    },
+    {
+      "context_snippet": "This repository contains datasets for multi-object representation learning, used",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "segmentation"
+    }
+  ]
+}

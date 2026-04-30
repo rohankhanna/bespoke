@@ -1,0 +1,213 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_checker.yaml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_checker.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kabachuha/sd-webui-text2video",
+      "target": "deforum-art/sd-webui-modelscope-text2video",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kabachuha/sd-webui-text2video",
+      "target": "videocrafter/videocrafter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_checker.yaml",
+      "source_repo": "kabachuha/sd-webui-text2video",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_checker.yaml",
+      "source_repo": "kabachuha/sd-webui-text2video",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue_checker.yaml",
+      "source_repo": "kabachuha/sd-webui-text2video",
+      "target": "Issue Checker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kabachuha/sd-webui-text2video",
+      "target": "automatic1111",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kabachuha/sd-webui-text2video",
+      "target": "extension",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kabachuha/sd-webui-text2video",
+      "target": "gradio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kabachuha/sd-webui-text2video",
+      "target": "modelscope",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kabachuha/sd-webui-text2video",
+      "target": "stable-diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kabachuha/sd-webui-text2video",
+      "target": "text2video",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kabachuha/sd-webui-text2video",
+      "target": "videocrafter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kabachuha/sd-webui-text2video",
+      "target": "webui",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:07:13.434437+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7368
+    },
+    {
+      "path": "requirements.txt",
+      "size": 42
+    },
+    {
+      "path": ".github/workflows/issue_checker.yaml",
+      "size": 551
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Auto1111 extension implementing text2video diffusion models (like ModelScope or VideoCrafter) using only Auto1111 webui dependencies",
+    "fork": false,
+    "full_name": "kabachuha/sd-webui-text2video",
+    "html_url": "https://github.com/kabachuha/sd-webui-text2video",
+    "language": "Python",
+    "pushed_at": "2024-07-14T07:14:03Z",
+    "stargazers_count": 1326,
+    "topics": [
+      "automatic1111",
+      "extension",
+      "gradio",
+      "modelscope",
+      "stable-diffusion",
+      "text2video",
+      "videocrafter",
+      "webui"
+    ],
+    "updated_at": "2026-04-29T13:42:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deforum-art/sd-webui-modelscope-text2video",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "videocrafter/videocrafter",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Issue Checker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue_checker.yaml",
+      "term": "Issue Checker"
+    },
+    {
+      "context_snippet": "**~~Warning: as of 2023-11-21 this extension is not maintained. If you'd like to continue devving/remaking it, please contact me on Discord @kabachuha (you can also find me on [camenduru's server's text2video channel](https://discord.gg/TYk6rfT9)) and we'll figure it out~~**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automatic1111"
+    },
+    {
+      "context_snippet": "**~~Warning: as of 2023-11-21 this extension is not maintained. If you'd like to continue devving/remaking it, please contact me on Discord @kabachuha (you can also find me on [camenduru's server's text2video channel](https://discord.gg/TYk6rfT9)) and we'll figure it out~~**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "extension"
+    },
+    {
+      "context_snippet": "**~~Warning: as of 2023-11-21 this extension is not maintained. If you'd like to continue devving/remaking it, please contact me on Discord @kabachuha (you can also find me on [camenduru's server's text2video channel](https://discord.gg/TYk6rfT9)) and we'll figure it out~~**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gradio"
+    },
+    {
+      "context_snippet": "**~~Warning: as of 2023-11-21 this extension is not maintained. If you'd like to continue devving/remaking it, please contact me on Discord @kabachuha (you can also find me on [camenduru's server's text2video channel](https://discord.gg/TYk6rfT9)) and we'll figure it out~~**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "modelscope"
+    },
+    {
+      "context_snippet": "**~~Warning: as of 2023-11-21 this extension is not maintained. If you'd like to continue devving/remaking it, please contact me on Discord @kabachuha (you can also find me on [camenduru's server's text2video channel](https://discord.gg/TYk6rfT9)) and we'll figure it out~~**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion"
+    },
+    {
+      "context_snippet": "**~~Warning: as of 2023-11-21 this extension is not maintained. If you'd like to continue devving/remaking it, please contact me on Discord @kabachuha (you can also find me on [camenduru's server's text2video channel](https://discord.gg/TYk6rfT9)) and we'll figure it out~~**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text2video"
+    },
+    {
+      "context_snippet": "**~~Warning: as of 2023-11-21 this extension is not maintained. If you'd like to continue devving/remaking it, please contact me on Discord @kabachuha (you can also find me on [camenduru's server's text2video channel](https://discord.gg/TYk6rfT9)) and we'll figure it out~~**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "videocrafter"
+    },
+    {
+      "context_snippet": "**~~Warning: as of 2023-11-21 this extension is not maintained. If you'd like to continue devving/remaking it, please contact me on Discord @kabachuha (you can also find me on [camenduru's server's text2video channel](https://discord.gg/TYk6rfT9)) and we'll figure it out~~**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webui"
+    }
+  ]
+}

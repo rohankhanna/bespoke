@@ -463,6 +463,42 @@
       "source_repo": "nanxstats/ssw-r",
       "status": "candidate-context",
       "text": "<!-- badges: start -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unevens/avec",
+      "status": "candidate-context",
+      "text": "A little library for using SIMD instructions for x86 and ARM, wrapping Agner Fog's vectorclass for x86 and filling some of its functionality for ARM, and providing containers for aligned memory with views and interleaving/deinterleaving."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unevens/avec",
+      "status": "candidate-context",
+      "text": "*avec* is a little library for using SIMD instructions on both x86 and ARM."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unum-cloud/UCall",
+      "status": "candidate-context",
+      "text": "Web Serving and Remote Procedure Calls at 50x lower latency and 70x higher bandwidth than FastAPI, implementing JSON-RPC & REST over io_uring \u260e\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unum-cloud/UCall",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">UCall</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudwego/gjson",
+      "status": "candidate-context",
+      "text": "Faster substitution of tidwall/gjson"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudwego/gjson",
+      "status": "candidate-context",
+      "text": "This is a wrapper lib of [gjson](https://github.com/tidwall/gjson), which is accelerated by [sonic](https://github.com/bytedance/sonic)'s algorithm."
     }
   ],
   "candidate_glosses": [
@@ -693,6 +729,24 @@
       "source_repo": "nanxstats/ssw-r",
       "status": "candidate",
       "text": "<!-- badges: start -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unevens/avec",
+      "status": "candidate",
+      "text": "*avec* is a little library for using SIMD instructions on both x86 and ARM."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unum-cloud/UCall",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">UCall</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudwego/gjson",
+      "status": "candidate",
+      "text": "This is a wrapper lib of [gjson](https://github.com/tidwall/gjson), which is accelerated by [sonic](https://github.com/bytedance/sonic)'s algorithm."
     }
   ],
   "candidate_related_terms": [
@@ -1024,11 +1078,47 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "nanxstats/ssw-r"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "unevens/avec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "unum-cloud/UCall"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/StringZilla-CLI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "cloudwego/gjson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "simdjson/simdjson"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

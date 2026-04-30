@@ -1,0 +1,181 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-merge.yaml"
+    },
+    {
+      "component": "actions/setup-java@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-merge.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "detekt/sonar-detekt",
+      "target": "detekt/sonar-kotlin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "detekt/sonar-detekt",
+      "target": "marcinbak/android-sonar-kotlin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-merge.yaml",
+      "source_repo": "detekt/sonar-detekt",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-merge.yaml",
+      "source_repo": "detekt/sonar-detekt",
+      "target": "actions/setup-java@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-merge.yaml",
+      "source_repo": "detekt/sonar-detekt",
+      "target": "Pre Merge Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "detekt/sonar-detekt",
+      "target": "code-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "detekt/sonar-detekt",
+      "target": "code-quality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "detekt/sonar-detekt",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "detekt/sonar-detekt",
+      "target": "kotlin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "detekt/sonar-detekt",
+      "target": "linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "detekt/sonar-detekt",
+      "target": "sonarqube",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:59:27.944222+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4074
+    },
+    {
+      "path": ".github/workflows/pre-merge.yaml",
+      "size": 645
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "SonarQube plugin for Kotlin",
+    "fork": false,
+    "full_name": "detekt/sonar-detekt",
+    "html_url": "https://github.com/detekt/sonar-detekt",
+    "language": "Kotlin",
+    "pushed_at": "2024-01-06T10:29:09Z",
+    "stargazers_count": 497,
+    "topics": [
+      "code-analysis",
+      "code-quality",
+      "hacktoberfest",
+      "kotlin",
+      "linter",
+      "sonarqube"
+    ],
+    "updated_at": "2026-04-01T11:51:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "detekt/sonar-kotlin",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "marcinbak/android-sonar-kotlin",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Pre Merge Checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-merge.yaml",
+      "term": "Pre Merge Checks"
+    },
+    {
+      "context_snippet": "Now that Sonarqube officially supports Kotlin with detekt issue import, this plugin repository has been archived.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-analysis"
+    },
+    {
+      "context_snippet": "Now that Sonarqube officially supports Kotlin with detekt issue import, this plugin repository has been archived.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-quality"
+    },
+    {
+      "context_snippet": "Now that Sonarqube officially supports Kotlin with detekt issue import, this plugin repository has been archived.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "Now that Sonarqube officially supports Kotlin with detekt issue import, this plugin repository has been archived.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kotlin"
+    },
+    {
+      "context_snippet": "Now that Sonarqube officially supports Kotlin with detekt issue import, this plugin repository has been archived.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linter"
+    },
+    {
+      "context_snippet": "Now that Sonarqube officially supports Kotlin with detekt issue import, this plugin repository has been archived.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sonarqube"
+    }
+  ]
+}

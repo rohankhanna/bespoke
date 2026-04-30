@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tmux-plugins/tmux-pain-control",
+      "target": "tmux-plugins/tmux-sessionist",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tmux-plugins/tmux-pain-control",
+      "target": "tmux-plugins/tmux-logging",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:59:44.201483+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3454
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "standard pane key-bindings for tmux",
+    "fork": false,
+    "full_name": "tmux-plugins/tmux-pain-control",
+    "html_url": "https://github.com/tmux-plugins/tmux-pain-control",
+    "language": "Shell",
+    "pushed_at": "2021-08-11T11:01:36Z",
+    "stargazers_count": 846,
+    "topics": [],
+    "updated_at": "2026-04-24T01:52:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tmux-plugins/tmux-logging",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tmux-plugins/tmux-sessionist",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

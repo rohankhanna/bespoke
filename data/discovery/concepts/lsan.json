@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "LSAN"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "filecoin-project/cpp-filecoin",
+      "status": "candidate-context",
+      "text": "C++17 implementation of Filecoin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filecoin-project/cpp-filecoin",
+      "status": "candidate-context",
+      "text": "LSAN"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filecoin-project/cpp-filecoin",
+      "status": "candidate",
+      "text": "LSAN"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "LSAN",
+  "concept_id": "lsan",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/lsan.yml",
+      "source_repo": "filecoin-project/cpp-filecoin"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "LSAN",
+      "sense_id": "lsan#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

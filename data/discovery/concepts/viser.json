@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "viser"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mujocolab/mjviser",
+      "status": "candidate-context",
+      "text": "Web-based MuJoCo viewer powered by Viser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mujocolab/mjviser",
+      "status": "candidate-context",
+      "text": "[![GitHub Actions](https://img.shields.io/github/actions/workflow/status/mujocolab/mjviser/ci.yml?branch=main)](https://github.com/mujocolab/mjviser/actions/workflows/ci.yml?query=branch%3Amain)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mujocolab/mjviser",
+      "status": "candidate",
+      "text": "[![GitHub Actions](https://img.shields.io/github/actions/workflow/status/mujocolab/mjviser/ci.yml?branch=main)](https://github.com/mujocolab/mjviser/actions/workflows/ci.yml?query=branch%3Amain)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "viser",
+  "concept_id": "viser",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "mujocolab/mjviser"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "viser",
+      "sense_id": "viser#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

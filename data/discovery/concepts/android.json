@@ -1168,6 +1168,54 @@
       "source_repo": "aagarwal1012/Liquid-Pull-To-Refresh",
       "status": "candidate-context",
       "text": "<div align=\"center\"><img src=\"https://github.com/aagarwal1012/Liquid-Pull-To-Refresh/blob/master/display/cover.png?raw=true\"/></div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DiligentGraphics/DiligentFX",
+      "status": "candidate-context",
+      "text": "High-level rendering components"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DiligentGraphics/DiligentFX",
+      "status": "candidate-context",
+      "text": "DiligentFX is the [Diligent Engine](https://github.com/DiligentGraphics/DiligentEngine)'s high-level rendering framework."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "not-fl3/macroquad",
+      "status": "candidate-context",
+      "text": "Cross-platform game engine in Rust. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "not-fl3/macroquad",
+      "status": "candidate-context",
+      "text": "[![Github Actions](https://github.com/not-fl3/macroquad/workflows/CI/badge.svg)](https://github.com/not-fl3/macroquad/actions?query=workflow%3A)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "com-lihaoyi/mill",
+      "status": "candidate-context",
+      "text": "A better build tool for Java, Scala and Kotlin: Simpler than Maven, easier than Gradle, with 3-7x faster dev workflows than other JVM build tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "com-lihaoyi/mill",
+      "status": "candidate-context",
+      "text": "'autofix.ci'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openframeworks/openFrameworks",
+      "status": "candidate-context",
+      "text": "openFrameworks is a community-developed cross platform toolkit for creative coding in C++."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openframeworks/openFrameworks",
+      "status": "candidate-context",
+      "text": "[openFrameworks](http://openframeworks.cc/)"
     }
   ],
   "candidate_glosses": [
@@ -1770,6 +1818,30 @@
       "source_repo": "aagarwal1012/Liquid-Pull-To-Refresh",
       "status": "candidate",
       "text": "<div align=\"center\"><img src=\"https://github.com/aagarwal1012/Liquid-Pull-To-Refresh/blob/master/display/cover.png?raw=true\"/></div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DiligentGraphics/DiligentFX",
+      "status": "candidate",
+      "text": "DiligentFX is the [Diligent Engine](https://github.com/DiligentGraphics/DiligentEngine)'s high-level rendering framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "not-fl3/macroquad",
+      "status": "candidate",
+      "text": "[![Github Actions](https://github.com/not-fl3/macroquad/workflows/CI/badge.svg)](https://github.com/not-fl3/macroquad/actions?query=workflow%3A)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "com-lihaoyi/mill",
+      "status": "candidate",
+      "text": "'autofix.ci'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openframeworks/openFrameworks",
+      "status": "candidate",
+      "text": "[openFrameworks](http://openframeworks.cc/)"
     }
   ],
   "candidate_related_terms": [
@@ -2518,11 +2590,59 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "aagarwal1012/Liquid-Pull-To-Refresh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "DiligentGraphics/DiligentFX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "not-fl3/macroquad"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-kotlin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "snapcast/snapdroid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "com-lihaoyi/mill"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "openframeworks/openFrameworks"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

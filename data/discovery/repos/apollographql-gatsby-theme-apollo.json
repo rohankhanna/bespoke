@@ -1,0 +1,113 @@
+{
+  "components": [
+    {
+      "component": "@trevorblades/eslint-config",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lerna",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "apollographql/gatsby-theme-apollo",
+      "target": "@trevorblades/eslint-config",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "apollographql/gatsby-theme-apollo",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "apollographql/gatsby-theme-apollo",
+      "target": "lerna",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apollographql/gatsby-theme-apollo",
+      "target": "apollo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apollographql/gatsby-theme-apollo",
+      "target": "gatsby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apollographql/gatsby-theme-apollo",
+      "target": "gatsby-theme",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:50:38.204689+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 642
+    },
+    {
+      "path": "package.json",
+      "size": 490
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "\ud83d\udc9c Themes that we use to build Gatsby sites at Apollo",
+    "fork": false,
+    "full_name": "apollographql/gatsby-theme-apollo",
+    "html_url": "https://github.com/apollographql/gatsby-theme-apollo",
+    "language": "JavaScript",
+    "pushed_at": "2023-04-13T20:57:26Z",
+    "stargazers_count": 366,
+    "topics": [
+      "apollo",
+      "gatsby",
+      "gatsby-theme"
+    ],
+    "updated_at": "2026-03-11T11:29:49Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "> \u26a0\ufe0f These packages are no longer being maintained. Feel free to continue using them, but we won't be supporting them moving forward.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apollo"
+    },
+    {
+      "context_snippet": "> \u26a0\ufe0f These packages are no longer being maintained. Feel free to continue using them, but we won't be supporting them moving forward.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gatsby"
+    },
+    {
+      "context_snippet": "> \u26a0\ufe0f These packages are no longer being maintained. Feel free to continue using them, but we won't be supporting them moving forward.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gatsby-theme"
+    }
+  ]
+}

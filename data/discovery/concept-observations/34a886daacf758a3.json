@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "slop (Select Operation) is an application that queries for a selection from the user and prints the region to stdout."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "slop (Select Operation) is an application that queries for a selection from the user and prints the region to stdout."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "slop (Select Operation) is an application that queries for a selection from the user and prints the region to stdout."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39947698,
+      "status": "candidate",
+      "text": "swill"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39943194,
+      "status": "candidate",
+      "text": "pigwash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39942537,
+      "status": "candidate",
+      "text": "pigswill"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39938604,
+      "status": "candidate",
+      "text": "splash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39938235,
+      "status": "candidate",
+      "text": "slosh"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "slop",
+      "sense_id": "slop#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 30037,
+      "status": "candidate",
+      "text": "squelch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16039,
+      "status": "candidate",
+      "text": "slosh"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13037,
+      "status": "candidate",
+      "text": "swill"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10054,
+      "status": "candidate",
+      "text": "splash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10036,
+      "status": "candidate",
+      "text": "splatter"
+    }
+  ],
+  "concept_id": "slop",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "slop",
+  "observation_id": "34a886daacf758a3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "slop",
+  "source_context_snippet": "slop (Select Operation) is an application that queries for a selection from the user and prints the region to stdout.",
+  "source_file": null,
+  "source_repo": "naelstrof/slop",
+  "source_repo_description": "slop (Select Operation) is an application that queries for a selection from the user and prints the region to stdout."
+}

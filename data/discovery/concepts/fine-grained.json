@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "fine-grained"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FunAudioLLM/CosyVoice",
+      "status": "candidate-context",
+      "text": "Multi-lingual large voice generation model, providing inference, training and deployment full-stack ability."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FunAudioLLM/CosyVoice",
+      "status": "candidate-context",
+      "text": "![SVG Banners](https://svg-banners.vercel.app/api?type=origin&text1=CosyVoice\ud83e\udd20&text2=Text-to-Speech%20\ud83d\udc96%20Large%20Language%20Model&width=800&height=210)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FunAudioLLM/CosyVoice",
+      "status": "candidate",
+      "text": "![SVG Banners](https://svg-banners.vercel.app/api?type=origin&text1=CosyVoice\ud83e\udd20&text2=Text-to-Speech%20\ud83d\udc96%20Large%20Language%20Model&width=800&height=210)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39953175,
+      "status": "candidate",
+      "text": "fine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39887960,
+      "status": "candidate",
+      "text": "powdery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39884576,
+      "status": "candidate",
+      "text": "powdered"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29965149,
+      "status": "candidate",
+      "text": "close-grained"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29965149,
+      "status": "candidate",
+      "text": "pulverized"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31065,
+      "status": "candidate",
+      "text": "fine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5020,
+      "status": "candidate",
+      "text": "pulverized"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1033,
+      "status": "candidate",
+      "text": "powdery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28,
+      "status": "candidate",
+      "text": "powdered"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18,
+      "status": "candidate",
+      "text": "close-grained"
+    }
+  ],
+  "canonical_name": "fine-grained",
+  "concept_id": "fine-grained",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "FunAudioLLM/CosyVoice"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "fine-grained",
+      "sense_id": "fine-grained#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

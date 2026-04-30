@@ -48,7 +48,7 @@
   "normalized_form": "language-server-protocol",
   "observation_id": "1a4b33fb593d1e31",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
   "observed_text": "language-server-protocol",
   "source_context_snippet": "[![Build Status](https://img.shields.io/jenkins/tests?jobUrl=https%3A%2F%2Fci.eclipse.org%2Fls%2Fjob%2Fjdt-ls-main%2F&logo=jenkins&logoColor=white&style=for-the-badge)](https://ci.eclipse.org/ls/job/jdt-ls-main)",
   "source_file": null,

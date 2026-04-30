@@ -157,6 +157,42 @@
       "source_repo": "deforum/sd-webui-deforum",
       "status": "candidate-context",
       "text": "<p align=\"left\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kabachuha/sd-webui-text2video",
+      "status": "candidate-context",
+      "text": "Auto1111 extension implementing text2video diffusion models (like ModelScope or VideoCrafter) using only Auto1111 webui dependencies"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kabachuha/sd-webui-text2video",
+      "status": "candidate-context",
+      "text": "**~~Warning: as of 2023-11-21 this extension is not maintained. If you'd like to continue devving/remaking it, please contact me on Discord @kabachuha (you can also find me on [camenduru's server's text2video channel](https://discord.gg/TYk6rfT9)) and we'll figure it out~~**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GoogleChromeLabs/ProjectVisBug",
+      "status": "candidate-context",
+      "text": "FireBug for designers \u203a Edit any webpage, in any state https://a.nerdy.dev/gimme-visbug"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleChromeLabs/ProjectVisBug",
+      "status": "candidate-context",
+      "text": "VisBug"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FelikZ/ctrlp-py-matcher",
+      "status": "candidate-context",
+      "text": "Fast vim CtrlP matcher based on python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FelikZ/ctrlp-py-matcher",
+      "status": "candidate-context",
+      "text": "ctrlp-py-matcher"
     }
   ],
   "candidate_glosses": [
@@ -237,6 +273,24 @@
       "source_repo": "deforum/sd-webui-deforum",
       "status": "candidate",
       "text": "<p align=\"left\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kabachuha/sd-webui-text2video",
+      "status": "candidate",
+      "text": "**~~Warning: as of 2023-11-21 this extension is not maintained. If you'd like to continue devving/remaking it, please contact me on Discord @kabachuha (you can also find me on [camenduru's server's text2video channel](https://discord.gg/TYk6rfT9)) and we'll figure it out~~**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleChromeLabs/ProjectVisBug",
+      "status": "candidate",
+      "text": "VisBug"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FelikZ/ctrlp-py-matcher",
+      "status": "candidate",
+      "text": "ctrlp-py-matcher"
     }
   ],
   "candidate_related_terms": [
@@ -448,11 +502,47 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "eclipse-openvsx/openvsx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "kabachuha/sd-webui-text2video"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "deforum/sd-webui-deforum"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "GoogleChromeLabs/ProjectVisBug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "FelikZ/ctrlp-py-matcher"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "preactjs/preact-devtools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-openvsx/openvsx"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,144 @@
+{
+  "components": [
+    {
+      "component": "tinted-theming/home/.github/workflows/shared-auto-assign-issues.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-assign-issues.yml"
+    },
+    {
+      "component": "tinted-theming/home/.github/workflows/shared-build-template-and-commit-themes.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tinted-theming/base16-waybar",
+      "target": "alexays/waybar",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-assign-issues.yml",
+      "source_repo": "tinted-theming/base16-waybar",
+      "target": "tinted-theming/home/.github/workflows/shared-auto-assign-issues.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-assign-issues.yml",
+      "source_repo": "tinted-theming/base16-waybar",
+      "target": "Auto assignment for issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "tinted-theming/base16-waybar",
+      "target": "tinted-theming/home/.github/workflows/shared-build-template-and-commit-themes.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "tinted-theming/base16-waybar",
+      "target": "Update with the latest tinted-theming colorschemes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tinted-theming/base16-waybar",
+      "target": "base16",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tinted-theming/base16-waybar",
+      "target": "themes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tinted-theming/base16-waybar",
+      "target": "waybar",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:52:44.097883+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 574
+    },
+    {
+      "path": ".github/workflows/auto-assign-issues.yml",
+      "size": 237
+    },
+    {
+      "path": ".github/workflows/update.yml",
+      "size": 382
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "tinted-theming/base16-waybar",
+    "html_url": "https://github.com/tinted-theming/base16-waybar",
+    "language": "CSS",
+    "pushed_at": "2026-04-26T02:05:37Z",
+    "stargazers_count": 2,
+    "topics": [
+      "base16",
+      "themes",
+      "waybar"
+    ],
+    "updated_at": "2026-04-26T02:05:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexays/waybar",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Auto assignment for issues\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-assign-issues.yml",
+      "term": "Auto assignment for issues"
+    },
+    {
+      "context_snippet": "\"Update with the latest tinted-theming colorschemes\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update.yml",
+      "term": "Update with the latest tinted-theming colorschemes"
+    },
+    {
+      "context_snippet": "This repo provides templates for using",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "base16"
+    },
+    {
+      "context_snippet": "This repo provides templates for using",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "themes"
+    },
+    {
+      "context_snippet": "This repo provides templates for using",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "waybar"
+    }
+  ]
+}

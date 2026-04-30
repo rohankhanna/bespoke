@@ -94,6 +94,18 @@
       "source_repo": "moznion/sbt-spotless",
       "status": "candidate-context",
       "text": "An sbt plugin for [Spotless](https://github.com/diffplug/spotless) code formatter/checker."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rubocop/rubocop-performance",
+      "status": "candidate-context",
+      "text": "An extension of RuboCop focused on code performance checks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rubocop/rubocop-performance",
+      "status": "candidate-context",
+      "text": "[![Gem Version](https://badge.fury.io/rb/rubocop-performance.svg)](https://badge.fury.io/rb/rubocop-performance)"
     }
   ],
   "candidate_glosses": [
@@ -138,6 +150,12 @@
       "source_repo": "moznion/sbt-spotless",
       "status": "candidate",
       "text": "An sbt plugin for [Spotless](https://github.com/diffplug/spotless) code formatter/checker."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rubocop/rubocop-performance",
+      "status": "candidate",
+      "text": "[![Gem Version](https://badge.fury.io/rb/rubocop-performance.svg)](https://badge.fury.io/rb/rubocop-performance)"
     }
   ],
   "candidate_related_terms": [
@@ -229,11 +247,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "rubocop/rubocop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "rubocop/rubocop-performance"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

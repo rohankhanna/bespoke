@@ -19,6 +19,30 @@
       "source_repo": "CesiumGS/3d-tiles",
       "status": "candidate-context",
       "text": "![](figures/3DTiles_light_color_small.png#gh-dark-mode-only)![](figures/3DTiles_dark_color_small.png#gh-light-mode-only)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "soubhiksanyal/RingNet",
+      "status": "candidate-context",
+      "text": "Learning to Regress 3D Face Shape and Expression from an Image without 3D Supervision"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "soubhiksanyal/RingNet",
+      "status": "candidate-context",
+      "text": "![alt text](https://github.com/soubhiksanyal/RingNet/blob/master/gif/celeba_reconstruction.gif?raw=true)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TimoBolkart/voca",
+      "status": "candidate-context",
+      "text": "This codebase demonstrates how to synthesize realistic 3D character animations given an arbitrary speech signal and a static character mesh."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TimoBolkart/voca",
+      "status": "candidate-context",
+      "text": "This is an official [VOCA](https://voca.is.tue.mpg.de) repository."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "CesiumGS/3d-tiles",
       "status": "candidate",
       "text": "![](figures/3DTiles_light_color_small.png#gh-dark-mode-only)![](figures/3DTiles_dark_color_small.png#gh-light-mode-only)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "soubhiksanyal/RingNet",
+      "status": "candidate",
+      "text": "![alt text](https://github.com/soubhiksanyal/RingNet/blob/master/gif/celeba_reconstruction.gif?raw=true)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TimoBolkart/voca",
+      "status": "candidate",
+      "text": "This is an official [VOCA](https://voca.is.tue.mpg.de) repository."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "CesiumGS/3d-tiles"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "soubhiksanyal/RingNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "TimoBolkart/voca"
     }
   ],
   "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

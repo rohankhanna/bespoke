@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dc-ai-projects/DC-VideoGen",
+      "target": "deep-compression-autoencoder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dc-ai-projects/DC-VideoGen",
+      "target": "efficient-video-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dc-ai-projects/DC-VideoGen",
+      "target": "post-training-acceleration",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T12:45:20.475770+00:00",
+  "source_repo": "dc-ai-projects/DC-VideoGen"
+}

@@ -214,30 +214,30 @@
   "edges": [
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
+      "source_file": "Cargo.toml",
       "source_repo": "hermit-os/kernel",
-      "target": "hermit-os/.github",
+      "target": "arm-software/abi-aa",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
+      "source_file": "Cargo.toml",
       "source_repo": "hermit-os/kernel",
-      "target": "hermit-os/hermit-rs",
+      "target": "hermit-os/rftrace",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
+      "source_file": "Cargo.toml",
       "source_repo": "hermit-os/kernel",
-      "target": "hermit-os/hermit-c",
+      "target": "hermit-os/async-executor",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
+      "source_file": "Cargo.toml",
       "source_repo": "hermit-os/kernel",
-      "target": "rust-lang/log",
+      "target": "hermit-os/safe-mmio",
       "target_type": "repository"
     },
     {
@@ -479,7 +479,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T00:42:23.225392+00:00",
+  "fetched_at": "2026-04-30T14:04:40.531487+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -538,23 +538,23 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "hermit-os/.github",
-      "source_file": "README.md"
+      "full_name": "arm-software/abi-aa",
+      "source_file": "Cargo.toml"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "hermit-os/hermit-c",
-      "source_file": "README.md"
+      "full_name": "hermit-os/async-executor",
+      "source_file": "Cargo.toml"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "hermit-os/hermit-rs",
-      "source_file": "README.md"
+      "full_name": "hermit-os/rftrace",
+      "source_file": "Cargo.toml"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "rust-lang/log",
-      "source_file": "README.md"
+      "full_name": "hermit-os/safe-mmio",
+      "source_file": "Cargo.toml"
     }
   ],
   "terms": [

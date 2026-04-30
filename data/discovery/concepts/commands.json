@@ -82,6 +82,30 @@
       "source_repo": "r-lib/devtools",
       "status": "candidate-context",
       "text": "Commands"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "r-lib/pkgload",
+      "status": "candidate-context",
+      "text": "Simulate installing and loading a package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r-lib/pkgload",
+      "status": "candidate-context",
+      "text": "Commands"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "r-lib/revdepcheck",
+      "status": "candidate-context",
+      "text": "R package reverse dependency checking"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r-lib/revdepcheck",
+      "status": "candidate-context",
+      "text": "Commands"
     }
   ],
   "candidate_glosses": [
@@ -118,6 +142,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "r-lib/devtools",
+      "status": "candidate",
+      "text": "Commands"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r-lib/pkgload",
+      "status": "candidate",
+      "text": "Commands"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r-lib/revdepcheck",
       "status": "candidate",
       "text": "Commands"
     }
@@ -199,11 +235,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/pr-commands.yaml",
       "source_repo": "r-lib/devtools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/pr-commands.yaml",
+      "source_repo": "r-lib/pkgload"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/pr-commands.yaml",
+      "source_repo": "r-lib/revdepcheck"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A comprehensive list [AIM@IJCAI'21, P3M@MM'21, GFM@IJCV'22, RIM@CVPR'23, P3MNet@IJCV'23] of our research works related to image matting, including papers, codes, datasets, demos, and citations. Note: The repo for [IJCV'23] \"Rethinking Portrait Matting with Privacy Preserving\" has been moved to: https://github.com/ViTAE-Transformer/P3M-Net"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h1 align=\"center\">Image Matting</h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Image Matting</h1>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "image-matting",
+      "sense_id": "image-matting#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "image-matting",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "image-matting",
+  "observation_id": "2b15510fdbd67fb1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "image-matting",
+  "source_context_snippet": "<h1 align=\"center\">Image Matting</h1>",
+  "source_file": null,
+  "source_repo": "ViTAE-Transformer/ViTAE-Transformer-Matting",
+  "source_repo_description": "A comprehensive list [AIM@IJCAI'21, P3M@MM'21, GFM@IJCV'22, RIM@CVPR'23, P3MNet@IJCV'23] of our research works related to image matting, including papers, codes, datasets, demos, and citations. Note: The repo for [IJCV'23] \"Rethinking Portrait Matting with Privacy Preserving\" has been moved to: https://github.com/ViTAE-Transformer/P3M-Net"
+}

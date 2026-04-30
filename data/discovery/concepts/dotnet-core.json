@@ -151,6 +151,54 @@
       "source_repo": "ardalis/ApiEndpoints",
       "status": "candidate-context",
       "text": "[![dotnet core - build](https://github.com/ardalis/ApiEndpoints/workflows/dotnet%20core%20-%20build/badge.svg)](https://github.com/ardalis/ApiEndpoints/actions?query=workflow%3A%22dotnet+core+-+build%22)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xoofx/CppAst.NET",
+      "status": "candidate-context",
+      "text": "CppAst is a .NET library providing a C/C++ parser for header files powered by Clang/libclang with access to the full AST, comments and macros"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xoofx/CppAst.NET",
+      "status": "candidate-context",
+      "text": "ci"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chequer-io/PhoenixSql",
+      "status": "candidate-context",
+      "text": "Phoenix sql parser for .NET Core"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chequer-io/PhoenixSql",
+      "status": "candidate-context",
+      "text": "<img width=\"128\" src=\"https://github.com/chequer-io/phoenixsql/blob/main/Logo.png?raw=true\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ardalis/GuardClauses",
+      "status": "candidate-context",
+      "text": "A simple package with guard clause extensions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ardalis/GuardClauses",
+      "status": "candidate-context",
+      "text": "![logo](media/logotype%201024.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ardalis/Result",
+      "status": "candidate-context",
+      "text": "A result abstraction that can be mapped to HTTP response codes if needed."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ardalis/Result",
+      "status": "candidate-context",
+      "text": "[![Ardalis.Result - NuGet](https://img.shields.io/nuget/v/Ardalis.Result.svg?label=Ardalis.Result%20-%20nuget)](https://www.nuget.org/packages/Ardalis.Result) [![NuGet](https://img.shields.io/nuget/dt/Ardalis.Result.svg)](https://www.nuget.org/packages/Ardalis.Result) [![Build S\u2026"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +273,30 @@
       "source_repo": "ardalis/ApiEndpoints",
       "status": "candidate",
       "text": "[![dotnet core - build](https://github.com/ardalis/ApiEndpoints/workflows/dotnet%20core%20-%20build/badge.svg)](https://github.com/ardalis/ApiEndpoints/actions?query=workflow%3A%22dotnet+core+-+build%22)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xoofx/CppAst.NET",
+      "status": "candidate",
+      "text": "ci"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chequer-io/PhoenixSql",
+      "status": "candidate",
+      "text": "<img width=\"128\" src=\"https://github.com/chequer-io/phoenixsql/blob/main/Logo.png?raw=true\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ardalis/GuardClauses",
+      "status": "candidate",
+      "text": "![logo](media/logotype%201024.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ardalis/Result",
+      "status": "candidate",
+      "text": "[![Ardalis.Result - NuGet](https://img.shields.io/nuget/v/Ardalis.Result.svg?label=Ardalis.Result%20-%20nuget)](https://www.nuget.org/packages/Ardalis.Result) [![NuGet](https://img.shields.io/nuget/dt/Ardalis.Result.svg)](https://www.nuget.org/packages/Ardalis.Result) [![Build S\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -340,11 +412,41 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "xoofx/CppAst.NET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "chequer-io/PhoenixSql"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ardalis/GuardClauses"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ardalis/Result"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

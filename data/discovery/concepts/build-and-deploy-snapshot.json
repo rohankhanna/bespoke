@@ -43,6 +43,48 @@
       "source_repo": "FasterXML/jackson-core",
       "status": "candidate-context",
       "text": "Build and Deploy Snapshot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FasterXML/jackson-dataformat-xml",
+      "status": "candidate-context",
+      "text": "Extension for Jackson JSON processor that adds support for serializing POJOs as XML (and deserializing from XML) as an alternative to JSON"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FasterXML/jackson-dataformat-xml",
+      "status": "candidate-context",
+      "text": "Build and Deploy Snapshot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FasterXML/jackson-dataformats-binary",
+      "status": "candidate-context",
+      "text": "Uber-project for standard Jackson binary format backends: avro, cbor, ion, protobuf, smile"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FasterXML/jackson-dataformats-binary",
+      "status": "candidate-context",
+      "text": "Build and Deploy Snapshot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FasterXML/jackson-dataformats-text",
+      "status": "candidate-context",
+      "text": "Uber-project for (some) standard Jackson textual format backends: csv, properties, yaml (xml to be added in future)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FasterXML/jackson-dataformats-text",
+      "status": "candidate-context",
+      "text": "Build and Deploy Snapshot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spring-io/spring-javaformat",
+      "status": "candidate-context",
+      "text": "Build and Deploy Snapshot"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +103,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "FasterXML/jackson-core",
+      "status": "candidate",
+      "text": "Build and Deploy Snapshot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FasterXML/jackson-dataformat-xml",
+      "status": "candidate",
+      "text": "Build and Deploy Snapshot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FasterXML/jackson-dataformats-binary",
+      "status": "candidate",
+      "text": "Build and Deploy Snapshot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FasterXML/jackson-dataformats-text",
+      "status": "candidate",
+      "text": "Build and Deploy Snapshot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spring-io/spring-javaformat",
       "status": "candidate",
       "text": "Build and Deploy Snapshot"
     }
@@ -124,11 +190,35 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "FasterXML/jackson-core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "FasterXML/jackson-dataformat-xml"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "FasterXML/jackson-dataformats-binary"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "FasterXML/jackson-dataformats-text"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/build-and-deploy-snapshot.yml",
+      "source_repo": "spring-io/spring-javaformat"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

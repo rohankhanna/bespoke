@@ -158,6 +158,18 @@
       "source_repo": "allenai/beaker-py",
       "status": "candidate-context",
       "text": "PR Checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "allenai/beaker-gantry",
+      "status": "candidate-context",
+      "text": "Gantry provides an API that streamlines running experiments in Beaker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/beaker-gantry",
+      "status": "candidate-context",
+      "text": "PR Checks"
     }
   ],
   "candidate_glosses": [
@@ -236,6 +248,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "allenai/beaker-py",
+      "status": "candidate",
+      "text": "PR Checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/beaker-gantry",
       "status": "candidate",
       "text": "PR Checks"
     }
@@ -377,11 +395,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/pr_checks.yml",
       "source_repo": "allenai/beaker-py"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/pr_checks.yml",
+      "source_repo": "allenai/OLMo-Eval-Legacy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/pr_checks.yml",
+      "source_repo": "allenai/beaker-gantry"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

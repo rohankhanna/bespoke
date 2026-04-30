@@ -43,6 +43,18 @@
       "source_repo": "MeetKai/functionary",
       "status": "candidate-context",
       "text": "<a href=\"https://meetkai.com/\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cheshire-cat-ai/core",
+      "status": "candidate-context",
+      "text": "AI agent microservice"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cheshire-cat-ai/core",
+      "status": "candidate-context",
+      "text": "<a name=\"readme-top\"></a>"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "MeetKai/functionary",
       "status": "candidate",
       "text": "<a href=\"https://meetkai.com/\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cheshire-cat-ai/core",
+      "status": "candidate",
+      "text": "<a name=\"readme-top\"></a>"
     }
   ],
   "candidate_related_terms": [],
@@ -148,11 +166,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "MeetKai/functionary"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Agent-RL/ReCall"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "cheshire-cat-ai/core"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

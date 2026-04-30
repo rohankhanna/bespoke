@@ -1,0 +1,205 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DengPingFan/SINet",
+      "target": "gewelsji/sinet-v2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DengPingFan/SINet",
+      "target": "dengpingfan/codtoolbox",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DengPingFan/SINet",
+      "target": "dengpingfan/inf-net",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DengPingFan/SINet",
+      "target": "facebookresearch/resnext",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DengPingFan/SINet",
+      "target": "attention-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DengPingFan/SINet",
+      "target": "camouflage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DengPingFan/SINet",
+      "target": "defect-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DengPingFan/SINet",
+      "target": "detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DengPingFan/SINet",
+      "target": "salient-object-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DengPingFan/SINet",
+      "target": "segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DengPingFan/SINet",
+      "target": "surface-defect-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DengPingFan/SINet",
+      "target": "transparent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DengPingFan/SINet",
+      "target": "transparent-object-detection",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:10:29.692351+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19725
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Camouflaged Object Detection, CVPR 2020 (Oral)",
+    "fork": false,
+    "full_name": "DengPingFan/SINet",
+    "html_url": "https://github.com/DengPingFan/SINet",
+    "language": "Python",
+    "pushed_at": "2024-04-07T06:53:11Z",
+    "stargazers_count": 591,
+    "topics": [
+      "attention-model",
+      "camouflage",
+      "defect-detection",
+      "detection",
+      "salient-object-detection",
+      "segmentation",
+      "surface-defect-detection",
+      "transparent",
+      "transparent-object-detection"
+    ],
+    "updated_at": "2026-04-27T00:47:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dengpingfan/codtoolbox",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dengpingfan/inf-net",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/resnext",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gewelsji/sinet-v2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> Authors:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "attention-model"
+    },
+    {
+      "context_snippet": "> Authors:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "camouflage"
+    },
+    {
+      "context_snippet": "> Authors:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "defect-detection"
+    },
+    {
+      "context_snippet": "> Authors:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "detection"
+    },
+    {
+      "context_snippet": "> Authors:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "salient-object-detection"
+    },
+    {
+      "context_snippet": "> Authors:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "segmentation"
+    },
+    {
+      "context_snippet": "> Authors:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "surface-defect-detection"
+    },
+    {
+      "context_snippet": "> Authors:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transparent"
+    },
+    {
+      "context_snippet": "> Authors:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transparent-object-detection"
+    }
+  ]
+}

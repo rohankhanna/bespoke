@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Configurable Vertical Rhythm & Typography in CSS-in-JS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "size"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "size"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29966391,
+      "status": "candidate",
+      "text": "size of it"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29966390,
+      "status": "candidate",
+      "text": "endowment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29963699,
+      "status": "candidate",
+      "text": "staffing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29963531,
+      "status": "candidate",
+      "text": "turnover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29962472,
+      "status": "candidate",
+      "text": "membership"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "size",
+      "sense_id": "size#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1032,
+      "status": "candidate",
+      "text": "sized"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 39,
+      "status": "candidate",
+      "text": "sizing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8,
+      "status": "candidate",
+      "text": "size of it"
+    }
+  ],
+  "concept_id": "size",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "size",
+  "observation_id": "cf1816fae69509df",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "size",
+  "source_context_snippet": "size",
+  "source_file": ".github/workflows/size.yml",
+  "source_repo": "kyleshevlin/shevyjs",
+  "source_repo_description": "Configurable Vertical Rhythm & Typography in CSS-in-JS"
+}

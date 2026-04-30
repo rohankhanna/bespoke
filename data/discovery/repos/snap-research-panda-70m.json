@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "snap-research/Panda-70M",
+      "target": "soczech/transnetv2",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:10:05.539376+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8987
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR 2024] Panda-70M: Captioning 70M Videos with Multiple Cross-Modality Teachers",
+    "fork": false,
+    "full_name": "snap-research/Panda-70M",
+    "html_url": "https://github.com/snap-research/Panda-70M",
+    "language": "Python",
+    "pushed_at": "2024-10-25T00:31:11Z",
+    "stargazers_count": 685,
+    "topics": [],
+    "updated_at": "2026-04-08T23:46:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "soczech/transnetv2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Release monorepo packages"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swagger-api/apidom",
+      "status": "candidate-context",
+      "text": "Semantic parser for API specifications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/apidom",
+      "status": "candidate-context",
+      "text": "Release monorepo packages"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/apidom",
+      "status": "candidate",
+      "text": "Release monorepo packages"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12706,
+      "status": "candidate",
+      "text": "drop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12281,
+      "status": "candidate",
+      "text": "lift"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11585,
+      "status": "candidate",
+      "text": "address"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11585,
+      "status": "candidate",
+      "text": "briefings"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11585,
+      "status": "candidate",
+      "text": "mail"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Release monorepo packages",
+  "concept_id": "release-monorepo-packages",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "swagger-api/apidom"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release monorepo packages",
+      "sense_id": "release-monorepo-packages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

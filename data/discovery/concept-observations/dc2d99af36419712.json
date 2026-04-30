@@ -84,7 +84,7 @@
   "normalized_form": "run-ci",
   "observation_id": "dc2d99af36419712",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
   "observed_text": "Run CI",
   "source_context_snippet": "\"Run CI\"",
   "source_file": ".github/workflows/ci.yml",

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "PR Comment Generation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kylebarron/parquet-wasm",
+      "status": "candidate-context",
+      "text": "Rust-based WebAssembly bindings to read and write Apache Parquet data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kylebarron/parquet-wasm",
+      "status": "candidate-context",
+      "text": "PR Comment Generation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kylebarron/parquet-wasm",
+      "status": "candidate",
+      "text": "PR Comment Generation"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18482,
+      "status": "candidate",
+      "text": "plot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18482,
+      "status": "candidate",
+      "text": "plotted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18482,
+      "status": "candidate",
+      "text": "plotting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18402,
+      "status": "candidate",
+      "text": "hype"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18402,
+      "status": "candidate",
+      "text": "image"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "PR Comment Generation",
+  "concept_id": "pr-comment-generation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/pr-manipulation.yml",
+      "source_repo": "kylebarron/parquet-wasm"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PR Comment Generation",
+      "sense_id": "pr-comment-generation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

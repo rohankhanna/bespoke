@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Suite of tools containing an in-memory vector datastore and AI proxy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Publish Test Results"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Publish Test Results"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34577,
+      "status": "candidate",
+      "text": "jury"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34294,
+      "status": "candidate",
+      "text": "findings"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34294,
+      "status": "candidate",
+      "text": "outcomes"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33894,
+      "status": "candidate",
+      "text": "analysis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33894,
+      "status": "candidate",
+      "text": "outcome"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish Test Results",
+      "sense_id": "publish-test-results#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "publish-test-results",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "publish-test-results",
+  "observation_id": "7ddba3f818420f78",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "Publish Test Results",
+  "source_context_snippet": "Publish Test Results",
+  "source_file": ".github/workflows/publish_test.yml",
+  "source_repo": "deven96/ahnlich",
+  "source_repo_description": "Suite of tools containing an in-memory vector datastore and AI proxy"
+}

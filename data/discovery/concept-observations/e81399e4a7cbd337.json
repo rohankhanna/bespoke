@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "igraph R package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "fledge"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "fledge"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40046330,
+      "status": "candidate",
+      "text": "feather"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39712719,
+      "status": "candidate",
+      "text": "flight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20046697,
+      "status": "candidate",
+      "text": "take wing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20046696,
+      "status": "candidate",
+      "text": "take flight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20046694,
+      "status": "candidate",
+      "text": "fly the nest"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "fledge",
+      "sense_id": "fledge#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13060,
+      "status": "candidate",
+      "text": "flight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "feather"
+    }
+  ],
+  "concept_id": "fledge",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "fledge",
+  "observation_id": "e81399e4a7cbd337",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "fledge",
+  "source_context_snippet": "fledge",
+  "source_file": ".github/workflows/fledge.yaml",
+  "source_repo": "igraph/rigraph",
+  "source_repo_description": "igraph R package"
+}

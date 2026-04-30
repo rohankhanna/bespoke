@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T16:00:50.879246+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1485
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "GRAIN: Gradient-based Intra-attention Pruning on Pre-trained Language Models",
+    "fork": false,
+    "full_name": "airaria/GRAIN",
+    "html_url": "https://github.com/airaria/GRAIN",
+    "language": "Python",
+    "pushed_at": "2023-07-12T13:42:57Z",
+    "stargazers_count": 19,
+    "topics": [],
+    "updated_at": "2025-02-17T03:57:49Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -20,20 +20,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "allenai/natural-instructions",
-      "target": "yizhongw/tk-instruct",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "allenai/natural-instructions",
-      "target": "allenai/natural-instructions-v1",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/blank.yml",
       "source_repo": "allenai/natural-instructions",
@@ -48,7 +34,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-04-30T08:12:54.578437+00:00",
+  "fetched_at": "2026-04-30T16:14:17.708787+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -77,16 +63,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "allenai/natural-instructions-expansion",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "allenai/natural-instructions-v1",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "yizhongw/tk-instruct",
       "source_file": "README.md"
     }
   ],

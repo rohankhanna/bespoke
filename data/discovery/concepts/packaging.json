@@ -209,6 +209,18 @@
       "source_repo": "pypa/hatch",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "robot-descriptions/robot_descriptions.py",
+      "status": "candidate-context",
+      "text": "Access 175+ robot descriptions from the main Python robotics frameworks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robot-descriptions/robot_descriptions.py",
+      "status": "candidate-context",
+      "text": "Packaging"
     }
   ],
   "candidate_glosses": [
@@ -313,6 +325,12 @@
       "source_repo": "pypa/hatch",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robot-descriptions/robot_descriptions.py",
+      "status": "candidate",
+      "text": "Packaging"
     }
   ],
   "candidate_related_terms": [
@@ -517,11 +535,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "pypa/hatch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/packaging.yml",
+      "source_repo": "robot-descriptions/robot_descriptions.py"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

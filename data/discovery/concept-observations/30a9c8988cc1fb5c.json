@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Minimalistic MP3 decoder single header library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "minimp3"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "minimp3"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40022007,
+      "status": "candidate",
+      "text": "minimum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40014287,
+      "status": "candidate",
+      "text": "negligible"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40013084,
+      "status": "candidate",
+      "text": "stripped-down"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40000016,
+      "status": "candidate",
+      "text": "borderline"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39966068,
+      "status": "candidate",
+      "text": "tokenish"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "minimal",
+      "sense_id": "minimal#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26033,
+      "status": "candidate",
+      "text": "negligible"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23051,
+      "status": "candidate",
+      "text": "nominal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21051,
+      "status": "candidate",
+      "text": "marginal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18058,
+      "status": "candidate",
+      "text": "bottom"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9032,
+      "status": "candidate",
+      "text": "borderline"
+    }
+  ],
+  "concept_id": "minimal",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "minimal",
+  "observation_id": "30a9c8988cc1fb5c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "minimal",
+  "source_context_snippet": "minimp3",
+  "source_file": null,
+  "source_repo": "lieff/minimp3",
+  "source_repo_description": "Minimalistic MP3 decoder single header library"
+}

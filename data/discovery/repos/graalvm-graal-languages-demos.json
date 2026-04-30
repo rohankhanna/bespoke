@@ -1,0 +1,483 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/espresso-continuations.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/espresso-continuations.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graaljs-spring-boot-d3.yml"
+    },
+    {
+      "component": "graalvm/setup-graalvm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graaljs-spring-boot-d3.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graaljs-starter.yml"
+    },
+    {
+      "component": "graalvm/setup-graalvm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graaljs-starter.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graaljs-webpack-guide.yml"
+    },
+    {
+      "component": "graalvm/setup-graalvm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graaljs-webpack-guide.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graalpy-check-snippets.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graalpy-check-snippets.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graalpy-custom-venv-guide.yml"
+    },
+    {
+      "component": "graalvm/setup-graalvm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graalpy-custom-venv-guide.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graalpy-custom-venv-guide.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graalpy-freeze-dependencies-guide.yml"
+    },
+    {
+      "component": "graalvm/setup-graalvm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graalpy-freeze-dependencies-guide.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graalpy-javase-guide.yml"
+    },
+    {
+      "component": "graalvm/setup-graalvm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graalpy-javase-guide.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graalpy-jbang-qrcode.yml"
+    },
+    {
+      "component": "graalvm/setup-graalvm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graalpy-jbang-qrcode.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/espresso-continuations.yml",
+      "source_repo": "graalvm/graal-languages-demos",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/espresso-continuations.yml",
+      "source_repo": "graalvm/graal-languages-demos",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/espresso-continuations.yml",
+      "source_repo": "graalvm/graal-languages-demos",
+      "target": "Test Espresso Continuations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graaljs-spring-boot-d3.yml",
+      "source_repo": "graalvm/graal-languages-demos",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graaljs-spring-boot-d3.yml",
+      "source_repo": "graalvm/graal-languages-demos",
+      "target": "graalvm/setup-graalvm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/graaljs-spring-boot-d3.yml",
+      "source_repo": "graalvm/graal-languages-demos",
+      "target": "Test GraalJS Spring Boot D3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graaljs-starter.yml",
+      "source_repo": "graalvm/graal-languages-demos",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graaljs-starter.yml",
+      "source_repo": "graalvm/graal-languages-demos",
+      "target": "graalvm/setup-graalvm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/graaljs-starter.yml",
+      "source_repo": "graalvm/graal-languages-demos",
+      "target": "Test GraalJS Starter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graaljs-webpack-guide.yml",
+      "source_repo": "graalvm/graal-languages-demos",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graaljs-webpack-guide.yml",
+      "source_repo": "graalvm/graal-languages-demos",
+      "target": "graalvm/setup-graalvm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graalpy-check-snippets.yml",
+      "source_repo": "graalvm/graal-languages-demos",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graalpy-check-snippets.yml",
+      "source_repo": "graalvm/graal-languages-demos",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/graalpy-check-snippets.yml",
+      "source_repo": "graalvm/graal-languages-demos",
+      "target": "Check Snippets in GraalPy Guides",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graalpy-custom-venv-guide.yml",
+      "source_repo": "graalvm/graal-languages-demos",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graalpy-custom-venv-guide.yml",
+      "source_repo": "graalvm/graal-languages-demos",
+      "target": "graalvm/setup-graalvm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graalpy-custom-venv-guide.yml",
+      "source_repo": "graalvm/graal-languages-demos",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/graalpy-custom-venv-guide.yml",
+      "source_repo": "graalvm/graal-languages-demos",
+      "target": "Test GraalPy Custom Venv Guide",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graalpy-freeze-dependencies-guide.yml",
+      "source_repo": "graalvm/graal-languages-demos",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graalpy-freeze-dependencies-guide.yml",
+      "source_repo": "graalvm/graal-languages-demos",
+      "target": "graalvm/setup-graalvm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/graalpy-freeze-dependencies-guide.yml",
+      "source_repo": "graalvm/graal-languages-demos",
+      "target": "Test GraalPy Freeze Dependencies Guide",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graalpy-javase-guide.yml",
+      "source_repo": "graalvm/graal-languages-demos",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graalpy-javase-guide.yml",
+      "source_repo": "graalvm/graal-languages-demos",
+      "target": "graalvm/setup-graalvm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/graalpy-javase-guide.yml",
+      "source_repo": "graalvm/graal-languages-demos",
+      "target": "Test GraalPy Java SE Guide",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graalpy-jbang-qrcode.yml",
+      "source_repo": "graalvm/graal-languages-demos",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graalpy-jbang-qrcode.yml",
+      "source_repo": "graalvm/graal-languages-demos",
+      "target": "graalvm/setup-graalvm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/graalpy-jbang-qrcode.yml",
+      "source_repo": "graalvm/graal-languages-demos",
+      "target": "Test GraalPy JBang QRCode Demo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "graalvm/graal-languages-demos",
+      "target": "graal-languages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "graalvm/graal-languages-demos",
+      "target": "graaljs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "graalvm/graal-languages-demos",
+      "target": "graalpy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "graalvm/graal-languages-demos",
+      "target": "graalvm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "graalvm/graal-languages-demos",
+      "target": "graalwasm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "graalvm/graal-languages-demos",
+      "target": "truffle",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:56:41.928959+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 931
+    },
+    {
+      "path": ".github/workflows/espresso-continuations.yml",
+      "size": 1662
+    },
+    {
+      "path": ".github/workflows/graaljs-spring-boot-d3.yml",
+      "size": 1184
+    },
+    {
+      "path": ".github/workflows/graaljs-starter.yml",
+      "size": 1054
+    },
+    {
+      "path": ".github/workflows/graaljs-webpack-guide.yml",
+      "size": 1163
+    },
+    {
+      "path": ".github/workflows/graalpy-check-snippets.yml",
+      "size": 712
+    },
+    {
+      "path": ".github/workflows/graalpy-custom-venv-guide.yml",
+      "size": 1665
+    },
+    {
+      "path": ".github/workflows/graalpy-freeze-dependencies-guide.yml",
+      "size": 1422
+    },
+    {
+      "path": ".github/workflows/graalpy-javase-guide.yml",
+      "size": 990
+    },
+    {
+      "path": ".github/workflows/graalpy-jbang-qrcode.yml",
+      "size": 845
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Graal Languages - Demos and Guides",
+    "fork": false,
+    "full_name": "graalvm/graal-languages-demos",
+    "html_url": "https://github.com/graalvm/graal-languages-demos",
+    "language": "Java",
+    "pushed_at": "2026-04-20T11:54:29Z",
+    "stargazers_count": 101,
+    "topics": [
+      "graal-languages",
+      "graaljs",
+      "graalpy",
+      "graalvm",
+      "graalwasm",
+      "truffle"
+    ],
+    "updated_at": "2026-04-06T18:51:24Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Test Espresso Continuations",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/espresso-continuations.yml",
+      "term": "Test Espresso Continuations"
+    },
+    {
+      "context_snippet": "Test GraalJS Spring Boot D3",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/graaljs-spring-boot-d3.yml",
+      "term": "Test GraalJS Spring Boot D3"
+    },
+    {
+      "context_snippet": "Test GraalJS Starter",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/graaljs-starter.yml",
+      "term": "Test GraalJS Starter"
+    },
+    {
+      "context_snippet": "Check Snippets in GraalPy Guides",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/graalpy-check-snippets.yml",
+      "term": "Check Snippets in GraalPy Guides"
+    },
+    {
+      "context_snippet": "Test GraalPy Custom Venv Guide",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/graalpy-custom-venv-guide.yml",
+      "term": "Test GraalPy Custom Venv Guide"
+    },
+    {
+      "context_snippet": "Test GraalPy Freeze Dependencies Guide",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/graalpy-freeze-dependencies-guide.yml",
+      "term": "Test GraalPy Freeze Dependencies Guide"
+    },
+    {
+      "context_snippet": "Test GraalPy Java SE Guide",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/graalpy-javase-guide.yml",
+      "term": "Test GraalPy Java SE Guide"
+    },
+    {
+      "context_snippet": "Test GraalPy JBang QRCode Demo",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/graalpy-jbang-qrcode.yml",
+      "term": "Test GraalPy JBang QRCode Demo"
+    },
+    {
+      "context_snippet": "This repository contains demo applications and guides for [GraalJS](./graaljs), [GraalPy](./graalpy/), [GraalWasm](./graalwasm), and other Graal Languages.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graal-languages"
+    },
+    {
+      "context_snippet": "This repository contains demo applications and guides for [GraalJS](./graaljs), [GraalPy](./graalpy/), [GraalWasm](./graalwasm), and other Graal Languages.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graaljs"
+    },
+    {
+      "context_snippet": "This repository contains demo applications and guides for [GraalJS](./graaljs), [GraalPy](./graalpy/), [GraalWasm](./graalwasm), and other Graal Languages.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graalpy"
+    },
+    {
+      "context_snippet": "This repository contains demo applications and guides for [GraalJS](./graaljs), [GraalPy](./graalpy/), [GraalWasm](./graalwasm), and other Graal Languages.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graalvm"
+    },
+    {
+      "context_snippet": "This repository contains demo applications and guides for [GraalJS](./graaljs), [GraalPy](./graalpy/), [GraalWasm](./graalwasm), and other Graal Languages.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graalwasm"
+    },
+    {
+      "context_snippet": "This repository contains demo applications and guides for [GraalJS](./graaljs), [GraalPy](./graalpy/), [GraalWasm](./graalwasm), and other Graal Languages.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "truffle"
+    }
+  ]
+}

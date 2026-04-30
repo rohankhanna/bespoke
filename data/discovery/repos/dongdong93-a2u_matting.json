@@ -1,0 +1,93 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dongdong93/a2u_matting",
+      "target": "mapillary/inplace_abn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dongdong93/a2u_matting",
+      "target": "poppinace/indexnet_matting",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dongdong93/a2u_matting",
+      "target": "yaoyi-li/gca-matting",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dongdong93/a2u_matting",
+      "target": "myownskyw7/carafe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dongdong93/a2u_matting",
+      "target": "image-matting",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:07:07.414559+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3723
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR2021]Learning Affinity-Aware Upsampling for Deep Image Matting",
+    "fork": false,
+    "full_name": "dongdong93/a2u_matting",
+    "html_url": "https://github.com/dongdong93/a2u_matting",
+    "language": "Python",
+    "pushed_at": "2023-12-19T17:11:42Z",
+    "stargazers_count": 39,
+    "topics": [
+      "image-matting"
+    ],
+    "updated_at": "2025-05-20T09:43:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mapillary/inplace_abn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "myownskyw7/carafe",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "poppinace/indexnet_matting",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yaoyi-li/gca-matting",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-matting"
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "flagos-ai/FlagCX",
+      "target": "facebookincubator/gloo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "flagos-ai/FlagCX",
+      "target": "flagopen/flagcx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-sync.yaml",
+      "source_repo": "flagos-ai/FlagCX",
+      "target": "flagos-ai/build-infra/.github/workflows/sync-to-remote.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-sync.yaml",
+      "source_repo": "flagos-ai/FlagCX",
+      "target": "Sync to remote site",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-deb.yml",
+      "source_repo": "flagos-ai/FlagCX",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-deb.yml",
+      "source_repo": "flagos-ai/FlagCX",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-deb.yml",
+      "source_repo": "flagos-ai/FlagCX",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-deb.yml",
+      "source_repo": "flagos-ai/FlagCX",
+      "target": "Build Debian Packages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "flagos-ai/FlagCX",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "flagos-ai/FlagCX",
+      "target": "Run Container and Execute Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/torch-api-test.yml",
+      "source_repo": "flagos-ai/FlagCX",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/torch-api-test.yml",
+      "source_repo": "flagos-ai/FlagCX",
+      "target": "Torch API Tests in Container",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trigger.yml",
+      "source_repo": "flagos-ai/FlagCX",
+      "target": "flagos-ai/build-infra/.github/workflows/imagebuild.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/trigger.yml",
+      "source_repo": "flagos-ai/FlagCX",
+      "target": "Docker Image Build Orchestrator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-test.yml",
+      "source_repo": "flagos-ai/FlagCX",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit-test.yml",
+      "source_repo": "flagos-ai/FlagCX",
+      "target": "Unit Tests in Container",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittest-adaptor.yml",
+      "source_repo": "flagos-ai/FlagCX",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unittest-adaptor.yml",
+      "source_repo": "flagos-ai/FlagCX",
+      "target": "Unit Tests: adaptor",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T12:45:20.475770+00:00",
+  "source_repo": "flagos-ai/FlagCX"
+}

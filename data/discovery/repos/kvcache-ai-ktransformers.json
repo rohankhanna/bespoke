@@ -1,0 +1,442 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/book-ci.yml"
+    },
+    {
+      "component": "peaceiris/actions-mdbook@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/book-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "peaceiris/actions-mdbook@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kt-kernel-tests.yml"
+    },
+    {
+      "component": "dorny/paths-filter@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kt-kernel-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kt-kernel-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-fake-tag.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pypi.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pypi.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pypi.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pypi.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pypi.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pypi.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-sglang-kt.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-sglang-kt.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-sglang-kt.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-sglang-kt.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-sglang-submodule.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-sglang-submodule.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/book-ci.yml",
+      "source_repo": "kvcache-ai/ktransformers",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/book-ci.yml",
+      "source_repo": "kvcache-ai/ktransformers",
+      "target": "peaceiris/actions-mdbook@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/book-ci.yml",
+      "source_repo": "kvcache-ai/ktransformers",
+      "target": "Book-CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "kvcache-ai/ktransformers",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "kvcache-ai/ktransformers",
+      "target": "peaceiris/actions-mdbook@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "kvcache-ai/ktransformers",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "kvcache-ai/ktransformers",
+      "target": "Deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "kvcache-ai/ktransformers",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "kvcache-ai/ktransformers",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "kvcache-ai/ktransformers",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "kvcache-ai/ktransformers",
+      "target": "DockerHub CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kt-kernel-tests.yml",
+      "source_repo": "kvcache-ai/ktransformers",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kt-kernel-tests.yml",
+      "source_repo": "kvcache-ai/ktransformers",
+      "target": "dorny/paths-filter@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/kt-kernel-tests.yml",
+      "source_repo": "kvcache-ai/ktransformers",
+      "target": "PR KT-Kernel Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-fake-tag.yml",
+      "source_repo": "kvcache-ai/ktransformers",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-fake-tag.yml",
+      "source_repo": "kvcache-ai/ktransformers",
+      "target": "Release Fake Tag",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pypi.yml",
+      "source_repo": "kvcache-ai/ktransformers",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pypi.yml",
+      "source_repo": "kvcache-ai/ktransformers",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pypi.yml",
+      "source_repo": "kvcache-ai/ktransformers",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pypi.yml",
+      "source_repo": "kvcache-ai/ktransformers",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-pypi.yml",
+      "source_repo": "kvcache-ai/ktransformers",
+      "target": "Release to PyPI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-sglang-kt.yml",
+      "source_repo": "kvcache-ai/ktransformers",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-sglang-kt.yml",
+      "source_repo": "kvcache-ai/ktransformers",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-sglang-kt.yml",
+      "source_repo": "kvcache-ai/ktransformers",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-sglang-kt.yml",
+      "source_repo": "kvcache-ai/ktransformers",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-sglang-kt.yml",
+      "source_repo": "kvcache-ai/ktransformers",
+      "target": "Release sglang-kt to PyPI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-sglang-submodule.yml",
+      "source_repo": "kvcache-ai/ktransformers",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-sglang-submodule.yml",
+      "source_repo": "kvcache-ai/ktransformers",
+      "target": "peter-evans/create-pull-request@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-sglang-submodule.yml",
+      "source_repo": "kvcache-ai/ktransformers",
+      "target": "Sync sglang submodule",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:10:55.051756+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9690
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 746
+    },
+    {
+      "path": ".github/workflows/book-ci.yml",
+      "size": 661
+    },
+    {
+      "path": ".github/workflows/deploy.yml",
+      "size": 1088
+    },
+    {
+      "path": ".github/workflows/docker-image.yml",
+      "size": 4711
+    },
+    {
+      "path": ".github/workflows/kt-kernel-tests.yml",
+      "size": 3310
+    },
+    {
+      "path": ".github/workflows/release-fake-tag.yml",
+      "size": 895
+    },
+    {
+      "path": ".github/workflows/release-pypi.yml",
+      "size": 10742
+    },
+    {
+      "path": ".github/workflows/release-sglang-kt.yml",
+      "size": 3824
+    },
+    {
+      "path": ".github/workflows/sync-sglang-submodule.yml",
+      "size": 2834
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Flexible Framework for Experiencing Heterogeneous LLM Inference/Fine-tune Optimizations",
+    "fork": false,
+    "full_name": "kvcache-ai/ktransformers",
+    "html_url": "https://github.com/kvcache-ai/ktransformers",
+    "language": "Python",
+    "pushed_at": "2026-04-30T09:17:13Z",
+    "stargazers_count": 17100,
+    "topics": [],
+    "updated_at": "2026-04-30T14:35:19Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Book-CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/book-ci.yml",
+      "term": "Book-CI"
+    },
+    {
+      "context_snippet": "Deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "term": "Deploy"
+    },
+    {
+      "context_snippet": "DockerHub CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-image.yml",
+      "term": "DockerHub CI"
+    },
+    {
+      "context_snippet": "PR KT-Kernel Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/kt-kernel-tests.yml",
+      "term": "PR KT-Kernel Test"
+    },
+    {
+      "context_snippet": "Release Fake Tag",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-fake-tag.yml",
+      "term": "Release Fake Tag"
+    },
+    {
+      "context_snippet": "Release to PyPI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-pypi.yml",
+      "term": "Release to PyPI"
+    },
+    {
+      "context_snippet": "Release sglang-kt to PyPI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-sglang-kt.yml",
+      "term": "Release sglang-kt to PyPI"
+    },
+    {
+      "context_snippet": "Sync sglang submodule",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-sglang-submodule.yml",
+      "term": "Sync sglang submodule"
+    }
+  ]
+}

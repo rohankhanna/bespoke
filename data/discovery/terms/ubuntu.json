@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -116,6 +116,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "jakoch/vulkan-sdk-arm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "lite-xl/lite-xl-build-box"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/ubuntu.yml",
+      "source_repo": "isl-org/open3d-cmake-external-project"
     }
   ],
   "term": "ubuntu"

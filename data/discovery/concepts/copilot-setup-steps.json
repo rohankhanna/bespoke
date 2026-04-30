@@ -548,6 +548,78 @@
       "source_repo": "ServiceNow/webarena-verified",
       "status": "candidate-context",
       "text": "Copilot Setup Steps"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "storybookjs/storybook",
+      "status": "candidate-context",
+      "text": "Storybook is the industry standard workshop for building, documenting, and testing UI components in isolation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "storybookjs/storybook",
+      "status": "candidate-context",
+      "text": "'Copilot Setup Steps'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/GSL",
+      "status": "candidate-context",
+      "text": "Guidelines Support Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/GSL",
+      "status": "candidate-context",
+      "text": "\"Copilot Setup Steps\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "djezzzl/factory_trace",
+      "status": "candidate-context",
+      "text": "Simple tool to maintain factories and traits from FactoryBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "djezzzl/factory_trace",
+      "status": "candidate-context",
+      "text": "Copilot Setup Steps"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "igraph/rigraph",
+      "status": "candidate-context",
+      "text": "igraph R package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "igraph/rigraph",
+      "status": "candidate-context",
+      "text": "\"Copilot Setup Steps\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ocaml/dune",
+      "status": "candidate-context",
+      "text": "A composable build system for OCaml."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml/dune",
+      "status": "candidate-context",
+      "text": "\"Copilot Setup Steps\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oxc-project/oxc",
+      "status": "candidate-context",
+      "text": "\u2693 A collection of high-performance JavaScript tools."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oxc-project/oxc",
+      "status": "candidate-context",
+      "text": "Copilot Setup Steps"
     }
   ],
   "candidate_glosses": [
@@ -818,6 +890,42 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ServiceNow/webarena-verified",
+      "status": "candidate",
+      "text": "Copilot Setup Steps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "storybookjs/storybook",
+      "status": "candidate",
+      "text": "'Copilot Setup Steps'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/GSL",
+      "status": "candidate",
+      "text": "\"Copilot Setup Steps\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "djezzzl/factory_trace",
+      "status": "candidate",
+      "text": "Copilot Setup Steps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "igraph/rigraph",
+      "status": "candidate",
+      "text": "\"Copilot Setup Steps\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml/dune",
+      "status": "candidate",
+      "text": "\"Copilot Setup Steps\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oxc-project/oxc",
       "status": "candidate",
       "text": "Copilot Setup Steps"
     }
@@ -1145,11 +1253,47 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/copilot-setup-steps.yml",
       "source_repo": "ServiceNow/webarena-verified"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "storybookjs/storybook"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "microsoft/GSL"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "djezzzl/factory_trace"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/copilot-setup-steps.yaml",
+      "source_repo": "igraph/rigraph"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "ocaml/dune"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "oxc-project/oxc"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

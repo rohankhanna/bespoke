@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T15:11:44.667095+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18158
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This repo contains the source code for RULER: What\u2019s the Real Context Size of Your Long-Context Language Models?",
+    "fork": false,
+    "full_name": "NVIDIA/RULER",
+    "html_url": "https://github.com/NVIDIA/RULER",
+    "language": "Python",
+    "pushed_at": "2025-11-13T18:47:04Z",
+    "stargazers_count": 1521,
+    "topics": [],
+    "updated_at": "2026-04-27T07:12:24Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

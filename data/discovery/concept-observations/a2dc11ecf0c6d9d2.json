@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Computer go engine using Monte-Carlo Tree Search written in Python3."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "TamaGo is a Go (Weiqi, Baduk) engine implemented in Python."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "TamaGo is a Go (Weiqi, Baduk) engine implemented in Python."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19971328,
+      "status": "candidate",
+      "text": "tcp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19776928,
+      "status": "candidate",
+      "text": "tcm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19699255,
+      "status": "candidate",
+      "text": "mct"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19597016,
+      "status": "candidate",
+      "text": "mers"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10018860,
+      "status": "candidate",
+      "text": "vessels"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mcts",
+      "sense_id": "mcts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "mcts",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "mcts",
+  "observation_id": "a2dc11ecf0c6d9d2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "mcts",
+  "source_context_snippet": "TamaGo is a Go (Weiqi, Baduk) engine implemented in Python.",
+  "source_file": null,
+  "source_repo": "kobanium/TamaGo",
+  "source_repo_description": "Computer go engine using Monte-Carlo Tree Search written in Python3."
+}

@@ -1,15 +1,72 @@
 {
   "aliases": [
-    "Mutation Testing"
+    "Mutation Testing",
+    "Mutation testing"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ahamez/protox",
+      "status": "candidate-context",
+      "text": "A reasonably fast, easy to use and 100% conformant Elixir library for Google Protocol Buffers (aka protobuf)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ahamez/protox",
+      "status": "candidate-context",
+      "text": "Mutation testing"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ahamez/protox",
+      "status": "candidate",
+      "text": "Mutation testing"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36673,
+      "status": "candidate",
+      "text": "model-based testing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36672,
+      "status": "candidate",
+      "text": "unit testing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36670,
+      "status": "candidate",
+      "text": "software testing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36669,
+      "status": "candidate",
+      "text": "usability testing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36668,
+      "status": "candidate",
+      "text": "test automation"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "Mutation Testing",
   "concept_id": "mutation-testing",
@@ -20,12 +77,20 @@
       "observed_at": "2026-04-18T12:07:11.500453+00:00",
       "source_file": ".github/workflows/mutation-testing.yml",
       "source_repo": "RustCrypto/signatures"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/mutation_testing.yml",
+      "source_repo": "ahamez/protox"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T12:07:11.500453+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

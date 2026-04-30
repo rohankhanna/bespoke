@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "slop (Select Operation) is an application that queries for a selection from the user and prints the region to stdout."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "slop (Select Operation) is an application that queries for a selection from the user and prints the region to stdout."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "slop (Select Operation) is an application that queries for a selection from the user and prints the region to stdout."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10012306,
+      "status": "candidate",
+      "text": "fragment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31464,
+      "status": "candidate",
+      "text": "tessellation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31463,
+      "status": "candidate",
+      "text": "renderer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31462,
+      "status": "candidate",
+      "text": "antialiasing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31461,
+      "status": "candidate",
+      "text": "plugins"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "shaders",
+      "sense_id": "shaders#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "shaders",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "shaders",
+  "observation_id": "1a22ba922f32f38d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "shaders",
+  "source_context_snippet": "slop (Select Operation) is an application that queries for a selection from the user and prints the region to stdout.",
+  "source_file": null,
+  "source_repo": "naelstrof/slop",
+  "source_repo_description": "slop (Select Operation) is an application that queries for a selection from the user and prints the region to stdout."
+}

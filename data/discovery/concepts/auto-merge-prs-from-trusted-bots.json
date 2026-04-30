@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Auto-merge PRs from trusted bots"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zip-rs/zip2",
+      "status": "candidate-context",
+      "text": "Zip implementation in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zip-rs/zip2",
+      "status": "candidate-context",
+      "text": "Auto-merge PRs from trusted bots"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zip-rs/zip2",
+      "status": "candidate",
+      "text": "Auto-merge PRs from trusted bots"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22264,
+      "status": "candidate",
+      "text": "reliance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19254,
+      "status": "candidate",
+      "text": "been"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19254,
+      "status": "candidate",
+      "text": "hugo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19254,
+      "status": "candidate",
+      "text": "picasso"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19254,
+      "status": "candidate",
+      "text": "poulenc"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Auto-merge PRs from trusted bots",
+  "concept_id": "auto-merge-prs-from-trusted-bots",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/auto_merge_prs.yml",
+      "source_repo": "zip-rs/zip2"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Auto-merge PRs from trusted bots",
+      "sense_id": "auto-merge-prs-from-trusted-bots#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

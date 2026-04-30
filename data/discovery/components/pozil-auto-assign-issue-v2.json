@@ -1,0 +1,17 @@
+{
+  "component": "pozil/auto-assign-issue@v2",
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/welcome-issue.yml",
+      "source_repo": "microsoft/generative-ai-for-beginners"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/welcome-pr.yml",
+      "source_repo": "microsoft/generative-ai-for-beginners"
+    }
+  ]
+}

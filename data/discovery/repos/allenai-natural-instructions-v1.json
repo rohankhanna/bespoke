@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "allenai/natural-instructions-v1",
+      "target": "allenai/natural-instructions-expansion",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T12:55:50.912861+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2574
+    },
+    {
+      "path": "requirements.txt",
+      "size": 15
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Benchmarking Generalization to New Tasks from Natural Language Instructions",
+    "fork": false,
+    "full_name": "allenai/natural-instructions-v1",
+    "html_url": "https://github.com/allenai/natural-instructions-v1",
+    "language": "Python",
+    "pushed_at": "2021-07-02T20:57:49Z",
+    "stargazers_count": 26,
+    "topics": [],
+    "updated_at": "2024-12-25T06:36:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "allenai/natural-instructions-expansion",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

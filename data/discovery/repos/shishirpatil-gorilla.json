@@ -1,0 +1,265 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bfcl-pipy-release.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bfcl-pipy-release.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-apizoo-updates.yml"
+    },
+    {
+      "component": "peter-evans/create-issue-from-file@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-apizoo-updates.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-apizoo-contribution.yml"
+    },
+    {
+      "component": "peter-evans/create-issue-from-file@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-apizoo-contribution.yml"
+    },
+    {
+      "component": "peter-evans/create-or-update-comment@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-apizoo-contribution.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ShishirPatil/gorilla",
+      "target": "gorilla-llm/gorilla-cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bfcl-pipy-release.yml",
+      "source_repo": "ShishirPatil/gorilla",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bfcl-pipy-release.yml",
+      "source_repo": "ShishirPatil/gorilla",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bfcl-pipy-release.yml",
+      "source_repo": "ShishirPatil/gorilla",
+      "target": "Publish BFCL to PyPI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-apizoo-updates.yml",
+      "source_repo": "ShishirPatil/gorilla",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-apizoo-updates.yml",
+      "source_repo": "ShishirPatil/gorilla",
+      "target": "peter-evans/create-issue-from-file@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push-apizoo-updates.yml",
+      "source_repo": "ShishirPatil/gorilla",
+      "target": "Update API Zoo Data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-apizoo-contribution.yml",
+      "source_repo": "ShishirPatil/gorilla",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-apizoo-contribution.yml",
+      "source_repo": "ShishirPatil/gorilla",
+      "target": "peter-evans/create-issue-from-file@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-apizoo-contribution.yml",
+      "source_repo": "ShishirPatil/gorilla",
+      "target": "peter-evans/create-or-update-comment@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-apizoo-contribution.yml",
+      "source_repo": "ShishirPatil/gorilla",
+      "target": "Validate API Zoo PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ShishirPatil/gorilla",
+      "target": "api-documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ShishirPatil/gorilla",
+      "target": "chatgpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ShishirPatil/gorilla",
+      "target": "claude-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ShishirPatil/gorilla",
+      "target": "gpt-4-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ShishirPatil/gorilla",
+      "target": "openai-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ShishirPatil/gorilla",
+      "target": "openai-functions",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:14:34.445372+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16391
+    },
+    {
+      "path": ".github/workflows/bfcl-pipy-release.yml",
+      "size": 1645
+    },
+    {
+      "path": ".github/workflows/push-apizoo-updates.yml",
+      "size": 2726
+    },
+    {
+      "path": ".github/workflows/validate-apizoo-contribution.yml",
+      "size": 3035
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Gorilla: Training and Evaluating LLMs for Function Calls (Tool Calls)",
+    "fork": false,
+    "full_name": "ShishirPatil/gorilla",
+    "html_url": "https://github.com/ShishirPatil/gorilla",
+    "language": "Python",
+    "pushed_at": "2026-04-13T03:19:45Z",
+    "stargazers_count": 12856,
+    "topics": [
+      "api",
+      "api-documentation",
+      "chatgpt",
+      "claude-api",
+      "gpt-4-api",
+      "llm",
+      "openai-api",
+      "openai-functions"
+    ],
+    "updated_at": "2026-04-30T07:20:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gorilla-llm/gorilla-cli",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Publish BFCL to PyPI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bfcl-pipy-release.yml",
+      "term": "Publish BFCL to PyPI"
+    },
+    {
+      "context_snippet": "Update API Zoo Data",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push-apizoo-updates.yml",
+      "term": "Update API Zoo Data"
+    },
+    {
+      "context_snippet": "Validate API Zoo PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-apizoo-contribution.yml",
+      "term": "Validate API Zoo PR"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "api-documentation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatgpt"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-api"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt-4-api"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openai-api"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openai-functions"
+    }
+  ]
+}

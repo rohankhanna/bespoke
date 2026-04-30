@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "production"
+    "production",
+    "Production"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -31,6 +34,30 @@
       "source_repo": "Backblaze/B2_Command_Line_Tool",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/Backblaze/B2_Command_Line_Tool/actions/workflows/ci.yml/badge.svg)](https://github.com/Backblaze/B2_Command_Line_Tool/actions/workflows/ci.yml)&nbsp;[![License](https://img.shields.io/pypi/l/b2.svg?label=License)](https://pypi.python.org/pypi/b2)&nbsp;[\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Unitech/pm2",
+      "status": "candidate-context",
+      "text": "Node.js Production Process Manager with a built-in Load Balancer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Unitech/pm2",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Genesis-Embodied-AI/Genesis",
+      "status": "candidate-context",
+      "text": "A generative world for general-purpose robotics & embodied AI learning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Genesis-Embodied-AI/Genesis",
+      "status": "candidate-context",
+      "text": "Production"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +72,18 @@
       "source_repo": "Backblaze/B2_Command_Line_Tool",
       "status": "candidate",
       "text": "[![CI](https://github.com/Backblaze/B2_Command_Line_Tool/actions/workflows/ci.yml/badge.svg)](https://github.com/Backblaze/B2_Command_Line_Tool/actions/workflows/ci.yml)&nbsp;[![License](https://img.shields.io/pypi/l/b2.svg?label=License)](https://pypi.python.org/pypi/b2)&nbsp;[\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Unitech/pm2",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Genesis-Embodied-AI/Genesis",
+      "status": "candidate",
+      "text": "Production"
     }
   ],
   "candidate_related_terms": [
@@ -108,11 +147,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "Backblaze/B2_Command_Line_Tool"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Unitech/pm2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/production.yml",
+      "source_repo": "Genesis-Embodied-AI/Genesis"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

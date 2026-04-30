@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Graal Languages - Demos and Guides"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Check Snippets in GraalPy Guides"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Check Snippets in GraalPy Guides"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22576,
+      "status": "candidate",
+      "text": "theory"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22442,
+      "status": "candidate",
+      "text": "reins"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22442,
+      "status": "candidate",
+      "text": "shoe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19235,
+      "status": "candidate",
+      "text": "bits"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15064,
+      "status": "candidate",
+      "text": "tag"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Snippets in GraalPy Guides",
+      "sense_id": "check-snippets-in-graalpy-guides#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "check-snippets-in-graalpy-guides",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "check-snippets-in-graalpy-guides",
+  "observation_id": "4c469f401a5c3895",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "Check Snippets in GraalPy Guides",
+  "source_context_snippet": "Check Snippets in GraalPy Guides",
+  "source_file": ".github/workflows/graalpy-check-snippets.yml",
+  "source_repo": "graalvm/graal-languages-demos",
+  "source_repo_description": "Graal Languages - Demos and Guides"
+}

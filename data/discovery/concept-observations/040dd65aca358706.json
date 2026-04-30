@@ -84,7 +84,7 @@
   "normalized_form": "ci-update-ci-container",
   "observation_id": "040dd65aca358706",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
   "observed_text": "CI: Update CI Container",
   "source_context_snippet": "\"CI: Update CI Container\"",
   "source_file": ".github/workflows/update-ci-container.yml",

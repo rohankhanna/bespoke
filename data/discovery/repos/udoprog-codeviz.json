@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "udoprog/codeviz",
+      "target": "udoprog/genco",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "udoprog/codeviz",
+      "target": "square/javapoet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "udoprog/codeviz",
+      "target": "udoprog/reproto",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:59:39.970931+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1959
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 818
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Flexible code generator for Rust",
+    "fork": false,
+    "full_name": "udoprog/codeviz",
+    "html_url": "https://github.com/udoprog/codeviz",
+    "language": "Rust",
+    "pushed_at": "2022-10-13T13:50:22Z",
+    "stargazers_count": 11,
+    "topics": [],
+    "updated_at": "2023-08-23T11:19:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "square/javapoet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "udoprog/genco",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "udoprog/reproto",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

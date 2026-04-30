@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/graaljs-spring-boot-d3.yml",
+      "source_repo": "graalvm/graal-languages-demos"
+    }
+  ],
+  "term": "Test GraalJS Spring Boot D3"
+}

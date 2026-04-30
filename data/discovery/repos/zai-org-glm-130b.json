@@ -21,16 +21,9 @@
       "source_repo": "zai-org/GLM-130B",
       "target": "thudm/chatglm-6b",
       "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "zai-org/GLM-130B",
-      "target": "thudm/webglm",
-      "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-04-30T08:09:16.238523+00:00",
+  "fetched_at": "2026-04-30T16:10:33.874541+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -69,11 +62,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "thudm/glm-130b",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "thudm/webglm",
       "source_file": "README.md"
     }
   ],

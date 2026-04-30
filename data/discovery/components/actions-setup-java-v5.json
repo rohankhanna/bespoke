@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-java@v5",
   "first_seen_at": "2026-04-18T03:54:46.759203+00:00",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1262,6 +1262,211 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/prepare-release-v1.yml",
       "source_repo": "swagger-api/swagger-parser"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bom-content-test.yaml",
+      "source_repo": "googleapis/java-cloud-bom"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-release-note-generation.yaml",
+      "source_repo": "googleapis/java-cloud-bom"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "googleapis/java-cloud-bom"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dashboard.yaml",
+      "source_repo": "googleapis/java-cloud-bom"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-note-generation.yaml",
+      "source_repo": "googleapis/java-cloud-bom"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/espresso-continuations.yml",
+      "source_repo": "graalvm/graal-languages-demos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jruby/jruby"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dist-verification-ci.yml",
+      "source_repo": "jruby/jruby"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/snapshot-publish.yml",
+      "source_repo": "jruby/jruby"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/master-build.yml",
+      "source_repo": "jline/jline3"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "jline/jline3"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pre-merge.yaml",
+      "source_repo": "cortinico/ktfmt-gradle"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-plugin.yaml",
+      "source_repo": "cortinico/ktfmt-gradle"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "macisamuele/language-formatters-pre-commit-hooks"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scala-steward.yml",
+      "source_repo": "com-lihaoyi/mill"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/github-actions.yml",
+      "source_repo": "apache/dubbo-go-hessian2"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/run-tox-tests.yml",
+      "source_repo": "miurahr/py7zr"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jruby/maven-tools"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml",
+      "source_repo": "eclipse-sumo/sumo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverage_runner.yaml",
+      "source_repo": "hazelcast/hazelcast-go-client"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Heapy/awesome-kotlin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "smithy-lang/smithy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeguru-reviewer.yml",
+      "source_repo": "smithy-lang/smithy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/make-docs.yml",
+      "source_repo": "smithy-lang/smithy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sdk-codegen-ci.yml",
+      "source_repo": "smithy-lang/smithy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integ.yml",
+      "source_repo": "smithy-lang/smithy-examples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "swagger-api/swagger-core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/maven-pulls.yml",
+      "source_repo": "swagger-api/swagger-core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/maven-v1-pulls.yml",
+      "source_repo": "swagger-api/swagger-core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/maven-v1.yml",
+      "source_repo": "swagger-api/swagger-core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "swagger-api/swagger-core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release.yml",
+      "source_repo": "swagger-api/swagger-core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "swagger-api/swagger-core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/maven-pulls.yml",
+      "source_repo": "swagger-api/swagger-inflector"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/maven-v1-pulls.yml",
+      "source_repo": "swagger-api/swagger-inflector"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/maven-v1.yml",
+      "source_repo": "swagger-api/swagger-inflector"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "swagger-api/swagger-inflector"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/next-snapshot-v1.yml",
+      "source_repo": "swagger-api/swagger-inflector"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/next-snapshot.yml",
+      "source_repo": "swagger-api/swagger-inflector"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release-v1.yml",
+      "source_repo": "swagger-api/swagger-inflector"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release.yml",
+      "source_repo": "swagger-api/swagger-inflector"
     }
   ]
 }

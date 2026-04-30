@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Publish docs website"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kylebarron/parquet-wasm",
+      "status": "candidate-context",
+      "text": "Rust-based WebAssembly bindings to read and write Apache Parquet data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kylebarron/parquet-wasm",
+      "status": "candidate-context",
+      "text": "Publish docs website"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kylebarron/parquet-wasm",
+      "status": "candidate",
+      "text": "Publish docs website"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19064,
+      "status": "candidate",
+      "text": "hmo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19020,
+      "status": "candidate",
+      "text": "oshawa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18906,
+      "status": "candidate",
+      "text": "collate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18906,
+      "status": "candidate",
+      "text": "djvu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18906,
+      "status": "candidate",
+      "text": "fax"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Publish docs website",
+  "concept_id": "publish-docs-website",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/docs-website.yml",
+      "source_repo": "kylebarron/parquet-wasm"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish docs website",
+      "sense_id": "publish-docs-website#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

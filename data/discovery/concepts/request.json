@@ -31,6 +31,18 @@
       "source_repo": "googleapis/gaxios",
       "status": "candidate-context",
       "text": "**_THIS REPOSITORY IS DEPRECATED. ALL OF ITS CONTENT AND HISTORY HAS BEEN MOVED TO [GOOGLE-CLOUD-NODE-CORE](https://github.com/googleapis/google-cloud-node-core/tree/main/packages/gaxios)_**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sindresorhus/ky",
+      "status": "candidate-context",
+      "text": "\ud83c\udf33 Tiny & elegant JavaScript HTTP client based on the Fetch API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/ky",
+      "status": "candidate-context",
+      "text": "ky \u2014 Tiny and elegant HTTP client based on the Fetch API"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "googleapis/gaxios",
       "status": "candidate",
       "text": "**_THIS REPOSITORY IS DEPRECATED. ALL OF ITS CONTENT AND HISTORY HAS BEEN MOVED TO [GOOGLE-CLOUD-NODE-CORE](https://github.com/googleapis/google-cloud-node-core/tree/main/packages/gaxios)_**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/ky",
+      "status": "candidate",
+      "text": "ky \u2014 Tiny and elegant HTTP client based on the Fetch API"
     }
   ],
   "candidate_related_terms": [
@@ -136,11 +154,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "googleapis/gaxios"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "googleapis/gaxios"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "sindresorhus/ky"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

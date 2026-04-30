@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The XBR Protocol - blockchain protocol for decentralized open data markets (https://pypi.org/project/xbr/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/xbr.svg)](https://pypi.python.org/pypi/xbr)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/xbr.svg)](https://pypi.python.org/pypi/xbr)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30017711,
+      "status": "candidate",
+      "text": "axle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20042292,
+      "status": "candidate",
+      "text": "barr"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20042291,
+      "status": "candidate",
+      "text": "splinter bar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20042290,
+      "status": "candidate",
+      "text": "tiebar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20042289,
+      "status": "candidate",
+      "text": "crosspiece"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "crossbar",
+      "sense_id": "crossbar#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "crossbar",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "crossbar",
+  "observation_id": "4e338bea065220c2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "crossbar",
+  "source_context_snippet": "[![PyPI](https://img.shields.io/pypi/v/xbr.svg)](https://pypi.python.org/pypi/xbr)",
+  "source_file": null,
+  "source_repo": "wamp-proto/wamp-xbr",
+  "source_repo_description": "The XBR Protocol - blockchain protocol for decentralized open data markets (https://pypi.org/project/xbr/)"
+}

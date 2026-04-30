@@ -1,0 +1,289 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-python-packages.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-python-packages.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-python-packages.yml"
+    },
+    {
+      "component": "actions/download-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-python-packages.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-python-packages.yml"
+    },
+    {
+      "component": "actions/download-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-python-packages.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-python-packages.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-python-packages.yml"
+    },
+    {
+      "component": "actions/reusable-workflows/.github/workflows/codeql-analysis.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/versions-package-tools/.github/workflows/create-pr-to-update-manifest.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-pr.yml"
+    },
+    {
+      "component": "actions/create-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml"
+    },
+    {
+      "component": "actions/versions-package-tools/.github/workflows/get-new-tool-versions.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/get-python-versions.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manifest-config-validation.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-versions-runner.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/releases-validation.yml"
+    },
+    {
+      "component": "actions/setup-python@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-python-version.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-python-packages.yml",
+      "source_repo": "actions/python-versions",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-python-packages.yml",
+      "source_repo": "actions/python-versions",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-python-packages.yml",
+      "source_repo": "actions/python-versions",
+      "target": "actions/download-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-python-packages.yml",
+      "source_repo": "actions/python-versions",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-python-packages.yml",
+      "source_repo": "actions/python-versions",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "actions/python-versions",
+      "target": "actions/reusable-workflows/.github/workflows/codeql-analysis.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "actions/python-versions",
+      "target": "CodeQL analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-pr.yml",
+      "source_repo": "actions/python-versions",
+      "target": "actions/versions-package-tools/.github/workflows/create-pr-to-update-manifest.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-pr.yml",
+      "source_repo": "actions/python-versions",
+      "target": "Create Pull Request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "actions/python-versions",
+      "target": "actions/create-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "actions/python-versions",
+      "target": "Create release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/get-python-versions.yml",
+      "source_repo": "actions/python-versions",
+      "target": "actions/versions-package-tools/.github/workflows/get-new-tool-versions.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manifest-config-validation.yml",
+      "source_repo": "actions/python-versions",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manifest-config-validation.yml",
+      "source_repo": "actions/python-versions",
+      "target": "Manifest config tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-versions-runner.yml",
+      "source_repo": "actions/python-versions",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/releases-validation.yml",
+      "source_repo": "actions/python-versions",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-python-version.yml",
+      "source_repo": "actions/python-versions",
+      "target": "actions/setup-python@main",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:54:54.556468+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3862
+    },
+    {
+      "path": ".github/workflows/build-python-packages.yml",
+      "size": 9665
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 314
+    },
+    {
+      "path": ".github/workflows/create-pr.yml",
+      "size": 225
+    },
+    {
+      "path": ".github/workflows/create-release.yml",
+      "size": 597
+    },
+    {
+      "path": ".github/workflows/get-python-versions.yml",
+      "size": 348
+    },
+    {
+      "path": ".github/workflows/manifest-config-validation.yml",
+      "size": 629
+    },
+    {
+      "path": ".github/workflows/python-versions-runner.yml",
+      "size": 808
+    },
+    {
+      "path": ".github/workflows/releases-validation.yml",
+      "size": 1032
+    },
+    {
+      "path": ".github/workflows/test-python-version.yml",
+      "size": 971
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Python builds for Actions Runner Images",
+    "fork": false,
+    "full_name": "actions/python-versions",
+    "html_url": "https://github.com/actions/python-versions",
+    "language": "PowerShell",
+    "pushed_at": "2026-04-30T14:34:34Z",
+    "stargazers_count": 230,
+    "topics": [],
+    "updated_at": "2026-04-29T18:38:28Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CodeQL analysis",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL analysis"
+    },
+    {
+      "context_snippet": "Create Pull Request",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-pr.yml",
+      "term": "Create Pull Request"
+    },
+    {
+      "context_snippet": "Create release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-release.yml",
+      "term": "Create release"
+    },
+    {
+      "context_snippet": "Manifest config tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manifest-config-validation.yml",
+      "term": "Manifest config tests"
+    }
+  ]
+}

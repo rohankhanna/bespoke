@@ -1,0 +1,75 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lewton.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lewton.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lewton.yml",
+      "source_repo": "RustAudio/lewton",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lewton.yml",
+      "source_repo": "RustAudio/lewton",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lewton.yml",
+      "source_repo": "RustAudio/lewton",
+      "target": "lewton",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T12:49:36.563023+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3087
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1021
+    },
+    {
+      "path": ".github/workflows/lewton.yml",
+      "size": 1076
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Rust vorbis decoder",
+    "fork": false,
+    "full_name": "RustAudio/lewton",
+    "html_url": "https://github.com/RustAudio/lewton",
+    "language": "Rust",
+    "pushed_at": "2023-03-02T20:13:53Z",
+    "stargazers_count": 287,
+    "topics": [],
+    "updated_at": "2026-04-29T07:18:12Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "lewton",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lewton.yml",
+      "term": "lewton"
+    }
+  ]
+}

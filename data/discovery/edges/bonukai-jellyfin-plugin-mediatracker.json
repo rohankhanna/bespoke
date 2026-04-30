@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bonukai/jellyfin-plugin-mediatracker",
+      "target": "jellyfin/jellyfin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "bonukai/jellyfin-plugin-mediatracker",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "bonukai/jellyfin-plugin-mediatracker",
+      "target": "actions/setup-dotnet@607fce577a46308457984d59e4954e075820f10a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "bonukai/jellyfin-plugin-mediatracker",
+      "target": "oddstr13/jellyfin-plugin-repository-manager@4a2b165a3dc2cfc392db865a85f23c02e9f78c68",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "bonukai/jellyfin-plugin-mediatracker",
+      "target": "actions/upload-artifact@0b7f8abb1508181956e8e162db84b466c27e18ce",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "bonukai/jellyfin-plugin-mediatracker",
+      "target": "shogo82148/actions-upload-release-asset@b016af922a61601d647ff60226adadbe146b7651",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "bonukai/jellyfin-plugin-mediatracker",
+      "target": "crazy-max/ghaction-import-gpg@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "bonukai/jellyfin-plugin-mediatracker",
+      "target": "\ud83d\ude80 Publish Plugin",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T12:45:20.475770+00:00",
+  "source_repo": "bonukai/jellyfin-plugin-mediatracker"
+}

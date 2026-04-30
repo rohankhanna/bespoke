@@ -355,6 +355,30 @@
       "source_repo": "zeromq/libzmq",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/zeromq/libzmq/actions/workflows/CI.yaml/badge.svg)](https://github.com/zeromq/libzmq/actions/workflows/CI.yaml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "panjf2000/gnet",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 gnet is a high-performance, lightweight, non-blocking, event-driven networking framework written in pure Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "panjf2000/gnet",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apple/swift-nio",
+      "status": "candidate-context",
+      "text": "Event-driven network application framework for high performance protocol servers & clients, non-blocking."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/swift-nio",
+      "status": "candidate-context",
+      "text": "[![sswg:graduated|104x20](https://img.shields.io/badge/sswg-graduated-green.svg)](https://github.com/swift-server/sswg/blob/main/process/incubation.md#graduated-level)"
     }
   ],
   "candidate_glosses": [
@@ -531,6 +555,18 @@
       "source_repo": "zeromq/libzmq",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/zeromq/libzmq/actions/workflows/CI.yaml/badge.svg)](https://github.com/zeromq/libzmq/actions/workflows/CI.yaml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "panjf2000/gnet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/swift-nio",
+      "status": "candidate",
+      "text": "[![sswg:graduated|104x20](https://img.shields.io/badge/sswg-graduated-green.svg)](https://github.com/swift-server/sswg/blob/main/process/incubation.md#graduated-level)"
     }
   ],
   "candidate_related_terms": [
@@ -748,11 +784,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "zeromq/libzmq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "panjf2000/gnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "apple/swift-nio"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

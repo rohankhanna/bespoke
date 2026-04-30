@@ -55,14 +55,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "XPixelGroup/BasicSR",
-      "target": "xinntao/edvr",
+      "target": "xinntao/dni",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "XPixelGroup/BasicSR",
-      "target": "xinntao/dni",
+      "target": "xinntao/handycrawler",
       "target_type": "repository"
     },
     {
@@ -241,7 +241,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T08:19:03.956281+00:00",
+  "fetched_at": "2026-04-30T13:03:30.380604+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -307,12 +307,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "xinntao/edvr",
+      "full_name": "xinntao/esrgan",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "xinntao/esrgan",
+      "full_name": "xinntao/handycrawler",
       "source_file": "README.md"
     }
   ],

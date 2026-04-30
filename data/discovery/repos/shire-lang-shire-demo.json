@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T15:59:46.820249+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1982
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Shire Lang Spring/Java Demo project",
+    "fork": false,
+    "full_name": "shire-lang/shire-demo",
+    "html_url": "https://github.com/shire-lang/shire-demo",
+    "language": "Java",
+    "pushed_at": "2025-01-14T13:19:07Z",
+    "stargazers_count": 18,
+    "topics": [],
+    "updated_at": "2025-10-06T09:27:53Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

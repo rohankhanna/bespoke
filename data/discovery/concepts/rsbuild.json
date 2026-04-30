@@ -91,6 +91,42 @@
       "source_repo": "web-infra-dev/rstest",
       "status": "candidate-context",
       "text": "<picture>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "addfox/addfox",
+      "status": "candidate-context",
+      "text": "\ud83e\udde9 Accelerate your browser extension development. Built on Rsbuild \u2014 fast, simple, and free"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "addfox/addfox",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aliezzahn/rsbuild-plugin-css-optimizer",
+      "status": "candidate-context",
+      "text": "An Rsbuild plugin to customize CSS minification, allowing you to choose between cssnano (JavaScript-based) or Lightning CSS (Rust-based) for high-performance CSS compression."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aliezzahn/rsbuild-plugin-css-optimizer",
+      "status": "candidate-context",
+      "text": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/web-infra-dev/awesome-rspack)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aliezzahn/rsbuild-plugin-markdown-loader",
+      "status": "candidate-context",
+      "text": "A plugin for rsbuild.dev that enables importing and rendering Markdown files as React components or pure HTML."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aliezzahn/rsbuild-plugin-markdown-loader",
+      "status": "candidate-context",
+      "text": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/web-infra-dev/awesome-rspack)"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +171,24 @@
       "source_repo": "web-infra-dev/rstest",
       "status": "candidate",
       "text": "<picture>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "addfox/addfox",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aliezzahn/rsbuild-plugin-css-optimizer",
+      "status": "candidate",
+      "text": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/web-infra-dev/awesome-rspack)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aliezzahn/rsbuild-plugin-markdown-loader",
+      "status": "candidate",
+      "text": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/web-infra-dev/awesome-rspack)"
     }
   ],
   "candidate_related_terms": [],
@@ -184,11 +238,29 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "web-infra-dev/rstest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "addfox/addfox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "aliezzahn/rsbuild-plugin-css-optimizer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "aliezzahn/rsbuild-plugin-markdown-loader"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

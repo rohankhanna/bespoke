@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "matthew-brett/nb2plots"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/run-tox-tests.yml",
+      "source_repo": "miurahr/py7zr"
     }
   ],
   "term": "Run tox tests"

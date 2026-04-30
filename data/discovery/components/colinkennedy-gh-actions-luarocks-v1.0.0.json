@@ -1,0 +1,22 @@
+{
+  "component": "ColinKennedy/gh-actions-luarocks@v1.0.0",
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/llscheck.yml",
+      "source_repo": "ColinKennedy/mega.cmdparse"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/llscheck.yml",
+      "source_repo": "ColinKennedy/nvim-best-practices-plugin-template"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/luacov.yml",
+      "source_repo": "ColinKennedy/nvim-best-practices-plugin-template"
+    }
+  ]
+}

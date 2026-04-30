@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Type safety all the way from configuration spec to  configuration access in Scala"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Type safety all the way from configuration spec to configuration access in Scala"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Type safety all the way from configuration spec to configuration access in Scala"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "scalameta",
+      "sense_id": "scalameta#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "scalameta",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "scalameta",
+  "observation_id": "e84fe24a787d6954",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "scalameta",
+  "source_context_snippet": "Type safety all the way from configuration spec to configuration access in Scala",
+  "source_file": null,
+  "source_repo": "carueda/cfg",
+  "source_repo_description": "Type safety all the way from configuration spec to  configuration access in Scala"
+}

@@ -1,0 +1,198 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "drduh/Purse",
+      "target": "drduh/pwd.sh",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drduh/Purse",
+      "target": "bash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drduh/Purse",
+      "target": "bash-script",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drduh/Purse",
+      "target": "encryption",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drduh/Purse",
+      "target": "file-encryption",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drduh/Purse",
+      "target": "gnupg",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drduh/Purse",
+      "target": "password",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drduh/Purse",
+      "target": "password-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drduh/Purse",
+      "target": "secrets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drduh/Purse",
+      "target": "secrets-management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drduh/Purse",
+      "target": "security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drduh/Purse",
+      "target": "unix",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:56:18.484678+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3505
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "GnuPG asymmetric secrets manager - works with YubiKey!",
+    "fork": false,
+    "full_name": "drduh/Purse",
+    "html_url": "https://github.com/drduh/Purse",
+    "language": "Shell",
+    "pushed_at": "2025-04-14T00:00:38Z",
+    "stargazers_count": 614,
+    "topics": [
+      "bash",
+      "bash-script",
+      "encryption",
+      "file-encryption",
+      "gnupg",
+      "gpg",
+      "password",
+      "password-manager",
+      "secrets",
+      "secrets-management",
+      "security",
+      "unix"
+    ],
+    "updated_at": "2026-04-08T16:44:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "drduh/pwd.sh",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Purse is a Bash shell script based on [drduh/pwd.sh](https://github.com/drduh/pwd.sh).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bash"
+    },
+    {
+      "context_snippet": "Purse is a Bash shell script based on [drduh/pwd.sh](https://github.com/drduh/pwd.sh).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bash-script"
+    },
+    {
+      "context_snippet": "Purse is a Bash shell script based on [drduh/pwd.sh](https://github.com/drduh/pwd.sh).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "encryption"
+    },
+    {
+      "context_snippet": "Purse is a Bash shell script based on [drduh/pwd.sh](https://github.com/drduh/pwd.sh).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "file-encryption"
+    },
+    {
+      "context_snippet": "Purse is a Bash shell script based on [drduh/pwd.sh](https://github.com/drduh/pwd.sh).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gnupg"
+    },
+    {
+      "context_snippet": "Purse is a Bash shell script based on [drduh/pwd.sh](https://github.com/drduh/pwd.sh).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "password"
+    },
+    {
+      "context_snippet": "Purse is a Bash shell script based on [drduh/pwd.sh](https://github.com/drduh/pwd.sh).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "password-manager"
+    },
+    {
+      "context_snippet": "Purse is a Bash shell script based on [drduh/pwd.sh](https://github.com/drduh/pwd.sh).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "secrets"
+    },
+    {
+      "context_snippet": "Purse is a Bash shell script based on [drduh/pwd.sh](https://github.com/drduh/pwd.sh).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "secrets-management"
+    },
+    {
+      "context_snippet": "Purse is a Bash shell script based on [drduh/pwd.sh](https://github.com/drduh/pwd.sh).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security"
+    },
+    {
+      "context_snippet": "Purse is a Bash shell script based on [drduh/pwd.sh](https://github.com/drduh/pwd.sh).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unix"
+    }
+  ]
+}

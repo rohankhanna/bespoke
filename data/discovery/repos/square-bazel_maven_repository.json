@@ -1,0 +1,81 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "holvonix-open/setup-bazelisk@v0.6.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "square/bazel_maven_repository",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "square/bazel_maven_repository",
+      "target": "actions/setup-java@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "square/bazel_maven_repository",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "square/bazel_maven_repository",
+      "target": "holvonix-open/setup-bazelisk@v0.6.1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:11:48.457673+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19392
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1153
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A bazel ruleset creating a more idiomatic bazel representation of a maven repo using a pinned list of artifacts.",
+    "fork": false,
+    "full_name": "square/bazel_maven_repository",
+    "html_url": "https://github.com/square/bazel_maven_repository",
+    "language": "Kotlin",
+    "pushed_at": "2023-03-18T23:31:46Z",
+    "stargazers_count": 38,
+    "topics": [],
+    "updated_at": "2026-01-23T12:56:33Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

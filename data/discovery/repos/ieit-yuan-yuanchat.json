@@ -1,0 +1,193 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/website.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/website.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IEIT-Yuan/YuanChat",
+      "target": "othneildrew/best-readme-template",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/website.yaml",
+      "source_repo": "IEIT-Yuan/YuanChat",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/website.yaml",
+      "source_repo": "IEIT-Yuan/YuanChat",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/website.yaml",
+      "source_repo": "IEIT-Yuan/YuanChat",
+      "target": "website build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IEIT-Yuan/YuanChat",
+      "target": "fastapi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IEIT-Yuan/YuanChat",
+      "target": "huggingface",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IEIT-Yuan/YuanChat",
+      "target": "inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IEIT-Yuan/YuanChat",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IEIT-Yuan/YuanChat",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IEIT-Yuan/YuanChat",
+      "target": "transformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IEIT-Yuan/YuanChat",
+      "target": "vuejs3",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T12:55:47.177363+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8440
+    },
+    {
+      "path": "Dockerfile",
+      "size": 399
+    },
+    {
+      "path": "requirements.txt",
+      "size": 277
+    },
+    {
+      "path": ".github/workflows/website.yaml",
+      "size": 1284
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "IEIT-Yuan/YuanChat",
+    "html_url": "https://github.com/IEIT-Yuan/YuanChat",
+    "language": "Python",
+    "pushed_at": "2025-02-21T05:42:39Z",
+    "stargazers_count": 46,
+    "topics": [
+      "fastapi",
+      "huggingface",
+      "inference",
+      "large-language-models",
+      "llm",
+      "nodejs",
+      "python",
+      "transformer",
+      "vuejs3"
+    ],
+    "updated_at": "2025-03-06T09:51:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "othneildrew/best-readme-template",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "website build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/website.yaml",
+      "term": "website build"
+    },
+    {
+      "context_snippet": "<a name=\"readme-top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fastapi"
+    },
+    {
+      "context_snippet": "<a name=\"readme-top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "huggingface"
+    },
+    {
+      "context_snippet": "<a name=\"readme-top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inference"
+    },
+    {
+      "context_snippet": "<a name=\"readme-top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "<a name=\"readme-top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    },
+    {
+      "context_snippet": "<a name=\"readme-top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    },
+    {
+      "context_snippet": "<a name=\"readme-top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vuejs3"
+    }
+  ]
+}

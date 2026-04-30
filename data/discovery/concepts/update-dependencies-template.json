@@ -31,6 +31,18 @@
       "source_repo": "NVIDIA-NeMo/Megatron-Bridge",
       "status": "candidate-context",
       "text": "~Update dependencies template"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flagos-ai/Megatron-LM-FL",
+      "status": "candidate-context",
+      "text": "Megatron-LM-FL is a fork of Megatron-LM that introduces a plugin-based architecture for supporting diverse AI chips, built on top of FlagOS, a unified open-source AI system software stack."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flagos-ai/Megatron-LM-FL",
+      "status": "candidate-context",
+      "text": "~Update dependencies template"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "NVIDIA-NeMo/Megatron-Bridge",
+      "status": "candidate",
+      "text": "~Update dependencies template"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flagos-ai/Megatron-LM-FL",
       "status": "candidate",
       "text": "~Update dependencies template"
     }
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/_update_dependencies.yml",
       "source_repo": "NVIDIA-NeMo/Megatron-Bridge"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/_update_dependencies.yml",
+      "source_repo": "flagos-ai/Megatron-LM-FL"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

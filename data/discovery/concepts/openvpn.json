@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "openvpn"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dpb587/openvpn-bosh-release",
+      "status": "candidate-context",
+      "text": "A BOSH release to help manage an OpenVPN network."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dpb587/openvpn-bosh-release",
+      "status": "candidate-context",
+      "text": "A [BOSH](https://bosh.io/) release to help manage an [OpenVPN](http://openvpn.net/) network."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "drduh/config",
+      "status": "candidate-context",
+      "text": "Configuration files and scripts used in guides and for system setup."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drduh/config",
+      "status": "candidate-context",
+      "text": "Miscellaneous scripts and program configuration files used in:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dpb587/openvpn-bosh-release",
+      "status": "candidate",
+      "text": "A [BOSH](https://bosh.io/) release to help manage an [OpenVPN](http://openvpn.net/) network."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drduh/config",
+      "status": "candidate",
+      "text": "Miscellaneous scripts and program configuration files used in:"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "secure socket tunneling protocol"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "freelan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "ethernet vpn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "layer 2 tunneling protocol"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "openssh"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "openvpn",
+  "concept_id": "openvpn",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "dpb587/openvpn-bosh-release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "drduh/config"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "openvpn",
+      "sense_id": "openvpn#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

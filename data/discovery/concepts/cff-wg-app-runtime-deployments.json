@@ -43,6 +43,18 @@
       "source_repo": "cloudfoundry/cf-smoke-tests",
       "status": "candidate-context",
       "text": "CF Smoke Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/cf-smoke-tests-release",
+      "status": "candidate-context",
+      "text": "This is the bosh release for [cf-smoke-tests](https://github.com/cloudfoundry/cf-smoke-tests). Once deployed, the tests can be run as a bosh errand:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/cf-deployment-concourse-tasks",
+      "status": "candidate-context",
+      "text": "This repo contains concourse tasks for use with [cf-deployment][cf-deployment-repo]."
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,18 @@
       "source_repo": "cloudfoundry/cf-smoke-tests",
       "status": "candidate",
       "text": "CF Smoke Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/cf-smoke-tests-release",
+      "status": "candidate",
+      "text": "This is the bosh release for [cf-smoke-tests](https://github.com/cloudfoundry/cf-smoke-tests). Once deployed, the tests can be run as a bosh errand:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/cf-deployment-concourse-tasks",
+      "status": "candidate",
+      "text": "This repo contains concourse tasks for use with [cf-deployment][cf-deployment-repo]."
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +112,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "cloudfoundry/cf-smoke-tests"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "cloudfoundry/cf-smoke-tests-release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "cloudfoundry/cf-deployment-concourse-tasks"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

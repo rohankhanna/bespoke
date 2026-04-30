@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "eShopOnWeb - Code Index"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet-architecture/eShopOnWeb",
+      "status": "candidate-context",
+      "text": "Sample ASP.NET Core 8.0 reference application, now community supported: https://github.com/NimblePros/eShopOnWeb"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet-architecture/eShopOnWeb",
+      "status": "candidate-context",
+      "text": "eShopOnWeb - Code Index"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NimblePros/eShopOnWeb",
+      "status": "candidate-context",
+      "text": "Sample ASP.NET Core 10.0 reference application, powered by Microsoft, demonstrating a domain-centric application architecture with monolithic deployment model."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NimblePros/eShopOnWeb",
+      "status": "candidate-context",
+      "text": "eShopOnWeb - Code Index"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet-architecture/eShopOnWeb",
+      "status": "candidate",
+      "text": "eShopOnWeb - Code Index"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NimblePros/eShopOnWeb",
+      "status": "candidate",
+      "text": "eShopOnWeb - Code Index"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 48083,
+      "status": "candidate",
+      "text": "codes"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 48083,
+      "status": "candidate",
+      "text": "coding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 48083,
+      "status": "candidate",
+      "text": "encoding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 48083,
+      "status": "candidate",
+      "text": "law"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11722,
+      "status": "candidate",
+      "text": "dial"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "eShopOnWeb - Code Index",
+  "concept_id": "eshoponweb---code-index",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/richnav.yml",
+      "source_repo": "dotnet-architecture/eShopOnWeb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/richnav.yml",
+      "source_repo": "NimblePros/eShopOnWeb"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "eShopOnWeb - Code Index",
+      "sense_id": "eshoponweb---code-index#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Extremely fast, in memory, serialization, reflection, and RPC library for C++. JSON, BEVE, BSON, CBOR, CSV, JSONB, MessagePack, TOML, YAML, EETF"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "One of the fastest JSON libraries in the world. Glaze reads and writes from object memory, simplifying interfaces and offering incredible performance."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "One of the fastest JSON libraries in the world. Glaze reads and writes from object memory, simplifying interfaces and offering incredible performance."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40020421,
+      "status": "candidate",
+      "text": "tight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40018793,
+      "status": "candidate",
+      "text": "instantaneous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40018627,
+      "status": "candidate",
+      "text": "immediate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40017654,
+      "status": "candidate",
+      "text": "instant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40014877,
+      "status": "candidate",
+      "text": "true"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "fast",
+      "sense_id": "fast#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 76037,
+      "status": "candidate",
+      "text": "profligate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 54044,
+      "status": "candidate",
+      "text": "prompt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34038,
+      "status": "candidate",
+      "text": "libertine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 33069,
+      "status": "candidate",
+      "text": "hot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 32045,
+      "status": "candidate",
+      "text": "degenerate"
+    }
+  ],
+  "concept_id": "fast",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "fast",
+  "observation_id": "1768af5939bf8c25",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "fast",
+  "source_context_snippet": "One of the fastest JSON libraries in the world. Glaze reads and writes from object memory, simplifying interfaces and offering incredible performance.",
+  "source_file": null,
+  "source_repo": "stephenberry/glaze",
+  "source_repo_description": "Extremely fast, in memory, serialization, reflection, and RPC library for C++. JSON, BEVE, BSON, CBOR, CSV, JSONB, MessagePack, TOML, YAML, EETF"
+}

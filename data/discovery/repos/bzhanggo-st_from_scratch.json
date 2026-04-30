@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bzhangGo/st_from_scratch",
+      "target": "end-to-end-speech-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bzhangGo/st_from_scratch",
+      "target": "speech-to-text-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bzhangGo/st_from_scratch",
+      "target": "speech-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bzhangGo/st_from_scratch",
+      "target": "speech-translation-from-scratch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:13:23.713327+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2909
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Revisiting End-to-End Speech-to-Text Translation From Scratch",
+    "fork": false,
+    "full_name": "bzhangGo/st_from_scratch",
+    "html_url": "https://github.com/bzhangGo/st_from_scratch",
+    "language": "Python",
+    "pushed_at": "2023-02-21T13:29:58Z",
+    "stargazers_count": 13,
+    "topics": [
+      "end-to-end-speech-translation",
+      "speech-to-text-translation",
+      "speech-translation",
+      "speech-translation-from-scratch"
+    ],
+    "updated_at": "2025-07-28T11:39:03Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[**Paper**]() |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "end-to-end-speech-translation"
+    },
+    {
+      "context_snippet": "[**Paper**]() |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-to-text-translation"
+    },
+    {
+      "context_snippet": "[**Paper**]() |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-translation"
+    },
+    {
+      "context_snippet": "[**Paper**]() |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-translation-from-scratch"
+    }
+  ]
+}

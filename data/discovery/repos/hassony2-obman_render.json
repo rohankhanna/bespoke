@@ -1,0 +1,145 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hassony2/obman_render",
+      "target": "ikalevatykh/mano_grasp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hassony2/obman_render",
+      "target": "cvpr-2019",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hassony2/obman_render",
+      "target": "cvpr19",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hassony2/obman_render",
+      "target": "grasping",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hassony2/obman_render",
+      "target": "graspit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hassony2/obman_render",
+      "target": "hands",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hassony2/obman_render",
+      "target": "rendering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hassony2/obman_render",
+      "target": "synthetic-data",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T12:59:38.661736+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8807
+    },
+    {
+      "path": "requirements.txt",
+      "size": 113
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[cvpr19] Code to generate images from the ObMan dataset, synthetic renderings of hands holding objects (or hands in isolation)",
+    "fork": false,
+    "full_name": "hassony2/obman_render",
+    "html_url": "https://github.com/hassony2/obman_render",
+    "language": "Python",
+    "pushed_at": "2022-06-21T23:05:14Z",
+    "stargazers_count": 79,
+    "topics": [
+      "cvpr-2019",
+      "cvpr19",
+      "grasping",
+      "graspit",
+      "hands",
+      "rendering",
+      "synthetic-data"
+    ],
+    "updated_at": "2026-02-14T03:00:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ikalevatykh/mano_grasp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Yana Hasson, G\u00fcl Varol, Dimitris Tzionas, Igor Kalevatykh, Michael J. Black, Ivan Laptev, Cordelia Schmid, CVPR 2019",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr-2019"
+    },
+    {
+      "context_snippet": "Yana Hasson, G\u00fcl Varol, Dimitris Tzionas, Igor Kalevatykh, Michael J. Black, Ivan Laptev, Cordelia Schmid, CVPR 2019",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr19"
+    },
+    {
+      "context_snippet": "Yana Hasson, G\u00fcl Varol, Dimitris Tzionas, Igor Kalevatykh, Michael J. Black, Ivan Laptev, Cordelia Schmid, CVPR 2019",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grasping"
+    },
+    {
+      "context_snippet": "Yana Hasson, G\u00fcl Varol, Dimitris Tzionas, Igor Kalevatykh, Michael J. Black, Ivan Laptev, Cordelia Schmid, CVPR 2019",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graspit"
+    },
+    {
+      "context_snippet": "Yana Hasson, G\u00fcl Varol, Dimitris Tzionas, Igor Kalevatykh, Michael J. Black, Ivan Laptev, Cordelia Schmid, CVPR 2019",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hands"
+    },
+    {
+      "context_snippet": "Yana Hasson, G\u00fcl Varol, Dimitris Tzionas, Igor Kalevatykh, Michael J. Black, Ivan Laptev, Cordelia Schmid, CVPR 2019",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rendering"
+    },
+    {
+      "context_snippet": "Yana Hasson, G\u00fcl Varol, Dimitris Tzionas, Igor Kalevatykh, Michael J. Black, Ivan Laptev, Cordelia Schmid, CVPR 2019",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "synthetic-data"
+    }
+  ]
+}

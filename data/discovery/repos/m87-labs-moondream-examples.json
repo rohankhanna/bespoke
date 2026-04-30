@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T12:54:39.161415+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2332
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Examples and quickstarts for Moondream",
+    "fork": false,
+    "full_name": "m87-labs/moondream-examples",
+    "html_url": "https://github.com/m87-labs/moondream-examples",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-04-14T17:00:05Z",
+    "stargazers_count": 72,
+    "topics": [],
+    "updated_at": "2026-04-14T17:00:13Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

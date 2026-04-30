@@ -55,6 +55,18 @@
       "source_repo": "ksxnodemodules/static-type-assert",
       "status": "candidate-context",
       "text": "Asserting type with help of TypeScript compiler"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cawa-93/vite-electron-builder",
+      "status": "candidate-context",
+      "text": "Secure boilerplate for Electron app based on Vite. TypeScript + Vue/React/Angular/Svelte/Vanilla"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cawa-93/vite-electron-builder",
+      "status": "candidate-context",
+      "text": "> [!Important]"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "ksxnodemodules/static-type-assert",
       "status": "candidate",
       "text": "Asserting type with help of TypeScript compiler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cawa-93/vite-electron-builder",
+      "status": "candidate",
+      "text": "> [!Important]"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "ksxnodemodules/static-type-assert"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "cawa-93/vite-electron-builder"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

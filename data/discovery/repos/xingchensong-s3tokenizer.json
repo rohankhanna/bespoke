@@ -1,0 +1,152 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "actions-ecosystem/action-regex-match@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit_test_cpu.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit_test_cpu.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit_test_cpu.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "xingchensong/S3Tokenizer",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "xingchensong/S3Tokenizer",
+      "target": "actions-ecosystem/action-regex-match@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "xingchensong/S3Tokenizer",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "xingchensong/S3Tokenizer",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "xingchensong/S3Tokenizer",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit_test_cpu.yaml",
+      "source_repo": "xingchensong/S3Tokenizer",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit_test_cpu.yaml",
+      "source_repo": "xingchensong/S3Tokenizer",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit_test_cpu.yaml",
+      "source_repo": "xingchensong/S3Tokenizer",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit_test_cpu.yaml",
+      "source_repo": "xingchensong/S3Tokenizer",
+      "target": "CPU Unit Test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T12:54:37.976761+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6296
+    },
+    {
+      "path": "requirements.txt",
+      "size": 51
+    },
+    {
+      "path": ".github/workflows/python-publish.yml",
+      "size": 976
+    },
+    {
+      "path": ".github/workflows/unit_test_cpu.yaml",
+      "size": 1371
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Reverse Engineering of Supervised Semantic Speech Tokenizer (S3Tokenizer) proposed in CosyVoice",
+    "fork": false,
+    "full_name": "xingchensong/S3Tokenizer",
+    "html_url": "https://github.com/xingchensong/S3Tokenizer",
+    "language": "Python",
+    "pushed_at": "2025-12-22T03:12:20Z",
+    "stargazers_count": 511,
+    "topics": [],
+    "updated_at": "2026-04-24T12:58:14Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/python-publish.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "CPU Unit Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit_test_cpu.yaml",
+      "term": "CPU Unit Test"
+    }
+  ]
+}

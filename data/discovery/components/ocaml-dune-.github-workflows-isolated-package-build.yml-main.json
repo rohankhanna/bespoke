@@ -1,0 +1,12 @@
+{
+  "component": "ocaml/dune/.github/workflows/isolated-package-build.yml@main",
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/isolated-package-build-pre-release.yml",
+      "source_repo": "ocaml/dune"
+    }
+  ]
+}

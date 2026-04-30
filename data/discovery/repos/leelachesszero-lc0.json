@@ -1,0 +1,176 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LeelaChessZero/lc0",
+      "target": "alphazero",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LeelaChessZero/lc0",
+      "target": "alphazero-inspired",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LeelaChessZero/lc0",
+      "target": "chess",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LeelaChessZero/lc0",
+      "target": "chess-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LeelaChessZero/lc0",
+      "target": "chess-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LeelaChessZero/lc0",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LeelaChessZero/lc0",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LeelaChessZero/lc0",
+      "target": "deep-reinforcement-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LeelaChessZero/lc0",
+      "target": "leela-chess-zero",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LeelaChessZero/lc0",
+      "target": "neural-networks",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T12:58:57.837260+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12235
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 658
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Open source neural network chess engine with GPU acceleration and broad hardware support.",
+    "fork": false,
+    "full_name": "LeelaChessZero/lc0",
+    "html_url": "https://github.com/LeelaChessZero/lc0",
+    "language": "C++",
+    "pushed_at": "2026-04-20T15:38:24Z",
+    "stargazers_count": 3064,
+    "topics": [
+      "alphazero",
+      "alphazero-inspired",
+      "chess",
+      "chess-ai",
+      "chess-engine",
+      "cuda",
+      "deep-learning",
+      "deep-reinforcement-learning",
+      "gpu",
+      "leela-chess-zero",
+      "neural-networks",
+      "uci"
+    ],
+    "updated_at": "2026-04-30T12:53:52Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/LeelaChessZero/lc0.svg?style=shield)](https://circleci.com/gh/LeelaChessZero/lc0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "alphazero"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/LeelaChessZero/lc0.svg?style=shield)](https://circleci.com/gh/LeelaChessZero/lc0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "alphazero-inspired"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/LeelaChessZero/lc0.svg?style=shield)](https://circleci.com/gh/LeelaChessZero/lc0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chess"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/LeelaChessZero/lc0.svg?style=shield)](https://circleci.com/gh/LeelaChessZero/lc0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chess-ai"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/LeelaChessZero/lc0.svg?style=shield)](https://circleci.com/gh/LeelaChessZero/lc0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chess-engine"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/LeelaChessZero/lc0.svg?style=shield)](https://circleci.com/gh/LeelaChessZero/lc0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/LeelaChessZero/lc0.svg?style=shield)](https://circleci.com/gh/LeelaChessZero/lc0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/LeelaChessZero/lc0.svg?style=shield)](https://circleci.com/gh/LeelaChessZero/lc0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-reinforcement-learning"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/LeelaChessZero/lc0.svg?style=shield)](https://circleci.com/gh/LeelaChessZero/lc0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "leela-chess-zero"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/LeelaChessZero/lc0.svg?style=shield)](https://circleci.com/gh/LeelaChessZero/lc0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-networks"
+    }
+  ]
+}

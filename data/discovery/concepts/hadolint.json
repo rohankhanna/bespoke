@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "Hadolint"
+    "Hadolint",
+    "hadolint"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,18 @@
       "source_repo": "dani-garcia/vaultwarden",
       "status": "candidate-context",
       "text": "Hadolint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reviewdog/action-hadolint",
+      "status": "candidate-context",
+      "text": "Run hadolint with reviewdog \ud83d\udc36"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-hadolint",
+      "status": "candidate-context",
+      "text": "[![](https://img.shields.io/github/license/reviewdog/action-hadolint)](./LICENSE)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +42,12 @@
       "source_repo": "dani-garcia/vaultwarden",
       "status": "candidate",
       "text": "Hadolint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-hadolint",
+      "status": "candidate",
+      "text": "[![](https://img.shields.io/github/license/reviewdog/action-hadolint)](./LICENSE)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +61,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/hadolint.yml",
       "source_repo": "dani-garcia/vaultwarden"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "reviewdog/action-hadolint"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

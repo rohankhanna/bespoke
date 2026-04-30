@@ -5,7 +5,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -79,6 +81,12 @@
       "source_repo": "galaxyproject/galaxy",
       "status": "candidate-context",
       "text": ".. figure:: https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo.jpg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Gordon-F/miniquad_ios_example",
+      "status": "candidate-context",
+      "text": "pipeline"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +125,12 @@
       "source_repo": "galaxyproject/galaxy",
       "status": "candidate",
       "text": ".. figure:: https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo.jpg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Gordon-F/miniquad_ios_example",
+      "status": "candidate",
+      "text": "pipeline"
     }
   ],
   "candidate_related_terms": [
@@ -230,11 +244,29 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "galaxyproject/galaxy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "Gordon-F/miniquad_ios_example"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "kharchenkolab/dropEst"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

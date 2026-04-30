@@ -1,0 +1,195 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "YosysHQ/oss-cad-suite-build",
+      "target": "arminbiere/aiger",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "YosysHQ/oss-cad-suite-build",
+      "target": "boolector/boolector",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "YosysHQ/oss-cad-suite-build",
+      "target": "bitwuzla/bitwuzla",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "YosysHQ/oss-cad-suite-build",
+      "target": "adamgreig/ecpdap",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/darwin-arm64.yml",
+      "source_repo": "YosysHQ/oss-cad-suite-build",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/darwin-arm64.yml",
+      "source_repo": "YosysHQ/oss-cad-suite-build",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/darwin-arm64.yml",
+      "source_repo": "YosysHQ/oss-cad-suite-build",
+      "target": "ncipollo/release-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/darwin-arm64.yml",
+      "source_repo": "YosysHQ/oss-cad-suite-build",
+      "target": "darwin-arm64",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/darwin-x64.yml",
+      "source_repo": "YosysHQ/oss-cad-suite-build",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/darwin-x64.yml",
+      "source_repo": "YosysHQ/oss-cad-suite-build",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/darwin-x64.yml",
+      "source_repo": "YosysHQ/oss-cad-suite-build",
+      "target": "ncipollo/release-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/darwin-x64.yml",
+      "source_repo": "YosysHQ/oss-cad-suite-build",
+      "target": "darwin-x64",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-arm64.yml",
+      "source_repo": "YosysHQ/oss-cad-suite-build",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-arm64.yml",
+      "source_repo": "YosysHQ/oss-cad-suite-build",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-arm64.yml",
+      "source_repo": "YosysHQ/oss-cad-suite-build",
+      "target": "ncipollo/release-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-arm64.yml",
+      "source_repo": "YosysHQ/oss-cad-suite-build",
+      "target": "linux-arm64",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-x64.yml",
+      "source_repo": "YosysHQ/oss-cad-suite-build",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-x64.yml",
+      "source_repo": "YosysHQ/oss-cad-suite-build",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-x64.yml",
+      "source_repo": "YosysHQ/oss-cad-suite-build",
+      "target": "ncipollo/release-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-x64.yml",
+      "source_repo": "YosysHQ/oss-cad-suite-build",
+      "target": "linux-x64",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "YosysHQ/oss-cad-suite-build",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "YosysHQ/oss-cad-suite-build",
+      "target": "YosysHQ/setup-oss-cad-suite@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "YosysHQ/oss-cad-suite-build",
+      "target": "test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-x64.yml",
+      "source_repo": "YosysHQ/oss-cad-suite-build",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-x64.yml",
+      "source_repo": "YosysHQ/oss-cad-suite-build",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-x64.yml",
+      "source_repo": "YosysHQ/oss-cad-suite-build",
+      "target": "ncipollo/release-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows-x64.yml",
+      "source_repo": "YosysHQ/oss-cad-suite-build",
+      "target": "windows-x64",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T12:45:20.475770+00:00",
+  "source_repo": "YosysHQ/oss-cad-suite-build"
+}

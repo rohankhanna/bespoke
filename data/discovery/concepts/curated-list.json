@@ -31,6 +31,18 @@
       "source_repo": "k4m4/terminals-are-sexy",
       "status": "candidate-context",
       "text": "\ud83d\udca5 A curated list of Terminal frameworks, plugins & resources for CLI lovers."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sdras/awesome-actions",
+      "status": "candidate-context",
+      "text": "A curated list of awesome actions to use on GitHub"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sdras/awesome-actions",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "k4m4/terminals-are-sexy",
       "status": "candidate",
       "text": "\ud83d\udca5 A curated list of Terminal frameworks, plugins & resources for CLI lovers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sdras/awesome-actions",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "k4m4/terminals-are-sexy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "sdras/awesome-actions"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

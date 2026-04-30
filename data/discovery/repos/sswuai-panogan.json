@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sswuai/PanoGAN",
+      "target": "phillipi/pix2pix",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sswuai/PanoGAN",
+      "target": "ha0tang/guided-i2i-translation-papers",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:08:03.466249+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6597
+    },
+    {
+      "path": "requirements.txt",
+      "size": 64
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "sswuai/PanoGAN",
+    "html_url": "https://github.com/sswuai/PanoGAN",
+    "language": "Python",
+    "pushed_at": "2022-04-22T08:32:38Z",
+    "stargazers_count": 40,
+    "topics": [],
+    "updated_at": "2025-12-14T15:04:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ha0tang/guided-i2i-translation-papers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "phillipi/pix2pix",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

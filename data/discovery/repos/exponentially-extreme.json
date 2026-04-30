@@ -1,0 +1,227 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "erlef/setup-beam@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "erlef/setup-beam@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "erlef/setup-beam@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "exponentially/extreme",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "exponentially/extreme",
+      "target": "erlef/setup-beam@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "exponentially/extreme",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "exponentially/extreme",
+      "target": "Bless the code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "exponentially/extreme",
+      "target": "cqrs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "exponentially/extreme",
+      "target": "elixir-lang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "exponentially/extreme",
+      "target": "erlang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "exponentially/extreme",
+      "target": "event-sourcing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "exponentially/extreme",
+      "target": "eventstore",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "exponentially/extreme",
+      "target": "stream",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "exponentially/extreme",
+      "target": "tcp-client",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:06:41.638133+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 787
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 4798
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "v1.0.0",
+    "description": "Elixir Adapter for EventStore",
+    "fork": false,
+    "full_name": "exponentially/extreme",
+    "html_url": "https://github.com/exponentially/extreme",
+    "language": "Elixir",
+    "pushed_at": "2025-10-09T11:57:14Z",
+    "stargazers_count": 133,
+    "topics": [
+      "cqrs",
+      "elixir-lang",
+      "erlang",
+      "event-sourcing",
+      "eventstore",
+      "stream",
+      "tcp-client"
+    ],
+    "updated_at": "2025-12-29T17:36:03Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Bless the code",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Bless the code"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/exponentially/extreme/actions/workflows/test.yml/badge.svg)](https://github.com/exponentially/extreme/actions/workflows/test.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cqrs"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/exponentially/extreme/actions/workflows/test.yml/badge.svg)](https://github.com/exponentially/extreme/actions/workflows/test.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "elixir-lang"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/exponentially/extreme/actions/workflows/test.yml/badge.svg)](https://github.com/exponentially/extreme/actions/workflows/test.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "erlang"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/exponentially/extreme/actions/workflows/test.yml/badge.svg)](https://github.com/exponentially/extreme/actions/workflows/test.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "event-sourcing"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/exponentially/extreme/actions/workflows/test.yml/badge.svg)](https://github.com/exponentially/extreme/actions/workflows/test.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eventstore"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/exponentially/extreme/actions/workflows/test.yml/badge.svg)](https://github.com/exponentially/extreme/actions/workflows/test.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stream"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/exponentially/extreme/actions/workflows/test.yml/badge.svg)](https://github.com/exponentially/extreme/actions/workflows/test.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tcp-client"
+    }
+  ]
+}

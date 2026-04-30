@@ -1,12 +1,17 @@
 {
   "component": "reviewdog/action-hadolint@fc7ee4a9f71e521bc43e370819247b70e5327540",
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/reviewdog.yml",
       "source_repo": "reviewdog/action-alex"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "reviewdog/action-depup"
     }
   ]
 }

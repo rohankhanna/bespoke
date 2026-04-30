@@ -19,12 +19,30 @@
       "source_repo": "gpustack/gguf-parser-go",
       "status": "candidate-context",
       "text": "prune"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gpustack/llama-box",
+      "status": "candidate-context",
+      "text": "LM inference server implementation based on *.cpp."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gpustack/llama-box",
+      "status": "candidate-context",
+      "text": "prune"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "gpustack/gguf-parser-go",
+      "status": "candidate",
+      "text": "prune"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gpustack/llama-box",
       "status": "candidate",
       "text": "prune"
     }
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/prune.yml",
       "source_repo": "gpustack/gguf-parser-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/prune.yml",
+      "source_repo": "gpustack/llama-box"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

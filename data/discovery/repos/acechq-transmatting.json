@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T15:07:05.150534+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3116
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "TransMatting (ECCV2022)",
+    "fork": false,
+    "full_name": "AceCHQ/TransMatting",
+    "html_url": "https://github.com/AceCHQ/TransMatting",
+    "language": "HTML",
+    "pushed_at": "2026-02-16T04:11:29Z",
+    "stargazers_count": 20,
+    "topics": [],
+    "updated_at": "2026-02-16T04:11:32Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test patches"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tweag/rules_haskell",
+      "status": "candidate-context",
+      "text": "Haskell rules for Bazel."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tweag/rules_haskell",
+      "status": "candidate-context",
+      "text": "Test patches"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tweag/rules_haskell",
+      "status": "candidate",
+      "text": "Test patches"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10954,
+      "status": "candidate",
+      "text": "checkered"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10954,
+      "status": "candidate",
+      "text": "leukoplakia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10954,
+      "status": "candidate",
+      "text": "patchiness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10893,
+      "status": "candidate",
+      "text": "binet-simon scale"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10893,
+      "status": "candidate",
+      "text": "check"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test patches",
+  "concept_id": "test-patches",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/patch-test.yaml",
+      "source_repo": "tweag/rules_haskell"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test patches",
+      "sense_id": "test-patches#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

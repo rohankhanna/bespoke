@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jannerm/ddpo",
+      "target": "kvablack/llava-server",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:09:26.956809+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3069
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Code for the paper \"Training Diffusion Models with Reinforcement Learning\"",
+    "fork": false,
+    "full_name": "jannerm/ddpo",
+    "html_url": "https://github.com/jannerm/ddpo",
+    "language": "Python",
+    "pushed_at": "2023-07-05T23:07:51Z",
+    "stargazers_count": 566,
+    "topics": [],
+    "updated_at": "2026-04-24T07:51:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kvablack/llava-server",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

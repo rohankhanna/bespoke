@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Node.js samples for Google Cloud Platform products."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img src=\"https://avatars2.githubusercontent.com/u/2810941?v=3&s=96\" alt=\"Google Cloud Platform logo\" title=\"Google Cloud Platform\" align=\"right\" height=\"96\" width=\"96\"/>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img src=\"https://avatars2.githubusercontent.com/u/2810941?v=3&s=96\" alt=\"Google Cloud Platform logo\" title=\"Google Cloud Platform\" align=\"right\" height=\"96\" width=\"96\"/>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10050677,
+      "status": "candidate",
+      "text": "representative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10049978,
+      "status": "candidate",
+      "text": "exemplar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10049492,
+      "status": "candidate",
+      "text": "object lesson"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10047571,
+      "status": "candidate",
+      "text": "lesson"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10040085,
+      "status": "candidate",
+      "text": "illustration"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "examples",
+      "sense_id": "examples#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "examples",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "examples",
+  "observation_id": "424c3497b2de19b9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "examples",
+  "source_context_snippet": "<img src=\"https://avatars2.githubusercontent.com/u/2810941?v=3&s=96\" alt=\"Google Cloud Platform logo\" title=\"Google Cloud Platform\" align=\"right\" height=\"96\" width=\"96\"/>",
+  "source_file": null,
+  "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
+  "source_repo_description": "Node.js samples for Google Cloud Platform products."
+}

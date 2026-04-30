@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "gpt-4o-mini"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure-Samples/agent-openai-java-banking-assistant",
+      "status": "candidate-context",
+      "text": "Multi-agent banking assistant with Java and Langchain4j"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/agent-openai-java-banking-assistant",
+      "status": "candidate-context",
+      "text": "---"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/agent-openai-java-banking-assistant",
+      "status": "candidate",
+      "text": "---"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "gpt-4o-mini",
+  "concept_id": "gpt-4o-mini",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Azure-Samples/agent-openai-java-banking-assistant"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "gpt-4o-mini",
+      "sense_id": "gpt-4o-mini#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

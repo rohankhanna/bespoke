@@ -84,7 +84,7 @@
   "normalized_form": "create-build-size-report",
   "observation_id": "c3bf0b99e4875ca2",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
   "observed_text": "Create Build Size Report",
   "source_context_snippet": "Create Build Size Report",
   "source_file": ".github/workflows/size_report_create.yml",

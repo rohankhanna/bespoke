@@ -1,0 +1,185 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "asafschers/scoruby",
+      "target": "classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "asafschers/scoruby",
+      "target": "decision-tree",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "asafschers/scoruby",
+      "target": "gradient-boosted-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "asafschers/scoruby",
+      "target": "gradient-boosting-classifier",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "asafschers/scoruby",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "asafschers/scoruby",
+      "target": "naive-bayes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "asafschers/scoruby",
+      "target": "pmml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "asafschers/scoruby",
+      "target": "random-forest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "asafschers/scoruby",
+      "target": "ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "asafschers/scoruby",
+      "target": "ruby-gem",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "asafschers/scoruby",
+      "target": "rubyml",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:05:10.277195+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3651
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Ruby Scoring API for PMML",
+    "fork": false,
+    "full_name": "asafschers/scoruby",
+    "html_url": "https://github.com/asafschers/scoruby",
+    "language": "Ruby",
+    "pushed_at": "2022-10-19T04:55:03Z",
+    "stargazers_count": 70,
+    "topics": [
+      "classification",
+      "decision-tree",
+      "gbm",
+      "gradient-boosted-models",
+      "gradient-boosting-classifier",
+      "machine-learning",
+      "naive-bayes",
+      "pmml",
+      "random-forest",
+      "ruby",
+      "ruby-gem",
+      "rubyml"
+    ],
+    "updated_at": "2025-12-10T03:23:26Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<a href=\"https://codeclimate.com/github/asafschers/scoruby\"><img src=\"https://codeclimate.com/github/asafschers/scoruby/badges/gpa.svg\" /></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "classification"
+    },
+    {
+      "context_snippet": "<a href=\"https://codeclimate.com/github/asafschers/scoruby\"><img src=\"https://codeclimate.com/github/asafschers/scoruby/badges/gpa.svg\" /></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "decision-tree"
+    },
+    {
+      "context_snippet": "<a href=\"https://codeclimate.com/github/asafschers/scoruby\"><img src=\"https://codeclimate.com/github/asafschers/scoruby/badges/gpa.svg\" /></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gradient-boosted-models"
+    },
+    {
+      "context_snippet": "<a href=\"https://codeclimate.com/github/asafschers/scoruby\"><img src=\"https://codeclimate.com/github/asafschers/scoruby/badges/gpa.svg\" /></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gradient-boosting-classifier"
+    },
+    {
+      "context_snippet": "<a href=\"https://codeclimate.com/github/asafschers/scoruby\"><img src=\"https://codeclimate.com/github/asafschers/scoruby/badges/gpa.svg\" /></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "<a href=\"https://codeclimate.com/github/asafschers/scoruby\"><img src=\"https://codeclimate.com/github/asafschers/scoruby/badges/gpa.svg\" /></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "naive-bayes"
+    },
+    {
+      "context_snippet": "<a href=\"https://codeclimate.com/github/asafschers/scoruby\"><img src=\"https://codeclimate.com/github/asafschers/scoruby/badges/gpa.svg\" /></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pmml"
+    },
+    {
+      "context_snippet": "<a href=\"https://codeclimate.com/github/asafschers/scoruby\"><img src=\"https://codeclimate.com/github/asafschers/scoruby/badges/gpa.svg\" /></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "random-forest"
+    },
+    {
+      "context_snippet": "<a href=\"https://codeclimate.com/github/asafschers/scoruby\"><img src=\"https://codeclimate.com/github/asafschers/scoruby/badges/gpa.svg\" /></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    },
+    {
+      "context_snippet": "<a href=\"https://codeclimate.com/github/asafschers/scoruby\"><img src=\"https://codeclimate.com/github/asafschers/scoruby/badges/gpa.svg\" /></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby-gem"
+    },
+    {
+      "context_snippet": "<a href=\"https://codeclimate.com/github/asafschers/scoruby\"><img src=\"https://codeclimate.com/github/asafschers/scoruby/badges/gpa.svg\" /></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rubyml"
+    }
+  ]
+}

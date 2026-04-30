@@ -1,0 +1,307 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backup-to-acr.yml",
+      "source_repo": "Oneflow-Inc/docker-images",
+      "target": "easimon/maximize-build-space@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backup-to-acr.yml",
+      "source_repo": "Oneflow-Inc/docker-images",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backup-to-acr.yml",
+      "source_repo": "Oneflow-Inc/docker-images",
+      "target": "aliyun/acr-login@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backup-to-acr.yml",
+      "source_repo": "Oneflow-Inc/docker-images",
+      "target": "Backup to ACR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cuda-llvm.yml",
+      "source_repo": "Oneflow-Inc/docker-images",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cuda-llvm.yml",
+      "source_repo": "Oneflow-Inc/docker-images",
+      "target": "aliyun/acr-login@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cuda-llvm.yml",
+      "source_repo": "Oneflow-Inc/docker-images",
+      "target": "docker/login-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cuda-llvm.yml",
+      "source_repo": "Oneflow-Inc/docker-images",
+      "target": "docker/setup-buildx-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cuda-llvm.yml",
+      "source_repo": "Oneflow-Inc/docker-images",
+      "target": "docker/build-push-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cuda-llvm.yml",
+      "source_repo": "Oneflow-Inc/docker-images",
+      "target": "Build CUDA LLVM",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hf-transformers-pytorch-deepspeed.yml",
+      "source_repo": "Oneflow-Inc/docker-images",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hf-transformers-pytorch-deepspeed.yml",
+      "source_repo": "Oneflow-Inc/docker-images",
+      "target": "aliyun/acr-login@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hf-transformers-pytorch-deepspeed.yml",
+      "source_repo": "Oneflow-Inc/docker-images",
+      "target": "docker/login-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hf-transformers-pytorch-deepspeed.yml",
+      "source_repo": "Oneflow-Inc/docker-images",
+      "target": "docker/build-push-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hf-transformers-pytorch-deepspeed.yml",
+      "source_repo": "Oneflow-Inc/docker-images",
+      "target": "Build hf-transformers-pytorch-deepspeed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oneflow-devcontainer.yml",
+      "source_repo": "Oneflow-Inc/docker-images",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oneflow-devcontainer.yml",
+      "source_repo": "Oneflow-Inc/docker-images",
+      "target": "aliyun/acr-login@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oneflow-devcontainer.yml",
+      "source_repo": "Oneflow-Inc/docker-images",
+      "target": "docker/login-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oneflow-devcontainer.yml",
+      "source_repo": "Oneflow-Inc/docker-images",
+      "target": "docker/build-push-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/oneflow-devcontainer.yml",
+      "source_repo": "Oneflow-Inc/docker-images",
+      "target": "Build oneflow-devcontainer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oneflow-nightly.yml",
+      "source_repo": "Oneflow-Inc/docker-images",
+      "target": "easimon/maximize-build-space@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oneflow-nightly.yml",
+      "source_repo": "Oneflow-Inc/docker-images",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oneflow-nightly.yml",
+      "source_repo": "Oneflow-Inc/docker-images",
+      "target": "aliyun/acr-login@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oneflow-nightly.yml",
+      "source_repo": "Oneflow-Inc/docker-images",
+      "target": "docker/login-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oneflow-nightly.yml",
+      "source_repo": "Oneflow-Inc/docker-images",
+      "target": "docker/build-push-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/oneflow-nightly.yml",
+      "source_repo": "Oneflow-Inc/docker-images",
+      "target": "Build oneflow-nightly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/openvino.yml",
+      "source_repo": "Oneflow-Inc/docker-images",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/openvino.yml",
+      "source_repo": "Oneflow-Inc/docker-images",
+      "target": "aliyun/acr-login@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/openvino.yml",
+      "source_repo": "Oneflow-Inc/docker-images",
+      "target": "docker/login-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/openvino.yml",
+      "source_repo": "Oneflow-Inc/docker-images",
+      "target": "docker/setup-buildx-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/openvino.yml",
+      "source_repo": "Oneflow-Inc/docker-images",
+      "target": "docker/build-push-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/openvino.yml",
+      "source_repo": "Oneflow-Inc/docker-images",
+      "target": "Build OPENVINO dev image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/serving.yml",
+      "source_repo": "Oneflow-Inc/docker-images",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/serving.yml",
+      "source_repo": "Oneflow-Inc/docker-images",
+      "target": "aliyun/acr-login@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/serving.yml",
+      "source_repo": "Oneflow-Inc/docker-images",
+      "target": "Build serving",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-with-pytorch.yml",
+      "source_repo": "Oneflow-Inc/docker-images",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-with-pytorch.yml",
+      "source_repo": "Oneflow-Inc/docker-images",
+      "target": "aliyun/acr-login@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-with-pytorch.yml",
+      "source_repo": "Oneflow-Inc/docker-images",
+      "target": "docker/login-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-with-pytorch.yml",
+      "source_repo": "Oneflow-Inc/docker-images",
+      "target": "docker/build-push-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-with-pytorch.yml",
+      "source_repo": "Oneflow-Inc/docker-images",
+      "target": "Build test-with-pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-with-tf.yml",
+      "source_repo": "Oneflow-Inc/docker-images",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-with-tf.yml",
+      "source_repo": "Oneflow-Inc/docker-images",
+      "target": "aliyun/acr-login@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-with-tf.yml",
+      "source_repo": "Oneflow-Inc/docker-images",
+      "target": "Build test-with-tf",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T12:45:20.475770+00:00",
+  "source_repo": "Oneflow-Inc/docker-images"
+}

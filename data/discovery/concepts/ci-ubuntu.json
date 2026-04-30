@@ -19,12 +19,66 @@
       "source_repo": "andreasdr/tdme2",
       "status": "candidate-context",
       "text": "CI Ubuntu"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "andreasdr/a-gui",
+      "status": "candidate-context",
+      "text": "A-GUI - C++ based graphical user interface for games"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andreasdr/a-gui",
+      "status": "candidate-context",
+      "text": "CI Ubuntu"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "andreasdr/minitscript",
+      "status": "candidate-context",
+      "text": "MinitScript - The mini C++ transpileable scripting language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andreasdr/minitscript",
+      "status": "candidate-context",
+      "text": "CI Ubuntu"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "andreasdr/yannet",
+      "status": "candidate-context",
+      "text": "Yannet - C++ network library for games"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andreasdr/yannet",
+      "status": "candidate-context",
+      "text": "CI Ubuntu"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "andreasdr/tdme2",
+      "status": "candidate",
+      "text": "CI Ubuntu"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andreasdr/a-gui",
+      "status": "candidate",
+      "text": "CI Ubuntu"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andreasdr/minitscript",
+      "status": "candidate",
+      "text": "CI Ubuntu"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andreasdr/yannet",
       "status": "candidate",
       "text": "CI Ubuntu"
     }
@@ -76,11 +130,29 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/nix.yml",
       "source_repo": "andreasdr/tdme2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/nix.yml",
+      "source_repo": "andreasdr/a-gui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/nix.yml",
+      "source_repo": "andreasdr/minitscript"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/nix.yml",
+      "source_repo": "andreasdr/yannet"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

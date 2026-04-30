@@ -3269,6 +3269,354 @@
       "source_repo": "aldernero/sketchy",
       "status": "candidate-context",
       "text": "![sketchy_logo](assets/images/logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JupiterRider/ffi",
+      "status": "candidate-context",
+      "text": "A purego binding for libffi."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JupiterRider/ffi",
+      "status": "candidate-context",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/jupiterrider/ffi.svg)](https://pkg.go.dev/github.com/jupiterrider/ffi)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "extism/go-pdk",
+      "status": "candidate-context",
+      "text": "Extism Plug-in Development Kit (PDK) for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "extism/go-pdk",
+      "status": "candidate-context",
+      "text": "This library can be used to write"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DATA-DOG/go-txdb",
+      "status": "candidate-context",
+      "text": "Immutable transaction isolated sql driver for golang"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DATA-DOG/go-txdb",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/DATA-DOG/go-txdb.svg?branch=master)](https://travis-ci.org/DATA-DOG/go-txdb)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "onsi/ginkgo",
+      "status": "candidate-context",
+      "text": "A Modern Testing Framework for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "onsi/ginkgo",
+      "status": "candidate-context",
+      "text": "![Ginkgo](https://onsi.github.io/ginkgo/images/ginkgo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudfoundry/bbl-state-resource",
+      "status": "candidate-context",
+      "text": "a concourse resource for manipulating bbl states"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/bbl-state-resource",
+      "status": "candidate-context",
+      "text": "This is a concourse resource for provisioning bosh directors and using [bbl](https://github.com/cloudfoundry/bosh-bootloader) to manipulate cloud-stored bbl-states."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mattn/efm-langserver",
+      "status": "candidate-context",
+      "text": "General purpose Language Server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mattn/efm-langserver",
+      "status": "candidate-context",
+      "text": "[![Actions Status](https://github.com/mattn/efm-langserver/workflows/CI/badge.svg)](https://github.com/mattn/efm-langserver/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stretchr/testify",
+      "status": "candidate-context",
+      "text": "A toolkit with common assertions and mocks that plays nicely with the standard library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stretchr/testify",
+      "status": "candidate-context",
+      "text": "Testify - Thou Shalt Write Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "theupdateframework/go-tuf",
+      "status": "candidate-context",
+      "text": "Go implementation of The Update Framework (TUF)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "theupdateframework/go-tuf",
+      "status": "candidate-context",
+      "text": "![GitHub Workflow Status (with branch)](https://img.shields.io/github/actions/workflow/status/theupdateframework/go-tuf/ci.yml?branch=master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dop251/goja",
+      "status": "candidate-context",
+      "text": "ECMAScript/JavaScript engine in pure Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dop251/goja",
+      "status": "candidate-context",
+      "text": "goja"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/rocketmq-clients",
+      "status": "candidate-context",
+      "text": "RocketMQ Clients - Collection of Client Bindings for Apache RocketMQ"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/rocketmq-clients",
+      "status": "candidate-context",
+      "text": "[![License][license-image]][license-url] [![Build][build-image]][build-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tidwall/gjson",
+      "status": "candidate-context",
+      "text": "Get JSON values quickly - JSON parser for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tidwall/gjson",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "panjf2000/gnet",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 gnet is a high-performance, lightweight, non-blocking, event-driven networking framework written in pure Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "panjf2000/gnet",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "qri-io/dataset",
+      "status": "candidate-context",
+      "text": "qri dataset definition"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qri-io/dataset",
+      "status": "candidate-context",
+      "text": "module github.com/qri-io/dataset go 1.15 require ( github.com/360EntSecGroup-Skylar/excelize v1.4.1 github.com/axiomhq/hyperloglog v0.0.0-20191112132149-a4c4c47bc57f github.com/dgryski/go-sip13 v0.0.0-20200911182023-62edffca9245 // indirect github.com/dgryski/go-topk v0.0.0-2019\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "qri-io/qri",
+      "status": "candidate-context",
+      "text": "you're invited to a data party!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qri-io/qri",
+      "status": "candidate-context",
+      "text": "[![Qri](https://img.shields.io/badge/made%20by-qri-magenta.svg?style=flat-square)](https://qri.io) [![GoDoc](https://godoc.org/github.com/qri-io/qri?status.svg)](http://godoc.org/github.com/qri-io/qri) [![License](https://img.shields.io/github/license/qri-io/qri.svg?style=flat-s\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "confluentinc/confluent-kafka-go",
+      "status": "candidate-context",
+      "text": "Confluent's Apache Kafka Golang client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "confluentinc/confluent-kafka-go",
+      "status": "candidate-context",
+      "text": "Confluent's Golang Client for Apache Kafka\u00ae"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "quic-go/quic-go",
+      "status": "candidate-context",
+      "text": "A production-ready QUIC implementation in pure Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quic-go/quic-go",
+      "status": "candidate-context",
+      "text": "<div align=\"center\" style=\"margin-bottom: 15px;\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cjbassi/gotop",
+      "status": "candidate-context",
+      "text": "A terminal based graphical activity monitor inspired by gtop and vtop"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cjbassi/gotop",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "trknhr/2048-go",
+      "status": "candidate-context",
+      "text": "This is 2048 working on CLI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trknhr/2048-go",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/1984weed/2048-go.svg?branch=master)](https://travis-ci.org/1984weed/2048-go)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DyegoCosta/snake-game",
+      "status": "candidate-context",
+      "text": "Terminal-based Snake game"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DyegoCosta/snake-game",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/DyegoCosta/snake-game.svg?branch=master)](https://travis-ci.org/DyegoCosta/snake-game)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "golang-jwt/jwt",
+      "status": "candidate-context",
+      "text": "Go implementation of JSON Web Tokens (JWT)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "golang-jwt/jwt",
+      "status": "candidate-context",
+      "text": "[![build](https://github.com/golang-jwt/jwt/actions/workflows/build.yml/badge.svg)](https://github.com/golang-jwt/jwt/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Masterminds/semver",
+      "status": "candidate-context",
+      "text": "Work with Semantic Versions in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Masterminds/semver",
+      "status": "candidate-context",
+      "text": "The `semver` package provides the ability to work with [Semantic Versions](http://semver.org) in Go. Specifically it provides the ability to:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Masterminds/vcs",
+      "status": "candidate-context",
+      "text": "VCS Repo management through a common interface in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Masterminds/vcs",
+      "status": "candidate-context",
+      "text": "Manage repos in varying version control systems with ease through a common"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vulkan-go/asche",
+      "status": "candidate-context",
+      "text": "Vulkan API higher-level framework and utils for Go programming language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vulkan-go/asche",
+      "status": "candidate-context",
+      "text": "<img src=\"/docs/asche-logo.png\" width=\"300\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vulkan-go/demos",
+      "status": "candidate-context",
+      "text": "Vulkan API crossplatform demos in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vulkan-go/demos",
+      "status": "candidate-context",
+      "text": "- vulcaninfo"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "evilmartians/lefthook",
+      "status": "candidate-context",
+      "text": "Fast and powerful Git hooks manager for any type of projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evilmartians/lefthook",
+      "status": "candidate-context",
+      "text": "![Build Status](https://github.com/evilmartians/lefthook/actions/workflows/test.yml/badge.svg?branch=master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "deven96/ahnlich",
+      "status": "candidate-context",
+      "text": "Suite of tools containing an in-memory vector datastore and AI proxy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deven96/ahnlich",
+      "status": "candidate-context",
+      "text": "<p align=\"left\"><img src=\"assets/logo.jpg\" alt=\"ahnlich\" height=\"120px\"></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hazelcast/hazelcast-go-client",
+      "status": "candidate-context",
+      "text": "Hazelcast Go Client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hazelcast/hazelcast-go-client",
+      "status": "candidate-context",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/hazelcast/hazelcast-go-client.svg)](https://pkg.go.dev/github.com/hazelcast/hazelcast-go-client)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rclone/rclone",
+      "status": "candidate-context",
+      "text": "\"rsync for cloud storage\" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Azure Blob, Azure Files, Yandex Files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rclone/rclone",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable-next-line first-line-heading no-inline-html -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chromedp/chromedp",
+      "status": "candidate-context",
+      "text": "A faster, simpler way to drive browsers supporting the Chrome DevTools Protocol."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chromedp/chromedp",
+      "status": "candidate-context",
+      "text": "Package `chromedp` is a faster, simpler way to drive browsers supporting the"
     }
   ],
   "candidate_glosses": [
@@ -4909,6 +5257,180 @@
       "source_repo": "aldernero/sketchy",
       "status": "candidate",
       "text": "![sketchy_logo](assets/images/logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JupiterRider/ffi",
+      "status": "candidate",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/jupiterrider/ffi.svg)](https://pkg.go.dev/github.com/jupiterrider/ffi)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "extism/go-pdk",
+      "status": "candidate",
+      "text": "This library can be used to write"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DATA-DOG/go-txdb",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/DATA-DOG/go-txdb.svg?branch=master)](https://travis-ci.org/DATA-DOG/go-txdb)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "onsi/ginkgo",
+      "status": "candidate",
+      "text": "![Ginkgo](https://onsi.github.io/ginkgo/images/ginkgo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/bbl-state-resource",
+      "status": "candidate",
+      "text": "This is a concourse resource for provisioning bosh directors and using [bbl](https://github.com/cloudfoundry/bosh-bootloader) to manipulate cloud-stored bbl-states."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mattn/efm-langserver",
+      "status": "candidate",
+      "text": "[![Actions Status](https://github.com/mattn/efm-langserver/workflows/CI/badge.svg)](https://github.com/mattn/efm-langserver/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stretchr/testify",
+      "status": "candidate",
+      "text": "Testify - Thou Shalt Write Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "theupdateframework/go-tuf",
+      "status": "candidate",
+      "text": "![GitHub Workflow Status (with branch)](https://img.shields.io/github/actions/workflow/status/theupdateframework/go-tuf/ci.yml?branch=master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dop251/goja",
+      "status": "candidate",
+      "text": "goja"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/rocketmq-clients",
+      "status": "candidate",
+      "text": "[![License][license-image]][license-url] [![Build][build-image]][build-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tidwall/gjson",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "panjf2000/gnet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qri-io/dataset",
+      "status": "candidate",
+      "text": "module github.com/qri-io/dataset go 1.15 require ( github.com/360EntSecGroup-Skylar/excelize v1.4.1 github.com/axiomhq/hyperloglog v0.0.0-20191112132149-a4c4c47bc57f github.com/dgryski/go-sip13 v0.0.0-20200911182023-62edffca9245 // indirect github.com/dgryski/go-topk v0.0.0-2019\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qri-io/qri",
+      "status": "candidate",
+      "text": "[![Qri](https://img.shields.io/badge/made%20by-qri-magenta.svg?style=flat-square)](https://qri.io) [![GoDoc](https://godoc.org/github.com/qri-io/qri?status.svg)](http://godoc.org/github.com/qri-io/qri) [![License](https://img.shields.io/github/license/qri-io/qri.svg?style=flat-s\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "confluentinc/confluent-kafka-go",
+      "status": "candidate",
+      "text": "Confluent's Golang Client for Apache Kafka\u00ae"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quic-go/quic-go",
+      "status": "candidate",
+      "text": "<div align=\"center\" style=\"margin-bottom: 15px;\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cjbassi/gotop",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trknhr/2048-go",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/1984weed/2048-go.svg?branch=master)](https://travis-ci.org/1984weed/2048-go)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DyegoCosta/snake-game",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/DyegoCosta/snake-game.svg?branch=master)](https://travis-ci.org/DyegoCosta/snake-game)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "golang-jwt/jwt",
+      "status": "candidate",
+      "text": "[![build](https://github.com/golang-jwt/jwt/actions/workflows/build.yml/badge.svg)](https://github.com/golang-jwt/jwt/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Masterminds/semver",
+      "status": "candidate",
+      "text": "The `semver` package provides the ability to work with [Semantic Versions](http://semver.org) in Go. Specifically it provides the ability to:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Masterminds/vcs",
+      "status": "candidate",
+      "text": "Manage repos in varying version control systems with ease through a common"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vulkan-go/asche",
+      "status": "candidate",
+      "text": "<img src=\"/docs/asche-logo.png\" width=\"300\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vulkan-go/demos",
+      "status": "candidate",
+      "text": "- vulcaninfo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evilmartians/lefthook",
+      "status": "candidate",
+      "text": "![Build Status](https://github.com/evilmartians/lefthook/actions/workflows/test.yml/badge.svg?branch=master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deven96/ahnlich",
+      "status": "candidate",
+      "text": "<p align=\"left\"><img src=\"assets/logo.jpg\" alt=\"ahnlich\" height=\"120px\"></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hazelcast/hazelcast-go-client",
+      "status": "candidate",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/hazelcast/hazelcast-go-client.svg)](https://pkg.go.dev/github.com/hazelcast/hazelcast-go-client)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rclone/rclone",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable-next-line first-line-heading no-inline-html -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chromedp/chromedp",
+      "status": "candidate",
+      "text": "Package `chromedp` is a faster, simpler way to drive browsers supporting the"
     }
   ],
   "candidate_related_terms": [],
@@ -6824,11 +7346,245 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "aldernero/sketchy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ollama/ollama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "JupiterRider/ffi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "googleapis/google-cloud-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "extism/go-pdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "expr-lang/expr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "DATA-DOG/go-txdb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "onsi/ginkgo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "cloudfoundry/bbl-state-resource"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "mattn/efm-langserver"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "stretchr/testify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "theupdateframework/go-tuf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "dop251/goja"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "apache/rocketmq-clients"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "tidwall/gjson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "panjf2000/gnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-fasthttp-auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "qri-io/dataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "qri-io/qri"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "confluentinc/confluent-kafka-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "quic-go/quic-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "cjbassi/gotop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "trknhr/2048-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "DyegoCosta/snake-game"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "golang-jwt/jwt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "redis/go-redis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Masterminds/semver"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Masterminds/vcs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "moby/moby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "bazel-contrib/rules_go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "vulkan-go/asche"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "vulkan-go/demos"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "evilmartians/lefthook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "deven96/ahnlich"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast-go-client"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "rclone/rclone"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "chromedp/chromedp"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

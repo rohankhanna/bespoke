@@ -19,6 +19,18 @@
       "source_repo": "apache/ignite-website",
       "status": "candidate-context",
       "text": "This repository hosts the source code of the Apache Ignite website deployed at https://ignite.apache.org."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/ignite",
+      "status": "candidate-context",
+      "text": "Apache Ignite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/ignite",
+      "status": "candidate-context",
+      "text": "<a href=\"https://ignite.apache.org/\"><img src=\"https://github.com/apache/ignite-website/blob/master/assets/images/apache_ignite_logo.svg\" hspace=\"20\"/></a>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "apache/ignite-website",
       "status": "candidate",
       "text": "This repository hosts the source code of the Apache Ignite website deployed at https://ignite.apache.org."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/ignite",
+      "status": "candidate",
+      "text": "<a href=\"https://ignite.apache.org/\"><img src=\"https://github.com/apache/ignite-website/blob/master/assets/images/apache_ignite_logo.svg\" hspace=\"20\"/></a>"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "apache/ignite-website"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "apache/ignite"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "HACS gives you a powerful UI to handle downloads of all your custom needs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "_Manage (Install, track, upgrade) and discover custom elements for Home Assistant directly from the UI._"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "_Manage (Install, track, upgrade) and discover custom elements for Home Assistant directly from the UI._"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40030942,
+      "status": "candidate",
+      "text": "integrating"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40030556,
+      "status": "candidate",
+      "text": "consolidation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40014554,
+      "status": "candidate",
+      "text": "desegregation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30031099,
+      "status": "candidate",
+      "text": "integrate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30030749,
+      "status": "candidate",
+      "text": "convergence"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "integration",
+      "sense_id": "integration#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8025,
+      "status": "candidate",
+      "text": "integrating"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "consolidation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "desegregation"
+    }
+  ],
+  "concept_id": "integration",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "integration",
+  "observation_id": "206c86b2ce17e611",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "integration",
+  "source_context_snippet": "_Manage (Install, track, upgrade) and discover custom elements for Home Assistant directly from the UI._",
+  "source_file": null,
+  "source_repo": "hacs/integration",
+  "source_repo_description": "HACS gives you a powerful UI to handle downloads of all your custom needs."
+}

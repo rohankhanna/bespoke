@@ -205,6 +205,30 @@
       "source_repo": "cargo-bins/cargo-binstall",
       "status": "candidate-context",
       "text": "Release-plz"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cachix/iocraft",
+      "status": "candidate-context",
+      "text": "A Rust crate for beautiful, artisanally crafted CLIs, TUIs, and text-based IO."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cachix/iocraft",
+      "status": "candidate-context",
+      "text": "Release-plz"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zip-rs/zip2",
+      "status": "candidate-context",
+      "text": "Zip implementation in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zip-rs/zip2",
+      "status": "candidate-context",
+      "text": "Release-plz"
     }
   ],
   "candidate_glosses": [
@@ -307,6 +331,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "cargo-bins/cargo-binstall",
+      "status": "candidate",
+      "text": "Release-plz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cachix/iocraft",
+      "status": "candidate",
+      "text": "Release-plz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zip-rs/zip2",
       "status": "candidate",
       "text": "Release-plz"
     }
@@ -460,11 +496,35 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/release-plz.yml",
       "source_repo": "cargo-bins/cargo-binstall"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "ratatui/ratatui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/release-plz.yaml",
+      "source_repo": "cachix/iocraft"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "cargo-bins/cargo-quickinstall"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "zip-rs/zip2"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

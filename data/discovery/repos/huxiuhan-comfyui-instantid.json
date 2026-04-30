@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "huxiuhan/ComfyUI-InstantID",
+      "target": "instantid/instantid",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:08:36.102680+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6119
+    },
+    {
+      "path": "requirements.txt",
+      "size": 100
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Thin Custom Node wrapper for InstantID in ComfyUI.",
+    "fork": true,
+    "full_name": "huxiuhan/ComfyUI-InstantID",
+    "html_url": "https://github.com/huxiuhan/ComfyUI-InstantID",
+    "language": "Python",
+    "pushed_at": "2024-07-18T04:12:50Z",
+    "stargazers_count": 223,
+    "topics": [],
+    "updated_at": "2025-10-16T04:12:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "instantid/instantid",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

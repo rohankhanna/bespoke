@@ -32,6 +32,30 @@
       "source_repo": "cjkreklow/t38c",
       "status": "candidate-context",
       "text": "Release on Tag"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-openapi/strfmt",
+      "status": "candidate-context",
+      "text": "openapi toolkit common string formats"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-openapi/strfmt",
+      "status": "candidate-context",
+      "text": "Release on tag"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-openapi/swag",
+      "status": "candidate-context",
+      "text": "goodie bag in use in the go-openapi projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-openapi/swag",
+      "status": "candidate-context",
+      "text": "Release on tag"
     }
   ],
   "candidate_glosses": [
@@ -46,6 +70,18 @@
       "source_repo": "cjkreklow/t38c",
       "status": "candidate",
       "text": "Release on Tag"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-openapi/strfmt",
+      "status": "candidate",
+      "text": "Release on tag"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-openapi/swag",
+      "status": "candidate",
+      "text": "Release on tag"
     }
   ],
   "candidate_related_terms": [
@@ -101,11 +137,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "cjkreklow/t38c"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/tag-release.yml",
+      "source_repo": "go-openapi/strfmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/tag-release.yml",
+      "source_repo": "go-openapi/swag"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

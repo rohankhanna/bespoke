@@ -48,7 +48,7 @@
   "normalized_form": "openai-functions",
   "observation_id": "fc4e9d6849d67872",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
   "observed_text": "openai-functions",
   "source_context_snippet": "Get reliable JSON from any LLM. Built on Pydantic for validation, type safety, and IDE support.",
   "source_file": null,

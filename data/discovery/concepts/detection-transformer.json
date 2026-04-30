@@ -43,6 +43,18 @@
       "source_repo": "wjun0830/QD-DETR",
       "status": "candidate-context",
       "text": "by"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Intellindust-AI-Lab/DEIMv2",
+      "status": "candidate-context",
+      "text": "[DEIMv2] Real Time Object Detection Meets DINOv3 "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Intellindust-AI-Lab/DEIMv2",
+      "status": "candidate-context",
+      "text": "<h2 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "wjun0830/QD-DETR",
       "status": "candidate",
       "text": "by"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Intellindust-AI-Lab/DEIMv2",
+      "status": "candidate",
+      "text": "<h2 align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "wjun0830/QD-DETR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Intellindust-AI-Lab/DEIMv2"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

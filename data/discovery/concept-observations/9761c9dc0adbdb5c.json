@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Installs Ruby, JRuby, TruffleRuby, or mruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Installs [Ruby], [JRuby], [TruffleRuby] (native / GraalVM), or [mruby]."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Installs [Ruby], [JRuby], [TruffleRuby] (native / GraalVM), or [mruby]."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31525,
+      "status": "candidate",
+      "text": "gemstones"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31524,
+      "status": "candidate",
+      "text": "sapphires"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31523,
+      "status": "candidate",
+      "text": "diamonds"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31522,
+      "status": "candidate",
+      "text": "emeralds"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31521,
+      "status": "candidate",
+      "text": "jadeite"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rubies",
+      "sense_id": "rubies#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "rubies",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "rubies",
+  "observation_id": "9761c9dc0adbdb5c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "rubies",
+  "source_context_snippet": "Installs [Ruby], [JRuby], [TruffleRuby] (native / GraalVM), or [mruby].",
+  "source_file": null,
+  "source_repo": "postmodern/ruby-install",
+  "source_repo_description": "Installs Ruby, JRuby, TruffleRuby, or mruby"
+}

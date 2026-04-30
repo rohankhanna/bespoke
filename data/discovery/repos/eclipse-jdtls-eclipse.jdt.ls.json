@@ -67,7 +67,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "eclipse-jdtls/eclipse.jdt.ls",
-      "target": "mspaintide/mspaintide",
+      "target": "neoclide/coc-java",
       "target_type": "repository"
     },
     {
@@ -176,7 +176,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T09:12:56.880842+00:00",
+  "fetched_at": "2026-04-30T14:06:33.782320+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -235,7 +235,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "mspaintide/mspaintide",
+      "full_name": "neoclide/coc-java",
       "source_file": "README.md"
     }
   ],

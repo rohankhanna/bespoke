@@ -312,6 +312,18 @@
       "source_repo": "KnotUntied/scoop-fonts",
       "status": "candidate-context",
       "text": "Pull Requests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amannn/action-semantic-pull-request",
+      "status": "candidate-context",
+      "text": "A GitHub Action that ensures that your PR title matches the Conventional Commits spec"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amannn/action-semantic-pull-request",
+      "status": "candidate-context",
+      "text": "This is a GitHub Action that ensures that your pull request titles match the [Conventional Commits spec](https://www.conventionalcommits.org/). Typically, this is used in combination with a tool like [semantic-release](https://github.com/semantic-release/semantic-release) to aut\u2026"
     }
   ],
   "candidate_glosses": [
@@ -464,6 +476,12 @@
       "source_repo": "KnotUntied/scoop-fonts",
       "status": "candidate",
       "text": "Pull Requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amannn/action-semantic-pull-request",
+      "status": "candidate",
+      "text": "This is a GitHub Action that ensures that your pull request titles match the [Conventional Commits spec](https://www.conventionalcommits.org/). Typically, this is used in combination with a tool like [semantic-release](https://github.com/semantic-release/semantic-release) to aut\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -741,11 +759,35 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/pr.yml",
       "source_repo": "ConsenSys-archive/ganache"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "shovel-org/Windows-Sysinternals-Bucket"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/pull-requests.yml",
+      "source_repo": "lint-staged/lint-staged"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "ConsenSys-archive/ganache"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "amannn/action-semantic-pull-request"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

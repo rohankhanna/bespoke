@@ -1,0 +1,536 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@4f9cc6602d3f66b9c108549d475ec49e8ef4d45e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engine-container.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engine-container.yml"
+    },
+    {
+      "component": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engine-container.yml"
+    },
+    {
+      "component": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engine-container.yml"
+    },
+    {
+      "component": "docker/build-push-action@ca052bb54ab0790a636c9b5f226502c73d547a25",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engine-container.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engine-container.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engine-container.yml"
+    },
+    {
+      "component": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engine-container.yml"
+    },
+    {
+      "component": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engine-container.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engine.yml"
+    },
+    {
+      "component": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engine.yml"
+    },
+    {
+      "component": "actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engine.yml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@0b201ec74fa43914dc39ae48a89fd1d8cb592756",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engine.yml"
+    },
+    {
+      "component": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engine.yml"
+    },
+    {
+      "component": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engine.yml"
+    },
+    {
+      "component": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engine.yml"
+    },
+    {
+      "component": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engine.yml"
+    },
+    {
+      "component": "actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engine.yml"
+    },
+    {
+      "component": "actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engine.yml"
+    },
+    {
+      "component": "actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engine.yml"
+    },
+    {
+      "component": "actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engine.yml"
+    },
+    {
+      "component": "actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engine.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engine.yml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engine.yml"
+    },
+    {
+      "component": "ncipollo/release-action@339a81892b84b4eeb0f6e744e4574d79d0d9b8dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engine.yml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engine.yml"
+    },
+    {
+      "component": "ncipollo/release-action@339a81892b84b4eeb0f6e744e4574d79d0d9b8dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engine.yml"
+    },
+    {
+      "component": "actions/upload-artifact/merge@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engine.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engine.yml"
+    },
+    {
+      "component": "actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-latest-dev.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-latest-engine-container.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-latest-engine-container.yml"
+    },
+    {
+      "component": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-latest-engine-container.yml"
+    },
+    {
+      "component": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-latest-engine-container.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-engine-container.yml"
+    },
+    {
+      "component": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-engine-container.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-engine-package.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "VOICEVOX/voicevox_engine",
+      "target": "voicevox/voicevox",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "VOICEVOX/voicevox_engine",
+      "target": "voicevox/voicevox_core",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "VOICEVOX/voicevox_engine",
+      "target": "voicevox/pyopenjtalk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "VOICEVOX/voicevox_engine",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "VOICEVOX/voicevox_engine",
+      "target": "peaceiris/actions-gh-pages@4f9cc6602d3f66b9c108549d475ec49e8ef4d45e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "VOICEVOX/voicevox_engine",
+      "target": "upload-docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engine-container.yml",
+      "source_repo": "VOICEVOX/voicevox_engine",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engine-container.yml",
+      "source_repo": "VOICEVOX/voicevox_engine",
+      "target": "docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engine-container.yml",
+      "source_repo": "VOICEVOX/voicevox_engine",
+      "target": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engine-container.yml",
+      "source_repo": "VOICEVOX/voicevox_engine",
+      "target": "docker/build-push-action@ca052bb54ab0790a636c9b5f226502c73d547a25",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-engine-container.yml",
+      "source_repo": "VOICEVOX/voicevox_engine",
+      "target": "build-docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engine.yml",
+      "source_repo": "VOICEVOX/voicevox_engine",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engine.yml",
+      "source_repo": "VOICEVOX/voicevox_engine",
+      "target": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engine.yml",
+      "source_repo": "VOICEVOX/voicevox_engine",
+      "target": "actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engine.yml",
+      "source_repo": "VOICEVOX/voicevox_engine",
+      "target": "ilammy/msvc-dev-cmd@0b201ec74fa43914dc39ae48a89fd1d8cb592756",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engine.yml",
+      "source_repo": "VOICEVOX/voicevox_engine",
+      "target": "actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engine.yml",
+      "source_repo": "VOICEVOX/voicevox_engine",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engine.yml",
+      "source_repo": "VOICEVOX/voicevox_engine",
+      "target": "ncipollo/release-action@339a81892b84b4eeb0f6e744e4574d79d0d9b8dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engine.yml",
+      "source_repo": "VOICEVOX/voicevox_engine",
+      "target": "actions/upload-artifact/merge@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-engine.yml",
+      "source_repo": "VOICEVOX/voicevox_engine",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-latest-dev.yml",
+      "source_repo": "VOICEVOX/voicevox_engine",
+      "target": "actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-latest-dev.yml",
+      "source_repo": "VOICEVOX/voicevox_engine",
+      "target": "Release latest dev build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-latest-engine-container.yml",
+      "source_repo": "VOICEVOX/voicevox_engine",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-latest-engine-container.yml",
+      "source_repo": "VOICEVOX/voicevox_engine",
+      "target": "docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-latest-engine-container.yml",
+      "source_repo": "VOICEVOX/voicevox_engine",
+      "target": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-latest-engine-container.yml",
+      "source_repo": "VOICEVOX/voicevox_engine",
+      "target": "Release latest engine container",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-engine-container.yml",
+      "source_repo": "VOICEVOX/voicevox_engine",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-engine-container.yml",
+      "source_repo": "VOICEVOX/voicevox_engine",
+      "target": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-engine-container.yml",
+      "source_repo": "VOICEVOX/voicevox_engine",
+      "target": "Test Docker Release Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-engine-package.yml",
+      "source_repo": "VOICEVOX/voicevox_engine",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-engine-package.yml",
+      "source_repo": "VOICEVOX/voicevox_engine",
+      "target": "Test Release Build",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:11:18.867770+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20416
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2341
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2258
+    },
+    {
+      "path": ".github/workflows/build-docs.yml",
+      "size": 1061
+    },
+    {
+      "path": ".github/workflows/build-engine-container.yml",
+      "size": 11085
+    },
+    {
+      "path": ".github/workflows/build-engine.yml",
+      "size": 23350
+    },
+    {
+      "path": ".github/workflows/build-latest-dev.yml",
+      "size": 1379
+    },
+    {
+      "path": ".github/workflows/build-latest-engine-container.yml",
+      "size": 5372
+    },
+    {
+      "path": ".github/workflows/test-engine-container.yml",
+      "size": 3005
+    },
+    {
+      "path": ".github/workflows/test-engine-package.yml",
+      "size": 2666
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u7121\u6599\u3067\u4f7f\u3048\u308b\u4e2d\u54c1\u8cea\u306a\u30c6\u30ad\u30b9\u30c8\u8aad\u307f\u4e0a\u3052\u30bd\u30d5\u30c8\u30a6\u30a7\u30a2\u3001VOICEVOX\u306e\u97f3\u58f0\u5408\u6210\u30a8\u30f3\u30b8\u30f3",
+    "fork": false,
+    "full_name": "VOICEVOX/voicevox_engine",
+    "html_url": "https://github.com/VOICEVOX/voicevox_engine",
+    "language": "Python",
+    "pushed_at": "2026-04-30T07:27:00Z",
+    "stargazers_count": 1680,
+    "topics": [],
+    "updated_at": "2026-04-29T01:00:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "voicevox/voicevox",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "voicevox/voicevox_core",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "voicevox/pyopenjtalk",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "upload-docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docs.yml",
+      "term": "upload-docs"
+    },
+    {
+      "context_snippet": "build-docker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-engine-container.yml",
+      "term": "build-docker"
+    },
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-engine.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "Release latest dev build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-latest-dev.yml",
+      "term": "Release latest dev build"
+    },
+    {
+      "context_snippet": "Release latest engine container",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-latest-engine-container.yml",
+      "term": "Release latest engine container"
+    },
+    {
+      "context_snippet": "Test Docker Release Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-engine-container.yml",
+      "term": "Test Docker Release Build"
+    },
+    {
+      "context_snippet": "Test Release Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-engine-package.yml",
+      "term": "Test Release Build"
+    }
+  ]
+}

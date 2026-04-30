@@ -67,6 +67,42 @@
       "source_repo": "sindresorhus/got",
       "status": "candidate-context",
       "text": "got \u2014 Human-friendly and powerful HTTP request library for Node.js"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sindresorhus/type-fest",
+      "status": "candidate-context",
+      "text": "A collection of essential TypeScript types"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/type-fest",
+      "status": "candidate-context",
+      "text": "type-fest \u2014 A collection of essential TypeScript types"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "imagemin/imagemin-gifsicle",
+      "status": "candidate-context",
+      "text": "Imagemin plugin for Gifsicle"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "imagemin/imagemin-gifsicle",
+      "status": "candidate-context",
+      "text": "imagemin-gifsicle \u2014 Imagemin plugin for Gifsicle"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sindresorhus/ky",
+      "status": "candidate-context",
+      "text": "\ud83c\udf33 Tiny & elegant JavaScript HTTP client based on the Fetch API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/ky",
+      "status": "candidate-context",
+      "text": "ky \u2014 Tiny and elegant HTTP client based on the Fetch API"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +135,24 @@
       "source_repo": "sindresorhus/got",
       "status": "candidate",
       "text": "got \u2014 Human-friendly and powerful HTTP request library for Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/type-fest",
+      "status": "candidate",
+      "text": "type-fest \u2014 A collection of essential TypeScript types"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "imagemin/imagemin-gifsicle",
+      "status": "candidate",
+      "text": "imagemin-gifsicle \u2014 Imagemin plugin for Gifsicle"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/ky",
+      "status": "candidate",
+      "text": "ky \u2014 Tiny and elegant HTTP client based on the Fetch API"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +190,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "sindresorhus/got"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "sindresorhus/type-fest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "imagemin/imagemin-gifsicle"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "sindresorhus/ky"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

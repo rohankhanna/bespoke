@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83c\udf33 Tiny & elegant JavaScript HTTP client based on the Fetch API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "ky \u2014 Tiny and elegant HTTP client based on the Fetch API"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "ky \u2014 Tiny and elegant HTTP client based on the Fetch API"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "npm-package",
+      "sense_id": "npm-package#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "npm-package",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "npm-package",
+  "observation_id": "b451024639dda55a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "npm-package",
+  "source_context_snippet": "ky \u2014 Tiny and elegant HTTP client based on the Fetch API",
+  "source_file": null,
+  "source_repo": "sindresorhus/ky",
+  "source_repo_description": "\ud83c\udf33 Tiny & elegant JavaScript HTTP client based on the Fetch API"
+}

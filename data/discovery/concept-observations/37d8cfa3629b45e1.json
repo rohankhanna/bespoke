@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[SIGGRAPH2022] Approximate Convex Decomposition for 3D Meshes with Collision-Aware Concavity and Tree Search"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[\\[project\\]](https://colin97.github.io/CoACD/) [\\[paper\\]](https://arxiv.org/pdf/2205.02961.pdf) [\\[video\\]](https://www.youtube.com/watch?v=r12O0z0723s)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[\\[project\\]](https://colin97.github.io/CoACD/) [\\[paper\\]](https://arxiv.org/pdf/2205.02961.pdf) [\\[video\\]](https://www.youtube.com/watch?v=r12O0z0723s)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "convex-decomposition",
+      "sense_id": "convex-decomposition#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "convex-decomposition",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "convex-decomposition",
+  "observation_id": "37d8cfa3629b45e1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "convex-decomposition",
+  "source_context_snippet": "[\\[project\\]](https://colin97.github.io/CoACD/) [\\[paper\\]](https://arxiv.org/pdf/2205.02961.pdf) [\\[video\\]](https://www.youtube.com/watch?v=r12O0z0723s)",
+  "source_file": null,
+  "source_repo": "SarahWeiii/CoACD",
+  "source_repo_description": "[SIGGRAPH2022] Approximate Convex Decomposition for 3D Meshes with Collision-Aware Concavity and Tree Search"
+}

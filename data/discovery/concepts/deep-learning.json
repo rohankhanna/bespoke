@@ -4621,6 +4621,480 @@
       "source_repo": "GeekDream-x/SemEval2022-Task8-TonyX",
       "status": "candidate-context",
       "text": "Here, we provide the implementation of our winning system in Semeval-2022 Task8 \u2014\u2014 Multilingual News Article Similarity. This is a competition about assessing the similarity of multilingual and crosslingual news articles which covers 18 language pairs."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Oneflow-Inc/libai",
+      "status": "candidate-context",
+      "text": "LiBai(\u674e\u767d): A Toolbox for Large-Scale Distributed Parallel Training"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Oneflow-Inc/libai",
+      "status": "candidate-context",
+      "text": "<!-- \u914d\u56fe -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CorentinJ/Real-Time-Voice-Cloning",
+      "status": "candidate-context",
+      "text": "Clone a voice in 5 seconds to generate arbitrary speech in real-time"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CorentinJ/Real-Time-Voice-Cloning",
+      "status": "candidate-context",
+      "text": "This repository is an implementation of [Transfer Learning from Speaker Verification to"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "smhassanerfani/atlantis",
+      "status": "candidate-context",
+      "text": "A Benchmark for Semantic Segmentation of Waterbody Images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smhassanerfani/atlantis",
+      "status": "candidate-context",
+      "text": "This is the repository for the ATLANTIS. All waterbody labels are comprehensively described in [ATLANTIS Wiki](https://github.com/smhassanerfani/atlantis/wiki). This dataset was developed in the [iWERS](http://ce.sc.edu/goharian/) lab at the University of South Carolina."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "john-rocky/CoreML-Models",
+      "status": "candidate-context",
+      "text": "Converted CoreML Model Zoo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "john-rocky/CoreML-Models",
+      "status": "candidate-context",
+      "text": "Converted Core ML Model Zoo."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LeelaChessZero/lc0",
+      "status": "candidate-context",
+      "text": "Open source neural network chess engine with GPU acceleration and broad hardware support."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LeelaChessZero/lc0",
+      "status": "candidate-context",
+      "text": "[![CircleCI](https://circleci.com/gh/LeelaChessZero/lc0.svg?style=shield)](https://circleci.com/gh/LeelaChessZero/lc0)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kobanium/TamaGo",
+      "status": "candidate-context",
+      "text": "Computer go engine using Monte-Carlo Tree Search written in Python3."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kobanium/TamaGo",
+      "status": "candidate-context",
+      "text": "TamaGo is a Go (Weiqi, Baduk) engine implemented in Python."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jiwidi/DeepSpeech-pytorch",
+      "status": "candidate-context",
+      "text": "Pytorch implementation for DeepSpeech 2.0"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jiwidi/DeepSpeech-pytorch",
+      "status": "candidate-context",
+      "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yeyupiaoling/MASR",
+      "status": "candidate-context",
+      "text": "Pytorch\u5b9e\u73b0\u7684\u6d41\u5f0f\u4e0e\u975e\u6d41\u5f0f\u7684\u81ea\u52a8\u8bed\u97f3\u8bc6\u522b\u6846\u67b6\uff0c\u540c\u65f6\u517c\u5bb9\u5728\u7ebf\u548c\u79bb\u7ebf\u8bc6\u522b\uff0c\u76ee\u524d\u652f\u6301Conformer\u3001Squeezeformer\u3001DeepSpeech2\u6a21\u578b\uff0c\u652f\u6301\u591a\u79cd\u6570\u636e\u589e\u5f3a\u65b9\u6cd5\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yeyupiaoling/MASR",
+      "status": "candidate-context",
+      "text": "![python version](https://img.shields.io/badge/python-3.11+-orange.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yeyupiaoling/PaddlePaddle-DeepSpeech",
+      "status": "candidate-context",
+      "text": "\u57fa\u4e8ePaddlePaddle\u5b9e\u73b0\u7684\u8bed\u97f3\u8bc6\u522b\uff0c\u4e2d\u6587\u8bed\u97f3\u8bc6\u522b\u3002\u9879\u76ee\u5b8c\u5584\uff0c\u8bc6\u522b\u6548\u679c\u597d\u3002\u652f\u6301Windows\uff0cLinux\u4e0b\u8bad\u7ec3\u548c\u9884\u6d4b\uff0c\u652f\u6301Nvidia Jetson\u5f00\u53d1\u677f\u9884\u6d4b\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yeyupiaoling/PaddlePaddle-DeepSpeech",
+      "status": "candidate-context",
+      "text": "![License](https://img.shields.io/badge/license-Apache%202-red.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVlabs/MUNIT",
+      "status": "candidate-context",
+      "text": "Multimodal Unsupervised Image-to-Image Translation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVlabs/MUNIT",
+      "status": "candidate-context",
+      "text": "**The code base is no longer maintained.**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Efficient-ML/Awesome-Model-Quantization",
+      "status": "candidate-context",
+      "text": "A list of papers, docs, codes about model quantization. This repo is aimed to provide the info for model quantization research, we are continuously improving the project. Welcome to PR the works (papers, repositories) that are missed by the repo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Efficient-ML/Awesome-Model-Quantization",
+      "status": "candidate-context",
+      "text": "This repo collects papers, documents, and codes about model quantization for anyone who wants to research it. We are continuously improving the project. Welcome to PR the works (papers, repositories) that the repo misses."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AmusementClub/vs-mlrt",
+      "status": "candidate-context",
+      "text": "Efficient CPU/GPU ML Runtimes for VapourSynth (with built-in support for waifu2x, DPIR, RealESRGANv2/v3, Real-CUGAN, RIFE, SCUNet, ArtCNN and more!)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AmusementClub/vs-mlrt",
+      "status": "candidate-context",
+      "text": "This project provides VapourSynth ML filter runtimes for a variety of platforms:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/Windows-Machine-Learning",
+      "status": "candidate-context",
+      "text": "Samples and Tools for Windows ML."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Windows-Machine-Learning",
+      "status": "candidate-context",
+      "text": "> \u26a0\ufe0f **IMPORTANT**<br/>For the latest documentation about Windows Machine Learning, see [What is Windows ML](/windows/ai/new-windows-ml/overview). That documentation describes APIs that are in the **Microsoft.Windows.AI.MachineLearning** namespace, which ships in the Windows App\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clearml/clearml-server",
+      "status": "candidate-context",
+      "text": "ClearML - Auto-Magical CI/CD to streamline your AI workload. Experiment Management, Data Management, Pipeline, Orchestration, Scheduling & Serving in one MLOps/LLMOps solution"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clearml/clearml-server",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clearml/clearml-pycharm-plugin",
+      "status": "candidate-context",
+      "text": "ClearML PyCharm Plugin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clearml/clearml-pycharm-plugin",
+      "status": "candidate-context",
+      "text": "[![GitHub license](https://img.shields.io/github/license/allegroai/clearml-pycharm-plugin.svg)](https://img.shields.io/github/license/allegroai/clearml-pycharm-plugin.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "patrick-kidger/diffrax",
+      "status": "candidate-context",
+      "text": "Numerical differential equation solvers in JAX. Autodifferentiable and GPU-capable. https://docs.kidger.site/diffrax/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "patrick-kidger/diffrax",
+      "status": "candidate-context",
+      "text": "<h1 align='center'>Diffrax</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "patrick-kidger/signatory",
+      "status": "candidate-context",
+      "text": "Differentiable computations of the signature and logsignature transforms, on both CPU and GPU. (ICLR 2021)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "patrick-kidger/signatory",
+      "status": "candidate-context",
+      "text": "|Signatory|"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cvg/Hierarchical-Localization",
+      "status": "candidate-context",
+      "text": "Visual localization made easy with hloc"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cvg/Hierarchical-Localization",
+      "status": "candidate-context",
+      "text": "This is `hloc`, a modular toolbox for state-of-the-art 6-DoF visual localization. It implements [Hierarchical Localization](https://arxiv.org/abs/1812.03506), leveraging image retrieval and feature matching, and is fast, accurate, and scalable. This codebase combines and makes e\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "skforecast/skforecast",
+      "status": "candidate-context",
+      "text": "Python library for time series forecasting using scikit-learn compatible models, statistical methods, and foundation models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "skforecast/skforecast",
+      "status": "candidate-context",
+      "text": "<h1 align=\"left\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BatsResearch/csp",
+      "status": "candidate-context",
+      "text": "Learning to compose soft prompts for compositional zero-shot learning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BatsResearch/csp",
+      "status": "candidate-context",
+      "text": "Compositional soft prompting (CSP), a parameter-efficient learning technique to improve the zero-shot compositionality of large-scale pretrained vision-language models (VLMs) without the overhead of fine-tuning the entire model."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chainer/chainercv",
+      "status": "candidate-context",
+      "text": "ChainerCV: a Library for Deep Learning in Computer Vision"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chainer/chainercv",
+      "status": "candidate-context",
+      "text": "[![](docs/images/logo.png)](http://chainercv.readthedocs.io/en/stable/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ViTAE-Transformer/P3M-Net",
+      "status": "candidate-context",
+      "text": "The official repo for [IJCV'23] \"Rethinking Portrait Matting with Privacy Preserving\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/P3M-Net",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Rethinking Portrait Matting with Privacy Preserving [IJCV-2023]</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ViTAE-Transformer/ViTAE-Transformer-Matting",
+      "status": "candidate-context",
+      "text": "A comprehensive list [AIM@IJCAI'21, P3M@MM'21, GFM@IJCV'22, RIM@CVPR'23, P3MNet@IJCV'23] of our research works related to image matting, including papers, codes, datasets, demos, and citations. Note: The repo for [IJCV'23] \"Rethinking Portrait Matting with Privacy Preserving\" has been moved to: https://github.com/ViTAE-Transformer/P3M-Net"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/ViTAE-Transformer-Matting",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Image Matting</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chaitjo/learning-tsp",
+      "status": "candidate-context",
+      "text": "Code for the paper 'Learning TSP Requires Rethinking Generalization' (CP 2021)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaitjo/learning-tsp",
+      "status": "candidate-context",
+      "text": "This repository contains code for the paper [**\"Learning TSP Requires Rethinking Generalization\"**](https://arxiv.org/abs/2006.07054) by Chaitanya K. Joshi, Quentin Cappart, Louis-Martin Rousseau, Thomas Laurent, accepted to the **27th International Conference on Principles and \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agrimgupta92/sgan",
+      "status": "candidate-context",
+      "text": "Code for \"Social GAN: Socially Acceptable Trajectories with Generative Adversarial Networks\", Gupta et al, CVPR 2018"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agrimgupta92/sgan",
+      "status": "candidate-context",
+      "text": "This is the code for the paper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HumanSignal/label-studio",
+      "status": "candidate-context",
+      "text": "Label Studio is a multi-type data labeling and annotation tool with standardized output format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HumanSignal/label-studio",
+      "status": "candidate-context",
+      "text": "<img src=\"https://user-images.githubusercontent.com/12534576/192582340-4c9e4401-1fe6-4dbb-95bb-fdbba5493f61.png\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CSAILVision/gandissect",
+      "status": "candidate-context",
+      "text": "Pytorch-based tools for visualizing and understanding the neurons of a GAN.  https://gandissect.csail.mit.edu/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CSAILVision/gandissect",
+      "status": "candidate-context",
+      "text": "[**Project**](https://gandissect.csail.mit.edu/) | [**Demo**](http://gandissect.res.ibm.com/ganpaint.html?project=churchoutdoor&layer=layer4) | [**Paper**](https://arxiv.org/pdf/1811.10597.pdf) | [**Video**](http://tiny.cc/gandissect) <br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ScanNet/ScanNet",
+      "status": "candidate-context",
+      "text": "ScanNet is an RGB-D video dataset containing 2.5 million views in more than 1500 scans, annotated with 3D camera poses, surface reconstructions, and instance-level semantic segmentations."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebookresearch/mmf",
+      "status": "candidate-context",
+      "text": "A modular framework for vision & language multimodal research from Facebook AI Research (FAIR)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookresearch/mmf",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zahraatashgahi/QuickSelection",
+      "status": "candidate-context",
+      "text": "[Machine Learning Journal (ECML-PKDD 2022 journal track)] Quick and Robust Feature Selection: the Strength of Energy-efficient Sparse Training for Autoencoders"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zahraatashgahi/QuickSelection",
+      "status": "candidate-context",
+      "text": "This repository contains code for the paper, Quick and Robust Feature Selection: the Strength of Energy-efficient Sparse Training for Autoencoders by Zahra Atashgahi, Ghada Sokar, Tim van der Lee, Elena Mocanu, Decebal Constantin Mocanu, Raymond Veldhuis, and Mykola Pechenizkiy.\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graphcore/examples",
+      "status": "candidate-context",
+      "text": "Example code and applications for machine learning on Graphcore IPUs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphcore/examples",
+      "status": "candidate-context",
+      "text": "This repository contains a catalogue of application examples that have been optimised to run on Graphcore IPUs for both training and inference. Access reproducible code for a wide range of popular models covering NLP, Computer Vision, Speech, Multimodal, GNNs, AI for Simulation,\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVlabs/FB-BEV",
+      "status": "candidate-context",
+      "text": "Official PyTorch implementation of FB-BEV & FB-OCC - Forward-backward view transformation for vision-centric autonomous driving perception"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVlabs/FB-BEV",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nerfstudio-project/nerfstudio",
+      "status": "candidate-context",
+      "text": "A collaboration friendly studio for NeRFs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nerfstudio-project/nerfstudio",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "isl-org/ZoeDepth",
+      "status": "candidate-context",
+      "text": "Metric depth estimation from a single image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isl-org/ZoeDepth",
+      "status": "candidate-context",
+      "text": "This project will no longer be maintained by Intel."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ArulselvanMadhavan/mini_dalle",
+      "status": "candidate-context",
+      "text": "mini-dalle in OCaml"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ArulselvanMadhavan/mini_dalle",
+      "status": "candidate-context",
+      "text": "numpy torch torchvision min_dalle"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shivammehta25/Matcha-TTS",
+      "status": "candidate-context",
+      "text": "[ICASSP 2024] \ud83c\udf75 Matcha-TTS: A fast TTS architecture with conditional flow matching"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shivammehta25/Matcha-TTS",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HikariTJU/LD",
+      "status": "candidate-context",
+      "text": "Localization Distillation for Object Detection (CVPR 2022, TPAMI 2023)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HikariTJU/LD",
+      "status": "candidate-context",
+      "text": "Analysis of LD in ZhiHu: [\u76ee\u6807\u68c0\u6d4b-\u5b9a\u4f4d\u84b8\u998f (LD, CVPR 2022)](https://zhuanlan.zhihu.com/p/474955539) and [\u76ee\u6807\u68c0\u6d4b-\u5b9a\u4f4d\u84b8\u998f\u7eed\u96c6\u2014\u2014logit\u84b8\u998f\u4e0efeature\u84b8\u998f\u4e4b\u4e89](https://zhuanlan.zhihu.com/p/498119752)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kymatio/kymatio",
+      "status": "candidate-context",
+      "text": "Wavelet scattering transforms in Python with GPU acceleration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kymatio/kymatio",
+      "status": "candidate-context",
+      "text": "Kymatio: Wavelet scattering in Python"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apple/ml-cvnets",
+      "status": "candidate-context",
+      "text": "CVNets: A library for training computer vision networks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/ml-cvnets",
+      "status": "candidate-context",
+      "text": "CVNets is a computer vision toolkit that allows researchers and engineers to train standard and novel mobile-"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "soubhiksanyal/RingNet",
+      "status": "candidate-context",
+      "text": "Learning to Regress 3D Face Shape and Expression from an Image without 3D Supervision"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "soubhiksanyal/RingNet",
+      "status": "candidate-context",
+      "text": "![alt text](https://github.com/soubhiksanyal/RingNet/blob/master/gif/celeba_reconstruction.gif?raw=true)"
     }
   ],
   "candidate_glosses": [
@@ -6933,6 +7407,246 @@
       "source_repo": "GeekDream-x/SemEval2022-Task8-TonyX",
       "status": "candidate",
       "text": "Here, we provide the implementation of our winning system in Semeval-2022 Task8 \u2014\u2014 Multilingual News Article Similarity. This is a competition about assessing the similarity of multilingual and crosslingual news articles which covers 18 language pairs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Oneflow-Inc/libai",
+      "status": "candidate",
+      "text": "<!-- \u914d\u56fe -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CorentinJ/Real-Time-Voice-Cloning",
+      "status": "candidate",
+      "text": "This repository is an implementation of [Transfer Learning from Speaker Verification to"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smhassanerfani/atlantis",
+      "status": "candidate",
+      "text": "This is the repository for the ATLANTIS. All waterbody labels are comprehensively described in [ATLANTIS Wiki](https://github.com/smhassanerfani/atlantis/wiki). This dataset was developed in the [iWERS](http://ce.sc.edu/goharian/) lab at the University of South Carolina."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "john-rocky/CoreML-Models",
+      "status": "candidate",
+      "text": "Converted Core ML Model Zoo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LeelaChessZero/lc0",
+      "status": "candidate",
+      "text": "[![CircleCI](https://circleci.com/gh/LeelaChessZero/lc0.svg?style=shield)](https://circleci.com/gh/LeelaChessZero/lc0)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kobanium/TamaGo",
+      "status": "candidate",
+      "text": "TamaGo is a Go (Weiqi, Baduk) engine implemented in Python."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jiwidi/DeepSpeech-pytorch",
+      "status": "candidate",
+      "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yeyupiaoling/MASR",
+      "status": "candidate",
+      "text": "![python version](https://img.shields.io/badge/python-3.11+-orange.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yeyupiaoling/PaddlePaddle-DeepSpeech",
+      "status": "candidate",
+      "text": "![License](https://img.shields.io/badge/license-Apache%202-red.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVlabs/MUNIT",
+      "status": "candidate",
+      "text": "**The code base is no longer maintained.**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Efficient-ML/Awesome-Model-Quantization",
+      "status": "candidate",
+      "text": "This repo collects papers, documents, and codes about model quantization for anyone who wants to research it. We are continuously improving the project. Welcome to PR the works (papers, repositories) that the repo misses."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AmusementClub/vs-mlrt",
+      "status": "candidate",
+      "text": "This project provides VapourSynth ML filter runtimes for a variety of platforms:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Windows-Machine-Learning",
+      "status": "candidate",
+      "text": "> \u26a0\ufe0f **IMPORTANT**<br/>For the latest documentation about Windows Machine Learning, see [What is Windows ML](/windows/ai/new-windows-ml/overview). That documentation describes APIs that are in the **Microsoft.Windows.AI.MachineLearning** namespace, which ships in the Windows App\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clearml/clearml-server",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clearml/clearml-pycharm-plugin",
+      "status": "candidate",
+      "text": "[![GitHub license](https://img.shields.io/github/license/allegroai/clearml-pycharm-plugin.svg)](https://img.shields.io/github/license/allegroai/clearml-pycharm-plugin.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "patrick-kidger/diffrax",
+      "status": "candidate",
+      "text": "<h1 align='center'>Diffrax</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "patrick-kidger/signatory",
+      "status": "candidate",
+      "text": "|Signatory|"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cvg/Hierarchical-Localization",
+      "status": "candidate",
+      "text": "This is `hloc`, a modular toolbox for state-of-the-art 6-DoF visual localization. It implements [Hierarchical Localization](https://arxiv.org/abs/1812.03506), leveraging image retrieval and feature matching, and is fast, accurate, and scalable. This codebase combines and makes e\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "skforecast/skforecast",
+      "status": "candidate",
+      "text": "<h1 align=\"left\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BatsResearch/csp",
+      "status": "candidate",
+      "text": "Compositional soft prompting (CSP), a parameter-efficient learning technique to improve the zero-shot compositionality of large-scale pretrained vision-language models (VLMs) without the overhead of fine-tuning the entire model."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chainer/chainercv",
+      "status": "candidate",
+      "text": "[![](docs/images/logo.png)](http://chainercv.readthedocs.io/en/stable/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/P3M-Net",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Rethinking Portrait Matting with Privacy Preserving [IJCV-2023]</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/ViTAE-Transformer-Matting",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Image Matting</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaitjo/learning-tsp",
+      "status": "candidate",
+      "text": "This repository contains code for the paper [**\"Learning TSP Requires Rethinking Generalization\"**](https://arxiv.org/abs/2006.07054) by Chaitanya K. Joshi, Quentin Cappart, Louis-Martin Rousseau, Thomas Laurent, accepted to the **27th International Conference on Principles and \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agrimgupta92/sgan",
+      "status": "candidate",
+      "text": "This is the code for the paper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HumanSignal/label-studio",
+      "status": "candidate",
+      "text": "<img src=\"https://user-images.githubusercontent.com/12534576/192582340-4c9e4401-1fe6-4dbb-95bb-fdbba5493f61.png\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CSAILVision/gandissect",
+      "status": "candidate",
+      "text": "[**Project**](https://gandissect.csail.mit.edu/) | [**Demo**](http://gandissect.res.ibm.com/ganpaint.html?project=churchoutdoor&layer=layer4) | [**Paper**](https://arxiv.org/pdf/1811.10597.pdf) | [**Video**](http://tiny.cc/gandissect) <br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ScanNet/ScanNet",
+      "status": "candidate",
+      "text": "ScanNet is an RGB-D video dataset containing 2.5 million views in more than 1500 scans, annotated with 3D camera poses, surface reconstructions, and instance-level semantic segmentations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookresearch/mmf",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zahraatashgahi/QuickSelection",
+      "status": "candidate",
+      "text": "This repository contains code for the paper, Quick and Robust Feature Selection: the Strength of Energy-efficient Sparse Training for Autoencoders by Zahra Atashgahi, Ghada Sokar, Tim van der Lee, Elena Mocanu, Decebal Constantin Mocanu, Raymond Veldhuis, and Mykola Pechenizkiy.\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphcore/examples",
+      "status": "candidate",
+      "text": "This repository contains a catalogue of application examples that have been optimised to run on Graphcore IPUs for both training and inference. Access reproducible code for a wide range of popular models covering NLP, Computer Vision, Speech, Multimodal, GNNs, AI for Simulation,\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVlabs/FB-BEV",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nerfstudio-project/nerfstudio",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isl-org/ZoeDepth",
+      "status": "candidate",
+      "text": "This project will no longer be maintained by Intel."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ArulselvanMadhavan/mini_dalle",
+      "status": "candidate",
+      "text": "numpy torch torchvision min_dalle"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shivammehta25/Matcha-TTS",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HikariTJU/LD",
+      "status": "candidate",
+      "text": "Analysis of LD in ZhiHu: [\u76ee\u6807\u68c0\u6d4b-\u5b9a\u4f4d\u84b8\u998f (LD, CVPR 2022)](https://zhuanlan.zhihu.com/p/474955539) and [\u76ee\u6807\u68c0\u6d4b-\u5b9a\u4f4d\u84b8\u998f\u7eed\u96c6\u2014\u2014logit\u84b8\u998f\u4e0efeature\u84b8\u998f\u4e4b\u4e89](https://zhuanlan.zhihu.com/p/498119752)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kymatio/kymatio",
+      "status": "candidate",
+      "text": "Kymatio: Wavelet scattering in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/ml-cvnets",
+      "status": "candidate",
+      "text": "CVNets is a computer vision toolkit that allows researchers and engineers to train standard and novel mobile-"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "soubhiksanyal/RingNet",
+      "status": "candidate",
+      "text": "![alt text](https://github.com/soubhiksanyal/RingNet/blob/master/gif/celeba_reconstruction.gif?raw=true)"
     }
   ],
   "candidate_related_terms": [],
@@ -9880,11 +10594,479 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "GeekDream-x/SemEval2022-Task8-TonyX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "AutoGPTQ/AutoGPTQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Oneflow-Inc/libai"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "intel/ai-reference-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "CorentinJ/Real-Time-Voice-Cloning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/labelImg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "smhassanerfani/atlantis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "xuebinqin/U-2-Net"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "john-rocky/CoreML-Models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "LeelaChessZero/lc0"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "kobanium/TamaGo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "webdataset/webdataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "jiwidi/DeepSpeech-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "yeyupiaoling/MASR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "yeyupiaoling/PaddlePaddle-DeepSpeech"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "deepspeedai/DeepSpeed"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "NVlabs/MUNIT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "docarray/docarray"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Efficient-ML/Awesome-Model-Quantization"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "cuiziteng/ICCV_MAET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "AmusementClub/vs-mlrt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Windows-Machine-Learning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml-agent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml-pycharm-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "patrick-kidger/diffrax"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "patrick-kidger/signatory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/tapnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "cvg/Hierarchical-Localization"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "skforecast/skforecast"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "BatsResearch/csp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "chainer/chainercv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/lab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/graph_nets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/jraph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/P3M-Net"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/ViTAE-Transformer-Matting"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "chaitjo/learning-tsp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "agrimgupta92/sgan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "advimman/lama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "CSAILVision/gandissect"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ScanNet/ScanNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA/MinkowskiEngine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "facebookresearch/mmf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "hzwer/ECCV2022-RIFE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "zahraatashgahi/QuickSelection"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "graphcore/examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "VITA-Group/SLaK"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "VITA-Group/GraNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "NVlabs/FB-BEV"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "MrGemy95/Tensorflow-Project-Template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "EvolvingLMMs-Lab/Otter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/pytorch-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/litgpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "nerfstudio-project/nerfstudio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm-haiku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/sonnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/ZoeDepth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm_env"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "OpenMOSS/MOSS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "RWKV/rwkv.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ArulselvanMadhavan/mini_dalle"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/transformers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "openhackathons-org/gpubootcamp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "uxlfoundation/oneCCL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "tracel-ai/burn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "chelsea0x3b/dfdx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "shivammehta25/Matcha-TTS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "cvat-ai/cvat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "HikariTJU/LD"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "kymatio/kymatio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "apple/ml-cvnets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "soubhiksanyal/RingNet"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

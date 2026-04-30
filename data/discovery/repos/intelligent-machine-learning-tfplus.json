@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T15:54:05.493723+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11374
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An extension library of tensorflow to accelerate industrial recommendation system model training ",
+    "fork": false,
+    "full_name": "intelligent-machine-learning/tfplus",
+    "html_url": "https://github.com/intelligent-machine-learning/tfplus",
+    "language": "C++",
+    "pushed_at": "2024-11-27T02:59:17Z",
+    "stargazers_count": 18,
+    "topics": [],
+    "updated_at": "2025-11-26T05:05:57Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

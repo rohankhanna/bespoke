@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/cuda-samples",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/cuda-samples",
+      "target": "cuda-driver-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/cuda-samples",
+      "target": "cuda-kernels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/cuda-samples",
+      "target": "cuda-opengl",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T12:59:33.336434+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 29026
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Samples for CUDA Developers which demonstrates features in CUDA Toolkit",
+    "fork": false,
+    "full_name": "NVIDIA/cuda-samples",
+    "html_url": "https://github.com/NVIDIA/cuda-samples",
+    "language": "C",
+    "pushed_at": "2026-03-30T20:54:59Z",
+    "stargazers_count": 9128,
+    "topics": [
+      "cuda",
+      "cuda-driver-api",
+      "cuda-kernels",
+      "cuda-opengl"
+    ],
+    "updated_at": "2026-04-30T12:07:22Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Samples for CUDA Developers which demonstrates features in CUDA Toolkit. This version supports [CUDA Toolkit 13.2](https://developer.nvidia.com/cuda-downloads).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    },
+    {
+      "context_snippet": "Samples for CUDA Developers which demonstrates features in CUDA Toolkit. This version supports [CUDA Toolkit 13.2](https://developer.nvidia.com/cuda-downloads).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda-driver-api"
+    },
+    {
+      "context_snippet": "Samples for CUDA Developers which demonstrates features in CUDA Toolkit. This version supports [CUDA Toolkit 13.2](https://developer.nvidia.com/cuda-downloads).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda-kernels"
+    },
+    {
+      "context_snippet": "Samples for CUDA Developers which demonstrates features in CUDA Toolkit. This version supports [CUDA Toolkit 13.2](https://developer.nvidia.com/cuda-downloads).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda-opengl"
+    }
+  ]
+}

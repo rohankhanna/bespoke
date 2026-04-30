@@ -55,6 +55,18 @@
       "source_repo": "spacemeshos/smapp",
       "status": "candidate-context",
       "text": "![Latest Release](https://img.shields.io/github/v/release/spacemeshos/smapp)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spacemeshos/smcli",
+      "status": "candidate-context",
+      "text": "Spacemesh command-line tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spacemeshos/smcli",
+      "status": "candidate-context",
+      "text": "> [!WARNING]"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "spacemeshos/smapp",
       "status": "candidate",
       "text": "![Latest Release](https://img.shields.io/github/v/release/spacemeshos/smapp)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spacemeshos/smcli",
+      "status": "candidate",
+      "text": "> [!WARNING]"
     }
   ],
   "candidate_related_terms": [
@@ -205,11 +223,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "safe-fndn/safe-smart-account"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "spacemeshos/smcli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "safe-fndn/safe-smart-account"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

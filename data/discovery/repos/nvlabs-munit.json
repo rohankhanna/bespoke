@@ -1,0 +1,116 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVlabs/MUNIT",
+      "target": "taki0112/munit-tensorflow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVlabs/MUNIT",
+      "target": "shaoanlu/munit-keras",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVlabs/MUNIT",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVlabs/MUNIT",
+      "target": "image-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVlabs/MUNIT",
+      "target": "munit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVlabs/MUNIT",
+      "target": "pix2pix",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:02:05.531504+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2153
+    },
+    {
+      "path": "Dockerfile",
+      "size": 825
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Multimodal Unsupervised Image-to-Image Translation",
+    "fork": false,
+    "full_name": "NVlabs/MUNIT",
+    "html_url": "https://github.com/NVlabs/MUNIT",
+    "language": "Python",
+    "pushed_at": "2022-09-20T12:23:52Z",
+    "stargazers_count": 2706,
+    "topics": [
+      "deep-learning",
+      "gan",
+      "image-translation",
+      "munit",
+      "pix2pix"
+    ],
+    "updated_at": "2026-04-27T07:43:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shaoanlu/munit-keras",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "taki0112/munit-tensorflow",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**The code base is no longer maintained.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "**The code base is no longer maintained.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-translation"
+    },
+    {
+      "context_snippet": "**The code base is no longer maintained.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "munit"
+    },
+    {
+      "context_snippet": "**The code base is no longer maintained.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pix2pix"
+    }
+  ]
+}

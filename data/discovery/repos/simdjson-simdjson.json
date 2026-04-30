@@ -131,7 +131,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "simdjson/simdjson",
-      "target": "egorbo/simdjsonsharp",
+      "target": "google/paxml",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "simdjson/simdjson",
+      "target": "intel/pcm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "simdjson/simdjson",
+      "target": "gerrymanoim/libpy_simdjson",
       "target_type": "repository"
     },
     {
@@ -139,20 +153,6 @@
       "source_file": "README.md",
       "source_repo": "simdjson/simdjson",
       "target": "chompert/simdjson_erlang",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "simdjson/simdjson",
-      "target": "fouriertransformer/lua-simdjson",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "simdjson/simdjson",
-      "target": "ezequielramis/zimdjson",
       "target_type": "repository"
     },
     {
@@ -492,7 +492,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T05:05:20.925137+00:00",
+  "fetched_at": "2026-04-30T15:03:29.118613+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -545,7 +545,7 @@
     "html_url": "https://github.com/simdjson/simdjson",
     "language": "C++",
     "pushed_at": "2026-04-29T17:05:45Z",
-    "stargazers_count": 23699,
+    "stargazers_count": 23703,
     "topics": [
       "aarch64",
       "arm64",
@@ -568,7 +568,7 @@
       "vs2019",
       "x64"
     ],
-    "updated_at": "2026-04-29T22:55:00Z"
+    "updated_at": "2026-04-30T13:57:02Z"
   },
   "repo_links": [
     {
@@ -578,17 +578,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "egorbo/simdjsonsharp",
+      "full_name": "gerrymanoim/libpy_simdjson",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "ezequielramis/zimdjson",
+      "full_name": "google/paxml",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "fouriertransformer/lua-simdjson",
+      "full_name": "intel/pcm",
       "source_file": "README.md"
     }
   ],

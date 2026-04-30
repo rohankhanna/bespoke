@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xvjiarui/GroupViT",
+      "target": "xvjiarui/groupvit-1",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:08:43.506781+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13211
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "GroupViT: Semantic Segmentation Emerges from Text Supervision",
+    "fork": true,
+    "full_name": "xvjiarui/GroupViT",
+    "html_url": "https://github.com/xvjiarui/GroupViT",
+    "language": "Python",
+    "pushed_at": "2022-12-15T21:40:49Z",
+    "stargazers_count": 25,
+    "topics": [],
+    "updated_at": "2024-07-12T11:09:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xvjiarui/groupvit-1",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

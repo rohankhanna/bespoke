@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Torch API Tests in Container"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flagos-ai/FlagCX",
+      "status": "candidate-context",
+      "text": "FlagCX is a scalable and adaptive cross-chip communication library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flagos-ai/FlagCX",
+      "status": "candidate-context",
+      "text": "Torch API Tests in Container"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flagos-ai/FlagCX",
+      "status": "candidate",
+      "text": "Torch API Tests in Container"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32338,
+      "status": "candidate",
+      "text": "hold"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32338,
+      "status": "candidate",
+      "text": "magazine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32314,
+      "status": "candidate",
+      "text": "negative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31835,
+      "status": "candidate",
+      "text": "burn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31427,
+      "status": "candidate",
+      "text": "pack"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Torch API Tests in Container",
+  "concept_id": "torch-api-tests-in-container",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/torch-api-test.yml",
+      "source_repo": "flagos-ai/FlagCX"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Torch API Tests in Container",
+      "sense_id": "torch-api-tests-in-container#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

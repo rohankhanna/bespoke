@@ -135,6 +135,18 @@
       "source_repo": "bytedance/sonic",
       "status": "candidate-context",
       "text": "Unit Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rolldown/tsdown",
+      "status": "candidate-context",
+      "text": "The elegant bundler for libraries powered by Rolldown"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rolldown/tsdown",
+      "status": "candidate-context",
+      "text": "Unit Test"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +219,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "bytedance/sonic",
+      "status": "candidate",
+      "text": "Unit Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rolldown/tsdown",
       "status": "candidate",
       "text": "Unit Test"
     }
@@ -402,11 +420,29 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/unit_test.yaml",
       "source_repo": "meta-pytorch/torchtune"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/unit-test.yml",
+      "source_repo": "rolldown/tsdown"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/unit_test.yaml",
+      "source_repo": "meta-pytorch/torchtune"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/UnitTests.yml",
+      "source_repo": "AI-Hypercomputer/maxdiffusion"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -191,28 +191,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ggml-org/llama.cpp",
-      "target": "hybridgroup/yzma",
+      "target": "mdrokz/rust-llama.cpp",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ggml-org/llama.cpp",
-      "target": "guinmoon/llmfarm",
+      "target": "kherud/java-llama.cpp",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ggml-org/llama.cpp",
-      "target": "gpustack/gguf-parser-go",
+      "target": "lostruins/koboldcpp",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ggml-org/llama.cpp",
-      "target": "gpustack/gpustack",
+      "target": "kalavai-net/kalavai-client",
       "target_type": "repository"
     },
     {
@@ -433,7 +433,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T08:10:23.290438+00:00",
+  "fetched_at": "2026-04-30T16:11:39.028559+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -485,32 +485,32 @@
     "full_name": "ggml-org/llama.cpp",
     "html_url": "https://github.com/ggml-org/llama.cpp",
     "language": "C++",
-    "pushed_at": "2026-04-30T06:50:41Z",
-    "stargazers_count": 107518,
+    "pushed_at": "2026-04-30T15:37:18Z",
+    "stargazers_count": 107593,
     "topics": [
       "ggml"
     ],
-    "updated_at": "2026-04-30T08:02:37Z"
+    "updated_at": "2026-04-30T16:08:15Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "gpustack/gguf-parser-go",
+      "full_name": "kalavai-net/kalavai-client",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "gpustack/gpustack",
+      "full_name": "kherud/java-llama.cpp",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "guinmoon/llmfarm",
+      "full_name": "lostruins/koboldcpp",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "hybridgroup/yzma",
+      "full_name": "mdrokz/rust-llama.cpp",
       "source_file": "README.md"
     }
   ],

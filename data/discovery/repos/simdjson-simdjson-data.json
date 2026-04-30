@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T15:03:35.838417+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3561
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "simdjson/simdjson-data",
+    "html_url": "https://github.com/simdjson/simdjson-data",
+    "language": "Ruby",
+    "pushed_at": "2025-11-21T02:46:48Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2026-02-03T11:48:19Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

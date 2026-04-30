@@ -32,6 +32,42 @@
       "source_repo": "z-galaxy/zbus",
       "status": "candidate-context",
       "text": "commitlint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ColinKennedy/mega.cmdparse",
+      "status": "candidate-context",
+      "text": "A Neovim command-mode parser. Similar to Python's argparse module"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ColinKennedy/mega.cmdparse",
+      "status": "candidate-context",
+      "text": "Commitlint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ColinKennedy/nvim-best-practices-plugin-template",
+      "status": "candidate-context",
+      "text": "A no-nonsense template for making high-quality Neovim plugins. It has all the best opinions, pinky promise"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ColinKennedy/nvim-best-practices-plugin-template",
+      "status": "candidate-context",
+      "text": "Commitlint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yoshoku/numo-narray-alt",
+      "status": "candidate-context",
+      "text": "Numo::NArray Alternative (numo-narray-alt) is a project forked from Numo::NArray"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yoshoku/numo-narray-alt",
+      "status": "candidate-context",
+      "text": "commitlint"
     }
   ],
   "candidate_glosses": [
@@ -44,6 +80,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "z-galaxy/zbus",
+      "status": "candidate",
+      "text": "commitlint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ColinKennedy/mega.cmdparse",
+      "status": "candidate",
+      "text": "Commitlint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ColinKennedy/nvim-best-practices-plugin-template",
+      "status": "candidate",
+      "text": "Commitlint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yoshoku/numo-narray-alt",
       "status": "candidate",
       "text": "commitlint"
     }
@@ -65,11 +119,29 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/commitlint.yml",
       "source_repo": "z-galaxy/zbus"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/commitlint.yml",
+      "source_repo": "ColinKennedy/mega.cmdparse"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/commitlint.yml",
+      "source_repo": "ColinKennedy/nvim-best-practices-plugin-template"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/commitlint.yml",
+      "source_repo": "yoshoku/numo-narray-alt"
     }
   ],
   "first_seen_at": "2026-04-24T18:19:44.660705+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

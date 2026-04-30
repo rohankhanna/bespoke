@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T16:02:09.694761+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4506
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 661
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "This crate provides Rust bindings for the Open MPI Portable Hardware Locality \"hwloc\" library",
+    "fork": false,
+    "full_name": "daschl/hwloc-rs",
+    "html_url": "https://github.com/daschl/hwloc-rs",
+    "language": "Rust",
+    "pushed_at": "2021-07-14T10:02:54Z",
+    "stargazers_count": 90,
+    "topics": [],
+    "updated_at": "2025-08-28T07:50:22Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

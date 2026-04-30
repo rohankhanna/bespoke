@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Searchbase Unit Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appbaseio/searchbox",
+      "status": "candidate-context",
+      "text": "Lightweight and performance oriented search box UI component libraries for React, Vue, React Native, JS and Flutter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appbaseio/searchbox",
+      "status": "candidate-context",
+      "text": "Searchbase Unit Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appbaseio/searchbox",
+      "status": "candidate",
+      "text": "Searchbase Unit Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13817,
+      "status": "candidate",
+      "text": "check"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13817,
+      "status": "candidate",
+      "text": "lab"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13757,
+      "status": "candidate",
+      "text": "review"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13516,
+      "status": "candidate",
+      "text": "benchmark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13516,
+      "status": "candidate",
+      "text": "inkblot"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Searchbase Unit Tests",
+  "concept_id": "searchbase-unit-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "appbaseio/searchbox"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Searchbase Unit Tests",
+      "sense_id": "searchbase-unit-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

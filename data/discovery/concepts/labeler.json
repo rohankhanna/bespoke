@@ -308,6 +308,30 @@
       "source_repo": "docker/docs",
       "status": "candidate-context",
       "text": "labeler"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "camelot-dev/camelot",
+      "status": "candidate-context",
+      "text": "A Python library to extract tabular data from PDFs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "camelot-dev/camelot",
+      "status": "candidate-context",
+      "text": "Labeler"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TanStack/query",
+      "status": "candidate-context",
+      "text": "\ud83e\udd16 Powerful asynchronous state management, server-state utilities and data fetching for the web. TS/JS, React Query, Solid Query, Svelte Query and Vue Query."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TanStack/query",
+      "status": "candidate-context",
+      "text": "Labeler"
     }
   ],
   "candidate_glosses": [
@@ -460,6 +484,18 @@
       "source_repo": "docker/docs",
       "status": "candidate",
       "text": "labeler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "camelot-dev/camelot",
+      "status": "candidate",
+      "text": "Labeler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TanStack/query",
+      "status": "candidate",
+      "text": "Labeler"
     }
   ],
   "candidate_related_terms": [
@@ -725,11 +761,41 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/labeler.yml",
       "source_repo": "docker/docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "PyCQA/isort"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "camelot-dev/camelot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/dev_pr.yml",
+      "source_repo": "apache/datafusion-ballista"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/dev_pr.yml",
+      "source_repo": "apache/datafusion-ballista-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "TanStack/query"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

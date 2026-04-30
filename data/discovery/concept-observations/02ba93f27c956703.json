@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A toolkit with common assertions and mocks that plays nicely with the standard library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "All builds"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "All builds"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17203,
+      "status": "candidate",
+      "text": "builder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17203,
+      "status": "candidate",
+      "text": "shipwright"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17097,
+      "status": "candidate",
+      "text": "loan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17097,
+      "status": "candidate",
+      "text": "part"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17037,
+      "status": "candidate",
+      "text": "piles"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "All builds",
+      "sense_id": "all-builds#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "all-builds",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "all-builds",
+  "observation_id": "02ba93f27c956703",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "All builds",
+  "source_context_snippet": "All builds",
+  "source_file": ".github/workflows/main.yml",
+  "source_repo": "stretchr/testify",
+  "source_repo_description": "A toolkit with common assertions and mocks that plays nicely with the standard library"
+}

@@ -1,0 +1,37 @@
+{
+  "component": "taiki-e/checkout-action@7d1e50e93dc4fb3bba58f85018fadf77898aee8b",
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yml",
+      "source_repo": "oxc-project/oxc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "oxc-project/oxc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bloat.yml",
+      "source_repo": "oxc-project/oxc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cargo_llvm_lines.yml",
+      "source_repo": "oxc-project/oxc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "oxc-project/oxc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yml",
+      "source_repo": "oxc-project/oxc"
+    }
+  ]
+}

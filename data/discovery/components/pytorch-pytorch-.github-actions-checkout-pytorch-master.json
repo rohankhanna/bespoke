@@ -1,0 +1,37 @@
+{
+  "component": "pytorch/pytorch/.github/actions/checkout-pytorch@master",
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_android-build-test.yml",
+      "source_repo": "Ningsir/pytorch"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_android-full-build-test.yml",
+      "source_repo": "Ningsir/pytorch"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_bazel-build-test.yml",
+      "source_repo": "Ningsir/pytorch"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_binary-build-linux.yml",
+      "source_repo": "Ningsir/pytorch"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_binary-test-linux.yml",
+      "source_repo": "Ningsir/pytorch"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_binary-upload.yml",
+      "source_repo": "Ningsir/pytorch"
+    }
+  ]
+}

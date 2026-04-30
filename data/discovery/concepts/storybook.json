@@ -28,6 +28,18 @@
       "source_repo": "rstackjs/storybook-rsbuild",
       "status": "candidate-context",
       "text": "![Storybook Rsbuild](https://github.com/rstackjs/storybook-rsbuild/assets/7237365/00165054-9e3e-4a15-8a99-27985989b9d2)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "storybookjs/storybook",
+      "status": "candidate-context",
+      "text": "Storybook is the industry standard workshop for building, documenting, and testing UI components in isolation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "storybookjs/storybook",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -42,6 +54,12 @@
       "source_repo": "rstackjs/storybook-rsbuild",
       "status": "candidate",
       "text": "![Storybook Rsbuild](https://github.com/rstackjs/storybook-rsbuild/assets/7237365/00165054-9e3e-4a15-8a99-27985989b9d2)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "storybookjs/storybook",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -97,11 +115,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "rstackjs/storybook-rsbuild"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "storybookjs/storybook"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

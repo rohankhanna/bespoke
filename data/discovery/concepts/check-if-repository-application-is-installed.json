@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check If Repository Application Is Installed"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "filecoin-project/Allocator-Registry",
+      "status": "candidate-context",
+      "text": "A log of the state of fil+ allocators"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filecoin-project/Allocator-Registry",
+      "status": "candidate-context",
+      "text": "Check If Repository Application Is Installed"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filecoin-project/Allocator-Registry",
+      "status": "candidate",
+      "text": "Check If Repository Application Is Installed"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 56042,
+      "status": "candidate",
+      "text": "curbing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 46201,
+      "status": "candidate",
+      "text": "encase"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43643,
+      "status": "candidate",
+      "text": "bridle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43643,
+      "status": "candidate",
+      "text": "rein"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43496,
+      "status": "candidate",
+      "text": "baffle"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check If Repository Application Is Installed",
+  "concept_id": "check-if-repository-application-is-installed",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/check-if-repository-application-is-installed.yml",
+      "source_repo": "filecoin-project/Allocator-Registry"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check If Repository Application Is Installed",
+      "sense_id": "check-if-repository-application-is-installed#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -395,6 +395,78 @@
       "source_repo": "madsim-rs/sqlx",
       "status": "candidate-context",
       "text": "Examples"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-flutter-desktop/examples",
+      "status": "candidate-context",
+      "text": "Examples for go-flutter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-flutter-desktop/examples",
+      "status": "candidate-context",
+      "text": "This repository contains some example applications that can be built using [go-flutter](https://github.com/go-flutter-desktop/go-flutter)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "theupdateframework/go-tuf",
+      "status": "candidate-context",
+      "text": "Go implementation of The Update Framework (TUF)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "theupdateframework/go-tuf",
+      "status": "candidate-context",
+      "text": "Examples"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "py-pdf/sample-files",
+      "status": "candidate-context",
+      "text": "Files which can be used to test PDF readers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "py-pdf/sample-files",
+      "status": "candidate-context",
+      "text": "This repository provides files for testing software that reads / parses"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "smithy-lang/smithy-examples",
+      "status": "candidate-context",
+      "text": "A collection of examples to help users get up and running with Smithy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smithy-lang/smithy-examples",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/smithy-lang/smithy-examples/workflows/integ/badge.svg)](https://github.com/smithy-lang/smithy-examples/actions/workflows/integ.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "neon-bindings/examples",
+      "status": "candidate-context",
+      "text": "A collection of examples of Neon"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neon-bindings/examples",
+      "status": "candidate-context",
+      "text": "![Github Actions](https://github.com/neon-bindings/examples/workflows/Test/badge.svg?branch=main)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
+      "status": "candidate-context",
+      "text": "Node.js samples for Google Cloud Platform products."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
+      "status": "candidate-context",
+      "text": "<img src=\"https://avatars2.githubusercontent.com/u/2810941?v=3&s=96\" alt=\"Google Cloud Platform logo\" title=\"Google Cloud Platform\" align=\"right\" height=\"96\" width=\"96\"/>"
     }
   ],
   "candidate_glosses": [
@@ -589,6 +661,42 @@
       "source_repo": "madsim-rs/sqlx",
       "status": "candidate",
       "text": "Examples"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-flutter-desktop/examples",
+      "status": "candidate",
+      "text": "This repository contains some example applications that can be built using [go-flutter](https://github.com/go-flutter-desktop/go-flutter)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "theupdateframework/go-tuf",
+      "status": "candidate",
+      "text": "Examples"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "py-pdf/sample-files",
+      "status": "candidate",
+      "text": "This repository provides files for testing software that reads / parses"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smithy-lang/smithy-examples",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/smithy-lang/smithy-examples/workflows/integ/badge.svg)](https://github.com/smithy-lang/smithy-examples/actions/workflows/integ.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neon-bindings/examples",
+      "status": "candidate",
+      "text": "![Github Actions](https://github.com/neon-bindings/examples/workflows/Test/badge.svg?branch=main)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
+      "status": "candidate",
+      "text": "<img src=\"https://avatars2.githubusercontent.com/u/2810941?v=3&s=96\" alt=\"Google Cloud Platform logo\" title=\"Google Cloud Platform\" align=\"right\" height=\"96\" width=\"96\"/>"
     }
   ],
   "candidate_related_terms": [
@@ -919,11 +1027,59 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/examples.yml",
       "source_repo": "madsim-rs/sqlx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "go-flutter-desktop/examples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "theupdateframework/go-tuf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "py-pdf/sample-files"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "smithy-lang/smithy-examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/mvp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "neon-bindings/examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "GoogleCloudPlatform/nodejs-docs-samples"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

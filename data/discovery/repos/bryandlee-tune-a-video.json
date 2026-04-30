@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bryandlee/Tune-A-Video",
+      "target": "lucidrains/make-a-video-pytorch",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:07:09.326093+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 792
+    },
+    {
+      "path": "requirements.txt",
+      "size": 176
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Unofficial implementation of Tune-A-Video",
+    "fork": false,
+    "full_name": "bryandlee/Tune-A-Video",
+    "html_url": "https://github.com/bryandlee/Tune-A-Video",
+    "language": "Python",
+    "pushed_at": "2023-01-12T23:06:51Z",
+    "stargazers_count": 192,
+    "topics": [],
+    "updated_at": "2026-02-27T10:22:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lucidrains/make-a-video-pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

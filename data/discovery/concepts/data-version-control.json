@@ -19,6 +19,18 @@
       "source_repo": "dolthub/dolt",
       "status": "candidate-context",
       "text": "<img height=\"100\" src=\"./images/Dolt-Logo@3x.svg\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "treeverse/dvc",
+      "status": "candidate-context",
+      "text": "\ud83e\udd89 Data Versioning and ML Experiments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "treeverse/dvc",
+      "status": "candidate-context",
+      "text": "|Banner|"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "dolthub/dolt",
       "status": "candidate",
       "text": "<img height=\"100\" src=\"./images/Dolt-Logo@3x.svg\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "treeverse/dvc",
+      "status": "candidate",
+      "text": "|Banner|"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": null,
       "source_repo": "dolthub/dolt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "treeverse/dvc"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

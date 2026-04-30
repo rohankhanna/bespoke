@@ -274,6 +274,30 @@
       "source_repo": "jakoch/vulkan-sdk-arm",
       "status": "candidate-context",
       "text": "[![GitHub Releases](https://img.shields.io/github/release/jakoch/vulkan-sdk-arm.svg?style=flat-square)](https://github.com/jakoch/vulkan-sdk-arm/releases/latest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lite-xl/lite-xl-build-box",
+      "status": "candidate-context",
+      "text": "The docker image used to build Lite XL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lite-xl/lite-xl-build-box",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "isl-org/open3d-cmake-external-project",
+      "status": "candidate-context",
+      "text": "Use Open3D as a CMake external project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isl-org/open3d-cmake-external-project",
+      "status": "candidate-context",
+      "text": "Ubuntu"
     }
   ],
   "candidate_glosses": [
@@ -414,6 +438,18 @@
       "source_repo": "jakoch/vulkan-sdk-arm",
       "status": "candidate",
       "text": "[![GitHub Releases](https://img.shields.io/github/release/jakoch/vulkan-sdk-arm.svg?style=flat-square)](https://github.com/jakoch/vulkan-sdk-arm/releases/latest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lite-xl/lite-xl-build-box",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isl-org/open3d-cmake-external-project",
+      "status": "candidate",
+      "text": "Ubuntu"
     }
   ],
   "candidate_related_terms": [
@@ -595,11 +631,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "jakoch/vulkan-sdk-arm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "lite-xl/lite-xl-build-box"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/ubuntu.yml",
+      "source_repo": "isl-org/open3d-cmake-external-project"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

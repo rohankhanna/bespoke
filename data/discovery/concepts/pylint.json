@@ -179,6 +179,18 @@
       "source_repo": "omegacen/pylint-sonarjson",
       "status": "candidate-context",
       "text": "This project is no longer maintained. For an newer fork and the source of the PyPI package, see https://github.com/cnescatlab/pylint-sonarjson-catlab."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jhogsett/EMA-VFI-WebUI",
+      "status": "candidate-context",
+      "text": "Advanced AI-Based Video Renovation UI Using EMA-VFI & Real-ESRGAN"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jhogsett/EMA-VFI-WebUI",
+      "status": "candidate-context",
+      "text": "Pylint"
     }
   ],
   "candidate_glosses": [
@@ -265,6 +277,12 @@
       "source_repo": "omegacen/pylint-sonarjson",
       "status": "candidate",
       "text": "This project is no longer maintained. For an newer fork and the source of the PyPI package, see https://github.com/cnescatlab/pylint-sonarjson-catlab."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jhogsett/EMA-VFI-WebUI",
+      "status": "candidate",
+      "text": "Pylint"
     }
   ],
   "candidate_related_terms": [
@@ -458,11 +476,35 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/pylint.yml",
       "source_repo": "lainq/img"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/pylint.yml",
+      "source_repo": "XPixelGroup/BasicSR"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/pylint.yml",
+      "source_repo": "crytic/evm_cfg_builder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/pylint.yml",
+      "source_repo": "lainq/img"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/pylint.yml",
+      "source_repo": "jhogsett/EMA-VFI-WebUI"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

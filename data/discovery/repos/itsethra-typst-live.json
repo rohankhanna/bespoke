@@ -1,0 +1,87 @@
+{
+  "components": [
+    {
+      "component": "DeterminateSystems/magic-nix-cache-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yaml"
+    },
+    {
+      "component": "cachix/install-nix-action@v22",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yaml",
+      "source_repo": "ItsEthra/typst-live",
+      "target": "DeterminateSystems/magic-nix-cache-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yaml",
+      "source_repo": "ItsEthra/typst-live",
+      "target": "cachix/install-nix-action@v22",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yaml",
+      "source_repo": "ItsEthra/typst-live",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nix.yaml",
+      "source_repo": "ItsEthra/typst-live",
+      "target": "Check Nix flake",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:07:17.875656+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1416
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 505
+    },
+    {
+      "path": ".github/workflows/nix.yaml",
+      "size": 348
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Hot reloading for your typst files",
+    "fork": false,
+    "full_name": "ItsEthra/typst-live",
+    "html_url": "https://github.com/ItsEthra/typst-live",
+    "language": "Rust",
+    "pushed_at": "2026-02-23T18:24:12Z",
+    "stargazers_count": 129,
+    "topics": [],
+    "updated_at": "2026-04-26T11:35:11Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Check Nix flake",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nix.yaml",
+      "term": "Check Nix flake"
+    }
+  ]
+}

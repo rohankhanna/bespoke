@@ -81,6 +81,18 @@
       "source_repo": "superedge/edgeadm",
       "status": "candidate-context",
       "text": "Build Package"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ServiceNow/TapeAgents",
+      "status": "candidate-context",
+      "text": "TapeAgents is a framework that facilitates all stages of the LLM Agent development lifecycle"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ServiceNow/TapeAgents",
+      "status": "candidate-context",
+      "text": "Build Package"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "superedge/edgeadm",
+      "status": "candidate",
+      "text": "Build Package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ServiceNow/TapeAgents",
       "status": "candidate",
       "text": "Build Package"
     }
@@ -240,11 +258,29 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/build_package.yml",
       "source_repo": "run-llama/llama_index"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/build_package.yml",
+      "source_repo": "run-llama/llama_index"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/build-package.yml",
+      "source_repo": "cargo-bins/cargo-quickinstall"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ServiceNow/TapeAgents"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

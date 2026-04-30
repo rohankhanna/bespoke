@@ -19,6 +19,18 @@
       "source_repo": "expo/expo-cli",
       "status": "candidate-context",
       "text": "**The modern [local Expo CLI](https://blog.expo.dev/the-new-expo-cli-f4250d8e3421) is included with the `expo` package and does not need to be installed separately. Run it with `npx expo`. Its source code lives in the [`expo/expo`](https://github.com/expo/expo/blob/main/packages\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ItsWendell/emotion-native-extended",
+      "status": "candidate-context",
+      "text": "Better styling support for Emotion (React Native): Media queries, relative units, percents, operations and more..."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ItsWendell/emotion-native-extended",
+      "status": "candidate-context",
+      "text": "![npm](https://img.shields.io/npm/v/emotion-native-extended?style=flat-square)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "expo/expo-cli",
       "status": "candidate",
       "text": "**The modern [local Expo CLI](https://blog.expo.dev/the-new-expo-cli-f4250d8e3421) is included with the `expo` package and does not need to be installed separately. Run it with `npx expo`. Its source code lives in the [`expo/expo`](https://github.com/expo/expo/blob/main/packages\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ItsWendell/emotion-native-extended",
+      "status": "candidate",
+      "text": "![npm](https://img.shields.io/npm/v/emotion-native-extended?style=flat-square)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "expo/expo-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ItsWendell/emotion-native-extended"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

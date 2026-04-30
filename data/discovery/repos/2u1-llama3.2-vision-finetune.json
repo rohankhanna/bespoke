@@ -12,13 +12,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "2U1/Llama3.2-Vision-Finetune",
-      "target": "andimarafioti/florence2-finetuning",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "2U1/Llama3.2-Vision-Finetune",
       "target": "2u1/llama3.2-vision-ft",
       "target_type": "repository"
     },
@@ -51,7 +44,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T10:19:22.534269+00:00",
+  "fetched_at": "2026-04-30T15:14:08.308843+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -90,11 +83,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "2u1/qwen2-vl-finetune",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "andimarafioti/florence2-finetuning",
       "source_file": "README.md"
     }
   ],

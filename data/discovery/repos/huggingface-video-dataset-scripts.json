@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T12:50:52.420171+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1007
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Collection of scripts to build small-scale datasets for fine-tuning video generation models.",
+    "fork": false,
+    "full_name": "huggingface/video-dataset-scripts",
+    "html_url": "https://github.com/huggingface/video-dataset-scripts",
+    "language": "Python",
+    "pushed_at": "2025-03-17T11:25:46Z",
+    "stargazers_count": 81,
+    "topics": [],
+    "updated_at": "2026-04-21T08:59:07Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

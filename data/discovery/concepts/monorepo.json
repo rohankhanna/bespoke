@@ -118,6 +118,18 @@
       "source_repo": "grafana/jsonnet-libs",
       "status": "candidate-context",
       "text": "This repository contains various Jsonnet libraries we use at Grafana Labs:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vbenjs/vue-vben-admin",
+      "status": "candidate-context",
+      "text": "A modern vue admin panel built with Vue3, Shadcn UI, Vite, TypeScript, and Monorepo. It's fast!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vbenjs/vue-vben-admin",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -174,6 +186,12 @@
       "source_repo": "grafana/jsonnet-libs",
       "status": "candidate",
       "text": "This repository contains various Jsonnet libraries we use at Grafana Labs:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vbenjs/vue-vben-admin",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -271,11 +289,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "grafana/jsonnet-libs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "vbenjs/vue-vben-admin"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

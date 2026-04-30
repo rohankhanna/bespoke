@@ -1,0 +1,231 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-deploy-snapshot.yml"
+    },
+    {
+      "component": "spring-io/artifactory-deploy-action@v0.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-deploy-snapshot.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pull-request.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/promote.yml"
+    },
+    {
+      "component": "jfrog/setup-jfrog-cli@ff5cb544114ffc152db9cea1cd3d5978d5074946",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/promote.yml"
+    },
+    {
+      "component": "spring-io/nexus-sync-action@v0.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/promote.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "spring-io/artifactory-deploy-action@v0.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rollback.yml"
+    },
+    {
+      "component": "jfrog/setup-jfrog-cli@7c95feb32008765e1b4e626b078dfd897c4340ad",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rollback.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-deploy-snapshot.yml",
+      "source_repo": "spring-io/spring-javaformat",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-deploy-snapshot.yml",
+      "source_repo": "spring-io/spring-javaformat",
+      "target": "spring-io/artifactory-deploy-action@v0.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-deploy-snapshot.yml",
+      "source_repo": "spring-io/spring-javaformat",
+      "target": "Build and Deploy Snapshot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pull-request.yml",
+      "source_repo": "spring-io/spring-javaformat",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-pull-request.yml",
+      "source_repo": "spring-io/spring-javaformat",
+      "target": "Build Pull Request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/promote.yml",
+      "source_repo": "spring-io/spring-javaformat",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/promote.yml",
+      "source_repo": "spring-io/spring-javaformat",
+      "target": "jfrog/setup-jfrog-cli@ff5cb544114ffc152db9cea1cd3d5978d5074946",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/promote.yml",
+      "source_repo": "spring-io/spring-javaformat",
+      "target": "spring-io/nexus-sync-action@v0.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/promote.yml",
+      "source_repo": "spring-io/spring-javaformat",
+      "target": "Promote",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "spring-io/spring-javaformat",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "spring-io/spring-javaformat",
+      "target": "spring-io/artifactory-deploy-action@v0.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "spring-io/spring-javaformat",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rollback.yml",
+      "source_repo": "spring-io/spring-javaformat",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rollback.yml",
+      "source_repo": "spring-io/spring-javaformat",
+      "target": "jfrog/setup-jfrog-cli@7c95feb32008765e1b4e626b078dfd897c4340ad",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rollback.yml",
+      "source_repo": "spring-io/spring-javaformat",
+      "target": "Rollback",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:59:52.704664+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/build-and-deploy-snapshot.yml",
+      "size": 1064
+    },
+    {
+      "path": ".github/workflows/build-pull-request.yml",
+      "size": 434
+    },
+    {
+      "path": ".github/workflows/promote.yml",
+      "size": 3623
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 2208
+    },
+    {
+      "path": ".github/workflows/rollback.yml",
+      "size": 1407
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "spring-io/spring-javaformat",
+    "html_url": "https://github.com/spring-io/spring-javaformat",
+    "language": "Java",
+    "pushed_at": "2026-03-30T10:27:04Z",
+    "stargazers_count": 934,
+    "topics": [],
+    "updated_at": "2026-04-25T00:51:02Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build and Deploy Snapshot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-deploy-snapshot.yml",
+      "term": "Build and Deploy Snapshot"
+    },
+    {
+      "context_snippet": "Build Pull Request",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-pull-request.yml",
+      "term": "Build Pull Request"
+    },
+    {
+      "context_snippet": "Promote",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/promote.yml",
+      "term": "Promote"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Rollback",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rollback.yml",
+      "term": "Rollback"
+    }
+  ]
+}

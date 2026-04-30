@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T16:05:11.444390+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16221
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Build your own perplexity for your applications using research4j and integrate them for any domain specific usecases",
+    "fork": true,
+    "full_name": "venkat1701/research4j",
+    "html_url": "https://github.com/venkat1701/research4j",
+    "language": "Java",
+    "pushed_at": "2025-08-15T10:41:14Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-02-02T10:17:13Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

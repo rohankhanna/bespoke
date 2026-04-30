@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "git-cola: The highly caffeinated Git GUI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Git Cola is a powerful Git GUI with a slick and intuitive user interface."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Git Cola is a powerful Git GUI with a slick and intuitive user interface."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19771929,
+      "status": "candidate",
+      "text": "rebottom"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19771928,
+      "status": "candidate",
+      "text": "reboard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19771927,
+      "status": "candidate",
+      "text": "retrocline"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19771926,
+      "status": "candidate",
+      "text": "rebevel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19771925,
+      "status": "candidate",
+      "text": "replank"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rebase",
+      "sense_id": "rebase#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "rebase",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "rebase",
+  "observation_id": "942d24414497c54d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "rebase",
+  "source_context_snippet": "Git Cola is a powerful Git GUI with a slick and intuitive user interface.",
+  "source_file": null,
+  "source_repo": "git-cola/git-cola",
+  "source_repo_description": "git-cola: The highly caffeinated Git GUI"
+}

@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ali-vilab/In-Context-LoRA",
+      "target": "comfyanonymous/comfyui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ali-vilab/In-Context-LoRA",
+      "target": "ali-vilab/flashface",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ali-vilab/In-Context-LoRA",
+      "target": "ttplanetpig/comfyui_object_migration",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ali-vilab/In-Context-LoRA",
+      "target": "ostris/ai-toolkit",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:10:36.514407+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15888
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official repository of In-Context LoRA for Diffusion Transformers",
+    "fork": false,
+    "full_name": "ali-vilab/In-Context-LoRA",
+    "html_url": "https://github.com/ali-vilab/In-Context-LoRA",
+    "language": null,
+    "pushed_at": "2024-12-20T03:17:01Z",
+    "stargazers_count": 2071,
+    "topics": [],
+    "updated_at": "2026-04-28T07:54:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ali-vilab/flashface",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "comfyanonymous/comfyui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ostris/ai-toolkit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ttplanetpig/comfyui_object_migration",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T16:15:24.874221+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1537
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Bring Your Edge AI Models For Compilation, Inference, Analysis or Benchmark (BYOM) using TI Deep Learning (TIDL) - Edge AI in TI Processors",
+    "fork": false,
+    "full_name": "TexasInstruments/edgeai-tidlrunner",
+    "html_url": "https://github.com/TexasInstruments/edgeai-tidlrunner",
+    "language": "Python",
+    "pushed_at": "2026-04-17T14:09:10Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2026-04-21T20:08:20Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

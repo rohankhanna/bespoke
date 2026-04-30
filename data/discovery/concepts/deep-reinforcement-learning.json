@@ -115,6 +115,18 @@
       "source_repo": "lcswillems/torch-ac",
       "status": "candidate-context",
       "text": "The `torch_ac` package contains the PyTorch implementation of two Actor-Critic deep reinforcement learning algorithms:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LeelaChessZero/lc0",
+      "status": "candidate-context",
+      "text": "Open source neural network chess engine with GPU acceleration and broad hardware support."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LeelaChessZero/lc0",
+      "status": "candidate-context",
+      "text": "[![CircleCI](https://circleci.com/gh/LeelaChessZero/lc0.svg?style=shield)](https://circleci.com/gh/LeelaChessZero/lc0)"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +183,12 @@
       "source_repo": "lcswillems/torch-ac",
       "status": "candidate",
       "text": "The `torch_ac` package contains the PyTorch implementation of two Actor-Critic deep reinforcement learning algorithms:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LeelaChessZero/lc0",
+      "status": "candidate",
+      "text": "[![CircleCI](https://circleci.com/gh/LeelaChessZero/lc0.svg?style=shield)](https://circleci.com/gh/LeelaChessZero/lc0)"
     }
   ],
   "candidate_related_terms": [],
@@ -238,11 +256,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "lcswillems/torch-ac"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "LeelaChessZero/lc0"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

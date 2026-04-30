@@ -28,21 +28,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ipdxco/awesome-github-as-code-users",
-      "target": "ipshipyard/github-mgmt",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ipdxco/awesome-github-as-code-users",
-      "target": "libp2p/github-mgmt",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ipdxco/awesome-github-as-code-users",
-      "target": "multiformats/github-mgmt",
+      "target": "plprobelab/github-mgmt",
       "target_type": "repository"
     },
     {
@@ -67,7 +53,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-04-30T10:27:58.393566+00:00",
+  "fetched_at": "2026-04-30T16:02:34.725014+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -95,22 +81,12 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "ipshipyard/github-mgmt",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "libp2p/github-mgmt",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "multiformats/github-mgmt",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "pl-strflt/github-mgmt-template",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "plprobelab/github-mgmt",
       "source_file": "README.md"
     }
   ],

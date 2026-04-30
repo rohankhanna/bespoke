@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVlabs/stylegan3-detector",
+      "target": "yaseryacoob/gan-scanner",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVlabs/stylegan3-detector",
+      "target": "grip-unina/ganimagedetection",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVlabs/stylegan3-detector",
+      "target": "polimi-ispl/gan-image-detection",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVlabs/stylegan3-detector",
+      "target": "kitware/generated-image-detection",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:07:42.594460+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15740
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "NVlabs/stylegan3-detector",
+    "html_url": "https://github.com/NVlabs/stylegan3-detector",
+    "language": null,
+    "pushed_at": "2021-10-26T21:39:55Z",
+    "stargazers_count": 137,
+    "topics": [],
+    "updated_at": "2026-04-01T12:13:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "grip-unina/ganimagedetection",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kitware/generated-image-detection",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "polimi-ispl/gan-image-detection",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yaseryacoob/gan-scanner",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

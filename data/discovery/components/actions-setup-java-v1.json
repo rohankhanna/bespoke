@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-java@v1",
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -302,6 +302,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/java.yml",
       "source_repo": "wilsonzlin/minify-html"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "square/bazel_maven_repository"
     }
   ]
 }

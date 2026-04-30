@@ -1,0 +1,76 @@
+{
+  "aliases": [
+    "spell-check-differential"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autowarefoundation/autoware-documentation",
+      "status": "candidate-context",
+      "text": "spell-check-differential"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autowarefoundation/.github",
+      "status": "candidate-context",
+      "text": "spell-check-differential"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autowarefoundation/autoware-documentation",
+      "status": "candidate",
+      "text": "spell-check-differential"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autowarefoundation/.github",
+      "status": "candidate",
+      "text": "spell-check-differential"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "spell-check-differential",
+  "concept_id": "spell-check-differential",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/spell-check-differential.yaml",
+      "source_repo": "autowarefoundation/autoware-documentation"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/spell-check-differential.yaml",
+      "source_repo": "autowarefoundation/.github"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "spell-check-differential",
+      "sense_id": "spell-check-differential#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

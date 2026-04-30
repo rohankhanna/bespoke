@@ -163,6 +163,18 @@
       "source_repo": "lite-xl/lite-xl",
       "status": "candidate-context",
       "text": "[![CI]](https://github.com/lite-xl/lite-xl/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "git-cola/git-cola",
+      "status": "candidate-context",
+      "text": "git-cola: The highly caffeinated Git GUI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "git-cola/git-cola",
+      "status": "candidate-context",
+      "text": "Git Cola is a powerful Git GUI with a slick and intuitive user interface."
     }
   ],
   "candidate_glosses": [
@@ -243,6 +255,12 @@
       "source_repo": "lite-xl/lite-xl",
       "status": "candidate",
       "text": "[![CI]](https://github.com/lite-xl/lite-xl/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "git-cola/git-cola",
+      "status": "candidate",
+      "text": "Git Cola is a powerful Git GUI with a slick and intuitive user interface."
     }
   ],
   "candidate_related_terms": [
@@ -378,11 +396,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "lite-xl/lite-xl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "git-cola/git-cola"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

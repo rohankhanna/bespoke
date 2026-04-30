@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dc-ai-projects/DC-VideoGen",
+      "target": "deep-compression-autoencoder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dc-ai-projects/DC-VideoGen",
+      "target": "efficient-video-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dc-ai-projects/DC-VideoGen",
+      "target": "post-training-acceleration",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:09:07.902264+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3976
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "DC-VideoGen: Efficient Video Generation with Deep Compression Video Autoencoder",
+    "fork": false,
+    "full_name": "dc-ai-projects/DC-VideoGen",
+    "html_url": "https://github.com/dc-ai-projects/DC-VideoGen",
+    "language": null,
+    "pushed_at": "2025-10-05T01:10:59Z",
+    "stargazers_count": 185,
+    "topics": [
+      "deep-compression-autoencoder",
+      "efficient-video-generation",
+      "post-training-acceleration"
+    ],
+    "updated_at": "2026-04-23T01:16:09Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-compression-autoencoder"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "efficient-video-generation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "post-training-acceleration"
+    }
+  ]
+}

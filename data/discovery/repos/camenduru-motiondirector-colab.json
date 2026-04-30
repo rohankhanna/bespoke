@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T13:07:17.839116+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1969
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "camenduru/MotionDirector-colab",
+    "html_url": "https://github.com/camenduru/MotionDirector-colab",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-12-11T05:21:02Z",
+    "stargazers_count": 16,
+    "topics": [],
+    "updated_at": "2025-07-02T14:07:23Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

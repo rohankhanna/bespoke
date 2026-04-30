@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T12:55:53.400856+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3021
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "C++ API for ML inferencing and transfer-learning on Coral devices",
+    "fork": false,
+    "full_name": "google-coral/libcoral",
+    "html_url": "https://github.com/google-coral/libcoral",
+    "language": "C++",
+    "pushed_at": "2024-08-11T10:06:59Z",
+    "stargazers_count": 96,
+    "topics": [],
+    "updated_at": "2026-04-06T13:00:31Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

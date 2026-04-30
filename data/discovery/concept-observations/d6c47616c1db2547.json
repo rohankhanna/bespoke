@@ -48,7 +48,7 @@
   "normalized_form": "publish-release",
   "observation_id": "d6c47616c1db2547",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
   "observed_text": "publish-release",
   "source_context_snippet": "publish-release",
   "source_file": ".github/workflows/publish-release.yml",

@@ -1,0 +1,345 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-oras.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-oras.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-oras.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-oras.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-oras.yml"
+    },
+    {
+      "component": "oras-project/setup-oras@22ce207df3b08e061f537244349aac6ae1d214f6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-oras.yml"
+    },
+    {
+      "component": "sigstore/cosign-installer@ba7bc0a3fef59531c69a25acd34668d6d3fe6f22",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-oras.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-oras.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-oras.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-oras.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-oras.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@153bb8e04406b158c6c84fc1615b65b24149a1fe",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-oras.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-oras.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-oras.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-oras.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-oras.yml"
+    },
+    {
+      "component": "oras-project/setup-oras@22ce207df3b08e061f537244349aac6ae1d214f6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-oras.yml"
+    },
+    {
+      "component": "sigstore/cosign-installer@ba7bc0a3fef59531c69a25acd34668d6d3fe6f22",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-oras.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-oras.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-oras.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-oras.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-oras.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@153bb8e04406b158c6c84fc1615b65b24149a1fe",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-oras.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "hyper-mcp-rs/defuddle-plugin",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "hyper-mcp-rs/defuddle-plugin",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "hyper-mcp-rs/defuddle-plugin",
+      "target": "Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-oras.yml",
+      "source_repo": "hyper-mcp-rs/defuddle-plugin",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-oras.yml",
+      "source_repo": "hyper-mcp-rs/defuddle-plugin",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-oras.yml",
+      "source_repo": "hyper-mcp-rs/defuddle-plugin",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-oras.yml",
+      "source_repo": "hyper-mcp-rs/defuddle-plugin",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-oras.yml",
+      "source_repo": "hyper-mcp-rs/defuddle-plugin",
+      "target": "oras-project/setup-oras@22ce207df3b08e061f537244349aac6ae1d214f6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-oras.yml",
+      "source_repo": "hyper-mcp-rs/defuddle-plugin",
+      "target": "sigstore/cosign-installer@ba7bc0a3fef59531c69a25acd34668d6d3fe6f22",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-oras.yml",
+      "source_repo": "hyper-mcp-rs/defuddle-plugin",
+      "target": "softprops/action-gh-release@153bb8e04406b158c6c84fc1615b65b24149a1fe",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-oras.yml",
+      "source_repo": "hyper-mcp-rs/defuddle-plugin",
+      "target": "Nightly Release (ORAS)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-oras.yml",
+      "source_repo": "hyper-mcp-rs/defuddle-plugin",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-oras.yml",
+      "source_repo": "hyper-mcp-rs/defuddle-plugin",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-oras.yml",
+      "source_repo": "hyper-mcp-rs/defuddle-plugin",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-oras.yml",
+      "source_repo": "hyper-mcp-rs/defuddle-plugin",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-oras.yml",
+      "source_repo": "hyper-mcp-rs/defuddle-plugin",
+      "target": "oras-project/setup-oras@22ce207df3b08e061f537244349aac6ae1d214f6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-oras.yml",
+      "source_repo": "hyper-mcp-rs/defuddle-plugin",
+      "target": "sigstore/cosign-installer@ba7bc0a3fef59531c69a25acd34668d6d3fe6f22",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-oras.yml",
+      "source_repo": "hyper-mcp-rs/defuddle-plugin",
+      "target": "softprops/action-gh-release@153bb8e04406b158c6c84fc1615b65b24149a1fe",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-oras.yml",
+      "source_repo": "hyper-mcp-rs/defuddle-plugin",
+      "target": "Release (ORAS)",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T12:53:30.691926+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15091
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 662
+    },
+    {
+      "path": "Dockerfile",
+      "size": 111
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2521
+    },
+    {
+      "path": ".github/workflows/nightly-oras.yml",
+      "size": 8159
+    },
+    {
+      "path": ".github/workflows/release-oras.yml",
+      "size": 8501
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Get the main content of any page as Markdown.",
+    "fork": false,
+    "full_name": "hyper-mcp-rs/defuddle-plugin",
+    "html_url": "https://github.com/hyper-mcp-rs/defuddle-plugin",
+    "language": "Rust",
+    "pushed_at": "2026-04-27T15:59:10Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-03-19T16:37:03Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Nightly Release (ORAS)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-oras.yml",
+      "term": "Nightly Release (ORAS)"
+    },
+    {
+      "context_snippet": "Release (ORAS)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-oras.yml",
+      "term": "Release (ORAS)"
+    }
+  ]
+}

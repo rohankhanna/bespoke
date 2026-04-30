@@ -1,0 +1,159 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_ruff.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_ruff.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "prs-eth/Marigold",
+      "target": "apple/ml-hypersim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_ruff.yml",
+      "source_repo": "prs-eth/Marigold",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_ruff.yml",
+      "source_repo": "prs-eth/Marigold",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr_ruff.yml",
+      "source_repo": "prs-eth/Marigold",
+      "target": "Run code quality check with Ruff",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "prs-eth/Marigold",
+      "target": "depth-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "prs-eth/Marigold",
+      "target": "diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "prs-eth/Marigold",
+      "target": "in-the-wild",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "prs-eth/Marigold",
+      "target": "monocular-depth-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "prs-eth/Marigold",
+      "target": "zero-shot",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:05:54.002624+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 23601
+    },
+    {
+      "path": "requirements.txt",
+      "size": 107
+    },
+    {
+      "path": ".github/workflows/pr_ruff.yml",
+      "size": 709
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR 2024 - Oral, Best Paper Award Candidate] Marigold: Repurposing Diffusion-Based Image Generators for Monocular Depth Estimation",
+    "fork": false,
+    "full_name": "prs-eth/Marigold",
+    "html_url": "https://github.com/prs-eth/Marigold",
+    "language": "Python",
+    "pushed_at": "2025-12-10T09:56:30Z",
+    "stargazers_count": 3133,
+    "topics": [
+      "depth-estimation",
+      "diffusion",
+      "in-the-wild",
+      "monocular-depth-estimation",
+      "zero-shot"
+    ],
+    "updated_at": "2026-04-29T21:10:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apple/ml-hypersim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Run code quality check with Ruff",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr_ruff.yml",
+      "term": "Run code quality check with Ruff"
+    },
+    {
+      "context_snippet": "This project implements Marigold, a Computer Vision method for estimating image characteristics. Initially proposed for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "depth-estimation"
+    },
+    {
+      "context_snippet": "This project implements Marigold, a Computer Vision method for estimating image characteristics. Initially proposed for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion"
+    },
+    {
+      "context_snippet": "This project implements Marigold, a Computer Vision method for estimating image characteristics. Initially proposed for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "in-the-wild"
+    },
+    {
+      "context_snippet": "This project implements Marigold, a Computer Vision method for estimating image characteristics. Initially proposed for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monocular-depth-estimation"
+    },
+    {
+      "context_snippet": "This project implements Marigold, a Computer Vision method for estimating image characteristics. Initially proposed for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zero-shot"
+    }
+  ]
+}

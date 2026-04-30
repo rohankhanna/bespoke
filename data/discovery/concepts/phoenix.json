@@ -223,6 +223,30 @@
       "source_repo": "dwyl/learn-alpine.js",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "izelnakri/paper_trail",
+      "status": "candidate-context",
+      "text": "Track and record all the changes in your database with Ecto. Revert back to anytime in history."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "izelnakri/paper_trail",
+      "status": "candidate-context",
+      "text": "[![Hex Version](http://img.shields.io/hexpm/v/paper_trail.svg?style=flat)](https://hex.pm/packages/paper_trail) [![Hex docs](http://img.shields.io/badge/hex.pm-docs-green.svg?style=flat)](https://hexdocs.pm/paper_trail/PaperTrail.html)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chequer-io/PhoenixSql",
+      "status": "candidate-context",
+      "text": "Phoenix sql parser for .NET Core"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chequer-io/PhoenixSql",
+      "status": "candidate-context",
+      "text": "<img width=\"128\" src=\"https://github.com/chequer-io/phoenixsql/blob/main/Logo.png?raw=true\">"
     }
   ],
   "candidate_glosses": [
@@ -333,6 +357,18 @@
       "source_repo": "dwyl/learn-alpine.js",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "izelnakri/paper_trail",
+      "status": "candidate",
+      "text": "[![Hex Version](http://img.shields.io/hexpm/v/paper_trail.svg?style=flat)](https://hex.pm/packages/paper_trail) [![Hex docs](http://img.shields.io/badge/hex.pm-docs-green.svg?style=flat)](https://hexdocs.pm/paper_trail/PaperTrail.html)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chequer-io/PhoenixSql",
+      "status": "candidate",
+      "text": "<img width=\"128\" src=\"https://github.com/chequer-io/phoenixsql/blob/main/Logo.png?raw=true\">"
     }
   ],
   "candidate_related_terms": [
@@ -553,11 +589,41 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "dwyl/learn-alpine.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "beam-community/elixir-companies"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "izelnakri/paper_trail"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/phoenix-ecto-encryption-example"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/mvp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "chequer-io/PhoenixSql"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

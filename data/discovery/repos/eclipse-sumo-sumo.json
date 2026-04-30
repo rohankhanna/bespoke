@@ -1,0 +1,571 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bibtex.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bibtex.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bibtex.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cff_validation.yml"
+    },
+    {
+      "component": "dieghernan/cff-validator@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cff_validation.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml"
+    },
+    {
+      "component": "behrisch/gha-setup-vsdevenv@node24_update",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml"
+    },
+    {
+      "component": "hendrikmuhs/ccache-action@v1.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml"
+    },
+    {
+      "component": "pypa/cibuildwheel@v3.4.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml"
+    },
+    {
+      "component": "pypa/cibuildwheel@v3.4.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/metadata-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation-link-check.yml"
+    },
+    {
+      "component": "lycheeverse/lychee-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation-link-check.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/draft-pdf.yml"
+    },
+    {
+      "component": "openjournals/openjournals-draft-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/draft-pdf.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/draft-pdf.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/i18n.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/i18n.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/i18n.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eclipse-sumo/sumo",
+      "target": "dlr-ts/sumolibraries",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bibtex.yml",
+      "source_repo": "eclipse-sumo/sumo",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bibtex.yml",
+      "source_repo": "eclipse-sumo/sumo",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bibtex.yml",
+      "source_repo": "eclipse-sumo/sumo",
+      "target": "peter-evans/create-pull-request@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bibtex.yml",
+      "source_repo": "eclipse-sumo/sumo",
+      "target": "bibtex",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cff_validation.yml",
+      "source_repo": "eclipse-sumo/sumo",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cff_validation.yml",
+      "source_repo": "eclipse-sumo/sumo",
+      "target": "dieghernan/cff-validator@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cff_validation.yml",
+      "source_repo": "eclipse-sumo/sumo",
+      "target": "cff-validation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml",
+      "source_repo": "eclipse-sumo/sumo",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml",
+      "source_repo": "eclipse-sumo/sumo",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml",
+      "source_repo": "eclipse-sumo/sumo",
+      "target": "behrisch/gha-setup-vsdevenv@node24_update",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml",
+      "source_repo": "eclipse-sumo/sumo",
+      "target": "hendrikmuhs/ccache-action@v1.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml",
+      "source_repo": "eclipse-sumo/sumo",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml",
+      "source_repo": "eclipse-sumo/sumo",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml",
+      "source_repo": "eclipse-sumo/sumo",
+      "target": "pypa/cibuildwheel@v3.4.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cibuildwheel.yml",
+      "source_repo": "eclipse-sumo/sumo",
+      "target": "cibuildwheel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "eclipse-sumo/sumo",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "eclipse-sumo/sumo",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "eclipse-sumo/sumo",
+      "target": "docker/metadata-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "eclipse-sumo/sumo",
+      "target": "docker/build-push-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "eclipse-sumo/sumo",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation-link-check.yml",
+      "source_repo": "eclipse-sumo/sumo",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation-link-check.yml",
+      "source_repo": "eclipse-sumo/sumo",
+      "target": "lycheeverse/lychee-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/documentation-link-check.yml",
+      "source_repo": "eclipse-sumo/sumo",
+      "target": "documentation-link-check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "eclipse-sumo/sumo",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "eclipse-sumo/sumo",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "eclipse-sumo/sumo",
+      "target": "documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/draft-pdf.yml",
+      "source_repo": "eclipse-sumo/sumo",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/draft-pdf.yml",
+      "source_repo": "eclipse-sumo/sumo",
+      "target": "openjournals/openjournals-draft-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/draft-pdf.yml",
+      "source_repo": "eclipse-sumo/sumo",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/draft-pdf.yml",
+      "source_repo": "eclipse-sumo/sumo",
+      "target": "Draft PDF",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-matrix.yml",
+      "source_repo": "eclipse-sumo/sumo",
+      "target": "Generate build and test matrix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/i18n.yml",
+      "source_repo": "eclipse-sumo/sumo",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/i18n.yml",
+      "source_repo": "eclipse-sumo/sumo",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/i18n.yml",
+      "source_repo": "eclipse-sumo/sumo",
+      "target": "peter-evans/create-pull-request@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/i18n.yml",
+      "source_repo": "eclipse-sumo/sumo",
+      "target": "i18n",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eclipse-sumo/sumo",
+      "target": "simulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eclipse-sumo/sumo",
+      "target": "traffic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eclipse-sumo/sumo",
+      "target": "transport",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:54:27.147166+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5402
+    },
+    {
+      "path": ".github/workflows/bibtex.yml",
+      "size": 1315
+    },
+    {
+      "path": ".github/workflows/cff_validation.yml",
+      "size": 316
+    },
+    {
+      "path": ".github/workflows/cibuildwheel.yml",
+      "size": 5748
+    },
+    {
+      "path": ".github/workflows/docker.yml",
+      "size": 1212
+    },
+    {
+      "path": ".github/workflows/documentation-link-check.yml",
+      "size": 502
+    },
+    {
+      "path": ".github/workflows/documentation.yml",
+      "size": 754
+    },
+    {
+      "path": ".github/workflows/draft-pdf.yml",
+      "size": 770
+    },
+    {
+      "path": ".github/workflows/generate-matrix.yml",
+      "size": 1627
+    },
+    {
+      "path": ".github/workflows/i18n.yml",
+      "size": 1095
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Eclipse SUMO is an open source, highly portable, microscopic and continuous traffic simulation package designed to handle large networks. It allows for intermodal simulation including pedestrians and comes with a large set of tools for scenario creation.",
+    "fork": false,
+    "full_name": "eclipse-sumo/sumo",
+    "html_url": "https://github.com/eclipse-sumo/sumo",
+    "language": "C++",
+    "pushed_at": "2026-04-30T12:39:08Z",
+    "stargazers_count": 3981,
+    "topics": [
+      "simulation",
+      "traffic",
+      "transport"
+    ],
+    "updated_at": "2026-04-30T12:39:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dlr-ts/sumolibraries",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "bibtex",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bibtex.yml",
+      "term": "bibtex"
+    },
+    {
+      "context_snippet": "cff-validation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cff_validation.yml",
+      "term": "cff-validation"
+    },
+    {
+      "context_snippet": "cibuildwheel",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cibuildwheel.yml",
+      "term": "cibuildwheel"
+    },
+    {
+      "context_snippet": "docker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "term": "docker"
+    },
+    {
+      "context_snippet": "documentation-link-check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/documentation-link-check.yml",
+      "term": "documentation-link-check"
+    },
+    {
+      "context_snippet": "documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/documentation.yml",
+      "term": "documentation"
+    },
+    {
+      "context_snippet": "Draft PDF",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/draft-pdf.yml",
+      "term": "Draft PDF"
+    },
+    {
+      "context_snippet": "Generate build and test matrix",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-matrix.yml",
+      "term": "Generate build and test matrix"
+    },
+    {
+      "context_snippet": "i18n",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/i18n.yml",
+      "term": "i18n"
+    },
+    {
+      "context_snippet": "<a href=\"https://sumo.dlr.de/docs\"><p align=\"center\"><img width=50% src=\"https://raw.githubusercontent.com/eclipse/sumo/main/docs/web/docs/images/sumo-logo.svg\"></p></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simulation"
+    },
+    {
+      "context_snippet": "<a href=\"https://sumo.dlr.de/docs\"><p align=\"center\"><img width=50% src=\"https://raw.githubusercontent.com/eclipse/sumo/main/docs/web/docs/images/sumo-logo.svg\"></p></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "traffic"
+    },
+    {
+      "context_snippet": "<a href=\"https://sumo.dlr.de/docs\"><p align=\"center\"><img width=50% src=\"https://raw.githubusercontent.com/eclipse/sumo/main/docs/web/docs/images/sumo-logo.svg\"></p></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transport"
+    }
+  ]
+}

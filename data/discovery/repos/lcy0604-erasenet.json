@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lcy0604/EraseNet",
+      "target": "hciilab/scut-enstext",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lcy0604/EraseNet",
+      "target": "hciilab/scene-text-removal",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lcy0604/EraseNet",
+      "target": "vious/lbam_pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lcy0604/EraseNet",
+      "target": "avalonstrel/gatedconvolution_pytorch",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T12:57:10.989477+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2599
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "lcy0604/EraseNet",
+    "html_url": "https://github.com/lcy0604/EraseNet",
+    "language": "Python",
+    "pushed_at": "2022-07-07T08:10:09Z",
+    "stargazers_count": 155,
+    "topics": [],
+    "updated_at": "2026-04-08T01:52:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "avalonstrel/gatedconvolution_pytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hciilab/scene-text-removal",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hciilab/scut-enstext",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vious/lbam_pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -57,6 +57,30 @@
       "source_repo": "filecoin-project/specs",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/filecoin-project/specs/workflows/CI/badge.svg)](https://github.com/filecoin-project/specs/actions/workflows/main.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "qri-io/dataset",
+      "status": "candidate-context",
+      "text": "qri dataset definition"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qri-io/dataset",
+      "status": "candidate-context",
+      "text": "module github.com/qri-io/dataset go 1.15 require ( github.com/360EntSecGroup-Skylar/excelize v1.4.1 github.com/axiomhq/hyperloglog v0.0.0-20191112132149-a4c4c47bc57f github.com/dgryski/go-sip13 v0.0.0-20200911182023-62edffca9245 // indirect github.com/dgryski/go-topk v0.0.0-2019\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "artichoke/spec",
+      "status": "candidate-context",
+      "text": "Artichoke fork of the Ruby Spec Suite aka ruby/spec"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artichoke/spec",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/ruby/spec.svg)](https://travis-ci.org/ruby/spec)"
     }
   ],
   "candidate_glosses": [
@@ -83,6 +107,18 @@
       "source_repo": "filecoin-project/specs",
       "status": "candidate",
       "text": "[![CI](https://github.com/filecoin-project/specs/workflows/CI/badge.svg)](https://github.com/filecoin-project/specs/actions/workflows/main.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qri-io/dataset",
+      "status": "candidate",
+      "text": "module github.com/qri-io/dataset go 1.15 require ( github.com/360EntSecGroup-Skylar/excelize v1.4.1 github.com/axiomhq/hyperloglog v0.0.0-20191112132149-a4c4c47bc57f github.com/dgryski/go-sip13 v0.0.0-20200911182023-62edffca9245 // indirect github.com/dgryski/go-topk v0.0.0-2019\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artichoke/spec",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/ruby/spec.svg)](https://travis-ci.org/ruby/spec)"
     }
   ],
   "candidate_related_terms": [
@@ -156,11 +192,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "filecoin-project/specs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "qri-io/dataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "artichoke/spec"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

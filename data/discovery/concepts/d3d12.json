@@ -67,6 +67,18 @@
       "source_repo": "DiligentGraphics/DiligentEngine",
       "status": "candidate-context",
       "text": "**A Modern Cross-Platform Low-Level 3D Graphics Library and Rendering Framework**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DiligentGraphics/DiligentCore",
+      "status": "candidate-context",
+      "text": "A modern cross-platform low-level graphics API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DiligentGraphics/DiligentCore",
+      "status": "candidate-context",
+      "text": "Diligent Core is a modern, cross-platform low-level graphics API that forms the foundation of [Diligent Engine](https://github.com/DiligentGraphics/DiligentEngine)."
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "DiligentGraphics/DiligentEngine",
       "status": "candidate",
       "text": "**A Modern Cross-Platform Low-Level 3D Graphics Library and Rendering Framework**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DiligentGraphics/DiligentCore",
+      "status": "candidate",
+      "text": "Diligent Core is a modern, cross-platform low-level graphics API that forms the foundation of [Diligent Engine](https://github.com/DiligentGraphics/DiligentEngine)."
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +154,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "DiligentGraphics/DiligentEngine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "DiligentGraphics/DiligentCore"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

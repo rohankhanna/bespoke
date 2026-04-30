@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eisneim/ltx_lora_training_i2v_t2v",
+      "target": "a-r-r-o-w/finetrainers",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T12:50:49.780609+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1692
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Lora traing script for Lightricks LTX-video",
+    "fork": false,
+    "full_name": "eisneim/ltx_lora_training_i2v_t2v",
+    "html_url": "https://github.com/eisneim/ltx_lora_training_i2v_t2v",
+    "language": "Python",
+    "pushed_at": "2025-02-12T09:38:05Z",
+    "stargazers_count": 71,
+    "topics": [],
+    "updated_at": "2026-04-29T10:55:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "a-r-r-o-w/finetrainers",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

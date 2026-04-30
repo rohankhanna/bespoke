@@ -343,6 +343,30 @@
       "source_repo": "VectorDB-NTU/RaBitQ-Library",
       "status": "candidate-context",
       "text": "> **New:** We have recently open-sourced the GPU implementation of RaBitQ for high-dimensional vector search. See [cuvs_rabitq](https://github.com/Stardust-SJF/cuvs_rabitq/tree/cuvs_ivf_rabitq)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Efficient-ML/Awesome-Model-Quantization",
+      "status": "candidate-context",
+      "text": "A list of papers, docs, codes about model quantization. This repo is aimed to provide the info for model quantization research, we are continuously improving the project. Welcome to PR the works (papers, repositories) that are missed by the repo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Efficient-ML/Awesome-Model-Quantization",
+      "status": "candidate-context",
+      "text": "This repo collects papers, documents, and codes about model quantization for anyone who wants to research it. We are continuously improving the project. Welcome to PR the works (papers, repositories) that the repo misses."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IST-DASLab/Quartet-II",
+      "status": "candidate-context",
+      "text": "Quartet II Official Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IST-DASLab/Quartet-II",
+      "status": "candidate-context",
+      "text": "This is the official code for the Quartet II NVFP4 training paper [![arXiv](https://img.shields.io/badge/arXiv-2601.22813-b31b1b.svg)](https://arxiv.org/abs/2601.22813)"
     }
   ],
   "candidate_glosses": [
@@ -513,6 +537,18 @@
       "source_repo": "VectorDB-NTU/RaBitQ-Library",
       "status": "candidate",
       "text": "> **New:** We have recently open-sourced the GPU implementation of RaBitQ for high-dimensional vector search. See [cuvs_rabitq](https://github.com/Stardust-SJF/cuvs_rabitq/tree/cuvs_ivf_rabitq)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Efficient-ML/Awesome-Model-Quantization",
+      "status": "candidate",
+      "text": "This repo collects papers, documents, and codes about model quantization for anyone who wants to research it. We are continuously improving the project. Welcome to PR the works (papers, repositories) that the repo misses."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IST-DASLab/Quartet-II",
+      "status": "candidate",
+      "text": "This is the official code for the Quartet II NVFP4 training paper [![arXiv](https://img.shields.io/badge/arXiv-2601.22813-b31b1b.svg)](https://arxiv.org/abs/2601.22813)"
     }
   ],
   "candidate_related_terms": [
@@ -888,11 +924,59 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "huggingface/optimum-quanto"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "AutoGPTQ/AutoGPTQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Efficient-ML/Awesome-Model-Quantization"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "bitsandbytes-foundation/bitsandbytes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/optimum-quanto"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "RWKV/rwkv.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "IST-DASLab/Quartet-II"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

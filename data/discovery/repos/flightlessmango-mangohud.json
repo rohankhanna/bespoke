@@ -1,0 +1,337 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arch-package.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-package.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-package.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-source.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-source.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mingw.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/param-check.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/param-check.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "flightlessmango/MangoHud",
+      "target": "benjamimgois/goverlay",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "flightlessmango/MangoHud",
+      "target": "boukehaarsma23/zenergy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arch-package.yml",
+      "source_repo": "flightlessmango/MangoHud",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/arch-package.yml",
+      "source_repo": "flightlessmango/MangoHud",
+      "target": "arch package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-package.yml",
+      "source_repo": "flightlessmango/MangoHud",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-package.yml",
+      "source_repo": "flightlessmango/MangoHud",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-package.yml",
+      "source_repo": "flightlessmango/MangoHud",
+      "target": "Build release package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-source.yml",
+      "source_repo": "flightlessmango/MangoHud",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-source.yml",
+      "source_repo": "flightlessmango/MangoHud",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-source.yml",
+      "source_repo": "flightlessmango/MangoHud",
+      "target": "Build source tars",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mingw.yml",
+      "source_repo": "flightlessmango/MangoHud",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mingw.yml",
+      "source_repo": "flightlessmango/MangoHud",
+      "target": "Mingw build testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/param-check.yml",
+      "source_repo": "flightlessmango/MangoHud",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/param-check.yml",
+      "source_repo": "flightlessmango/MangoHud",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/param-check.yml",
+      "source_repo": "flightlessmango/MangoHud",
+      "target": "param check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu.yml",
+      "source_repo": "flightlessmango/MangoHud",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ubuntu.yml",
+      "source_repo": "flightlessmango/MangoHud",
+      "target": "Ubuntu build testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flightlessmango/MangoHud",
+      "target": "benchmarking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flightlessmango/MangoHud",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flightlessmango/MangoHud",
+      "target": "monitoring",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flightlessmango/MangoHud",
+      "target": "opengl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flightlessmango/MangoHud",
+      "target": "vulkan",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T12:55:26.399736+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 38701
+    },
+    {
+      "path": ".github/workflows/arch-package.yml",
+      "size": 1555
+    },
+    {
+      "path": ".github/workflows/build-package.yml",
+      "size": 2537
+    },
+    {
+      "path": ".github/workflows/build-source.yml",
+      "size": 1263
+    },
+    {
+      "path": ".github/workflows/mingw.yml",
+      "size": 468
+    },
+    {
+      "path": ".github/workflows/param-check.yml",
+      "size": 485
+    },
+    {
+      "path": ".github/workflows/ubuntu.yml",
+      "size": 1633
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more.",
+    "fork": false,
+    "full_name": "flightlessmango/MangoHud",
+    "html_url": "https://github.com/flightlessmango/MangoHud",
+    "language": "C",
+    "pushed_at": "2026-04-29T09:52:18Z",
+    "stargazers_count": 8521,
+    "topics": [
+      "benchmarking",
+      "hud",
+      "linux",
+      "monitoring",
+      "opengl",
+      "vulkan"
+    ],
+    "updated_at": "2026-04-30T11:44:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "benjamimgois/goverlay",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "boukehaarsma23/zenergy",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "arch package",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/arch-package.yml",
+      "term": "arch package"
+    },
+    {
+      "context_snippet": "Build release package",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-package.yml",
+      "term": "Build release package"
+    },
+    {
+      "context_snippet": "Build source tars",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-source.yml",
+      "term": "Build source tars"
+    },
+    {
+      "context_snippet": "Mingw build testing",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mingw.yml",
+      "term": "Mingw build testing"
+    },
+    {
+      "context_snippet": "param check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/param-check.yml",
+      "term": "param check"
+    },
+    {
+      "context_snippet": "Ubuntu build testing",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ubuntu.yml",
+      "term": "Ubuntu build testing"
+    },
+    {
+      "context_snippet": "A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmarking"
+    },
+    {
+      "context_snippet": "A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monitoring"
+    },
+    {
+      "context_snippet": "A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opengl"
+    },
+    {
+      "context_snippet": "A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulkan"
+    }
+  ]
+}

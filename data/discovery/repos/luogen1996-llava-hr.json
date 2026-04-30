@@ -1,0 +1,103 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "luogen1996/LLaVA-HR",
+      "target": "facebookresearch/llama",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "luogen1996/LLaVA-HR",
+      "target": "high-resolution-mllms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "luogen1996/LLaVA-HR",
+      "target": "llama2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "luogen1996/LLaVA-HR",
+      "target": "llms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "luogen1996/LLaVA-HR",
+      "target": "multimodal-chatbot",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:12:02.303450+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12312
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1101
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICLR2025] LLaVA-HR: High-Resolution Large Language-Vision Assistant ",
+    "fork": false,
+    "full_name": "luogen1996/LLaVA-HR",
+    "html_url": "https://github.com/luogen1996/LLaVA-HR",
+    "language": "Python",
+    "pushed_at": "2024-08-14T04:01:10Z",
+    "stargazers_count": 249,
+    "topics": [
+      "high-resolution-mllms",
+      "llama2",
+      "llms",
+      "multimodal-chatbot"
+    ],
+    "updated_at": "2026-04-20T01:02:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/llama",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "high-resolution-mllms"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama2"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llms"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimodal-chatbot"
+    }
+  ]
+}

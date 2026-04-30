@@ -1,0 +1,109 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PingoLH/FCHarDNet",
+      "target": "pingolh/catconv2d",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PingoLH/FCHarDNet",
+      "target": "pingolh/pytorch-hardnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PingoLH/FCHarDNet",
+      "target": "meetshah1995/pytorch-semseg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PingoLH/FCHarDNet",
+      "target": "cityscapes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PingoLH/FCHarDNet",
+      "target": "iccv2019",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PingoLH/FCHarDNet",
+      "target": "semantic-segmentation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:10:32.699092+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4128
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Fully Convolutional HarDNet for Segmentation in Pytorch",
+    "fork": false,
+    "full_name": "PingoLH/FCHarDNet",
+    "html_url": "https://github.com/PingoLH/FCHarDNet",
+    "language": "Python",
+    "pushed_at": "2021-08-16T06:46:47Z",
+    "stargazers_count": 198,
+    "topics": [
+      "cityscapes",
+      "iccv2019",
+      "semantic-segmentation"
+    ],
+    "updated_at": "2025-07-27T07:28:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "meetshah1995/pytorch-semseg",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pingolh/catconv2d",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pingolh/pytorch-hardnet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "- Added a new v2_transform() method to replace torch.cat + nn.Conv2d combinations with [CatConv2d](https://github.com/PingoLH/CatConv2d), an all-in-1 fused cuda kernel combining Concat and Conv2d.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cityscapes"
+    },
+    {
+      "context_snippet": "- Added a new v2_transform() method to replace torch.cat + nn.Conv2d combinations with [CatConv2d](https://github.com/PingoLH/CatConv2d), an all-in-1 fused cuda kernel combining Concat and Conv2d.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iccv2019"
+    },
+    {
+      "context_snippet": "- Added a new v2_transform() method to replace torch.cat + nn.Conv2d combinations with [CatConv2d](https://github.com/PingoLH/CatConv2d), an all-in-1 fused cuda kernel combining Concat and Conv2d.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-segmentation"
+    }
+  ]
+}

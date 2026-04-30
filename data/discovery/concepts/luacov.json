@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "LuaCov"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ColinKennedy/nvim-best-practices-plugin-template",
+      "status": "candidate-context",
+      "text": "A no-nonsense template for making high-quality Neovim plugins. It has all the best opinions, pinky promise"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ColinKennedy/nvim-best-practices-plugin-template",
+      "status": "candidate-context",
+      "text": "LuaCov"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ColinKennedy/nvim-best-practices-plugin-template",
+      "status": "candidate",
+      "text": "LuaCov"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "LuaCov",
+  "concept_id": "luacov",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/luacov.yml",
+      "source_repo": "ColinKennedy/nvim-best-practices-plugin-template"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "LuaCov",
+      "sense_id": "luacov#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

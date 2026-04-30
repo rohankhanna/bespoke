@@ -1,0 +1,167 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Ningsir/pytorch",
+      "target": "twitter/torch-autograd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Ningsir/pytorch",
+      "target": "oneapi-src/onednn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Ningsir/pytorch",
+      "target": "hughperkins/pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_android-build-test.yml",
+      "source_repo": "Ningsir/pytorch",
+      "target": "pytorch/pytorch/.github/actions/checkout-pytorch@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_android-build-test.yml",
+      "source_repo": "Ningsir/pytorch",
+      "target": "android-build-test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_android-full-build-test.yml",
+      "source_repo": "Ningsir/pytorch",
+      "target": "pytorch/pytorch/.github/actions/checkout-pytorch@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_android-full-build-test.yml",
+      "source_repo": "Ningsir/pytorch",
+      "target": "seemethere/upload-artifact-s3@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_android-full-build-test.yml",
+      "source_repo": "Ningsir/pytorch",
+      "target": "android-full-build-test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_bazel-build-test.yml",
+      "source_repo": "Ningsir/pytorch",
+      "target": "pytorch/pytorch/.github/actions/checkout-pytorch@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_bazel-build-test.yml",
+      "source_repo": "Ningsir/pytorch",
+      "target": "bazel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-build-linux.yml",
+      "source_repo": "Ningsir/pytorch",
+      "target": "pytorch/pytorch/.github/actions/checkout-pytorch@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-build-linux.yml",
+      "source_repo": "Ningsir/pytorch",
+      "target": "zhouzhuojie/checkout@05b13c9a0d21f08f6d5e64a1d5042246d13619d9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-build-linux.yml",
+      "source_repo": "Ningsir/pytorch",
+      "target": "seemethere/upload-artifact-s3@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_binary-build-linux.yml",
+      "source_repo": "Ningsir/pytorch",
+      "target": "linux-binary-build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-test-linux.yml",
+      "source_repo": "Ningsir/pytorch",
+      "target": "pytorch/pytorch/.github/actions/checkout-pytorch@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-test-linux.yml",
+      "source_repo": "Ningsir/pytorch",
+      "target": "seemethere/download-artifact-s3@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-test-linux.yml",
+      "source_repo": "Ningsir/pytorch",
+      "target": "zhouzhuojie/checkout@05b13c9a0d21f08f6d5e64a1d5042246d13619d9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-test-linux.yml",
+      "source_repo": "Ningsir/pytorch",
+      "target": "nick-fields/retry@71062288b76e2b6214ebde0e673ce0de1755740a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_binary-test-linux.yml",
+      "source_repo": "Ningsir/pytorch",
+      "target": "linux-binary-test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-upload.yml",
+      "source_repo": "Ningsir/pytorch",
+      "target": "pytorch/pytorch/.github/actions/checkout-pytorch@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-upload.yml",
+      "source_repo": "Ningsir/pytorch",
+      "target": "seemethere/download-artifact-s3@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-upload.yml",
+      "source_repo": "Ningsir/pytorch",
+      "target": "actions/download-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_binary-upload.yml",
+      "source_repo": "Ningsir/pytorch",
+      "target": "upload",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T12:45:20.475770+00:00",
+  "source_repo": "Ningsir/pytorch"
+}

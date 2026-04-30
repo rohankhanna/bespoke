@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T16:04:18.711321+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 279
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Django Enhancement Proposals",
+    "fork": false,
+    "full_name": "django/deps",
+    "html_url": "https://github.com/django/deps",
+    "language": null,
+    "pushed_at": "2026-04-20T12:11:59Z",
+    "stargazers_count": 524,
+    "topics": [],
+    "updated_at": "2026-04-25T02:04:42Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

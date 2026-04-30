@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "ktfmt-gradle"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cortinico/ktfmt-gradle",
+      "status": "candidate-context",
+      "text": "A Gradle plugin to apply ktfmt to your builds, and reformat you Kotlin source code like a glimpse \ud83e\uddf9\ud83d\udc18"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cortinico/ktfmt-gradle",
+      "status": "candidate-context",
+      "text": "A wrapper to apply [ktfmt](https://github.com/facebookincubator/ktfmt) to your Gradle builds, and reformat you Kotlin"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cortinico/ktfmt-gradle",
+      "status": "candidate",
+      "text": "A wrapper to apply [ktfmt](https://github.com/facebookincubator/ktfmt) to your Gradle builds, and reformat you Kotlin"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "ktfmt-gradle",
+  "concept_id": "ktfmt-gradle",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "cortinico/ktfmt-gradle"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ktfmt-gradle",
+      "sense_id": "ktfmt-gradle#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

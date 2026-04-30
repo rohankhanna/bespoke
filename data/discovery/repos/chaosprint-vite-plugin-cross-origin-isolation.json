@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T15:08:20.615067+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1492
+    },
+    {
+      "path": "package.json",
+      "size": 604
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A vite plugin for enabling cross-origin-isolation for dev server.",
+    "fork": false,
+    "full_name": "chaosprint/vite-plugin-cross-origin-isolation",
+    "html_url": "https://github.com/chaosprint/vite-plugin-cross-origin-isolation",
+    "language": "JavaScript",
+    "pushed_at": "2023-07-08T11:03:16Z",
+    "stargazers_count": 77,
+    "topics": [],
+    "updated_at": "2026-01-01T21:41:41Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

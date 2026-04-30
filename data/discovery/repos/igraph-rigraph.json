@@ -1,0 +1,497 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check-dev.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check-dev.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check-dev.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check-dev.yaml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check-status.yaml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-check.yml"
+    },
+    {
+      "component": "addnab/docker-run-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-check.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit-suggest.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit-suggest.yaml"
+    },
+    {
+      "component": "thollander/actions-comment-pull-request@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit-suggest.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yaml"
+    },
+    {
+      "component": "posit-dev/setup-air@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yaml"
+    },
+    {
+      "component": "read",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/each.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/each.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fledge.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format-suggest.yaml"
+    },
+    {
+      "component": "reviewdog/action-suggester@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format-suggest.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "igraph/rigraph",
+      "target": "ropensci/allcontributors",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check-dev.yaml",
+      "source_repo": "igraph/rigraph",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check-dev.yaml",
+      "source_repo": "igraph/rigraph",
+      "target": "r-lib/actions/setup-r@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/R-CMD-check-dev.yaml",
+      "source_repo": "igraph/rigraph",
+      "target": "rcc dev",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check-status.yaml",
+      "source_repo": "igraph/rigraph",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/R-CMD-check-status.yaml",
+      "source_repo": "igraph/rigraph",
+      "target": "rcc-status",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "igraph/rigraph",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "igraph/rigraph",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "igraph/rigraph",
+      "target": "actions/upload-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "igraph/rigraph",
+      "target": "rcc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-check.yml",
+      "source_repo": "igraph/rigraph",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-check.yml",
+      "source_repo": "igraph/rigraph",
+      "target": "addnab/docker-run-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-check.yml",
+      "source_repo": "igraph/rigraph",
+      "target": "R-CMD-check-extra",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit-suggest.yaml",
+      "source_repo": "igraph/rigraph",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit-suggest.yaml",
+      "source_repo": "igraph/rigraph",
+      "target": "actions/download-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit-suggest.yaml",
+      "source_repo": "igraph/rigraph",
+      "target": "thollander/actions-comment-pull-request@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yaml",
+      "source_repo": "igraph/rigraph",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yaml",
+      "source_repo": "igraph/rigraph",
+      "target": "posit-dev/setup-air@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yaml",
+      "source_repo": "igraph/rigraph",
+      "target": "Copilot Setup Steps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/each.yaml",
+      "source_repo": "igraph/rigraph",
+      "target": "read",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/each.yaml",
+      "source_repo": "igraph/rigraph",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/each.yaml",
+      "source_repo": "igraph/rigraph",
+      "target": "each-rcc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fledge.yaml",
+      "source_repo": "igraph/rigraph",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fledge.yaml",
+      "source_repo": "igraph/rigraph",
+      "target": "fledge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format-suggest.yaml",
+      "source_repo": "igraph/rigraph",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format-suggest.yaml",
+      "source_repo": "igraph/rigraph",
+      "target": "reviewdog/action-suggester@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "igraph/rigraph",
+      "target": "complex-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "igraph/rigraph",
+      "target": "graph-algorithms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "igraph/rigraph",
+      "target": "graph-theory",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "igraph/rigraph",
+      "target": "mathematics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "igraph/rigraph",
+      "target": "network-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "igraph/rigraph",
+      "target": "network-graph",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:54:18.125166+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 168228
+    },
+    {
+      "path": ".github/workflows/R-CMD-check-dev.yaml",
+      "size": 4039
+    },
+    {
+      "path": ".github/workflows/R-CMD-check-status.yaml",
+      "size": 2515
+    },
+    {
+      "path": ".github/workflows/R-CMD-check.yaml",
+      "size": 14117
+    },
+    {
+      "path": ".github/workflows/build-and-check.yml",
+      "size": 1281
+    },
+    {
+      "path": ".github/workflows/commit-suggest.yaml",
+      "size": 2981
+    },
+    {
+      "path": ".github/workflows/copilot-setup-steps.yaml",
+      "size": 2070
+    },
+    {
+      "path": ".github/workflows/each.yaml",
+      "size": 1347
+    },
+    {
+      "path": ".github/workflows/fledge.yaml",
+      "size": 3409
+    },
+    {
+      "path": ".github/workflows/format-suggest.yaml",
+      "size": 1818
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "igraph R package",
+    "fork": false,
+    "full_name": "igraph/rigraph",
+    "html_url": "https://github.com/igraph/rigraph",
+    "language": "R",
+    "pushed_at": "2026-04-30T09:10:10Z",
+    "stargazers_count": 611,
+    "topics": [
+      "complex-networks",
+      "graph-algorithms",
+      "graph-theory",
+      "mathematics",
+      "network-analysis",
+      "network-graph",
+      "r"
+    ],
+    "updated_at": "2026-04-30T08:48:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ropensci/allcontributors",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "rcc dev",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/R-CMD-check-dev.yaml",
+      "term": "rcc dev"
+    },
+    {
+      "context_snippet": "rcc-status",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/R-CMD-check-status.yaml",
+      "term": "rcc-status"
+    },
+    {
+      "context_snippet": "rcc",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "term": "rcc"
+    },
+    {
+      "context_snippet": "R-CMD-check-extra",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-check.yml",
+      "term": "R-CMD-check-extra"
+    },
+    {
+      "context_snippet": "\"Copilot Setup Steps\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yaml",
+      "term": "Copilot Setup Steps"
+    },
+    {
+      "context_snippet": "each-rcc",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/each.yaml",
+      "term": "each-rcc"
+    },
+    {
+      "context_snippet": "fledge",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fledge.yaml",
+      "term": "fledge"
+    },
+    {
+      "context_snippet": "<!-- badges: start -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "complex-networks"
+    },
+    {
+      "context_snippet": "<!-- badges: start -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graph-algorithms"
+    },
+    {
+      "context_snippet": "<!-- badges: start -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graph-theory"
+    },
+    {
+      "context_snippet": "<!-- badges: start -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mathematics"
+    },
+    {
+      "context_snippet": "<!-- badges: start -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "network-analysis"
+    },
+    {
+      "context_snippet": "<!-- badges: start -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "network-graph"
+    }
+  ]
+}

@@ -19,6 +19,18 @@
       "source_repo": "evanwashere/mitata",
       "status": "candidate-context",
       "text": "mitata \u2014 benchmark tooling that loves you \u2764\ufe0f"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graalvm/graal-languages-demos",
+      "status": "candidate-context",
+      "text": "Graal Languages - Demos and Guides"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graalvm/graal-languages-demos",
+      "status": "candidate-context",
+      "text": "This repository contains demo applications and guides for [GraalJS](./graaljs), [GraalPy](./graalpy/), [GraalWasm](./graalwasm), and other Graal Languages."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "evanwashere/mitata",
       "status": "candidate",
       "text": "mitata \u2014 benchmark tooling that loves you \u2764\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graalvm/graal-languages-demos",
+      "status": "candidate",
+      "text": "This repository contains demo applications and guides for [GraalJS](./graaljs), [GraalPy](./graalpy/), [GraalWasm](./graalwasm), and other Graal Languages."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "evanwashere/mitata"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "graalvm/graal-languages-demos"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

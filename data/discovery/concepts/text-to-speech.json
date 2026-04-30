@@ -301,6 +301,54 @@
       "source_repo": "lmnt-com/wavegrad",
       "status": "candidate-context",
       "text": "![PyPI Release](https://img.shields.io/pypi/v/wavegrad?label=release) [![License](https://img.shields.io/github/license/lmnt-com/wavegrad)](https://github.com/lmnt-com/wavegrad/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FunAudioLLM/CosyVoice",
+      "status": "candidate-context",
+      "text": "Multi-lingual large voice generation model, providing inference, training and deployment full-stack ability."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FunAudioLLM/CosyVoice",
+      "status": "candidate-context",
+      "text": "![SVG Banners](https://svg-banners.vercel.app/api?type=origin&text1=CosyVoice\ud83e\udd20&text2=Text-to-Speech%20\ud83d\udc96%20Large%20Language%20Model&width=800&height=210)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MiniMax-AI/MiniMax-MCP",
+      "status": "candidate-context",
+      "text": "Official MiniMax Model Context Protocol (MCP) server that enables interaction with powerful Text to Speech, image generation and video generation APIs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MiniMax-AI/MiniMax-MCP",
+      "status": "candidate-context",
+      "text": "![export](https://github.com/MiniMax-AI/MiniMax-01/raw/main/figures/MiniMaxLogo-Light.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MiniMax-AI/MiniMax-AI.github.io",
+      "status": "candidate-context",
+      "text": "The official GitHub Page for MiniMax"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MiniMax-AI/MiniMax-AI.github.io",
+      "status": "candidate-context",
+      "text": "Welcome to the official GitHub Page for MiniMax."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shivammehta25/Matcha-TTS",
+      "status": "candidate-context",
+      "text": "[ICASSP 2024] \ud83c\udf75 Matcha-TTS: A fast TTS architecture with conditional flow matching"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shivammehta25/Matcha-TTS",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -453,6 +501,30 @@
       "source_repo": "lmnt-com/wavegrad",
       "status": "candidate",
       "text": "![PyPI Release](https://img.shields.io/pypi/v/wavegrad?label=release) [![License](https://img.shields.io/github/license/lmnt-com/wavegrad)](https://github.com/lmnt-com/wavegrad/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FunAudioLLM/CosyVoice",
+      "status": "candidate",
+      "text": "![SVG Banners](https://svg-banners.vercel.app/api?type=origin&text1=CosyVoice\ud83e\udd20&text2=Text-to-Speech%20\ud83d\udc96%20Large%20Language%20Model&width=800&height=210)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MiniMax-AI/MiniMax-MCP",
+      "status": "candidate",
+      "text": "![export](https://github.com/MiniMax-AI/MiniMax-01/raw/main/figures/MiniMaxLogo-Light.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MiniMax-AI/MiniMax-AI.github.io",
+      "status": "candidate",
+      "text": "Welcome to the official GitHub Page for MiniMax."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shivammehta25/Matcha-TTS",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -610,11 +682,35 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "lmnt-com/wavegrad"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "FunAudioLLM/CosyVoice"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "MiniMax-AI/MiniMax-MCP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "MiniMax-AI/MiniMax-AI.github.io"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "shivammehta25/Matcha-TTS"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

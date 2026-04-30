@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Official repository for the paper Approximate Fast Foreground Colour Estimation. ICIP 2021."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Official repository for the paper [Approximate Fast Foreground Colour Estimation](https://ieeexplore.ieee.org/document/9506164). ICIP 2021."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Official repository for the paper [Approximate Fast Foreground Colour Estimation](https://ieeexplore.ieee.org/document/9506164). ICIP 2021."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39931294,
+      "status": "candidate",
+      "text": "complex"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39863097,
+      "status": "candidate",
+      "text": "impure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39720868,
+      "status": "candidate",
+      "text": "corinthian"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29960004,
+      "status": "candidate",
+      "text": "composite plant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29960003,
+      "status": "candidate",
+      "text": "composition"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "compositing",
+      "sense_id": "compositing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "compositing",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "compositing",
+  "observation_id": "0fdd3a2d10518525",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "compositing",
+  "source_context_snippet": "Official repository for the paper [Approximate Fast Foreground Colour Estimation](https://ieeexplore.ieee.org/document/9506164). ICIP 2021.",
+  "source_file": null,
+  "source_repo": "Photoroom/fast-foreground-estimation",
+  "source_repo_description": "Official repository for the paper Approximate Fast Foreground Colour Estimation. ICIP 2021."
+}

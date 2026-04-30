@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Packaging check pre-release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ocaml/dune",
+      "status": "candidate-context",
+      "text": "A composable build system for OCaml."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml/dune",
+      "status": "candidate-context",
+      "text": "Packaging check pre-release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml/dune",
+      "status": "candidate",
+      "text": "Packaging check pre-release"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19321,
+      "status": "candidate",
+      "text": "draft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11290,
+      "status": "candidate",
+      "text": "introductory"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11290,
+      "status": "candidate",
+      "text": "preliminary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10867,
+      "status": "candidate",
+      "text": "boxes"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10857,
+      "status": "candidate",
+      "text": "cellophane"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Packaging check pre-release",
+  "concept_id": "packaging-check-pre-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/isolated-package-build-pre-release.yml",
+      "source_repo": "ocaml/dune"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Packaging check pre-release",
+      "sense_id": "packaging-check-pre-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

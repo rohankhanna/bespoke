@@ -220,6 +220,30 @@
       "source_repo": "mherrmann/helium",
       "status": "candidate-context",
       "text": "Helium is a Python library for automating browsers such as Chrome and Firefox."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla/application-services",
+      "status": "candidate-context",
+      "text": "Firefox Application Services"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla/application-services",
+      "status": "candidate-context",
+      "text": "Application Services (a-s) is a collection of Rust Components that are used to enable Firefox applications to integrate with Firefox accounts, sync, experimentation, etc. Each component is built using a core of shared code written in Rust, wrapped with native language bindings f\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "addfox/addfox",
+      "status": "candidate-context",
+      "text": "\ud83e\udde9 Accelerate your browser extension development. Built on Rsbuild \u2014 fast, simple, and free"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "addfox/addfox",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -330,6 +354,18 @@
       "source_repo": "mherrmann/helium",
       "status": "candidate",
       "text": "Helium is a Python library for automating browsers such as Chrome and Firefox."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla/application-services",
+      "status": "candidate",
+      "text": "Application Services (a-s) is a collection of Rust Components that are used to enable Firefox applications to integrate with Firefox accounts, sync, experimentation, etc. Each component is built using a core of shared code written in Rust, wrapped with native language bindings f\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "addfox/addfox",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -541,11 +577,35 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "mherrmann/helium"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "mozilla/application-services"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "web-platform-tests/wpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "addfox/addfox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "preactjs/preact-devtools"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

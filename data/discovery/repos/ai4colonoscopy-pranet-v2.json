@@ -1,0 +1,191 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ai4colonoscopy/PraNet-V2",
+      "target": "sldgroup/cascade",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ai4colonoscopy/PraNet-V2",
+      "target": "sldgroup/merit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ai4colonoscopy/PraNet-V2",
+      "target": "rahman-motiur/mist",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ai4colonoscopy/PraNet-V2",
+      "target": "sldgroup/emcad",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai4colonoscopy/PraNet-V2",
+      "target": "colonoscopy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai4colonoscopy/PraNet-V2",
+      "target": "medical-image-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai4colonoscopy/PraNet-V2",
+      "target": "medical-image-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai4colonoscopy/PraNet-V2",
+      "target": "multi-class-segmenation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai4colonoscopy/PraNet-V2",
+      "target": "multi-organ-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai4colonoscopy/PraNet-V2",
+      "target": "polyp-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai4colonoscopy/PraNet-V2",
+      "target": "pranet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai4colonoscopy/PraNet-V2",
+      "target": "reverse-attention",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:10:27.823922+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13131
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "PraNet-V2: Upgrading PraNet from binary (V1) to multi-class (V2) segmentation . Support both Jittor & PyTorch DL frameworks.",
+    "fork": false,
+    "full_name": "ai4colonoscopy/PraNet-V2",
+    "html_url": "https://github.com/ai4colonoscopy/PraNet-V2",
+    "language": "Python",
+    "pushed_at": "2026-03-21T04:04:02Z",
+    "stargazers_count": 32,
+    "topics": [
+      "colonoscopy",
+      "medical-image-analysis",
+      "medical-image-segmentation",
+      "multi-class-segmenation",
+      "multi-organ-segmentation",
+      "polyp-segmentation",
+      "pranet",
+      "reverse-attention"
+    ],
+    "updated_at": "2026-04-14T03:09:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rahman-motiur/mist",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sldgroup/cascade",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sldgroup/emcad",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sldgroup/merit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<h1 align=\"center\">PraNet-V2: Dual-Supervised Reverse Attention for Medical Image Segmentation</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "colonoscopy"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">PraNet-V2: Dual-Supervised Reverse Attention for Medical Image Segmentation</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "medical-image-analysis"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">PraNet-V2: Dual-Supervised Reverse Attention for Medical Image Segmentation</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "medical-image-segmentation"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">PraNet-V2: Dual-Supervised Reverse Attention for Medical Image Segmentation</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-class-segmenation"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">PraNet-V2: Dual-Supervised Reverse Attention for Medical Image Segmentation</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-organ-segmentation"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">PraNet-V2: Dual-Supervised Reverse Attention for Medical Image Segmentation</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "polyp-segmentation"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">PraNet-V2: Dual-Supervised Reverse Attention for Medical Image Segmentation</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pranet"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">PraNet-V2: Dual-Supervised Reverse Attention for Medical Image Segmentation</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reverse-attention"
+    }
+  ]
+}

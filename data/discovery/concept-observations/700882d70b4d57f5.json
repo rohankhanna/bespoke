@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[TMLR 2025] Latte: Latent Diffusion Transformer for Video Generation. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Stale Issues Policy"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Stale Issues Policy"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33902,
+      "status": "candidate",
+      "text": "glasnost"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25728,
+      "status": "candidate",
+      "text": "matters"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25728,
+      "status": "candidate",
+      "text": "policies"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25728,
+      "status": "candidate",
+      "text": "political"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25728,
+      "status": "candidate",
+      "text": "politics"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Stale Issues Policy",
+      "sense_id": "stale-issues-policy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "stale-issues-policy",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "stale-issues-policy",
+  "observation_id": "700882d70b4d57f5",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "Stale Issues Policy",
+  "source_context_snippet": "Stale Issues Policy",
+  "source_file": ".github/workflows/stale-issues.yaml",
+  "source_repo": "Vchitect/Latte",
+  "source_repo_description": "[TMLR 2025] Latte: Latent Diffusion Transformer for Video Generation. "
+}

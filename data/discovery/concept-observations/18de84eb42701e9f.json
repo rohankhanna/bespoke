@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A VS Code plugin for the Nim language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This extension adds language support for the Nim language to VS Code, including:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This extension adds language support for the Nim language to VS Code, including:"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29947937,
+      "status": "candidate",
+      "text": "plug-in"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29934082,
+      "status": "candidate",
+      "text": "component"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29932866,
+      "status": "candidate",
+      "text": "connect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29915202,
+      "status": "candidate",
+      "text": "add-on"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29913236,
+      "status": "candidate",
+      "text": "addition"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "plugin",
+      "sense_id": "plugin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "plugin",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "plugin",
+  "observation_id": "18de84eb42701e9f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "plugin",
+  "source_context_snippet": "This extension adds language support for the Nim language to VS Code, including:",
+  "source_file": null,
+  "source_repo": "nim-lang/vscode-nim",
+  "source_repo_description": "A VS Code plugin for the Nim language"
+}

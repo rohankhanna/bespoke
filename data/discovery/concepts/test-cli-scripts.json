@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test CLI scripts"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "datalab-to/marker",
+      "status": "candidate-context",
+      "text": "Convert PDF to markdown + JSON quickly with high accuracy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datalab-to/marker",
+      "status": "candidate-context",
+      "text": "Test CLI scripts"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datalab-to/marker",
+      "status": "candidate",
+      "text": "Test CLI scripts"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15240,
+      "status": "candidate",
+      "text": "scenarios"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14358,
+      "status": "candidate",
+      "text": "determinative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14358,
+      "status": "candidate",
+      "text": "erg"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14358,
+      "status": "candidate",
+      "text": "killer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14358,
+      "status": "candidate",
+      "text": "shebang"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test CLI scripts",
+  "concept_id": "test-cli-scripts",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/scripts.yml",
+      "source_repo": "datalab-to/marker"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test CLI scripts",
+      "sense_id": "test-cli-scripts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

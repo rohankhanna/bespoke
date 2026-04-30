@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Files which can be used to test PDF readers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "File Size Check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "File Size Check"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33825,
+      "status": "candidate",
+      "text": "gap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33825,
+      "status": "candidate",
+      "text": "gapped"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33825,
+      "status": "candidate",
+      "text": "gsp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26398,
+      "status": "candidate",
+      "text": "sizes"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25732,
+      "status": "candidate",
+      "text": "suss"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "File Size Check",
+      "sense_id": "file-size-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "file-size-check",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "file-size-check",
+  "observation_id": "ec58c637930bfac9",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "File Size Check",
+  "source_context_snippet": "File Size Check",
+  "source_file": ".github/workflows/file-size-check.yaml",
+  "source_repo": "py-pdf/sample-files",
+  "source_repo_description": "Files which can be used to test PDF readers"
+}

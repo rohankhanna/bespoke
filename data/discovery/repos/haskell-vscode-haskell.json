@@ -186,28 +186,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "haskell/vscode-haskell",
-      "target": "haskell/haskell-language-server",
+      "target": "lspitzner/brittany",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "haskell/vscode-haskell",
-      "target": "ennocramer/floskell",
+      "target": "ndmitchell/hlint",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "haskell/vscode-haskell",
-      "target": "fourmolu/fourmolu",
+      "target": "mpickering/apply-refact",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "haskell/vscode-haskell",
-      "target": "haskell/stylish-haskell",
+      "target": "justusadam/language-haskell",
       "target_type": "repository"
     },
     {
@@ -498,7 +498,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T01:25:08.210224+00:00",
+  "fetched_at": "2026-04-30T14:09:15.427439+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -530,7 +530,7 @@
     "full_name": "haskell/vscode-haskell",
     "html_url": "https://github.com/haskell/vscode-haskell",
     "language": "TypeScript",
-    "pushed_at": "2026-03-29T15:01:22Z",
+    "pushed_at": "2026-04-29T15:54:39Z",
     "stargazers_count": 591,
     "topics": [
       "haskell",
@@ -541,27 +541,27 @@
       "vscode",
       "vscode-extension"
     ],
-    "updated_at": "2026-03-27T01:13:14Z"
+    "updated_at": "2026-04-29T15:54:36Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "ennocramer/floskell",
+      "full_name": "justusadam/language-haskell",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "fourmolu/fourmolu",
+      "full_name": "lspitzner/brittany",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "haskell/haskell-language-server",
+      "full_name": "mpickering/apply-refact",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "haskell/stylish-haskell",
+      "full_name": "ndmitchell/hlint",
       "source_file": "README.md"
     }
   ],

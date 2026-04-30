@@ -1,0 +1,12 @@
+{
+  "component": "taiki-e/install-action@ae97ff9daf1cd2e216671a047d80ff48461e30bb",
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "Enselic/cargo-public-api"
+    }
+  ]
+}

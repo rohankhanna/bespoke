@@ -19,6 +19,18 @@
       "source_repo": "CyanAsterisk/FreeCar",
       "status": "candidate-context",
       "text": "![FreeCar](img/FreeCar.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudwego/hertz-examples",
+      "status": "candidate-context",
+      "text": "Examples for Hertz."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudwego/hertz-examples",
+      "status": "candidate-context",
+      "text": "English | [\u4e2d\u6587](README_CN.md)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "CyanAsterisk/FreeCar",
       "status": "candidate",
       "text": "![FreeCar](img/FreeCar.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudwego/hertz-examples",
+      "status": "candidate",
+      "text": "English | [\u4e2d\u6587](README_CN.md)"
     }
   ],
   "candidate_related_terms": [
@@ -98,11 +116,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "CyanAsterisk/FreeCar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "cloudwego/hertz-examples"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

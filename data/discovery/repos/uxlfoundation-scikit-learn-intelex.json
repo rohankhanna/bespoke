@@ -188,20 +188,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "uxlfoundation/scikit-learn-intelex",
-      "target": "intelpython/scikit-learn_bench",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "pyproject.toml",
-      "source_repo": "uxlfoundation/scikit-learn-intelex",
-      "target": "scikit-learn/scikit-learn",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "uxlfoundation/scikit-learn-intelex",
@@ -461,7 +447,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T21:42:22.823986+00:00",
+  "fetched_at": "2026-04-30T14:05:16.179157+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -509,7 +495,7 @@
     "full_name": "uxlfoundation/scikit-learn-intelex",
     "html_url": "https://github.com/uxlfoundation/scikit-learn-intelex",
     "language": "Python",
-    "pushed_at": "2026-04-29T20:59:27Z",
+    "pushed_at": "2026-04-30T09:48:36Z",
     "stargazers_count": 1338,
     "topics": [
       "ai-inference",
@@ -527,20 +513,9 @@
       "scikit-learn",
       "swrepo"
     ],
-    "updated_at": "2026-04-29T20:59:34Z"
+    "updated_at": "2026-04-30T09:48:41Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "intelpython/scikit-learn_bench",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "scikit-learn/scikit-learn",
-      "source_file": "pyproject.toml"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "codecov",

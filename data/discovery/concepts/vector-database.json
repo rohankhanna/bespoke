@@ -175,6 +175,18 @@
       "source_repo": "bhavuklabs/research4j",
       "status": "candidate-context",
       "text": "**Intelligent Research Automation Library with Dynamic Reasoning and Citation Management**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "deven96/ahnlich",
+      "status": "candidate-context",
+      "text": "Suite of tools containing an in-memory vector datastore and AI proxy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deven96/ahnlich",
+      "status": "candidate-context",
+      "text": "<p align=\"left\"><img src=\"assets/logo.jpg\" alt=\"ahnlich\" height=\"120px\"></p>"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +273,12 @@
       "source_repo": "bhavuklabs/research4j",
       "status": "candidate",
       "text": "**Intelligent Research Automation Library with Dynamic Reasoning and Citation Management**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deven96/ahnlich",
+      "status": "candidate",
+      "text": "<p align=\"left\"><img src=\"assets/logo.jpg\" alt=\"ahnlich\" height=\"120px\"></p>"
     }
   ],
   "candidate_related_terms": [],
@@ -394,11 +412,29 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "bhavuklabs/research4j"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "run-llama/llama_index"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "redis-developer/redis-product-search"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "deven96/ahnlich"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

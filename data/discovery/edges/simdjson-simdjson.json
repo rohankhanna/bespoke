@@ -4,7 +4,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "simdjson/simdjson",
-      "target": "egorbo/simdjsonsharp",
+      "target": "google/paxml",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "simdjson/simdjson",
+      "target": "intel/pcm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "simdjson/simdjson",
+      "target": "gerrymanoim/libpy_simdjson",
       "target_type": "repository"
     },
     {
@@ -12,20 +26,6 @@
       "source_file": "README.md",
       "source_repo": "simdjson/simdjson",
       "target": "chompert/simdjson_erlang",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "simdjson/simdjson",
-      "target": "fouriertransformer/lua-simdjson",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "simdjson/simdjson",
-      "target": "ezequielramis/zimdjson",
       "target_type": "repository"
     },
     {
@@ -365,6 +365,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "generated_at": "2026-04-30T12:45:20.475770+00:00",
   "source_repo": "simdjson/simdjson"
 }

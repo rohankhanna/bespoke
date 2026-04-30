@@ -31,6 +31,18 @@
       "source_repo": "standard-schema/standard-schema",
       "status": "candidate-context",
       "text": "Pullfrog"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hey-api/openapi-ts",
+      "status": "candidate-context",
+      "text": "\ud83c\udf00 OpenAPI to TypeScript codegen. Production-ready SDKs, Zod schemas, TanStack Query hooks, and 20+ plugins. Used by Vercel, OpenCode, and PayPal."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hey-api/openapi-ts",
+      "status": "candidate-context",
+      "text": "Pullfrog"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "standard-schema/standard-schema",
+      "status": "candidate",
+      "text": "Pullfrog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hey-api/openapi-ts",
       "status": "candidate",
       "text": "Pullfrog"
     }
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/pullfrog.yml",
       "source_repo": "standard-schema/standard-schema"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/pullfrog.yml",
+      "source_repo": "hey-api/openapi-ts"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

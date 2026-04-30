@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "TSAN"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "filecoin-project/cpp-filecoin",
+      "status": "candidate-context",
+      "text": "C++17 implementation of Filecoin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filecoin-project/cpp-filecoin",
+      "status": "candidate-context",
+      "text": "TSAN"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filecoin-project/cpp-filecoin",
+      "status": "candidate",
+      "text": "TSAN"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18680282,
+      "status": "candidate",
+      "text": "ning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8682790,
+      "status": "candidate",
+      "text": "tsay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8682789,
+      "status": "candidate",
+      "text": "tian"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8682788,
+      "status": "candidate",
+      "text": "tsao"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8682787,
+      "status": "candidate",
+      "text": "tsou"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "TSAN",
+  "concept_id": "tsan",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/tsan.yml",
+      "source_repo": "filecoin-project/cpp-filecoin"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "TSAN",
+      "sense_id": "tsan#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

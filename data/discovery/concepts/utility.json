@@ -211,6 +211,30 @@
       "source_repo": "2KAbhishek/pickme.nvim",
       "status": "candidate-context",
       "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/octohub.nvim",
+      "status": "candidate-context",
+      "text": "All Your GitHub repos and more in Neovim \ud83d\udc19\ud83d\udee0\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/octohub.nvim",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/git-sync",
+      "status": "candidate-context",
+      "text": "Hassle Free Git Syncing \ud83d\udc19\ud83d\udd04"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/git-sync",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
     }
   ],
   "candidate_glosses": [
@@ -313,6 +337,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "2KAbhishek/pickme.nvim",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/octohub.nvim",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/git-sync",
       "status": "candidate",
       "text": "<div align = \"center\">"
     }
@@ -502,11 +538,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "2KAbhishek/pickme.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/octohub.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/git-sync"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

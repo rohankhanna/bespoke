@@ -1,0 +1,83 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "othneildrew/Best-README-Template",
+      "target": "github_username/repo_name",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "othneildrew/Best-README-Template",
+      "target": "your_username/repo_name",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "othneildrew/Best-README-Template",
+      "target": "readme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "othneildrew/Best-README-Template",
+      "target": "readme-template",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:14:15.840188+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10852
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An awesome README template to jumpstart your projects! ",
+    "fork": false,
+    "full_name": "othneildrew/Best-README-Template",
+    "html_url": "https://github.com/othneildrew/Best-README-Template",
+    "language": null,
+    "pushed_at": "2026-04-18T12:39:32Z",
+    "stargazers_count": 16046,
+    "topics": [
+      "readme",
+      "readme-template"
+    ],
+    "updated_at": "2026-04-30T13:25:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "github_username/repo_name",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "your_username/repo_name",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "readme"
+    },
+    {
+      "context_snippet": "<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "readme-template"
+    }
+  ]
+}

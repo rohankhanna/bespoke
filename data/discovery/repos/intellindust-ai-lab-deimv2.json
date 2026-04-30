@@ -1,0 +1,129 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Intellindust-AI-Lab/DEIMv2",
+      "target": "lightly-ai/lightly-train",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Intellindust-AI-Lab/DEIMv2",
+      "target": "shihuahuang95/deim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Intellindust-AI-Lab/DEIMv2",
+      "target": "detection-transformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Intellindust-AI-Lab/DEIMv2",
+      "target": "dinov3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Intellindust-AI-Lab/DEIMv2",
+      "target": "object-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Intellindust-AI-Lab/DEIMv2",
+      "target": "real-time",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Intellindust-AI-Lab/DEIMv2",
+      "target": "real-time-detection",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:15:15.443237+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 22503
+    },
+    {
+      "path": "requirements.txt",
+      "size": 104
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[DEIMv2] Real Time Object Detection Meets DINOv3 ",
+    "fork": false,
+    "full_name": "Intellindust-AI-Lab/DEIMv2",
+    "html_url": "https://github.com/Intellindust-AI-Lab/DEIMv2",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-03-24T02:12:14Z",
+    "stargazers_count": 1733,
+    "topics": [
+      "detection-transformer",
+      "dinov3",
+      "object-detection",
+      "real-time",
+      "real-time-detection"
+    ],
+    "updated_at": "2026-04-30T09:13:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lightly-ai/lightly-train",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shihuahuang95/deim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<h2 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "detection-transformer"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dinov3"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-detection"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "real-time"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "real-time-detection"
+    }
+  ]
+}

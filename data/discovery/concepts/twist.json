@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "twist"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HansZ8/RoboJuDo",
+      "status": "candidate-context",
+      "text": "A plug-and-play deploy framework for robots. Just deploy, just do."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HansZ8/RoboJuDo",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HansZ8/RoboJuDo",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40024387,
+      "status": "candidate",
+      "text": "bend"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40023889,
+      "status": "candidate",
+      "text": "whirl"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40023423,
+      "status": "candidate",
+      "text": "winding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40020570,
+      "status": "candidate",
+      "text": "wrick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40016947,
+      "status": "candidate",
+      "text": "writhe"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34035,
+      "status": "candidate",
+      "text": "wriggle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26035,
+      "status": "candidate",
+      "text": "distort"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25035,
+      "status": "candidate",
+      "text": "pervert"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19037,
+      "status": "candidate",
+      "text": "writhe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18039,
+      "status": "candidate",
+      "text": "whirl"
+    }
+  ],
+  "canonical_name": "twist",
+  "concept_id": "twist",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "HansZ8/RoboJuDo"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "twist",
+      "sense_id": "twist#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

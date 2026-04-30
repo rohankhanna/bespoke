@@ -1,0 +1,156 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "isl-org/ZoeDepth",
+      "target": "adaptive-bins",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "isl-org/ZoeDepth",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "isl-org/ZoeDepth",
+      "target": "depth-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "isl-org/ZoeDepth",
+      "target": "metric-depth-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "isl-org/ZoeDepth",
+      "target": "monocular-depth-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "isl-org/ZoeDepth",
+      "target": "neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "isl-org/ZoeDepth",
+      "target": "pretrained-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "isl-org/ZoeDepth",
+      "target": "transformers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "isl-org/ZoeDepth",
+      "target": "zero-shot-transfer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:53:37.556958+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8380
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Metric depth estimation from a single image",
+    "fork": false,
+    "full_name": "isl-org/ZoeDepth",
+    "html_url": "https://github.com/isl-org/ZoeDepth",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-05-05T18:18:49Z",
+    "stargazers_count": 2822,
+    "topics": [
+      "adaptive-bins",
+      "deep-learning",
+      "depth-estimation",
+      "metric-depth-estimation",
+      "monocular-depth-estimation",
+      "neural-networks",
+      "pretrained-models",
+      "transformers",
+      "zero-shot-transfer"
+    ],
+    "updated_at": "2026-04-29T11:17:18Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This project will no longer be maintained by Intel.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adaptive-bins"
+    },
+    {
+      "context_snippet": "This project will no longer be maintained by Intel.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "This project will no longer be maintained by Intel.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "depth-estimation"
+    },
+    {
+      "context_snippet": "This project will no longer be maintained by Intel.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "metric-depth-estimation"
+    },
+    {
+      "context_snippet": "This project will no longer be maintained by Intel.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monocular-depth-estimation"
+    },
+    {
+      "context_snippet": "This project will no longer be maintained by Intel.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-networks"
+    },
+    {
+      "context_snippet": "This project will no longer be maintained by Intel.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pretrained-models"
+    },
+    {
+      "context_snippet": "This project will no longer be maintained by Intel.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformers"
+    },
+    {
+      "context_snippet": "This project will no longer be maintained by Intel.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zero-shot-transfer"
+    }
+  ]
+}

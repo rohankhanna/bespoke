@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "clean-architecture"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ardalis/CleanArchitecture",
+      "status": "candidate-context",
+      "text": "Clean Architecture Solution Template: A proven Clean Architecture Template for ASP.NET Core 10"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ardalis/CleanArchitecture",
+      "status": "candidate-context",
+      "text": "[![.NET Core](https://github.com/ardalis/CleanArchitecture/workflows/.NET%20Core/badge.svg)](https://github.com/ardalis/CleanArchitecture/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet-architecture/eShopOnWeb",
+      "status": "candidate-context",
+      "text": "Sample ASP.NET Core 8.0 reference application, now community supported: https://github.com/NimblePros/eShopOnWeb"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet-architecture/eShopOnWeb",
+      "status": "candidate-context",
+      "text": "> eShop sample applications have been updated and moved to https://github.com/dotnet/eShop. Active development will continue there. We also recommend the [Reliable Web App](https://learn.microsoft.com/azure/architecture/web-apps/guides/reliable-web-app/overview) patterns guidanc\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ardalis/GuardClauses",
+      "status": "candidate-context",
+      "text": "A simple package with guard clause extensions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ardalis/GuardClauses",
+      "status": "candidate-context",
+      "text": "![logo](media/logotype%201024.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NimblePros/eShopOnWeb",
+      "status": "candidate-context",
+      "text": "Sample ASP.NET Core 10.0 reference application, powered by Microsoft, demonstrating a domain-centric application architecture with monolithic deployment model."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NimblePros/eShopOnWeb",
+      "status": "candidate-context",
+      "text": "This Microsoft reference application is now being maintained by [NimblePros](https://nimblepros.com/)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ardalis/CleanArchitecture",
+      "status": "candidate",
+      "text": "[![.NET Core](https://github.com/ardalis/CleanArchitecture/workflows/.NET%20Core/badge.svg)](https://github.com/ardalis/CleanArchitecture/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet-architecture/eShopOnWeb",
+      "status": "candidate",
+      "text": "> eShop sample applications have been updated and moved to https://github.com/dotnet/eShop. Active development will continue there. We also recommend the [Reliable Web App](https://learn.microsoft.com/azure/architecture/web-apps/guides/reliable-web-app/overview) patterns guidanc\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ardalis/GuardClauses",
+      "status": "candidate",
+      "text": "![logo](media/logotype%201024.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NimblePros/eShopOnWeb",
+      "status": "candidate",
+      "text": "This Microsoft reference application is now being maintained by [NimblePros](https://nimblepros.com/)."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "clean-architecture",
+  "concept_id": "clean-architecture",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ardalis/CleanArchitecture"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "dotnet-architecture/eShopOnWeb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ardalis/GuardClauses"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "NimblePros/eShopOnWeb"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "clean-architecture",
+      "sense_id": "clean-architecture#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -871,6 +871,90 @@
       "source_repo": "datawhalechina/tiny-universe",
       "status": "candidate-context",
       "text": "<div align=center>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "czg1225/CoDe",
+      "status": "candidate-context",
+      "text": "[CVPR 2025] CoDe: Collaborative Decoding Makes Visual Auto-Regressive Modeling Efficient"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "czg1225/CoDe",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chaitjo/learning-tsp",
+      "status": "candidate-context",
+      "text": "Code for the paper 'Learning TSP Requires Rethinking Generalization' (CP 2021)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaitjo/learning-tsp",
+      "status": "candidate-context",
+      "text": "This repository contains code for the paper [**\"Learning TSP Requires Rethinking Generalization\"**](https://arxiv.org/abs/2006.07054) by Chaitanya K. Joshi, Quentin Cappart, Louis-Martin Rousseau, Thomas Laurent, accepted to the **27th International Conference on Principles and \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PKU-Alignment/safe-rlhf",
+      "status": "candidate-context",
+      "text": "Safe RLHF: Constrained Value Alignment via Safe Reinforcement Learning from Human Feedback"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PKU-Alignment/safe-rlhf",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable first-line-h1 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "isl-org/ZoeDepth",
+      "status": "candidate-context",
+      "text": "Metric depth estimation from a single image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isl-org/ZoeDepth",
+      "status": "candidate-context",
+      "text": "This project will no longer be maintained by Intel."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "golsun/DialogRPT",
+      "status": "candidate-context",
+      "text": "EMNLP 2020: \"Dialogue Response Ranking Training with Large-Scale Human Feedback Data\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "golsun/DialogRPT",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grammarly/gector",
+      "status": "candidate-context",
+      "text": "Official implementation of the papers \"GECToR \u2013 Grammatical Error Correction: Tag, Not Rewrite\" (BEA-20) and \"Text Simplification by Tagging\" (BEA-21)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grammarly/gector",
+      "status": "candidate-context",
+      "text": "This repository provides code for training and testing state-of-the-art models for grammatical error correction with the official PyTorch implementation of the following paper:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/generative-ai-for-beginners",
+      "status": "candidate-context",
+      "text": "21 Lessons, Get Started Building with Generative AI "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/generative-ai-for-beginners",
+      "status": "candidate-context",
+      "text": "![Generative AI For Beginners](./images/repo-thumbnailv4-fixed.png?WT.mc_id=academic-105485-koreyst)"
     }
   ],
   "candidate_glosses": [
@@ -1305,6 +1389,48 @@
       "source_repo": "datawhalechina/tiny-universe",
       "status": "candidate",
       "text": "<div align=center>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "czg1225/CoDe",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaitjo/learning-tsp",
+      "status": "candidate",
+      "text": "This repository contains code for the paper [**\"Learning TSP Requires Rethinking Generalization\"**](https://arxiv.org/abs/2006.07054) by Chaitanya K. Joshi, Quentin Cappart, Louis-Martin Rousseau, Thomas Laurent, accepted to the **27th International Conference on Principles and \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PKU-Alignment/safe-rlhf",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable first-line-h1 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isl-org/ZoeDepth",
+      "status": "candidate",
+      "text": "This project will no longer be maintained by Intel."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "golsun/DialogRPT",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grammarly/gector",
+      "status": "candidate",
+      "text": "This repository provides code for training and testing state-of-the-art models for grammatical error correction with the official PyTorch implementation of the following paper:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/generative-ai-for-beginners",
+      "status": "candidate",
+      "text": "![Generative AI For Beginners](./images/repo-thumbnailv4-fixed.png?WT.mc_id=academic-105485-koreyst)"
     }
   ],
   "candidate_related_terms": [
@@ -1918,11 +2044,101 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "datawhalechina/tiny-universe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "AutoGPTQ/AutoGPTQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/finetrainers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "czg1225/CoDe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "intel/ipex-llm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "EleutherAI/gpt-neo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "chaitjo/learning-tsp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "qubvel-org/segmentation_models.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "TinyLLaVA/TinyLLaVA_Factory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "PKU-Alignment/safe-rlhf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/ZoeDepth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "golsun/DialogRPT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "iflytek/cino"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "grammarly/gector"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/generative-ai-for-beginners"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

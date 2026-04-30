@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T15:53:35.392700+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 954
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "camenduru/PuLID-jupyter",
+    "html_url": "https://github.com/camenduru/PuLID-jupyter",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-11-09T23:14:45Z",
+    "stargazers_count": 32,
+    "topics": [],
+    "updated_at": "2025-06-23T12:50:55Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

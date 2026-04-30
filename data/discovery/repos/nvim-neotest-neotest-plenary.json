@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nvim-neotest/neotest-plenary",
+      "target": "rcarriga/neotest",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nvim-neotest/neotest-plenary",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nvim-neotest/neotest-plenary",
+      "target": "plenary",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:08:12.609609+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1193
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "nvim-neotest/neotest-plenary",
+    "html_url": "https://github.com/nvim-neotest/neotest-plenary",
+    "language": "Lua",
+    "pushed_at": "2024-09-15T15:21:03Z",
+    "stargazers_count": 49,
+    "topics": [
+      "lua",
+      "neovim",
+      "plenary"
+    ],
+    "updated_at": "2025-08-31T21:31:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rcarriga/neotest",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[Neotest](https://github.com/rcarriga/neotest) adapter for [plenary.nvim](https://github.com/nvim-lua/plenary.nvim) busted tests.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "[Neotest](https://github.com/rcarriga/neotest) adapter for [plenary.nvim](https://github.com/nvim-lua/plenary.nvim) busted tests.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plenary"
+    }
+  ]
+}

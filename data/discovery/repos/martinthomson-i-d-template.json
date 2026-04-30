@@ -1,0 +1,168 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/template.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "martinthomson/i-d-template",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "martinthomson/i-d-template",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "martinthomson/i-d-template",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "martinthomson/i-d-template",
+      "target": "docker/build-push-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "martinthomson/i-d-template",
+      "target": "Update Docker Image for GitHub Action",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/template.yml",
+      "source_repo": "martinthomson/i-d-template",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/template.yml",
+      "source_repo": "martinthomson/i-d-template",
+      "target": "Validate Workflows in Template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "martinthomson/i-d-template",
+      "target": "ietf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "martinthomson/i-d-template",
+      "target": "internet-draft",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:54:09.948615+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 926
+    },
+    {
+      "path": "requirements.txt",
+      "size": 64
+    },
+    {
+      "path": ".github/workflows/docker.yml",
+      "size": 3388
+    },
+    {
+      "path": ".github/workflows/template.yml",
+      "size": 1567
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A template for IETF internet draft git repositories",
+    "fork": false,
+    "full_name": "martinthomson/i-d-template",
+    "html_url": "https://github.com/martinthomson/i-d-template",
+    "language": "Makefile",
+    "pushed_at": "2026-04-12T13:43:03Z",
+    "stargazers_count": 251,
+    "topics": [
+      "ietf",
+      "internet-draft",
+      "rfc"
+    ],
+    "updated_at": "2026-04-19T20:26:32Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"Update Docker Image for GitHub Action\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "term": "Update Docker Image for GitHub Action"
+    },
+    {
+      "context_snippet": "\"Validate Workflows in Template\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/template.yml",
+      "term": "Validate Workflows in Template"
+    },
+    {
+      "context_snippet": "The contents of this repository can be used to manage the editing of an",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ietf"
+    },
+    {
+      "context_snippet": "The contents of this repository can be used to manage the editing of an",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "internet-draft"
+    }
+  ]
+}

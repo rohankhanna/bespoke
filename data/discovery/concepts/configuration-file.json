@@ -19,6 +19,18 @@
       "source_repo": "status-im/nim-toml-serialization",
       "status": "candidate-context",
       "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "motdotla/dotenv",
+      "status": "candidate-context",
+      "text": "Loads environment variables from .env for nodejs projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "motdotla/dotenv",
+      "status": "candidate-context",
+      "text": "<a href=\"https://dotenvx.com/?utm_source=github&utm_medium=readme&utm_campaign=motdotla-dotenv&utm_content=banner\"><img src=\"https://dotenvx.com/dotenv-banner.png\" alt=\"dotenvx\" /></a>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "status-im/nim-toml-serialization",
       "status": "candidate",
       "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "motdotla/dotenv",
+      "status": "candidate",
+      "text": "<a href=\"https://dotenvx.com/?utm_source=github&utm_medium=readme&utm_campaign=motdotla-dotenv&utm_content=banner\"><img src=\"https://dotenvx.com/dotenv-banner.png\" alt=\"dotenvx\" /></a>"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "status-im/nim-toml-serialization"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "motdotla/dotenv"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

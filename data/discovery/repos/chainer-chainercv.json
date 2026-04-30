@@ -1,0 +1,115 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chainer/chainercv",
+      "target": "chainer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chainer/chainercv",
+      "target": "chainercv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chainer/chainercv",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chainer/chainercv",
+      "target": "cupy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chainer/chainercv",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chainer/chainercv",
+      "target": "neural-network",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:58:52.534610+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4301
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "ChainerCV: a Library for Deep Learning in Computer Vision",
+    "fork": false,
+    "full_name": "chainer/chainercv",
+    "html_url": "https://github.com/chainer/chainercv",
+    "language": "Python",
+    "pushed_at": "2021-07-01T16:54:50Z",
+    "stargazers_count": 1483,
+    "topics": [
+      "chainer",
+      "chainercv",
+      "computer-vision",
+      "cupy",
+      "deep-learning",
+      "neural-network",
+      "python"
+    ],
+    "updated_at": "2026-03-31T06:16:39Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![](docs/images/logo.png)](http://chainercv.readthedocs.io/en/stable/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chainer"
+    },
+    {
+      "context_snippet": "[![](docs/images/logo.png)](http://chainercv.readthedocs.io/en/stable/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chainercv"
+    },
+    {
+      "context_snippet": "[![](docs/images/logo.png)](http://chainercv.readthedocs.io/en/stable/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "[![](docs/images/logo.png)](http://chainercv.readthedocs.io/en/stable/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cupy"
+    },
+    {
+      "context_snippet": "[![](docs/images/logo.png)](http://chainercv.readthedocs.io/en/stable/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "[![](docs/images/logo.png)](http://chainercv.readthedocs.io/en/stable/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-network"
+    }
+  ]
+}

@@ -379,6 +379,30 @@
       "source_repo": "gajus/eslint-plugin-sql",
       "status": "candidate-context",
       "text": "<a name=\"user-content-eslint-plugin-sql\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gxmari007/vite-plugin-eslint",
+      "status": "candidate-context",
+      "text": "\ud83d\udea8  ESLint plugin for vite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gxmari007/vite-plugin-eslint",
+      "status": "candidate-context",
+      "text": "[![npm](https://img.shields.io/npm/v/vite-plugin-eslint)](https://www.npmjs.com/package/vite-plugin-eslint)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "electron-react-boilerplate/electron-react-boilerplate",
+      "status": "candidate-context",
+      "text": "A Foundation for Scalable Cross-Platform Apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron-react-boilerplate/electron-react-boilerplate",
+      "status": "candidate-context",
+      "text": "<img src=\".erb/img/erb-banner.svg\" width=\"100%\" />"
     }
   ],
   "candidate_glosses": [
@@ -567,6 +591,18 @@
       "source_repo": "gajus/eslint-plugin-sql",
       "status": "candidate",
       "text": "<a name=\"user-content-eslint-plugin-sql\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gxmari007/vite-plugin-eslint",
+      "status": "candidate",
+      "text": "[![npm](https://img.shields.io/npm/v/vite-plugin-eslint)](https://www.npmjs.com/package/vite-plugin-eslint)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron-react-boilerplate/electron-react-boilerplate",
+      "status": "candidate",
+      "text": "<img src=\".erb/img/erb-banner.svg\" width=\"100%\" />"
     }
   ],
   "candidate_related_terms": [
@@ -976,11 +1012,53 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "gajus/eslint-plugin-sql"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "gxmari007/vite-plugin-eslint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "electron-react-boilerplate/electron-react-boilerplate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "graphql-hive/graphql-eslint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "lint-staged/lint-staged"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "mightyiam/eslint-config-love"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "standard/standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "standard/snazzy"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

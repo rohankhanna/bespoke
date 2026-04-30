@@ -1,0 +1,654 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-self-hosted.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-self-hosted.yml"
+    },
+    {
+      "component": "benchmark-action/github-action-benchmark@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-self-hosted.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml"
+    },
+    {
+      "component": "actions/jekyll-build-pages@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-acppllvm.yml"
+    },
+    {
+      "component": "beacon-biosignals/matrix-output@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-acppllvm.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-acppllvm.yml"
+    },
+    {
+      "component": "hendrikmuhs/ccache-action@v1.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-acppllvm.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-lit.yml"
+    },
+    {
+      "component": "beacon-biosignals/matrix-output@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-lit.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-lit.yml"
+    },
+    {
+      "component": "hendrikmuhs/ccache-action@v1.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-lit.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-lit.yml"
+    },
+    {
+      "component": "hendrikmuhs/ccache-action@v1.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-lit.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-self-hosted.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-self-hosted.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-self-hosted.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "beacon-biosignals/matrix-output@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "hendrikmuhs/ccache-action@v1.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "jlumbroso/free-disk-space@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-acppllvm.yml"
+    },
+    {
+      "component": "hendrikmuhs/ccache-action@v1.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-acppllvm.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-metal.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AdaptiveCpp/AdaptiveCpp",
+      "target": "illuhad/hipsycl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-self-hosted.yml",
+      "source_repo": "AdaptiveCpp/AdaptiveCpp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-self-hosted.yml",
+      "source_repo": "AdaptiveCpp/AdaptiveCpp",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-self-hosted.yml",
+      "source_repo": "AdaptiveCpp/AdaptiveCpp",
+      "target": "benchmark-action/github-action-benchmark@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark-self-hosted.yml",
+      "source_repo": "AdaptiveCpp/AdaptiveCpp",
+      "target": "Benchmark on self-hosted runners",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "AdaptiveCpp/AdaptiveCpp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "AdaptiveCpp/AdaptiveCpp",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "AdaptiveCpp/AdaptiveCpp",
+      "target": "actions/jekyll-build-pages@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "AdaptiveCpp/AdaptiveCpp",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "AdaptiveCpp/AdaptiveCpp",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "AdaptiveCpp/AdaptiveCpp",
+      "target": "Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-acppllvm.yml",
+      "source_repo": "AdaptiveCpp/AdaptiveCpp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-acppllvm.yml",
+      "source_repo": "AdaptiveCpp/AdaptiveCpp",
+      "target": "beacon-biosignals/matrix-output@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-acppllvm.yml",
+      "source_repo": "AdaptiveCpp/AdaptiveCpp",
+      "target": "hendrikmuhs/ccache-action@v1.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-acppllvm.yml",
+      "source_repo": "AdaptiveCpp/AdaptiveCpp",
+      "target": "AdaptiveCpp-LLVM",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-lit.yml",
+      "source_repo": "AdaptiveCpp/AdaptiveCpp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-lit.yml",
+      "source_repo": "AdaptiveCpp/AdaptiveCpp",
+      "target": "beacon-biosignals/matrix-output@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-lit.yml",
+      "source_repo": "AdaptiveCpp/AdaptiveCpp",
+      "target": "hendrikmuhs/ccache-action@v1.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-lit.yml",
+      "source_repo": "AdaptiveCpp/AdaptiveCpp",
+      "target": "Linux LIT tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-self-hosted.yml",
+      "source_repo": "AdaptiveCpp/AdaptiveCpp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-self-hosted.yml",
+      "source_repo": "AdaptiveCpp/AdaptiveCpp",
+      "target": "Self-hosted CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "AdaptiveCpp/AdaptiveCpp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "AdaptiveCpp/AdaptiveCpp",
+      "target": "beacon-biosignals/matrix-output@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "AdaptiveCpp/AdaptiveCpp",
+      "target": "hendrikmuhs/ccache-action@v1.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "AdaptiveCpp/AdaptiveCpp",
+      "target": "jlumbroso/free-disk-space@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "AdaptiveCpp/AdaptiveCpp",
+      "target": "Linux build and test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-acppllvm.yml",
+      "source_repo": "AdaptiveCpp/AdaptiveCpp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-acppllvm.yml",
+      "source_repo": "AdaptiveCpp/AdaptiveCpp",
+      "target": "hendrikmuhs/ccache-action@v1.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos-acppllvm.yml",
+      "source_repo": "AdaptiveCpp/AdaptiveCpp",
+      "target": "AdaptiveCpp-LLVM macOS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-metal.yml",
+      "source_repo": "AdaptiveCpp/AdaptiveCpp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos-metal.yml",
+      "source_repo": "AdaptiveCpp/AdaptiveCpp",
+      "target": "macOS Metal backend",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "AdaptiveCpp/AdaptiveCpp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "AdaptiveCpp/AdaptiveCpp",
+      "target": "macOS build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdaptiveCpp/AdaptiveCpp",
+      "target": "adaptivecpp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdaptiveCpp/AdaptiveCpp",
+      "target": "compiler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdaptiveCpp/AdaptiveCpp",
+      "target": "gpgpu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdaptiveCpp/AdaptiveCpp",
+      "target": "gpu-computing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdaptiveCpp/AdaptiveCpp",
+      "target": "high-performance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdaptiveCpp/AdaptiveCpp",
+      "target": "high-performance-computing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdaptiveCpp/AdaptiveCpp",
+      "target": "hipsycl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdaptiveCpp/AdaptiveCpp",
+      "target": "opensycl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdaptiveCpp/AdaptiveCpp",
+      "target": "stdpar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdaptiveCpp/AdaptiveCpp",
+      "target": "sycl",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:10:46.957997+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8497
+    },
+    {
+      "path": ".github/workflows/benchmark-self-hosted.yml",
+      "size": 2260
+    },
+    {
+      "path": ".github/workflows/documentation.yml",
+      "size": 1355
+    },
+    {
+      "path": ".github/workflows/linux-acppllvm.yml",
+      "size": 5650
+    },
+    {
+      "path": ".github/workflows/linux-lit.yml",
+      "size": 8078
+    },
+    {
+      "path": ".github/workflows/linux-self-hosted.yml",
+      "size": 9332
+    },
+    {
+      "path": ".github/workflows/linux.yml",
+      "size": 8482
+    },
+    {
+      "path": ".github/workflows/macos-acppllvm.yml",
+      "size": 3557
+    },
+    {
+      "path": ".github/workflows/macos-metal.yml",
+      "size": 3332
+    },
+    {
+      "path": ".github/workflows/macos.yml",
+      "size": 1127
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Compiler for multiple programming models (SYCL, C++ standard parallelism, HIP/CUDA) for CPUs and GPUs from all vendors: The independent, community-driven compiler for C++-based heterogeneous programming models. Lets applications adapt themselves to all the hardware in the system - even at runtime!",
+    "fork": false,
+    "full_name": "AdaptiveCpp/AdaptiveCpp",
+    "html_url": "https://github.com/AdaptiveCpp/AdaptiveCpp",
+    "language": "C++",
+    "pushed_at": "2026-04-29T20:24:02Z",
+    "stargazers_count": 1838,
+    "topics": [
+      "adaptivecpp",
+      "compiler",
+      "gpgpu",
+      "gpu-computing",
+      "high-performance",
+      "high-performance-computing",
+      "hipsycl",
+      "hpc",
+      "opensycl",
+      "stdpar",
+      "sycl"
+    ],
+    "updated_at": "2026-04-30T14:16:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "illuhad/hipsycl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Benchmark on self-hosted runners",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark-self-hosted.yml",
+      "term": "Benchmark on self-hosted runners"
+    },
+    {
+      "context_snippet": "Documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/documentation.yml",
+      "term": "Documentation"
+    },
+    {
+      "context_snippet": "AdaptiveCpp-LLVM",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-acppllvm.yml",
+      "term": "AdaptiveCpp-LLVM"
+    },
+    {
+      "context_snippet": "Linux LIT tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-lit.yml",
+      "term": "Linux LIT tests"
+    },
+    {
+      "context_snippet": "Self-hosted CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-self-hosted.yml",
+      "term": "Self-hosted CI"
+    },
+    {
+      "context_snippet": "Linux build and test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux.yml",
+      "term": "Linux build and test"
+    },
+    {
+      "context_snippet": "AdaptiveCpp-LLVM macOS",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos-acppllvm.yml",
+      "term": "AdaptiveCpp-LLVM macOS"
+    },
+    {
+      "context_snippet": "macOS Metal backend",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos-metal.yml",
+      "term": "macOS Metal backend"
+    },
+    {
+      "context_snippet": "macOS build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos.yml",
+      "term": "macOS build"
+    },
+    {
+      "context_snippet": "![Project logo](/doc/img/logo/logo-color.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adaptivecpp"
+    },
+    {
+      "context_snippet": "![Project logo](/doc/img/logo/logo-color.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compiler"
+    },
+    {
+      "context_snippet": "![Project logo](/doc/img/logo/logo-color.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpgpu"
+    },
+    {
+      "context_snippet": "![Project logo](/doc/img/logo/logo-color.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpu-computing"
+    },
+    {
+      "context_snippet": "![Project logo](/doc/img/logo/logo-color.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "high-performance"
+    },
+    {
+      "context_snippet": "![Project logo](/doc/img/logo/logo-color.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "high-performance-computing"
+    },
+    {
+      "context_snippet": "![Project logo](/doc/img/logo/logo-color.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hipsycl"
+    },
+    {
+      "context_snippet": "![Project logo](/doc/img/logo/logo-color.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opensycl"
+    },
+    {
+      "context_snippet": "![Project logo](/doc/img/logo/logo-color.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stdpar"
+    },
+    {
+      "context_snippet": "![Project logo](/doc/img/logo/logo-color.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sycl"
+    }
+  ]
+}

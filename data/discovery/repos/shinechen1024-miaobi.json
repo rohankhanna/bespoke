@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T13:09:07.356922+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2260
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Chinese Stable Diffusion, zh SD,\u4e2d\u6587\u6587\u751f\u56fe\uff0c\u4e2d\u6587SD\uff0c\u4e2d\u6587Stable Diffusion",
+    "fork": false,
+    "full_name": "ShineChen1024/MiaoBi",
+    "html_url": "https://github.com/ShineChen1024/MiaoBi",
+    "language": "Python",
+    "pushed_at": "2024-03-11T10:34:14Z",
+    "stargazers_count": 49,
+    "topics": [],
+    "updated_at": "2025-05-25T15:32:35Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

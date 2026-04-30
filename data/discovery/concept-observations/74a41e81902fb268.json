@@ -79,7 +79,7 @@
   "normalized_form": "labeler-promotion",
   "observation_id": "74a41e81902fb268",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
   "observed_text": "Labeler: Promotion",
   "source_context_snippet": "\"Labeler: Promotion\"",
   "source_file": ".github/workflows/labeler-promote.yml",

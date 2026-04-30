@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "CSS minifier with structural optimizations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![NPM version](https://img.shields.io/npm/v/csso.svg)](https://www.npmjs.com/package/csso)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![NPM version](https://img.shields.io/npm/v/csso.svg)](https://www.npmjs.com/package/csso)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "css-minifier",
+      "sense_id": "css-minifier#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "css-minifier",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "css-minifier",
+  "observation_id": "e3816b2c76202c0f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "css-minifier",
+  "source_context_snippet": "[![NPM version](https://img.shields.io/npm/v/csso.svg)](https://www.npmjs.com/package/csso)",
+  "source_file": null,
+  "source_repo": "css/csso",
+  "source_repo_description": "CSS minifier with structural optimizations"
+}

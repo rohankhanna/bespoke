@@ -91,6 +91,30 @@
       "source_repo": "jest-community/eslint-plugin-jest",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dangreenisrael/eslint-plugin-jest-formatting",
+      "status": "candidate-context",
+      "text": "ESLint rules for formatting test suites written for jest."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dangreenisrael/eslint-plugin-jest-formatting",
+      "status": "candidate-context",
+      "text": "[![CircleCI](https://circleci.com/gh/dangreenisrael/eslint-plugin-jest-formatting/tree/master.svg?style=svg)](https://circleci.com/gh/dangreenisrael/eslint-plugin-jest-formatting/tree/master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jest-community/jest-extended",
+      "status": "candidate-context",
+      "text": "Additional Jest matchers \ud83c\udccf\ud83d\udcaa"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jest-community/jest-extended",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -133,6 +157,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "jest-community/eslint-plugin-jest",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dangreenisrael/eslint-plugin-jest-formatting",
+      "status": "candidate",
+      "text": "[![CircleCI](https://circleci.com/gh/dangreenisrael/eslint-plugin-jest-formatting/tree/master.svg?style=svg)](https://circleci.com/gh/dangreenisrael/eslint-plugin-jest-formatting/tree/master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jest-community/jest-extended",
       "status": "candidate",
       "text": "<div align=\"center\">"
     }
@@ -274,11 +310,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "jest-community/eslint-plugin-jest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "dangreenisrael/eslint-plugin-jest-formatting"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "jest-community/jest-extended"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

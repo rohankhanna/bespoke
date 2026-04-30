@@ -1,0 +1,130 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jkkummerfeld/text2sql-data",
+      "target": "database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jkkummerfeld/text2sql-data",
+      "target": "dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jkkummerfeld/text2sql-data",
+      "target": "dynet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jkkummerfeld/text2sql-data",
+      "target": "evaluation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jkkummerfeld/text2sql-data",
+      "target": "natural-language-interface",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jkkummerfeld/text2sql-data",
+      "target": "natural-language-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jkkummerfeld/text2sql-data",
+      "target": "neural-network",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:12:37.412685+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8249
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A collection of datasets that pair questions with SQL queries.",
+    "fork": false,
+    "full_name": "jkkummerfeld/text2sql-data",
+    "html_url": "https://github.com/jkkummerfeld/text2sql-data",
+    "language": "Python",
+    "pushed_at": "2025-03-03T21:19:10Z",
+    "stargazers_count": 587,
+    "topics": [
+      "database",
+      "dataset",
+      "dynet",
+      "evaluation",
+      "natural-language-interface",
+      "natural-language-processing",
+      "neural-network",
+      "nlp",
+      "sql"
+    ],
+    "updated_at": "2026-04-07T01:43:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository contains data and code for building and evaluating systems that map sentences to SQL, developed as part of:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "database"
+    },
+    {
+      "context_snippet": "This repository contains data and code for building and evaluating systems that map sentences to SQL, developed as part of:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataset"
+    },
+    {
+      "context_snippet": "This repository contains data and code for building and evaluating systems that map sentences to SQL, developed as part of:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dynet"
+    },
+    {
+      "context_snippet": "This repository contains data and code for building and evaluating systems that map sentences to SQL, developed as part of:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "evaluation"
+    },
+    {
+      "context_snippet": "This repository contains data and code for building and evaluating systems that map sentences to SQL, developed as part of:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "natural-language-interface"
+    },
+    {
+      "context_snippet": "This repository contains data and code for building and evaluating systems that map sentences to SQL, developed as part of:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "natural-language-processing"
+    },
+    {
+      "context_snippet": "This repository contains data and code for building and evaluating systems that map sentences to SQL, developed as part of:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-network"
+    }
+  ]
+}

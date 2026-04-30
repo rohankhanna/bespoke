@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "gunicorn 'Green Unicorn' is a WSGI HTTP Server for UNIX, fast clients and sleepy applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Embedding Service Integration Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Embedding Service Integration Tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34731,
+      "status": "candidate",
+      "text": "battleship"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32399,
+      "status": "candidate",
+      "text": "kosher"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32354,
+      "status": "candidate",
+      "text": "assimilate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32354,
+      "status": "candidate",
+      "text": "centralization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31883,
+      "status": "candidate",
+      "text": "consideration"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Embedding Service Integration Tests",
+      "sense_id": "embedding-service-integration-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "embedding-service-integration-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "embedding-service-integration-tests",
+  "observation_id": "7f8456cd79ca7ad8",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "Embedding Service Integration Tests",
+  "source_context_snippet": "Embedding Service Integration Tests",
+  "source_file": ".github/workflows/embedding-integration.yml",
+  "source_repo": "benoitc/gunicorn",
+  "source_repo_description": "gunicorn 'Green Unicorn' is a WSGI HTTP Server for UNIX, fast clients and sleepy applications."
+}

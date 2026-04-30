@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bzhangGo/lrn",
+      "target": "lightweight-recurrent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bzhangGo/lrn",
+      "target": "recurrent-neural-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bzhangGo/lrn",
+      "target": "sequence-modeling",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:13:22.703101+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4881
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Source code for \"A Lightweight Recurrent Network for Sequence Modeling\"",
+    "fork": false,
+    "full_name": "bzhangGo/lrn",
+    "html_url": "https://github.com/bzhangGo/lrn",
+    "language": "Python",
+    "pushed_at": "2022-12-07T23:53:38Z",
+    "stargazers_count": 26,
+    "topics": [
+      "lightweight-recurrent",
+      "recurrent-neural-network",
+      "sequence-modeling"
+    ],
+    "updated_at": "2025-11-07T13:16:07Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Source code for \"A Lightweight Recurrent Network for Sequence Modeling\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lightweight-recurrent"
+    },
+    {
+      "context_snippet": "Source code for \"A Lightweight Recurrent Network for Sequence Modeling\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "recurrent-neural-network"
+    },
+    {
+      "context_snippet": "Source code for \"A Lightweight Recurrent Network for Sequence Modeling\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sequence-modeling"
+    }
+  ]
+}

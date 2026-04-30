@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Test build package"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dbfixtures/pytest-postgresql",
+      "status": "candidate-context",
+      "text": "This is a pytest plugin, that enables you to test your code that relies on a running PostgreSQL Database. It allows you to specify fixtures for PostgreSQL process and client."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dbfixtures/pytest-postgresql",
+      "status": "candidate-context",
+      "text": "Test build package"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dbfixtures/mirakuru",
+      "status": "candidate-context",
+      "text": "Mirakuru - a python library that starts your subprocess and waits for a clear indication, that it's running (process orchestrator)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dbfixtures/mirakuru",
+      "status": "candidate-context",
+      "text": "Test build package"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dbfixtures/pytest-postgresql",
+      "status": "candidate",
+      "text": "Test build package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dbfixtures/mirakuru",
+      "status": "candidate",
+      "text": "Test build package"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18110,
+      "status": "candidate",
+      "text": "put"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18034,
+      "status": "candidate",
+      "text": "come"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18034,
+      "status": "candidate",
+      "text": "documentation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18034,
+      "status": "candidate",
+      "text": "file"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18034,
+      "status": "candidate",
+      "text": "program"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test build package",
+  "concept_id": "test-build-package",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dbfixtures/pytest-postgresql"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dbfixtures/mirakuru"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test build package",
+      "sense_id": "test-build-package#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

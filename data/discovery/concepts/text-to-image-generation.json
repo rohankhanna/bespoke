@@ -55,6 +55,18 @@
       "source_repo": "NVlabs/Sana",
       "status": "candidate-context",
       "text": "<p align=\"center\" style=\"border-radius: 10px\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ByteVisionLab/TokenFlow",
+      "status": "candidate-context",
+      "text": "[CVPR 2025] \ud83d\udd25 Official impl. of \"TokenFlow: Unified Image Tokenizer for Multimodal Understanding and Generation\"."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ByteVisionLab/TokenFlow",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "NVlabs/Sana",
       "status": "candidate",
       "text": "<p align=\"center\" style=\"border-radius: 10px\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ByteVisionLab/TokenFlow",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "NVlabs/Sana"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ByteVisionLab/TokenFlow"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

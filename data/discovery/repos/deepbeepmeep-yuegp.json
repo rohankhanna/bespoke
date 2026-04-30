@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "deepbeepmeep/YuEGP",
+      "target": "woct0rdho/triton-windows",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "deepbeepmeep/YuEGP",
+      "target": "multimodal-art-projection/yue",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:08:18.944097+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15182
+    },
+    {
+      "path": "requirements.txt",
+      "size": 179
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "YuE: Open Full-song Generation Foundation for the GPU Poor",
+    "fork": true,
+    "full_name": "deepbeepmeep/YuEGP",
+    "html_url": "https://github.com/deepbeepmeep/YuEGP",
+    "language": "Python",
+    "pushed_at": "2025-02-14T01:08:08Z",
+    "stargazers_count": 470,
+    "topics": [],
+    "updated_at": "2026-04-26T15:56:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "multimodal-art-projection/yue",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "woct0rdho/triton-windows",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

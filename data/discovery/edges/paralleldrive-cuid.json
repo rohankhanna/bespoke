@@ -4,13 +4,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "paralleldrive/cuid",
-      "target": "endyjasmi/cuid",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "paralleldrive/cuid",
       "target": "duailibe/cuid",
       "target_type": "repository"
     },
@@ -19,6 +12,13 @@
       "source_file": "README.md",
       "source_repo": "paralleldrive/cuid",
       "target": "crabmusket/hscuid",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "paralleldrive/cuid",
+      "target": "grantcarthew/deno-cuid",
       "target_type": "repository"
     },
     {
@@ -127,6 +127,6 @@
       "target_type": "component"
     }
   ],
-  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "generated_at": "2026-04-30T12:45:20.475770+00:00",
   "source_repo": "paralleldrive/cuid"
 }

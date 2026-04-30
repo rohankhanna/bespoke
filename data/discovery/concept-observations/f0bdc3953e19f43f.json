@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Eclipse SUMO is an open source, highly portable, microscopic and continuous traffic simulation package designed to handle large networks. It allows for intermodal simulation including pedestrians and comes with a large set of tools for scenario creation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<a href=\"https://sumo.dlr.de/docs\"><p align=\"center\"><img width=50% src=\"https://raw.githubusercontent.com/eclipse/sumo/main/docs/web/docs/images/sumo-logo.svg\"></p></a>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<a href=\"https://sumo.dlr.de/docs\"><p align=\"center\"><img width=50% src=\"https://raw.githubusercontent.com/eclipse/sumo/main/docs/web/docs/images/sumo-logo.svg\"></p></a>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39955693,
+      "status": "candidate",
+      "text": "analogy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39881671,
+      "status": "candidate",
+      "text": "pretending"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39878768,
+      "status": "candidate",
+      "text": "model"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39874328,
+      "status": "candidate",
+      "text": "pretense"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39873199,
+      "status": "candidate",
+      "text": "feigning"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "simulation",
+      "sense_id": "simulation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 33077,
+      "status": "candidate",
+      "text": "model"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31033,
+      "status": "candidate",
+      "text": "pretense"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29030,
+      "status": "candidate",
+      "text": "pretence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28061,
+      "status": "candidate",
+      "text": "analogy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10022,
+      "status": "candidate",
+      "text": "feigning"
+    }
+  ],
+  "concept_id": "simulation",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "simulation",
+  "observation_id": "f0bdc3953e19f43f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "simulation",
+  "source_context_snippet": "<a href=\"https://sumo.dlr.de/docs\"><p align=\"center\"><img width=50% src=\"https://raw.githubusercontent.com/eclipse/sumo/main/docs/web/docs/images/sumo-logo.svg\"></p></a>",
+  "source_file": null,
+  "source_repo": "eclipse-sumo/sumo",
+  "source_repo_description": "Eclipse SUMO is an open source, highly portable, microscopic and continuous traffic simulation package designed to handle large networks. It allows for intermodal simulation including pedestrians and comes with a large set of tools for scenario creation."
+}

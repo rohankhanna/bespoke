@@ -68,6 +68,30 @@
       "source_repo": "jest-community/eslint-plugin-jest",
       "status": "candidate-context",
       "text": "Smoke test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "php/phd",
+      "status": "candidate-context",
+      "text": "PHD"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "php/phd",
+      "status": "candidate-context",
+      "text": "Smoke test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jest-community/eslint-plugin-jest-extended",
+      "status": "candidate-context",
+      "text": "Eslint plugin for https://github.com/jest-community/jest-extended"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jest-community/eslint-plugin-jest-extended",
+      "status": "candidate-context",
+      "text": "Smoke test"
     }
   ],
   "candidate_glosses": [
@@ -98,6 +122,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "jest-community/eslint-plugin-jest",
+      "status": "candidate",
+      "text": "Smoke test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "php/phd",
+      "status": "candidate",
+      "text": "Smoke test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jest-community/eslint-plugin-jest-extended",
       "status": "candidate",
       "text": "Smoke test"
     }
@@ -173,11 +209,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/smoke-test.yml",
       "source_repo": "jest-community/eslint-plugin-jest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "php/phd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/smoke-test.yml",
+      "source_repo": "jest-community/eslint-plugin-jest-extended"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

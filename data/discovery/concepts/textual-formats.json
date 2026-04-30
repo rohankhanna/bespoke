@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "textual-formats"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FasterXML/jackson-dataformats-text",
+      "status": "candidate-context",
+      "text": "Uber-project for (some) standard Jackson textual format backends: csv, properties, yaml (xml to be added in future)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FasterXML/jackson-dataformats-text",
+      "status": "candidate-context",
+      "text": "This is a multi-module umbrella project for [Jackson](../../../jackson)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FasterXML/jackson-dataformats-text",
+      "status": "candidate",
+      "text": "This is a multi-module umbrella project for [Jackson](../../../jackson)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "textual-formats",
+  "concept_id": "textual-formats",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "FasterXML/jackson-dataformats-text"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "textual-formats",
+      "sense_id": "textual-formats#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

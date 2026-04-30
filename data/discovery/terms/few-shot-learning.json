@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -41,6 +41,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "reasoning-machines/CoCoGen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "yizhongw/Tk-Instruct"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ucbdrive/few-shot-object-detection"
     }
   ],
   "term": "few-shot-learning"

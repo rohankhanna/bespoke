@@ -1,0 +1,125 @@
+{
+  "aliases": [
+    "Run Pytest Tests",
+    "Run pytest tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hshi74/toddlerbot",
+      "status": "candidate-context",
+      "text": "Run Pytest Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dbfixtures/pytest-postgresql",
+      "status": "candidate-context",
+      "text": "This is a pytest plugin, that enables you to test your code that relies on a running PostgreSQL Database. It allows you to specify fixtures for PostgreSQL process and client."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dbfixtures/pytest-postgresql",
+      "status": "candidate-context",
+      "text": "Run pytest tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hshi74/toddlerbot",
+      "status": "candidate",
+      "text": "Run Pytest Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dbfixtures/pytest-postgresql",
+      "status": "candidate",
+      "text": "Run pytest tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28809,
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28809,
+      "status": "candidate",
+      "text": "tested"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28748,
+      "status": "candidate",
+      "text": "testing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12409,
+      "status": "candidate",
+      "text": "experiment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12409,
+      "status": "candidate",
+      "text": "pilot"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Run Pytest Tests",
+  "concept_id": "run-pytest-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/pytest_ci.yml",
+      "source_repo": "hshi74/toddlerbot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/dockerised-postgres.yml",
+      "source_repo": "dbfixtures/pytest-postgresql"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/oldest-postgres.yml",
+      "source_repo": "dbfixtures/pytest-postgresql"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Run Pytest Tests",
+      "sense_id": "run-pytest-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

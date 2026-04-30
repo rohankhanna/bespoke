@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-files.yaml",
+      "source_repo": "autowarefoundation/autoware-projects",
+      "target": "autowarefoundation/autoware-github-actions/.github/workflows/check-secret.yaml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-files.yaml",
+      "source_repo": "autowarefoundation/autoware-projects",
+      "target": "tibdex/github-app-token@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-files.yaml",
+      "source_repo": "autowarefoundation/autoware-projects",
+      "target": "autowarefoundation/autoware-github-actions/sync-files@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-files.yaml",
+      "source_repo": "autowarefoundation/autoware-projects",
+      "target": "sync-files",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autowarefoundation/autoware-projects",
+      "target": "autoware",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T12:45:20.475770+00:00",
+  "source_repo": "autowarefoundation/autoware-projects"
+}

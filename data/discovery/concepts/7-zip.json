@@ -19,6 +19,18 @@
       "source_repo": "mcmilk/7-Zip-zstd",
       "status": "candidate-context",
       "text": "This is the Github Page of [7-Zip] ZS with support of additional Codecs. The library used therefore is located here: [Multithreading Library](https://github.com/mcmilk/zstdmt)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "miurahr/py7zr",
+      "status": "candidate-context",
+      "text": "7zip in python3 with ZStandard, PPMd, LZMA2, LZMA1, Delta, BCJ, BZip2, and Deflate compressions, and AES encryption."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "miurahr/py7zr",
+      "status": "candidate-context",
+      "text": "======================================"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "mcmilk/7-Zip-zstd",
       "status": "candidate",
       "text": "This is the Github Page of [7-Zip] ZS with support of additional Codecs. The library used therefore is located here: [Multithreading Library](https://github.com/mcmilk/zstdmt)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "miurahr/py7zr",
+      "status": "candidate",
+      "text": "======================================"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "mcmilk/7-Zip-zstd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "miurahr/py7zr"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

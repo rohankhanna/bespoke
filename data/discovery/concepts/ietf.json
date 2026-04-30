@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "ietf"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "martinthomson/i-d-template",
+      "status": "candidate-context",
+      "text": "A template for IETF internet draft git repositories"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "martinthomson/i-d-template",
+      "status": "candidate-context",
+      "text": "The contents of this repository can be used to manage the editing of an"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "martinthomson/i-d-template",
+      "status": "candidate",
+      "text": "The contents of this repository can be used to manage the editing of an"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10027103,
+      "status": "candidate",
+      "text": "rfcs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10027102,
+      "status": "candidate",
+      "text": "nntp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10027101,
+      "status": "candidate",
+      "text": "ieee"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10027100,
+      "status": "candidate",
+      "text": "sccp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10027099,
+      "status": "candidate",
+      "text": "sntp"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "ietf",
+  "concept_id": "ietf",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "martinthomson/i-d-template"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ietf",
+      "sense_id": "ietf#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

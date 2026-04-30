@@ -1,0 +1,190 @@
+{
+  "components": [
+    {
+      "component": "@actions/artifact",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@actions/core",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@bundle-stats/cli-utils",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@bundle-stats/utils",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "got",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lodash",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/example.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/example.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "vio/bundle-stats-action",
+      "target": "@actions/artifact",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "vio/bundle-stats-action",
+      "target": "@actions/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "vio/bundle-stats-action",
+      "target": "@bundle-stats/cli-utils",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "vio/bundle-stats-action",
+      "target": "@bundle-stats/utils",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "vio/bundle-stats-action",
+      "target": "got",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "vio/bundle-stats-action",
+      "target": "lodash",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/example.yml",
+      "source_repo": "vio/bundle-stats-action",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/example.yml",
+      "source_repo": "vio/bundle-stats-action",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/example.yml",
+      "source_repo": "vio/bundle-stats-action",
+      "target": "Example",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vio/bundle-stats-action",
+      "target": "bundle-size",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vio/bundle-stats-action",
+      "target": "bundle-stats",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vio/bundle-stats-action",
+      "target": "github-action",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:51:23.293759+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2940
+    },
+    {
+      "path": "package.json",
+      "size": 634
+    },
+    {
+      "path": ".github/workflows/example.yml",
+      "size": 823
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Generates bundle-stats reports for webpack stats.",
+    "fork": false,
+    "full_name": "vio/bundle-stats-action",
+    "html_url": "https://github.com/vio/bundle-stats-action",
+    "language": "JavaScript",
+    "pushed_at": "2024-10-29T16:15:31Z",
+    "stargazers_count": 20,
+    "topics": [
+      "bundle-size",
+      "bundle-stats",
+      "github-action"
+    ],
+    "updated_at": "2026-03-04T06:01:11Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Example",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/example.yml",
+      "term": "Example"
+    },
+    {
+      "context_snippet": "This action generates [bundle-stats](https://github.com/relative-ci/bundle-stats) reports for webpack stats and sets the total bundle size as status description for the commit.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bundle-size"
+    },
+    {
+      "context_snippet": "This action generates [bundle-stats](https://github.com/relative-ci/bundle-stats) reports for webpack stats and sets the total bundle size as status description for the commit.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bundle-stats"
+    },
+    {
+      "context_snippet": "This action generates [bundle-stats](https://github.com/relative-ci/bundle-stats) reports for webpack stats and sets the total bundle size as status description for the commit.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-action"
+    }
+  ]
+}

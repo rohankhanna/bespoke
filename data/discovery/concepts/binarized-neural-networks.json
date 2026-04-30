@@ -19,6 +19,18 @@
       "source_repo": "caiyuanhao1998/MST",
       "status": "candidate-context",
       "text": "[![winner](https://img.shields.io/badge/MST++-Winner_of_NTIRE_2022_Spectral_Reconstruction_Challenge-179bd3)](https://github.com/caiyuanhao1998/MST-plus-plus/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Efficient-ML/Awesome-Model-Quantization",
+      "status": "candidate-context",
+      "text": "A list of papers, docs, codes about model quantization. This repo is aimed to provide the info for model quantization research, we are continuously improving the project. Welcome to PR the works (papers, repositories) that are missed by the repo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Efficient-ML/Awesome-Model-Quantization",
+      "status": "candidate-context",
+      "text": "This repo collects papers, documents, and codes about model quantization for anyone who wants to research it. We are continuously improving the project. Welcome to PR the works (papers, repositories) that the repo misses."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "caiyuanhao1998/MST",
       "status": "candidate",
       "text": "[![winner](https://img.shields.io/badge/MST++-Winner_of_NTIRE_2022_Spectral_Reconstruction_Challenge-179bd3)](https://github.com/caiyuanhao1998/MST-plus-plus/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Efficient-ML/Awesome-Model-Quantization",
+      "status": "candidate",
+      "text": "This repo collects papers, documents, and codes about model quantization for anyone who wants to research it. We are continuously improving the project. Welcome to PR the works (papers, repositories) that the repo misses."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "caiyuanhao1998/MST"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Efficient-ML/Awesome-Model-Quantization"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

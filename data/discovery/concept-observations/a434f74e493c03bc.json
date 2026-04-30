@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Index of prediction runs from Geopol Forecaster with accuracy tracking. Snowglobe + LLM Council pipeline."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Index of prediction runs across two related pipelines:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Index of prediction runs across two related pipelines:"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20025113,
+      "status": "candidate",
+      "text": "political geography"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20025112,
+      "status": "candidate",
+      "text": "geography"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20025111,
+      "status": "candidate",
+      "text": "geoeconomics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20025110,
+      "status": "candidate",
+      "text": "geostrategy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20025109,
+      "status": "candidate",
+      "text": "political economy"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "geopolitics",
+      "sense_id": "geopolitics#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "geopolitics",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "geopolitics",
+  "observation_id": "a434f74e493c03bc",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "geopolitics",
+  "source_context_snippet": "Index of prediction runs across two related pipelines:",
+  "source_file": null,
+  "source_repo": "danielrosehill/Geopol-Forecasts-Index",
+  "source_repo_description": "Index of prediction runs from Geopol Forecaster with accuracy tracking. Snowglobe + LLM Council pipeline."
+}

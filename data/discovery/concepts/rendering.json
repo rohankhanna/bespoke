@@ -127,6 +127,30 @@
       "source_repo": "isl-org/Open3D",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hassony2/obman_render",
+      "status": "candidate-context",
+      "text": "[cvpr19] Code to generate images from the ObMan dataset, synthetic renderings of hands holding objects (or hands in isolation)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hassony2/obman_render",
+      "status": "candidate-context",
+      "text": "Yana Hasson, G\u00fcl Varol, Dimitris Tzionas, Igor Kalevatykh, Michael J. Black, Ivan Laptev, Cordelia Schmid, CVPR 2019"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nerfstudio-project/nerfacc",
+      "status": "candidate-context",
+      "text": "A General NeRF Acceleration Toolbox in PyTorch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nerfstudio-project/nerfacc",
+      "status": "candidate-context",
+      "text": "<p>"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +213,18 @@
       "source_repo": "isl-org/Open3D",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hassony2/obman_render",
+      "status": "candidate",
+      "text": "Yana Hasson, G\u00fcl Varol, Dimitris Tzionas, Igor Kalevatykh, Michael J. Black, Ivan Laptev, Cordelia Schmid, CVPR 2019"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nerfstudio-project/nerfacc",
+      "status": "candidate",
+      "text": "<p>"
     }
   ],
   "candidate_related_terms": [
@@ -328,11 +364,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "hassony2/obman_render"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "nerfstudio-project/nerfacc"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

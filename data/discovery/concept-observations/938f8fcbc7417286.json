@@ -84,7 +84,7 @@
   "normalized_form": "build-vscode-extension",
   "observation_id": "938f8fcbc7417286",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
   "observed_text": "Build VSCode Extension",
   "source_context_snippet": "Build VSCode Extension",
   "source_file": ".github/workflows/build-vscode-extension.yml",

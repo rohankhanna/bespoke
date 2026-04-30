@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T13:09:05.939051+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4208
+    },
+    {
+      "path": "requirements.txt",
+      "size": 139
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "YaRN: Efficient Context Window Extension of Large Language Models",
+    "fork": false,
+    "full_name": "jquesnelle/yarn",
+    "html_url": "https://github.com/jquesnelle/yarn",
+    "language": "Python",
+    "pushed_at": "2024-04-17T18:29:36Z",
+    "stargazers_count": 1710,
+    "topics": [],
+    "updated_at": "2026-04-30T09:36:23Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

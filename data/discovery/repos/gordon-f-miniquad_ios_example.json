@@ -1,0 +1,100 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Gordon-F/miniquad_ios_example",
+      "target": "not-fl3/miniquad",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "Gordon-F/miniquad_ios_example",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "Gordon-F/miniquad_ios_example",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "Gordon-F/miniquad_ios_example",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "Gordon-F/miniquad_ios_example",
+      "target": "pipeline",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:52:06.107944+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 580
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 206
+    },
+    {
+      "path": ".github/workflows/CI.yml",
+      "size": 614
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "Gordon-F/miniquad_ios_example",
+    "html_url": "https://github.com/Gordon-F/miniquad_ios_example",
+    "language": "Rust",
+    "pushed_at": "2022-01-06T15:18:18Z",
+    "stargazers_count": 8,
+    "topics": [],
+    "updated_at": "2023-07-25T21:48:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "not-fl3/miniquad",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "pipeline",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CI.yml",
+      "term": "pipeline"
+    }
+  ]
+}

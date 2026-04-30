@@ -1,0 +1,347 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codescan.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codescan.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codescan.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codescan.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "f4b6a3/uuid-creator",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "f4b6a3/uuid-creator",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "f4b6a3/uuid-creator",
+      "target": "Benchmark with JMH",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "f4b6a3/uuid-creator",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "f4b6a3/uuid-creator",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "f4b6a3/uuid-creator",
+      "target": "github/codeql-action/init@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "f4b6a3/uuid-creator",
+      "target": "github/codeql-action/autobuild@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "f4b6a3/uuid-creator",
+      "target": "github/codeql-action/analyze@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "f4b6a3/uuid-creator",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codescan.yml",
+      "source_repo": "f4b6a3/uuid-creator",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codescan.yml",
+      "source_repo": "f4b6a3/uuid-creator",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codescan.yml",
+      "source_repo": "f4b6a3/uuid-creator",
+      "target": "github/codeql-action/upload-sarif@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codescan.yml",
+      "source_repo": "f4b6a3/uuid-creator",
+      "target": "Code Scan with Spotbugs and PMD",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "f4b6a3/uuid-creator",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "f4b6a3/uuid-creator",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "f4b6a3/uuid-creator",
+      "target": "Java CI with Maven",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "f4b6a3/uuid-creator",
+      "target": "guid",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "f4b6a3/uuid-creator",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "f4b6a3/uuid-creator",
+      "target": "rfc-4122",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "f4b6a3/uuid-creator",
+      "target": "rfc-9562",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "f4b6a3/uuid-creator",
+      "target": "uuid",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "f4b6a3/uuid-creator",
+      "target": "uuidv4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "f4b6a3/uuid-creator",
+      "target": "uuidv7",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:02:53.332670+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10344
+    },
+    {
+      "path": ".github/workflows/benchmark.yml",
+      "size": 592
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 1034
+    },
+    {
+      "path": ".github/workflows/codescan.yml",
+      "size": 993
+    },
+    {
+      "path": ".github/workflows/maven.yml",
+      "size": 876
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "UUID Creator is a Java library for generating Universally Unique Identifiers. It generates all standard identifiers from UUIDv1 to UUIDv7. It also provides an alternative to the classic JDK's UUID (alt.GUID), many codecs (codec.*) and several utilities (util.*).",
+    "fork": false,
+    "full_name": "f4b6a3/uuid-creator",
+    "html_url": "https://github.com/f4b6a3/uuid-creator",
+    "language": "Java",
+    "pushed_at": "2025-04-13T04:55:15Z",
+    "stargazers_count": 666,
+    "topics": [
+      "guid",
+      "id",
+      "java",
+      "rfc-4122",
+      "rfc-9562",
+      "uuid",
+      "uuidv4",
+      "uuidv7"
+    ],
+    "updated_at": "2026-04-24T08:46:22Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Benchmark with JMH",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yml",
+      "term": "Benchmark with JMH"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Code Scan with Spotbugs and PMD",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codescan.yml",
+      "term": "Code Scan with Spotbugs and PMD"
+    },
+    {
+      "context_snippet": "Java CI with Maven",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven.yml",
+      "term": "Java CI with Maven"
+    },
+    {
+      "context_snippet": "UUID Creator",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "guid"
+    },
+    {
+      "context_snippet": "UUID Creator",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "UUID Creator",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rfc-4122"
+    },
+    {
+      "context_snippet": "UUID Creator",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rfc-9562"
+    },
+    {
+      "context_snippet": "UUID Creator",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "uuid"
+    },
+    {
+      "context_snippet": "UUID Creator",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "uuidv4"
+    },
+    {
+      "context_snippet": "UUID Creator",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "uuidv7"
+    }
+  ]
+}

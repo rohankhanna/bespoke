@@ -595,6 +595,30 @@
       "source_repo": "pykeio/ort",
       "status": "candidate-context",
       "text": "<div align=center>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AmusementClub/vs-mlrt",
+      "status": "candidate-context",
+      "text": "Efficient CPU/GPU ML Runtimes for VapourSynth (with built-in support for waifu2x, DPIR, RealESRGANv2/v3, Real-CUGAN, RIFE, SCUNet, ArtCNN and more!)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AmusementClub/vs-mlrt",
+      "status": "candidate-context",
+      "text": "This project provides VapourSynth ML filter runtimes for a variety of platforms:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/Windows-Machine-Learning",
+      "status": "candidate-context",
+      "text": "Samples and Tools for Windows ML."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Windows-Machine-Learning",
+      "status": "candidate-context",
+      "text": "> \u26a0\ufe0f **IMPORTANT**<br/>For the latest documentation about Windows Machine Learning, see [What is Windows ML](/windows/ai/new-windows-ml/overview). That documentation describes APIs that are in the **Microsoft.Windows.AI.MachineLearning** namespace, which ships in the Windows App\u2026"
     }
   ],
   "candidate_glosses": [
@@ -891,6 +915,18 @@
       "source_repo": "pykeio/ort",
       "status": "candidate",
       "text": "<div align=center>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AmusementClub/vs-mlrt",
+      "status": "candidate",
+      "text": "This project provides VapourSynth ML filter runtimes for a variety of platforms:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Windows-Machine-Learning",
+      "status": "candidate",
+      "text": "> \u26a0\ufe0f **IMPORTANT**<br/>For the latest documentation about Windows Machine Learning, see [What is Windows ML](/windows/ai/new-windows-ml/overview). That documentation describes APIs that are in the **Microsoft.Windows.AI.MachineLearning** namespace, which ships in the Windows App\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -1234,11 +1270,35 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "pykeio/ort"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/Paddle2ONNX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "AmusementClub/vs-mlrt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Windows-Machine-Learning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "tracel-ai/burn"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

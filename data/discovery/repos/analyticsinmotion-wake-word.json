@@ -1,0 +1,282 @@
+{
+  "components": [
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/vscode",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@vscode/vsce",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ovsx",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript-eslint/parser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript-eslint/eslint-plugin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "analyticsinmotion/wake-word",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "analyticsinmotion/wake-word",
+      "target": "@types/vscode",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "analyticsinmotion/wake-word",
+      "target": "@vscode/vsce",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "analyticsinmotion/wake-word",
+      "target": "ovsx",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "analyticsinmotion/wake-word",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "analyticsinmotion/wake-word",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "analyticsinmotion/wake-word",
+      "target": "@typescript-eslint/parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "analyticsinmotion/wake-word",
+      "target": "@typescript-eslint/eslint-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "analyticsinmotion/wake-word",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "analyticsinmotion/wake-word",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "analyticsinmotion/wake-word",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "analyticsinmotion/wake-word",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "analyticsinmotion/wake-word",
+      "target": "accessibility",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "analyticsinmotion/wake-word",
+      "target": "cursor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "analyticsinmotion/wake-word",
+      "target": "speech-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "analyticsinmotion/wake-word",
+      "target": "voice-activation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "analyticsinmotion/wake-word",
+      "target": "voice-control",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "analyticsinmotion/wake-word",
+      "target": "vscode-extension",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "analyticsinmotion/wake-word",
+      "target": "wake-word",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:01:12.342903+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15277
+    },
+    {
+      "path": "package.json",
+      "size": 5953
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1662
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Hands-free voice activation for VS Code, Cursor, and compatible editors. Route voice commands to any AI assistant or editor feature.",
+    "fork": false,
+    "full_name": "analyticsinmotion/wake-word",
+    "html_url": "https://github.com/analyticsinmotion/wake-word",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-15T21:58:43Z",
+    "stargazers_count": 7,
+    "topics": [
+      "accessibility",
+      "cursor",
+      "speech-recognition",
+      "voice-activation",
+      "voice-control",
+      "vscode-extension",
+      "wake-word"
+    ],
+    "updated_at": "2026-04-19T12:52:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable MD033 MD041 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "accessibility"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable MD033 MD041 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cursor"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable MD033 MD041 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-recognition"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable MD033 MD041 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "voice-activation"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable MD033 MD041 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "voice-control"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable MD033 MD041 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vscode-extension"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable MD033 MD041 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wake-word"
+    }
+  ]
+}

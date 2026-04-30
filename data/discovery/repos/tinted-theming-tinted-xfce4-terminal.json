@@ -13,13 +13,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "tinted-theming/tinted-xfce4-terminal",
-      "target": "tinted-theming/tinted-terminal",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/auto-assign-issues.yml",
       "source_repo": "tinted-theming/tinted-xfce4-terminal",
@@ -97,7 +90,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T18:55:55.242810+00:00",
+  "fetched_at": "2026-04-30T15:00:08.824381+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -134,13 +127,7 @@
     ],
     "updated_at": "2026-02-06T12:21:39Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "tinted-theming/tinted-terminal",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "\"Auto assignment for issues\"",

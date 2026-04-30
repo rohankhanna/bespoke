@@ -4,7 +4,9 @@
     "Build Test",
     "Build & Test",
     "Build test",
-    "Build, Test"
+    "Build, Test",
+    "Build&Test",
+    "build & test"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -461,6 +463,42 @@
       "source_repo": "artempyanykh/zeta-note",
       "status": "candidate-context",
       "text": "Build & Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hazelcast/hazelcast-csharp-client",
+      "status": "candidate-context",
+      "text": "Hazelcast .NET Client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hazelcast/hazelcast-csharp-client",
+      "status": "candidate-context",
+      "text": "Build&Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IEvangelist/blazor-azure-openai",
+      "status": "candidate-context",
+      "text": "The Blazor WebAssembly app that inspired the Microsoft //Build 2023 demo app."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IEvangelist/blazor-azure-openai",
+      "status": "candidate-context",
+      "text": "build & test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mruby/mruby",
+      "status": "candidate-context",
+      "text": "Lightweight Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mruby/mruby",
+      "status": "candidate-context",
+      "text": "Build & Test"
     }
   ],
   "candidate_glosses": [
@@ -695,6 +733,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "artempyanykh/zeta-note",
+      "status": "candidate",
+      "text": "Build & Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hazelcast/hazelcast-csharp-client",
+      "status": "candidate",
+      "text": "Build&Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IEvangelist/blazor-azure-openai",
+      "status": "candidate",
+      "text": "build & test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mruby/mruby",
       "status": "candidate",
       "text": "Build & Test"
     }
@@ -1208,11 +1264,59 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/build-and-test.yml",
       "source_repo": "facebook/create-react-app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/build-test.yaml",
+      "source_repo": "mudler/LocalAI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "gobackup/gobackup"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "facebook/create-react-app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "hazelcast/hazelcast-csharp-client"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dwyl/app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/dotnet.yml",
+      "source_repo": "IEvangelist/blazor-azure-openai"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "mruby/mruby"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

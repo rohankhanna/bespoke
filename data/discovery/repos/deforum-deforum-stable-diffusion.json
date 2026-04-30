@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "deforum/deforum-stable-diffusion",
+      "target": "deforum-art/deforum-stable-diffusion",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:07:30.564932+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10615
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "deforum/deforum-stable-diffusion",
+    "html_url": "https://github.com/deforum/deforum-stable-diffusion",
+    "language": "Python",
+    "pushed_at": "2024-08-30T18:10:54Z",
+    "stargazers_count": 2287,
+    "topics": [],
+    "updated_at": "2026-04-28T06:19:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deforum-art/deforum-stable-diffusion",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

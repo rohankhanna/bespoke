@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T16:12:55.364764+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1712
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "SpeechAgents: Human-Communication Simulation with Multi-Modal Multi-Agent Systems",
+    "fork": false,
+    "full_name": "0nutation/SpeechAgents",
+    "html_url": "https://github.com/0nutation/SpeechAgents",
+    "language": null,
+    "pushed_at": "2024-01-09T16:09:48Z",
+    "stargazers_count": 85,
+    "topics": [],
+    "updated_at": "2026-02-04T09:47:21Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

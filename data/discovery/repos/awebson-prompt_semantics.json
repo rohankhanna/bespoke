@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T14:58:28.586385+00:00",
+  "fetched_files": [
+    {
+      "path": "requirements.txt",
+      "size": 62
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This repository accompanies our paper \u201cDo Prompt-Based Models Really Understand the Meaning of Their Prompts?\u201d",
+    "fork": false,
+    "full_name": "awebson/prompt_semantics",
+    "html_url": "https://github.com/awebson/prompt_semantics",
+    "language": "Python",
+    "pushed_at": "2022-05-10T22:50:14Z",
+    "stargazers_count": 85,
+    "topics": [],
+    "updated_at": "2026-01-10T18:54:45Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

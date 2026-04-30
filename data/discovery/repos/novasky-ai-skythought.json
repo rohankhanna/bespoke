@@ -1,0 +1,122 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu_ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu_ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu_ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu_ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NovaSky-AI/SkyThought",
+      "target": "hiyouga/llama-factory",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NovaSky-AI/SkyThought",
+      "target": "shishirpatil/gorilla",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NovaSky-AI/SkyThought",
+      "target": "lmarena/arena-hard-auto",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu_ci.yml",
+      "source_repo": "NovaSky-AI/SkyThought",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu_ci.yml",
+      "source_repo": "NovaSky-AI/SkyThought",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cpu_ci.yml",
+      "source_repo": "NovaSky-AI/SkyThought",
+      "target": "Skythought evals",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:13:56.488447+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10585
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1260
+    },
+    {
+      "path": ".github/workflows/cpu_ci.yml",
+      "size": 1710
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Sky-T1: Train your own O1 preview model within $450",
+    "fork": false,
+    "full_name": "NovaSky-AI/SkyThought",
+    "html_url": "https://github.com/NovaSky-AI/SkyThought",
+    "language": "Python",
+    "pushed_at": "2025-07-12T03:05:27Z",
+    "stargazers_count": 3378,
+    "topics": [],
+    "updated_at": "2026-04-26T15:07:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hiyouga/llama-factory",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lmarena/arena-hard-auto",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shishirpatil/gorilla",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Skythought evals",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cpu_ci.yml",
+      "term": "Skythought evals"
+    }
+  ]
+}

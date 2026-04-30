@@ -67,6 +67,18 @@
       "source_repo": "marcoieni/intellimacs",
       "status": "candidate-context",
       "text": "Spacemacs' like key bindings for IntelliJ platform."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SonarSource/sonarlint-intellij",
+      "status": "candidate-context",
+      "text": "SonarLint for IntelliJ"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SonarSource/sonarlint-intellij",
+      "status": "candidate-context",
+      "text": "SonarQube for IntelliJ Plugin"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "marcoieni/intellimacs",
       "status": "candidate",
       "text": "Spacemacs' like key bindings for IntelliJ platform."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SonarSource/sonarlint-intellij",
+      "status": "candidate",
+      "text": "SonarQube for IntelliJ Plugin"
     }
   ],
   "candidate_related_terms": [
@@ -184,11 +202,29 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "marcoieni/intellimacs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "graphql-hive/graphql-config"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "phodal/auto-dev"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "SonarSource/sonarlint-intellij"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

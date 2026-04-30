@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Lavreniuk/2nd-place-solution-in-Scene-Understanding-for-Autonomous-Drone-Delivery",
+      "target": "isl-org/zoedepth",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Lavreniuk/2nd-place-solution-in-Scene-Understanding-for-Autonomous-Drone-Delivery",
+      "target": "niveditarufus/suadd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Lavreniuk/2nd-place-solution-in-Scene-Understanding-for-Autonomous-Drone-Delivery",
+      "target": "wl-zhao/vpd",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-30T12:45:20.475770+00:00",
+  "source_repo": "Lavreniuk/2nd-place-solution-in-Scene-Understanding-for-Autonomous-Drone-Delivery"
+}

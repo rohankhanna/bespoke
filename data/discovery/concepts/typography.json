@@ -55,6 +55,18 @@
       "source_repo": "impallari/Font-Testing-Page",
       "status": "candidate-context",
       "text": "Font Testing Page"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kyleshevlin/shevyjs",
+      "status": "candidate-context",
+      "text": "Configurable Vertical Rhythm & Typography in CSS-in-JS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kyleshevlin/shevyjs",
+      "status": "candidate-context",
+      "text": "> Perfect vertical rhythm for typography and more in CSS-in-JS"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "impallari/Font-Testing-Page",
       "status": "candidate",
       "text": "Font Testing Page"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kyleshevlin/shevyjs",
+      "status": "candidate",
+      "text": "> Perfect vertical rhythm for typography and more in CSS-in-JS"
     }
   ],
   "candidate_related_terms": [
@@ -186,11 +204,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "impallari/Font-Testing-Page"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "kyleshevlin/shevyjs"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

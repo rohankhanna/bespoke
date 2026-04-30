@@ -645,6 +645,54 @@
       "source_repo": "DNSCrypt/dnscrypt-resolvers",
       "status": "candidate-context",
       "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FunAudioLLM/CosyVoice",
+      "status": "candidate-context",
+      "text": "Multi-lingual large voice generation model, providing inference, training and deployment full-stack ability."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FunAudioLLM/CosyVoice",
+      "status": "candidate-context",
+      "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clearml/clearml-helm-charts",
+      "status": "candidate-context",
+      "text": "Helm chart repository for the new unified way to deploy ClearML on Kubernetes. ClearML - Auto-Magical CI/CD to streamline your AI workload. Experiment Management, Data Management, Pipeline, Orchestration, Scheduling & Serving in one MLOps/LLMOps solution "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clearml/clearml-helm-charts",
+      "status": "candidate-context",
+      "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tinyobjloader/tinyobjloader",
+      "status": "candidate-context",
+      "text": "Tiny but powerful single file wavefront obj loader"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinyobjloader/tinyobjloader",
+      "status": "candidate-context",
+      "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/sample-app-aoai-chatGPT",
+      "status": "candidate-context",
+      "text": "Sample code for a simple web chat experience through Azure OpenAI, including Azure OpenAI On Your Data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/sample-app-aoai-chatGPT",
+      "status": "candidate-context",
+      "text": "Close inactive issues"
     }
   ],
   "candidate_glosses": [
@@ -969,6 +1017,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "DNSCrypt/dnscrypt-resolvers",
+      "status": "candidate",
+      "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FunAudioLLM/CosyVoice",
+      "status": "candidate",
+      "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clearml/clearml-helm-charts",
+      "status": "candidate",
+      "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinyobjloader/tinyobjloader",
+      "status": "candidate",
+      "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/sample-app-aoai-chatGPT",
       "status": "candidate",
       "text": "Close inactive issues"
     }
@@ -1452,11 +1524,71 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/issues.yml",
       "source_repo": "DNSCrypt/dnscrypt-resolvers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/close-issue.yml",
+      "source_repo": "chatchat-space/Langchain-Chatchat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/close-inactive-issues.yml",
+      "source_repo": "invoke-ai/InvokeAI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/stale-issues.yml",
+      "source_repo": "FunAudioLLM/CosyVoice"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/clear_issues.yml.disabled",
+      "source_repo": "PaddlePaddle/Paddle2ONNX"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/close-inactive-issues.yaml",
+      "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "intel-staging/text-generation-webui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/inactive-issues.yaml",
+      "source_repo": "clearml/clearml-helm-charts"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/cron.yml",
+      "source_repo": "tinyobjloader/tinyobjloader"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "FoundationAgents/MetaGPT"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/stale-issues.yml",
+      "source_repo": "microsoft/sample-app-aoai-chatGPT"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Sonar Quality Pull Request Analysis"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/ignite",
+      "status": "candidate-context",
+      "text": "Apache Ignite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/ignite",
+      "status": "candidate-context",
+      "text": "Sonar Quality Pull Request Analysis"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/ignite",
+      "status": "candidate",
+      "text": "Sonar Quality Pull Request Analysis"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44100,
+      "status": "candidate",
+      "text": "form"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44100,
+      "status": "candidate",
+      "text": "set"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43927,
+      "status": "candidate",
+      "text": "judgment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43874,
+      "status": "candidate",
+      "text": "ultrasonography"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43859,
+      "status": "candidate",
+      "text": "det"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Sonar Quality Pull Request Analysis",
+  "concept_id": "sonar-quality-pull-request-analysis",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/sonar-pr-from-fork-scan.yml",
+      "source_repo": "apache/ignite"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Sonar Quality Pull Request Analysis",
+      "sense_id": "sonar-quality-pull-request-analysis#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

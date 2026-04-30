@@ -1,7 +1,7 @@
 {
   "component": "dtolnay/rust-toolchain@3c5f7ea28cd621ae0bf5283f0e981fb97b8a7af9",
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -92,6 +92,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/datafusion-ci.yml",
       "source_repo": "quickwit-oss/quickwit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "filecoin-project/bellperson"
     }
   ]
 }

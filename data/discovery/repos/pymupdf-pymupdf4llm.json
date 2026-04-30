@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T15:12:50.327197+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18633
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 93
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "PyMuPDF4LLM",
+    "fork": false,
+    "full_name": "pymupdf/pymupdf4llm",
+    "html_url": "https://github.com/pymupdf/pymupdf4llm",
+    "language": "Python",
+    "pushed_at": "2026-04-24T14:15:48Z",
+    "stargazers_count": 1628,
+    "topics": [],
+    "updated_at": "2026-04-30T13:31:16Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

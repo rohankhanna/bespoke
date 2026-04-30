@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "obfuscation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adamyaxley/Obfuscate",
+      "status": "candidate-context",
+      "text": "Guaranteed compile-time string literal obfuscation header-only library for C++14"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adamyaxley/Obfuscate",
+      "status": "candidate-context",
+      "text": "**[Source available on GitHub](https://github.com/adamyaxley/Obfuscate)**"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adamyaxley/Obfuscate",
+      "status": "candidate",
+      "text": "**[Source available on GitHub](https://github.com/adamyaxley/Obfuscate)**"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39995660,
+      "status": "candidate",
+      "text": "mystification"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39984008,
+      "status": "candidate",
+      "text": "puzzlement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39982883,
+      "status": "candidate",
+      "text": "bemusement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39982718,
+      "status": "candidate",
+      "text": "bafflement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39982639,
+      "status": "candidate",
+      "text": "bewilderment"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 43031,
+      "status": "candidate",
+      "text": "bewilderment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26016,
+      "status": "candidate",
+      "text": "bemusement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24015,
+      "status": "candidate",
+      "text": "befuddlement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13021,
+      "status": "candidate",
+      "text": "bafflement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10023,
+      "status": "candidate",
+      "text": "mystification"
+    }
+  ],
+  "canonical_name": "obfuscation",
+  "concept_id": "obfuscation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "adamyaxley/Obfuscate"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "obfuscation",
+      "sense_id": "obfuscation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

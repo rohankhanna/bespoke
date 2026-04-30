@@ -1,0 +1,61 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "black-forest-labs/flux2",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "black-forest-labs/flux2",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T12:50:55.798501+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8382
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 860
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 545
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official inference repo for FLUX.2 models",
+    "fork": false,
+    "full_name": "black-forest-labs/flux2",
+    "html_url": "https://github.com/black-forest-labs/flux2",
+    "language": "Python",
+    "pushed_at": "2026-03-12T15:06:20Z",
+    "stargazers_count": 2210,
+    "topics": [],
+    "updated_at": "2026-04-30T12:45:07Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

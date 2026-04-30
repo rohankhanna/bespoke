@@ -1,0 +1,104 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Intellindust-AI-Lab/DEIM",
+      "target": "shihuahuang95/deim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Intellindust-AI-Lab/DEIM",
+      "target": "dense-o2o",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Intellindust-AI-Lab/DEIM",
+      "target": "detr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Intellindust-AI-Lab/DEIM",
+      "target": "object-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Intellindust-AI-Lab/DEIM",
+      "target": "real-time-detector",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:15:16.952190+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16492
+    },
+    {
+      "path": "requirements.txt",
+      "size": 104
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR 2025] DEIM: DETR with Improved Matching for Fast Convergence",
+    "fork": false,
+    "full_name": "Intellindust-AI-Lab/DEIM",
+    "html_url": "https://github.com/Intellindust-AI-Lab/DEIM",
+    "language": "Python",
+    "pushed_at": "2026-03-24T02:10:26Z",
+    "stargazers_count": 1495,
+    "topics": [
+      "dense-o2o",
+      "detr",
+      "mal",
+      "object-detection",
+      "real-time-detector"
+    ],
+    "updated_at": "2026-04-30T08:24:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shihuahuang95/deim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<h2 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dense-o2o"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "detr"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-detection"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "real-time-detector"
+    }
+  ]
+}

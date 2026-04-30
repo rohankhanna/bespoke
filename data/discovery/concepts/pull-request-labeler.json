@@ -681,6 +681,30 @@
       "source_repo": "open-telemetry/opentelemetry-erlang-contrib",
       "status": "candidate-context",
       "text": "\"Pull Request Labeler\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebookresearch/minihack",
+      "status": "candidate-context",
+      "text": "MiniHack the Planet: A Sandbox for Open-Ended Reinforcement Learning Research"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookresearch/minihack",
+      "status": "candidate-context",
+      "text": "\"Pull Request Labeler\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mruby/mruby",
+      "status": "candidate-context",
+      "text": "Lightweight Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mruby/mruby",
+      "status": "candidate-context",
+      "text": "Pull Request Labeler"
     }
   ],
   "candidate_glosses": [
@@ -1025,6 +1049,18 @@
       "source_repo": "open-telemetry/opentelemetry-erlang-contrib",
       "status": "candidate",
       "text": "\"Pull Request Labeler\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookresearch/minihack",
+      "status": "candidate",
+      "text": "\"Pull Request Labeler\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mruby/mruby",
+      "status": "candidate",
+      "text": "Pull Request Labeler"
     }
   ],
   "candidate_related_terms": [
@@ -1434,11 +1470,29 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/labeler.yml",
       "source_repo": "open-telemetry/opentelemetry-erlang-contrib"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/laberer.yaml",
+      "source_repo": "facebookresearch/minihack"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "detekt/detekt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "mruby/mruby"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -211,6 +211,18 @@
       "source_repo": "google/adk-python",
       "status": "candidate-context",
       "text": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IQTLabs/snowglobe",
+      "status": "candidate-context",
+      "text": "Open-ended wargames with large language models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IQTLabs/snowglobe",
+      "status": "candidate-context",
+      "text": "***Open-Ended Wargames with Large Language Models***"
     }
   ],
   "candidate_glosses": [
@@ -315,6 +327,12 @@
       "source_repo": "google/adk-python",
       "status": "candidate",
       "text": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IQTLabs/snowglobe",
+      "status": "candidate",
+      "text": "***Open-Ended Wargames with Large Language Models***"
     }
   ],
   "candidate_related_terms": [],
@@ -538,11 +556,29 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "echo-yiyiyi/cube"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ruvnet/ruflo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "IQTLabs/snowglobe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "echo-yiyiyi/cube"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

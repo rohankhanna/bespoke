@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Embedding Service Integration Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "benoitc/gunicorn",
+      "status": "candidate-context",
+      "text": "gunicorn 'Green Unicorn' is a WSGI HTTP Server for UNIX, fast clients and sleepy applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "benoitc/gunicorn",
+      "status": "candidate-context",
+      "text": "Embedding Service Integration Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "benoitc/gunicorn",
+      "status": "candidate",
+      "text": "Embedding Service Integration Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34731,
+      "status": "candidate",
+      "text": "battleship"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32399,
+      "status": "candidate",
+      "text": "kosher"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32354,
+      "status": "candidate",
+      "text": "assimilate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32354,
+      "status": "candidate",
+      "text": "centralization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31883,
+      "status": "candidate",
+      "text": "consideration"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Embedding Service Integration Tests",
+  "concept_id": "embedding-service-integration-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/embedding-integration.yml",
+      "source_repo": "benoitc/gunicorn"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Embedding Service Integration Tests",
+      "sense_id": "embedding-service-integration-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

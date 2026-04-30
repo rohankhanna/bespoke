@@ -1,0 +1,85 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "php-rdkafka/php-rdkafka-doc",
+      "target": "php/phd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "php-rdkafka/php-rdkafka-doc",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "php-rdkafka/php-rdkafka-doc",
+      "target": "Build",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:54:38.786568+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 971
+    },
+    {
+      "path": "Dockerfile",
+      "size": 382
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 688
+    },
+    {
+      "path": ".github/workflows/push.sh",
+      "size": 286
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "php-rdkafka/php-rdkafka-doc",
+    "html_url": "https://github.com/php-rdkafka/php-rdkafka-doc",
+    "language": "PHP",
+    "pushed_at": "2026-04-27T16:22:55Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2026-04-27T16:23:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "php/phd",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "'Build'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    }
+  ]
+}

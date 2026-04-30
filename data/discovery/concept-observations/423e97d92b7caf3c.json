@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Artichoke fork of the Ruby Spec Suite aka ruby/spec"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://travis-ci.org/ruby/spec.svg)](https://travis-ci.org/ruby/spec)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/ruby/spec.svg)](https://travis-ci.org/ruby/spec)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40035317,
+      "status": "candidate",
+      "text": "pitchfork"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40017886,
+      "status": "candidate",
+      "text": "branch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40014457,
+      "status": "candidate",
+      "text": "branching"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39972003,
+      "status": "candidate",
+      "text": "ramification"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39965820,
+      "status": "candidate",
+      "text": "crotch"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "fork",
+      "sense_id": "fork#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22044,
+      "status": "candidate",
+      "text": "separate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16044,
+      "status": "candidate",
+      "text": "crotch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8040,
+      "status": "candidate",
+      "text": "ramification"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5034,
+      "status": "candidate",
+      "text": "ramify"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3029,
+      "status": "candidate",
+      "text": "branching"
+    }
+  ],
+  "concept_id": "fork",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "fork",
+  "observation_id": "423e97d92b7caf3c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "fork",
+  "source_context_snippet": "[![Build Status](https://travis-ci.org/ruby/spec.svg)](https://travis-ci.org/ruby/spec)",
+  "source_file": null,
+  "source_repo": "artichoke/spec",
+  "source_repo_description": "Artichoke fork of the Ruby Spec Suite aka ruby/spec"
+}

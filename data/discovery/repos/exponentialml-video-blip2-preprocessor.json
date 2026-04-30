@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T13:07:11.578616+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2985
+    },
+    {
+      "path": "requirements.txt",
+      "size": 106
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A simple script that reads a directory of videos, grabs a random frame,  and automatically discovers a prompt for it",
+    "fork": false,
+    "full_name": "ExponentialML/Video-BLIP2-Preprocessor",
+    "html_url": "https://github.com/ExponentialML/Video-BLIP2-Preprocessor",
+    "language": "Python",
+    "pushed_at": "2024-01-22T08:57:13Z",
+    "stargazers_count": 143,
+    "topics": [],
+    "updated_at": "2026-04-10T11:15:29Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

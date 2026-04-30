@@ -1,0 +1,59 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "trknhr/2048-go",
+      "target": "1984weed/2048-go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "trknhr/2048-go",
+      "target": "golang",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:59:48.646148+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 869
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This is 2048 working on CLI",
+    "fork": false,
+    "full_name": "trknhr/2048-go",
+    "html_url": "https://github.com/trknhr/2048-go",
+    "language": "Go",
+    "pushed_at": "2021-08-12T19:01:40Z",
+    "stargazers_count": 26,
+    "topics": [
+      "2048",
+      "cli",
+      "golang"
+    ],
+    "updated_at": "2025-05-12T03:16:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "1984weed/2048-go",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/1984weed/2048-go.svg?branch=master)](https://travis-ci.org/1984weed/2048-go)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    }
+  ]
+}

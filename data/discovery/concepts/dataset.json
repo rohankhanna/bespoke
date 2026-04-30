@@ -399,6 +399,186 @@
       "source_repo": "jayleicn/TVRetrieval",
       "status": "candidate-context",
       "text": "TVRetrieval"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "smhassanerfani/atlantis",
+      "status": "candidate-context",
+      "text": "A Benchmark for Semantic Segmentation of Waterbody Images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smhassanerfani/atlantis",
+      "status": "candidate-context",
+      "text": "This is the repository for the ATLANTIS. All waterbody labels are comprehensively described in [ATLANTIS Wiki](https://github.com/smhassanerfani/atlantis/wiki). This dataset was developed in the [iWERS](http://ce.sc.edu/goharian/) lab at the University of South Carolina."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kacperkan/conerf-kubric-dataset",
+      "status": "candidate-context",
+      "text": "Repository used to generate synthetic dataset from Kubric, used in \"CoNeRF: Controllable Neural Radiance Fields\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kacperkan/conerf-kubric-dataset",
+      "status": "candidate-context",
+      "text": "[![MIT license](https://img.shields.io/badge/license-Apache%20v2.0-white.svg)](https://github.com/kacperkan/conerf-kubric-dataset/blob/main/LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AndyTheFactory/article-extraction-dataset",
+      "status": "candidate-context",
+      "text": "Article title, authors, date and body extraction dataset. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AndyTheFactory/article-extraction-dataset",
+      "status": "candidate-context",
+      "text": "We release a curated dataset of news articles from more than 200 websites. The dataset contains 424 articles cleaned from any kind of boileplate code, text and ads. Most articles are in English, and were published throughout 2023, most at the end of the year. The dataset is inte\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "qri-io/qri",
+      "status": "candidate-context",
+      "text": "you're invited to a data party!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qri-io/qri",
+      "status": "candidate-context",
+      "text": "[![Qri](https://img.shields.io/badge/made%20by-qri-magenta.svg?style=flat-square)](https://qri.io) [![GoDoc](https://godoc.org/github.com/qri-io/qri?status.svg)](http://godoc.org/github.com/qri-io/qri) [![License](https://img.shields.io/github/license/qri-io/qri.svg?style=flat-s\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HumanSignal/label-studio",
+      "status": "candidate-context",
+      "text": "Label Studio is a multi-type data labeling and annotation tool with standardized output format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HumanSignal/label-studio",
+      "status": "candidate-context",
+      "text": "<img src=\"https://user-images.githubusercontent.com/12534576/192582340-4c9e4401-1fe6-4dbb-95bb-fdbba5493f61.png\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "h4nwei/SPAQ",
+      "status": "candidate-context",
+      "text": "[CVPR'20] Official SPAQ & Implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h4nwei/SPAQ",
+      "status": "candidate-context",
+      "text": "This repository contains the constructed Smartphone Photography Attribute and Quality (SPAQ) database and implementations for the paper \"Perceptual Quality Assessment of Smartphone Photography\","
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jayleicn/TVCaption",
+      "status": "candidate-context",
+      "text": "[ECCV 2020] PyTorch code of MMT (a multimodal transformer captioning model) on TVCaption dataset"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jayleicn/TVCaption",
+      "status": "candidate-context",
+      "text": "TVCaption"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PKU-YuanGroup/OpenS2V-Nexus",
+      "status": "candidate-context",
+      "text": "[NeurIPS 2025 D&B\ud83d\udd25] OpenS2V-Nexus: A Detailed Benchmark and Million-Scale Dataset for Subject-to-Video Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PKU-YuanGroup/OpenS2V-Nexus",
+      "status": "candidate-context",
+      "text": "<div align=center>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jd-opensource/lapa-dataset",
+      "status": "candidate-context",
+      "text": "A large-scale dataset for face parsing (AAAI2020)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jd-opensource/lapa-dataset",
+      "status": "candidate-context",
+      "text": "<!---->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jkkummerfeld/text2sql-data",
+      "status": "candidate-context",
+      "text": "A collection of datasets that pair questions with SQL queries."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jkkummerfeld/text2sql-data",
+      "status": "candidate-context",
+      "text": "This repository contains data and code for building and evaluating systems that map sentences to SQL, developed as part of:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "salesforce/WikiSQL",
+      "status": "candidate-context",
+      "text": "A large annotated semantic parsing corpus for developing natural language interfaces."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "salesforce/WikiSQL",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/salesforce/WikiSQL.svg?branch=master)](https://travis-ci.org/salesforce/WikiSQL)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jayleicn/TVQA",
+      "status": "candidate-context",
+      "text": "[EMNLP 2018] PyTorch code for TVQA: Localized, Compositional Video Question Answering"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jayleicn/TVQA",
+      "status": "candidate-context",
+      "text": "PyTorch code accompanies our EMNLP 2018 paper:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jayleicn/TVQAplus",
+      "status": "candidate-context",
+      "text": "[ACL 2020] PyTorch code for TVQA+: Spatio-Temporal Grounding for Video Question Answering"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jayleicn/TVQAplus",
+      "status": "candidate-context",
+      "text": "![qa_example](imgs/qa_example_pair.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "golsun/DialogRPT",
+      "status": "candidate-context",
+      "text": "EMNLP 2020: \"Dialogue Response Ranking Training with Large-Scale Human Feedback Data\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "golsun/DialogRPT",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flyers/drone-tracking",
+      "status": "candidate-context",
+      "text": "DTB70 -- A Drone Tracking Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flyers/drone-tracking",
+      "status": "candidate-context",
+      "text": "Created by [Siyi Li](http://lisiyi.me) and [Dit-Yan Yeung](http://home.cse.ust.hk/~dyyeung) at HKUST."
     }
   ],
   "candidate_glosses": [
@@ -599,6 +779,96 @@
       "source_repo": "jayleicn/TVRetrieval",
       "status": "candidate",
       "text": "TVRetrieval"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smhassanerfani/atlantis",
+      "status": "candidate",
+      "text": "This is the repository for the ATLANTIS. All waterbody labels are comprehensively described in [ATLANTIS Wiki](https://github.com/smhassanerfani/atlantis/wiki). This dataset was developed in the [iWERS](http://ce.sc.edu/goharian/) lab at the University of South Carolina."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kacperkan/conerf-kubric-dataset",
+      "status": "candidate",
+      "text": "[![MIT license](https://img.shields.io/badge/license-Apache%20v2.0-white.svg)](https://github.com/kacperkan/conerf-kubric-dataset/blob/main/LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AndyTheFactory/article-extraction-dataset",
+      "status": "candidate",
+      "text": "We release a curated dataset of news articles from more than 200 websites. The dataset contains 424 articles cleaned from any kind of boileplate code, text and ads. Most articles are in English, and were published throughout 2023, most at the end of the year. The dataset is inte\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qri-io/qri",
+      "status": "candidate",
+      "text": "[![Qri](https://img.shields.io/badge/made%20by-qri-magenta.svg?style=flat-square)](https://qri.io) [![GoDoc](https://godoc.org/github.com/qri-io/qri?status.svg)](http://godoc.org/github.com/qri-io/qri) [![License](https://img.shields.io/github/license/qri-io/qri.svg?style=flat-s\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HumanSignal/label-studio",
+      "status": "candidate",
+      "text": "<img src=\"https://user-images.githubusercontent.com/12534576/192582340-4c9e4401-1fe6-4dbb-95bb-fdbba5493f61.png\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h4nwei/SPAQ",
+      "status": "candidate",
+      "text": "This repository contains the constructed Smartphone Photography Attribute and Quality (SPAQ) database and implementations for the paper \"Perceptual Quality Assessment of Smartphone Photography\","
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jayleicn/TVCaption",
+      "status": "candidate",
+      "text": "TVCaption"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PKU-YuanGroup/OpenS2V-Nexus",
+      "status": "candidate",
+      "text": "<div align=center>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jd-opensource/lapa-dataset",
+      "status": "candidate",
+      "text": "<!---->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jkkummerfeld/text2sql-data",
+      "status": "candidate",
+      "text": "This repository contains data and code for building and evaluating systems that map sentences to SQL, developed as part of:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "salesforce/WikiSQL",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/salesforce/WikiSQL.svg?branch=master)](https://travis-ci.org/salesforce/WikiSQL)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jayleicn/TVQA",
+      "status": "candidate",
+      "text": "PyTorch code accompanies our EMNLP 2018 paper:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jayleicn/TVQAplus",
+      "status": "candidate",
+      "text": "![qa_example](imgs/qa_example_pair.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "golsun/DialogRPT",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flyers/drone-tracking",
+      "status": "candidate",
+      "text": "Created by [Siyi Li](http://lisiyi.me) and [Dit-Yan Yeung](http://home.cse.ust.hk/~dyyeung) at HKUST."
     }
   ],
   "candidate_related_terms": [
@@ -846,11 +1116,107 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "jayleicn/TVRetrieval"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "smhassanerfani/atlantis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "kacperkan/conerf-kubric-dataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "AndyTheFactory/article-extraction-dataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "qri-io/qri"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "h4nwei/SPAQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "jayleicn/TVCaption"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "PKU-YuanGroup/OpenS2V-Nexus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "jd-opensource/lapa-dataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "jkkummerfeld/text2sql-data"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "salesforce/WikiSQL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "jayleicn/TVQA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "jayleicn/TVQAplus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "golsun/DialogRPT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "flyers/drone-tracking"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "cvat-ai/cvat"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -331,6 +331,42 @@
       "source_repo": "day8/re-frame-template",
       "status": "candidate-context",
       "text": "<!-- [![CI](https://github.com/day8/re-frame-template/workflows/ci/badge.svg)](https://github.com/day8/re-frame-template/actions?workflow=ci)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chr15m/sitefox",
+      "status": "candidate-context",
+      "text": "Node + cljs backend web framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chr15m/sitefox",
+      "status": "candidate-context",
+      "text": "Web framework for ClojureScript on Node."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "djblue/nrepl-cljs",
+      "status": "candidate-context",
+      "text": "nrepl server implemented for bootstrap clojurescript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "djblue/nrepl-cljs",
+      "status": "candidate-context",
+      "text": "Initial implementation of [nrepl](https://github.com/nrepl/nrepl) in"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thheller/shadow-cljs",
+      "status": "candidate-context",
+      "text": "ClojureScript compilation made easy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thheller/shadow-cljs",
+      "status": "candidate-context",
+      "text": "<img src=\"https://raw.githubusercontent.com/thheller/shadow-cljs/master/src/main/shadow/cljs/devtools/server/web/resources/img/shadow-cljs.png\" width=\"120\" height=\"120\" align=\"right\"/>"
     }
   ],
   "candidate_glosses": [
@@ -495,6 +531,24 @@
       "source_repo": "day8/re-frame-template",
       "status": "candidate",
       "text": "<!-- [![CI](https://github.com/day8/re-frame-template/workflows/ci/badge.svg)](https://github.com/day8/re-frame-template/actions?workflow=ci)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chr15m/sitefox",
+      "status": "candidate",
+      "text": "Web framework for ClojureScript on Node."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "djblue/nrepl-cljs",
+      "status": "candidate",
+      "text": "Initial implementation of [nrepl](https://github.com/nrepl/nrepl) in"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thheller/shadow-cljs",
+      "status": "candidate",
+      "text": "<img src=\"https://raw.githubusercontent.com/thheller/shadow-cljs/master/src/main/shadow/cljs/devtools/server/web/resources/img/shadow-cljs.png\" width=\"120\" height=\"120\" align=\"right\"/>"
     }
   ],
   "candidate_related_terms": [],
@@ -700,11 +754,53 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "day8/re-frame-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "clj-kondo/clj-kondo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "babashka/nbb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "babashka/sci"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "chr15m/sitefox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "babashka/scittle"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "djblue/nrepl-cljs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "thheller/shadow-cljs"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -367,6 +367,30 @@
       "source_repo": "Pixelworlds/opnsense-mcp-server",
       "status": "candidate-context",
       "text": "A modular Model Context Protocol (MCP) server that provides **88 module-based tools** giving access to over 2000 OPNsense firewall management methods through a type-safe TypeScript interface."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-webui/mcpo",
+      "status": "candidate-context",
+      "text": "A simple, secure MCP-to-OpenAPI proxy server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-webui/mcpo",
+      "status": "candidate-context",
+      "text": "Expose any MCP tool as an OpenAPI-compatible HTTP server\u2014instantly."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MiniMax-AI/MiniMax-MCP",
+      "status": "candidate-context",
+      "text": "Official MiniMax Model Context Protocol (MCP) server that enables interaction with powerful Text to Speech, image generation and video generation APIs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MiniMax-AI/MiniMax-MCP",
+      "status": "candidate-context",
+      "text": "![export](https://github.com/MiniMax-AI/MiniMax-01/raw/main/figures/MiniMaxLogo-Light.png)"
     }
   ],
   "candidate_glosses": [
@@ -549,6 +573,18 @@
       "source_repo": "Pixelworlds/opnsense-mcp-server",
       "status": "candidate",
       "text": "A modular Model Context Protocol (MCP) server that provides **88 module-based tools** giving access to over 2000 OPNsense firewall management methods through a type-safe TypeScript interface."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-webui/mcpo",
+      "status": "candidate",
+      "text": "Expose any MCP tool as an OpenAPI-compatible HTTP server\u2014instantly."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MiniMax-AI/MiniMax-MCP",
+      "status": "candidate",
+      "text": "![export](https://github.com/MiniMax-AI/MiniMax-01/raw/main/figures/MiniMaxLogo-Light.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -886,11 +922,35 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "Pixelworlds/opnsense-mcp-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ruvnet/ruflo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "symgraph/BinAssistMCP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "open-webui/mcpo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "MiniMax-AI/MiniMax-MCP"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -379,6 +379,30 @@
       "source_repo": "artempyanykh/marksman-vscode",
       "status": "candidate-context",
       "text": "Integrates [Marksman][mn] language server into VSCode for delightful Markdown"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mattn/efm-langserver",
+      "status": "candidate-context",
+      "text": "General purpose Language Server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mattn/efm-langserver",
+      "status": "candidate-context",
+      "text": "[![Actions Status](https://github.com/mattn/efm-langserver/workflows/CI/badge.svg)](https://github.com/mattn/efm-langserver/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Beaglefoot/awk-language-server",
+      "status": "candidate-context",
+      "text": "Language Server for AWK and associated VSCode client extension"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Beaglefoot/awk-language-server",
+      "status": "candidate-context",
+      "text": "[![tests](https://github.com/Beaglefoot/awk-language-server/actions/workflows/tests.yml/badge.svg)](https://github.com/Beaglefoot/awk-language-server/actions/workflows/tests.yml)"
     }
   ],
   "candidate_glosses": [
@@ -567,6 +591,18 @@
       "source_repo": "artempyanykh/marksman-vscode",
       "status": "candidate",
       "text": "Integrates [Marksman][mn] language server into VSCode for delightful Markdown"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mattn/efm-langserver",
+      "status": "candidate",
+      "text": "[![Actions Status](https://github.com/mattn/efm-langserver/workflows/CI/badge.svg)](https://github.com/mattn/efm-langserver/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Beaglefoot/awk-language-server",
+      "status": "candidate",
+      "text": "[![tests](https://github.com/Beaglefoot/awk-language-server/actions/workflows/tests.yml/badge.svg)](https://github.com/Beaglefoot/awk-language-server/actions/workflows/tests.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -814,11 +850,35 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "typescript-language-server/typescript-language-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "artempyanykh/marksman-vscode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "mattn/efm-langserver"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "haskell/vscode-haskell"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Beaglefoot/awk-language-server"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

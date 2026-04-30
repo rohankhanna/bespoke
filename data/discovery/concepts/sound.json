@@ -19,6 +19,30 @@
       "source_repo": "avaneev/r8brain-free-src",
       "status": "candidate-context",
       "text": "Open source (under the MIT license) high-quality professional audio sample"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lieff/minimp3",
+      "status": "candidate-context",
+      "text": "Minimalistic MP3 decoder single header library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lieff/minimp3",
+      "status": "candidate-context",
+      "text": "minimp3"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RustAudio/cpal",
+      "status": "candidate-context",
+      "text": "Cross-platform audio I/O library in pure Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RustAudio/cpal",
+      "status": "candidate-context",
+      "text": "[![Actions Status](https://github.com/RustAudio/cpal/workflows/cpal/badge.svg)](https://github.com/RustAudio/cpal/actions)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "avaneev/r8brain-free-src",
       "status": "candidate",
       "text": "Open source (under the MIT license) high-quality professional audio sample"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lieff/minimp3",
+      "status": "candidate",
+      "text": "minimp3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RustAudio/cpal",
+      "status": "candidate",
+      "text": "[![Actions Status](https://github.com/RustAudio/cpal/workflows/cpal/badge.svg)](https://github.com/RustAudio/cpal/actions)"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +148,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "avaneev/r8brain-free-src"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "lieff/minimp3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "RustAudio/cpal"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

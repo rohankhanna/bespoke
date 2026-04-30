@@ -454,6 +454,114 @@
       "source_repo": "swagger-api/swagger-parser",
       "status": "candidate-context",
       "text": "**NOTE:** If you're looking for `swagger-parser` 1.X and OpenAPI 2.0, please refer to [v1 branch](https://github.com/swagger-api/swagger-parser/tree/v1)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hairyf/genapi",
+      "status": "candidate-context",
+      "text": "API pipeline generator, which is used to convert OpenApi (v2~v3) and any input sources into TS/JS APIs, and currently supports axios, fetch, ky, got, ofetch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hairyf/genapi",
+      "status": "candidate-context",
+      "text": "[![npm version][npm-version-src]][npm-version-href]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hey-api/openapi-ts",
+      "status": "candidate-context",
+      "text": "\ud83c\udf00 OpenAPI to TypeScript codegen. Production-ready SDKs, Zod schemas, TanStack Query hooks, and 20+ plugins. Used by Vercel, OpenCode, and PayPal."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hey-api/openapi-ts",
+      "status": "candidate-context",
+      "text": "openapi-ts-monorepo \u2014 Public @hey-api monorepo"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-webui/mcpo",
+      "status": "candidate-context",
+      "text": "A simple, secure MCP-to-OpenAPI proxy server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-webui/mcpo",
+      "status": "candidate-context",
+      "text": "Expose any MCP tool as an OpenAPI-compatible HTTP server\u2014instantly."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-webui/openapi-servers",
+      "status": "candidate-context",
+      "text": "OpenAPI Tool Servers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-webui/openapi-servers",
+      "status": "candidate-context",
+      "text": "This repository provides reference OpenAPI Tool Server implementations making it easy and secure for developers to integrate external tooling and data sources into LLM agents and workflows. Designed for maximum ease of use and minimal learning curve, these implementations utiliz\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adidas/api-guidelines",
+      "status": "candidate-context",
+      "text": "adidas group API design guidelines"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adidas/api-guidelines",
+      "status": "candidate-context",
+      "text": "<figure><picture><source srcset=\".gitbook/assets/adidas_company_logo_BWr.png\" media=\"(prefers-color-scheme: dark)\"><img src=\".gitbook/assets/adidas_company_logo_BWp.png\" alt=\"\"></picture><figcaption></figcaption></figure>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apisyouwonthate/style-guide",
+      "status": "candidate-context",
+      "text": "A shared and somewhat opinionated style guide for everyone to enjoy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apisyouwonthate/style-guide",
+      "status": "candidate-context",
+      "text": "Make your APIs \"better\" according to APIs You Won't Hate, with this slick command line tool that'll run on your [OpenAPI](https://spec.openapis.org/oas/v3.1.0)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "box/box-openapi",
+      "status": "candidate-context",
+      "text": "OpenAPI 3.0 Specification for the Box APIs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "box/box-openapi",
+      "status": "candidate-context",
+      "text": "This repository contains the Box OpenAPI 3.0 Specification (OAS3) for the [Box Platform API](https://developers.box.com/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swagger-api/apidom",
+      "status": "candidate-context",
+      "text": "Semantic parser for API specifications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/apidom",
+      "status": "candidate-context",
+      "text": "[comment]: <> (SPDX-FileCopyrightText: Copyright &#40;c&#41; 2015 refractproject)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swagger-api/swagger-core",
+      "status": "candidate-context",
+      "text": "Examples and server integrations for generating the Swagger API Specification, which enables easy access to your REST API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/swagger-core",
+      "status": "candidate-context",
+      "text": "**NOTE:** If you're looking for Swagger Core 1.5.X and OpenAPI 2.0, please refer to [1.5 branch](https://github.com/swagger-api/swagger-core/tree/1.5)."
     }
   ],
   "candidate_glosses": [
@@ -678,6 +786,60 @@
       "source_repo": "swagger-api/swagger-parser",
       "status": "candidate",
       "text": "**NOTE:** If you're looking for `swagger-parser` 1.X and OpenAPI 2.0, please refer to [v1 branch](https://github.com/swagger-api/swagger-parser/tree/v1)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hairyf/genapi",
+      "status": "candidate",
+      "text": "[![npm version][npm-version-src]][npm-version-href]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hey-api/openapi-ts",
+      "status": "candidate",
+      "text": "openapi-ts-monorepo \u2014 Public @hey-api monorepo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-webui/mcpo",
+      "status": "candidate",
+      "text": "Expose any MCP tool as an OpenAPI-compatible HTTP server\u2014instantly."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-webui/openapi-servers",
+      "status": "candidate",
+      "text": "This repository provides reference OpenAPI Tool Server implementations making it easy and secure for developers to integrate external tooling and data sources into LLM agents and workflows. Designed for maximum ease of use and minimal learning curve, these implementations utiliz\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adidas/api-guidelines",
+      "status": "candidate",
+      "text": "<figure><picture><source srcset=\".gitbook/assets/adidas_company_logo_BWr.png\" media=\"(prefers-color-scheme: dark)\"><img src=\".gitbook/assets/adidas_company_logo_BWp.png\" alt=\"\"></picture><figcaption></figcaption></figure>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apisyouwonthate/style-guide",
+      "status": "candidate",
+      "text": "Make your APIs \"better\" according to APIs You Won't Hate, with this slick command line tool that'll run on your [OpenAPI](https://spec.openapis.org/oas/v3.1.0)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "box/box-openapi",
+      "status": "candidate",
+      "text": "This repository contains the Box OpenAPI 3.0 Specification (OAS3) for the [Box Platform API](https://developers.box.com/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/apidom",
+      "status": "candidate",
+      "text": "[comment]: <> (SPDX-FileCopyrightText: Copyright &#40;c&#41; 2015 refractproject)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/swagger-core",
+      "status": "candidate",
+      "text": "**NOTE:** If you're looking for Swagger Core 1.5.X and OpenAPI 2.0, please refer to [1.5 branch](https://github.com/swagger-api/swagger-core/tree/1.5)."
     }
   ],
   "candidate_related_terms": [],
@@ -937,11 +1099,83 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "swagger-api/swagger-parser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Redocly/redoc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "hairyf/genapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "hey-api/openapi-ts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "open-webui/mcpo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "open-webui/openapi-servers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "adidas/api-guidelines"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "apisyouwonthate/style-guide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "box/box-openapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "swagger-api/apidom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "swagger-api/swagger-core"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

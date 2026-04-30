@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "FOSSA scanning"
+    "FOSSA scanning",
+    "FOSSA Scanning"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -127,6 +128,18 @@
       "source_repo": "open-telemetry/opentelemetry-erlang-contrib",
       "status": "candidate-context",
       "text": "FOSSA scanning"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rancher/local-path-provisioner",
+      "status": "candidate-context",
+      "text": "Dynamically provisioning persistent local storage with Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rancher/local-path-provisioner",
+      "status": "candidate-context",
+      "text": "FOSSA Scanning"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +202,12 @@
       "source_repo": "open-telemetry/opentelemetry-erlang-contrib",
       "status": "candidate",
       "text": "FOSSA scanning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rancher/local-path-provisioner",
+      "status": "candidate",
+      "text": "FOSSA Scanning"
     }
   ],
   "candidate_related_terms": [
@@ -292,11 +311,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/fossa.yml",
       "source_repo": "open-telemetry/opentelemetry-erlang-contrib"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/fossa.yml",
+      "source_repo": "rancher/local-path-provisioner"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "CI jobs"
+    "CI jobs",
+    "CI Jobs"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "astronomer/dag-factory",
       "status": "candidate-context",
       "text": "CI jobs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "svsool/memo",
+      "status": "candidate-context",
+      "text": "Markdown knowledge base with bidirectional [[link]]s built on top of VSCode"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "svsool/memo",
+      "status": "candidate-context",
+      "text": "CI Jobs"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "astronomer/dag-factory",
       "status": "candidate",
       "text": "CI jobs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "svsool/memo",
+      "status": "candidate",
+      "text": "CI Jobs"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/cicd.yaml",
       "source_repo": "astronomer/dag-factory"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/ci_jobs.yml",
+      "source_repo": "svsool/memo"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

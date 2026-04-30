@@ -1,0 +1,348 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "s0/git-publish-subdir-action@v2.6.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "peter-evans/repository-dispatch@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "slackapi/slack-github-action@v1.27.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "slackapi/slack-github-action@v1.27.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "s0/git-publish-subdir-action@v2.6.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "slackapi/slack-github-action@v1.27.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "slackapi/slack-github-action@v1.27.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/en-api-docs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/en-api-docs.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/en-api-docs.yml"
+    },
+    {
+      "component": "s0/git-publish-subdir-action@v2.6.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/en-api-docs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jp-api-docs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jp-api-docs.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jp-api-docs.yml"
+    },
+    {
+      "component": "s0/git-publish-subdir-action@v2.6.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jp-api-docs.yml"
+    },
+    {
+      "component": "peter-evans/repository-dispatch@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notify.yml"
+    },
+    {
+      "component": "Ilshidur/action-slack@2.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notify.yml"
+    },
+    {
+      "component": "Ilshidur/action-slack@2.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notify.yml"
+    },
+    {
+      "component": "amannn/action-semantic-pull-request@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/semantic-pr.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "box/box-openapi",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "box/box-openapi",
+      "target": "s0/git-publish-subdir-action@v2.6.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "box/box-openapi",
+      "target": "peter-evans/repository-dispatch@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "box/box-openapi",
+      "target": "slackapi/slack-github-action@v1.27.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/en-api-docs.yml",
+      "source_repo": "box/box-openapi",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/en-api-docs.yml",
+      "source_repo": "box/box-openapi",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/en-api-docs.yml",
+      "source_repo": "box/box-openapi",
+      "target": "s0/git-publish-subdir-action@v2.6.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/en-api-docs.yml",
+      "source_repo": "box/box-openapi",
+      "target": "Process en branch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jp-api-docs.yml",
+      "source_repo": "box/box-openapi",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jp-api-docs.yml",
+      "source_repo": "box/box-openapi",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jp-api-docs.yml",
+      "source_repo": "box/box-openapi",
+      "target": "s0/git-publish-subdir-action@v2.6.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jp-api-docs.yml",
+      "source_repo": "box/box-openapi",
+      "target": "Process jp branch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notify.yml",
+      "source_repo": "box/box-openapi",
+      "target": "peter-evans/repository-dispatch@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notify.yml",
+      "source_repo": "box/box-openapi",
+      "target": "Ilshidur/action-slack@2.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/notify.yml",
+      "source_repo": "box/box-openapi",
+      "target": "Notify",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/semantic-pr.yml",
+      "source_repo": "box/box-openapi",
+      "target": "amannn/action-semantic-pull-request@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/semantic-pr.yml",
+      "source_repo": "box/box-openapi",
+      "target": "Semantic PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "box/box-openapi",
+      "target": "openapi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "box/box-openapi",
+      "target": "specification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "box/box-openapi",
+      "target": "swagger",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:55:46.650055+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1984
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 3923
+    },
+    {
+      "path": ".github/workflows/en-api-docs.yml",
+      "size": 1545
+    },
+    {
+      "path": ".github/workflows/jp-api-docs.yml",
+      "size": 1763
+    },
+    {
+      "path": ".github/workflows/notify.yml",
+      "size": 1394
+    },
+    {
+      "path": ".github/workflows/semantic-pr.yml",
+      "size": 314
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "OpenAPI 3.0 Specification for the Box APIs",
+    "fork": false,
+    "full_name": "box/box-openapi",
+    "html_url": "https://github.com/box/box-openapi",
+    "language": null,
+    "pushed_at": "2026-04-30T15:48:41Z",
+    "stargazers_count": 100,
+    "topics": [
+      "api",
+      "box",
+      "openapi",
+      "specification",
+      "swagger"
+    ],
+    "updated_at": "2026-04-28T16:28:54Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Process en branch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/en-api-docs.yml",
+      "term": "Process en branch"
+    },
+    {
+      "context_snippet": "Process jp branch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jp-api-docs.yml",
+      "term": "Process jp branch"
+    },
+    {
+      "context_snippet": "Notify",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/notify.yml",
+      "term": "Notify"
+    },
+    {
+      "context_snippet": "Semantic PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/semantic-pr.yml",
+      "term": "Semantic PR"
+    },
+    {
+      "context_snippet": "This repository contains the Box OpenAPI 3.0 Specification (OAS3) for the [Box Platform API](https://developers.box.com/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openapi"
+    },
+    {
+      "context_snippet": "This repository contains the Box OpenAPI 3.0 Specification (OAS3) for the [Box Platform API](https://developers.box.com/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "specification"
+    },
+    {
+      "context_snippet": "This repository contains the Box OpenAPI 3.0 Specification (OAS3) for the [Box Platform API](https://developers.box.com/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swagger"
+    }
+  ]
+}

@@ -103,6 +103,42 @@
       "source_repo": "ksuid/ksuid",
       "status": "candidate-context",
       "text": "[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.ksuid/ksuid/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.ksuid/ksuid)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/uuid",
+      "status": "candidate-context",
+      "text": "Go package for UUIDs based on RFC 4122 and DCE 1.1: Authentication and Security Services."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/uuid",
+      "status": "candidate-context",
+      "text": "The uuid package generates and inspects UUIDs based on"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "f4b6a3/ulid-creator",
+      "status": "candidate-context",
+      "text": "A Java library for generating Universally Unique Lexicographically Sortable Identifiers (ULID)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "f4b6a3/ulid-creator",
+      "status": "candidate-context",
+      "text": "ULID Creator"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "f4b6a3/uuid-creator",
+      "status": "candidate-context",
+      "text": "UUID Creator is a Java library for generating Universally Unique Identifiers. It generates all standard identifiers from UUIDv1 to UUIDv7. It also provides an alternative to the classic JDK's UUID (alt.GUID), many codecs (codec.*) and several utilities (util.*)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "f4b6a3/uuid-creator",
+      "status": "candidate-context",
+      "text": "UUID Creator"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +189,24 @@
       "source_repo": "ksuid/ksuid",
       "status": "candidate",
       "text": "[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.ksuid/ksuid/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.ksuid/ksuid)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/uuid",
+      "status": "candidate",
+      "text": "The uuid package generates and inspects UUIDs based on"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "f4b6a3/ulid-creator",
+      "status": "candidate",
+      "text": "ULID Creator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "f4b6a3/uuid-creator",
+      "status": "candidate",
+      "text": "UUID Creator"
     }
   ],
   "candidate_related_terms": [
@@ -250,11 +304,29 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "ulid/javascript"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "google/uuid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "f4b6a3/ulid-creator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "f4b6a3/uuid-creator"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

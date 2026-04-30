@@ -1,0 +1,121 @@
+{
+  "components": [
+    {
+      "component": "@vant/weapp",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "camelcase-keys",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "decamelize-keys-deep",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "protobufjs",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "miniprogram-api-typings",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "CyanAsterisk/FreeCar-MP",
+      "target": "@vant/weapp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "CyanAsterisk/FreeCar-MP",
+      "target": "camelcase-keys",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "CyanAsterisk/FreeCar-MP",
+      "target": "decamelize-keys-deep",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "CyanAsterisk/FreeCar-MP",
+      "target": "protobufjs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "CyanAsterisk/FreeCar-MP",
+      "target": "miniprogram-api-typings",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "CyanAsterisk/FreeCar-MP",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "CyanAsterisk/FreeCar-MP",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:52:03.180188+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 198
+    },
+    {
+      "path": "package.json",
+      "size": 418
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 127
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "WeChat MiniProgram Client for FreeCar",
+    "fork": false,
+    "full_name": "CyanAsterisk/FreeCar-MP",
+    "html_url": "https://github.com/CyanAsterisk/FreeCar-MP",
+    "language": "JavaScript",
+    "pushed_at": "2025-04-17T07:32:44Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2025-08-11T03:38:26Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

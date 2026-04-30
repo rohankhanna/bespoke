@@ -562,6 +562,42 @@
       "source_repo": "typstyle-rs/typstyle-action",
       "status": "candidate-context",
       "text": "GitHub Action to run [typstyle](https://github.com/Enter-tainer/typstyle), a Typst formatter."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cortinico/ktfmt-gradle",
+      "status": "candidate-context",
+      "text": "A Gradle plugin to apply ktfmt to your builds, and reformat you Kotlin source code like a glimpse \ud83e\uddf9\ud83d\udc18"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cortinico/ktfmt-gradle",
+      "status": "candidate-context",
+      "text": "A wrapper to apply [ktfmt](https://github.com/facebookincubator/ktfmt) to your Gradle builds, and reformat you Kotlin"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PyCQA/autoflake",
+      "status": "candidate-context",
+      "text": "Removes unused imports and unused variables as reported by pyflakes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/autoflake",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/PyCQA/autoflake/actions/workflows/main.yaml/badge.svg?branch=main)](https://github.com/PyCQA/autoflake/actions/workflows/main.yaml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "justinchuby/lintrunner-adapters",
+      "status": "candidate-context",
+      "text": "Adapters and tools for lintrunner"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "justinchuby/lintrunner-adapters",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/justinchuby/lintrunner-adapters/actions/workflows/ci.yml/badge.svg)](https://github.com/justinchuby/lintrunner-adapters/actions/workflows/ci.yml)"
     }
   ],
   "candidate_glosses": [
@@ -840,6 +876,24 @@
       "source_repo": "typstyle-rs/typstyle-action",
       "status": "candidate",
       "text": "GitHub Action to run [typstyle](https://github.com/Enter-tainer/typstyle), a Typst formatter."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cortinico/ktfmt-gradle",
+      "status": "candidate",
+      "text": "A wrapper to apply [ktfmt](https://github.com/facebookincubator/ktfmt) to your Gradle builds, and reformat you Kotlin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/autoflake",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/PyCQA/autoflake/actions/workflows/main.yaml/badge.svg?branch=main)](https://github.com/PyCQA/autoflake/actions/workflows/main.yaml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "justinchuby/lintrunner-adapters",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/justinchuby/lintrunner-adapters/actions/workflows/ci.yml/badge.svg)](https://github.com/justinchuby/lintrunner-adapters/actions/workflows/ci.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -1279,11 +1333,53 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "standard/snazzy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "cortinico/ktfmt-gradle"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "psf/black"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "PyCQA/autoflake"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "standard/snazzy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "justinchuby/lintrunner-adapters"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "PyCQA/isort"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "sql-formatter-org/sql-formatter"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

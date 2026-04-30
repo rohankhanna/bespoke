@@ -127,6 +127,18 @@
       "source_repo": "prometheus/alertmanager",
       "status": "candidate-context",
       "text": "[![Docker Repository on Quay](https://quay.io/repository/prometheus/alertmanager/status \"Docker Repository on Quay\")][quay]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodemailer/nodemailer",
+      "status": "candidate-context",
+      "text": "\u2709\ufe0f Send e-mails with Node.JS \u2013 easy as cake!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodemailer/nodemailer",
+      "status": "candidate-context",
+      "text": "[![Nodemailer](https://raw.githubusercontent.com/nodemailer/nodemailer/master/assets/nm_logo_200x136.png)](https://nodemailer.com/about/)"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +201,12 @@
       "source_repo": "prometheus/alertmanager",
       "status": "candidate",
       "text": "[![Docker Repository on Quay](https://quay.io/repository/prometheus/alertmanager/status \"Docker Repository on Quay\")][quay]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodemailer/nodemailer",
+      "status": "candidate",
+      "text": "[![Nodemailer](https://raw.githubusercontent.com/nodemailer/nodemailer/master/assets/nm_logo_200x136.png)](https://nodemailer.com/about/)"
     }
   ],
   "candidate_related_terms": [
@@ -314,11 +332,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "prometheus/alertmanager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "nodemailer/nodemailer"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

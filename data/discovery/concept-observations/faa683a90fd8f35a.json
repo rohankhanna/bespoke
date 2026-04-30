@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u26a1\ufe0f\ud83e\uddea Fast LLM Tool Calling Experimentation, big and smol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "stage & preview workflow"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "stage & preview workflow"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23045,
+      "status": "candidate",
+      "text": "run"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23045,
+      "status": "candidate",
+      "text": "scene"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23045,
+      "status": "candidate",
+      "text": "sere"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22925,
+      "status": "candidate",
+      "text": "channel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21408,
+      "status": "candidate",
+      "text": "protocol"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "stage & preview workflow",
+      "sense_id": "stage-preview-workflow#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "stage-preview-workflow",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "stage-preview-workflow",
+  "observation_id": "faa683a90fd8f35a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "stage & preview workflow",
+  "source_context_snippet": "stage & preview workflow",
+  "source_file": ".github/workflows/preview.yml",
+  "source_repo": "rgbkrk/chatlab",
+  "source_repo_description": "\u26a1\ufe0f\ud83e\uddea Fast LLM Tool Calling Experimentation, big and smol"
+}

@@ -84,7 +84,7 @@
   "normalized_form": "build-rpm",
   "observation_id": "d130b2a6fa5920a3",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
   "observed_text": "Build RPM",
   "source_context_snippet": "Build RPM",
   "source_file": ".github/workflows/make-rpm.yml",

@@ -31,6 +31,18 @@
       "source_repo": "toddbluhm/env-cmd",
       "status": "candidate-context",
       "text": "[![Linux Tests](https://github.com/toddbluhm/env-cmd/workflows/linux%20tests/badge.svg)](https://github.com/toddbluhm/env-cmd/actions?query=workflow%3A%22linux%20tests%22)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "motdotla/dotenv",
+      "status": "candidate-context",
+      "text": "Loads environment variables from .env for nodejs projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "motdotla/dotenv",
+      "status": "candidate-context",
+      "text": "<a href=\"https://dotenvx.com/?utm_source=github&utm_medium=readme&utm_campaign=motdotla-dotenv&utm_content=banner\"><img src=\"https://dotenvx.com/dotenv-banner.png\" alt=\"dotenvx\" /></a>"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "toddbluhm/env-cmd",
       "status": "candidate",
       "text": "[![Linux Tests](https://github.com/toddbluhm/env-cmd/workflows/linux%20tests/badge.svg)](https://github.com/toddbluhm/env-cmd/actions?query=workflow%3A%22linux%20tests%22)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "motdotla/dotenv",
+      "status": "candidate",
+      "text": "<a href=\"https://dotenvx.com/?utm_source=github&utm_medium=readme&utm_campaign=motdotla-dotenv&utm_content=banner\"><img src=\"https://dotenvx.com/dotenv-banner.png\" alt=\"dotenvx\" /></a>"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "toddbluhm/env-cmd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "motdotla/dotenv"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

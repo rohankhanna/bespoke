@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rubinius/rubinius",
+      "target": "programming-languages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rubinius/rubinius",
+      "target": "rubinius",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rubinius/rubinius",
+      "target": "virtual-machine",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:57:05.404975+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18052
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The Rubinius Language Platform",
+    "fork": false,
+    "full_name": "rubinius/rubinius",
+    "html_url": "https://github.com/rubinius/rubinius",
+    "language": "C",
+    "pushed_at": "2025-09-11T04:54:08Z",
+    "stargazers_count": 3095,
+    "topics": [
+      "programming-languages",
+      "rubinius",
+      "virtual-machine"
+    ],
+    "updated_at": "2026-04-28T10:25:51Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/rubinius/rubinius?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge) [![Build Status](https://travis-ci.org/rubinius/rubinius.svg?branch=master)](https://travis-ci.org/rubinius/rubinius)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "programming-languages"
+    },
+    {
+      "context_snippet": "[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/rubinius/rubinius?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge) [![Build Status](https://travis-ci.org/rubinius/rubinius.svg?branch=master)](https://travis-ci.org/rubinius/rubinius)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rubinius"
+    },
+    {
+      "context_snippet": "[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/rubinius/rubinius?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge) [![Build Status](https://travis-ci.org/rubinius/rubinius.svg?branch=master)](https://travis-ci.org/rubinius/rubinius)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "virtual-machine"
+    }
+  ]
+}

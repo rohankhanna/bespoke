@@ -23,20 +23,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "libvips/ruby-vips",
-      "target": "ffi/ffi",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "libvips/ruby-vips",
-      "target": "jcupitt/vips-benchmarks",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "libvips/ruby-vips",
@@ -79,7 +65,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T03:44:28.075099+00:00",
+  "fetched_at": "2026-04-30T12:54:40.049853+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -108,18 +94,7 @@
     ],
     "updated_at": "2026-04-20T06:27:42Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "ffi/ffi",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "jcupitt/vips-benchmarks",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Test",

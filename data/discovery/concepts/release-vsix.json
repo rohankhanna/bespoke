@@ -19,12 +19,24 @@
       "source_repo": "BetterThanTomorrow/calva-power-tools",
       "status": "candidate-context",
       "text": "Release VSIX"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PEZ/vscode-extension-template",
+      "status": "candidate-context",
+      "text": "Release VSIX"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "BetterThanTomorrow/calva-power-tools",
+      "status": "candidate",
+      "text": "Release VSIX"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PEZ/vscode-extension-template",
       "status": "candidate",
       "text": "Release VSIX"
     }
@@ -76,11 +88,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "BetterThanTomorrow/calva-power-tools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "PEZ/vscode-extension-template"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -5,13 +5,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "zhoubolei/CAM",
-      "target": "csailvision/places365",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "zhoubolei/CAM",
       "target": "metalbubble/cam",
       "target_type": "repository"
     },
@@ -30,7 +23,7 @@
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-04-30T10:14:09.625148+00:00",
+  "fetched_at": "2026-04-30T15:08:46.446706+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -52,11 +45,6 @@
     "updated_at": "2026-04-29T08:57:57Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "csailvision/places365",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "gcucurull/cam-python",

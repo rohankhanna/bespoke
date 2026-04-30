@@ -84,7 +84,7 @@
   "normalized_form": "cleanup-caches-by-a-branch",
   "observation_id": "f98235bdb43db5a1",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
   "observed_text": "cleanup caches by a branch",
   "source_context_snippet": "cleanup caches by a branch",
   "source_file": ".github/workflows/clean-caches.yml",

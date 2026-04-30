@@ -68,21 +68,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "nvim-neotest/neotest",
-      "target": "adrigzr/neotest-mocha",
+      "target": "fredrikaverpil/neotest-golang",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "nvim-neotest/neotest",
-      "target": "arthur944/neotest-bun",
+      "target": "benelan/neotest-stenciljs",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "nvim-neotest/neotest",
-      "target": "alfaix/neotest-gtest",
+      "target": "codymikol/neotest-kotlin.nvim",
       "target_type": "repository"
     },
     {
@@ -170,7 +170,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T04:13:29.909268+00:00",
+  "fetched_at": "2026-04-30T14:09:53.800976+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -209,22 +209,22 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "adrigzr/neotest-mocha",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "akinsho/neotest-go",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "alfaix/neotest-gtest",
+      "full_name": "benelan/neotest-stenciljs",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "arthur944/neotest-bun",
+      "full_name": "codymikol/neotest-kotlin.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fredrikaverpil/neotest-golang",
       "source_file": "README.md"
     }
   ],

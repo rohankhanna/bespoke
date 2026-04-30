@@ -1,7 +1,7 @@
 {
   "component": "graalvm/setup-graalvm@v1",
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -77,6 +77,106 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "square/okhttp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/graaljs-spring-boot-d3.yml",
+      "source_repo": "graalvm/graal-languages-demos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/graaljs-starter.yml",
+      "source_repo": "graalvm/graal-languages-demos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/graaljs-webpack-guide.yml",
+      "source_repo": "graalvm/graal-languages-demos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/graalpy-custom-venv-guide.yml",
+      "source_repo": "graalvm/graal-languages-demos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/graalpy-freeze-dependencies-guide.yml",
+      "source_repo": "graalvm/graal-languages-demos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/graalpy-javase-guide.yml",
+      "source_repo": "graalvm/graal-languages-demos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/graalpy-jbang-qrcode.yml",
+      "source_repo": "graalvm/graal-languages-demos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/archive-class-initialization-examples.yml",
+      "source_repo": "graalvm/graalvm-demos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/archive-espresso-jshell.yml",
+      "source_repo": "graalvm/graalvm-demos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/archive-functionGraphDemo.yml",
+      "source_repo": "graalvm/graalvm-demos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/archive-javagdbnative.yml",
+      "source_repo": "graalvm/graalvm-demos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/archive-js-java-async-helidon.yml",
+      "source_repo": "graalvm/graalvm-demos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/archive-multithreading-demo.yml",
+      "source_repo": "graalvm/graalvm-demos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/archive-native-netty-plot.yml",
+      "source_repo": "graalvm/graalvm-demos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/archive-polyglot-javascript-java-r.yml",
+      "source_repo": "graalvm/graalvm-demos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/archive-spring-r.yml",
+      "source_repo": "graalvm/graalvm-demos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-native-gradle-plugin.yml",
+      "source_repo": "graalvm/native-build-tools"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-native-maven-plugin.yml",
+      "source_repo": "graalvm/native-build-tools"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "graalvm/polyglot-embedding-demo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/master-build.yml",
+      "source_repo": "jline/jline3"
     }
   ]
 }

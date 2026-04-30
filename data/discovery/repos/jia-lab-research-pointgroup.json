@@ -7,16 +7,9 @@
       "source_repo": "JIA-Lab-research/PointGroup",
       "target": "llijiang/pointgroup",
       "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "JIA-Lab-research/PointGroup",
-      "target": "scannet/scannet",
-      "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-04-30T10:14:32.108029+00:00",
+  "fetched_at": "2026-04-30T15:09:16.154941+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -45,11 +38,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "llijiang/pointgroup",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "scannet/scannet",
       "source_file": "README.md"
     }
   ],

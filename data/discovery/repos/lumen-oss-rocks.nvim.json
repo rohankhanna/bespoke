@@ -121,21 +121,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "lumen-oss/rocks.nvim",
-      "target": "lumen-oss/nurr",
+      "target": "lumen-oss/rocks-git.nvim",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "lumen-oss/rocks.nvim",
-      "target": "lumen-oss/nvim-best-practices",
+      "target": "lumen-oss/rocks-config.nvim",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "lumen-oss/rocks.nvim",
-      "target": "lumen-oss/luarocks-tag-release",
+      "target": "lumen-oss/rocks-dev.nvim",
       "target_type": "repository"
     },
     {
@@ -384,7 +384,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T04:13:26.464530+00:00",
+  "fetched_at": "2026-04-30T14:08:37.568753+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -450,17 +450,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "lumen-oss/luarocks-tag-release",
+      "full_name": "lumen-oss/rocks-config.nvim",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "lumen-oss/nurr",
+      "full_name": "lumen-oss/rocks-dev.nvim",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "lumen-oss/nvim-best-practices",
+      "full_name": "lumen-oss/rocks-git.nvim",
       "source_file": "README.md"
     }
   ],

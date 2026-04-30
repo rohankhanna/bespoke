@@ -895,6 +895,126 @@
       "source_repo": "cockroachdb/cockroach",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "googleapis/nodejs-bigtable",
+      "status": "candidate-context",
+      "text": "Node.js client for Google Cloud Bigtable: Google's NoSQL Big Data database service."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/nodejs-bigtable",
+      "status": "candidate-context",
+      "text": "**_THIS REPOSITORY IS DEPRECATED. ALL OF ITS CONTENT AND HISTORY HAS BEEN MOVED TO [GOOGLE-CLOUD-NODE](https://github.com/googleapis/google-cloud-node/tree/main/packages/handwritten)_**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "debezium/debezium",
+      "status": "candidate-context",
+      "text": "Change data capture for a variety of databases. Please log issues at https://github.com/debezium/dbz/issues."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "debezium/debezium",
+      "status": "candidate-context",
+      "text": "[![License](http://img.shields.io/:license-apache%202.0-brightgreen.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-sql-driver/mysql",
+      "status": "candidate-context",
+      "text": "Go MySQL Driver is a MySQL driver for Go's (golang) database/sql package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-sql-driver/mysql",
+      "status": "candidate-context",
+      "text": "[![DeepWiki](https://img.shields.io/badge/DeepWiki-go--sql--driver%2Fmysql-blue.svg?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAyCAYAAAAnWDnqAAAAAXNSR0IArs4c6QAAA05JREFUaEPtmUtyEzEQhtWTQyQLHNak2AB7ZnyXZMEjXMGeK/AIi+QuHrMnbChYY7MIh8g01fJoopFb0uhhEqqcbWTp06/uv1saEDv4\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kkharji/sqlite.lua",
+      "status": "candidate-context",
+      "text": "SQLite LuaJIT binding with a very simple api."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kkharji/sqlite.lua",
+      "status": "candidate-context",
+      "text": "sqlite.lua \ud83d\udcab"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/ignite",
+      "status": "candidate-context",
+      "text": "Apache Ignite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/ignite",
+      "status": "candidate-context",
+      "text": "<a href=\"https://ignite.apache.org/\"><img src=\"https://github.com/apache/ignite-website/blob/master/assets/images/apache_ignite_logo.svg\" hspace=\"20\"/></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sclorg/mongodb-container",
+      "status": "candidate-context",
+      "text": "MongoDB container images based on Red Hat Software Collections and intended for OpenShift and general usage. Users can choose between Red Hat Enterprise Linux, Fedora, and CentOS based images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sclorg/mongodb-container",
+      "status": "candidate-context",
+      "text": "MongoDB container images"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jkkummerfeld/text2sql-data",
+      "status": "candidate-context",
+      "text": "A collection of datasets that pair questions with SQL queries."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jkkummerfeld/text2sql-data",
+      "status": "candidate-context",
+      "text": "This repository contains data and code for building and evaluating systems that map sentences to SQL, developed as part of:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "salesforce/WikiSQL",
+      "status": "candidate-context",
+      "text": "A large annotated semantic parsing corpus for developing natural language interfaces."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "salesforce/WikiSQL",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/salesforce/WikiSQL.svg?branch=master)](https://travis-ci.org/salesforce/WikiSQL)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "izelnakri/paper_trail",
+      "status": "candidate-context",
+      "text": "Track and record all the changes in your database with Ecto. Revert back to anytime in history."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "izelnakri/paper_trail",
+      "status": "candidate-context",
+      "text": "[![Hex Version](http://img.shields.io/hexpm/v/paper_trail.svg?style=flat)](https://hex.pm/packages/paper_trail) [![Hex docs](http://img.shields.io/badge/hex.pm-docs-green.svg?style=flat)](https://hexdocs.pm/paper_trail/PaperTrail.html)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "acro5piano/kysely-migration-cli",
+      "status": "candidate-context",
+      "text": "A thin library to create a migration script using Kysely "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "acro5piano/kysely-migration-cli",
+      "status": "candidate-context",
+      "text": "A lightweight migration CLI **library** for [Kysely](https://github.com/koskimas/kysely)"
     }
   ],
   "candidate_glosses": [
@@ -1341,6 +1461,66 @@
       "source_repo": "cockroachdb/cockroach",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/nodejs-bigtable",
+      "status": "candidate",
+      "text": "**_THIS REPOSITORY IS DEPRECATED. ALL OF ITS CONTENT AND HISTORY HAS BEEN MOVED TO [GOOGLE-CLOUD-NODE](https://github.com/googleapis/google-cloud-node/tree/main/packages/handwritten)_**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "debezium/debezium",
+      "status": "candidate",
+      "text": "[![License](http://img.shields.io/:license-apache%202.0-brightgreen.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-sql-driver/mysql",
+      "status": "candidate",
+      "text": "[![DeepWiki](https://img.shields.io/badge/DeepWiki-go--sql--driver%2Fmysql-blue.svg?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAyCAYAAAAnWDnqAAAAAXNSR0IArs4c6QAAA05JREFUaEPtmUtyEzEQhtWTQyQLHNak2AB7ZnyXZMEjXMGeK/AIi+QuHrMnbChYY7MIh8g01fJoopFb0uhhEqqcbWTp06/uv1saEDv4\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kkharji/sqlite.lua",
+      "status": "candidate",
+      "text": "sqlite.lua \ud83d\udcab"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/ignite",
+      "status": "candidate",
+      "text": "<a href=\"https://ignite.apache.org/\"><img src=\"https://github.com/apache/ignite-website/blob/master/assets/images/apache_ignite_logo.svg\" hspace=\"20\"/></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sclorg/mongodb-container",
+      "status": "candidate",
+      "text": "MongoDB container images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jkkummerfeld/text2sql-data",
+      "status": "candidate",
+      "text": "This repository contains data and code for building and evaluating systems that map sentences to SQL, developed as part of:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "salesforce/WikiSQL",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/salesforce/WikiSQL.svg?branch=master)](https://travis-ci.org/salesforce/WikiSQL)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "izelnakri/paper_trail",
+      "status": "candidate",
+      "text": "[![Hex Version](http://img.shields.io/hexpm/v/paper_trail.svg?style=flat)](https://hex.pm/packages/paper_trail) [![Hex docs](http://img.shields.io/badge/hex.pm-docs-green.svg?style=flat)](https://hexdocs.pm/paper_trail/PaperTrail.html)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "acro5piano/kysely-migration-cli",
+      "status": "candidate",
+      "text": "A lightweight migration CLI **library** for [Kysely](https://github.com/koskimas/kysely)"
     }
   ],
   "candidate_related_terms": [
@@ -1942,11 +2122,101 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "cockroachdb/cockroach"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "googleapis/nodejs-bigtable"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "debezium/debezium"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "go-sql-driver/mysql"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "kkharji/sqlite.lua"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "etcd-io/etcd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "olric-data/olric"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "apache/ignite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "sclorg/mongodb-container"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "WiseLibs/better-sqlite3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "jkkummerfeld/text2sql-data"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "salesforce/WikiSQL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "izelnakri/paper_trail"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/phoenix-ecto-encryption-example"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "acro5piano/kysely-migration-cli"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

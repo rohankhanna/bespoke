@@ -2,20 +2,6 @@
   "components": [],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "clearml/clearml-agent",
-      "target": "clearml/clearml-server",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "clearml/clearml-agent",
-      "target": "clearml/clearml-helm-charts",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "clearml/clearml-agent",
@@ -100,7 +86,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T08:20:00.933246+00:00",
+  "fetched_at": "2026-04-30T13:06:49.907146+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -144,18 +130,7 @@
     ],
     "updated_at": "2026-04-29T14:25:47Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "clearml/clearml-helm-charts",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "clearml/clearml-server",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "<div align=\"center\">",

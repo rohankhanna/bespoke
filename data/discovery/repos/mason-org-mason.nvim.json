@@ -221,7 +221,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T10:28:26.200476+00:00",
+  "fetched_at": "2026-04-30T16:07:25.519646+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -258,7 +258,7 @@
     "html_url": "https://github.com/mason-org/mason.nvim",
     "language": "Lua",
     "pushed_at": "2026-04-27T04:28:55Z",
-    "stargazers_count": 10244,
+    "stargazers_count": 10245,
     "topics": [
       "lua",
       "mason",
@@ -271,7 +271,7 @@
       "package-manager",
       "packages"
     ],
-    "updated_at": "2026-04-30T09:49:45Z"
+    "updated_at": "2026-04-30T13:37:52Z"
   },
   "repo_links": [],
   "terms": [

@@ -1,0 +1,102 @@
+{
+  "aliases": [
+    "plenary"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-neotest/neotest-plenary",
+      "status": "candidate-context",
+      "text": "[Neotest](https://github.com/rcarriga/neotest) adapter for [plenary.nvim](https://github.com/nvim-lua/plenary.nvim) busted tests."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-neotest/neotest-plenary",
+      "status": "candidate",
+      "text": "[Neotest](https://github.com/rcarriga/neotest) adapter for [plenary.nvim](https://github.com/nvim-lua/plenary.nvim) busted tests."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39983701,
+      "status": "candidate",
+      "text": "comprehensive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30009674,
+      "status": "candidate",
+      "text": "meeting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30001934,
+      "status": "candidate",
+      "text": "vote"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30001597,
+      "status": "candidate",
+      "text": "session"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30000166,
+      "status": "candidate",
+      "text": "parliament"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 72039,
+      "status": "candidate",
+      "text": "comprehensive"
+    }
+  ],
+  "canonical_name": "plenary",
+  "concept_id": "plenary",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "nvim-neotest/neotest-plenary"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "plenary",
+      "sense_id": "plenary#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

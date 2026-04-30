@@ -55,6 +55,18 @@
       "source_repo": "chainer/chainer",
       "status": "candidate-context",
       "text": "***Notice: As [announced](https://chainer.org/announcement/2019/12/05/released-v7.html), Chainer is under the maintenance phase and further development will be limited to bug-fixes and maintenance only.***"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chainer/chainercv",
+      "status": "candidate-context",
+      "text": "ChainerCV: a Library for Deep Learning in Computer Vision"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chainer/chainercv",
+      "status": "candidate-context",
+      "text": "[![](docs/images/logo.png)](http://chainercv.readthedocs.io/en/stable/)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "chainer/chainer",
       "status": "candidate",
       "text": "***Notice: As [announced](https://chainer.org/announcement/2019/12/05/released-v7.html), Chainer is under the maintenance phase and further development will be limited to bug-fixes and maintenance only.***"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chainer/chainercv",
+      "status": "candidate",
+      "text": "[![](docs/images/logo.png)](http://chainercv.readthedocs.io/en/stable/)"
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +166,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "chainer/chainer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "chainer/chainercv"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

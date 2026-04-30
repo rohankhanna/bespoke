@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tremby/imgur.sh",
+      "target": "bash-script",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tremby/imgur.sh",
+      "target": "imgur",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:51:53.087777+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3326
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Bart's Imgur uploader bash script",
+    "fork": false,
+    "full_name": "tremby/imgur.sh",
+    "html_url": "https://github.com/tremby/imgur.sh",
+    "language": "Shell",
+    "pushed_at": "2022-04-24T17:13:02Z",
+    "stargazers_count": 213,
+    "topics": [
+      "bash-script",
+      "imgur"
+    ],
+    "updated_at": "2026-04-27T10:11:16Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Bart's Imgur uploader bash script",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bash-script"
+    },
+    {
+      "context_snippet": "Bart's Imgur uploader bash script",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "imgur"
+    }
+  ]
+}

@@ -199,6 +199,18 @@
       "source_repo": "apollographql/router",
       "status": "candidate-context",
       "text": "<a href=\"#\"><img src=\"https://raw.githubusercontent.com/apollographql/space-kit/main/src/illustrations/svgs/satellite1.svg\" width=\"100%\" height=\"144\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apollographql/gatsby-theme-apollo",
+      "status": "candidate-context",
+      "text": "\ud83d\udc9c Themes that we use to build Gatsby sites at Apollo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/gatsby-theme-apollo",
+      "status": "candidate-context",
+      "text": "> \u26a0\ufe0f These packages are no longer being maintained. Feel free to continue using them, but we won't be supporting them moving forward."
     }
   ],
   "candidate_glosses": [
@@ -297,6 +309,12 @@
       "source_repo": "apollographql/router",
       "status": "candidate",
       "text": "<a href=\"#\"><img src=\"https://raw.githubusercontent.com/apollographql/space-kit/main/src/illustrations/svgs/satellite1.svg\" width=\"100%\" height=\"144\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/gatsby-theme-apollo",
+      "status": "candidate",
+      "text": "> \u26a0\ufe0f These packages are no longer being maintained. Feel free to continue using them, but we won't be supporting them moving forward."
     }
   ],
   "candidate_related_terms": [
@@ -499,11 +517,35 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "graphql-hive/graphql-config"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/gatsby-theme-apollo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-scalajs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Urigo/graphql-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "graphql-hive/graphql-config"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

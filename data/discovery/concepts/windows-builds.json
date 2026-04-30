@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Windows builds"
+    "Windows builds",
+    "Windows-Builds"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "php-rdkafka/php-rdkafka",
       "status": "candidate-context",
       "text": "\"Windows builds\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "googleapis/google-cloud-cpp",
+      "status": "candidate-context",
+      "text": "C++ Client Libraries for Google Cloud Services"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/google-cloud-cpp",
+      "status": "candidate-context",
+      "text": "Windows-Builds"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "php-rdkafka/php-rdkafka",
       "status": "candidate",
       "text": "\"Windows builds\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/google-cloud-cpp",
+      "status": "candidate",
+      "text": "Windows-Builds"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/windows.yml",
       "source_repo": "php-rdkafka/php-rdkafka"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/windows-bazel.yml",
+      "source_repo": "googleapis/google-cloud-cpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/windows-cmake.yml",
+      "source_repo": "googleapis/google-cloud-cpp"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

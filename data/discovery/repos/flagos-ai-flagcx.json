@@ -1,0 +1,290 @@
+{
+  "components": [
+    {
+      "component": "flagos-ai/build-infra/.github/workflows/sync-to-remote.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-sync.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-deb.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-deb.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-deb.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/torch-api-test.yml"
+    },
+    {
+      "component": "flagos-ai/build-infra/.github/workflows/imagebuild.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trigger.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittest-adaptor.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "flagos-ai/FlagCX",
+      "target": "facebookincubator/gloo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "flagos-ai/FlagCX",
+      "target": "flagopen/flagcx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-sync.yaml",
+      "source_repo": "flagos-ai/FlagCX",
+      "target": "flagos-ai/build-infra/.github/workflows/sync-to-remote.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-sync.yaml",
+      "source_repo": "flagos-ai/FlagCX",
+      "target": "Sync to remote site",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-deb.yml",
+      "source_repo": "flagos-ai/FlagCX",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-deb.yml",
+      "source_repo": "flagos-ai/FlagCX",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-deb.yml",
+      "source_repo": "flagos-ai/FlagCX",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-deb.yml",
+      "source_repo": "flagos-ai/FlagCX",
+      "target": "Build Debian Packages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "flagos-ai/FlagCX",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "flagos-ai/FlagCX",
+      "target": "Run Container and Execute Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/torch-api-test.yml",
+      "source_repo": "flagos-ai/FlagCX",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/torch-api-test.yml",
+      "source_repo": "flagos-ai/FlagCX",
+      "target": "Torch API Tests in Container",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trigger.yml",
+      "source_repo": "flagos-ai/FlagCX",
+      "target": "flagos-ai/build-infra/.github/workflows/imagebuild.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/trigger.yml",
+      "source_repo": "flagos-ai/FlagCX",
+      "target": "Docker Image Build Orchestrator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-test.yml",
+      "source_repo": "flagos-ai/FlagCX",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit-test.yml",
+      "source_repo": "flagos-ai/FlagCX",
+      "target": "Unit Tests in Container",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittest-adaptor.yml",
+      "source_repo": "flagos-ai/FlagCX",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unittest-adaptor.yml",
+      "source_repo": "flagos-ai/FlagCX",
+      "target": "Unit Tests: adaptor",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:58:43.549927+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10998
+    },
+    {
+      "path": "Dockerfile",
+      "size": 7220
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 251
+    },
+    {
+      "path": ".github/workflows/auto-sync.yaml",
+      "size": 831
+    },
+    {
+      "path": ".github/workflows/build-deb.yml",
+      "size": 946
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 2266
+    },
+    {
+      "path": ".github/workflows/torch-api-test.yml",
+      "size": 2999
+    },
+    {
+      "path": ".github/workflows/trigger.yml",
+      "size": 3747
+    },
+    {
+      "path": ".github/workflows/unit-test.yml",
+      "size": 3622
+    },
+    {
+      "path": ".github/workflows/unittest-adaptor.yml",
+      "size": 1681
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "FlagCX is a scalable and adaptive cross-chip communication library.",
+    "fork": false,
+    "full_name": "flagos-ai/FlagCX",
+    "html_url": "https://github.com/flagos-ai/FlagCX",
+    "language": "C++",
+    "pushed_at": "2026-04-29T11:31:27Z",
+    "stargazers_count": 202,
+    "topics": [],
+    "updated_at": "2026-04-29T11:31:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookincubator/gloo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "flagopen/flagcx",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Sync to remote site",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-sync.yaml",
+      "term": "Sync to remote site"
+    },
+    {
+      "context_snippet": "Build Debian Packages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-deb.yml",
+      "term": "Build Debian Packages"
+    },
+    {
+      "context_snippet": "Run Container and Execute Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Run Container and Execute Tests"
+    },
+    {
+      "context_snippet": "Torch API Tests in Container",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/torch-api-test.yml",
+      "term": "Torch API Tests in Container"
+    },
+    {
+      "context_snippet": "Docker Image Build Orchestrator",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/trigger.yml",
+      "term": "Docker Image Build Orchestrator"
+    },
+    {
+      "context_snippet": "Unit Tests in Container",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit-test.yml",
+      "term": "Unit Tests in Container"
+    },
+    {
+      "context_snippet": "\"Unit Tests: adaptor\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unittest-adaptor.yml",
+      "term": "Unit Tests: adaptor"
+    }
+  ]
+}

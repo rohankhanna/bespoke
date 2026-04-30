@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nightrome/cocostuffapi",
+      "target": "computervision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nightrome/cocostuffapi",
+      "target": "semantic-segmentation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:06:56.759076+00:00",
+  "fetched_files": [
+    {
+      "path": "README.txt",
+      "size": 1282
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "COCO Stuff API",
+    "fork": true,
+    "full_name": "nightrome/cocostuffapi",
+    "html_url": "https://github.com/nightrome/cocostuffapi",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-12-01T20:30:55Z",
+    "stargazers_count": 183,
+    "topics": [
+      "computervision",
+      "semantic-segmentation"
+    ],
+    "updated_at": "2025-11-14T10:30:20Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "COCO API - http://cocodataset.org/",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computervision"
+    },
+    {
+      "context_snippet": "COCO API - http://cocodataset.org/",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-segmentation"
+    }
+  ]
+}

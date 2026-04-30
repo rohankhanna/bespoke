@@ -1,0 +1,17 @@
+{
+  "component": "autowarefoundation/autoware-github-actions/get-modified-packages@v1",
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-differential.yaml",
+      "source_repo": "autowarefoundation/autoware_universe"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-packages-above-differential.yaml",
+      "source_repo": "autowarefoundation/autoware_universe"
+    }
+  ]
+}

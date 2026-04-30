@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/xcit",
+      "target": "rwightman/pytorch-image-models",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:08:48.594330+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15234
+    },
+    {
+      "path": "requirements.txt",
+      "size": 53
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Official code Cross-Covariance Image Transformer (XCiT)",
+    "fork": false,
+    "full_name": "facebookresearch/xcit",
+    "html_url": "https://github.com/facebookresearch/xcit",
+    "language": "Python",
+    "pushed_at": "2021-09-28T15:55:09Z",
+    "stargazers_count": 679,
+    "topics": [],
+    "updated_at": "2026-04-21T08:48:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rwightman/pytorch-image-models",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

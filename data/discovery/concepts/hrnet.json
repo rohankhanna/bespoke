@@ -31,6 +31,18 @@
       "source_repo": "open-mmlab/mmpose",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HRNet/HRFormer",
+      "status": "candidate-context",
+      "text": "[ NeurIPS2021] This is an official implementation of our paper \"HRFormer: High-Resolution Transformer for Dense Prediction\"."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HRNet/HRFormer",
+      "status": "candidate-context",
+      "text": "<img src='HRFormer-20-fps.gif' align=\"center\" width=1024>"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "open-mmlab/mmpose",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HRNet/HRFormer",
+      "status": "candidate",
+      "text": "<img src='HRFormer-20-fps.gif' align=\"center\" width=1024>"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "open-mmlab/mmpose"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "HRNet/HRFormer"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update Status Labels When Author Replies"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaDocs/Documenter.jl",
+      "status": "candidate-context",
+      "text": "A documentation generator for Julia."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDocs/Documenter.jl",
+      "status": "candidate-context",
+      "text": "Update Status Labels When Author Replies"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDocs/Documenter.jl",
+      "status": "candidate",
+      "text": "Update Status Labels When Author Replies"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44557,
+      "status": "candidate",
+      "text": "tune"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35001,
+      "status": "candidate",
+      "text": "traffic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34106,
+      "status": "candidate",
+      "text": "label"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32605,
+      "status": "candidate",
+      "text": "mark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32542,
+      "status": "candidate",
+      "text": "signal"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update Status Labels When Author Replies",
+  "concept_id": "update-status-labels-when-author-replies",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/labels.yml",
+      "source_repo": "JuliaDocs/Documenter.jl"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Status Labels When Author Replies",
+      "sense_id": "update-status-labels-when-author-replies#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

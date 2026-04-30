@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Create release from new tag"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stretchr/testify",
+      "status": "candidate-context",
+      "text": "A toolkit with common assertions and mocks that plays nicely with the standard library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stretchr/testify",
+      "status": "candidate-context",
+      "text": "Create release from new tag"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stretchr/testify",
+      "status": "candidate",
+      "text": "Create release from new tag"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 57623,
+      "status": "candidate",
+      "text": "roll"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 45548,
+      "status": "candidate",
+      "text": "rolled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44994,
+      "status": "candidate",
+      "text": "come"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44967,
+      "status": "candidate",
+      "text": "tagging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44072,
+      "status": "candidate",
+      "text": "license"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Create release from new tag",
+  "concept_id": "create-release-from-new-tag",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "stretchr/testify"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Create release from new tag",
+      "sense_id": "create-release-from-new-tag#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

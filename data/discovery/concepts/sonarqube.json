@@ -58,6 +58,18 @@
       "source_repo": "omegacen/pylint-sonarjson",
       "status": "candidate-context",
       "text": "This project is no longer maintained. For an newer fork and the source of the PyPI package, see https://github.com/cnescatlab/pylint-sonarjson-catlab."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "detekt/sonar-detekt",
+      "status": "candidate-context",
+      "text": "SonarQube plugin for Kotlin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "detekt/sonar-detekt",
+      "status": "candidate-context",
+      "text": "Now that Sonarqube officially supports Kotlin with detekt issue import, this plugin repository has been archived."
     }
   ],
   "candidate_glosses": [
@@ -84,6 +96,12 @@
       "source_repo": "omegacen/pylint-sonarjson",
       "status": "candidate",
       "text": "This project is no longer maintained. For an newer fork and the source of the PyPI package, see https://github.com/cnescatlab/pylint-sonarjson-catlab."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "detekt/sonar-detekt",
+      "status": "candidate",
+      "text": "Now that Sonarqube officially supports Kotlin with detekt issue import, this plugin repository has been archived."
     }
   ],
   "candidate_related_terms": [
@@ -151,11 +169,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "omegacen/pylint-sonarjson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "detekt/sonar-detekt"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

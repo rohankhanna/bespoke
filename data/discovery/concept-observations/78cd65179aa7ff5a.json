@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Tensors and Dynamic neural networks in Python with strong GPU acceleration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "android-build-test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "android-build-test"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "android-build-test",
+      "sense_id": "android-build-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "android-build-test",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "android-build-test",
+  "observation_id": "78cd65179aa7ff5a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "android-build-test",
+  "source_context_snippet": "android-build-test",
+  "source_file": ".github/workflows/_android-build-test.yml",
+  "source_repo": "Ningsir/pytorch",
+  "source_repo_description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Storybook is the industry standard workshop for building, documenting, and testing UI components in isolation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Duplicate Code Detector\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Duplicate Code Detector\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18312,
+      "status": "candidate",
+      "text": "ping"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18312,
+      "status": "candidate",
+      "text": "scan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18312,
+      "status": "candidate",
+      "text": "scanned"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18312,
+      "status": "candidate",
+      "text": "scanning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18312,
+      "status": "candidate",
+      "text": "trap"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Duplicate Code Detector",
+      "sense_id": "duplicate-code-detector#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "duplicate-code-detector",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "duplicate-code-detector",
+  "observation_id": "618765a161d4a534",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "Duplicate Code Detector",
+  "source_context_snippet": "\"Duplicate Code Detector\"",
+  "source_file": ".github/workflows/duplicate-code-detector.lock.yml",
+  "source_repo": "storybookjs/storybook",
+  "source_repo_description": "Storybook is the industry standard workshop for building, documenting, and testing UI components in isolation"
+}

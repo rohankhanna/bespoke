@@ -1,0 +1,196 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonpublish.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonpublish.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonpublish.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonpublish.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonpublish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythontest.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythontest.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythontest.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chezou/tabula-py",
+      "target": "tabulapdf/tabula-java",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonpublish.yml",
+      "source_repo": "chezou/tabula-py",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonpublish.yml",
+      "source_repo": "chezou/tabula-py",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonpublish.yml",
+      "source_repo": "chezou/tabula-py",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonpublish.yml",
+      "source_repo": "chezou/tabula-py",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonpublish.yml",
+      "source_repo": "chezou/tabula-py",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythontest.yml",
+      "source_repo": "chezou/tabula-py",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythontest.yml",
+      "source_repo": "chezou/tabula-py",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythontest.yml",
+      "source_repo": "chezou/tabula-py",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chezou/tabula-py",
+      "target": "pandas",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chezou/tabula-py",
+      "target": "tabula",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chezou/tabula-py",
+      "target": "tabula-java",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:12:44.417842+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4907
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1701
+    },
+    {
+      "path": ".github/workflows/pythonpublish.yml",
+      "size": 1051
+    },
+    {
+      "path": ".github/workflows/pythontest.yml",
+      "size": 690
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Simple wrapper of tabula-java: extract table from PDF into pandas DataFrame",
+    "fork": false,
+    "full_name": "chezou/tabula-py",
+    "html_url": "https://github.com/chezou/tabula-py",
+    "language": "Python",
+    "pushed_at": "2024-12-05T16:14:56Z",
+    "stargazers_count": 2314,
+    "topics": [
+      "pandas",
+      "pdf",
+      "python",
+      "tabula",
+      "tabula-java"
+    ],
+    "updated_at": "2026-04-25T15:23:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tabulapdf/tabula-java",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://github.com/chezou/tabula-py/actions/workflows/pythontest.yml/badge.svg)](https://github.com/chezou/tabula-py/actions/workflows/pythontest.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pandas"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/chezou/tabula-py/actions/workflows/pythontest.yml/badge.svg)](https://github.com/chezou/tabula-py/actions/workflows/pythontest.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tabula"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/chezou/tabula-py/actions/workflows/pythontest.yml/badge.svg)](https://github.com/chezou/tabula-py/actions/workflows/pythontest.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tabula-java"
+    }
+  ]
+}

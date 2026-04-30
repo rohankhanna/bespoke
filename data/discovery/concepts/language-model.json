@@ -559,6 +559,18 @@
       "source_repo": "salesforce/progen",
       "status": "candidate-context",
       "text": "Suite of open-sourced projects and models for protein engineering and design."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/generative-ai-for-beginners",
+      "status": "candidate-context",
+      "text": "21 Lessons, Get Started Building with Generative AI "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/generative-ai-for-beginners",
+      "status": "candidate-context",
+      "text": "![Generative AI For Beginners](./images/repo-thumbnailv4-fixed.png?WT.mc_id=academic-105485-koreyst)"
     }
   ],
   "candidate_glosses": [
@@ -837,6 +849,12 @@
       "source_repo": "salesforce/progen",
       "status": "candidate",
       "text": "Suite of open-sourced projects and models for protein engineering and design."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/generative-ai-for-beginners",
+      "status": "candidate",
+      "text": "![Generative AI For Beginners](./images/repo-thumbnailv4-fixed.png?WT.mc_id=academic-105485-koreyst)"
     }
   ],
   "candidate_related_terms": [],
@@ -1246,11 +1264,53 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "SWE-bench/SWE-bench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "EleutherAI/gpt-neo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CogVLM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CogVLM2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "declare-lab/LLM-PuzzleTest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "RWKV/rwkv.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "reasoning-machines/pal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/generative-ai-for-beginners"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

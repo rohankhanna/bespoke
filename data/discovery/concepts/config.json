@@ -142,6 +142,18 @@
       "source_repo": "boxlite-ai/boxlite",
       "status": "candidate-context",
       "text": "Config"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "drduh/config",
+      "status": "candidate-context",
+      "text": "Configuration files and scripts used in guides and for system setup."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drduh/config",
+      "status": "candidate-context",
+      "text": "Miscellaneous scripts and program configuration files used in:"
     }
   ],
   "candidate_glosses": [
@@ -210,6 +222,12 @@
       "source_repo": "boxlite-ai/boxlite",
       "status": "candidate",
       "text": "Config"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drduh/config",
+      "status": "candidate",
+      "text": "Miscellaneous scripts and program configuration files used in:"
     }
   ],
   "candidate_related_terms": [
@@ -325,11 +343,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/config.yml",
       "source_repo": "boxlite-ai/boxlite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/config.yml",
+      "source_repo": "boxlite-ai/boxlite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "drduh/config"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

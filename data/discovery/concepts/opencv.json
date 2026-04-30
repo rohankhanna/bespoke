@@ -115,6 +115,42 @@
       "source_repo": "opencv/opencv-python",
       "status": "candidate-context",
       "text": "[![Downloads](https://static.pepy.tech/badge/opencv-python)](http://pepy.tech/project/opencv-python)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DeadSix27/waifu2x-converter-cpp",
+      "status": "candidate-context",
+      "text": "Improved fork of Waifu2X C++ using OpenCL and OpenCV"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DeadSix27/waifu2x-converter-cpp",
+      "status": "candidate-context",
+      "text": "[![Discord](https://img.shields.io/badge/Discord-Join-blue.svg)](https://discord.gg/jCAFvHM2WK) :: [![Downloads522](https://img.shields.io/github/downloads/DeadSix27/waifu2x-converter-cpp/latest/total.svg)](https://github.com/DeadSix27/waifu2x-converter-cpp/releases) :: [![Total\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heyoeyo/toadui",
+      "status": "candidate-context",
+      "text": "A UI library, with warts!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heyoeyo/toadui",
+      "status": "candidate-context",
+      "text": "ToadUI is a helper UI library, written in Python, built on top of the basic UI provided by [OpenCV](https://opencv.org/). As such, it inherits much of the UI limitations of OpenCV but also it's ease of use. The goal is to provide ready-to-use UI elements that are not already par\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openframeworks/openFrameworks",
+      "status": "candidate-context",
+      "text": "openFrameworks is a community-developed cross platform toolkit for creative coding in C++."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openframeworks/openFrameworks",
+      "status": "candidate-context",
+      "text": "[openFrameworks](http://openframeworks.cc/)"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +207,24 @@
       "source_repo": "opencv/opencv-python",
       "status": "candidate",
       "text": "[![Downloads](https://static.pepy.tech/badge/opencv-python)](http://pepy.tech/project/opencv-python)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DeadSix27/waifu2x-converter-cpp",
+      "status": "candidate",
+      "text": "[![Discord](https://img.shields.io/badge/Discord-Join-blue.svg)](https://discord.gg/jCAFvHM2WK) :: [![Downloads522](https://img.shields.io/github/downloads/DeadSix27/waifu2x-converter-cpp/latest/total.svg)](https://github.com/DeadSix27/waifu2x-converter-cpp/releases) :: [![Total\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heyoeyo/toadui",
+      "status": "candidate",
+      "text": "ToadUI is a helper UI library, written in Python, built on top of the basic UI provided by [OpenCV](https://opencv.org/). As such, it inherits much of the UI limitations of OpenCV but also it's ease of use. The goal is to provide ready-to-use UI elements that are not already par\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openframeworks/openFrameworks",
+      "status": "candidate",
+      "text": "[openFrameworks](http://openframeworks.cc/)"
     }
   ],
   "candidate_related_terms": [
@@ -274,11 +328,35 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "opencv/opencv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "opencv/opencv-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "DeadSix27/waifu2x-converter-cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "heyoeyo/toadui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "openframeworks/openFrameworks"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

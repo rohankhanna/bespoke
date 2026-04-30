@@ -19,6 +19,18 @@
       "source_repo": "spack/spack",
       "status": "candidate-context",
       "text": "<div align=\"left\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "llnl/RAJA",
+      "status": "candidate-context",
+      "text": "RAJA Performance Portability Layer (C++)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "llnl/RAJA",
+      "status": "candidate-context",
+      "text": "[comment]: # (#################################################################)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "spack/spack",
       "status": "candidate",
       "text": "<div align=\"left\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "llnl/RAJA",
+      "status": "candidate",
+      "text": "[comment]: # (#################################################################)"
     }
   ],
   "candidate_related_terms": [
@@ -62,11 +80,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "spack/spack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "llnl/RAJA"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

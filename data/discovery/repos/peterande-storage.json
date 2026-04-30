@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T16:15:19.679944+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 26
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "weights storage",
+    "fork": false,
+    "full_name": "Peterande/storage",
+    "html_url": "https://github.com/Peterande/storage",
+    "language": null,
+    "pushed_at": "2024-11-06T17:51:42Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2024-11-06T17:51:46Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

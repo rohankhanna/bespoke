@@ -32,6 +32,18 @@
       "source_repo": "go-swagger/go-swagger",
       "status": "candidate-context",
       "text": "build-docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "VOICEVOX/voicevox_engine",
+      "status": "candidate-context",
+      "text": "\u7121\u6599\u3067\u4f7f\u3048\u308b\u4e2d\u54c1\u8cea\u306a\u30c6\u30ad\u30b9\u30c8\u8aad\u307f\u4e0a\u3052\u30bd\u30d5\u30c8\u30a6\u30a7\u30a2\u3001VOICEVOX\u306e\u97f3\u58f0\u5408\u6210\u30a8\u30f3\u30b8\u30f3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VOICEVOX/voicevox_engine",
+      "status": "candidate-context",
+      "text": "build-docker"
     }
   ],
   "candidate_glosses": [
@@ -44,6 +56,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "go-swagger/go-swagger",
+      "status": "candidate",
+      "text": "build-docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VOICEVOX/voicevox_engine",
       "status": "candidate",
       "text": "build-docker"
     }
@@ -101,11 +119,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/build-docker.yaml",
       "source_repo": "go-swagger/go-swagger"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/build-engine-container.yml",
+      "source_repo": "VOICEVOX/voicevox_engine"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

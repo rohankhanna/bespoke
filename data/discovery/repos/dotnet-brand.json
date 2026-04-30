@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T16:07:38.474817+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2391
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This repo serves as a guide and reference to designers, writers, and developers to create consistent, on-brand content for .NET.",
+    "fork": false,
+    "full_name": "dotnet/brand",
+    "html_url": "https://github.com/dotnet/brand",
+    "language": null,
+    "pushed_at": "2025-11-06T23:25:55Z",
+    "stargazers_count": 302,
+    "topics": [],
+    "updated_at": "2026-04-20T12:42:44Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

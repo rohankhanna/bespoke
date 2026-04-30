@@ -4,7 +4,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "AtomaAI/atoma-infer",
-      "target": "dao-ailab/flash-attention",
+      "target": "your-username/atoma-infer",
       "target_type": "repository"
     },
     {
@@ -43,6 +43,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-19T01:08:57.644140+00:00",
+  "generated_at": "2026-04-30T12:45:20.475770+00:00",
   "source_repo": "AtomaAI/atoma-infer"
 }

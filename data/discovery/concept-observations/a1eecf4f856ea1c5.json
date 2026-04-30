@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "MAGI-1: Autoregressive Video Generation at Scale"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![magi-logo](figures/logo_black.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![magi-logo](figures/logo_black.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30020051,
+      "status": "candidate",
+      "text": "heteroscedasticity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20020213,
+      "status": "candidate",
+      "text": "reweighted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20020212,
+      "status": "candidate",
+      "text": "automutual"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20020211,
+      "status": "candidate",
+      "text": "positive recurrent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20020210,
+      "status": "candidate",
+      "text": "timeweighted"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "autoregressive",
+      "sense_id": "autoregressive#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "autoregressive",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "autoregressive",
+  "observation_id": "a1eecf4f856ea1c5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "autoregressive",
+  "source_context_snippet": "![magi-logo](figures/logo_black.png)",
+  "source_file": null,
+  "source_repo": "SandAI-org/MAGI-1",
+  "source_repo_description": "MAGI-1: Autoregressive Video Generation at Scale"
+}

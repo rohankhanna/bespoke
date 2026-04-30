@@ -19,12 +19,30 @@
       "source_repo": "openobserve/vector",
       "status": "candidate-context",
       "text": "Check Generated VRL Docs Freshness"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vectordotdev/vector",
+      "status": "candidate-context",
+      "text": "A high-performance observability data pipeline."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vectordotdev/vector",
+      "status": "candidate-context",
+      "text": "Check Generated VRL Docs Freshness"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "openobserve/vector",
+      "status": "candidate",
+      "text": "Check Generated VRL Docs Freshness"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vectordotdev/vector",
       "status": "candidate",
       "text": "Check Generated VRL Docs Freshness"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/check_generated_vrl_docs.yml",
       "source_repo": "openobserve/vector"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/check_generated_vrl_docs.yml",
+      "source_repo": "vectordotdev/vector"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "optozorax/quad-storage",
+      "target": "not-fl3/sapp-jsutils",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:52:10.773273+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1421
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 836
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Plugin for macro-, mini-quad (quads) to save data in simple local storage using Web Storage API in WASM and local file on a native platforms.",
+    "fork": false,
+    "full_name": "optozorax/quad-storage",
+    "html_url": "https://github.com/optozorax/quad-storage",
+    "language": "Rust",
+    "pushed_at": "2024-09-08T13:26:25Z",
+    "stargazers_count": 21,
+    "topics": [],
+    "updated_at": "2025-12-19T20:52:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "not-fl3/sapp-jsutils",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

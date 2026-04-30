@@ -1,0 +1,93 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "spring-ai-community/awesome-spring-ai",
+      "target": "asaikali/spring-ai-zero-to-hero",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "spring-ai-community/awesome-spring-ai",
+      "target": "alibaba/spring-ai-alibaba",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "spring-ai-community/awesome-spring-ai",
+      "target": "anjeludo/spring-ai-mcp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "spring-ai-community/awesome-spring-ai",
+      "target": "aws-samples/sample-model-context-protocol-demos",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spring-ai-community/awesome-spring-ai",
+      "target": "spring-ai",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:59:51.414581+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 36405
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A curated list of awesome resources, tools, tutorials, and projects for building generative AI applications using Spring AI",
+    "fork": false,
+    "full_name": "spring-ai-community/awesome-spring-ai",
+    "html_url": "https://github.com/spring-ai-community/awesome-spring-ai",
+    "language": null,
+    "pushed_at": "2025-12-21T08:51:20Z",
+    "stargazers_count": 732,
+    "topics": [
+      "spring-ai"
+    ],
+    "updated_at": "2026-04-29T20:51:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alibaba/spring-ai-alibaba",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "anjeludo/spring-ai-mcp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "asaikali/spring-ai-zero-to-hero",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws-samples/sample-model-context-protocol-demos",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A curated list of awesome resources, tools, tutorials, and projects for building generative AI applications using Spring AI. This repository aims to help developers leverage the power of Large Language Models (LLMs) within the Spring ecosystem.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spring-ai"
+    }
+  ]
+}

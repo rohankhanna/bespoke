@@ -1,0 +1,484 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell_check.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_coverage.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_coverage.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_tagged_release.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_tagged_release.yaml"
+    },
+    {
+      "component": "marvinpinto/action-automatic-releases@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_tagged_release.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/csharp_build.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/csharp_build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang_build.yml"
+    },
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang_build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang_coverage.yml"
+    },
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang_coverage.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang_coverage.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java_build.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java_build.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java_build.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java_build.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java_build.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java_build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "apache/rocketmq-clients",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "apache/rocketmq-clients",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "apache/rocketmq-clients",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell_check.yaml",
+      "source_repo": "apache/rocketmq-clients",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codespell_check.yaml",
+      "source_repo": "apache/rocketmq-clients",
+      "target": "CodeSpell Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_build.yml",
+      "source_repo": "apache/rocketmq-clients",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cpp_build.yml",
+      "source_repo": "apache/rocketmq-clients",
+      "target": "CPP Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_coverage.yml",
+      "source_repo": "apache/rocketmq-clients",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_coverage.yml",
+      "source_repo": "apache/rocketmq-clients",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cpp_coverage.yml",
+      "source_repo": "apache/rocketmq-clients",
+      "target": "CPP Coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_tagged_release.yaml",
+      "source_repo": "apache/rocketmq-clients",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_tagged_release.yaml",
+      "source_repo": "apache/rocketmq-clients",
+      "target": "marvinpinto/action-automatic-releases@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cpp_tagged_release.yaml",
+      "source_repo": "apache/rocketmq-clients",
+      "target": "cpp-tagged-release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/csharp_build.yml",
+      "source_repo": "apache/rocketmq-clients",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/csharp_build.yml",
+      "source_repo": "apache/rocketmq-clients",
+      "target": "actions/setup-dotnet@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/csharp_build.yml",
+      "source_repo": "apache/rocketmq-clients",
+      "target": "C# Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang_build.yml",
+      "source_repo": "apache/rocketmq-clients",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang_build.yml",
+      "source_repo": "apache/rocketmq-clients",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golang_build.yml",
+      "source_repo": "apache/rocketmq-clients",
+      "target": "Golang Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang_coverage.yml",
+      "source_repo": "apache/rocketmq-clients",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang_coverage.yml",
+      "source_repo": "apache/rocketmq-clients",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang_coverage.yml",
+      "source_repo": "apache/rocketmq-clients",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golang_coverage.yml",
+      "source_repo": "apache/rocketmq-clients",
+      "target": "Golang Coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java_build.yml",
+      "source_repo": "apache/rocketmq-clients",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java_build.yml",
+      "source_repo": "apache/rocketmq-clients",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/java_build.yml",
+      "source_repo": "apache/rocketmq-clients",
+      "target": "Java Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/rocketmq-clients",
+      "target": "csharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/rocketmq-clients",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/rocketmq-clients",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/rocketmq-clients",
+      "target": "messaging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/rocketmq-clients",
+      "target": "rocketmq",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:51:38.988183+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3995
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 5941
+    },
+    {
+      "path": ".github/workflows/codespell_check.yaml",
+      "size": 643
+    },
+    {
+      "path": ".github/workflows/cpp_build.yml",
+      "size": 1330
+    },
+    {
+      "path": ".github/workflows/cpp_coverage.yml",
+      "size": 612
+    },
+    {
+      "path": ".github/workflows/cpp_tagged_release.yaml",
+      "size": 1884
+    },
+    {
+      "path": ".github/workflows/csharp_build.yml",
+      "size": 660
+    },
+    {
+      "path": ".github/workflows/golang_build.yml",
+      "size": 603
+    },
+    {
+      "path": ".github/workflows/golang_coverage.yml",
+      "size": 735
+    },
+    {
+      "path": ".github/workflows/java_build.yml",
+      "size": 2996
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "RocketMQ Clients - Collection of Client Bindings for Apache RocketMQ",
+    "fork": false,
+    "full_name": "apache/rocketmq-clients",
+    "html_url": "https://github.com/apache/rocketmq-clients",
+    "language": "Java",
+    "pushed_at": "2026-04-29T05:50:32Z",
+    "stargazers_count": 484,
+    "topics": [
+      "cpp",
+      "csharp",
+      "golang",
+      "java",
+      "messaging",
+      "rocketmq"
+    ],
+    "updated_at": "2026-04-30T01:00:34Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "CodeSpell Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codespell_check.yaml",
+      "term": "CodeSpell Check"
+    },
+    {
+      "context_snippet": "CPP Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cpp_build.yml",
+      "term": "CPP Build"
+    },
+    {
+      "context_snippet": "CPP Coverage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cpp_coverage.yml",
+      "term": "CPP Coverage"
+    },
+    {
+      "context_snippet": "\"cpp-tagged-release\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cpp_tagged_release.yaml",
+      "term": "cpp-tagged-release"
+    },
+    {
+      "context_snippet": "C# Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/csharp_build.yml",
+      "term": "C# Build"
+    },
+    {
+      "context_snippet": "Golang Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golang_build.yml",
+      "term": "Golang Build"
+    },
+    {
+      "context_snippet": "Golang Coverage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golang_coverage.yml",
+      "term": "Golang Coverage"
+    },
+    {
+      "context_snippet": "Java Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/java_build.yml",
+      "term": "Java Build"
+    },
+    {
+      "context_snippet": "[![License][license-image]][license-url] [![Build][build-image]][build-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "csharp"
+    },
+    {
+      "context_snippet": "[![License][license-image]][license-url] [![Build][build-image]][build-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "[![License][license-image]][license-url] [![Build][build-image]][build-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "[![License][license-image]][license-url] [![Build][build-image]][build-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "messaging"
+    },
+    {
+      "context_snippet": "[![License][license-image]][license-url] [![Build][build-image]][build-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rocketmq"
+    }
+  ]
+}

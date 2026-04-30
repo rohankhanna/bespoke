@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T12:51:44.083049+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2312
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "autosave on interval / manually, manage session files, and restore session data in oobabooga",
+    "fork": true,
+    "full_name": "bekkayya/session_manager",
+    "html_url": "https://github.com/bekkayya/session_manager",
+    "language": "Python",
+    "pushed_at": "2023-12-09T06:30:52Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2026-03-12T21:15:54Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

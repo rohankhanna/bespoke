@@ -48,7 +48,7 @@
   "normalized_form": "ruby-versions",
   "observation_id": "f05aca48e411de53",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
   "observed_text": "ruby-versions",
   "source_context_snippet": "rbenv is a version manager tool for the Ruby programming language on Unix-like systems. It is useful for switching between multiple Ruby versions on the same machine and for ensuring that each project you are working on always runs on the correct Ruby version.",
   "source_file": null,

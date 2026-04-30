@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "pythia"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "byroneverson/Mia",
+      "status": "candidate-context",
+      "text": "A simple swift app for MacOS/iOS to test large language models (LLM)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "byroneverson/Mia",
+      "status": "candidate-context",
+      "text": "A simple app for MacOS/iOS to test large language models (LLM)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "byroneverson/Mia",
+      "status": "candidate",
+      "text": "A simple app for MacOS/iOS to test large language models (LLM)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10014165,
+      "status": "candidate",
+      "text": "pythoness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10014164,
+      "status": "candidate",
+      "text": "pythian apollo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10014163,
+      "status": "candidate",
+      "text": "phryne"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10014162,
+      "status": "candidate",
+      "text": "pyrrha"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10014161,
+      "status": "candidate",
+      "text": "thyia"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "pythia",
+  "concept_id": "pythia",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "byroneverson/Mia"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pythia",
+      "sense_id": "pythia#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

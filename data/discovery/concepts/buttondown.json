@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "buttondown"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "The-Focus-AI/buttondown-skill",
+      "status": "candidate-context",
+      "text": "Claude Code plugin skill for managing Buttondown newsletters - create drafts, schedule emails, view analytics"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "The-Focus-AI/buttondown-skill",
+      "status": "candidate-context",
+      "text": "A Claude Code plugin skill for managing Buttondown newsletters. Create drafts, schedule emails, view analytics, and manage your newsletter directly through Claude."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "The-Focus-AI/buttondown-skill",
+      "status": "candidate",
+      "text": "A Claude Code plugin skill for managing Buttondown newsletters. Create drafts, schedule emails, view analytics, and manage your newsletter directly through Claude."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19929257,
+      "status": "candidate",
+      "text": "buttoned-down"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19929256,
+      "status": "candidate",
+      "text": "buttoned up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19929255,
+      "status": "candidate",
+      "text": "pushbutton"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19929254,
+      "status": "candidate",
+      "text": "highnecked"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19929253,
+      "status": "candidate",
+      "text": "down-style"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "buttondown",
+  "concept_id": "buttondown",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "The-Focus-AI/buttondown-skill"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "buttondown",
+      "sense_id": "buttondown#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

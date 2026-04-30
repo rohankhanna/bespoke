@@ -1,0 +1,351 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-mesa.yml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-mesa.yml"
+    },
+    {
+      "component": "hendrikmuhs/ccache-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-mesa.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-mesa.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-swiftshader.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-swiftshader.yml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-swiftshader.yml"
+    },
+    {
+      "component": "hendrikmuhs/ccache-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-swiftshader.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-swiftshader.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-version-cache.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanup-workflows.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanup-workflows.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanup-workflows.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanup-workflows.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-mesa.yml",
+      "source_repo": "jakoch/rasterizers",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-mesa.yml",
+      "source_repo": "jakoch/rasterizers",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-mesa.yml",
+      "source_repo": "jakoch/rasterizers",
+      "target": "hendrikmuhs/ccache-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-mesa.yml",
+      "source_repo": "jakoch/rasterizers",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-mesa.yml",
+      "source_repo": "jakoch/rasterizers",
+      "target": "Build on Windows: Mesa Lavapipe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-swiftshader.yml",
+      "source_repo": "jakoch/rasterizers",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-swiftshader.yml",
+      "source_repo": "jakoch/rasterizers",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-swiftshader.yml",
+      "source_repo": "jakoch/rasterizers",
+      "target": "hendrikmuhs/ccache-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-swiftshader.yml",
+      "source_repo": "jakoch/rasterizers",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-swiftshader.yml",
+      "source_repo": "jakoch/rasterizers",
+      "target": "Build on Windows: Swiftshader",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-version-cache.yml",
+      "source_repo": "jakoch/rasterizers",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-version-cache.yml",
+      "source_repo": "jakoch/rasterizers",
+      "target": "Build Version Cache",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanup-workflows.yml",
+      "source_repo": "jakoch/rasterizers",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cleanup-workflows.yml",
+      "source_repo": "jakoch/rasterizers",
+      "target": "\u2702 Clean Workflow Runs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jakoch/rasterizers",
+      "target": "llvmpipe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jakoch/rasterizers",
+      "target": "mesa",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jakoch/rasterizers",
+      "target": "mesa3d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jakoch/rasterizers",
+      "target": "rasterizer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jakoch/rasterizers",
+      "target": "softpipe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jakoch/rasterizers",
+      "target": "swiftshader",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jakoch/rasterizers",
+      "target": "vulkan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jakoch/rasterizers",
+      "target": "vulkan-sdk",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T12:55:32.346943+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6208
+    },
+    {
+      "path": ".github/workflows/build-mesa.yml",
+      "size": 16681
+    },
+    {
+      "path": ".github/workflows/build-swiftshader.yml",
+      "size": 7202
+    },
+    {
+      "path": ".github/workflows/build-version-cache.yml",
+      "size": 2491
+    },
+    {
+      "path": ".github/workflows/cleanup-workflows.yml",
+      "size": 7106
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Precompiled libraries for the software rasterizers Mesa's LLVMpipe and Google's Swiftshader for Windows. Builds are used by https://github.com/jakoch/install-vulkan-sdk-action",
+    "fork": false,
+    "full_name": "jakoch/rasterizers",
+    "html_url": "https://github.com/jakoch/rasterizers",
+    "language": null,
+    "pushed_at": "2026-04-13T13:58:17Z",
+    "stargazers_count": 10,
+    "topics": [
+      "llvmpipe",
+      "mesa",
+      "mesa3d",
+      "rasterizer",
+      "softpipe",
+      "swiftshader",
+      "vulkan",
+      "vulkan-sdk"
+    ],
+    "updated_at": "2026-03-12T10:55:28Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"Build on Windows: Mesa Lavapipe\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-mesa.yml",
+      "term": "Build on Windows: Mesa Lavapipe"
+    },
+    {
+      "context_snippet": "\"Build on Windows: Swiftshader\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-swiftshader.yml",
+      "term": "Build on Windows: Swiftshader"
+    },
+    {
+      "context_snippet": "Build Version Cache",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-version-cache.yml",
+      "term": "Build Version Cache"
+    },
+    {
+      "context_snippet": "\"\u2702 Clean Workflow Runs\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cleanup-workflows.yml",
+      "term": "\u2702 Clean Workflow Runs"
+    },
+    {
+      "context_snippet": "- [What is this?](#what-is-this)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llvmpipe"
+    },
+    {
+      "context_snippet": "- [What is this?](#what-is-this)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mesa"
+    },
+    {
+      "context_snippet": "- [What is this?](#what-is-this)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mesa3d"
+    },
+    {
+      "context_snippet": "- [What is this?](#what-is-this)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rasterizer"
+    },
+    {
+      "context_snippet": "- [What is this?](#what-is-this)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "softpipe"
+    },
+    {
+      "context_snippet": "- [What is this?](#what-is-this)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swiftshader"
+    },
+    {
+      "context_snippet": "- [What is this?](#what-is-this)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulkan"
+    },
+    {
+      "context_snippet": "- [What is this?](#what-is-this)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulkan-sdk"
+    }
+  ]
+}

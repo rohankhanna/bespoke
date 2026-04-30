@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "GnuPG asymmetric secrets manager - works with YubiKey!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Purse is a Bash shell script based on [drduh/pwd.sh](https://github.com/drduh/pwd.sh)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Purse is a Bash shell script based on [drduh/pwd.sh](https://github.com/drduh/pwd.sh)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40023529,
+      "status": "candidate",
+      "text": "countersign"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40009952,
+      "status": "candidate",
+      "text": "watchword"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39996911,
+      "status": "candidate",
+      "text": "word"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39966048,
+      "status": "candidate",
+      "text": "parole"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30050286,
+      "status": "candidate",
+      "text": "passcode"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "password",
+      "sense_id": "password#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8067,
+      "status": "candidate",
+      "text": "word"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5050,
+      "status": "candidate",
+      "text": "parole"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2032,
+      "status": "candidate",
+      "text": "watchword"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 36,
+      "status": "candidate",
+      "text": "countersign"
+    }
+  ],
+  "concept_id": "password",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "password",
+  "observation_id": "8c0daed607154314",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "password",
+  "source_context_snippet": "Purse is a Bash shell script based on [drduh/pwd.sh](https://github.com/drduh/pwd.sh).",
+  "source_file": null,
+  "source_repo": "drduh/Purse",
+  "source_repo_description": "GnuPG asymmetric secrets manager - works with YubiKey!"
+}

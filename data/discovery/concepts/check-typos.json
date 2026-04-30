@@ -31,6 +31,18 @@
       "source_repo": "ethpandaops/ethereum-package",
       "status": "candidate-context",
       "text": "Check typos"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zip-rs/zip2",
+      "status": "candidate-context",
+      "text": "Zip implementation in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zip-rs/zip2",
+      "status": "candidate-context",
+      "text": "Check typos"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ethpandaops/ethereum-package",
+      "status": "candidate",
+      "text": "Check typos"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zip-rs/zip2",
       "status": "candidate",
       "text": "Check typos"
     }
@@ -106,11 +124,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/check-typos.yml",
       "source_repo": "ethpandaops/ethereum-package"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/typos.yml",
+      "source_repo": "zip-rs/zip2"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "thaolmk54/hcrn-videoqa",
+      "target": "yunseokjang/tgif-qa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "thaolmk54/hcrn-videoqa",
+      "target": "xudejing/video-question-answering",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "thaolmk54/hcrn-videoqa",
+      "target": "kenshohara/video-classification-3d-cnn-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "thaolmk54/hcrn-videoqa",
+      "target": "shijx12/xnm-net",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thaolmk54/hcrn-videoqa",
+      "target": "question-answering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thaolmk54/hcrn-videoqa",
+      "target": "tgif-qa",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thaolmk54/hcrn-videoqa",
+      "target": "videoqa",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T12:45:20.475770+00:00",
+  "source_repo": "thaolmk54/hcrn-videoqa"
+}

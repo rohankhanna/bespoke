@@ -343,6 +343,114 @@
       "source_repo": "isl-org/Open3D",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flightlessmango/MangoHud",
+      "status": "candidate-context",
+      "text": "A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flightlessmango/MangoHud",
+      "status": "candidate-context",
+      "text": "A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grizzlypeak3d/tlRender",
+      "status": "candidate-context",
+      "text": "tlRender is an open source library for building playback and review applications for visual effects, film, and animation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grizzlypeak3d/tlRender",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "deni2312/prisma-engine",
+      "status": "candidate-context",
+      "text": "A modern engine that shows rendering techniques like hardware raytracing and clustered shading"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deni2312/prisma-engine",
+      "status": "candidate-context",
+      "text": "<p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DiligentGraphics/DiligentCore",
+      "status": "candidate-context",
+      "text": "A modern cross-platform low-level graphics API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DiligentGraphics/DiligentCore",
+      "status": "candidate-context",
+      "text": "Diligent Core is a modern, cross-platform low-level graphics API that forms the foundation of [Diligent Engine](https://github.com/DiligentGraphics/DiligentEngine)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "naelstrof/slop",
+      "status": "candidate-context",
+      "text": "slop (Select Operation) is an application that queries for a selection from the user and prints the region to stdout."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "naelstrof/slop",
+      "status": "candidate-context",
+      "text": "slop (Select Operation) is an application that queries for a selection from the user and prints the region to stdout."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openframeworks/openFrameworks",
+      "status": "candidate-context",
+      "text": "openFrameworks is a community-developed cross platform toolkit for creative coding in C++."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openframeworks/openFrameworks",
+      "status": "candidate-context",
+      "text": "[openFrameworks](http://openframeworks.cc/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tdewolff/canvas",
+      "status": "candidate-context",
+      "text": "Vector graphics in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tdewolff/canvas",
+      "status": "candidate-context",
+      "text": "![Canvas](https://raw.githubusercontent.com/tdewolff/canvas/master/resources/title/title.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/Silk.NET",
+      "status": "candidate-context",
+      "text": "The high-speed OpenGL, OpenCL, OpenAL, OpenXR, GLFW, SDL, Vulkan, Assimp, WebGPU, and DirectX bindings library your mother warned you about."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/Silk.NET",
+      "status": "candidate-context",
+      "text": "<!-- Begin exclude from NuGet readme. -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KhronosGroup/VK-GL-CTS",
+      "status": "candidate-context",
+      "text": "Khronos Vulkan, OpenGL, and OpenGL ES Conformance Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KhronosGroup/VK-GL-CTS",
+      "status": "candidate-context",
+      "text": "VK-GL-CTS README"
     }
   ],
   "candidate_glosses": [
@@ -513,6 +621,60 @@
       "source_repo": "isl-org/Open3D",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flightlessmango/MangoHud",
+      "status": "candidate",
+      "text": "A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grizzlypeak3d/tlRender",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deni2312/prisma-engine",
+      "status": "candidate",
+      "text": "<p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DiligentGraphics/DiligentCore",
+      "status": "candidate",
+      "text": "Diligent Core is a modern, cross-platform low-level graphics API that forms the foundation of [Diligent Engine](https://github.com/DiligentGraphics/DiligentEngine)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "naelstrof/slop",
+      "status": "candidate",
+      "text": "slop (Select Operation) is an application that queries for a selection from the user and prints the region to stdout."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openframeworks/openFrameworks",
+      "status": "candidate",
+      "text": "[openFrameworks](http://openframeworks.cc/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tdewolff/canvas",
+      "status": "candidate",
+      "text": "![Canvas](https://raw.githubusercontent.com/tdewolff/canvas/master/resources/title/title.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/Silk.NET",
+      "status": "candidate",
+      "text": "<!-- Begin exclude from NuGet readme. -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KhronosGroup/VK-GL-CTS",
+      "status": "candidate",
+      "text": "VK-GL-CTS README"
     }
   ],
   "candidate_related_terms": [
@@ -754,11 +916,71 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "flightlessmango/MangoHud"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "grizzlypeak3d/tlRender"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "deni2312/prisma-engine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "DiligentGraphics/DiligentCore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "naelstrof/slop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "openframeworks/openFrameworks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "tdewolff/canvas"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "KhronosGroup/KTX-Software"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/Silk.NET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "KhronosGroup/VK-GL-CTS"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

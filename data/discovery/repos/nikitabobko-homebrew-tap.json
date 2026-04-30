@@ -1,0 +1,72 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nikitabobko/homebrew-tap",
+      "target": "nikitabobko/brew-install-path",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "nikitabobko/homebrew-tap",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "nikitabobko/homebrew-tap",
+      "target": "Build",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:00:17.063182+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 259
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 362
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Homebrew tap repo for my software",
+    "fork": false,
+    "full_name": "nikitabobko/homebrew-tap",
+    "html_url": "https://github.com/nikitabobko/homebrew-tap",
+    "language": "Ruby",
+    "pushed_at": "2026-03-08T23:58:00Z",
+    "stargazers_count": 8,
+    "topics": [],
+    "updated_at": "2026-04-05T16:49:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nikitabobko/brew-install-path",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    }
+  ]
+}

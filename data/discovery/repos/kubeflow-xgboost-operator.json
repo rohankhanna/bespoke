@@ -1,0 +1,61 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kubeflow/xgboost-operator",
+      "target": "kubeflow/training-operator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kubeflow/xgboost-operator",
+      "target": "kubeflow/community",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:08:14.225233+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10512
+    },
+    {
+      "path": "Dockerfile",
+      "size": 570
+    },
+    {
+      "path": "go.mod",
+      "size": 1872
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Incubating project for xgboost operator",
+    "fork": false,
+    "full_name": "kubeflow/xgboost-operator",
+    "html_url": "https://github.com/kubeflow/xgboost-operator",
+    "language": "Python",
+    "pushed_at": "2021-12-01T18:00:10Z",
+    "stargazers_count": 77,
+    "topics": [],
+    "updated_at": "2026-03-18T14:53:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kubeflow/community",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kubeflow/training-operator",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

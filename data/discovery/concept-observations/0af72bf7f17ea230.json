@@ -48,7 +48,7 @@
   "normalized_form": "apache-kafka-consumer",
   "observation_id": "0af72bf7f17ea230",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
   "observed_text": "apache-kafka-consumer",
   "source_context_snippet": "[![Build Status](https://github.com/karafka/rdkafka-ruby/actions/workflows/ci_linux_ubuntu_x86_64_gnu.yml/badge.svg)](https://github.com/karafka/rdkafka-ruby/actions/workflows/ci_linux_x86_64_gnu.yml)",
   "source_file": null,

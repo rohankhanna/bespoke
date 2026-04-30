@@ -19,6 +19,18 @@
       "source_repo": "cleardusk/3DDFA_V2",
       "status": "candidate-context",
       "text": "torch torchvision matplotlib numpy opencv-python # cv2 imageio imageio-ffmpeg pyyaml # yaml tqdm argparse cython scikit-image # skimage scipy onnxruntime gradio"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "soubhiksanyal/RingNet",
+      "status": "candidate-context",
+      "text": "Learning to Regress 3D Face Shape and Expression from an Image without 3D Supervision"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "soubhiksanyal/RingNet",
+      "status": "candidate-context",
+      "text": "![alt text](https://github.com/soubhiksanyal/RingNet/blob/master/gif/celeba_reconstruction.gif?raw=true)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "cleardusk/3DDFA_V2",
       "status": "candidate",
       "text": "torch torchvision matplotlib numpy opencv-python # cv2 imageio imageio-ffmpeg pyyaml # yaml tqdm argparse cython scikit-image # skimage scipy onnxruntime gradio"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "soubhiksanyal/RingNet",
+      "status": "candidate",
+      "text": "![alt text](https://github.com/soubhiksanyal/RingNet/blob/master/gif/celeba_reconstruction.gif?raw=true)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "cleardusk/3DDFA_V2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "soubhiksanyal/RingNet"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,82 @@
+{
+  "aliases": [
+    "graalpy"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graalvm/graal-languages-demos",
+      "status": "candidate-context",
+      "text": "Graal Languages - Demos and Guides"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graalvm/graal-languages-demos",
+      "status": "candidate-context",
+      "text": "This repository contains demo applications and guides for [GraalJS](./graaljs), [GraalPy](./graalpy/), [GraalWasm](./graalwasm), and other Graal Languages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "timfel/graalpy-jbang",
+      "status": "candidate-context",
+      "text": "This repository makes it easy to create a [JBang](https://www.jbang.dev/) app that uses GraalPy & Java."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graalvm/graal-languages-demos",
+      "status": "candidate",
+      "text": "This repository contains demo applications and guides for [GraalJS](./graaljs), [GraalPy](./graalpy/), [GraalWasm](./graalwasm), and other Graal Languages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "timfel/graalpy-jbang",
+      "status": "candidate",
+      "text": "This repository makes it easy to create a [JBang](https://www.jbang.dev/) app that uses GraalPy & Java."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "graalpy",
+  "concept_id": "graalpy",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "graalvm/graal-languages-demos"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "timfel/graalpy-jbang"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "graalpy",
+      "sense_id": "graalpy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

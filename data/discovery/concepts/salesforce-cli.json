@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "salesforce-cli"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "forcedotcom/cli",
+      "status": "candidate-context",
+      "text": "Salesforce CLI "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "forcedotcom/cli",
+      "status": "candidate-context",
+      "text": "This is an issue-only repository for Salesforce CLI. We monitor this repo for feedback from the community and we post proposals for CLI changes we're working on to see what you think. We also store the weekly release notes here."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "forcedotcom/cli",
+      "status": "candidate",
+      "text": "This is an issue-only repository for Salesforce CLI. We monitor this repo for feedback from the community and we post proposals for CLI changes we're working on to see what you think. We also store the weekly release notes here."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "salesforce-cli",
+  "concept_id": "salesforce-cli",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "forcedotcom/cli"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "salesforce-cli",
+      "sense_id": "salesforce-cli#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

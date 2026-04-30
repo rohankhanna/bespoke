@@ -3535,6 +3535,294 @@
       "source_repo": "secretflow/secretflow",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "5sControl/operation-control-js",
+      "status": "candidate-context",
+      "text": "Automatically detect when operation was done incorrectly using power of computer vision"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "5sControl/operation-control-js",
+      "status": "candidate-context",
+      "text": "Operation Control is one of the Official [5sControl](https://5sControl.com/) algorithm. Plug it in our video monitoring system with AI analysis and ERP Integration (Open Source) to ensure the quality of your products."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexrozanski/LlamaChat",
+      "status": "candidate-context",
+      "text": "Chat with your favourite LLaMA models in a native macOS app"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexrozanski/LlamaChat",
+      "status": "candidate-context",
+      "text": "![LlamaChat banner](./Resources/banner-a5248619.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "john-rocky/CoreML-Models",
+      "status": "candidate-context",
+      "text": "Converted CoreML Model Zoo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "john-rocky/CoreML-Models",
+      "status": "candidate-context",
+      "text": "Converted Core ML Model Zoo."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jiwidi/DeepSpeech-pytorch",
+      "status": "candidate-context",
+      "text": "Pytorch implementation for DeepSpeech 2.0"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jiwidi/DeepSpeech-pytorch",
+      "status": "candidate-context",
+      "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/Windows-Machine-Learning",
+      "status": "candidate-context",
+      "text": "Samples and Tools for Windows ML."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Windows-Machine-Learning",
+      "status": "candidate-context",
+      "text": "> \u26a0\ufe0f **IMPORTANT**<br/>For the latest documentation about Windows Machine Learning, see [What is Windows ML](/windows/ai/new-windows-ml/overview). That documentation describes APIs that are in the **Microsoft.Windows.AI.MachineLearning** namespace, which ships in the Windows App\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "argoproj/argo-workflows",
+      "status": "candidate-context",
+      "text": "Workflow Engine for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj/argo-workflows",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable-next-line MD041 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scikit-optimize/scikit-optimize",
+      "status": "candidate-context",
+      "text": "Sequential model-based optimization with a  `scipy.optimize` interface"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scikit-optimize/scikit-optimize",
+      "status": "candidate-context",
+      "text": "|Logo|"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clearml/clearml-server",
+      "status": "candidate-context",
+      "text": "ClearML - Auto-Magical CI/CD to streamline your AI workload. Experiment Management, Data Management, Pipeline, Orchestration, Scheduling & Serving in one MLOps/LLMOps solution"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clearml/clearml-server",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "patrick-kidger/diffrax",
+      "status": "candidate-context",
+      "text": "Numerical differential equation solvers in JAX. Autodifferentiable and GPU-capable. https://docs.kidger.site/diffrax/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "patrick-kidger/diffrax",
+      "status": "candidate-context",
+      "text": "<h1 align='center'>Diffrax</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "patrick-kidger/signatory",
+      "status": "candidate-context",
+      "text": "Differentiable computations of the signature and logsignature transforms, on both CPU and GPU. (ICLR 2021)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "patrick-kidger/signatory",
+      "status": "candidate-context",
+      "text": "|Signatory|"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asafschers/scoruby",
+      "status": "candidate-context",
+      "text": "Ruby Scoring API for PMML"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asafschers/scoruby",
+      "status": "candidate-context",
+      "text": "<a href=\"https://codeclimate.com/github/asafschers/scoruby\"><img src=\"https://codeclimate.com/github/asafschers/scoruby/badges/gpa.svg\" /></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "skforecast/skforecast",
+      "status": "candidate-context",
+      "text": "Python library for time series forecasting using scikit-learn compatible models, statistical methods, and foundation models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "skforecast/skforecast",
+      "status": "candidate-context",
+      "text": "<h1 align=\"left\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agencyenterprise/PromptInject",
+      "status": "candidate-context",
+      "text": "PromptInject is a framework that assembles prompts in a modular fashion to provide a quantitative analysis of the robustness of LLMs to adversarial prompt attacks. \ud83c\udfc6 Best Paper Awards @ NeurIPS ML Safety Workshop 2022"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agencyenterprise/PromptInject",
+      "status": "candidate-context",
+      "text": "[**Paper: Ignore Previous Prompt: Attack Techniques For Language Models**](https://arxiv.org/abs/2211.09527)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubeflow/sdk",
+      "status": "candidate-context",
+      "text": "Universal Python SDK to run AI workloads on Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubeflow/sdk",
+      "status": "candidate-context",
+      "text": "[![PyPI version](https://img.shields.io/pypi/v/kubeflow?color=%2334D058&label=pypi%20package)](https://pypi.org/project/kubeflow/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graphcore/examples",
+      "status": "candidate-context",
+      "text": "Example code and applications for machine learning on Graphcore IPUs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphcore/examples",
+      "status": "candidate-context",
+      "text": "This repository contains a catalogue of application examples that have been optimised to run on Graphcore IPUs for both training and inference. Access reproducible code for a wide range of popular models covering NLP, Computer Vision, Speech, Multimodal, GNNs, AI for Simulation,\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nerfstudio-project/nerfstudio",
+      "status": "candidate-context",
+      "text": "A collaboration friendly studio for NeRFs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nerfstudio-project/nerfstudio",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "salesforce/WikiSQL",
+      "status": "candidate-context",
+      "text": "A large annotated semantic parsing corpus for developing natural language interfaces."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "salesforce/WikiSQL",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/salesforce/WikiSQL.svg?branch=master)](https://travis-ci.org/salesforce/WikiSQL)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akabe/ocaml-jupyter",
+      "status": "candidate-context",
+      "text": "An OCaml kernel for Jupyter (IPython) notebook"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akabe/ocaml-jupyter",
+      "status": "candidate-context",
+      "text": "[![Jupyter protocol][protocol-img]][protocol] [![License][license-img]][license] [![CI](https://github.com/akabe/ocaml-jupyter/actions/workflows/ci.yaml/badge.svg)](https://github.com/akabe/ocaml-jupyter/actions/workflows/ci.yaml) [![Sponsor](https://img.shields.io/static/v1?lab\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "treeverse/dvc",
+      "status": "candidate-context",
+      "text": "\ud83e\udd89 Data Versioning and ML Experiments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "treeverse/dvc",
+      "status": "candidate-context",
+      "text": "|Banner|"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "secretflow/kuscia",
+      "status": "candidate-context",
+      "text": "Kuscia(Kubernetes-based Secure Collaborative InfrA) is a K8s-based privacy-preserving computing task orchestration framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "secretflow/kuscia",
+      "status": "candidate-context",
+      "text": "[![CircleCI](https://dl.circleci.com/status-badge/img/gh/secretflow/kuscia/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/secretflow/kuscia/tree/main)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reddy-lab-code-research/XLCoST",
+      "status": "candidate-context",
+      "text": "Code and data for XLCoST: A Benchmark Dataset for Cross-lingual Code Intelligence"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reddy-lab-code-research/XLCoST",
+      "status": "candidate-context",
+      "text": "Recent advances in machine learning have benefited a number of code related tasks, such as code translation, code summarization, and code synthesis. Open-source code repository websites like Github provide enormous amount of source code data, which enables the training of large-\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shivammehta25/Matcha-TTS",
+      "status": "candidate-context",
+      "text": "[ICASSP 2024] \ud83c\udf75 Matcha-TTS: A fast TTS architecture with conditional flow matching"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shivammehta25/Matcha-TTS",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apple/ml-cvnets",
+      "status": "candidate-context",
+      "text": "CVNets: A library for training computer vision networks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/ml-cvnets",
+      "status": "candidate-context",
+      "text": "CVNets is a computer vision toolkit that allows researchers and engineers to train standard and novel mobile-"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TimoBolkart/voca",
+      "status": "candidate-context",
+      "text": "This codebase demonstrates how to synthesize realistic 3D character animations given an arbitrary speech signal and a static character mesh."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TimoBolkart/voca",
+      "status": "candidate-context",
+      "text": "This is an official [VOCA](https://voca.is.tue.mpg.de) repository."
     }
   ],
   "candidate_glosses": [
@@ -5301,6 +5589,150 @@
       "source_repo": "secretflow/secretflow",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "5sControl/operation-control-js",
+      "status": "candidate",
+      "text": "Operation Control is one of the Official [5sControl](https://5sControl.com/) algorithm. Plug it in our video monitoring system with AI analysis and ERP Integration (Open Source) to ensure the quality of your products."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexrozanski/LlamaChat",
+      "status": "candidate",
+      "text": "![LlamaChat banner](./Resources/banner-a5248619.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "john-rocky/CoreML-Models",
+      "status": "candidate",
+      "text": "Converted Core ML Model Zoo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jiwidi/DeepSpeech-pytorch",
+      "status": "candidate",
+      "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Windows-Machine-Learning",
+      "status": "candidate",
+      "text": "> \u26a0\ufe0f **IMPORTANT**<br/>For the latest documentation about Windows Machine Learning, see [What is Windows ML](/windows/ai/new-windows-ml/overview). That documentation describes APIs that are in the **Microsoft.Windows.AI.MachineLearning** namespace, which ships in the Windows App\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj/argo-workflows",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable-next-line MD041 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scikit-optimize/scikit-optimize",
+      "status": "candidate",
+      "text": "|Logo|"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clearml/clearml-server",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "patrick-kidger/diffrax",
+      "status": "candidate",
+      "text": "<h1 align='center'>Diffrax</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "patrick-kidger/signatory",
+      "status": "candidate",
+      "text": "|Signatory|"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asafschers/scoruby",
+      "status": "candidate",
+      "text": "<a href=\"https://codeclimate.com/github/asafschers/scoruby\"><img src=\"https://codeclimate.com/github/asafschers/scoruby/badges/gpa.svg\" /></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "skforecast/skforecast",
+      "status": "candidate",
+      "text": "<h1 align=\"left\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agencyenterprise/PromptInject",
+      "status": "candidate",
+      "text": "[**Paper: Ignore Previous Prompt: Attack Techniques For Language Models**](https://arxiv.org/abs/2211.09527)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubeflow/sdk",
+      "status": "candidate",
+      "text": "[![PyPI version](https://img.shields.io/pypi/v/kubeflow?color=%2334D058&label=pypi%20package)](https://pypi.org/project/kubeflow/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphcore/examples",
+      "status": "candidate",
+      "text": "This repository contains a catalogue of application examples that have been optimised to run on Graphcore IPUs for both training and inference. Access reproducible code for a wide range of popular models covering NLP, Computer Vision, Speech, Multimodal, GNNs, AI for Simulation,\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nerfstudio-project/nerfstudio",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "salesforce/WikiSQL",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/salesforce/WikiSQL.svg?branch=master)](https://travis-ci.org/salesforce/WikiSQL)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akabe/ocaml-jupyter",
+      "status": "candidate",
+      "text": "[![Jupyter protocol][protocol-img]][protocol] [![License][license-img]][license] [![CI](https://github.com/akabe/ocaml-jupyter/actions/workflows/ci.yaml/badge.svg)](https://github.com/akabe/ocaml-jupyter/actions/workflows/ci.yaml) [![Sponsor](https://img.shields.io/static/v1?lab\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "treeverse/dvc",
+      "status": "candidate",
+      "text": "|Banner|"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "secretflow/kuscia",
+      "status": "candidate",
+      "text": "[![CircleCI](https://dl.circleci.com/status-badge/img/gh/secretflow/kuscia/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/secretflow/kuscia/tree/main)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reddy-lab-code-research/XLCoST",
+      "status": "candidate",
+      "text": "Recent advances in machine learning have benefited a number of code related tasks, such as code translation, code summarization, and code synthesis. Open-source code repository websites like Github provide enormous amount of source code data, which enables the training of large-\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shivammehta25/Matcha-TTS",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/ml-cvnets",
+      "status": "candidate",
+      "text": "CVNets is a computer vision toolkit that allows researchers and engineers to train standard and novel mobile-"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TimoBolkart/voca",
+      "status": "candidate",
+      "text": "This is an official [VOCA](https://voca.is.tue.mpg.de) repository."
     }
   ],
   "candidate_related_terms": [],
@@ -7732,11 +8164,359 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "secretflow/secretflow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "f/prompts.chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "5sControl/operation-control-js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "alexrozanski/LlamaChat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ankane/lightgbm-ruby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "john-rocky/CoreML-Models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "jiwidi/DeepSpeech-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "deepspeedai/DeepSpeed"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "docarray/docarray"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Windows-Machine-Learning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/optax"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "argoproj/argo-workflows"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "kubeflow/trainer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "scikit-optimize/scikit-optimize"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml-agent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "patrick-kidger/diffrax"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "patrick-kidger/signatory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "asafschers/scoruby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "uxlfoundation/scikit-learn-intelex"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "skforecast/skforecast"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "mlc-ai/web-llm-assistant"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "agencyenterprise/PromptInject"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/lab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "redis-developer/redis-product-search"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/ggml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "bitsandbytes-foundation/bitsandbytes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "meta-llama/llama-cookbook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/jraph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "diff-usion/Awesome-Diffusion-Models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "kubeflow/sdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "graphcore/examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "flairNLP/flair"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "EvolvingLMMs-Lab/Otter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/pytorch-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "nerfstudio-project/nerfstudio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "salesforce/WikiSQL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm-haiku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/sonnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm_env"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "gpu-mode/Triton-Puzzles"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "RWKV/rwkv.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "akabe/ocaml-jupyter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "lanpa/tensorboardX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/transformers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "logpai/Drain3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "treeverse/dvc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "openhackathons-org/gpubootcamp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "secretflow/kuscia"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "reddy-lab-code-research/XLCoST"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "tracel-ai/burn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "chelsea0x3b/dfdx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "lightgbm-org/LightGBM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "shivammehta25/Matcha-TTS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "apple/ml-cvnets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "TimoBolkart/voca"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

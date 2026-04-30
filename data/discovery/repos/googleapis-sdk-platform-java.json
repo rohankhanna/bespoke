@@ -1,0 +1,554 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze_dependency.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze_dependency.yaml"
+    },
+    {
+      "component": "stCarolas/setup-maven@v4.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze_dependency.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "googleapis/java-cloud-bom/tests/validate-bom@47ad868794c5d38ee7eb95d69371a7a79f84d890",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_additional_release_tag.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency_compatibility_test.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency_compatibility_test.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/downstream.yaml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/downstream.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/downstream.yaml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/downstream.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/downstream_protobuf_compatibility_check_nightly.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/downstream_protobuf_compatibility_check_nightly.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/downstream_protobuf_compatibility_check_nightly.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/downstream_unmanaged_dependency_check.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/downstream_unmanaged_dependency_check.yaml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/downstream_unmanaged_dependency_check.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hermetic_library_generation.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java_compatibility_check.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java_compatibility_check.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze_dependency.yaml",
+      "source_repo": "googleapis/sdk-platform-java",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze_dependency.yaml",
+      "source_repo": "googleapis/sdk-platform-java",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze_dependency.yaml",
+      "source_repo": "googleapis/sdk-platform-java",
+      "target": "stCarolas/setup-maven@v4.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/analyze_dependency.yaml",
+      "source_repo": "googleapis/sdk-platform-java",
+      "target": "Run dependency analyzer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "googleapis/sdk-platform-java",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "googleapis/sdk-platform-java",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "googleapis/sdk-platform-java",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "googleapis/sdk-platform-java",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "googleapis/sdk-platform-java",
+      "target": "googleapis/java-cloud-bom/tests/validate-bom@47ad868794c5d38ee7eb95d69371a7a79f84d890",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_additional_release_tag.yaml",
+      "source_repo": "googleapis/sdk-platform-java",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create_additional_release_tag.yaml",
+      "source_repo": "googleapis/sdk-platform-java",
+      "target": "Create additional tags for each release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency_compatibility_test.yaml",
+      "source_repo": "googleapis/sdk-platform-java",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency_compatibility_test.yaml",
+      "source_repo": "googleapis/sdk-platform-java",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependency_compatibility_test.yaml",
+      "source_repo": "googleapis/sdk-platform-java",
+      "target": "Dependency Compatibility Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/downstream.yaml",
+      "source_repo": "googleapis/sdk-platform-java",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/downstream.yaml",
+      "source_repo": "googleapis/sdk-platform-java",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/downstream.yaml",
+      "source_repo": "googleapis/sdk-platform-java",
+      "target": "Downstream Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/downstream_protobuf_compatibility_check_nightly.yaml",
+      "source_repo": "googleapis/sdk-platform-java",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/downstream_protobuf_compatibility_check_nightly.yaml",
+      "source_repo": "googleapis/sdk-platform-java",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/downstream_protobuf_compatibility_check_nightly.yaml",
+      "source_repo": "googleapis/sdk-platform-java",
+      "target": "Downstream Protobuf Compatibility Check Nightly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/downstream_unmanaged_dependency_check.yaml",
+      "source_repo": "googleapis/sdk-platform-java",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/downstream_unmanaged_dependency_check.yaml",
+      "source_repo": "googleapis/sdk-platform-java",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/downstream_unmanaged_dependency_check.yaml",
+      "source_repo": "googleapis/sdk-platform-java",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/downstream_unmanaged_dependency_check.yaml",
+      "source_repo": "googleapis/sdk-platform-java",
+      "target": "Downstream Unmanaged Dependency Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hermetic_library_generation.yaml",
+      "source_repo": "googleapis/sdk-platform-java",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java_compatibility_check.yaml",
+      "source_repo": "googleapis/sdk-platform-java",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java_compatibility_check.yaml",
+      "source_repo": "googleapis/sdk-platform-java",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/java_compatibility_check.yaml",
+      "source_repo": "googleapis/sdk-platform-java",
+      "target": "Java 8 compatibility check",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:12:22.350377+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1963
+    },
+    {
+      "path": ".github/workflows/analyze_dependency.yaml",
+      "size": 1295
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 19253
+    },
+    {
+      "path": ".github/workflows/create_additional_release_tag.yaml",
+      "size": 1273
+    },
+    {
+      "path": ".github/workflows/dependency_compatibility_test.yaml",
+      "size": 3642
+    },
+    {
+      "path": ".github/workflows/downstream.yaml",
+      "size": 1711
+    },
+    {
+      "path": ".github/workflows/downstream_protobuf_compatibility_check_nightly.yaml",
+      "size": 2821
+    },
+    {
+      "path": ".github/workflows/downstream_unmanaged_dependency_check.yaml",
+      "size": 2992
+    },
+    {
+      "path": ".github/workflows/hermetic_library_generation.yaml",
+      "size": 2539
+    },
+    {
+      "path": ".github/workflows/java_compatibility_check.yaml",
+      "size": 1758
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Tooling and shared libraries for Cloud SDK for Java",
+    "fork": false,
+    "full_name": "googleapis/sdk-platform-java",
+    "html_url": "https://github.com/googleapis/sdk-platform-java",
+    "language": "Java",
+    "pushed_at": "2026-04-30T03:08:47Z",
+    "stargazers_count": 93,
+    "topics": [],
+    "updated_at": "2026-04-09T04:52:18Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Run dependency analyzer",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/analyze_dependency.yaml",
+      "term": "Run dependency analyzer"
+    },
+    {
+      "context_snippet": "Create additional tags for each release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create_additional_release_tag.yaml",
+      "term": "Create additional tags for each release"
+    },
+    {
+      "context_snippet": "Dependency Compatibility Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependency_compatibility_test.yaml",
+      "term": "Dependency Compatibility Test"
+    },
+    {
+      "context_snippet": "Downstream Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/downstream.yaml",
+      "term": "Downstream Check"
+    },
+    {
+      "context_snippet": "Downstream Protobuf Compatibility Check Nightly",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/downstream_protobuf_compatibility_check_nightly.yaml",
+      "term": "Downstream Protobuf Compatibility Check Nightly"
+    },
+    {
+      "context_snippet": "Downstream Unmanaged Dependency Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/downstream_unmanaged_dependency_check.yaml",
+      "term": "Downstream Unmanaged Dependency Check"
+    },
+    {
+      "context_snippet": "Java 8 compatibility check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/java_compatibility_check.yaml",
+      "term": "Java 8 compatibility check"
+    }
+  ]
+}

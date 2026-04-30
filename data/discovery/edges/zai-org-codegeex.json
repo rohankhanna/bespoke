@@ -4,28 +4,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "zai-org/CodeGeeX",
-      "target": "oneflow-inc/oneflow",
+      "target": "thudm/codegeex4",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "zai-org/CodeGeeX",
-      "target": "codegeex/codegeex-fastertransformer",
+      "target": "thudm/codegeex2",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "zai-org/CodeGeeX",
-      "target": "codegeex/codegeex-vscode-extension",
+      "target": "thudm/codegeex",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "zai-org/CodeGeeX",
-      "target": "dpfried/incoder",
+      "target": "reddy-lab-code-research/xlcost",
       "target_type": "repository"
     },
     {
@@ -50,6 +50,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "generated_at": "2026-04-30T12:45:20.475770+00:00",
   "source_repo": "zai-org/CodeGeeX"
 }

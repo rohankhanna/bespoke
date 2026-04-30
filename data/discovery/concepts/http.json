@@ -967,6 +967,114 @@
       "source_repo": "ClickHouse/clickhouse-js",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hairyf/genapi",
+      "status": "candidate-context",
+      "text": "API pipeline generator, which is used to convert OpenApi (v2~v3) and any input sources into TS/JS APIs, and currently supports axios, fetch, ky, got, ofetch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hairyf/genapi",
+      "status": "candidate-context",
+      "text": "[![npm version][npm-version-src]][npm-version-href]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hey-api/openapi-ts",
+      "status": "candidate-context",
+      "text": "\ud83c\udf00 OpenAPI to TypeScript codegen. Production-ready SDKs, Zod schemas, TanStack Query hooks, and 20+ plugins. Used by Vercel, OpenCode, and PayPal."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hey-api/openapi-ts",
+      "status": "candidate-context",
+      "text": "openapi-ts-monorepo \u2014 Public @hey-api monorepo"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kernelsauce/turbo",
+      "status": "candidate-context",
+      "text": "Turbo is a framework built for LuaJIT 2 to simplify the task of building fast and scalable network applications. It uses a event-driven, non-blocking, no thread design to deliver excellent performance and minimal footprint to high-load applications while also providing excellent support for embedded uses. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kernelsauce/turbo",
+      "status": "candidate-context",
+      "text": ".. image:: https://raw.github.com/kernelsauce/turbo/master/doc/design/turbo.png"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unum-cloud/UCall",
+      "status": "candidate-context",
+      "text": "Web Serving and Remote Procedure Calls at 50x lower latency and 70x higher bandwidth than FastAPI, implementing JSON-RPC & REST over io_uring \u260e\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unum-cloud/UCall",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">UCall</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudwego/hertz-examples",
+      "status": "candidate-context",
+      "text": "Examples for Hertz."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudwego/hertz-examples",
+      "status": "candidate-context",
+      "text": "English | [\u4e2d\u6587](README_CN.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haproxy/haproxy",
+      "status": "candidate-context",
+      "text": "HAProxy Load Balancer's development branch (mirror of git.haproxy.org)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haproxy/haproxy",
+      "status": "candidate-context",
+      "text": "[![AWS-LC](https://github.com/haproxy/haproxy/actions/workflows/aws-lc.yml/badge.svg)](https://github.com/haproxy/haproxy/actions/workflows/aws-lc.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adidas/api-guidelines",
+      "status": "candidate-context",
+      "text": "adidas group API design guidelines"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adidas/api-guidelines",
+      "status": "candidate-context",
+      "text": "<figure><picture><source srcset=\".gitbook/assets/adidas_company_logo_BWr.png\" media=\"(prefers-color-scheme: dark)\"><img src=\".gitbook/assets/adidas_company_logo_BWp.png\" alt=\"\"></picture><figcaption></figcaption></figure>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "benoitc/gunicorn",
+      "status": "candidate-context",
+      "text": "gunicorn 'Green Unicorn' is a WSGI HTTP Server for UNIX, fast clients and sleepy applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "benoitc/gunicorn",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ninenines/gun",
+      "status": "candidate-context",
+      "text": "HTTP/1.1, HTTP/2, Websocket client (and more) for Erlang/OTP."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ninenines/gun",
+      "status": "candidate-context",
+      "text": "Check Gun"
     }
   ],
   "candidate_glosses": [
@@ -1449,6 +1557,60 @@
       "source_repo": "ClickHouse/clickhouse-js",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hairyf/genapi",
+      "status": "candidate",
+      "text": "[![npm version][npm-version-src]][npm-version-href]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hey-api/openapi-ts",
+      "status": "candidate",
+      "text": "openapi-ts-monorepo \u2014 Public @hey-api monorepo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kernelsauce/turbo",
+      "status": "candidate",
+      "text": ".. image:: https://raw.github.com/kernelsauce/turbo/master/doc/design/turbo.png"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unum-cloud/UCall",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">UCall</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudwego/hertz-examples",
+      "status": "candidate",
+      "text": "English | [\u4e2d\u6587](README_CN.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haproxy/haproxy",
+      "status": "candidate",
+      "text": "[![AWS-LC](https://github.com/haproxy/haproxy/actions/workflows/aws-lc.yml/badge.svg)](https://github.com/haproxy/haproxy/actions/workflows/aws-lc.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adidas/api-guidelines",
+      "status": "candidate",
+      "text": "<figure><picture><source srcset=\".gitbook/assets/adidas_company_logo_BWr.png\" media=\"(prefers-color-scheme: dark)\"><img src=\".gitbook/assets/adidas_company_logo_BWp.png\" alt=\"\"></picture><figcaption></figcaption></figure>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "benoitc/gunicorn",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ninenines/gun",
+      "status": "candidate",
+      "text": "Check Gun"
     }
   ],
   "candidate_related_terms": [
@@ -2106,11 +2268,89 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "vercel/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "hairyf/genapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "hey-api/openapi-ts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "kernelsauce/turbo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "unum-cloud/UCall"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "cloudwego/hertz-examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-fasthttp-auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "haproxy/haproxy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "adidas/api-guidelines"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "benoitc/gunicorn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "vercel/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ueberauth/oauth2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ninenines/gun"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

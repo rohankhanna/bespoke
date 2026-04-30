@@ -1,0 +1,84 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/send-issue-to-apply-allocator-be.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "filecoin-project/Allocator-Governance",
+      "target": "filecoin-project/allocator-registry",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "filecoin-project/Allocator-Governance",
+      "target": "filecoin-station/spark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/send-issue-to-apply-allocator-be.yml",
+      "source_repo": "filecoin-project/Allocator-Governance",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/send-issue-to-apply-allocator-be.yml",
+      "source_repo": "filecoin-project/Allocator-Governance",
+      "target": "Send issue to apply.allocator.tech",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:02:06.858492+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17927
+    },
+    {
+      "path": ".github/workflows/send-issue-to-apply-allocator-be.yml",
+      "size": 789
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "filecoin-project/Allocator-Governance",
+    "html_url": "https://github.com/filecoin-project/Allocator-Governance",
+    "language": null,
+    "pushed_at": "2025-08-29T14:38:46Z",
+    "stargazers_count": 8,
+    "topics": [],
+    "updated_at": "2025-08-29T14:38:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "filecoin-project/allocator-registry",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "filecoin-station/spark",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Send issue to apply.allocator.tech",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/send-issue-to-apply-allocator-be.yml",
+      "term": "Send issue to apply.allocator.tech"
+    }
+  ]
+}

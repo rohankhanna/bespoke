@@ -56,6 +56,18 @@
       "source_repo": "PrimeIntellect-ai/prime-rl",
       "status": "candidate-context",
       "text": "Nightly Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/triton-shared",
+      "status": "candidate-context",
+      "text": "Shared Middle-Layer for Triton Compilation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/triton-shared",
+      "status": "candidate-context",
+      "text": "Nightly Tests"
     }
   ],
   "candidate_glosses": [
@@ -80,6 +92,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "PrimeIntellect-ai/prime-rl",
+      "status": "candidate",
+      "text": "Nightly Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/triton-shared",
       "status": "candidate",
       "text": "Nightly Tests"
     }
@@ -179,11 +197,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/tests-nightly.yml",
       "source_repo": "bitsandbytes-foundation/bitsandbytes"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/nightly-tests.yml",
+      "source_repo": "microsoft/triton-shared"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/tests-nightly.yml",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

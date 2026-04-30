@@ -84,7 +84,7 @@
   "normalized_form": "deploy-snapshot",
   "observation_id": "67d307337cdb1782",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
   "observed_text": "Deploy Snapshot",
   "source_context_snippet": "Deploy Snapshot",
   "source_file": ".github/workflows/deploy-snapshot.yaml",

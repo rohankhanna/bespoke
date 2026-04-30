@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "oneAPI DPC++ Library (oneDPL) https://software.intel.com/content/www/us/en/develop/tools/oneapi/components/dpc-library.html "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Apache License Version 2.0](https://img.shields.io/badge/license-Apache_2.0-green.svg)](LICENSE.txt) [![oneDPL CI](https://github.com/uxlfoundation/oneDPL/actions/workflows/ci-testing.yml/badge.svg)](https://github.com/uxlfoundation/oneDPL/actions/workflows/ci-testing.yml?que\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Apache License Version 2.0](https://img.shields.io/badge/license-Apache_2.0-green.svg)](LICENSE.txt) [![oneDPL CI](https://github.com/uxlfoundation/oneDPL/actions/workflows/ci-testing.yml/badge.svg)](https://github.com/uxlfoundation/oneDPL/actions/workflows/ci-testing.yml?que\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "oneapi",
+      "sense_id": "oneapi#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "oneapi",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "oneapi",
+  "observation_id": "3ccdbdc1ab698c82",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "oneapi",
+  "source_context_snippet": "[![Apache License Version 2.0](https://img.shields.io/badge/license-Apache_2.0-green.svg)](LICENSE.txt) [![oneDPL CI](https://github.com/uxlfoundation/oneDPL/actions/workflows/ci-testing.yml/badge.svg)](https://github.com/uxlfoundation/oneDPL/actions/workflows/ci-testing.yml?que\u2026",
+  "source_file": null,
+  "source_repo": "uxlfoundation/oneDPL",
+  "source_repo_description": "oneAPI DPC++ Library (oneDPL) https://software.intel.com/content/www/us/en/develop/tools/oneapi/components/dpc-library.html "
+}

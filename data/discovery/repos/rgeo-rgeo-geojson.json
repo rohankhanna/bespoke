@@ -1,0 +1,114 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "rgeo/rgeo-geojson",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "rgeo/rgeo-geojson",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "rgeo/rgeo-geojson",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rgeo/rgeo-geojson",
+      "target": "geojson",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rgeo/rgeo-geojson",
+      "target": "rgeo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rgeo/rgeo-geojson",
+      "target": "ruby",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:12:30.464549+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2378
+    },
+    {
+      "path": ".github/workflows/CI.yml",
+      "size": 872
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "RGeo component for reading and writing GeoJSON",
+    "fork": false,
+    "full_name": "rgeo/rgeo-geojson",
+    "html_url": "https://github.com/rgeo/rgeo-geojson",
+    "language": "Ruby",
+    "pushed_at": "2024-10-10T10:57:29Z",
+    "stargazers_count": 193,
+    "topics": [
+      "geojson",
+      "rgeo",
+      "ruby"
+    ],
+    "updated_at": "2026-01-23T14:30:32Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CI.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "[![Gem Version](https://badge.fury.io/rb/rgeo-geojson.svg)](http://badge.fury.io/rb/rgeo-geojson)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geojson"
+    },
+    {
+      "context_snippet": "[![Gem Version](https://badge.fury.io/rb/rgeo-geojson.svg)](http://badge.fury.io/rb/rgeo-geojson)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rgeo"
+    },
+    {
+      "context_snippet": "[![Gem Version](https://badge.fury.io/rb/rgeo-geojson.svg)](http://badge.fury.io/rb/rgeo-geojson)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    }
+  ]
+}

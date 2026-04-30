@@ -1,0 +1,212 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "adamyaxley/Obfuscate",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "adamyaxley/Obfuscate",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "adamyaxley/Obfuscate",
+      "target": "Continuous Integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adamyaxley/Obfuscate",
+      "target": "cpp14",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adamyaxley/Obfuscate",
+      "target": "cpp17",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adamyaxley/Obfuscate",
+      "target": "embedded-string-literals",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adamyaxley/Obfuscate",
+      "target": "header-only",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adamyaxley/Obfuscate",
+      "target": "obfuscate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adamyaxley/Obfuscate",
+      "target": "obfuscate-strings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adamyaxley/Obfuscate",
+      "target": "obfuscation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adamyaxley/Obfuscate",
+      "target": "string",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adamyaxley/Obfuscate",
+      "target": "string-literals",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adamyaxley/Obfuscate",
+      "target": "string-obfuscation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:09:23.096750+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4826
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2477
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Guaranteed compile-time string literal obfuscation header-only library for C++14",
+    "fork": false,
+    "full_name": "adamyaxley/Obfuscate",
+    "html_url": "https://github.com/adamyaxley/Obfuscate",
+    "language": "C++",
+    "pushed_at": "2025-09-03T09:13:50Z",
+    "stargazers_count": 1297,
+    "topics": [
+      "cpp14",
+      "cpp17",
+      "embedded-string-literals",
+      "header-only",
+      "obfuscate",
+      "obfuscate-strings",
+      "obfuscation",
+      "string",
+      "string-literals",
+      "string-obfuscation"
+    ],
+    "updated_at": "2026-04-30T08:06:20Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Continuous Integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Continuous Integration"
+    },
+    {
+      "context_snippet": "**[Source available on GitHub](https://github.com/adamyaxley/Obfuscate)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp14"
+    },
+    {
+      "context_snippet": "**[Source available on GitHub](https://github.com/adamyaxley/Obfuscate)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp17"
+    },
+    {
+      "context_snippet": "**[Source available on GitHub](https://github.com/adamyaxley/Obfuscate)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "embedded-string-literals"
+    },
+    {
+      "context_snippet": "**[Source available on GitHub](https://github.com/adamyaxley/Obfuscate)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "header-only"
+    },
+    {
+      "context_snippet": "**[Source available on GitHub](https://github.com/adamyaxley/Obfuscate)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "obfuscate"
+    },
+    {
+      "context_snippet": "**[Source available on GitHub](https://github.com/adamyaxley/Obfuscate)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "obfuscate-strings"
+    },
+    {
+      "context_snippet": "**[Source available on GitHub](https://github.com/adamyaxley/Obfuscate)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "obfuscation"
+    },
+    {
+      "context_snippet": "**[Source available on GitHub](https://github.com/adamyaxley/Obfuscate)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "string"
+    },
+    {
+      "context_snippet": "**[Source available on GitHub](https://github.com/adamyaxley/Obfuscate)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "string-literals"
+    },
+    {
+      "context_snippet": "**[Source available on GitHub](https://github.com/adamyaxley/Obfuscate)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "string-obfuscation"
+    }
+  ]
+}

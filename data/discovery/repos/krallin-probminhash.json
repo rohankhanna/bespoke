@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "krallin/probminhash",
+      "target": "oertl/probminhash",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:52:48.580466+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6024
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1764
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Rust implementation of probminhash,  superminhash and hyperloglog sketching algorithms",
+    "fork": true,
+    "full_name": "krallin/probminhash",
+    "html_url": "https://github.com/krallin/probminhash",
+    "language": null,
+    "pushed_at": "2025-04-15T15:12:00Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-04-15T14:54:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "oertl/probminhash",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

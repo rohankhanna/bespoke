@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Semantic Pull Request"
+    "Semantic Pull Request",
+    "semantic-pull-request"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,48 @@
       "source_repo": "openobserve/promql-parser",
       "status": "candidate-context",
       "text": "Semantic Pull Request"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autowarefoundation/autoware-documentation",
+      "status": "candidate-context",
+      "text": "semantic-pull-request"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autowarefoundation/autoware-github-actions",
+      "status": "candidate-context",
+      "text": "semantic-pull-request"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GreptimeTeam/promql-parser",
+      "status": "candidate-context",
+      "text": "PromQL Rust parser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GreptimeTeam/promql-parser",
+      "status": "candidate-context",
+      "text": "Semantic Pull Request"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GreptimeTeam/greptimedb-ingester-rust",
+      "status": "candidate-context",
+      "text": "A Rust ingester for GreptimeDB, which is compatible with GreptimeDB protocol and lightweight."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GreptimeTeam/greptimedb-ingester-rust",
+      "status": "candidate-context",
+      "text": "\"Semantic Pull Request\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autowarefoundation/.github",
+      "status": "candidate-context",
+      "text": "semantic-pull-request"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +70,36 @@
       "source_repo": "openobserve/promql-parser",
       "status": "candidate",
       "text": "Semantic Pull Request"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autowarefoundation/autoware-documentation",
+      "status": "candidate",
+      "text": "semantic-pull-request"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autowarefoundation/autoware-github-actions",
+      "status": "candidate",
+      "text": "semantic-pull-request"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GreptimeTeam/promql-parser",
+      "status": "candidate",
+      "text": "Semantic Pull Request"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GreptimeTeam/greptimedb-ingester-rust",
+      "status": "candidate",
+      "text": "\"Semantic Pull Request\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autowarefoundation/.github",
+      "status": "candidate",
+      "text": "semantic-pull-request"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +149,41 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/semantic-pull-request.yml",
       "source_repo": "openobserve/promql-parser"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/semantic-pull-request.yaml",
+      "source_repo": "autowarefoundation/autoware-documentation"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/semantic-pull-request.yaml",
+      "source_repo": "autowarefoundation/autoware-github-actions"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/semantic-pull-request.yml",
+      "source_repo": "GreptimeTeam/promql-parser"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/semantic-pr.yml",
+      "source_repo": "GreptimeTeam/greptimedb-ingester-rust"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/semantic-pull-request.yaml",
+      "source_repo": "autowarefoundation/.github"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

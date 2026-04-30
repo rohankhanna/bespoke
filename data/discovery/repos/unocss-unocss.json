@@ -488,13 +488,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "unocss/unocss",
-      "target": "tw-in-js/twind",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "unocss/unocss",
@@ -1230,7 +1223,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T03:50:46.699273+00:00",
+  "fetched_at": "2026-04-30T13:00:45.612554+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1277,13 +1270,7 @@
     ],
     "updated_at": "2026-04-29T18:02:25Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "tw-in-js/twind",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "autofix.ci",

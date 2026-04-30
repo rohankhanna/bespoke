@@ -1,0 +1,242 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "pre-commit/action@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload-to-pypi.yml"
+    },
+    {
+      "component": "actions/setup-python@v6.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload-to-pypi.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload-to-pypi.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload-to-pypi.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@v1.14.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload-to-pypi.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "PyCQA/autoflake",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "PyCQA/autoflake",
+      "target": "actions/setup-python@v6.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "PyCQA/autoflake",
+      "target": "pre-commit/action@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "PyCQA/autoflake",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload-to-pypi.yml",
+      "source_repo": "PyCQA/autoflake",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload-to-pypi.yml",
+      "source_repo": "PyCQA/autoflake",
+      "target": "actions/setup-python@v6.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload-to-pypi.yml",
+      "source_repo": "PyCQA/autoflake",
+      "target": "actions/upload-artifact@v7.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload-to-pypi.yml",
+      "source_repo": "PyCQA/autoflake",
+      "target": "actions/download-artifact@v8.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload-to-pypi.yml",
+      "source_repo": "PyCQA/autoflake",
+      "target": "pypa/gh-action-pypi-publish@v1.14.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/upload-to-pypi.yml",
+      "source_repo": "PyCQA/autoflake",
+      "target": "Upload to PyPI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyCQA/autoflake",
+      "target": "formatter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyCQA/autoflake",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyCQA/autoflake",
+      "target": "linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyCQA/autoflake",
+      "target": "pyflakes",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:06:20.139110+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6918
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1018
+    },
+    {
+      "path": ".github/workflows/main.yaml",
+      "size": 1252
+    },
+    {
+      "path": ".github/workflows/upload-to-pypi.yml",
+      "size": 800
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Removes unused imports and unused variables as reported by pyflakes",
+    "fork": false,
+    "full_name": "PyCQA/autoflake",
+    "html_url": "https://github.com/PyCQA/autoflake",
+    "language": "Python",
+    "pushed_at": "2026-04-20T03:18:18Z",
+    "stargazers_count": 955,
+    "topics": [
+      "formatter",
+      "hacktoberfest",
+      "linter",
+      "pyflakes",
+      "python"
+    ],
+    "updated_at": "2026-04-29T15:39:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yaml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Upload to PyPI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/upload-to-pypi.yml",
+      "term": "Upload to PyPI"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/PyCQA/autoflake/actions/workflows/main.yaml/badge.svg?branch=main)](https://github.com/PyCQA/autoflake/actions/workflows/main.yaml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "formatter"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/PyCQA/autoflake/actions/workflows/main.yaml/badge.svg?branch=main)](https://github.com/PyCQA/autoflake/actions/workflows/main.yaml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/PyCQA/autoflake/actions/workflows/main.yaml/badge.svg?branch=main)](https://github.com/PyCQA/autoflake/actions/workflows/main.yaml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linter"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/PyCQA/autoflake/actions/workflows/main.yaml/badge.svg?branch=main)](https://github.com/PyCQA/autoflake/actions/workflows/main.yaml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pyflakes"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "ashutoshvarma/setup-ninja@v1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@v1.12.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nico/demumble",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nico/demumble",
+      "target": "ashutoshvarma/setup-ninja@v1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nico/demumble",
+      "target": "ilammy/msvc-dev-cmd@v1.12.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nico/demumble",
+      "target": "Build and test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:14:57.937410+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2842
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 526
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A better c++filt and a better undname.exe, in one binary.",
+    "fork": false,
+    "full_name": "nico/demumble",
+    "html_url": "https://github.com/nico/demumble",
+    "language": "Python",
+    "pushed_at": "2024-08-06T02:00:21Z",
+    "stargazers_count": 393,
+    "topics": [],
+    "updated_at": "2026-04-05T23:05:25Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build and test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Build and test"
+    }
+  ]
+}

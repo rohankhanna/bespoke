@@ -343,6 +343,18 @@
       "source_repo": "lmnt-com/wavegrad",
       "status": "candidate-context",
       "text": "![PyPI Release](https://img.shields.io/pypi/v/wavegrad?label=release) [![License](https://img.shields.io/github/license/lmnt-com/wavegrad)](https://github.com/lmnt-com/wavegrad/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "modelscope/FunCodec",
+      "status": "candidate-context",
+      "text": "FunCodec is a research-oriented toolkit for audio quantization and downstream applications, such as text-to-speech synthesis, music generation et.al. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelscope/FunCodec",
+      "status": "candidate-context",
+      "text": "This project is still working on progress. To make FunCodec better, please let me know your concerns and feel free to comment them in the `Issues` part."
     }
   ],
   "candidate_glosses": [
@@ -513,6 +525,12 @@
       "source_repo": "lmnt-com/wavegrad",
       "status": "candidate",
       "text": "![PyPI Release](https://img.shields.io/pypi/v/wavegrad?label=release) [![License](https://img.shields.io/github/license/lmnt-com/wavegrad)](https://github.com/lmnt-com/wavegrad/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelscope/FunCodec",
+      "status": "candidate",
+      "text": "This project is still working on progress. To make FunCodec better, please let me know your concerns and feel free to comment them in the `Issues` part."
     }
   ],
   "candidate_related_terms": [],
@@ -724,11 +742,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "lmnt-com/wavegrad"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA-NeMo/NeMo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/FunCodec"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

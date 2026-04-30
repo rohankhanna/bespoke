@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-java@v2",
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -207,6 +207,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/nightly-jobs.yaml",
       "source_repo": "Azure-Samples/azure-search-openai-demo-java"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-snapshot.yml",
+      "source_repo": "apache/ignite"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pre-merge.yaml",
+      "source_repo": "detekt/sonar-detekt"
     }
   ]
 }

@@ -1,0 +1,441 @@
+{
+  "components": [
+    {
+      "component": "fizyk/actions-reuse/.github/workflows/shared-automerge.yml@v4.4.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automerge.yml"
+    },
+    {
+      "component": "fizyk/actions-reuse/.github/workflows/shared-pypi.yml@v4.4.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/diagram.yml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/diagram.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerised-postgres.yml"
+    },
+    {
+      "component": "fizyk/actions-reuse/.github/actions/pipenv-setup@v4.4.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerised-postgres.yml"
+    },
+    {
+      "component": "fizyk/actions-reuse/.github/actions/pipenv-run@v4.4.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerised-postgres.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v6.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerised-postgres.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oldest-postgres.yml"
+    },
+    {
+      "component": "fizyk/actions-reuse/.github/actions/pipenv-setup@v4.4.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oldest-postgres.yml"
+    },
+    {
+      "component": "ankane/setup-postgres@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oldest-postgres.yml"
+    },
+    {
+      "component": "fizyk/actions-reuse/.github/actions/pipenv-run@v4.4.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oldest-postgres.yml"
+    },
+    {
+      "component": "fizyk/actions-reuse/.github/actions/pipenv-run@v4.4.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oldest-postgres.yml"
+    },
+    {
+      "component": "fizyk/actions-reuse/.github/actions/pipenv-run@v4.4.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oldest-postgres.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oldest-postgres.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v6.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oldest-postgres.yml"
+    },
+    {
+      "component": "fizyk/actions-reuse/.github/workflows/shared-pr-check.yml@v4.4.7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-check.yml"
+    },
+    {
+      "component": "fizyk/actions-reuse/.github/workflows/shared-pre-commit.yml@v4.4.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "fizyk/actions-reuse/.github/workflows/shared-pypi.yml@v4.4.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "dbfixtures/pytest-postgresql",
+      "target": "pypa/warehouse",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automerge.yml",
+      "source_repo": "dbfixtures/pytest-postgresql",
+      "target": "fizyk/actions-reuse/.github/workflows/shared-automerge.yml@v4.4.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/automerge.yml",
+      "source_repo": "dbfixtures/pytest-postgresql",
+      "target": "Merge me test dependencies!",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dbfixtures/pytest-postgresql",
+      "target": "fizyk/actions-reuse/.github/workflows/shared-pypi.yml@v4.4.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dbfixtures/pytest-postgresql",
+      "target": "Test build package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/diagram.yml",
+      "source_repo": "dbfixtures/pytest-postgresql",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/diagram.yml",
+      "source_repo": "dbfixtures/pytest-postgresql",
+      "target": "stefanzweifel/git-auto-commit-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/diagram.yml",
+      "source_repo": "dbfixtures/pytest-postgresql",
+      "target": "Render Mermaid Diagrams",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerised-postgres.yml",
+      "source_repo": "dbfixtures/pytest-postgresql",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerised-postgres.yml",
+      "source_repo": "dbfixtures/pytest-postgresql",
+      "target": "fizyk/actions-reuse/.github/actions/pipenv-setup@v4.4.6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerised-postgres.yml",
+      "source_repo": "dbfixtures/pytest-postgresql",
+      "target": "fizyk/actions-reuse/.github/actions/pipenv-run@v4.4.6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerised-postgres.yml",
+      "source_repo": "dbfixtures/pytest-postgresql",
+      "target": "codecov/codecov-action@v6.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dockerised-postgres.yml",
+      "source_repo": "dbfixtures/pytest-postgresql",
+      "target": "Run pytest tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oldest-postgres.yml",
+      "source_repo": "dbfixtures/pytest-postgresql",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oldest-postgres.yml",
+      "source_repo": "dbfixtures/pytest-postgresql",
+      "target": "fizyk/actions-reuse/.github/actions/pipenv-setup@v4.4.6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oldest-postgres.yml",
+      "source_repo": "dbfixtures/pytest-postgresql",
+      "target": "ankane/setup-postgres@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oldest-postgres.yml",
+      "source_repo": "dbfixtures/pytest-postgresql",
+      "target": "fizyk/actions-reuse/.github/actions/pipenv-run@v4.4.6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oldest-postgres.yml",
+      "source_repo": "dbfixtures/pytest-postgresql",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oldest-postgres.yml",
+      "source_repo": "dbfixtures/pytest-postgresql",
+      "target": "codecov/codecov-action@v6.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/oldest-postgres.yml",
+      "source_repo": "dbfixtures/pytest-postgresql",
+      "target": "Run pytest tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-check.yml",
+      "source_repo": "dbfixtures/pytest-postgresql",
+      "target": "fizyk/actions-reuse/.github/workflows/shared-pr-check.yml@v4.4.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-check.yml",
+      "source_repo": "dbfixtures/pytest-postgresql",
+      "target": "Run test commands",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "dbfixtures/pytest-postgresql",
+      "target": "fizyk/actions-reuse/.github/workflows/shared-pre-commit.yml@v4.4.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "dbfixtures/pytest-postgresql",
+      "target": "Run linters",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yml",
+      "source_repo": "dbfixtures/pytest-postgresql",
+      "target": "fizyk/actions-reuse/.github/workflows/shared-pypi.yml@v4.4.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pypi.yml",
+      "source_repo": "dbfixtures/pytest-postgresql",
+      "target": "Package and publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dbfixtures/pytest-postgresql",
+      "target": "postgresql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dbfixtures/pytest-postgresql",
+      "target": "pytest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dbfixtures/pytest-postgresql",
+      "target": "pytest-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:58:33.741087+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 12232
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 4757
+    },
+    {
+      "path": ".github/workflows/automerge.yml",
+      "size": 453
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 187
+    },
+    {
+      "path": ".github/workflows/diagram.yml",
+      "size": 882
+    },
+    {
+      "path": ".github/workflows/dockerised-postgres.yml",
+      "size": 2166
+    },
+    {
+      "path": ".github/workflows/oldest-postgres.yml",
+      "size": 2880
+    },
+    {
+      "path": ".github/workflows/pr-check.yml",
+      "size": 162
+    },
+    {
+      "path": ".github/workflows/pre-commit.yml",
+      "size": 192
+    },
+    {
+      "path": ".github/workflows/pypi.yml",
+      "size": 245
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This is a pytest plugin, that enables you to test your code that relies on a running PostgreSQL Database. It allows you to specify fixtures for PostgreSQL process and client.",
+    "fork": false,
+    "full_name": "dbfixtures/pytest-postgresql",
+    "html_url": "https://github.com/dbfixtures/pytest-postgresql",
+    "language": "Python",
+    "pushed_at": "2026-04-27T23:09:12Z",
+    "stargazers_count": 518,
+    "topics": [
+      "postgresql",
+      "pytest",
+      "pytest-plugin",
+      "python"
+    ],
+    "updated_at": "2026-04-27T23:09:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pypa/warehouse",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Merge me test dependencies!",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/automerge.yml",
+      "term": "Merge me test dependencies!"
+    },
+    {
+      "context_snippet": "Test build package",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Test build package"
+    },
+    {
+      "context_snippet": "Render Mermaid Diagrams",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/diagram.yml",
+      "term": "Render Mermaid Diagrams"
+    },
+    {
+      "context_snippet": "Run pytest tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dockerised-postgres.yml",
+      "term": "Run pytest tests"
+    },
+    {
+      "context_snippet": "Run pytest tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/oldest-postgres.yml",
+      "term": "Run pytest tests"
+    },
+    {
+      "context_snippet": "Run test commands",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-check.yml",
+      "term": "Run test commands"
+    },
+    {
+      "context_snippet": "Run linters",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "term": "Run linters"
+    },
+    {
+      "context_snippet": "Package and publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pypi.yml",
+      "term": "Package and publish"
+    },
+    {
+      "context_snippet": ".. image:: https://raw.githubusercontent.com/dbfixtures/pytest-postgresql/main/logo.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "postgresql"
+    },
+    {
+      "context_snippet": ".. image:: https://raw.githubusercontent.com/dbfixtures/pytest-postgresql/main/logo.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytest"
+    },
+    {
+      "context_snippet": ".. image:: https://raw.githubusercontent.com/dbfixtures/pytest-postgresql/main/logo.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytest-plugin"
+    }
+  ]
+}

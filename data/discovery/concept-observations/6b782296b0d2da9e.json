@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A collection of examples to help users get up and running with Smithy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://github.com/smithy-lang/smithy-examples/workflows/integ/badge.svg)](https://github.com/smithy-lang/smithy-examples/actions/workflows/integ.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/smithy-lang/smithy-examples/workflows/integ/badge.svg)](https://github.com/smithy-lang/smithy-examples/actions/workflows/integ.yml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "build-tool",
+      "sense_id": "build-tool#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-tool",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-tool",
+  "observation_id": "6b782296b0d2da9e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "build-tool",
+  "source_context_snippet": "[![Build Status](https://github.com/smithy-lang/smithy-examples/workflows/integ/badge.svg)](https://github.com/smithy-lang/smithy-examples/actions/workflows/integ.yml)",
+  "source_file": null,
+  "source_repo": "smithy-lang/smithy-examples",
+  "source_repo_description": "A collection of examples to help users get up and running with Smithy"
+}

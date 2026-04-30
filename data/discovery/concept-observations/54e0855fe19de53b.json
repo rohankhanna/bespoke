@@ -4,10 +4,63 @@
     "tool-component",
     "capability"
   ],
-  "candidate_definition_hints": [],
-  "candidate_glosses": [],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An SVG rendering library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Build Status](https://github.com/linebender/resvg/workflows/Build/badge.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Build Status](https://github.com/linebender/resvg/workflows/Build/badge.svg)"
+    }
+  ],
   "candidate_primary_bucket": "tool-component",
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40038355,
+      "status": "candidate",
+      "text": "generate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40037202,
+      "status": "candidate",
+      "text": "interpret"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40036597,
+      "status": "candidate",
+      "text": "supply"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40034238,
+      "status": "candidate",
+      "text": "furnish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40032313,
+      "status": "candidate",
+      "text": "give"
+    }
+  ],
   "candidate_senses": [
     {
       "candidate_buckets": [
@@ -19,20 +72,58 @@
       "status": "candidate"
     }
   ],
-  "candidate_synonyms": [],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 72086,
+      "status": "candidate",
+      "text": "yield"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 33045,
+      "status": "candidate",
+      "text": "give"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26039,
+      "status": "candidate",
+      "text": "provide"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25046,
+      "status": "candidate",
+      "text": "waive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24067,
+      "status": "candidate",
+      "text": "play"
+    }
+  ],
   "concept_id": "render",
   "definition_status": "unresolved",
   "discovered_via": "repo-topic",
   "gloss_status": "unresolved",
-  "lexical_providers": [],
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "normalized_form": "render",
   "observation_id": "54e0855fe19de53b",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-04-18T11:41:43.530265+00:00",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
   "observed_text": "render",
-  "source_context_snippet": null,
+  "source_context_snippet": "![Build Status](https://github.com/linebender/resvg/workflows/Build/badge.svg)",
   "source_file": null,
   "source_repo": "linebender/resvg",
-  "source_repo_description": null
+  "source_repo_description": "An SVG rendering library."
 }

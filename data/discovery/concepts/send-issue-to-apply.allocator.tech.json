@@ -1,0 +1,94 @@
+{
+  "aliases": [
+    "Send issue to apply.allocator.tech"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filecoin-project/Allocator-Governance",
+      "status": "candidate-context",
+      "text": "Send issue to apply.allocator.tech"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filecoin-project/Allocator-Governance",
+      "status": "candidate",
+      "text": "Send issue to apply.allocator.tech"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28819,
+      "status": "candidate",
+      "text": "expedite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28437,
+      "status": "candidate",
+      "text": "emanate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28437,
+      "status": "candidate",
+      "text": "emit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28419,
+      "status": "candidate",
+      "text": "expedited"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28419,
+      "status": "candidate",
+      "text": "fulminate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Send issue to apply.allocator.tech",
+  "concept_id": "send-issue-to-apply.allocator.tech",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/send-issue-to-apply-allocator-be.yml",
+      "source_repo": "filecoin-project/Allocator-Governance"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Send issue to apply.allocator.tech",
+      "sense_id": "send-issue-to-apply.allocator.tech#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

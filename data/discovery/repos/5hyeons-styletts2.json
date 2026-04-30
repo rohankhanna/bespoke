@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "5Hyeons/StyleTTS2",
+      "target": "yl4579/auxiliaryasr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "5Hyeons/StyleTTS2",
+      "target": "neuralvox/styletts2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "5Hyeons/StyleTTS2",
+      "target": "archinetai/audio-diffusion-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "5Hyeons/StyleTTS2",
+      "target": "rishikksh20/istftnet-pytorch",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:14:13.265469+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14167
+    },
+    {
+      "path": "requirements.txt",
+      "size": 213
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "StyleTTS 2: Towards Human-Level Text-to-Speech through Style Diffusion and Adversarial Training with Large Speech Language Models",
+    "fork": true,
+    "full_name": "5Hyeons/StyleTTS2",
+    "html_url": "https://github.com/5Hyeons/StyleTTS2",
+    "language": "Python",
+    "pushed_at": "2025-01-02T05:02:00Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2025-12-11T18:30:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "archinetai/audio-diffusion-pytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "neuralvox/styletts2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rishikksh20/istftnet-pytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yl4579/auxiliaryasr",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

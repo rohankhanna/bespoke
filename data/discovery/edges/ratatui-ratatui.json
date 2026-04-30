@@ -74,14 +74,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "ratatui/ratatui",
-      "target": "taiki-e/install-action@055f5df8c3f65ea01cd41e9dc855becd88953486",
+      "target": "taiki-e/install-action@481c34c1cf3a84c68b5e46f4eccfc82af798415a",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "ratatui/ratatui",
-      "target": "crate-ci/typos@cf5f1c29a8ac336af8568821ec41919923b05a83",
+      "target": "crate-ci/typos@7c572958218557a3272c2d6719629443b5cc26fd",
       "target_type": "component"
     },
     {
@@ -211,6 +211,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-23T01:09:11.871080+00:00",
+  "generated_at": "2026-04-30T12:45:20.475770+00:00",
   "source_repo": "ratatui/ratatui"
 }

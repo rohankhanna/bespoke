@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T12:50:56.877911+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 372
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "aws-samples/aws-samples-for-ray",
+    "html_url": "https://github.com/aws-samples/aws-samples-for-ray",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-06-26T15:06:49Z",
+    "stargazers_count": 74,
+    "topics": [],
+    "updated_at": "2026-04-12T23:58:53Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

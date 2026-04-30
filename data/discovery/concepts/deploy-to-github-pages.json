@@ -284,6 +284,30 @@
       "source_repo": "oceanbase/ob-operator",
       "status": "candidate-context",
       "text": "Deploy to GitHub Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "meta-pytorch/captum",
+      "status": "candidate-context",
+      "text": "Model interpretability and understanding for PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meta-pytorch/captum",
+      "status": "candidate-context",
+      "text": "Deploy to GitHub Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rgbkrk/chatlab",
+      "status": "candidate-context",
+      "text": "\u26a1\ufe0f\ud83e\uddea Fast LLM Tool Calling Experimentation, big and smol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rgbkrk/chatlab",
+      "status": "candidate-context",
+      "text": "Deploy to GitHub Pages"
     }
   ],
   "candidate_glosses": [
@@ -428,6 +452,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "oceanbase/ob-operator",
+      "status": "candidate",
+      "text": "Deploy to GitHub Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meta-pytorch/captum",
+      "status": "candidate",
+      "text": "Deploy to GitHub Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rgbkrk/chatlab",
       "status": "candidate",
       "text": "Deploy to GitHub Pages"
     }
@@ -659,11 +695,29 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/deploy-docsite.yml",
       "source_repo": "oceanbase/ob-operator"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/website-deploy.yml",
+      "source_repo": "meta-pytorch/captum"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "rgbkrk/chatlab"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "beam-community/elixir-companies"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

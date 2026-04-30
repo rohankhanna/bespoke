@@ -4,13 +4,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "lightgbm-org/LightGBM",
-      "target": "jpmml/jpmml-lightgbm",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "lightgbm-org/LightGBM",
       "target": "intel/scikit-learn-intelex",
       "target_type": "repository"
     },
@@ -18,7 +11,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "lightgbm-org/LightGBM",
-      "target": "iqvia-ml/lightgbm.jl",
+      "target": "kubeflow/fairing",
       "target_type": "repository"
     },
     {
@@ -26,6 +19,13 @@
       "source_file": "README.md",
       "source_repo": "lightgbm-org/LightGBM",
       "target": "joaquinamatrodrigo/skforecast",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lightgbm-org/LightGBM",
+      "target": "lightgbm-org/lightgbm-transform",
       "target_type": "repository"
     },
     {
@@ -316,6 +316,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "generated_at": "2026-04-30T12:45:20.475770+00:00",
   "source_repo": "lightgbm-org/LightGBM"
 }

@@ -82,6 +82,30 @@
       "source_repo": "astro/deadnix-action",
       "status": "candidate-context",
       "text": "Automatically creates pull requests to remove unused code in `.nix`"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mpizenberg/elm-tooling-action",
+      "status": "candidate-context",
+      "text": "GitHub action to install Elm tools and cache ELM_HOME"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mpizenberg/elm-tooling-action",
+      "status": "candidate-context",
+      "text": "> Warning: do not use this if you have a JavaScript `package.json` already."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graalvm/setup-graalvm",
+      "status": "candidate-context",
+      "text": "Set up your GitHub Actions workflow with a specific GraalVM distribution."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graalvm/setup-graalvm",
+      "status": "candidate-context",
+      "text": "Set up your GitHub Actions workflow with a specific [GraalVM][graalvm] distribution, and use it both as your JDK and for [ahead-of-time Native Image compilation][graalvm]."
     }
   ],
   "candidate_glosses": [
@@ -120,6 +144,18 @@
       "source_repo": "astro/deadnix-action",
       "status": "candidate",
       "text": "Automatically creates pull requests to remove unused code in `.nix`"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mpizenberg/elm-tooling-action",
+      "status": "candidate",
+      "text": "> Warning: do not use this if you have a JavaScript `package.json` already."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graalvm/setup-graalvm",
+      "status": "candidate",
+      "text": "Set up your GitHub Actions workflow with a specific [GraalVM][graalvm] distribution, and use it both as your JDK and for [ahead-of-time Native Image compilation][graalvm]."
     }
   ],
   "candidate_related_terms": [
@@ -253,11 +289,29 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "gitleaks/gitleaks-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "mpizenberg/elm-tooling-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "graalvm/setup-graalvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks-action"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

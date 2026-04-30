@@ -1,0 +1,123 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "carueda/cfg",
+      "target": "configuration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "carueda/cfg",
+      "target": "scala",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "carueda/cfg",
+      "target": "scalameta",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "carueda/cfg",
+      "target": "schema",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "carueda/cfg",
+      "target": "typesafe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "carueda/cfg",
+      "target": "typesafe-config",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "carueda/cfg",
+      "target": "typesafe-configuration",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:14:49.124308+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Type safety all the way from configuration spec to  configuration access in Scala",
+    "fork": false,
+    "full_name": "carueda/cfg",
+    "html_url": "https://github.com/carueda/cfg",
+    "language": "Scala",
+    "pushed_at": "2021-10-19T02:30:42Z",
+    "stargazers_count": 4,
+    "topics": [
+      "configuration",
+      "scala",
+      "scalameta",
+      "schema",
+      "typesafe",
+      "typesafe-config",
+      "typesafe-configuration"
+    ],
+    "updated_at": "2023-01-28T05:27:44Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Type safety all the way from configuration spec to configuration access in Scala",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "configuration"
+    },
+    {
+      "context_snippet": "Type safety all the way from configuration spec to configuration access in Scala",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scala"
+    },
+    {
+      "context_snippet": "Type safety all the way from configuration spec to configuration access in Scala",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scalameta"
+    },
+    {
+      "context_snippet": "Type safety all the way from configuration spec to configuration access in Scala",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "schema"
+    },
+    {
+      "context_snippet": "Type safety all the way from configuration spec to configuration access in Scala",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "typesafe"
+    },
+    {
+      "context_snippet": "Type safety all the way from configuration spec to configuration access in Scala",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "typesafe-config"
+    },
+    {
+      "context_snippet": "Type safety all the way from configuration spec to configuration access in Scala",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "typesafe-configuration"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "msracver/Deformable-ConvNets",
+      "target": "bharatsingh430/deformable-convnets",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "msracver/Deformable-ConvNets",
+      "target": "dmlc/mxnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "msracver/Deformable-ConvNets",
+      "target": "giorking/mx-rfcn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "msracver/Deformable-ConvNets",
+      "target": "apache/incubator-mxnet",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:08:59.402517+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15481
+    },
+    {
+      "path": "requirements.txt",
+      "size": 58
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Deformable Convolutional Networks",
+    "fork": false,
+    "full_name": "msracver/Deformable-ConvNets",
+    "html_url": "https://github.com/msracver/Deformable-ConvNets",
+    "language": "Python",
+    "pushed_at": "2021-09-27T01:43:43Z",
+    "stargazers_count": 4118,
+    "topics": [],
+    "updated_at": "2026-04-29T12:54:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apache/incubator-mxnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bharatsingh430/deformable-convnets",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dmlc/mxnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "giorking/mx-rfcn",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

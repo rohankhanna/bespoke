@@ -1,0 +1,121 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "yizhongw/Tk-Instruct",
+      "target": "microsoft/deepspeed",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yizhongw/Tk-Instruct",
+      "target": "cross-task-generalization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yizhongw/Tk-Instruct",
+      "target": "few-shot-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yizhongw/Tk-Instruct",
+      "target": "instruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yizhongw/Tk-Instruct",
+      "target": "transformer-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yizhongw/Tk-Instruct",
+      "target": "zero-shot-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T12:55:52.117807+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6546
+    },
+    {
+      "path": "Dockerfile",
+      "size": 577
+    },
+    {
+      "path": "requirements.txt",
+      "size": 221
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Tk-Instruct is a Transformer model that is tuned to solve many NLP tasks by following instructions.",
+    "fork": false,
+    "full_name": "yizhongw/Tk-Instruct",
+    "html_url": "https://github.com/yizhongw/Tk-Instruct",
+    "language": "Python",
+    "pushed_at": "2022-10-28T18:57:08Z",
+    "stargazers_count": 184,
+    "topics": [
+      "cross-task-generalization",
+      "few-shot-learning",
+      "instruction",
+      "transformer-models",
+      "zero-shot-learning"
+    ],
+    "updated_at": "2026-02-13T12:39:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/deepspeed",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "- This repo releases our implementation for the Tk-Instruct model in the [Super-NaturalInstructions paper](https://arxiv.org/abs/2204.07705).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-task-generalization"
+    },
+    {
+      "context_snippet": "- This repo releases our implementation for the Tk-Instruct model in the [Super-NaturalInstructions paper](https://arxiv.org/abs/2204.07705).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "few-shot-learning"
+    },
+    {
+      "context_snippet": "- This repo releases our implementation for the Tk-Instruct model in the [Super-NaturalInstructions paper](https://arxiv.org/abs/2204.07705).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "instruction"
+    },
+    {
+      "context_snippet": "- This repo releases our implementation for the Tk-Instruct model in the [Super-NaturalInstructions paper](https://arxiv.org/abs/2204.07705).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer-models"
+    },
+    {
+      "context_snippet": "- This repo releases our implementation for the Tk-Instruct model in the [Super-NaturalInstructions paper](https://arxiv.org/abs/2204.07705).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zero-shot-learning"
+    }
+  ]
+}

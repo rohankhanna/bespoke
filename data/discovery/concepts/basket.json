@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "basket"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "smartstore/SmartStoreNET",
+      "status": "candidate-context",
+      "text": "Open Source ASP.NET MVC Enterprise eCommerce Shopping Cart Solution"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smartstore/SmartStoreNET",
+      "status": "candidate-context",
+      "text": "This repository is outdated and no longer being actively maintained by the Smartstore devs."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smartstore/SmartStoreNET",
+      "status": "candidate",
+      "text": "This repository is outdated and no longer being actively maintained by the Smartstore devs."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40045678,
+      "status": "candidate",
+      "text": "basketful"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40045664,
+      "status": "candidate",
+      "text": "handbasket"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040392,
+      "status": "candidate",
+      "text": "hoop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39838778,
+      "status": "candidate",
+      "text": "basketball hoop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39835771,
+      "status": "candidate",
+      "text": "field goal"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8046,
+      "status": "candidate",
+      "text": "hoop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1022,
+      "status": "candidate",
+      "text": "basketful"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1021,
+      "status": "candidate",
+      "text": "handbasket"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28,
+      "status": "candidate",
+      "text": "field goal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12,
+      "status": "candidate",
+      "text": "basketball hoop"
+    }
+  ],
+  "canonical_name": "basket",
+  "concept_id": "basket",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "smartstore/SmartStoreNET"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "basket",
+      "sense_id": "basket#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

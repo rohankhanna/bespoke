@@ -1,0 +1,363 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PKU-Alignment/safe-rlhf",
+      "target": "microsoft/deepspeedexamples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PKU-Alignment/safe-rlhf",
+      "target": "microsoft/deepspeed",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "PKU-Alignment/safe-rlhf",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "PKU-Alignment/safe-rlhf",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "PKU-Alignment/safe-rlhf",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PKU-Alignment/safe-rlhf",
+      "target": "ai-safety",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PKU-Alignment/safe-rlhf",
+      "target": "alpaca",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PKU-Alignment/safe-rlhf",
+      "target": "beaver",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PKU-Alignment/safe-rlhf",
+      "target": "datasets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PKU-Alignment/safe-rlhf",
+      "target": "deepspeed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PKU-Alignment/safe-rlhf",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PKU-Alignment/safe-rlhf",
+      "target": "llama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PKU-Alignment/safe-rlhf",
+      "target": "llms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PKU-Alignment/safe-rlhf",
+      "target": "reinforcement-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PKU-Alignment/safe-rlhf",
+      "target": "reinforcement-learning-from-human-feedback",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PKU-Alignment/safe-rlhf",
+      "target": "rlhf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PKU-Alignment/safe-rlhf",
+      "target": "safe-reinforcement-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PKU-Alignment/safe-rlhf",
+      "target": "safe-reinforcement-learning-from-human-feedback",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PKU-Alignment/safe-rlhf",
+      "target": "safe-rlhf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PKU-Alignment/safe-rlhf",
+      "target": "safety",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PKU-Alignment/safe-rlhf",
+      "target": "transformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PKU-Alignment/safe-rlhf",
+      "target": "transformers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PKU-Alignment/safe-rlhf",
+      "target": "vicuna",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:14:13.991763+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 26041
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2267
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 5292
+    },
+    {
+      "path": "requirements.txt",
+      "size": 158
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 1231
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Safe RLHF: Constrained Value Alignment via Safe Reinforcement Learning from Human Feedback",
+    "fork": false,
+    "full_name": "PKU-Alignment/safe-rlhf",
+    "html_url": "https://github.com/PKU-Alignment/safe-rlhf",
+    "language": "Python",
+    "pushed_at": "2025-11-24T04:07:51Z",
+    "stargazers_count": 1600,
+    "topics": [
+      "ai-safety",
+      "alpaca",
+      "beaver",
+      "datasets",
+      "deepspeed",
+      "gpt",
+      "large-language-models",
+      "llama",
+      "llm",
+      "llms",
+      "reinforcement-learning",
+      "reinforcement-learning-from-human-feedback",
+      "rlhf",
+      "safe-reinforcement-learning",
+      "safe-reinforcement-learning-from-human-feedback",
+      "safe-rlhf",
+      "safety",
+      "transformer",
+      "transformers",
+      "vicuna"
+    ],
+    "updated_at": "2026-04-29T09:58:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/deepspeed",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/deepspeedexamples",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable first-line-h1 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-safety"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable first-line-h1 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "alpaca"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable first-line-h1 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "beaver"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable first-line-h1 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "datasets"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable first-line-h1 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deepspeed"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable first-line-h1 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable first-line-h1 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable first-line-h1 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llms"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable first-line-h1 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reinforcement-learning"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable first-line-h1 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reinforcement-learning-from-human-feedback"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable first-line-h1 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rlhf"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable first-line-h1 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "safe-reinforcement-learning"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable first-line-h1 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "safe-reinforcement-learning-from-human-feedback"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable first-line-h1 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "safe-rlhf"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable first-line-h1 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "safety"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable first-line-h1 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable first-line-h1 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformers"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable first-line-h1 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vicuna"
+    }
+  ]
+}

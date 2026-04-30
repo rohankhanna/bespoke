@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Salesforce CLI "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This is an issue-only repository for Salesforce CLI. We monitor this repo for feedback from the community and we post proposals for CLI changes we're working on to see what you think. We also store the weekly release notes here."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This is an issue-only repository for Salesforce CLI. We monitor this repo for feedback from the community and we post proposals for CLI changes we're working on to see what you think. We also store the weekly release notes here."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "salesforce-cli",
+      "sense_id": "salesforce-cli#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "salesforce-cli",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "salesforce-cli",
+  "observation_id": "cf7b4e96c40ad6a7",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "salesforce-cli",
+  "source_context_snippet": "This is an issue-only repository for Salesforce CLI. We monitor this repo for feedback from the community and we post proposals for CLI changes we're working on to see what you think. We also store the weekly release notes here.",
+  "source_file": null,
+  "source_repo": "forcedotcom/cli",
+  "source_repo_description": "Salesforce CLI "
+}

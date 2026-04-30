@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Hazelcast Node.js Client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29842859,
+      "status": "candidate",
+      "text": "imo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29689750,
+      "status": "candidate",
+      "text": "omi"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19865791,
+      "status": "candidate",
+      "text": "gmdss"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19865790,
+      "status": "candidate",
+      "text": "msds"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19865789,
+      "status": "candidate",
+      "text": "ifsma"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "imdg",
+      "sense_id": "imdg#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "imdg",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "imdg",
+  "observation_id": "7dea1b50a4b5ad0b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "imdg",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "hazelcast/hazelcast-nodejs-client",
+  "source_repo_description": "Hazelcast Node.js Client"
+}

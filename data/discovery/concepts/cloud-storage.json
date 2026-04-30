@@ -43,6 +43,18 @@
       "source_repo": "quickwit-oss/quickwit",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/quickwit-oss/quickwit/actions/workflows/ci.yml/badge.svg)](https://github.com/quickwit-oss/quickwit/actions?query=workflow%3ACI+branch%3Amain)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rclone/rclone",
+      "status": "candidate-context",
+      "text": "\"rsync for cloud storage\" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Azure Blob, Azure Files, Yandex Files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rclone/rclone",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable-next-line first-line-heading no-inline-html -->"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "quickwit-oss/quickwit",
       "status": "candidate",
       "text": "[![CI](https://github.com/quickwit-oss/quickwit/actions/workflows/ci.yml/badge.svg)](https://github.com/quickwit-oss/quickwit/actions?query=workflow%3ACI+branch%3Amain)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rclone/rclone",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable-next-line first-line-heading no-inline-html -->"
     }
   ],
   "candidate_related_terms": [],
@@ -94,11 +112,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "quickwit-oss/quickwit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "googleapis/google-cloud-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "rclone/rclone"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

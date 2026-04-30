@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T14:51:52.843490+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8
+    },
+    {
+      "path": "go.mod",
+      "size": 43
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "lesismal/arpcex",
+    "html_url": "https://github.com/lesismal/arpcex",
+    "language": "Go",
+    "pushed_at": "2025-10-13T09:06:49Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2025-10-15T02:16:09Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

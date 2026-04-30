@@ -11,24 +11,24 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "instantX-research/InstantID",
-      "target": "ahgsql/styleselectorxl",
+      "target": "instantstyle/instantstyle",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "instantX-research/InstantID",
-      "target": "cubiq/comfyui_instantid",
+      "target": "instantx-research/instantid-rome",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "instantX-research/InstantID",
-      "target": "huxiuhan/comfyui-instantid",
+      "target": "sdbds/instantid-for-windows",
       "target_type": "repository"
     }
   ],
-  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "generated_at": "2026-04-30T12:45:20.475770+00:00",
   "source_repo": "instantX-research/InstantID"
 }

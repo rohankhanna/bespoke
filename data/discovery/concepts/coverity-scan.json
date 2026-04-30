@@ -152,6 +152,18 @@
       "source_repo": "uxlfoundation/oneTBB",
       "status": "candidate-context",
       "text": "Coverity Scan"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uxlfoundation/oneMath",
+      "status": "candidate-context",
+      "text": "oneAPI Math Library (oneMath)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/oneMath",
+      "status": "candidate-context",
+      "text": "Coverity Scan"
     }
   ],
   "candidate_glosses": [
@@ -224,6 +236,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "uxlfoundation/oneTBB",
+      "status": "candidate",
+      "text": "Coverity Scan"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/oneMath",
       "status": "candidate",
       "text": "Coverity Scan"
     }
@@ -383,11 +401,29 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/coverity-scan.yml",
       "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "uxlfoundation/oneMath"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/coverity-scan.yml",
+      "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "uxlfoundation/oneCCL"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

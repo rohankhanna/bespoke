@@ -1,0 +1,145 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yaml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_eval.yaml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_eval.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fixie-ai/evals",
+      "target": "openai/evals",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "fixie-ai/evals",
+      "target": "openai/evals",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yaml",
+      "source_repo": "fixie-ai/evals",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yaml",
+      "source_repo": "fixie-ai/evals",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run_tests.yaml",
+      "source_repo": "fixie-ai/evals",
+      "target": "Run unit tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_eval.yaml",
+      "source_repo": "fixie-ai/evals",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_eval.yaml",
+      "source_repo": "fixie-ai/evals",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_eval.yaml",
+      "source_repo": "fixie-ai/evals",
+      "target": "Run new evals",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T12:54:28.338896+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6626
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1612
+    },
+    {
+      "path": ".github/workflows/parse_yaml.py",
+      "size": 312
+    },
+    {
+      "path": ".github/workflows/run_tests.yaml",
+      "size": 683
+    },
+    {
+      "path": ".github/workflows/test_eval.yaml",
+      "size": 1569
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Evals is a framework for evaluating LLMs and LLM systems, and an open-source registry of benchmarks.",
+    "fork": true,
+    "full_name": "fixie-ai/evals",
+    "html_url": "https://github.com/fixie-ai/evals",
+    "language": "Python",
+    "pushed_at": "2026-03-24T23:22:05Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2026-03-22T22:50:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openai/evals",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openai/evals",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Run unit tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run_tests.yaml",
+      "term": "Run unit tests"
+    },
+    {
+      "context_snippet": "Run new evals",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_eval.yaml",
+      "term": "Run new evals"
+    }
+  ]
+}

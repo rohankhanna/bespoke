@@ -19,6 +19,18 @@
       "source_repo": "xinntao/HandyView",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anvaka/panzoom",
+      "status": "candidate-context",
+      "text": "Universal pan and zoom library (DOM, SVG, Custom)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anvaka/panzoom",
+      "status": "candidate-context",
+      "text": "Extensible, mobile friendly pan and zoom framework (supports DOM and SVG)."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "xinntao/HandyView",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anvaka/panzoom",
+      "status": "candidate",
+      "text": "Extensible, mobile friendly pan and zoom framework (supports DOM and SVG)."
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "xinntao/HandyView"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "anvaka/panzoom"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

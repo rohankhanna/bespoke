@@ -1,0 +1,653 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "DavidAnson/markdownlint-cli2-action@v20",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_publish_docker_image.yml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_publish_docker_image.yml"
+    },
+    {
+      "component": "docker/metadata-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_publish_docker_image.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_publish_docker_image.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_publish_docker_image.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_publish_docker_image.yml"
+    },
+    {
+      "component": "reproducible-containers/buildkit-cache-dance@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_publish_docker_image.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_publish_docker_image.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_publish_docker_image.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_publish_docker_image.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_publish_docker_image.yml"
+    },
+    {
+      "component": "docker/metadata-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_publish_docker_image.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_publish_docker_image.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_publish_docker_image.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_publish_docker_image.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_publish_docker_plugin.yml"
+    },
+    {
+      "component": "jenschelkopf/issue-label-notification-action@1.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notify.yml"
+    },
+    {
+      "component": "vedantmgoyal2009/winget-releaser@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/winget.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "rclone/rclone",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "rclone/rclone",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "rclone/rclone",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "rclone/rclone",
+      "target": "golangci/golangci-lint-action@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "rclone/rclone",
+      "target": "DavidAnson/markdownlint-cli2-action@v20",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "rclone/rclone",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_publish_docker_image.yml",
+      "source_repo": "rclone/rclone",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_publish_docker_image.yml",
+      "source_repo": "rclone/rclone",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_publish_docker_image.yml",
+      "source_repo": "rclone/rclone",
+      "target": "docker/metadata-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_publish_docker_image.yml",
+      "source_repo": "rclone/rclone",
+      "target": "docker/setup-qemu-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_publish_docker_image.yml",
+      "source_repo": "rclone/rclone",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_publish_docker_image.yml",
+      "source_repo": "rclone/rclone",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_publish_docker_image.yml",
+      "source_repo": "rclone/rclone",
+      "target": "reproducible-containers/buildkit-cache-dance@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_publish_docker_image.yml",
+      "source_repo": "rclone/rclone",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_publish_docker_image.yml",
+      "source_repo": "rclone/rclone",
+      "target": "docker/build-push-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_publish_docker_image.yml",
+      "source_repo": "rclone/rclone",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_publish_docker_image.yml",
+      "source_repo": "rclone/rclone",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_publish_docker_image.yml",
+      "source_repo": "rclone/rclone",
+      "target": "Build & Push Docker Images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_publish_docker_plugin.yml",
+      "source_repo": "rclone/rclone",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_publish_docker_plugin.yml",
+      "source_repo": "rclone/rclone",
+      "target": "Release Build for Docker Plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notify.yml",
+      "source_repo": "rclone/rclone",
+      "target": "jenschelkopf/issue-label-notification-action@1.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/notify.yml",
+      "source_repo": "rclone/rclone",
+      "target": "Notify users based on issue labels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/winget.yml",
+      "source_repo": "rclone/rclone",
+      "target": "vedantmgoyal2009/winget-releaser@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/winget.yml",
+      "source_repo": "rclone/rclone",
+      "target": "Publish to Winget",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rclone/rclone",
+      "target": "azure-blob",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rclone/rclone",
+      "target": "azure-blob-storage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rclone/rclone",
+      "target": "azure-files",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rclone/rclone",
+      "target": "backblaze-b2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rclone/rclone",
+      "target": "cloud-storage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rclone/rclone",
+      "target": "dropbox",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rclone/rclone",
+      "target": "encryption",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rclone/rclone",
+      "target": "fuse-filesystem",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rclone/rclone",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rclone/rclone",
+      "target": "google-cloud-storage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rclone/rclone",
+      "target": "google-drive",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rclone/rclone",
+      "target": "onedrive",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rclone/rclone",
+      "target": "openstack-swift",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rclone/rclone",
+      "target": "rclone",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rclone/rclone",
+      "target": "sftp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rclone/rclone",
+      "target": "sync",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rclone/rclone",
+      "target": "webdav",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:58:49.370072+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11352
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1182
+    },
+    {
+      "path": "go.mod",
+      "size": 13855
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 14006
+    },
+    {
+      "path": ".github/workflows/build_publish_docker_image.yml",
+      "size": 10501
+    },
+    {
+      "path": ".github/workflows/build_publish_docker_plugin.yml",
+      "size": 1606
+    },
+    {
+      "path": ".github/workflows/notify.yml",
+      "size": 379
+    },
+    {
+      "path": ".github/workflows/winget.yml",
+      "size": 342
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\"rsync for cloud storage\" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Azure Blob, Azure Files, Yandex Files",
+    "fork": false,
+    "full_name": "rclone/rclone",
+    "html_url": "https://github.com/rclone/rclone",
+    "language": "Go",
+    "pushed_at": "2026-04-30T15:10:01Z",
+    "stargazers_count": 56944,
+    "topics": [
+      "azure-blob",
+      "azure-blob-storage",
+      "azure-files",
+      "backblaze-b2",
+      "cloud-storage",
+      "dropbox",
+      "encryption",
+      "ftp",
+      "fuse-filesystem",
+      "go",
+      "golang",
+      "google-cloud-storage",
+      "google-drive",
+      "onedrive",
+      "openstack-swift",
+      "rclone",
+      "s3",
+      "sftp",
+      "sync",
+      "webdav"
+    ],
+    "updated_at": "2026-04-30T15:30:02Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "Build & Push Docker Images",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_publish_docker_image.yml",
+      "term": "Build & Push Docker Images"
+    },
+    {
+      "context_snippet": "Release Build for Docker Plugin",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_publish_docker_plugin.yml",
+      "term": "Release Build for Docker Plugin"
+    },
+    {
+      "context_snippet": "Notify users based on issue labels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/notify.yml",
+      "term": "Notify users based on issue labels"
+    },
+    {
+      "context_snippet": "Publish to Winget",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/winget.yml",
+      "term": "Publish to Winget"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable-next-line first-line-heading no-inline-html -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "azure-blob"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable-next-line first-line-heading no-inline-html -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "azure-blob-storage"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable-next-line first-line-heading no-inline-html -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "azure-files"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable-next-line first-line-heading no-inline-html -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "backblaze-b2"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable-next-line first-line-heading no-inline-html -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloud-storage"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable-next-line first-line-heading no-inline-html -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dropbox"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable-next-line first-line-heading no-inline-html -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "encryption"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable-next-line first-line-heading no-inline-html -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fuse-filesystem"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable-next-line first-line-heading no-inline-html -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable-next-line first-line-heading no-inline-html -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google-cloud-storage"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable-next-line first-line-heading no-inline-html -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google-drive"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable-next-line first-line-heading no-inline-html -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "onedrive"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable-next-line first-line-heading no-inline-html -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openstack-swift"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable-next-line first-line-heading no-inline-html -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rclone"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable-next-line first-line-heading no-inline-html -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sftp"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable-next-line first-line-heading no-inline-html -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sync"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable-next-line first-line-heading no-inline-html -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webdav"
+    }
+  ]
+}

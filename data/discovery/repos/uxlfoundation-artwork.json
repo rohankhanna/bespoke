@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T16:10:45.183729+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5384
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "source files for UXL Logo + Brand Assets",
+    "fork": false,
+    "full_name": "uxlfoundation/artwork",
+    "html_url": "https://github.com/uxlfoundation/artwork",
+    "language": null,
+    "pushed_at": "2024-05-08T14:01:44Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2025-02-02T16:43:21Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

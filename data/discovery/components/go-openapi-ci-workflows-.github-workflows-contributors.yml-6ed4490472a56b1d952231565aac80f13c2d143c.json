@@ -1,0 +1,17 @@
+{
+  "component": "go-openapi/ci-workflows/.github/workflows/contributors.yml@6ed4490472a56b1d952231565aac80f13c2d143c",
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/contributors.yml",
+      "source_repo": "go-openapi/strfmt"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/contributors.yml",
+      "source_repo": "go-openapi/swag"
+    }
+  ]
+}

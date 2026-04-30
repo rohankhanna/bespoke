@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Cargo LLVM Lines"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oxc-project/oxc",
+      "status": "candidate-context",
+      "text": "\u2693 A collection of high-performance JavaScript tools."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oxc-project/oxc",
+      "status": "candidate-context",
+      "text": "Cargo LLVM Lines"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oxc-project/oxc",
+      "status": "candidate",
+      "text": "Cargo LLVM Lines"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28174,
+      "status": "candidate",
+      "text": "winch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11787,
+      "status": "candidate",
+      "text": "box"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11787,
+      "status": "candidate",
+      "text": "charge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11787,
+      "status": "candidate",
+      "text": "charged"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11787,
+      "status": "candidate",
+      "text": "charging"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Cargo LLVM Lines",
+  "concept_id": "cargo-llvm-lines",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/cargo_llvm_lines.yml",
+      "source_repo": "oxc-project/oxc"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Cargo LLVM Lines",
+      "sense_id": "cargo-llvm-lines#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

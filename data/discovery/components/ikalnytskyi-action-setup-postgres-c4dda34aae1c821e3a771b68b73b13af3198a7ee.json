@@ -1,0 +1,12 @@
+{
+  "component": "ikalnytskyi/action-setup-postgres@c4dda34aae1c821e3a771b68b73b13af3198a7ee",
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/run-unit-tests-macos.yml",
+      "source_repo": "aboutcode-org/scancode.io"
+    }
+  ]
+}

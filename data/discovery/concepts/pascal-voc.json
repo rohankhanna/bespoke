@@ -19,6 +19,18 @@
       "source_repo": "Cartucho/mAP",
       "status": "candidate-context",
       "text": "[![GitHub stars](https://img.shields.io/github/stars/Cartucho/mAP.svg?style=social&label=Stars)](https://github.com/Cartucho/mAP)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apple/ml-cvnets",
+      "status": "candidate-context",
+      "text": "CVNets: A library for training computer vision networks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/ml-cvnets",
+      "status": "candidate-context",
+      "text": "CVNets is a computer vision toolkit that allows researchers and engineers to train standard and novel mobile-"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "Cartucho/mAP",
       "status": "candidate",
       "text": "[![GitHub stars](https://img.shields.io/github/stars/Cartucho/mAP.svg?style=social&label=Stars)](https://github.com/Cartucho/mAP)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/ml-cvnets",
+      "status": "candidate",
+      "text": "CVNets is a computer vision toolkit that allows researchers and engineers to train standard and novel mobile-"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "Cartucho/mAP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "apple/ml-cvnets"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,7 +1,7 @@
 {
   "component": "PyO3/maturin-action@04ac600d27cdf7a9a280dadf7147097c42b757ad",
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

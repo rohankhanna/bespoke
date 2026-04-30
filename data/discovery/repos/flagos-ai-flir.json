@@ -1,0 +1,108 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-format-check.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-format-check.yml"
+    },
+    {
+      "component": "pre-commit/action@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-format-check.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "flagos-ai/flir",
+      "target": "microsoft/triton-shared",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "flagos-ai/flir",
+      "target": "flagtree/flagtree",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-format-check.yml",
+      "source_repo": "flagos-ai/flir",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-format-check.yml",
+      "source_repo": "flagos-ai/flir",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-format-check.yml",
+      "source_repo": "flagos-ai/flir",
+      "target": "pre-commit/action@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-format-check.yml",
+      "source_repo": "flagos-ai/flir",
+      "target": "Code-Format-Check",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:58:36.500091+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 365
+    },
+    {
+      "path": ".github/workflows/code-format-check.yml",
+      "size": 474
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "FlagTree IR is forked from microsoft/triton-shared, which is a Shared Middle-Layer for Triton Compilation. It is used for FlagTree.",
+    "fork": false,
+    "full_name": "flagos-ai/flir",
+    "html_url": "https://github.com/flagos-ai/flir",
+    "language": "MLIR",
+    "pushed_at": "2026-04-21T01:25:02Z",
+    "stargazers_count": 9,
+    "topics": [],
+    "updated_at": "2026-04-21T01:25:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "flagtree/flagtree",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/triton-shared",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Code-Format-Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-format-check.yml",
+      "term": "Code-Format-Check"
+    }
+  ]
+}

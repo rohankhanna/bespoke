@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T15:55:58.508189+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4372
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "EGL API and Extension Registry",
+    "fork": false,
+    "full_name": "KhronosGroup/EGL-Registry",
+    "html_url": "https://github.com/KhronosGroup/EGL-Registry",
+    "language": "HTML",
+    "pushed_at": "2026-03-19T05:24:57Z",
+    "stargazers_count": 147,
+    "topics": [],
+    "updated_at": "2026-03-31T02:52:50Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

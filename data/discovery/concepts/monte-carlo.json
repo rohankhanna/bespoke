@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "monte-carlo"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SabakiHQ/deadstones",
+      "status": "candidate-context",
+      "text": "Simple Monte Carlo algorithm to determine dead stones on a Go board."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SabakiHQ/deadstones",
+      "status": "candidate-context",
+      "text": "Simple Monte Carlo algorithm to determine dead stones on a Go board."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SabakiHQ/deadstones",
+      "status": "candidate",
+      "text": "Simple Monte Carlo algorithm to determine dead stones on a Go board."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "monte-carlo",
+  "concept_id": "monte-carlo",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "SabakiHQ/deadstones"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "monte-carlo",
+      "sense_id": "monte-carlo#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

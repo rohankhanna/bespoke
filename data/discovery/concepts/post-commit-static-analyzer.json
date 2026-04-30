@@ -19,12 +19,30 @@
       "source_repo": "espressif/llvm-project",
       "status": "candidate-context",
       "text": "Post-Commit Static Analyzer"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flagos-ai/llvm-project",
+      "status": "candidate-context",
+      "text": "Forked from llvm/llvm-project."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flagos-ai/llvm-project",
+      "status": "candidate-context",
+      "text": "Post-Commit Static Analyzer"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "espressif/llvm-project",
+      "status": "candidate",
+      "text": "Post-Commit Static Analyzer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flagos-ai/llvm-project",
       "status": "candidate",
       "text": "Post-Commit Static Analyzer"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/ci-post-commit-analyzer.yml",
       "source_repo": "espressif/llvm-project"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/ci-post-commit-analyzer.yml",
+      "source_repo": "flagos-ai/llvm-project"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

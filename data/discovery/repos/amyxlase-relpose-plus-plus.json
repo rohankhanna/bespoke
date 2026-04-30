@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T13:08:37.181154+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3461
+    },
+    {
+      "path": "requirements.txt",
+      "size": 188
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Code Release for RelPose++: Recovering 6D Poses from Sparse-view Observations",
+    "fork": false,
+    "full_name": "amyxlase/relpose-plus-plus",
+    "html_url": "https://github.com/amyxlase/relpose-plus-plus",
+    "language": "Python",
+    "pushed_at": "2024-02-20T17:57:50Z",
+    "stargazers_count": 238,
+    "topics": [],
+    "updated_at": "2026-04-09T14:56:25Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

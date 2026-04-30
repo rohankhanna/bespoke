@@ -1,0 +1,17 @@
+{
+  "component": "cypress-io/github-action@108b8684ae52e735ff7891524cbffbcd4be5b19f",
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e-applitools.yml",
+      "source_repo": "mermaid-js/mermaid"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e-timings.yml",
+      "source_repo": "mermaid-js/mermaid"
+    }
+  ]
+}

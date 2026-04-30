@@ -163,6 +163,18 @@
       "source_repo": "NVlabs/PWC-Net",
       "status": "candidate-context",
       "text": "[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://raw.githubusercontent.com/NVIDIA/FastPhotoStyle/master/LICENSE.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "peteanderson80/bottom-up-attention",
+      "status": "candidate-context",
+      "text": "Bottom-up attention model for image captioning and VQA, based on Faster R-CNN and Visual Genome"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "peteanderson80/bottom-up-attention",
+      "status": "candidate-context",
+      "text": "This code implements a bottom-up attention model, based on multi-gpu training of Faster R-CNN with ResNet-101, using object and attribute annotations from [Visual Genome](http://visualgenome.org/)."
     }
   ],
   "candidate_glosses": [
@@ -243,6 +255,12 @@
       "source_repo": "NVlabs/PWC-Net",
       "status": "candidate",
       "text": "[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://raw.githubusercontent.com/NVIDIA/FastPhotoStyle/master/LICENSE.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "peteanderson80/bottom-up-attention",
+      "status": "candidate",
+      "text": "This code implements a bottom-up attention model, based on multi-gpu training of Faster R-CNN with ResNet-101, using object and attribute annotations from [Visual Genome](http://visualgenome.org/)."
     }
   ],
   "candidate_related_terms": [
@@ -364,11 +382,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "NVlabs/PWC-Net"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "peteanderson80/bottom-up-attention"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

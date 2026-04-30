@@ -106,6 +106,18 @@
       "source_repo": "jbikker/lighthouse2",
       "status": "candidate-context",
       "text": "Lighthouse 2 framework for real-time ray tracing"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "linebender/resvg",
+      "status": "candidate-context",
+      "text": "An SVG rendering library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "linebender/resvg",
+      "status": "candidate-context",
+      "text": "![Build Status](https://github.com/linebender/resvg/workflows/Build/badge.svg)"
     }
   ],
   "candidate_glosses": [
@@ -156,6 +168,12 @@
       "source_repo": "jbikker/lighthouse2",
       "status": "candidate",
       "text": "Lighthouse 2 framework for real-time ray tracing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "linebender/resvg",
+      "status": "candidate",
+      "text": "![Build Status](https://github.com/linebender/resvg/workflows/Build/badge.svg)"
     }
   ],
   "candidate_related_terms": [
@@ -289,11 +307,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "jbikker/lighthouse2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "linebender/resvg"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

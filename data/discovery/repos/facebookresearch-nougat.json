@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/nougat",
+      "target": "mathpix/mathpix-markdown-it",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/nougat",
+      "target": "allenai/pdffigures2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/nougat",
+      "target": "clovaai/donut",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:13:00.564669+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7995
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Implementation of Nougat Neural Optical Understanding for Academic Documents",
+    "fork": false,
+    "full_name": "facebookresearch/nougat",
+    "html_url": "https://github.com/facebookresearch/nougat",
+    "language": "Python",
+    "pushed_at": "2025-02-21T16:38:00Z",
+    "stargazers_count": 9940,
+    "topics": [],
+    "updated_at": "2026-04-29T05:11:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "allenai/pdffigures2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clovaai/donut",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mathpix/mathpix-markdown-it",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -527,6 +527,54 @@
       "source_repo": "bridgecrewio/checkov",
       "status": "candidate-context",
       "text": "[![checkov](https://raw.githubusercontent.com/bridgecrewio/checkov/main/docs/web/images/checkov_blue_logo.png)](#)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "guzzle/guzzle",
+      "status": "candidate-context",
+      "text": "Guzzle, an extensible PHP HTTP client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "guzzle/guzzle",
+      "status": "candidate-context",
+      "text": "Static analysis"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aviatesk/JET.jl",
+      "status": "candidate-context",
+      "text": "A code analyzer for Julia. No need for additional type annotations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aviatesk/JET.jl",
+      "status": "candidate-context",
+      "text": "[![](https://img.shields.io/badge/docs-latest-blue.svg)](https://aviatesk.github.io/JET.jl/dev/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebook/pyre-check",
+      "status": "candidate-context",
+      "text": "Performant type-checking for python."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/pyre-check",
+      "status": "candidate-context",
+      "text": "[![tests](https://github.com/facebook/pyre-check/workflows/tests/badge.svg)](https://github.com/facebook/pyre-check/actions/workflows/tests.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "symfony/symfony",
+      "status": "candidate-context",
+      "text": "The Symfony PHP framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "symfony/symfony",
+      "status": "candidate-context",
+      "text": "Static Analysis"
     }
   ],
   "candidate_glosses": [
@@ -781,6 +829,30 @@
       "source_repo": "bridgecrewio/checkov",
       "status": "candidate",
       "text": "[![checkov](https://raw.githubusercontent.com/bridgecrewio/checkov/main/docs/web/images/checkov_blue_logo.png)](#)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "guzzle/guzzle",
+      "status": "candidate",
+      "text": "Static analysis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aviatesk/JET.jl",
+      "status": "candidate",
+      "text": "[![](https://img.shields.io/badge/docs-latest-blue.svg)](https://aviatesk.github.io/JET.jl/dev/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/pyre-check",
+      "status": "candidate",
+      "text": "[![tests](https://github.com/facebook/pyre-check/workflows/tests/badge.svg)](https://github.com/facebook/pyre-check/actions/workflows/tests.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "symfony/symfony",
+      "status": "candidate",
+      "text": "Static Analysis"
     }
   ],
   "candidate_related_terms": [
@@ -1154,11 +1226,59 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "detekt/detekt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/static.yml",
+      "source_repo": "guzzle/guzzle"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "aviatesk/JET.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "clj-kondo/clj-kondo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "astral-sh/ruff"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "facebook/pyre-check"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "detekt/detekt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/static-analysis.yml",
+      "source_repo": "symfony/symfony"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

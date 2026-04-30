@@ -1,11 +1,21 @@
 {
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/acfs-checksums-dispatch.yml",
       "source_repo": "Dicklesworthstone/beads_viewer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/acfs-checksums-dispatch.yml",
+      "source_repo": "Dicklesworthstone/mcp_agent_mail"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/acfs-checksums-dispatch.yml",
+      "source_repo": "Dicklesworthstone/coding_agent_session_search"
     }
   ],
   "term": "Notify ACFS checksum monitor"

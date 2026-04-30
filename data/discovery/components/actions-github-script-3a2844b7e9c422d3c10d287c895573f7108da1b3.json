@@ -1,7 +1,7 @@
 {
   "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
   "first_seen_at": "2026-04-18T04:44:33.621188+00:00",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -577,6 +577,36 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/publish-mix-hex-release.yml",
       "source_repo": "open-telemetry/opentelemetry-erlang-contrib"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/assign.yaml",
+      "source_repo": "go-logr/zapr"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/needs-reproduction.yml",
+      "source_repo": "rolldown/tsdown"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependabot_automerge.yml",
+      "source_repo": "Shopify/ruby-lsp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release_extension.yml",
+      "source_repo": "Shopify/ruby-lsp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release_gem.yml",
+      "source_repo": "Shopify/ruby-lsp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check_generated_vrl_docs_comment.yml",
+      "source_repo": "vectordotdev/vector"
     }
   ]
 }

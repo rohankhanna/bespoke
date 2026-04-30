@@ -1,0 +1,137 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clojure-goes-fast/clj-java-decompiler",
+      "target": "mstrobel/procyon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clojure-goes-fast/clj-java-decompiler",
+      "target": "bsless/clj-decompiler.el",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clojure-goes-fast/clj-java-decompiler",
+      "target": "gtrak/no.disassemble",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clojure-goes-fast/clj-java-decompiler",
+      "target": "bytecode",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clojure-goes-fast/clj-java-decompiler",
+      "target": "clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clojure-goes-fast/clj-java-decompiler",
+      "target": "decompiler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clojure-goes-fast/clj-java-decompiler",
+      "target": "disassembly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clojure-goes-fast/clj-java-decompiler",
+      "target": "java",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:55:33.787664+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7127
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "REPL-integrated Clojure-to-Java decompiler",
+    "fork": false,
+    "full_name": "clojure-goes-fast/clj-java-decompiler",
+    "html_url": "https://github.com/clojure-goes-fast/clj-java-decompiler",
+    "language": "Clojure",
+    "pushed_at": "2025-09-29T07:13:38Z",
+    "stargazers_count": 285,
+    "topics": [
+      "bytecode",
+      "clojure",
+      "decompiler",
+      "disassembly",
+      "java"
+    ],
+    "updated_at": "2026-03-26T11:35:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bsless/clj-decompiler.el",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gtrak/no.disassemble",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mstrobel/procyon",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "_You can read the motivation behind clj-java-decompiler and the usage example in",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bytecode"
+    },
+    {
+      "context_snippet": "_You can read the motivation behind clj-java-decompiler and the usage example in",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    },
+    {
+      "context_snippet": "_You can read the motivation behind clj-java-decompiler and the usage example in",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "decompiler"
+    },
+    {
+      "context_snippet": "_You can read the motivation behind clj-java-decompiler and the usage example in",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "disassembly"
+    },
+    {
+      "context_snippet": "_You can read the motivation behind clj-java-decompiler and the usage example in",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    }
+  ]
+}

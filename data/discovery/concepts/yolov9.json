@@ -43,6 +43,18 @@
       "source_repo": "Linaom1214/TensorRT-For-YOLO-Series",
       "status": "candidate-context",
       "text": "[YOLOv11, YOLOV12](https://docs.ultralytics.com/)\u3001[YOLOv10](https://github.com/THU-MIG/yolov10)\u3001[YOLOv9](https://github.com/WongKinYiu/yolov9)\u3001[YOLOv8](https://v8docs.ultralytics.com/)\u3001[YOLOv7](https://github.com/WongKinYiu/yolov7)\u3001[YOLOv6](https://github.com/meituan/YOLOv6)\u3001 [Y\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "WongKinYiu/yolov9",
+      "status": "candidate-context",
+      "text": "Implementation of paper - YOLOv9: Learning What You Want to Learn Using Programmable Gradient Information"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WongKinYiu/yolov9",
+      "status": "candidate-context",
+      "text": "Implementation of paper - [YOLOv9: Learning What You Want to Learn Using Programmable Gradient Information](https://arxiv.org/abs/2402.13616)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "Linaom1214/TensorRT-For-YOLO-Series",
       "status": "candidate",
       "text": "[YOLOv11, YOLOV12](https://docs.ultralytics.com/)\u3001[YOLOv10](https://github.com/THU-MIG/yolov10)\u3001[YOLOv9](https://github.com/WongKinYiu/yolov9)\u3001[YOLOv8](https://v8docs.ultralytics.com/)\u3001[YOLOv7](https://github.com/WongKinYiu/yolov7)\u3001[YOLOv6](https://github.com/meituan/YOLOv6)\u3001 [Y\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WongKinYiu/yolov9",
+      "status": "candidate",
+      "text": "Implementation of paper - [YOLOv9: Learning What You Want to Learn Using Programmable Gradient Information](https://arxiv.org/abs/2402.13616)"
     }
   ],
   "candidate_related_terms": [],
@@ -94,11 +112,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "Linaom1214/TensorRT-For-YOLO-Series"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "WongKinYiu/yolov9"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

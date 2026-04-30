@@ -177,6 +177,36 @@
       "source_repo": "swagger-api/validator-badge",
       "status": "candidate-context",
       "text": "Prepare Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tweag/rules_haskell",
+      "status": "candidate-context",
+      "text": "Haskell rules for Bazel."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tweag/rules_haskell",
+      "status": "candidate-context",
+      "text": "Prepare Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swagger-api/swagger-core",
+      "status": "candidate-context",
+      "text": "Examples and server integrations for generating the Swagger API Specification, which enables easy access to your REST API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/swagger-core",
+      "status": "candidate-context",
+      "text": "Prepare Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/swagger-inflector",
+      "status": "candidate-context",
+      "text": "Prepare Release"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +291,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "swagger-api/validator-badge",
+      "status": "candidate",
+      "text": "Prepare Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tweag/rules_haskell",
+      "status": "candidate",
+      "text": "Prepare Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/swagger-core",
+      "status": "candidate",
+      "text": "Prepare Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/swagger-inflector",
       "status": "candidate",
       "text": "Prepare Release"
     }
@@ -396,11 +444,29 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/prepare-release.yml",
       "source_repo": "swagger-api/validator-badge"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/prepare-release.yaml",
+      "source_repo": "tweag/rules_haskell"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/prepare-release.yml",
+      "source_repo": "swagger-api/swagger-core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/prepare-release.yml",
+      "source_repo": "swagger-api/swagger-inflector"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

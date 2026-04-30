@@ -1,0 +1,237 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "stretchr/testify",
+      "target": "antonboom/testifylint",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "go.mod",
+      "source_repo": "stretchr/testify",
+      "target": "stretchr/objx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "stretchr/testify",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "stretchr/testify",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "stretchr/testify",
+      "target": "All builds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "stretchr/testify",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "stretchr/testify",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "stretchr/testify",
+      "target": "Create release from new tag",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stretchr/testify",
+      "target": "assertions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stretchr/testify",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stretchr/testify",
+      "target": "mocking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stretchr/testify",
+      "target": "testify",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stretchr/testify",
+      "target": "testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stretchr/testify",
+      "target": "toolkit",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:09:56.227627+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12099
+    },
+    {
+      "path": "go.mod",
+      "size": 425
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 966
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 460
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A toolkit with common assertions and mocks that plays nicely with the standard library",
+    "fork": false,
+    "full_name": "stretchr/testify",
+    "html_url": "https://github.com/stretchr/testify",
+    "language": "Go",
+    "pushed_at": "2026-04-08T17:29:08Z",
+    "stargazers_count": 25969,
+    "topics": [
+      "assertions",
+      "go",
+      "golang",
+      "mocking",
+      "testify",
+      "testing",
+      "toolkit"
+    ],
+    "updated_at": "2026-04-30T10:13:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "antonboom/testifylint",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stretchr/objx",
+      "source_file": "go.mod"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "All builds",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "All builds"
+    },
+    {
+      "context_snippet": "Create release from new tag",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Create release from new tag"
+    },
+    {
+      "context_snippet": "Testify - Thou Shalt Write Tests",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "assertions"
+    },
+    {
+      "context_snippet": "Testify - Thou Shalt Write Tests",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "Testify - Thou Shalt Write Tests",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mocking"
+    },
+    {
+      "context_snippet": "Testify - Thou Shalt Write Tests",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testify"
+    },
+    {
+      "context_snippet": "Testify - Thou Shalt Write Tests",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testing"
+    },
+    {
+      "context_snippet": "Testify - Thou Shalt Write Tests",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "toolkit"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "raja"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "llnl/RAJA",
+      "status": "candidate-context",
+      "text": "RAJA Performance Portability Layer (C++)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "llnl/RAJA",
+      "status": "candidate-context",
+      "text": "[comment]: # (#################################################################)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "llnl/RAJA",
+      "status": "candidate",
+      "text": "[comment]: # (#################################################################)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39885618,
+      "status": "candidate",
+      "text": "rajah"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29904580,
+      "status": "candidate",
+      "text": "genus raja"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29887313,
+      "status": "candidate",
+      "text": "yoga"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29882748,
+      "status": "candidate",
+      "text": "deva"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29715764,
+      "status": "candidate",
+      "text": "please"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3031,
+      "status": "candidate",
+      "text": "rajah"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8,
+      "status": "candidate",
+      "text": "genus raja"
+    }
+  ],
+  "canonical_name": "raja",
+  "concept_id": "raja",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "llnl/RAJA"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "raja",
+      "sense_id": "raja#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

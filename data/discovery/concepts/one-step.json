@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "one-step"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aim-uofa/GenPercept",
+      "status": "candidate-context",
+      "text": "[ICLR2025] GenPercept: Diffusion Models Trained with Large Data Are Transferable Visual Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aim-uofa/GenPercept",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aim-uofa/GenPercept",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29768499,
+      "status": "candidate",
+      "text": "stage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29765981,
+      "status": "candidate",
+      "text": "step"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29643114,
+      "status": "candidate",
+      "text": "only"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19905606,
+      "status": "candidate",
+      "text": "two-step"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19905605,
+      "status": "candidate",
+      "text": "ballroom"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "one-step",
+  "concept_id": "one-step",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "aim-uofa/GenPercept"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "one-step",
+      "sense_id": "one-step#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

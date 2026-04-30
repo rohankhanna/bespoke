@@ -1,0 +1,27 @@
+{
+  "component": "hmarr/debug-action@v3.0.0",
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/apply-linters.yml",
+      "source_repo": "HumanSignal/label-studio"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bandit.yml",
+      "source_repo": "HumanSignal/label-studio"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/biome.yml",
+      "source_repo": "HumanSignal/label-studio"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_pypi.yml",
+      "source_repo": "HumanSignal/label-studio"
+    }
+  ]
+}

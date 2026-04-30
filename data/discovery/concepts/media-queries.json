@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "media-queries"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ItsWendell/emotion-native-extended",
+      "status": "candidate-context",
+      "text": "Better styling support for Emotion (React Native): Media queries, relative units, percents, operations and more..."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ItsWendell/emotion-native-extended",
+      "status": "candidate-context",
+      "text": "![npm](https://img.shields.io/npm/v/emotion-native-extended?style=flat-square)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ItsWendell/emotion-native-extended",
+      "status": "candidate",
+      "text": "![npm](https://img.shields.io/npm/v/emotion-native-extended?style=flat-square)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "media-queries",
+  "concept_id": "media-queries",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ItsWendell/emotion-native-extended"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "media-queries",
+      "sense_id": "media-queries#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

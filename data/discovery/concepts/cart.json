@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "cart"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "smartstore/SmartStoreNET",
+      "status": "candidate-context",
+      "text": "Open Source ASP.NET MVC Enterprise eCommerce Shopping Cart Solution"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smartstore/SmartStoreNET",
+      "status": "candidate-context",
+      "text": "This repository is outdated and no longer being actively maintained by the Smartstore devs."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smartstore/SmartStoreNET",
+      "status": "candidate",
+      "text": "This repository is outdated and no longer being actively maintained by the Smartstore devs."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40039238,
+      "status": "candidate",
+      "text": "handcart"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40039231,
+      "status": "candidate",
+      "text": "pushcart"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40034066,
+      "status": "candidate",
+      "text": "go-cart"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012465,
+      "status": "candidate",
+      "text": "haul"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39944953,
+      "status": "candidate",
+      "text": "drag"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26075,
+      "status": "candidate",
+      "text": "drag"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11041,
+      "status": "candidate",
+      "text": "haul"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1032,
+      "status": "candidate",
+      "text": "handcart"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1023,
+      "status": "candidate",
+      "text": "pushcart"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24,
+      "status": "candidate",
+      "text": "go-cart"
+    }
+  ],
+  "canonical_name": "cart",
+  "concept_id": "cart",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "smartstore/SmartStoreNET"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cart",
+      "sense_id": "cart#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

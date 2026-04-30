@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "gnews"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ranahaani/GNews",
+      "status": "candidate-context",
+      "text": "A Happy and lightweight Python Package that Provides an API to search for articles on Google News and returns a JSON response."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ranahaani/GNews",
+      "status": "candidate-context",
+      "text": "[![Contributors][contributors-shield]][contributors-url]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ranahaani/GNews",
+      "status": "candidate",
+      "text": "[![Contributors][contributors-shield]][contributors-url]"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9832334,
+      "status": "candidate",
+      "text": "established"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9784133,
+      "status": "candidate",
+      "text": "familiar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9761373,
+      "status": "candidate",
+      "text": "old"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9749234,
+      "status": "candidate",
+      "text": "customary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9686916,
+      "status": "candidate",
+      "text": "traditional"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "gnews",
+  "concept_id": "gnews",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ranahaani/GNews"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "gnews",
+      "sense_id": "gnews#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,172 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/misspell.yml"
+    },
+    {
+      "component": "sobolevn/misspell-fixer-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/misspell.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v2.4.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/misspell.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/misspell.yml",
+      "source_repo": "sobolevn/misspell-fixer-action",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/misspell.yml",
+      "source_repo": "sobolevn/misspell-fixer-action",
+      "target": "sobolevn/misspell-fixer-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/misspell.yml",
+      "source_repo": "sobolevn/misspell-fixer-action",
+      "target": "peter-evans/create-pull-request@v2.4.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/misspell.yml",
+      "source_repo": "sobolevn/misspell-fixer-action",
+      "target": "misspell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sobolevn/misspell-fixer-action",
+      "target": "github-action",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sobolevn/misspell-fixer-action",
+      "target": "github-action-localizstion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sobolevn/misspell-fixer-action",
+      "target": "github-actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sobolevn/misspell-fixer-action",
+      "target": "localization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sobolevn/misspell-fixer-action",
+      "target": "misspell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sobolevn/misspell-fixer-action",
+      "target": "misspell-fixer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:56:45.402977+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1987
+    },
+    {
+      "path": "Dockerfile",
+      "size": 553
+    },
+    {
+      "path": ".github/workflows/misspell.yml",
+      "size": 368
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\udcddAutomatically fixes typos and mistakes in your source code and docs!",
+    "fork": false,
+    "full_name": "sobolevn/misspell-fixer-action",
+    "html_url": "https://github.com/sobolevn/misspell-fixer-action",
+    "language": "Shell",
+    "pushed_at": "2024-02-12T16:47:11Z",
+    "stargazers_count": 154,
+    "topics": [
+      "github-action",
+      "github-action-localizstion",
+      "github-actions",
+      "localization",
+      "misspell",
+      "misspell-fixer"
+    ],
+    "updated_at": "2026-04-26T02:14:43Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "misspell",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/misspell.yml",
+      "term": "misspell"
+    },
+    {
+      "context_snippet": "[![wemake.services](https://img.shields.io/badge/%20-wemake.services-green.svg?label=%20&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC%2FxhBQAAAAFzUkdCAK7OHOkAAAAbUExURQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP%2F%2F%2F5TvxDIAAAAIdFJOUwA\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-action"
+    },
+    {
+      "context_snippet": "[![wemake.services](https://img.shields.io/badge/%20-wemake.services-green.svg?label=%20&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC%2FxhBQAAAAFzUkdCAK7OHOkAAAAbUExURQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP%2F%2F%2F5TvxDIAAAAIdFJOUwA\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-action-localizstion"
+    },
+    {
+      "context_snippet": "[![wemake.services](https://img.shields.io/badge/%20-wemake.services-green.svg?label=%20&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC%2FxhBQAAAAFzUkdCAK7OHOkAAAAbUExURQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP%2F%2F%2F5TvxDIAAAAIdFJOUwA\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-actions"
+    },
+    {
+      "context_snippet": "[![wemake.services](https://img.shields.io/badge/%20-wemake.services-green.svg?label=%20&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC%2FxhBQAAAAFzUkdCAK7OHOkAAAAbUExURQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP%2F%2F%2F5TvxDIAAAAIdFJOUwA\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "localization"
+    },
+    {
+      "context_snippet": "[![wemake.services](https://img.shields.io/badge/%20-wemake.services-green.svg?label=%20&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC%2FxhBQAAAAFzUkdCAK7OHOkAAAAbUExURQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP%2F%2F%2F5TvxDIAAAAIdFJOUwA\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "misspell"
+    },
+    {
+      "context_snippet": "[![wemake.services](https://img.shields.io/badge/%20-wemake.services-green.svg?label=%20&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC%2FxhBQAAAAFzUkdCAK7OHOkAAAAbUExURQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP%2F%2F%2F5TvxDIAAAAIdFJOUwA\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "misspell-fixer"
+    }
+  ]
+}

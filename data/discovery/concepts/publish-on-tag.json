@@ -92,6 +92,18 @@
       "source_repo": "SwiftGen/StencilSwiftKit",
       "status": "candidate-context",
       "text": "Publish on Tag"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GoogleChromeLabs/jsvu",
+      "status": "candidate-context",
+      "text": "JavaScript (engine) Version Updater"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleChromeLabs/jsvu",
+      "status": "candidate-context",
+      "text": "publish-on-tag"
     }
   ],
   "candidate_glosses": [
@@ -136,6 +148,12 @@
       "source_repo": "SwiftGen/StencilSwiftKit",
       "status": "candidate",
       "text": "Publish on Tag"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleChromeLabs/jsvu",
+      "status": "candidate",
+      "text": "publish-on-tag"
     }
   ],
   "candidate_related_terms": [
@@ -227,11 +245,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/tag-publish.yml",
       "source_repo": "SwiftGen/StencilSwiftKit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/publish-on-tag.yml",
+      "source_repo": "GoogleChromeLabs/jsvu"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

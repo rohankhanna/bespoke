@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Elixir Adapter for EventStore"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://github.com/exponentially/extreme/actions/workflows/test.yml/badge.svg)](https://github.com/exponentially/extreme/actions/workflows/test.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/exponentially/extreme/actions/workflows/test.yml/badge.svg)](https://github.com/exponentially/extreme/actions/workflows/test.yml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022275,
+      "status": "candidate",
+      "text": "bandwidth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022274,
+      "status": "candidate",
+      "text": "data rate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022273,
+      "status": "candidate",
+      "text": "epsilon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022272,
+      "status": "candidate",
+      "text": "yrneh"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022271,
+      "status": "candidate",
+      "text": "flux unit"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "erlang",
+      "sense_id": "erlang#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "erlang",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "erlang",
+  "observation_id": "ea6a092aa27b5d00",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "erlang",
+  "source_context_snippet": "[![Build Status](https://github.com/exponentially/extreme/actions/workflows/test.yml/badge.svg)](https://github.com/exponentially/extreme/actions/workflows/test.yml)",
+  "source_file": null,
+  "source_repo": "exponentially/extreme",
+  "source_repo_description": "Elixir Adapter for EventStore"
+}

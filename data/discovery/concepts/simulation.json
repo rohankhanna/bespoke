@@ -187,6 +187,42 @@
       "source_repo": "liuliu/swift-mujoco",
       "status": "candidate-context",
       "text": "[![macos-spm](https://github.com/liuliu/swift-mujoco/actions/workflows/macos-spm.yaml/badge.svg?branch=main)](https://github.com/liuliu/swift-mujoco/actions/workflows/macos-spm.yaml?query=branch%3Amain)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vikashplus/robohive",
+      "status": "candidate-context",
+      "text": "A unified framework for robot learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vikashplus/robohive",
+      "status": "candidate-context",
+      "text": "<!-- ================================================="
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eclipse-sumo/sumo",
+      "status": "candidate-context",
+      "text": "Eclipse SUMO is an open source, highly portable, microscopic and continuous traffic simulation package designed to handle large networks. It allows for intermodal simulation including pedestrians and comes with a large set of tools for scenario creation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-sumo/sumo",
+      "status": "candidate-context",
+      "text": "<a href=\"https://sumo.dlr.de/docs\"><p align=\"center\"><img width=50% src=\"https://raw.githubusercontent.com/eclipse/sumo/main/docs/web/docs/images/sumo-logo.svg\"></p></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mujocolab/mjviser",
+      "status": "candidate-context",
+      "text": "Web-based MuJoCo viewer powered by Viser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mujocolab/mjviser",
+      "status": "candidate-context",
+      "text": "[![GitHub Actions](https://img.shields.io/github/actions/workflow/status/mujocolab/mjviser/ci.yml?branch=main)](https://github.com/mujocolab/mjviser/actions/workflows/ci.yml?query=branch%3Amain)"
     }
   ],
   "candidate_glosses": [
@@ -279,6 +315,24 @@
       "source_repo": "liuliu/swift-mujoco",
       "status": "candidate",
       "text": "[![macos-spm](https://github.com/liuliu/swift-mujoco/actions/workflows/macos-spm.yaml/badge.svg?branch=main)](https://github.com/liuliu/swift-mujoco/actions/workflows/macos-spm.yaml?query=branch%3Amain)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vikashplus/robohive",
+      "status": "candidate",
+      "text": "<!-- ================================================="
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-sumo/sumo",
+      "status": "candidate",
+      "text": "<a href=\"https://sumo.dlr.de/docs\"><p align=\"center\"><img width=50% src=\"https://raw.githubusercontent.com/eclipse/sumo/main/docs/web/docs/images/sumo-logo.svg\"></p></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mujocolab/mjviser",
+      "status": "candidate",
+      "text": "[![GitHub Actions](https://img.shields.io/github/actions/workflow/status/mujocolab/mjviser/ci.yml?branch=main)](https://github.com/mujocolab/mjviser/actions/workflows/ci.yml?query=branch%3Amain)"
     }
   ],
   "candidate_related_terms": [
@@ -484,11 +538,35 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "liuliu/swift-mujoco"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "echo-yiyiyi/cube"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "vikashplus/robohive"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-sumo/sumo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "mujocolab/mjviser"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -2746,6 +2746,162 @@
       "source_repo": "oceanbase/ob-operator",
       "status": "candidate-context",
       "text": "`ob-operator` is a Kubernetes operator that simplifies the deployment and management of OceanBase cluster and related resources on Kubernetes."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yeyupiaoling/PaddlePaddle-DeepSpeech",
+      "status": "candidate-context",
+      "text": "\u57fa\u4e8ePaddlePaddle\u5b9e\u73b0\u7684\u8bed\u97f3\u8bc6\u522b\uff0c\u4e2d\u6587\u8bed\u97f3\u8bc6\u522b\u3002\u9879\u76ee\u5b8c\u5584\uff0c\u8bc6\u522b\u6548\u679c\u597d\u3002\u652f\u6301Windows\uff0cLinux\u4e0b\u8bad\u7ec3\u548c\u9884\u6d4b\uff0c\u652f\u6301Nvidia Jetson\u5f00\u53d1\u677f\u9884\u6d4b\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yeyupiaoling/PaddlePaddle-DeepSpeech",
+      "status": "candidate-context",
+      "text": "![License](https://img.shields.io/badge/license-Apache%202-red.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lite-xl/lite-xl-build-box",
+      "status": "candidate-context",
+      "text": "The docker image used to build Lite XL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lite-xl/lite-xl-build-box",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "byrnedo/dockdash",
+      "status": "candidate-context",
+      "text": "Docker dashboard using Termui"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "byrnedo/dockdash",
+      "status": "candidate-context",
+      "text": "Realtime docker ps and stats viewer."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sclorg/mongodb-container",
+      "status": "candidate-context",
+      "text": "MongoDB container images based on Red Hat Software Collections and intended for OpenShift and general usage. Users can choose between Red Hat Enterprise Linux, Fedora, and CentOS based images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sclorg/mongodb-container",
+      "status": "candidate-context",
+      "text": "MongoDB container images"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eclipse-sumo/sumo",
+      "status": "candidate-context",
+      "text": "Eclipse SUMO is an open source, highly portable, microscopic and continuous traffic simulation package designed to handle large networks. It allows for intermodal simulation including pedestrians and comes with a large set of tools for scenario creation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-sumo/sumo",
+      "status": "candidate-context",
+      "text": "docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "davidrmiller/biosim4",
+      "status": "candidate-context",
+      "text": "Biological evolution simulator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "davidrmiller/biosim4",
+      "status": "candidate-context",
+      "text": "docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FuzzyGrim/Yamtrack",
+      "status": "candidate-context",
+      "text": "A self hosted media tracker."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FuzzyGrim/Yamtrack",
+      "status": "candidate-context",
+      "text": "![App Tests](https://github.com/FuzzyGrim/Yamtrack/actions/workflows/app-tests.yml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "macrozheng/mall",
+      "status": "candidate-context",
+      "text": "mall\u9879\u76ee\u662f\u4e00\u5957\u7535\u5546\u7cfb\u7edf\uff0c\u5305\u62ec\u524d\u53f0\u5546\u57ce\u7cfb\u7edf\u53ca\u540e\u53f0\u7ba1\u7406\u7cfb\u7edf\uff0c\u57fa\u4e8eSpring Boot+MyBatis\u5b9e\u73b0\uff0c\u91c7\u7528Docker\u5bb9\u5668\u5316\u90e8\u7f72\u3002 \u524d\u53f0\u5546\u57ce\u7cfb\u7edf\u5305\u542b\u9996\u9875\u95e8\u6237\u3001\u5546\u54c1\u63a8\u8350\u3001\u5546\u54c1\u641c\u7d22\u3001\u5546\u54c1\u5c55\u793a\u3001\u8d2d\u7269\u8f66\u3001\u8ba2\u5355\u6d41\u7a0b\u3001\u4f1a\u5458\u4e2d\u5fc3\u3001\u5ba2\u6237\u670d\u52a1\u3001\u5e2e\u52a9\u4e2d\u5fc3\u7b49\u6a21\u5757\u3002 \u540e\u53f0\u7ba1\u7406\u7cfb\u7edf\u5305\u542b\u5546\u54c1\u7ba1\u7406\u3001\u8ba2\u5355\u7ba1\u7406\u3001\u4f1a\u5458\u7ba1\u7406\u3001\u4fc3\u9500\u7ba1\u7406\u3001\u8fd0\u8425\u7ba1\u7406\u3001\u5185\u5bb9\u7ba1\u7406\u3001\u7edf\u8ba1\u62a5\u8868\u3001\u8d22\u52a1\u7ba1\u7406\u3001\u6743\u9650\u7ba1\u7406\u3001\u8bbe\u7f6e\u7b49\u6a21\u5757\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "macrozheng/mall",
+      "status": "candidate-context",
+      "text": "<p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "allenai/beaker-gantry",
+      "status": "candidate-context",
+      "text": "Gantry provides an API that streamlines running experiments in Beaker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/beaker-gantry",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aboutcode-org/scancode.io",
+      "status": "candidate-context",
+      "text": "ScanCode.io is a server to script and automate software composition analysis with pipelines. This project is sponsored by the European Commission, NLnet NGI0, the Google Summer of Code, nexB and others generous sponsors!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aboutcode-org/scancode.io",
+      "status": "candidate-context",
+      "text": "==========="
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bjartnes/hikke",
+      "status": "candidate-context",
+      "text": "A k6/.NET red/green load testing workshop"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bjartnes/hikke",
+      "status": "candidate-context",
+      "text": "This repository is for a workshop to understand how to introduce and deal with a bounded disturbance."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet-architecture/eShopOnContainers",
+      "status": "candidate-context",
+      "text": "Cross-platform .NET sample microservices and container based application that runs on Linux Windows and macOS. Powered by .NET 7, Docker Containers and Azure Kubernetes Services. Supports Visual Studio, VS for Mac and CLI based environments with Docker CLI, dotnet CLI, VS Code or any other code editor. Moved to https://github.com/dotnet/eShop."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet-architecture/eShopOnContainers",
+      "status": "candidate-context",
+      "text": "As of November 2023, the eShop sample application has been updated and moved to https://github.com/dotnet/eShop. Active development will continue there."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cheshire-cat-ai/core",
+      "status": "candidate-context",
+      "text": "AI agent microservice"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cheshire-cat-ai/core",
+      "status": "candidate-context",
+      "text": "<a name=\"readme-top\"></a>"
     }
   ],
   "candidate_glosses": [
@@ -4128,6 +4284,84 @@
       "source_repo": "oceanbase/ob-operator",
       "status": "candidate",
       "text": "`ob-operator` is a Kubernetes operator that simplifies the deployment and management of OceanBase cluster and related resources on Kubernetes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yeyupiaoling/PaddlePaddle-DeepSpeech",
+      "status": "candidate",
+      "text": "![License](https://img.shields.io/badge/license-Apache%202-red.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lite-xl/lite-xl-build-box",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "byrnedo/dockdash",
+      "status": "candidate",
+      "text": "Realtime docker ps and stats viewer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sclorg/mongodb-container",
+      "status": "candidate",
+      "text": "MongoDB container images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-sumo/sumo",
+      "status": "candidate",
+      "text": "docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "davidrmiller/biosim4",
+      "status": "candidate",
+      "text": "docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FuzzyGrim/Yamtrack",
+      "status": "candidate",
+      "text": "![App Tests](https://github.com/FuzzyGrim/Yamtrack/actions/workflows/app-tests.yml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "macrozheng/mall",
+      "status": "candidate",
+      "text": "<p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/beaker-gantry",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aboutcode-org/scancode.io",
+      "status": "candidate",
+      "text": "==========="
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bjartnes/hikke",
+      "status": "candidate",
+      "text": "This repository is for a workshop to understand how to introduce and deal with a bounded disturbance."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet-architecture/eShopOnContainers",
+      "status": "candidate",
+      "text": "As of November 2023, the eShop sample application has been updated and moved to https://github.com/dotnet/eShop. Active development will continue there."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cheshire-cat-ai/core",
+      "status": "candidate",
+      "text": "<a name=\"readme-top\"></a>"
     }
   ],
   "candidate_related_terms": [
@@ -6193,11 +6427,191 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "oceanbase/ob-operator"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/ghcr-build.yml",
+      "source_repo": "OpenHands/OpenHands"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "velviagris/PaddleOCRFastAPI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "coaidev/blob-service"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "yeyupiaoling/PaddlePaddle-DeepSpeech"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "docker-archive/compose-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "spaceship-prompt/spaceship-prompt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "geocompx/docker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "lite-xl/lite-xl-build-box"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "psf/black"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "byrnedo/dockdash"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "redis-developer/redis-product-search"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "notaryproject/notary"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "sclorg/mongodb-container"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "podman-desktop/podman-desktop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "moby/moby"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "eclipse-sumo/sumo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "davidrmiller/biosim4"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "apache/datafusion-ballista"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "FuzzyGrim/Yamtrack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "macrozheng/mall"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "allenai/beaker-gantry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "scverse/rapids-singlecell"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "aboutcode-org/scancode.io"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "bjartnes/hikke"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "dotnet-architecture/eShopOnContainers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "cheshire-cat-ai/core"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

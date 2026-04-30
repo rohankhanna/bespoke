@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T14:05:44.669771+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2332
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Deploy single vanilla jumpbox machine with BOSH",
+    "fork": false,
+    "full_name": "cloudfoundry/jumpbox-deployment",
+    "html_url": "https://github.com/cloudfoundry/jumpbox-deployment",
+    "language": "Shell",
+    "pushed_at": "2026-04-21T21:20:06Z",
+    "stargazers_count": 30,
+    "topics": [],
+    "updated_at": "2026-04-21T21:20:10Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -154,6 +154,30 @@
       "source_repo": "sphinx-doc/sphinx",
       "status": "candidate-context",
       "text": "========"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pradyunsg/furo",
+      "status": "candidate-context",
+      "text": "A clean customizable documentation theme for Sphinx"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pradyunsg/furo",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Furo</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "readthedocs/readthedocs.org",
+      "status": "candidate-context",
+      "text": "The source code that powers readthedocs.org"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "readthedocs/readthedocs.org",
+      "status": "candidate-context",
+      "text": "Welcome to Read the Docs"
     }
   ],
   "candidate_glosses": [
@@ -228,6 +252,18 @@
       "source_repo": "sphinx-doc/sphinx",
       "status": "candidate",
       "text": "========"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pradyunsg/furo",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Furo</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "readthedocs/readthedocs.org",
+      "status": "candidate",
+      "text": "Welcome to Read the Docs"
     }
   ],
   "candidate_related_terms": [
@@ -403,11 +439,35 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "sphinx-doc/sphinx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-jekyll-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-markdown-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "pradyunsg/furo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "readthedocs/readthedocs.org"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

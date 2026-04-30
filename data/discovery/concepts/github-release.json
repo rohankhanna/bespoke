@@ -47,6 +47,18 @@
       "source_repo": "BayesWitnesses/m2cgen",
       "status": "candidate-context",
       "text": "GitHub Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autowarefoundation/autoware-documentation",
+      "status": "candidate-context",
+      "text": "github-release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autowarefoundation/autoware-github-actions",
+      "status": "candidate-context",
+      "text": "github-release"
     }
   ],
   "candidate_glosses": [
@@ -67,6 +79,18 @@
       "source_repo": "BayesWitnesses/m2cgen",
       "status": "candidate",
       "text": "GitHub Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autowarefoundation/autoware-documentation",
+      "status": "candidate",
+      "text": "github-release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autowarefoundation/autoware-github-actions",
+      "status": "candidate",
+      "text": "github-release"
     }
   ],
   "candidate_related_terms": [
@@ -128,11 +152,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "BayesWitnesses/m2cgen"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/github-release.yaml",
+      "source_repo": "autowarefoundation/autoware-documentation"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/github-release.yaml",
+      "source_repo": "autowarefoundation/autoware-github-actions"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

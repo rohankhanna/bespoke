@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ahgsql/StyleSelectorXL",
+      "target": "twri/sdxl_prompt_styler",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:08:34.134570+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1022
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This repository contains a Automatic1111 Extension allows users to select and apply different styles to their inputs using SDXL 1.0.",
+    "fork": false,
+    "full_name": "ahgsql/StyleSelectorXL",
+    "html_url": "https://github.com/ahgsql/StyleSelectorXL",
+    "language": "Python",
+    "pushed_at": "2024-07-25T13:01:17Z",
+    "stargazers_count": 481,
+    "topics": [],
+    "updated_at": "2026-04-16T07:57:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "twri/sdxl_prompt_styler",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

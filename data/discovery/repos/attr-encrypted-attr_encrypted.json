@@ -1,0 +1,70 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "attr-encrypted/attr_encrypted",
+      "target": "attr-encrypted/encryptor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "attr-encrypted/attr_encrypted",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "attr-encrypted/attr_encrypted",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:12:31.903804+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19543
+    },
+    {
+      "path": ".github/workflows/CI.yml",
+      "size": 1833
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Generates attr_accessors that encrypt and decrypt attributes",
+    "fork": false,
+    "full_name": "attr-encrypted/attr_encrypted",
+    "html_url": "https://github.com/attr-encrypted/attr_encrypted",
+    "language": "Ruby",
+    "pushed_at": "2025-10-12T03:08:39Z",
+    "stargazers_count": 2017,
+    "topics": [],
+    "updated_at": "2026-04-15T10:15:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "attr-encrypted/encryptor",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

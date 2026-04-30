@@ -1,0 +1,145 @@
+{
+  "components": [
+    {
+      "component": "broccoli-plugin",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "merge-trees",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "broccoli-fixture",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "broccoli-test-helper",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "chai",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha-eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "volta-cli/action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "broccolijs/broccoli-merge-trees",
+      "target": "broccoli-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "broccolijs/broccoli-merge-trees",
+      "target": "merge-trees",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "broccolijs/broccoli-merge-trees",
+      "target": "broccoli-fixture",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "broccolijs/broccoli-merge-trees",
+      "target": "broccoli-test-helper",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "broccolijs/broccoli-merge-trees",
+      "target": "chai",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "broccolijs/broccoli-merge-trees",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "broccolijs/broccoli-merge-trees",
+      "target": "mocha-eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "broccolijs/broccoli-merge-trees",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "broccolijs/broccoli-merge-trees",
+      "target": "volta-cli/action@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:05:44.003883+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2389
+    },
+    {
+      "path": "package.json",
+      "size": 866
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 577
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Broccoli plugin to merge multiple trees into one",
+    "fork": false,
+    "full_name": "broccolijs/broccoli-merge-trees",
+    "html_url": "https://github.com/broccolijs/broccoli-merge-trees",
+    "language": "JavaScript",
+    "pushed_at": "2022-12-04T23:16:28Z",
+    "stargazers_count": 27,
+    "topics": [],
+    "updated_at": "2022-08-23T12:29:53Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

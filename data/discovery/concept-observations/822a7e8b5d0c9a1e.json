@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Open Source ASP.NET MVC Enterprise eCommerce Shopping Cart Solution"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repository is outdated and no longer being actively maintained by the Smartstore devs."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repository is outdated and no longer being actively maintained by the Smartstore devs."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028436,
+      "status": "candidate",
+      "text": "workshop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40026957,
+      "status": "candidate",
+      "text": "store"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012478,
+      "status": "candidate",
+      "text": "browse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40011804,
+      "status": "candidate",
+      "text": "sponsor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40003911,
+      "status": "candidate",
+      "text": "give away"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "shop",
+      "sense_id": "shop#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24048,
+      "status": "candidate",
+      "text": "peach"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21034,
+      "status": "candidate",
+      "text": "denounce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18054,
+      "status": "candidate",
+      "text": "stag"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18033,
+      "status": "candidate",
+      "text": "patronize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17035,
+      "status": "candidate",
+      "text": "frequent"
+    }
+  ],
+  "concept_id": "shop",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "shop",
+  "observation_id": "822a7e8b5d0c9a1e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "shop",
+  "source_context_snippet": "This repository is outdated and no longer being actively maintained by the Smartstore devs.",
+  "source_file": null,
+  "source_repo": "smartstore/SmartStoreNET",
+  "source_repo_description": "Open Source ASP.NET MVC Enterprise eCommerce Shopping Cart Solution"
+}

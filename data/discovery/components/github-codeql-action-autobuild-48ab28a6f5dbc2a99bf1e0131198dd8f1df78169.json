@@ -1,0 +1,12 @@
+{
+  "component": "github/codeql-action/autobuild@48ab28a6f5dbc2a99bf1e0131198dd8f1df78169",
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "cockroachdb/client_golang"
+    }
+  ]
+}

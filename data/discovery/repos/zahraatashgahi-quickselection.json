@@ -1,0 +1,142 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zahraatashgahi/QuickSelection",
+      "target": "autoencoder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zahraatashgahi/QuickSelection",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zahraatashgahi/QuickSelection",
+      "target": "denoising-autoencoders",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zahraatashgahi/QuickSelection",
+      "target": "dimensionality-reduction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zahraatashgahi/QuickSelection",
+      "target": "feature-selection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zahraatashgahi/QuickSelection",
+      "target": "sparse-neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zahraatashgahi/QuickSelection",
+      "target": "sparse-training",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zahraatashgahi/QuickSelection",
+      "target": "sparsity",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:10:14.609076+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3762
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[Machine Learning Journal (ECML-PKDD 2022 journal track)] Quick and Robust Feature Selection: the Strength of Energy-efficient Sparse Training for Autoencoders",
+    "fork": false,
+    "full_name": "zahraatashgahi/QuickSelection",
+    "html_url": "https://github.com/zahraatashgahi/QuickSelection",
+    "language": "Python",
+    "pushed_at": "2023-10-02T07:53:20Z",
+    "stargazers_count": 18,
+    "topics": [
+      "autoencoder",
+      "deep-learning",
+      "denoising-autoencoders",
+      "dimensionality-reduction",
+      "feature-selection",
+      "sparse-neural-networks",
+      "sparse-training",
+      "sparsity"
+    ],
+    "updated_at": "2026-03-10T11:56:02Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository contains code for the paper, Quick and Robust Feature Selection: the Strength of Energy-efficient Sparse Training for Autoencoders by Zahra Atashgahi, Ghada Sokar, Tim van der Lee, Elena Mocanu, Decebal Constantin Mocanu, Raymond Veldhuis, and Mykola Pechenizkiy.\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autoencoder"
+    },
+    {
+      "context_snippet": "This repository contains code for the paper, Quick and Robust Feature Selection: the Strength of Energy-efficient Sparse Training for Autoencoders by Zahra Atashgahi, Ghada Sokar, Tim van der Lee, Elena Mocanu, Decebal Constantin Mocanu, Raymond Veldhuis, and Mykola Pechenizkiy.\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "This repository contains code for the paper, Quick and Robust Feature Selection: the Strength of Energy-efficient Sparse Training for Autoencoders by Zahra Atashgahi, Ghada Sokar, Tim van der Lee, Elena Mocanu, Decebal Constantin Mocanu, Raymond Veldhuis, and Mykola Pechenizkiy.\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "denoising-autoencoders"
+    },
+    {
+      "context_snippet": "This repository contains code for the paper, Quick and Robust Feature Selection: the Strength of Energy-efficient Sparse Training for Autoencoders by Zahra Atashgahi, Ghada Sokar, Tim van der Lee, Elena Mocanu, Decebal Constantin Mocanu, Raymond Veldhuis, and Mykola Pechenizkiy.\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dimensionality-reduction"
+    },
+    {
+      "context_snippet": "This repository contains code for the paper, Quick and Robust Feature Selection: the Strength of Energy-efficient Sparse Training for Autoencoders by Zahra Atashgahi, Ghada Sokar, Tim van der Lee, Elena Mocanu, Decebal Constantin Mocanu, Raymond Veldhuis, and Mykola Pechenizkiy.\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "feature-selection"
+    },
+    {
+      "context_snippet": "This repository contains code for the paper, Quick and Robust Feature Selection: the Strength of Energy-efficient Sparse Training for Autoencoders by Zahra Atashgahi, Ghada Sokar, Tim van der Lee, Elena Mocanu, Decebal Constantin Mocanu, Raymond Veldhuis, and Mykola Pechenizkiy.\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sparse-neural-networks"
+    },
+    {
+      "context_snippet": "This repository contains code for the paper, Quick and Robust Feature Selection: the Strength of Energy-efficient Sparse Training for Autoencoders by Zahra Atashgahi, Ghada Sokar, Tim van der Lee, Elena Mocanu, Decebal Constantin Mocanu, Raymond Veldhuis, and Mykola Pechenizkiy.\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sparse-training"
+    },
+    {
+      "context_snippet": "This repository contains code for the paper, Quick and Robust Feature Selection: the Strength of Energy-efficient Sparse Training for Autoencoders by Zahra Atashgahi, Ghada Sokar, Tim van der Lee, Elena Mocanu, Decebal Constantin Mocanu, Raymond Veldhuis, and Mykola Pechenizkiy.\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sparsity"
+    }
+  ]
+}

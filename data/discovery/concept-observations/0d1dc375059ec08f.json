@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "RocketMQ Clients - Collection of Client Bindings for Apache RocketMQ"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Java Build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Java Build"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11580,
+      "status": "candidate",
+      "text": "erect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11580,
+      "status": "candidate",
+      "text": "weaverbird"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10696,
+      "status": "candidate",
+      "text": "brew"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10696,
+      "status": "candidate",
+      "text": "cafe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10696,
+      "status": "candidate",
+      "text": "creamer"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Java Build",
+      "sense_id": "java-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "java-build",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "java-build",
+  "observation_id": "0d1dc375059ec08f",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "Java Build",
+  "source_context_snippet": "Java Build",
+  "source_file": ".github/workflows/java_build.yml",
+  "source_repo": "apache/rocketmq-clients",
+  "source_repo_description": "RocketMQ Clients - Collection of Client Bindings for Apache RocketMQ"
+}

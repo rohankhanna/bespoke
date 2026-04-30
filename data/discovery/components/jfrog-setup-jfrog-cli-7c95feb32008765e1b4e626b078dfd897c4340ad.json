@@ -1,0 +1,12 @@
+{
+  "component": "jfrog/setup-jfrog-cli@7c95feb32008765e1b4e626b078dfd897c4340ad",
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rollback.yml",
+      "source_repo": "spring-io/spring-javaformat"
+    }
+  ]
+}

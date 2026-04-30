@@ -1,20 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "uxlfoundation/scikit-learn-intelex",
-      "target": "intelpython/scikit-learn_bench",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "pyproject.toml",
-      "source_repo": "uxlfoundation/scikit-learn-intelex",
-      "target": "scikit-learn/scikit-learn",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "uxlfoundation/scikit-learn-intelex",
@@ -274,6 +260,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "generated_at": "2026-04-30T12:45:20.475770+00:00",
   "source_repo": "uxlfoundation/scikit-learn-intelex"
 }

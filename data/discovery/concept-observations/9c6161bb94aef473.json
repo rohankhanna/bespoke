@@ -84,7 +84,7 @@
   "normalized_form": "deploy-project-site-to-pages",
   "observation_id": "9c6161bb94aef473",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
   "observed_text": "Deploy Project Site to Pages",
   "source_context_snippet": "Deploy Project Site to Pages",
   "source_file": ".github/workflows/deploy-pages.yml",

@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T15:04:40.444090+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3614
+    },
+    {
+      "path": "Dockerfile",
+      "size": 635
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Software Collections Management Website and Utils",
+    "fork": false,
+    "full_name": "sclorg/softwarecollections",
+    "html_url": "https://github.com/sclorg/softwarecollections",
+    "language": "Python",
+    "pushed_at": "2022-12-08T12:41:24Z",
+    "stargazers_count": 68,
+    "topics": [],
+    "updated_at": "2026-03-15T16:17:06Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

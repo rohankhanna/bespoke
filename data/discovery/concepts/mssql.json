@@ -31,6 +31,18 @@
       "source_repo": "ibis-project/ibis",
       "status": "candidate-context",
       "text": "[![Documentation status](https://img.shields.io/badge/docs-docs.ibis--project.org-blue.svg)](http://ibis-project.org)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kysely-org/kysely-ctl",
+      "status": "candidate-context",
+      "text": "Command-line tool for Kysely, Knex-compatible, works in Node.js, Deno, Bun, etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kysely-org/kysely-ctl",
+      "status": "candidate-context",
+      "text": "<div style=\"width: 100%;\">"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "ibis-project/ibis",
       "status": "candidate",
       "text": "[![Documentation status](https://img.shields.io/badge/docs-docs.ibis--project.org-blue.svg)](http://ibis-project.org)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kysely-org/kysely-ctl",
+      "status": "candidate",
+      "text": "<div style=\"width: 100%;\">"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "ibis-project/ibis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "kysely-org/kysely-ctl"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

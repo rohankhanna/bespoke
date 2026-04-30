@@ -69,6 +69,18 @@
       "source_repo": "nvpro-samples/stb",
       "status": "candidate-context",
       "text": "Build Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sparkle-project/Sparkle",
+      "status": "candidate-context",
+      "text": "A software update framework for macOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sparkle-project/Sparkle",
+      "status": "candidate-context",
+      "text": "Build & Tests"
     }
   ],
   "candidate_glosses": [
@@ -101,6 +113,12 @@
       "source_repo": "nvpro-samples/stb",
       "status": "candidate",
       "text": "Build Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sparkle-project/Sparkle",
+      "status": "candidate",
+      "text": "Build & Tests"
     }
   ],
   "candidate_related_terms": [
@@ -174,11 +192,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/cmake-tests.yml",
       "source_repo": "nvpro-samples/stb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "sparkle-project/Sparkle"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

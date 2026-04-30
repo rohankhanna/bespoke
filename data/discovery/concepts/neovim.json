@@ -2104,6 +2104,210 @@
       "source_repo": "niuiic/typst-preview.nvim",
       "status": "candidate-context",
       "text": "Neovim plugin to preview typst document."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cdelledonne/vim-cmake",
+      "status": "candidate-context",
+      "text": "Vim/Neovim plugin for working with CMake projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cdelledonne/vim-cmake",
+      "status": "candidate-context",
+      "text": "Vim-CMake is a plugin for building CMake projects inside of Vim/Neovim, with a"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brianhuster/dirvish-do.nvim",
+      "status": "candidate-context",
+      "text": "> The file manipulation commands for [vim-dirvish](https://github.com/justinmk/vim-dirvish) that you've always wanted"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "brianhuster/dirvish-git.nvim",
+      "status": "candidate-context",
+      "text": "Git integration for vim-dirvish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brianhuster/dirvish-git.nvim",
+      "status": "candidate-context",
+      "text": "[dirvish-git.nvim](https://github.com/brianhuster/vim-dirvish-git.lua) is a plugin for Neovim that provides Gitsigns integration for the builtin [vim-dirvish](https://github.com/justinmk/vim-dirvish) by Justin M. Keyes. Inspired by [vim-dirvish-git](https://github.com/kristijanh\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Mofiqul/dracula.nvim",
+      "status": "candidate-context",
+      "text": "Dracula colorscheme for neovim written in Lua"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mofiqul/dracula.nvim",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\" >\ud83e\udddb\u200d\u2642\ufe0f dracula.nvim</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iamcco/diagnostic-languageserver",
+      "status": "candidate-context",
+      "text": "diagnostic language server integrate with linters"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iamcco/diagnostic-languageserver",
+      "status": "candidate-context",
+      "text": "> General purpose Language Server that integrate with"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mfussenegger/nvim-lint",
+      "status": "candidate-context",
+      "text": "An asynchronous linter plugin for Neovim complementary to the built-in Language Server Protocol support."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mfussenegger/nvim-lint",
+      "status": "candidate-context",
+      "text": "An asynchronous linter plugin for Neovim (>= 0.9.5) complementary to the"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-neotest/neotest-plenary",
+      "status": "candidate-context",
+      "text": "[Neotest](https://github.com/rcarriga/neotest) adapter for [plenary.nvim](https://github.com/nvim-lua/plenary.nvim) busted tests."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kkharji/sqlite.lua",
+      "status": "candidate-context",
+      "text": "SQLite LuaJIT binding with a very simple api."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kkharji/sqlite.lua",
+      "status": "candidate-context",
+      "text": "sqlite.lua \ud83d\udcab"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "olimorris/onedarkpro.nvim",
+      "status": "candidate-context",
+      "text": "\ud83c\udfa8 Atom's iconic One Dark theme. Cacheable, fully customisable, Tree-sitter and LSP semantic token support. Comes with variants"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "olimorris/onedarkpro.nvim",
+      "status": "candidate-context",
+      "text": "<!-- panvimdoc-ignore-start -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lumen-oss/luarocks-build-treesitter-parser",
+      "status": "candidate-context",
+      "text": "A luarocks build backend for tree-sitter parsers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lumen-oss/luarocks-build-treesitter-parser",
+      "status": "candidate-context",
+      "text": "A luarocks build backend for tree-sitter parsers."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ColinKennedy/mega.cmdparse",
+      "status": "candidate-context",
+      "text": "A Neovim command-mode parser. Similar to Python's argparse module"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ColinKennedy/mega.cmdparse",
+      "status": "candidate-context",
+      "text": "A [Python argparse-inspired](https://docs.python.org/3/library/argparse.html)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ColinKennedy/nvim-best-practices-plugin-template",
+      "status": "candidate-context",
+      "text": "A no-nonsense template for making high-quality Neovim plugins. It has all the best opinions, pinky promise"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ColinKennedy/nvim-best-practices-plugin-template",
+      "status": "candidate-context",
+      "text": "A template repository used to create Neovim plugins."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kdheepak/panvimdoc",
+      "status": "candidate-context",
+      "text": "Write documentation in pandoc markdown. Generate documentation in vimdoc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kdheepak/panvimdoc",
+      "status": "candidate-context",
+      "text": "[![Docs](https://img.shields.io/badge/docs-dev-blue.svg)](https://kdheepak.com/panvimdoc/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/exercism.nvim",
+      "status": "candidate-context",
+      "text": "Exercism Meets Neovim \ud83d\udcaa\ud83e\udde0"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/exercism.nvim",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/octohub.nvim",
+      "status": "candidate-context",
+      "text": "All Your GitHub repos and more in Neovim \ud83d\udc19\ud83d\udee0\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/octohub.nvim",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "niuiic/awesome-neovim-plugins",
+      "status": "candidate-context",
+      "text": "Awesome neovim plugins I have written."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "niuiic/awesome-neovim-plugins",
+      "status": "candidate-context",
+      "text": "Awesome neovim plugins I have written."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "niuiic/core.nvim",
+      "status": "candidate-context",
+      "text": "Neovim utils"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "niuiic/core.nvim",
+      "status": "candidate-context",
+      "text": "Neovim utils"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mason-org/mason-lspconfig.nvim",
+      "status": "candidate-context",
+      "text": "Extension to mason.nvim that makes it easier to use lspconfig with mason.nvim."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mason-org/mason-lspconfig.nvim",
+      "status": "candidate-context",
+      "text": "![Linux](https://img.shields.io/badge/Linux-%23.svg?logo=linux&color=FCC624&logoColor=black)"
     }
   ],
   "candidate_glosses": [
@@ -3168,6 +3372,114 @@
       "source_repo": "niuiic/typst-preview.nvim",
       "status": "candidate",
       "text": "Neovim plugin to preview typst document."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cdelledonne/vim-cmake",
+      "status": "candidate",
+      "text": "Vim-CMake is a plugin for building CMake projects inside of Vim/Neovim, with a"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brianhuster/dirvish-do.nvim",
+      "status": "candidate",
+      "text": "> The file manipulation commands for [vim-dirvish](https://github.com/justinmk/vim-dirvish) that you've always wanted"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brianhuster/dirvish-git.nvim",
+      "status": "candidate",
+      "text": "[dirvish-git.nvim](https://github.com/brianhuster/vim-dirvish-git.lua) is a plugin for Neovim that provides Gitsigns integration for the builtin [vim-dirvish](https://github.com/justinmk/vim-dirvish) by Justin M. Keyes. Inspired by [vim-dirvish-git](https://github.com/kristijanh\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mofiqul/dracula.nvim",
+      "status": "candidate",
+      "text": "<h1 align=\"center\" >\ud83e\udddb\u200d\u2642\ufe0f dracula.nvim</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iamcco/diagnostic-languageserver",
+      "status": "candidate",
+      "text": "> General purpose Language Server that integrate with"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mfussenegger/nvim-lint",
+      "status": "candidate",
+      "text": "An asynchronous linter plugin for Neovim (>= 0.9.5) complementary to the"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-neotest/neotest-plenary",
+      "status": "candidate",
+      "text": "[Neotest](https://github.com/rcarriga/neotest) adapter for [plenary.nvim](https://github.com/nvim-lua/plenary.nvim) busted tests."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kkharji/sqlite.lua",
+      "status": "candidate",
+      "text": "sqlite.lua \ud83d\udcab"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "olimorris/onedarkpro.nvim",
+      "status": "candidate",
+      "text": "<!-- panvimdoc-ignore-start -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lumen-oss/luarocks-build-treesitter-parser",
+      "status": "candidate",
+      "text": "A luarocks build backend for tree-sitter parsers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ColinKennedy/mega.cmdparse",
+      "status": "candidate",
+      "text": "A [Python argparse-inspired](https://docs.python.org/3/library/argparse.html)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ColinKennedy/nvim-best-practices-plugin-template",
+      "status": "candidate",
+      "text": "A template repository used to create Neovim plugins."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kdheepak/panvimdoc",
+      "status": "candidate",
+      "text": "[![Docs](https://img.shields.io/badge/docs-dev-blue.svg)](https://kdheepak.com/panvimdoc/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/exercism.nvim",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/octohub.nvim",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "niuiic/awesome-neovim-plugins",
+      "status": "candidate",
+      "text": "Awesome neovim plugins I have written."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "niuiic/core.nvim",
+      "status": "candidate",
+      "text": "Neovim utils"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mason-org/mason-lspconfig.nvim",
+      "status": "candidate",
+      "text": "![Linux](https://img.shields.io/badge/Linux-%23.svg?logo=linux&color=FCC624&logoColor=black)"
     }
   ],
   "candidate_related_terms": [],
@@ -4639,11 +4951,251 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "niuiic/typst-preview.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "andersevenrud/cmp-tmux"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/neovim.yml",
+      "source_repo": "lambdalisue/vim-nerdfont"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-nerdfont"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "vim-fall/fall.vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "cdelledonne/vim-cmake"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "brianhuster/dirvish-do.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "brianhuster/dirvish-git.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "adelarsq/vim-emoji-icon-theme"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/neovim.yml",
+      "source_repo": "andymass/vim-matchup"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/neovim.yml",
+      "source_repo": "lambdalisue/vim-fern"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-fern"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-glyph-palette"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Mofiqul/dracula.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "iamcco/diagnostic-languageserver"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "mfussenegger/nvim-lint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "nvim-mini/mini.icons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "nvim-neotest/neotest-plenary"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "kkharji/sqlite.lua"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "olimorris/onedarkpro.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/luarocks-tag-release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/luarocks-build-treesitter-parser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ColinKennedy/mega.cmdparse"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ColinKennedy/nvim-best-practices-plugin-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "kdheepak/panvimdoc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "nvim-neotest/neotest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "dmtrKovalenko/fff"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-gin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/neovim.yml",
+      "source_repo": "lambdalisue/vim-gina"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-gina"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "dense-analysis/ale"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "onsails/lspkind.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/exercism.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/octohub.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "aileot/vim-foldpeek"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "niuiic/awesome-neovim-plugins"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "niuiic/core.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "mason-org/mason-lspconfig.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "mason-org/mason.nvim"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

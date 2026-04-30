@@ -19,6 +19,30 @@
       "source_repo": "ExponentialML/Text-To-Video-Finetuning",
       "status": "candidate-context",
       "text": "<div align=\"center\" width=\"100\" height=\"100\" >"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kabachuha/sd-webui-text2video",
+      "status": "candidate-context",
+      "text": "Auto1111 extension implementing text2video diffusion models (like ModelScope or VideoCrafter) using only Auto1111 webui dependencies"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kabachuha/sd-webui-text2video",
+      "status": "candidate-context",
+      "text": "**~~Warning: as of 2023-11-21 this extension is not maintained. If you'd like to continue devving/remaking it, please contact me on Discord @kabachuha (you can also find me on [camenduru's server's text2video channel](https://discord.gg/TYk6rfT9)) and we'll figure it out~~**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "InftyAI/llmaz",
+      "status": "candidate-context",
+      "text": "\u2638\ufe0f Easy, advanced inference platform for large language models on Kubernetes. \ud83c\udf1f Star to support our work!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InftyAI/llmaz",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "ExponentialML/Text-To-Video-Finetuning",
       "status": "candidate",
       "text": "<div align=\"center\" width=\"100\" height=\"100\" >"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kabachuha/sd-webui-text2video",
+      "status": "candidate",
+      "text": "**~~Warning: as of 2023-11-21 this extension is not maintained. If you'd like to continue devving/remaking it, please contact me on Discord @kabachuha (you can also find me on [camenduru's server's text2video channel](https://discord.gg/TYk6rfT9)) and we'll figure it out~~**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InftyAI/llmaz",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "ExponentialML/Text-To-Video-Finetuning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "kabachuha/sd-webui-text2video"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "InftyAI/llmaz"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T16:00:06.426434+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2259
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "howiehu/ddd-architecture-samples",
+    "html_url": "https://github.com/howiehu/ddd-architecture-samples",
+    "language": "Java",
+    "pushed_at": "2025-08-27T07:54:05Z",
+    "stargazers_count": 248,
+    "topics": [],
+    "updated_at": "2026-02-14T13:45:03Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

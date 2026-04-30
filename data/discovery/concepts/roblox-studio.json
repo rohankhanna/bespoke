@@ -19,6 +19,18 @@
       "source_repo": "Anaminus/rbxmk",
       "status": "candidate-context",
       "text": "<a id=\"user-content-rbxmk\" href=\"#user-content-rbxmk\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rojo-rbx/rojo",
+      "status": "candidate-context",
+      "text": "Rojo enables Roblox developers to use professional-grade software engineering tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rojo-rbx/rojo",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "Anaminus/rbxmk",
       "status": "candidate",
       "text": "<a id=\"user-content-rbxmk\" href=\"#user-content-rbxmk\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rojo-rbx/rojo",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "Anaminus/rbxmk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "rojo-rbx/rojo"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,139 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "traveller59/second.pytorch",
+      "target": "nutonomy/second.pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "traveller59/second.pytorch",
+      "target": "nutonomy/nuscenes-devkit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "traveller59/second.pytorch",
+      "target": "ufoym/deepo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "traveller59/second.pytorch",
+      "target": "traveller59/sparseconvnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "traveller59/second.pytorch",
+      "target": "kitti",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "traveller59/second.pytorch",
+      "target": "nuscenes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "traveller59/second.pytorch",
+      "target": "object-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "traveller59/second.pytorch",
+      "target": "voxelnet",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:02:08.573355+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9837
+    },
+    {
+      "path": "Dockerfile",
+      "size": 3484
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "SECOND for KITTI/NuScenes object detection",
+    "fork": false,
+    "full_name": "traveller59/second.pytorch",
+    "html_url": "https://github.com/traveller59/second.pytorch",
+    "language": "Python",
+    "pushed_at": "2022-10-14T08:05:18Z",
+    "stargazers_count": 1776,
+    "topics": [
+      "kitti",
+      "nuscenes",
+      "object-detection",
+      "voxelnet"
+    ],
+    "updated_at": "2026-04-26T23:31:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nutonomy/nuscenes-devkit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nutonomy/second.pytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "traveller59/sparseconvnet",
+      "source_file": "Dockerfile"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ufoym/deepo",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "SECOND detector.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kitti"
+    },
+    {
+      "context_snippet": "SECOND detector.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nuscenes"
+    },
+    {
+      "context_snippet": "SECOND detector.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-detection"
+    },
+    {
+      "context_snippet": "SECOND detector.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "voxelnet"
+    }
+  ]
+}

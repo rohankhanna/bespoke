@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ljacobsson/cw-logs-insights-snippets",
+      "target": "aws-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ljacobsson/cw-logs-insights-snippets",
+      "target": "cloudwatch-logs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:57:08.639949+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1449
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "AWS SAM project that adds the snippets from serverlessland.com/snippets as saved queries in CloudWatch Logs Insights",
+    "fork": false,
+    "full_name": "ljacobsson/cw-logs-insights-snippets",
+    "html_url": "https://github.com/ljacobsson/cw-logs-insights-snippets",
+    "language": "TypeScript",
+    "pushed_at": "2023-02-28T16:28:12Z",
+    "stargazers_count": 15,
+    "topics": [
+      "aws-tools",
+      "cloudwatch-logs"
+    ],
+    "updated_at": "2024-06-07T04:38:47Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[Serverlessland.com/snippets](https://serverlessland.com/snippets) hosts a growing number of community provided snippets. Many of these are useful [CloudWatch Logs Insights](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/AnalyzingLogData.html) snippets.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aws-tools"
+    },
+    {
+      "context_snippet": "[Serverlessland.com/snippets](https://serverlessland.com/snippets) hosts a growing number of community provided snippets. Many of these are useful [CloudWatch Logs Insights](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/AnalyzingLogData.html) snippets.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloudwatch-logs"
+    }
+  ]
+}

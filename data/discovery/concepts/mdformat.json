@@ -5,7 +5,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -31,6 +33,18 @@
       "source_repo": "hukkin/mdformat-toc",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/hukkin/mdformat-toc/actions/workflows/tests.yaml/badge.svg?branch=master)](https://github.com/hukkin/mdformat-toc/actions?query=workflow%3ATests+branch%3Amaster+event%3Apush)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ColinKennedy/nvim-best-practices-plugin-template",
+      "status": "candidate-context",
+      "text": "A no-nonsense template for making high-quality Neovim plugins. It has all the best opinions, pinky promise"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ColinKennedy/nvim-best-practices-plugin-template",
+      "status": "candidate-context",
+      "text": "mdformat"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +59,12 @@
       "source_repo": "hukkin/mdformat-toc",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/hukkin/mdformat-toc/actions/workflows/tests.yaml/badge.svg?branch=master)](https://github.com/hukkin/mdformat-toc/actions?query=workflow%3ATests+branch%3Amaster+event%3Apush)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ColinKennedy/nvim-best-practices-plugin-template",
+      "status": "candidate",
+      "text": "mdformat"
     }
   ],
   "candidate_related_terms": [],
@@ -70,11 +90,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "hukkin/mdformat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/mdformat.yml",
+      "source_repo": "ColinKennedy/nvim-best-practices-plugin-template"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

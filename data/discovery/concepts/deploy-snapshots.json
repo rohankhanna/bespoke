@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Deploy snapshots"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graalvm/native-build-tools",
+      "status": "candidate-context",
+      "text": "Native-image plugins for various build tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graalvm/native-build-tools",
+      "status": "candidate-context",
+      "text": "\"Deploy snapshots\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graalvm/native-build-tools",
+      "status": "candidate",
+      "text": "\"Deploy snapshots\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10666,
+      "status": "candidate",
+      "text": "album"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10566,
+      "status": "candidate",
+      "text": "bake"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10566,
+      "status": "candidate",
+      "text": "cinematograph"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10566,
+      "status": "candidate",
+      "text": "continuity girl"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10566,
+      "status": "candidate",
+      "text": "cyclorama"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Deploy snapshots",
+  "concept_id": "deploy-snapshots",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/deploy-snapshots.yml",
+      "source_repo": "graalvm/native-build-tools"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy snapshots",
+      "sense_id": "deploy-snapshots#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

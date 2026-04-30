@@ -1,0 +1,75 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "AnswerDotAI/fastkmeans",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "AnswerDotAI/fastkmeans",
+      "target": "astral-sh/setup-uv@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "AnswerDotAI/fastkmeans",
+      "target": "Build Documentation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:53:45.820592+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7997
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2057
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 848
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "AnswerDotAI/fastkmeans",
+    "html_url": "https://github.com/AnswerDotAI/fastkmeans",
+    "language": "Python",
+    "pushed_at": "2025-07-04T20:15:48Z",
+    "stargazers_count": 98,
+    "topics": [],
+    "updated_at": "2026-04-06T07:10:04Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build Documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Build Documentation"
+    }
+  ]
+}

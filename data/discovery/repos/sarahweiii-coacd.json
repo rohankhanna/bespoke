@@ -1,0 +1,347 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_ue_plugin_library.yml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_ue_plugin_library.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_ue_plugin_library.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_ue_plugin_library.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_ue_plugin_library.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_ue_plugin_library.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/debug-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheel.yml"
+    },
+    {
+      "component": "pypa/cibuildwheel@v2.22.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheel.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheel.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheel.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheel.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheel.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheel.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheel.yml"
+    },
+    {
+      "component": "ncipollo/release-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheel.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@v1.12.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheel.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SarahWeiii/CoACD",
+      "target": "sarahweiii/pamo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "SarahWeiii/CoACD",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "SarahWeiii/CoACD",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "SarahWeiii/CoACD",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_ue_plugin_library.yml",
+      "source_repo": "SarahWeiii/CoACD",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_ue_plugin_library.yml",
+      "source_repo": "SarahWeiii/CoACD",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_ue_plugin_library.yml",
+      "source_repo": "SarahWeiii/CoACD",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_ue_plugin_library.yml",
+      "source_repo": "SarahWeiii/CoACD",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_ue_plugin_library.yml",
+      "source_repo": "SarahWeiii/CoACD",
+      "target": "Build UE Plugin Libraries",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/debug-ci.yml",
+      "source_repo": "SarahWeiii/CoACD",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/debug-ci.yml",
+      "source_repo": "SarahWeiii/CoACD",
+      "target": "Debug CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheel.yml",
+      "source_repo": "SarahWeiii/CoACD",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheel.yml",
+      "source_repo": "SarahWeiii/CoACD",
+      "target": "pypa/cibuildwheel@v2.22.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheel.yml",
+      "source_repo": "SarahWeiii/CoACD",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheel.yml",
+      "source_repo": "SarahWeiii/CoACD",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheel.yml",
+      "source_repo": "SarahWeiii/CoACD",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheel.yml",
+      "source_repo": "SarahWeiii/CoACD",
+      "target": "ncipollo/release-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheel.yml",
+      "source_repo": "SarahWeiii/CoACD",
+      "target": "pypa/gh-action-pypi-publish@v1.12.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/wheel.yml",
+      "source_repo": "SarahWeiii/CoACD",
+      "target": "Build Wheels and Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SarahWeiii/CoACD",
+      "target": "collision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SarahWeiii/CoACD",
+      "target": "convex",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SarahWeiii/CoACD",
+      "target": "convex-decomposition",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:54:43.674593+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9446
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1439
+    },
+    {
+      "path": ".github/workflows/build_ue_plugin_library.yml",
+      "size": 16092
+    },
+    {
+      "path": ".github/workflows/debug-ci.yml",
+      "size": 430
+    },
+    {
+      "path": ".github/workflows/wheel.yml",
+      "size": 4491
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[SIGGRAPH2022] Approximate Convex Decomposition for 3D Meshes with Collision-Aware Concavity and Tree Search",
+    "fork": false,
+    "full_name": "SarahWeiii/CoACD",
+    "html_url": "https://github.com/SarahWeiii/CoACD",
+    "language": "C++",
+    "pushed_at": "2026-04-10T23:10:19Z",
+    "stargazers_count": 1010,
+    "topics": [
+      "collision",
+      "convex",
+      "convex-decomposition"
+    ],
+    "updated_at": "2026-04-30T13:07:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sarahweiii/pamo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Build UE Plugin Libraries",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_ue_plugin_library.yml",
+      "term": "Build UE Plugin Libraries"
+    },
+    {
+      "context_snippet": "Debug CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/debug-ci.yml",
+      "term": "Debug CI"
+    },
+    {
+      "context_snippet": "Build Wheels and Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/wheel.yml",
+      "term": "Build Wheels and Test"
+    },
+    {
+      "context_snippet": "[\\[project\\]](https://colin97.github.io/CoACD/) [\\[paper\\]](https://arxiv.org/pdf/2205.02961.pdf) [\\[video\\]](https://www.youtube.com/watch?v=r12O0z0723s)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "collision"
+    },
+    {
+      "context_snippet": "[\\[project\\]](https://colin97.github.io/CoACD/) [\\[paper\\]](https://arxiv.org/pdf/2205.02961.pdf) [\\[video\\]](https://www.youtube.com/watch?v=r12O0z0723s)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "convex"
+    },
+    {
+      "context_snippet": "[\\[project\\]](https://colin97.github.io/CoACD/) [\\[paper\\]](https://arxiv.org/pdf/2205.02961.pdf) [\\[video\\]](https://www.youtube.com/watch?v=r12O0z0723s)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "convex-decomposition"
+    }
+  ]
+}

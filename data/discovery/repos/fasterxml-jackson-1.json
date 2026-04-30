@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T14:56:07.137400+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 867
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": true,
+    "full_name": "FasterXML/jackson-1",
+    "html_url": "https://github.com/FasterXML/jackson-1",
+    "language": "Java",
+    "pushed_at": "2022-03-03T11:08:09Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2023-09-08T17:04:42Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

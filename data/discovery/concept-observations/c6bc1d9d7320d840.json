@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Pipe CSS through PostCSS processors with a single parse"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Build Status](https://github.com/postcss/gulp-postcss/actions/workflows/test.yml/badge.svg?branch=main)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Build Status](https://github.com/postcss/gulp-postcss/actions/workflows/test.yml/badge.svg?branch=main)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "gulp-plugin",
+      "sense_id": "gulp-plugin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "gulp-plugin",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "gulp-plugin",
+  "observation_id": "c6bc1d9d7320d840",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "gulp-plugin",
+  "source_context_snippet": "![Build Status](https://github.com/postcss/gulp-postcss/actions/workflows/test.yml/badge.svg?branch=main)",
+  "source_file": null,
+  "source_repo": "postcss/gulp-postcss",
+  "source_repo_description": "Pipe CSS through PostCSS processors with a single parse"
+}

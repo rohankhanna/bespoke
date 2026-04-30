@@ -1,0 +1,258 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "smartstore/SmartStoreNET",
+      "target": "aspnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "smartstore/SmartStoreNET",
+      "target": "aspnet-mvc-5",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "smartstore/SmartStoreNET",
+      "target": "autofac",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "smartstore/SmartStoreNET",
+      "target": "azure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "smartstore/SmartStoreNET",
+      "target": "basket",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "smartstore/SmartStoreNET",
+      "target": "bootstrap-4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "smartstore/SmartStoreNET",
+      "target": "c-sharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "smartstore/SmartStoreNET",
+      "target": "cart",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "smartstore/SmartStoreNET",
+      "target": "e-commerce",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "smartstore/SmartStoreNET",
+      "target": "ecommerce",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "smartstore/SmartStoreNET",
+      "target": "liquid",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "smartstore/SmartStoreNET",
+      "target": "lucene",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "smartstore/SmartStoreNET",
+      "target": "pagebuilder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "smartstore/SmartStoreNET",
+      "target": "sass",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "smartstore/SmartStoreNET",
+      "target": "shop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "smartstore/SmartStoreNET",
+      "target": "smartstore",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:06:14.287144+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 839
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "4.x",
+    "description": "Open Source ASP.NET MVC Enterprise eCommerce Shopping Cart Solution",
+    "fork": false,
+    "full_name": "smartstore/SmartStoreNET",
+    "html_url": "https://github.com/smartstore/SmartStoreNET",
+    "language": "C#",
+    "pushed_at": "2023-06-27T23:11:09Z",
+    "stargazers_count": 2665,
+    "topics": [
+      "aspnet",
+      "aspnet-mvc-5",
+      "autofac",
+      "azure",
+      "basket",
+      "bootstrap-4",
+      "c-sharp",
+      "cart",
+      "cms",
+      "e-commerce",
+      "ecommerce",
+      "ef6",
+      "esd",
+      "liquid",
+      "lucene",
+      "mvc",
+      "pagebuilder",
+      "sass",
+      "shop",
+      "smartstore"
+    ],
+    "updated_at": "2026-04-26T08:46:41Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository is outdated and no longer being actively maintained by the Smartstore devs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aspnet"
+    },
+    {
+      "context_snippet": "This repository is outdated and no longer being actively maintained by the Smartstore devs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aspnet-mvc-5"
+    },
+    {
+      "context_snippet": "This repository is outdated and no longer being actively maintained by the Smartstore devs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autofac"
+    },
+    {
+      "context_snippet": "This repository is outdated and no longer being actively maintained by the Smartstore devs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "azure"
+    },
+    {
+      "context_snippet": "This repository is outdated and no longer being actively maintained by the Smartstore devs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "basket"
+    },
+    {
+      "context_snippet": "This repository is outdated and no longer being actively maintained by the Smartstore devs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bootstrap-4"
+    },
+    {
+      "context_snippet": "This repository is outdated and no longer being actively maintained by the Smartstore devs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-sharp"
+    },
+    {
+      "context_snippet": "This repository is outdated and no longer being actively maintained by the Smartstore devs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cart"
+    },
+    {
+      "context_snippet": "This repository is outdated and no longer being actively maintained by the Smartstore devs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "e-commerce"
+    },
+    {
+      "context_snippet": "This repository is outdated and no longer being actively maintained by the Smartstore devs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ecommerce"
+    },
+    {
+      "context_snippet": "This repository is outdated and no longer being actively maintained by the Smartstore devs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "liquid"
+    },
+    {
+      "context_snippet": "This repository is outdated and no longer being actively maintained by the Smartstore devs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lucene"
+    },
+    {
+      "context_snippet": "This repository is outdated and no longer being actively maintained by the Smartstore devs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pagebuilder"
+    },
+    {
+      "context_snippet": "This repository is outdated and no longer being actively maintained by the Smartstore devs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sass"
+    },
+    {
+      "context_snippet": "This repository is outdated and no longer being actively maintained by the Smartstore devs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shop"
+    },
+    {
+      "context_snippet": "This repository is outdated and no longer being actively maintained by the Smartstore devs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "smartstore"
+    }
+  ]
+}

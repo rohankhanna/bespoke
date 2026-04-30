@@ -443,6 +443,66 @@
       "source_repo": "neon-bindings/neon",
       "status": "candidate-context",
       "text": "Benchmarks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "skforecast/skforecast",
+      "status": "candidate-context",
+      "text": "Python library for time series forecasting using scikit-learn compatible models, statistical methods, and foundation models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "skforecast/skforecast",
+      "status": "candidate-context",
+      "text": "Benchmarks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Dicklesworthstone/coding_agent_session_search",
+      "status": "candidate-context",
+      "text": "Unified TUI and CLI to index and search your local coding agent session history across 11+ providers (Codex, Claude, Gemini, Cursor, Aider, etc.)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dicklesworthstone/coding_agent_session_search",
+      "status": "candidate-context",
+      "text": "Benchmarks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apple/swift-nio",
+      "status": "candidate-context",
+      "text": "Event-driven network application framework for high performance protocol servers & clients, non-blocking."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/swift-nio",
+      "status": "candidate-context",
+      "text": "Benchmarks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vikashplus/robohive",
+      "status": "candidate-context",
+      "text": "A unified framework for robot learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vikashplus/robohive",
+      "status": "candidate-context",
+      "text": "<!-- ================================================="
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "treeverse/dvc",
+      "status": "candidate-context",
+      "text": "\ud83e\udd89 Data Versioning and ML Experiments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "treeverse/dvc",
+      "status": "candidate-context",
+      "text": "benchmarks"
     }
   ],
   "candidate_glosses": [
@@ -661,6 +721,36 @@
       "source_repo": "neon-bindings/neon",
       "status": "candidate",
       "text": "Benchmarks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "skforecast/skforecast",
+      "status": "candidate",
+      "text": "Benchmarks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dicklesworthstone/coding_agent_session_search",
+      "status": "candidate",
+      "text": "Benchmarks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/swift-nio",
+      "status": "candidate",
+      "text": "Benchmarks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vikashplus/robohive",
+      "status": "candidate",
+      "text": "<!-- ================================================="
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "treeverse/dvc",
+      "status": "candidate",
+      "text": "benchmarks"
     }
   ],
   "candidate_related_terms": [
@@ -1045,11 +1135,53 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/bench.yml",
       "source_repo": "neon-bindings/neon"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/benchmark.yaml",
+      "source_repo": "google/protobuf.dart"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "skforecast/skforecast"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "Dicklesworthstone/coding_agent_session_search"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "apache/casbin-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "apple/swift-nio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "vikashplus/robohive"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/benchmarks.yaml",
+      "source_repo": "treeverse/dvc"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

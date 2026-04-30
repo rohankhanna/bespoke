@@ -1,0 +1,265 @@
+{
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hipster-labs/jhipster-daily-builds",
+      "target": "generator-jhipster",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hipster-labs/jhipster-daily-builds",
+      "target": "cron-parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hipster-labs/jhipster-daily-builds",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hipster-labs/jhipster-daily-builds",
+      "target": "lint-staged",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hipster-labs/jhipster-daily-builds",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hipster-labs/jhipster-daily-builds",
+      "target": "yaml",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cache.yml",
+      "source_repo": "hipster-labs/jhipster-daily-builds",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cache.yml",
+      "source_repo": "hipster-labs/jhipster-daily-builds",
+      "target": "Build cache",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/couchbase.yml",
+      "source_repo": "hipster-labs/jhipster-daily-builds",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/couchbase.yml",
+      "source_repo": "hipster-labs/jhipster-daily-builds",
+      "target": "jhipster/actions/setup-runner@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/couchbase.yml",
+      "source_repo": "hipster-labs/jhipster-daily-builds",
+      "target": "jhipster/actions/build-jhipster-bom@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/couchbase.yml",
+      "source_repo": "hipster-labs/jhipster-daily-builds",
+      "target": "Couchbase",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yaml",
+      "source_repo": "hipster-labs/jhipster-daily-builds",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-image.yaml",
+      "source_repo": "hipster-labs/jhipster-daily-builds",
+      "target": "Docker Image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/elasticsearch.yaml",
+      "source_repo": "hipster-labs/jhipster-daily-builds",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/elasticsearch.yaml",
+      "source_repo": "hipster-labs/jhipster-daily-builds",
+      "target": "jhipster/actions/setup-runner@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/elasticsearch.yaml",
+      "source_repo": "hipster-labs/jhipster-daily-builds",
+      "target": "jhipster/actions/build-jhipster-bom@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/elasticsearch.yaml",
+      "source_repo": "hipster-labs/jhipster-daily-builds",
+      "target": "Elasticsearch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jdl-broken-config.yaml",
+      "source_repo": "hipster-labs/jhipster-daily-builds",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jdl-broken-config.yaml",
+      "source_repo": "hipster-labs/jhipster-daily-builds",
+      "target": "jhipster/actions/setup-runner@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jdl-broken-config.yaml",
+      "source_repo": "hipster-labs/jhipster-daily-builds",
+      "target": "jhipster/actions/build-jhipster-bom@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jdl-broken-config.yaml",
+      "source_repo": "hipster-labs/jhipster-daily-builds",
+      "target": "JDL Broken Config",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jdl-consul-gradle-jwt.yaml",
+      "source_repo": "hipster-labs/jhipster-daily-builds",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jdl-consul-gradle-jwt.yaml",
+      "source_repo": "hipster-labs/jhipster-daily-builds",
+      "target": "jhipster/actions/setup-runner@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jdl-consul-gradle-jwt.yaml",
+      "source_repo": "hipster-labs/jhipster-daily-builds",
+      "target": "jhipster/actions/build-jhipster-bom@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jdl-consul-gradle-jwt.yaml",
+      "source_repo": "hipster-labs/jhipster-daily-builds",
+      "target": "JDL Consul Gradle JWT",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jdl-consul-gradle-oauth2.yaml",
+      "source_repo": "hipster-labs/jhipster-daily-builds",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jdl-consul-gradle-oauth2.yaml",
+      "source_repo": "hipster-labs/jhipster-daily-builds",
+      "target": "jhipster/actions/setup-runner@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jdl-consul-gradle-oauth2.yaml",
+      "source_repo": "hipster-labs/jhipster-daily-builds",
+      "target": "jhipster/actions/build-jhipster-bom@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jdl-consul-gradle-oauth2.yaml",
+      "source_repo": "hipster-labs/jhipster-daily-builds",
+      "target": "JDL Consul Gradle OAuth2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jdl-consul-maven-jwt.yaml",
+      "source_repo": "hipster-labs/jhipster-daily-builds",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jdl-consul-maven-jwt.yaml",
+      "source_repo": "hipster-labs/jhipster-daily-builds",
+      "target": "jhipster/actions/setup-runner@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jdl-consul-maven-jwt.yaml",
+      "source_repo": "hipster-labs/jhipster-daily-builds",
+      "target": "jhipster/actions/build-jhipster-bom@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jdl-consul-maven-jwt.yaml",
+      "source_repo": "hipster-labs/jhipster-daily-builds",
+      "target": "JDL Consul Maven JWT",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hipster-labs/jhipster-daily-builds",
+      "target": "generator-jhipster",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hipster-labs/jhipster-daily-builds",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hipster-labs/jhipster-daily-builds",
+      "target": "jhipster",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T12:45:20.475770+00:00",
+  "source_repo": "hipster-labs/jhipster-daily-builds"
+}

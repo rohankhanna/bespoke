@@ -43,6 +43,18 @@
       "source_repo": "patrick-kidger/torchcde",
       "status": "candidate-context",
       "text": "<h1 align='center'>torchcde</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "patrick-kidger/diffrax",
+      "status": "candidate-context",
+      "text": "Numerical differential equation solvers in JAX. Autodifferentiable and GPU-capable. https://docs.kidger.site/diffrax/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "patrick-kidger/diffrax",
+      "status": "candidate-context",
+      "text": "<h1 align='center'>Diffrax</h1>"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "patrick-kidger/torchcde",
       "status": "candidate",
       "text": "<h1 align='center'>torchcde</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "patrick-kidger/diffrax",
+      "status": "candidate",
+      "text": "<h1 align='center'>Diffrax</h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "patrick-kidger/torchcde"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "patrick-kidger/diffrax"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

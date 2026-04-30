@@ -67,6 +67,18 @@
       "source_repo": "mherrmann/helium",
       "status": "candidate-context",
       "text": "Helium is a Python library for automating browsers such as Chrome and Firefox."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AndyTheFactory/article-extraction-dataset",
+      "status": "candidate-context",
+      "text": "Article title, authors, date and body extraction dataset. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AndyTheFactory/article-extraction-dataset",
+      "status": "candidate-context",
+      "text": "We release a curated dataset of news articles from more than 200 websites. The dataset contains 424 articles cleaned from any kind of boileplate code, text and ads. Most articles are in English, and were published throughout 2023, most at the end of the year. The dataset is inte\u2026"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "mherrmann/helium",
       "status": "candidate",
       "text": "Helium is a Python library for automating browsers such as Chrome and Firefox."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AndyTheFactory/article-extraction-dataset",
+      "status": "candidate",
+      "text": "We release a curated dataset of news articles from more than 200 websites. The dataset contains 424 articles cleaned from any kind of boileplate code, text and ads. Most articles are in English, and were published throughout 2023, most at the end of the year. The dataset is inte\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -142,11 +160,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "mherrmann/helium"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "AndyTheFactory/article-extraction-dataset"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

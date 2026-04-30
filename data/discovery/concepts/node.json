@@ -958,6 +958,162 @@
       "source_repo": "jquery/jquery-ui",
       "status": "candidate-context",
       "text": "Node"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "beeequeue/nvm-rust",
+      "status": "candidate-context",
+      "text": "A cross-platform node version manager that doesn't suck as much"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beeequeue/nvm-rust",
+      "status": "candidate-context",
+      "text": "\u26a0\ufe0f This tool is deprecated, I recommend using **mise** instead as it has excellent UX and works on all platforms!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ehmicky/nve",
+      "status": "candidate-context",
+      "text": "Run any command on specific Node.js versions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/nve",
+      "status": "candidate-context",
+      "text": "<picture>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chr15m/sitefox",
+      "status": "candidate-context",
+      "text": "Node + cljs backend web framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chr15m/sitefox",
+      "status": "candidate-context",
+      "text": "Web framework for ClojureScript on Node."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Unitech/pm2",
+      "status": "candidate-context",
+      "text": "Node.js Production Process Manager with a built-in Load Balancer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Unitech/pm2",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "i18next/i18next-cli",
+      "status": "candidate-context",
+      "text": "A unified, high-performance i18next CLI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i18next/i18next-cli",
+      "status": "candidate-context",
+      "text": "node"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mochajs/mocha",
+      "status": "candidate-context",
+      "text": "\u2615\ufe0f Classic, reliable, trusted test framework for Node.js and the browser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mochajs/mocha",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "websockets/ws",
+      "status": "candidate-context",
+      "text": "Simple to use, blazing fast and thoroughly tested WebSocket client and server for Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "websockets/ws",
+      "status": "candidate-context",
+      "text": "[![Version npm](https://img.shields.io/npm/v/ws.svg?logo=npm)](https://www.npmjs.com/package/ws)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "motdotla/dotenv",
+      "status": "candidate-context",
+      "text": "Loads environment variables from .env for nodejs projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "motdotla/dotenv",
+      "status": "candidate-context",
+      "text": "<a href=\"https://dotenvx.com/?utm_source=github&utm_medium=readme&utm_campaign=motdotla-dotenv&utm_content=banner\"><img src=\"https://dotenvx.com/dotenv-banner.png\" alt=\"dotenvx\" /></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "neon-bindings/examples",
+      "status": "candidate-context",
+      "text": "A collection of examples of Neon"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neon-bindings/examples",
+      "status": "candidate-context",
+      "text": "![Github Actions](https://github.com/neon-bindings/examples/workflows/Test/badge.svg?branch=main)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ahmadnassri/node-glob-promise",
+      "status": "candidate-context",
+      "text": "Promise version of glob"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ahmadnassri/node-glob-promise",
+      "status": "candidate-context",
+      "text": "Match files using the patterns the shell uses, like stars and stuff."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ehmicky/all-node-versions",
+      "status": "candidate-context",
+      "text": "List all available Node.js versions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/all-node-versions",
+      "status": "candidate-context",
+      "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/all-node-versions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ehmicky/fetch-node-website",
+      "status": "candidate-context",
+      "text": "Fetch releases on nodejs.org"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/fetch-node-website",
+      "status": "candidate-context",
+      "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/fetch-node-website)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ehmicky/get-node",
+      "status": "candidate-context",
+      "text": "Download a specific version of Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/get-node",
+      "status": "candidate-context",
+      "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/get-node)"
     }
   ],
   "candidate_glosses": [
@@ -1434,6 +1590,84 @@
       "source_repo": "jquery/jquery-ui",
       "status": "candidate",
       "text": "Node"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beeequeue/nvm-rust",
+      "status": "candidate",
+      "text": "\u26a0\ufe0f This tool is deprecated, I recommend using **mise** instead as it has excellent UX and works on all platforms!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/nve",
+      "status": "candidate",
+      "text": "<picture>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chr15m/sitefox",
+      "status": "candidate",
+      "text": "Web framework for ClojureScript on Node."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Unitech/pm2",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i18next/i18next-cli",
+      "status": "candidate",
+      "text": "node"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mochajs/mocha",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "websockets/ws",
+      "status": "candidate",
+      "text": "[![Version npm](https://img.shields.io/npm/v/ws.svg?logo=npm)](https://www.npmjs.com/package/ws)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "motdotla/dotenv",
+      "status": "candidate",
+      "text": "<a href=\"https://dotenvx.com/?utm_source=github&utm_medium=readme&utm_campaign=motdotla-dotenv&utm_content=banner\"><img src=\"https://dotenvx.com/dotenv-banner.png\" alt=\"dotenvx\" /></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neon-bindings/examples",
+      "status": "candidate",
+      "text": "![Github Actions](https://github.com/neon-bindings/examples/workflows/Test/badge.svg?branch=main)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ahmadnassri/node-glob-promise",
+      "status": "candidate",
+      "text": "Match files using the patterns the shell uses, like stars and stuff."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/all-node-versions",
+      "status": "candidate",
+      "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/all-node-versions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/fetch-node-website",
+      "status": "candidate",
+      "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/fetch-node-website)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/get-node",
+      "status": "candidate",
+      "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/get-node)"
     }
   ],
   "candidate_related_terms": [
@@ -2317,11 +2551,161 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/node.js.yml",
       "source_repo": "jquery/jquery-ui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "coreybutler/nvm-windows"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "nodenv/nodenv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "beeequeue/nvm-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ehmicky/nve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "chr15m/sitefox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Unitech/pm2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/node.yml",
+      "source_repo": "i18next/i18next-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "mochajs/mocha"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "websockets/ws"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/micromatch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/to-regex-range"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/braces"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/is-glob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "base-repos/base"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "jaredpalmer/backpack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "motdotla/dotenv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "vercel/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "neon-bindings/examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "nodejs/Release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ahmadnassri/node-glob-promise"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ehmicky/all-node-versions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ehmicky/fetch-node-website"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ehmicky/get-node"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "rulesets"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apisyouwonthate/style-guide",
+      "status": "candidate-context",
+      "text": "A shared and somewhat opinionated style guide for everyone to enjoy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apisyouwonthate/style-guide",
+      "status": "candidate-context",
+      "text": "Make your APIs \"better\" according to APIs You Won't Hate, with this slick command line tool that'll run on your [OpenAPI](https://spec.openapis.org/oas/v3.1.0)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apisyouwonthate/style-guide",
+      "status": "candidate",
+      "text": "Make your APIs \"better\" according to APIs You Won't Hate, with this slick command line tool that'll run on your [OpenAPI](https://spec.openapis.org/oas/v3.1.0)."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25000,
+      "status": "candidate",
+      "text": "rules"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "rule book"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "rulebook"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "guidelines"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "rule in"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "rulesets",
+  "concept_id": "rulesets",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "apisyouwonthate/style-guide"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rulesets",
+      "sense_id": "rulesets#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

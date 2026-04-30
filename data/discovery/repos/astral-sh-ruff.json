@@ -898,14 +898,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "astral-sh/ruff",
-      "target": "dagger/dagger",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "astral-sh/ruff",
-      "target": "dagster-io/dagster",
+      "target": "encode/starlette",
       "target_type": "repository"
     },
     {
@@ -913,6 +906,13 @@
       "source_file": "README.md",
       "source_repo": "astral-sh/ruff",
       "target": "altair-viz/altair",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "astral-sh/ruff",
+      "target": "delta-io/delta-rs",
       "target_type": "repository"
     },
     {
@@ -1315,7 +1315,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T04:49:07.010887+00:00",
+  "fetched_at": "2026-04-30T14:06:12.114292+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1367,8 +1367,8 @@
     "full_name": "astral-sh/ruff",
     "html_url": "https://github.com/astral-sh/ruff",
     "language": "Rust",
-    "pushed_at": "2026-04-29T21:55:27Z",
-    "stargazers_count": 47304,
+    "pushed_at": "2026-04-30T14:04:21Z",
+    "stargazers_count": 47309,
     "topics": [
       "linter",
       "pep8",
@@ -1382,7 +1382,7 @@
       "style-guide",
       "styleguide"
     ],
-    "updated_at": "2026-04-30T02:54:36Z"
+    "updated_at": "2026-04-30T13:29:41Z"
   },
   "repo_links": [
     {
@@ -1397,12 +1397,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "dagger/dagger",
+      "full_name": "delta-io/delta-rs",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "dagster-io/dagster",
+      "full_name": "encode/starlette",
       "source_file": "README.md"
     }
   ],

@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "instantX-research/CSGO",
+      "target": "kwaivgi/liveportrait",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:07:07.033944+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12164
+    },
+    {
+      "path": "requirements.txt",
+      "size": 233
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "CSGO: Content-Style Composition in Text-to-Image Generation \ud83d\udd25",
+    "fork": false,
+    "full_name": "instantX-research/CSGO",
+    "html_url": "https://github.com/instantX-research/CSGO",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-09-05T11:16:15Z",
+    "stargazers_count": 390,
+    "topics": [],
+    "updated_at": "2026-04-23T08:40:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kwaivgi/liveportrait",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

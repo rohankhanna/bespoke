@@ -241,13 +241,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "apollographql/apollo-tooling",
-      "target": "someuser/someplugin",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "apollographql/apollo-tooling",
       "target": "apollographql/react-apollo-scalajs",
       "target_type": "repository"
     },
@@ -616,7 +609,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T08:26:00.986830+00:00",
+  "fetched_at": "2026-04-30T13:53:42.391936+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -655,11 +648,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "apollographql/react-apollo-scalajs",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "someuser/someplugin",
       "source_file": "README.md"
     }
   ],

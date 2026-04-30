@@ -79,6 +79,18 @@
       "source_repo": "OpenVisualCloud/Media-Transport-Library",
       "status": "candidate-context",
       "text": "> [!TIP]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eclipse-sumo/sumo",
+      "status": "candidate-context",
+      "text": "Eclipse SUMO is an open source, highly portable, microscopic and continuous traffic simulation package designed to handle large networks. It allows for intermodal simulation including pedestrians and comes with a large set of tools for scenario creation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-sumo/sumo",
+      "status": "candidate-context",
+      "text": "<a href=\"https://sumo.dlr.de/docs\"><p align=\"center\"><img width=50% src=\"https://raw.githubusercontent.com/eclipse/sumo/main/docs/web/docs/images/sumo-logo.svg\"></p></a>"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "OpenVisualCloud/Media-Transport-Library",
       "status": "candidate",
       "text": "> [!TIP]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-sumo/sumo",
+      "status": "candidate",
+      "text": "<a href=\"https://sumo.dlr.de/docs\"><p align=\"center\"><img width=50% src=\"https://raw.githubusercontent.com/eclipse/sumo/main/docs/web/docs/images/sumo-logo.svg\"></p></a>"
     }
   ],
   "candidate_related_terms": [
@@ -238,11 +256,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "OpenVisualCloud/Media-Transport-Library"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-sumo/sumo"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

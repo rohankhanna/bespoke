@@ -43,6 +43,18 @@
       "source_repo": "hapostgres/pg_auto_failover",
       "status": "candidate-context",
       "text": "[![Documentation Status](https://readthedocs.org/projects/pg-auto-failover/badge/?version=main)](https://pg-auto-failover.readthedocs.io/en/main/?badge=main)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haproxy/haproxy",
+      "status": "candidate-context",
+      "text": "HAProxy Load Balancer's development branch (mirror of git.haproxy.org)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haproxy/haproxy",
+      "status": "candidate-context",
+      "text": "[![AWS-LC](https://github.com/haproxy/haproxy/actions/workflows/aws-lc.yml/badge.svg)](https://github.com/haproxy/haproxy/actions/workflows/aws-lc.yml)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "hapostgres/pg_auto_failover",
       "status": "candidate",
       "text": "[![Documentation Status](https://readthedocs.org/projects/pg-auto-failover/badge/?version=main)](https://pg-auto-failover.readthedocs.io/en/main/?badge=main)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haproxy/haproxy",
+      "status": "candidate",
+      "text": "[![AWS-LC](https://github.com/haproxy/haproxy/actions/workflows/aws-lc.yml/badge.svg)](https://github.com/haproxy/haproxy/actions/workflows/aws-lc.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "hapostgres/pg_auto_failover"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "haproxy/haproxy"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,127 @@
+{
+  "aliases": [
+    "mirage",
+    "Mirage"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appbaseio/mirage",
+      "status": "candidate-context",
+      "text": ":art: GUI for simplifying Elasticsearch Query DSL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appbaseio/mirage",
+      "status": "candidate-context",
+      "text": "[![](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://github.com/appbaseio/mirage/blob/dev/LICENSE.md) [![](https://img.shields.io/badge/angular-2.0.2-red.svg)](https://github.com/appbaseio/mirage/blob/dev/package.json#L20) [![Docker Pulls](https://img.shields.\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ocaml/dune",
+      "status": "candidate-context",
+      "text": "A composable build system for OCaml."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml/dune",
+      "status": "candidate-context",
+      "text": "Mirage"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appbaseio/mirage",
+      "status": "candidate",
+      "text": "[![](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://github.com/appbaseio/mirage/blob/dev/LICENSE.md) [![](https://img.shields.io/badge/angular-2.0.2-red.svg)](https://github.com/appbaseio/mirage/blob/dev/package.json#L20) [![Docker Pulls](https://img.shields.\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml/dune",
+      "status": "candidate",
+      "text": "Mirage"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30001637,
+      "status": "candidate",
+      "text": "light"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29878516,
+      "status": "candidate",
+      "text": "fiction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29855657,
+      "status": "candidate",
+      "text": "utopia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29841497,
+      "status": "candidate",
+      "text": "fantasy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29801862,
+      "status": "candidate",
+      "text": "illusion"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "mirage",
+  "concept_id": "mirage",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "appbaseio/mirage"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/mirage.yml",
+      "source_repo": "ocaml/dune"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mirage",
+      "sense_id": "mirage#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

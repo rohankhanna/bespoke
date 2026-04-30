@@ -1,0 +1,22 @@
+{
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pre-commit-optional.yaml",
+      "source_repo": "autowarefoundation/autoware-documentation"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pre-commit-optional.yaml",
+      "source_repo": "autowarefoundation/autoware-github-actions"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pre-commit-optional.yaml",
+      "source_repo": "autowarefoundation/.github"
+    }
+  ],
+  "term": "pre-commit-optional"
+}

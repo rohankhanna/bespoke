@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "JuliaNightly"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaCI/PkgTemplates.jl",
+      "status": "candidate-context",
+      "text": "Create new Julia packages, the easy way"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaCI/PkgTemplates.jl",
+      "status": "candidate-context",
+      "text": "JuliaNightly"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaCI/PkgTemplates.jl",
+      "status": "candidate",
+      "text": "JuliaNightly"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "JuliaNightly",
+  "concept_id": "julianightly",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/JuliaNightly.yml",
+      "source_repo": "JuliaCI/PkgTemplates.jl"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "JuliaNightly",
+      "sense_id": "julianightly#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

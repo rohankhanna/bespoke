@@ -1906,6 +1906,186 @@
       "source_repo": "stephanj/Llama3JavaChatCompletionService",
       "status": "candidate-context",
       "text": "This project provides a REST API wrapper for the amazing [Llama3.java project](https://github.com/mukel/llama3.java) from Alfonso\u00b2 Peterssen."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clojure-goes-fast/clj-java-decompiler",
+      "status": "candidate-context",
+      "text": "REPL-integrated Clojure-to-Java decompiler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure-goes-fast/clj-java-decompiler",
+      "status": "candidate-context",
+      "text": "_You can read the motivation behind clj-java-decompiler and the usage example in"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graalvm/native-build-tools",
+      "status": "candidate-context",
+      "text": "Native-image plugins for various build tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graalvm/native-build-tools",
+      "status": "candidate-context",
+      "text": "![](https://github.com/graalvm/native-build-tools/actions/workflows/test-native-gradle-plugin.yml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jline/jline3",
+      "status": "candidate-context",
+      "text": "JLine is a Java library for handling console input."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jline/jline3",
+      "status": "candidate-context",
+      "text": "[![Maven Central](https://img.shields.io/maven-central/v/org.jline/jline.svg)](https://search.maven.org/search?q=g:org.jline)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "com-lihaoyi/mill",
+      "status": "candidate-context",
+      "text": "A better build tool for Java, Scala and Kotlin: Simpler than Maven, easier than Gradle, with 3-7x faster dev workflows than other JVM build tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "com-lihaoyi/mill",
+      "status": "candidate-context",
+      "text": "'autofix.ci'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/rocketmq-clients",
+      "status": "candidate-context",
+      "text": "RocketMQ Clients - Collection of Client Bindings for Apache RocketMQ"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/rocketmq-clients",
+      "status": "candidate-context",
+      "text": "[![License][license-image]][license-url] [![Build][build-image]][build-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "f4b6a3/tsid-creator",
+      "status": "candidate-context",
+      "text": "A Java library for generating Time-Sorted Unique Identifiers (TSID)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "f4b6a3/tsid-creator",
+      "status": "candidate-context",
+      "text": "TSID Creator"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "f4b6a3/ulid-creator",
+      "status": "candidate-context",
+      "text": "A Java library for generating Universally Unique Lexicographically Sortable Identifiers (ULID)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "f4b6a3/ulid-creator",
+      "status": "candidate-context",
+      "text": "ULID Creator"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "f4b6a3/uuid-creator",
+      "status": "candidate-context",
+      "text": "UUID Creator is a Java library for generating Universally Unique Identifiers. It generates all standard identifiers from UUIDv1 to UUIDv7. It also provides an alternative to the classic JDK's UUID (alt.GUID), many codecs (codec.*) and several utilities (util.*)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "f4b6a3/uuid-creator",
+      "status": "candidate-context",
+      "text": "UUID Creator"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/sling-org-apache-sling-feature-modelconverter",
+      "status": "candidate-context",
+      "text": "Apache Sling Feature Model Converter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/sling-org-apache-sling-feature-modelconverter",
+      "status": "candidate-context",
+      "text": "Apache Sling Feature Model Converter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/pdfbox",
+      "status": "candidate-context",
+      "text": "Mirror of Apache PDFBox"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/pdfbox",
+      "status": "candidate-context",
+      "text": "<!---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "macrozheng/mall",
+      "status": "candidate-context",
+      "text": "mall\u9879\u76ee\u662f\u4e00\u5957\u7535\u5546\u7cfb\u7edf\uff0c\u5305\u62ec\u524d\u53f0\u5546\u57ce\u7cfb\u7edf\u53ca\u540e\u53f0\u7ba1\u7406\u7cfb\u7edf\uff0c\u57fa\u4e8eSpring Boot+MyBatis\u5b9e\u73b0\uff0c\u91c7\u7528Docker\u5bb9\u5668\u5316\u90e8\u7f72\u3002 \u524d\u53f0\u5546\u57ce\u7cfb\u7edf\u5305\u542b\u9996\u9875\u95e8\u6237\u3001\u5546\u54c1\u63a8\u8350\u3001\u5546\u54c1\u641c\u7d22\u3001\u5546\u54c1\u5c55\u793a\u3001\u8d2d\u7269\u8f66\u3001\u8ba2\u5355\u6d41\u7a0b\u3001\u4f1a\u5458\u4e2d\u5fc3\u3001\u5ba2\u6237\u670d\u52a1\u3001\u5e2e\u52a9\u4e2d\u5fc3\u7b49\u6a21\u5757\u3002 \u540e\u53f0\u7ba1\u7406\u7cfb\u7edf\u5305\u542b\u5546\u54c1\u7ba1\u7406\u3001\u8ba2\u5355\u7ba1\u7406\u3001\u4f1a\u5458\u7ba1\u7406\u3001\u4fc3\u9500\u7ba1\u7406\u3001\u8fd0\u8425\u7ba1\u7406\u3001\u5185\u5bb9\u7ba1\u7406\u3001\u7edf\u8ba1\u62a5\u8868\u3001\u8d22\u52a1\u7ba1\u7406\u3001\u6743\u9650\u7ba1\u7406\u3001\u8bbe\u7f6e\u7b49\u6a21\u5757\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "macrozheng/mall",
+      "status": "candidate-context",
+      "text": "<p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swagger-api/swagger-core",
+      "status": "candidate-context",
+      "text": "Examples and server integrations for generating the Swagger API Specification, which enables easy access to your REST API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/swagger-core",
+      "status": "candidate-context",
+      "text": "**NOTE:** If you're looking for Swagger Core 1.5.X and OpenAPI 2.0, please refer to [1.5 branch](https://github.com/swagger-api/swagger-core/tree/1.5)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure-Samples/agent-openai-java-banking-assistant",
+      "status": "candidate-context",
+      "text": "Multi-agent banking assistant with Java and Langchain4j"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/agent-openai-java-banking-assistant",
+      "status": "candidate-context",
+      "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jni-rs/jni-rs",
+      "status": "candidate-context",
+      "text": "Rust bindings to the Java Native Interface \u2014 JNI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jni-rs/jni-rs",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/jni-rs/jni-rs/actions/workflows/ci.yml/badge.svg)](https://github.com/jni-rs/jni-rs/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "konsoletyper/teavm",
+      "status": "candidate-context",
+      "text": "Compiles Java bytecode to JavaScript, WebAssembly and C"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "konsoletyper/teavm",
+      "status": "candidate-context",
+      "text": "[![.github/workflows/ci.yml](https://github.com/konsoletyper/teavm/actions/workflows/ci.yml/badge.svg)](https://github.com/konsoletyper/teavm/actions/workflows/ci.yml)"
     }
   ],
   "candidate_glosses": [
@@ -2856,6 +3036,96 @@
       "source_repo": "stephanj/Llama3JavaChatCompletionService",
       "status": "candidate",
       "text": "This project provides a REST API wrapper for the amazing [Llama3.java project](https://github.com/mukel/llama3.java) from Alfonso\u00b2 Peterssen."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure-goes-fast/clj-java-decompiler",
+      "status": "candidate",
+      "text": "_You can read the motivation behind clj-java-decompiler and the usage example in"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graalvm/native-build-tools",
+      "status": "candidate",
+      "text": "![](https://github.com/graalvm/native-build-tools/actions/workflows/test-native-gradle-plugin.yml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jline/jline3",
+      "status": "candidate",
+      "text": "[![Maven Central](https://img.shields.io/maven-central/v/org.jline/jline.svg)](https://search.maven.org/search?q=g:org.jline)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "com-lihaoyi/mill",
+      "status": "candidate",
+      "text": "'autofix.ci'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/rocketmq-clients",
+      "status": "candidate",
+      "text": "[![License][license-image]][license-url] [![Build][build-image]][build-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "f4b6a3/tsid-creator",
+      "status": "candidate",
+      "text": "TSID Creator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "f4b6a3/ulid-creator",
+      "status": "candidate",
+      "text": "ULID Creator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "f4b6a3/uuid-creator",
+      "status": "candidate",
+      "text": "UUID Creator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/sling-org-apache-sling-feature-modelconverter",
+      "status": "candidate",
+      "text": "Apache Sling Feature Model Converter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/pdfbox",
+      "status": "candidate",
+      "text": "<!---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "macrozheng/mall",
+      "status": "candidate",
+      "text": "<p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/swagger-core",
+      "status": "candidate",
+      "text": "**NOTE:** If you're looking for Swagger Core 1.5.X and OpenAPI 2.0, please refer to [1.5 branch](https://github.com/swagger-api/swagger-core/tree/1.5)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/agent-openai-java-banking-assistant",
+      "status": "candidate",
+      "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jni-rs/jni-rs",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/jni-rs/jni-rs/actions/workflows/ci.yml/badge.svg)](https://github.com/jni-rs/jni-rs/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "konsoletyper/teavm",
+      "status": "candidate",
+      "text": "[![.github/workflows/ci.yml](https://github.com/konsoletyper/teavm/actions/workflows/ci.yml/badge.svg)](https://github.com/konsoletyper/teavm/actions/workflows/ci.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -4185,11 +4455,161 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "stephanj/Llama3JavaChatCompletionService"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "helidon-io/helidon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "clojure-goes-fast/clj-java-decompiler"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "graalvm/native-build-tools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "jline/jline3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "atom/ide-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-jdtls/eclipse.jdt.ls"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-lsp4j/lsp4j"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "MSPaintIDE/MSPaintIDE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-lemminx/lemminx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "com-lihaoyi/mill"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "apache/rocketmq-clients"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "grpc/grpc-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "redis/redis-om-spring"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "f4b6a3/tsid-creator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "f4b6a3/ulid-creator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "f4b6a3/uuid-creator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "apache/sling-org-apache-sling-feature-modelconverter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "apache/pdfbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "macrozheng/mall"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "swagger-api/swagger-core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Azure-Samples/agent-openai-java-banking-assistant"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "jni-rs/jni-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "konsoletyper/teavm"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

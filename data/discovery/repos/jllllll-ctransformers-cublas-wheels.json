@@ -1,0 +1,241 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release.yml"
+    },
+    {
+      "component": "jlumbroso/free-disk-space@v1.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v2.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@2.7.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-index.yml"
+    },
+    {
+      "component": "actions/configure-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-index.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-index.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-index.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jllllll/ctransformers-cuBLAS-wheels",
+      "target": "marella/ctransformers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-all-batch.yml",
+      "source_repo": "jllllll/ctransformers-cuBLAS-wheels",
+      "target": "Build Wheels Batch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release.yml",
+      "source_repo": "jllllll/ctransformers-cuBLAS-wheels",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release.yml",
+      "source_repo": "jllllll/ctransformers-cuBLAS-wheels",
+      "target": "jlumbroso/free-disk-space@v1.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release.yml",
+      "source_repo": "jllllll/ctransformers-cuBLAS-wheels",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release.yml",
+      "source_repo": "jllllll/ctransformers-cuBLAS-wheels",
+      "target": "conda-incubator/setup-miniconda@v2.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release.yml",
+      "source_repo": "jllllll/ctransformers-cuBLAS-wheels",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release.yml",
+      "source_repo": "jllllll/ctransformers-cuBLAS-wheels",
+      "target": "actions/download-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release.yml",
+      "source_repo": "jllllll/ctransformers-cuBLAS-wheels",
+      "target": "svenstaro/upload-release-action@2.7.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-release.yml",
+      "source_repo": "jllllll/ctransformers-cuBLAS-wheels",
+      "target": "Build Wheels & Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-index.yml",
+      "source_repo": "jllllll/ctransformers-cuBLAS-wheels",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-index.yml",
+      "source_repo": "jllllll/ctransformers-cuBLAS-wheels",
+      "target": "actions/configure-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-index.yml",
+      "source_repo": "jllllll/ctransformers-cuBLAS-wheels",
+      "target": "actions/upload-pages-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-index.yml",
+      "source_repo": "jllllll/ctransformers-cuBLAS-wheels",
+      "target": "actions/deploy-pages@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-index.yml",
+      "source_repo": "jllllll/ctransformers-cuBLAS-wheels",
+      "target": "Deploy package index to Pages",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:02:35.646511+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1830
+    },
+    {
+      "path": ".github/workflows/build-all-batch.yml",
+      "size": 360
+    },
+    {
+      "path": ".github/workflows/build-wheels-release.yml",
+      "size": 5843
+    },
+    {
+      "path": ".github/workflows/deploy-index.yml",
+      "size": 1323
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "ctransformers wheels with pre-built CUDA binaries for additional CUDA and AVX versions.",
+    "fork": false,
+    "full_name": "jllllll/ctransformers-cuBLAS-wheels",
+    "html_url": "https://github.com/jllllll/ctransformers-cuBLAS-wheels",
+    "language": "HTML",
+    "pushed_at": "2023-12-25T10:48:43Z",
+    "stargazers_count": 13,
+    "topics": [],
+    "updated_at": "2025-11-19T11:36:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "marella/ctransformers",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build Wheels Batch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-all-batch.yml",
+      "term": "Build Wheels Batch"
+    },
+    {
+      "context_snippet": "Build Wheels & Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-release.yml",
+      "term": "Build Wheels & Release"
+    },
+    {
+      "context_snippet": "Deploy package index to Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-index.yml",
+      "term": "Deploy package index to Pages"
+    }
+  ]
+}

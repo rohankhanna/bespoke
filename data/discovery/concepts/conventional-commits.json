@@ -220,6 +220,54 @@
       "source_repo": "appium/WebDriverAgent",
       "status": "candidate-context",
       "text": "Conventional Commits"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appium/appium-ios-device",
+      "status": "candidate-context",
+      "text": "Tools for interacting with iOS devices"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appium/appium-ios-device",
+      "status": "candidate-context",
+      "text": "Conventional Commits"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appium/appium-mac2-driver",
+      "status": "candidate-context",
+      "text": "Next-gen Appium macOS driver, backed by Apple XCTest"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appium/appium-mac2-driver",
+      "status": "candidate-context",
+      "text": "Conventional Commits"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appium/appium-xcuitest-driver",
+      "status": "candidate-context",
+      "text": "Appium iOS driver, backed by Apple XCTest "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appium/appium-xcuitest-driver",
+      "status": "candidate-context",
+      "text": "Conventional Commits"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amannn/action-semantic-pull-request",
+      "status": "candidate-context",
+      "text": "A GitHub Action that ensures that your PR title matches the Conventional Commits spec"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amannn/action-semantic-pull-request",
+      "status": "candidate-context",
+      "text": "This is a GitHub Action that ensures that your pull request titles match the [Conventional Commits spec](https://www.conventionalcommits.org/). Typically, this is used in combination with a tool like [semantic-release](https://github.com/semantic-release/semantic-release) to aut\u2026"
     }
   ],
   "candidate_glosses": [
@@ -330,6 +378,30 @@
       "source_repo": "appium/WebDriverAgent",
       "status": "candidate",
       "text": "Conventional Commits"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appium/appium-ios-device",
+      "status": "candidate",
+      "text": "Conventional Commits"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appium/appium-mac2-driver",
+      "status": "candidate",
+      "text": "Conventional Commits"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appium/appium-xcuitest-driver",
+      "status": "candidate",
+      "text": "Conventional Commits"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amannn/action-semantic-pull-request",
+      "status": "candidate",
+      "text": "This is a GitHub Action that ensures that your pull request titles match the [Conventional Commits spec](https://www.conventionalcommits.org/). Typically, this is used in combination with a tool like [semantic-release](https://github.com/semantic-release/semantic-release) to aut\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -499,11 +571,41 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/pr-title.yml",
       "source_repo": "appium/WebDriverAgent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/pr-title.yml",
+      "source_repo": "appium/appium-ios-device"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/pr-title.yml",
+      "source_repo": "appium/appium-mac2-driver"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/pr-title.yml",
+      "source_repo": "appium/appium-xcuitest-driver"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/conventional-commits.yml",
+      "source_repo": "a2aproject/a2a-js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "amannn/action-semantic-pull-request"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

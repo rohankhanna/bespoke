@@ -5,13 +5,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Tencent-Hunyuan/HunyuanDiT",
-      "target": "zml-ai/hunyuandit-pre",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Tencent-Hunyuan/HunyuanDiT",
       "target": "comfyanonymous/comfyui",
       "target_type": "repository"
     },
@@ -23,7 +16,7 @@
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-04-30T08:20:11.982517+00:00",
+  "fetched_at": "2026-04-30T13:07:04.057721+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -57,11 +50,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "tencent/hunyuandit",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "zml-ai/hunyuandit-pre",
       "source_file": "README.md"
     }
   ],

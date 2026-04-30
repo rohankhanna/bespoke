@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "qri-io/dataset",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "qri-io/dataset",
+      "target": "package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "qri-io/dataset",
+      "target": "spec",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:52:38.495965+00:00",
+  "fetched_files": [
+    {
+      "path": "go.mod",
+      "size": 1110
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "qri dataset definition",
+    "fork": false,
+    "full_name": "qri-io/dataset",
+    "html_url": "https://github.com/qri-io/dataset",
+    "language": "Go",
+    "pushed_at": "2021-09-24T02:06:44Z",
+    "stargazers_count": 15,
+    "topics": [
+      "golang",
+      "package",
+      "spec"
+    ],
+    "updated_at": "2022-11-09T17:55:38Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "module github.com/qri-io/dataset go 1.15 require ( github.com/360EntSecGroup-Skylar/excelize v1.4.1 github.com/axiomhq/hyperloglog v0.0.0-20191112132149-a4c4c47bc57f github.com/dgryski/go-sip13 v0.0.0-20200911182023-62edffca9245 // indirect github.com/dgryski/go-topk v0.0.0-2019\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "module github.com/qri-io/dataset go 1.15 require ( github.com/360EntSecGroup-Skylar/excelize v1.4.1 github.com/axiomhq/hyperloglog v0.0.0-20191112132149-a4c4c47bc57f github.com/dgryski/go-sip13 v0.0.0-20200911182023-62edffca9245 // indirect github.com/dgryski/go-topk v0.0.0-2019\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "package"
+    },
+    {
+      "context_snippet": "module github.com/qri-io/dataset go 1.15 require ( github.com/360EntSecGroup-Skylar/excelize v1.4.1 github.com/axiomhq/hyperloglog v0.0.0-20191112132149-a4c4c47bc57f github.com/dgryski/go-sip13 v0.0.0-20200911182023-62edffca9245 // indirect github.com/dgryski/go-topk v0.0.0-2019\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spec"
+    }
+  ]
+}

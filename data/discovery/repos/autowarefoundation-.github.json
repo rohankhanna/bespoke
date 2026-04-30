@@ -1,0 +1,259 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-optional.yaml"
+    },
+    {
+      "component": "autowarefoundation/autoware-github-actions/pre-commit@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-optional.yaml"
+    },
+    {
+      "component": "tibdex/github-app-token@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml"
+    },
+    {
+      "component": "autowarefoundation/autoware-github-actions/set-git-config@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml"
+    },
+    {
+      "component": "autowarefoundation/autoware-github-actions/pre-commit@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml"
+    },
+    {
+      "component": "autowarefoundation/autoware-github-actions/.github/workflows/semantic-pull-request.yaml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/semantic-pull-request.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spell-check-differential.yaml"
+    },
+    {
+      "component": "autowarefoundation/autoware-github-actions/spell-check@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spell-check-differential.yaml"
+    },
+    {
+      "component": "autowarefoundation/autoware-github-actions/.github/workflows/check-secret.yaml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-files.yaml"
+    },
+    {
+      "component": "tibdex/github-app-token@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-files.yaml"
+    },
+    {
+      "component": "autowarefoundation/autoware-github-actions/sync-files@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-files.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-optional.yaml",
+      "source_repo": "autowarefoundation/.github",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-optional.yaml",
+      "source_repo": "autowarefoundation/.github",
+      "target": "autowarefoundation/autoware-github-actions/pre-commit@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit-optional.yaml",
+      "source_repo": "autowarefoundation/.github",
+      "target": "pre-commit-optional",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "autowarefoundation/.github",
+      "target": "tibdex/github-app-token@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "autowarefoundation/.github",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "autowarefoundation/.github",
+      "target": "autowarefoundation/autoware-github-actions/set-git-config@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "autowarefoundation/.github",
+      "target": "autowarefoundation/autoware-github-actions/pre-commit@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "autowarefoundation/.github",
+      "target": "pre-commit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/semantic-pull-request.yaml",
+      "source_repo": "autowarefoundation/.github",
+      "target": "autowarefoundation/autoware-github-actions/.github/workflows/semantic-pull-request.yaml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/semantic-pull-request.yaml",
+      "source_repo": "autowarefoundation/.github",
+      "target": "semantic-pull-request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spell-check-differential.yaml",
+      "source_repo": "autowarefoundation/.github",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spell-check-differential.yaml",
+      "source_repo": "autowarefoundation/.github",
+      "target": "autowarefoundation/autoware-github-actions/spell-check@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spell-check-differential.yaml",
+      "source_repo": "autowarefoundation/.github",
+      "target": "spell-check-differential",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-files.yaml",
+      "source_repo": "autowarefoundation/.github",
+      "target": "autowarefoundation/autoware-github-actions/.github/workflows/check-secret.yaml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-files.yaml",
+      "source_repo": "autowarefoundation/.github",
+      "target": "tibdex/github-app-token@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-files.yaml",
+      "source_repo": "autowarefoundation/.github",
+      "target": "autowarefoundation/autoware-github-actions/sync-files@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-files.yaml",
+      "source_repo": "autowarefoundation/.github",
+      "target": "sync-files",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:14:27.605205+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 323
+    },
+    {
+      "path": ".github/workflows/pre-commit-optional.yaml",
+      "size": 361
+    },
+    {
+      "path": ".github/workflows/pre-commit.yaml",
+      "size": 891
+    },
+    {
+      "path": ".github/workflows/semantic-pull-request.yaml",
+      "size": 250
+    },
+    {
+      "path": ".github/workflows/spell-check-differential.yaml",
+      "size": 422
+    },
+    {
+      "path": ".github/workflows/sync-files.yaml",
+      "size": 847
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "autowarefoundation/.github",
+    "html_url": "https://github.com/autowarefoundation/.github",
+    "language": null,
+    "pushed_at": "2026-03-09T17:00:12Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2025-04-04T03:50:33Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "pre-commit-optional",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit-optional.yaml",
+      "term": "pre-commit-optional"
+    },
+    {
+      "context_snippet": "pre-commit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "term": "pre-commit"
+    },
+    {
+      "context_snippet": "semantic-pull-request",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/semantic-pull-request.yaml",
+      "term": "semantic-pull-request"
+    },
+    {
+      "context_snippet": "spell-check-differential",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spell-check-differential.yaml",
+      "term": "spell-check-differential"
+    },
+    {
+      "context_snippet": "sync-files",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-files.yaml",
+      "term": "sync-files"
+    }
+  ]
+}

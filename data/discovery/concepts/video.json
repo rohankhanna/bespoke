@@ -391,6 +391,54 @@
       "source_repo": "dloebl/cgif",
       "status": "candidate-context",
       "text": "[![Fuzzing Status](https://oss-fuzz-build-logs.storage.googleapis.com/badges/cgif.svg)](https://bugs.chromium.org/p/oss-fuzz/issues/list?sort=-opened&can=1&q=proj:cgif)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "randspace0/Anime4K-rs",
+      "status": "candidate-context",
+      "text": "An attempt to write Anime4K in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "randspace0/Anime4K-rs",
+      "status": "candidate-context",
+      "text": "An attempt to write Anime4K in Rust."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Anime4KWebBoost/Anime4K-WebGPU",
+      "status": "candidate-context",
+      "text": "Implementation of Anime4K in WebGPU"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Anime4KWebBoost/Anime4K-WebGPU",
+      "status": "candidate-context",
+      "text": "University of Pennsylvania, CIS 565: GPU Programming and Architecture, Final Project"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jhogsett/EMA-VFI-WebUI",
+      "status": "candidate-context",
+      "text": "Advanced AI-Based Video Renovation UI Using EMA-VFI & Real-ESRGAN"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jhogsett/EMA-VFI-WebUI",
+      "status": "candidate-context",
+      "text": "[![Pylint](https://github.com/jhogsett/EMA-VFI-WebUI/actions/workflows/pylint.yml/badge.svg)](https://github.com/jhogsett/EMA-VFI-WebUI/actions/workflows/pylint.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openframeworks/openFrameworks",
+      "status": "candidate-context",
+      "text": "openFrameworks is a community-developed cross platform toolkit for creative coding in C++."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openframeworks/openFrameworks",
+      "status": "candidate-context",
+      "text": "[openFrameworks](http://openframeworks.cc/)"
     }
   ],
   "candidate_glosses": [
@@ -585,6 +633,30 @@
       "source_repo": "dloebl/cgif",
       "status": "candidate",
       "text": "[![Fuzzing Status](https://oss-fuzz-build-logs.storage.googleapis.com/badges/cgif.svg)](https://bugs.chromium.org/p/oss-fuzz/issues/list?sort=-opened&can=1&q=proj:cgif)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "randspace0/Anime4K-rs",
+      "status": "candidate",
+      "text": "An attempt to write Anime4K in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Anime4KWebBoost/Anime4K-WebGPU",
+      "status": "candidate",
+      "text": "University of Pennsylvania, CIS 565: GPU Programming and Architecture, Final Project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jhogsett/EMA-VFI-WebUI",
+      "status": "candidate",
+      "text": "[![Pylint](https://github.com/jhogsett/EMA-VFI-WebUI/actions/workflows/pylint.yml/badge.svg)](https://github.com/jhogsett/EMA-VFI-WebUI/actions/workflows/pylint.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openframeworks/openFrameworks",
+      "status": "candidate",
+      "text": "[openFrameworks](http://openframeworks.cc/)"
     }
   ],
   "candidate_related_terms": [
@@ -871,11 +943,41 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "MME-Benchmarks/Video-MME"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "randspace0/Anime4K-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Anime4KWebBoost/Anime4K-WebGPU"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "jhogsett/EMA-VFI-WebUI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "MME-Benchmarks/Video-MME"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "openframeworks/openFrameworks"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

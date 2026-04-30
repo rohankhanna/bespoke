@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HazyResearch/prefix-linear-attention",
+      "target": "sustcsonglin/flash-linear-attention",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:11:44.143627+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9628
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "HazyResearch/prefix-linear-attention",
+    "html_url": "https://github.com/HazyResearch/prefix-linear-attention",
+    "language": "Python",
+    "pushed_at": "2024-07-09T01:02:04Z",
+    "stargazers_count": 59,
+    "topics": [],
+    "updated_at": "2026-04-16T05:37:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sustcsonglin/flash-linear-attention",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

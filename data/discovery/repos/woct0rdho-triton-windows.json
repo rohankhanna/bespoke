@@ -1,0 +1,177 @@
+{
+  "components": [
+    {
+      "component": "ilammy/msvc-dev-cmd@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-triton.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-triton.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-triton.yml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-triton.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-triton.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "woct0rdho/triton-windows",
+      "target": "andreigh/triton",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "woct0rdho/triton-windows",
+      "target": "eaplatanios/triton",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "woct0rdho/triton-windows",
+      "target": "lshqqytiger/triton",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "woct0rdho/triton-windows",
+      "target": "comfyanonymous/comfyui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-triton.yml",
+      "source_repo": "woct0rdho/triton-windows",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-triton.yml",
+      "source_repo": "woct0rdho/triton-windows",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-test-triton.yml",
+      "source_repo": "woct0rdho/triton-windows",
+      "target": "Build and Test Triton",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-triton.yml",
+      "source_repo": "woct0rdho/triton-windows",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-triton.yml",
+      "source_repo": "woct0rdho/triton-windows",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-triton.yml",
+      "source_repo": "woct0rdho/triton-windows",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-triton.yml",
+      "source_repo": "woct0rdho/triton-windows",
+      "target": "Build Triton",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:08:23.635896+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 25849
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1044
+    },
+    {
+      "path": ".github/workflows/build-and-test-triton.yml",
+      "size": 3168
+    },
+    {
+      "path": ".github/workflows/build-triton.yml",
+      "size": 2836
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "readme",
+    "description": "Fork of the Triton language and compiler for Windows support and easy installation",
+    "fork": true,
+    "full_name": "woct0rdho/triton-windows",
+    "html_url": "https://github.com/woct0rdho/triton-windows",
+    "language": "MLIR",
+    "pushed_at": "2026-02-18T16:59:37Z",
+    "stargazers_count": 1915,
+    "topics": [],
+    "updated_at": "2026-04-30T07:28:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "andreigh/triton",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "comfyanonymous/comfyui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eaplatanios/triton",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lshqqytiger/triton",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build and Test Triton",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-test-triton.yml",
+      "term": "Build and Test Triton"
+    },
+    {
+      "context_snippet": "Build Triton",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-triton.yml",
+      "term": "Build Triton"
+    }
+  ]
+}

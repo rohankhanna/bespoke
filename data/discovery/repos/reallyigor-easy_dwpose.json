@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "reallyigor/easy_dwpose",
+      "target": "tmelyralab/musepose",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:03:25.945470+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3211
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 610
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Preprocessor for OpenPose ControlNet ",
+    "fork": false,
+    "full_name": "reallyigor/easy_dwpose",
+    "html_url": "https://github.com/reallyigor/easy_dwpose",
+    "language": "Python",
+    "pushed_at": "2025-08-22T19:59:05Z",
+    "stargazers_count": 54,
+    "topics": [],
+    "updated_at": "2026-04-15T23:49:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tmelyralab/musepose",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

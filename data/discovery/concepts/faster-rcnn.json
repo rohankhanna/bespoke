@@ -55,6 +55,18 @@
       "source_repo": "endernewton/tf-faster-rcnn",
       "status": "candidate-context",
       "text": "For a good and more up-to-date implementation for faster/mask RCNN with multi-gpu support, please see the example in TensorPack [here](https://github.com/tensorpack/tensorpack/tree/master/examples/FasterRCNN)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "peteanderson80/bottom-up-attention",
+      "status": "candidate-context",
+      "text": "Bottom-up attention model for image captioning and VQA, based on Faster R-CNN and Visual Genome"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "peteanderson80/bottom-up-attention",
+      "status": "candidate-context",
+      "text": "This code implements a bottom-up attention model, based on multi-gpu training of Faster R-CNN with ResNet-101, using object and attribute annotations from [Visual Genome](http://visualgenome.org/)."
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "endernewton/tf-faster-rcnn",
       "status": "candidate",
       "text": "For a good and more up-to-date implementation for faster/mask RCNN with multi-gpu support, please see the example in TensorPack [here](https://github.com/tensorpack/tensorpack/tree/master/examples/FasterRCNN)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "peteanderson80/bottom-up-attention",
+      "status": "candidate",
+      "text": "This code implements a bottom-up attention model, based on multi-gpu training of Faster R-CNN with ResNet-101, using object and attribute annotations from [Visual Genome](http://visualgenome.org/)."
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "endernewton/tf-faster-rcnn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "peteanderson80/bottom-up-attention"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

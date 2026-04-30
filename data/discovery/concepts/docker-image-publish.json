@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Docker Image Publish"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/sample-app-aoai-chatGPT",
+      "status": "candidate-context",
+      "text": "Sample code for a simple web chat experience through Azure OpenAI, including Azure OpenAI On Your Data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/sample-app-aoai-chatGPT",
+      "status": "candidate-context",
+      "text": "Docker Image Publish"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/sample-app-aoai-chatGPT",
+      "status": "candidate",
+      "text": "Docker Image Publish"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22363,
+      "status": "candidate",
+      "text": "knot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22340,
+      "status": "candidate",
+      "text": "pants"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22340,
+      "status": "candidate",
+      "text": "pier"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22340,
+      "status": "candidate",
+      "text": "scoop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15315,
+      "status": "candidate",
+      "text": "ark"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Docker Image Publish",
+  "concept_id": "docker-image-publish",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/docker-image-publish.yml",
+      "source_repo": "microsoft/sample-app-aoai-chatGPT"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Docker Image Publish",
+      "sense_id": "docker-image-publish#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

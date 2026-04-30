@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "hands"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hassony2/obman_render",
+      "status": "candidate-context",
+      "text": "[cvpr19] Code to generate images from the ObMan dataset, synthetic renderings of hands holding objects (or hands in isolation)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hassony2/obman_render",
+      "status": "candidate-context",
+      "text": "Yana Hasson, G\u00fcl Varol, Dimitris Tzionas, Igor Kalevatykh, Michael J. Black, Ivan Laptev, Cordelia Schmid, CVPR 2019"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hassony2/obman_render",
+      "status": "candidate",
+      "text": "Yana Hasson, G\u00fcl Varol, Dimitris Tzionas, Igor Kalevatykh, Michael J. Black, Ivan Laptev, Cordelia Schmid, CVPR 2019"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27129070,
+      "status": "candidate",
+      "text": "men"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26776828,
+      "status": "candidate",
+      "text": "custody"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26636089,
+      "status": "candidate",
+      "text": "work force"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26596720,
+      "status": "candidate",
+      "text": "workforce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26586144,
+      "status": "candidate",
+      "text": "manpower"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5024,
+      "status": "candidate",
+      "text": "workforce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4050,
+      "status": "candidate",
+      "text": "custody"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4050,
+      "status": "candidate",
+      "text": "men"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3033,
+      "status": "candidate",
+      "text": "manpower"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2019,
+      "status": "candidate",
+      "text": "work force"
+    }
+  ],
+  "canonical_name": "hands",
+  "concept_id": "hands",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "hassony2/obman_render"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hands",
+      "sense_id": "hands#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

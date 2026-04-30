@@ -1075,6 +1075,96 @@
       "source_repo": "2KAbhishek/pickme.nvim",
       "status": "candidate-context",
       "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brianhuster/dirvish-do.nvim",
+      "status": "candidate-context",
+      "text": "> The file manipulation commands for [vim-dirvish](https://github.com/justinmk/vim-dirvish) that you've always wanted"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "brianhuster/dirvish-git.nvim",
+      "status": "candidate-context",
+      "text": "Git integration for vim-dirvish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brianhuster/dirvish-git.nvim",
+      "status": "candidate-context",
+      "text": "[dirvish-git.nvim](https://github.com/brianhuster/vim-dirvish-git.lua) is a plugin for Neovim that provides Gitsigns integration for the builtin [vim-dirvish](https://github.com/justinmk/vim-dirvish) by Justin M. Keyes. Inspired by [vim-dirvish-git](https://github.com/kristijanh\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lewis6991/hover.nvim",
+      "status": "candidate-context",
+      "text": "Hover plugin framework for Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lewis6991/hover.nvim",
+      "status": "candidate-context",
+      "text": "General framework for context aware hover providers (similar to `vim.lsp.buf.hover`)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mfussenegger/nvim-lint",
+      "status": "candidate-context",
+      "text": "An asynchronous linter plugin for Neovim complementary to the built-in Language Server Protocol support."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mfussenegger/nvim-lint",
+      "status": "candidate-context",
+      "text": "An asynchronous linter plugin for Neovim (>= 0.9.5) complementary to the"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ColinKennedy/mega.cmdparse",
+      "status": "candidate-context",
+      "text": "A Neovim command-mode parser. Similar to Python's argparse module"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ColinKennedy/mega.cmdparse",
+      "status": "candidate-context",
+      "text": "A [Python argparse-inspired](https://docs.python.org/3/library/argparse.html)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ColinKennedy/nvim-best-practices-plugin-template",
+      "status": "candidate-context",
+      "text": "A no-nonsense template for making high-quality Neovim plugins. It has all the best opinions, pinky promise"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ColinKennedy/nvim-best-practices-plugin-template",
+      "status": "candidate-context",
+      "text": "A template repository used to create Neovim plugins."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/octohub.nvim",
+      "status": "candidate-context",
+      "text": "All Your GitHub repos and more in Neovim \ud83d\udc19\ud83d\udee0\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/octohub.nvim",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mason-org/mason-lspconfig.nvim",
+      "status": "candidate-context",
+      "text": "Extension to mason.nvim that makes it easier to use lspconfig with mason.nvim."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mason-org/mason-lspconfig.nvim",
+      "status": "candidate-context",
+      "text": "![Linux](https://img.shields.io/badge/Linux-%23.svg?logo=linux&color=FCC624&logoColor=black)"
     }
   ],
   "candidate_glosses": [
@@ -1611,6 +1701,54 @@
       "source_repo": "2KAbhishek/pickme.nvim",
       "status": "candidate",
       "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brianhuster/dirvish-do.nvim",
+      "status": "candidate",
+      "text": "> The file manipulation commands for [vim-dirvish](https://github.com/justinmk/vim-dirvish) that you've always wanted"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brianhuster/dirvish-git.nvim",
+      "status": "candidate",
+      "text": "[dirvish-git.nvim](https://github.com/brianhuster/vim-dirvish-git.lua) is a plugin for Neovim that provides Gitsigns integration for the builtin [vim-dirvish](https://github.com/justinmk/vim-dirvish) by Justin M. Keyes. Inspired by [vim-dirvish-git](https://github.com/kristijanh\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lewis6991/hover.nvim",
+      "status": "candidate",
+      "text": "General framework for context aware hover providers (similar to `vim.lsp.buf.hover`)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mfussenegger/nvim-lint",
+      "status": "candidate",
+      "text": "An asynchronous linter plugin for Neovim (>= 0.9.5) complementary to the"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ColinKennedy/mega.cmdparse",
+      "status": "candidate",
+      "text": "A [Python argparse-inspired](https://docs.python.org/3/library/argparse.html)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ColinKennedy/nvim-best-practices-plugin-template",
+      "status": "candidate",
+      "text": "A template repository used to create Neovim plugins."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/octohub.nvim",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mason-org/mason-lspconfig.nvim",
+      "status": "candidate",
+      "text": "![Linux](https://img.shields.io/badge/Linux-%23.svg?logo=linux&color=FCC624&logoColor=black)"
     }
   ],
   "candidate_related_terms": [],
@@ -2284,11 +2422,95 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "mason-org/mason.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "andersevenrud/cmp-tmux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "brianhuster/dirvish-do.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "brianhuster/dirvish-git.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "lewis6991/hover.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "mfussenegger/nvim-lint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "nvim-mini/mini.icons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ColinKennedy/mega.cmdparse"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ColinKennedy/nvim-best-practices-plugin-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "dmtrKovalenko/fff"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "dense-analysis/ale"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/octohub.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "mason-org/mason-lspconfig.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "mason-org/mason.nvim"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

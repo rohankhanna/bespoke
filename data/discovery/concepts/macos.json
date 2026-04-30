@@ -1733,6 +1733,114 @@
       "source_repo": "isl-org/Open3D",
       "status": "candidate-context",
       "text": "MacOS"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "beeequeue/nvm-rust",
+      "status": "candidate-context",
+      "text": "A cross-platform node version manager that doesn't suck as much"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beeequeue/nvm-rust",
+      "status": "candidate-context",
+      "text": "\u26a0\ufe0f This tool is deprecated, I recommend using **mise** instead as it has excellent UX and works on all platforms!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexrozanski/LlamaChat",
+      "status": "candidate-context",
+      "text": "Chat with your favourite LLaMA models in a native macOS app"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexrozanski/LlamaChat",
+      "status": "candidate-context",
+      "text": "![LlamaChat banner](./Resources/banner-a5248619.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "byroneverson/Mia",
+      "status": "candidate-context",
+      "text": "A simple swift app for MacOS/iOS to test large language models (LLM)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "byroneverson/Mia",
+      "status": "candidate-context",
+      "text": "A simple app for MacOS/iOS to test large language models (LLM)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JupiterRider/ffi",
+      "status": "candidate-context",
+      "text": "A purego binding for libffi."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JupiterRider/ffi",
+      "status": "candidate-context",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/jupiterrider/ffi.svg)](https://pkg.go.dev/github.com/jupiterrider/ffi)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DiligentGraphics/DiligentFX",
+      "status": "candidate-context",
+      "text": "High-level rendering components"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DiligentGraphics/DiligentFX",
+      "status": "candidate-context",
+      "text": "DiligentFX is the [Diligent Engine](https://github.com/DiligentGraphics/DiligentEngine)'s high-level rendering framework."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ianyh/Amethyst",
+      "status": "candidate-context",
+      "text": "Automatic tiling window manager for macOS \u00e0 la xmonad."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ianyh/Amethyst",
+      "status": "candidate-context",
+      "text": "[![Discussions](https://img.shields.io/github/discussions/ianyh/Amethyst)](https://github.com/ianyh/Amethyst/discussions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appium/appium-mac2-driver",
+      "status": "candidate-context",
+      "text": "Next-gen Appium macOS driver, backed by Apple XCTest"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appium/appium-mac2-driver",
+      "status": "candidate-context",
+      "text": "Appium Mac2 Driver"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "johnbean393/Sidekick",
+      "status": "candidate-context",
+      "text": "A native macOS app that allows users to chat with a local LLM that can respond with information from files, folders and websites on your Mac without installing any other software. Powered by llama.cpp."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "johnbean393/Sidekick",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sparkle-project/Sparkle",
+      "status": "candidate-context",
+      "text": "A software update framework for macOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sparkle-project/Sparkle",
+      "status": "candidate-context",
+      "text": "Build & Tests"
     }
   ],
   "candidate_glosses": [
@@ -2611,6 +2719,60 @@
       "source_repo": "isl-org/Open3D",
       "status": "candidate",
       "text": "MacOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beeequeue/nvm-rust",
+      "status": "candidate",
+      "text": "\u26a0\ufe0f This tool is deprecated, I recommend using **mise** instead as it has excellent UX and works on all platforms!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexrozanski/LlamaChat",
+      "status": "candidate",
+      "text": "![LlamaChat banner](./Resources/banner-a5248619.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "byroneverson/Mia",
+      "status": "candidate",
+      "text": "A simple app for MacOS/iOS to test large language models (LLM)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JupiterRider/ffi",
+      "status": "candidate",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/jupiterrider/ffi.svg)](https://pkg.go.dev/github.com/jupiterrider/ffi)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DiligentGraphics/DiligentFX",
+      "status": "candidate",
+      "text": "DiligentFX is the [Diligent Engine](https://github.com/DiligentGraphics/DiligentEngine)'s high-level rendering framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ianyh/Amethyst",
+      "status": "candidate",
+      "text": "[![Discussions](https://img.shields.io/github/discussions/ianyh/Amethyst)](https://github.com/ianyh/Amethyst/discussions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appium/appium-mac2-driver",
+      "status": "candidate",
+      "text": "Appium Mac2 Driver"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "johnbean393/Sidekick",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sparkle-project/Sparkle",
+      "status": "candidate",
+      "text": "Build & Tests"
     }
   ],
   "candidate_related_terms": [
@@ -3782,11 +3944,101 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/macos.yml",
       "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "beeequeue/nvm-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "alexrozanski/LlamaChat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "byroneverson/Mia"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "JupiterRider/ffi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "invoke-ai/InvokeAI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "DiligentGraphics/DiligentFX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "igor-makarov/xcake"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/mac.yml",
+      "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ianyh/Amethyst"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "appium/appium-mac2-driver"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "webinstall/webi-installers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "johnbean393/Sidekick"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "sparkle-project/Sparkle"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

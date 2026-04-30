@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alonw0/cc-redalerts-statusline",
+      "target": "eladnava/pikud-haoref-api",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:58:17.435147+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5568
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Real-time Pikud HaOref (Israeli Home Front Command) rocket alert notifications directly in your Claude Code status line.",
+    "fork": false,
+    "full_name": "alonw0/cc-redalerts-statusline",
+    "html_url": "https://github.com/alonw0/cc-redalerts-statusline",
+    "language": "Shell",
+    "pushed_at": "2026-03-05T15:48:01Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2026-03-24T11:11:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eladnava/pikud-haoref-api",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

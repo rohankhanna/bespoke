@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T13:00:23.023905+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3882
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A terminal emulator for running on bare x86 machines.",
+    "fork": false,
+    "full_name": "ekovac/x86term",
+    "html_url": "https://github.com/ekovac/x86term",
+    "language": "C",
+    "pushed_at": "2021-07-28T14:10:09Z",
+    "stargazers_count": 44,
+    "topics": [],
+    "updated_at": "2024-10-20T09:07:30Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

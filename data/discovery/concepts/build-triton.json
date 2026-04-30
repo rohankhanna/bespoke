@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Triton"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "woct0rdho/triton-windows",
+      "status": "candidate-context",
+      "text": "Fork of the Triton language and compiler for Windows support and easy installation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "woct0rdho/triton-windows",
+      "status": "candidate-context",
+      "text": "Build Triton"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "woct0rdho/triton-windows",
+      "status": "candidate",
+      "text": "Build Triton"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11779,
+      "status": "candidate",
+      "text": "eft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11569,
+      "status": "candidate",
+      "text": "seahorse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11327,
+      "status": "candidate",
+      "text": "ariel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11327,
+      "status": "candidate",
+      "text": "conch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11327,
+      "status": "candidate",
+      "text": "poseidon"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Triton",
+  "concept_id": "build-triton",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/build-triton.yml",
+      "source_repo": "woct0rdho/triton-windows"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Triton",
+      "sense_id": "build-triton#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

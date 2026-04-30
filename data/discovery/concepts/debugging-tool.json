@@ -43,6 +43,18 @@
       "source_repo": "ergochat/ircdog",
       "status": "candidate-context",
       "text": "`ircdog` is a tool for connecting to IRC servers and sending and receiving raw IRC protocol lines, similar to telnet or netcat, but with additional features:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GoogleChromeLabs/ProjectVisBug",
+      "status": "candidate-context",
+      "text": "FireBug for designers \u203a Edit any webpage, in any state https://a.nerdy.dev/gimme-visbug"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleChromeLabs/ProjectVisBug",
+      "status": "candidate-context",
+      "text": "VisBug"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "ergochat/ircdog",
       "status": "candidate",
       "text": "`ircdog` is a tool for connecting to IRC servers and sending and receiving raw IRC protocol lines, similar to telnet or netcat, but with additional features:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleChromeLabs/ProjectVisBug",
+      "status": "candidate",
+      "text": "VisBug"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "ergochat/ircdog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "GoogleChromeLabs/ProjectVisBug"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,7 +1,7 @@
 {
   "component": "crate-ci/typos@631208b7aac2daa8b707f55e7331f9112b0e062d",
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
-  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -17,6 +17,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "coder/coder"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/spell-check.yml",
+      "source_repo": "golang-jwt/jwt"
     }
   ]
 }

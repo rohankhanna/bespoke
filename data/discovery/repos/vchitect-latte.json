@@ -1,0 +1,64 @@
+{
+  "components": [
+    {
+      "component": "actions/stale@v9.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale-issues.yaml"
+    },
+    {
+      "component": "actions/stale@v9.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale-issues.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale-issues.yaml",
+      "source_repo": "Vchitect/Latte",
+      "target": "actions/stale@v9.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale-issues.yaml",
+      "source_repo": "Vchitect/Latte",
+      "target": "Stale Issues Policy",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:10:11.383753+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10958
+    },
+    {
+      "path": ".github/workflows/stale-issues.yaml",
+      "size": 2109
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[TMLR 2025] Latte: Latent Diffusion Transformer for Video Generation. ",
+    "fork": false,
+    "full_name": "Vchitect/Latte",
+    "html_url": "https://github.com/Vchitect/Latte",
+    "language": "Python",
+    "pushed_at": "2025-10-30T23:04:14Z",
+    "stargazers_count": 1934,
+    "topics": [],
+    "updated_at": "2026-04-25T04:50:27Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Stale Issues Policy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale-issues.yaml",
+      "term": "Stale Issues Policy"
+    }
+  ]
+}

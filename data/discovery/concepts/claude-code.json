@@ -1450,6 +1450,72 @@
       "source_repo": "0xble/dotagent.nvim",
       "status": "candidate-context",
       "text": "`dotagent.nvim` adds Claude Code and Codex-style `/command`, `/skill`, and"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "modelcontextprotocol/inspector",
+      "status": "candidate-context",
+      "text": "Visual testing tool for MCP servers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelcontextprotocol/inspector",
+      "status": "candidate-context",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sindresorhus/type-fest",
+      "status": "candidate-context",
+      "text": "A collection of essential TypeScript types"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/type-fest",
+      "status": "candidate-context",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cachix/secretspec",
+      "status": "candidate-context",
+      "text": "Declarative secrets, every environment, any provider."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cachix/secretspec",
+      "status": "candidate-context",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/Claude-Code-Context-Feature-Requests",
+      "status": "candidate-context",
+      "text": "A couple of feature requests (including my own) discussing context handling in Claude code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Claude-Code-Context-Feature-Requests",
+      "status": "candidate-context",
+      "text": "A collection of feature requests related to context and task management in Claude Code."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "The-Focus-AI/buttondown-skill",
+      "status": "candidate-context",
+      "text": "Claude Code plugin skill for managing Buttondown newsletters - create drafts, schedule emails, view analytics"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "The-Focus-AI/buttondown-skill",
+      "status": "candidate-context",
+      "text": "A Claude Code plugin skill for managing Buttondown newsletters. Create drafts, schedule emails, view analytics, and manage your newsletter directly through Claude."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anthropics/anthropic-sdk-ruby",
+      "status": "candidate-context",
+      "text": "Claude Code"
     }
   ],
   "candidate_glosses": [
@@ -2166,6 +2232,42 @@
       "source_repo": "0xble/dotagent.nvim",
       "status": "candidate",
       "text": "`dotagent.nvim` adds Claude Code and Codex-style `/command`, `/skill`, and"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelcontextprotocol/inspector",
+      "status": "candidate",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/type-fest",
+      "status": "candidate",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cachix/secretspec",
+      "status": "candidate",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Claude-Code-Context-Feature-Requests",
+      "status": "candidate",
+      "text": "A collection of feature requests related to context and task management in Claude Code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "The-Focus-AI/buttondown-skill",
+      "status": "candidate",
+      "text": "A Claude Code plugin skill for managing Buttondown newsletters. Create drafts, schedule emails, view analytics, and manage your newsletter directly through Claude."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anthropics/anthropic-sdk-ruby",
+      "status": "candidate",
+      "text": "Claude Code"
     }
   ],
   "candidate_related_terms": [
@@ -3631,11 +3733,101 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "danielrosehill/Claude-Code-Projects-Index"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "modelcontextprotocol/inspector"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "webdataset/webdataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ruvnet/ruflo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "sindresorhus/type-fest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "vaporif/parry-guard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "cachix/secretspec"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "gastownhall/beads"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "hluaguo/learn-faster-kit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Code-Projects-Index"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Code-Context-Feature-Requests"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "The-Focus-AI/buttondown-skill"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "anthropics/anthropic-sdk-ruby"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "harbor-framework/harbor"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

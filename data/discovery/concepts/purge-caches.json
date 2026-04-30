@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Purge caches"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spyder-ide/spyder",
+      "status": "candidate-context",
+      "text": "Official repository for Spyder - The Scientific Python Development Environment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spyder-ide/spyder",
+      "status": "candidate-context",
+      "text": "Purge caches"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spyder-ide/spyder",
+      "status": "candidate",
+      "text": "Purge caches"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12555,
+      "status": "candidate",
+      "text": "cancel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12555,
+      "status": "candidate",
+      "text": "clear"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12555,
+      "status": "candidate",
+      "text": "cover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12555,
+      "status": "candidate",
+      "text": "debugging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12555,
+      "status": "candidate",
+      "text": "exterminate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Purge caches",
+  "concept_id": "purge-caches",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/purge-cache.yml",
+      "source_repo": "spyder-ide/spyder"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Purge caches",
+      "sense_id": "purge-caches#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,88 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arch-package.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arch-package.yml",
+      "source_repo": "BoukeHaarsma23/zenergy",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/arch-package.yml",
+      "source_repo": "BoukeHaarsma23/zenergy",
+      "target": "Build Arch package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "BoukeHaarsma23/zenergy",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "BoukeHaarsma23/zenergy",
+      "target": "Build",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:14:02.612026+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5292
+    },
+    {
+      "path": ".github/workflows/arch-package.yml",
+      "size": 868
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 348
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": true,
+    "full_name": "BoukeHaarsma23/zenergy",
+    "html_url": "https://github.com/BoukeHaarsma23/zenergy",
+    "language": "C",
+    "pushed_at": "2025-08-31T07:28:24Z",
+    "stargazers_count": 71,
+    "topics": [],
+    "updated_at": "2026-04-04T15:32:30Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build Arch package",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/arch-package.yml",
+      "term": "Build Arch package"
+    },
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    }
+  ]
+}

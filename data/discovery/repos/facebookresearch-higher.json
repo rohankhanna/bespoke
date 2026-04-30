@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T15:14:06.824985+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11143
+    },
+    {
+      "path": "requirements.txt",
+      "size": 137
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "higher is a pytorch library allowing users to obtain higher order gradients over losses spanning training loops rather than individual training steps.",
+    "fork": false,
+    "full_name": "facebookresearch/higher",
+    "html_url": "https://github.com/facebookresearch/higher",
+    "language": "Python",
+    "pushed_at": "2022-03-25T15:56:51Z",
+    "stargazers_count": 1627,
+    "topics": [],
+    "updated_at": "2026-04-17T21:54:04Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

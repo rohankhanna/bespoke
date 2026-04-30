@@ -1,0 +1,84 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cretz/asmble",
+      "target": "cretz/msplit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cretz/asmble",
+      "target": "konsoletyper/teavm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cretz/asmble",
+      "target": "wasm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cretz/asmble",
+      "target": "webassembly",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T12:53:40.073783+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 24078
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Compile WebAssembly to JVM and other WASM tools",
+    "fork": false,
+    "full_name": "cretz/asmble",
+    "html_url": "https://github.com/cretz/asmble",
+    "language": "Kotlin",
+    "pushed_at": "2023-06-16T18:44:13Z",
+    "stargazers_count": 660,
+    "topics": [
+      "jvm",
+      "wasm",
+      "webassembly"
+    ],
+    "updated_at": "2026-03-19T12:24:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cretz/msplit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "konsoletyper/teavm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Asmble is a compiler that compiles [WebAssembly](http://webassembly.org/) code to JVM bytecode. It also contains",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wasm"
+    },
+    {
+      "context_snippet": "Asmble is a compiler that compiles [WebAssembly](http://webassembly.org/) code to JVM bytecode. It also contains",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webassembly"
+    }
+  ]
+}

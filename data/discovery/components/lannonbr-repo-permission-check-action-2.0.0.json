@@ -1,0 +1,12 @@
+{
+  "component": "lannonbr/repo-permission-check-action@2.0.0",
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-release.yml",
+      "source_repo": "blitz-js/blitz"
+    }
+  ]
+}

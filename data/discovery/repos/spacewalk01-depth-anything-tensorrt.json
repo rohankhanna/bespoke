@@ -1,0 +1,144 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spacewalk01/depth-anything-tensorrt",
+      "target": "depth-anything",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spacewalk01/depth-anything-tensorrt",
+      "target": "depth-camera",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spacewalk01/depth-anything-tensorrt",
+      "target": "depth-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spacewalk01/depth-anything-tensorrt",
+      "target": "depth-image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spacewalk01/depth-anything-tensorrt",
+      "target": "image-depth-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spacewalk01/depth-anything-tensorrt",
+      "target": "monocular-depth-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spacewalk01/depth-anything-tensorrt",
+      "target": "tensorrt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spacewalk01/depth-anything-tensorrt",
+      "target": "video-depth",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:08:29.989024+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7635
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "C++ TensorRT implementation of Depth-Anything V1, V2",
+    "fork": false,
+    "full_name": "spacewalk01/depth-anything-tensorrt",
+    "html_url": "https://github.com/spacewalk01/depth-anything-tensorrt",
+    "language": "Python",
+    "pushed_at": "2025-03-07T03:53:39Z",
+    "stargazers_count": 473,
+    "topics": [
+      "cpp",
+      "depth-anything",
+      "depth-camera",
+      "depth-estimation",
+      "depth-image",
+      "image-depth-estimation",
+      "monocular-depth-estimation",
+      "python",
+      "tensorrt",
+      "video-depth"
+    ],
+    "updated_at": "2026-04-15T06:29:53Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "depth-anything"
+    },
+    {
+      "context_snippet": "<div align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "depth-camera"
+    },
+    {
+      "context_snippet": "<div align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "depth-estimation"
+    },
+    {
+      "context_snippet": "<div align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "depth-image"
+    },
+    {
+      "context_snippet": "<div align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-depth-estimation"
+    },
+    {
+      "context_snippet": "<div align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monocular-depth-estimation"
+    },
+    {
+      "context_snippet": "<div align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorrt"
+    },
+    {
+      "context_snippet": "<div align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-depth"
+    }
+  ]
+}

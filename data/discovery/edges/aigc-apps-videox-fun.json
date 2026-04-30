@@ -11,21 +11,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "aigc-apps/VideoX-Fun",
-      "target": "black-forest-labs/flux2",
+      "target": "thudm/cogvideo",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "aigc-apps/VideoX-Fun",
-      "target": "kijai/comfyui-kjnodes",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "aigc-apps/VideoX-Fun",
-      "target": "kijai/comfyui-easyanimatewrapper",
+      "target": "wan-video/wan2.2",
       "target_type": "repository"
     },
     {
@@ -50,6 +43,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "generated_at": "2026-04-30T12:45:20.475770+00:00",
   "source_repo": "aigc-apps/VideoX-Fun"
 }

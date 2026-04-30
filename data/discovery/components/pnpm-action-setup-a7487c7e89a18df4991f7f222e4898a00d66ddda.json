@@ -1,7 +1,7 @@
 {
   "component": "pnpm/action-setup@a7487c7e89a18df4991f7f222e4898a00d66ddda",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -37,6 +37,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/.reusable_e2e_tests.yml",
       "source_repo": "Kong/kong-manager"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yml",
+      "source_repo": "mermaid-js/mermaid"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "mermaid-js/mermaid"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e-applitools.yml",
+      "source_repo": "mermaid-js/mermaid"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e-timings.yml",
+      "source_repo": "mermaid-js/mermaid"
     }
   ]
 }

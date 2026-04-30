@@ -443,7 +443,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T03:52:33.368975+00:00",
+  "fetched_at": "2026-04-30T12:52:25.589169+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -496,7 +496,7 @@
     "html_url": "https://github.com/invoke-ai/InvokeAI",
     "language": "TypeScript",
     "pushed_at": "2026-04-27T21:35:23Z",
-    "stargazers_count": 27074,
+    "stargazers_count": 27076,
     "topics": [
       "ai-art",
       "artificial-intelligence",
@@ -512,7 +512,7 @@
       "txt2img",
       "windows"
     ],
-    "updated_at": "2026-04-30T00:07:19Z"
+    "updated_at": "2026-04-30T10:52:32Z"
   },
   "repo_links": [],
   "terms": [

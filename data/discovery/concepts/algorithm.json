@@ -103,6 +103,18 @@
       "source_repo": "5sControl/min-max",
       "status": "candidate-context",
       "text": "Min-Max is one of the Official [5sControl](https://5scontrol.com/) algorithms. Plug it in our video monitoring system with AI analysis and ERP Integration (Open Source) to facilitate supply chain management and keep up the optimal stock levels."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "5sControl/operation-control-js",
+      "status": "candidate-context",
+      "text": "Automatically detect when operation was done incorrectly using power of computer vision"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "5sControl/operation-control-js",
+      "status": "candidate-context",
+      "text": "Operation Control is one of the Official [5sControl](https://5sControl.com/) algorithm. Plug it in our video monitoring system with AI analysis and ERP Integration (Open Source) to ensure the quality of your products."
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "5sControl/min-max",
       "status": "candidate",
       "text": "Min-Max is one of the Official [5sControl](https://5scontrol.com/) algorithms. Plug it in our video monitoring system with AI analysis and ERP Integration (Open Source) to facilitate supply chain management and keep up the optimal stock levels."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "5sControl/operation-control-js",
+      "status": "candidate",
+      "text": "Operation Control is one of the Official [5sControl](https://5sControl.com/) algorithm. Plug it in our video monitoring system with AI analysis and ERP Integration (Open Source) to ensure the quality of your products."
     }
   ],
   "candidate_related_terms": [
@@ -259,11 +277,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "5sControl/min-max"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "5sControl/operation-control-js"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

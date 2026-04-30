@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Cross Compile",
-    "cross-compile"
+    "cross-compile",
+    "Cross-compile"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -58,6 +59,30 @@
       "source_repo": "rust-cross/cargo-zigbuild",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/rust-cross/cargo-zigbuild/workflows/CI/badge.svg)](https://github.com/rust-cross/cargo-zigbuild/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "not-fl3/miniquad",
+      "status": "candidate-context",
+      "text": "Cross platform rendering in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "not-fl3/miniquad",
+      "status": "candidate-context",
+      "text": "Cross-compile"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haproxy/haproxy",
+      "status": "candidate-context",
+      "text": "HAProxy Load Balancer's development branch (mirror of git.haproxy.org)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haproxy/haproxy",
+      "status": "candidate-context",
+      "text": "Cross Compile"
     }
   ],
   "candidate_glosses": [
@@ -84,6 +109,18 @@
       "source_repo": "rust-cross/cargo-zigbuild",
       "status": "candidate",
       "text": "[![CI](https://github.com/rust-cross/cargo-zigbuild/workflows/CI/badge.svg)](https://github.com/rust-cross/cargo-zigbuild/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "not-fl3/miniquad",
+      "status": "candidate",
+      "text": "Cross-compile"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haproxy/haproxy",
+      "status": "candidate",
+      "text": "Cross Compile"
     }
   ],
   "candidate_related_terms": [
@@ -151,11 +188,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "rust-cross/cargo-zigbuild"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "not-fl3/miniquad"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/cross-zoo.yml",
+      "source_repo": "haproxy/haproxy"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

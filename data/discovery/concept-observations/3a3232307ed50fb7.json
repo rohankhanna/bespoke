@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A production-ready QUIC implementation in pure Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "ClusterFuzzLite batch fuzzing"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "ClusterFuzzLite batch fuzzing"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16154,
+      "status": "candidate",
+      "text": "fuzz"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14654,
+      "status": "candidate",
+      "text": "fuzzy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4870,
+      "status": "candidate",
+      "text": "clarifying"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4870,
+      "status": "candidate",
+      "text": "defuzzing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4870,
+      "status": "candidate",
+      "text": "refining"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "ClusterFuzzLite batch fuzzing",
+      "sense_id": "clusterfuzzlite-batch-fuzzing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "clusterfuzzlite-batch-fuzzing",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "clusterfuzzlite-batch-fuzzing",
+  "observation_id": "3a3232307ed50fb7",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "ClusterFuzzLite batch fuzzing",
+  "source_context_snippet": "ClusterFuzzLite batch fuzzing",
+  "source_file": ".github/workflows/clusterfuzz-lite-batch.yml",
+  "source_repo": "quic-go/quic-go",
+  "source_repo_description": "A production-ready QUIC implementation in pure Go"
+}

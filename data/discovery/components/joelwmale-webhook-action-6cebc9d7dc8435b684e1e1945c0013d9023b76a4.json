@@ -1,0 +1,12 @@
+{
+  "component": "joelwmale/webhook-action@6cebc9d7dc8435b684e1e1945c0013d9023b76a4",
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nightly-site-deploy.yml",
+      "source_repo": "mochajs/mocha"
+    }
+  ]
+}

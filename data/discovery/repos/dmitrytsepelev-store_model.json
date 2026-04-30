@@ -1,0 +1,183 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rspec.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rspec.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rubocop.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rubocop.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rspec.yml",
+      "source_repo": "DmitryTsepelev/store_model",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rspec.yml",
+      "source_repo": "DmitryTsepelev/store_model",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rspec.yml",
+      "source_repo": "DmitryTsepelev/store_model",
+      "target": "RSpec",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rubocop.yml",
+      "source_repo": "DmitryTsepelev/store_model",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rubocop.yml",
+      "source_repo": "DmitryTsepelev/store_model",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rubocop.yml",
+      "source_repo": "DmitryTsepelev/store_model",
+      "target": "Rubocop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DmitryTsepelev/store_model",
+      "target": "activerecord",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DmitryTsepelev/store_model",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DmitryTsepelev/store_model",
+      "target": "json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DmitryTsepelev/store_model",
+      "target": "rails",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DmitryTsepelev/store_model",
+      "target": "ruby",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:12:39.659672+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6357
+    },
+    {
+      "path": ".github/workflows/rspec.yml",
+      "size": 2112
+    },
+    {
+      "path": ".github/workflows/rubocop.yml",
+      "size": 522
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Work with JSON-backed attributes as ActiveRecord-ish models",
+    "fork": false,
+    "full_name": "DmitryTsepelev/store_model",
+    "html_url": "https://github.com/DmitryTsepelev/store_model",
+    "language": "Ruby",
+    "pushed_at": "2026-04-16T17:48:06Z",
+    "stargazers_count": 1218,
+    "topics": [
+      "activerecord",
+      "hacktoberfest",
+      "json",
+      "rails",
+      "ruby"
+    ],
+    "updated_at": "2026-04-17T13:58:02Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "RSpec",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rspec.yml",
+      "term": "RSpec"
+    },
+    {
+      "context_snippet": "Rubocop",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rubocop.yml",
+      "term": "Rubocop"
+    },
+    {
+      "context_snippet": "**StoreModel** gem allows you to wrap JSON-backed DB columns with ActiveModel-like classes.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "activerecord"
+    },
+    {
+      "context_snippet": "**StoreModel** gem allows you to wrap JSON-backed DB columns with ActiveModel-like classes.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "**StoreModel** gem allows you to wrap JSON-backed DB columns with ActiveModel-like classes.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json"
+    },
+    {
+      "context_snippet": "**StoreModel** gem allows you to wrap JSON-backed DB columns with ActiveModel-like classes.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rails"
+    },
+    {
+      "context_snippet": "**StoreModel** gem allows you to wrap JSON-backed DB columns with ActiveModel-like classes.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    }
+  ]
+}

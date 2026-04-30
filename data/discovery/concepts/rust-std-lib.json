@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "rust-std-lib"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hermit-os/rust-std-hermit",
+      "status": "candidate-context",
+      "text": "Installable distribution artifacts of rust-std for hermit."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hermit-os/rust-std-hermit",
+      "status": "candidate-context",
+      "text": "This repository provides installable distribution artifacts of `rust-std` for the `hermit` targets."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hermit-os/rust-std-hermit",
+      "status": "candidate",
+      "text": "This repository provides installable distribution artifacts of `rust-std` for the `hermit` targets."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "rust-std-lib",
+  "concept_id": "rust-std-lib",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "hermit-os/rust-std-hermit"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rust-std-lib",
+      "sense_id": "rust-std-lib#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

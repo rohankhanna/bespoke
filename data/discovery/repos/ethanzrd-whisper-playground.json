@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T13:02:44.377819+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1643
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Build real time speech2text web apps using OpenAI's Whisper https://openai.com/blog/whisper/",
+    "fork": true,
+    "full_name": "ethanzrd/whisper-playground",
+    "html_url": "https://github.com/ethanzrd/whisper-playground",
+    "language": "JavaScript",
+    "pushed_at": "2023-08-11T07:01:04Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2023-07-23T23:27:03Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

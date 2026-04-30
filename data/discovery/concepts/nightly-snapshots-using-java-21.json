@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Nightly Snapshots using Java 21"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jruby/jruby",
+      "status": "candidate-context",
+      "text": "JRuby, an implementation of Ruby on the JVM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jruby/jruby",
+      "status": "candidate-context",
+      "text": "Nightly Snapshots using Java 21"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jruby/jruby",
+      "status": "candidate",
+      "text": "Nightly Snapshots using Java 21"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31442,
+      "status": "candidate",
+      "text": "iron"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26310,
+      "status": "candidate",
+      "text": "darkness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26310,
+      "status": "candidate",
+      "text": "overnight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22564,
+      "status": "candidate",
+      "text": "decaf"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22411,
+      "status": "candidate",
+      "text": "abc"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Nightly Snapshots using Java 21",
+  "concept_id": "nightly-snapshots-using-java-21",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/nightly-snapshot-publish-21.yml",
+      "source_repo": "jruby/jruby"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Nightly Snapshots using Java 21",
+      "sense_id": "nightly-snapshots-using-java-21#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "https://docs.openwebui.com"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Welcome to the official documentation for **Open WebUI** \u2014 a self-hosted, privacy-focused, and extensible AI interface for LLMs like Ollama and OpenAI-compatible APIs."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Welcome to the official documentation for **Open WebUI** \u2014 a self-hosted, privacy-focused, and extensible AI interface for LLMs like Ollama and OpenAI-compatible APIs."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "open-webui",
+      "sense_id": "open-webui#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "open-webui",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "open-webui",
+  "observation_id": "d49e8dfc537bfab7",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "open-webui",
+  "source_context_snippet": "Welcome to the official documentation for **Open WebUI** \u2014 a self-hosted, privacy-focused, and extensible AI interface for LLMs like Ollama and OpenAI-compatible APIs.",
+  "source_file": null,
+  "source_repo": "open-webui/docs",
+  "source_repo_description": "https://docs.openwebui.com"
+}

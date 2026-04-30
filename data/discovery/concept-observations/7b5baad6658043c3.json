@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A tool for translating Persian text to IPA (International Phonetic Alphabet)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A tool for translating Persian text to IPA (International Phonetic Alphabet)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A tool for translating Persian text to IPA (International Phonetic Alphabet)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dependency-parser",
+      "sense_id": "dependency-parser#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "dependency-parser",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dependency-parser",
+  "observation_id": "7b5baad6658043c3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "dependency-parser",
+  "source_context_snippet": "A tool for translating Persian text to IPA (International Phonetic Alphabet).",
+  "source_file": null,
+  "source_repo": "de-mh/persian_phonemizer",
+  "source_repo_description": "A tool for translating Persian text to IPA (International Phonetic Alphabet)."
+}

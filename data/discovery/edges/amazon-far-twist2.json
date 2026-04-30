@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "amazon-far/TWIST2",
+      "target": "yanjieze/improved-3d-diffusion-policy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "amazon-far/TWIST2",
+      "target": "xr-robotics/xrobotoolkit-unity-client",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "amazon-far/TWIST2",
+      "target": "xr-robotics/xrobotoolkit-pc-service",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "amazon-far/TWIST2",
+      "target": "yanjieze/twist",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-30T12:45:20.475770+00:00",
+  "source_repo": "amazon-far/TWIST2"
+}

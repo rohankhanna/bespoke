@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lewis6991/hover.nvim",
+      "target": "ankitpokhrel/jira-cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lewis6991/hover.nvim",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:06:44.260266+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6869
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Hover plugin framework for Neovim",
+    "fork": false,
+    "full_name": "lewis6991/hover.nvim",
+    "html_url": "https://github.com/lewis6991/hover.nvim",
+    "language": "Lua",
+    "pushed_at": "2026-03-20T12:46:44Z",
+    "stargazers_count": 729,
+    "topics": [
+      "neovim-plugin"
+    ],
+    "updated_at": "2026-04-29T12:56:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ankitpokhrel/jira-cli",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "General framework for context aware hover providers (similar to `vim.lsp.buf.hover`).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    }
+  ]
+}

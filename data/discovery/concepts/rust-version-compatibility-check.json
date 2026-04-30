@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Rust version compatibility check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Keats/os_info",
+      "status": "candidate-context",
+      "text": "Rust library to detect the operating system type"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Keats/os_info",
+      "status": "candidate-context",
+      "text": "Rust version compatibility check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Keats/os_info",
+      "status": "candidate",
+      "text": "Rust version compatibility check"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29361,
+      "status": "candidate",
+      "text": "oxidize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29022,
+      "status": "candidate",
+      "text": "access"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29007,
+      "status": "candidate",
+      "text": "syndrome"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28711,
+      "status": "candidate",
+      "text": "condition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28711,
+      "status": "candidate",
+      "text": "conditions"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Rust version compatibility check",
+  "concept_id": "rust-version-compatibility-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/version.yml",
+      "source_repo": "Keats/os_info"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Rust version compatibility check",
+      "sense_id": "rust-version-compatibility-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

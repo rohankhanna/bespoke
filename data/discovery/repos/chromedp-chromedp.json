@@ -1,0 +1,211 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chromedp/chromedp",
+      "target": "chromedp/examples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chromedp/chromedp",
+      "target": "chromedp/pdlgen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chromedp/chromedp",
+      "target": "chromedp/chromedp-proxy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "chromedp/chromedp",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "chromedp/chromedp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "chromedp/chromedp",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chromedp/chromedp",
+      "target": "chrome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chromedp/chromedp",
+      "target": "chrome-debugging-protocol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chromedp/chromedp",
+      "target": "chrome-devtools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chromedp/chromedp",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chromedp/chromedp",
+      "target": "headless",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chromedp/chromedp",
+      "target": "testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chromedp/chromedp",
+      "target": "unit-testing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:59:06.813801+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4178
+    },
+    {
+      "path": "go.mod",
+      "size": 539
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 596
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A faster, simpler way to drive browsers supporting the Chrome DevTools Protocol.",
+    "fork": false,
+    "full_name": "chromedp/chromedp",
+    "html_url": "https://github.com/chromedp/chromedp",
+    "language": "Go",
+    "pushed_at": "2026-03-23T21:40:20Z",
+    "stargazers_count": 13001,
+    "topics": [
+      "chrome",
+      "chrome-debugging-protocol",
+      "chrome-devtools",
+      "golang",
+      "headless",
+      "testing",
+      "unit-testing"
+    ],
+    "updated_at": "2026-04-30T15:54:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chromedp/chromedp-proxy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chromedp/examples",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chromedp/pdlgen",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "Package `chromedp` is a faster, simpler way to drive browsers supporting the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chrome"
+    },
+    {
+      "context_snippet": "Package `chromedp` is a faster, simpler way to drive browsers supporting the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chrome-debugging-protocol"
+    },
+    {
+      "context_snippet": "Package `chromedp` is a faster, simpler way to drive browsers supporting the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chrome-devtools"
+    },
+    {
+      "context_snippet": "Package `chromedp` is a faster, simpler way to drive browsers supporting the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "Package `chromedp` is a faster, simpler way to drive browsers supporting the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "headless"
+    },
+    {
+      "context_snippet": "Package `chromedp` is a faster, simpler way to drive browsers supporting the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testing"
+    },
+    {
+      "context_snippet": "Package `chromedp` is a faster, simpler way to drive browsers supporting the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unit-testing"
+    }
+  ]
+}

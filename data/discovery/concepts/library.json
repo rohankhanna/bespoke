@@ -718,6 +718,126 @@
       "source_repo": "evanwashere/mitata",
       "status": "candidate-context",
       "text": "mitata \u2014 benchmark tooling that loves you \u2764\ufe0f"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ehmicky/nve",
+      "status": "candidate-context",
+      "text": "Run any command on specific Node.js versions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/nve",
+      "status": "candidate-context",
+      "text": "<picture>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rolldown/tsdown",
+      "status": "candidate-context",
+      "text": "The elegant bundler for libraries powered by Rolldown"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rolldown/tsdown",
+      "status": "candidate-context",
+      "text": "<img src=\"./docs/public/og-image.svg\" alt=\"tsdown\" width=\"100%\" /><br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/FASTER",
+      "status": "candidate-context",
+      "text": "Fast persistent recoverable log and key-value store + cache, in C# and C++."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/FASTER",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "miurahr/py7zr",
+      "status": "candidate-context",
+      "text": "7zip in python3 with ZStandard, PPMd, LZMA2, LZMA1, Delta, BCJ, BZip2, and Deflate compressions, and AES encryption."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "miurahr/py7zr",
+      "status": "candidate-context",
+      "text": "======================================"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heyoeyo/toadui",
+      "status": "candidate-context",
+      "text": "A UI library, with warts!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heyoeyo/toadui",
+      "status": "candidate-context",
+      "text": "ToadUI is a helper UI library, written in Python, built on top of the basic UI provided by [OpenCV](https://opencv.org/). As such, it inherits much of the UI limitations of OpenCV but also it's ease of use. The goal is to provide ready-to-use UI elements that are not already par\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/pdfbox",
+      "status": "candidate-context",
+      "text": "Mirror of Apache PDFBox"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/pdfbox",
+      "status": "candidate-context",
+      "text": "<!---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hazelcast/hazelcast-cpp-client",
+      "status": "candidate-context",
+      "text": "Hazelcast IMDG C++ Client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hazelcast/hazelcast-cpp-client",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ehmicky/all-node-versions",
+      "status": "candidate-context",
+      "text": "List all available Node.js versions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/all-node-versions",
+      "status": "candidate-context",
+      "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/all-node-versions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ehmicky/fetch-node-website",
+      "status": "candidate-context",
+      "text": "Fetch releases on nodejs.org"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/fetch-node-website",
+      "status": "candidate-context",
+      "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/fetch-node-website)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ehmicky/get-node",
+      "status": "candidate-context",
+      "text": "Download a specific version of Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/get-node",
+      "status": "candidate-context",
+      "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/get-node)"
     }
   ],
   "candidate_glosses": [
@@ -1074,6 +1194,66 @@
       "source_repo": "evanwashere/mitata",
       "status": "candidate",
       "text": "mitata \u2014 benchmark tooling that loves you \u2764\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/nve",
+      "status": "candidate",
+      "text": "<picture>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rolldown/tsdown",
+      "status": "candidate",
+      "text": "<img src=\"./docs/public/og-image.svg\" alt=\"tsdown\" width=\"100%\" /><br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/FASTER",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "miurahr/py7zr",
+      "status": "candidate",
+      "text": "======================================"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heyoeyo/toadui",
+      "status": "candidate",
+      "text": "ToadUI is a helper UI library, written in Python, built on top of the basic UI provided by [OpenCV](https://opencv.org/). As such, it inherits much of the UI limitations of OpenCV but also it's ease of use. The goal is to provide ready-to-use UI elements that are not already par\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/pdfbox",
+      "status": "candidate",
+      "text": "<!---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hazelcast/hazelcast-cpp-client",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/all-node-versions",
+      "status": "candidate",
+      "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/all-node-versions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/fetch-node-website",
+      "status": "candidate",
+      "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/fetch-node-website)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/get-node",
+      "status": "candidate",
+      "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/get-node)"
     }
   ],
   "candidate_related_terms": [
@@ -1534,11 +1714,77 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "evanwashere/mitata"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ehmicky/nve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "rolldown/tsdown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/FASTER"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "miurahr/py7zr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "rust-nvml/nvml-wrapper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "heyoeyo/toadui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "apache/pdfbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast-cpp-client"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ehmicky/all-node-versions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ehmicky/fetch-node-website"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ehmicky/get-node"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

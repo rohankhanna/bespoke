@@ -1,0 +1,147 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arch_ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arch_ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arch_ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arch_ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arch_ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arch_ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "YosysHQ/nextpnr",
+      "target": "gatecat/prjoxide",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "YosysHQ/nextpnr",
+      "target": "ravenslofty/mistral",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "YosysHQ/nextpnr",
+      "target": "f4pga/prjxray",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "YosysHQ/nextpnr",
+      "target": "cseed/arachne-pnr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arch_ci.yml",
+      "source_repo": "YosysHQ/nextpnr",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arch_ci.yml",
+      "source_repo": "YosysHQ/nextpnr",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arch_ci.yml",
+      "source_repo": "YosysHQ/nextpnr",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/arch_ci.yml",
+      "source_repo": "YosysHQ/nextpnr",
+      "target": "Arch CI tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:51:11.096399+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14387
+    },
+    {
+      "path": ".github/workflows/arch_ci.yml",
+      "size": 2974
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "nextpnr portable FPGA place and route tool",
+    "fork": false,
+    "full_name": "YosysHQ/nextpnr",
+    "html_url": "https://github.com/YosysHQ/nextpnr",
+    "language": "C++",
+    "pushed_at": "2026-04-30T06:07:13Z",
+    "stargazers_count": 1658,
+    "topics": [],
+    "updated_at": "2026-04-30T06:07:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cseed/arachne-pnr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "f4pga/prjxray",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gatecat/prjoxide",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ravenslofty/mistral",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Arch CI tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/arch_ci.yml",
+      "term": "Arch CI tests"
+    }
+  ]
+}

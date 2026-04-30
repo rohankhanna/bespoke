@@ -5,28 +5,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Subindices",
-      "target": "danielrosehill/favorite-code-libraries",
+      "target": "danielrosehill/github-ideas-and-frs",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Subindices",
-      "target": "danielrosehill/feature-ideas-and-requests",
+      "target": "danielrosehill/github-management-tools-index",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Subindices",
-      "target": "danielrosehill/geopolitical-and-osint-index",
+      "target": "danielrosehill/home-assistant-index",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Subindices",
-      "target": "danielrosehill/geopol-forecasts-index",
+      "target": "danielrosehill/homebox-projects-index",
       "target_type": "repository"
     },
     {
@@ -44,7 +44,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T09:24:39.710963+00:00",
+  "fetched_at": "2026-04-30T14:58:22.638679+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -71,22 +71,22 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/favorite-code-libraries",
+      "full_name": "danielrosehill/github-ideas-and-frs",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/feature-ideas-and-requests",
+      "full_name": "danielrosehill/github-management-tools-index",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/geopol-forecasts-index",
+      "full_name": "danielrosehill/home-assistant-index",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/geopolitical-and-osint-index",
+      "full_name": "danielrosehill/homebox-projects-index",
       "source_file": "README.md"
     }
   ],

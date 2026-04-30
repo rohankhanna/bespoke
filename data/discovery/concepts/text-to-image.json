@@ -103,6 +103,42 @@
       "source_repo": "ai-forever/Kandinsky-2",
       "status": "candidate-context",
       "text": "[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1MfN9dfmejT8NjXhR353NeP5RzbruHgo7?usp=sharing) \u2014 Inference example"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HolmesShuan/FireFlow-Fast-Inversion-of-Rectified-Flow-for-Image-Semantic-Editing",
+      "status": "candidate-context",
+      "text": "[ICML2025] An 8-step inversion and 8-step editing process works effectively with the FLUX-dev model. (3x speedup with results that are comparable or even superior to baseline methods)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HolmesShuan/FireFlow-Fast-Inversion-of-Rectified-Flow-for-Image-Semantic-Editing",
+      "status": "candidate-context",
+      "text": "> TL;DR: An 8-step inversion and 8-step editing process works effectively with the FLUX-dev model. (3x speedup with results that are comparable or even superior to baseline methods)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lcysyzxdxc/AGIQA-3k-Database",
+      "status": "candidate-context",
+      "text": "[IEEE TCSVT2023] A Fine-grained Subjective Perception & Alignment Database for AI Generated Image Quality Assessment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lcysyzxdxc/AGIQA-3k-Database",
+      "status": "candidate-context",
+      "text": "The AGIQA-3K is a fine-grained AI-Generated Image (AGI) subjective quality assessment database. Please refer to our paper (AGIQA-3K: An Open Database for AI-Generated Image Quality Assessment) [here](https://arxiv.org/abs/2306.04717) for more details."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MiniMax-AI/MiniMax-MCP",
+      "status": "candidate-context",
+      "text": "Official MiniMax Model Context Protocol (MCP) server that enables interaction with powerful Text to Speech, image generation and video generation APIs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MiniMax-AI/MiniMax-MCP",
+      "status": "candidate-context",
+      "text": "![export](https://github.com/MiniMax-AI/MiniMax-01/raw/main/figures/MiniMaxLogo-Light.png)"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +189,24 @@
       "source_repo": "ai-forever/Kandinsky-2",
       "status": "candidate",
       "text": "[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1MfN9dfmejT8NjXhR353NeP5RzbruHgo7?usp=sharing) \u2014 Inference example"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HolmesShuan/FireFlow-Fast-Inversion-of-Rectified-Flow-for-Image-Semantic-Editing",
+      "status": "candidate",
+      "text": "> TL;DR: An 8-step inversion and 8-step editing process works effectively with the FLUX-dev model. (3x speedup with results that are comparable or even superior to baseline methods)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lcysyzxdxc/AGIQA-3k-Database",
+      "status": "candidate",
+      "text": "The AGIQA-3K is a fine-grained AI-Generated Image (AGI) subjective quality assessment database. Please refer to our paper (AGIQA-3K: An Open Database for AI-Generated Image Quality Assessment) [here](https://arxiv.org/abs/2306.04717) for more details."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MiniMax-AI/MiniMax-MCP",
+      "status": "candidate",
+      "text": "![export](https://github.com/MiniMax-AI/MiniMax-01/raw/main/figures/MiniMaxLogo-Light.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -208,11 +262,29 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "ai-forever/Kandinsky-2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "HolmesShuan/FireFlow-Fast-Inversion-of-Rectified-Flow-for-Image-Semantic-Editing"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "lcysyzxdxc/AGIQA-3k-Database"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "MiniMax-AI/MiniMax-MCP"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

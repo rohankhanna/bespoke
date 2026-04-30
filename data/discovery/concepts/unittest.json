@@ -65,6 +65,18 @@
       "source_repo": "autodeployai/ai-serving",
       "status": "candidate-context",
       "text": "Unittest"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ZhuoZhuoCrayon/throttled-py",
+      "status": "candidate-context",
+      "text": "\ud83d\udd27 High-performance Python rate limiting library with multiple algorithms (Fixed Window, Sliding Window, Token Bucket, Leaky Bucket & GCRA) and storage backends (Redis, In-Memory)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ZhuoZhuoCrayon/throttled-py",
+      "status": "candidate-context",
+      "text": "Unittest"
     }
   ],
   "candidate_glosses": [
@@ -95,6 +107,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "autodeployai/ai-serving",
+      "status": "candidate",
+      "text": "Unittest"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ZhuoZhuoCrayon/throttled-py",
       "status": "candidate",
       "text": "Unittest"
     }
@@ -170,11 +188,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/unittest.yml",
       "source_repo": "autodeployai/ai-serving"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/unittest.yml",
+      "source_repo": "ZhuoZhuoCrayon/throttled-py"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

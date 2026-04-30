@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A 'CSS reset' for TypeScript, improving types for common JavaScript API's"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "@total-typescript/ts-reset \u2014 A CSS reset for TypeScript, improving types for common JavaScript API's"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "@total-typescript/ts-reset \u2014 A CSS reset for TypeScript, improving types for common JavaScript API's"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40038186,
+      "status": "candidate",
+      "text": "readjust"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30038305,
+      "status": "candidate",
+      "text": "restart"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30038237,
+      "status": "candidate",
+      "text": "reconstitute"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30038216,
+      "status": "candidate",
+      "text": "rebuild"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30038209,
+      "status": "candidate",
+      "text": "rebalance"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "reset",
+      "sense_id": "reset#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4034,
+      "status": "candidate",
+      "text": "readjust"
+    }
+  ],
+  "concept_id": "reset",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "reset",
+  "observation_id": "5e4ccdb6405f91ad",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "reset",
+  "source_context_snippet": "@total-typescript/ts-reset \u2014 A CSS reset for TypeScript, improving types for common JavaScript API's",
+  "source_file": null,
+  "source_repo": "mattpocock/ts-reset",
+  "source_repo_description": "A 'CSS reset' for TypeScript, improving types for common JavaScript API's"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "JRuby, an implementation of Ruby on the JVM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Nightly Snapshots using Java 21"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Nightly Snapshots using Java 21"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31442,
+      "status": "candidate",
+      "text": "iron"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26310,
+      "status": "candidate",
+      "text": "darkness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26310,
+      "status": "candidate",
+      "text": "overnight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22564,
+      "status": "candidate",
+      "text": "decaf"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22411,
+      "status": "candidate",
+      "text": "abc"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Nightly Snapshots using Java 21",
+      "sense_id": "nightly-snapshots-using-java-21#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "nightly-snapshots-using-java-21",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "nightly-snapshots-using-java-21",
+  "observation_id": "fc8075e1c1d60fe3",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "Nightly Snapshots using Java 21",
+  "source_context_snippet": "Nightly Snapshots using Java 21",
+  "source_file": ".github/workflows/nightly-snapshot-publish-21.yml",
+  "source_repo": "jruby/jruby",
+  "source_repo_description": "JRuby, an implementation of Ruby on the JVM"
+}

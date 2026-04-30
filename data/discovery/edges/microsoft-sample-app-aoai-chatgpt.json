@@ -1,0 +1,174 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/sample-app-aoai-chatGPT",
+      "target": "microsoft/oryx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-static-files.yml",
+      "source_repo": "microsoft/sample-app-aoai-chatGPT",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-static-files.yml",
+      "source_repo": "microsoft/sample-app-aoai-chatGPT",
+      "target": "tj-actions/changed-files@v46",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-static-files.yml",
+      "source_repo": "microsoft/sample-app-aoai-chatGPT",
+      "target": "mshick/add-pr-comment@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-static-files.yml",
+      "source_repo": "microsoft/sample-app-aoai-chatGPT",
+      "target": "Check changes to static files",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image-build.yml",
+      "source_repo": "microsoft/sample-app-aoai-chatGPT",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-image-build.yml",
+      "source_repo": "microsoft/sample-app-aoai-chatGPT",
+      "target": "Docker Image Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image-publish.yml",
+      "source_repo": "microsoft/sample-app-aoai-chatGPT",
+      "target": "Azure/docker-login@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image-publish.yml",
+      "source_repo": "microsoft/sample-app-aoai-chatGPT",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-image-publish.yml",
+      "source_repo": "microsoft/sample-app-aoai-chatGPT",
+      "target": "Docker Image Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "microsoft/sample-app-aoai-chatGPT",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "microsoft/sample-app-aoai-chatGPT",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "microsoft/sample-app-aoai-chatGPT",
+      "target": "Build Frontend",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-app.yml",
+      "source_repo": "microsoft/sample-app-aoai-chatGPT",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-app.yml",
+      "source_repo": "microsoft/sample-app-aoai-chatGPT",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-app.yml",
+      "source_repo": "microsoft/sample-app-aoai-chatGPT",
+      "target": "irongut/CodeCoverageSummary@v1.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sample-app-github-cd.yml",
+      "source_repo": "microsoft/sample-app-aoai-chatGPT",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sample-app-github-cd.yml",
+      "source_repo": "microsoft/sample-app-aoai-chatGPT",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sample-app-github-cd.yml",
+      "source_repo": "microsoft/sample-app-aoai-chatGPT",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sample-app-github-cd.yml",
+      "source_repo": "microsoft/sample-app-aoai-chatGPT",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sample-app-github-cd.yml",
+      "source_repo": "microsoft/sample-app-aoai-chatGPT",
+      "target": "azure/login@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sample-app-github-cd.yml",
+      "source_repo": "microsoft/sample-app-aoai-chatGPT",
+      "target": "azure/webapps-deploy@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale-issues.yml",
+      "source_repo": "microsoft/sample-app-aoai-chatGPT",
+      "target": "actions/stale@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale-issues.yml",
+      "source_repo": "microsoft/sample-app-aoai-chatGPT",
+      "target": "Close inactive issues",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T12:45:20.475770+00:00",
+  "source_repo": "microsoft/sample-app-aoai-chatGPT"
+}

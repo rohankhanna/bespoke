@@ -55,6 +55,18 @@
       "source_repo": "parlance-zz/g-diffuser-bot",
       "status": "candidate-context",
       "text": "![https://www.stablecabal.org](https://www.g-diffuser.com/stablecabal.png) https://www.stablecabal.org"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "technobird22/TechnoBot",
+      "status": "candidate-context",
+      "text": "A multipurpose Discord bot utilizing a variety of AI models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "technobird22/TechnoBot",
+      "status": "candidate-context",
+      "text": "A multipurpose Discord bot that can interface with a variety of AI models."
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "parlance-zz/g-diffuser-bot",
       "status": "candidate",
       "text": "![https://www.stablecabal.org](https://www.g-diffuser.com/stablecabal.png) https://www.stablecabal.org"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "technobird22/TechnoBot",
+      "status": "candidate",
+      "text": "A multipurpose Discord bot that can interface with a variety of AI models."
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "parlance-zz/g-diffuser-bot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "technobird22/TechnoBot"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

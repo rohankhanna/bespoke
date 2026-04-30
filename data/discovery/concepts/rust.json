@@ -6016,6 +6016,270 @@
       "source_repo": "dalance/ptags",
       "status": "candidate-context",
       "text": "A parallel [universal-ctags](https://ctags.io) wrapper for git repository"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "beeequeue/nvm-rust",
+      "status": "candidate-context",
+      "text": "A cross-platform node version manager that doesn't suck as much"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beeequeue/nvm-rust",
+      "status": "candidate-context",
+      "text": "\u26a0\ufe0f This tool is deprecated, I recommend using **mise** instead as it has excellent UX and works on all platforms!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pdeljanov/Symphonia",
+      "status": "candidate-context",
+      "text": "Pure Rust multimedia format demuxing, tag reading, and audio decoding library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pdeljanov/Symphonia",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RustAudio/cpal",
+      "status": "candidate-context",
+      "text": "Cross-platform audio I/O library in pure Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RustAudio/cpal",
+      "status": "candidate-context",
+      "text": "[![Actions Status](https://github.com/RustAudio/cpal/workflows/cpal/badge.svg)](https://github.com/RustAudio/cpal/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EricLBuehler/mistral.rs",
+      "status": "candidate-context",
+      "text": "Fast, flexible LLM inference"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EricLBuehler/mistral.rs",
+      "status": "candidate-context",
+      "text": "<a name=\"top\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "randspace0/Anime4K-rs",
+      "status": "candidate-context",
+      "text": "An attempt to write Anime4K in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "randspace0/Anime4K-rs",
+      "status": "candidate-context",
+      "text": "An attempt to write Anime4K in Rust."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "not-fl3/macroquad",
+      "status": "candidate-context",
+      "text": "Cross-platform game engine in Rust. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "not-fl3/macroquad",
+      "status": "candidate-context",
+      "text": "[![Github Actions](https://github.com/not-fl3/macroquad/workflows/CI/badge.svg)](https://github.com/not-fl3/macroquad/actions?query=workflow%3A)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Misterio77/flavours",
+      "status": "candidate-context",
+      "text": "\ud83c\udfa8\ud83d\udca7 An easy to use base16 scheme manager that integrates with any workflow."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Misterio77/flavours",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Misterio77/flavours",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vmchale/tin-summer",
+      "status": "candidate-context",
+      "text": "Find build artifacts that are taking up disk space"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vmchale/tin-summer",
+      "status": "candidate-context",
+      "text": "[![Windows build status](https://ci.appveyor.com/api/projects/status/github/vmchale/tin-summer?svg=true)](https://ci.appveyor.com/project/vmchale/tin-summer)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hermit-os/rust-std-hermit",
+      "status": "candidate-context",
+      "text": "Installable distribution artifacts of rust-std for hermit."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hermit-os/rust-std-hermit",
+      "status": "candidate-context",
+      "text": "This repository provides installable distribution artifacts of `rust-std` for the `hermit` targets."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Dicklesworthstone/coding_agent_session_search",
+      "status": "candidate-context",
+      "text": "Unified TUI and CLI to index and search your local coding agent session history across 11+ providers (Codex, Claude, Gemini, Cursor, Aider, etc.)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dicklesworthstone/coding_agent_session_search",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EmmyLuaLs/emmylua-analyzer-rust",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aliezzahn/rsbuild-plugin-css-optimizer",
+      "status": "candidate-context",
+      "text": "An Rsbuild plugin to customize CSS minification, allowing you to choose between cssnano (JavaScript-based) or Lightning CSS (Rust-based) for high-performance CSS compression."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aliezzahn/rsbuild-plugin-css-optimizer",
+      "status": "candidate-context",
+      "text": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/web-infra-dev/awesome-rspack)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aliezzahn/rsbuild-plugin-markdown-loader",
+      "status": "candidate-context",
+      "text": "A plugin for rsbuild.dev that enables importing and rendering Markdown files as React components or pure HTML."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aliezzahn/rsbuild-plugin-markdown-loader",
+      "status": "candidate-context",
+      "text": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/web-infra-dev/awesome-rspack)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kylebarron/parquet-wasm",
+      "status": "candidate-context",
+      "text": "Rust-based WebAssembly bindings to read and write Apache Parquet data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kylebarron/parquet-wasm",
+      "status": "candidate-context",
+      "text": "WebAssembly bindings to read and write the [Apache Parquet](https://parquet.apache.org/) format to and from [Apache Arrow](https://arrow.apache.org/) using the Rust [`parquet`](https://crates.io/crates/parquet) and [`arrow`](https://crates.io/crates/arrow) crates."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "deven96/ahnlich",
+      "status": "candidate-context",
+      "text": "Suite of tools containing an in-memory vector datastore and AI proxy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deven96/ahnlich",
+      "status": "candidate-context",
+      "text": "<p align=\"left\"><img src=\"assets/logo.jpg\" alt=\"ahnlich\" height=\"120px\"></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RazrFalcon/memmap2-rs",
+      "status": "candidate-context",
+      "text": "cross-platform Rust API for memory mapped IO"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RazrFalcon/memmap2-rs",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "djc/tokio-retry",
+      "status": "candidate-context",
+      "text": "Extensible, asynchronous retry behaviours for futures/tokio"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "djc/tokio-retry",
+      "status": "candidate-context",
+      "text": "Extensible, asynchronous retry behaviours for the ecosystem of [tokio](https://tokio.rs/) libraries."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "udoprog/genco",
+      "status": "candidate-context",
+      "text": "A whitespace-aware quasiquoter for beautiful code generation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "udoprog/genco",
+      "status": "candidate-context",
+      "text": "[<img alt=\"github\" src=\"https://img.shields.io/badge/github-udoprog/genco-8da0cb?style=for-the-badge&logo=github\" height=\"20\">](https://github.com/udoprog/genco)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jni-rs/jni-rs",
+      "status": "candidate-context",
+      "text": "Rust bindings to the Java Native Interface \u2014 JNI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jni-rs/jni-rs",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/jni-rs/jni-rs/actions/workflows/ci.yml/badge.svg)](https://github.com/jni-rs/jni-rs/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "matsadler/magnus",
+      "status": "candidate-context",
+      "text": "Ruby bindings for Rust. Write Ruby extension gems in Rust, or call Ruby from Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matsadler/magnus",
+      "status": "candidate-context",
+      "text": "High level Ruby bindings for Rust. Write Ruby extension gems in Rust, or call"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "neon-bindings/examples",
+      "status": "candidate-context",
+      "text": "A collection of examples of Neon"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neon-bindings/examples",
+      "status": "candidate-context",
+      "text": "![Github Actions](https://github.com/neon-bindings/examples/workflows/Test/badge.svg?branch=main)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "germangb/minimp3-rs",
+      "status": "candidate-context",
+      "text": "minimp3 rust bindings + wrapper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "germangb/minimp3-rs",
+      "status": "candidate-context",
+      "text": "Rust bindings and high-level wrapper for the minimp3 library."
     }
   ],
   "candidate_glosses": [
@@ -9102,6 +9366,144 @@
       "source_repo": "dalance/ptags",
       "status": "candidate",
       "text": "A parallel [universal-ctags](https://ctags.io) wrapper for git repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beeequeue/nvm-rust",
+      "status": "candidate",
+      "text": "\u26a0\ufe0f This tool is deprecated, I recommend using **mise** instead as it has excellent UX and works on all platforms!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pdeljanov/Symphonia",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RustAudio/cpal",
+      "status": "candidate",
+      "text": "[![Actions Status](https://github.com/RustAudio/cpal/workflows/cpal/badge.svg)](https://github.com/RustAudio/cpal/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EricLBuehler/mistral.rs",
+      "status": "candidate",
+      "text": "<a name=\"top\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "randspace0/Anime4K-rs",
+      "status": "candidate",
+      "text": "An attempt to write Anime4K in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "not-fl3/macroquad",
+      "status": "candidate",
+      "text": "[![Github Actions](https://github.com/not-fl3/macroquad/workflows/CI/badge.svg)](https://github.com/not-fl3/macroquad/actions?query=workflow%3A)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Misterio77/flavours",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Misterio77/flavours",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vmchale/tin-summer",
+      "status": "candidate",
+      "text": "[![Windows build status](https://ci.appveyor.com/api/projects/status/github/vmchale/tin-summer?svg=true)](https://ci.appveyor.com/project/vmchale/tin-summer)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hermit-os/rust-std-hermit",
+      "status": "candidate",
+      "text": "This repository provides installable distribution artifacts of `rust-std` for the `hermit` targets."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dicklesworthstone/coding_agent_session_search",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EmmyLuaLs/emmylua-analyzer-rust",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aliezzahn/rsbuild-plugin-css-optimizer",
+      "status": "candidate",
+      "text": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/web-infra-dev/awesome-rspack)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aliezzahn/rsbuild-plugin-markdown-loader",
+      "status": "candidate",
+      "text": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/web-infra-dev/awesome-rspack)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kylebarron/parquet-wasm",
+      "status": "candidate",
+      "text": "WebAssembly bindings to read and write the [Apache Parquet](https://parquet.apache.org/) format to and from [Apache Arrow](https://arrow.apache.org/) using the Rust [`parquet`](https://crates.io/crates/parquet) and [`arrow`](https://crates.io/crates/arrow) crates."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deven96/ahnlich",
+      "status": "candidate",
+      "text": "<p align=\"left\"><img src=\"assets/logo.jpg\" alt=\"ahnlich\" height=\"120px\"></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RazrFalcon/memmap2-rs",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "djc/tokio-retry",
+      "status": "candidate",
+      "text": "Extensible, asynchronous retry behaviours for the ecosystem of [tokio](https://tokio.rs/) libraries."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "udoprog/genco",
+      "status": "candidate",
+      "text": "[<img alt=\"github\" src=\"https://img.shields.io/badge/github-udoprog/genco-8da0cb?style=for-the-badge&logo=github\" height=\"20\">](https://github.com/udoprog/genco)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jni-rs/jni-rs",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/jni-rs/jni-rs/actions/workflows/ci.yml/badge.svg)](https://github.com/jni-rs/jni-rs/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matsadler/magnus",
+      "status": "candidate",
+      "text": "High level Ruby bindings for Rust. Write Ruby extension gems in Rust, or call"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neon-bindings/examples",
+      "status": "candidate",
+      "text": "![Github Actions](https://github.com/neon-bindings/examples/workflows/Test/badge.svg?branch=main)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "germangb/minimp3-rs",
+      "status": "candidate",
+      "text": "Rust bindings and high-level wrapper for the minimp3 library."
     }
   ],
   "candidate_related_terms": [
@@ -13435,11 +13837,359 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "dalance/ptags"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "beeequeue/nvm-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "bionic-gpt/bionic-gpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "pdeljanov/Symphonia"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "RustAudio/cpal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ratatui/ratatui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "EricLBuehler/mistral.rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "randspace0/Anime4K-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "not-fl3/macroquad"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "Misterio77/flavours"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Misterio77/flavours"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "vaporif/parry-guard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "vmchale/tin-summer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "hermit-os/kernel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "hermit-os/rust-std-hermit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "hermit-os/hermit-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "astral-sh/ruff"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-corrosion/corrosion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/rust-analyzer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Dicklesworthstone/coding_agent_session_search"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "EmmyLuaLs/emmylua-analyzer-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "dmtrKovalenko/fff"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "crate-ci/cargo-release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "aliezzahn/rsbuild-plugin-css-optimizer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "aliezzahn/rsbuild-plugin-markdown-loader"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "arkworks-rs/poly-commit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "arkworks-rs/std"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "Layr-Labs/bn254-bls-keystore-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "dirs-dev/dirs-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/vscode-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "psmux/pstop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "psmux/psmux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "psmux/Tmux-Plugin-Panel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-rust-actix-casbin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-actix-casbin-auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-axum-casbin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "kylebarron/parquet-wasm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "safetensors/safetensors"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "deven96/ahnlich"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "apache/datafusion-ballista"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "apache/datafusion-ballista"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "apache/datafusion-ballista-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "quickwit-oss/tantivy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "RazrFalcon/memmap2-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "djc/tokio-retry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "udoprog/genco"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "jni-rs/jni-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "matsadler/magnus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "neon-bindings/examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB-Client-Rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "germangb/minimp3-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "tracel-ai/burn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "chelsea0x3b/dfdx"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

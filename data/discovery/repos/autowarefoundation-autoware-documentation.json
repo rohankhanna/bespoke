@@ -1,0 +1,497 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment-on-pr.yaml"
+    },
+    {
+      "component": "marocchino/sticky-pull-request-comment@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment-on-pr.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/delete-closed-pr-docs.yaml"
+    },
+    {
+      "component": "autowarefoundation/autoware-github-actions/delete-closed-pr-docs@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/delete-closed-pr-docs.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/delete-removed-branch-docs.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/delete-removed-branch-docs.yaml"
+    },
+    {
+      "component": "autowarefoundation/autoware-github-actions/set-git-config@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/delete-removed-branch-docs.yaml"
+    },
+    {
+      "component": "autowarefoundation/autoware-github-actions/.github/workflows/require-label.yaml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yaml"
+    },
+    {
+      "component": "autowarefoundation/autoware-github-actions/deploy-docs@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yaml"
+    },
+    {
+      "component": "autowarefoundation/autoware-github-actions/deploy-docs@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yaml"
+    },
+    {
+      "component": "autowarefoundation/autoware-github-actions/deploy-docs@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-release.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-release.yaml"
+    },
+    {
+      "component": "autowarefoundation/autoware-github-actions/generate-changelog@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-release.yaml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-release.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-optional.yaml"
+    },
+    {
+      "component": "autowarefoundation/autoware-github-actions/pre-commit@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-optional.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reorder-versions.yaml"
+    },
+    {
+      "component": "autowarefoundation/autoware-github-actions/set-git-config@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reorder-versions.yaml"
+    },
+    {
+      "component": "autowarefoundation/autoware-github-actions/.github/workflows/semantic-pull-request.yaml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/semantic-pull-request.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spell-check-differential.yaml"
+    },
+    {
+      "component": "autowarefoundation/autoware-github-actions/spell-check@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spell-check-differential.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "autowarefoundation/autoware-documentation",
+      "target": "autowarefoundation/.github",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment-on-pr.yaml",
+      "source_repo": "autowarefoundation/autoware-documentation",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment-on-pr.yaml",
+      "source_repo": "autowarefoundation/autoware-documentation",
+      "target": "marocchino/sticky-pull-request-comment@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/comment-on-pr.yaml",
+      "source_repo": "autowarefoundation/autoware-documentation",
+      "target": "comment-on-pr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/delete-closed-pr-docs.yaml",
+      "source_repo": "autowarefoundation/autoware-documentation",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/delete-closed-pr-docs.yaml",
+      "source_repo": "autowarefoundation/autoware-documentation",
+      "target": "autowarefoundation/autoware-github-actions/delete-closed-pr-docs@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/delete-closed-pr-docs.yaml",
+      "source_repo": "autowarefoundation/autoware-documentation",
+      "target": "delete-closed-pr-docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/delete-removed-branch-docs.yaml",
+      "source_repo": "autowarefoundation/autoware-documentation",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/delete-removed-branch-docs.yaml",
+      "source_repo": "autowarefoundation/autoware-documentation",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/delete-removed-branch-docs.yaml",
+      "source_repo": "autowarefoundation/autoware-documentation",
+      "target": "autowarefoundation/autoware-github-actions/set-git-config@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/delete-removed-branch-docs.yaml",
+      "source_repo": "autowarefoundation/autoware-documentation",
+      "target": "delete-removed-branch-docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yaml",
+      "source_repo": "autowarefoundation/autoware-documentation",
+      "target": "autowarefoundation/autoware-github-actions/.github/workflows/require-label.yaml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yaml",
+      "source_repo": "autowarefoundation/autoware-documentation",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yaml",
+      "source_repo": "autowarefoundation/autoware-documentation",
+      "target": "autowarefoundation/autoware-github-actions/deploy-docs@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-docs.yaml",
+      "source_repo": "autowarefoundation/autoware-documentation",
+      "target": "deploy-docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-release.yaml",
+      "source_repo": "autowarefoundation/autoware-documentation",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-release.yaml",
+      "source_repo": "autowarefoundation/autoware-documentation",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-release.yaml",
+      "source_repo": "autowarefoundation/autoware-documentation",
+      "target": "autowarefoundation/autoware-github-actions/generate-changelog@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-release.yaml",
+      "source_repo": "autowarefoundation/autoware-documentation",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github-release.yaml",
+      "source_repo": "autowarefoundation/autoware-documentation",
+      "target": "github-release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-optional.yaml",
+      "source_repo": "autowarefoundation/autoware-documentation",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-optional.yaml",
+      "source_repo": "autowarefoundation/autoware-documentation",
+      "target": "autowarefoundation/autoware-github-actions/pre-commit@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit-optional.yaml",
+      "source_repo": "autowarefoundation/autoware-documentation",
+      "target": "pre-commit-optional",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reorder-versions.yaml",
+      "source_repo": "autowarefoundation/autoware-documentation",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reorder-versions.yaml",
+      "source_repo": "autowarefoundation/autoware-documentation",
+      "target": "autowarefoundation/autoware-github-actions/set-git-config@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reorder-versions.yaml",
+      "source_repo": "autowarefoundation/autoware-documentation",
+      "target": "reorder-versions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/semantic-pull-request.yaml",
+      "source_repo": "autowarefoundation/autoware-documentation",
+      "target": "autowarefoundation/autoware-github-actions/.github/workflows/semantic-pull-request.yaml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/semantic-pull-request.yaml",
+      "source_repo": "autowarefoundation/autoware-documentation",
+      "target": "semantic-pull-request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spell-check-differential.yaml",
+      "source_repo": "autowarefoundation/autoware-documentation",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spell-check-differential.yaml",
+      "source_repo": "autowarefoundation/autoware-documentation",
+      "target": "autowarefoundation/autoware-github-actions/spell-check@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spell-check-differential.yaml",
+      "source_repo": "autowarefoundation/autoware-documentation",
+      "target": "spell-check-differential",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autowarefoundation/autoware-documentation",
+      "target": "autoware",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autowarefoundation/autoware-documentation",
+      "target": "documentation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T12:56:10.581757+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2054
+    },
+    {
+      "path": ".github/workflows/comment-on-pr.yaml",
+      "size": 1502
+    },
+    {
+      "path": ".github/workflows/delete-closed-pr-docs.yaml",
+      "size": 617
+    },
+    {
+      "path": ".github/workflows/delete-removed-branch-docs.yaml",
+      "size": 2965
+    },
+    {
+      "path": ".github/workflows/deploy-docs.yaml",
+      "size": 2501
+    },
+    {
+      "path": ".github/workflows/github-release.yaml",
+      "size": 1551
+    },
+    {
+      "path": ".github/workflows/pre-commit-optional.yaml",
+      "size": 624
+    },
+    {
+      "path": ".github/workflows/reorder-versions.yaml",
+      "size": 2937
+    },
+    {
+      "path": ".github/workflows/semantic-pull-request.yaml",
+      "size": 442
+    },
+    {
+      "path": ".github/workflows/spell-check-differential.yaml",
+      "size": 779
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "autowarefoundation/autoware-documentation",
+    "html_url": "https://github.com/autowarefoundation/autoware-documentation",
+    "language": "Python",
+    "pushed_at": "2026-04-30T07:59:54Z",
+    "stargazers_count": 126,
+    "topics": [
+      "autoware",
+      "documentation"
+    ],
+    "updated_at": "2026-04-30T07:58:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "autowarefoundation/.github",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "comment-on-pr",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/comment-on-pr.yaml",
+      "term": "comment-on-pr"
+    },
+    {
+      "context_snippet": "delete-closed-pr-docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/delete-closed-pr-docs.yaml",
+      "term": "delete-closed-pr-docs"
+    },
+    {
+      "context_snippet": "delete-removed-branch-docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/delete-removed-branch-docs.yaml",
+      "term": "delete-removed-branch-docs"
+    },
+    {
+      "context_snippet": "deploy-docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-docs.yaml",
+      "term": "deploy-docs"
+    },
+    {
+      "context_snippet": "github-release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github-release.yaml",
+      "term": "github-release"
+    },
+    {
+      "context_snippet": "pre-commit-optional",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit-optional.yaml",
+      "term": "pre-commit-optional"
+    },
+    {
+      "context_snippet": "reorder-versions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reorder-versions.yaml",
+      "term": "reorder-versions"
+    },
+    {
+      "context_snippet": "semantic-pull-request",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/semantic-pull-request.yaml",
+      "term": "semantic-pull-request"
+    },
+    {
+      "context_snippet": "spell-check-differential",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spell-check-differential.yaml",
+      "term": "spell-check-differential"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autoware"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "documentation"
+    }
+  ]
+}

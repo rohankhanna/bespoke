@@ -1,0 +1,140 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "py-cov-action/python-coverage-comment-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "py-cov-action/python-coverage-comment-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "py-cov-action/python-coverage-comment-action-v2-example",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "py-cov-action/python-coverage-comment-action-v2-example",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "py-cov-action/python-coverage-comment-action-v2-example",
+      "target": "py-cov-action/python-coverage-comment-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "py-cov-action/python-coverage-comment-action-v2-example",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "py-cov-action/python-coverage-comment-action-v2-example",
+      "target": "py-cov-action/python-coverage-comment-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "py-cov-action/python-coverage-comment-action-v2-example",
+      "target": "Post coverage comment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "py-cov-action/python-coverage-comment-action-v2-example",
+      "target": "actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "py-cov-action/python-coverage-comment-action-v2-example",
+      "target": "github-actions",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:09:35.896242+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 488
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1120
+    },
+    {
+      "path": ".github/workflows/coverage.yml",
+      "size": 551
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Example repo for v2 of python-coverage-comment-action",
+    "fork": false,
+    "full_name": "py-cov-action/python-coverage-comment-action-v2-example",
+    "html_url": "https://github.com/py-cov-action/python-coverage-comment-action-v2-example",
+    "language": "Python",
+    "pushed_at": "2023-02-05T13:24:26Z",
+    "stargazers_count": 1,
+    "topics": [
+      "actions",
+      "github-actions"
+    ],
+    "updated_at": "2025-05-17T09:54:07Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Post coverage comment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "term": "Post coverage comment"
+    },
+    {
+      "context_snippet": "> **Note**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "actions"
+    },
+    {
+      "context_snippet": "> **Note**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-actions"
+    }
+  ]
+}

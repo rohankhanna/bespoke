@@ -43,6 +43,42 @@
       "source_repo": "remkop/picocli",
       "status": "candidate-context",
       "text": "<p align=\"center\"><img src=\"docs/images/logo/horizontal-400x150.png\" alt=\"picocli\" height=\"150px\"></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graalvm/graalvm-demos",
+      "status": "candidate-context",
+      "text": "This repository contains example applications to illustrate the different capabilities of GraalVM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graalvm/graalvm-demos",
+      "status": "candidate-context",
+      "text": "This repository contains a collection of example applications that highlight key features and best practices for working with GraalVM technologies."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graalvm/native-build-tools",
+      "status": "candidate-context",
+      "text": "Native-image plugins for various build tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graalvm/native-build-tools",
+      "status": "candidate-context",
+      "text": "![](https://github.com/graalvm/native-build-tools/actions/workflows/test-native-gradle-plugin.yml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graalvm/setup-graalvm",
+      "status": "candidate-context",
+      "text": "Set up your GitHub Actions workflow with a specific GraalVM distribution."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graalvm/setup-graalvm",
+      "status": "candidate-context",
+      "text": "Set up your GitHub Actions workflow with a specific [GraalVM][graalvm] distribution, and use it both as your JDK and for [ahead-of-time Native Image compilation][graalvm]."
     }
   ],
   "candidate_glosses": [
@@ -63,6 +99,24 @@
       "source_repo": "remkop/picocli",
       "status": "candidate",
       "text": "<p align=\"center\"><img src=\"docs/images/logo/horizontal-400x150.png\" alt=\"picocli\" height=\"150px\"></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graalvm/graalvm-demos",
+      "status": "candidate",
+      "text": "This repository contains a collection of example applications that highlight key features and best practices for working with GraalVM technologies."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graalvm/native-build-tools",
+      "status": "candidate",
+      "text": "![](https://github.com/graalvm/native-build-tools/actions/workflows/test-native-gradle-plugin.yml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graalvm/setup-graalvm",
+      "status": "candidate",
+      "text": "Set up your GitHub Actions workflow with a specific [GraalVM][graalvm] distribution, and use it both as your JDK and for [ahead-of-time Native Image compilation][graalvm]."
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +142,29 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "remkop/picocli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "graalvm/graalvm-demos"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "graalvm/native-build-tools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "graalvm/setup-graalvm"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

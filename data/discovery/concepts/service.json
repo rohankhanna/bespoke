@@ -97,6 +97,18 @@
       "source_repo": "ebkalderon/tower-lsp",
       "status": "candidate-context",
       "text": "[![Build Status][build-badge]][build-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "qri-io/qri",
+      "status": "candidate-context",
+      "text": "you're invited to a data party!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qri-io/qri",
+      "status": "candidate-context",
+      "text": "[![Qri](https://img.shields.io/badge/made%20by-qri-magenta.svg?style=flat-square)](https://qri.io) [![GoDoc](https://godoc.org/github.com/qri-io/qri?status.svg)](http://godoc.org/github.com/qri-io/qri) [![License](https://img.shields.io/github/license/qri-io/qri.svg?style=flat-s\u2026"
     }
   ],
   "candidate_glosses": [
@@ -147,6 +159,12 @@
       "source_repo": "ebkalderon/tower-lsp",
       "status": "candidate",
       "text": "[![Build Status][build-badge]][build-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qri-io/qri",
+      "status": "candidate",
+      "text": "[![Qri](https://img.shields.io/badge/made%20by-qri-magenta.svg?style=flat-square)](https://qri.io) [![GoDoc](https://godoc.org/github.com/qri-io/qri?status.svg)](http://godoc.org/github.com/qri-io/qri) [![License](https://img.shields.io/github/license/qri-io/qri.svg?style=flat-s\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -274,11 +292,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "ebkalderon/tower-lsp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "qri-io/qri"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

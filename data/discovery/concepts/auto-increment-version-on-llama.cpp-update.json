@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Auto-increment version on llama.cpp update"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dianlight/gollama.cpp",
+      "status": "candidate-context",
+      "text": "A high-performance Go binding for llama.cpp using purego for cross-platform compatibility without CGO."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dianlight/gollama.cpp",
+      "status": "candidate-context",
+      "text": "Auto-increment version on llama.cpp update"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dianlight/gollama.cpp",
+      "status": "candidate",
+      "text": "Auto-increment version on llama.cpp update"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11826,
+      "status": "candidate",
+      "text": "edition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11826,
+      "status": "candidate",
+      "text": "point"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11826,
+      "status": "candidate",
+      "text": "redo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11826,
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11826,
+      "status": "candidate",
+      "text": "remake"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Auto-increment version on llama.cpp update",
+  "concept_id": "auto-increment-version-on-llama.cpp-update",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/auto-version-bump.yml",
+      "source_repo": "dianlight/gollama.cpp"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Auto-increment version on llama.cpp update",
+      "sense_id": "auto-increment-version-on-llama.cpp-update#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

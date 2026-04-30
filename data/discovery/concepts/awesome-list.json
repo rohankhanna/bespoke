@@ -559,6 +559,42 @@
       "source_repo": "rstackjs/awesome-rstack",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sdras/awesome-actions",
+      "status": "candidate-context",
+      "text": "A curated list of awesome actions to use on GitHub"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sdras/awesome-actions",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pditommaso/awesome-pipeline",
+      "status": "candidate-context",
+      "text": "A curated list of awesome pipeline toolkits inspired by Awesome Sysadmin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pditommaso/awesome-pipeline",
+      "status": "candidate-context",
+      "text": "Awesome Pipeline"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "niuiic/awesome-neovim-plugins",
+      "status": "candidate-context",
+      "text": "Awesome neovim plugins I have written."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "niuiic/awesome-neovim-plugins",
+      "status": "candidate-context",
+      "text": "Awesome neovim plugins I have written."
     }
   ],
   "candidate_glosses": [
@@ -831,6 +867,24 @@
       "source_repo": "rstackjs/awesome-rstack",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sdras/awesome-actions",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pditommaso/awesome-pipeline",
+      "status": "candidate",
+      "text": "Awesome Pipeline"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "niuiic/awesome-neovim-plugins",
+      "status": "candidate",
+      "text": "Awesome neovim plugins I have written."
     }
   ],
   "candidate_related_terms": [],
@@ -1174,11 +1228,35 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "rstackjs/awesome-rstack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "f/prompts.chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "sdras/awesome-actions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "pditommaso/awesome-pipeline"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "niuiic/awesome-neovim-plugins"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

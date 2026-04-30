@@ -235,6 +235,24 @@
       "source_repo": "ipfs/aegir",
       "status": "candidate-context",
       "text": "Semantic PR"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "box/box-openapi",
+      "status": "candidate-context",
+      "text": "OpenAPI 3.0 Specification for the Box APIs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "box/box-openapi",
+      "status": "candidate-context",
+      "text": "Semantic PR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipshipyard/github-mgmt",
+      "status": "candidate-context",
+      "text": "\"Semantic PR\""
     }
   ],
   "candidate_glosses": [
@@ -351,6 +369,18 @@
       "source_repo": "ipfs/aegir",
       "status": "candidate",
       "text": "Semantic PR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "box/box-openapi",
+      "status": "candidate",
+      "text": "Semantic PR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipshipyard/github-mgmt",
+      "status": "candidate",
+      "text": "\"Semantic PR\""
     }
   ],
   "candidate_related_terms": [
@@ -532,11 +562,29 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/semantic-pull-request.yml",
       "source_repo": "ipfs-shipyard/is-ipfs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/semantic-pr.yml",
+      "source_repo": "box/box-openapi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/reusable-semantic-pull-request.yml",
+      "source_repo": "ipshipyard/github-mgmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/semantic-pull-request.yml",
+      "source_repo": "ipfs-shipyard/is-ipfs"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

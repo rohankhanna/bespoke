@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "The-Focus-AI/buttondown-skill",
+      "target": "buttondown",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "The-Focus-AI/buttondown-skill",
+      "target": "claude-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "The-Focus-AI/buttondown-skill",
+      "target": "claude-code-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "The-Focus-AI/buttondown-skill",
+      "target": "newsletter",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:57:57.616108+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1681
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Claude Code plugin skill for managing Buttondown newsletters - create drafts, schedule emails, view analytics",
+    "fork": false,
+    "full_name": "The-Focus-AI/buttondown-skill",
+    "html_url": "https://github.com/The-Focus-AI/buttondown-skill",
+    "language": "TypeScript",
+    "pushed_at": "2026-01-17T13:33:49Z",
+    "stargazers_count": 2,
+    "topics": [
+      "buttondown",
+      "claude-code",
+      "claude-code-plugin",
+      "newsletter"
+    ],
+    "updated_at": "2026-04-29T11:02:52Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A Claude Code plugin skill for managing Buttondown newsletters. Create drafts, schedule emails, view analytics, and manage your newsletter directly through Claude.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "buttondown"
+    },
+    {
+      "context_snippet": "A Claude Code plugin skill for managing Buttondown newsletters. Create drafts, schedule emails, view analytics, and manage your newsletter directly through Claude.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code"
+    },
+    {
+      "context_snippet": "A Claude Code plugin skill for managing Buttondown newsletters. Create drafts, schedule emails, view analytics, and manage your newsletter directly through Claude.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code-plugin"
+    },
+    {
+      "context_snippet": "A Claude Code plugin skill for managing Buttondown newsletters. Create drafts, schedule emails, view analytics, and manage your newsletter directly through Claude.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "newsletter"
+    }
+  ]
+}

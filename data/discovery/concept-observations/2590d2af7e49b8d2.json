@@ -1,0 +1,88 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build Arch package"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build Arch package"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34155,
+      "status": "candidate",
+      "text": "vault"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26506,
+      "status": "candidate",
+      "text": "cove"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26106,
+      "status": "candidate",
+      "text": "camerate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17901,
+      "status": "candidate",
+      "text": "fabric"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17901,
+      "status": "candidate",
+      "text": "found"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Arch package",
+      "sense_id": "build-arch-package#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-arch-package",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-arch-package",
+  "observation_id": "2590d2af7e49b8d2",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "Build Arch package",
+  "source_context_snippet": "Build Arch package",
+  "source_file": ".github/workflows/arch-package.yml",
+  "source_repo": "BoukeHaarsma23/zenergy",
+  "source_repo_description": null
+}

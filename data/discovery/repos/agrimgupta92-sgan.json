@@ -1,0 +1,118 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agrimgupta92/sgan",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agrimgupta92/sgan",
+      "target": "generative-adversarial-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agrimgupta92/sgan",
+      "target": "human-trajectory-prediction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agrimgupta92/sgan",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agrimgupta92/sgan",
+      "target": "social-navigation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agrimgupta92/sgan",
+      "target": "trajectory-prediction",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:07:21.096759+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3603
+    },
+    {
+      "path": "requirements.txt",
+      "size": 109
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Code for \"Social GAN: Socially Acceptable Trajectories with Generative Adversarial Networks\", Gupta et al, CVPR 2018",
+    "fork": false,
+    "full_name": "agrimgupta92/sgan",
+    "html_url": "https://github.com/agrimgupta92/sgan",
+    "language": "Python",
+    "pushed_at": "2023-11-24T09:20:51Z",
+    "stargazers_count": 912,
+    "topics": [
+      "deep-learning",
+      "generative-adversarial-network",
+      "human-trajectory-prediction",
+      "pytorch",
+      "social-navigation",
+      "trajectory-prediction"
+    ],
+    "updated_at": "2026-04-30T08:07:26Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This is the code for the paper",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "This is the code for the paper",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-adversarial-network"
+    },
+    {
+      "context_snippet": "This is the code for the paper",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "human-trajectory-prediction"
+    },
+    {
+      "context_snippet": "This is the code for the paper",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "This is the code for the paper",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "social-navigation"
+    },
+    {
+      "context_snippet": "This is the code for the paper",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "trajectory-prediction"
+    }
+  ]
+}

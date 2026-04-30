@@ -49,6 +49,24 @@
       "source_repo": "ipld/github-mgmt",
       "status": "candidate-context",
       "text": "Clean Up"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipshipyard/github-mgmt",
+      "status": "candidate-context",
+      "text": "Clean Up"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libp2p/github-mgmt",
+      "status": "candidate-context",
+      "text": "Clean Up"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "multiformats/github-mgmt",
+      "status": "candidate-context",
+      "text": "Clean Up"
     }
   ],
   "candidate_glosses": [
@@ -85,6 +103,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ipld/github-mgmt",
+      "status": "candidate",
+      "text": "Clean Up"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipshipyard/github-mgmt",
+      "status": "candidate",
+      "text": "Clean Up"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libp2p/github-mgmt",
+      "status": "candidate",
+      "text": "Clean Up"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "multiformats/github-mgmt",
       "status": "candidate",
       "text": "Clean Up"
     }
@@ -172,11 +208,35 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/cleanup.yml",
       "source_repo": "ipld/github-mgmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/cleanup.yml",
+      "source_repo": "ipdxco/github-as-code"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/cleanup.yml",
+      "source_repo": "ipshipyard/github-mgmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/cleanup.yml",
+      "source_repo": "libp2p/github-mgmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/cleanup.yml",
+      "source_repo": "multiformats/github-mgmt"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

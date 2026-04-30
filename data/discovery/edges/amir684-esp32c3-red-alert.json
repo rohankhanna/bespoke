@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "amir684/esp32c3-red-alert",
+      "target": "tzapu/wifimanager",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "amir684/esp32c3-red-alert",
+      "target": "adafruit/adafruit_neopixel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "amir684/esp32c3-red-alert",
+      "target": "majicdesigns/md_parola",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "amir684/esp32c3-red-alert",
+      "target": "majicdesigns/md_max72xx",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-30T12:45:20.475770+00:00",
+  "source_repo": "amir684/esp32c3-red-alert"
+}

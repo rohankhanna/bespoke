@@ -1,0 +1,182 @@
+{
+  "components": [
+    {
+      "component": "node-gyp-build",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "node-addon-api",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "node-gyp",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "decibri/decibri.cpp",
+      "target": "decibri/decibri",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "decibri/decibri.cpp",
+      "target": "node-gyp-build",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "decibri/decibri.cpp",
+      "target": "node-addon-api",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "decibri/decibri.cpp",
+      "target": "node-gyp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "decibri/decibri.cpp",
+      "target": "audio-capture",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "decibri/decibri.cpp",
+      "target": "cross-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "decibri/decibri.cpp",
+      "target": "microphone",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "decibri/decibri.cpp",
+      "target": "microphone-capture",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "decibri/decibri.cpp",
+      "target": "speech-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "decibri/decibri.cpp",
+      "target": "voice",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "decibri/decibri.cpp",
+      "target": "voice-ai",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:01:09.632392+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7719
+    },
+    {
+      "path": "package.json",
+      "size": 1165
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": " Cross-platform microphone audio capture for Node.js with pre-built binaries. No build tools required.",
+    "fork": false,
+    "full_name": "decibri/decibri.cpp",
+    "html_url": "https://github.com/decibri/decibri.cpp",
+    "language": "C++",
+    "pushed_at": "2026-04-16T12:24:04Z",
+    "stargazers_count": 6,
+    "topics": [
+      "audio-capture",
+      "cross-platform",
+      "microphone",
+      "microphone-capture",
+      "speech-recognition",
+      "voice",
+      "voice-ai"
+    ],
+    "updated_at": "2026-04-19T13:51:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "decibri/decibri",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<!-- markdownlint-disable MD033 MD041 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio-capture"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable MD033 MD041 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-platform"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable MD033 MD041 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microphone"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable MD033 MD041 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microphone-capture"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable MD033 MD041 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-recognition"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable MD033 MD041 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "voice"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable MD033 MD041 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "voice-ai"
+    }
+  ]
+}

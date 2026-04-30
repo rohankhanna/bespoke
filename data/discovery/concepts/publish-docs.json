@@ -165,6 +165,102 @@
       "source_repo": "secretflow/secretflow",
       "status": "candidate-context",
       "text": "Publish Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "com-lihaoyi/mill",
+      "status": "candidate-context",
+      "text": "A better build tool for Java, Scala and Kotlin: Simpler than Maven, easier than Gradle, with 3-7x faster dev workflows than other JVM build tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "com-lihaoyi/mill",
+      "status": "candidate-context",
+      "text": "Publish Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Shopify/ruby-lsp",
+      "status": "candidate-context",
+      "text": "An opinionated language server for Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shopify/ruby-lsp",
+      "status": "candidate-context",
+      "text": "Publish docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/onnxscript",
+      "status": "candidate-context",
+      "text": "ONNX Script enables developers to naturally author ONNX functions and models using a subset of Python."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/onnxscript",
+      "status": "candidate-context",
+      "text": "Publish Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "evilmartians/lefthook",
+      "status": "candidate-context",
+      "text": "Fast and powerful Git hooks manager for any type of projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evilmartians/lefthook",
+      "status": "candidate-context",
+      "text": "Publish Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "secretflow/heu",
+      "status": "candidate-context",
+      "text": "A high-performance homomorphic encryption algorithm library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "secretflow/heu",
+      "status": "candidate-context",
+      "text": "Publish Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "secretflow/kuscia",
+      "status": "candidate-context",
+      "text": "Kuscia(Kubernetes-based Secure Collaborative InfrA) is a K8s-based privacy-preserving computing task orchestration framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "secretflow/kuscia",
+      "status": "candidate-context",
+      "text": "Publish Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "secretflow/scql",
+      "status": "candidate-context",
+      "text": "SCQL  (Secure Collaborative Query Language) is a system that allows multiple distrusting parties to run joint analysis without revealing their private data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "secretflow/scql",
+      "status": "candidate-context",
+      "text": "Publish Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "secretflow/spu",
+      "status": "candidate-context",
+      "text": "SPU (Secure Processing Unit) aims to be a provable, measurable secure computation device, which provides computation ability while keeping your private data protected."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "secretflow/spu",
+      "status": "candidate-context",
+      "text": "Publish Docs"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +339,54 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "secretflow/secretflow",
+      "status": "candidate",
+      "text": "Publish Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "com-lihaoyi/mill",
+      "status": "candidate",
+      "text": "Publish Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shopify/ruby-lsp",
+      "status": "candidate",
+      "text": "Publish docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/onnxscript",
+      "status": "candidate",
+      "text": "Publish Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evilmartians/lefthook",
+      "status": "candidate",
+      "text": "Publish Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "secretflow/heu",
+      "status": "candidate",
+      "text": "Publish Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "secretflow/kuscia",
+      "status": "candidate",
+      "text": "Publish Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "secretflow/scql",
+      "status": "candidate",
+      "text": "Publish Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "secretflow/spu",
       "status": "candidate",
       "text": "Publish Docs"
     }
@@ -414,11 +558,71 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/docs-publish.yml",
       "source_repo": "secretflow/secretflow"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "source_repo": "com-lihaoyi/mill"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/publish_docs.yml",
+      "source_repo": "Shopify/ruby-lsp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "source_repo": "scala-interop/slinc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/pages.yaml",
+      "source_repo": "microsoft/onnxscript"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "axolotl-ai-cloud/axolotl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "evilmartians/lefthook"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/docs-publish.yml",
+      "source_repo": "secretflow/heu"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/docs-publish.yml",
+      "source_repo": "secretflow/kuscia"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/docs-publish.yml",
+      "source_repo": "secretflow/scql"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/docs-publish.yml",
+      "source_repo": "secretflow/spu"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

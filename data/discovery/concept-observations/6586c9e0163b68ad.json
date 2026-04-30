@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Cryptography-oriented big integer library with constant-time, stack-allocated (no_std-friendly) implementations of modern formulas"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "crypto-bigint"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "crypto-bigint"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "crypto-bigint",
+      "sense_id": "crypto-bigint#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "crypto-bigint",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "crypto-bigint",
+  "observation_id": "6586c9e0163b68ad",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "crypto-bigint",
+  "source_context_snippet": "crypto-bigint",
+  "source_file": ".github/workflows/crypto-bigint.yml",
+  "source_repo": "sp1-patches/RustCrypto-bigint",
+  "source_repo_description": "Cryptography-oriented big integer library with constant-time, stack-allocated (no_std-friendly) implementations of modern formulas"
+}

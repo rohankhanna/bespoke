@@ -1,0 +1,108 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Geopol-Forecasts-Index",
+      "target": "danielrosehill/geopol-forecast-council",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Geopol-Forecasts-Index",
+      "target": "danielrosehill/iran-israel-ceasefire-prediction-090426",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Geopol-Forecasts-Index",
+      "target": "danielrosehill/geopol-forecaster-planning",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Geopol-Forecasts-Index",
+      "target": "danielrosehill/geopolitical-and-osint-index",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Geopol-Forecasts-Index",
+      "target": "geopolitics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Geopol-Forecasts-Index",
+      "target": "preditive-modelling",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:58:02.753166+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7491
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Index of prediction runs from Geopol Forecaster with accuracy tracking. Snowglobe + LLM Council pipeline.",
+    "fork": false,
+    "full_name": "danielrosehill/Geopol-Forecasts-Index",
+    "html_url": "https://github.com/danielrosehill/Geopol-Forecasts-Index",
+    "language": null,
+    "pushed_at": "2026-04-18T21:26:34Z",
+    "stargazers_count": 0,
+    "topics": [
+      "ai",
+      "geopolitics",
+      "preditive-modelling"
+    ],
+    "updated_at": "2026-04-18T21:26:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/geopol-forecast-council",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/geopol-forecaster-planning",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/geopolitical-and-osint-index",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/iran-israel-ceasefire-prediction-090426",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Index of prediction runs across two related pipelines:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geopolitics"
+    },
+    {
+      "context_snippet": "Index of prediction runs across two related pipelines:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "preditive-modelling"
+    }
+  ]
+}

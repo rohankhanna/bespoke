@@ -1,0 +1,117 @@
+{
+  "components": [
+    {
+      "component": "jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "minimist",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "standard",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "scarf-sh/scarf-js",
+      "target": "jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "scarf-sh/scarf-js",
+      "target": "minimist",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "scarf-sh/scarf-js",
+      "target": "standard",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "scarf-sh/scarf-js",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "scarf-sh/scarf-js",
+      "target": "actions/setup-node@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T12:50:03.365211+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6888
+    },
+    {
+      "path": "package.json",
+      "size": 824
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1341
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Installation analytics for your npm package",
+    "fork": false,
+    "full_name": "scarf-sh/scarf-js",
+    "html_url": "https://github.com/scarf-sh/scarf-js",
+    "language": "JavaScript",
+    "pushed_at": "2024-11-22T17:04:13Z",
+    "stargazers_count": 174,
+    "topics": [],
+    "updated_at": "2026-03-13T15:50:14Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

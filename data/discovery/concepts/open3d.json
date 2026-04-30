@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "open3d"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "isl-org/open3d-cmake-external-project",
+      "status": "candidate-context",
+      "text": "Use Open3D as a CMake external project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isl-org/open3d-cmake-external-project",
+      "status": "candidate-context",
+      "text": "See the [main Open3D repo](https://github.com/isl-org/Open3D/tree/main/examples/cmake/open3d-cmake-external-project) for an updated example."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "isl-org/open3d-cmake-find-package",
+      "status": "candidate-context",
+      "text": "Find pre-installed Open3D package in CMake"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isl-org/open3d-cmake-find-package",
+      "status": "candidate-context",
+      "text": "Please see [the main Open3D repo](https://github.com/isl-org/Open3D/tree/main/examples/cmake/open3d-cmake-find-package) for an updated example."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isl-org/open3d-cmake-external-project",
+      "status": "candidate",
+      "text": "See the [main Open3D repo](https://github.com/isl-org/Open3D/tree/main/examples/cmake/open3d-cmake-external-project) for an updated example."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isl-org/open3d-cmake-find-package",
+      "status": "candidate",
+      "text": "Please see [the main Open3D repo](https://github.com/isl-org/Open3D/tree/main/examples/cmake/open3d-cmake-find-package) for an updated example."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "open3d",
+  "concept_id": "open3d",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/open3d-cmake-external-project"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/open3d-cmake-find-package"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "open3d",
+      "sense_id": "open3d#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,137 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "NuGet/login@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ardalis/Ardalis.SharedKernel",
+      "target": "nimblepros/sharedkernelsample",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ardalis/Ardalis.SharedKernel",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ardalis/Ardalis.SharedKernel",
+      "target": "actions/setup-dotnet@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ardalis/Ardalis.SharedKernel",
+      "target": "Build and Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ardalis/Ardalis.SharedKernel",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ardalis/Ardalis.SharedKernel",
+      "target": "actions/setup-dotnet@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ardalis/Ardalis.SharedKernel",
+      "target": "NuGet/login@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ardalis/Ardalis.SharedKernel",
+      "target": "Publish to Nuget",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:08:03.406170+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1187
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 603
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 1396
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Some useful base classes, mainly used with the CleanArchitecture template. Also, a template to make your own SharedKernel nuget package.",
+    "fork": false,
+    "full_name": "ardalis/Ardalis.SharedKernel",
+    "html_url": "https://github.com/ardalis/Ardalis.SharedKernel",
+    "language": "C#",
+    "pushed_at": "2025-11-13T19:43:15Z",
+    "stargazers_count": 172,
+    "topics": [],
+    "updated_at": "2026-04-09T14:34:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nimblepros/sharedkernelsample",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build and Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Build and Test"
+    },
+    {
+      "context_snippet": "Publish to Nuget",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish to Nuget"
+    }
+  ]
+}

@@ -1,0 +1,399 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnetcore.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnetcore.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/richnav.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/richnav.yml"
+    },
+    {
+      "component": "microsoft/RichCodeNavIndexer@v0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/richnav.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dotnet-architecture/eShopOnWeb",
+      "target": "nimblepros/eshoponweb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dotnet-architecture/eShopOnWeb",
+      "target": "dotnet/eshoponcontainers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dotnet-architecture/eShopOnWeb",
+      "target": "vbandcs/eshoponweb_vb.net",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dotnet-architecture/eShopOnWeb",
+      "target": "nitrodevs/fshoponweb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnetcore.yml",
+      "source_repo": "dotnet-architecture/eShopOnWeb",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnetcore.yml",
+      "source_repo": "dotnet-architecture/eShopOnWeb",
+      "target": "actions/setup-dotnet@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dotnetcore.yml",
+      "source_repo": "dotnet-architecture/eShopOnWeb",
+      "target": "eShopOnWeb Build and Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/richnav.yml",
+      "source_repo": "dotnet-architecture/eShopOnWeb",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/richnav.yml",
+      "source_repo": "dotnet-architecture/eShopOnWeb",
+      "target": "actions/setup-dotnet@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/richnav.yml",
+      "source_repo": "dotnet-architecture/eShopOnWeb",
+      "target": "microsoft/RichCodeNavIndexer@v0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/richnav.yml",
+      "source_repo": "dotnet-architecture/eShopOnWeb",
+      "target": "eShopOnWeb - Code Index",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet-architecture/eShopOnWeb",
+      "target": "architecture",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet-architecture/eShopOnWeb",
+      "target": "asp-net-core",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet-architecture/eShopOnWeb",
+      "target": "asp-net-core-mvc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet-architecture/eShopOnWeb",
+      "target": "clean-architecture",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet-architecture/eShopOnWeb",
+      "target": "clean-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet-architecture/eShopOnWeb",
+      "target": "ddd-architecture",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet-architecture/eShopOnWeb",
+      "target": "ddd-patterns",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet-architecture/eShopOnWeb",
+      "target": "ddd-sample",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet-architecture/eShopOnWeb",
+      "target": "design-patterns",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet-architecture/eShopOnWeb",
+      "target": "dotnetcore",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet-architecture/eShopOnWeb",
+      "target": "ebook",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet-architecture/eShopOnWeb",
+      "target": "efcore",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet-architecture/eShopOnWeb",
+      "target": "microsoft",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet-architecture/eShopOnWeb",
+      "target": "monolith",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet-architecture/eShopOnWeb",
+      "target": "rest-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet-architecture/eShopOnWeb",
+      "target": "software-architecture",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T12:47:22.914434+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9326
+    },
+    {
+      "path": ".github/workflows/dotnetcore.yml",
+      "size": 517
+    },
+    {
+      "path": ".github/workflows/richnav.yml",
+      "size": 507
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Sample ASP.NET Core 8.0 reference application, now community supported: https://github.com/NimblePros/eShopOnWeb",
+    "fork": false,
+    "full_name": "dotnet-architecture/eShopOnWeb",
+    "html_url": "https://github.com/dotnet-architecture/eShopOnWeb",
+    "language": "C#",
+    "pushed_at": "2025-01-13T20:55:37Z",
+    "stargazers_count": 10658,
+    "topics": [
+      "architecture",
+      "asp-net-core",
+      "asp-net-core-mvc",
+      "clean-architecture",
+      "clean-code",
+      "ddd",
+      "ddd-architecture",
+      "ddd-patterns",
+      "ddd-sample",
+      "design-patterns",
+      "dotnetcore",
+      "ebook",
+      "efcore",
+      "microsoft",
+      "monolith",
+      "rest-api",
+      "software-architecture"
+    ],
+    "updated_at": "2026-04-30T08:57:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dotnet/eshoponcontainers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nimblepros/eshoponweb",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nitrodevs/fshoponweb",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vbandcs/eshoponweb_vb.net",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "eShopOnWeb Build and Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dotnetcore.yml",
+      "term": "eShopOnWeb Build and Test"
+    },
+    {
+      "context_snippet": "eShopOnWeb - Code Index",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/richnav.yml",
+      "term": "eShopOnWeb - Code Index"
+    },
+    {
+      "context_snippet": "> eShop sample applications have been updated and moved to https://github.com/dotnet/eShop. Active development will continue there. We also recommend the [Reliable Web App](https://learn.microsoft.com/azure/architecture/web-apps/guides/reliable-web-app/overview) patterns guidanc\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "architecture"
+    },
+    {
+      "context_snippet": "> eShop sample applications have been updated and moved to https://github.com/dotnet/eShop. Active development will continue there. We also recommend the [Reliable Web App](https://learn.microsoft.com/azure/architecture/web-apps/guides/reliable-web-app/overview) patterns guidanc\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asp-net-core"
+    },
+    {
+      "context_snippet": "> eShop sample applications have been updated and moved to https://github.com/dotnet/eShop. Active development will continue there. We also recommend the [Reliable Web App](https://learn.microsoft.com/azure/architecture/web-apps/guides/reliable-web-app/overview) patterns guidanc\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asp-net-core-mvc"
+    },
+    {
+      "context_snippet": "> eShop sample applications have been updated and moved to https://github.com/dotnet/eShop. Active development will continue there. We also recommend the [Reliable Web App](https://learn.microsoft.com/azure/architecture/web-apps/guides/reliable-web-app/overview) patterns guidanc\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clean-architecture"
+    },
+    {
+      "context_snippet": "> eShop sample applications have been updated and moved to https://github.com/dotnet/eShop. Active development will continue there. We also recommend the [Reliable Web App](https://learn.microsoft.com/azure/architecture/web-apps/guides/reliable-web-app/overview) patterns guidanc\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clean-code"
+    },
+    {
+      "context_snippet": "> eShop sample applications have been updated and moved to https://github.com/dotnet/eShop. Active development will continue there. We also recommend the [Reliable Web App](https://learn.microsoft.com/azure/architecture/web-apps/guides/reliable-web-app/overview) patterns guidanc\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ddd-architecture"
+    },
+    {
+      "context_snippet": "> eShop sample applications have been updated and moved to https://github.com/dotnet/eShop. Active development will continue there. We also recommend the [Reliable Web App](https://learn.microsoft.com/azure/architecture/web-apps/guides/reliable-web-app/overview) patterns guidanc\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ddd-patterns"
+    },
+    {
+      "context_snippet": "> eShop sample applications have been updated and moved to https://github.com/dotnet/eShop. Active development will continue there. We also recommend the [Reliable Web App](https://learn.microsoft.com/azure/architecture/web-apps/guides/reliable-web-app/overview) patterns guidanc\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ddd-sample"
+    },
+    {
+      "context_snippet": "> eShop sample applications have been updated and moved to https://github.com/dotnet/eShop. Active development will continue there. We also recommend the [Reliable Web App](https://learn.microsoft.com/azure/architecture/web-apps/guides/reliable-web-app/overview) patterns guidanc\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "design-patterns"
+    },
+    {
+      "context_snippet": "> eShop sample applications have been updated and moved to https://github.com/dotnet/eShop. Active development will continue there. We also recommend the [Reliable Web App](https://learn.microsoft.com/azure/architecture/web-apps/guides/reliable-web-app/overview) patterns guidanc\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnetcore"
+    },
+    {
+      "context_snippet": "> eShop sample applications have been updated and moved to https://github.com/dotnet/eShop. Active development will continue there. We also recommend the [Reliable Web App](https://learn.microsoft.com/azure/architecture/web-apps/guides/reliable-web-app/overview) patterns guidanc\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ebook"
+    },
+    {
+      "context_snippet": "> eShop sample applications have been updated and moved to https://github.com/dotnet/eShop. Active development will continue there. We also recommend the [Reliable Web App](https://learn.microsoft.com/azure/architecture/web-apps/guides/reliable-web-app/overview) patterns guidanc\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "efcore"
+    },
+    {
+      "context_snippet": "> eShop sample applications have been updated and moved to https://github.com/dotnet/eShop. Active development will continue there. We also recommend the [Reliable Web App](https://learn.microsoft.com/azure/architecture/web-apps/guides/reliable-web-app/overview) patterns guidanc\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microsoft"
+    },
+    {
+      "context_snippet": "> eShop sample applications have been updated and moved to https://github.com/dotnet/eShop. Active development will continue there. We also recommend the [Reliable Web App](https://learn.microsoft.com/azure/architecture/web-apps/guides/reliable-web-app/overview) patterns guidanc\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monolith"
+    },
+    {
+      "context_snippet": "> eShop sample applications have been updated and moved to https://github.com/dotnet/eShop. Active development will continue there. We also recommend the [Reliable Web App](https://learn.microsoft.com/azure/architecture/web-apps/guides/reliable-web-app/overview) patterns guidanc\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rest-api"
+    },
+    {
+      "context_snippet": "> eShop sample applications have been updated and moved to https://github.com/dotnet/eShop. Active development will continue there. We also recommend the [Reliable Web App](https://learn.microsoft.com/azure/architecture/web-apps/guides/reliable-web-app/overview) patterns guidanc\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "software-architecture"
+    }
+  ]
+}

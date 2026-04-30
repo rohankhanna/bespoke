@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Tk-Instruct is a Transformer model that is tuned to solve many NLP tasks by following instructions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "- This repo releases our implementation for the Tk-Instruct model in the [Super-NaturalInstructions paper](https://arxiv.org/abs/2204.07705)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "- This repo releases our implementation for the Tk-Instruct model in the [Super-NaturalInstructions paper](https://arxiv.org/abs/2204.07705)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "zero-shot-learning",
+      "sense_id": "zero-shot-learning#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "zero-shot-learning",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "zero-shot-learning",
+  "observation_id": "42ad27278f7b0d33",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "zero-shot-learning",
+  "source_context_snippet": "- This repo releases our implementation for the Tk-Instruct model in the [Super-NaturalInstructions paper](https://arxiv.org/abs/2204.07705).",
+  "source_file": null,
+  "source_repo": "yizhongw/Tk-Instruct",
+  "source_repo_description": "Tk-Instruct is a Transformer model that is tuned to solve many NLP tasks by following instructions."
+}

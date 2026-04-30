@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A high-performance observability data pipeline."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Add Work In Progress Label"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Add Work In Progress Label"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33780,
+      "status": "candidate",
+      "text": "standstill"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33698,
+      "status": "candidate",
+      "text": "toil"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33685,
+      "status": "candidate",
+      "text": "flog"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33561,
+      "status": "candidate",
+      "text": "annotate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33211,
+      "status": "candidate",
+      "text": "developments"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Add Work In Progress Label",
+      "sense_id": "add-work-in-progress-label#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "add-work-in-progress-label",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "add-work-in-progress-label",
+  "observation_id": "520bdc94e6461a85",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "Add Work In Progress Label",
+  "source_context_snippet": "Add Work In Progress Label",
+  "source_file": ".github/workflows/add_wip_label.yml",
+  "source_repo": "vectordotdev/vector",
+  "source_repo_description": "A high-performance observability data pipeline."
+}

@@ -4,20 +4,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "google-deepmind/lab",
-      "target": "id-software/quake-iii-arena",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "google-deepmind/lab",
-      "target": "ioquake/ioq3",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "google-deepmind/lab",
       "target": "deepmind/lab",
       "target_type": "repository"
     },
@@ -26,6 +12,20 @@
       "source_file": "README.md",
       "source_repo": "google-deepmind/lab",
       "target": "deepmind/dm_env",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-deepmind/lab",
+      "target": "ttimo/bspc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-deepmind/lab",
+      "target": "ttimo/gtkradiant",
       "target_type": "repository"
     },
     {
@@ -71,6 +71,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "generated_at": "2026-04-30T12:45:20.475770+00:00",
   "source_repo": "google-deepmind/lab"
 }

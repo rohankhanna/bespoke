@@ -19,12 +19,30 @@
       "source_repo": "UKGovernmentBEIS/inspect_ai",
       "status": "candidate-context",
       "text": "Quarto Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rstudio/cheatsheets",
+      "status": "candidate-context",
+      "text": "Posit Cheat Sheets - Can also be found at https://posit.co/resources/cheatsheets/."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rstudio/cheatsheets",
+      "status": "candidate-context",
+      "text": "Quarto Publish"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "UKGovernmentBEIS/inspect_ai",
+      "status": "candidate",
+      "text": "Quarto Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rstudio/cheatsheets",
       "status": "candidate",
       "text": "Quarto Publish"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "UKGovernmentBEIS/inspect_ai"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "rstudio/cheatsheets"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

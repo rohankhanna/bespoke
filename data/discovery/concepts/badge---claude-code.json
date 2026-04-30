@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Badge - Claude Code"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/agent-lightning",
+      "status": "candidate-context",
+      "text": "The absolute trainer to light up AI agents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/agent-lightning",
+      "status": "candidate-context",
+      "text": "Badge - Claude Code"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/agent-lightning",
+      "status": "candidate",
+      "text": "Badge - Claude Code"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18934,
+      "status": "candidate",
+      "text": "baud"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18909,
+      "status": "candidate",
+      "text": "three"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18883,
+      "status": "candidate",
+      "text": "one"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18870,
+      "status": "candidate",
+      "text": "gene"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18870,
+      "status": "candidate",
+      "text": "omaha"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Badge - Claude Code",
+  "concept_id": "badge---claude-code",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/badge-claude-code.yml",
+      "source_repo": "microsoft/agent-lightning"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Badge - Claude Code",
+      "sense_id": "badge---claude-code#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

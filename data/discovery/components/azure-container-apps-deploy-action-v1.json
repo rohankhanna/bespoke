@@ -1,0 +1,12 @@
+{
+  "component": "azure/container-apps-deploy-action@v1",
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/aca-deploy.yaml",
+      "source_repo": "Azure-Samples/agent-openai-java-banking-assistant"
+    }
+  ]
+}

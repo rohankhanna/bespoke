@@ -1,0 +1,215 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base.yml",
+      "source_repo": "confluentinc/confluent-kafka-go",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base.yml",
+      "source_repo": "confluentinc/confluent-kafka-go",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base.yml",
+      "source_repo": "confluentinc/confluent-kafka-go",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/base.yml",
+      "source_repo": "confluentinc/confluent-kafka-go",
+      "target": "check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "confluentinc/confluent-kafka-go",
+      "target": "confluent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "confluentinc/confluent-kafka-go",
+      "target": "consumer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "confluentinc/confluent-kafka-go",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "confluentinc/confluent-kafka-go",
+      "target": "golang-bindings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "confluentinc/confluent-kafka-go",
+      "target": "golang-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "confluentinc/confluent-kafka-go",
+      "target": "kafka-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "confluentinc/confluent-kafka-go",
+      "target": "librdkafka",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "confluentinc/confluent-kafka-go",
+      "target": "producer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:54:44.429264+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10829
+    },
+    {
+      "path": "go.mod",
+      "size": 13101
+    },
+    {
+      "path": ".github/workflows/base.yml",
+      "size": 2689
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Confluent's Apache Kafka Golang client",
+    "fork": false,
+    "full_name": "confluentinc/confluent-kafka-go",
+    "html_url": "https://github.com/confluentinc/confluent-kafka-go",
+    "language": "HTML",
+    "pushed_at": "2026-04-30T09:03:26Z",
+    "stargazers_count": 5132,
+    "topics": [
+      "confluent",
+      "consumer",
+      "golang",
+      "golang-bindings",
+      "golang-library",
+      "kafka-client",
+      "librdkafka",
+      "producer"
+    ],
+    "updated_at": "2026-04-30T07:12:13Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/base.yml",
+      "term": "check"
+    },
+    {
+      "context_snippet": "Confluent's Golang Client for Apache Kafka\u00ae",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "confluent"
+    },
+    {
+      "context_snippet": "Confluent's Golang Client for Apache Kafka\u00ae",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "consumer"
+    },
+    {
+      "context_snippet": "Confluent's Golang Client for Apache Kafka\u00ae",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "Confluent's Golang Client for Apache Kafka\u00ae",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang-bindings"
+    },
+    {
+      "context_snippet": "Confluent's Golang Client for Apache Kafka\u00ae",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang-library"
+    },
+    {
+      "context_snippet": "Confluent's Golang Client for Apache Kafka\u00ae",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kafka-client"
+    },
+    {
+      "context_snippet": "Confluent's Golang Client for Apache Kafka\u00ae",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "librdkafka"
+    },
+    {
+      "context_snippet": "Confluent's Golang Client for Apache Kafka\u00ae",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "producer"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "polly"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bjartnes/hikke",
+      "status": "candidate-context",
+      "text": "A k6/.NET red/green load testing workshop"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bjartnes/hikke",
+      "status": "candidate-context",
+      "text": "This repository is for a workshop to understand how to introduce and deal with a bounded disturbance."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bjartnes/hikke",
+      "status": "candidate",
+      "text": "This repository is for a workshop to understand how to introduce and deal with a bounded disturbance."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19354280,
+      "status": "candidate",
+      "text": "claudia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18649683,
+      "status": "candidate",
+      "text": "aunt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18446275,
+      "status": "candidate",
+      "text": "prince"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18390386,
+      "status": "candidate",
+      "text": "coco"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18384700,
+      "status": "candidate",
+      "text": "coconut"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "polly",
+  "concept_id": "polly",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "bjartnes/hikke"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "polly",
+      "sense_id": "polly#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

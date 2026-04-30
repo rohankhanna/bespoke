@@ -1,11 +1,31 @@
 {
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/nightly.yml",
       "source_repo": "hyper-mcp-rs/arxiv-plugin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "hyper-mcp-rs/context7-plugin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "hyper-mcp-rs/crates-io-plugin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "hyper-mcp-rs/crypto-price-plugin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/nightly-oras.yml",
+      "source_repo": "hyper-mcp-rs/defuddle-plugin"
     }
   ],
   "term": "Nightly Release (ORAS)"

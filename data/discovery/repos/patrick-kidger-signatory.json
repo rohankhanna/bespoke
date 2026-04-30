@@ -1,0 +1,345 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_deployed.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_deployed.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "patrick-kidger/signatory",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "patrick-kidger/signatory",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "patrick-kidger/signatory",
+      "target": "Build and test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "patrick-kidger/signatory",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "patrick-kidger/signatory",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "patrick-kidger/signatory",
+      "target": "Deploy and test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/log_dispatch.yml",
+      "source_repo": "patrick-kidger/signatory",
+      "target": "Log dispatch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_deployed.yml",
+      "source_repo": "patrick-kidger/signatory",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_deployed.yml",
+      "source_repo": "patrick-kidger/signatory",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_deployed.yml",
+      "source_repo": "patrick-kidger/signatory",
+      "target": "Test deployed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "patrick-kidger/signatory",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "patrick-kidger/signatory",
+      "target": "deep-neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "patrick-kidger/signatory",
+      "target": "logsignature",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "patrick-kidger/signatory",
+      "target": "logsignatures",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "patrick-kidger/signatory",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "patrick-kidger/signatory",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "patrick-kidger/signatory",
+      "target": "rough-paths",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "patrick-kidger/signatory",
+      "target": "signature",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "patrick-kidger/signatory",
+      "target": "signatures",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:07:52.093593+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 4750
+    },
+    {
+      "path": ".github/workflows/README.md",
+      "size": 1226
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 17019
+    },
+    {
+      "path": ".github/workflows/deploy.yml",
+      "size": 10547
+    },
+    {
+      "path": ".github/workflows/log_dispatch.yml",
+      "size": 2899
+    },
+    {
+      "path": ".github/workflows/test_deployed.yml",
+      "size": 6767
+    },
+    {
+      "path": ".github/workflows/trigger.sh",
+      "size": 1066
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Differentiable computations of the signature and logsignature transforms, on both CPU and GPU. (ICLR 2021)",
+    "fork": false,
+    "full_name": "patrick-kidger/signatory",
+    "html_url": "https://github.com/patrick-kidger/signatory",
+    "language": "C++",
+    "pushed_at": "2024-01-11T16:33:10Z",
+    "stargazers_count": 302,
+    "topics": [
+      "deep-learning",
+      "deep-neural-networks",
+      "logsignature",
+      "logsignatures",
+      "machine-learning",
+      "pytorch",
+      "rough-paths",
+      "signature",
+      "signatures"
+    ],
+    "updated_at": "2026-04-18T03:07:23Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build and test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build and test"
+    },
+    {
+      "context_snippet": "Deploy and test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "term": "Deploy and test"
+    },
+    {
+      "context_snippet": "Log dispatch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/log_dispatch.yml",
+      "term": "Log dispatch"
+    },
+    {
+      "context_snippet": "Test deployed",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_deployed.yml",
+      "term": "Test deployed"
+    },
+    {
+      "context_snippet": "|Signatory|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "|Signatory|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-neural-networks"
+    },
+    {
+      "context_snippet": "|Signatory|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "logsignature"
+    },
+    {
+      "context_snippet": "|Signatory|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "logsignatures"
+    },
+    {
+      "context_snippet": "|Signatory|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "|Signatory|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "|Signatory|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rough-paths"
+    },
+    {
+      "context_snippet": "|Signatory|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "signature"
+    },
+    {
+      "context_snippet": "|Signatory|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "signatures"
+    }
+  ]
+}

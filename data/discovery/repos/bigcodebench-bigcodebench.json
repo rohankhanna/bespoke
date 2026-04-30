@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T15:13:58.010271+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17059
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 250
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "BigCodeBench: The Next Generation of HumanEval",
+    "fork": true,
+    "full_name": "bigcodebench/bigcodebench",
+    "html_url": "https://github.com/bigcodebench/bigcodebench",
+    "language": null,
+    "pushed_at": "2024-08-15T16:33:44Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2024-08-18T07:01:40Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

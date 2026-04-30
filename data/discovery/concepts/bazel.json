@@ -526,6 +526,30 @@
       "source_repo": "bazel-contrib/rules_kotlin",
       "status": "candidate-context",
       "text": "[![Build Status](https://badge.buildkite.com/a8860e94a7378491ce8f50480e3605b49eb2558cfa851bbf9b.svg)](https://buildkite.com/bazel/kotlin-postsubmit)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tweag/rules_haskell",
+      "status": "candidate-context",
+      "text": "Haskell rules for Bazel."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tweag/rules_haskell",
+      "status": "candidate-context",
+      "text": "<p align=\"left\"><img src=\"logo/horizontal.png\" alt=\"rules_haskell\" height=\"100px\"></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Ningsir/pytorch",
+      "status": "candidate-context",
+      "text": "Tensors and Dynamic neural networks in Python with strong GPU acceleration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ningsir/pytorch",
+      "status": "candidate-context",
+      "text": "bazel"
     }
   ],
   "candidate_glosses": [
@@ -786,6 +810,18 @@
       "source_repo": "bazel-contrib/rules_kotlin",
       "status": "candidate",
       "text": "[![Build Status](https://badge.buildkite.com/a8860e94a7378491ce8f50480e3605b49eb2558cfa851bbf9b.svg)](https://buildkite.com/bazel/kotlin-postsubmit)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tweag/rules_haskell",
+      "status": "candidate",
+      "text": "<p align=\"left\"><img src=\"logo/horizontal.png\" alt=\"rules_haskell\" height=\"100px\"></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ningsir/pytorch",
+      "status": "candidate",
+      "text": "bazel"
     }
   ],
   "candidate_related_terms": [
@@ -1147,11 +1183,47 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "bazel-contrib/rules_jvm_external"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/bazel.yml",
+      "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "tweag/rules_haskell"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "bazel-contrib/rules_kotlin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "bazel-contrib/rules_jvm_external"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "bazel-contrib/rules_go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/_bazel-build-test.yml",
+      "source_repo": "Ningsir/pytorch"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

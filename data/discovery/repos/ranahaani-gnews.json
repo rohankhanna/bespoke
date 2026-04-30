@@ -1,0 +1,368 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yml"
+    },
+    {
+      "component": "actions/configure-pages@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "ranahaani/GNews",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "ranahaani/GNews",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "ranahaani/GNews",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yml",
+      "source_repo": "ranahaani/GNews",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yml",
+      "source_repo": "ranahaani/GNews",
+      "target": "actions/configure-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yml",
+      "source_repo": "ranahaani/GNews",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yml",
+      "source_repo": "ranahaani/GNews",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/static.yml",
+      "source_repo": "ranahaani/GNews",
+      "target": "Deploy static content to Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "ranahaani/GNews",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "ranahaani/GNews",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "ranahaani/GNews",
+      "target": "Run Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ranahaani/GNews",
+      "target": "article",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ranahaani/GNews",
+      "target": "gnews",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ranahaani/GNews",
+      "target": "google-news",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ranahaani/GNews",
+      "target": "google-news-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ranahaani/GNews",
+      "target": "google-news-homepage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ranahaani/GNews",
+      "target": "google-news-rss",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ranahaani/GNews",
+      "target": "google-news-scraper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ranahaani/GNews",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ranahaani/GNews",
+      "target": "hacktoberfest-accepted",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ranahaani/GNews",
+      "target": "hacktoberfest2025",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ranahaani/GNews",
+      "target": "news",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ranahaani/GNews",
+      "target": "newspaper3k",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ranahaani/GNews",
+      "target": "rss-feed",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:51:57.918288+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18687
+    },
+    {
+      "path": "Dockerfile",
+      "size": 126
+    },
+    {
+      "path": "requirements.txt",
+      "size": 62
+    },
+    {
+      "path": ".github/workflows/python-publish.yml",
+      "size": 1088
+    },
+    {
+      "path": ".github/workflows/static.yml",
+      "size": 1252
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 541
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Happy and lightweight Python Package that Provides an API to search for articles on Google News and returns a JSON response.",
+    "fork": false,
+    "full_name": "ranahaani/GNews",
+    "html_url": "https://github.com/ranahaani/GNews",
+    "language": "Python",
+    "pushed_at": "2026-01-16T12:39:07Z",
+    "stargazers_count": 965,
+    "topics": [
+      "article",
+      "gnews",
+      "google-news",
+      "google-news-api",
+      "google-news-homepage",
+      "google-news-rss",
+      "google-news-scraper",
+      "hacktoberfest",
+      "hacktoberfest-accepted",
+      "hacktoberfest2025",
+      "news",
+      "newspaper3k",
+      "python",
+      "rss-feed"
+    ],
+    "updated_at": "2026-04-27T20:23:58Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Deploy static content to Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/static.yml",
+      "term": "Deploy static content to Pages"
+    },
+    {
+      "context_snippet": "Run Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "Run Tests"
+    },
+    {
+      "context_snippet": "[![Contributors][contributors-shield]][contributors-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "article"
+    },
+    {
+      "context_snippet": "[![Contributors][contributors-shield]][contributors-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gnews"
+    },
+    {
+      "context_snippet": "[![Contributors][contributors-shield]][contributors-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google-news"
+    },
+    {
+      "context_snippet": "[![Contributors][contributors-shield]][contributors-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google-news-api"
+    },
+    {
+      "context_snippet": "[![Contributors][contributors-shield]][contributors-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google-news-homepage"
+    },
+    {
+      "context_snippet": "[![Contributors][contributors-shield]][contributors-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google-news-rss"
+    },
+    {
+      "context_snippet": "[![Contributors][contributors-shield]][contributors-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google-news-scraper"
+    },
+    {
+      "context_snippet": "[![Contributors][contributors-shield]][contributors-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[![Contributors][contributors-shield]][contributors-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest-accepted"
+    },
+    {
+      "context_snippet": "[![Contributors][contributors-shield]][contributors-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest2025"
+    },
+    {
+      "context_snippet": "[![Contributors][contributors-shield]][contributors-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "news"
+    },
+    {
+      "context_snippet": "[![Contributors][contributors-shield]][contributors-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "newspaper3k"
+    },
+    {
+      "context_snippet": "[![Contributors][contributors-shield]][contributors-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rss-feed"
+    }
+  ]
+}

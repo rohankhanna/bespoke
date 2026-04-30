@@ -1,0 +1,94 @@
+{
+  "aliases": [
+    "Check and Sync Node.js Versions"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aredridel/node-bin-gen",
+      "status": "candidate-context",
+      "text": "Check and Sync Node.js Versions"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aredridel/node-bin-gen",
+      "status": "candidate",
+      "text": "Check and Sync Node.js Versions"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23218,
+      "status": "candidate",
+      "text": "cock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22489,
+      "status": "candidate",
+      "text": "balancing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19339,
+      "status": "candidate",
+      "text": "hold"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19218,
+      "status": "candidate",
+      "text": "accounting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16550,
+      "status": "candidate",
+      "text": "translation"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check and Sync Node.js Versions",
+  "concept_id": "check-and-sync-node.js-versions",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/sync-node-version.yml",
+      "source_repo": "aredridel/node-bin-gen"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check and Sync Node.js Versions",
+      "sense_id": "check-and-sync-node.js-versions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

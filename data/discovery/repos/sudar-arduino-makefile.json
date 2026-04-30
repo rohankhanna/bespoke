@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sudar/Arduino-Makefile",
+      "target": "homebrew/linuxbrew",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sudar/Arduino-Makefile",
+      "target": "rhoban/maple",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sudar/Arduino-Makefile",
+      "target": "pda/arduino-zero-without-ide",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sudar/Arduino-Makefile",
+      "target": "colorgcc/colorgcc",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:00:21.409166+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21309
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Makefile for Arduino sketches. It defines the workflows for compiling code, flashing it to Arduino and even communicating through Serial.",
+    "fork": false,
+    "full_name": "sudar/Arduino-Makefile",
+    "html_url": "https://github.com/sudar/Arduino-Makefile",
+    "language": "Makefile",
+    "pushed_at": "2023-12-11T23:50:18Z",
+    "stargazers_count": 2041,
+    "topics": [],
+    "updated_at": "2026-04-23T23:14:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "colorgcc/colorgcc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "homebrew/linuxbrew",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pda/arduino-zero-without-ide",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rhoban/maple",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -211,6 +211,18 @@
       "source_repo": "tenable/terrascan",
       "status": "candidate-context",
       "text": "> - This project is no longer maintained. The repository is archived and no further updates, issues, or pull requests will be accepted."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "motdotla/dotenv",
+      "status": "candidate-context",
+      "text": "Loads environment variables from .env for nodejs projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "motdotla/dotenv",
+      "status": "candidate-context",
+      "text": "<a href=\"https://dotenvx.com/?utm_source=github&utm_medium=readme&utm_campaign=motdotla-dotenv&utm_content=banner\"><img src=\"https://dotenvx.com/dotenv-banner.png\" alt=\"dotenvx\" /></a>"
     }
   ],
   "candidate_glosses": [
@@ -315,6 +327,12 @@
       "source_repo": "tenable/terrascan",
       "status": "candidate",
       "text": "> - This project is no longer maintained. The repository is archived and no further updates, issues, or pull requests will be accepted."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "motdotla/dotenv",
+      "status": "candidate",
+      "text": "<a href=\"https://dotenvx.com/?utm_source=github&utm_medium=readme&utm_campaign=motdotla-dotenv&utm_content=banner\"><img src=\"https://dotenvx.com/dotenv-banner.png\" alt=\"dotenvx\" /></a>"
     }
   ],
   "candidate_related_terms": [],
@@ -520,11 +538,35 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "gitleaks/gitleaks-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "FeeiCN/Cobra"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "motdotla/dotenv"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

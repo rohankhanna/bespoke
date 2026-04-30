@@ -319,6 +319,78 @@
       "source_repo": "lmnt-com/wavegrad",
       "status": "candidate-context",
       "text": "![PyPI Release](https://img.shields.io/pypi/v/wavegrad?label=release) [![License](https://img.shields.io/github/license/lmnt-com/wavegrad)](https://github.com/lmnt-com/wavegrad/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unum-cloud/UForm",
+      "status": "candidate-context",
+      "text": "Pocket-Sized Multimodal AI for content understanding and generation across multilingual texts, images, and \ud83d\udd1c video, up to 5x faster than OpenAI CLIP and LLaVA \ud83d\uddbc\ufe0f & \ud83d\udd8b\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unum-cloud/UForm",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">UForm</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "isl-org/Open3D-ML",
+      "status": "candidate-context",
+      "text": "An extension of Open3D to address 3D Machine Learning tasks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isl-org/Open3D-ML",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebookresearch/mmf",
+      "status": "candidate-context",
+      "text": "A modular framework for vision & language multimodal research from Facebook AI Research (FAIR)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookresearch/mmf",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "isl-org/ZoeDepth",
+      "status": "candidate-context",
+      "text": "Metric depth estimation from a single image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isl-org/ZoeDepth",
+      "status": "candidate-context",
+      "text": "This project will no longer be maintained by Intel."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OFA-Sys/OFA",
+      "status": "candidate-context",
+      "text": "Official repository of OFA (ICML 2022). Paper: OFA: Unifying Architectures, Tasks, and Modalities Through a Simple Sequence-to-Sequence Learning Framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OFA-Sys/OFA",
+      "status": "candidate-context",
+      "text": "<!---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "golsun/DialogRPT",
+      "status": "candidate-context",
+      "text": "EMNLP 2020: \"Dialogue Response Ranking Training with Large-Scale Human Feedback Data\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "golsun/DialogRPT",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -477,6 +549,42 @@
       "source_repo": "lmnt-com/wavegrad",
       "status": "candidate",
       "text": "![PyPI Release](https://img.shields.io/pypi/v/wavegrad?label=release) [![License](https://img.shields.io/github/license/lmnt-com/wavegrad)](https://github.com/lmnt-com/wavegrad/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unum-cloud/UForm",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">UForm</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isl-org/Open3D-ML",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookresearch/mmf",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isl-org/ZoeDepth",
+      "status": "candidate",
+      "text": "This project will no longer be maintained by Intel."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OFA-Sys/OFA",
+      "status": "candidate",
+      "text": "<!---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "golsun/DialogRPT",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -742,11 +850,83 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "zai-org/CogVLM2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CodeGeeX2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CodeGeeX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/pytorch-image-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "unum-cloud/UForm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/Open3D-ML"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "facebookresearch/mmf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CogVLM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CogVLM2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/ZoeDepth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "OFA-Sys/OFA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "golsun/DialogRPT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/transformers"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

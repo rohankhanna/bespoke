@@ -175,6 +175,30 @@
       "source_repo": "amazon-science/auto-cot",
       "status": "candidate-context",
       "text": "[![Open Auto-CoT in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amazon-science/auto-cot/blob/main/try_cot_colab.ipynb)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agencyenterprise/PromptInject",
+      "status": "candidate-context",
+      "text": "PromptInject is a framework that assembles prompts in a modular fashion to provide a quantitative analysis of the robustness of LLMs to adversarial prompt attacks. \ud83c\udfc6 Best Paper Awards @ NeurIPS ML Safety Workshop 2022"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agencyenterprise/PromptInject",
+      "status": "candidate-context",
+      "text": "[**Paper: Ignore Previous Prompt: Attack Techniques For Language Models**](https://arxiv.org/abs/2211.09527)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/generative-ai-for-beginners",
+      "status": "candidate-context",
+      "text": "21 Lessons, Get Started Building with Generative AI "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/generative-ai-for-beginners",
+      "status": "candidate-context",
+      "text": "![Generative AI For Beginners](./images/repo-thumbnailv4-fixed.png?WT.mc_id=academic-105485-koreyst)"
     }
   ],
   "candidate_glosses": [
@@ -255,6 +279,18 @@
       "source_repo": "amazon-science/auto-cot",
       "status": "candidate",
       "text": "[![Open Auto-CoT in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amazon-science/auto-cot/blob/main/try_cot_colab.ipynb)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agencyenterprise/PromptInject",
+      "status": "candidate",
+      "text": "[**Paper: Ignore Previous Prompt: Attack Techniques For Language Models**](https://arxiv.org/abs/2211.09527)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/generative-ai-for-beginners",
+      "status": "candidate",
+      "text": "![Generative AI For Beginners](./images/repo-thumbnailv4-fixed.png?WT.mc_id=academic-105485-koreyst)"
     }
   ],
   "candidate_related_terms": [],
@@ -394,11 +430,29 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "amazon-science/auto-cot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "f/prompts.chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "agencyenterprise/PromptInject"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/generative-ai-for-beginners"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

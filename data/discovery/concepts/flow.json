@@ -55,6 +55,30 @@
       "source_repo": "ClementPinard/FlowNetPytorch",
       "status": "candidate-context",
       "text": "Pytorch implementation of FlowNet by Dosovitskiy et al."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "frenic/csstype",
+      "status": "candidate-context",
+      "text": "Strict TypeScript and Flow types for style based on MDN data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "frenic/csstype",
+      "status": "candidate-context",
+      "text": "[![npm](https://img.shields.io/npm/v/csstype.svg)](https://www.npmjs.com/package/csstype)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ClementPinard/FlowNetTorch",
+      "status": "candidate-context",
+      "text": "Torch implementation of Fischer et al. FlowNet training code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClementPinard/FlowNetTorch",
+      "status": "candidate-context",
+      "text": "FlowNet for Torch"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "ClementPinard/FlowNetPytorch",
       "status": "candidate",
       "text": "Pytorch implementation of FlowNet by Dosovitskiy et al."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "frenic/csstype",
+      "status": "candidate",
+      "text": "[![npm](https://img.shields.io/npm/v/csstype.svg)](https://www.npmjs.com/package/csstype)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClementPinard/FlowNetTorch",
+      "status": "candidate",
+      "text": "FlowNet for Torch"
     }
   ],
   "candidate_related_terms": [
@@ -208,11 +244,29 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "ClementPinard/FlowNetPytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "frenic/csstype"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-tooling"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ClementPinard/FlowNetTorch"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -91,28 +91,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "autowarefoundation/autoware",
-      "target": "autowarefoundation/autoware-documentation",
+      "target": "autowarefoundation/autoware_core",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "autowarefoundation/autoware",
-      "target": "autowarefoundation/autoware-github-actions",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "autowarefoundation/autoware",
-      "target": "autowarefoundation/autoware_ai",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "autowarefoundation/autoware",
-      "target": "autowarefoundation/autoware-projects",
+      "target": "autowarefoundation/autoware_launch",
       "target_type": "repository"
     },
     {
@@ -326,7 +312,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T08:13:15.853399+00:00",
+  "fetched_at": "2026-04-30T16:14:34.484582+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -378,8 +364,8 @@
     "full_name": "autowarefoundation/autoware",
     "html_url": "https://github.com/autowarefoundation/autoware",
     "language": "Dockerfile",
-    "pushed_at": "2026-04-30T08:08:44Z",
-    "stargazers_count": 11458,
+    "pushed_at": "2026-04-30T14:15:52Z",
+    "stargazers_count": 11459,
     "topics": [
       "autonomous-driving",
       "autonomous-vehicles",
@@ -387,27 +373,17 @@
       "ros",
       "ros2"
     ],
-    "updated_at": "2026-04-30T08:08:33Z"
+    "updated_at": "2026-04-30T14:22:41Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "autowarefoundation/autoware-documentation",
+      "full_name": "autowarefoundation/autoware_core",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "autowarefoundation/autoware-github-actions",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "autowarefoundation/autoware-projects",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "autowarefoundation/autoware_ai",
+      "full_name": "autowarefoundation/autoware_launch",
       "source_file": "README.md"
     }
   ],

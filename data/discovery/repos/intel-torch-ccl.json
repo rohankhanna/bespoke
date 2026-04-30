@@ -1,0 +1,75 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "intel/torch-ccl",
+      "target": "oneapi-src/oneccl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/torch-ccl",
+      "target": "oneccl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/torch-ccl",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T12:51:04.257069+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18077
+    },
+    {
+      "path": "requirements.txt",
+      "size": 25
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "oneCCL Bindings for Pytorch* (deprecated)",
+    "fork": false,
+    "full_name": "intel/torch-ccl",
+    "html_url": "https://github.com/intel/torch-ccl",
+    "language": "C++",
+    "pushed_at": "2025-12-31T04:43:22Z",
+    "stargazers_count": 104,
+    "topics": [
+      "oneccl",
+      "pytorch"
+    ],
+    "updated_at": "2026-03-05T22:23:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "oneapi-src/oneccl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Intel will not provide or guarantee development of or support for this project, including but not limited to, maintenance, bug fixes, new releases or updates.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "oneccl"
+    },
+    {
+      "context_snippet": "Intel will not provide or guarantee development of or support for this project, including but not limited to, maintenance, bug fixes, new releases or updates.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

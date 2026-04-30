@@ -1,0 +1,616 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-sboms.yml"
+    },
+    {
+      "component": "aboutcode-org/scancode-action@76777db8400d719de67ba3e465c5881037b45cb9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-sboms.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker-image.yml"
+    },
+    {
+      "component": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker-image.yml"
+    },
+    {
+      "component": "docker/metadata-action@c299e40c65443455700f0fdfc63efafe5b349051",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker-image.yml"
+    },
+    {
+      "component": "docker/build-push-action@10e90e3645eae34f1e60eeb005ba3a3d33f178e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker-image.yml"
+    },
+    {
+      "component": "actions/attest-build-provenance@a2bbfa25375fe432b6a289bc6b6cd05ecd0c4c32",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker-image.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pypi-release-aboutcode-pipeline.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pypi-release-aboutcode-pipeline.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pypi-release-aboutcode-pipeline.yml"
+    },
+    {
+      "component": "actions/download-artifact@70fc10c6e5e1ce46ad2ea6f2b72d43f7d47b13c3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pypi-release-aboutcode-pipeline.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@ed0c53931b1dc9bd32cbe73a98c7f6766f8a527e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pypi-release-aboutcode-pipeline.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pypi-release.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pypi-release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pypi-release.yml"
+    },
+    {
+      "component": "actions/download-artifact@70fc10c6e5e1ce46ad2ea6f2b72d43f7d47b13c3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pypi-release.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@ed0c53931b1dc9bd32cbe73a98c7f6766f8a527e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pypi-release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pypi-release.yml"
+    },
+    {
+      "component": "actions/download-artifact@70fc10c6e5e1ce46ad2ea6f2b72d43f7d47b13c3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pypi-release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-unit-tests-docker.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-unit-tests-macos.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-unit-tests-macos.yml"
+    },
+    {
+      "component": "ikalnytskyi/action-setup-postgres@c4dda34aae1c821e3a771b68b73b13af3198a7ee",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-unit-tests-macos.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-unit-tests.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-unit-tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-sboms.yml",
+      "source_repo": "aboutcode-org/scancode.io",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-sboms.yml",
+      "source_repo": "aboutcode-org/scancode.io",
+      "target": "aboutcode-org/scancode-action@76777db8400d719de67ba3e465c5881037b45cb9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-sboms.yml",
+      "source_repo": "aboutcode-org/scancode.io",
+      "target": "Generate SBOMS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker-image.yml",
+      "source_repo": "aboutcode-org/scancode.io",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker-image.yml",
+      "source_repo": "aboutcode-org/scancode.io",
+      "target": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker-image.yml",
+      "source_repo": "aboutcode-org/scancode.io",
+      "target": "docker/metadata-action@c299e40c65443455700f0fdfc63efafe5b349051",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker-image.yml",
+      "source_repo": "aboutcode-org/scancode.io",
+      "target": "docker/build-push-action@10e90e3645eae34f1e60eeb005ba3a3d33f178e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker-image.yml",
+      "source_repo": "aboutcode-org/scancode.io",
+      "target": "actions/attest-build-provenance@a2bbfa25375fe432b6a289bc6b6cd05ecd0c4c32",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pypi-release-aboutcode-pipeline.yml",
+      "source_repo": "aboutcode-org/scancode.io",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pypi-release-aboutcode-pipeline.yml",
+      "source_repo": "aboutcode-org/scancode.io",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pypi-release-aboutcode-pipeline.yml",
+      "source_repo": "aboutcode-org/scancode.io",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pypi-release-aboutcode-pipeline.yml",
+      "source_repo": "aboutcode-org/scancode.io",
+      "target": "actions/download-artifact@70fc10c6e5e1ce46ad2ea6f2b72d43f7d47b13c3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pypi-release-aboutcode-pipeline.yml",
+      "source_repo": "aboutcode-org/scancode.io",
+      "target": "pypa/gh-action-pypi-publish@ed0c53931b1dc9bd32cbe73a98c7f6766f8a527e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pypi-release.yml",
+      "source_repo": "aboutcode-org/scancode.io",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pypi-release.yml",
+      "source_repo": "aboutcode-org/scancode.io",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pypi-release.yml",
+      "source_repo": "aboutcode-org/scancode.io",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pypi-release.yml",
+      "source_repo": "aboutcode-org/scancode.io",
+      "target": "actions/download-artifact@70fc10c6e5e1ce46ad2ea6f2b72d43f7d47b13c3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pypi-release.yml",
+      "source_repo": "aboutcode-org/scancode.io",
+      "target": "pypa/gh-action-pypi-publish@ed0c53931b1dc9bd32cbe73a98c7f6766f8a527e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-unit-tests-docker.yml",
+      "source_repo": "aboutcode-org/scancode.io",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-unit-tests-docker.yml",
+      "source_repo": "aboutcode-org/scancode.io",
+      "target": "Run unit tests on Docker container",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-unit-tests-macos.yml",
+      "source_repo": "aboutcode-org/scancode.io",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-unit-tests-macos.yml",
+      "source_repo": "aboutcode-org/scancode.io",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-unit-tests-macos.yml",
+      "source_repo": "aboutcode-org/scancode.io",
+      "target": "ikalnytskyi/action-setup-postgres@c4dda34aae1c821e3a771b68b73b13af3198a7ee",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-unit-tests-macos.yml",
+      "source_repo": "aboutcode-org/scancode.io",
+      "target": "Run unit tests on macOS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-unit-tests.yml",
+      "source_repo": "aboutcode-org/scancode.io",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-unit-tests.yml",
+      "source_repo": "aboutcode-org/scancode.io",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-unit-tests.yml",
+      "source_repo": "aboutcode-org/scancode.io",
+      "target": "Run unit tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aboutcode-org/scancode.io",
+      "target": "binary-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aboutcode-org/scancode.io",
+      "target": "code-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aboutcode-org/scancode.io",
+      "target": "cyclonedx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aboutcode-org/scancode.io",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aboutcode-org/scancode.io",
+      "target": "foss-compliance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aboutcode-org/scancode.io",
+      "target": "license",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aboutcode-org/scancode.io",
+      "target": "license-compliance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aboutcode-org/scancode.io",
+      "target": "open-source",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aboutcode-org/scancode.io",
+      "target": "package-url",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aboutcode-org/scancode.io",
+      "target": "purl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aboutcode-org/scancode.io",
+      "target": "scancode",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aboutcode-org/scancode.io",
+      "target": "software-composition-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aboutcode-org/scancode.io",
+      "target": "spdx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aboutcode-org/scancode.io",
+      "target": "virtual-machine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aboutcode-org/scancode.io",
+      "target": "vulnerabilities",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:07:50.054770+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 10214
+    },
+    {
+      "path": "Dockerfile",
+      "size": 4815
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 6449
+    },
+    {
+      "path": ".github/workflows/generate-sboms.yml",
+      "size": 1365
+    },
+    {
+      "path": ".github/workflows/publish-docker-image.yml",
+      "size": 3195
+    },
+    {
+      "path": ".github/workflows/publish-pypi-release-aboutcode-pipeline.yml",
+      "size": 2250
+    },
+    {
+      "path": ".github/workflows/publish-pypi-release.yml",
+      "size": 2913
+    },
+    {
+      "path": ".github/workflows/run-unit-tests-docker.yml",
+      "size": 714
+    },
+    {
+      "path": ".github/workflows/run-unit-tests-macos.yml",
+      "size": 1537
+    },
+    {
+      "path": ".github/workflows/run-unit-tests.yml",
+      "size": 2058
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "ScanCode.io is a server to script and automate software composition analysis with pipelines. This project is sponsored by the European Commission, NLnet NGI0, the Google Summer of Code, nexB and others generous sponsors!",
+    "fork": false,
+    "full_name": "aboutcode-org/scancode.io",
+    "html_url": "https://github.com/aboutcode-org/scancode.io",
+    "language": "Python",
+    "pushed_at": "2026-04-30T14:22:25Z",
+    "stargazers_count": 201,
+    "topics": [
+      "binary-analysis",
+      "code-analysis",
+      "cyclonedx",
+      "docker",
+      "foss-compliance",
+      "license",
+      "license-compliance",
+      "open-source",
+      "package-url",
+      "purl",
+      "sca",
+      "scancode",
+      "software-composition-analysis",
+      "spdx",
+      "virtual-machine",
+      "vulnerabilities"
+    ],
+    "updated_at": "2026-04-26T19:22:37Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Generate SBOMS",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-sboms.yml",
+      "term": "Generate SBOMS"
+    },
+    {
+      "context_snippet": "Run unit tests on Docker container",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-unit-tests-docker.yml",
+      "term": "Run unit tests on Docker container"
+    },
+    {
+      "context_snippet": "Run unit tests on macOS",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-unit-tests-macos.yml",
+      "term": "Run unit tests on macOS"
+    },
+    {
+      "context_snippet": "Run unit tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-unit-tests.yml",
+      "term": "Run unit tests"
+    },
+    {
+      "context_snippet": "===========",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "binary-analysis"
+    },
+    {
+      "context_snippet": "===========",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-analysis"
+    },
+    {
+      "context_snippet": "===========",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cyclonedx"
+    },
+    {
+      "context_snippet": "===========",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "===========",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "foss-compliance"
+    },
+    {
+      "context_snippet": "===========",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "license"
+    },
+    {
+      "context_snippet": "===========",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "license-compliance"
+    },
+    {
+      "context_snippet": "===========",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-source"
+    },
+    {
+      "context_snippet": "===========",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "package-url"
+    },
+    {
+      "context_snippet": "===========",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "purl"
+    },
+    {
+      "context_snippet": "===========",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scancode"
+    },
+    {
+      "context_snippet": "===========",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "software-composition-analysis"
+    },
+    {
+      "context_snippet": "===========",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spdx"
+    },
+    {
+      "context_snippet": "===========",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "virtual-machine"
+    },
+    {
+      "context_snippet": "===========",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulnerabilities"
+    }
+  ]
+}

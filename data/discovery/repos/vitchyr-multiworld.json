@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vitchyr/multiworld",
+      "target": "vikashplus/sawyer_sim",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:54:35.587616+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7418
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Multitask Environments for RL",
+    "fork": false,
+    "full_name": "vitchyr/multiworld",
+    "html_url": "https://github.com/vitchyr/multiworld",
+    "language": "Python",
+    "pushed_at": "2021-08-23T17:14:37Z",
+    "stargazers_count": 282,
+    "topics": [],
+    "updated_at": "2026-03-04T21:33:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vikashplus/sawyer_sim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IWANABETHATGUY/l-lang",
+      "target": "0x2a-42/lelwel",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:08:10.436308+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3154
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 766
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "IWANABETHATGUY/l-lang",
+    "html_url": "https://github.com/IWANABETHATGUY/l-lang",
+    "language": "Rust",
+    "pushed_at": "2026-01-13T15:26:37Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2026-04-26T08:10:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "0x2a-42/lelwel",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

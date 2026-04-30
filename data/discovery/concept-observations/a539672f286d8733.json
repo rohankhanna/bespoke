@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Implementation of ICCV19 Paper \"Learning Two-View Correspondences and Geometry Using Order-Aware Network\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Pytorch implementation of OANet for ICCV'19 paper [\"Learning Two-View Correspondences and Geometry Using Order-Aware Network\"](https://arxiv.org/abs/1908.04964), by Jiahui Zhang, Dawei Sun, Zixin Luo, Anbang Yao, Lei Zhou, Tianwei Shen, Yurong Chen, Long Quan and Hongen Liao."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Pytorch implementation of OANet for ICCV'19 paper [\"Learning Two-View Correspondences and Geometry Using Order-Aware Network\"](https://arxiv.org/abs/1908.04964), by Jiahui Zhang, Dawei Sun, Zixin Luo, Anbang Yao, Lei Zhou, Tianwei Shen, Yurong Chen, Long Quan and Hongen Liao."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "graph-neural-network",
+      "sense_id": "graph-neural-network#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "graph-neural-network",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "graph-neural-network",
+  "observation_id": "a539672f286d8733",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "graph-neural-network",
+  "source_context_snippet": "Pytorch implementation of OANet for ICCV'19 paper [\"Learning Two-View Correspondences and Geometry Using Order-Aware Network\"](https://arxiv.org/abs/1908.04964), by Jiahui Zhang, Dawei Sun, Zixin Luo, Anbang Yao, Lei Zhou, Tianwei Shen, Yurong Chen, Long Quan and Hongen Liao.",
+  "source_file": null,
+  "source_repo": "zjhthu/OANet",
+  "source_repo_description": "Implementation of ICCV19 Paper \"Learning Two-View Correspondences and Geometry Using Order-Aware Network\""
+}

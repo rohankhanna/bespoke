@@ -84,7 +84,7 @@
   "normalized_form": "run-docs-ci",
   "observation_id": "577b1acbe0c740d7",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
   "observed_text": "Run Docs CI",
   "source_context_snippet": "\"Run Docs CI\"",
   "source_file": ".github/workflows/ci-docs.yml",

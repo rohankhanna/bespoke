@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "num42/icon-resizer-swift",
+      "target": "jkmathew/assetizer",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:50:22.554445+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2266
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Renders a png file into the different sizes Xcode needs for App Icons",
+    "fork": false,
+    "full_name": "num42/icon-resizer-swift",
+    "html_url": "https://github.com/num42/icon-resizer-swift",
+    "language": "Swift",
+    "pushed_at": "2022-09-15T08:02:50Z",
+    "stargazers_count": 9,
+    "topics": [],
+    "updated_at": "2023-01-27T21:14:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jkmathew/assetizer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

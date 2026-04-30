@@ -1,0 +1,138 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "DeLaGuardo/setup-clojure@10.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "weavejester/hiccup",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "weavejester/hiccup",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "weavejester/hiccup",
+      "target": "DeLaGuardo/setup-clojure@10.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "weavejester/hiccup",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "weavejester/hiccup",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weavejester/hiccup",
+      "target": "clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weavejester/hiccup",
+      "target": "hiccup",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weavejester/hiccup",
+      "target": "html",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:55:50.437742+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3256
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 661
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Fast library for rendering HTML in Clojure",
+    "fork": false,
+    "full_name": "weavejester/hiccup",
+    "html_url": "https://github.com/weavejester/hiccup",
+    "language": "Clojure",
+    "pushed_at": "2025-06-19T14:59:18Z",
+    "stargazers_count": 2854,
+    "topics": [
+      "clojure",
+      "hiccup",
+      "html"
+    ],
+    "updated_at": "2026-04-28T15:47:02Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "Hiccup is a library for representing HTML in Clojure. It uses vectors",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    },
+    {
+      "context_snippet": "Hiccup is a library for representing HTML in Clojure. It uses vectors",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hiccup"
+    },
+    {
+      "context_snippet": "Hiccup is a library for representing HTML in Clojure. It uses vectors",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "html"
+    }
+  ]
+}

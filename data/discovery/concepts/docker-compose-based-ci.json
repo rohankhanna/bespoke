@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "docker-compose-based-ci"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "izelnakri/paper_trail",
+      "status": "candidate-context",
+      "text": "Track and record all the changes in your database with Ecto. Revert back to anytime in history."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "izelnakri/paper_trail",
+      "status": "candidate-context",
+      "text": "docker-compose-based-ci"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "izelnakri/paper_trail",
+      "status": "candidate",
+      "text": "docker-compose-based-ci"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "docker-compose-based-ci",
+  "concept_id": "docker-compose-based-ci",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "izelnakri/paper_trail"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "docker-compose-based-ci",
+      "sense_id": "docker-compose-based-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

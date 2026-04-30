@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/sling-org-apache-sling-feature-modelconverter",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/sling-org-apache-sling-feature-modelconverter",
+      "target": "osgi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/sling-org-apache-sling-feature-modelconverter",
+      "target": "osgi-feature-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/sling-org-apache-sling-feature-modelconverter",
+      "target": "sling",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:03:57.151452+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Apache Sling Feature Model Converter",
+    "fork": false,
+    "full_name": "apache/sling-org-apache-sling-feature-modelconverter",
+    "html_url": "https://github.com/apache/sling-org-apache-sling-feature-modelconverter",
+    "language": "Java",
+    "pushed_at": "2025-08-06T12:35:20Z",
+    "stargazers_count": 0,
+    "topics": [
+      "java",
+      "osgi",
+      "osgi-feature-model",
+      "sling"
+    ],
+    "updated_at": "2025-08-06T12:35:26Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Apache Sling Feature Model Converter",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "Apache Sling Feature Model Converter",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "osgi"
+    },
+    {
+      "context_snippet": "Apache Sling Feature Model Converter",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "osgi-feature-model"
+    },
+    {
+      "context_snippet": "Apache Sling Feature Model Converter",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sling"
+    }
+  ]
+}

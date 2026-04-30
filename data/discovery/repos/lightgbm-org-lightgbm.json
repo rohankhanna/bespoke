@@ -146,13 +146,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "lightgbm-org/LightGBM",
-      "target": "jpmml/jpmml-lightgbm",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "lightgbm-org/LightGBM",
       "target": "intel/scikit-learn-intelex",
       "target_type": "repository"
     },
@@ -160,7 +153,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "lightgbm-org/LightGBM",
-      "target": "iqvia-ml/lightgbm.jl",
+      "target": "kubeflow/fairing",
       "target_type": "repository"
     },
     {
@@ -168,6 +161,13 @@
       "source_file": "README.md",
       "source_repo": "lightgbm-org/LightGBM",
       "target": "joaquinamatrodrigo/skforecast",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lightgbm-org/LightGBM",
+      "target": "lightgbm-org/lightgbm-transform",
       "target_type": "repository"
     },
     {
@@ -458,7 +458,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T09:12:02.473650+00:00",
+  "fetched_at": "2026-04-30T16:12:51.558300+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -511,7 +511,7 @@
     "html_url": "https://github.com/lightgbm-org/LightGBM",
     "language": "C++",
     "pushed_at": "2026-04-30T03:13:45Z",
-    "stargazers_count": 18305,
+    "stargazers_count": 18306,
     "topics": [
       "data-mining",
       "decision-trees",
@@ -528,7 +528,7 @@
       "python",
       "r"
     ],
-    "updated_at": "2026-04-29T16:18:53Z"
+    "updated_at": "2026-04-30T14:18:37Z"
   },
   "repo_links": [
     {
@@ -538,17 +538,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "iqvia-ml/lightgbm.jl",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "joaquinamatrodrigo/skforecast",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "jpmml/jpmml-lightgbm",
+      "full_name": "kubeflow/fairing",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lightgbm-org/lightgbm-transform",
       "source_file": "README.md"
     }
   ],

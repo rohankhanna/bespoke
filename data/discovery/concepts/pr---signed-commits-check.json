@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "PR - Signed commits check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tari-project/randomx-rs",
+      "status": "candidate-context",
+      "text": "Rust bindings to the RandomX proof of work"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tari-project/randomx-rs",
+      "status": "candidate-context",
+      "text": "PR - Signed commits check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tari-project/randomx-rs",
+      "status": "candidate",
+      "text": "PR - Signed commits check"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25997,
+      "status": "candidate",
+      "text": "blank check"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25925,
+      "status": "candidate",
+      "text": "blank cheque"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18597,
+      "status": "candidate",
+      "text": "key"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18597,
+      "status": "candidate",
+      "text": "keying"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18597,
+      "status": "candidate",
+      "text": "keys"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "PR - Signed commits check",
+  "concept_id": "pr---signed-commits-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/pr_signed_commits_check.yml",
+      "source_repo": "tari-project/randomx-rs"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PR - Signed commits check",
+      "sense_id": "pr---signed-commits-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

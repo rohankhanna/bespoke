@@ -298,6 +298,30 @@
       "source_repo": "DNSCrypt/dnscrypt-protocol",
       "status": "candidate-context",
       "text": "This repository contains the formal specification of the [DNSCrypt](https://dnscrypt.info) protocol, a protocol for securing communications between a client and a DNS resolver."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "quic-go/quic-go",
+      "status": "candidate-context",
+      "text": "A production-ready QUIC implementation in pure Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quic-go/quic-go",
+      "status": "candidate-context",
+      "text": "<div align=\"center\" style=\"margin-bottom: 15px;\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adidas/api-guidelines",
+      "status": "candidate-context",
+      "text": "adidas group API design guidelines"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adidas/api-guidelines",
+      "status": "candidate-context",
+      "text": "<figure><picture><source srcset=\".gitbook/assets/adidas_company_logo_BWr.png\" media=\"(prefers-color-scheme: dark)\"><img src=\".gitbook/assets/adidas_company_logo_BWp.png\" alt=\"\"></picture><figcaption></figcaption></figure>"
     }
   ],
   "candidate_glosses": [
@@ -444,6 +468,18 @@
       "source_repo": "DNSCrypt/dnscrypt-protocol",
       "status": "candidate",
       "text": "This repository contains the formal specification of the [DNSCrypt](https://dnscrypt.info) protocol, a protocol for securing communications between a client and a DNS resolver."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quic-go/quic-go",
+      "status": "candidate",
+      "text": "<div align=\"center\" style=\"margin-bottom: 15px;\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adidas/api-guidelines",
+      "status": "candidate",
+      "text": "<figure><picture><source srcset=\".gitbook/assets/adidas_company_logo_BWr.png\" media=\"(prefers-color-scheme: dark)\"><img src=\".gitbook/assets/adidas_company_logo_BWp.png\" alt=\"\"></picture><figcaption></figcaption></figure>"
     }
   ],
   "candidate_related_terms": [
@@ -759,11 +795,41 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "lightning/bolts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "quic-go/quic-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Consensys/ethereum-dissectors"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "lightning/bolts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "adidas/api-guidelines"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ipfs/ipfs-companion"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,90 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dubbogo/dubbo-go-benchmark",
+      "target": "apache",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dubbogo/dubbo-go-benchmark",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dubbogo/dubbo-go-benchmark",
+      "target": "dubbo-go",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dubbogo/dubbo-go-benchmark",
+      "target": "dubbogo",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:52:11.826710+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4548
+    },
+    {
+      "path": "go.mod",
+      "size": 323
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "3.0",
+    "description": "benchmark for [apache/dubbo-go](github.com/apache/dubbo-go)",
+    "fork": false,
+    "full_name": "dubbogo/dubbo-go-benchmark",
+    "html_url": "https://github.com/dubbogo/dubbo-go-benchmark",
+    "language": "Go",
+    "pushed_at": "2022-07-29T13:36:46Z",
+    "stargazers_count": 26,
+    "topics": [
+      "apache",
+      "benchmark",
+      "dubbo-go",
+      "dubbogo"
+    ],
+    "updated_at": "2025-12-04T04:56:41Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "```text",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apache"
+    },
+    {
+      "context_snippet": "```text",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "```text",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dubbo-go"
+    },
+    {
+      "context_snippet": "```text",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dubbogo"
+    }
+  ]
+}

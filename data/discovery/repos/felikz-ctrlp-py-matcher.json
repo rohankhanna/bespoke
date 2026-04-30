@@ -1,0 +1,150 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FelikZ/ctrlp-py-matcher",
+      "target": "bling/vim-bufferline",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FelikZ/ctrlp-py-matcher",
+      "target": "bling/vim-airline",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FelikZ/ctrlp-py-matcher",
+      "target": "gmarik/vundle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FelikZ/ctrlp-py-matcher",
+      "target": "shougo/neobundle.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FelikZ/ctrlp-py-matcher",
+      "target": "ctrlp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FelikZ/ctrlp-py-matcher",
+      "target": "ctrlp-extension",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FelikZ/ctrlp-py-matcher",
+      "target": "extension",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FelikZ/ctrlp-py-matcher",
+      "target": "matcher",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FelikZ/ctrlp-py-matcher",
+      "target": "plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:00:51.801656+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1593
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Fast vim CtrlP matcher based on python",
+    "fork": false,
+    "full_name": "FelikZ/ctrlp-py-matcher",
+    "html_url": "https://github.com/FelikZ/ctrlp-py-matcher",
+    "language": "Python",
+    "pushed_at": "2021-09-20T08:04:06Z",
+    "stargazers_count": 236,
+    "topics": [
+      "ctrlp",
+      "ctrlp-extension",
+      "extension",
+      "matcher",
+      "plugin",
+      "vim"
+    ],
+    "updated_at": "2026-01-12T03:42:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bling/vim-airline",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bling/vim-bufferline",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gmarik/vundle",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shougo/neobundle.vim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "ctrlp-py-matcher",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ctrlp"
+    },
+    {
+      "context_snippet": "ctrlp-py-matcher",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ctrlp-extension"
+    },
+    {
+      "context_snippet": "ctrlp-py-matcher",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "extension"
+    },
+    {
+      "context_snippet": "ctrlp-py-matcher",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "matcher"
+    },
+    {
+      "context_snippet": "ctrlp-py-matcher",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plugin"
+    }
+  ]
+}

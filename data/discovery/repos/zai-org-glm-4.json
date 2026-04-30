@@ -44,7 +44,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T08:08:56.678605+00:00",
+  "fetched_at": "2026-04-30T15:10:52.431265+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -65,7 +65,7 @@
     "html_url": "https://github.com/zai-org/GLM-4",
     "language": "Python",
     "pushed_at": "2025-07-04T04:16:36Z",
-    "stargazers_count": 7077,
+    "stargazers_count": 7076,
     "topics": [
       "chatglm",
       "chatglm-6b",
@@ -73,7 +73,7 @@
       "glm-4",
       "glm4"
     ],
-    "updated_at": "2026-04-29T08:28:40Z"
+    "updated_at": "2026-04-30T12:21:45Z"
   },
   "repo_links": [
     {

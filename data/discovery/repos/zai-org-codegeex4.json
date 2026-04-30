@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zai-org/CodeGeeX4",
+      "target": "thudm/glm-4",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zai-org/CodeGeeX4",
+      "target": "thudm/naturalcodebench",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:10:33.026448+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10221
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "CodeGeeX4-ALL-9B, a versatile model for all AI software development scenarios, including code completion, code interpreter, web search, function calling, repository-level Q&A and much more.",
+    "fork": false,
+    "full_name": "zai-org/CodeGeeX4",
+    "html_url": "https://github.com/zai-org/CodeGeeX4",
+    "language": "Python",
+    "pushed_at": "2024-08-25T14:26:16Z",
+    "stargazers_count": 2496,
+    "topics": [],
+    "updated_at": "2026-04-30T07:21:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thudm/glm-4",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thudm/naturalcodebench",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

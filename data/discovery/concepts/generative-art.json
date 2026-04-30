@@ -91,6 +91,30 @@
       "source_repo": "aldernero/sketchy",
       "status": "candidate-context",
       "text": "![sketchy_logo](assets/images/logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akx/lcm_test",
+      "status": "candidate-context",
+      "text": "Quick and dirty Streamlit UI for Latent Consistency Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akx/lcm_test",
+      "status": "candidate-context",
+      "text": "Quick and dirty Streamlit UI for [Latent Consistency Models](https://github.com/luosiallen/latent-consistency-model)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abey79/vsketch",
+      "status": "candidate-context",
+      "text": "Generative plotter art environment for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abey79/vsketch",
+      "status": "candidate-context",
+      "text": "![python](https://img.shields.io/github/languages/top/abey79/vsketch)"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +159,18 @@
       "source_repo": "aldernero/sketchy",
       "status": "candidate",
       "text": "![sketchy_logo](assets/images/logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akx/lcm_test",
+      "status": "candidate",
+      "text": "Quick and dirty Streamlit UI for [Latent Consistency Models](https://github.com/luosiallen/latent-consistency-model)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abey79/vsketch",
+      "status": "candidate",
+      "text": "![python](https://img.shields.io/github/languages/top/abey79/vsketch)"
     }
   ],
   "candidate_related_terms": [],
@@ -208,11 +244,35 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "aldernero/sketchy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "invoke-ai/InvokeAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/dalle-flow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "akx/lcm_test"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "abey79/vsketch"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

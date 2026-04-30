@@ -623,6 +623,54 @@
       "source_repo": "obi1kenobi/trustfall",
       "status": "candidate-context",
       "text": "Trustfall is a query engine for querying any kind of data source, from APIs and databases"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "extism/go-pdk",
+      "status": "candidate-context",
+      "text": "Extism Plug-in Development Kit (PDK) for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "extism/go-pdk",
+      "status": "candidate-context",
+      "text": "This library can be used to write"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cretz/asmble",
+      "status": "candidate-context",
+      "text": "Compile WebAssembly to JVM and other WASM tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cretz/asmble",
+      "status": "candidate-context",
+      "text": "Asmble is a compiler that compiles [WebAssembly](http://webassembly.org/) code to JVM bytecode. It also contains"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "not-fl3/macroquad",
+      "status": "candidate-context",
+      "text": "Cross-platform game engine in Rust. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "not-fl3/macroquad",
+      "status": "candidate-context",
+      "text": "[![Github Actions](https://github.com/not-fl3/macroquad/workflows/CI/badge.svg)](https://github.com/not-fl3/macroquad/actions?query=workflow%3A)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kylebarron/parquet-wasm",
+      "status": "candidate-context",
+      "text": "Rust-based WebAssembly bindings to read and write Apache Parquet data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kylebarron/parquet-wasm",
+      "status": "candidate-context",
+      "text": "WebAssembly bindings to read and write the [Apache Parquet](https://parquet.apache.org/) format to and from [Apache Arrow](https://arrow.apache.org/) using the Rust [`parquet`](https://crates.io/crates/parquet) and [`arrow`](https://crates.io/crates/arrow) crates."
     }
   ],
   "candidate_glosses": [
@@ -937,6 +985,30 @@
       "source_repo": "obi1kenobi/trustfall",
       "status": "candidate",
       "text": "Trustfall is a query engine for querying any kind of data source, from APIs and databases"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "extism/go-pdk",
+      "status": "candidate",
+      "text": "This library can be used to write"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cretz/asmble",
+      "status": "candidate",
+      "text": "Asmble is a compiler that compiles [WebAssembly](http://webassembly.org/) code to JVM bytecode. It also contains"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "not-fl3/macroquad",
+      "status": "candidate",
+      "text": "[![Github Actions](https://github.com/not-fl3/macroquad/workflows/CI/badge.svg)](https://github.com/not-fl3/macroquad/actions?query=workflow%3A)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kylebarron/parquet-wasm",
+      "status": "candidate",
+      "text": "WebAssembly bindings to read and write the [Apache Parquet](https://parquet.apache.org/) format to and from [Apache Arrow](https://arrow.apache.org/) using the Rust [`parquet`](https://crates.io/crates/parquet) and [`arrow`](https://crates.io/crates/arrow) crates."
     }
   ],
   "candidate_related_terms": [
@@ -1400,11 +1472,47 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "extism/go-pdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "cretz/asmble"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "not-fl3/macroquad"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "kylebarron/parquet-wasm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "tracel-ai/burn"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

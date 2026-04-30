@@ -1,0 +1,303 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/depup.yml"
+    },
+    {
+      "component": "haya14busa/action-depup@94a1aaf4e4923064019214b48a43276218af7ad5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/depup.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@271a8d0340265f705b14b6d32b9829c1cb33d45e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/depup.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerimage.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "haya14busa/action-bumpr@78ab5a104d20896c9c9122c64221b3aecf1a8cbb",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "haya14busa/action-update-semver@fb48464b2438ae82cc78237be61afb4f461265a1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "haya14busa/action-cond@94f77f7a80cd666cb3155084e428254fea4281fd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "haya14busa/action-bumpr@78ab5a104d20896c9c9122c64221b3aecf1a8cbb",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reviewdog.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_semver.yml"
+    },
+    {
+      "component": "haya14busa/action-update-semver@fb48464b2438ae82cc78237be61afb4f461265a1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_semver.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "reviewdog/action-misspell",
+      "target": "golangci/misspell",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/depup.yml",
+      "source_repo": "reviewdog/action-misspell",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/depup.yml",
+      "source_repo": "reviewdog/action-misspell",
+      "target": "haya14busa/action-depup@94a1aaf4e4923064019214b48a43276218af7ad5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/depup.yml",
+      "source_repo": "reviewdog/action-misspell",
+      "target": "peter-evans/create-pull-request@271a8d0340265f705b14b6d32b9829c1cb33d45e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/depup.yml",
+      "source_repo": "reviewdog/action-misspell",
+      "target": "depup",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerimage.yml",
+      "source_repo": "reviewdog/action-misspell",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dockerimage.yml",
+      "source_repo": "reviewdog/action-misspell",
+      "target": "Docker Image CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "reviewdog/action-misspell",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "reviewdog/action-misspell",
+      "target": "haya14busa/action-bumpr@78ab5a104d20896c9c9122c64221b3aecf1a8cbb",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "reviewdog/action-misspell",
+      "target": "haya14busa/action-update-semver@fb48464b2438ae82cc78237be61afb4f461265a1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "reviewdog/action-misspell",
+      "target": "haya14busa/action-cond@94f77f7a80cd666cb3155084e428254fea4281fd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "reviewdog/action-misspell",
+      "target": "release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "reviewdog/action-misspell",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "reviewdog/action-misspell",
+      "target": "reviewdog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_semver.yml",
+      "source_repo": "reviewdog/action-misspell",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_semver.yml",
+      "source_repo": "reviewdog/action-misspell",
+      "target": "haya14busa/action-update-semver@fb48464b2438ae82cc78237be61afb4f461265a1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update_semver.yml",
+      "source_repo": "reviewdog/action-misspell",
+      "target": "Update Semver",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "reviewdog/action-misspell",
+      "target": "misspell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "reviewdog/action-misspell",
+      "target": "reviewdog",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:56:35.063965+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3487
+    },
+    {
+      "path": "Dockerfile",
+      "size": 610
+    },
+    {
+      "path": ".github/workflows/depup.yml",
+      "size": 1477
+    },
+    {
+      "path": ".github/workflows/dockerimage.yml",
+      "size": 286
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1880
+    },
+    {
+      "path": ".github/workflows/reviewdog.yml",
+      "size": 385
+    },
+    {
+      "path": ".github/workflows/update_semver.yml",
+      "size": 397
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Run misspell with reviewdog",
+    "fork": false,
+    "full_name": "reviewdog/action-misspell",
+    "html_url": "https://github.com/reviewdog/action-misspell",
+    "language": "Shell",
+    "pushed_at": "2026-04-10T17:40:52Z",
+    "stargazers_count": 102,
+    "topics": [
+      "misspell",
+      "reviewdog"
+    ],
+    "updated_at": "2026-04-06T21:45:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "golangci/misspell",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "depup",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/depup.yml",
+      "term": "depup"
+    },
+    {
+      "context_snippet": "Docker Image CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dockerimage.yml",
+      "term": "Docker Image CI"
+    },
+    {
+      "context_snippet": "release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "release"
+    },
+    {
+      "context_snippet": "reviewdog",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "term": "reviewdog"
+    },
+    {
+      "context_snippet": "Update Semver",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update_semver.yml",
+      "term": "Update Semver"
+    },
+    {
+      "context_snippet": "[![Docker Image CI](https://github.com/reviewdog/action-misspell/workflows/Docker%20Image%20CI/badge.svg)](https://github.com/reviewdog/action-misspell/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "misspell"
+    },
+    {
+      "context_snippet": "[![Docker Image CI](https://github.com/reviewdog/action-misspell/workflows/Docker%20Image%20CI/badge.svg)](https://github.com/reviewdog/action-misspell/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reviewdog"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "components": [
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "if-ver",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "import-modules",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "xo",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "istanbuljs/eslint-plugin-istanbul",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "istanbuljs/eslint-plugin-istanbul",
+      "target": "if-ver",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "istanbuljs/eslint-plugin-istanbul",
+      "target": "import-modules",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "istanbuljs/eslint-plugin-istanbul",
+      "target": "jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "istanbuljs/eslint-plugin-istanbul",
+      "target": "xo",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "istanbuljs/eslint-plugin-istanbul",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "istanbuljs/eslint-plugin-istanbul",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "istanbuljs/eslint-plugin-istanbul",
+      "target": "actions/setup-node@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:53:22.008103+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1048
+    },
+    {
+      "path": "package.json",
+      "size": 856
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 525
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "ESLint plugin for istanbul code coverage",
+    "fork": false,
+    "full_name": "istanbuljs/eslint-plugin-istanbul",
+    "html_url": "https://github.com/istanbuljs/eslint-plugin-istanbul",
+    "language": "JavaScript",
+    "pushed_at": "2024-02-05T04:18:04Z",
+    "stargazers_count": 13,
+    "topics": [],
+    "updated_at": "2025-08-20T07:04:21Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

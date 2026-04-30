@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Adobe-CEP/CEP-Resources",
+      "target": "adobe-cep/getting-started-guides",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Adobe-CEP/CEP-Resources",
+      "target": "adobe-cep/samples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Adobe-CEP/CEP-Resources",
+      "target": "adobe-photoshop/generator-panels",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Adobe-CEP/CEP-Resources",
+      "target": "hyperbrew/bolt-cep",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Adobe-CEP/CEP-Resources",
+      "target": "adobe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Adobe-CEP/CEP-Resources",
+      "target": "creativecloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Adobe-CEP/CEP-Resources",
+      "target": "extensions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Adobe-CEP/CEP-Resources",
+      "target": "panels",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T12:45:20.475770+00:00",
+  "source_repo": "Adobe-CEP/CEP-Resources"
+}

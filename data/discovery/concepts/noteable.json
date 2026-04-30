@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "noteable"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rgbkrk/chatlab",
+      "status": "candidate-context",
+      "text": "\u26a1\ufe0f\ud83e\uddea Fast LLM Tool Calling Experimentation, big and smol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rgbkrk/chatlab",
+      "status": "candidate-context",
+      "text": "**Chat Experiments, Simplified**"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rgbkrk/chatlab",
+      "status": "candidate",
+      "text": "**Chat Experiments, Simplified**"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19956354,
+      "status": "candidate",
+      "text": "noticable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19956353,
+      "status": "candidate",
+      "text": "valueable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19956352,
+      "status": "candidate",
+      "text": "reknowned"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19956351,
+      "status": "candidate",
+      "text": "conspicious"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19956350,
+      "status": "candidate",
+      "text": "magnificant"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "noteable",
+  "concept_id": "noteable",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "rgbkrk/chatlab"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "noteable",
+      "sense_id": "noteable#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

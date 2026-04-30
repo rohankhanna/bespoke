@@ -1,0 +1,57 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_docs.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_docs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_docs.yml",
+      "source_repo": "NVIDIA-AI-IOT/jetbot",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_docs.yml",
+      "source_repo": "NVIDIA-AI-IOT/jetbot",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T12:59:30.222510+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1438
+    },
+    {
+      "path": ".github/workflows/deploy_docs.yml",
+      "size": 525
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An educational AI robot based on NVIDIA Jetson Nano.",
+    "fork": false,
+    "full_name": "NVIDIA-AI-IOT/jetbot",
+    "html_url": "https://github.com/NVIDIA-AI-IOT/jetbot",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-11-26T18:55:05Z",
+    "stargazers_count": 3243,
+    "topics": [],
+    "updated_at": "2026-04-23T09:22:46Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

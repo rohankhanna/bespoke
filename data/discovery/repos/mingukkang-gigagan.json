@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T15:11:51.030124+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 524
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "mingukkang/GigaGAN",
+    "html_url": "https://github.com/mingukkang/GigaGAN",
+    "language": "JavaScript",
+    "pushed_at": "2023-09-29T09:18:44Z",
+    "stargazers_count": 414,
+    "topics": [],
+    "updated_at": "2026-04-10T06:14:24Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -50,6 +50,18 @@
       "source_repo": "changesets/action",
       "status": "candidate-context",
       "text": "Version or Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "acacode/swagger-typescript-api",
+      "status": "candidate-context",
+      "text": "Generate the API Client for Fetch or Axios from an OpenAPI Specification"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "acacode/swagger-typescript-api",
+      "status": "candidate-context",
+      "text": "Version or Publish"
     }
   ],
   "candidate_glosses": [
@@ -74,6 +86,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "changesets/action",
+      "status": "candidate",
+      "text": "Version or Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "acacode/swagger-typescript-api",
       "status": "candidate",
       "text": "Version or Publish"
     }
@@ -143,11 +161,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/version-or-publish.yml",
       "source_repo": "changesets/action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/version-or-publish.yml",
+      "source_repo": "acacode/swagger-typescript-api"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

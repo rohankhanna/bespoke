@@ -167,6 +167,30 @@
       "source_repo": "hchiam/learning",
       "status": "candidate-context",
       "text": "Links to what [I'm](https://hchiam.com) learning. Languages. Libraries. Frameworks. Etc."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LekoArts/gatsby-themes",
+      "status": "candidate-context",
+      "text": "Get high-quality and customizable Gatsby themes to quickly bootstrap your website! Choose from many professionally created and impressive designs with a wide variety of features and customization options."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LekoArts/gatsby-themes",
+      "status": "candidate-context",
+      "text": "Unit Testing"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chromedp/chromedp",
+      "status": "candidate-context",
+      "text": "A faster, simpler way to drive browsers supporting the Chrome DevTools Protocol."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chromedp/chromedp",
+      "status": "candidate-context",
+      "text": "Package `chromedp` is a faster, simpler way to drive browsers supporting the"
     }
   ],
   "candidate_glosses": [
@@ -247,6 +271,18 @@
       "source_repo": "hchiam/learning",
       "status": "candidate",
       "text": "Links to what [I'm](https://hchiam.com) learning. Languages. Libraries. Frameworks. Etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LekoArts/gatsby-themes",
+      "status": "candidate",
+      "text": "Unit Testing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chromedp/chromedp",
+      "status": "candidate",
+      "text": "Package `chromedp` is a faster, simpler way to drive browsers supporting the"
     }
   ],
   "candidate_related_terms": [
@@ -463,11 +499,41 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/_test.yml",
       "source_repo": "langchain-ai/langchain"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/coverage_check.yml",
+      "source_repo": "run-llama/llama_index"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/unit-testing.yml",
+      "source_repo": "LekoArts/gatsby-themes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/_test.yml",
+      "source_repo": "langchain-ai/langchain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "chromedp/chromedp"
     }
   ],
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

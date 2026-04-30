@@ -476,6 +476,12 @@
       "source_repo": "Mc-Zen/tidy",
       "status": "candidate-context",
       "text": "Build Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AnswerDotAI/fastkmeans",
+      "status": "candidate-context",
+      "text": "Build Documentation"
     }
   ],
   "candidate_glosses": [
@@ -710,6 +716,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Mc-Zen/tidy",
+      "status": "candidate",
+      "text": "Build Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AnswerDotAI/fastkmeans",
       "status": "candidate",
       "text": "Build Documentation"
     }
@@ -1127,11 +1139,35 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/build_documentation.yml",
       "source_repo": "Mc-Zen/tidy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/build_documentation.yml",
+      "source_repo": "huggingface/pytorch-image-models"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/build_documentation.yml",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/build_documentation.yml",
+      "source_repo": "safetensors/safetensors"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "AnswerDotAI/fastkmeans"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

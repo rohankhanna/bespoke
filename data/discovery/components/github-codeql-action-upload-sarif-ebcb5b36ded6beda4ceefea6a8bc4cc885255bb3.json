@@ -1,0 +1,12 @@
+{
+  "component": "github/codeql-action/upload-sarif@ebcb5b36ded6beda4ceefea6a8bc4cc885255bb3",
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/trivy-scan.yaml",
+      "source_repo": "rancher/local-path-provisioner"
+    }
+  ]
+}

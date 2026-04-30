@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Wheels Batch"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jllllll/ctransformers-cuBLAS-wheels",
+      "status": "candidate-context",
+      "text": "ctransformers wheels with pre-built CUDA binaries for additional CUDA and AVX versions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jllllll/ctransformers-cuBLAS-wheels",
+      "status": "candidate-context",
+      "text": "Build Wheels Batch"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jllllll/ctransformers-cuBLAS-wheels",
+      "status": "candidate",
+      "text": "Build Wheels Batch"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18978,
+      "status": "candidate",
+      "text": "lot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18833,
+      "status": "candidate",
+      "text": "set"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18584,
+      "status": "candidate",
+      "text": "gather"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18584,
+      "status": "candidate",
+      "text": "railroad"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18564,
+      "status": "candidate",
+      "text": "architecture"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Wheels Batch",
+  "concept_id": "build-wheels-batch",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/build-all-batch.yml",
+      "source_repo": "jllllll/ctransformers-cuBLAS-wheels"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Wheels Batch",
+      "sense_id": "build-wheels-batch#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

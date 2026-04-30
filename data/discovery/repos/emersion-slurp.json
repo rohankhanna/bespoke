@@ -1,0 +1,59 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emersion/slurp",
+      "target": "screenshot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emersion/slurp",
+      "target": "wayland",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:51:47.726395+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1351
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Select a region in a Wayland compositor",
+    "fork": false,
+    "full_name": "emersion/slurp",
+    "html_url": "https://github.com/emersion/slurp",
+    "language": "C",
+    "pushed_at": "2026-02-01T19:46:00Z",
+    "stargazers_count": 1230,
+    "topics": [
+      "cli",
+      "screenshot",
+      "wayland"
+    ],
+    "updated_at": "2026-04-30T09:18:45Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Select a region in a Wayland compositor and print it to the standard output.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "screenshot"
+    },
+    {
+      "context_snippet": "Select a region in a Wayland compositor and print it to the standard output.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wayland"
+    }
+  ]
+}

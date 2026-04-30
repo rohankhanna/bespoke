@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Documentation Sync Check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dianlight/gollama.cpp",
+      "status": "candidate-context",
+      "text": "A high-performance Go binding for llama.cpp using purego for cross-platform compatibility without CGO."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dianlight/gollama.cpp",
+      "status": "candidate-context",
+      "text": "Documentation Sync Check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dianlight/gollama.cpp",
+      "status": "candidate",
+      "text": "Documentation Sync Check"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23192,
+      "status": "candidate",
+      "text": "align"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23192,
+      "status": "candidate",
+      "text": "lance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23192,
+      "status": "candidate",
+      "text": "off"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22945,
+      "status": "candidate",
+      "text": "discovery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22945,
+      "status": "candidate",
+      "text": "exemplify"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Documentation Sync Check",
+  "concept_id": "documentation-sync-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/doc-sync-check.yml",
+      "source_repo": "dianlight/gollama.cpp"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Documentation Sync Check",
+      "sense_id": "documentation-sync-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

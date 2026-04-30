@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "performance tracking (comment)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aviatesk/JET.jl",
+      "status": "candidate-context",
+      "text": "A code analyzer for Julia. No need for additional type annotations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aviatesk/JET.jl",
+      "status": "candidate-context",
+      "text": "performance tracking (comment)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aviatesk/JET.jl",
+      "status": "candidate",
+      "text": "performance tracking (comment)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29215,
+      "status": "candidate",
+      "text": "track"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29215,
+      "status": "candidate",
+      "text": "tracked"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29215,
+      "status": "candidate",
+      "text": "tracks"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12815,
+      "status": "candidate",
+      "text": "monitor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12815,
+      "status": "candidate",
+      "text": "oversight"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "performance tracking (comment)",
+  "concept_id": "performance-tracking-comment",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/benchmark-comment.yml",
+      "source_repo": "aviatesk/JET.jl"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "performance tracking (comment)",
+      "sense_id": "performance-tracking-comment#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

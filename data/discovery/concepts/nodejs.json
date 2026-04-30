@@ -2617,6 +2617,300 @@
       "source_repo": "aws-samples/aws-sdk-js-tests",
       "status": "candidate-context",
       "text": "Code Samples for testing AWS SDK for JavaScript."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ehmicky/nve",
+      "status": "candidate-context",
+      "text": "Run any command on specific Node.js versions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/nve",
+      "status": "candidate-context",
+      "text": "<picture>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "googleapis/nodejs-error-reporting",
+      "status": "candidate-context",
+      "text": "Node.js client for Stackdriver Error Reporting: Count, analyze and aggregate the crashes in your running cloud services."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/nodejs-error-reporting",
+      "status": "candidate-context",
+      "text": "**_THIS REPOSITORY IS DEPRECATED. ALL OF ITS CONTENT AND HISTORY HAS BEEN MOVED TO [GOOGLE-CLOUD-NODE](https://github.com/googleapis/google-cloud-node/tree/main/packages/handwritten)_**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "googleapis/nodejs-logging-bunyan",
+      "status": "candidate-context",
+      "text": "Node.js client integration between Stackdriver Logging and Bunyan."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/nodejs-logging-bunyan",
+      "status": "candidate-context",
+      "text": "**_THIS REPOSITORY IS DEPRECATED. ALL OF ITS CONTENT AND HISTORY HAS BEEN MOVED TO [GOOGLE-CLOUD-NODE](https://github.com/googleapis/google-cloud-node/tree/main/packages/handwritten)_**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "googleapis/nodejs-bigtable",
+      "status": "candidate-context",
+      "text": "Node.js client for Google Cloud Bigtable: Google's NoSQL Big Data database service."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/nodejs-bigtable",
+      "status": "candidate-context",
+      "text": "**_THIS REPOSITORY IS DEPRECATED. ALL OF ITS CONTENT AND HISTORY HAS BEEN MOVED TO [GOOGLE-CLOUD-NODE](https://github.com/googleapis/google-cloud-node/tree/main/packages/handwritten)_**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IEIT-Yuan/YuanChat",
+      "status": "candidate-context",
+      "text": "<a name=\"readme-top\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hairyf/genapi",
+      "status": "candidate-context",
+      "text": "API pipeline generator, which is used to convert OpenApi (v2~v3) and any input sources into TS/JS APIs, and currently supports axios, fetch, ky, got, ofetch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hairyf/genapi",
+      "status": "candidate-context",
+      "text": "[![npm version][npm-version-src]][npm-version-href]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hey-api/openapi-ts",
+      "status": "candidate-context",
+      "text": "\ud83c\udf00 OpenAPI to TypeScript codegen. Production-ready SDKs, Zod schemas, TanStack Query hooks, and 20+ plugins. Used by Vercel, OpenCode, and PayPal."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hey-api/openapi-ts",
+      "status": "candidate-context",
+      "text": "openapi-ts-monorepo \u2014 Public @hey-api monorepo"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Deep-Symmetry/bytefield-svg",
+      "status": "candidate-context",
+      "text": "Node module that generates byte field diagrams in SVG format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Deep-Symmetry/bytefield-svg",
+      "status": "candidate-context",
+      "text": "A Node module for generating byte field diagrams like"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chr15m/sitefox",
+      "status": "candidate-context",
+      "text": "Node + cljs backend web framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chr15m/sitefox",
+      "status": "candidate-context",
+      "text": "Web framework for ClojureScript on Node."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Unitech/pm2",
+      "status": "candidate-context",
+      "text": "Node.js Production Process Manager with a built-in Load Balancer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Unitech/pm2",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mochajs/mocha",
+      "status": "candidate-context",
+      "text": "\u2615\ufe0f Classic, reliable, trusted test framework for Node.js and the browser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mochajs/mocha",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "websockets/ws",
+      "status": "candidate-context",
+      "text": "Simple to use, blazing fast and thoroughly tested WebSocket client and server for Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "websockets/ws",
+      "status": "candidate-context",
+      "text": "[![Version npm](https://img.shields.io/npm/v/ws.svg?logo=npm)](https://www.npmjs.com/package/ws)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opal/opal",
+      "status": "candidate-context",
+      "text": "Ruby \u2665\ufe0e JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opal/opal",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "deven96/ahnlich",
+      "status": "candidate-context",
+      "text": "Suite of tools containing an in-memory vector datastore and AI proxy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deven96/ahnlich",
+      "status": "candidate-context",
+      "text": "<p align=\"left\"><img src=\"assets/logo.jpg\" alt=\"ahnlich\" height=\"120px\"></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "motdotla/dotenv",
+      "status": "candidate-context",
+      "text": "Loads environment variables from .env for nodejs projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "motdotla/dotenv",
+      "status": "candidate-context",
+      "text": "<a href=\"https://dotenvx.com/?utm_source=github&utm_medium=readme&utm_campaign=motdotla-dotenv&utm_content=banner\"><img src=\"https://dotenvx.com/dotenv-banner.png\" alt=\"dotenvx\" /></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gajus/slonik",
+      "status": "candidate-context",
+      "text": "A Node.js PostgreSQL client with runtime and build time type safety, and composable SQL."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gajus/slonik",
+      "status": "candidate-context",
+      "text": "[![NPM version](http://img.shields.io/npm/v/slonik.svg?style=flat-square)](https://www.npmjs.org/package/slonik)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hazelcast/hazelcast-nodejs-client",
+      "status": "candidate-context",
+      "text": "Hazelcast Node.js Client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hazelcast/hazelcast-nodejs-client",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jprichardson/node-fs-extra",
+      "status": "candidate-context",
+      "text": "Node.js: extra methods for the fs object like copy(), remove(), mkdirs()"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jprichardson/node-fs-extra",
+      "status": "candidate-context",
+      "text": "Node.js: fs-extra"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ehmicky/all-node-versions",
+      "status": "candidate-context",
+      "text": "List all available Node.js versions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/all-node-versions",
+      "status": "candidate-context",
+      "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/all-node-versions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ehmicky/fetch-node-website",
+      "status": "candidate-context",
+      "text": "Fetch releases on nodejs.org"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/fetch-node-website",
+      "status": "candidate-context",
+      "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/fetch-node-website)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ehmicky/get-node",
+      "status": "candidate-context",
+      "text": "Download a specific version of Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/get-node",
+      "status": "candidate-context",
+      "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/get-node)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sebelga/gstore-node",
+      "status": "candidate-context",
+      "text": "Google Datastore Entities Modeling for Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sebelga/gstore-node",
+      "status": "candidate-context",
+      "text": "<img title=\"logo\" src=\"logo/logo.png\" width=\"75%\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
+      "status": "candidate-context",
+      "text": "Node.js samples for Google Cloud Platform products."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
+      "status": "candidate-context",
+      "text": "<img src=\"https://avatars2.githubusercontent.com/u/2810941?v=3&s=96\" alt=\"Google Cloud Platform logo\" title=\"Google Cloud Platform\" align=\"right\" height=\"96\" width=\"96\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "imagemin/imagemin-gifsicle",
+      "status": "candidate-context",
+      "text": "Imagemin plugin for Gifsicle"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "imagemin/imagemin-gifsicle",
+      "status": "candidate-context",
+      "text": "imagemin-gifsicle \u2014 Imagemin plugin for Gifsicle"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "electron-vite/electron-vite-react",
+      "status": "candidate-context",
+      "text": ":electron: Electron + Vite + React + Sass boilerplate."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron-vite/electron-vite-react",
+      "status": "candidate-context",
+      "text": "[![awesome-vite](https://awesome.re/mentioned-badge.svg)](https://github.com/vitejs/awesome-vite)"
     }
   ],
   "candidate_glosses": [
@@ -3921,6 +4215,156 @@
       "source_repo": "aws-samples/aws-sdk-js-tests",
       "status": "candidate",
       "text": "Code Samples for testing AWS SDK for JavaScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/nve",
+      "status": "candidate",
+      "text": "<picture>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/nodejs-error-reporting",
+      "status": "candidate",
+      "text": "**_THIS REPOSITORY IS DEPRECATED. ALL OF ITS CONTENT AND HISTORY HAS BEEN MOVED TO [GOOGLE-CLOUD-NODE](https://github.com/googleapis/google-cloud-node/tree/main/packages/handwritten)_**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/nodejs-logging-bunyan",
+      "status": "candidate",
+      "text": "**_THIS REPOSITORY IS DEPRECATED. ALL OF ITS CONTENT AND HISTORY HAS BEEN MOVED TO [GOOGLE-CLOUD-NODE](https://github.com/googleapis/google-cloud-node/tree/main/packages/handwritten)_**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/nodejs-bigtable",
+      "status": "candidate",
+      "text": "**_THIS REPOSITORY IS DEPRECATED. ALL OF ITS CONTENT AND HISTORY HAS BEEN MOVED TO [GOOGLE-CLOUD-NODE](https://github.com/googleapis/google-cloud-node/tree/main/packages/handwritten)_**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IEIT-Yuan/YuanChat",
+      "status": "candidate",
+      "text": "<a name=\"readme-top\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hairyf/genapi",
+      "status": "candidate",
+      "text": "[![npm version][npm-version-src]][npm-version-href]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hey-api/openapi-ts",
+      "status": "candidate",
+      "text": "openapi-ts-monorepo \u2014 Public @hey-api monorepo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Deep-Symmetry/bytefield-svg",
+      "status": "candidate",
+      "text": "A Node module for generating byte field diagrams like"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chr15m/sitefox",
+      "status": "candidate",
+      "text": "Web framework for ClojureScript on Node."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Unitech/pm2",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mochajs/mocha",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "websockets/ws",
+      "status": "candidate",
+      "text": "[![Version npm](https://img.shields.io/npm/v/ws.svg?logo=npm)](https://www.npmjs.com/package/ws)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opal/opal",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deven96/ahnlich",
+      "status": "candidate",
+      "text": "<p align=\"left\"><img src=\"assets/logo.jpg\" alt=\"ahnlich\" height=\"120px\"></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "motdotla/dotenv",
+      "status": "candidate",
+      "text": "<a href=\"https://dotenvx.com/?utm_source=github&utm_medium=readme&utm_campaign=motdotla-dotenv&utm_content=banner\"><img src=\"https://dotenvx.com/dotenv-banner.png\" alt=\"dotenvx\" /></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gajus/slonik",
+      "status": "candidate",
+      "text": "[![NPM version](http://img.shields.io/npm/v/slonik.svg?style=flat-square)](https://www.npmjs.org/package/slonik)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hazelcast/hazelcast-nodejs-client",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jprichardson/node-fs-extra",
+      "status": "candidate",
+      "text": "Node.js: fs-extra"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/all-node-versions",
+      "status": "candidate",
+      "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/all-node-versions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/fetch-node-website",
+      "status": "candidate",
+      "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/fetch-node-website)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/get-node",
+      "status": "candidate",
+      "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/get-node)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sebelga/gstore-node",
+      "status": "candidate",
+      "text": "<img title=\"logo\" src=\"logo/logo.png\" width=\"75%\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
+      "status": "candidate",
+      "text": "<img src=\"https://avatars2.githubusercontent.com/u/2810941?v=3&s=96\" alt=\"Google Cloud Platform logo\" title=\"Google Cloud Platform\" align=\"right\" height=\"96\" width=\"96\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "imagemin/imagemin-gifsicle",
+      "status": "candidate",
+      "text": "imagemin-gifsicle \u2014 Imagemin plugin for Gifsicle"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron-vite/electron-vite-react",
+      "status": "candidate",
+      "text": "[![awesome-vite](https://awesome.re/mentioned-badge.svg)](https://github.com/vitejs/awesome-vite)"
     }
   ],
   "candidate_related_terms": [],
@@ -5740,11 +6184,299 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "Level/levelup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "coreybutler/nvm-windows"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "nodenv/nodenv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ehmicky/nve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "googleapis/google-cloud-node"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "googleapis/gaxios"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "googleapis/nodejs-error-reporting"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "googleapis/nodejs-logging-bunyan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "googleapis/nodejs-bigtable"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "IEIT-Yuan/YuanChat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "hairyf/genapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "hey-api/openapi-ts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/bytefield-svg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "babashka/nbb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "chr15m/sitefox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Unitech/pm2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "mochajs/mocha"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "websockets/ws"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "opal/opal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/to-regex-range"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/braces"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/is-glob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "base-repos/base"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "standard/standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "standard/snazzy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "vipermind/flake-idgen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "statsd/statsd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "nwjs/nw.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "electron/electron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "deven96/ahnlich"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "motdotla/dotenv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "gajus/slonik"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast-nodejs-client"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Level/multileveldown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Level/levelup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "jprichardson/node-fs-extra"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB-Bridge-Client"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "nodejs/Release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "nodists/nodist"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ehmicky/all-node-versions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ehmicky/fetch-node-website"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ehmicky/get-node"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "googleapis/google-api-nodejs-client"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "sebelga/gstore-node"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "GoogleCloudPlatform/nodejs-docs-samples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "imagemin/imagemin-gifsicle"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "electron-vite/electron-vite-react"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

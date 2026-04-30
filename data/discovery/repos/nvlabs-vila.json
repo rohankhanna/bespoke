@@ -5,6 +5,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "NVlabs/VILA",
+      "target": "project-monai/vlm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVlabs/VILA",
       "target": "efficient-large-model/vila",
       "target_type": "repository"
     },
@@ -17,20 +24,13 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
+      "source_file": "pyproject.toml",
       "source_repo": "NVlabs/VILA",
-      "target": "opengvlab/internvl",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "NVlabs/VILA",
-      "target": "ofa-sys/gsm8k-screl",
+      "target": "nvlabs/ps3",
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-04-30T10:14:47.797585+00:00",
+  "fetched_at": "2026-04-30T15:09:24.311814+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -72,13 +72,13 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "ofa-sys/gsm8k-screl",
+      "full_name": "project-monai/vlm",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "opengvlab/internvl",
-      "source_file": "README.md"
+      "full_name": "nvlabs/ps3",
+      "source_file": "pyproject.toml"
     }
   ],
   "terms": []

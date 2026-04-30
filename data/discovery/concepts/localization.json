@@ -5,7 +5,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -91,6 +93,30 @@
       "source_repo": "locize/locizify",
       "status": "candidate-context",
       "text": "[![Coveralls](https://img.shields.io/coveralls/locize/locizify/master.svg?style=flat-square)](https://coveralls.io/github/locize/locizify)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sobolevn/misspell-fixer-action",
+      "status": "candidate-context",
+      "text": "\ud83d\udcddAutomatically fixes typos and mistakes in your source code and docs!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sobolevn/misspell-fixer-action",
+      "status": "candidate-context",
+      "text": "[![wemake.services](https://img.shields.io/badge/%20-wemake.services-green.svg?label=%20&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC%2FxhBQAAAAFzUkdCAK7OHOkAAAAbUExURQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP%2F%2F%2F5TvxDIAAAAIdFJOUwA\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IEvangelist/blazor-azure-openai",
+      "status": "candidate-context",
+      "text": "The Blazor WebAssembly app that inspired the Microsoft //Build 2023 demo app."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IEvangelist/blazor-azure-openai",
+      "status": "candidate-context",
+      "text": "localization"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +161,18 @@
       "source_repo": "locize/locizify",
       "status": "candidate",
       "text": "[![Coveralls](https://img.shields.io/coveralls/locize/locizify/master.svg?style=flat-square)](https://coveralls.io/github/locize/locizify)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sobolevn/misspell-fixer-action",
+      "status": "candidate",
+      "text": "[![wemake.services](https://img.shields.io/badge/%20-wemake.services-green.svg?label=%20&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC%2FxhBQAAAAFzUkdCAK7OHOkAAAAbUExURQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP%2F%2F%2F5TvxDIAAAAIdFJOUwA\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IEvangelist/blazor-azure-openai",
+      "status": "candidate",
+      "text": "localization"
     }
   ],
   "candidate_related_terms": [
@@ -255,11 +293,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "locize/locizify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "sobolevn/misspell-fixer-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/localization.yml",
+      "source_repo": "IEvangelist/blazor-azure-openai"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T16:06:25.451047+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2999
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "8.0",
+    "description": "MySQL Workbench is a unified visual tool for database architects, developers, and DBAs. MySQL Workbench provides data modeling, SQL development, and comprehensive administration tools for server configuration, user administration, backup, and much more.",
+    "fork": false,
+    "full_name": "mysql/mysql-workbench",
+    "html_url": "https://github.com/mysql/mysql-workbench",
+    "language": "C++",
+    "pushed_at": "2026-04-23T09:01:56Z",
+    "stargazers_count": 990,
+    "topics": [],
+    "updated_at": "2026-04-30T05:43:34Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

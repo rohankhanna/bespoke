@@ -1,7 +1,7 @@
 {
   "component": "dawidd6/action-send-mail@d38f3f7cd391cdebfe0d38efc3998b935e951c4f",
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/issue_pr_lock.yml",
       "source_repo": "containers/podman"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/maven-release.yml",
+      "source_repo": "karatelabs/karate"
     }
   ]
 }

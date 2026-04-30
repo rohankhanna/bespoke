@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T15:14:22.127705+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16457
+    },
+    {
+      "path": "requirements.txt",
+      "size": 125
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "CMB, A Comprehensive  Medical Benchmark in Chinese",
+    "fork": false,
+    "full_name": "FreedomIntelligence/CMB",
+    "html_url": "https://github.com/FreedomIntelligence/CMB",
+    "language": "Python",
+    "pushed_at": "2025-03-27T14:42:22Z",
+    "stargazers_count": 240,
+    "topics": [],
+    "updated_at": "2026-04-22T21:56:44Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

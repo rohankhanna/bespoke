@@ -23,21 +23,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "aigc-apps/VideoX-Fun",
-      "target": "black-forest-labs/flux2",
+      "target": "thudm/cogvideo",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "aigc-apps/VideoX-Fun",
-      "target": "kijai/comfyui-kjnodes",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "aigc-apps/VideoX-Fun",
-      "target": "kijai/comfyui-easyanimatewrapper",
+      "target": "wan-video/wan2.2",
       "target_type": "repository"
     },
     {
@@ -62,7 +55,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T08:09:21.015339+00:00",
+  "fetched_at": "2026-04-30T16:10:39.560581+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -103,17 +96,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "black-forest-labs/flux2",
+      "full_name": "thudm/cogvideo",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "kijai/comfyui-easyanimatewrapper",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "kijai/comfyui-kjnodes",
+      "full_name": "wan-video/wan2.2",
       "source_file": "README.md"
     }
   ],

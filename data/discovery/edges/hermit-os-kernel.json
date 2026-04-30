@@ -2,30 +2,30 @@
   "edges": [
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
+      "source_file": "Cargo.toml",
       "source_repo": "hermit-os/kernel",
-      "target": "hermit-os/.github",
+      "target": "arm-software/abi-aa",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
+      "source_file": "Cargo.toml",
       "source_repo": "hermit-os/kernel",
-      "target": "hermit-os/hermit-rs",
+      "target": "hermit-os/rftrace",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
+      "source_file": "Cargo.toml",
       "source_repo": "hermit-os/kernel",
-      "target": "hermit-os/hermit-c",
+      "target": "hermit-os/async-executor",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
+      "source_file": "Cargo.toml",
       "source_repo": "hermit-os/kernel",
-      "target": "rust-lang/log",
+      "target": "hermit-os/safe-mmio",
       "target_type": "repository"
     },
     {
@@ -267,6 +267,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "generated_at": "2026-04-30T12:45:20.475770+00:00",
   "source_repo": "hermit-os/kernel"
 }

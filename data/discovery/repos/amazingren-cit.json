@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Amazingren/CIT",
+      "target": "ha0tang/xingvton",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Amazingren/CIT",
+      "target": "sergeywong/cp-vton",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Amazingren/CIT",
+      "target": "minar09/cp-vton-plus",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:07:57.232382+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6947
+    },
+    {
+      "path": "requirements.txt",
+      "size": 111
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "(ACM ToMM2023) The repository offers the official implementation of our paper in PyTorch.",
+    "fork": false,
+    "full_name": "Amazingren/CIT",
+    "html_url": "https://github.com/Amazingren/CIT",
+    "language": "Python",
+    "pushed_at": "2021-06-05T16:39:47Z",
+    "stargazers_count": 54,
+    "topics": [],
+    "updated_at": "2026-02-08T18:28:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ha0tang/xingvton",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "minar09/cp-vton-plus",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sergeywong/cp-vton",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

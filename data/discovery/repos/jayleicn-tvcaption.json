@@ -1,0 +1,109 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jayleicn/TVCaption",
+      "target": "jayleicn/recurrent-transformer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jayleicn/TVCaption",
+      "target": "jayleicn/tvqa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jayleicn/TVCaption",
+      "target": "jayleicn/tvqaplus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jayleicn/TVCaption",
+      "target": "dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jayleicn/TVCaption",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jayleicn/TVCaption",
+      "target": "video-captioning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:09:43.759910+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5329
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[ECCV 2020] PyTorch code of MMT (a multimodal transformer captioning model) on TVCaption dataset",
+    "fork": false,
+    "full_name": "jayleicn/TVCaption",
+    "html_url": "https://github.com/jayleicn/TVCaption",
+    "language": "Python",
+    "pushed_at": "2023-09-06T16:48:54Z",
+    "stargazers_count": 91,
+    "topics": [
+      "dataset",
+      "pytorch",
+      "video-captioning"
+    ],
+    "updated_at": "2026-03-11T03:11:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jayleicn/recurrent-transformer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jayleicn/tvqa",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jayleicn/tvqaplus",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "TVCaption",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataset"
+    },
+    {
+      "context_snippet": "TVCaption",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "TVCaption",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-captioning"
+    }
+  ]
+}

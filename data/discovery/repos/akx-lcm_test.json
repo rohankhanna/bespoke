@@ -1,0 +1,94 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akx/lcm_test",
+      "target": "generative-art",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akx/lcm_test",
+      "target": "latent-consistency-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akx/lcm_test",
+      "target": "stable-diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akx/lcm_test",
+      "target": "streamlit",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:03:22.805020+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 462
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 36
+    },
+    {
+      "path": "requirements.txt",
+      "size": 87
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Quick and dirty Streamlit UI for Latent Consistency Models",
+    "fork": false,
+    "full_name": "akx/lcm_test",
+    "html_url": "https://github.com/akx/lcm_test",
+    "language": "Python",
+    "pushed_at": "2023-10-24T12:01:56Z",
+    "stargazers_count": 8,
+    "topics": [
+      "generative-art",
+      "latent-consistency-model",
+      "stable-diffusion",
+      "streamlit"
+    ],
+    "updated_at": "2024-05-25T23:39:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Quick and dirty Streamlit UI for [Latent Consistency Models](https://github.com/luosiallen/latent-consistency-model).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-art"
+    },
+    {
+      "context_snippet": "Quick and dirty Streamlit UI for [Latent Consistency Models](https://github.com/luosiallen/latent-consistency-model).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "latent-consistency-model"
+    },
+    {
+      "context_snippet": "Quick and dirty Streamlit UI for [Latent Consistency Models](https://github.com/luosiallen/latent-consistency-model).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion"
+    },
+    {
+      "context_snippet": "Quick and dirty Streamlit UI for [Latent Consistency Models](https://github.com/luosiallen/latent-consistency-model).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "streamlit"
+    }
+  ]
+}

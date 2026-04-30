@@ -1,0 +1,89 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jean-pierreBoth/probminhash",
+      "target": "oertl/probminhash",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jean-pierreBoth/probminhash",
+      "target": "hyperloglog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jean-pierreBoth/probminhash",
+      "target": "probminhash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jean-pierreBoth/probminhash",
+      "target": "sketching",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:52:46.064114+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6001
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1824
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Rust implementation of probminhash,  superminhash and hyperloglog sketching algorithms",
+    "fork": false,
+    "full_name": "jean-pierreBoth/probminhash",
+    "html_url": "https://github.com/jean-pierreBoth/probminhash",
+    "language": "Rust",
+    "pushed_at": "2026-01-22T13:55:14Z",
+    "stargazers_count": 31,
+    "topics": [
+      "hyperloglog",
+      "probminhash",
+      "sketching"
+    ],
+    "updated_at": "2026-01-22T13:55:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "oertl/probminhash",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This crate provides implementation of some recent algorithms deriving from the original Minhash. They have better performance and are more general.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hyperloglog"
+    },
+    {
+      "context_snippet": "This crate provides implementation of some recent algorithms deriving from the original Minhash. They have better performance and are more general.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "probminhash"
+    },
+    {
+      "context_snippet": "This crate provides implementation of some recent algorithms deriving from the original Minhash. They have better performance and are more general.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sketching"
+    }
+  ]
+}

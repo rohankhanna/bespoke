@@ -19,6 +19,18 @@
       "source_repo": "blepping/comfyui_overly_complicated_sampling",
       "status": "candidate-context",
       "text": "Experimental and mathematically unsound (but fun!) sampling for [ComfyUI](https://github.com/comfyanonymous/ComfyUI)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pocojang/nuxt-realworld",
+      "status": "candidate-context",
+      "text": "\ud83d\udee0 Built a Example App of RealWorld with Nuxt & Composition API \u2697\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pocojang/nuxt-realworld",
+      "status": "candidate-context",
+      "text": "[![RealWorld Frontend](https://img.shields.io/badge/realworld-frontend-%23783578.svg)](http://realworld.io)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "blepping/comfyui_overly_complicated_sampling",
       "status": "candidate",
       "text": "Experimental and mathematically unsound (but fun!) sampling for [ComfyUI](https://github.com/comfyanonymous/ComfyUI)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pocojang/nuxt-realworld",
+      "status": "candidate",
+      "text": "[![RealWorld Frontend](https://img.shields.io/badge/realworld-frontend-%23783578.svg)](http://realworld.io)"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "blepping/comfyui_overly_complicated_sampling"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "pocojang/nuxt-realworld"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

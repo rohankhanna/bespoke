@@ -19,6 +19,18 @@
       "source_repo": "themix-project/themix-gui",
       "status": "candidate-context",
       "text": "Themix GUI designer"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tinted-theming/tinted-xresources",
+      "status": "candidate-context",
+      "text": "Base16 and Base24 for Xresources"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/tinted-xresources",
+      "status": "candidate-context",
+      "text": "Tinted themes for [Xresources]. Have a look at the [gallery] page for"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "themix-project/themix-gui",
       "status": "candidate",
       "text": "Themix GUI designer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/tinted-xresources",
+      "status": "candidate",
+      "text": "Tinted themes for [Xresources]. Have a look at the [gallery] page for"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "themix-project/themix-gui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "tinted-theming/tinted-xresources"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -43,6 +43,30 @@
       "source_repo": "li-xirong/coco-cn",
       "status": "candidate-context",
       "text": "COCO-CN is a bilingual image description dataset enriching MS-COCO with manually written Chinese sentences and tags. The new dataset can be used for multiple tasks including image tagging, captioning and retrieval, all in a cross-lingual setting."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "peteanderson80/bottom-up-attention",
+      "status": "candidate-context",
+      "text": "Bottom-up attention model for image captioning and VQA, based on Faster R-CNN and Visual Genome"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "peteanderson80/bottom-up-attention",
+      "status": "candidate-context",
+      "text": "This code implements a bottom-up attention model, based on multi-gpu training of Faster R-CNN with ResNet-101, using object and attribute annotations from [Visual Genome](http://visualgenome.org/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OFA-Sys/OFA",
+      "status": "candidate-context",
+      "text": "Official repository of OFA (ICML 2022). Paper: OFA: Unifying Architectures, Tasks, and Modalities Through a Simple Sequence-to-Sequence Learning Framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OFA-Sys/OFA",
+      "status": "candidate-context",
+      "text": "<!---"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "li-xirong/coco-cn",
       "status": "candidate",
       "text": "COCO-CN is a bilingual image description dataset enriching MS-COCO with manually written Chinese sentences and tags. The new dataset can be used for multiple tasks including image tagging, captioning and retrieval, all in a cross-lingual setting."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "peteanderson80/bottom-up-attention",
+      "status": "candidate",
+      "text": "This code implements a bottom-up attention model, based on multi-gpu training of Faster R-CNN with ResNet-101, using object and attribute annotations from [Visual Genome](http://visualgenome.org/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OFA-Sys/OFA",
+      "status": "candidate",
+      "text": "<!---"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +124,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "li-xirong/coco-cn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "peteanderson80/bottom-up-attention"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "OFA-Sys/OFA"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

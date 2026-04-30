@@ -367,6 +367,18 @@
       "source_repo": "bhavuklabs/research4j",
       "status": "candidate-context",
       "text": "**Intelligent Research Automation Library with Dynamic Reasoning and Citation Management**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "brainlid/langchain_demo",
+      "status": "candidate-context",
+      "text": "Demo web project using the Elixir LangChain library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brainlid/langchain_demo",
+      "status": "candidate-context",
+      "text": "This project is a demonstration example using the [Elixir LangChain](https://github.com/brainlid/langchain) library and [Phoenix LiveView](https://www.phoenixframework.org/)."
     }
   ],
   "candidate_glosses": [
@@ -549,6 +561,12 @@
       "source_repo": "bhavuklabs/research4j",
       "status": "candidate",
       "text": "**Intelligent Research Automation Library with Dynamic Reasoning and Citation Management**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brainlid/langchain_demo",
+      "status": "candidate",
+      "text": "This project is a demonstration example using the [Elixir LangChain](https://github.com/brainlid/langchain) library and [Phoenix LiveView](https://www.phoenixframework.org/)."
     }
   ],
   "candidate_related_terms": [],
@@ -928,11 +946,47 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "bhavuklabs/research4j"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "lobehub/lobe-cli-toolbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "brainlid/langchain_demo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "chatchat-space/Langchain-Chatchat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "OpenBMB/RepoAgent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "langchain-ai/langchain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "meta-llama/llama-cookbook"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

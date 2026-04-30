@@ -1,0 +1,61 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AILab-CVC/YOLO-World",
+      "target": "stevengrove/comfyui-yoloworld",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "AILab-CVC/YOLO-World",
+      "target": "onuralpszr/mmyolo",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:14:27.726918+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18760
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1205
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1512
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[CVPR 2024] Real-Time Open-Vocabulary Object Detection",
+    "fork": false,
+    "full_name": "AILab-CVC/YOLO-World",
+    "html_url": "https://github.com/AILab-CVC/YOLO-World",
+    "language": "Python",
+    "pushed_at": "2025-02-26T18:29:03Z",
+    "stargazers_count": 6328,
+    "topics": [],
+    "updated_at": "2026-04-30T14:33:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stevengrove/comfyui-yoloworld",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "onuralpszr/mmyolo",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": []
+}

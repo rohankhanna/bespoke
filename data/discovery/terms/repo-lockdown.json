@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/lockdown.yml",
       "source_repo": "qemu/qemu"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/repo-lockdown.yml",
+      "source_repo": "riscv-software-src/opensbi"
     }
   ],
   "term": "Repo Lockdown"

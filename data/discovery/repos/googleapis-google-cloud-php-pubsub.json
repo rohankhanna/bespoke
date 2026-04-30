@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T16:12:08.400719+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2841
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "googleapis/google-cloud-php-pubsub",
+    "html_url": "https://github.com/googleapis/google-cloud-php-pubsub",
+    "language": "PHP",
+    "pushed_at": "2026-04-28T15:53:38Z",
+    "stargazers_count": 90,
+    "topics": [],
+    "updated_at": "2026-04-28T15:53:42Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

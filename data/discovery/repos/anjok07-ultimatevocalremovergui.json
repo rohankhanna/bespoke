@@ -1,0 +1,227 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Anjok07/ultimatevocalremovergui",
+      "target": "facebookresearch/demucs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Anjok07/ultimatevocalremovergui",
+      "target": "najeongmo/colab-for-mdx_b",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Anjok07/ultimatevocalremovergui",
+      "target": "audio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Anjok07/ultimatevocalremovergui",
+      "target": "instrumental",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Anjok07/ultimatevocalremovergui",
+      "target": "karaoke",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Anjok07/ultimatevocalremovergui",
+      "target": "kareokee",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Anjok07/ultimatevocalremovergui",
+      "target": "music",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Anjok07/ultimatevocalremovergui",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Anjok07/ultimatevocalremovergui",
+      "target": "separation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Anjok07/ultimatevocalremovergui",
+      "target": "source",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Anjok07/ultimatevocalremovergui",
+      "target": "spectrogram",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Anjok07/ultimatevocalremovergui",
+      "target": "vocal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Anjok07/ultimatevocalremovergui",
+      "target": "vocal-remover",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Anjok07/ultimatevocalremovergui",
+      "target": "vocals",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:01:14.665731+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13717
+    },
+    {
+      "path": "requirements.txt",
+      "size": 736
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": " GUI for a Vocal Remover that uses Deep Neural Networks.",
+    "fork": false,
+    "full_name": "Anjok07/ultimatevocalremovergui",
+    "html_url": "https://github.com/Anjok07/ultimatevocalremovergui",
+    "language": "Python",
+    "pushed_at": "2025-03-13T21:44:03Z",
+    "stargazers_count": 24474,
+    "topics": [
+      "audio",
+      "instrumental",
+      "karaoke",
+      "kareokee",
+      "music",
+      "pytorch",
+      "separation",
+      "source",
+      "spectrogram",
+      "vocal",
+      "vocal-remover",
+      "vocals"
+    ],
+    "updated_at": "2026-04-30T09:16:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/demucs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "najeongmo/colab-for-mdx_b",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img src=\"https://raw.githubusercontent.com/Anjok07/ultimatevocalremovergui/master/gui_data/img/UVR_v5.6.png?raw=true\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio"
+    },
+    {
+      "context_snippet": "<img src=\"https://raw.githubusercontent.com/Anjok07/ultimatevocalremovergui/master/gui_data/img/UVR_v5.6.png?raw=true\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "instrumental"
+    },
+    {
+      "context_snippet": "<img src=\"https://raw.githubusercontent.com/Anjok07/ultimatevocalremovergui/master/gui_data/img/UVR_v5.6.png?raw=true\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "karaoke"
+    },
+    {
+      "context_snippet": "<img src=\"https://raw.githubusercontent.com/Anjok07/ultimatevocalremovergui/master/gui_data/img/UVR_v5.6.png?raw=true\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kareokee"
+    },
+    {
+      "context_snippet": "<img src=\"https://raw.githubusercontent.com/Anjok07/ultimatevocalremovergui/master/gui_data/img/UVR_v5.6.png?raw=true\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "music"
+    },
+    {
+      "context_snippet": "<img src=\"https://raw.githubusercontent.com/Anjok07/ultimatevocalremovergui/master/gui_data/img/UVR_v5.6.png?raw=true\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "<img src=\"https://raw.githubusercontent.com/Anjok07/ultimatevocalremovergui/master/gui_data/img/UVR_v5.6.png?raw=true\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "separation"
+    },
+    {
+      "context_snippet": "<img src=\"https://raw.githubusercontent.com/Anjok07/ultimatevocalremovergui/master/gui_data/img/UVR_v5.6.png?raw=true\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "source"
+    },
+    {
+      "context_snippet": "<img src=\"https://raw.githubusercontent.com/Anjok07/ultimatevocalremovergui/master/gui_data/img/UVR_v5.6.png?raw=true\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spectrogram"
+    },
+    {
+      "context_snippet": "<img src=\"https://raw.githubusercontent.com/Anjok07/ultimatevocalremovergui/master/gui_data/img/UVR_v5.6.png?raw=true\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vocal"
+    },
+    {
+      "context_snippet": "<img src=\"https://raw.githubusercontent.com/Anjok07/ultimatevocalremovergui/master/gui_data/img/UVR_v5.6.png?raw=true\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vocal-remover"
+    },
+    {
+      "context_snippet": "<img src=\"https://raw.githubusercontent.com/Anjok07/ultimatevocalremovergui/master/gui_data/img/UVR_v5.6.png?raw=true\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vocals"
+    }
+  ]
+}

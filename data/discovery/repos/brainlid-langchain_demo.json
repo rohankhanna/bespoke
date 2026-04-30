@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brainlid/langchain_demo",
+      "target": "demo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brainlid/langchain_demo",
+      "target": "elixir",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brainlid/langchain_demo",
+      "target": "langchain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brainlid/langchain_demo",
+      "target": "langchain-app",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brainlid/langchain_demo",
+      "target": "phoenix-framework",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T12:49:33.049136+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2837
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Demo web project using the Elixir LangChain library",
+    "fork": false,
+    "full_name": "brainlid/langchain_demo",
+    "html_url": "https://github.com/brainlid/langchain_demo",
+    "language": "Elixir",
+    "pushed_at": "2026-04-04T22:48:23Z",
+    "stargazers_count": 153,
+    "topics": [
+      "demo",
+      "elixir",
+      "langchain",
+      "langchain-app",
+      "phoenix-framework"
+    ],
+    "updated_at": "2026-04-17T07:08:27Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This project is a demonstration example using the [Elixir LangChain](https://github.com/brainlid/langchain) library and [Phoenix LiveView](https://www.phoenixframework.org/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "demo"
+    },
+    {
+      "context_snippet": "This project is a demonstration example using the [Elixir LangChain](https://github.com/brainlid/langchain) library and [Phoenix LiveView](https://www.phoenixframework.org/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "elixir"
+    },
+    {
+      "context_snippet": "This project is a demonstration example using the [Elixir LangChain](https://github.com/brainlid/langchain) library and [Phoenix LiveView](https://www.phoenixframework.org/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "langchain"
+    },
+    {
+      "context_snippet": "This project is a demonstration example using the [Elixir LangChain](https://github.com/brainlid/langchain) library and [Phoenix LiveView](https://www.phoenixframework.org/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "langchain-app"
+    },
+    {
+      "context_snippet": "This project is a demonstration example using the [Elixir LangChain](https://github.com/brainlid/langchain) library and [Phoenix LiveView](https://www.phoenixframework.org/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "phoenix-framework"
+    }
+  ]
+}

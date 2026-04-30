@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "standard"
+    "standard",
+    "Standard"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -259,6 +262,18 @@
       "source_repo": "standard-schema/standard-schema",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ankane/ml-stack",
+      "status": "candidate-context",
+      "text": "Machine learning Docker images for Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ankane/ml-stack",
+      "status": "candidate-context",
+      "text": "Standard"
     }
   ],
   "candidate_glosses": [
@@ -387,6 +402,12 @@
       "source_repo": "standard-schema/standard-schema",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ankane/ml-stack",
+      "status": "candidate",
+      "text": "Standard"
     }
   ],
   "candidate_related_terms": [
@@ -682,11 +703,29 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "standard/snazzy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/standard.yml",
+      "source_repo": "ankane/ml-stack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "standard/standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "standard/snazzy"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

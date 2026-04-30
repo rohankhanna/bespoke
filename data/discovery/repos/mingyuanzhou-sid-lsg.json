@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mingyuanzhou/SiD-LSG",
+      "target": "mingyuanzhou/sid",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mingyuanzhou/SiD-LSG",
+      "target": "apple/ml-sid-dit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mingyuanzhou/SiD-LSG",
+      "target": "mingyuanzhou/sid-slg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mingyuanzhou/SiD-LSG",
+      "target": "pkulwj1994/diff_instruct",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:11:51.789487+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12927
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Score identity Distillation with Long and Short Guidance for One-Step Text-to-Image Generation",
+    "fork": false,
+    "full_name": "mingyuanzhou/SiD-LSG",
+    "html_url": "https://github.com/mingyuanzhou/SiD-LSG",
+    "language": "Python",
+    "pushed_at": "2025-12-04T18:07:58Z",
+    "stargazers_count": 97,
+    "topics": [],
+    "updated_at": "2026-04-22T13:02:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apple/ml-sid-dit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mingyuanzhou/sid",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mingyuanzhou/sid-slg",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pkulwj1994/diff_instruct",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

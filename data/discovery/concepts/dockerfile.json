@@ -117,6 +117,18 @@
       "source_repo": "oceanbase/docker-images",
       "status": "candidate-context",
       "text": "This repository contains [Dockerfiles](https://docs.docker.com/engine/reference/builder/) and samples to build [Docker](https://www.docker.com/what-docker) images for OceanBase products."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sclorg/mongodb-container",
+      "status": "candidate-context",
+      "text": "MongoDB container images based on Red Hat Software Collections and intended for OpenShift and general usage. Users can choose between Red Hat Enterprise Linux, Fedora, and CentOS based images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sclorg/mongodb-container",
+      "status": "candidate-context",
+      "text": "MongoDB container images"
     }
   ],
   "candidate_glosses": [
@@ -173,6 +185,12 @@
       "source_repo": "oceanbase/docker-images",
       "status": "candidate",
       "text": "This repository contains [Dockerfiles](https://docs.docker.com/engine/reference/builder/) and samples to build [Docker](https://www.docker.com/what-docker) images for OceanBase products."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sclorg/mongodb-container",
+      "status": "candidate",
+      "text": "MongoDB container images"
     }
   ],
   "candidate_related_terms": [],
@@ -336,11 +354,29 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "oceanbase/docker-images"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "velviagris/PaddleOCRFastAPI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "sclorg/mongodb-container"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "hexops-graveyard/dockerfile"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

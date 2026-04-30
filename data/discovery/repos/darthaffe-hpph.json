@@ -1,0 +1,136 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4.1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_verify.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_verify.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2.0.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_verify.yml",
+      "source_repo": "DarthAffe/HPPH",
+      "target": "actions/checkout@v4.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_verify.yml",
+      "source_repo": "DarthAffe/HPPH",
+      "target": "actions/setup-dotnet@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr_verify.yml",
+      "source_repo": "DarthAffe/HPPH",
+      "target": "PR-Verify",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "DarthAffe/HPPH",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "DarthAffe/HPPH",
+      "target": "actions/setup-dotnet@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "DarthAffe/HPPH",
+      "target": "actions/upload-artifact@v4.3.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "DarthAffe/HPPH",
+      "target": "softprops/action-gh-release@v2.0.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "DarthAffe/HPPH",
+      "target": "release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:06:23.659091+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5109
+    },
+    {
+      "path": ".github/workflows/pr_verify.yml",
+      "size": 524
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1484
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "C# High Performance Pixel Handling",
+    "fork": false,
+    "full_name": "DarthAffe/HPPH",
+    "html_url": "https://github.com/DarthAffe/HPPH",
+    "language": "C#",
+    "pushed_at": "2024-09-15T10:00:16Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2026-03-02T17:31:56Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "PR-Verify",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr_verify.yml",
+      "term": "PR-Verify"
+    },
+    {
+      "context_snippet": "release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "release"
+    }
+  ]
+}

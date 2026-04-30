@@ -1,0 +1,115 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "unevens/avec",
+      "target": "vectorclass/version2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unevens/avec",
+      "target": "audio-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unevens/avec",
+      "target": "neon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unevens/avec",
+      "target": "simd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unevens/avec",
+      "target": "simd-instructions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unevens/avec",
+      "target": "vectorclass",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:01:29.012142+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2233
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A little library for using SIMD instructions for x86 and ARM, wrapping Agner Fog's vectorclass for x86 and filling some of its functionality for ARM, and providing containers for aligned memory with views and interleaving/deinterleaving.",
+    "fork": false,
+    "full_name": "unevens/avec",
+    "html_url": "https://github.com/unevens/avec",
+    "language": "C++",
+    "pushed_at": "2021-12-10T12:25:23Z",
+    "stargazers_count": 17,
+    "topics": [
+      "audio-processing",
+      "avx",
+      "neon",
+      "simd",
+      "simd-instructions",
+      "sse",
+      "vectorclass"
+    ],
+    "updated_at": "2025-11-14T16:48:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vectorclass/version2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "*avec* is a little library for using SIMD instructions on both x86 and ARM.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio-processing"
+    },
+    {
+      "context_snippet": "*avec* is a little library for using SIMD instructions on both x86 and ARM.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neon"
+    },
+    {
+      "context_snippet": "*avec* is a little library for using SIMD instructions on both x86 and ARM.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simd"
+    },
+    {
+      "context_snippet": "*avec* is a little library for using SIMD instructions on both x86 and ARM.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simd-instructions"
+    },
+    {
+      "context_snippet": "*avec* is a little library for using SIMD instructions on both x86 and ARM.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vectorclass"
+    }
+  ]
+}

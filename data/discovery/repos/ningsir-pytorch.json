@@ -1,0 +1,359 @@
+{
+  "components": [
+    {
+      "component": "pytorch/pytorch/.github/actions/checkout-pytorch@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_android-build-test.yml"
+    },
+    {
+      "component": "pytorch/pytorch/.github/actions/checkout-pytorch@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_android-full-build-test.yml"
+    },
+    {
+      "component": "seemethere/upload-artifact-s3@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_android-full-build-test.yml"
+    },
+    {
+      "component": "pytorch/pytorch/.github/actions/checkout-pytorch@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_bazel-build-test.yml"
+    },
+    {
+      "component": "pytorch/pytorch/.github/actions/checkout-pytorch@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-build-linux.yml"
+    },
+    {
+      "component": "zhouzhuojie/checkout@05b13c9a0d21f08f6d5e64a1d5042246d13619d9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-build-linux.yml"
+    },
+    {
+      "component": "zhouzhuojie/checkout@05b13c9a0d21f08f6d5e64a1d5042246d13619d9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-build-linux.yml"
+    },
+    {
+      "component": "seemethere/upload-artifact-s3@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-build-linux.yml"
+    },
+    {
+      "component": "pytorch/pytorch/.github/actions/checkout-pytorch@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-test-linux.yml"
+    },
+    {
+      "component": "seemethere/download-artifact-s3@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-test-linux.yml"
+    },
+    {
+      "component": "zhouzhuojie/checkout@05b13c9a0d21f08f6d5e64a1d5042246d13619d9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-test-linux.yml"
+    },
+    {
+      "component": "zhouzhuojie/checkout@05b13c9a0d21f08f6d5e64a1d5042246d13619d9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-test-linux.yml"
+    },
+    {
+      "component": "nick-fields/retry@71062288b76e2b6214ebde0e673ce0de1755740a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-test-linux.yml"
+    },
+    {
+      "component": "pytorch/pytorch/.github/actions/checkout-pytorch@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-upload.yml"
+    },
+    {
+      "component": "seemethere/download-artifact-s3@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-upload.yml"
+    },
+    {
+      "component": "actions/download-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-upload.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Ningsir/pytorch",
+      "target": "twitter/torch-autograd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Ningsir/pytorch",
+      "target": "oneapi-src/onednn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Ningsir/pytorch",
+      "target": "hughperkins/pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_android-build-test.yml",
+      "source_repo": "Ningsir/pytorch",
+      "target": "pytorch/pytorch/.github/actions/checkout-pytorch@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_android-build-test.yml",
+      "source_repo": "Ningsir/pytorch",
+      "target": "android-build-test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_android-full-build-test.yml",
+      "source_repo": "Ningsir/pytorch",
+      "target": "pytorch/pytorch/.github/actions/checkout-pytorch@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_android-full-build-test.yml",
+      "source_repo": "Ningsir/pytorch",
+      "target": "seemethere/upload-artifact-s3@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_android-full-build-test.yml",
+      "source_repo": "Ningsir/pytorch",
+      "target": "android-full-build-test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_bazel-build-test.yml",
+      "source_repo": "Ningsir/pytorch",
+      "target": "pytorch/pytorch/.github/actions/checkout-pytorch@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_bazel-build-test.yml",
+      "source_repo": "Ningsir/pytorch",
+      "target": "bazel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-build-linux.yml",
+      "source_repo": "Ningsir/pytorch",
+      "target": "pytorch/pytorch/.github/actions/checkout-pytorch@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-build-linux.yml",
+      "source_repo": "Ningsir/pytorch",
+      "target": "zhouzhuojie/checkout@05b13c9a0d21f08f6d5e64a1d5042246d13619d9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-build-linux.yml",
+      "source_repo": "Ningsir/pytorch",
+      "target": "seemethere/upload-artifact-s3@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_binary-build-linux.yml",
+      "source_repo": "Ningsir/pytorch",
+      "target": "linux-binary-build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-test-linux.yml",
+      "source_repo": "Ningsir/pytorch",
+      "target": "pytorch/pytorch/.github/actions/checkout-pytorch@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-test-linux.yml",
+      "source_repo": "Ningsir/pytorch",
+      "target": "seemethere/download-artifact-s3@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-test-linux.yml",
+      "source_repo": "Ningsir/pytorch",
+      "target": "zhouzhuojie/checkout@05b13c9a0d21f08f6d5e64a1d5042246d13619d9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-test-linux.yml",
+      "source_repo": "Ningsir/pytorch",
+      "target": "nick-fields/retry@71062288b76e2b6214ebde0e673ce0de1755740a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_binary-test-linux.yml",
+      "source_repo": "Ningsir/pytorch",
+      "target": "linux-binary-test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-upload.yml",
+      "source_repo": "Ningsir/pytorch",
+      "target": "pytorch/pytorch/.github/actions/checkout-pytorch@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-upload.yml",
+      "source_repo": "Ningsir/pytorch",
+      "target": "seemethere/download-artifact-s3@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-upload.yml",
+      "source_repo": "Ningsir/pytorch",
+      "target": "actions/download-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_binary-upload.yml",
+      "source_repo": "Ningsir/pytorch",
+      "target": "upload",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:01:13.185943+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 22297
+    },
+    {
+      "path": "Dockerfile",
+      "size": 3026
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 518
+    },
+    {
+      "path": "requirements.txt",
+      "size": 162
+    },
+    {
+      "path": ".github/workflows/_android-build-test.yml",
+      "size": 4314
+    },
+    {
+      "path": ".github/workflows/_android-full-build-test.yml",
+      "size": 7795
+    },
+    {
+      "path": ".github/workflows/_bazel-build-test.yml",
+      "size": 7768
+    },
+    {
+      "path": ".github/workflows/_binary-build-linux.yml",
+      "size": 8698
+    },
+    {
+      "path": ".github/workflows/_binary-test-linux.yml",
+      "size": 7701
+    },
+    {
+      "path": ".github/workflows/_binary-upload.yml",
+      "size": 6845
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+    "fork": true,
+    "full_name": "Ningsir/pytorch",
+    "html_url": "https://github.com/Ningsir/pytorch",
+    "language": null,
+    "pushed_at": "2022-07-26T01:48:27Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2022-07-26T01:45:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hughperkins/pytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "oneapi-src/onednn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "twitter/torch-autograd",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "android-build-test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_android-build-test.yml",
+      "term": "android-build-test"
+    },
+    {
+      "context_snippet": "android-full-build-test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_android-full-build-test.yml",
+      "term": "android-full-build-test"
+    },
+    {
+      "context_snippet": "bazel",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_bazel-build-test.yml",
+      "term": "bazel"
+    },
+    {
+      "context_snippet": "linux-binary-build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_binary-build-linux.yml",
+      "term": "linux-binary-build"
+    },
+    {
+      "context_snippet": "linux-binary-test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_binary-test-linux.yml",
+      "term": "linux-binary-test"
+    },
+    {
+      "context_snippet": "upload",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_binary-upload.yml",
+      "term": "upload"
+    }
+  ]
+}

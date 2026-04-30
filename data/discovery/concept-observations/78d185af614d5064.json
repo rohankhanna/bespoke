@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "RIFE function for VapourSynth"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Real-Time Intermediate Flow Estimation for Video Frame Interpolation, based on https://github.com/hzwer/Practical-RIFE."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Real-Time Intermediate Flow Estimation for Video Frame Interpolation, based on https://github.com/hzwer/Practical-RIFE."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40032358,
+      "status": "candidate",
+      "text": "abundant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031543,
+      "status": "candidate",
+      "text": "overabundant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40025687,
+      "status": "candidate",
+      "text": "prevailing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40023004,
+      "status": "candidate",
+      "text": "prevalent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39961113,
+      "status": "candidate",
+      "text": "current"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rife",
+      "sense_id": "rife#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 37031,
+      "status": "candidate",
+      "text": "abundant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31036,
+      "status": "candidate",
+      "text": "prevalent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13034,
+      "status": "candidate",
+      "text": "prevailing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11028,
+      "status": "candidate",
+      "text": "plethoric"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3015,
+      "status": "candidate",
+      "text": "overabundant"
+    }
+  ],
+  "concept_id": "rife",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "rife",
+  "observation_id": "78d185af614d5064",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "rife",
+  "source_context_snippet": "Real-Time Intermediate Flow Estimation for Video Frame Interpolation, based on https://github.com/hzwer/Practical-RIFE.",
+  "source_file": null,
+  "source_repo": "HolyWu/vs-rife",
+  "source_repo_description": "RIFE function for VapourSynth"
+}

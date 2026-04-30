@@ -393,13 +393,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "endojs/endo",
-      "target": "lavamoat/lavamoat",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "endojs/endo",
       "target": "tc39/proposal-ses",
       "target_type": "repository"
     },
@@ -908,7 +901,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T09:26:40.322526+00:00",
+  "fetched_at": "2026-04-30T15:00:32.408895+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -961,7 +954,7 @@
     "html_url": "https://github.com/endojs/endo",
     "language": "JavaScript",
     "pushed_at": "2026-04-30T05:36:57Z",
-    "stargazers_count": 1009,
+    "stargazers_count": 1010,
     "topics": [
       "capabilities",
       "captp",
@@ -975,17 +968,12 @@
       "security",
       "supply-chain"
     ],
-    "updated_at": "2026-04-30T03:17:33Z"
+    "updated_at": "2026-04-30T10:32:17Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "agoric/ses-shim",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "lavamoat/lavamoat",
       "source_file": "README.md"
     },
     {

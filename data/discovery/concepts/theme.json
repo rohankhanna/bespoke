@@ -397,6 +397,54 @@
       "source_repo": "tinted-theming/base24",
       "status": "candidate-context",
       "text": "<img alt=\"Color wheel\" src=\"./color_wheel.png\" width=\"100\" align=\"right\" style=\"padding-top:0.6rem;\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tinted-theming/tinted-vim",
+      "status": "candidate-context",
+      "text": "tinted-vim refreshes and commits new themes weekly automatically and has a documented build process."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/tinted-vim",
+      "status": "candidate-context",
+      "text": "Formerly base16-vim, but now supports multiple scheme systems, currently"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "olimorris/onedarkpro.nvim",
+      "status": "candidate-context",
+      "text": "\ud83c\udfa8 Atom's iconic One Dark theme. Cacheable, fully customisable, Tree-sitter and LSP semantic token support. Comes with variants"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "olimorris/onedarkpro.nvim",
+      "status": "candidate-context",
+      "text": "<!-- panvimdoc-ignore-start -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ahmadawais/base16-shades-of-purple",
+      "status": "candidate-context",
+      "text": "\ud83e\udd84 Shades of Purple \u2014 A professional theme with hand-picked & bold shades of purple for Base16."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ahmadawais/base16-shades-of-purple",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pradyunsg/furo",
+      "status": "candidate-context",
+      "text": "A clean customizable documentation theme for Sphinx"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pradyunsg/furo",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Furo</h1>"
     }
   ],
   "candidate_glosses": [
@@ -591,6 +639,30 @@
       "source_repo": "tinted-theming/base24",
       "status": "candidate",
       "text": "<img alt=\"Color wheel\" src=\"./color_wheel.png\" width=\"100\" align=\"right\" style=\"padding-top:0.6rem;\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/tinted-vim",
+      "status": "candidate",
+      "text": "Formerly base16-vim, but now supports multiple scheme systems, currently"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "olimorris/onedarkpro.nvim",
+      "status": "candidate",
+      "text": "<!-- panvimdoc-ignore-start -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ahmadawais/base16-shades-of-purple",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pradyunsg/furo",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Furo</h1>"
     }
   ],
   "candidate_related_terms": [
@@ -952,11 +1024,59 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "adelarsq/vim-emoji-icon-theme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "tinted-theming/tinted-builder-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "tinted-theming/tinted-vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "adelarsq/vim-emoji-icon-theme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "olimorris/onedarkpro.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ahmadawais/base16-shades-of-purple"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "tinted-theming/tinted-xfce4-terminal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "pradyunsg/furo"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

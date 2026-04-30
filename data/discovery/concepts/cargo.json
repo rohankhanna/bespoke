@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "cargo"
+    "cargo",
+    "Cargo"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -295,6 +298,18 @@
       "source_repo": "KSXGitHub/cargo-scripts-builder",
       "status": "candidate-context",
       "text": "[![.github/workflows/build.yaml](https://github.com/KSXGitHub/cargo-scripts-builder/workflows/.github/workflows/build.yaml/badge.svg)](https://github.com/KSXGitHub/cargo-scripts-builder/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "blitz-js/next-superjson-plugin",
+      "status": "candidate-context",
+      "text": "SuperJSON Plugin for Next.js Pages and Components"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blitz-js/next-superjson-plugin",
+      "status": "candidate-context",
+      "text": "Cargo"
     }
   ],
   "candidate_glosses": [
@@ -441,6 +456,12 @@
       "source_repo": "KSXGitHub/cargo-scripts-builder",
       "status": "candidate",
       "text": "[![.github/workflows/build.yaml](https://github.com/KSXGitHub/cargo-scripts-builder/workflows/.github/workflows/build.yaml/badge.svg)](https://github.com/KSXGitHub/cargo-scripts-builder/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blitz-js/next-superjson-plugin",
+      "status": "candidate",
+      "text": "Cargo"
     }
   ],
   "candidate_related_terms": [
@@ -688,11 +709,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "crate-ci/cargo-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/cargo.yml",
+      "source_repo": "blitz-js/next-superjson-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "crate-ci/cargo-release"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -19,6 +19,18 @@
       "source_repo": "BuddiesOfBudgie/budgie-desktop-view",
       "status": "candidate-context",
       "text": "![view](https://github.com/BuddiesOfBudgie/budgie-desktop-view/raw/main/.github/screenshots/budgie-desktop-settings-with-view.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hchiam/anonymous-input",
+      "status": "candidate-context",
+      "text": "Desktop app powered by Electron. For personal teaching use."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hchiam/anonymous-input",
+      "status": "candidate-context",
+      "text": "![version](https://img.shields.io/github/release/hchiam/anonymous-input) [![Build Status](https://travis-ci.org/hchiam/anonymous-input.svg?branch=master)](https://travis-ci.org/hchiam/anonymous-input) [![Coverage Status](https://coveralls.io/repos/github/hchiam/anonymous-input/b\u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "BuddiesOfBudgie/budgie-desktop-view",
       "status": "candidate",
       "text": "![view](https://github.com/BuddiesOfBudgie/budgie-desktop-view/raw/main/.github/screenshots/budgie-desktop-settings-with-view.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hchiam/anonymous-input",
+      "status": "candidate",
+      "text": "![version](https://img.shields.io/github/release/hchiam/anonymous-input) [![Build Status](https://travis-ci.org/hchiam/anonymous-input.svg?branch=master)](https://travis-ci.org/hchiam/anonymous-input) [![Coverage Status](https://coveralls.io/repos/github/hchiam/anonymous-input/b\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "BuddiesOfBudgie/budgie-desktop-view"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "hchiam/anonymous-input"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

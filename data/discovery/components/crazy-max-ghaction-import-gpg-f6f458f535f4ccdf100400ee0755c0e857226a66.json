@@ -1,0 +1,12 @@
+{
+  "component": "crazy-max/ghaction-import-gpg@f6f458f535f4ccdf100400ee0755c0e857226a66",
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-artifacts.yaml",
+      "source_repo": "Apicurio/apicurio-registry"
+    }
+  ]
+}

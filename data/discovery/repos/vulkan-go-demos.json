@@ -1,0 +1,118 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vulkan-go/demos",
+      "target": "xlab/android-go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vulkan-go/demos",
+      "target": "glfw",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vulkan-go/demos",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vulkan-go/demos",
+      "target": "vulkan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vulkan-go/demos",
+      "target": "vulkan-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vulkan-go/demos",
+      "target": "vulkan-demos",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:56:03.146567+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1630
+    },
+    {
+      "path": "go.mod",
+      "size": 699
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Vulkan API crossplatform demos in Go",
+    "fork": false,
+    "full_name": "vulkan-go/demos",
+    "html_url": "https://github.com/vulkan-go/demos",
+    "language": "Go",
+    "pushed_at": "2023-01-26T08:02:40Z",
+    "stargazers_count": 156,
+    "topics": [
+      "glfw",
+      "go",
+      "golang",
+      "vulkan",
+      "vulkan-api",
+      "vulkan-demos"
+    ],
+    "updated_at": "2026-04-06T02:55:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xlab/android-go",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "- vulcaninfo",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "glfw"
+    },
+    {
+      "context_snippet": "- vulcaninfo",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "- vulcaninfo",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulkan"
+    },
+    {
+      "context_snippet": "- vulcaninfo",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulkan-api"
+    },
+    {
+      "context_snippet": "- vulcaninfo",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulkan-demos"
+    }
+  ]
+}

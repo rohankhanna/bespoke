@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "portability"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "llnl/RAJA",
+      "status": "candidate-context",
+      "text": "RAJA Performance Portability Layer (C++)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "llnl/RAJA",
+      "status": "candidate-context",
+      "text": "[comment]: # (#################################################################)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "llnl/RAJA",
+      "status": "candidate",
+      "text": "[comment]: # (#################################################################)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20048822,
+      "status": "candidate",
+      "text": "mobile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20048510,
+      "status": "candidate",
+      "text": "mobility"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20046303,
+      "status": "candidate",
+      "text": "transfer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20045612,
+      "status": "candidate",
+      "text": "transport"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20039393,
+      "status": "candidate",
+      "text": "transferability"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "portability",
+  "concept_id": "portability",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "llnl/RAJA"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "portability",
+      "sense_id": "portability#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

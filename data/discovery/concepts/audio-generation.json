@@ -67,6 +67,30 @@
       "source_repo": "vllm-project/vllm-omni",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FunAudioLLM/CosyVoice",
+      "status": "candidate-context",
+      "text": "Multi-lingual large voice generation model, providing inference, training and deployment full-stack ability."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FunAudioLLM/CosyVoice",
+      "status": "candidate-context",
+      "text": "![SVG Banners](https://svg-banners.vercel.app/api?type=origin&text1=CosyVoice\ud83e\udd20&text2=Text-to-Speech%20\ud83d\udc96%20Large%20Language%20Model&width=800&height=210)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "modelscope/FunCodec",
+      "status": "candidate-context",
+      "text": "FunCodec is a research-oriented toolkit for audio quantization and downstream applications, such as text-to-speech synthesis, music generation et.al. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelscope/FunCodec",
+      "status": "candidate-context",
+      "text": "This project is still working on progress. To make FunCodec better, please let me know your concerns and feel free to comment them in the `Issues` part."
     }
   ],
   "candidate_glosses": [
@@ -99,6 +123,18 @@
       "source_repo": "vllm-project/vllm-omni",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FunAudioLLM/CosyVoice",
+      "status": "candidate",
+      "text": "![SVG Banners](https://svg-banners.vercel.app/api?type=origin&text1=CosyVoice\ud83e\udd20&text2=Text-to-Speech%20\ud83d\udc96%20Large%20Language%20Model&width=800&height=210)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelscope/FunCodec",
+      "status": "candidate",
+      "text": "This project is still working on progress. To make FunCodec better, please let me know your concerns and feel free to comment them in the `Issues` part."
     }
   ],
   "candidate_related_terms": [],
@@ -172,11 +208,29 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "mudler/LocalAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "FunAudioLLM/CosyVoice"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "mudler/LocalAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/FunCodec"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

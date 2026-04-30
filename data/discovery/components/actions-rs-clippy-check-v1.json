@@ -1,7 +1,7 @@
 {
   "component": "actions-rs/clippy-check@v1",
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -147,6 +147,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "OutThereLabs/actix-web-opentelemetry"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lints-beta.yml",
+      "source_repo": "zcash/pasta_curves"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lints-stable.yml",
+      "source_repo": "zcash/pasta_curves"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lints-beta.yml",
+      "source_repo": "zkcrypto/jubjub"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lints-stable.yml",
+      "source_repo": "zkcrypto/jubjub"
     }
   ]
 }

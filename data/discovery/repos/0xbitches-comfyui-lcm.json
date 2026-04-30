@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "0xbitches/ComfyUI-LCM",
+      "target": "comfyanonymous/comfyui",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:03:21.408031+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3393
+    },
+    {
+      "path": "requirements.txt",
+      "size": 9
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Latent Consistency Model for ComfyUI",
+    "fork": true,
+    "full_name": "0xbitches/ComfyUI-LCM",
+    "html_url": "https://github.com/0xbitches/ComfyUI-LCM",
+    "language": "Python",
+    "pushed_at": "2023-11-11T21:24:33Z",
+    "stargazers_count": 262,
+    "topics": [],
+    "updated_at": "2026-04-28T10:47:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "comfyanonymous/comfyui",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

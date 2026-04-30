@@ -1,0 +1,149 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zjhthu/OANet",
+      "target": "lzx551402/contextdesc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zjhthu/OANet",
+      "target": "vcg-uvic/learned-correspondence-release",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zjhthu/OANet",
+      "target": "lzx551402/gl3d",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zjhthu/OANet",
+      "target": "jiawangbian/fm-bench",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zjhthu/OANet",
+      "target": "3d-reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zjhthu/OANet",
+      "target": "graph-neural-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zjhthu/OANet",
+      "target": "iccv2019",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zjhthu/OANet",
+      "target": "image-matching",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zjhthu/OANet",
+      "target": "outlier-rejection",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:08:40.011324+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6679
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Implementation of ICCV19 Paper \"Learning Two-View Correspondences and Geometry Using Order-Aware Network\"",
+    "fork": false,
+    "full_name": "zjhthu/OANet",
+    "html_url": "https://github.com/zjhthu/OANet",
+    "language": "Python",
+    "pushed_at": "2023-04-10T11:53:58Z",
+    "stargazers_count": 270,
+    "topics": [
+      "3d-reconstruction",
+      "graph-neural-network",
+      "iccv2019",
+      "image-matching",
+      "outlier-rejection"
+    ],
+    "updated_at": "2026-04-26T07:16:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jiawangbian/fm-bench",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lzx551402/contextdesc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lzx551402/gl3d",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vcg-uvic/learned-correspondence-release",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Pytorch implementation of OANet for ICCV'19 paper [\"Learning Two-View Correspondences and Geometry Using Order-Aware Network\"](https://arxiv.org/abs/1908.04964), by Jiahui Zhang, Dawei Sun, Zixin Luo, Anbang Yao, Lei Zhou, Tianwei Shen, Yurong Chen, Long Quan and Hongen Liao.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-reconstruction"
+    },
+    {
+      "context_snippet": "Pytorch implementation of OANet for ICCV'19 paper [\"Learning Two-View Correspondences and Geometry Using Order-Aware Network\"](https://arxiv.org/abs/1908.04964), by Jiahui Zhang, Dawei Sun, Zixin Luo, Anbang Yao, Lei Zhou, Tianwei Shen, Yurong Chen, Long Quan and Hongen Liao.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graph-neural-network"
+    },
+    {
+      "context_snippet": "Pytorch implementation of OANet for ICCV'19 paper [\"Learning Two-View Correspondences and Geometry Using Order-Aware Network\"](https://arxiv.org/abs/1908.04964), by Jiahui Zhang, Dawei Sun, Zixin Luo, Anbang Yao, Lei Zhou, Tianwei Shen, Yurong Chen, Long Quan and Hongen Liao.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iccv2019"
+    },
+    {
+      "context_snippet": "Pytorch implementation of OANet for ICCV'19 paper [\"Learning Two-View Correspondences and Geometry Using Order-Aware Network\"](https://arxiv.org/abs/1908.04964), by Jiahui Zhang, Dawei Sun, Zixin Luo, Anbang Yao, Lei Zhou, Tianwei Shen, Yurong Chen, Long Quan and Hongen Liao.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-matching"
+    },
+    {
+      "context_snippet": "Pytorch implementation of OANet for ICCV'19 paper [\"Learning Two-View Correspondences and Geometry Using Order-Aware Network\"](https://arxiv.org/abs/1908.04964), by Jiahui Zhang, Dawei Sun, Zixin Luo, Anbang Yao, Lei Zhou, Tianwei Shen, Yurong Chen, Long Quan and Hongen Liao.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "outlier-rejection"
+    }
+  ]
+}

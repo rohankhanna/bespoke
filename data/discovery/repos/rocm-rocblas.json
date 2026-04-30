@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ROCm/rocBLAS",
+      "target": "rocm/hip",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ROCm/rocBLAS",
+      "target": "blas",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ROCm/rocBLAS",
+      "target": "rocm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:10:57.019551+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1103
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop_deprecated",
+    "description": "[DEPRECATED] Moved to ROCm/rocm-libraries repo",
+    "fork": false,
+    "full_name": "ROCm/rocBLAS",
+    "html_url": "https://github.com/ROCm/rocBLAS",
+    "language": "C++",
+    "pushed_at": "2026-04-29T15:08:57Z",
+    "stargazers_count": 393,
+    "topics": [
+      "blas",
+      "hip",
+      "rocm"
+    ],
+    "updated_at": "2026-04-27T03:29:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rocm/hip",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> [!CAUTION]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blas"
+    },
+    {
+      "context_snippet": "> [!CAUTION]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rocm"
+    }
+  ]
+}

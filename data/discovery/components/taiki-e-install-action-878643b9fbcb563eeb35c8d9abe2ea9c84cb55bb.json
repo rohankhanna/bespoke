@@ -1,0 +1,12 @@
+{
+  "component": "taiki-e/install-action@878643b9fbcb563eeb35c8d9abe2ea9c84cb55bb",
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Dicklesworthstone/coding_agent_session_search"
+    }
+  ]
+}

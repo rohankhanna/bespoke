@@ -106,6 +106,30 @@
       "source_repo": "sindresorhus/execa",
       "status": "candidate-context",
       "text": "execa \u2014 Process execution for humans"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stephenberry/glaze",
+      "status": "candidate-context",
+      "text": "Extremely fast, in memory, serialization, reflection, and RPC library for C++. JSON, BEVE, BSON, CBOR, CSV, JSONB, MessagePack, TOML, YAML, EETF"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stephenberry/glaze",
+      "status": "candidate-context",
+      "text": "One of the fastest JSON libraries in the world. Glaze reads and writes from object memory, simplifying interfaces and offering incredible performance."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dashbitco/nimble_parsec",
+      "status": "candidate-context",
+      "text": "A simple and fast library for text-based parser combinators"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dashbitco/nimble_parsec",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/dashbitco/nimble_parsec/actions/workflows/ci.yml/badge.svg)](https://github.com/dashbitco/nimble_parsec/actions/workflows/ci.yml)"
     }
   ],
   "candidate_glosses": [
@@ -156,6 +180,18 @@
       "source_repo": "sindresorhus/execa",
       "status": "candidate",
       "text": "execa \u2014 Process execution for humans"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stephenberry/glaze",
+      "status": "candidate",
+      "text": "One of the fastest JSON libraries in the world. Glaze reads and writes from object memory, simplifying interfaces and offering incredible performance."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dashbitco/nimble_parsec",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/dashbitco/nimble_parsec/actions/workflows/ci.yml/badge.svg)](https://github.com/dashbitco/nimble_parsec/actions/workflows/ci.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -281,11 +317,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "sindresorhus/execa"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "stephenberry/glaze"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "dashbitco/nimble_parsec"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

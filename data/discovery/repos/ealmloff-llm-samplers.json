@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ealmloff/llm-samplers",
+      "target": "ggerganov/llama.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "ealmloff/llm-samplers",
+      "target": "kerfufflev2/llm-samplers",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:12:08.731743+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5306
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 357
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A collection of LLM token samplers in Rust",
+    "fork": true,
+    "full_name": "ealmloff/llm-samplers",
+    "html_url": "https://github.com/ealmloff/llm-samplers",
+    "language": "Rust",
+    "pushed_at": "2025-07-23T00:39:18Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-07-23T00:39:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggerganov/llama.cpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kerfufflev2/llm-samplers",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": []
+}

@@ -1,13 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "pyproject.toml",
-      "source_repo": "docling-project/docling",
-      "target": "python-semantic-release/python-semantic-release",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/cd-docs.yml",
       "source_repo": "docling-project/docling",
@@ -18,21 +11,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/cd.yml",
       "source_repo": "docling-project/docling",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/cd.yml",
       "source_repo": "docling-project/docling",
-      "target": "astral-sh/setup-uv@v7",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/cd.yml",
-      "source_repo": "docling-project/docling",
-      "target": "actions/create-github-app-token@v2",
+      "target": "actions/create-github-app-token@1b10c78c7865c340bc4f6099eb2f838309f1e8c3",
       "target_type": "component"
     },
     {
@@ -46,7 +32,35 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/checks.yml",
       "source_repo": "docling-project/docling",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "docling-project/docling",
+      "target": "dorny/paths-filter@fbd0ab8f3e69293af611ebaee6363fc25e6d187d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "docling-project/docling",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "docling-project/docling",
+      "target": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "docling-project/docling",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
       "target_type": "component"
     },
     {
@@ -60,42 +74,28 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/checks.yml",
       "source_repo": "docling-project/docling",
-      "target": "actions/cache@v5",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/checks.yml",
       "source_repo": "docling-project/docling",
-      "target": "codecov/codecov-action@v5",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/checks.yml",
+      "source_file": ".github/workflows/ci-docs.yml",
       "source_repo": "docling-project/docling",
-      "target": "actions/checkout@v5",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/checks.yml",
+      "source_file": ".github/workflows/ci-docs.yml",
       "source_repo": "docling-project/docling",
-      "target": "astral-sh/setup-uv@v6",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/checks.yml",
-      "source_repo": "docling-project/docling",
-      "target": "actions/upload-artifact@v6",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/checks.yml",
-      "source_repo": "docling-project/docling",
-      "target": "actions/download-artifact@v7",
+      "target": "dorny/paths-filter@fbd0ab8f3e69293af611ebaee6363fc25e6d187d",
       "target_type": "component"
     },
     {
@@ -106,31 +106,45 @@
       "target_type": "term"
     },
     {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/ci.yml",
-      "source_repo": "docling-project/docling",
-      "target": "Run CI",
-      "target_type": "term"
-    },
-    {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/dco-advisor.yml",
+      "source_file": ".github/workflows/ci-heavy-examples.yml",
       "source_repo": "docling-project/docling",
-      "target": "actions/github-script@v8",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-name",
-      "source_file": ".github/workflows/dco-advisor.yml",
+      "source_file": ".github/workflows/ci-heavy-examples.yml",
       "source_repo": "docling-project/docling",
-      "target": "DCO Advisor Bot",
+      "target": "Run Heavy Examples CI",
       "target_type": "term"
     },
     {
       "edge_type": "workflow-name",
-      "source_file": ".github/workflows/discord-release.yml",
+      "source_file": ".github/workflows/ci-main.yml",
       "source_repo": "docling-project/docling",
-      "target": "Notify Discord on Release",
+      "target": "Run CI Main",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "docling-project/docling",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "docling-project/docling",
+      "target": "dorny/paths-filter@fbd0ab8f3e69293af611ebaee6363fc25e6d187d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "docling-project/docling",
+      "target": "Run CI",
       "target_type": "term"
     },
     {
@@ -225,6 +239,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-24T00:33:56.049672+00:00",
+  "generated_at": "2026-04-30T12:45:20.475770+00:00",
   "source_repo": "docling-project/docling"
 }

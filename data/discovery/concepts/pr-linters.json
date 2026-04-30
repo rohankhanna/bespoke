@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "PR Linters"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uxlfoundation/oneMath",
+      "status": "candidate-context",
+      "text": "oneAPI Math Library (oneMath)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/oneMath",
+      "status": "candidate-context",
+      "text": "\"PR Linters\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/oneMath",
+      "status": "candidate",
+      "text": "\"PR Linters\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8444,
+      "status": "candidate",
+      "text": "linter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4740,
+      "status": "candidate",
+      "text": "asphalt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4740,
+      "status": "candidate",
+      "text": "bauxite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4740,
+      "status": "candidate",
+      "text": "beeswax"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4740,
+      "status": "candidate",
+      "text": "benzene"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "PR Linters",
+  "concept_id": "pr-linters",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/pr-lint.yml",
+      "source_repo": "uxlfoundation/oneMath"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PR Linters",
+      "sense_id": "pr-linters#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

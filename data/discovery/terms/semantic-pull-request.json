@@ -1,11 +1,36 @@
 {
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/semantic-pull-request.yml",
       "source_repo": "openobserve/promql-parser"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/semantic-pull-request.yaml",
+      "source_repo": "autowarefoundation/autoware-documentation"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/semantic-pull-request.yaml",
+      "source_repo": "autowarefoundation/autoware-github-actions"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/semantic-pull-request.yml",
+      "source_repo": "GreptimeTeam/promql-parser"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/semantic-pr.yml",
+      "source_repo": "GreptimeTeam/greptimedb-ingester-rust"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/semantic-pull-request.yaml",
+      "source_repo": "autowarefoundation/.github"
     }
   ],
   "term": "Semantic Pull Request"

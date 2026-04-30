@@ -1,0 +1,164 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "f4b6a3/tsid-creator",
+      "target": "kgkoutis/tsid.creator.net",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "f4b6a3/tsid-creator",
+      "target": "jakudlaty/tsid",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "f4b6a3/tsid-creator",
+      "target": "fillumina/id-encryptor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "f4b6a3/tsid-creator",
+      "target": "jchambers/id-obfuscator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "f4b6a3/tsid-creator",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "f4b6a3/tsid-creator",
+      "target": "snowflake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "f4b6a3/tsid-creator",
+      "target": "snowflake-id",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "f4b6a3/tsid-creator",
+      "target": "snowflake-twitter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "f4b6a3/tsid-creator",
+      "target": "tsid",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "f4b6a3/tsid-creator",
+      "target": "twitter-snowflake",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:02:49.816877+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16340
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Java library for generating Time-Sorted Unique Identifiers (TSID).",
+    "fork": false,
+    "full_name": "f4b6a3/tsid-creator",
+    "html_url": "https://github.com/f4b6a3/tsid-creator",
+    "language": "Java",
+    "pushed_at": "2026-02-21T17:23:27Z",
+    "stargazers_count": 542,
+    "topics": [
+      "id",
+      "java",
+      "snowflake",
+      "snowflake-id",
+      "snowflake-twitter",
+      "tsid",
+      "twitter-snowflake"
+    ],
+    "updated_at": "2026-04-28T13:38:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fillumina/id-encryptor",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jakudlaty/tsid",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jchambers/id-obfuscator",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kgkoutis/tsid.creator.net",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "TSID Creator",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "TSID Creator",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "snowflake"
+    },
+    {
+      "context_snippet": "TSID Creator",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "snowflake-id"
+    },
+    {
+      "context_snippet": "TSID Creator",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "snowflake-twitter"
+    },
+    {
+      "context_snippet": "TSID Creator",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tsid"
+    },
+    {
+      "context_snippet": "TSID Creator",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "twitter-snowflake"
+    }
+  ]
+}

@@ -1,0 +1,390 @@
+{
+  "components": [
+    {
+      "component": "hazelcast/hazelcast-tpm/membership@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage_runner.yaml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage_runner.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage_runner.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage_runner.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage_runner.yaml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage_runner.yaml"
+    },
+    {
+      "component": "codecov/codecov-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage_runner.yaml"
+    },
+    {
+      "component": "codecov/codecov-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage_runner.yaml"
+    },
+    {
+      "component": "codecov/codecov-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage_runner.yaml"
+    },
+    {
+      "component": "hazelcast/github-jira-tool-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jira.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly_tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-all.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-race.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage_runner.yaml",
+      "source_repo": "hazelcast/hazelcast-go-client",
+      "target": "hazelcast/hazelcast-tpm/membership@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage_runner.yaml",
+      "source_repo": "hazelcast/hazelcast-go-client",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage_runner.yaml",
+      "source_repo": "hazelcast/hazelcast-go-client",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage_runner.yaml",
+      "source_repo": "hazelcast/hazelcast-go-client",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage_runner.yaml",
+      "source_repo": "hazelcast/hazelcast-go-client",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage_runner.yaml",
+      "source_repo": "hazelcast/hazelcast-go-client",
+      "target": "Report coverage to Codecov",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jira.yml",
+      "source_repo": "hazelcast/hazelcast-go-client",
+      "target": "hazelcast/github-jira-tool-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jira.yml",
+      "source_repo": "hazelcast/hazelcast-go-client",
+      "target": "Create Jira issue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly_tests.yaml",
+      "source_repo": "hazelcast/hazelcast-go-client",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly_tests.yaml",
+      "source_repo": "hazelcast/hazelcast-go-client",
+      "target": "Go nightly build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-all.yaml",
+      "source_repo": "hazelcast/hazelcast-go-client",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-all.yaml",
+      "source_repo": "hazelcast/hazelcast-go-client",
+      "target": "Test Go Client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-race.yaml",
+      "source_repo": "hazelcast/hazelcast-go-client",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast-go-client",
+      "target": "big-data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast-go-client",
+      "target": "caching",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast-go-client",
+      "target": "clustering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast-go-client",
+      "target": "datagrid",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast-go-client",
+      "target": "distributed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast-go-client",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast-go-client",
+      "target": "hazelcast",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast-go-client",
+      "target": "hazelcast-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast-go-client",
+      "target": "imdg",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast-go-client",
+      "target": "in-memory",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast-go-client",
+      "target": "scalability",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:58:19.148579+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5176
+    },
+    {
+      "path": "go.mod",
+      "size": 745
+    },
+    {
+      "path": ".github/workflows/coverage_runner.yaml",
+      "size": 3228
+    },
+    {
+      "path": ".github/workflows/jira.yml",
+      "size": 518
+    },
+    {
+      "path": ".github/workflows/nightly_tests.yaml",
+      "size": 891
+    },
+    {
+      "path": ".github/workflows/test-all.yaml",
+      "size": 854
+    },
+    {
+      "path": ".github/workflows/test-race.yaml",
+      "size": 748
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Hazelcast Go Client",
+    "fork": false,
+    "full_name": "hazelcast/hazelcast-go-client",
+    "html_url": "https://github.com/hazelcast/hazelcast-go-client",
+    "language": "Go",
+    "pushed_at": "2026-04-13T12:11:54Z",
+    "stargazers_count": 201,
+    "topics": [
+      "big-data",
+      "caching",
+      "clustering",
+      "datagrid",
+      "distributed",
+      "go",
+      "golang",
+      "hazelcast",
+      "hazelcast-client",
+      "imdg",
+      "in-memory",
+      "scalability"
+    ],
+    "updated_at": "2026-04-22T11:35:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Report coverage to Codecov",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage_runner.yaml",
+      "term": "Report coverage to Codecov"
+    },
+    {
+      "context_snippet": "Create Jira issue",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jira.yml",
+      "term": "Create Jira issue"
+    },
+    {
+      "context_snippet": "Go nightly build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly_tests.yaml",
+      "term": "Go nightly build"
+    },
+    {
+      "context_snippet": "\"Test Go Client\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-all.yaml",
+      "term": "Test Go Client"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/hazelcast/hazelcast-go-client.svg)](https://pkg.go.dev/github.com/hazelcast/hazelcast-go-client)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "big-data"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/hazelcast/hazelcast-go-client.svg)](https://pkg.go.dev/github.com/hazelcast/hazelcast-go-client)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "caching"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/hazelcast/hazelcast-go-client.svg)](https://pkg.go.dev/github.com/hazelcast/hazelcast-go-client)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clustering"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/hazelcast/hazelcast-go-client.svg)](https://pkg.go.dev/github.com/hazelcast/hazelcast-go-client)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "datagrid"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/hazelcast/hazelcast-go-client.svg)](https://pkg.go.dev/github.com/hazelcast/hazelcast-go-client)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distributed"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/hazelcast/hazelcast-go-client.svg)](https://pkg.go.dev/github.com/hazelcast/hazelcast-go-client)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/hazelcast/hazelcast-go-client.svg)](https://pkg.go.dev/github.com/hazelcast/hazelcast-go-client)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hazelcast"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/hazelcast/hazelcast-go-client.svg)](https://pkg.go.dev/github.com/hazelcast/hazelcast-go-client)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hazelcast-client"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/hazelcast/hazelcast-go-client.svg)](https://pkg.go.dev/github.com/hazelcast/hazelcast-go-client)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "imdg"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/hazelcast/hazelcast-go-client.svg)](https://pkg.go.dev/github.com/hazelcast/hazelcast-go-client)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "in-memory"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/hazelcast/hazelcast-go-client.svg)](https://pkg.go.dev/github.com/hazelcast/hazelcast-go-client)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scalability"
+    }
+  ]
+}

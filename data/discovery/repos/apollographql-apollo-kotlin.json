@@ -342,7 +342,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T21:57:02.468779+00:00",
+  "fetched_at": "2026-04-30T13:53:03.547231+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -394,7 +394,7 @@
     "full_name": "apollographql/apollo-kotlin",
     "html_url": "https://github.com/apollographql/apollo-kotlin",
     "language": "Kotlin",
-    "pushed_at": "2026-04-29T03:22:46Z",
+    "pushed_at": "2026-04-30T09:24:37Z",
     "stargazers_count": 3953,
     "topics": [
       "android",

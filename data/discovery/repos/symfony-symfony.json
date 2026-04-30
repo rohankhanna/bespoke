@@ -1,0 +1,494 @@
+{
+  "components": [
+    {
+      "component": "symfony-tools/fabbot/.github/workflows/fabbot.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fabbot.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml"
+    },
+    {
+      "component": "shivammathur/setup-php@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml"
+    },
+    {
+      "component": "docker://bitnamilegacy/openldap",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/intl-data-tests.yml"
+    },
+    {
+      "component": "shivammathur/setup-php@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/intl-data-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/phpunit-bridge.yml"
+    },
+    {
+      "component": "shivammathur/setup-php@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/phpunit-bridge.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yml"
+    },
+    {
+      "component": "ossf/scorecard-action@f49aabe0b5af0936a0987cfb85d86b75731b0186",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yml"
+    },
+    {
+      "component": "actions/upload-artifact@4cec3d8aa04e39d1a68397de0c4cd6fb9dce8ec1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yml"
+    },
+    {
+      "component": "shivammathur/setup-php@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static-analysis.yml"
+    },
+    {
+      "component": "shivammathur/setup-php@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static-analysis.yml"
+    },
+    {
+      "component": "shivammathur/setup-php@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/twig-cs-fixer.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/twig-cs-fixer.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml"
+    },
+    {
+      "component": "shivammathur/setup-php@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "symfony/symfony",
+      "target": "symfony/symfony-demo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fabbot.yml",
+      "source_repo": "symfony/symfony",
+      "target": "symfony-tools/fabbot/.github/workflows/fabbot.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "symfony/symfony",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "symfony/symfony",
+      "target": "shivammathur/setup-php@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "symfony/symfony",
+      "target": "docker://bitnamilegacy/openldap",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "symfony/symfony",
+      "target": "Integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/intl-data-tests.yml",
+      "source_repo": "symfony/symfony",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/intl-data-tests.yml",
+      "source_repo": "symfony/symfony",
+      "target": "shivammathur/setup-php@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package-tests.yml",
+      "source_repo": "symfony/symfony",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/package-tests.yml",
+      "source_repo": "symfony/symfony",
+      "target": "Verify Packages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/phpunit-bridge.yml",
+      "source_repo": "symfony/symfony",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/phpunit-bridge.yml",
+      "source_repo": "symfony/symfony",
+      "target": "shivammathur/setup-php@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/phpunit-bridge.yml",
+      "source_repo": "symfony/symfony",
+      "target": "Lint PhpUnitBridge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yml",
+      "source_repo": "symfony/symfony",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yml",
+      "source_repo": "symfony/symfony",
+      "target": "ossf/scorecard-action@f49aabe0b5af0936a0987cfb85d86b75731b0186",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yml",
+      "source_repo": "symfony/symfony",
+      "target": "actions/upload-artifact@4cec3d8aa04e39d1a68397de0c4cd6fb9dce8ec1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yml",
+      "source_repo": "symfony/symfony",
+      "target": "github/codeql-action/upload-sarif@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecards.yml",
+      "source_repo": "symfony/symfony",
+      "target": "Scorecards supply-chain security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static-analysis.yml",
+      "source_repo": "symfony/symfony",
+      "target": "shivammathur/setup-php@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static-analysis.yml",
+      "source_repo": "symfony/symfony",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/static-analysis.yml",
+      "source_repo": "symfony/symfony",
+      "target": "Static Analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/twig-cs-fixer.yml",
+      "source_repo": "symfony/symfony",
+      "target": "shivammathur/setup-php@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/twig-cs-fixer.yml",
+      "source_repo": "symfony/symfony",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/twig-cs-fixer.yml",
+      "source_repo": "symfony/symfony",
+      "target": "Twig CS Fixer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "source_repo": "symfony/symfony",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "source_repo": "symfony/symfony",
+      "target": "shivammathur/setup-php@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "source_repo": "symfony/symfony",
+      "target": "Unit Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "symfony/symfony",
+      "target": "bundle",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "symfony/symfony",
+      "target": "framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "symfony/symfony",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "symfony/symfony",
+      "target": "php-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "symfony/symfony",
+      "target": "symfony",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "symfony/symfony",
+      "target": "symfony-bundle",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:12:18.047657+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3803
+    },
+    {
+      "path": ".github/workflows/fabbot.yml",
+      "size": 224
+    },
+    {
+      "path": ".github/workflows/integration-tests.yml",
+      "size": 9975
+    },
+    {
+      "path": ".github/workflows/intl-data-tests.yml",
+      "size": 4213
+    },
+    {
+      "path": ".github/workflows/package-tests.yml",
+      "size": 5260
+    },
+    {
+      "path": ".github/workflows/phpunit-bridge.yml",
+      "size": 846
+    },
+    {
+      "path": ".github/workflows/scorecards.yml",
+      "size": 2694
+    },
+    {
+      "path": ".github/workflows/static-analysis.yml",
+      "size": 3432
+    },
+    {
+      "path": ".github/workflows/twig-cs-fixer.yml",
+      "size": 1203
+    },
+    {
+      "path": ".github/workflows/unit-tests.yml",
+      "size": 11288
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "8.1",
+    "description": "The Symfony PHP framework",
+    "fork": false,
+    "full_name": "symfony/symfony",
+    "html_url": "https://github.com/symfony/symfony",
+    "language": "PHP",
+    "pushed_at": "2026-04-30T16:11:14Z",
+    "stargazers_count": 31026,
+    "topics": [
+      "bundle",
+      "framework",
+      "hacktoberfest",
+      "php",
+      "php-framework",
+      "symfony",
+      "symfony-bundle"
+    ],
+    "updated_at": "2026-04-30T16:11:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "symfony/symfony-demo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "term": "Integration"
+    },
+    {
+      "context_snippet": "Verify Packages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/package-tests.yml",
+      "term": "Verify Packages"
+    },
+    {
+      "context_snippet": "Lint PhpUnitBridge",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/phpunit-bridge.yml",
+      "term": "Lint PhpUnitBridge"
+    },
+    {
+      "context_snippet": "Scorecards supply-chain security",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecards.yml",
+      "term": "Scorecards supply-chain security"
+    },
+    {
+      "context_snippet": "Static Analysis",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/static-analysis.yml",
+      "term": "Static Analysis"
+    },
+    {
+      "context_snippet": "Twig CS Fixer",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/twig-cs-fixer.yml",
+      "term": "Twig CS Fixer"
+    },
+    {
+      "context_snippet": "Unit Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "term": "Unit Tests"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><a href=\"https://symfony.com\" target=\"_blank\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bundle"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><a href=\"https://symfony.com\" target=\"_blank\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "framework"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><a href=\"https://symfony.com\" target=\"_blank\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><a href=\"https://symfony.com\" target=\"_blank\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "php-framework"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><a href=\"https://symfony.com\" target=\"_blank\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "symfony"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><a href=\"https://symfony.com\" target=\"_blank\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "symfony-bundle"
+    }
+  ]
+}

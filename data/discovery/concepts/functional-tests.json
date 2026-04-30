@@ -55,6 +55,30 @@
       "source_repo": "appium/WebDriverAgent",
       "status": "candidate-context",
       "text": "Functional Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appium/appium-mac2-driver",
+      "status": "candidate-context",
+      "text": "Next-gen Appium macOS driver, backed by Apple XCTest"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appium/appium-mac2-driver",
+      "status": "candidate-context",
+      "text": "Functional Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appium/appium-xcuitest-driver",
+      "status": "candidate-context",
+      "text": "Appium iOS driver, backed by Apple XCTest "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appium/appium-xcuitest-driver",
+      "status": "candidate-context",
+      "text": "Functional Tests"
     }
   ],
   "candidate_glosses": [
@@ -79,6 +103,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "appium/WebDriverAgent",
+      "status": "candidate",
+      "text": "Functional Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appium/appium-mac2-driver",
+      "status": "candidate",
+      "text": "Functional Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appium/appium-xcuitest-driver",
       "status": "candidate",
       "text": "Functional Tests"
     }
@@ -148,11 +184,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/functional-test.yml",
       "source_repo": "appium/WebDriverAgent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/functional-test.yml",
+      "source_repo": "appium/appium-mac2-driver"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/functional-test.yml",
+      "source_repo": "appium/appium-xcuitest-driver"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

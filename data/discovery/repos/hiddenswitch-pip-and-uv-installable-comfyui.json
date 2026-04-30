@@ -125,14 +125,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "Dockerfile",
       "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
-      "target": "facebookresearch/nougat",
+      "target": "hiddenswitch/comfyui",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "Dockerfile",
+      "source_file": "pyproject.toml",
       "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
-      "target": "hiddenswitch/comfyui",
+      "target": "comfyanonymous/comfyui",
       "target_type": "repository"
     },
     {
@@ -297,7 +297,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T10:20:09.812134+00:00",
+  "fetched_at": "2026-04-30T15:53:42.988698+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -367,13 +367,13 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "facebookresearch/nougat",
+      "full_name": "hiddenswitch/comfyui",
       "source_file": "Dockerfile"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "hiddenswitch/comfyui",
-      "source_file": "Dockerfile"
+      "full_name": "comfyanonymous/comfyui",
+      "source_file": "pyproject.toml"
     }
   ],
   "terms": [

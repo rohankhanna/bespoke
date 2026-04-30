@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T12:47:28.850797+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1728
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Write more elegant Azure Functions with less boilerplate, more consistency, and support for REST APIs. Docs can be found at https://functionmonkey.azurefromthetrenches.com",
+    "fork": false,
+    "full_name": "JamesRandall/FunctionMonkey",
+    "html_url": "https://github.com/JamesRandall/FunctionMonkey",
+    "language": "C#",
+    "pushed_at": "2022-12-08T09:31:00Z",
+    "stargazers_count": 295,
+    "topics": [],
+    "updated_at": "2026-02-12T15:02:53Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

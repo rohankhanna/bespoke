@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "RSpec"
+    "RSpec",
+    "rspec"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -19,12 +22,48 @@
       "source_repo": "castwide/solargraph",
       "status": "candidate-context",
       "text": "RSpec"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "djezzzl/factory_trace",
+      "status": "candidate-context",
+      "text": "Simple tool to maintain factories and traits from FactoryBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "djezzzl/factory_trace",
+      "status": "candidate-context",
+      "text": "[![Gem Version][3]][4]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DmitryTsepelev/store_model",
+      "status": "candidate-context",
+      "text": "Work with JSON-backed attributes as ActiveRecord-ish models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DmitryTsepelev/store_model",
+      "status": "candidate-context",
+      "text": "RSpec"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "castwide/solargraph",
+      "status": "candidate",
+      "text": "RSpec"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "djezzzl/factory_trace",
+      "status": "candidate",
+      "text": "[![Gem Version][3]][4]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DmitryTsepelev/store_model",
       "status": "candidate",
       "text": "RSpec"
     }
@@ -76,11 +115,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/rspec.yml",
       "source_repo": "castwide/solargraph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "djezzzl/factory_trace"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/rspec.yml",
+      "source_repo": "DmitryTsepelev/store_model"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

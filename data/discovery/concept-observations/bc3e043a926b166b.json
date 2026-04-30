@@ -48,7 +48,7 @@
   "normalized_form": "publish-snapshot-and-kdoc",
   "observation_id": "bc3e043a926b166b",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
   "observed_text": "publish-snapshot-and-kdoc",
   "source_context_snippet": "publish-snapshot-and-kdoc",
   "source_file": ".github/workflows/publish-snapshot-and-kdoc.yml",

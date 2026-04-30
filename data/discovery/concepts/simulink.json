@@ -19,6 +19,18 @@
       "source_repo": "mathworks-robotics/mujoco-simulink-blockset",
       "status": "candidate-context",
       "text": "This repository provides a Simulink&reg; C-MEX S-Function block interface to the [MuJoCo&trade; physics engine](https://mujoco.org/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vmanoj1996/mujoco-demo",
+      "status": "candidate-context",
+      "text": "Pick and place using Simulink and MuJoCo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vmanoj1996/mujoco-demo",
+      "status": "candidate-context",
+      "text": "[![Demo Video](http://img.youtube.com/vi/wVSQ-lmArJY/0.jpg)](http://www.youtube.com/watch?v=wVSQ-lmArJY)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "mathworks-robotics/mujoco-simulink-blockset",
       "status": "candidate",
       "text": "This repository provides a Simulink&reg; C-MEX S-Function block interface to the [MuJoCo&trade; physics engine](https://mujoco.org/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vmanoj1996/mujoco-demo",
+      "status": "candidate",
+      "text": "[![Demo Video](http://img.youtube.com/vi/wVSQ-lmArJY/0.jpg)](http://www.youtube.com/watch?v=wVSQ-lmArJY)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "mathworks-robotics/mujoco-simulink-blockset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "vmanoj1996/mujoco-demo"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

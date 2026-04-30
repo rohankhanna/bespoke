@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "PubGrub version solving algorithm implemented in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![guide](https://img.shields.io/badge/guide-pubgrub-pink?logo=read-the-docs)][guide]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![guide](https://img.shields.io/badge/guide-pubgrub-pink?logo=read-the-docs)][guide]"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dependency-solver",
+      "sense_id": "dependency-solver#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "dependency-solver",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dependency-solver",
+  "observation_id": "5e271cbea041e0b4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "dependency-solver",
+  "source_context_snippet": "[![guide](https://img.shields.io/badge/guide-pubgrub-pink?logo=read-the-docs)][guide]",
+  "source_file": null,
+  "source_repo": "pubgrub-rs/pubgrub",
+  "source_repo_description": "PubGrub version solving algorithm implemented in Rust"
+}

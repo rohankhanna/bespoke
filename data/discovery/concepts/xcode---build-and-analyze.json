@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Xcode - Build and Analyze"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexrozanski/LlamaChat",
+      "status": "candidate-context",
+      "text": "Chat with your favourite LLaMA models in a native macOS app"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexrozanski/LlamaChat",
+      "status": "candidate-context",
+      "text": "Xcode - Build and Analyze"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexrozanski/LlamaChat",
+      "status": "candidate",
+      "text": "Xcode - Build and Analyze"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11876,
+      "status": "candidate",
+      "text": "take"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10752,
+      "status": "candidate",
+      "text": "account"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10752,
+      "status": "candidate",
+      "text": "analyse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10752,
+      "status": "candidate",
+      "text": "assay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10752,
+      "status": "candidate",
+      "text": "diagnose"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Xcode - Build and Analyze",
+  "concept_id": "xcode---build-and-analyze",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/xcodebuild.yml",
+      "source_repo": "alexrozanski/LlamaChat"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Xcode - Build and Analyze",
+      "sense_id": "xcode---build-and-analyze#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

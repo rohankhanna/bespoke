@@ -141,7 +141,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "open-compass/opencompass",
-      "target": "iaar-shanghai/xfinder",
+      "target": "internscience/scireason",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "open-compass/opencompass",
+      "target": "scicode-bench/scicode",
       "target_type": "repository"
     },
     {
@@ -155,14 +162,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "open-compass/opencompass",
-      "target": "franxyao/chain-of-thought-hub",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "open-compass/opencompass",
-      "target": "declare-lab/instruct-eval",
+      "target": "shark-nlp/openicl",
       "target_type": "repository"
     },
     {
@@ -334,7 +334,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T21:46:57.844415+00:00",
+  "fetched_at": "2026-04-30T15:14:24.082341+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -383,7 +383,7 @@
     "html_url": "https://github.com/open-compass/opencompass",
     "language": "Python",
     "pushed_at": "2026-04-20T12:05:42Z",
-    "stargazers_count": 6925,
+    "stargazers_count": 6954,
     "topics": [
       "benchmark",
       "chatgpt",
@@ -394,14 +394,9 @@
       "llm",
       "openai"
     ],
-    "updated_at": "2026-04-23T17:30:24Z"
+    "updated_at": "2026-04-30T07:32:24Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "declare-lab/instruct-eval",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "facebookresearch/llama",
@@ -409,12 +404,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "franxyao/chain-of-thought-hub",
+      "full_name": "internscience/scireason",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "iaar-shanghai/xfinder",
+      "full_name": "scicode-bench/scicode",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shark-nlp/openicl",
       "source_file": "README.md"
     }
   ],

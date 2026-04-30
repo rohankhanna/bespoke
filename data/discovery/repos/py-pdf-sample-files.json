@@ -1,0 +1,153 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/file-size-check.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/file-size-check.yaml"
+    },
+    {
+      "component": "tj-actions/changed-files@v46",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/file-size-check.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yaml",
+      "source_repo": "py-pdf/sample-files",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yaml",
+      "source_repo": "py-pdf/sample-files",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/file-size-check.yaml",
+      "source_repo": "py-pdf/sample-files",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/file-size-check.yaml",
+      "source_repo": "py-pdf/sample-files",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/file-size-check.yaml",
+      "source_repo": "py-pdf/sample-files",
+      "target": "tj-actions/changed-files@v46",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/file-size-check.yaml",
+      "source_repo": "py-pdf/sample-files",
+      "target": "File Size Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "py-pdf/sample-files",
+      "target": "examples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "py-pdf/sample-files",
+      "target": "sample-file",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:12:49.025332+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 420
+    },
+    {
+      "path": ".github/workflows/check.yaml",
+      "size": 648
+    },
+    {
+      "path": ".github/workflows/ci.in",
+      "size": 15
+    },
+    {
+      "path": ".github/workflows/ci.txt",
+      "size": 397
+    },
+    {
+      "path": ".github/workflows/file-size-check.yaml",
+      "size": 934
+    },
+    {
+      "path": ".github/workflows/json_consistency.py",
+      "size": 5942
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Files which can be used to test PDF readers",
+    "fork": false,
+    "full_name": "py-pdf/sample-files",
+    "html_url": "https://github.com/py-pdf/sample-files",
+    "language": "Python",
+    "pushed_at": "2026-04-30T11:33:21Z",
+    "stargazers_count": 73,
+    "topics": [
+      "examples",
+      "pdf",
+      "sample-file"
+    ],
+    "updated_at": "2026-04-30T11:33:27Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "File Size Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/file-size-check.yaml",
+      "term": "File Size Check"
+    },
+    {
+      "context_snippet": "This repository provides files for testing software that reads / parses",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "examples"
+    },
+    {
+      "context_snippet": "This repository provides files for testing software that reads / parses",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sample-file"
+    }
+  ]
+}

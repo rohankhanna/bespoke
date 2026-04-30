@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Multi-lingual large voice generation model, providing inference, training and deployment full-stack ability."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![SVG Banners](https://svg-banners.vercel.app/api?type=origin&text1=CosyVoice\ud83e\udd20&text2=Text-to-Speech%20\ud83d\udc96%20Large%20Language%20Model&width=800&height=210)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![SVG Banners](https://svg-banners.vercel.app/api?type=origin&text1=CosyVoice\ud83e\udd20&text2=Text-to-Speech%20\ud83d\udc96%20Large%20Language%20Model&width=800&height=210)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39700394,
+      "status": "candidate",
+      "text": "side"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29859238,
+      "status": "candidate",
+      "text": "english language"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29859238,
+      "status": "candidate",
+      "text": "english people"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29859238,
+      "status": "candidate",
+      "text": "the english"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29859132,
+      "status": "candidate",
+      "text": "englishman"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "english",
+      "sense_id": "english#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14063,
+      "status": "candidate",
+      "text": "side"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10,
+      "status": "candidate",
+      "text": "the english"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "english language"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "english people"
+    }
+  ],
+  "concept_id": "english",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "english",
+  "observation_id": "0f745e5ee6221cfe",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "english",
+  "source_context_snippet": "![SVG Banners](https://svg-banners.vercel.app/api?type=origin&text1=CosyVoice\ud83e\udd20&text2=Text-to-Speech%20\ud83d\udc96%20Large%20Language%20Model&width=800&height=210)",
+  "source_file": null,
+  "source_repo": "FunAudioLLM/CosyVoice",
+  "source_repo_description": "Multi-lingual large voice generation model, providing inference, training and deployment full-stack ability."
+}

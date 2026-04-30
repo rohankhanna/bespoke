@@ -212,6 +212,18 @@
       "source_repo": "rrrene/html_sanitize_ex",
       "status": "candidate-context",
       "text": "\"CI Tests\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "datalab-to/marker",
+      "status": "candidate-context",
+      "text": "Convert PDF to markdown + JSON quickly with high accuracy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datalab-to/marker",
+      "status": "candidate-context",
+      "text": "CI tests"
     }
   ],
   "candidate_glosses": [
@@ -316,6 +328,12 @@
       "source_repo": "rrrene/html_sanitize_ex",
       "status": "candidate",
       "text": "\"CI Tests\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datalab-to/marker",
+      "status": "candidate",
+      "text": "CI tests"
     }
   ],
   "candidate_related_terms": [
@@ -497,11 +515,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/ci-workflow.yml",
       "source_repo": "rrrene/html_sanitize_ex"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "commonmark/commonmark.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "datalab-to/marker"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -12,7 +12,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "JIA-Lab-research/MGM",
-      "target": "freedomintelligence/allava",
+      "target": "vis-nlp/chartqa",
       "target_type": "repository"
     },
     {
@@ -24,9 +24,9 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
+      "source_file": "pyproject.toml",
       "source_repo": "JIA-Lab-research/MGM",
-      "target": "open-compass/mmbench",
+      "target": "dvlab-research/mgm",
       "target_type": "repository"
     },
     {
@@ -51,7 +51,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T10:19:28.654106+00:00",
+  "fetched_at": "2026-04-30T15:14:20.403056+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -88,18 +88,18 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "freedomintelligence/allava",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "kushalkafle/dvqa_dataset",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "open-compass/mmbench",
+      "full_name": "vis-nlp/chartqa",
       "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dvlab-research/mgm",
+      "source_file": "pyproject.toml"
     }
   ],
   "terms": [

@@ -235,6 +235,18 @@
       "source_repo": "sharkdp/diskus",
       "status": "candidate-context",
       "text": "[![CICD](https://github.com/sharkdp/diskus/actions/workflows/CICD.yml/badge.svg)](https://github.com/sharkdp/diskus/actions/workflows/CICD.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jprichardson/node-fs-extra",
+      "status": "candidate-context",
+      "text": "Node.js: extra methods for the fs object like copy(), remove(), mkdirs()"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jprichardson/node-fs-extra",
+      "status": "candidate-context",
+      "text": "Node.js: fs-extra"
     }
   ],
   "candidate_glosses": [
@@ -351,6 +363,12 @@
       "source_repo": "sharkdp/diskus",
       "status": "candidate",
       "text": "[![CICD](https://github.com/sharkdp/diskus/actions/workflows/CICD.yml/badge.svg)](https://github.com/sharkdp/diskus/actions/workflows/CICD.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jprichardson/node-fs-extra",
+      "status": "candidate",
+      "text": "Node.js: fs-extra"
     }
   ],
   "candidate_related_terms": [
@@ -520,11 +538,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "sharkdp/diskus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "jprichardson/node-fs-extra"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

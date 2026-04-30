@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build C++ Agent"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hugoduncan/criterium",
+      "status": "candidate-context",
+      "text": "Benchmarking library for clojure"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hugoduncan/criterium",
+      "status": "candidate-context",
+      "text": "Build C++ Agent"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hugoduncan/criterium",
+      "status": "candidate",
+      "text": "Build C++ Agent"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11674,
+      "status": "candidate",
+      "text": "bond"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11660,
+      "status": "candidate",
+      "text": "develop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11660,
+      "status": "candidate",
+      "text": "inspire"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11660,
+      "status": "candidate",
+      "text": "offset"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11660,
+      "status": "candidate",
+      "text": "press"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build C++ Agent",
+  "concept_id": "build-c-agent",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/agent-cpp.yml",
+      "source_repo": "hugoduncan/criterium"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build C++ Agent",
+      "sense_id": "build-c-agent#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

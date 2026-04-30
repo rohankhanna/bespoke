@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T14:03:49.729235+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2467
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Modern and efficient C++ Thread Pool Library",
+    "fork": false,
+    "full_name": "vit-vit/CTPL",
+    "html_url": "https://github.com/vit-vit/CTPL",
+    "language": "C++",
+    "pushed_at": "2023-01-26T06:30:38Z",
+    "stargazers_count": 2029,
+    "topics": [],
+    "updated_at": "2026-04-29T15:52:22Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

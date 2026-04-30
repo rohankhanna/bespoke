@@ -1,0 +1,302 @@
+{
+  "components": [
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add_label_automerge.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/actions/bc-lint@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bc-lint.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanup_pr_body.yml"
+    },
+    {
+      "component": "actions/setup-python@e797f83bcb11b83ae66e0230d6156d7c80228e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanup_pr_body.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/functional_tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu-smoke-test.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_autolabel.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/setup-python@e797f83bcb11b83ae66e0230d6156d7c80228e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add_label_automerge.yml",
+      "source_repo": "flagos-ai/vllm-FL",
+      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add_label_automerge.yml",
+      "source_repo": "flagos-ai/vllm-FL",
+      "target": "Add label on auto-merge enabled",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/all_tests.yml",
+      "source_repo": "flagos-ai/vllm-FL",
+      "target": "Tests CUDA",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bc-lint.yml",
+      "source_repo": "flagos-ai/vllm-FL",
+      "target": "pytorch/test-infra/.github/actions/bc-lint@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bc-lint.yml",
+      "source_repo": "flagos-ai/vllm-FL",
+      "target": "BC Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanup_pr_body.yml",
+      "source_repo": "flagos-ai/vllm-FL",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanup_pr_body.yml",
+      "source_repo": "flagos-ai/vllm-FL",
+      "target": "actions/setup-python@e797f83bcb11b83ae66e0230d6156d7c80228e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cleanup_pr_body.yml",
+      "source_repo": "flagos-ai/vllm-FL",
+      "target": "Cleanup PR Body",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/functional_tests.yml",
+      "source_repo": "flagos-ai/vllm-FL",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/functional_tests.yml",
+      "source_repo": "flagos-ai/vllm-FL",
+      "target": "Functional Tests CUDA",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu-smoke-test.yml",
+      "source_repo": "flagos-ai/vllm-FL",
+      "target": "actions/checkout@v6.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gpu-smoke-test.yml",
+      "source_repo": "flagos-ai/vllm-FL",
+      "target": "GPU Silicon Smoke Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_autolabel.yml",
+      "source_repo": "flagos-ai/vllm-FL",
+      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue_autolabel.yml",
+      "source_repo": "flagos-ai/vllm-FL",
+      "target": "Label issues based on keywords",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "flagos-ai/vllm-FL",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "flagos-ai/vllm-FL",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "flagos-ai/vllm-FL",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "flagos-ai/vllm-FL",
+      "target": "actions/setup-python@e797f83bcb11b83ae66e0230d6156d7c80228e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "flagos-ai/vllm-FL",
+      "target": "pre-commit",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:58:47.711522+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13168
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 7608
+    },
+    {
+      "path": ".github/workflows/add_label_automerge.yml",
+      "size": 794
+    },
+    {
+      "path": ".github/workflows/all_tests.yml",
+      "size": 408
+    },
+    {
+      "path": ".github/workflows/bc-lint.yml",
+      "size": 872
+    },
+    {
+      "path": ".github/workflows/cleanup_pr_body.yml",
+      "size": 796
+    },
+    {
+      "path": ".github/workflows/functional_tests.yml",
+      "size": 4056
+    },
+    {
+      "path": ".github/workflows/gpu-smoke-test.yml",
+      "size": 3392
+    },
+    {
+      "path": ".github/workflows/issue_autolabel.yml",
+      "size": 13713
+    },
+    {
+      "path": ".github/workflows/pre-commit.yml",
+      "size": 2238
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
+    "fork": true,
+    "full_name": "flagos-ai/vllm-FL",
+    "html_url": "https://github.com/flagos-ai/vllm-FL",
+    "language": "Python",
+    "pushed_at": "2026-02-15T13:28:21Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2026-04-15T03:06:26Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Add label on auto-merge enabled",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add_label_automerge.yml",
+      "term": "Add label on auto-merge enabled"
+    },
+    {
+      "context_snippet": "Tests CUDA",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/all_tests.yml",
+      "term": "Tests CUDA"
+    },
+    {
+      "context_snippet": "BC Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bc-lint.yml",
+      "term": "BC Lint"
+    },
+    {
+      "context_snippet": "Cleanup PR Body",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cleanup_pr_body.yml",
+      "term": "Cleanup PR Body"
+    },
+    {
+      "context_snippet": "Functional Tests CUDA",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/functional_tests.yml",
+      "term": "Functional Tests CUDA"
+    },
+    {
+      "context_snippet": "GPU Silicon Smoke Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gpu-smoke-test.yml",
+      "term": "GPU Silicon Smoke Test"
+    },
+    {
+      "context_snippet": "Label issues based on keywords",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue_autolabel.yml",
+      "term": "Label issues based on keywords"
+    },
+    {
+      "context_snippet": "pre-commit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "term": "pre-commit"
+    }
+  ]
+}

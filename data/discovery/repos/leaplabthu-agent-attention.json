@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LeapLabTHU/Agent-Attention",
+      "target": "microsoft/cswin-transformer",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:11:52.681291+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5171
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[ECCV 2024] Official repository of Agent Attention",
+    "fork": false,
+    "full_name": "LeapLabTHU/Agent-Attention",
+    "html_url": "https://github.com/LeapLabTHU/Agent-Attention",
+    "language": "Python",
+    "pushed_at": "2024-11-17T08:14:11Z",
+    "stargazers_count": 667,
+    "topics": [],
+    "updated_at": "2026-04-29T07:45:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/cswin-transformer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

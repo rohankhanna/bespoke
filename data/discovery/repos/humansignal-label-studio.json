@@ -1,0 +1,747 @@
+{
+  "components": [
+    {
+      "component": "adapttive/algolia-docsearch-action@1.1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/algolia-crawler-hs-docs.yml"
+    },
+    {
+      "component": "adapttive/algolia-docsearch-action@1.1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/algolia-crawler-ls-docs.yml"
+    },
+    {
+      "component": "hmarr/debug-action@v3.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apply-linters.yml"
+    },
+    {
+      "component": "peter-evans/create-or-update-comment@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apply-linters.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apply-linters.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apply-linters.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apply-linters.yml"
+    },
+    {
+      "component": "peter-evans/create-or-update-comment@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apply-linters.yml"
+    },
+    {
+      "component": "hmarr/debug-action@v3.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bandit.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bandit.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bandit.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bandit.yml"
+    },
+    {
+      "component": "hmarr/debug-action@v3.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/biome.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/biome.yml"
+    },
+    {
+      "component": "hmarr/debug-action@v3.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pypi.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pypi.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pypi.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pypi.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pypi.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pypi.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pypi_nightly.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pypi_nightly.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2.6.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pypi_nightly.yml"
+    },
+    {
+      "component": "slackapi/slack-github-action@v3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pypi_nightly.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HumanSignal/label-studio",
+      "target": "humansignal/label-studio-ml-backend",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HumanSignal/label-studio",
+      "target": "humansignal/label-studio-sdk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HumanSignal/label-studio",
+      "target": "humansignal/label-studio-transformers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "HumanSignal/label-studio",
+      "target": "humansignal/label-studio-sdk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/algolia-crawler-hs-docs.yml",
+      "source_repo": "HumanSignal/label-studio",
+      "target": "adapttive/algolia-docsearch-action@1.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/algolia-crawler-hs-docs.yml",
+      "source_repo": "HumanSignal/label-studio",
+      "target": "Algolia Indexer for HumanSignal Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/algolia-crawler-ls-docs.yml",
+      "source_repo": "HumanSignal/label-studio",
+      "target": "adapttive/algolia-docsearch-action@1.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/algolia-crawler-ls-docs.yml",
+      "source_repo": "HumanSignal/label-studio",
+      "target": "Algolia Indexer for Label Studio Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apply-linters.yml",
+      "source_repo": "HumanSignal/label-studio",
+      "target": "hmarr/debug-action@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apply-linters.yml",
+      "source_repo": "HumanSignal/label-studio",
+      "target": "peter-evans/create-or-update-comment@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apply-linters.yml",
+      "source_repo": "HumanSignal/label-studio",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apply-linters.yml",
+      "source_repo": "HumanSignal/label-studio",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/apply-linters.yml",
+      "source_repo": "HumanSignal/label-studio",
+      "target": "Apply linters",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bandit.yml",
+      "source_repo": "HumanSignal/label-studio",
+      "target": "hmarr/debug-action@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bandit.yml",
+      "source_repo": "HumanSignal/label-studio",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bandit.yml",
+      "source_repo": "HumanSignal/label-studio",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bandit.yml",
+      "source_repo": "HumanSignal/label-studio",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bandit.yml",
+      "source_repo": "HumanSignal/label-studio",
+      "target": "Bandit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/biome.yml",
+      "source_repo": "HumanSignal/label-studio",
+      "target": "hmarr/debug-action@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/biome.yml",
+      "source_repo": "HumanSignal/label-studio",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/biome.yml",
+      "source_repo": "HumanSignal/label-studio",
+      "target": "biome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pypi.yml",
+      "source_repo": "HumanSignal/label-studio",
+      "target": "hmarr/debug-action@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pypi.yml",
+      "source_repo": "HumanSignal/label-studio",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pypi.yml",
+      "source_repo": "HumanSignal/label-studio",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pypi.yml",
+      "source_repo": "HumanSignal/label-studio",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pypi.yml",
+      "source_repo": "HumanSignal/label-studio",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_pypi.yml",
+      "source_repo": "HumanSignal/label-studio",
+      "target": "Build PYPI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pypi_nightly.yml",
+      "source_repo": "HumanSignal/label-studio",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pypi_nightly.yml",
+      "source_repo": "HumanSignal/label-studio",
+      "target": "softprops/action-gh-release@v2.6.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pypi_nightly.yml",
+      "source_repo": "HumanSignal/label-studio",
+      "target": "slackapi/slack-github-action@v3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_pypi_nightly.yml",
+      "source_repo": "HumanSignal/label-studio",
+      "target": "Build PyPI Nightly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio",
+      "target": "annotation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio",
+      "target": "annotation-tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio",
+      "target": "annotations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio",
+      "target": "boundingbox",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio",
+      "target": "data-labeling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio",
+      "target": "dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio",
+      "target": "datasets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio",
+      "target": "image-annotation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio",
+      "target": "image-classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio",
+      "target": "image-labeling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio",
+      "target": "image-labelling-tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio",
+      "target": "label-studio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio",
+      "target": "labeling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio",
+      "target": "labeling-tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio",
+      "target": "mlops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio",
+      "target": "semantic-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio",
+      "target": "text-annotation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio",
+      "target": "yolo",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:07:43.780899+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11475
+    },
+    {
+      "path": "Dockerfile",
+      "size": 6323
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 5862
+    },
+    {
+      "path": ".github/workflows/algolia-crawler-hs-docs.yml",
+      "size": 1436
+    },
+    {
+      "path": ".github/workflows/algolia-crawler-ls-docs.yml",
+      "size": 1401
+    },
+    {
+      "path": ".github/workflows/apply-linters.yml",
+      "size": 3618
+    },
+    {
+      "path": ".github/workflows/bandit.yml",
+      "size": 1238
+    },
+    {
+      "path": ".github/workflows/biome.yml",
+      "size": 772
+    },
+    {
+      "path": ".github/workflows/build_pypi.yml",
+      "size": 7219
+    },
+    {
+      "path": ".github/workflows/build_pypi_nightly.yml",
+      "size": 5498
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Label Studio is a multi-type data labeling and annotation tool with standardized output format",
+    "fork": false,
+    "full_name": "HumanSignal/label-studio",
+    "html_url": "https://github.com/HumanSignal/label-studio",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-30T15:05:24Z",
+    "stargazers_count": 27177,
+    "topics": [
+      "annotation",
+      "annotation-tool",
+      "annotations",
+      "boundingbox",
+      "computer-vision",
+      "data-labeling",
+      "dataset",
+      "datasets",
+      "deep-learning",
+      "image-annotation",
+      "image-classification",
+      "image-labeling",
+      "image-labelling-tool",
+      "label-studio",
+      "labeling",
+      "labeling-tool",
+      "mlops",
+      "semantic-segmentation",
+      "text-annotation",
+      "yolo"
+    ],
+    "updated_at": "2026-04-30T09:19:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "humansignal/label-studio-ml-backend",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "humansignal/label-studio-sdk",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "humansignal/label-studio-transformers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "humansignal/label-studio-sdk",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Algolia Indexer for HumanSignal Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/algolia-crawler-hs-docs.yml",
+      "term": "Algolia Indexer for HumanSignal Docs"
+    },
+    {
+      "context_snippet": "Algolia Indexer for Label Studio Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/algolia-crawler-ls-docs.yml",
+      "term": "Algolia Indexer for Label Studio Docs"
+    },
+    {
+      "context_snippet": "Apply linters",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/apply-linters.yml",
+      "term": "Apply linters"
+    },
+    {
+      "context_snippet": "\"Bandit\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bandit.yml",
+      "term": "Bandit"
+    },
+    {
+      "context_snippet": "\"biome\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/biome.yml",
+      "term": "biome"
+    },
+    {
+      "context_snippet": "\"Build PYPI\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_pypi.yml",
+      "term": "Build PYPI"
+    },
+    {
+      "context_snippet": "\"Build PyPI Nightly\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_pypi_nightly.yml",
+      "term": "Build PyPI Nightly"
+    },
+    {
+      "context_snippet": "<img src=\"https://user-images.githubusercontent.com/12534576/192582340-4c9e4401-1fe6-4dbb-95bb-fdbba5493f61.png\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "annotation"
+    },
+    {
+      "context_snippet": "<img src=\"https://user-images.githubusercontent.com/12534576/192582340-4c9e4401-1fe6-4dbb-95bb-fdbba5493f61.png\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "annotation-tool"
+    },
+    {
+      "context_snippet": "<img src=\"https://user-images.githubusercontent.com/12534576/192582340-4c9e4401-1fe6-4dbb-95bb-fdbba5493f61.png\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "annotations"
+    },
+    {
+      "context_snippet": "<img src=\"https://user-images.githubusercontent.com/12534576/192582340-4c9e4401-1fe6-4dbb-95bb-fdbba5493f61.png\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "boundingbox"
+    },
+    {
+      "context_snippet": "<img src=\"https://user-images.githubusercontent.com/12534576/192582340-4c9e4401-1fe6-4dbb-95bb-fdbba5493f61.png\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "<img src=\"https://user-images.githubusercontent.com/12534576/192582340-4c9e4401-1fe6-4dbb-95bb-fdbba5493f61.png\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-labeling"
+    },
+    {
+      "context_snippet": "<img src=\"https://user-images.githubusercontent.com/12534576/192582340-4c9e4401-1fe6-4dbb-95bb-fdbba5493f61.png\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataset"
+    },
+    {
+      "context_snippet": "<img src=\"https://user-images.githubusercontent.com/12534576/192582340-4c9e4401-1fe6-4dbb-95bb-fdbba5493f61.png\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "datasets"
+    },
+    {
+      "context_snippet": "<img src=\"https://user-images.githubusercontent.com/12534576/192582340-4c9e4401-1fe6-4dbb-95bb-fdbba5493f61.png\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<img src=\"https://user-images.githubusercontent.com/12534576/192582340-4c9e4401-1fe6-4dbb-95bb-fdbba5493f61.png\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-annotation"
+    },
+    {
+      "context_snippet": "<img src=\"https://user-images.githubusercontent.com/12534576/192582340-4c9e4401-1fe6-4dbb-95bb-fdbba5493f61.png\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-classification"
+    },
+    {
+      "context_snippet": "<img src=\"https://user-images.githubusercontent.com/12534576/192582340-4c9e4401-1fe6-4dbb-95bb-fdbba5493f61.png\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-labeling"
+    },
+    {
+      "context_snippet": "<img src=\"https://user-images.githubusercontent.com/12534576/192582340-4c9e4401-1fe6-4dbb-95bb-fdbba5493f61.png\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-labelling-tool"
+    },
+    {
+      "context_snippet": "<img src=\"https://user-images.githubusercontent.com/12534576/192582340-4c9e4401-1fe6-4dbb-95bb-fdbba5493f61.png\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "label-studio"
+    },
+    {
+      "context_snippet": "<img src=\"https://user-images.githubusercontent.com/12534576/192582340-4c9e4401-1fe6-4dbb-95bb-fdbba5493f61.png\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "labeling"
+    },
+    {
+      "context_snippet": "<img src=\"https://user-images.githubusercontent.com/12534576/192582340-4c9e4401-1fe6-4dbb-95bb-fdbba5493f61.png\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "labeling-tool"
+    },
+    {
+      "context_snippet": "<img src=\"https://user-images.githubusercontent.com/12534576/192582340-4c9e4401-1fe6-4dbb-95bb-fdbba5493f61.png\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mlops"
+    },
+    {
+      "context_snippet": "<img src=\"https://user-images.githubusercontent.com/12534576/192582340-4c9e4401-1fe6-4dbb-95bb-fdbba5493f61.png\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-segmentation"
+    },
+    {
+      "context_snippet": "<img src=\"https://user-images.githubusercontent.com/12534576/192582340-4c9e4401-1fe6-4dbb-95bb-fdbba5493f61.png\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-annotation"
+    },
+    {
+      "context_snippet": "<img src=\"https://user-images.githubusercontent.com/12534576/192582340-4c9e4401-1fe6-4dbb-95bb-fdbba5493f61.png\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolo"
+    }
+  ]
+}

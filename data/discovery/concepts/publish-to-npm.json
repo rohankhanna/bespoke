@@ -171,6 +171,18 @@
       "source_repo": "fingerprintjs/fingerprintjs",
       "status": "candidate-context",
       "text": "Publish to NPM"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "buttondown/cli",
+      "status": "candidate-context",
+      "text": "Buttondown's CLI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "buttondown/cli",
+      "status": "candidate-context",
+      "text": "Publish to NPM"
     }
   ],
   "candidate_glosses": [
@@ -255,6 +267,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "fingerprintjs/fingerprintjs",
+      "status": "candidate",
+      "text": "Publish to NPM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "buttondown/cli",
       "status": "candidate",
       "text": "Publish to NPM"
     }
@@ -414,11 +432,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/npm_publish.yml",
       "source_repo": "fingerprintjs/fingerprintjs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "buttondown/cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "a2aproject/a2a-js"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

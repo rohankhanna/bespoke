@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-research/batch_rl",
+      "target": "google/dopamine",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-research/batch_rl",
+      "target": "openai/atari-py",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-research/batch_rl",
+      "target": "mgbellemare/arcade-learning-environment",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:54:33.530067+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11129
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Offline Reinforcement Learning (aka Batch Reinforcement Learning) on Atari 2600 games",
+    "fork": false,
+    "full_name": "google-research/batch_rl",
+    "html_url": "https://github.com/google-research/batch_rl",
+    "language": "Python",
+    "pushed_at": "2023-06-26T15:14:05Z",
+    "stargazers_count": 558,
+    "topics": [],
+    "updated_at": "2026-04-08T04:40:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/dopamine",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mgbellemare/arcade-learning-environment",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openai/atari-py",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

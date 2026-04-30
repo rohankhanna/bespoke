@@ -1,0 +1,112 @@
+{
+  "aliases": [
+    "image-quality-assessment"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "h4nwei/SPAQ",
+      "status": "candidate-context",
+      "text": "[CVPR'20] Official SPAQ & Implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h4nwei/SPAQ",
+      "status": "candidate-context",
+      "text": "This repository contains the constructed Smartphone Photography Attribute and Quality (SPAQ) database and implementations for the paper \"Perceptual Quality Assessment of Smartphone Photography\","
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lcysyzxdxc/AGIQA-3k-Database",
+      "status": "candidate-context",
+      "text": "[IEEE TCSVT2023] A Fine-grained Subjective Perception & Alignment Database for AI Generated Image Quality Assessment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lcysyzxdxc/AGIQA-3k-Database",
+      "status": "candidate-context",
+      "text": "The AGIQA-3K is a fine-grained AI-Generated Image (AGI) subjective quality assessment database. Please refer to our paper (AGIQA-3K: An Open Database for AI-Generated Image Quality Assessment) [here](https://arxiv.org/abs/2306.04717) for more details."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Q-Future/Q-Align",
+      "status": "candidate-context",
+      "text": "\u2462[ICML2024] [IQA, IAA, VQA] All-in-one Foundation Model for visual scoring. Can efficiently fine-tune to downstream datasets."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Q-Future/Q-Align",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h4nwei/SPAQ",
+      "status": "candidate",
+      "text": "This repository contains the constructed Smartphone Photography Attribute and Quality (SPAQ) database and implementations for the paper \"Perceptual Quality Assessment of Smartphone Photography\","
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lcysyzxdxc/AGIQA-3k-Database",
+      "status": "candidate",
+      "text": "The AGIQA-3K is a fine-grained AI-Generated Image (AGI) subjective quality assessment database. Please refer to our paper (AGIQA-3K: An Open Database for AI-Generated Image Quality Assessment) [here](https://arxiv.org/abs/2306.04717) for more details."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Q-Future/Q-Align",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "image-quality-assessment",
+  "concept_id": "image-quality-assessment",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "h4nwei/SPAQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "lcysyzxdxc/AGIQA-3k-Database"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Q-Future/Q-Align"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "image-quality-assessment",
+      "sense_id": "image-quality-assessment#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

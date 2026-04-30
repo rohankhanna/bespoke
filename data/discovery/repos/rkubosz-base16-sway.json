@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T13:52:34.519580+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2337
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": true,
+    "full_name": "rkubosz/base16-sway",
+    "html_url": "https://github.com/rkubosz/base16-sway",
+    "language": "Mustache",
+    "pushed_at": "2024-02-15T14:48:25Z",
+    "stargazers_count": 44,
+    "topics": [],
+    "updated_at": "2026-03-18T16:08:10Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

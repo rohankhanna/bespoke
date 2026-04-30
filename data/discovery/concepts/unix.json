@@ -163,6 +163,18 @@
       "source_repo": "karrick/godirwalk",
       "status": "candidate-context",
       "text": "`godirwalk` is a library for traversing a directory tree on a file"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "drduh/Purse",
+      "status": "candidate-context",
+      "text": "GnuPG asymmetric secrets manager - works with YubiKey!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drduh/Purse",
+      "status": "candidate-context",
+      "text": "Purse is a Bash shell script based on [drduh/pwd.sh](https://github.com/drduh/pwd.sh)."
     }
   ],
   "candidate_glosses": [
@@ -243,6 +255,12 @@
       "source_repo": "karrick/godirwalk",
       "status": "candidate",
       "text": "`godirwalk` is a library for traversing a directory tree on a file"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drduh/Purse",
+      "status": "candidate",
+      "text": "Purse is a Bash shell script based on [drduh/pwd.sh](https://github.com/drduh/pwd.sh)."
     }
   ],
   "candidate_related_terms": [
@@ -379,11 +397,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "karrick/godirwalk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "drduh/Purse"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

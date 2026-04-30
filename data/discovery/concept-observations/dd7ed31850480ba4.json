@@ -84,7 +84,7 @@
   "normalized_form": "build-and-trigger-antithesis-exploration",
   "observation_id": "dd7ed31850480ba4",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
   "observed_text": "Build and trigger Antithesis exploration",
   "source_context_snippet": "Build and trigger Antithesis exploration",
   "source_file": ".github/workflows/antithesis-test.yml",

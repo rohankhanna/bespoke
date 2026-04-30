@@ -127,6 +127,18 @@
       "source_repo": "aws/aws-tools-for-powershell",
       "status": "candidate-context",
       "text": "issue-regression-label"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/aws-sdk-net",
+      "status": "candidate-context",
+      "text": " The official AWS SDK for .NET. For more information on the AWS SDK for .NET, see our web site:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-sdk-net",
+      "status": "candidate-context",
+      "text": "issue-regression-label"
     }
   ],
   "candidate_glosses": [
@@ -187,6 +199,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "aws/aws-tools-for-powershell",
+      "status": "candidate",
+      "text": "issue-regression-label"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-sdk-net",
       "status": "candidate",
       "text": "issue-regression-label"
     }
@@ -256,11 +274,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/issue-regression-labeler.yml",
       "source_repo": "aws/aws-tools-for-powershell"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/issue-regression-labeler.yml",
+      "source_repo": "aws/aws-sdk-net"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -141,6 +141,18 @@
       "source_repo": "mondeja/mkdocs-include-markdown-plugin",
       "status": "candidate-context",
       "text": "<!-- mdpo-disable-next-line -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "readthedocs/readthedocs.org",
+      "status": "candidate-context",
+      "text": "The source code that powers readthedocs.org"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "readthedocs/readthedocs.org",
+      "status": "candidate-context",
+      "text": "Welcome to Read the Docs"
     }
   ],
   "candidate_glosses": [
@@ -209,6 +221,12 @@
       "source_repo": "mondeja/mkdocs-include-markdown-plugin",
       "status": "candidate",
       "text": "<!-- mdpo-disable-next-line -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "readthedocs/readthedocs.org",
+      "status": "candidate",
+      "text": "Welcome to Read the Docs"
     }
   ],
   "candidate_related_terms": [],
@@ -282,11 +300,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "mondeja/mkdocs-include-markdown-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "readthedocs/readthedocs.org"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

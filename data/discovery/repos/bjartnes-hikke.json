@@ -1,0 +1,196 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bjartnes/hikke",
+      "target": "polly-contrib/polly.contrib.simmydemo_webapi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bjartnes/hikke",
+      "target": "bjartwolf/bounded-disturbances",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bjartnes/hikke",
+      "target": "chaos-engineering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bjartnes/hikke",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bjartnes/hikke",
+      "target": "grafana",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bjartnes/hikke",
+      "target": "influxdb",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bjartnes/hikke",
+      "target": "load-testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bjartnes/hikke",
+      "target": "netcore",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bjartnes/hikke",
+      "target": "polly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bjartnes/hikke",
+      "target": "simmy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bjartnes/hikke",
+      "target": "telegraf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bjartnes/hikke",
+      "target": "workshop",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:07:58.214311+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11898
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A k6/.NET red/green load testing workshop",
+    "fork": false,
+    "full_name": "bjartnes/hikke",
+    "html_url": "https://github.com/bjartnes/hikke",
+    "language": "Shell",
+    "pushed_at": "2024-11-29T13:04:11Z",
+    "stargazers_count": 52,
+    "topics": [
+      "chaos-engineering",
+      "docker",
+      "grafana",
+      "influxdb",
+      "k6",
+      "load-testing",
+      "netcore",
+      "polly",
+      "simmy",
+      "telegraf",
+      "workshop"
+    ],
+    "updated_at": "2026-04-07T13:16:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bjartwolf/bounded-disturbances",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "polly-contrib/polly.contrib.simmydemo_webapi",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository is for a workshop to understand how to introduce and deal with a bounded disturbance.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chaos-engineering"
+    },
+    {
+      "context_snippet": "This repository is for a workshop to understand how to introduce and deal with a bounded disturbance.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "This repository is for a workshop to understand how to introduce and deal with a bounded disturbance.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grafana"
+    },
+    {
+      "context_snippet": "This repository is for a workshop to understand how to introduce and deal with a bounded disturbance.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "influxdb"
+    },
+    {
+      "context_snippet": "This repository is for a workshop to understand how to introduce and deal with a bounded disturbance.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "load-testing"
+    },
+    {
+      "context_snippet": "This repository is for a workshop to understand how to introduce and deal with a bounded disturbance.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "netcore"
+    },
+    {
+      "context_snippet": "This repository is for a workshop to understand how to introduce and deal with a bounded disturbance.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "polly"
+    },
+    {
+      "context_snippet": "This repository is for a workshop to understand how to introduce and deal with a bounded disturbance.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simmy"
+    },
+    {
+      "context_snippet": "This repository is for a workshop to understand how to introduce and deal with a bounded disturbance.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "telegraf"
+    },
+    {
+      "context_snippet": "This repository is for a workshop to understand how to introduce and deal with a bounded disturbance.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "workshop"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "fbcotter/pytorch_wavelets",
+      "target": "kymatio/kymatio",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fbcotter/pytorch_wavelets",
+      "target": "dtcwt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fbcotter/pytorch_wavelets",
+      "target": "filterbank",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fbcotter/pytorch_wavelets",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fbcotter/pytorch_wavelets",
+      "target": "wavelet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fbcotter/pytorch_wavelets",
+      "target": "wavelet-transform",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T12:57:18.023075+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 9052
+    },
+    {
+      "path": "requirements.txt",
+      "size": 37
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Pytorch implementation of 2D Discrete Wavelet (DWT) and Dual Tree Complex Wavelet Transforms (DTCWT) and a DTCWT based ScatterNet",
+    "fork": false,
+    "full_name": "fbcotter/pytorch_wavelets",
+    "html_url": "https://github.com/fbcotter/pytorch_wavelets",
+    "language": "Python",
+    "pushed_at": "2023-08-02T14:45:18Z",
+    "stargazers_count": 1168,
+    "topics": [
+      "dtcwt",
+      "filterbank",
+      "pytorch",
+      "wavelet",
+      "wavelet-transform"
+    ],
+    "updated_at": "2026-04-21T09:29:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kymatio/kymatio",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "2D Wavelet Transforms in Pytorch",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dtcwt"
+    },
+    {
+      "context_snippet": "2D Wavelet Transforms in Pytorch",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "filterbank"
+    },
+    {
+      "context_snippet": "2D Wavelet Transforms in Pytorch",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "2D Wavelet Transforms in Pytorch",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wavelet"
+    },
+    {
+      "context_snippet": "2D Wavelet Transforms in Pytorch",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wavelet-transform"
+    }
+  ]
+}

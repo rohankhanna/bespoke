@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T13:07:07.711802+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3907
+    },
+    {
+      "path": "requirements.txt",
+      "size": 132
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "implementation of the IPAdapter models for HF Diffusers",
+    "fork": false,
+    "full_name": "cubiq/Diffusers_IPAdapter",
+    "html_url": "https://github.com/cubiq/Diffusers_IPAdapter",
+    "language": "Python",
+    "pushed_at": "2023-10-16T06:41:44Z",
+    "stargazers_count": 181,
+    "topics": [],
+    "updated_at": "2026-02-25T13:53:12Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

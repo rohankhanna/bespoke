@@ -1,7 +1,7 @@
 {
   "component": "jlumbroso/free-disk-space@54081f138730dfa15788a46383842cd2f914a1be",
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -102,6 +102,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/android-e2e-maestro.yml",
       "source_repo": "artsy/eigen"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Anush008/fastembed-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/spring-ai-integration-tests-spring-boot-compatibility.yml",
+      "source_repo": "spring-projects/spring-ai-integration-tests"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/spring-ai-integration-tests.yml",
+      "source_repo": "spring-projects/spring-ai-integration-tests"
     }
   ]
 }

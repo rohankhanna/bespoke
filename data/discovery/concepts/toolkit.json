@@ -127,6 +127,42 @@
       "source_repo": "nativium/nativium",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GoogleChromeLabs/ProjectVisBug",
+      "status": "candidate-context",
+      "text": "FireBug for designers \u203a Edit any webpage, in any state https://a.nerdy.dev/gimme-visbug"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleChromeLabs/ProjectVisBug",
+      "status": "candidate-context",
+      "text": "VisBug"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "i18next/i18next-cli",
+      "status": "candidate-context",
+      "text": "A unified, high-performance i18next CLI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i18next/i18next-cli",
+      "status": "candidate-context",
+      "text": "A unified, high-performance i18next CLI toolchain, powered by SWC."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stretchr/testify",
+      "status": "candidate-context",
+      "text": "A toolkit with common assertions and mocks that plays nicely with the standard library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stretchr/testify",
+      "status": "candidate-context",
+      "text": "Testify - Thou Shalt Write Tests"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +225,24 @@
       "source_repo": "nativium/nativium",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleChromeLabs/ProjectVisBug",
+      "status": "candidate",
+      "text": "VisBug"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i18next/i18next-cli",
+      "status": "candidate",
+      "text": "A unified, high-performance i18next CLI toolchain, powered by SWC."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stretchr/testify",
+      "status": "candidate",
+      "text": "Testify - Thou Shalt Write Tests"
     }
   ],
   "candidate_related_terms": [
@@ -298,11 +352,35 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "nativium/nativium"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "GoogleChromeLabs/ProjectVisBug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "i18next/i18next-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "stretchr/testify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "base-repos/base"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

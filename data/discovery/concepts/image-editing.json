@@ -67,6 +67,42 @@
       "source_repo": "FlowAlign/FlowAlign",
       "status": "candidate-context",
       "text": "This repository is the official implementation of FlowAlign, an inversion & training free image editing algorithm."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HolmesShuan/FireFlow-Fast-Inversion-of-Rectified-Flow-for-Image-Semantic-Editing",
+      "status": "candidate-context",
+      "text": "[ICML2025] An 8-step inversion and 8-step editing process works effectively with the FLUX-dev model. (3x speedup with results that are comparable or even superior to baseline methods)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HolmesShuan/FireFlow-Fast-Inversion-of-Rectified-Flow-for-Image-Semantic-Editing",
+      "status": "candidate-context",
+      "text": "> TL;DR: An 8-step inversion and 8-step editing process works effectively with the FLUX-dev model. (3x speedup with results that are comparable or even superior to baseline methods)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wangjiangshan0725/RF-Solver-Edit",
+      "status": "candidate-context",
+      "text": "[\ud83d\ude80ICML 2025] \"Taming Rectified Flow for Inversion and Editing\"  Using FLUX and HunyuanVideo for image and video editing!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wangjiangshan0725/RF-Solver-Edit",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenGVLab/DragGAN",
+      "status": "candidate-context",
+      "text": "Unofficial Implementation of DragGAN - \"Drag Your GAN: Interactive Point-based Manipulation on the Generative Image Manifold\" \uff08DragGAN \u5168\u529f\u80fd\u5b9e\u73b0\uff0c\u5728\u7ebfDemo\uff0c\u672c\u5730\u90e8\u7f72\u8bd5\u7528\uff0c\u4ee3\u7801\u3001\u6a21\u578b\u5df2\u5168\u90e8\u5f00\u6e90\uff0c\u652f\u6301Windows, macOS, Linux\uff09"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenGVLab/DragGAN",
+      "status": "candidate-context",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/draggan)](https://pypi.org/project/draggan/)"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +135,24 @@
       "source_repo": "FlowAlign/FlowAlign",
       "status": "candidate",
       "text": "This repository is the official implementation of FlowAlign, an inversion & training free image editing algorithm."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HolmesShuan/FireFlow-Fast-Inversion-of-Rectified-Flow-for-Image-Semantic-Editing",
+      "status": "candidate",
+      "text": "> TL;DR: An 8-step inversion and 8-step editing process works effectively with the FLUX-dev model. (3x speedup with results that are comparable or even superior to baseline methods)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wangjiangshan0725/RF-Solver-Edit",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenGVLab/DragGAN",
+      "status": "candidate",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/draggan)](https://pypi.org/project/draggan/)"
     }
   ],
   "candidate_related_terms": [],
@@ -166,11 +220,35 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "FlowAlign/FlowAlign"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "HolmesShuan/FireFlow-Fast-Inversion-of-Rectified-Flow-for-Image-Semantic-Editing"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "wangjiangshan0725/RF-Solver-Edit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "OpenGVLab/DragGAN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

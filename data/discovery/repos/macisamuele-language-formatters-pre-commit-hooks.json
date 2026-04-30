@@ -1,0 +1,375 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "codecov/codecov-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "hmarr/debug-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-releases.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-releases.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-releases.yaml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-releases.yaml"
+    },
+    {
+      "component": "peter-evans/enable-pull-request-automerge@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-releases.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "macisamuele/language-formatters-pre-commit-hooks",
+      "target": "yelp/aactivator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "macisamuele/language-formatters-pre-commit-hooks",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "macisamuele/language-formatters-pre-commit-hooks",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "macisamuele/language-formatters-pre-commit-hooks",
+      "target": "actions-rust-lang/setup-rust-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "macisamuele/language-formatters-pre-commit-hooks",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "macisamuele/language-formatters-pre-commit-hooks",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "macisamuele/language-formatters-pre-commit-hooks",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "macisamuele/language-formatters-pre-commit-hooks",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-releases.yaml",
+      "source_repo": "macisamuele/language-formatters-pre-commit-hooks",
+      "target": "hmarr/debug-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-releases.yaml",
+      "source_repo": "macisamuele/language-formatters-pre-commit-hooks",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-releases.yaml",
+      "source_repo": "macisamuele/language-formatters-pre-commit-hooks",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-releases.yaml",
+      "source_repo": "macisamuele/language-formatters-pre-commit-hooks",
+      "target": "peter-evans/create-pull-request@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-releases.yaml",
+      "source_repo": "macisamuele/language-formatters-pre-commit-hooks",
+      "target": "peter-evans/enable-pull-request-automerge@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump-releases.yaml",
+      "source_repo": "macisamuele/language-formatters-pre-commit-hooks",
+      "target": "Bump External Releases",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "macisamuele/language-formatters-pre-commit-hooks",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "macisamuele/language-formatters-pre-commit-hooks",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "macisamuele/language-formatters-pre-commit-hooks",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "macisamuele/language-formatters-pre-commit-hooks",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependabot-auto-merge.yml",
+      "source_repo": "macisamuele/language-formatters-pre-commit-hooks",
+      "target": "Dependabot Auto-Merge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "macisamuele/language-formatters-pre-commit-hooks",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "macisamuele/language-formatters-pre-commit-hooks",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "macisamuele/language-formatters-pre-commit-hooks",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "macisamuele/language-formatters-pre-commit-hooks",
+      "target": "Publish on PyPI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "macisamuele/language-formatters-pre-commit-hooks",
+      "target": "formatting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "macisamuele/language-formatters-pre-commit-hooks",
+      "target": "pre-commit",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:02:35.815446+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8450
+    },
+    {
+      "path": ".github/workflows/build.yaml",
+      "size": 1949
+    },
+    {
+      "path": ".github/workflows/bump-releases.yaml",
+      "size": 1994
+    },
+    {
+      "path": ".github/workflows/bump_external_releases.py",
+      "size": 2580
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 603
+    },
+    {
+      "path": ".github/workflows/dependabot-auto-merge.yml",
+      "size": 578
+    },
+    {
+      "path": ".github/workflows/publish.yaml",
+      "size": 638
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Collection of custom pre-commit hooks.",
+    "fork": false,
+    "full_name": "macisamuele/language-formatters-pre-commit-hooks",
+    "html_url": "https://github.com/macisamuele/language-formatters-pre-commit-hooks",
+    "language": "Python",
+    "pushed_at": "2026-03-29T18:36:41Z",
+    "stargazers_count": 150,
+    "topics": [
+      "formatting",
+      "pre-commit"
+    ],
+    "updated_at": "2026-04-28T02:36:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yelp/aactivator",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Bump External Releases",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump-releases.yaml",
+      "term": "Bump External Releases"
+    },
+    {
+      "context_snippet": "CodeQL",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Dependabot Auto-Merge",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependabot-auto-merge.yml",
+      "term": "Dependabot Auto-Merge"
+    },
+    {
+      "context_snippet": "Publish on PyPI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "term": "Publish on PyPI"
+    },
+    {
+      "context_snippet": "[![Github Actions CI](https://github.com/macisamuele/language-formatters-pre-commit-hooks/workflows/Build/badge.svg)](https://github.com/macisamuele/language-formatters-pre-commit-hooks/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "formatting"
+    },
+    {
+      "context_snippet": "[![Github Actions CI](https://github.com/macisamuele/language-formatters-pre-commit-hooks/workflows/Build/badge.svg)](https://github.com/macisamuele/language-formatters-pre-commit-hooks/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pre-commit"
+    }
+  ]
+}

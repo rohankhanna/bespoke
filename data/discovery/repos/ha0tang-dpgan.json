@@ -1,0 +1,98 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Ha0Tang/DPGAN",
+      "target": "ha0tang/lggan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Ha0Tang/DPGAN",
+      "target": "ha0tang/edgegan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Ha0Tang/DPGAN",
+      "target": "fyu/drn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Ha0Tang/DPGAN",
+      "target": "ha0tang/guided-i2i-translation-papers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ha0Tang/DPGAN",
+      "target": "generative-adversarial-network",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:07:58.841184+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9875
+    },
+    {
+      "path": "requirements.txt",
+      "size": 59
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[TIP 2021] Layout-to-Image Translation with Double Pooling Generative Adversarial Networks",
+    "fork": false,
+    "full_name": "Ha0Tang/DPGAN",
+    "html_url": "https://github.com/Ha0Tang/DPGAN",
+    "language": "Python",
+    "pushed_at": "2023-02-18T00:31:10Z",
+    "stargazers_count": 18,
+    "topics": [
+      "gan",
+      "generative-adversarial-network"
+    ],
+    "updated_at": "2024-05-07T13:59:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fyu/drn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ha0tang/edgegan",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ha0tang/guided-i2i-translation-papers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ha0tang/lggan",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![Visitors](https://visitor-badge.glitch.me/badge?page_id=Ha0Tang/DPGAN)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-adversarial-network"
+    }
+  ]
+}

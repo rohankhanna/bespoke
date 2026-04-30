@@ -475,6 +475,66 @@
       "source_repo": "istio/proxy",
       "status": "candidate-context",
       "text": "The Istio Proxy is a microservice proxy that can be used on the client and server side, and forms a microservice mesh."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flightlessmango/MangoHud",
+      "status": "candidate-context",
+      "text": "A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flightlessmango/MangoHud",
+      "status": "candidate-context",
+      "text": "A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Unitech/pm2",
+      "status": "candidate-context",
+      "text": "Node.js Production Process Manager with a built-in Load Balancer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Unitech/pm2",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "byrnedo/dockdash",
+      "status": "candidate-context",
+      "text": "Docker dashboard using Termui"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "byrnedo/dockdash",
+      "status": "candidate-context",
+      "text": "Realtime docker ps and stats viewer."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vectordotdev/vector",
+      "status": "candidate-context",
+      "text": "A high-performance observability data pipeline."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vectordotdev/vector",
+      "status": "candidate-context",
+      "text": "[![Nightly](https://github.com/vectordotdev/vector/actions/workflows/nightly.yml/badge.svg)](https://github.com/vectordotdev/vector/actions/workflows/nightly.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "winsiderss/systeminformer",
+      "status": "candidate-context",
+      "text": "A free, powerful, multi-purpose tool that helps you monitor system resources, debug software and detect malware. Brought to you by Winsider Seminars & Solutions, Inc. @ http://www.windows-internals.com"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "winsiderss/systeminformer",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -711,6 +771,36 @@
       "source_repo": "istio/proxy",
       "status": "candidate",
       "text": "The Istio Proxy is a microservice proxy that can be used on the client and server side, and forms a microservice mesh."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flightlessmango/MangoHud",
+      "status": "candidate",
+      "text": "A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Unitech/pm2",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "byrnedo/dockdash",
+      "status": "candidate",
+      "text": "Realtime docker ps and stats viewer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vectordotdev/vector",
+      "status": "candidate",
+      "text": "[![Nightly](https://github.com/vectordotdev/vector/actions/workflows/nightly.yml/badge.svg)](https://github.com/vectordotdev/vector/actions/workflows/nightly.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "winsiderss/systeminformer",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -1048,11 +1138,59 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "kuberhealthy/kuberhealthy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "flightlessmango/MangoHud"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "graphql-hive/graphql-inspector"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Unitech/pm2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "byrnedo/dockdash"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "rust-nvml/nvml-wrapper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "kuberhealthy/kuberhealthy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "vectordotdev/vector"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "winsiderss/systeminformer"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

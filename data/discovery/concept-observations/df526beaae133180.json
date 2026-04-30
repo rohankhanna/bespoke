@@ -84,7 +84,7 @@
   "normalized_form": "label-issues-as-good-first-issue",
   "observation_id": "df526beaae133180",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
   "observed_text": "Label Issues as 'good first issue",
   "source_context_snippet": "\"Label Issues as 'good first issue'\"",
   "source_file": ".github/workflows/issue_classifier.yml",

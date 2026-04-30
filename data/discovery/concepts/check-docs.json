@@ -32,6 +32,30 @@
       "source_repo": "dagster-io/dagster",
       "status": "candidate-context",
       "text": "Check Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "secretflow/kuscia",
+      "status": "candidate-context",
+      "text": "Kuscia(Kubernetes-based Secure Collaborative InfrA) is a K8s-based privacy-preserving computing task orchestration framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "secretflow/kuscia",
+      "status": "candidate-context",
+      "text": "Check Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "secretflow/scql",
+      "status": "candidate-context",
+      "text": "SCQL  (Secure Collaborative Query Language) is a system that allows multiple distrusting parties to run joint analysis without revealing their private data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "secretflow/scql",
+      "status": "candidate-context",
+      "text": "Check Docs"
     }
   ],
   "candidate_glosses": [
@@ -44,6 +68,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "dagster-io/dagster",
+      "status": "candidate",
+      "text": "Check Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "secretflow/kuscia",
+      "status": "candidate",
+      "text": "Check Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "secretflow/scql",
       "status": "candidate",
       "text": "Check Docs"
     }
@@ -101,11 +137,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/check-docs.yml",
       "source_repo": "dagster-io/dagster"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/docs-check.yml",
+      "source_repo": "secretflow/kuscia"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/docs-check.yml",
+      "source_repo": "secretflow/scql"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

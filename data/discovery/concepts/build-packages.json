@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Build packages",
-    "build-packages"
+    "build-packages",
+    "Build Packages"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -32,6 +33,18 @@
       "source_repo": "dusty-nv/jetson-containers",
       "status": "candidate-context",
       "text": "\"build-packages\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LekoArts/gatsby-themes",
+      "status": "candidate-context",
+      "text": "Get high-quality and customizable Gatsby themes to quickly bootstrap your website! Choose from many professionally created and impressive designs with a wide variety of features and customization options."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LekoArts/gatsby-themes",
+      "status": "candidate-context",
+      "text": "Build Packages"
     }
   ],
   "candidate_glosses": [
@@ -46,6 +59,12 @@
       "source_repo": "dusty-nv/jetson-containers",
       "status": "candidate",
       "text": "\"build-packages\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LekoArts/gatsby-themes",
+      "status": "candidate",
+      "text": "Build Packages"
     }
   ],
   "candidate_related_terms": [
@@ -101,11 +120,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/build-monthly-packages.yml",
       "source_repo": "dusty-nv/jetson-containers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/build-packages.yml",
+      "source_repo": "LekoArts/gatsby-themes"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

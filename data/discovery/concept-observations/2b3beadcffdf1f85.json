@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[CVPR'20] Official SPAQ & Implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repository contains the constructed Smartphone Photography Attribute and Quality (SPAQ) database and implementations for the paper \"Perceptual Quality Assessment of Smartphone Photography\","
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repository contains the constructed Smartphone Photography Attribute and Quality (SPAQ) database and implementations for the paper \"Perceptual Quality Assessment of Smartphone Photography\","
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "image-quality-assessment",
+      "sense_id": "image-quality-assessment#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "image-quality-assessment",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "image-quality-assessment",
+  "observation_id": "2b3beadcffdf1f85",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "image-quality-assessment",
+  "source_context_snippet": "This repository contains the constructed Smartphone Photography Attribute and Quality (SPAQ) database and implementations for the paper \"Perceptual Quality Assessment of Smartphone Photography\",",
+  "source_file": null,
+  "source_repo": "h4nwei/SPAQ",
+  "source_repo_description": "[CVPR'20] Official SPAQ & Implementation"
+}

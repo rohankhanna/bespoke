@@ -1,12 +1,17 @@
 {
   "component": "msys2/package-grokker/grok-artifacts@a976a49de6f306122b7b603d1212782a900fa8fd",
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "msys2/MINGW-packages"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Alexpux/MINGW-packages"
     }
   ]
 }

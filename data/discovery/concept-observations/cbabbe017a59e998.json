@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "AWS SAM project that adds the snippets from serverlessland.com/snippets as saved queries in CloudWatch Logs Insights"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[Serverlessland.com/snippets](https://serverlessland.com/snippets) hosts a growing number of community provided snippets. Many of these are useful [CloudWatch Logs Insights](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/AnalyzingLogData.html) snippets."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[Serverlessland.com/snippets](https://serverlessland.com/snippets) hosts a growing number of community provided snippets. Many of these are useful [CloudWatch Logs Insights](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/AnalyzingLogData.html) snippets."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cloudwatch-logs",
+      "sense_id": "cloudwatch-logs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cloudwatch-logs",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cloudwatch-logs",
+  "observation_id": "cbabbe017a59e998",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "cloudwatch-logs",
+  "source_context_snippet": "[Serverlessland.com/snippets](https://serverlessland.com/snippets) hosts a growing number of community provided snippets. Many of these are useful [CloudWatch Logs Insights](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/AnalyzingLogData.html) snippets.",
+  "source_file": null,
+  "source_repo": "ljacobsson/cw-logs-insights-snippets",
+  "source_repo_description": "AWS SAM project that adds the snippets from serverlessland.com/snippets as saved queries in CloudWatch Logs Insights"
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T15:10:13.810394+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3273
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Code associated with 6th International (online) Summer school on AI and Big Data tutorial \"Scalable Deep Learning Tutorial\" and \"Scalable deep learning: how far is one billion neurons?\" tutorial at ECAI 2020.",
+    "fork": false,
+    "full_name": "SelimaC/Tutorial-SCADS-Summer-School-2020-Scalable-Deep-Learning",
+    "html_url": "https://github.com/SelimaC/Tutorial-SCADS-Summer-School-2020-Scalable-Deep-Learning",
+    "language": "Python",
+    "pushed_at": "2022-01-11T11:20:07Z",
+    "stargazers_count": 8,
+    "topics": [],
+    "updated_at": "2025-12-19T08:00:26Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

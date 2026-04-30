@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Reusable npm script runner"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mochajs/mocha",
+      "status": "candidate-context",
+      "text": "\u2615\ufe0f Classic, reliable, trusted test framework for Node.js and the browser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mochajs/mocha",
+      "status": "candidate-context",
+      "text": "Reusable npm script runner"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mochajs/mocha",
+      "status": "candidate",
+      "text": "Reusable npm script runner"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32023,
+      "status": "candidate",
+      "text": "leg"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31995,
+      "status": "candidate",
+      "text": "legs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31995,
+      "status": "candidate",
+      "text": "leh"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31875,
+      "status": "candidate",
+      "text": "throw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31847,
+      "status": "candidate",
+      "text": "strike"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Reusable npm script runner",
+  "concept_id": "reusable-npm-script-runner",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/npm-script.yml",
+      "source_repo": "mochajs/mocha"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Reusable npm script runner",
+      "sense_id": "reusable-npm-script-runner#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

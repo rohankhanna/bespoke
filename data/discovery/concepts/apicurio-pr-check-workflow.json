@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Apicurio PR check workflow"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "debezium/debezium",
+      "status": "candidate-context",
+      "text": "Change data capture for a variety of databases. Please log issues at https://github.com/debezium/dbz/issues."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "debezium/debezium",
+      "status": "candidate-context",
+      "text": "Apicurio PR check workflow"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "debezium/debezium",
+      "status": "candidate",
+      "text": "Apicurio PR check workflow"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14076,
+      "status": "candidate",
+      "text": "arrestment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14076,
+      "status": "candidate",
+      "text": "assay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14076,
+      "status": "candidate",
+      "text": "assessment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14076,
+      "status": "candidate",
+      "text": "astringent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14076,
+      "status": "candidate",
+      "text": "auditing"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Apicurio PR check workflow",
+  "concept_id": "apicurio-pr-check-workflow",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/apicurio-check-workflow.yml",
+      "source_repo": "debezium/debezium"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Apicurio PR check workflow",
+      "sense_id": "apicurio-pr-check-workflow#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

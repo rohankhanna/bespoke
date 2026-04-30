@@ -91,6 +91,42 @@
       "source_repo": "SwinTransformer/Swin-Transformer-Semantic-Segmentation",
       "status": "candidate-context",
       "text": "This repo contains the supported code and configuration files to reproduce semantic segmentaion results of [Swin Transformer](https://arxiv.org/pdf/2103.14030.pdf). It is based on [mmsegmentaion](https://github.com/open-mmlab/mmsegmentation/tree/v0.11.0)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SwinTransformer/Swin-Transformer-Object-Detection",
+      "status": "candidate-context",
+      "text": "This is an official implementation for \"Swin Transformer: Hierarchical Vision Transformer using Shifted Windows\" on Object Detection and Instance Segmentation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SwinTransformer/Swin-Transformer-Object-Detection",
+      "status": "candidate-context",
+      "text": "This repo contains the supported code and configuration files to reproduce object detection results of [Swin Transformer](https://arxiv.org/pdf/2103.14030.pdf). It is based on [mmdetection](https://github.com/open-mmlab/mmdetection)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SwinTransformer/Transformer-SSL",
+      "status": "candidate-context",
+      "text": "This is an official implementation for \"Self-Supervised Learning with Swin Transformers\"."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SwinTransformer/Transformer-SSL",
+      "status": "candidate-context",
+      "text": "By [Zhenda Xie](https://github.com/zdaxie/)\\*, [Yutong Lin](https://github.com/impiga)\\*, [Zhuliang Yao](https://github.com/Howal), [Zheng Zhang](https://stupidzz.github.io/), [Qi Dai](https://www.microsoft.com/en-us/research/people/qid/), [Yue Cao](http://yue-cao.me) and [Han H\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SwinTransformer/Video-Swin-Transformer",
+      "status": "candidate-context",
+      "text": "This is an official implementation for \"Video Swin Transformers\"."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SwinTransformer/Video-Swin-Transformer",
+      "status": "candidate-context",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/video-swin-transformer/action-classification-on-kinetics-400)](https://paperswithcode.com/sota/action-classification-on-kinetics-400?p=video-swin-transformer)"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +171,24 @@
       "source_repo": "SwinTransformer/Swin-Transformer-Semantic-Segmentation",
       "status": "candidate",
       "text": "This repo contains the supported code and configuration files to reproduce semantic segmentaion results of [Swin Transformer](https://arxiv.org/pdf/2103.14030.pdf). It is based on [mmsegmentaion](https://github.com/open-mmlab/mmsegmentation/tree/v0.11.0)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SwinTransformer/Swin-Transformer-Object-Detection",
+      "status": "candidate",
+      "text": "This repo contains the supported code and configuration files to reproduce object detection results of [Swin Transformer](https://arxiv.org/pdf/2103.14030.pdf). It is based on [mmdetection](https://github.com/open-mmlab/mmdetection)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SwinTransformer/Transformer-SSL",
+      "status": "candidate",
+      "text": "By [Zhenda Xie](https://github.com/zdaxie/)\\*, [Yutong Lin](https://github.com/impiga)\\*, [Zhuliang Yao](https://github.com/Howal), [Zheng Zhang](https://stupidzz.github.io/), [Qi Dai](https://www.microsoft.com/en-us/research/people/qid/), [Yue Cao](http://yue-cao.me) and [Han H\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SwinTransformer/Video-Swin-Transformer",
+      "status": "candidate",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/video-swin-transformer/action-classification-on-kinetics-400)](https://paperswithcode.com/sota/action-classification-on-kinetics-400?p=video-swin-transformer)"
     }
   ],
   "candidate_related_terms": [],
@@ -208,11 +262,29 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "SwinTransformer/Swin-Transformer-Semantic-Segmentation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "SwinTransformer/Swin-Transformer-Object-Detection"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "SwinTransformer/Transformer-SSL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "SwinTransformer/Video-Swin-Transformer"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

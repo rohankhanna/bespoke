@@ -1,0 +1,45 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/py.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/py.yml",
+      "source_repo": "Oneflow-Inc/models",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T12:50:43.085604+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6488
+    },
+    {
+      "path": ".github/workflows/py.yml",
+      "size": 1411
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Models and examples built with OneFlow",
+    "fork": false,
+    "full_name": "Oneflow-Inc/models",
+    "html_url": "https://github.com/Oneflow-Inc/models",
+    "language": "Python",
+    "pushed_at": "2024-10-16T09:41:54Z",
+    "stargazers_count": 101,
+    "topics": [],
+    "updated_at": "2025-12-27T07:29:55Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

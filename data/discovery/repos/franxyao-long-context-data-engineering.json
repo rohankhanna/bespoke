@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T13:09:05.364248+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12073
+    },
+    {
+      "path": "requirements.txt",
+      "size": 87
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Implementation of paper Data Engineering for Scaling Language Models to 128K Context",
+    "fork": false,
+    "full_name": "FranxYao/Long-Context-Data-Engineering",
+    "html_url": "https://github.com/FranxYao/Long-Context-Data-Engineering",
+    "language": "Python",
+    "pushed_at": "2024-03-19T03:57:10Z",
+    "stargazers_count": 497,
+    "topics": [],
+    "updated_at": "2026-04-05T06:32:14Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

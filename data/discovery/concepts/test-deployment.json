@@ -44,6 +44,18 @@
       "source_repo": "Sygil-Dev/sygil-webui",
       "status": "candidate-context",
       "text": "Test deployment"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "meta-pytorch/captum",
+      "status": "candidate-context",
+      "text": "Model interpretability and understanding for PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meta-pytorch/captum",
+      "status": "candidate-context",
+      "text": "Test deployment"
     }
   ],
   "candidate_glosses": [
@@ -62,6 +74,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Sygil-Dev/sygil-webui",
+      "status": "candidate",
+      "text": "Test deployment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meta-pytorch/captum",
       "status": "candidate",
       "text": "Test deployment"
     }
@@ -125,11 +143,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/test-deploy.yml",
       "source_repo": "Sygil-Dev/sygil-webui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test-website-deploy.yml",
+      "source_repo": "meta-pytorch/captum"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

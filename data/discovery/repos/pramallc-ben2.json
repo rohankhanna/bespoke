@@ -1,0 +1,35 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T15:53:41.038789+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5632
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 119
+    },
+    {
+      "path": "requirements.txt",
+      "size": 126
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "PramaLLC/BEN2",
+    "html_url": "https://github.com/PramaLLC/BEN2",
+    "language": "Python",
+    "pushed_at": "2026-01-02T22:08:08Z",
+    "stargazers_count": 261,
+    "topics": [],
+    "updated_at": "2026-04-29T01:03:04Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -19,6 +19,30 @@
       "source_repo": "locustio/locust",
       "status": "candidate-context",
       "text": "[![PyPI](https://img.shields.io/pypi/v/locust.svg)](https://pypi.org/project/locust/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "karatelabs/karate",
+      "status": "candidate-context",
+      "text": "Test Automation Made Simple"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karatelabs/karate",
+      "status": "candidate-context",
+      "text": "**The open-source tool that combines API testing, mocks, performance testing, and UI automation into a single, unified framework.**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bjartnes/hikke",
+      "status": "candidate-context",
+      "text": "A k6/.NET red/green load testing workshop"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bjartnes/hikke",
+      "status": "candidate-context",
+      "text": "This repository is for a workshop to understand how to introduce and deal with a bounded disturbance."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "locustio/locust",
       "status": "candidate",
       "text": "[![PyPI](https://img.shields.io/pypi/v/locust.svg)](https://pypi.org/project/locust/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karatelabs/karate",
+      "status": "candidate",
+      "text": "**The open-source tool that combines API testing, mocks, performance testing, and UI automation into a single, unified framework.**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bjartnes/hikke",
+      "status": "candidate",
+      "text": "This repository is for a workshop to understand how to introduce and deal with a bounded disturbance."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "locustio/locust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "karatelabs/karate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "bjartnes/hikke"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

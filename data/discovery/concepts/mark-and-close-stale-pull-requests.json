@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Mark and Close Stale Pull Requests"
+    "Mark and Close Stale Pull Requests",
+    "Mark and close stale pull requests"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "ray-project/ray",
       "status": "candidate-context",
       "text": "Mark and Close Stale Pull Requests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lobsters/lobsters",
+      "status": "candidate-context",
+      "text": "Computing-focused community centered around link aggregation and discussion"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lobsters/lobsters",
+      "status": "candidate-context",
+      "text": "Mark and close stale pull requests"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "ray-project/ray",
       "status": "candidate",
       "text": "Mark and Close Stale Pull Requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lobsters/lobsters",
+      "status": "candidate",
+      "text": "Mark and close stale pull requests"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/stale_pull_request.yaml",
       "source_repo": "ray-project/ray"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "lobsters/lobsters"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

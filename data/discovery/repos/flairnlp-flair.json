@@ -56,28 +56,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "flairNLP/flair",
-      "target": "packtpublishing/natural-language-processing-with-flair",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "flairNLP/flair",
-      "target": "lunayach/visner",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "flairNLP/flair",
       "target": "robinvanschaik/flair-on-gcp",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "flairNLP/flair",
-      "target": "robinvanschaik/interpret-flair",
       "target_type": "repository"
     },
     {
@@ -214,7 +193,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T05:16:02.746314+00:00",
+  "fetched_at": "2026-04-30T15:11:12.545629+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -271,22 +250,7 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "lunayach/visner",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "packtpublishing/natural-language-processing-with-flair",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "robinvanschaik/flair-on-gcp",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "robinvanschaik/interpret-flair",
       "source_file": "README.md"
     }
   ],

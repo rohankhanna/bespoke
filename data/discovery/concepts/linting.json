@@ -479,6 +479,42 @@
       "source_repo": "JLLeitschuh/ktlint-gradle",
       "status": "candidate-context",
       "text": "**Provides a convenient wrapper plugin over the [ktlint](https://github.com/pinterest/ktlint) project.**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "theupdateframework/go-tuf",
+      "status": "candidate-context",
+      "text": "Go implementation of The Update Framework (TUF)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "theupdateframework/go-tuf",
+      "status": "candidate-context",
+      "text": "Linting"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rubocop/rubocop-performance",
+      "status": "candidate-context",
+      "text": "An extension of RuboCop focused on code performance checks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rubocop/rubocop-performance",
+      "status": "candidate-context",
+      "text": "Linting"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "justinchuby/lintrunner-adapters",
+      "status": "candidate-context",
+      "text": "Adapters and tools for lintrunner"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "justinchuby/lintrunner-adapters",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/justinchuby/lintrunner-adapters/actions/workflows/ci.yml/badge.svg)](https://github.com/justinchuby/lintrunner-adapters/actions/workflows/ci.yml)"
     }
   ],
   "candidate_glosses": [
@@ -721,6 +757,24 @@
       "source_repo": "JLLeitschuh/ktlint-gradle",
       "status": "candidate",
       "text": "**Provides a convenient wrapper plugin over the [ktlint](https://github.com/pinterest/ktlint) project.**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "theupdateframework/go-tuf",
+      "status": "candidate",
+      "text": "Linting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rubocop/rubocop-performance",
+      "status": "candidate",
+      "text": "Linting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "justinchuby/lintrunner-adapters",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/justinchuby/lintrunner-adapters/actions/workflows/ci.yml/badge.svg)](https://github.com/justinchuby/lintrunner-adapters/actions/workflows/ci.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -1129,11 +1183,47 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "JLLeitschuh/ktlint-gradle"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "run-llama/llama_index"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/linting.yml",
+      "source_repo": "theupdateframework/go-tuf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/linting.yml",
+      "source_repo": "rubocop/rubocop-performance"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/_lint.yml",
+      "source_repo": "langchain-ai/langchain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "justinchuby/lintrunner-adapters"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/linting.yml",
+      "source_repo": "pyg-team/pytorch_geometric"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

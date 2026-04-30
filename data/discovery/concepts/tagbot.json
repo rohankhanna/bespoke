@@ -301,6 +301,66 @@
       "source_repo": "JamieMair/MuJoCo.jl",
       "status": "candidate-context",
       "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aviatesk/JET.jl",
+      "status": "candidate-context",
+      "text": "A code analyzer for Julia. No need for additional type annotations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aviatesk/JET.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GunnarFarneback/LocalRegistry.jl",
+      "status": "candidate-context",
+      "text": "Create and maintain local registries for Julia packages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GunnarFarneback/LocalRegistry.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaCI/PkgTemplates.jl",
+      "status": "candidate-context",
+      "text": "Create new Julia packages, the easy way"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaCI/PkgTemplates.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaDocs/Documenter.jl",
+      "status": "candidate-context",
+      "text": "A documentation generator for Julia."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDocs/Documenter.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lyceum/LyceumMuJoCoViz.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lyceum/MuJoCo.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
     }
   ],
   "candidate_glosses": [
@@ -463,6 +523,42 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "JamieMair/MuJoCo.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aviatesk/JET.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GunnarFarneback/LocalRegistry.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaCI/PkgTemplates.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDocs/Documenter.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lyceum/LyceumMuJoCoViz.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lyceum/MuJoCo.jl",
       "status": "candidate",
       "text": "TagBot"
     }
@@ -640,11 +736,47 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/TagBot.yml",
       "source_repo": "JamieMair/MuJoCo.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "aviatesk/JET.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "GunnarFarneback/LocalRegistry.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaCI/PkgTemplates.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaDocs/Documenter.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/tagbot.yml",
+      "source_repo": "Lyceum/LyceumMuJoCoViz.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/tagbot.yml",
+      "source_repo": "Lyceum/MuJoCo.jl"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

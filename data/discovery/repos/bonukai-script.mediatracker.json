@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T15:58:56.965539+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 180
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Kodi add-on for MediaTracker",
+    "fork": false,
+    "full_name": "bonukai/script.mediatracker",
+    "html_url": "https://github.com/bonukai/script.mediatracker",
+    "language": "Python",
+    "pushed_at": "2023-12-21T15:01:34Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2026-02-05T13:20:47Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -31,6 +31,30 @@
       "source_repo": "uxlfoundation/open-source-working-group",
       "status": "candidate-context",
       "text": "Slack PR Notification"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uxlfoundation/oneDPL",
+      "status": "candidate-context",
+      "text": "oneAPI DPC++ Library (oneDPL) https://software.intel.com/content/www/us/en/develop/tools/oneapi/components/dpc-library.html "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/oneDPL",
+      "status": "candidate-context",
+      "text": "Slack PR Notification"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uxlfoundation/oneMath",
+      "status": "candidate-context",
+      "text": "oneAPI Math Library (oneMath)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/oneMath",
+      "status": "candidate-context",
+      "text": "Slack PR Notification"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +67,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "uxlfoundation/open-source-working-group",
+      "status": "candidate",
+      "text": "Slack PR Notification"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/oneDPL",
+      "status": "candidate",
+      "text": "Slack PR Notification"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/oneMath",
       "status": "candidate",
       "text": "Slack PR Notification"
     }
@@ -100,11 +136,29 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/slack-pr.yaml",
       "source_repo": "uxlfoundation/open-source-working-group"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/slack-pr.yaml",
+      "source_repo": "uxlfoundation/oneDPL"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/slack-pr.yaml",
+      "source_repo": "uxlfoundation/oneMath"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/slack-pr.yaml",
+      "source_repo": "uxlfoundation/oneCCL"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

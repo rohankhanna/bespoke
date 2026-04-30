@@ -1,0 +1,101 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kazuto1011/deeplab-pytorch",
+      "target": "coco",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kazuto1011/deeplab-pytorch",
+      "target": "cocostuff",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kazuto1011/deeplab-pytorch",
+      "target": "deeplab",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kazuto1011/deeplab-pytorch",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kazuto1011/deeplab-pytorch",
+      "target": "semantic-segmentation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:02:03.551351+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10641
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "PyTorch re-implementation of DeepLab v2 on COCO-Stuff / PASCAL VOC datasets",
+    "fork": false,
+    "full_name": "kazuto1011/deeplab-pytorch",
+    "html_url": "https://github.com/kazuto1011/deeplab-pytorch",
+    "language": "Python",
+    "pushed_at": "2022-10-14T18:30:23Z",
+    "stargazers_count": 1101,
+    "topics": [
+      "coco",
+      "cocostuff",
+      "deeplab",
+      "pytorch",
+      "semantic-segmentation",
+      "voc"
+    ],
+    "updated_at": "2026-04-27T12:37:51Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This is an unofficial **PyTorch** implementation of **DeepLab v2** [[1](##references)] with a **ResNet-101** backbone.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coco"
+    },
+    {
+      "context_snippet": "This is an unofficial **PyTorch** implementation of **DeepLab v2** [[1](##references)] with a **ResNet-101** backbone.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cocostuff"
+    },
+    {
+      "context_snippet": "This is an unofficial **PyTorch** implementation of **DeepLab v2** [[1](##references)] with a **ResNet-101** backbone.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deeplab"
+    },
+    {
+      "context_snippet": "This is an unofficial **PyTorch** implementation of **DeepLab v2** [[1](##references)] with a **ResNet-101** backbone.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "This is an unofficial **PyTorch** implementation of **DeepLab v2** [[1](##references)] with a **ResNet-101** backbone.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-segmentation"
+    }
+  ]
+}

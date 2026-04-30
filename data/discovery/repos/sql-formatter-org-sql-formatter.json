@@ -211,28 +211,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "sql-formatter-org/sql-formatter",
-      "target": "sql-formatter-org/sql-formatter-vscode",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "sql-formatter-org/sql-formatter",
-      "target": "fannheyward/coc-sql",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "sql-formatter-org/sql-formatter",
-      "target": "gajus/eslint-plugin-sql",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "sql-formatter-org/sql-formatter",
-      "target": "nene/prettier-plugin-sql-cst",
+      "target": "un-ts/prettier",
       "target_type": "repository"
     },
     {
@@ -551,7 +530,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T07:11:01.895143+00:00",
+  "fetched_at": "2026-04-30T15:57:55.232411+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -580,34 +559,19 @@
     "html_url": "https://github.com/sql-formatter-org/sql-formatter",
     "language": "TypeScript",
     "pushed_at": "2026-03-28T08:21:11Z",
-    "stargazers_count": 2843,
+    "stargazers_count": 2842,
     "topics": [
       "formatter",
       "javascript",
       "n1ql",
       "sql"
     ],
-    "updated_at": "2026-04-28T22:50:39Z"
+    "updated_at": "2026-04-30T15:11:25Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "fannheyward/coc-sql",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "gajus/eslint-plugin-sql",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "nene/prettier-plugin-sql-cst",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "sql-formatter-org/sql-formatter-vscode",
+      "full_name": "un-ts/prettier",
       "source_file": "README.md"
     }
   ],

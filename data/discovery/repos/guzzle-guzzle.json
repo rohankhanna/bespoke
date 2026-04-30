@@ -1,0 +1,309 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "docker://ergebnis/composer-normalize-action",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "shivammathur/setup-php@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "shivammathur/setup-php@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "shivammathur/setup-php@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yml"
+    },
+    {
+      "component": "shivammathur/setup-php@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yml"
+    },
+    {
+      "component": "shivammathur/setup-php@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "guzzle/guzzle",
+      "target": "guzzle/guzzle3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "guzzle/guzzle",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "guzzle/guzzle",
+      "target": "docker://ergebnis/composer-normalize-action",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "guzzle/guzzle",
+      "target": "Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "guzzle/guzzle",
+      "target": "shivammathur/setup-php@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "guzzle/guzzle",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "guzzle/guzzle",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yml",
+      "source_repo": "guzzle/guzzle",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yml",
+      "source_repo": "guzzle/guzzle",
+      "target": "shivammathur/setup-php@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/static.yml",
+      "source_repo": "guzzle/guzzle",
+      "target": "Static analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "guzzle/guzzle",
+      "target": "curl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "guzzle/guzzle",
+      "target": "guzzle",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "guzzle/guzzle",
+      "target": "http-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "guzzle/guzzle",
+      "target": "httpclient",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "guzzle/guzzle",
+      "target": "psr-7",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "guzzle/guzzle",
+      "target": "requests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "guzzle/guzzle",
+      "target": "webservices",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T12:52:58.228128+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5034
+    },
+    {
+      "path": "Dockerfile",
+      "size": 346
+    },
+    {
+      "path": ".github/workflows/checks.yml",
+      "size": 337
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 3294
+    },
+    {
+      "path": ".github/workflows/static.yml",
+      "size": 1297
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "7.10",
+    "description": "Guzzle, an extensible PHP HTTP client",
+    "fork": false,
+    "full_name": "guzzle/guzzle",
+    "html_url": "https://github.com/guzzle/guzzle",
+    "language": "PHP",
+    "pushed_at": "2026-03-05T20:35:15Z",
+    "stargazers_count": 23452,
+    "topics": [
+      "curl",
+      "guzzle",
+      "http-client",
+      "httpclient",
+      "php",
+      "psr-7",
+      "requests",
+      "webservices"
+    ],
+    "updated_at": "2026-04-30T09:11:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "guzzle/guzzle3",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checks.yml",
+      "term": "Checks"
+    },
+    {
+      "context_snippet": "Static analysis",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/static.yml",
+      "term": "Static analysis"
+    },
+    {
+      "context_snippet": "![Guzzle](.github/logo.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "curl"
+    },
+    {
+      "context_snippet": "![Guzzle](.github/logo.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "guzzle"
+    },
+    {
+      "context_snippet": "![Guzzle](.github/logo.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http-client"
+    },
+    {
+      "context_snippet": "![Guzzle](.github/logo.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "httpclient"
+    },
+    {
+      "context_snippet": "![Guzzle](.github/logo.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "psr-7"
+    },
+    {
+      "context_snippet": "![Guzzle](.github/logo.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "requests"
+    },
+    {
+      "context_snippet": "![Guzzle](.github/logo.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webservices"
+    }
+  ]
+}

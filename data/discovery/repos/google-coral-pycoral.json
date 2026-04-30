@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-coral/pycoral",
+      "target": "coral-dev-board",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-coral/pycoral",
+      "target": "edge-tpu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-coral/pycoral",
+      "target": "pycoral",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T12:55:54.403814+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2289
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Python API for ML inferencing and transfer-learning on Coral devices",
+    "fork": false,
+    "full_name": "google-coral/pycoral",
+    "html_url": "https://github.com/google-coral/pycoral",
+    "language": "Python",
+    "pushed_at": "2024-05-01T02:51:23Z",
+    "stargazers_count": 404,
+    "topics": [
+      "coral-dev-board",
+      "edge-tpu",
+      "pycoral"
+    ],
+    "updated_at": "2026-04-28T09:22:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository contains an easy-to-use Python API that helps you run inferences",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coral-dev-board"
+    },
+    {
+      "context_snippet": "This repository contains an easy-to-use Python API that helps you run inferences",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "edge-tpu"
+    },
+    {
+      "context_snippet": "This repository contains an easy-to-use Python API that helps you run inferences",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pycoral"
+    }
+  ]
+}

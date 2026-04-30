@@ -71,6 +71,42 @@
       "source_repo": "google/vim-codefmt",
       "status": "candidate-context",
       "text": "[![Travis Build Status](https://travis-ci.org/google/vim-codefmt.svg?branch=master)](https://travis-ci.org/google/vim-codefmt)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/triton-shared",
+      "status": "candidate-context",
+      "text": "Shared Middle-Layer for Triton Compilation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/triton-shared",
+      "status": "candidate-context",
+      "text": "clang-format"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stephenberry/glaze",
+      "status": "candidate-context",
+      "text": "Extremely fast, in memory, serialization, reflection, and RPC library for C++. JSON, BEVE, BSON, CBOR, CSV, JSONB, MessagePack, TOML, YAML, EETF"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stephenberry/glaze",
+      "status": "candidate-context",
+      "text": "clang-format"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yoshoku/numo-narray-alt",
+      "status": "candidate-context",
+      "text": "Numo::NArray Alternative (numo-narray-alt) is a project forked from Numo::NArray"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yoshoku/numo-narray-alt",
+      "status": "candidate-context",
+      "text": "clang-format"
     }
   ],
   "candidate_glosses": [
@@ -103,6 +139,24 @@
       "source_repo": "google/vim-codefmt",
       "status": "candidate",
       "text": "[![Travis Build Status](https://travis-ci.org/google/vim-codefmt.svg?branch=master)](https://travis-ci.org/google/vim-codefmt)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/triton-shared",
+      "status": "candidate",
+      "text": "clang-format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stephenberry/glaze",
+      "status": "candidate",
+      "text": "clang-format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yoshoku/numo-narray-alt",
+      "status": "candidate",
+      "text": "clang-format"
     }
   ],
   "candidate_related_terms": [
@@ -182,11 +236,35 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "google/vim-codefmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/clang-format.yml",
+      "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/clang-format.yml",
+      "source_repo": "microsoft/triton-shared"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/clang-format.yml",
+      "source_repo": "stephenberry/glaze"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/clang-format.yml",
+      "source_repo": "yoshoku/numo-narray-alt"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

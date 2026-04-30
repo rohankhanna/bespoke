@@ -1,0 +1,52 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repo contains concourse tasks for use with [cf-deployment][cf-deployment-repo]."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repo contains concourse tasks for use with [cf-deployment][cf-deployment-repo]."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cff-wg-app-runtime-deployments",
+      "sense_id": "cff-wg-app-runtime-deployments#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cff-wg-app-runtime-deployments",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cff-wg-app-runtime-deployments",
+  "observation_id": "a14c6bf4d9a6cc11",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "cff-wg-app-runtime-deployments",
+  "source_context_snippet": "This repo contains concourse tasks for use with [cf-deployment][cf-deployment-repo].",
+  "source_file": null,
+  "source_repo": "cloudfoundry/cf-deployment-concourse-tasks",
+  "source_repo_description": null
+}

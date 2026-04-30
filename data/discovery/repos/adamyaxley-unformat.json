@@ -1,0 +1,184 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adamyaxley/Unformat",
+      "target": "cpp14",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adamyaxley/Unformat",
+      "target": "cpp17",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adamyaxley/Unformat",
+      "target": "extraction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adamyaxley/Unformat",
+      "target": "formatting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adamyaxley/Unformat",
+      "target": "header-only",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adamyaxley/Unformat",
+      "target": "parse",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adamyaxley/Unformat",
+      "target": "parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adamyaxley/Unformat",
+      "target": "parsing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adamyaxley/Unformat",
+      "target": "parsing-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adamyaxley/Unformat",
+      "target": "string",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adamyaxley/Unformat",
+      "target": "unformat",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:09:25.663818+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2172
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Fastest type-safe parsing library in the world for C++14 or C++17 (up to 300x faster than std::regex)",
+    "fork": false,
+    "full_name": "adamyaxley/Unformat",
+    "html_url": "https://github.com/adamyaxley/Unformat",
+    "language": "C++",
+    "pushed_at": "2026-03-02T02:42:57Z",
+    "stargazers_count": 44,
+    "topics": [
+      "cpp14",
+      "cpp17",
+      "extraction",
+      "formatting",
+      "header-only",
+      "parse",
+      "parser",
+      "parsing",
+      "parsing-library",
+      "string",
+      "unformat"
+    ],
+    "updated_at": "2026-03-08T14:20:54Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "**[Source available on GitHub](https://github.com/adamyaxley/Unformat)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp14"
+    },
+    {
+      "context_snippet": "**[Source available on GitHub](https://github.com/adamyaxley/Unformat)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp17"
+    },
+    {
+      "context_snippet": "**[Source available on GitHub](https://github.com/adamyaxley/Unformat)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "extraction"
+    },
+    {
+      "context_snippet": "**[Source available on GitHub](https://github.com/adamyaxley/Unformat)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "formatting"
+    },
+    {
+      "context_snippet": "**[Source available on GitHub](https://github.com/adamyaxley/Unformat)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "header-only"
+    },
+    {
+      "context_snippet": "**[Source available on GitHub](https://github.com/adamyaxley/Unformat)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parse"
+    },
+    {
+      "context_snippet": "**[Source available on GitHub](https://github.com/adamyaxley/Unformat)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parser"
+    },
+    {
+      "context_snippet": "**[Source available on GitHub](https://github.com/adamyaxley/Unformat)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parsing"
+    },
+    {
+      "context_snippet": "**[Source available on GitHub](https://github.com/adamyaxley/Unformat)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parsing-library"
+    },
+    {
+      "context_snippet": "**[Source available on GitHub](https://github.com/adamyaxley/Unformat)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "string"
+    },
+    {
+      "context_snippet": "**[Source available on GitHub](https://github.com/adamyaxley/Unformat)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unformat"
+    }
+  ]
+}

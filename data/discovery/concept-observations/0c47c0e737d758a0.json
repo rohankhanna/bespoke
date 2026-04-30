@@ -84,7 +84,7 @@
   "normalized_form": "p-diff-sync",
   "observation_id": "0c47c0e737d758a0",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
   "observed_text": "P Diff Sync",
   "source_context_snippet": "P Diff Sync",
   "source_file": ".github/workflows/p-diff-sync-tests.yml",

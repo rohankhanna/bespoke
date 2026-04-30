@@ -55,6 +55,18 @@
       "source_repo": "lartpang/PySODMetrics",
       "status": "candidate-context",
       "text": "[build-system] requires = [\"setuptools >= 61.0\"] build-backend = \"setuptools.build_meta\" [tool.setuptools] packages = [\"py_sod_metrics\"] # \u76f4\u63a5\u6307\u5b9a\u5305\u540d [project] name = \"pysodmetrics\" version = \"1.6.2\" dependencies = [ \"numpy>=1.18,<2.3.5\", \"scipy>=1.5,<2.0\", \"scikit-image>=0.19,<0.26\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DengPingFan/SINet",
+      "status": "candidate-context",
+      "text": "Camouflaged Object Detection, CVPR 2020 (Oral)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DengPingFan/SINet",
+      "status": "candidate-context",
+      "text": "> Authors:"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "lartpang/PySODMetrics",
       "status": "candidate",
       "text": "[build-system] requires = [\"setuptools >= 61.0\"] build-backend = \"setuptools.build_meta\" [tool.setuptools] packages = [\"py_sod_metrics\"] # \u76f4\u63a5\u6307\u5b9a\u5305\u540d [project] name = \"pysodmetrics\" version = \"1.6.2\" dependencies = [ \"numpy>=1.18,<2.3.5\", \"scipy>=1.5,<2.0\", \"scikit-image>=0.19,<0.26\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DengPingFan/SINet",
+      "status": "candidate",
+      "text": "> Authors:"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "lartpang/PySODMetrics"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "DengPingFan/SINet"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

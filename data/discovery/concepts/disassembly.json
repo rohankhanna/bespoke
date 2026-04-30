@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "disassembly"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clojure-goes-fast/clj-java-decompiler",
+      "status": "candidate-context",
+      "text": "REPL-integrated Clojure-to-Java decompiler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure-goes-fast/clj-java-decompiler",
+      "status": "candidate-context",
+      "text": "_You can read the motivation behind clj-java-decompiler and the usage example in"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure-goes-fast/clj-java-decompiler",
+      "status": "candidate",
+      "text": "_You can read the motivation behind clj-java-decompiler and the usage example in"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39994655,
+      "status": "candidate",
+      "text": "dismantlement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39994644,
+      "status": "candidate",
+      "text": "dismantling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29994732,
+      "status": "candidate",
+      "text": "disassemble"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29994115,
+      "status": "candidate",
+      "text": "teardown"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29993717,
+      "status": "candidate",
+      "text": "remove"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6019,
+      "status": "candidate",
+      "text": "dismantling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1015,
+      "status": "candidate",
+      "text": "dismantlement"
+    }
+  ],
+  "canonical_name": "disassembly",
+  "concept_id": "disassembly",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "clojure-goes-fast/clj-java-decompiler"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "disassembly",
+      "sense_id": "disassembly#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

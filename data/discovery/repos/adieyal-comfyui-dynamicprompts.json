@@ -1,0 +1,61 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adieyal/comfyui-dynamicprompts",
+      "target": "adieyal/dynamicprompts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adieyal/comfyui-dynamicprompts",
+      "target": "ltdrdata/comfyui-manager",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:06:05.858855+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4850
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 438
+    },
+    {
+      "path": "requirements.txt",
+      "size": 23
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "ComfyUI custom nodes for Dynamic Prompts",
+    "fork": false,
+    "full_name": "adieyal/comfyui-dynamicprompts",
+    "html_url": "https://github.com/adieyal/comfyui-dynamicprompts",
+    "language": "Python",
+    "pushed_at": "2024-07-09T14:21:09Z",
+    "stargazers_count": 410,
+    "topics": [],
+    "updated_at": "2026-04-30T01:40:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adieyal/dynamicprompts",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ltdrdata/comfyui-manager",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

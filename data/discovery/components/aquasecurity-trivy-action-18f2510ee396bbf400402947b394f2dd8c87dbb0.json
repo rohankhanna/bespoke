@@ -1,0 +1,12 @@
+{
+  "component": "aquasecurity/trivy-action@18f2510ee396bbf400402947b394f2dd8c87dbb0",
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/code_scan.yml",
+      "source_repo": "cvat-ai/datumaro"
+    }
+  ]
+}

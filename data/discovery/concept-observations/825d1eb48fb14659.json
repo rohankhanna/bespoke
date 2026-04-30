@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The XBR Protocol - blockchain protocol for decentralized open data markets (https://pypi.org/project/xbr/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/xbr.svg)](https://pypi.python.org/pypi/xbr)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/xbr.svg)](https://pypi.python.org/pypi/xbr)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "wamp-protocol",
+      "sense_id": "wamp-protocol#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "wamp-protocol",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "wamp-protocol",
+  "observation_id": "825d1eb48fb14659",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "wamp-protocol",
+  "source_context_snippet": "[![PyPI](https://img.shields.io/pypi/v/xbr.svg)](https://pypi.python.org/pypi/xbr)",
+  "source_file": null,
+  "source_repo": "wamp-proto/wamp-xbr",
+  "source_repo_description": "The XBR Protocol - blockchain protocol for decentralized open data markets (https://pypi.org/project/xbr/)"
+}

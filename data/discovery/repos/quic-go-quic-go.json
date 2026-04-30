@@ -1,0 +1,495 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-interop-docker.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-interop-docker.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-interop-docker.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-interop-docker.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-interop-docker.yml"
+    },
+    {
+      "component": "google/clusterfuzzlite/actions/build_fuzzers@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clusterfuzz-lite-batch.yml"
+    },
+    {
+      "component": "google/clusterfuzzlite/actions/run_fuzzers@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clusterfuzz-lite-batch.yml"
+    },
+    {
+      "component": "google/clusterfuzzlite/actions/build_fuzzers@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clusterfuzz-lite-pr.yml"
+    },
+    {
+      "component": "google/clusterfuzzlite/actions/run_fuzzers@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clusterfuzz-lite-pr.yml"
+    },
+    {
+      "component": "google/clusterfuzzlite/actions/build_fuzzers@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clusterfuzz-lite-prune.yml"
+    },
+    {
+      "component": "google/clusterfuzzlite/actions/run_fuzzers@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clusterfuzz-lite-prune.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross-compile.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross-compile.yml"
+    },
+    {
+      "component": "actions/cache/restore@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross-compile.yml"
+    },
+    {
+      "component": "actions/cache/save@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross-compile.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "quic-go/quic-go",
+      "target": "cloudflare/cloudflared",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "quic-go/quic-go",
+      "target": "fatedier/frp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "quic-go/quic-go",
+      "target": "apernet/hysteria",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "quic-go/quic-go",
+      "target": "dunglas/mercure",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-interop-docker.yml",
+      "source_repo": "quic-go/quic-go",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-interop-docker.yml",
+      "source_repo": "quic-go/quic-go",
+      "target": "docker/setup-qemu-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-interop-docker.yml",
+      "source_repo": "quic-go/quic-go",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-interop-docker.yml",
+      "source_repo": "quic-go/quic-go",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-interop-docker.yml",
+      "source_repo": "quic-go/quic-go",
+      "target": "docker/build-push-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-interop-docker.yml",
+      "source_repo": "quic-go/quic-go",
+      "target": "Build interop Docker image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clusterfuzz-lite-batch.yml",
+      "source_repo": "quic-go/quic-go",
+      "target": "google/clusterfuzzlite/actions/build_fuzzers@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clusterfuzz-lite-batch.yml",
+      "source_repo": "quic-go/quic-go",
+      "target": "google/clusterfuzzlite/actions/run_fuzzers@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clusterfuzz-lite-batch.yml",
+      "source_repo": "quic-go/quic-go",
+      "target": "ClusterFuzzLite batch fuzzing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clusterfuzz-lite-pr.yml",
+      "source_repo": "quic-go/quic-go",
+      "target": "google/clusterfuzzlite/actions/build_fuzzers@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clusterfuzz-lite-pr.yml",
+      "source_repo": "quic-go/quic-go",
+      "target": "google/clusterfuzzlite/actions/run_fuzzers@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clusterfuzz-lite-pr.yml",
+      "source_repo": "quic-go/quic-go",
+      "target": "ClusterFuzzLite PR fuzzing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clusterfuzz-lite-prune.yml",
+      "source_repo": "quic-go/quic-go",
+      "target": "google/clusterfuzzlite/actions/build_fuzzers@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clusterfuzz-lite-prune.yml",
+      "source_repo": "quic-go/quic-go",
+      "target": "google/clusterfuzzlite/actions/run_fuzzers@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clusterfuzz-lite-prune.yml",
+      "source_repo": "quic-go/quic-go",
+      "target": "ClusterFuzzLite pruning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross-compile.yml",
+      "source_repo": "quic-go/quic-go",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross-compile.yml",
+      "source_repo": "quic-go/quic-go",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross-compile.yml",
+      "source_repo": "quic-go/quic-go",
+      "target": "actions/cache/restore@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross-compile.yml",
+      "source_repo": "quic-go/quic-go",
+      "target": "actions/cache/save@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "quic-go/quic-go",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "quic-go/quic-go",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "quic-go/quic-go",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "quic-go/quic-go",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "quic-go/quic-go",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "quic-go/quic-go",
+      "target": "http3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "quic-go/quic-go",
+      "target": "protocol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "quic-go/quic-go",
+      "target": "qlog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "quic-go/quic-go",
+      "target": "quic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "quic-go/quic-go",
+      "target": "quic-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "quic-go/quic-go",
+      "target": "quic-server",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:57:49.271485+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9200
+    },
+    {
+      "path": "go.mod",
+      "size": 845
+    },
+    {
+      "path": ".github/workflows/build-interop-docker.yml",
+      "size": 1555
+    },
+    {
+      "path": ".github/workflows/clusterfuzz-lite-batch.yml",
+      "size": 990
+    },
+    {
+      "path": ".github/workflows/clusterfuzz-lite-pr.yml",
+      "size": 1454
+    },
+    {
+      "path": ".github/workflows/clusterfuzz-lite-prune.yml",
+      "size": 750
+    },
+    {
+      "path": ".github/workflows/cross-compile.sh",
+      "size": 834
+    },
+    {
+      "path": ".github/workflows/cross-compile.yml",
+      "size": 1835
+    },
+    {
+      "path": ".github/workflows/go-generate.sh",
+      "size": 588
+    },
+    {
+      "path": ".github/workflows/integration.yml",
+      "size": 4266
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A production-ready QUIC implementation in pure Go",
+    "fork": false,
+    "full_name": "quic-go/quic-go",
+    "html_url": "https://github.com/quic-go/quic-go",
+    "language": "Go",
+    "pushed_at": "2026-04-26T03:11:56Z",
+    "stargazers_count": 11565,
+    "topics": [
+      "go",
+      "golang",
+      "http3",
+      "protocol",
+      "qlog",
+      "quic",
+      "quic-client",
+      "quic-server"
+    ],
+    "updated_at": "2026-04-30T14:10:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apernet/hysteria",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudflare/cloudflared",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dunglas/mercure",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fatedier/frp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build interop Docker image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-interop-docker.yml",
+      "term": "Build interop Docker image"
+    },
+    {
+      "context_snippet": "ClusterFuzzLite batch fuzzing",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clusterfuzz-lite-batch.yml",
+      "term": "ClusterFuzzLite batch fuzzing"
+    },
+    {
+      "context_snippet": "ClusterFuzzLite PR fuzzing",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clusterfuzz-lite-pr.yml",
+      "term": "ClusterFuzzLite PR fuzzing"
+    },
+    {
+      "context_snippet": "ClusterFuzzLite pruning",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clusterfuzz-lite-prune.yml",
+      "term": "ClusterFuzzLite pruning"
+    },
+    {
+      "context_snippet": "<div align=\"center\" style=\"margin-bottom: 15px;\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "<div align=\"center\" style=\"margin-bottom: 15px;\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http3"
+    },
+    {
+      "context_snippet": "<div align=\"center\" style=\"margin-bottom: 15px;\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "protocol"
+    },
+    {
+      "context_snippet": "<div align=\"center\" style=\"margin-bottom: 15px;\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "qlog"
+    },
+    {
+      "context_snippet": "<div align=\"center\" style=\"margin-bottom: 15px;\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quic"
+    },
+    {
+      "context_snippet": "<div align=\"center\" style=\"margin-bottom: 15px;\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quic-client"
+    },
+    {
+      "context_snippet": "<div align=\"center\" style=\"margin-bottom: 15px;\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quic-server"
+    }
+  ]
+}

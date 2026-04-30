@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chrisbra/csv.vim",
+      "target": "shougo/neobundle.vim",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:01:10.606641+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 70704
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Filetype plugin for csv files",
+    "fork": false,
+    "full_name": "chrisbra/csv.vim",
+    "html_url": "https://github.com/chrisbra/csv.vim",
+    "language": "Vim Script",
+    "pushed_at": "2026-01-04T14:33:49Z",
+    "stargazers_count": 1324,
+    "topics": [],
+    "updated_at": "2026-04-29T04:23:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shougo/neobundle.vim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

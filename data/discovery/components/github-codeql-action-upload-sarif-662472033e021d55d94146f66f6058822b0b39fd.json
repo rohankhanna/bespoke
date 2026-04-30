@@ -1,12 +1,17 @@
 {
   "component": "github/codeql-action/upload-sarif@662472033e021d55d94146f66f6058822b0b39fd",
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/scorecard.yml",
       "source_repo": "angular/vscode-ng-language-service"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "Reference-LAPACK/lapack"
     }
   ]
 }

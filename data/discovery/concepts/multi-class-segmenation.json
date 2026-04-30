@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "multi-class-segmenation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ai4colonoscopy/PraNet-V2",
+      "status": "candidate-context",
+      "text": "PraNet-V2: Upgrading PraNet from binary (V1) to multi-class (V2) segmentation . Support both Jittor & PyTorch DL frameworks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai4colonoscopy/PraNet-V2",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">PraNet-V2: Dual-Supervised Reverse Attention for Medical Image Segmentation</h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai4colonoscopy/PraNet-V2",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">PraNet-V2: Dual-Supervised Reverse Attention for Medical Image Segmentation</h1>"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "multi-class-segmenation",
+  "concept_id": "multi-class-segmenation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ai4colonoscopy/PraNet-V2"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "multi-class-segmenation",
+      "sense_id": "multi-class-segmenation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

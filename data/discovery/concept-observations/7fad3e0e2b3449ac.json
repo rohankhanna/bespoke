@@ -84,7 +84,7 @@
   "normalized_form": "trigger-antithesis-debugger",
   "observation_id": "7fad3e0e2b3449ac",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
   "observed_text": "Trigger Antithesis debugger",
   "source_context_snippet": "Trigger Antithesis debugger",
   "source_file": ".github/workflows/antithesis.debugger.yml",

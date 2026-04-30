@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sp1-patches/tiny-keccak",
+      "target": "debris/tiny-keccak",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "sp1-patches/tiny-keccak",
+      "target": "debris/tiny-keccak",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:00:43.951542+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2165
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1802
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An implementation of Keccak derived functions specified in FIPS-202, SP800-185 and KangarooTwelve",
+    "fork": true,
+    "full_name": "sp1-patches/tiny-keccak",
+    "html_url": "https://github.com/sp1-patches/tiny-keccak",
+    "language": null,
+    "pushed_at": "2026-04-29T17:31:28Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2025-11-12T11:46:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "debris/tiny-keccak",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "debris/tiny-keccak",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": []
+}

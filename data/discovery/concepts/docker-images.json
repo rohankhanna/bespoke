@@ -83,6 +83,18 @@
       "source_repo": "mozilla/DeepSpeech",
       "status": "candidate-context",
       "text": "\"Docker Images\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lite-xl/lite-xl-build-box",
+      "status": "candidate-context",
+      "text": "The docker image used to build Lite XL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lite-xl/lite-xl-build-box",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
     }
   ],
   "candidate_glosses": [
@@ -121,6 +133,12 @@
       "source_repo": "mozilla/DeepSpeech",
       "status": "candidate",
       "text": "\"Docker Images\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lite-xl/lite-xl-build-box",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
     }
   ],
   "candidate_related_terms": [
@@ -206,11 +224,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/docker.yml",
       "source_repo": "mozilla/DeepSpeech"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "lite-xl/lite-xl-build-box"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

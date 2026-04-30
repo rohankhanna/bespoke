@@ -1,0 +1,99 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HaomingCai/PIPAL-dataset",
+      "target": "open-mmlab/mmsr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HaomingCai/PIPAL-dataset",
+      "target": "iqa-dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HaomingCai/PIPAL-dataset",
+      "target": "perceptual-quality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HaomingCai/PIPAL-dataset",
+      "target": "pipal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HaomingCai/PIPAL-dataset",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:09:28.954016+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3691
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ Official ] - PIPAL Dataset and Training Codebase.  ECCV-2020, NTIRE-21/22.",
+    "fork": false,
+    "full_name": "HaomingCai/PIPAL-dataset",
+    "html_url": "https://github.com/HaomingCai/PIPAL-dataset",
+    "language": "Python",
+    "pushed_at": "2022-01-03T02:51:03Z",
+    "stargazers_count": 79,
+    "topics": [
+      "iqa-dataset",
+      "perceptual-quality",
+      "pipal",
+      "pytorch"
+    ],
+    "updated_at": "2025-12-02T13:12:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "open-mmlab/mmsr",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<a href=\"https://www.jasongt.com\" target=\"_blank\">Jinjin Gu</a>,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iqa-dataset"
+    },
+    {
+      "context_snippet": "<a href=\"https://www.jasongt.com\" target=\"_blank\">Jinjin Gu</a>,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "perceptual-quality"
+    },
+    {
+      "context_snippet": "<a href=\"https://www.jasongt.com\" target=\"_blank\">Jinjin Gu</a>,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pipal"
+    },
+    {
+      "context_snippet": "<a href=\"https://www.jasongt.com\" target=\"_blank\">Jinjin Gu</a>,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

@@ -5,13 +5,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "fla-org/flash-bidirectional-linear-attention",
-      "target": "huage001/linfusion",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "fla-org/flash-bidirectional-linear-attention",
       "target": "hp-l33/flash-bidirectional-linear-attention",
       "target_type": "repository"
     },
@@ -19,14 +12,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "fla-org/flash-bidirectional-linear-attention",
-      "target": "leaplabthu/mlla",
+      "target": "zacharymeng/polaformer",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "fla-org/flash-bidirectional-linear-attention",
-      "target": "qhfan/rala",
+      "target": "xie-lab-ml/piecewise-sparse-attention",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fla-org/flash-bidirectional-linear-attention",
+      "target": "sustcsonglin/flash-linear-attention",
       "target_type": "repository"
     },
     {
@@ -51,7 +51,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T10:16:41.209180+00:00",
+  "fetched_at": "2026-04-30T15:11:49.377111+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -84,17 +84,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "huage001/linfusion",
+      "full_name": "sustcsonglin/flash-linear-attention",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "leaplabthu/mlla",
+      "full_name": "xie-lab-ml/piecewise-sparse-attention",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "qhfan/rala",
+      "full_name": "zacharymeng/polaformer",
       "source_file": "README.md"
     }
   ],

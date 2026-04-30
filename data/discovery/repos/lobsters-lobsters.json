@@ -1,0 +1,217 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-docker-ruby-version.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "actions/stale@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-docker-ruby-version.yml",
+      "source_repo": "lobsters/lobsters",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-docker-ruby-version.yml",
+      "source_repo": "lobsters/lobsters",
+      "target": "Check Dockerfile Ruby version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "lobsters/lobsters",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "lobsters/lobsters",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "lobsters/lobsters",
+      "target": "actions/stale@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "lobsters/lobsters",
+      "target": "Mark and close stale pull requests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lobsters/lobsters",
+      "target": "aggregator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lobsters/lobsters",
+      "target": "forum",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lobsters/lobsters",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lobsters/lobsters",
+      "target": "rails",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lobsters/lobsters",
+      "target": "ruby",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:53:00.800470+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10038
+    },
+    {
+      "path": ".github/workflows/check-docker-ruby-version.yml",
+      "size": 481
+    },
+    {
+      "path": ".github/workflows/check.yml",
+      "size": 3146
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 1480
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Computing-focused community centered around link aggregation and discussion",
+    "fork": false,
+    "full_name": "lobsters/lobsters",
+    "html_url": "https://github.com/lobsters/lobsters",
+    "language": "Ruby",
+    "pushed_at": "2026-04-30T14:36:33Z",
+    "stargazers_count": 4653,
+    "topics": [
+      "aggregator",
+      "forum",
+      "hacktoberfest",
+      "rails",
+      "ruby"
+    ],
+    "updated_at": "2026-04-30T14:37:34Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"Check Dockerfile Ruby version\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-docker-ruby-version.yml",
+      "term": "Check Dockerfile Ruby version"
+    },
+    {
+      "context_snippet": "Mark and close stale pull requests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Mark and close stale pull requests"
+    },
+    {
+      "context_snippet": "[Lobsters](https://lobste.rs) is a Rails codebase and uses a SQL (MariaDB in production) backend for the database.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aggregator"
+    },
+    {
+      "context_snippet": "[Lobsters](https://lobste.rs) is a Rails codebase and uses a SQL (MariaDB in production) backend for the database.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "forum"
+    },
+    {
+      "context_snippet": "[Lobsters](https://lobste.rs) is a Rails codebase and uses a SQL (MariaDB in production) backend for the database.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[Lobsters](https://lobste.rs) is a Rails codebase and uses a SQL (MariaDB in production) backend for the database.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rails"
+    },
+    {
+      "context_snippet": "[Lobsters](https://lobste.rs) is a Rails codebase and uses a SQL (MariaDB in production) backend for the database.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    }
+  ]
+}

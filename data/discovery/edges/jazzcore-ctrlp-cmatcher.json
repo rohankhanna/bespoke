@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JazzCore/ctrlp-cmatcher",
+      "target": "wincent/command-t",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JazzCore/ctrlp-cmatcher",
+      "target": "rapid7/metasploit-framework",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-30T12:45:20.475770+00:00",
+  "source_repo": "JazzCore/ctrlp-cmatcher"
+}

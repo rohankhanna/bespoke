@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "Clean"
+    "Clean",
+    "clean"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -85,6 +88,48 @@
       "source_repo": "ipld/github-mgmt",
       "status": "candidate-context",
       "text": "Clean"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vmchale/tin-summer",
+      "status": "candidate-context",
+      "text": "Find build artifacts that are taking up disk space"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vmchale/tin-summer",
+      "status": "candidate-context",
+      "text": "[![Windows build status](https://ci.appveyor.com/api/projects/status/github/vmchale/tin-summer?svg=true)](https://ci.appveyor.com/project/vmchale/tin-summer)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipshipyard/github-mgmt",
+      "status": "candidate-context",
+      "text": "Clean"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libp2p/github-mgmt",
+      "status": "candidate-context",
+      "text": "Clean"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "multiformats/github-mgmt",
+      "status": "candidate-context",
+      "text": "Clean"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pradyunsg/furo",
+      "status": "candidate-context",
+      "text": "A clean customizable documentation theme for Sphinx"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pradyunsg/furo",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Furo</h1>"
     }
   ],
   "candidate_glosses": [
@@ -141,6 +186,36 @@
       "source_repo": "ipld/github-mgmt",
       "status": "candidate",
       "text": "Clean"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vmchale/tin-summer",
+      "status": "candidate",
+      "text": "[![Windows build status](https://ci.appveyor.com/api/projects/status/github/vmchale/tin-summer?svg=true)](https://ci.appveyor.com/project/vmchale/tin-summer)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipshipyard/github-mgmt",
+      "status": "candidate",
+      "text": "Clean"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libp2p/github-mgmt",
+      "status": "candidate",
+      "text": "Clean"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "multiformats/github-mgmt",
+      "status": "candidate",
+      "text": "Clean"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pradyunsg/furo",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Furo</h1>"
     }
   ],
   "candidate_related_terms": [
@@ -280,11 +355,47 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/clean.yml",
       "source_repo": "ipld/github-mgmt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "vmchale/tin-summer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/clean.yml",
+      "source_repo": "ipdxco/github-as-code"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/clean.yml",
+      "source_repo": "ipshipyard/github-mgmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/clean.yml",
+      "source_repo": "libp2p/github-mgmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/clean.yml",
+      "source_repo": "multiformats/github-mgmt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "pradyunsg/furo"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,106 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "erlef/setup-beam@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dashbitco/nimble_ownership",
+      "target": "dashbitco/nimble_parsec",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dashbitco/nimble_ownership",
+      "target": "dashbitco/nimble_publisher",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dashbitco/nimble_ownership",
+      "target": "dashbitco/nimble_totp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dashbitco/nimble_ownership",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dashbitco/nimble_ownership",
+      "target": "erlef/setup-beam@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dashbitco/nimble_ownership",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:04:23.937092+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2530
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1934
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Lightweight ownership of resources across processes",
+    "fork": false,
+    "full_name": "dashbitco/nimble_ownership",
+    "html_url": "https://github.com/dashbitco/nimble_ownership",
+    "language": "Elixir",
+    "pushed_at": "2025-10-21T11:08:39Z",
+    "stargazers_count": 65,
+    "topics": [],
+    "updated_at": "2025-12-18T08:35:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dashbitco/nimble_parsec",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dashbitco/nimble_publisher",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dashbitco/nimble_totp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

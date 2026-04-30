@@ -247,6 +247,30 @@
       "source_repo": "Botspot/pi-apps",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "postmodern/ruby-install",
+      "status": "candidate-context",
+      "text": "Installs Ruby, JRuby, TruffleRuby, or mruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "postmodern/ruby-install",
+      "status": "candidate-context",
+      "text": "Installs [Ruby], [JRuby], [TruffleRuby] (native / GraalVM), or [mruby]."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GoogleChromeLabs/jsvu",
+      "status": "candidate-context",
+      "text": "JavaScript (engine) Version Updater"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleChromeLabs/jsvu",
+      "status": "candidate-context",
+      "text": "_jsvu_ is the <b>J</b>ava<b>S</b>cript (engine) <b>V</b>ersion <b>U</b>pdater."
     }
   ],
   "candidate_glosses": [
@@ -369,6 +393,18 @@
       "source_repo": "Botspot/pi-apps",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "postmodern/ruby-install",
+      "status": "candidate",
+      "text": "Installs [Ruby], [JRuby], [TruffleRuby] (native / GraalVM), or [mruby]."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleChromeLabs/jsvu",
+      "status": "candidate",
+      "text": "_jsvu_ is the <b>J</b>ava<b>S</b>cript (engine) <b>V</b>ersion <b>U</b>pdater."
     }
   ],
   "candidate_related_terms": [
@@ -592,11 +628,35 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "electron-userland/electron-wix-msi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "postmodern/ruby-install"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ScoopInstaller/Scoop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "GoogleChromeLabs/jsvu"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "electron-userland/electron-wix-msi"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

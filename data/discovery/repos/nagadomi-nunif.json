@@ -1,0 +1,80 @@
+{
+  "components": [
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-python-dev.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-python-dev.yml",
+      "source_repo": "nagadomi/nunif",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nagadomi/nunif",
+      "target": "super-resolution",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nagadomi/nunif",
+      "target": "waifu2x",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:05:38.392415+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3538
+    },
+    {
+      "path": "requirements.txt",
+      "size": 388
+    },
+    {
+      "path": ".github/workflows/build-python-dev.yml",
+      "size": 1677
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Misc; latest version of waifu2x;  2D video to stereo 3D video conversion",
+    "fork": false,
+    "full_name": "nagadomi/nunif",
+    "html_url": "https://github.com/nagadomi/nunif",
+    "language": "Python",
+    "pushed_at": "2026-04-30T07:00:37Z",
+    "stargazers_count": 3166,
+    "topics": [
+      "super-resolution",
+      "vr",
+      "waifu2x"
+    ],
+    "updated_at": "2026-04-30T07:17:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "My playground.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "super-resolution"
+    },
+    {
+      "context_snippet": "My playground.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "waifu2x"
+    }
+  ]
+}

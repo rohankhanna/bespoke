@@ -1,0 +1,134 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "chequer-io/PrimarSql",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "chequer-io/PrimarSql",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "chequer-io/PrimarSql",
+      "target": "actions/setup-dotnet@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "chequer-io/PrimarSql",
+      "target": "github/codeql-action/init@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "chequer-io/PrimarSql",
+      "target": "github/codeql-action/autobuild@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "chequer-io/PrimarSql",
+      "target": "github/codeql-action/analyze@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "chequer-io/PrimarSql",
+      "target": "\ud83d\udd0d CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chequer-io/PrimarSql",
+      "target": "owner-greg",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:06:23.446220+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 354
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 2700
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": ".NET Core SQL parser for DynamoDB",
+    "fork": false,
+    "full_name": "chequer-io/PrimarSql",
+    "html_url": "https://github.com/chequer-io/PrimarSql",
+    "language": "ANTLR",
+    "pushed_at": "2023-08-26T07:18:08Z",
+    "stargazers_count": 5,
+    "topics": [
+      "owner-greg"
+    ],
+    "updated_at": "2023-11-07T07:06:26Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\ud83d\udd0d CodeQL",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "\ud83d\udd0d CodeQL"
+    },
+    {
+      "context_snippet": "<img width=\"128\" src=\"https://github.com/chequer-io/primarsql/blob/main/Logo.png?raw=true\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "owner-greg"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-node@1d0ff469b7ec7b3cb9d8673fde0c81c44821de2a",
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -17,6 +17,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "jfmengels/node-elm-review"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yml",
+      "source_repo": "mermaid-js/mermaid"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "mermaid-js/mermaid"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e-applitools.yml",
+      "source_repo": "mermaid-js/mermaid"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e-timings.yml",
+      "source_repo": "mermaid-js/mermaid"
     }
   ]
 }

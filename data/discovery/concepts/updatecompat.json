@@ -1,0 +1,76 @@
+{
+  "aliases": [
+    "UpdateCompat"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lyceum/LyceumMuJoCoViz.jl",
+      "status": "candidate-context",
+      "text": "UpdateCompat"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lyceum/MuJoCo.jl",
+      "status": "candidate-context",
+      "text": "UpdateCompat"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lyceum/LyceumMuJoCoViz.jl",
+      "status": "candidate",
+      "text": "UpdateCompat"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lyceum/MuJoCo.jl",
+      "status": "candidate",
+      "text": "UpdateCompat"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "UpdateCompat",
+  "concept_id": "updatecompat",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/compat.yml",
+      "source_repo": "Lyceum/LyceumMuJoCoViz.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/compat.yml",
+      "source_repo": "Lyceum/MuJoCo.jl"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "UpdateCompat",
+      "sense_id": "updatecompat#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

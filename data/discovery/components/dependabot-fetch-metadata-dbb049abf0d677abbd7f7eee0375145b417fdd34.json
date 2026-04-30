@@ -1,0 +1,12 @@
+{
+  "component": "dependabot/fetch-metadata@dbb049abf0d677abbd7f7eee0375145b417fdd34",
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/automerge-dependabot.yml",
+      "source_repo": "cockroachdb/client_golang"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Run Heavy Examples CI"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docling-project/docling",
+      "status": "candidate-context",
+      "text": "Get your documents ready for gen AI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docling-project/docling",
+      "status": "candidate-context",
+      "text": "\"Run Heavy Examples CI\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docling-project/docling",
+      "status": "candidate",
+      "text": "\"Run Heavy Examples CI\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18540,
+      "status": "candidate",
+      "text": "demonstrate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18185,
+      "status": "candidate",
+      "text": "rings"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18146,
+      "status": "candidate",
+      "text": "extra"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18146,
+      "status": "candidate",
+      "text": "ground"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18146,
+      "status": "candidate",
+      "text": "grounded"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Run Heavy Examples CI",
+  "concept_id": "run-heavy-examples-ci",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/ci-heavy-examples.yml",
+      "source_repo": "docling-project/docling"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Run Heavy Examples CI",
+      "sense_id": "run-heavy-examples-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

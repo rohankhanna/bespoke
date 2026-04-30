@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Ahnlich Node Client Tag and Deploy"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "deven96/ahnlich",
+      "status": "candidate-context",
+      "text": "Suite of tools containing an in-memory vector datastore and AI proxy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deven96/ahnlich",
+      "status": "candidate-context",
+      "text": "Ahnlich Node Client Tag and Deploy"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deven96/ahnlich",
+      "status": "candidate",
+      "text": "Ahnlich Node Client Tag and Deploy"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28549,
+      "status": "candidate",
+      "text": "set"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28134,
+      "status": "candidate",
+      "text": "designate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28134,
+      "status": "candidate",
+      "text": "designated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28134,
+      "status": "candidate",
+      "text": "play"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28134,
+      "status": "candidate",
+      "text": "score"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Ahnlich Node Client Tag and Deploy",
+  "concept_id": "ahnlich-node-client-tag-and-deploy",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/node_tag_and_deploy.yml",
+      "source_repo": "deven96/ahnlich"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Ahnlich Node Client Tag and Deploy",
+      "sense_id": "ahnlich-node-client-tag-and-deploy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

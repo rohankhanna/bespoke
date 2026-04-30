@@ -55,6 +55,18 @@
       "source_repo": "matrix-org/matrix-appservice-slack",
       "status": "candidate-context",
       "text": "The public Matrix.org Slack bridge has been decommissioned on January 14th, 2026. Please see the following"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "novnc/websockify",
+      "status": "candidate-context",
+      "text": "Websockify is a WebSocket to TCP proxy/bridge. This allows a browser to connect  to any application/server/service."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "novnc/websockify",
+      "status": "candidate-context",
+      "text": "websockify was formerly named wsproxy and was part of the"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "matrix-org/matrix-appservice-slack",
       "status": "candidate",
       "text": "The public Matrix.org Slack bridge has been decommissioned on January 14th, 2026. Please see the following"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "novnc/websockify",
+      "status": "candidate",
+      "text": "websockify was formerly named wsproxy and was part of the"
     }
   ],
   "candidate_related_terms": [
@@ -184,11 +202,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "matrix-org/matrix-appservice-slack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "novnc/websockify"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -583,6 +583,114 @@
       "source_repo": "remkop/picocli",
       "status": "candidate-context",
       "text": "<p align=\"center\"><img src=\"docs/images/logo/horizontal-400x150.png\" alt=\"picocli\" height=\"150px\"></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adamyaxley/Unformat",
+      "status": "candidate-context",
+      "text": "Fastest type-safe parsing library in the world for C++14 or C++17 (up to 300x faster than std::regex)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adamyaxley/Unformat",
+      "status": "candidate-context",
+      "text": "**[Source available on GitHub](https://github.com/adamyaxley/Unformat)**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "i18next/i18next-cli",
+      "status": "candidate-context",
+      "text": "A unified, high-performance i18next CLI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i18next/i18next-cli",
+      "status": "candidate-context",
+      "text": "A unified, high-performance i18next CLI toolchain, powered by SWC."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aliezzahn/rsbuild-plugin-markdown-loader",
+      "status": "candidate-context",
+      "text": "A plugin for rsbuild.dev that enables importing and rendering Markdown files as React components or pure HTML."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aliezzahn/rsbuild-plugin-markdown-loader",
+      "status": "candidate-context",
+      "text": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/web-infra-dev/awesome-rspack)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xoofx/CppAst.NET",
+      "status": "candidate-context",
+      "text": "CppAst is a .NET library providing a C/C++ parser for header files powered by Clang/libclang with access to the full AST, comments and macros"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xoofx/CppAst.NET",
+      "status": "candidate-context",
+      "text": "ci"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pdfminer/pdfminer.six",
+      "status": "candidate-context",
+      "text": "Community maintained fork of pdfminer - we fathom PDF"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pdfminer/pdfminer.six",
+      "status": "candidate-context",
+      "text": "pdfminer.six"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swagger-api/apidom",
+      "status": "candidate-context",
+      "text": "Semantic parser for API specifications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/apidom",
+      "status": "candidate-context",
+      "text": "[comment]: <> (SPDX-FileCopyrightText: Copyright &#40;c&#41; 2015 refractproject)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GreptimeTeam/promql-parser",
+      "status": "candidate-context",
+      "text": "PromQL Rust parser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GreptimeTeam/promql-parser",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/GreptimeTeam/promql-parser/blob/main/LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "posthtml/posthtml",
+      "status": "candidate-context",
+      "text": "PostHTML is a tool to transform HTML/XML with JS plugins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "posthtml/posthtml",
+      "status": "candidate-context",
+      "text": "posthtml \u2014 HTML/XML processor"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oxc-project/oxc",
+      "status": "candidate-context",
+      "text": "\u2693 A collection of high-performance JavaScript tools."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oxc-project/oxc",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -873,6 +981,60 @@
       "source_repo": "remkop/picocli",
       "status": "candidate",
       "text": "<p align=\"center\"><img src=\"docs/images/logo/horizontal-400x150.png\" alt=\"picocli\" height=\"150px\"></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adamyaxley/Unformat",
+      "status": "candidate",
+      "text": "**[Source available on GitHub](https://github.com/adamyaxley/Unformat)**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i18next/i18next-cli",
+      "status": "candidate",
+      "text": "A unified, high-performance i18next CLI toolchain, powered by SWC."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aliezzahn/rsbuild-plugin-markdown-loader",
+      "status": "candidate",
+      "text": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/web-infra-dev/awesome-rspack)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xoofx/CppAst.NET",
+      "status": "candidate",
+      "text": "ci"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pdfminer/pdfminer.six",
+      "status": "candidate",
+      "text": "pdfminer.six"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/apidom",
+      "status": "candidate",
+      "text": "[comment]: <> (SPDX-FileCopyrightText: Copyright &#40;c&#41; 2015 refractproject)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GreptimeTeam/promql-parser",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/GreptimeTeam/promql-parser/blob/main/LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "posthtml/posthtml",
+      "status": "candidate",
+      "text": "posthtml \u2014 HTML/XML processor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oxc-project/oxc",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -1222,11 +1384,71 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "remkop/picocli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "adamyaxley/Unformat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "i18next/i18next-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "aliezzahn/rsbuild-plugin-markdown-loader"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "xoofx/CppAst.NET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "pdfminer/pdfminer.six"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "swagger-api/apidom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "GreptimeTeam/promql-parser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "posthtml/posthtml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "oxc-project/oxc"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -715,6 +715,54 @@
       "source_repo": "GeekDream-x/SemEval2022-Task8-TonyX",
       "status": "candidate-context",
       "text": "Here, we provide the implementation of our winning system in Semeval-2022 Task8 \u2014\u2014 Multilingual News Article Similarity. This is a competition about assessing the similarity of multilingual and crosslingual news articles which covers 18 language pairs."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "de-mh/persian_phonemizer",
+      "status": "candidate-context",
+      "text": "A tool for translating Persian text to IPA (International Phonetic Alphabet)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "de-mh/persian_phonemizer",
+      "status": "candidate-context",
+      "text": "A tool for translating Persian text to IPA (International Phonetic Alphabet)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jkkummerfeld/text2sql-data",
+      "status": "candidate-context",
+      "text": "A collection of datasets that pair questions with SQL queries."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jkkummerfeld/text2sql-data",
+      "status": "candidate-context",
+      "text": "This repository contains data and code for building and evaluating systems that map sentences to SQL, developed as part of:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "salesforce/WikiSQL",
+      "status": "candidate-context",
+      "text": "A large annotated semantic parsing corpus for developing natural language interfaces."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "salesforce/WikiSQL",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/salesforce/WikiSQL.svg?branch=master)](https://travis-ci.org/salesforce/WikiSQL)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grammarly/gector",
+      "status": "candidate-context",
+      "text": "Official implementation of the papers \"GECToR \u2013 Grammatical Error Correction: Tag, Not Rewrite\" (BEA-20) and \"Text Simplification by Tagging\" (BEA-21)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grammarly/gector",
+      "status": "candidate-context",
+      "text": "This repository provides code for training and testing state-of-the-art models for grammatical error correction with the official PyTorch implementation of the following paper:"
     }
   ],
   "candidate_glosses": [
@@ -1071,6 +1119,30 @@
       "source_repo": "GeekDream-x/SemEval2022-Task8-TonyX",
       "status": "candidate",
       "text": "Here, we provide the implementation of our winning system in Semeval-2022 Task8 \u2014\u2014 Multilingual News Article Similarity. This is a competition about assessing the similarity of multilingual and crosslingual news articles which covers 18 language pairs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "de-mh/persian_phonemizer",
+      "status": "candidate",
+      "text": "A tool for translating Persian text to IPA (International Phonetic Alphabet)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jkkummerfeld/text2sql-data",
+      "status": "candidate",
+      "text": "This repository contains data and code for building and evaluating systems that map sentences to SQL, developed as part of:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "salesforce/WikiSQL",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/salesforce/WikiSQL.svg?branch=master)](https://travis-ci.org/salesforce/WikiSQL)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grammarly/gector",
+      "status": "candidate",
+      "text": "This repository provides code for training and testing state-of-the-art models for grammatical error correction with the official PyTorch implementation of the following paper:"
     }
   ],
   "candidate_related_terms": [],
@@ -1498,11 +1570,71 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "GeekDream-x/SemEval2022-Task8-TonyX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "de-mh/persian_phonemizer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "flairNLP/flair"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "fla-org/flash-linear-attention"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "xlang-ai/UnifiedSKG"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "jkkummerfeld/text2sql-data"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "salesforce/WikiSQL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "OpenMOSS/MOSS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/transformers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "malaysia-ai/malaya"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "grammarly/gector"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,348 @@
+{
+  "components": [
+    {
+      "component": "Actions-R-Us/actions-tagger@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions-tagger.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-release.yaml"
+    },
+    {
+      "component": "autowarefoundation/autoware-github-actions/generate-changelog@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-release.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-optional.yaml"
+    },
+    {
+      "component": "autowarefoundation/autoware-github-actions/pre-commit@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-optional.yaml"
+    },
+    {
+      "component": "tibdex/github-app-token@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml"
+    },
+    {
+      "component": "autowarefoundation/autoware-github-actions/pre-commit@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml"
+    },
+    {
+      "component": "amannn/action-semantic-pull-request@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/semantic-pull-request.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "autowarefoundation/autoware-github-actions",
+      "target": "amannn/action-semantic-pull-request",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions-tagger.yaml",
+      "source_repo": "autowarefoundation/autoware-github-actions",
+      "target": "Actions-R-Us/actions-tagger@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/actions-tagger.yaml",
+      "source_repo": "autowarefoundation/autoware-github-actions",
+      "target": "actions-tagger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-secret.yaml",
+      "source_repo": "autowarefoundation/autoware-github-actions",
+      "target": "check-secret",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-release.yaml",
+      "source_repo": "autowarefoundation/autoware-github-actions",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-release.yaml",
+      "source_repo": "autowarefoundation/autoware-github-actions",
+      "target": "autowarefoundation/autoware-github-actions/generate-changelog@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github-release.yaml",
+      "source_repo": "autowarefoundation/autoware-github-actions",
+      "target": "github-release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/make-sure-label-is-present.yaml",
+      "source_repo": "autowarefoundation/autoware-github-actions",
+      "target": "make-sure-label-is-present",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-optional.yaml",
+      "source_repo": "autowarefoundation/autoware-github-actions",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-optional.yaml",
+      "source_repo": "autowarefoundation/autoware-github-actions",
+      "target": "autowarefoundation/autoware-github-actions/pre-commit@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit-optional.yaml",
+      "source_repo": "autowarefoundation/autoware-github-actions",
+      "target": "pre-commit-optional",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "autowarefoundation/autoware-github-actions",
+      "target": "tibdex/github-app-token@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "autowarefoundation/autoware-github-actions",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "autowarefoundation/autoware-github-actions",
+      "target": "autowarefoundation/autoware-github-actions/pre-commit@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "autowarefoundation/autoware-github-actions",
+      "target": "pre-commit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prevent-no-label-execution.yaml",
+      "source_repo": "autowarefoundation/autoware-github-actions",
+      "target": "prevent-no-label-execution",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/require-label.yaml",
+      "source_repo": "autowarefoundation/autoware-github-actions",
+      "target": "require-label",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/semantic-pull-request.yaml",
+      "source_repo": "autowarefoundation/autoware-github-actions",
+      "target": "amannn/action-semantic-pull-request@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/semantic-pull-request.yaml",
+      "source_repo": "autowarefoundation/autoware-github-actions",
+      "target": "semantic-pull-request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autowarefoundation/autoware-github-actions",
+      "target": "autoware",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autowarefoundation/autoware-github-actions",
+      "target": "github-actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autowarefoundation/autoware-github-actions",
+      "target": "ros2",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T12:56:14.866524+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3330
+    },
+    {
+      "path": ".github/workflows/actions-tagger.yaml",
+      "size": 189
+    },
+    {
+      "path": ".github/workflows/check-secret.yaml",
+      "size": 621
+    },
+    {
+      "path": ".github/workflows/github-release.yaml",
+      "size": 2144
+    },
+    {
+      "path": ".github/workflows/make-sure-label-is-present.yaml",
+      "size": 893
+    },
+    {
+      "path": ".github/workflows/pre-commit-optional.yaml",
+      "size": 761
+    },
+    {
+      "path": ".github/workflows/pre-commit.yaml",
+      "size": 1065
+    },
+    {
+      "path": ".github/workflows/prevent-no-label-execution.yaml",
+      "size": 1611
+    },
+    {
+      "path": ".github/workflows/require-label.yaml",
+      "size": 1364
+    },
+    {
+      "path": ".github/workflows/semantic-pull-request.yaml",
+      "size": 840
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "autowarefoundation/autoware-github-actions",
+    "html_url": "https://github.com/autowarefoundation/autoware-github-actions",
+    "language": "Python",
+    "pushed_at": "2026-04-13T16:53:44Z",
+    "stargazers_count": 24,
+    "topics": [
+      "autoware",
+      "github-actions",
+      "ros",
+      "ros2"
+    ],
+    "updated_at": "2026-04-29T23:00:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "amannn/action-semantic-pull-request",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "actions-tagger",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/actions-tagger.yaml",
+      "term": "actions-tagger"
+    },
+    {
+      "context_snippet": "check-secret",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-secret.yaml",
+      "term": "check-secret"
+    },
+    {
+      "context_snippet": "github-release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github-release.yaml",
+      "term": "github-release"
+    },
+    {
+      "context_snippet": "make-sure-label-is-present",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/make-sure-label-is-present.yaml",
+      "term": "make-sure-label-is-present"
+    },
+    {
+      "context_snippet": "pre-commit-optional",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit-optional.yaml",
+      "term": "pre-commit-optional"
+    },
+    {
+      "context_snippet": "pre-commit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "term": "pre-commit"
+    },
+    {
+      "context_snippet": "prevent-no-label-execution",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prevent-no-label-execution.yaml",
+      "term": "prevent-no-label-execution"
+    },
+    {
+      "context_snippet": "require-label",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/require-label.yaml",
+      "term": "require-label"
+    },
+    {
+      "context_snippet": "semantic-pull-request",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/semantic-pull-request.yaml",
+      "term": "semantic-pull-request"
+    },
+    {
+      "context_snippet": "This repository contains [Reusable Workflows](https://docs.github.com/ja/actions/learn-github-actions/reusing-workflows) and [Composite Actions](https://docs.github.com/en/actions/creating-actions/about-custom-actions) for [Autoware](https://github.com/autowarefoundation/autowar\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autoware"
+    },
+    {
+      "context_snippet": "This repository contains [Reusable Workflows](https://docs.github.com/ja/actions/learn-github-actions/reusing-workflows) and [Composite Actions](https://docs.github.com/en/actions/creating-actions/about-custom-actions) for [Autoware](https://github.com/autowarefoundation/autowar\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-actions"
+    },
+    {
+      "context_snippet": "This repository contains [Reusable Workflows](https://docs.github.com/ja/actions/learn-github-actions/reusing-workflows) and [Composite Actions](https://docs.github.com/en/actions/creating-actions/about-custom-actions) for [Autoware](https://github.com/autowarefoundation/autowar\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ros2"
+    }
+  ]
+}

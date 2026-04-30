@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Ahnlich Rust Client Tag and Deploy"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "deven96/ahnlich",
+      "status": "candidate-context",
+      "text": "Suite of tools containing an in-memory vector datastore and AI proxy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deven96/ahnlich",
+      "status": "candidate-context",
+      "text": "Ahnlich Rust Client Tag and Deploy"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deven96/ahnlich",
+      "status": "candidate",
+      "text": "Ahnlich Rust Client Tag and Deploy"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28288,
+      "status": "candidate",
+      "text": "dine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28202,
+      "status": "candidate",
+      "text": "have"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28058,
+      "status": "candidate",
+      "text": "table"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27885,
+      "status": "candidate",
+      "text": "touch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27885,
+      "status": "candidate",
+      "text": "touched"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Ahnlich Rust Client Tag and Deploy",
+  "concept_id": "ahnlich-rust-client-tag-and-deploy",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/rust_tag_and_deploy.yml",
+      "source_repo": "deven96/ahnlich"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Ahnlich Rust Client Tag and Deploy",
+      "sense_id": "ahnlich-rust-client-tag-and-deploy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

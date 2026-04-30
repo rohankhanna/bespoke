@@ -349,6 +349,54 @@
       "source_repo": "MIC-DKFZ/nnUNet",
       "status": "candidate-context",
       "text": "[project] name = \"nnunetv2\" version = \"2.7.0\" requires-python = \">=3.10\" description = \"nnU-Net is a framework for out-of-the box image segmentation.\" readme = \"readme.md\" license = { file = \"LICENSE\" } authors = [ { name = \"Fabian Isensee\", email = \"f.isensee@dkfz-heidelberg.de\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-deepmind/multi_object_datasets",
+      "status": "candidate-context",
+      "text": "Multi-object image datasets with ground-truth segmentation masks and generative factors."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/multi_object_datasets",
+      "status": "candidate-context",
+      "text": "This repository contains datasets for multi-object representation learning, used"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HRNet/HRFormer",
+      "status": "candidate-context",
+      "text": "[ NeurIPS2021] This is an official implementation of our paper \"HRFormer: High-Resolution Transformer for Dense Prediction\"."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HRNet/HRFormer",
+      "status": "candidate-context",
+      "text": "<img src='HRFormer-20-fps.gif' align=\"center\" width=1024>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DengPingFan/SINet",
+      "status": "candidate-context",
+      "text": "Camouflaged Object Detection, CVPR 2020 (Oral)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DengPingFan/SINet",
+      "status": "candidate-context",
+      "text": "> Authors:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apple/ml-cvnets",
+      "status": "candidate-context",
+      "text": "CVNets: A library for training computer vision networks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/ml-cvnets",
+      "status": "candidate-context",
+      "text": "CVNets is a computer vision toolkit that allows researchers and engineers to train standard and novel mobile-"
     }
   ],
   "candidate_glosses": [
@@ -525,6 +573,30 @@
       "source_repo": "MIC-DKFZ/nnUNet",
       "status": "candidate",
       "text": "[project] name = \"nnunetv2\" version = \"2.7.0\" requires-python = \">=3.10\" description = \"nnU-Net is a framework for out-of-the box image segmentation.\" readme = \"readme.md\" license = { file = \"LICENSE\" } authors = [ { name = \"Fabian Isensee\", email = \"f.isensee@dkfz-heidelberg.de\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/multi_object_datasets",
+      "status": "candidate",
+      "text": "This repository contains datasets for multi-object representation learning, used"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HRNet/HRFormer",
+      "status": "candidate",
+      "text": "<img src='HRFormer-20-fps.gif' align=\"center\" width=1024>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DengPingFan/SINet",
+      "status": "candidate",
+      "text": "> Authors:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/ml-cvnets",
+      "status": "candidate",
+      "text": "CVNets is a computer vision toolkit that allows researchers and engineers to train standard and novel mobile-"
     }
   ],
   "candidate_related_terms": [
@@ -802,11 +874,59 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "VITA-Group/SLaK"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/multi_object_datasets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/PFENet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "khanrc/tcl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "qubvel-org/segmentation_models.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "HRNet/HRFormer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "VITA-Group/SLaK"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "DengPingFan/SINet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "apple/ml-cvnets"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T13:55:03.002096+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10601
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This project contains a set of \"hello world\" projects to verify which Clojure libraries do actually compile and produce native images under GraalVM.",
+    "fork": false,
+    "full_name": "clj-easy/graalvm-clojure",
+    "html_url": "https://github.com/clj-easy/graalvm-clojure",
+    "language": "Clojure",
+    "pushed_at": "2026-02-08T16:30:48Z",
+    "stargazers_count": 518,
+    "topics": [],
+    "updated_at": "2026-04-06T01:24:23Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

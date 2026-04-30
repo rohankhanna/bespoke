@@ -211,6 +211,30 @@
       "source_repo": "gajus/eslint-plugin-sql",
       "status": "candidate-context",
       "text": "<a name=\"user-content-eslint-plugin-sql\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kysely-org/kysely-ctl",
+      "status": "candidate-context",
+      "text": "Command-line tool for Kysely, Knex-compatible, works in Node.js, Deno, Bun, etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kysely-org/kysely-ctl",
+      "status": "candidate-context",
+      "text": "<div style=\"width: 100%;\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gajus/slonik",
+      "status": "candidate-context",
+      "text": "A Node.js PostgreSQL client with runtime and build time type safety, and composable SQL."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gajus/slonik",
+      "status": "candidate-context",
+      "text": "[![NPM version](http://img.shields.io/npm/v/slonik.svg?style=flat-square)](https://www.npmjs.org/package/slonik)"
     }
   ],
   "candidate_glosses": [
@@ -315,6 +339,18 @@
       "source_repo": "gajus/eslint-plugin-sql",
       "status": "candidate",
       "text": "<a name=\"user-content-eslint-plugin-sql\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kysely-org/kysely-ctl",
+      "status": "candidate",
+      "text": "<div style=\"width: 100%;\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gajus/slonik",
+      "status": "candidate",
+      "text": "[![NPM version](http://img.shields.io/npm/v/slonik.svg?style=flat-square)](https://www.npmjs.org/package/slonik)"
     }
   ],
   "candidate_related_terms": [
@@ -466,11 +502,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "gajus/eslint-plugin-sql"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "kysely-org/kysely-ctl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "gajus/slonik"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

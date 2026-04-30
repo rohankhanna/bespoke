@@ -1,0 +1,196 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yeyupiaoling/MASR",
+      "target": "yeyupiaoling/voiceprintrecognition-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yeyupiaoling/MASR",
+      "target": "yeyupiaoling/audioclassification-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yeyupiaoling/MASR",
+      "target": "wenet-e2e/wenet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yeyupiaoling/MASR",
+      "target": "seannaren/deepspeech.pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yeyupiaoling/MASR",
+      "target": "conformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yeyupiaoling/MASR",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yeyupiaoling/MASR",
+      "target": "deepspeech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yeyupiaoling/MASR",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yeyupiaoling/MASR",
+      "target": "speech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yeyupiaoling/MASR",
+      "target": "speech-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yeyupiaoling/MASR",
+      "target": "speech-to-text",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yeyupiaoling/MASR",
+      "target": "squeezeformer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:01:21.475867+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8964
+    },
+    {
+      "path": "requirements.txt",
+      "size": 301
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Pytorch\u5b9e\u73b0\u7684\u6d41\u5f0f\u4e0e\u975e\u6d41\u5f0f\u7684\u81ea\u52a8\u8bed\u97f3\u8bc6\u522b\u6846\u67b6\uff0c\u540c\u65f6\u517c\u5bb9\u5728\u7ebf\u548c\u79bb\u7ebf\u8bc6\u522b\uff0c\u76ee\u524d\u652f\u6301Conformer\u3001Squeezeformer\u3001DeepSpeech2\u6a21\u578b\uff0c\u652f\u6301\u591a\u79cd\u6570\u636e\u589e\u5f3a\u65b9\u6cd5\u3002",
+    "fork": false,
+    "full_name": "yeyupiaoling/MASR",
+    "html_url": "https://github.com/yeyupiaoling/MASR",
+    "language": "Python",
+    "pushed_at": "2025-12-17T13:16:00Z",
+    "stargazers_count": 721,
+    "topics": [
+      "asr",
+      "conformer",
+      "deep-learning",
+      "deepspeech",
+      "pytorch",
+      "speech",
+      "speech-recognition",
+      "speech-to-text",
+      "squeezeformer"
+    ],
+    "updated_at": "2026-04-28T01:15:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "seannaren/deepspeech.pytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wenet-e2e/wenet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yeyupiaoling/audioclassification-pytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yeyupiaoling/voiceprintrecognition-pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![python version](https://img.shields.io/badge/python-3.11+-orange.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conformer"
+    },
+    {
+      "context_snippet": "![python version](https://img.shields.io/badge/python-3.11+-orange.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "![python version](https://img.shields.io/badge/python-3.11+-orange.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deepspeech"
+    },
+    {
+      "context_snippet": "![python version](https://img.shields.io/badge/python-3.11+-orange.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "![python version](https://img.shields.io/badge/python-3.11+-orange.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech"
+    },
+    {
+      "context_snippet": "![python version](https://img.shields.io/badge/python-3.11+-orange.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-recognition"
+    },
+    {
+      "context_snippet": "![python version](https://img.shields.io/badge/python-3.11+-orange.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-to-text"
+    },
+    {
+      "context_snippet": "![python version](https://img.shields.io/badge/python-3.11+-orange.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "squeezeformer"
+    }
+  ]
+}

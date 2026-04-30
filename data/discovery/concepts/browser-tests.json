@@ -55,6 +55,18 @@
       "source_repo": "jquery/jquery-ui",
       "status": "candidate-context",
       "text": "Browser Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Dicklesworthstone/coding_agent_session_search",
+      "status": "candidate-context",
+      "text": "Unified TUI and CLI to index and search your local coding agent session history across 11+ providers (Codex, Claude, Gemini, Cursor, Aider, etc.)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dicklesworthstone/coding_agent_session_search",
+      "status": "candidate-context",
+      "text": "Browser Tests"
     }
   ],
   "candidate_glosses": [
@@ -79,6 +91,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "jquery/jquery-ui",
+      "status": "candidate",
+      "text": "Browser Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dicklesworthstone/coding_agent_session_search",
       "status": "candidate",
       "text": "Browser Tests"
     }
@@ -154,11 +172,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/browser-tests.yml",
       "source_repo": "jquery/jquery-ui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/browser-tests.yml",
+      "source_repo": "Dicklesworthstone/coding_agent_session_search"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/browser-test.yml",
+      "source_repo": "endojs/endo"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

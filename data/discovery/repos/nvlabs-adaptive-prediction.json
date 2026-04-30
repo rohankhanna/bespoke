@@ -1,0 +1,49 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVlabs/adaptive-prediction",
+      "target": "nvlabs/trajdata",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:07:22.946241+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7060
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 136
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1165
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "NVlabs/adaptive-prediction",
+    "html_url": "https://github.com/NVlabs/adaptive-prediction",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-09-19T11:25:16Z",
+    "stargazers_count": 75,
+    "topics": [],
+    "updated_at": "2026-04-03T17:56:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvlabs/trajdata",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

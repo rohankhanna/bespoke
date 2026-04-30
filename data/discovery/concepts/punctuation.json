@@ -19,6 +19,18 @@
       "source_repo": "yeyupiaoling/PunctuationModel",
       "status": "candidate-context",
       "text": "\u57fa\u4e8eErnie\u5f00\u53d1\u7684\u4e2d\u6587\u6807\u70b9\u7b26\u53f7\u6a21\u578b\uff0c\u9ed8\u8ba4\u4f7f\u7528\u7684\u9884\u8bad\u7ec3\u6a21\u578b\u4e3a`ernie-3.0-medium-zh`\uff0c\u8be5\u6a21\u578b\u53ef\u4ee5\u7528\u4e8e\u8bed\u97f3\u8bc6\u522b\u7ed3\u679c\u6dfb\u52a0\u6807\u70b9\u7b26\u53f7\uff0c\u4f7f\u7528\u6848\u4f8b[PPASR](https://github.com/yeyupiaoling/PPASR)\u3002"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "modelscope/FunASR",
+      "status": "candidate-context",
+      "text": "A Fundamental End-to-End Speech Recognition Toolkit and Open Source SOTA Pretrained Models, Supporting Speech Recognition, Voice Activity Detection, Text Post-processing etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelscope/FunASR",
+      "status": "candidate-context",
+      "text": "[//]: # '<div align=\"left\"><img src=\"docs/images/funasr_logo.jpg\" width=\"400\"/></div>'"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "yeyupiaoling/PunctuationModel",
       "status": "candidate",
       "text": "\u57fa\u4e8eErnie\u5f00\u53d1\u7684\u4e2d\u6587\u6807\u70b9\u7b26\u53f7\u6a21\u578b\uff0c\u9ed8\u8ba4\u4f7f\u7528\u7684\u9884\u8bad\u7ec3\u6a21\u578b\u4e3a`ernie-3.0-medium-zh`\uff0c\u8be5\u6a21\u578b\u53ef\u4ee5\u7528\u4e8e\u8bed\u97f3\u8bc6\u522b\u7ed3\u679c\u6dfb\u52a0\u6807\u70b9\u7b26\u53f7\uff0c\u4f7f\u7528\u6848\u4f8b[PPASR](https://github.com/yeyupiaoling/PPASR)\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelscope/FunASR",
+      "status": "candidate",
+      "text": "[//]: # '<div align=\"left\"><img src=\"docs/images/funasr_logo.jpg\" width=\"400\"/></div>'"
     }
   ],
   "candidate_related_terms": [
@@ -84,11 +102,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "yeyupiaoling/PunctuationModel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/FunASR"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

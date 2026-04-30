@@ -1,0 +1,229 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "ankane/setup-mongodb@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "ankane/setup-postgres@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "ankane/setup-mysql@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ankane/lockbox",
+      "target": "dmitrytsepelev/store_model",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ankane/lockbox",
+      "target": "crypto-rb/rbnacl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ankane/lockbox",
+      "target": "ankane/kms_encrypted",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ankane/lockbox",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ankane/lockbox",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ankane/lockbox",
+      "target": "ankane/setup-mongodb@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ankane/lockbox",
+      "target": "ankane/setup-postgres@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ankane/lockbox",
+      "target": "ankane/setup-mysql@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ankane/lockbox",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ankane/lockbox",
+      "target": "activerecord",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ankane/lockbox",
+      "target": "activestorage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ankane/lockbox",
+      "target": "carrierwave",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ankane/lockbox",
+      "target": "encryption",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ankane/lockbox",
+      "target": "libsodium",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ankane/lockbox",
+      "target": "mongoid",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T12:54:02.019013+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 23006
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1450
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Modern encryption for Ruby and Rails",
+    "fork": false,
+    "full_name": "ankane/lockbox",
+    "html_url": "https://github.com/ankane/lockbox",
+    "language": "Ruby",
+    "pushed_at": "2026-04-09T07:04:01Z",
+    "stargazers_count": 1592,
+    "topics": [
+      "activerecord",
+      "activestorage",
+      "carrierwave",
+      "encryption",
+      "libsodium",
+      "mongoid"
+    ],
+    "updated_at": "2026-04-28T06:47:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ankane/kms_encrypted",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "crypto-rb/rbnacl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dmitrytsepelev/store_model",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": ":package: Modern encryption for Ruby and Rails",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "activerecord"
+    },
+    {
+      "context_snippet": ":package: Modern encryption for Ruby and Rails",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "activestorage"
+    },
+    {
+      "context_snippet": ":package: Modern encryption for Ruby and Rails",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "carrierwave"
+    },
+    {
+      "context_snippet": ":package: Modern encryption for Ruby and Rails",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "encryption"
+    },
+    {
+      "context_snippet": ":package: Modern encryption for Ruby and Rails",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "libsodium"
+    },
+    {
+      "context_snippet": ":package: Modern encryption for Ruby and Rails",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mongoid"
+    }
+  ]
+}

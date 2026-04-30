@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "FunCodec is a research-oriented toolkit for audio quantization and downstream applications, such as text-to-speech synthesis, music generation et.al. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This project is still working on progress. To make FunCodec better, please let me know your concerns and feel free to comment them in the `Issues` part."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This project is still working on progress. To make FunCodec better, please let me know your concerns and feel free to comment them in the `Issues` part."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "speech-synthesis",
+      "sense_id": "speech-synthesis#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "speech-synthesis",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "speech-synthesis",
+  "observation_id": "ce10def198e02f84",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "speech-synthesis",
+  "source_context_snippet": "This project is still working on progress. To make FunCodec better, please let me know your concerns and feel free to comment them in the `Issues` part.",
+  "source_file": null,
+  "source_repo": "modelscope/FunCodec",
+  "source_repo_description": "FunCodec is a research-oriented toolkit for audio quantization and downstream applications, such as text-to-speech synthesis, music generation et.al. "
+}

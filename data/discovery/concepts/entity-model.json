@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "entity-model"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sebelga/gstore-node",
+      "status": "candidate-context",
+      "text": "Google Datastore Entities Modeling for Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sebelga/gstore-node",
+      "status": "candidate-context",
+      "text": "<img title=\"logo\" src=\"logo/logo.png\" width=\"75%\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sebelga/gstore-node",
+      "status": "candidate",
+      "text": "<img title=\"logo\" src=\"logo/logo.png\" width=\"75%\">"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "entity-model",
+  "concept_id": "entity-model",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "sebelga/gstore-node"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "entity-model",
+      "sense_id": "entity-model#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,426 @@
+{
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
+      "target": "commander",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
+      "target": "@typescript-eslint/eslint-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
+      "target": "@typescript-eslint/parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
+      "target": "c8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
+      "target": "eslint-config-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
+      "target": "eslint-plugin-n",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
+      "target": "eslint-plugin-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
+      "target": "gts",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
+      "target": "nunjucks",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-platform-snippets.yaml",
+      "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-platform-snippets.yaml",
+      "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
+      "target": "google-github-actions/auth@7c6bc770dae815cd3e89ee6cdf493a5fab2cc093",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-platform-snippets.yaml",
+      "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
+      "target": "google-github-actions/get-secretmanager-secrets@e5bb06c2ca53b244f978d33348d18317a7f263ce",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-platform-snippets.yaml",
+      "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
+      "target": "actions/setup-node@8f152de45cc393bb48ce5d89d36b731f54556e65",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-platform-snippets.yaml",
+      "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
+      "target": "actions/cache@0400d5f644dc74513175e3cd8d07132dd4860809",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ai-platform-snippets.yaml",
+      "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
+      "target": "ai-platform-snippets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-scripts.yaml",
+      "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-scripts.yaml",
+      "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
+      "target": "actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-scripts.yaml",
+      "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
+      "target": "scripts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compute.yaml",
+      "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
+      "target": "compute",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/custard-ci-dev.yaml",
+      "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/custard-ci-dev.yaml",
+      "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
+      "target": "actions/setup-go@d35c59abb061a4a6fb18e82ac0862c26744d6ab5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/custard-ci-dev.yaml",
+      "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
+      "target": "actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/custard-ci-dev.yaml",
+      "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
+      "target": "google-github-actions/auth@7c6bc770dae815cd3e89ee6cdf493a5fab2cc093",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/custard-ci-dev.yaml",
+      "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
+      "target": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/custard-ci-dev.yaml",
+      "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
+      "target": "google-github-actions/get-secretmanager-secrets@e5bb06c2ca53b244f978d33348d18317a7f263ce",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/custard-ci.yaml",
+      "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/custard-ci.yaml",
+      "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
+      "target": "actions/setup-go@d35c59abb061a4a6fb18e82ac0862c26744d6ab5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/custard-ci.yaml",
+      "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
+      "target": "actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/custard-ci.yaml",
+      "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
+      "target": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/custard-ci.yaml",
+      "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
+      "target": "google-github-actions/auth@7c6bc770dae815cd3e89ee6cdf493a5fab2cc093",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/custard-ci.yaml",
+      "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
+      "target": "google-github-actions/get-secretmanager-secrets@e5bb06c2ca53b244f978d33348d18317a7f263ce",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/custard-ci.yaml",
+      "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
+      "target": "Custard CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/custard-run-dev.yaml",
+      "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
+      "target": "GoogleCloudPlatform/cloud-samples-tools/.github/workflows/affected.yaml@9ee708234e240605d96e78f652c333ed6aa95a23",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/custard-run-dev.yaml",
+      "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/custard-run-dev.yaml",
+      "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
+      "target": "GoogleCloudPlatform/cloud-samples-tools/actions/steps/create-check@9ee708234e240605d96e78f652c333ed6aa95a23",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/custard-run-dev.yaml",
+      "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/custard-run-dev.yaml",
+      "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
+      "target": "google-github-actions/auth@7c6bc770dae815cd3e89ee6cdf493a5fab2cc093",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/custard-run-dev.yaml",
+      "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
+      "target": "GoogleCloudPlatform/cloud-samples-tools/actions/steps/setup-custard@9ee708234e240605d96e78f652c333ed6aa95a23",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/custard-run-dev.yaml",
+      "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
+      "target": "GoogleCloudPlatform/cloud-samples-tools/actions/steps/update-check@9ee708234e240605d96e78f652c333ed6aa95a23",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/custard-run.yaml",
+      "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
+      "target": "GoogleCloudPlatform/cloud-samples-tools/.github/workflows/affected.yaml@9ee708234e240605d96e78f652c333ed6aa95a23",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/custard-run.yaml",
+      "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/custard-run.yaml",
+      "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
+      "target": "GoogleCloudPlatform/cloud-samples-tools/actions/steps/create-check@9ee708234e240605d96e78f652c333ed6aa95a23",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/custard-run.yaml",
+      "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/custard-run.yaml",
+      "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
+      "target": "actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/custard-run.yaml",
+      "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
+      "target": "GoogleCloudPlatform/cloud-samples-tools/actions/steps/map-run@9ee708234e240605d96e78f652c333ed6aa95a23",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/custard-run.yaml",
+      "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
+      "target": "GoogleCloudPlatform/cloud-samples-tools/actions/steps/update-check@9ee708234e240605d96e78f652c333ed6aa95a23",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/custard-run.yaml",
+      "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
+      "target": "google-github-actions/auth@7c6bc770dae815cd3e89ee6cdf493a5fab2cc093",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/custard-run.yaml",
+      "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
+      "target": "GoogleCloudPlatform/cloud-samples-tools/actions/steps/setup-custard@9ee708234e240605d96e78f652c333ed6aa95a23",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/custard-run.yaml",
+      "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
+      "target": "Custard run",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dataproc.yaml",
+      "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
+      "target": "dataproc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
+      "target": "cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
+      "target": "examples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
+      "target": "google-cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
+      "target": "sample",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
+      "target": "samples",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T12:45:20.475770+00:00",
+  "source_repo": "GoogleCloudPlatform/nodejs-docs-samples"
+}

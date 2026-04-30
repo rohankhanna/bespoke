@@ -1,0 +1,206 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chequer-io/PhoenixSql",
+      "target": "apache/phoenix",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "chequer-io/PhoenixSql",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "chequer-io/PhoenixSql",
+      "target": "github/codeql-action/init@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "chequer-io/PhoenixSql",
+      "target": "actions/setup-dotnet@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "chequer-io/PhoenixSql",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "chequer-io/PhoenixSql",
+      "target": "github/codeql-action/analyze@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "chequer-io/PhoenixSql",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chequer-io/PhoenixSql",
+      "target": "csharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chequer-io/PhoenixSql",
+      "target": "dotnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chequer-io/PhoenixSql",
+      "target": "dotnet-core",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chequer-io/PhoenixSql",
+      "target": "dotnet-standard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chequer-io/PhoenixSql",
+      "target": "phoenix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chequer-io/PhoenixSql",
+      "target": "phoenixsql",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:06:21.486043+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2199
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 2602
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Phoenix sql parser for .NET Core",
+    "fork": false,
+    "full_name": "chequer-io/PhoenixSql",
+    "html_url": "https://github.com/chequer-io/PhoenixSql",
+    "language": "Java",
+    "pushed_at": "2023-03-10T06:40:54Z",
+    "stargazers_count": 8,
+    "topics": [
+      "csharp",
+      "dotnet",
+      "dotnet-core",
+      "dotnet-standard",
+      "phoenix",
+      "phoenixsql",
+      "sql"
+    ],
+    "updated_at": "2023-04-24T02:03:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apache/phoenix",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "<img width=\"128\" src=\"https://github.com/chequer-io/phoenixsql/blob/main/Logo.png?raw=true\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "csharp"
+    },
+    {
+      "context_snippet": "<img width=\"128\" src=\"https://github.com/chequer-io/phoenixsql/blob/main/Logo.png?raw=true\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet"
+    },
+    {
+      "context_snippet": "<img width=\"128\" src=\"https://github.com/chequer-io/phoenixsql/blob/main/Logo.png?raw=true\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet-core"
+    },
+    {
+      "context_snippet": "<img width=\"128\" src=\"https://github.com/chequer-io/phoenixsql/blob/main/Logo.png?raw=true\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet-standard"
+    },
+    {
+      "context_snippet": "<img width=\"128\" src=\"https://github.com/chequer-io/phoenixsql/blob/main/Logo.png?raw=true\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "phoenix"
+    },
+    {
+      "context_snippet": "<img width=\"128\" src=\"https://github.com/chequer-io/phoenixsql/blob/main/Logo.png?raw=true\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "phoenixsql"
+    }
+  ]
+}

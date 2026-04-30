@@ -84,7 +84,7 @@
   "normalized_form": "vulnerabilities",
   "observation_id": "8da7afabe932b04e",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
   "observed_text": "vulnerabilities",
   "source_context_snippet": "vulnerabilities",
   "source_file": ".github/workflows/vulnerabilities.yml",

@@ -1,0 +1,76 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BatsResearch/csp",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BatsResearch/csp",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BatsResearch/csp",
+      "target": "zero-shot-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:58:29.303876+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5250
+    },
+    {
+      "path": "requirements.txt",
+      "size": 385
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Learning to compose soft prompts for compositional zero-shot learning.",
+    "fork": false,
+    "full_name": "BatsResearch/csp",
+    "html_url": "https://github.com/BatsResearch/csp",
+    "language": "Python",
+    "pushed_at": "2025-09-13T20:59:47Z",
+    "stargazers_count": 95,
+    "topics": [
+      "deep-learning",
+      "pytorch",
+      "zero-shot-learning"
+    ],
+    "updated_at": "2026-04-06T03:19:43Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Compositional soft prompting (CSP), a parameter-efficient learning technique to improve the zero-shot compositionality of large-scale pretrained vision-language models (VLMs) without the overhead of fine-tuning the entire model.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "Compositional soft prompting (CSP), a parameter-efficient learning technique to improve the zero-shot compositionality of large-scale pretrained vision-language models (VLMs) without the overhead of fine-tuning the entire model.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "Compositional soft prompting (CSP), a parameter-efficient learning technique to improve the zero-shot compositionality of large-scale pretrained vision-language models (VLMs) without the overhead of fine-tuning the entire model.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zero-shot-learning"
+    }
+  ]
+}

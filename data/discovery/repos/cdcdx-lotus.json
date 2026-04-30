@@ -1,0 +1,268 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-syncer.yml"
+    },
+    {
+      "component": "micnncim/action-label-syncer@v1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-syncer.yml"
+    },
+    {
+      "component": "actions/stale@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-master-main.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testground-on-push.yml"
+    },
+    {
+      "component": "testground/testground-github-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testground-on-push.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "cdcdx/lotus",
+      "target": "rust-lang/docker-rust",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "cdcdx/lotus",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "cdcdx/lotus",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "cdcdx/lotus",
+      "target": "github/codeql-action/init@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "cdcdx/lotus",
+      "target": "github/codeql-action/autobuild@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "cdcdx/lotus",
+      "target": "github/codeql-action/analyze@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "cdcdx/lotus",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-syncer.yml",
+      "source_repo": "cdcdx/lotus",
+      "target": "actions/checkout@1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-syncer.yml",
+      "source_repo": "cdcdx/lotus",
+      "target": "micnncim/action-label-syncer@v1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-syncer.yml",
+      "source_repo": "cdcdx/lotus",
+      "target": "Label syncer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "cdcdx/lotus",
+      "target": "actions/stale@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "cdcdx/lotus",
+      "target": "Close and mark stale issue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-master-main.yaml",
+      "source_repo": "cdcdx/lotus",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-master-main.yaml",
+      "source_repo": "cdcdx/lotus",
+      "target": "sync-master-main",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testground-on-push.yml",
+      "source_repo": "cdcdx/lotus",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testground-on-push.yml",
+      "source_repo": "cdcdx/lotus",
+      "target": "testground/testground-github-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/testground-on-push.yml",
+      "source_repo": "cdcdx/lotus",
+      "target": "Testground PR Checker",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:02:00.224238+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2529
+    },
+    {
+      "path": "Dockerfile",
+      "size": 4793
+    },
+    {
+      "path": "go.mod",
+      "size": 17535
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 2410
+    },
+    {
+      "path": ".github/workflows/label-syncer.yml",
+      "size": 328
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 1371
+    },
+    {
+      "path": ".github/workflows/sync-master-main.yaml",
+      "size": 314
+    },
+    {
+      "path": ".github/workflows/testground-on-push.yml",
+      "size": 975
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "wallet-security-v1.22.1",
+    "description": "Implementation of the Filecoin protocol, written in Go",
+    "fork": true,
+    "full_name": "cdcdx/lotus",
+    "html_url": "https://github.com/cdcdx/lotus",
+    "language": "Go",
+    "pushed_at": "2023-05-11T15:41:33Z",
+    "stargazers_count": 13,
+    "topics": [],
+    "updated_at": "2024-08-29T14:09:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rust-lang/docker-rust",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Label syncer",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-syncer.yml",
+      "term": "Label syncer"
+    },
+    {
+      "context_snippet": "Close and mark stale issue",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Close and mark stale issue"
+    },
+    {
+      "context_snippet": "sync-master-main",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-master-main.yaml",
+      "term": "sync-master-main"
+    },
+    {
+      "context_snippet": "Testground PR Checker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/testground-on-push.yml",
+      "term": "Testground PR Checker"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -31,6 +31,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/container_description.yml",
       "source_repo": "prometheus/alertmanager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/container_description.yml",
+      "source_repo": "cockroachdb/client_golang"
     }
   ],
   "term": "Push README to Docker Hub"

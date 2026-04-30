@@ -1,0 +1,102 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pylint.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pylint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xinntao/HandyFigure",
+      "target": "xinntao/handycrawler",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xinntao/HandyFigure",
+      "target": "xinntao/handywriting",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pylint.yml",
+      "source_repo": "xinntao/HandyFigure",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pylint.yml",
+      "source_repo": "xinntao/HandyFigure",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xinntao/HandyFigure",
+      "target": "figures",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:03:37.815585+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8252
+    },
+    {
+      "path": "requirements.txt",
+      "size": 6
+    },
+    {
+      "path": ".github/workflows/pylint.yml",
+      "size": 634
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "HandyFigure provides the sources file (ususally PPT files) for paper figures",
+    "fork": false,
+    "full_name": "xinntao/HandyFigure",
+    "html_url": "https://github.com/xinntao/HandyFigure",
+    "language": "JavaScript",
+    "pushed_at": "2022-05-23T12:37:21Z",
+    "stargazers_count": 191,
+    "topics": [
+      "figures"
+    ],
+    "updated_at": "2026-04-22T02:22:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xinntao/handycrawler",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xinntao/handywriting",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "figures"
+    }
+  ]
+}

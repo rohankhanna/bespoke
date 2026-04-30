@@ -1,0 +1,325 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/archive-class-initialization-examples.yml"
+    },
+    {
+      "component": "graalvm/setup-graalvm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/archive-class-initialization-examples.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/archive-espresso-jshell.yml"
+    },
+    {
+      "component": "graalvm/setup-graalvm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/archive-espresso-jshell.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/archive-functionGraphDemo.yml"
+    },
+    {
+      "component": "graalvm/setup-graalvm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/archive-functionGraphDemo.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/archive-javagdbnative.yml"
+    },
+    {
+      "component": "graalvm/setup-graalvm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/archive-javagdbnative.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/archive-js-java-async-helidon.yml"
+    },
+    {
+      "component": "graalvm/setup-graalvm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/archive-js-java-async-helidon.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/archive-multithreading-demo.yml"
+    },
+    {
+      "component": "graalvm/setup-graalvm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/archive-multithreading-demo.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/archive-native-netty-plot.yml"
+    },
+    {
+      "component": "graalvm/setup-graalvm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/archive-native-netty-plot.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/archive-polyglot-javascript-java-r.yml"
+    },
+    {
+      "component": "graalvm/setup-graalvm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/archive-polyglot-javascript-java-r.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/archive-spring-r.yml"
+    },
+    {
+      "component": "graalvm/setup-graalvm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/archive-spring-r.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/archive-class-initialization-examples.yml",
+      "source_repo": "graalvm/graalvm-demos",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/archive-class-initialization-examples.yml",
+      "source_repo": "graalvm/graalvm-demos",
+      "target": "graalvm/setup-graalvm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/archive-espresso-jshell.yml",
+      "source_repo": "graalvm/graalvm-demos",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/archive-espresso-jshell.yml",
+      "source_repo": "graalvm/graalvm-demos",
+      "target": "graalvm/setup-graalvm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/archive-functionGraphDemo.yml",
+      "source_repo": "graalvm/graalvm-demos",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/archive-functionGraphDemo.yml",
+      "source_repo": "graalvm/graalvm-demos",
+      "target": "graalvm/setup-graalvm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/archive-javagdbnative.yml",
+      "source_repo": "graalvm/graalvm-demos",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/archive-javagdbnative.yml",
+      "source_repo": "graalvm/graalvm-demos",
+      "target": "graalvm/setup-graalvm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/archive-js-java-async-helidon.yml",
+      "source_repo": "graalvm/graalvm-demos",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/archive-js-java-async-helidon.yml",
+      "source_repo": "graalvm/graalvm-demos",
+      "target": "graalvm/setup-graalvm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/archive-multithreading-demo.yml",
+      "source_repo": "graalvm/graalvm-demos",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/archive-multithreading-demo.yml",
+      "source_repo": "graalvm/graalvm-demos",
+      "target": "graalvm/setup-graalvm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/archive-native-netty-plot.yml",
+      "source_repo": "graalvm/graalvm-demos",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/archive-native-netty-plot.yml",
+      "source_repo": "graalvm/graalvm-demos",
+      "target": "graalvm/setup-graalvm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/archive-polyglot-javascript-java-r.yml",
+      "source_repo": "graalvm/graalvm-demos",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/archive-polyglot-javascript-java-r.yml",
+      "source_repo": "graalvm/graalvm-demos",
+      "target": "graalvm/setup-graalvm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/archive-spring-r.yml",
+      "source_repo": "graalvm/graalvm-demos",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/archive-spring-r.yml",
+      "source_repo": "graalvm/graalvm-demos",
+      "target": "graalvm/setup-graalvm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "graalvm/graalvm-demos",
+      "target": "graalvm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "graalvm/graalvm-demos",
+      "target": "graalvm-demos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "graalvm/graalvm-demos",
+      "target": "native-image",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:56:47.421106+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10913
+    },
+    {
+      "path": ".github/workflows/archive-class-initialization-examples.yml",
+      "size": 1197
+    },
+    {
+      "path": ".github/workflows/archive-espresso-jshell.yml",
+      "size": 843
+    },
+    {
+      "path": ".github/workflows/archive-functionGraphDemo.yml",
+      "size": 1000
+    },
+    {
+      "path": ".github/workflows/archive-javagdbnative.yml",
+      "size": 875
+    },
+    {
+      "path": ".github/workflows/archive-js-java-async-helidon.yml",
+      "size": 1007
+    },
+    {
+      "path": ".github/workflows/archive-multithreading-demo.yml",
+      "size": 1286
+    },
+    {
+      "path": ".github/workflows/archive-native-netty-plot.yml",
+      "size": 1584
+    },
+    {
+      "path": ".github/workflows/archive-polyglot-javascript-java-r.yml",
+      "size": 1014
+    },
+    {
+      "path": ".github/workflows/archive-spring-r.yml",
+      "size": 860
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This repository contains example applications to illustrate the different capabilities of GraalVM",
+    "fork": false,
+    "full_name": "graalvm/graalvm-demos",
+    "html_url": "https://github.com/graalvm/graalvm-demos",
+    "language": "Java",
+    "pushed_at": "2026-04-24T14:31:26Z",
+    "stargazers_count": 678,
+    "topics": [
+      "graalvm",
+      "graalvm-demos",
+      "native-image"
+    ],
+    "updated_at": "2026-04-24T14:31:32Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository contains a collection of example applications that highlight key features and best practices for working with GraalVM technologies.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graalvm"
+    },
+    {
+      "context_snippet": "This repository contains a collection of example applications that highlight key features and best practices for working with GraalVM technologies.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graalvm-demos"
+    },
+    {
+      "context_snippet": "This repository contains a collection of example applications that highlight key features and best practices for working with GraalVM technologies.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "native-image"
+    }
+  ]
+}

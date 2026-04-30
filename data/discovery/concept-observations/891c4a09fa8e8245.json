@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Package scripts for MinGW-w64 targets to build under MSYS2. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "generate-srcinfo"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "generate-srcinfo"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "generate-srcinfo",
+      "sense_id": "generate-srcinfo#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "generate-srcinfo",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "generate-srcinfo",
+  "observation_id": "891c4a09fa8e8245",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "generate-srcinfo",
+  "source_context_snippet": "generate-srcinfo",
+  "source_file": ".github/workflows/generate-srcinfo.yml",
+  "source_repo": "Alexpux/MINGW-packages",
+  "source_repo_description": "Package scripts for MinGW-w64 targets to build under MSYS2. "
+}

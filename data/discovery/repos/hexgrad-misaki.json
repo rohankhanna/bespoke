@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hexgrad/misaki",
+      "target": "hexgrad/kokoro",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hexgrad/misaki",
+      "target": "5hyeons/styletts2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hexgrad/misaki",
+      "target": "google-research-datasets/wikipediahomographdata",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hexgrad/misaki",
+      "target": "facebookresearch/llama-hd-dataset",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T12:55:44.333359+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4807
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1063
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "G2P",
+    "fork": false,
+    "full_name": "hexgrad/misaki",
+    "html_url": "https://github.com/hexgrad/misaki",
+    "language": "Python",
+    "pushed_at": "2025-08-11T01:20:38Z",
+    "stargazers_count": 445,
+    "topics": [],
+    "updated_at": "2026-04-26T23:40:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "5hyeons/styletts2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/llama-hd-dataset",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-research-datasets/wikipediahomographdata",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hexgrad/kokoro",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

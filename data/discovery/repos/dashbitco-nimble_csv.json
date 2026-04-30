@@ -1,0 +1,148 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "erlef/setup-beam@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dashbitco/nimble_csv",
+      "target": "dashbitco/nimble_options",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dashbitco/nimble_csv",
+      "target": "dashbitco/nimble_ownership",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dashbitco/nimble_csv",
+      "target": "dashbitco/nimble_parsec",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dashbitco/nimble_csv",
+      "target": "dashbitco/nimble_publisher",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dashbitco/nimble_csv",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dashbitco/nimble_csv",
+      "target": "erlef/setup-beam@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dashbitco/nimble_csv",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dashbitco/nimble_csv",
+      "target": "csv-parsing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dashbitco/nimble_csv",
+      "target": "elixir",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:04:21.548844+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3238
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1080
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A simple and fast CSV parsing and dumping library for Elixir",
+    "fork": false,
+    "full_name": "dashbitco/nimble_csv",
+    "html_url": "https://github.com/dashbitco/nimble_csv",
+    "language": "Elixir",
+    "pushed_at": "2025-11-13T22:07:21Z",
+    "stargazers_count": 816,
+    "topics": [
+      "csv-parsing",
+      "elixir"
+    ],
+    "updated_at": "2026-04-28T15:08:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dashbitco/nimble_options",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dashbitco/nimble_ownership",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dashbitco/nimble_parsec",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dashbitco/nimble_publisher",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![CI](https://github.com/dashbitco/nimble_csv/actions/workflows/ci.yml/badge.svg)](https://github.com/dashbitco/nimble_csv/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "csv-parsing"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/dashbitco/nimble_csv/actions/workflows/ci.yml/badge.svg)](https://github.com/dashbitco/nimble_csv/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "elixir"
+    }
+  ]
+}

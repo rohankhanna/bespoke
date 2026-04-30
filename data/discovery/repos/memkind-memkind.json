@@ -1,0 +1,145 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gha.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gha.yml"
+    },
+    {
+      "component": "codespell-project/actions-codespell@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gha.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gha.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gha.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gha.yml"
+    },
+    {
+      "component": "py-actions/flake8@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gha.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gha.yml"
+    },
+    {
+      "component": "actions/cache@v2.1.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gha.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gha.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "memkind/memkind",
+      "target": "oneapi-src/unified-memory-framework",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gha.yml",
+      "source_repo": "memkind/memkind",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gha.yml",
+      "source_repo": "memkind/memkind",
+      "target": "codespell-project/actions-codespell@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gha.yml",
+      "source_repo": "memkind/memkind",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gha.yml",
+      "source_repo": "memkind/memkind",
+      "target": "py-actions/flake8@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gha.yml",
+      "source_repo": "memkind/memkind",
+      "target": "actions/cache@v2.1.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gha.yml",
+      "source_repo": "memkind/memkind",
+      "target": "MEMKIND",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:00:41.230982+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20786
+    },
+    {
+      "path": ".github/workflows/gha.yml",
+      "size": 4480
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Memkind is an easy-to-use, general-purpose allocator which helps to fully utilize various kinds of memory available in the system, including DRAM, NVDIMM, and HBM",
+    "fork": false,
+    "full_name": "memkind/memkind",
+    "html_url": "https://github.com/memkind/memkind",
+    "language": "C",
+    "pushed_at": "2024-05-23T10:51:17Z",
+    "stargazers_count": 396,
+    "topics": [],
+    "updated_at": "2026-04-07T13:55:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "oneapi-src/unified-memory-framework",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "MEMKIND",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gha.yml",
+      "term": "MEMKIND"
+    }
+  ]
+}

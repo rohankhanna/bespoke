@@ -19,6 +19,18 @@
       "source_repo": "clovaai/rebias",
       "status": "candidate-context",
       "text": "Official Pytorch implementation of **ReBias** | [Paper](https://arxiv.org/abs/1910.02806)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ucbdrive/few-shot-object-detection",
+      "status": "candidate-context",
+      "text": "Implementations of few-shot object detection benchmarks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ucbdrive/few-shot-object-detection",
+      "status": "candidate-context",
+      "text": "[![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/ucbdrive/few-shot-object-detection.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/ucbdrive/few-shot-object-detection/context:python)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "clovaai/rebias",
       "status": "candidate",
       "text": "Official Pytorch implementation of **ReBias** | [Paper](https://arxiv.org/abs/1910.02806)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ucbdrive/few-shot-object-detection",
+      "status": "candidate",
+      "text": "[![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/ucbdrive/few-shot-object-detection.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/ucbdrive/few-shot-object-detection/context:python)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "clovaai/rebias"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ucbdrive/few-shot-object-detection"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

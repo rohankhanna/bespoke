@@ -1,0 +1,226 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/py.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/py.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/py.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-release.yml",
+      "source_repo": "Oneflow-Inc/libai",
+      "target": "Document Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/py.yml",
+      "source_repo": "Oneflow-Inc/libai",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/py.yml",
+      "source_repo": "Oneflow-Inc/libai",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Oneflow-Inc/libai",
+      "target": "data-parallelism",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Oneflow-Inc/libai",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Oneflow-Inc/libai",
+      "target": "distributed-training",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Oneflow-Inc/libai",
+      "target": "large-scale",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Oneflow-Inc/libai",
+      "target": "model-parallelism",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Oneflow-Inc/libai",
+      "target": "oneflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Oneflow-Inc/libai",
+      "target": "pipeline-parallelism",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Oneflow-Inc/libai",
+      "target": "self-supervised-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Oneflow-Inc/libai",
+      "target": "transformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Oneflow-Inc/libai",
+      "target": "vision-transformer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T12:50:40.465887+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7366
+    },
+    {
+      "path": "requirements.txt",
+      "size": 306
+    },
+    {
+      "path": ".github/workflows/docs-release.yml",
+      "size": 422
+    },
+    {
+      "path": ".github/workflows/py.yml",
+      "size": 2072
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "LiBai(\u674e\u767d): A Toolbox for Large-Scale Distributed Parallel Training",
+    "fork": false,
+    "full_name": "Oneflow-Inc/libai",
+    "html_url": "https://github.com/Oneflow-Inc/libai",
+    "language": "Python",
+    "pushed_at": "2025-07-31T08:04:30Z",
+    "stargazers_count": 404,
+    "topics": [
+      "data-parallelism",
+      "deep-learning",
+      "distributed-training",
+      "large-scale",
+      "model-parallelism",
+      "nlp",
+      "oneflow",
+      "pipeline-parallelism",
+      "self-supervised-learning",
+      "transformer",
+      "vision-transformer"
+    ],
+    "updated_at": "2026-04-28T21:54:38Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Document Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-release.yml",
+      "term": "Document Release"
+    },
+    {
+      "context_snippet": "<!-- \u914d\u56fe -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-parallelism"
+    },
+    {
+      "context_snippet": "<!-- \u914d\u56fe -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<!-- \u914d\u56fe -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distributed-training"
+    },
+    {
+      "context_snippet": "<!-- \u914d\u56fe -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-scale"
+    },
+    {
+      "context_snippet": "<!-- \u914d\u56fe -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "model-parallelism"
+    },
+    {
+      "context_snippet": "<!-- \u914d\u56fe -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "oneflow"
+    },
+    {
+      "context_snippet": "<!-- \u914d\u56fe -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pipeline-parallelism"
+    },
+    {
+      "context_snippet": "<!-- \u914d\u56fe -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "self-supervised-learning"
+    },
+    {
+      "context_snippet": "<!-- \u914d\u56fe -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    },
+    {
+      "context_snippet": "<!-- \u914d\u56fe -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-transformer"
+    }
+  ]
+}

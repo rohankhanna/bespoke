@@ -1,0 +1,67 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "uperl/Kafka-Librd",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "uperl/Kafka-Librd",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "uperl/Kafka-Librd",
+      "target": "linux",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:54:43.438543+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/linux.yml",
+      "size": 1545
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "perl bindings to librdkafka",
+    "fork": false,
+    "full_name": "uperl/Kafka-Librd",
+    "html_url": "https://github.com/uperl/Kafka-Librd",
+    "language": "Perl",
+    "pushed_at": "2025-03-20T14:33:03Z",
+    "stargazers_count": 12,
+    "topics": [],
+    "updated_at": "2025-08-12T12:20:20Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux.yml",
+      "term": "linux"
+    }
+  ]
+}

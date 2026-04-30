@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T16:03:11.604578+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1687
+    },
+    {
+      "path": "package.json",
+      "size": 602
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\udc85 Clean and minimal JSDoc 3 Template / Theme",
+    "fork": false,
+    "full_name": "nijikokun/minami",
+    "html_url": "https://github.com/nijikokun/minami",
+    "language": "JavaScript",
+    "pushed_at": "2024-01-05T10:03:27Z",
+    "stargazers_count": 577,
+    "topics": [],
+    "updated_at": "2026-01-28T22:11:19Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

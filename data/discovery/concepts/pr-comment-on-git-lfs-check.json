@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "PR Comment on Git LFS Check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/accelerated-computing-hub",
+      "status": "candidate-context",
+      "text": "NVIDIA curated collection of educational resources related to general purpose GPU programming."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/accelerated-computing-hub",
+      "status": "candidate-context",
+      "text": "PR Comment on Git LFS Check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/accelerated-computing-hub",
+      "status": "candidate",
+      "text": "PR Comment on Git LFS Check"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23249,
+      "status": "candidate",
+      "text": "get"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22086,
+      "status": "candidate",
+      "text": "shack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22063,
+      "status": "candidate",
+      "text": "out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21342,
+      "status": "candidate",
+      "text": "annotate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21342,
+      "status": "candidate",
+      "text": "cool"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "PR Comment on Git LFS Check",
+  "concept_id": "pr-comment-on-git-lfs-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/pr-comment-git-lfs.yml",
+      "source_repo": "NVIDIA/accelerated-computing-hub"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PR Comment on Git LFS Check",
+      "sense_id": "pr-comment-on-git-lfs-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

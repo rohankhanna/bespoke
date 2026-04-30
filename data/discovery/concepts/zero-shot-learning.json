@@ -43,6 +43,30 @@
       "source_repo": "NVlabs/GroupViT",
       "status": "candidate-context",
       "text": "GroupViT is a framework for learning semantic segmentation purely from text captions without"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yizhongw/Tk-Instruct",
+      "status": "candidate-context",
+      "text": "Tk-Instruct is a Transformer model that is tuned to solve many NLP tasks by following instructions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yizhongw/Tk-Instruct",
+      "status": "candidate-context",
+      "text": "- This repo releases our implementation for the Tk-Instruct model in the [Super-NaturalInstructions paper](https://arxiv.org/abs/2204.07705)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BatsResearch/csp",
+      "status": "candidate-context",
+      "text": "Learning to compose soft prompts for compositional zero-shot learning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BatsResearch/csp",
+      "status": "candidate-context",
+      "text": "Compositional soft prompting (CSP), a parameter-efficient learning technique to improve the zero-shot compositionality of large-scale pretrained vision-language models (VLMs) without the overhead of fine-tuning the entire model."
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "NVlabs/GroupViT",
       "status": "candidate",
       "text": "GroupViT is a framework for learning semantic segmentation purely from text captions without"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yizhongw/Tk-Instruct",
+      "status": "candidate",
+      "text": "- This repo releases our implementation for the Tk-Instruct model in the [Super-NaturalInstructions paper](https://arxiv.org/abs/2204.07705)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BatsResearch/csp",
+      "status": "candidate",
+      "text": "Compositional soft prompting (CSP), a parameter-efficient learning technique to improve the zero-shot compositionality of large-scale pretrained vision-language models (VLMs) without the overhead of fine-tuning the entire model."
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +124,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "NVlabs/GroupViT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "yizhongw/Tk-Instruct"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "BatsResearch/csp"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

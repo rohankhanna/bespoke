@@ -19,6 +19,18 @@
       "source_repo": "newton-physics/newton",
       "status": "candidate-context",
       "text": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "newton-physics/newton-governance",
+      "status": "candidate-context",
+      "text": "Repository for Newton Project Governance Documents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "newton-physics/newton-governance",
+      "status": "candidate-context",
+      "text": "This repository hosts documents related to Newton project governance and legal, and guidelines that apply to the repositories in the `newton-physics` organization."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "newton-physics/newton",
       "status": "candidate",
       "text": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "newton-physics/newton-governance",
+      "status": "candidate",
+      "text": "This repository hosts documents related to Newton project governance and legal, and guidelines that apply to the repositories in the `newton-physics` organization."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "newton-physics/newton"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "newton-physics/newton-governance"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

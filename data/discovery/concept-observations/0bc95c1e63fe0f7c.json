@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Official upstream development repository for Cabal and cabal-install"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Users guide"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Users guide"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36861,
+      "status": "candidate",
+      "text": "guidebook"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36860,
+      "status": "candidate",
+      "text": "instructions"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36859,
+      "status": "candidate",
+      "text": "rule book"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36858,
+      "status": "candidate",
+      "text": "handbook"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36857,
+      "status": "candidate",
+      "text": "guides"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Users guide",
+      "sense_id": "users-guide#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "users-guide",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "users-guide",
+  "observation_id": "0bc95c1e63fe0f7c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "Users guide",
+  "source_context_snippet": "Users guide",
+  "source_file": ".github/workflows/users-guide.yml",
+  "source_repo": "tweag/cabal",
+  "source_repo_description": "Official upstream development repository for Cabal and cabal-install"
+}

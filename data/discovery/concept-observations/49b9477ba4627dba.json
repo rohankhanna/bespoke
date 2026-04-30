@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Generic cell rate algorithm (leaky bucket) implementation for rate limiting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Build Status](https://github.com/viafintech/gcra-ruby/actions/workflows/test.yml/badge.svg) [![Code Climate](https://codeclimate.com/github/Barzahlen/gcra-ruby/badges/gpa.svg)](https://codeclimate.com/github/Barzahlen/gcra-ruby) [![RubyDoc](https://img.shields.io/badge/ruby-do\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Build Status](https://github.com/viafintech/gcra-ruby/actions/workflows/test.yml/badge.svg) [![Code Climate](https://codeclimate.com/github/Barzahlen/gcra-ruby/badges/gpa.svg)](https://codeclimate.com/github/Barzahlen/gcra-ruby) [![RubyDoc](https://img.shields.io/badge/ruby-do\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rate-limiting",
+      "sense_id": "rate-limiting#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "rate-limiting",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "rate-limiting",
+  "observation_id": "49b9477ba4627dba",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "rate-limiting",
+  "source_context_snippet": "![Build Status](https://github.com/viafintech/gcra-ruby/actions/workflows/test.yml/badge.svg) [![Code Climate](https://codeclimate.com/github/Barzahlen/gcra-ruby/badges/gpa.svg)](https://codeclimate.com/github/Barzahlen/gcra-ruby) [![RubyDoc](https://img.shields.io/badge/ruby-do\u2026",
+  "source_file": null,
+  "source_repo": "viafintech/gcra-ruby",
+  "source_repo_description": "Generic cell rate algorithm (leaky bucket) implementation for rate limiting"
+}

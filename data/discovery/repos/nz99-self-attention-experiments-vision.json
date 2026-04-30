@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "NZ99/self-attention-experiments-vision",
+      "target": "deepmind/optax",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:13:33.194380+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 368
+    },
+    {
+      "path": "requirements.txt",
+      "size": 422
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A project about replicating, evaluating and scaling up self-attention based models in vision.",
+    "fork": false,
+    "full_name": "NZ99/self-attention-experiments-vision",
+    "html_url": "https://github.com/NZ99/self-attention-experiments-vision",
+    "language": "Python",
+    "pushed_at": "2021-07-06T15:27:22Z",
+    "stargazers_count": 9,
+    "topics": [],
+    "updated_at": "2024-01-04T16:56:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepmind/optax",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": []
+}

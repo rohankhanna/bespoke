@@ -48,7 +48,7 @@
   "normalized_form": "apache-kafka",
   "observation_id": "75a58f2c75cefe29",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
   "observed_text": "apache-kafka",
   "source_context_snippet": "librdkafka - the Apache Kafka\u00ae C/C++ client library",
   "source_file": null,

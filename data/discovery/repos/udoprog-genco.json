@@ -1,0 +1,192 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@1.88",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@nightly",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "udoprog/genco",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "udoprog/genco",
+      "target": "dtolnay/rust-toolchain@1.88",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "udoprog/genco",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "udoprog/genco",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "udoprog/genco",
+      "target": "dtolnay/rust-toolchain@nightly",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "udoprog/genco",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "udoprog/genco",
+      "target": "code-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "udoprog/genco",
+      "target": "proc-macro",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "udoprog/genco",
+      "target": "quasiquoter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "udoprog/genco",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:59:40.904931+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6883
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 746
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1701
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A whitespace-aware quasiquoter for beautiful code generation.",
+    "fork": false,
+    "full_name": "udoprog/genco",
+    "html_url": "https://github.com/udoprog/genco",
+    "language": "Rust",
+    "pushed_at": "2026-04-27T07:29:12Z",
+    "stargazers_count": 206,
+    "topics": [
+      "code-generation",
+      "proc-macro",
+      "quasiquoter",
+      "rust"
+    ],
+    "updated_at": "2026-04-27T09:11:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[<img alt=\"github\" src=\"https://img.shields.io/badge/github-udoprog/genco-8da0cb?style=for-the-badge&logo=github\" height=\"20\">](https://github.com/udoprog/genco)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-generation"
+    },
+    {
+      "context_snippet": "[<img alt=\"github\" src=\"https://img.shields.io/badge/github-udoprog/genco-8da0cb?style=for-the-badge&logo=github\" height=\"20\">](https://github.com/udoprog/genco)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "proc-macro"
+    },
+    {
+      "context_snippet": "[<img alt=\"github\" src=\"https://img.shields.io/badge/github-udoprog/genco-8da0cb?style=for-the-badge&logo=github\" height=\"20\">](https://github.com/udoprog/genco)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quasiquoter"
+    },
+    {
+      "context_snippet": "[<img alt=\"github\" src=\"https://img.shields.io/badge/github-udoprog/genco-8da0cb?style=for-the-badge&logo=github\" height=\"20\">](https://github.com/udoprog/genco)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

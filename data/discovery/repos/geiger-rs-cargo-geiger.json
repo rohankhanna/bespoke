@@ -86,6 +86,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "geiger-rs/cargo-geiger",
+      "target": "icefoxen/cargo-osha",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "geiger-rs/cargo-geiger",
       "target": "sfackler/cargo-tree",
       "target_type": "repository"
     },
@@ -216,7 +223,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T10:30:26.681823+00:00",
+  "fetched_at": "2026-04-30T16:04:45.050885+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -261,11 +268,16 @@
     "html_url": "https://github.com/geiger-rs/cargo-geiger",
     "language": "Rust",
     "pushed_at": "2026-01-11T08:36:51Z",
-    "stargazers_count": 1574,
+    "stargazers_count": 1573,
     "topics": [],
-    "updated_at": "2026-04-26T05:48:40Z"
+    "updated_at": "2026-04-30T15:19:14Z"
   },
   "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "icefoxen/cargo-osha",
+      "source_file": "README.md"
+    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "rust-secure-code/cargo-geiger",

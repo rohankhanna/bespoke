@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "promote"
+    "promote",
+    "Promote"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -31,6 +32,12 @@
       "source_repo": "actions-oss/act-cli",
       "status": "candidate-context",
       "text": "promote"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spring-io/spring-javaformat",
+      "status": "candidate-context",
+      "text": "Promote"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +52,12 @@
       "source_repo": "actions-oss/act-cli",
       "status": "candidate",
       "text": "promote"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spring-io/spring-javaformat",
+      "status": "candidate",
+      "text": "Promote"
     }
   ],
   "candidate_related_terms": [
@@ -136,11 +149,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/promote.yml",
       "source_repo": "actions-oss/act-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/promote.yml",
+      "source_repo": "spring-io/spring-javaformat"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

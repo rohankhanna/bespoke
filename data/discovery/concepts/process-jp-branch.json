@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Process jp branch"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "box/box-openapi",
+      "status": "candidate-context",
+      "text": "OpenAPI 3.0 Specification for the Box APIs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "box/box-openapi",
+      "status": "candidate-context",
+      "text": "Process jp branch"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "box/box-openapi",
+      "status": "candidate",
+      "text": "Process jp branch"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27314,
+      "status": "candidate",
+      "text": "ramus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26476,
+      "status": "candidate",
+      "text": "bioremediation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26114,
+      "status": "candidate",
+      "text": "branching"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26076,
+      "status": "candidate",
+      "text": "analytics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26076,
+      "status": "candidate",
+      "text": "zymurgy"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Process jp branch",
+  "concept_id": "process-jp-branch",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/jp-api-docs.yml",
+      "source_repo": "box/box-openapi"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Process jp branch",
+      "sense_id": "process-jp-branch#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

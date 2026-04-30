@@ -67,6 +67,18 @@
       "source_repo": "spacemeshos/smrepl",
       "status": "candidate-context",
       "text": "July 2022 UPDATE: THIS TOOL (SMREPL) IS *NOT UP-TO-DATE OR COMPATIBLE* WITH OUR LATEST DEVNET."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spacemeshos/smcli",
+      "status": "candidate-context",
+      "text": "Spacemesh command-line tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spacemeshos/smcli",
+      "status": "candidate-context",
+      "text": "> [!WARNING]"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "spacemeshos/smrepl",
       "status": "candidate",
       "text": "July 2022 UPDATE: THIS TOOL (SMREPL) IS *NOT UP-TO-DATE OR COMPATIBLE* WITH OUR LATEST DEVNET."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spacemeshos/smcli",
+      "status": "candidate",
+      "text": "> [!WARNING]"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +154,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "spacemeshos/smrepl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "spacemeshos/smcli"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

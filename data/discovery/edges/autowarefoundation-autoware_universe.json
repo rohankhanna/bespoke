@@ -1,0 +1,370 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-test-daily.yaml",
+      "source_repo": "autowarefoundation/autoware_universe",
+      "target": "build-and-test-daily",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-differential.yaml",
+      "source_repo": "autowarefoundation/autoware_universe",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-differential.yaml",
+      "source_repo": "autowarefoundation/autoware_universe",
+      "target": "autowarefoundation/autoware-github-actions/remove-exec-depend@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-differential.yaml",
+      "source_repo": "autowarefoundation/autoware_universe",
+      "target": "autowarefoundation/autoware-github-actions/get-modified-packages@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-differential.yaml",
+      "source_repo": "autowarefoundation/autoware_universe",
+      "target": "actions/cache/restore@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-differential.yaml",
+      "source_repo": "autowarefoundation/autoware_universe",
+      "target": "autowarefoundation/autoware-github-actions/colcon-build@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-differential.yaml",
+      "source_repo": "autowarefoundation/autoware_universe",
+      "target": "autowarefoundation/autoware-github-actions/colcon-test@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-differential.yaml",
+      "source_repo": "autowarefoundation/autoware_universe",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-test-differential.yaml",
+      "source_repo": "autowarefoundation/autoware_universe",
+      "target": "build-and-test-differential",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-packages-above-differential.yaml",
+      "source_repo": "autowarefoundation/autoware_universe",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-packages-above-differential.yaml",
+      "source_repo": "autowarefoundation/autoware_universe",
+      "target": "autowarefoundation/autoware-github-actions/remove-exec-depend@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-packages-above-differential.yaml",
+      "source_repo": "autowarefoundation/autoware_universe",
+      "target": "autowarefoundation/autoware-github-actions/get-modified-packages@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-packages-above-differential.yaml",
+      "source_repo": "autowarefoundation/autoware_universe",
+      "target": "actions/cache/restore@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-packages-above-differential.yaml",
+      "source_repo": "autowarefoundation/autoware_universe",
+      "target": "autowarefoundation/autoware-github-actions/colcon-build@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-packages-above-differential.yaml",
+      "source_repo": "autowarefoundation/autoware_universe",
+      "target": "autowarefoundation/autoware-github-actions/colcon-test@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-test-packages-above-differential.yaml",
+      "source_repo": "autowarefoundation/autoware_universe",
+      "target": "build-and-test-packages-above-differential",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-reusable.yaml",
+      "source_repo": "autowarefoundation/autoware_universe",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-reusable.yaml",
+      "source_repo": "autowarefoundation/autoware_universe",
+      "target": "autowarefoundation/autoware-github-actions/remove-exec-depend@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-reusable.yaml",
+      "source_repo": "autowarefoundation/autoware_universe",
+      "target": "autowarefoundation/autoware-github-actions/get-self-packages@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-reusable.yaml",
+      "source_repo": "autowarefoundation/autoware_universe",
+      "target": "actions/cache/restore@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-reusable.yaml",
+      "source_repo": "autowarefoundation/autoware_universe",
+      "target": "autowarefoundation/autoware-github-actions/colcon-build@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-reusable.yaml",
+      "source_repo": "autowarefoundation/autoware_universe",
+      "target": "actions/cache/save@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-reusable.yaml",
+      "source_repo": "autowarefoundation/autoware_universe",
+      "target": "autowarefoundation/autoware-github-actions/colcon-test@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-reusable.yaml",
+      "source_repo": "autowarefoundation/autoware_universe",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-reusable.yaml",
+      "source_repo": "autowarefoundation/autoware_universe",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-reusable.yaml",
+      "source_repo": "autowarefoundation/autoware_universe",
+      "target": "autowarefoundation/autoware-github-actions/clang-tidy@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-test-reusable.yaml",
+      "source_repo": "autowarefoundation/autoware_universe",
+      "target": "build-and-test-reusable",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-test.yaml",
+      "source_repo": "autowarefoundation/autoware_universe",
+      "target": "build-and-test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-tidy-pr.yaml",
+      "source_repo": "autowarefoundation/autoware_universe",
+      "target": "autowarefoundation/autoware-github-actions/.github/workflows/require-label.yaml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-tidy-pr.yaml",
+      "source_repo": "autowarefoundation/autoware_universe",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-tidy-pr.yaml",
+      "source_repo": "autowarefoundation/autoware_universe",
+      "target": "step-security/changed-files@v45",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-test-tidy-pr.yaml",
+      "source_repo": "autowarefoundation/autoware_universe",
+      "target": "build-test-tidy-pr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-new-version.yaml",
+      "source_repo": "autowarefoundation/autoware_universe",
+      "target": "actions/create-github-app-token@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-new-version.yaml",
+      "source_repo": "autowarefoundation/autoware_universe",
+      "target": "autowarefoundation/autoware-github-actions/bump-new-version@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump-new-version.yaml",
+      "source_repo": "autowarefoundation/autoware_universe",
+      "target": "bump-new-version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-repo-versions-build-depends.yaml",
+      "source_repo": "autowarefoundation/autoware_universe",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-repo-versions-build-depends.yaml",
+      "source_repo": "autowarefoundation/autoware_universe",
+      "target": "tibdex/github-app-token@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-repo-versions-build-depends.yaml",
+      "source_repo": "autowarefoundation/autoware_universe",
+      "target": "autowarefoundation/autoware-github-actions/create-prs-to-update-vcs-repositories@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump-repo-versions-build-depends.yaml",
+      "source_repo": "autowarefoundation/autoware_universe",
+      "target": "bump-repo-versions-build-depends",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-version-pr.yaml",
+      "source_repo": "autowarefoundation/autoware_universe",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-version-pr.yaml",
+      "source_repo": "autowarefoundation/autoware_universe",
+      "target": "actions/create-github-app-token@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-version-pr.yaml",
+      "source_repo": "autowarefoundation/autoware_universe",
+      "target": "autowarefoundation/autoware-github-actions/set-git-config@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-version-pr.yaml",
+      "source_repo": "autowarefoundation/autoware_universe",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump-version-pr.yaml",
+      "source_repo": "autowarefoundation/autoware_universe",
+      "target": "bump-version-pr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autowarefoundation/autoware_universe",
+      "target": "3d-map",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autowarefoundation/autoware_universe",
+      "target": "autonomous-driving",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autowarefoundation/autoware_universe",
+      "target": "autonomous-vehicles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autowarefoundation/autoware_universe",
+      "target": "autoware",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autowarefoundation/autoware_universe",
+      "target": "calibration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autowarefoundation/autoware_universe",
+      "target": "planner",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autowarefoundation/autoware_universe",
+      "target": "ros2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autowarefoundation/autoware_universe",
+      "target": "self-driving-car",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T12:45:20.475770+00:00",
+  "source_repo": "autowarefoundation/autoware_universe"
+}

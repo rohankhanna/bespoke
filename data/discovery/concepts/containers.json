@@ -1030,6 +1030,30 @@
       "source_repo": "microsoft/hivedscheduler",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/microsoft/hivedscheduler/workflows/build/badge.svg?branch=master&event=push)](https://github.com/microsoft/hivedscheduler/actions?query=workflow%3Abuild+branch%3Amaster+event%3Apush)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudfoundry/bpm-release",
+      "status": "candidate-context",
+      "text": "isolated bosh jobs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/bpm-release",
+      "status": "candidate-context",
+      "text": "> Isolated BOSH Jobs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "allenai/beaker-gantry",
+      "status": "candidate-context",
+      "text": "Gantry provides an API that streamlines running experiments in Beaker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/beaker-gantry",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -1542,6 +1566,18 @@
       "source_repo": "microsoft/hivedscheduler",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/microsoft/hivedscheduler/workflows/build/badge.svg?branch=master&event=push)](https://github.com/microsoft/hivedscheduler/actions?query=workflow%3Abuild+branch%3Amaster+event%3Apush)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/bpm-release",
+      "status": "candidate",
+      "text": "> Isolated BOSH Jobs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/beaker-gantry",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -2341,11 +2377,65 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "distribution/distribution"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "boxlite-ai/boxlite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "cloudfoundry/bpm-release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "devcontainers/devcontainers.github.io"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "criteo/mesos-term"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "podman-desktop/podman-desktop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "moby/moby"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "stacks-archive/gaia"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "allenai/beaker-gantry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "hexops-graveyard/dockerfile"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -31,6 +31,18 @@
       "source_repo": "JuliaTesting/Aqua.jl",
       "status": "candidate-context",
       "text": "Doc Preview Cleanup"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaDocs/Documenter.jl",
+      "status": "candidate-context",
+      "text": "A documentation generator for Julia."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDocs/Documenter.jl",
+      "status": "candidate-context",
+      "text": "Doc Preview Cleanup"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "JuliaTesting/Aqua.jl",
+      "status": "candidate",
+      "text": "Doc Preview Cleanup"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDocs/Documenter.jl",
       "status": "candidate",
       "text": "Doc Preview Cleanup"
     }
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/DocPreviewCleanup.yml",
       "source_repo": "JuliaTesting/Aqua.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/ClearPreview.yml",
+      "source_repo": "JuliaDocs/Documenter.jl"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

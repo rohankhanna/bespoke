@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T14:04:32.630160+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "path2rs",
+    "description": "POSIX Threads for embedded systems (PTE)",
+    "fork": false,
+    "full_name": "hermit-os/pthread-embedded",
+    "html_url": "https://github.com/hermit-os/pthread-embedded",
+    "language": "C",
+    "pushed_at": "2025-05-19T09:15:03Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2025-05-21T01:26:03Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,48 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "evanmiller/hecate",
+      "target": "hex-editor",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:59:52.278486+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3560
+    },
+    {
+      "path": "go.mod",
+      "size": 237
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\udd25 The Hex Editor From Hell! \ud83d\udd25",
+    "fork": false,
+    "full_name": "evanmiller/hecate",
+    "html_url": "https://github.com/evanmiller/hecate",
+    "language": "Go",
+    "pushed_at": "2022-05-03T00:34:32Z",
+    "stargazers_count": 676,
+    "topics": [
+      "hex-editor"
+    ],
+    "updated_at": "2026-03-23T00:45:54Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "> HECATE. O well done! I commend your pains;",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hex-editor"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "aliases": [
+    "Update wheels index pages"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nerfstudio-project/gsplat",
+      "status": "candidate-context",
+      "text": "CUDA accelerated rasterization of gaussian splatting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nerfstudio-project/gsplat",
+      "status": "candidate-context",
+      "text": "Update wheels index pages"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nerfstudio-project/gsplat",
+      "status": "candidate",
+      "text": "Update wheels index pages"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "Update wheels index pages",
+  "concept_id": "update-wheels-index-pages",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/generate_simple_index_pages.yml",
+      "source_repo": "nerfstudio-project/gsplat"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update wheels index pages",
+      "sense_id": "update-wheels-index-pages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

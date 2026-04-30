@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Hazelcast IMDG C++ Client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Get common matrix configuration"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Get common matrix configuration"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34264,
+      "status": "candidate",
+      "text": "map"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33964,
+      "status": "candidate",
+      "text": "mold"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33862,
+      "status": "candidate",
+      "text": "breccia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33782,
+      "status": "candidate",
+      "text": "molded"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33189,
+      "status": "candidate",
+      "text": "organize"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Get common matrix configuration",
+      "sense_id": "get-common-matrix-configuration#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "get-common-matrix-configuration",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "get-common-matrix-configuration",
+  "observation_id": "2deb4ed709f0a952",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "Get common matrix configuration",
+  "source_context_snippet": "Get common matrix configuration",
+  "source_file": ".github/workflows/get-shared-matrix.yml",
+  "source_repo": "hazelcast/hazelcast-cpp-client",
+  "source_repo_description": "Hazelcast IMDG C++ Client"
+}

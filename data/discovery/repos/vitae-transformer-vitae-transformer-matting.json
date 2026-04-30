@@ -1,0 +1,114 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/ViTAE-Transformer-Matting",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/ViTAE-Transformer-Matting",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/ViTAE-Transformer-Matting",
+      "target": "image-matting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/ViTAE-Transformer-Matting",
+      "target": "privacy-preserving",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/ViTAE-Transformer-Matting",
+      "target": "survey",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/ViTAE-Transformer-Matting",
+      "target": "vision-transformer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:07:03.751101+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11644
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A comprehensive list [AIM@IJCAI'21, P3M@MM'21, GFM@IJCV'22, RIM@CVPR'23, P3MNet@IJCV'23] of our research works related to image matting, including papers, codes, datasets, demos, and citations. Note: The repo for [IJCV'23] \"Rethinking Portrait Matting with Privacy Preserving\" has been moved to: https://github.com/ViTAE-Transformer/P3M-Net",
+    "fork": false,
+    "full_name": "ViTAE-Transformer/ViTAE-Transformer-Matting",
+    "html_url": "https://github.com/ViTAE-Transformer/ViTAE-Transformer-Matting",
+    "language": "TeX",
+    "pushed_at": "2023-04-11T05:48:56Z",
+    "stargazers_count": 230,
+    "topics": [
+      "computer-vision",
+      "deep-learning",
+      "image-matting",
+      "privacy-preserving",
+      "survey",
+      "vision-transformer"
+    ],
+    "updated_at": "2026-01-26T13:41:43Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<h1 align=\"center\">Image Matting</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Image Matting</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Image Matting</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-matting"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Image Matting</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "privacy-preserving"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Image Matting</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "survey"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Image Matting</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-transformer"
+    }
+  ]
+}

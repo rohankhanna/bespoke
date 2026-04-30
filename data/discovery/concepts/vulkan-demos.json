@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "vulkan-demos"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vulkan-go/demos",
+      "status": "candidate-context",
+      "text": "Vulkan API crossplatform demos in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vulkan-go/demos",
+      "status": "candidate-context",
+      "text": "- vulcaninfo"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vulkan-go/demos",
+      "status": "candidate",
+      "text": "- vulcaninfo"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "vulkan-demos",
+  "concept_id": "vulkan-demos",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "vulkan-go/demos"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vulkan-demos",
+      "sense_id": "vulkan-demos#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

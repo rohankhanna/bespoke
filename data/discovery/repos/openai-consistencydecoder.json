@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T13:09:06.728761+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1516
+    },
+    {
+      "path": "requirements.txt",
+      "size": 10
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Consistency Distilled Diff VAE",
+    "fork": false,
+    "full_name": "openai/consistencydecoder",
+    "html_url": "https://github.com/openai/consistencydecoder",
+    "language": "Python",
+    "pushed_at": "2023-11-07T11:21:38Z",
+    "stargazers_count": 2212,
+    "topics": [],
+    "updated_at": "2026-04-22T09:58:06Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

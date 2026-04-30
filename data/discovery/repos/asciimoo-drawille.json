@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "asciimoo/drawille",
+      "target": "exrook/drawille-go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "asciimoo/drawille",
+      "target": "hoelzro/term-drawille",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "asciimoo/drawille",
+      "target": "asciimoo/lua-drawille",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "asciimoo/drawille",
+      "target": "goheeca/cl-drawille",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:59:59.028603+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4574
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Pixel graphics in terminal with unicode braille characters",
+    "fork": false,
+    "full_name": "asciimoo/drawille",
+    "html_url": "https://github.com/asciimoo/drawille",
+    "language": "Python",
+    "pushed_at": "2024-11-13T13:44:56Z",
+    "stargazers_count": 3234,
+    "topics": [],
+    "updated_at": "2026-04-29T17:51:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "asciimoo/lua-drawille",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "exrook/drawille-go",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "goheeca/cl-drawille",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hoelzro/term-drawille",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

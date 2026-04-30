@@ -1,0 +1,598 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@cef221092ed1bacb1cc03d23a2d87d1d172e277b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@cef221092ed1bacb1cc03d23a2d87d1d172e277b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-note.yml"
+    },
+    {
+      "component": "docker://decathlon/release-notes-generator-action:latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-note.yml"
+    },
+    {
+      "component": "docker://decathlon/wiki-page-creator-action:latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-note.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-benchmark.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-benchmark.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-linter.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-linter.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-linter.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-linter.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tox-tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tox-tests.yml"
+    },
+    {
+      "component": "carlosperate/download-file-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tox-tests.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tox-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tox-tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tox-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tox-tests.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tox-tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "miurahr/py7zr",
+      "target": "lyeoni/prenlp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "miurahr/py7zr",
+      "target": "mlox/mlox",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "miurahr/py7zr",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "miurahr/py7zr",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "miurahr/py7zr",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "miurahr/py7zr",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "miurahr/py7zr",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "miurahr/py7zr",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "miurahr/py7zr",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "miurahr/py7zr",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "miurahr/py7zr",
+      "target": "pypa/gh-action-pypi-publish@cef221092ed1bacb1cc03d23a2d87d1d172e277b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-note.yml",
+      "source_repo": "miurahr/py7zr",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-note.yml",
+      "source_repo": "miurahr/py7zr",
+      "target": "docker://decathlon/release-notes-generator-action:latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-note.yml",
+      "source_repo": "miurahr/py7zr",
+      "target": "docker://decathlon/wiki-page-creator-action:latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-note.yml",
+      "source_repo": "miurahr/py7zr",
+      "target": "Milestone Closure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-benchmark.yml",
+      "source_repo": "miurahr/py7zr",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-benchmark.yml",
+      "source_repo": "miurahr/py7zr",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-benchmark.yml",
+      "source_repo": "miurahr/py7zr",
+      "target": "Run Benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-linter.yml",
+      "source_repo": "miurahr/py7zr",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-linter.yml",
+      "source_repo": "miurahr/py7zr",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-linter.yml",
+      "source_repo": "miurahr/py7zr",
+      "target": "Run linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tox-tests.yml",
+      "source_repo": "miurahr/py7zr",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tox-tests.yml",
+      "source_repo": "miurahr/py7zr",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tox-tests.yml",
+      "source_repo": "miurahr/py7zr",
+      "target": "carlosperate/download-file-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tox-tests.yml",
+      "source_repo": "miurahr/py7zr",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-tox-tests.yml",
+      "source_repo": "miurahr/py7zr",
+      "target": "Run Tox tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "miurahr/py7zr",
+      "target": "7-zip",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "miurahr/py7zr",
+      "target": "7zip",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "miurahr/py7zr",
+      "target": "bzip2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "miurahr/py7zr",
+      "target": "compress",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "miurahr/py7zr",
+      "target": "decompression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "miurahr/py7zr",
+      "target": "decryption",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "miurahr/py7zr",
+      "target": "deflate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "miurahr/py7zr",
+      "target": "encryption",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "miurahr/py7zr",
+      "target": "library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "miurahr/py7zr",
+      "target": "lzma",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "miurahr/py7zr",
+      "target": "lzma2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "miurahr/py7zr",
+      "target": "ppmd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "miurahr/py7zr",
+      "target": "zstandard",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:54:49.355535+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 13933
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 5881
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 671
+    },
+    {
+      "path": ".github/workflows/publish-to-pypi.yml",
+      "size": 2759
+    },
+    {
+      "path": ".github/workflows/release-note.yml",
+      "size": 752
+    },
+    {
+      "path": ".github/workflows/run-benchmark.yml",
+      "size": 1132
+    },
+    {
+      "path": ".github/workflows/run-linter.yml",
+      "size": 1444
+    },
+    {
+      "path": ".github/workflows/run-tox-tests.yml",
+      "size": 5629
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "7zip in python3 with ZStandard, PPMd, LZMA2, LZMA1, Delta, BCJ, BZip2, and Deflate compressions, and AES encryption.",
+    "fork": false,
+    "full_name": "miurahr/py7zr",
+    "html_url": "https://github.com/miurahr/py7zr",
+    "language": "Python",
+    "pushed_at": "2026-04-14T22:11:30Z",
+    "stargazers_count": 544,
+    "topics": [
+      "7-zip",
+      "7zip",
+      "aes",
+      "bcj",
+      "bzip2",
+      "cli",
+      "compress",
+      "decompression",
+      "decryption",
+      "deflate",
+      "encryption",
+      "library",
+      "lzma",
+      "lzma2",
+      "ppmd",
+      "python",
+      "zstandard"
+    ],
+    "updated_at": "2026-04-25T19:56:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lyeoni/prenlp",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mlox/mlox",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Milestone Closure",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-note.yml",
+      "term": "Milestone Closure"
+    },
+    {
+      "context_snippet": "Run Benchmark",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-benchmark.yml",
+      "term": "Run Benchmark"
+    },
+    {
+      "context_snippet": "Run linter",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-linter.yml",
+      "term": "Run linter"
+    },
+    {
+      "context_snippet": "Run Tox tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-tox-tests.yml",
+      "term": "Run Tox tests"
+    },
+    {
+      "context_snippet": "======================================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "7-zip"
+    },
+    {
+      "context_snippet": "======================================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "7zip"
+    },
+    {
+      "context_snippet": "======================================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bzip2"
+    },
+    {
+      "context_snippet": "======================================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compress"
+    },
+    {
+      "context_snippet": "======================================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "decompression"
+    },
+    {
+      "context_snippet": "======================================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "decryption"
+    },
+    {
+      "context_snippet": "======================================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deflate"
+    },
+    {
+      "context_snippet": "======================================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "encryption"
+    },
+    {
+      "context_snippet": "======================================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "library"
+    },
+    {
+      "context_snippet": "======================================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lzma"
+    },
+    {
+      "context_snippet": "======================================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lzma2"
+    },
+    {
+      "context_snippet": "======================================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ppmd"
+    },
+    {
+      "context_snippet": "======================================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zstandard"
+    }
+  ]
+}

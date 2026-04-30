@@ -79,6 +79,30 @@
       "source_repo": "zeromq/libzmq",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/zeromq/libzmq/actions/workflows/CI.yaml/badge.svg)](https://github.com/zeromq/libzmq/actions/workflows/CI.yaml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "exponentially/extreme",
+      "status": "candidate-context",
+      "text": "Elixir Adapter for EventStore"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "exponentially/extreme",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/exponentially/extreme/actions/workflows/test.yml/badge.svg)](https://github.com/exponentially/extreme/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0no-co/wonka",
+      "status": "candidate-context",
+      "text": "\ud83c\udfa9 A tiny but capable push & pull stream library for TypeScript and Flow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0no-co/wonka",
+      "status": "candidate-context",
+      "text": "A tiny but capable push & pull stream library for TypeScript and Flow,"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +141,18 @@
       "source_repo": "zeromq/libzmq",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/zeromq/libzmq/actions/workflows/CI.yaml/badge.svg)](https://github.com/zeromq/libzmq/actions/workflows/CI.yaml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "exponentially/extreme",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/exponentially/extreme/actions/workflows/test.yml/badge.svg)](https://github.com/exponentially/extreme/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0no-co/wonka",
+      "status": "candidate",
+      "text": "A tiny but capable push & pull stream library for TypeScript and Flow,"
     }
   ],
   "candidate_related_terms": [
@@ -244,11 +280,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "node-fetch/node-fetch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "exponentially/extreme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "0no-co/wonka"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

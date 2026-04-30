@@ -1,0 +1,156 @@
+{
+  "components": [
+    {
+      "component": "superbrothers/close-pull-request@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-pull-request.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "symfony/cache",
+      "target": "symfony/cache-contracts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "symfony/cache",
+      "target": "symfony/symfony",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-pull-request.yml",
+      "source_repo": "symfony/cache",
+      "target": "superbrothers/close-pull-request@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-pull-request.yml",
+      "source_repo": "symfony/cache",
+      "target": "Close Pull Request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "symfony/cache",
+      "target": "caching",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "symfony/cache",
+      "target": "component",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "symfony/cache",
+      "target": "psr6",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "symfony/cache",
+      "target": "symfony",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "symfony/cache",
+      "target": "symfony-component",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T12:53:01.195687+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 942
+    },
+    {
+      "path": ".github/workflows/close-pull-request.yml",
+      "size": 544
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "8.1",
+    "description": "Provides extended PSR-6, PSR-16 (and tags) implementations",
+    "fork": false,
+    "full_name": "symfony/cache",
+    "html_url": "https://github.com/symfony/cache",
+    "language": "PHP",
+    "pushed_at": "2026-04-29T15:31:50Z",
+    "stargazers_count": 4170,
+    "topics": [
+      "caching",
+      "component",
+      "php",
+      "psr6",
+      "symfony",
+      "symfony-component"
+    ],
+    "updated_at": "2026-04-29T15:32:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "symfony/cache-contracts",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "symfony/symfony",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Close Pull Request",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-pull-request.yml",
+      "term": "Close Pull Request"
+    },
+    {
+      "context_snippet": "Symfony PSR-6 implementation for caching",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "caching"
+    },
+    {
+      "context_snippet": "Symfony PSR-6 implementation for caching",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "component"
+    },
+    {
+      "context_snippet": "Symfony PSR-6 implementation for caching",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "psr6"
+    },
+    {
+      "context_snippet": "Symfony PSR-6 implementation for caching",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "symfony"
+    },
+    {
+      "context_snippet": "Symfony PSR-6 implementation for caching",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "symfony-component"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83c\udf33 Tiny & elegant JavaScript HTTP client based on the Fetch API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "ky \u2014 Tiny and elegant HTTP client based on the Fetch API"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "ky \u2014 Tiny and elegant HTTP client based on the Fetch API"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028990,
+      "status": "candidate",
+      "text": "sleep"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40013092,
+      "status": "candidate",
+      "text": "relaxation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012766,
+      "status": "candidate",
+      "text": "take a breather"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012270,
+      "status": "candidate",
+      "text": "repose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40009196,
+      "status": "candidate",
+      "text": "respite"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rest",
+      "sense_id": "rest#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 100035,
+      "status": "candidate",
+      "text": "repose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 56041,
+      "status": "candidate",
+      "text": "respite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 30061,
+      "status": "candidate",
+      "text": "lie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29049,
+      "status": "candidate",
+      "text": "ease"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24045,
+      "status": "candidate",
+      "text": "perch"
+    }
+  ],
+  "concept_id": "rest",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "rest",
+  "observation_id": "68bb157b464f1eeb",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "rest",
+  "source_context_snippet": "ky \u2014 Tiny and elegant HTTP client based on the Fetch API",
+  "source_file": null,
+  "source_repo": "sindresorhus/ky",
+  "source_repo_description": "\ud83c\udf33 Tiny & elegant JavaScript HTTP client based on the Fetch API"
+}

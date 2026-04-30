@@ -1,0 +1,438 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-brev-tutorial-docker-images.yml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-brev-tutorial-docker-images.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-brev-tutorial-docker-images.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-brev-tutorial-docker-images.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-brev-tutorial-docker-images.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-brev-tutorial-docker-images.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-brev-tutorial-docker-images.yml"
+    },
+    {
+      "component": "nick-fields/retry@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-brev-tutorial-docker-images.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror-base-images.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-comment-fork.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-comment-git-lfs.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-comment-git-lfs.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-comment-git-signatures.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-comment-git-signatures.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-comment-links.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-comment-links.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-comment-notebook-format.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-comment-notebook-format.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-comment-yaml.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-comment-yaml.yml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-brev-tutorial-docker-images.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-brev-tutorial-docker-images.yml"
+    },
+    {
+      "component": "dawidd6/action-download-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-brev-tutorial-docker-images.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-brev-tutorial-docker-images.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-brev-tutorial-docker-images.yml",
+      "source_repo": "NVIDIA/accelerated-computing-hub",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-brev-tutorial-docker-images.yml",
+      "source_repo": "NVIDIA/accelerated-computing-hub",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-brev-tutorial-docker-images.yml",
+      "source_repo": "NVIDIA/accelerated-computing-hub",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-brev-tutorial-docker-images.yml",
+      "source_repo": "NVIDIA/accelerated-computing-hub",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-brev-tutorial-docker-images.yml",
+      "source_repo": "NVIDIA/accelerated-computing-hub",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-brev-tutorial-docker-images.yml",
+      "source_repo": "NVIDIA/accelerated-computing-hub",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-brev-tutorial-docker-images.yml",
+      "source_repo": "NVIDIA/accelerated-computing-hub",
+      "target": "nick-fields/retry@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror-base-images.yml",
+      "source_repo": "NVIDIA/accelerated-computing-hub",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mirror-base-images.yml",
+      "source_repo": "NVIDIA/accelerated-computing-hub",
+      "target": "Mirror Base Images to GHCR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-comment-fork.yml",
+      "source_repo": "NVIDIA/accelerated-computing-hub",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-comment-fork.yml",
+      "source_repo": "NVIDIA/accelerated-computing-hub",
+      "target": "PR Comment on Forks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-comment-git-lfs.yml",
+      "source_repo": "NVIDIA/accelerated-computing-hub",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-comment-git-lfs.yml",
+      "source_repo": "NVIDIA/accelerated-computing-hub",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-comment-git-lfs.yml",
+      "source_repo": "NVIDIA/accelerated-computing-hub",
+      "target": "PR Comment on Git LFS Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-comment-git-signatures.yml",
+      "source_repo": "NVIDIA/accelerated-computing-hub",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-comment-git-signatures.yml",
+      "source_repo": "NVIDIA/accelerated-computing-hub",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-comment-git-signatures.yml",
+      "source_repo": "NVIDIA/accelerated-computing-hub",
+      "target": "PR Comment on Git Signatures Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-comment-links.yml",
+      "source_repo": "NVIDIA/accelerated-computing-hub",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-comment-links.yml",
+      "source_repo": "NVIDIA/accelerated-computing-hub",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-comment-links.yml",
+      "source_repo": "NVIDIA/accelerated-computing-hub",
+      "target": "PR Comment on Link Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-comment-notebook-format.yml",
+      "source_repo": "NVIDIA/accelerated-computing-hub",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-comment-notebook-format.yml",
+      "source_repo": "NVIDIA/accelerated-computing-hub",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-comment-notebook-format.yml",
+      "source_repo": "NVIDIA/accelerated-computing-hub",
+      "target": "PR Comment on Notebook Format Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-comment-yaml.yml",
+      "source_repo": "NVIDIA/accelerated-computing-hub",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-comment-yaml.yml",
+      "source_repo": "NVIDIA/accelerated-computing-hub",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-brev-tutorial-docker-images.yml",
+      "source_repo": "NVIDIA/accelerated-computing-hub",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-brev-tutorial-docker-images.yml",
+      "source_repo": "NVIDIA/accelerated-computing-hub",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-brev-tutorial-docker-images.yml",
+      "source_repo": "NVIDIA/accelerated-computing-hub",
+      "target": "dawidd6/action-download-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-brev-tutorial-docker-images.yml",
+      "source_repo": "NVIDIA/accelerated-computing-hub",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-brev-tutorial-docker-images.yml",
+      "source_repo": "NVIDIA/accelerated-computing-hub",
+      "target": "Test Brev Tutorial Docker Images",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:55:14.988913+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3764
+    },
+    {
+      "path": ".github/workflows/build-brev-tutorial-docker-images.yml",
+      "size": 10305
+    },
+    {
+      "path": ".github/workflows/mirror-base-images.yml",
+      "size": 3085
+    },
+    {
+      "path": ".github/workflows/pr-comment-fork.yml",
+      "size": 1066
+    },
+    {
+      "path": ".github/workflows/pr-comment-git-lfs.yml",
+      "size": 4917
+    },
+    {
+      "path": ".github/workflows/pr-comment-git-signatures.yml",
+      "size": 4204
+    },
+    {
+      "path": ".github/workflows/pr-comment-links.yml",
+      "size": 3976
+    },
+    {
+      "path": ".github/workflows/pr-comment-notebook-format.yml",
+      "size": 3794
+    },
+    {
+      "path": ".github/workflows/pr-comment-yaml.yml",
+      "size": 3634
+    },
+    {
+      "path": ".github/workflows/test-brev-tutorial-docker-images.yml",
+      "size": 7757
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "NVIDIA curated collection of educational resources related to general purpose GPU programming.",
+    "fork": false,
+    "full_name": "NVIDIA/accelerated-computing-hub",
+    "html_url": "https://github.com/NVIDIA/accelerated-computing-hub",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-04-28T02:45:13Z",
+    "stargazers_count": 1516,
+    "topics": [],
+    "updated_at": "2026-04-30T12:06:37Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Mirror Base Images to GHCR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mirror-base-images.yml",
+      "term": "Mirror Base Images to GHCR"
+    },
+    {
+      "context_snippet": "PR Comment on Forks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-comment-fork.yml",
+      "term": "PR Comment on Forks"
+    },
+    {
+      "context_snippet": "PR Comment on Git LFS Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-comment-git-lfs.yml",
+      "term": "PR Comment on Git LFS Check"
+    },
+    {
+      "context_snippet": "PR Comment on Git Signatures Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-comment-git-signatures.yml",
+      "term": "PR Comment on Git Signatures Check"
+    },
+    {
+      "context_snippet": "PR Comment on Link Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-comment-links.yml",
+      "term": "PR Comment on Link Check"
+    },
+    {
+      "context_snippet": "PR Comment on Notebook Format Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-comment-notebook-format.yml",
+      "term": "PR Comment on Notebook Format Check"
+    },
+    {
+      "context_snippet": "Test Brev Tutorial Docker Images",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-brev-tutorial-docker-images.yml",
+      "term": "Test Brev Tutorial Docker Images"
+    }
+  ]
+}

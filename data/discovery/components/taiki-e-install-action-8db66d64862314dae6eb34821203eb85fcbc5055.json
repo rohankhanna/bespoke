@@ -1,0 +1,12 @@
+{
+  "component": "taiki-e/install-action@8db66d64862314dae6eb34821203eb85fcbc5055",
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "Dicklesworthstone/coding_agent_session_search"
+    }
+  ]
+}

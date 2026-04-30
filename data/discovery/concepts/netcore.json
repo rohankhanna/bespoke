@@ -79,6 +79,30 @@
       "source_repo": "PowerShell/PowerShell",
       "status": "candidate-context",
       "text": "Welcome to the PowerShell GitHub Community!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bjartnes/hikke",
+      "status": "candidate-context",
+      "text": "A k6/.NET red/green load testing workshop"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bjartnes/hikke",
+      "status": "candidate-context",
+      "text": "This repository is for a workshop to understand how to introduce and deal with a bounded disturbance."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet-architecture/eShopOnContainers",
+      "status": "candidate-context",
+      "text": "Cross-platform .NET sample microservices and container based application that runs on Linux Windows and macOS. Powered by .NET 7, Docker Containers and Azure Kubernetes Services. Supports Visual Studio, VS for Mac and CLI based environments with Docker CLI, dotnet CLI, VS Code or any other code editor. Moved to https://github.com/dotnet/eShop."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet-architecture/eShopOnContainers",
+      "status": "candidate-context",
+      "text": "As of November 2023, the eShop sample application has been updated and moved to https://github.com/dotnet/eShop. Active development will continue there."
     }
   ],
   "candidate_glosses": [
@@ -117,6 +141,18 @@
       "source_repo": "PowerShell/PowerShell",
       "status": "candidate",
       "text": "Welcome to the PowerShell GitHub Community!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bjartnes/hikke",
+      "status": "candidate",
+      "text": "This repository is for a workshop to understand how to introduce and deal with a bounded disturbance."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet-architecture/eShopOnContainers",
+      "status": "candidate",
+      "text": "As of November 2023, the eShop sample application has been updated and moved to https://github.com/dotnet/eShop. Active development will continue there."
     }
   ],
   "candidate_related_terms": [],
@@ -160,11 +196,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "PowerShell/PowerShell"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "bjartnes/hikke"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "dotnet-architecture/eShopOnContainers"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

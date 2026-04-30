@@ -355,6 +355,150 @@
       "source_repo": "czczup/ViT-Adapter",
       "status": "candidate-context",
       "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/vision-transformer-adapter-for-dense/semantic-segmentation-on-ade20k)](https://paperswithcode.com/sota/semantic-segmentation-on-ade20k?p=vision-transformer-adapter-for-dense)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "smhassanerfani/atlantis",
+      "status": "candidate-context",
+      "text": "A Benchmark for Semantic Segmentation of Waterbody Images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smhassanerfani/atlantis",
+      "status": "candidate-context",
+      "text": "This is the repository for the ATLANTIS. All waterbody labels are comprehensively described in [ATLANTIS Wiki](https://github.com/smhassanerfani/atlantis/wiki). This dataset was developed in the [iWERS](http://ce.sc.edu/goharian/) lab at the University of South Carolina."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "john-rocky/CoreML-Models",
+      "status": "candidate-context",
+      "text": "Converted CoreML Model Zoo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "john-rocky/CoreML-Models",
+      "status": "candidate-context",
+      "text": "Converted Core ML Model Zoo."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kazuto1011/deeplab-pytorch",
+      "status": "candidate-context",
+      "text": "PyTorch re-implementation of DeepLab v2 on COCO-Stuff / PASCAL VOC datasets"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kazuto1011/deeplab-pytorch",
+      "status": "candidate-context",
+      "text": "This is an unofficial **PyTorch** implementation of **DeepLab v2** [[1](##references)] with a **ResNet-101** backbone."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aim-uofa/GenPercept",
+      "status": "candidate-context",
+      "text": "[ICLR2025] GenPercept: Diffusion Models Trained with Large Data Are Transferable Visual Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aim-uofa/GenPercept",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nightrome/cocostuffapi",
+      "status": "candidate-context",
+      "text": "COCO Stuff API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nightrome/cocostuffapi",
+      "status": "candidate-context",
+      "text": "COCO API - http://cocodataset.org/"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HumanSignal/label-studio",
+      "status": "candidate-context",
+      "text": "Label Studio is a multi-type data labeling and annotation tool with standardized output format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HumanSignal/label-studio",
+      "status": "candidate-context",
+      "text": "<img src=\"https://user-images.githubusercontent.com/12534576/192582340-4c9e4401-1fe6-4dbb-95bb-fdbba5493f61.png\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "isl-org/Open3D-ML",
+      "status": "candidate-context",
+      "text": "An extension of Open3D to address 3D Machine Learning tasks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isl-org/Open3D-ML",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenGVLab/InternImage",
+      "status": "candidate-context",
+      "text": "[CVPR 2023 Highlight] InternImage: Exploring Large-Scale Vision Foundation Models with Deformable Convolutions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenGVLab/InternImage",
+      "status": "candidate-context",
+      "text": "<p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PingoLH/FCHarDNet",
+      "status": "candidate-context",
+      "text": "Fully Convolutional HarDNet for Segmentation in Pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PingoLH/FCHarDNet",
+      "status": "candidate-context",
+      "text": "- Added a new v2_transform() method to replace torch.cat + nn.Conv2d combinations with [CatConv2d](https://github.com/PingoLH/CatConv2d), an all-in-1 fused cuda kernel combining Concat and Conv2d."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PingoLH/Pytorch-HarDNet",
+      "status": "candidate-context",
+      "text": "35% faster than ResNet: Harmonic DenseNet, A low memory traffic network"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PingoLH/Pytorch-HarDNet",
+      "status": "candidate-context",
+      "text": "* Fully utilize your cuda cores!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jd-opensource/lapa-dataset",
+      "status": "candidate-context",
+      "text": "A large-scale dataset for face parsing (AAAI2020)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jd-opensource/lapa-dataset",
+      "status": "candidate-context",
+      "text": "<!---->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenGVLab/InternVL-MMDetSeg",
+      "status": "candidate-context",
+      "text": "Train InternViT-6B in MMSegmentation and MMDetection with DeepSpeed"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenGVLab/InternVL-MMDetSeg",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -531,6 +675,78 @@
       "source_repo": "czczup/ViT-Adapter",
       "status": "candidate",
       "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/vision-transformer-adapter-for-dense/semantic-segmentation-on-ade20k)](https://paperswithcode.com/sota/semantic-segmentation-on-ade20k?p=vision-transformer-adapter-for-dense)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smhassanerfani/atlantis",
+      "status": "candidate",
+      "text": "This is the repository for the ATLANTIS. All waterbody labels are comprehensively described in [ATLANTIS Wiki](https://github.com/smhassanerfani/atlantis/wiki). This dataset was developed in the [iWERS](http://ce.sc.edu/goharian/) lab at the University of South Carolina."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "john-rocky/CoreML-Models",
+      "status": "candidate",
+      "text": "Converted Core ML Model Zoo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kazuto1011/deeplab-pytorch",
+      "status": "candidate",
+      "text": "This is an unofficial **PyTorch** implementation of **DeepLab v2** [[1](##references)] with a **ResNet-101** backbone."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aim-uofa/GenPercept",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nightrome/cocostuffapi",
+      "status": "candidate",
+      "text": "COCO API - http://cocodataset.org/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HumanSignal/label-studio",
+      "status": "candidate",
+      "text": "<img src=\"https://user-images.githubusercontent.com/12534576/192582340-4c9e4401-1fe6-4dbb-95bb-fdbba5493f61.png\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isl-org/Open3D-ML",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenGVLab/InternImage",
+      "status": "candidate",
+      "text": "<p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PingoLH/FCHarDNet",
+      "status": "candidate",
+      "text": "- Added a new v2_transform() method to replace torch.cat + nn.Conv2d combinations with [CatConv2d](https://github.com/PingoLH/CatConv2d), an all-in-1 fused cuda kernel combining Concat and Conv2d."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PingoLH/Pytorch-HarDNet",
+      "status": "candidate",
+      "text": "* Fully utilize your cuda cores!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jd-opensource/lapa-dataset",
+      "status": "candidate",
+      "text": "<!---->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenGVLab/InternVL-MMDetSeg",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -748,11 +964,125 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "czczup/ViT-Adapter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "smhassanerfani/atlantis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "john-rocky/CoreML-Models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "kazuto1011/deeplab-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "aim-uofa/GenPercept"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "nightrome/cocostuffapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/MaskDINO"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "khanrc/tcl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/Open3D-ML"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/LargeKernel3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/Stratified-Transformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA/MinkowskiEngine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "qubvel-org/segmentation_models.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "OpenGVLab/InternImage"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "PingoLH/FCHarDNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "PingoLH/Pytorch-HarDNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "jd-opensource/lapa-dataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "OpenGVLab/InternVL-MMDetSeg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "cvat-ai/cvat"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

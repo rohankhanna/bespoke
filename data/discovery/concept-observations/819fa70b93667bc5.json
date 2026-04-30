@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Edge AI Model Development Tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "* Read the documentation landing page before using this repository: [https://github.com/TexasInstruments/edgeai](https://github.com/TexasInstruments/edgeai)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "* Read the documentation landing page before using this repository: [https://github.com/TexasInstruments/edgeai](https://github.com/TexasInstruments/edgeai)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ti-processors",
+      "sense_id": "ti-processors#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ti-processors",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ti-processors",
+  "observation_id": "819fa70b93667bc5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "ti-processors",
+  "source_context_snippet": "* Read the documentation landing page before using this repository: [https://github.com/TexasInstruments/edgeai](https://github.com/TexasInstruments/edgeai)",
+  "source_file": null,
+  "source_repo": "TexasInstruments/edgeai-tensorlab",
+  "source_repo_description": "Edge AI Model Development Tools"
+}

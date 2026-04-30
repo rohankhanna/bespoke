@@ -1,0 +1,44 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GoogleCloudPlatform/dotnet-docs-samples",
+      "target": "samples",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T12:53:18.725677+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1347
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": ".NET code samples used on https://cloud.google.com",
+    "fork": false,
+    "full_name": "GoogleCloudPlatform/dotnet-docs-samples",
+    "html_url": "https://github.com/GoogleCloudPlatform/dotnet-docs-samples",
+    "language": "C#",
+    "pushed_at": "2026-04-29T09:20:23Z",
+    "stargazers_count": 831,
+    "topics": [
+      "samples"
+    ],
+    "updated_at": "2026-04-29T09:20:28Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A collection of samples that demonstrate how to call some",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "samples"
+    }
+  ]
+}

@@ -4,28 +4,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "linebender/resvg",
-      "target": "google/skia",
+      "target": "linebender/resvg-test-suite",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "linebender/resvg",
-      "target": "harfbuzz/harfbuzz",
+      "target": "linebender/simplecss",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "linebender/resvg",
-      "target": "harfbuzz/rustybuzz",
+      "target": "razrfalcon/fontdb",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "linebender/resvg",
-      "target": "harfbuzz/ttf-parser",
+      "target": "razrfalcon/pico-args",
       "target_type": "repository"
     },
     {
@@ -127,6 +127,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-18T11:41:43.530265+00:00",
+  "generated_at": "2026-04-30T12:45:20.475770+00:00",
   "source_repo": "linebender/resvg"
 }

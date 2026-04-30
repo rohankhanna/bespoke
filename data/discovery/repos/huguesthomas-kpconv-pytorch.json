@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HuguesTHOMAS/KPConv-PyTorch",
+      "target": "huguesthomas/kpconv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HuguesTHOMAS/KPConv-PyTorch",
+      "target": "nicolas-chaulet/torch-points3d",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:09:10.781558+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2346
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Kernel Point Convolution implemented in PyTorch",
+    "fork": false,
+    "full_name": "HuguesTHOMAS/KPConv-PyTorch",
+    "html_url": "https://github.com/HuguesTHOMAS/KPConv-PyTorch",
+    "language": "Python",
+    "pushed_at": "2025-10-17T15:30:02Z",
+    "stargazers_count": 885,
+    "topics": [],
+    "updated_at": "2026-04-28T07:28:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "huguesthomas/kpconv",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nicolas-chaulet/torch-points3d",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

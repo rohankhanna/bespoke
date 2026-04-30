@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T13:02:09.888275+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 159
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Simple starter CMake project that uses NVBench.",
+    "fork": false,
+    "full_name": "NVIDIA/nvbench_demo",
+    "html_url": "https://github.com/NVIDIA/nvbench_demo",
+    "language": "CMake",
+    "pushed_at": "2025-05-06T13:35:23Z",
+    "stargazers_count": 16,
+    "topics": [],
+    "updated_at": "2026-03-11T12:54:58Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

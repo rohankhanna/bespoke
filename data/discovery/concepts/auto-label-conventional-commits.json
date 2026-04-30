@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Auto Label Conventional Commits"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "janhq/jan",
+      "status": "candidate-context",
+      "text": "Jan is an open source alternative to ChatGPT that runs 100% offline on your computer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "janhq/jan",
+      "status": "candidate-context",
+      "text": "\"Auto Label Conventional Commits\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "janhq/jan",
+      "status": "candidate",
+      "text": "\"Auto Label Conventional Commits\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27212,
+      "status": "candidate",
+      "text": "jeep"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27212,
+      "status": "candidate",
+      "text": "toyota"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27200,
+      "status": "candidate",
+      "text": "hack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27097,
+      "status": "candidate",
+      "text": "set"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27097,
+      "status": "candidate",
+      "text": "stock"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Auto Label Conventional Commits",
+  "concept_id": "auto-label-conventional-commits",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/auto-label-conventional-commits.yaml",
+      "source_repo": "janhq/jan"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Auto Label Conventional Commits",
+      "sense_id": "auto-label-conventional-commits#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "resilient"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Polly-Contrib/Simmy",
+      "status": "candidate-context",
+      "text": "Simmy is a chaos-engineering and fault-injection tool, integrating with the Polly resilience project for .NET"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Polly-Contrib/Simmy",
+      "status": "candidate-context",
+      "text": "Simmy is a [chaos-engineering](http://principlesofchaos.org/) and fault-injection tool, integrating with the [Polly resilience project for .NET](https://github.com/App-vNext/Polly). It is releasing April 2019 and works with [Polly v7.0.0](https://www.nuget.org/packages/Polly/7.1\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Polly-Contrib/Simmy",
+      "status": "candidate",
+      "text": "Simmy is a [chaos-engineering](http://principlesofchaos.org/) and fault-injection tool, integrating with the [Polly resilience project for .NET](https://github.com/App-vNext/Polly). It is releasing April 2019 and works with [Polly v7.0.0](https://www.nuget.org/packages/Polly/7.1\u2026"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39945859,
+      "status": "candidate",
+      "text": "springy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39945796,
+      "status": "candidate",
+      "text": "elastic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39884396,
+      "status": "candidate",
+      "text": "whippy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39859519,
+      "status": "candidate",
+      "text": "bouncy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39821606,
+      "status": "candidate",
+      "text": "live"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 36033,
+      "status": "candidate",
+      "text": "spirited"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15054,
+      "status": "candidate",
+      "text": "live"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13051,
+      "status": "candidate",
+      "text": "elastic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3026,
+      "status": "candidate",
+      "text": "bouncy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2032,
+      "status": "candidate",
+      "text": "springy"
+    }
+  ],
+  "canonical_name": "resilient",
+  "concept_id": "resilient",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Polly-Contrib/Simmy"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "resilient",
+      "sense_id": "resilient#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -226,6 +226,26 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/checks.yml",
       "source_repo": "nvarner/typst-lsp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "guzzle/guzzle"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "kysely-org/kysely-ctl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "Beaglefoot/awk-language-server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "secretflow/kuscia"
     }
   ],
   "term": "Checks"

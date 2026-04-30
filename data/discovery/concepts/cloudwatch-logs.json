@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "cloudwatch-logs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ljacobsson/cw-logs-insights-snippets",
+      "status": "candidate-context",
+      "text": "AWS SAM project that adds the snippets from serverlessland.com/snippets as saved queries in CloudWatch Logs Insights"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ljacobsson/cw-logs-insights-snippets",
+      "status": "candidate-context",
+      "text": "[Serverlessland.com/snippets](https://serverlessland.com/snippets) hosts a growing number of community provided snippets. Many of these are useful [CloudWatch Logs Insights](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/AnalyzingLogData.html) snippets."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ljacobsson/cw-logs-insights-snippets",
+      "status": "candidate",
+      "text": "[Serverlessland.com/snippets](https://serverlessland.com/snippets) hosts a growing number of community provided snippets. Many of these are useful [CloudWatch Logs Insights](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/AnalyzingLogData.html) snippets."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "cloudwatch-logs",
+  "concept_id": "cloudwatch-logs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ljacobsson/cw-logs-insights-snippets"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cloudwatch-logs",
+      "sense_id": "cloudwatch-logs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

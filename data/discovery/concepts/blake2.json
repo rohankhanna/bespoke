@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "blake2"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sp1-patches/RustCrypto-hashes",
+      "status": "candidate-context",
+      "text": "Collection of cryptographic hash functions written in pure Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sp1-patches/RustCrypto-hashes",
+      "status": "candidate-context",
+      "text": "blake2"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sp1-patches/RustCrypto-hashes",
+      "status": "candidate",
+      "text": "blake2"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "blake2",
+  "concept_id": "blake2",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/blake2.yml",
+      "source_repo": "sp1-patches/RustCrypto-hashes"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "blake2",
+      "sense_id": "blake2#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

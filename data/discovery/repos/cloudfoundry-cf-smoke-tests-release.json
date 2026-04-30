@@ -1,0 +1,44 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudfoundry/cf-smoke-tests-release",
+      "target": "cff-wg-app-runtime-deployments",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:05:33.499412+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1299
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "cloudfoundry/cf-smoke-tests-release",
+    "html_url": "https://github.com/cloudfoundry/cf-smoke-tests-release",
+    "language": "HTML",
+    "pushed_at": "2026-04-17T03:32:32Z",
+    "stargazers_count": 1,
+    "topics": [
+      "cff-wg-app-runtime-deployments"
+    ],
+    "updated_at": "2026-04-17T03:32:36Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This is the bosh release for [cf-smoke-tests](https://github.com/cloudfoundry/cf-smoke-tests). Once deployed, the tests can be run as a bosh errand:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cff-wg-app-runtime-deployments"
+    }
+  ]
+}

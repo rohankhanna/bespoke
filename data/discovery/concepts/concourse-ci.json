@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "concourse-ci"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudfoundry/bbl-state-resource",
+      "status": "candidate-context",
+      "text": "a concourse resource for manipulating bbl states"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/bbl-state-resource",
+      "status": "candidate-context",
+      "text": "This is a concourse resource for provisioning bosh directors and using [bbl](https://github.com/cloudfoundry/bosh-bootloader) to manipulate cloud-stored bbl-states."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/bbl-state-resource",
+      "status": "candidate",
+      "text": "This is a concourse resource for provisioning bosh directors and using [bbl](https://github.com/cloudfoundry/bosh-bootloader) to manipulate cloud-stored bbl-states."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "concourse-ci",
+  "concept_id": "concourse-ci",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "cloudfoundry/bbl-state-resource"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "concourse-ci",
+      "sense_id": "concourse-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

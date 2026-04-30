@@ -1,0 +1,44 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TexasInstruments/edgeai",
+      "target": "ti-processors",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:15:23.506862+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 610
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Edge AI Software and Development Tools",
+    "fork": false,
+    "full_name": "TexasInstruments/edgeai",
+    "html_url": "https://github.com/TexasInstruments/edgeai",
+    "language": "Shell",
+    "pushed_at": "2026-04-04T13:11:31Z",
+    "stargazers_count": 158,
+    "topics": [
+      "ti-processors"
+    ],
+    "updated_at": "2026-04-04T13:11:35Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ti-processors"
+    }
+  ]
+}

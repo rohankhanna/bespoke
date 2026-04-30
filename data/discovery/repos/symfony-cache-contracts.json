@@ -1,0 +1,130 @@
+{
+  "components": [
+    {
+      "component": "superbrothers/close-pull-request@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-pull-request.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "symfony/cache-contracts",
+      "target": "symfony/contracts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-pull-request.yml",
+      "source_repo": "symfony/cache-contracts",
+      "target": "superbrothers/close-pull-request@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-pull-request.yml",
+      "source_repo": "symfony/cache-contracts",
+      "target": "Close Pull Request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "symfony/cache-contracts",
+      "target": "cache",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "symfony/cache-contracts",
+      "target": "contract",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "symfony/cache-contracts",
+      "target": "symfony",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "symfony/cache-contracts",
+      "target": "symfony-contract",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:12:15.097367+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 326
+    },
+    {
+      "path": ".github/workflows/close-pull-request.yml",
+      "size": 544
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A set of cache abstractions extracted out of the Symfony components",
+    "fork": false,
+    "full_name": "symfony/cache-contracts",
+    "html_url": "https://github.com/symfony/cache-contracts",
+    "language": "PHP",
+    "pushed_at": "2026-01-25T12:13:22Z",
+    "stargazers_count": 2382,
+    "topics": [
+      "cache",
+      "contract",
+      "php",
+      "symfony",
+      "symfony-contract"
+    ],
+    "updated_at": "2026-04-16T07:34:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "symfony/contracts",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Close Pull Request",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-pull-request.yml",
+      "term": "Close Pull Request"
+    },
+    {
+      "context_snippet": "Symfony Cache Contracts",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cache"
+    },
+    {
+      "context_snippet": "Symfony Cache Contracts",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "contract"
+    },
+    {
+      "context_snippet": "Symfony Cache Contracts",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "symfony"
+    },
+    {
+      "context_snippet": "Symfony Cache Contracts",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "symfony-contract"
+    }
+  ]
+}

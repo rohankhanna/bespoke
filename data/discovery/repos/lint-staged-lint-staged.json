@@ -694,7 +694,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T08:26:20.124744+00:00",
+  "fetched_at": "2026-04-30T13:54:06.319452+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -735,7 +735,7 @@
     "html_url": "https://github.com/lint-staged/lint-staged",
     "language": "JavaScript",
     "pushed_at": "2026-04-29T17:32:23Z",
-    "stargazers_count": 14591,
+    "stargazers_count": 14592,
     "topics": [
       "developer-experience",
       "eslint",
@@ -745,7 +745,7 @@
       "stylelint",
       "workflow"
     ],
-    "updated_at": "2026-04-30T04:08:41Z"
+    "updated_at": "2026-04-30T11:38:09Z"
   },
   "repo_links": [
     {

@@ -328,6 +328,18 @@
       "source_repo": "AcademySoftwareFoundation/Imath",
       "status": "candidate-context",
       "text": "Website"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jline/jline3",
+      "status": "candidate-context",
+      "text": "JLine is a Java library for handling console input."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jline/jline3",
+      "status": "candidate-context",
+      "text": "Website"
     }
   ],
   "candidate_glosses": [
@@ -490,6 +502,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "AcademySoftwareFoundation/Imath",
+      "status": "candidate",
+      "text": "Website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jline/jline3",
       "status": "candidate",
       "text": "Website"
     }
@@ -805,11 +823,35 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/website_workflow.yml",
       "source_repo": "AcademySoftwareFoundation/Imath"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/website.yml",
+      "source_repo": "graphql-hive/graphql-eslint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/website.yml",
+      "source_repo": "graphql-hive/graphql-config"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/website.yml",
+      "source_repo": "graphql-hive/graphql-inspector"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/website.yml",
+      "source_repo": "jline/jline3"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

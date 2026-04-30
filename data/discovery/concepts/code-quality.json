@@ -361,6 +361,66 @@
       "source_repo": "pykeio/ort",
       "status": "candidate-context",
       "text": "\ud83d\udccb Code Quality"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RustAudio/cpal",
+      "status": "candidate-context",
+      "text": "Cross-platform audio I/O library in pure Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RustAudio/cpal",
+      "status": "candidate-context",
+      "text": "Code Quality"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ZhuoZhuoCrayon/throttled-py",
+      "status": "candidate-context",
+      "text": "\ud83d\udd27 High-performance Python rate limiting library with multiple algorithms (Fixed Window, Sliding Window, Token Bucket, Leaky Bucket & GCRA) and storage backends (Redis, In-Memory)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ZhuoZhuoCrayon/throttled-py",
+      "status": "candidate-context",
+      "text": "Code Quality"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebook/pyre-check",
+      "status": "candidate-context",
+      "text": "Performant type-checking for python."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/pyre-check",
+      "status": "candidate-context",
+      "text": "[![tests](https://github.com/facebook/pyre-check/workflows/tests/badge.svg)](https://github.com/facebook/pyre-check/actions/workflows/tests.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "detekt/detekt-intellij-plugin",
+      "status": "candidate-context",
+      "text": "detekt plugin for IntelliJ"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "detekt/detekt-intellij-plugin",
+      "status": "candidate-context",
+      "text": "[![Join the chat at https://kotlinlang.slack.com/messages/C88E12QH4/convo/C0BQ5GZ0S-1511956674.000289/](https://img.shields.io/badge/chat-on_slack-red.svg?style=flat-square)](https://kotlinlang.slack.com/messages/C88E12QH4/convo/C0BQ5GZ0S-1511956674.000289/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "detekt/sonar-detekt",
+      "status": "candidate-context",
+      "text": "SonarQube plugin for Kotlin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "detekt/sonar-detekt",
+      "status": "candidate-context",
+      "text": "Now that Sonarqube officially supports Kotlin with detekt issue import, this plugin repository has been archived."
     }
   ],
   "candidate_glosses": [
@@ -537,6 +597,36 @@
       "source_repo": "pykeio/ort",
       "status": "candidate",
       "text": "\ud83d\udccb Code Quality"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RustAudio/cpal",
+      "status": "candidate",
+      "text": "Code Quality"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ZhuoZhuoCrayon/throttled-py",
+      "status": "candidate",
+      "text": "Code Quality"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/pyre-check",
+      "status": "candidate",
+      "text": "[![tests](https://github.com/facebook/pyre-check/workflows/tests/badge.svg)](https://github.com/facebook/pyre-check/actions/workflows/tests.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "detekt/detekt-intellij-plugin",
+      "status": "candidate",
+      "text": "[![Join the chat at https://kotlinlang.slack.com/messages/C88E12QH4/convo/C0BQ5GZ0S-1511956674.000289/](https://img.shields.io/badge/chat-on_slack-red.svg?style=flat-square)](https://kotlinlang.slack.com/messages/C88E12QH4/convo/C0BQ5GZ0S-1511956674.000289/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "detekt/sonar-detekt",
+      "status": "candidate",
+      "text": "Now that Sonarqube officially supports Kotlin with detekt issue import, this plugin repository has been archived."
     }
   ],
   "candidate_related_terms": [
@@ -802,11 +892,53 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "detekt/detekt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/quality.yml",
+      "source_repo": "RustAudio/cpal"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/code_quality.yml",
+      "source_repo": "ZhuoZhuoCrayon/throttled-py"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "facebook/pyre-check"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "wemake-services/flake8-eradicate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "detekt/detekt-intellij-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "detekt/sonar-detekt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "detekt/detekt"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

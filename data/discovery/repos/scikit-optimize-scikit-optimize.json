@@ -1,0 +1,261 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "scikit-optimize/scikit-optimize",
+      "target": "conda-forge/scikit-optimize-feedstock",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scikit-optimize/scikit-optimize",
+      "target": "bayesian-optimization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scikit-optimize/scikit-optimize",
+      "target": "bayesopt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scikit-optimize/scikit-optimize",
+      "target": "binder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scikit-optimize/scikit-optimize",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scikit-optimize/scikit-optimize",
+      "target": "hyperparameter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scikit-optimize/scikit-optimize",
+      "target": "hyperparameter-optimization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scikit-optimize/scikit-optimize",
+      "target": "hyperparameter-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scikit-optimize/scikit-optimize",
+      "target": "hyperparameter-tuning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scikit-optimize/scikit-optimize",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scikit-optimize/scikit-optimize",
+      "target": "optimization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scikit-optimize/scikit-optimize",
+      "target": "scientific-computing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scikit-optimize/scikit-optimize",
+      "target": "scientific-visualization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scikit-optimize/scikit-optimize",
+      "target": "scikit-learn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scikit-optimize/scikit-optimize",
+      "target": "sequential-recommendation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scikit-optimize/scikit-optimize",
+      "target": "visualization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:06:33.025282+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 6905
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 221
+    },
+    {
+      "path": "requirements.txt",
+      "size": 97
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Sequential model-based optimization with a  `scipy.optimize` interface",
+    "fork": false,
+    "full_name": "scikit-optimize/scikit-optimize",
+    "html_url": "https://github.com/scikit-optimize/scikit-optimize",
+    "language": "Python",
+    "pushed_at": "2024-02-23T07:05:22Z",
+    "stargazers_count": 2825,
+    "topics": [
+      "bayesian-optimization",
+      "bayesopt",
+      "binder",
+      "hacktoberfest",
+      "hyperparameter",
+      "hyperparameter-optimization",
+      "hyperparameter-search",
+      "hyperparameter-tuning",
+      "machine-learning",
+      "optimization",
+      "scientific-computing",
+      "scientific-visualization",
+      "scikit-learn",
+      "sequential-recommendation",
+      "visualization"
+    ],
+    "updated_at": "2026-04-30T12:28:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "conda-forge/scikit-optimize-feedstock",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "|Logo|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bayesian-optimization"
+    },
+    {
+      "context_snippet": "|Logo|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bayesopt"
+    },
+    {
+      "context_snippet": "|Logo|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "binder"
+    },
+    {
+      "context_snippet": "|Logo|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "|Logo|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hyperparameter"
+    },
+    {
+      "context_snippet": "|Logo|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hyperparameter-optimization"
+    },
+    {
+      "context_snippet": "|Logo|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hyperparameter-search"
+    },
+    {
+      "context_snippet": "|Logo|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hyperparameter-tuning"
+    },
+    {
+      "context_snippet": "|Logo|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "|Logo|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "optimization"
+    },
+    {
+      "context_snippet": "|Logo|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scientific-computing"
+    },
+    {
+      "context_snippet": "|Logo|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scientific-visualization"
+    },
+    {
+      "context_snippet": "|Logo|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scikit-learn"
+    },
+    {
+      "context_snippet": "|Logo|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sequential-recommendation"
+    },
+    {
+      "context_snippet": "|Logo|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visualization"
+    }
+  ]
+}

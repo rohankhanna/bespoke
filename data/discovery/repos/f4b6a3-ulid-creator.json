@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "f4b6a3/ulid-creator",
+      "target": "f4b6a3/uuid-creator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "f4b6a3/ulid-creator",
+      "target": "guid",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "f4b6a3/ulid-creator",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "f4b6a3/ulid-creator",
+      "target": "ulid",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "f4b6a3/ulid-creator",
+      "target": "uuid",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:02:51.424244+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9163
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Java library for generating Universally Unique Lexicographically Sortable Identifiers (ULID)",
+    "fork": false,
+    "full_name": "f4b6a3/ulid-creator",
+    "html_url": "https://github.com/f4b6a3/ulid-creator",
+    "language": "Java",
+    "pushed_at": "2026-02-21T23:39:11Z",
+    "stargazers_count": 447,
+    "topics": [
+      "guid",
+      "id",
+      "java",
+      "ulid",
+      "uuid"
+    ],
+    "updated_at": "2026-04-30T01:27:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "f4b6a3/uuid-creator",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "ULID Creator",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "guid"
+    },
+    {
+      "context_snippet": "ULID Creator",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "ULID Creator",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ulid"
+    },
+    {
+      "context_snippet": "ULID Creator",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "uuid"
+    }
+  ]
+}

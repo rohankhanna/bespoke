@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "olegchomp/TouchDiffusion",
+      "target": "touchdesigner",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "olegchomp/TouchDiffusion",
+      "target": "touchdesigner-components",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:08:37.923513+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3782
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "TouchDesigner implementation for real-time Stable Diffusion interactive generation with StreamDiffusion.",
+    "fork": false,
+    "full_name": "olegchomp/TouchDiffusion",
+    "html_url": "https://github.com/olegchomp/TouchDiffusion",
+    "language": "Python",
+    "pushed_at": "2024-07-12T00:08:00Z",
+    "stargazers_count": 290,
+    "topics": [
+      "touchdesigner",
+      "touchdesigner-components"
+    ],
+    "updated_at": "2026-04-26T10:44:21Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<a href=\"https://discord.com/invite/wNW8xkEjrf\"><img src=\"https://discord.com/api/guilds/838923088997122100/widget.png?style=shield\" alt=\"Discord Shield\"/></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "touchdesigner"
+    },
+    {
+      "context_snippet": "<a href=\"https://discord.com/invite/wNW8xkEjrf\"><img src=\"https://discord.com/api/guilds/838923088997122100/widget.png?style=shield\" alt=\"Discord Shield\"/></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "touchdesigner-components"
+    }
+  ]
+}

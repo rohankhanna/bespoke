@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A distilled Segment Anything (SAM) model capable of running real-time with NVIDIA TensorRT"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h1 align=\"center\"><span>NanoSAM</span></h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h1 align=\"center\"><span>NanoSAM</span></h1>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29881089,
+      "status": "candidate",
+      "text": "realtime"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29799550,
+      "status": "candidate",
+      "text": "actual"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29798148,
+      "status": "candidate",
+      "text": "real-world"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29795593,
+      "status": "candidate",
+      "text": "momentary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29794866,
+      "status": "candidate",
+      "text": "instant"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "real-time",
+      "sense_id": "real-time#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "real-time",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "real-time",
+  "observation_id": "861cc0b8b8dd3cde",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "real-time",
+  "source_context_snippet": "<h1 align=\"center\"><span>NanoSAM</span></h1>",
+  "source_file": null,
+  "source_repo": "NVIDIA-AI-IOT/nanosam",
+  "source_repo_description": "A distilled Segment Anything (SAM) model capable of running real-time with NVIDIA TensorRT"
+}

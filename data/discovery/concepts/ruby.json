@@ -1096,6 +1096,270 @@
       "source_repo": "timdorr/tesla-api",
       "status": "candidate-context",
       "text": "Referrals are back! Need a vehicle to test with? [Get a Tesla with free supercharging](http://ts.la/timothy8449)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rgeo/rgeo",
+      "status": "candidate-context",
+      "text": "Geospatial data library for Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rgeo/rgeo",
+      "status": "candidate-context",
+      "text": "[![Gem Version](https://badge.fury.io/rb/rgeo.svg)](http://badge.fury.io/rb/rgeo)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "postmodern/ruby-install",
+      "status": "candidate-context",
+      "text": "Installs Ruby, JRuby, TruffleRuby, or mruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "postmodern/ruby-install",
+      "status": "candidate-context",
+      "text": "Installs [Ruby], [JRuby], [TruffleRuby] (native / GraalVM), or [mruby]."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "viafintech/gcra-ruby",
+      "status": "candidate-context",
+      "text": "Generic cell rate algorithm (leaky bucket) implementation for rate limiting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "viafintech/gcra-ruby",
+      "status": "candidate-context",
+      "text": "Ruby"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jruby/jruby",
+      "status": "candidate-context",
+      "text": "JRuby, an implementation of Ruby on the JVM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jruby/jruby",
+      "status": "candidate-context",
+      "text": "Master: [![JRuby CI](https://github.com/jruby/jruby/actions/workflows/ci.yml/badge.svg)](https://github.com/jruby/jruby/actions/workflows/ci.yml), [![JRuby CI (Windows)](https://github.com/jruby/jruby/actions/workflows/ci-windows.yml/badge.svg)](https://github.com/jruby/jruby/ac\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ruby/ruby-bench",
+      "status": "candidate-context",
+      "text": "Set of benchmarks for the Ruby programming language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/ruby-bench",
+      "status": "candidate-context",
+      "text": "ruby-bench"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asafschers/scoruby",
+      "status": "candidate-context",
+      "text": "Ruby Scoring API for PMML"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asafschers/scoruby",
+      "status": "candidate-context",
+      "text": "<a href=\"https://codeclimate.com/github/asafschers/scoruby\"><img src=\"https://codeclimate.com/github/asafschers/scoruby/badges/gpa.svg\" /></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lobsters/lobsters",
+      "status": "candidate-context",
+      "text": "Computing-focused community centered around link aggregation and discussion"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lobsters/lobsters",
+      "status": "candidate-context",
+      "text": "[Lobsters](https://lobste.rs) is a Rails codebase and uses a SQL (MariaDB in production) backend for the database."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rubocop/rubocop-performance",
+      "status": "candidate-context",
+      "text": "An extension of RuboCop focused on code performance checks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rubocop/rubocop-performance",
+      "status": "candidate-context",
+      "text": "[![Gem Version](https://badge.fury.io/rb/rubocop-performance.svg)](https://badge.fury.io/rb/rubocop-performance)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "djezzzl/factory_trace",
+      "status": "candidate-context",
+      "text": "Simple tool to maintain factories and traits from FactoryBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "djezzzl/factory_trace",
+      "status": "candidate-context",
+      "text": "[![Gem Version][3]][4]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "donny741/ruby-lsp-factory_bot",
+      "status": "candidate-context",
+      "text": "Ruby LSP add-on that provides additional editor features for FactoryBot factories"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "donny741/ruby-lsp-factory_bot",
+      "status": "candidate-context",
+      "text": "Ruby"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "johansenja/ruby-lsp-rails-factory-bot",
+      "status": "candidate-context",
+      "text": "A ruby-lsp-rails addon providing intellisense for factory bot factories"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "johansenja/ruby-lsp-rails-factory-bot",
+      "status": "candidate-context",
+      "text": "Ruby"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Shopify/ruby-lsp",
+      "status": "candidate-context",
+      "text": "An opinionated language server for Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shopify/ruby-lsp",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "artichoke/spec",
+      "status": "candidate-context",
+      "text": "Artichoke fork of the Ruby Spec Suite aka ruby/spec"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artichoke/spec",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/ruby/spec.svg)](https://travis-ci.org/ruby/spec)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opal/opal",
+      "status": "candidate-context",
+      "text": "Ruby \u2665\ufe0e JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opal/opal",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "karafka/karafka-web",
+      "status": "candidate-context",
+      "text": "Web UI for monitoring and managing Karafka consumers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karafka/karafka-web",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/karafka/karafka-web/workflows/ci/badge.svg)](https://github.com/karafka/karafka-web/actions?query=workflow%3Aci)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "minitest/minitest",
+      "status": "candidate-context",
+      "text": "minitest provides a complete suite of testing facilities supporting TDD, BDD, and benchmarking."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "minitest/minitest",
+      "status": "candidate-context",
+      "text": "CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "matsadler/magnus",
+      "status": "candidate-context",
+      "text": "Ruby bindings for Rust. Write Ruby extension gems in Rust, or call Ruby from Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matsadler/magnus",
+      "status": "candidate-context",
+      "text": "High level Ruby bindings for Rust. Write Ruby extension gems in Rust, or call"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rgeo/activerecord-postgis-adapter",
+      "status": "candidate-context",
+      "text": "ActiveRecord connection adapter for PostGIS, based on postgresql and rgeo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rgeo/activerecord-postgis-adapter",
+      "status": "candidate-context",
+      "text": "[![Gem Version](https://badge.fury.io/rb/activerecord-postgis-adapter.svg)](https://badge.fury.io/rb/activerecord-postgis-adapter)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rgeo/rgeo-geojson",
+      "status": "candidate-context",
+      "text": "RGeo component for reading and writing GeoJSON"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rgeo/rgeo-geojson",
+      "status": "candidate-context",
+      "text": "[![Gem Version](https://badge.fury.io/rb/rgeo-geojson.svg)](http://badge.fury.io/rb/rgeo-geojson)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RubyCrypto/rbnacl",
+      "status": "candidate-context",
+      "text": "Ruby FFI binding to the Networking and Cryptography (NaCl) library (a.k.a. libsodium)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RubyCrypto/rbnacl",
+      "status": "candidate-context",
+      "text": "![RbNaCl](https://raw.github.com/RubyCrypto/rbnacl/master/images/logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DmitryTsepelev/store_model",
+      "status": "candidate-context",
+      "text": "Work with JSON-backed attributes as ActiveRecord-ish models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DmitryTsepelev/store_model",
+      "status": "candidate-context",
+      "text": "**StoreModel** gem allows you to wrap JSON-backed DB columns with ActiveModel-like classes."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yoshoku/numo-narray-alt",
+      "status": "candidate-context",
+      "text": "Numo::NArray Alternative (numo-narray-alt) is a project forked from Numo::NArray"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yoshoku/numo-narray-alt",
+      "status": "candidate-context",
+      "text": "[![Gem Version](https://badge.fury.io/rb/numo-narray-alt.svg)](https://badge.fury.io/rb/numo-narray-alt)"
     }
   ],
   "candidate_glosses": [
@@ -1656,6 +1920,138 @@
       "source_repo": "timdorr/tesla-api",
       "status": "candidate",
       "text": "Referrals are back! Need a vehicle to test with? [Get a Tesla with free supercharging](http://ts.la/timothy8449)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rgeo/rgeo",
+      "status": "candidate",
+      "text": "[![Gem Version](https://badge.fury.io/rb/rgeo.svg)](http://badge.fury.io/rb/rgeo)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "postmodern/ruby-install",
+      "status": "candidate",
+      "text": "Installs [Ruby], [JRuby], [TruffleRuby] (native / GraalVM), or [mruby]."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "viafintech/gcra-ruby",
+      "status": "candidate",
+      "text": "Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jruby/jruby",
+      "status": "candidate",
+      "text": "Master: [![JRuby CI](https://github.com/jruby/jruby/actions/workflows/ci.yml/badge.svg)](https://github.com/jruby/jruby/actions/workflows/ci.yml), [![JRuby CI (Windows)](https://github.com/jruby/jruby/actions/workflows/ci-windows.yml/badge.svg)](https://github.com/jruby/jruby/ac\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/ruby-bench",
+      "status": "candidate",
+      "text": "ruby-bench"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asafschers/scoruby",
+      "status": "candidate",
+      "text": "<a href=\"https://codeclimate.com/github/asafschers/scoruby\"><img src=\"https://codeclimate.com/github/asafschers/scoruby/badges/gpa.svg\" /></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lobsters/lobsters",
+      "status": "candidate",
+      "text": "[Lobsters](https://lobste.rs) is a Rails codebase and uses a SQL (MariaDB in production) backend for the database."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rubocop/rubocop-performance",
+      "status": "candidate",
+      "text": "[![Gem Version](https://badge.fury.io/rb/rubocop-performance.svg)](https://badge.fury.io/rb/rubocop-performance)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "djezzzl/factory_trace",
+      "status": "candidate",
+      "text": "[![Gem Version][3]][4]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "donny741/ruby-lsp-factory_bot",
+      "status": "candidate",
+      "text": "Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "johansenja/ruby-lsp-rails-factory-bot",
+      "status": "candidate",
+      "text": "Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shopify/ruby-lsp",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artichoke/spec",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/ruby/spec.svg)](https://travis-ci.org/ruby/spec)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opal/opal",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karafka/karafka-web",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/karafka/karafka-web/workflows/ci/badge.svg)](https://github.com/karafka/karafka-web/actions?query=workflow%3Aci)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "minitest/minitest",
+      "status": "candidate",
+      "text": "CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matsadler/magnus",
+      "status": "candidate",
+      "text": "High level Ruby bindings for Rust. Write Ruby extension gems in Rust, or call"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rgeo/activerecord-postgis-adapter",
+      "status": "candidate",
+      "text": "[![Gem Version](https://badge.fury.io/rb/activerecord-postgis-adapter.svg)](https://badge.fury.io/rb/activerecord-postgis-adapter)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rgeo/rgeo-geojson",
+      "status": "candidate",
+      "text": "[![Gem Version](https://badge.fury.io/rb/rgeo-geojson.svg)](http://badge.fury.io/rb/rgeo-geojson)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RubyCrypto/rbnacl",
+      "status": "candidate",
+      "text": "![RbNaCl](https://raw.github.com/RubyCrypto/rbnacl/master/images/logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DmitryTsepelev/store_model",
+      "status": "candidate",
+      "text": "**StoreModel** gem allows you to wrap JSON-backed DB columns with ActiveModel-like classes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yoshoku/numo-narray-alt",
+      "status": "candidate",
+      "text": "[![Gem Version](https://badge.fury.io/rb/numo-narray-alt.svg)](https://badge.fury.io/rb/numo-narray-alt)"
     }
   ],
   "candidate_related_terms": [
@@ -2347,11 +2743,161 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "timdorr/tesla-api"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "rgeo/rgeo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "libvips/ruby-vips"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "postmodern/ruby-install"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "viafintech/gcra-ruby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "jruby/jruby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ruby/ruby-bench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "asafschers/scoruby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "lobsters/lobsters"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "rubocop/rubocop-performance"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "djezzzl/factory_trace"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "donny741/ruby-lsp-factory_bot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "johansenja/ruby-lsp-rails-factory-bot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Shopify/ruby-lsp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "artichoke/spec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "opal/opal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "karafka/rdkafka-ruby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "karafka/karafka-web"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "minitest/minitest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "matsadler/magnus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "rgeo/activerecord-postgis-adapter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "rgeo/rgeo-geojson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "RubyCrypto/rbnacl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "DmitryTsepelev/store_model"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "yoshoku/numo-narray-alt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "rbenv/rbenv"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

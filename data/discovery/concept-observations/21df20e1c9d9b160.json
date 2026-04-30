@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A collection of essential TypeScript types"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "type-fest \u2014 A collection of essential TypeScript types"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "type-fest \u2014 A collection of essential TypeScript types"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "typescript-definitions",
+      "sense_id": "typescript-definitions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "typescript-definitions",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "typescript-definitions",
+  "observation_id": "21df20e1c9d9b160",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "typescript-definitions",
+  "source_context_snippet": "type-fest \u2014 A collection of essential TypeScript types",
+  "source_file": null,
+  "source_repo": "sindresorhus/type-fest",
+  "source_repo_description": "A collection of essential TypeScript types"
+}

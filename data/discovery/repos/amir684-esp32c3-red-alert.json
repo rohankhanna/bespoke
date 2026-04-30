@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "amir684/esp32c3-red-alert",
+      "target": "tzapu/wifimanager",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "amir684/esp32c3-red-alert",
+      "target": "adafruit/adafruit_neopixel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "amir684/esp32c3-red-alert",
+      "target": "majicdesigns/md_parola",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "amir684/esp32c3-red-alert",
+      "target": "majicdesigns/md_max72xx",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:58:17.980167+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4999
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Standalone ESP32-C3 device that monitors Pikud HaOref alerts in real time \u2014 NeoPixel LED strip + MAX7219 matrix display, no Home Assistant required",
+    "fork": false,
+    "full_name": "amir684/esp32c3-red-alert",
+    "html_url": "https://github.com/amir684/esp32c3-red-alert",
+    "language": "C++",
+    "pushed_at": "2026-03-23T10:12:57Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-03-24T11:15:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adafruit/adafruit_neopixel",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "majicdesigns/md_max72xx",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "majicdesigns/md_parola",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tzapu/wifimanager",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

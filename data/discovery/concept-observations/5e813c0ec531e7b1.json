@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Graal Languages - Demos and Guides"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repository contains demo applications and guides for [GraalJS](./graaljs), [GraalPy](./graalpy/), [GraalWasm](./graalwasm), and other Graal Languages."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repository contains demo applications and guides for [GraalJS](./graaljs), [GraalPy](./graalpy/), [GraalWasm](./graalwasm), and other Graal Languages."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "graalpy",
+      "sense_id": "graalpy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "graalpy",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "graalpy",
+  "observation_id": "5e813c0ec531e7b1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "graalpy",
+  "source_context_snippet": "This repository contains demo applications and guides for [GraalJS](./graaljs), [GraalPy](./graalpy/), [GraalWasm](./graalwasm), and other Graal Languages.",
+  "source_file": null,
+  "source_repo": "graalvm/graal-languages-demos",
+  "source_repo_description": "Graal Languages - Demos and Guides"
+}

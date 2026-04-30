@@ -43,6 +43,18 @@
       "source_repo": "FasterXML/jackson-core",
       "status": "candidate-context",
       "text": "This project contains core low-level incremental (\"streaming\") parser and generator abstractions used by"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FasterXML/jackson-dataformats-text",
+      "status": "candidate-context",
+      "text": "Uber-project for (some) standard Jackson textual format backends: csv, properties, yaml (xml to be added in future)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FasterXML/jackson-dataformats-text",
+      "status": "candidate-context",
+      "text": "This is a multi-module umbrella project for [Jackson](../../../jackson)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "FasterXML/jackson-core",
       "status": "candidate",
       "text": "This project contains core low-level incremental (\"streaming\") parser and generator abstractions used by"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FasterXML/jackson-dataformats-text",
+      "status": "candidate",
+      "text": "This is a multi-module umbrella project for [Jackson](../../../jackson)"
     }
   ],
   "candidate_related_terms": [
@@ -146,11 +164,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "FasterXML/jackson-core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "FasterXML/jackson-dataformats-text"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

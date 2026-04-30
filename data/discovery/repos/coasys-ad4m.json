@@ -736,28 +736,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "coasys/ad4m",
-      "target": "floneum/floneum",
+      "target": "holochain/cryptographic-autonomy-license",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "coasys/ad4m",
-      "target": "coasys/ad4m-launcher",
+      "target": "holochain/holochain",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "coasys/ad4m",
-      "target": "coasys/flux",
+      "target": "surrealdb/surrealdb",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "coasys/ad4m",
-      "target": "coasys/we",
+      "target": "graphql-rust/juniper",
       "target_type": "repository"
     },
     {
@@ -1293,7 +1293,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T04:50:30.757904+00:00",
+  "fetched_at": "2026-04-30T14:12:02.304556+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1345,7 +1345,7 @@
     "full_name": "coasys/ad4m",
     "html_url": "https://github.com/coasys/ad4m",
     "language": "JavaScript",
-    "pushed_at": "2026-04-30T04:45:36Z",
+    "pushed_at": "2026-04-30T13:11:47Z",
     "stargazers_count": 86,
     "topics": [
       "agent-centric",
@@ -1361,22 +1361,22 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "coasys/ad4m-launcher",
+      "full_name": "graphql-rust/juniper",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "coasys/flux",
+      "full_name": "holochain/cryptographic-autonomy-license",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "coasys/we",
+      "full_name": "holochain/holochain",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "floneum/floneum",
+      "full_name": "surrealdb/surrealdb",
       "source_file": "README.md"
     }
   ],

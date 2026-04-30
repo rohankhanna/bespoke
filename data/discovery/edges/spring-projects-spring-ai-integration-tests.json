@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spring-ai-integration-tests-manual-only.yml",
+      "source_repo": "spring-projects/spring-ai-integration-tests",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spring-ai-integration-tests-manual-only.yml",
+      "source_repo": "spring-projects/spring-ai-integration-tests",
+      "target": "Spring AI Integration Tests (Manual Only)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spring-ai-integration-tests-spring-boot-compatibility.yml",
+      "source_repo": "spring-projects/spring-ai-integration-tests",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spring-ai-integration-tests-spring-boot-compatibility.yml",
+      "source_repo": "spring-projects/spring-ai-integration-tests",
+      "target": "jlumbroso/free-disk-space@54081f138730dfa15788a46383842cd2f914a1be",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spring-ai-integration-tests.yml",
+      "source_repo": "spring-projects/spring-ai-integration-tests",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spring-ai-integration-tests.yml",
+      "source_repo": "spring-projects/spring-ai-integration-tests",
+      "target": "jlumbroso/free-disk-space@54081f138730dfa15788a46383842cd2f914a1be",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spring-ai-integration-tests.yml",
+      "source_repo": "spring-projects/spring-ai-integration-tests",
+      "target": "Spring AI Integration Tests",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T12:45:20.475770+00:00",
+  "source_repo": "spring-projects/spring-ai-integration-tests"
+}

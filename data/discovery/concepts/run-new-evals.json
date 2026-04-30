@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Run new evals"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fixie-ai/evals",
+      "status": "candidate-context",
+      "text": "Evals is a framework for evaluating LLMs and LLM systems, and an open-source registry of benchmarks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fixie-ai/evals",
+      "status": "candidate-context",
+      "text": "Run new evals"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openai/evals",
+      "status": "candidate-context",
+      "text": "Evals is a framework for evaluating LLMs and LLM systems, and an open-source registry of benchmarks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openai/evals",
+      "status": "candidate-context",
+      "text": "Run new evals"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fixie-ai/evals",
+      "status": "candidate",
+      "text": "Run new evals"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openai/evals",
+      "status": "candidate",
+      "text": "Run new evals"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28487,
+      "status": "candidate",
+      "text": "selectman"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28015,
+      "status": "candidate",
+      "text": "seedy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28001,
+      "status": "candidate",
+      "text": "selectwoman"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28001,
+      "status": "candidate",
+      "text": "sour mash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11701,
+      "status": "candidate",
+      "text": "aut"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Run new evals",
+  "concept_id": "run-new-evals",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test_eval.yaml",
+      "source_repo": "fixie-ai/evals"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/test_eval.yaml",
+      "source_repo": "openai/evals"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Run new evals",
+      "sense_id": "run-new-evals#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

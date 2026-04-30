@@ -1,0 +1,235 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-hub.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-hub.yml"
+    },
+    {
+      "component": "docker/login-action@f054a8b539a109f9f41c372932f1ae047eff08c9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-hub.yml"
+    },
+    {
+      "component": "docker/metadata-action@98669ae865ea3cffbcbaa878cf57c20bbf1c6c38",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-hub.yml"
+    },
+    {
+      "component": "docker/build-push-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-hub.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenGVLab/DragGAN",
+      "target": "opengvlab/awesome-draggan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenGVLab/DragGAN",
+      "target": "opengvlab/interngpt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenGVLab/DragGAN",
+      "target": "skimai/draggan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenGVLab/DragGAN",
+      "target": "self-distilled-stylegan/self-distilled-internet-photos",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-hub.yml",
+      "source_repo": "OpenGVLab/DragGAN",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-hub.yml",
+      "source_repo": "OpenGVLab/DragGAN",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-hub.yml",
+      "source_repo": "OpenGVLab/DragGAN",
+      "target": "docker/login-action@f054a8b539a109f9f41c372932f1ae047eff08c9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-hub.yml",
+      "source_repo": "OpenGVLab/DragGAN",
+      "target": "docker/metadata-action@98669ae865ea3cffbcbaa878cf57c20bbf1c6c38",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-hub.yml",
+      "source_repo": "OpenGVLab/DragGAN",
+      "target": "docker/build-push-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-hub.yml",
+      "source_repo": "OpenGVLab/DragGAN",
+      "target": "update-docker-hub-image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/DragGAN",
+      "target": "draggan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/DragGAN",
+      "target": "gradio-interface",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/DragGAN",
+      "target": "image-editing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/DragGAN",
+      "target": "image-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/DragGAN",
+      "target": "interngpt",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:09:53.921291+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5094
+    },
+    {
+      "path": "Dockerfile",
+      "size": 167
+    },
+    {
+      "path": "requirements.txt",
+      "size": 98
+    },
+    {
+      "path": ".github/workflows/docker-hub.yml",
+      "size": 1093
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Unofficial Implementation of DragGAN - \"Drag Your GAN: Interactive Point-based Manipulation on the Generative Image Manifold\" \uff08DragGAN \u5168\u529f\u80fd\u5b9e\u73b0\uff0c\u5728\u7ebfDemo\uff0c\u672c\u5730\u90e8\u7f72\u8bd5\u7528\uff0c\u4ee3\u7801\u3001\u6a21\u578b\u5df2\u5168\u90e8\u5f00\u6e90\uff0c\u652f\u6301Windows, macOS, Linux\uff09",
+    "fork": false,
+    "full_name": "OpenGVLab/DragGAN",
+    "html_url": "https://github.com/OpenGVLab/DragGAN",
+    "language": "Python",
+    "pushed_at": "2023-07-17T03:01:01Z",
+    "stargazers_count": 4961,
+    "topics": [
+      "draggan",
+      "gradio-interface",
+      "image-editing",
+      "image-generation",
+      "interngpt"
+    ],
+    "updated_at": "2026-04-25T09:34:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opengvlab/awesome-draggan",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opengvlab/interngpt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "self-distilled-stylegan/self-distilled-internet-photos",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "skimai/draggan",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "update-docker-hub-image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-hub.yml",
+      "term": "update-docker-hub-image"
+    },
+    {
+      "context_snippet": "[![PyPI](https://img.shields.io/pypi/v/draggan)](https://pypi.org/project/draggan/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "draggan"
+    },
+    {
+      "context_snippet": "[![PyPI](https://img.shields.io/pypi/v/draggan)](https://pypi.org/project/draggan/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gradio-interface"
+    },
+    {
+      "context_snippet": "[![PyPI](https://img.shields.io/pypi/v/draggan)](https://pypi.org/project/draggan/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-editing"
+    },
+    {
+      "context_snippet": "[![PyPI](https://img.shields.io/pypi/v/draggan)](https://pypi.org/project/draggan/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-generation"
+    },
+    {
+      "context_snippet": "[![PyPI](https://img.shields.io/pypi/v/draggan)](https://pypi.org/project/draggan/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "interngpt"
+    }
+  ]
+}

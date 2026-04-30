@@ -1,0 +1,12 @@
+{
+  "component": "SonarSource/ci-github-actions/get-build-number@23d3a5700259f9890438851083904c6d5e87ff4e",
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "SonarSource/sonarlint-intellij"
+    }
+  ]
+}

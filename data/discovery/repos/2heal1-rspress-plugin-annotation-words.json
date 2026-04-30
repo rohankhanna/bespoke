@@ -1,0 +1,154 @@
+{
+  "components": [
+    {
+      "component": "@modern-js/tsconfig",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/react",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/react-dom",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rspress/shared",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rspress",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rspress",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "2heal1/rspress-plugin-annotation-words",
+      "target": "module-federation/core",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "2heal1/rspress-plugin-annotation-words",
+      "target": "@modern-js/tsconfig",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "2heal1/rspress-plugin-annotation-words",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "2heal1/rspress-plugin-annotation-words",
+      "target": "@types/react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "2heal1/rspress-plugin-annotation-words",
+      "target": "@types/react-dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "2heal1/rspress-plugin-annotation-words",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "2heal1/rspress-plugin-annotation-words",
+      "target": "@rspress/shared",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "2heal1/rspress-plugin-annotation-words",
+      "target": "react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "2heal1/rspress-plugin-annotation-words",
+      "target": "rspress",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "2heal1/rspress-plugin-annotation-words",
+      "target": "rspress",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:51:13.613495+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2127
+    },
+    {
+      "path": "package.json",
+      "size": 1005
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "2heal1/rspress-plugin-annotation-words",
+    "html_url": "https://github.com/2heal1/rspress-plugin-annotation-words",
+    "language": "TypeScript",
+    "pushed_at": "2024-11-04T09:38:01Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2024-11-04T09:38:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "module-federation/core",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

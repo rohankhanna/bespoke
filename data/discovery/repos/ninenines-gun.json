@@ -1,0 +1,281 @@
+{
+  "components": [
+    {
+      "component": "ninenines/ci.erlang.mk/.github/workflows/ci.yaml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "ninenines/gun",
+      "target": "ninenines/ci.erlang.mk/.github/workflows/ci.yaml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "ninenines/gun",
+      "target": "Check Gun",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ninenines/gun",
+      "target": "cowboy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ninenines/gun",
+      "target": "erlang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ninenines/gun",
+      "target": "functional",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ninenines/gun",
+      "target": "high-performance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ninenines/gun",
+      "target": "http",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ninenines/gun",
+      "target": "http-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ninenines/gun",
+      "target": "http2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ninenines/gun",
+      "target": "http2-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ninenines/gun",
+      "target": "http3-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ninenines/gun",
+      "target": "https",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ninenines/gun",
+      "target": "production-ready",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ninenines/gun",
+      "target": "rest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ninenines/gun",
+      "target": "websocket",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ninenines/gun",
+      "target": "websocket-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ninenines/gun",
+      "target": "websockets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ninenines/gun",
+      "target": "webtransport",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:06:45.496767+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 424
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "HTTP/1.1, HTTP/2, Websocket client (and more) for Erlang/OTP.",
+    "fork": false,
+    "full_name": "ninenines/gun",
+    "html_url": "https://github.com/ninenines/gun",
+    "language": "Erlang",
+    "pushed_at": "2025-11-06T15:38:00Z",
+    "stargazers_count": 933,
+    "topics": [
+      "cowboy",
+      "erlang",
+      "functional",
+      "high-performance",
+      "http",
+      "http-client",
+      "http2",
+      "http2-client",
+      "http3-client",
+      "https",
+      "production-ready",
+      "rest",
+      "web",
+      "websocket",
+      "websocket-client",
+      "websockets",
+      "webtransport"
+    ],
+    "updated_at": "2026-04-08T13:51:44Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Check Gun",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "term": "Check Gun"
+    },
+    {
+      "context_snippet": "Check Gun",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cowboy"
+    },
+    {
+      "context_snippet": "Check Gun",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "erlang"
+    },
+    {
+      "context_snippet": "Check Gun",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "functional"
+    },
+    {
+      "context_snippet": "Check Gun",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "high-performance"
+    },
+    {
+      "context_snippet": "Check Gun",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http"
+    },
+    {
+      "context_snippet": "Check Gun",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http-client"
+    },
+    {
+      "context_snippet": "Check Gun",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http2"
+    },
+    {
+      "context_snippet": "Check Gun",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http2-client"
+    },
+    {
+      "context_snippet": "Check Gun",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http3-client"
+    },
+    {
+      "context_snippet": "Check Gun",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "https"
+    },
+    {
+      "context_snippet": "Check Gun",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "production-ready"
+    },
+    {
+      "context_snippet": "Check Gun",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rest"
+    },
+    {
+      "context_snippet": "Check Gun",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "websocket"
+    },
+    {
+      "context_snippet": "Check Gun",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "websocket-client"
+    },
+    {
+      "context_snippet": "Check Gun",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "websockets"
+    },
+    {
+      "context_snippet": "Check Gun",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webtransport"
+    }
+  ]
+}

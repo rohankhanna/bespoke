@@ -1,0 +1,574 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/centos.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/centos.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/centos.yml"
+    },
+    {
+      "component": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml"
+    },
+    {
+      "component": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml"
+    },
+    {
+      "component": "codespell-project/actions-codespell@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml"
+    },
+    {
+      "component": "vapier/coverity-scan-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/external-pkcs11.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/external-pkcs11.yaml"
+    },
+    {
+      "component": "awalsh128/cache-apt-pkgs-action@v1.6.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/external-pkcs11.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/external-pkcs11.yaml"
+    },
+    {
+      "component": "awalsh128/cache-apt-pkgs-action@v1.6.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/external-pkcs11.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/external-pkcs11.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fedora.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fedora.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fedora.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatter.yml"
+    },
+    {
+      "component": "yshui/git-clang-format-lint@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatter.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenSC/OpenSC",
+      "target": "opensc/nightly",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenSC/OpenSC",
+      "target": "jakuje/virt_cacard",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenSC/OpenSC",
+      "target": "dogtagpki/coolkey",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenSC/OpenSC",
+      "target": "arekinath/pivapplet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/centos.yml",
+      "source_repo": "OpenSC/OpenSC",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/centos.yml",
+      "source_repo": "OpenSC/OpenSC",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/centos.yml",
+      "source_repo": "OpenSC/OpenSC",
+      "target": "CentOS Stream Linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "OpenSC/OpenSC",
+      "target": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "OpenSC/OpenSC",
+      "target": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "OpenSC/OpenSC",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "OpenSC/OpenSC",
+      "target": "CIFuzz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "OpenSC/OpenSC",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "OpenSC/OpenSC",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "OpenSC/OpenSC",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "OpenSC/OpenSC",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "OpenSC/OpenSC",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "OpenSC/OpenSC",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "OpenSC/OpenSC",
+      "target": "codespell-project/actions-codespell@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "OpenSC/OpenSC",
+      "target": "Codespell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "OpenSC/OpenSC",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "OpenSC/OpenSC",
+      "target": "vapier/coverity-scan-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "OpenSC/OpenSC",
+      "target": "Coverity CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc.yml",
+      "source_repo": "OpenSC/OpenSC",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/doc.yml",
+      "source_repo": "OpenSC/OpenSC",
+      "target": "Make sure HTML files are updated",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/external-pkcs11.yaml",
+      "source_repo": "OpenSC/OpenSC",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/external-pkcs11.yaml",
+      "source_repo": "OpenSC/OpenSC",
+      "target": "awalsh128/cache-apt-pkgs-action@v1.6.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/external-pkcs11.yaml",
+      "source_repo": "OpenSC/OpenSC",
+      "target": "Tests of external pkcs11 modules",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fedora.yml",
+      "source_repo": "OpenSC/OpenSC",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fedora.yml",
+      "source_repo": "OpenSC/OpenSC",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fedora.yml",
+      "source_repo": "OpenSC/OpenSC",
+      "target": "Fedora Linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatter.yml",
+      "source_repo": "OpenSC/OpenSC",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatter.yml",
+      "source_repo": "OpenSC/OpenSC",
+      "target": "yshui/git-clang-format-lint@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/formatter.yml",
+      "source_repo": "OpenSC/OpenSC",
+      "target": "Check Code Style",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenSC/OpenSC",
+      "target": "minidriver",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenSC/OpenSC",
+      "target": "opensc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenSC/OpenSC",
+      "target": "pkcs11",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenSC/OpenSC",
+      "target": "security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenSC/OpenSC",
+      "target": "smartcard",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:10:48.610217+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5256
+    },
+    {
+      "path": ".github/workflows/centos.yml",
+      "size": 929
+    },
+    {
+      "path": ".github/workflows/cifuzz.yml",
+      "size": 711
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 1162
+    },
+    {
+      "path": ".github/workflows/codespell.yml",
+      "size": 433
+    },
+    {
+      "path": ".github/workflows/coverity.yml",
+      "size": 764
+    },
+    {
+      "path": ".github/workflows/doc.yml",
+      "size": 1218
+    },
+    {
+      "path": ".github/workflows/external-pkcs11.yaml",
+      "size": 2752
+    },
+    {
+      "path": ".github/workflows/fedora.yml",
+      "size": 893
+    },
+    {
+      "path": ".github/workflows/formatter.yml",
+      "size": 338
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Open source smart card tools and middleware. PKCS#11/MiniDriver",
+    "fork": false,
+    "full_name": "OpenSC/OpenSC",
+    "html_url": "https://github.com/OpenSC/OpenSC",
+    "language": "C",
+    "pushed_at": "2026-04-27T09:27:57Z",
+    "stargazers_count": 3018,
+    "topics": [
+      "c",
+      "minidriver",
+      "opensc",
+      "pkcs11",
+      "security",
+      "smartcard"
+    ],
+    "updated_at": "2026-04-29T23:49:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arekinath/pivapplet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dogtagpki/coolkey",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jakuje/virt_cacard",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opensc/nightly",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CentOS Stream Linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/centos.yml",
+      "term": "CentOS Stream Linux"
+    },
+    {
+      "context_snippet": "CIFuzz",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "term": "CIFuzz"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Codespell",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codespell.yml",
+      "term": "Codespell"
+    },
+    {
+      "context_snippet": "Coverity CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverity.yml",
+      "term": "Coverity CI"
+    },
+    {
+      "context_snippet": "Make sure HTML files are updated",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/doc.yml",
+      "term": "Make sure HTML files are updated"
+    },
+    {
+      "context_snippet": "Tests of external pkcs11 modules",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/external-pkcs11.yaml",
+      "term": "Tests of external pkcs11 modules"
+    },
+    {
+      "context_snippet": "Fedora Linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fedora.yml",
+      "term": "Fedora Linux"
+    },
+    {
+      "context_snippet": "Check Code Style",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/formatter.yml",
+      "term": "Check Code Style"
+    },
+    {
+      "context_snippet": "Manual pages for the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minidriver"
+    },
+    {
+      "context_snippet": "Manual pages for the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opensc"
+    },
+    {
+      "context_snippet": "Manual pages for the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pkcs11"
+    },
+    {
+      "context_snippet": "Manual pages for the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security"
+    },
+    {
+      "context_snippet": "Manual pages for the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "smartcard"
+    }
+  ]
+}

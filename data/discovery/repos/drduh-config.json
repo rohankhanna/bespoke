@@ -1,0 +1,234 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "drduh/config",
+      "target": "drduh/macos-security-and-privacy-guide",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "drduh/config",
+      "target": "drduh/purse",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "drduh/config",
+      "target": "drduh/pc-engines-apu-router-guide",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "drduh/config",
+      "target": "drduh/debian-privacy-server-guide",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drduh/config",
+      "target": "config",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drduh/config",
+      "target": "configuration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drduh/config",
+      "target": "coreboot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drduh/config",
+      "target": "dnsmasq",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drduh/config",
+      "target": "firewall",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drduh/config",
+      "target": "iptables",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drduh/config",
+      "target": "lighttpd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drduh/config",
+      "target": "openvpn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drduh/config",
+      "target": "privacy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drduh/config",
+      "target": "privoxy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drduh/config",
+      "target": "security",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:56:16.225421+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 476
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Configuration files and scripts used in guides and for system setup.",
+    "fork": false,
+    "full_name": "drduh/config",
+    "html_url": "https://github.com/drduh/config",
+    "language": "Shell",
+    "pushed_at": "2025-12-01T04:02:12Z",
+    "stargazers_count": 319,
+    "topics": [
+      "config",
+      "configuration",
+      "coreboot",
+      "dnsmasq",
+      "firewall",
+      "iptables",
+      "lighttpd",
+      "openvpn",
+      "pf",
+      "privacy",
+      "privoxy",
+      "security"
+    ],
+    "updated_at": "2026-04-21T20:18:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "drduh/debian-privacy-server-guide",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "drduh/macos-security-and-privacy-guide",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "drduh/pc-engines-apu-router-guide",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "drduh/purse",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Miscellaneous scripts and program configuration files used in:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "config"
+    },
+    {
+      "context_snippet": "Miscellaneous scripts and program configuration files used in:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "configuration"
+    },
+    {
+      "context_snippet": "Miscellaneous scripts and program configuration files used in:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coreboot"
+    },
+    {
+      "context_snippet": "Miscellaneous scripts and program configuration files used in:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dnsmasq"
+    },
+    {
+      "context_snippet": "Miscellaneous scripts and program configuration files used in:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "firewall"
+    },
+    {
+      "context_snippet": "Miscellaneous scripts and program configuration files used in:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iptables"
+    },
+    {
+      "context_snippet": "Miscellaneous scripts and program configuration files used in:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lighttpd"
+    },
+    {
+      "context_snippet": "Miscellaneous scripts and program configuration files used in:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openvpn"
+    },
+    {
+      "context_snippet": "Miscellaneous scripts and program configuration files used in:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "privacy"
+    },
+    {
+      "context_snippet": "Miscellaneous scripts and program configuration files used in:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "privoxy"
+    },
+    {
+      "context_snippet": "Miscellaneous scripts and program configuration files used in:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security"
+    }
+  ]
+}

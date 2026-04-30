@@ -388,6 +388,90 @@
       "source_repo": "reviewdog/action-eslint",
       "status": "candidate-context",
       "text": "[![depup](https://github.com/reviewdog/action-eslint/workflows/depup/badge.svg)](https://github.com/reviewdog/action-eslint/actions?query=workflow%3Adepup)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reviewdog/action-depup",
+      "status": "candidate-context",
+      "text": "Action which updates dependencies automatically"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-depup",
+      "status": "candidate-context",
+      "text": "reviewdog"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reviewdog/action-hadolint",
+      "status": "candidate-context",
+      "text": "Run hadolint with reviewdog \ud83d\udc36"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-hadolint",
+      "status": "candidate-context",
+      "text": "reviewdog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-hadolint",
+      "status": "candidate-context",
+      "text": "[![](https://img.shields.io/github/license/reviewdog/action-hadolint)](./LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reviewdog/action-misspell",
+      "status": "candidate-context",
+      "text": "Run misspell with reviewdog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-misspell",
+      "status": "candidate-context",
+      "text": "reviewdog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-misspell",
+      "status": "candidate-context",
+      "text": "[![Docker Image CI](https://github.com/reviewdog/action-misspell/workflows/Docker%20Image%20CI/badge.svg)](https://github.com/reviewdog/action-misspell/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reviewdog/action-shellcheck",
+      "status": "candidate-context",
+      "text": "Run shellcheck with reviewdog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-shellcheck",
+      "status": "candidate-context",
+      "text": "reviewdog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-shellcheck",
+      "status": "candidate-context",
+      "text": "[![Docker Image CI](https://github.com/reviewdog/action-shellcheck/workflows/Docker%20Image%20CI/badge.svg)](https://github.com/reviewdog/action-shellcheck/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reviewdog/action-shfmt",
+      "status": "candidate-context",
+      "text": "Run shfmt with reviewdog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-shfmt",
+      "status": "candidate-context",
+      "text": "reviewdog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-shfmt",
+      "status": "candidate-context",
+      "text": "[![Test](https://github.com/reviewdog/action-shfmt/workflows/Test/badge.svg)](https://github.com/reviewdog/action-shfmt/actions?query=workflow%3ATest)"
     }
   ],
   "candidate_glosses": [
@@ -594,6 +678,60 @@
       "source_repo": "reviewdog/action-eslint",
       "status": "candidate",
       "text": "[![depup](https://github.com/reviewdog/action-eslint/workflows/depup/badge.svg)](https://github.com/reviewdog/action-eslint/actions?query=workflow%3Adepup)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-depup",
+      "status": "candidate",
+      "text": "reviewdog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-hadolint",
+      "status": "candidate",
+      "text": "reviewdog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-hadolint",
+      "status": "candidate",
+      "text": "[![](https://img.shields.io/github/license/reviewdog/action-hadolint)](./LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-misspell",
+      "status": "candidate",
+      "text": "reviewdog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-misspell",
+      "status": "candidate",
+      "text": "[![Docker Image CI](https://github.com/reviewdog/action-misspell/workflows/Docker%20Image%20CI/badge.svg)](https://github.com/reviewdog/action-misspell/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-shellcheck",
+      "status": "candidate",
+      "text": "reviewdog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-shellcheck",
+      "status": "candidate",
+      "text": "[![Docker Image CI](https://github.com/reviewdog/action-shellcheck/workflows/Docker%20Image%20CI/badge.svg)](https://github.com/reviewdog/action-shellcheck/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-shfmt",
+      "status": "candidate",
+      "text": "reviewdog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-shfmt",
+      "status": "candidate",
+      "text": "[![Test](https://github.com/reviewdog/action-shfmt/workflows/Test/badge.svg)](https://github.com/reviewdog/action-shfmt/actions?query=workflow%3ATest)"
     }
   ],
   "candidate_related_terms": [],
@@ -937,11 +1075,101 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "reviewdog/action-eslint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "lambdalisue/vim-nerdfont"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "lambdalisue/vim-fern-git-status"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "lambdalisue/vim-fern"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "lambdalisue/vim-glyph-palette"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "lambdalisue/vim-gina"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "reviewdog/action-depup"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "reviewdog/action-hadolint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "reviewdog/action-hadolint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "reviewdog/action-misspell"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "reviewdog/action-misspell"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "reviewdog/action-shellcheck"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "reviewdog/action-shellcheck"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "reviewdog/action-shfmt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "reviewdog/action-shfmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "preservim/tagbar"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

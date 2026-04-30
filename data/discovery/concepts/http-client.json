@@ -259,6 +259,54 @@
       "source_repo": "sneako/finch",
       "status": "candidate-context",
       "text": "<img alt=\"Finch\" height=\"350px\" src=\"assets/Finch_logo_onWhite.png#gh-light-mode-only\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "guzzle/guzzle",
+      "status": "candidate-context",
+      "text": "Guzzle, an extensible PHP HTTP client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "guzzle/guzzle",
+      "status": "candidate-context",
+      "text": "![Guzzle](.github/logo.png?raw=true)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wojtekmach/req",
+      "status": "candidate-context",
+      "text": "Req is a batteries-included HTTP client for Elixir."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wojtekmach/req",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/wojtekmach/req/actions/workflows/ci.yml/badge.svg)](https://github.com/wojtekmach/req/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ninenines/gun",
+      "status": "candidate-context",
+      "text": "HTTP/1.1, HTTP/2, Websocket client (and more) for Erlang/OTP."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ninenines/gun",
+      "status": "candidate-context",
+      "text": "Check Gun"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sindresorhus/ky",
+      "status": "candidate-context",
+      "text": "\ud83c\udf33 Tiny & elegant JavaScript HTTP client based on the Fetch API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/ky",
+      "status": "candidate-context",
+      "text": "ky \u2014 Tiny and elegant HTTP client based on the Fetch API"
     }
   ],
   "candidate_glosses": [
@@ -387,6 +435,30 @@
       "source_repo": "sneako/finch",
       "status": "candidate",
       "text": "<img alt=\"Finch\" height=\"350px\" src=\"assets/Finch_logo_onWhite.png#gh-light-mode-only\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "guzzle/guzzle",
+      "status": "candidate",
+      "text": "![Guzzle](.github/logo.png?raw=true)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wojtekmach/req",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/wojtekmach/req/actions/workflows/ci.yml/badge.svg)](https://github.com/wojtekmach/req/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ninenines/gun",
+      "status": "candidate",
+      "text": "Check Gun"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/ky",
+      "status": "candidate",
+      "text": "ky \u2014 Tiny and elegant HTTP client based on the Fetch API"
     }
   ],
   "candidate_related_terms": [],
@@ -538,11 +610,35 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "sneako/finch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "guzzle/guzzle"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "wojtekmach/req"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ninenines/gun"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "sindresorhus/ky"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

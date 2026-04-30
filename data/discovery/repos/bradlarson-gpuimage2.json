@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BradLarson/GPUImage2",
+      "target": "bradlarson/gpuimage",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BradLarson/GPUImage2",
+      "target": "twostraws/swiftgd",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:03:51.000679+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 47141
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "GPUImage 2 is a BSD-licensed Swift framework for GPU-accelerated video and image processing.",
+    "fork": false,
+    "full_name": "BradLarson/GPUImage2",
+    "html_url": "https://github.com/BradLarson/GPUImage2",
+    "language": "Swift",
+    "pushed_at": "2024-02-16T05:43:58Z",
+    "stargazers_count": 4937,
+    "topics": [],
+    "updated_at": "2026-04-21T07:17:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bradlarson/gpuimage",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "twostraws/swiftgd",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

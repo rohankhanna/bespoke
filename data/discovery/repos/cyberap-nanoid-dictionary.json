@@ -1,0 +1,106 @@
+{
+  "components": [
+    {
+      "component": "@rollup/plugin-terser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup-plugin-delete",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup-plugin-typescript2",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CyberAP/nanoid-dictionary",
+      "target": "cyberap/nanoid-generate",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "CyberAP/nanoid-dictionary",
+      "target": "@rollup/plugin-terser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "CyberAP/nanoid-dictionary",
+      "target": "rollup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "CyberAP/nanoid-dictionary",
+      "target": "rollup-plugin-delete",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "CyberAP/nanoid-dictionary",
+      "target": "rollup-plugin-typescript2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "CyberAP/nanoid-dictionary",
+      "target": "typescript",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:02:43.685768+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2691
+    },
+    {
+      "path": "package.json",
+      "size": 928
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Predefined character sets to use with nanoid",
+    "fork": false,
+    "full_name": "CyberAP/nanoid-dictionary",
+    "html_url": "https://github.com/CyberAP/nanoid-dictionary",
+    "language": "JavaScript",
+    "pushed_at": "2026-03-29T10:37:22Z",
+    "stargazers_count": 144,
+    "topics": [],
+    "updated_at": "2026-04-18T07:15:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cyberap/nanoid-generate",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

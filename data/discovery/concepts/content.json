@@ -19,6 +19,18 @@
       "source_repo": "apache/poi",
       "status": "candidate-context",
       "text": "A Java library for reading and writing Microsoft Office binary and OOXML file formats."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/pdfbox",
+      "status": "candidate-context",
+      "text": "Mirror of Apache PDFBox"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/pdfbox",
+      "status": "candidate-context",
+      "text": "<!---"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "apache/poi",
       "status": "candidate",
       "text": "A Java library for reading and writing Microsoft Office binary and OOXML file formats."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/pdfbox",
+      "status": "candidate",
+      "text": "<!---"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "apache/poi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "apache/pdfbox"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

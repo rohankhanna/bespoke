@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Self-test"
+    "Self-test",
+    "Self Test"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "sigstore/sigstore-conformance",
       "status": "candidate-context",
       "text": "Self-test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "w3c/trace-context",
+      "status": "candidate-context",
+      "text": "Trace Context"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "w3c/trace-context",
+      "status": "candidate-context",
+      "text": "Self Test"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "sigstore/sigstore-conformance",
       "status": "candidate",
       "text": "Self-test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "w3c/trace-context",
+      "status": "candidate",
+      "text": "Self Test"
     }
   ],
   "candidate_related_terms": [
@@ -64,6 +83,41 @@
       "score": 19972464,
       "status": "candidate",
       "text": "self-assessment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10043198,
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10042443,
+      "status": "candidate",
+      "text": "automated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10040529,
+      "status": "candidate",
+      "text": "automatically"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10004030,
+      "status": "candidate",
+      "text": "self-examination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10003982,
+      "status": "candidate",
+      "text": "self-assessment"
     }
   ],
   "candidate_synonyms": [],
@@ -76,11 +130,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/conformance.yml",
       "source_repo": "sigstore/sigstore-conformance"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/self_test.yml",
+      "source_repo": "w3c/trace-context"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

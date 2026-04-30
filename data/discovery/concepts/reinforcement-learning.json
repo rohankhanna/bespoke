@@ -895,6 +895,66 @@
       "source_repo": "lcswillems/torch-ac",
       "status": "candidate-context",
       "text": "The `torch_ac` package contains the PyTorch implementation of two Actor-Critic deep reinforcement learning algorithms:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kobanium/TamaGo",
+      "status": "candidate-context",
+      "text": "Computer go engine using Monte-Carlo Tree Search written in Python3."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kobanium/TamaGo",
+      "status": "candidate-context",
+      "text": "TamaGo is a Go (Weiqi, Baduk) engine implemented in Python."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/agent-lightning",
+      "status": "candidate-context",
+      "text": "The absolute trainer to light up AI agents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/agent-lightning",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "om-ai-lab/VLM-R1",
+      "status": "candidate-context",
+      "text": "Solve Visual Understanding with Reinforced VLMs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "om-ai-lab/VLM-R1",
+      "status": "candidate-context",
+      "text": "<font size=4><div align='center' > [[\ud83e\udd17 REC Demo](https://huggingface.co/spaces/omlab/VLM-R1-Referral-Expression)] [[\ud83e\udd17 OVD Demo](https://huggingface.co/spaces/omlab/VLM-R1-OVD)] [[\ud83e\udd17 REC Data](https://huggingface.co/datasets/omlab/VLM-R1)] [[\ud83e\udd17 Checkpoints](https://huggingface.co/c\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PKU-Alignment/safe-rlhf",
+      "status": "candidate-context",
+      "text": "Safe RLHF: Constrained Value Alignment via Safe Reinforcement Learning from Human Feedback"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PKU-Alignment/safe-rlhf",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable first-line-h1 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vikashplus/robohive",
+      "status": "candidate-context",
+      "text": "A unified framework for robot learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vikashplus/robohive",
+      "status": "candidate-context",
+      "text": "<!-- ================================================="
     }
   ],
   "candidate_glosses": [
@@ -1341,6 +1401,36 @@
       "source_repo": "lcswillems/torch-ac",
       "status": "candidate",
       "text": "The `torch_ac` package contains the PyTorch implementation of two Actor-Critic deep reinforcement learning algorithms:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kobanium/TamaGo",
+      "status": "candidate",
+      "text": "TamaGo is a Go (Weiqi, Baduk) engine implemented in Python."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/agent-lightning",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "om-ai-lab/VLM-R1",
+      "status": "candidate",
+      "text": "<font size=4><div align='center' > [[\ud83e\udd17 REC Demo](https://huggingface.co/spaces/omlab/VLM-R1-Referral-Expression)] [[\ud83e\udd17 OVD Demo](https://huggingface.co/spaces/omlab/VLM-R1-OVD)] [[\ud83e\udd17 REC Data](https://huggingface.co/datasets/omlab/VLM-R1)] [[\ud83e\udd17 Checkpoints](https://huggingface.co/c\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PKU-Alignment/safe-rlhf",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable first-line-h1 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vikashplus/robohive",
+      "status": "candidate",
+      "text": "<!-- ================================================="
     }
   ],
   "candidate_related_terms": [],
@@ -1912,11 +2002,65 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "lcswillems/torch-ac"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "kobanium/TamaGo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Agent-RL/ReCall"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/agent-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "om-ai-lab/VLM-R1"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "PKU-Alignment/safe-rlhf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "vikashplus/robohive"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/acme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm_env"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

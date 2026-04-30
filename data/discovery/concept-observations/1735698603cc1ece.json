@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u57fa\u4e8ePaddlePaddle\u5b9e\u73b0\u7684\u8bed\u97f3\u8bc6\u522b\uff0c\u4e2d\u6587\u8bed\u97f3\u8bc6\u522b\u3002\u9879\u76ee\u5b8c\u5584\uff0c\u8bc6\u522b\u6548\u679c\u597d\u3002\u652f\u6301Windows\uff0cLinux\u4e0b\u8bad\u7ec3\u548c\u9884\u6d4b\uff0c\u652f\u6301Nvidia Jetson\u5f00\u53d1\u677f\u9884\u6d4b\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![License](https://img.shields.io/badge/license-Apache%202-red.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![License](https://img.shields.io/badge/license-Apache%202-red.svg)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "speech-recognition",
+      "sense_id": "speech-recognition#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "speech-recognition",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "speech-recognition",
+  "observation_id": "1735698603cc1ece",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "speech-recognition",
+  "source_context_snippet": "![License](https://img.shields.io/badge/license-Apache%202-red.svg)",
+  "source_file": null,
+  "source_repo": "yeyupiaoling/PaddlePaddle-DeepSpeech",
+  "source_repo_description": "\u57fa\u4e8ePaddlePaddle\u5b9e\u73b0\u7684\u8bed\u97f3\u8bc6\u522b\uff0c\u4e2d\u6587\u8bed\u97f3\u8bc6\u522b\u3002\u9879\u76ee\u5b8c\u5584\uff0c\u8bc6\u522b\u6548\u679c\u597d\u3002\u652f\u6301Windows\uff0cLinux\u4e0b\u8bad\u7ec3\u548c\u9884\u6d4b\uff0c\u652f\u6301Nvidia Jetson\u5f00\u53d1\u677f\u9884\u6d4b\u3002"
+}

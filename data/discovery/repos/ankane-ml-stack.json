@@ -1,0 +1,141 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/standard.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/torch-gpu.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ankane/ml-stack",
+      "target": "ankane/libmf-ruby",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ankane/ml-stack",
+      "target": "ankane/ruby-polars",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ankane/ml-stack",
+      "target": "ankane/prophet-ruby",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ankane/ml-stack",
+      "target": "ankane/rover",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/standard.yml",
+      "source_repo": "ankane/ml-stack",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/standard.yml",
+      "source_repo": "ankane/ml-stack",
+      "target": "Standard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/torch-gpu.yml",
+      "source_repo": "ankane/ml-stack",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/torch-gpu.yml",
+      "source_repo": "ankane/ml-stack",
+      "target": "Torch GPU",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T12:54:15.809241+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3389
+    },
+    {
+      "path": "Dockerfile",
+      "size": 586
+    },
+    {
+      "path": ".github/workflows/standard.yml",
+      "size": 547
+    },
+    {
+      "path": ".github/workflows/torch-gpu.yml",
+      "size": 577
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Machine learning Docker images for Ruby",
+    "fork": false,
+    "full_name": "ankane/ml-stack",
+    "html_url": "https://github.com/ankane/ml-stack",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-02-17T22:23:37Z",
+    "stargazers_count": 35,
+    "topics": [],
+    "updated_at": "2026-02-17T22:23:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ankane/libmf-ruby",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ankane/prophet-ruby",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ankane/rover",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ankane/ruby-polars",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Standard",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/standard.yml",
+      "term": "Standard"
+    },
+    {
+      "context_snippet": "Torch GPU",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/torch-gpu.yml",
+      "term": "Torch GPU"
+    }
+  ]
+}

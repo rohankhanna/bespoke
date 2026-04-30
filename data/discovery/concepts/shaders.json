@@ -70,6 +70,30 @@
       "source_repo": "AcademySoftwareFoundation/OpenShadingLanguage",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DiligentGraphics/DiligentCore",
+      "status": "candidate-context",
+      "text": "A modern cross-platform low-level graphics API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DiligentGraphics/DiligentCore",
+      "status": "candidate-context",
+      "text": "Diligent Core is a modern, cross-platform low-level graphics API that forms the foundation of [Diligent Engine](https://github.com/DiligentGraphics/DiligentEngine)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "naelstrof/slop",
+      "status": "candidate-context",
+      "text": "slop (Select Operation) is an application that queries for a selection from the user and prints the region to stdout."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "naelstrof/slop",
+      "status": "candidate-context",
+      "text": "slop (Select Operation) is an application that queries for a selection from the user and prints the region to stdout."
     }
   ],
   "candidate_glosses": [
@@ -102,6 +126,18 @@
       "source_repo": "AcademySoftwareFoundation/OpenShadingLanguage",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DiligentGraphics/DiligentCore",
+      "status": "candidate",
+      "text": "Diligent Core is a modern, cross-platform low-level graphics API that forms the foundation of [Diligent Engine](https://github.com/DiligentGraphics/DiligentEngine)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "naelstrof/slop",
+      "status": "candidate",
+      "text": "slop (Select Operation) is an application that queries for a selection from the user and prints the region to stdout."
     }
   ],
   "candidate_related_terms": [
@@ -175,11 +211,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "AcademySoftwareFoundation/OpenShadingLanguage"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "DiligentGraphics/DiligentCore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "naelstrof/slop"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

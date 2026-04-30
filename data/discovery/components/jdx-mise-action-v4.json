@@ -1,7 +1,7 @@
 {
   "component": "jdx/mise-action@v4",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -47,6 +47,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/doc.yml",
       "source_repo": "abhinav/goldmark-hashtag"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/llscheck.yml",
+      "source_repo": "ColinKennedy/nvim-best-practices-plugin-template"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "kdheepak/panvimdoc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/panvimdoc.yml",
+      "source_repo": "kdheepak/panvimdoc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "kdheepak/panvimdoc"
     }
   ]
 }

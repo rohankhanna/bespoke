@@ -19,12 +19,30 @@
       "source_repo": "python-attrs/attrs",
       "status": "candidate-context",
       "text": "Build & upload PyPI package"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hynek/argon2-cffi",
+      "status": "candidate-context",
+      "text": "Secure Password Hashes for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hynek/argon2-cffi",
+      "status": "candidate-context",
+      "text": "Build & upload PyPI package"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "python-attrs/attrs",
+      "status": "candidate",
+      "text": "Build & upload PyPI package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hynek/argon2-cffi",
       "status": "candidate",
       "text": "Build & upload PyPI package"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/pypi-package.yml",
       "source_repo": "python-attrs/attrs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/pypi-package.yml",
+      "source_repo": "hynek/argon2-cffi"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

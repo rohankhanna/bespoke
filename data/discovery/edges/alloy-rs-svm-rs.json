@@ -11,70 +11,56 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "alloy-rs/svm-rs",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "alloy-rs/svm-rs",
-      "target": "dtolnay/rust-toolchain@stable",
+      "target": "dtolnay/rust-toolchain@29eef336d9b2848a0b548edc03f92a220660cdb8",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "alloy-rs/svm-rs",
-      "target": "Swatinem/rust-cache@v2",
+      "target": "Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "alloy-rs/svm-rs",
-      "target": "taiki-e/install-action@cargo-nextest",
+      "target": "taiki-e/install-action@74e87cbfa15a59692b158178d8905a61bf6fca95",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "alloy-rs/svm-rs",
-      "target": "taiki-e/install-action@cargo-hack",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ci.yml",
-      "source_repo": "alloy-rs/svm-rs",
-      "target": "dtolnay/rust-toolchain@clippy",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ci.yml",
-      "source_repo": "alloy-rs/svm-rs",
-      "target": "dtolnay/rust-toolchain@nightly",
+      "target": "tempoxyz/ci/.github/workflows/deny.yml@main",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "alloy-rs/svm-rs",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@v6",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "alloy-rs/svm-rs",
-      "target": "actions/upload-artifact@v4",
+      "target": "actions/upload-artifact@v7",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "alloy-rs/svm-rs",
-      "target": "actions/download-artifact@v4",
+      "target": "actions/download-artifact@v8",
       "target_type": "component"
     },
     {
@@ -99,6 +85,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "generated_at": "2026-04-30T12:45:20.475770+00:00",
   "source_repo": "alloy-rs/svm-rs"
 }

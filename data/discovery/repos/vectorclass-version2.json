@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vectorclass/version2",
+      "target": "vectorclass/manual",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vectorclass/version2",
+      "target": "vectorclass/add-on",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:01:30.761890+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 880
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Vector class library, latest version",
+    "fork": false,
+    "full_name": "vectorclass/version2",
+    "html_url": "https://github.com/vectorclass/version2",
+    "language": "C++",
+    "pushed_at": "2026-04-14T06:22:55Z",
+    "stargazers_count": 1449,
+    "topics": [],
+    "updated_at": "2026-04-24T02:30:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vectorclass/add-on",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vectorclass/manual",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "pipal"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HaomingCai/PIPAL-dataset",
+      "status": "candidate-context",
+      "text": "[ Official ] - PIPAL Dataset and Training Codebase.  ECCV-2020, NTIRE-21/22."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HaomingCai/PIPAL-dataset",
+      "status": "candidate-context",
+      "text": "<a href=\"https://www.jasongt.com\" target=\"_blank\">Jinjin Gu</a>,"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HaomingCai/PIPAL-dataset",
+      "status": "candidate",
+      "text": "<a href=\"https://www.jasongt.com\" target=\"_blank\">Jinjin Gu</a>,"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29972053,
+      "status": "candidate",
+      "text": "pipul"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29820081,
+      "status": "candidate",
+      "text": "peepul"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29811985,
+      "status": "candidate",
+      "text": "bo tree"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29811222,
+      "status": "candidate",
+      "text": "sacred fig"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19972139,
+      "status": "candidate",
+      "text": "ficus religiosa"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1026,
+      "status": "candidate",
+      "text": "bo tree"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21,
+      "status": "candidate",
+      "text": "peepul"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13,
+      "status": "candidate",
+      "text": "pipul"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13,
+      "status": "candidate",
+      "text": "sacred fig"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "ficus religiosa"
+    }
+  ],
+  "canonical_name": "pipal",
+  "concept_id": "pipal",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "HaomingCai/PIPAL-dataset"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pipal",
+      "sense_id": "pipal#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A GitHub Action for running cargo-semver-checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Smoke test the action"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Smoke test the action"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35302,
+      "status": "candidate",
+      "text": "fume"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35289,
+      "status": "candidate",
+      "text": "fumes"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34175,
+      "status": "candidate",
+      "text": "prove"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34175,
+      "status": "candidate",
+      "text": "proving"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27232,
+      "status": "candidate",
+      "text": "reek"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Smoke test the action",
+      "sense_id": "smoke-test-the-action#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "smoke-test-the-action",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "smoke-test-the-action",
+  "observation_id": "ab66af39fb4df688",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "Smoke test the action",
+  "source_context_snippet": "Smoke test the action",
+  "source_file": ".github/workflows/test-action.yml",
+  "source_repo": "mgr0dzicki/cargo-semver-checks-action",
+  "source_repo_description": "A GitHub Action for running cargo-semver-checks"
+}

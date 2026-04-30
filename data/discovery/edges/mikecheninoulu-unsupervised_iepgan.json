@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mikecheninoulu/Unsupervised_IEPGAN",
+      "target": "jiashunwang/neural-pose-transfer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mikecheninoulu/Unsupervised_IEPGAN",
+      "target": "rosinality/swapping-autoencoder-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mikecheninoulu/Unsupervised_IEPGAN",
+      "target": "lcosmo/limp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mikecheninoulu/Unsupervised_IEPGAN",
+      "target": "meshes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mikecheninoulu/Unsupervised_IEPGAN",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mikecheninoulu/Unsupervised_IEPGAN",
+      "target": "style-transfer",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T12:45:20.475770+00:00",
+  "source_repo": "mikecheninoulu/Unsupervised_IEPGAN"
+}

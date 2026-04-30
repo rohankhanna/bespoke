@@ -79,6 +79,66 @@
       "source_repo": "olegchomp/TDDepthAnything",
       "status": "candidate-context",
       "text": "<a href=\"https://discord.com/invite/wNW8xkEjrf\"><img src=\"https://discord.com/api/guilds/838923088997122100/widget.png?style=shield\" alt=\"Discord Shield\"/></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aim-uofa/GenPercept",
+      "status": "candidate-context",
+      "text": "[ICLR2025] GenPercept: Diffusion Models Trained with Large Data Are Transferable Visual Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aim-uofa/GenPercept",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prs-eth/Marigold",
+      "status": "candidate-context",
+      "text": "[CVPR 2024 - Oral, Best Paper Award Candidate] Marigold: Repurposing Diffusion-Based Image Generators for Monocular Depth Estimation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prs-eth/Marigold",
+      "status": "candidate-context",
+      "text": "This project implements Marigold, a Computer Vision method for estimating image characteristics. Initially proposed for"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spacewalk01/depth-anything-tensorrt",
+      "status": "candidate-context",
+      "text": "C++ TensorRT implementation of Depth-Anything V1, V2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spacewalk01/depth-anything-tensorrt",
+      "status": "candidate-context",
+      "text": "<div align=\"left\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DepthAnything/Video-Depth-Anything",
+      "status": "candidate-context",
+      "text": "[CVPR 2025 Highlight] Video Depth Anything: Consistent Depth Estimation for Super-Long Videos"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DepthAnything/Video-Depth-Anything",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "isl-org/ZoeDepth",
+      "status": "candidate-context",
+      "text": "Metric depth estimation from a single image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isl-org/ZoeDepth",
+      "status": "candidate-context",
+      "text": "This project will no longer be maintained by Intel."
     }
   ],
   "candidate_glosses": [
@@ -117,6 +177,36 @@
       "source_repo": "olegchomp/TDDepthAnything",
       "status": "candidate",
       "text": "<a href=\"https://discord.com/invite/wNW8xkEjrf\"><img src=\"https://discord.com/api/guilds/838923088997122100/widget.png?style=shield\" alt=\"Discord Shield\"/></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aim-uofa/GenPercept",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prs-eth/Marigold",
+      "status": "candidate",
+      "text": "This project implements Marigold, a Computer Vision method for estimating image characteristics. Initially proposed for"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spacewalk01/depth-anything-tensorrt",
+      "status": "candidate",
+      "text": "<div align=\"left\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DepthAnything/Video-Depth-Anything",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isl-org/ZoeDepth",
+      "status": "candidate",
+      "text": "This project will no longer be maintained by Intel."
     }
   ],
   "candidate_related_terms": [],
@@ -160,11 +250,41 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "olegchomp/TDDepthAnything"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "aim-uofa/GenPercept"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "prs-eth/Marigold"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "spacewalk01/depth-anything-tensorrt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "DepthAnything/Video-Depth-Anything"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/ZoeDepth"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

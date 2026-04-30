@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T13:09:15.107400+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10746
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Tools for interacting with Boogie",
+    "fork": false,
+    "full_name": "boogie-org/boogie-friends",
+    "html_url": "https://github.com/boogie-org/boogie-friends",
+    "language": "Emacs Lisp",
+    "pushed_at": "2025-03-10T16:10:15Z",
+    "stargazers_count": 56,
+    "topics": [],
+    "updated_at": "2026-04-08T14:29:38Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

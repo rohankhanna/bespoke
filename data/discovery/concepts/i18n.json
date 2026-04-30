@@ -171,6 +171,42 @@
       "source_repo": "i18next/jquery-i18next",
       "status": "candidate-context",
       "text": "Source can be loaded via [npm](https://www.npmjs.com/package/jquery-i18next), bower or [downloaded](https://github.com/i18next/jquery-i18next/blob/master/jquery-i18next.min.js) from this repo or from a CDN like [CDNJS](https://cdnjs.com/libraries/jquery-i18next)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "i18next/i18next-express-middleware",
+      "status": "candidate-context",
+      "text": "[deprecated] can be replaced with i18next-http-middleware"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i18next/i18next-express-middleware",
+      "status": "candidate-context",
+      "text": "Can be replaced with: [i18next-http-middleware](https://github.com/i18next/i18next-http-middleware)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "i18next/i18next-cli",
+      "status": "candidate-context",
+      "text": "A unified, high-performance i18next CLI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i18next/i18next-cli",
+      "status": "candidate-context",
+      "text": "A unified, high-performance i18next CLI toolchain, powered by SWC."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eclipse-sumo/sumo",
+      "status": "candidate-context",
+      "text": "Eclipse SUMO is an open source, highly portable, microscopic and continuous traffic simulation package designed to handle large networks. It allows for intermodal simulation including pedestrians and comes with a large set of tools for scenario creation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-sumo/sumo",
+      "status": "candidate-context",
+      "text": "i18n"
     }
   ],
   "candidate_glosses": [
@@ -257,6 +293,24 @@
       "source_repo": "i18next/jquery-i18next",
       "status": "candidate",
       "text": "Source can be loaded via [npm](https://www.npmjs.com/package/jquery-i18next), bower or [downloaded](https://github.com/i18next/jquery-i18next/blob/master/jquery-i18next.min.js) from this repo or from a CDN like [CDNJS](https://cdnjs.com/libraries/jquery-i18next)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i18next/i18next-express-middleware",
+      "status": "candidate",
+      "text": "Can be replaced with: [i18next-http-middleware](https://github.com/i18next/i18next-http-middleware)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i18next/i18next-cli",
+      "status": "candidate",
+      "text": "A unified, high-performance i18next CLI toolchain, powered by SWC."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-sumo/sumo",
+      "status": "candidate",
+      "text": "i18n"
     }
   ],
   "candidate_related_terms": [
@@ -480,11 +534,47 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "ajv-validator/ajv-i18n"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "lobehub/lobe-cli-toolbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "i18next/i18next-express-middleware"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "i18next/i18next-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/StringZilla-CLI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ajv-validator/ajv-i18n"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/i18n.yml",
+      "source_repo": "eclipse-sumo/sumo"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

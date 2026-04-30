@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "stroking-fishes-ml-corp/A-ESRGAN",
+      "target": "aergan/a-esrgan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "stroking-fishes-ml-corp/A-ESRGAN",
+      "target": "aesrgan/a-esrgan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "stroking-fishes-ml-corp/A-ESRGAN",
+      "target": "xinntao/basicsr",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:15:44.556850+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7180
+    },
+    {
+      "path": "requirements.txt",
+      "size": 105
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[PRICAI 2023] A-ESRGAN aims to provide better super-resolution images by using multi-scale attention U-net discriminators. ",
+    "fork": false,
+    "full_name": "stroking-fishes-ml-corp/A-ESRGAN",
+    "html_url": "https://github.com/stroking-fishes-ml-corp/A-ESRGAN",
+    "language": "Python",
+    "pushed_at": "2022-02-13T01:15:21Z",
+    "stargazers_count": 134,
+    "topics": [],
+    "updated_at": "2026-04-18T06:21:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aergan/a-esrgan",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aesrgan/a-esrgan",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xinntao/basicsr",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -19,6 +19,18 @@
       "source_repo": "chequer-io/qsi",
       "status": "candidate-context",
       "text": "[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://raw.githubusercontent.com/chequer-io/qsi/main/LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chequer-io/PrimarSql",
+      "status": "candidate-context",
+      "text": ".NET Core SQL parser for DynamoDB"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chequer-io/PrimarSql",
+      "status": "candidate-context",
+      "text": "<img width=\"128\" src=\"https://github.com/chequer-io/primarsql/blob/main/Logo.png?raw=true\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "chequer-io/qsi",
       "status": "candidate",
       "text": "[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://raw.githubusercontent.com/chequer-io/qsi/main/LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chequer-io/PrimarSql",
+      "status": "candidate",
+      "text": "<img width=\"128\" src=\"https://github.com/chequer-io/primarsql/blob/main/Logo.png?raw=true\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "chequer-io/qsi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "chequer-io/PrimarSql"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,114 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IQVIA-ML/LightGBM.jl",
+      "target": "alan-turing-institute/mlj.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IQVIA-ML/LightGBM.jl",
+      "target": "juliabinarywrappers/lightgbm_jll.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IQVIA-ML/LightGBM.jl",
+      "target": "microsoft/lightgbm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "IQVIA-ML/LightGBM.jl",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "IQVIA-ML/LightGBM.jl",
+      "target": "julia-actions/setup-julia@latest",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:05:20.823334+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7380
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 2657
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Julia FFI interface to Microsoft's LightGBM package",
+    "fork": false,
+    "full_name": "IQVIA-ML/LightGBM.jl",
+    "html_url": "https://github.com/IQVIA-ML/LightGBM.jl",
+    "language": "Julia",
+    "pushed_at": "2026-03-10T12:32:20Z",
+    "stargazers_count": 94,
+    "topics": [],
+    "updated_at": "2026-03-04T08:53:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alan-turing-institute/mlj.jl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliabinarywrappers/lightgbm_jll.jl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/lightgbm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

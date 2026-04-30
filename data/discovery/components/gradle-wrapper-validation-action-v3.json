@@ -1,12 +1,17 @@
 {
   "component": "gradle/wrapper-validation-action@v3",
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/update-test-images.yml",
       "source_repo": "aws-observability/aws-otel-test-framework"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integ.yml",
+      "source_repo": "smithy-lang/smithy-examples"
     }
   ]
 }

@@ -1,0 +1,12 @@
+{
+  "component": "step-security/dependabot-fetch-metadata@38d404f7e1742ae1cfa9b25ade9afa0c7a288e77",
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto_merge_prs.yml",
+      "source_repo": "zip-rs/zip2"
+    }
+  ]
+}

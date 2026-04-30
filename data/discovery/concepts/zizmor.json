@@ -177,6 +177,18 @@
       "source_repo": "google/zx",
       "status": "candidate-context",
       "text": "Zizmor"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hynek/argon2-cffi",
+      "status": "candidate-context",
+      "text": "Secure Password Hashes for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hynek/argon2-cffi",
+      "status": "candidate-context",
+      "text": "Zizmor"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +273,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "google/zx",
+      "status": "candidate",
+      "text": "Zizmor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hynek/argon2-cffi",
       "status": "candidate",
       "text": "Zizmor"
     }
@@ -360,11 +378,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/zizmor.yml",
       "source_repo": "google/zx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/zizmor.yml",
+      "source_repo": "hynek/argon2-cffi"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

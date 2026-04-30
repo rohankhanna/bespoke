@@ -1,0 +1,181 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev.yaml"
+    },
+    {
+      "component": "Azure/setup-azd@v2.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bicep-audit.yml"
+    },
+    {
+      "component": "microsoft/security-devops-action@preview",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bicep-audit.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bicep-audit.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Azure-Samples/ai-rag-chat-evaluator",
+      "target": "microsoft/ai-chat-protocol",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev.yaml",
+      "source_repo": "Azure-Samples/ai-rag-chat-evaluator",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev.yaml",
+      "source_repo": "Azure-Samples/ai-rag-chat-evaluator",
+      "target": "Azure/setup-azd@v2.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev.yaml",
+      "source_repo": "Azure-Samples/ai-rag-chat-evaluator",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/azure-dev.yaml",
+      "source_repo": "Azure-Samples/ai-rag-chat-evaluator",
+      "target": "Test azd deployment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bicep-audit.yml",
+      "source_repo": "Azure-Samples/ai-rag-chat-evaluator",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bicep-audit.yml",
+      "source_repo": "Azure-Samples/ai-rag-chat-evaluator",
+      "target": "microsoft/security-devops-action@preview",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bicep-audit.yml",
+      "source_repo": "Azure-Samples/ai-rag-chat-evaluator",
+      "target": "github/codeql-action/upload-sarif@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bicep-audit.yml",
+      "source_repo": "Azure-Samples/ai-rag-chat-evaluator",
+      "target": "Validate bicep templates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python.yaml",
+      "source_repo": "Azure-Samples/ai-rag-chat-evaluator",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python.yaml",
+      "source_repo": "Azure-Samples/ai-rag-chat-evaluator",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:04:53.511868+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19143
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 883
+    },
+    {
+      "path": ".github/workflows/azure-dev.yaml",
+      "size": 3700
+    },
+    {
+      "path": ".github/workflows/bicep-audit.yml",
+      "size": 786
+    },
+    {
+      "path": ".github/workflows/python.yaml",
+      "size": 1307
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Tools for evaluation of RAG Chat Apps using Azure AI Evaluate SDK and OpenAI ",
+    "fork": false,
+    "full_name": "Azure-Samples/ai-rag-chat-evaluator",
+    "html_url": "https://github.com/Azure-Samples/ai-rag-chat-evaluator",
+    "language": "Python",
+    "pushed_at": "2026-01-26T08:41:56Z",
+    "stargazers_count": 328,
+    "topics": [],
+    "updated_at": "2026-04-24T04:36:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/ai-chat-protocol",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Test azd deployment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/azure-dev.yaml",
+      "term": "Test azd deployment"
+    },
+    {
+      "context_snippet": "Validate bicep templates",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bicep-audit.yml",
+      "term": "Validate bicep templates"
+    }
+  ]
+}

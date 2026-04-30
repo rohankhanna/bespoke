@@ -223,6 +223,42 @@
       "source_repo": "elixir-mint/mint_web_socket",
       "status": "candidate-context",
       "text": "[![CI][ci-badge]][actions]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "preactjs/preact-cli",
+      "status": "candidate-context",
+      "text": "\ud83d\ude3a Your next Preact PWA starts in 30 seconds."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "preactjs/preact-cli",
+      "status": "candidate-context",
+      "text": "> [!WARNING]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haproxy/haproxy",
+      "status": "candidate-context",
+      "text": "HAProxy Load Balancer's development branch (mirror of git.haproxy.org)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haproxy/haproxy",
+      "status": "candidate-context",
+      "text": "[![AWS-LC](https://github.com/haproxy/haproxy/actions/workflows/aws-lc.yml/badge.svg)](https://github.com/haproxy/haproxy/actions/workflows/aws-lc.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ninenines/gun",
+      "status": "candidate-context",
+      "text": "HTTP/1.1, HTTP/2, Websocket client (and more) for Erlang/OTP."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ninenines/gun",
+      "status": "candidate-context",
+      "text": "Check Gun"
     }
   ],
   "candidate_glosses": [
@@ -333,6 +369,24 @@
       "source_repo": "elixir-mint/mint_web_socket",
       "status": "candidate",
       "text": "[![CI][ci-badge]][actions]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "preactjs/preact-cli",
+      "status": "candidate",
+      "text": "> [!WARNING]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haproxy/haproxy",
+      "status": "candidate",
+      "text": "[![AWS-LC](https://github.com/haproxy/haproxy/actions/workflows/aws-lc.yml/badge.svg)](https://github.com/haproxy/haproxy/actions/workflows/aws-lc.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ninenines/gun",
+      "status": "candidate",
+      "text": "Check Gun"
     }
   ],
   "candidate_related_terms": [],
@@ -460,11 +514,35 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "elixir-mint/mint_web_socket"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "preactjs/preact-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "haproxy/haproxy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ninenines/gun"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "elixir-grpc/grpc"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

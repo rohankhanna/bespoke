@@ -1,0 +1,332 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_test_publish_wheel.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_test_publish_wheel.yml"
+    },
+    {
+      "component": "actions/download-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_test_publish_wheel.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_release_library.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_release_library.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_release_library.yml"
+    },
+    {
+      "component": "mikepenz/release-changelog-builder-action@v6.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_release_library.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_release_library.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_update_dependencies.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_update_dependencies.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_update_dependencies.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_update_dependencies.yml"
+    },
+    {
+      "component": "actions/download-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_update_dependencies.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_update_dependencies.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/all_tests_common.yml"
+    },
+    {
+      "component": "nv-gha-runners/get-pr-info@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-assign-milestone.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-reminder-bot.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-reminder-bot.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "flagos-ai/Megatron-LM-FL",
+      "target": "nvidia/nvidia-resiliency-ext",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_test_publish_wheel.yml",
+      "source_repo": "flagos-ai/Megatron-LM-FL",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_test_publish_wheel.yml",
+      "source_repo": "flagos-ai/Megatron-LM-FL",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_test_publish_wheel.yml",
+      "source_repo": "flagos-ai/Megatron-LM-FL",
+      "target": "actions/download-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_release_library.yml",
+      "source_repo": "flagos-ai/Megatron-LM-FL",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_release_library.yml",
+      "source_repo": "flagos-ai/Megatron-LM-FL",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_release_library.yml",
+      "source_repo": "flagos-ai/Megatron-LM-FL",
+      "target": "mikepenz/release-changelog-builder-action@v6.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_release_library.yml",
+      "source_repo": "flagos-ai/Megatron-LM-FL",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_update_dependencies.yml",
+      "source_repo": "flagos-ai/Megatron-LM-FL",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_update_dependencies.yml",
+      "source_repo": "flagos-ai/Megatron-LM-FL",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_update_dependencies.yml",
+      "source_repo": "flagos-ai/Megatron-LM-FL",
+      "target": "actions/download-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_update_dependencies.yml",
+      "source_repo": "flagos-ai/Megatron-LM-FL",
+      "target": "peter-evans/create-pull-request@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_update_dependencies.yml",
+      "source_repo": "flagos-ai/Megatron-LM-FL",
+      "target": "~Update dependencies template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/all_tests_common.yml",
+      "source_repo": "flagos-ai/Megatron-LM-FL",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/all_tests_common.yml",
+      "source_repo": "flagos-ai/Megatron-LM-FL",
+      "target": "Common All Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-assign-milestone.yml",
+      "source_repo": "flagos-ai/Megatron-LM-FL",
+      "target": "nv-gha-runners/get-pr-info@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-assign-milestone.yml",
+      "source_repo": "flagos-ai/Megatron-LM-FL",
+      "target": "Auto-assign Milestone to PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-reminder-bot.yml",
+      "source_repo": "flagos-ai/Megatron-LM-FL",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-reminder-bot.yml",
+      "source_repo": "flagos-ai/Megatron-LM-FL",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-reminder-bot.yml",
+      "source_repo": "flagos-ai/Megatron-LM-FL",
+      "target": "Auto Reminder Bot",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:08:41.063583+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9998
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 8580
+    },
+    {
+      "path": ".github/workflows/_build_test_publish_wheel.yml",
+      "size": 6390
+    },
+    {
+      "path": ".github/workflows/_release_library.yml",
+      "size": 18354
+    },
+    {
+      "path": ".github/workflows/_update_dependencies.yml",
+      "size": 7901
+    },
+    {
+      "path": ".github/workflows/all_tests_common.yml",
+      "size": 6966
+    },
+    {
+      "path": ".github/workflows/all_tests_cuda.yml",
+      "size": 857
+    },
+    {
+      "path": ".github/workflows/all_tests_metax.yml",
+      "size": 860
+    },
+    {
+      "path": ".github/workflows/auto-assign-milestone.yml",
+      "size": 2781
+    },
+    {
+      "path": ".github/workflows/auto-reminder-bot.yml",
+      "size": 917
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Megatron-LM-FL is a fork of Megatron-LM that introduces a plugin-based architecture for supporting diverse AI chips, built on top of FlagOS, a unified open-source AI system software stack.",
+    "fork": true,
+    "full_name": "flagos-ai/Megatron-LM-FL",
+    "html_url": "https://github.com/flagos-ai/Megatron-LM-FL",
+    "language": "Python",
+    "pushed_at": "2026-04-30T02:21:15Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2026-04-30T02:21:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidia/nvidia-resiliency-ext",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Release\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_release_library.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "~Update dependencies template",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_update_dependencies.yml",
+      "term": "~Update dependencies template"
+    },
+    {
+      "context_snippet": "Common All Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/all_tests_common.yml",
+      "term": "Common All Tests"
+    },
+    {
+      "context_snippet": "Auto-assign Milestone to PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-assign-milestone.yml",
+      "term": "Auto-assign Milestone to PR"
+    },
+    {
+      "context_snippet": "Auto Reminder Bot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-reminder-bot.yml",
+      "term": "Auto Reminder Bot"
+    }
+  ]
+}

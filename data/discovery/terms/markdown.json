@@ -1,7 +1,12 @@
 {
-  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "sources": [
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "svsool/memo"
+    },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
@@ -20,22 +25,22 @@
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "sphinx-doc/sphinx"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "Alir3z4/html2text"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
       "source_repo": "tree-sitter-grammars/tree-sitter-markdown"
     },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "scivision/linkchecker-markdown"
+      "source_repo": "kdheepak/panvimdoc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "aliezzahn/rsbuild-plugin-markdown-loader"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "docling-project/docling"
     }
   ],
   "term": "markdown"

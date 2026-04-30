@@ -1,7 +1,7 @@
 {
   "component": "RustCrypto/actions/cargo-hack-install@master",
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -17,6 +17,46 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "RustCrypto/RSA"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ascon-hash.yml",
+      "source_repo": "sp1-patches/RustCrypto-hashes"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/belt-hash.yml",
+      "source_repo": "sp1-patches/RustCrypto-hashes"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/blake2.yml",
+      "source_repo": "sp1-patches/RustCrypto-hashes"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/fsb.yml",
+      "source_repo": "sp1-patches/RustCrypto-hashes"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gost94.yml",
+      "source_repo": "sp1-patches/RustCrypto-hashes"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/groestl.yml",
+      "source_repo": "sp1-patches/RustCrypto-hashes"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/jh.yml",
+      "source_repo": "sp1-patches/RustCrypto-hashes"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/k12.yml",
+      "source_repo": "sp1-patches/RustCrypto-hashes"
     }
   ]
 }

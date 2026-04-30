@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Firefox Application Services"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Update Remote Settings Dumps"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Update Remote Settings Dumps"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29378,
+      "status": "candidate",
+      "text": "convert"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29378,
+      "status": "candidate",
+      "text": "drift"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29378,
+      "status": "candidate",
+      "text": "drifting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26108,
+      "status": "candidate",
+      "text": "clicker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19711,
+      "status": "candidate",
+      "text": "rebate"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Remote Settings Dumps",
+      "sense_id": "update-remote-settings-dumps#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "update-remote-settings-dumps",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "update-remote-settings-dumps",
+  "observation_id": "49f71d459b65ddcc",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "Update Remote Settings Dumps",
+  "source_context_snippet": "Update Remote Settings Dumps",
+  "source_file": ".github/workflows/update-remote-settings-dumps.yaml",
+  "source_repo": "mozilla/application-services",
+  "source_repo_description": "Firefox Application Services"
+}

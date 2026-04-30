@@ -31,6 +31,18 @@
       "source_repo": "runwayml/RunwayML-for-Photoshop",
       "status": "candidate-context",
       "text": "[![Open in RunwayML Badge](https://open-app.runwayml.com/gh-badge-app.svg)](https://open-app.runwayml.com/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Adobe-CEP/CEP-Resources",
+      "status": "candidate-context",
+      "text": "Tools and documentation for building Creative Cloud app extensions with CEP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Adobe-CEP/CEP-Resources",
+      "status": "candidate-context",
+      "text": "Getting Started with Common Extensibility Platform (CEP)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "runwayml/RunwayML-for-Photoshop",
       "status": "candidate",
       "text": "[![Open in RunwayML Badge](https://open-app.runwayml.com/gh-badge-app.svg)](https://open-app.runwayml.com/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Adobe-CEP/CEP-Resources",
+      "status": "candidate",
+      "text": "Getting Started with Common Extensibility Platform (CEP)"
     }
   ],
   "candidate_related_terms": [
@@ -108,11 +126,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "runwayml/RunwayML-for-Photoshop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Adobe-CEP/CEP-Resources"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

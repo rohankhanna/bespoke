@@ -1,0 +1,175 @@
+{
+  "components": [
+    {
+      "component": "actions/versions-package-tools/.github/workflows/build-tool-packages.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-node-packages.yml"
+    },
+    {
+      "component": "actions/reusable-workflows/.github/workflows/codeql-analysis.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/versions-package-tools/.github/workflows/create-pr-to-update-manifest.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-pr.yml"
+    },
+    {
+      "component": "actions/versions-package-tools/.github/workflows/get-new-tool-versions.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/get-node-versions.yml"
+    },
+    {
+      "component": "actions/versions-package-tools/.github/workflows/validate-manifest.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-manifest.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-node-packages.yml",
+      "source_repo": "actions/node-versions",
+      "target": "actions/versions-package-tools/.github/workflows/build-tool-packages.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-node-packages.yml",
+      "source_repo": "actions/node-versions",
+      "target": "Generate Node.js packages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "actions/node-versions",
+      "target": "actions/reusable-workflows/.github/workflows/codeql-analysis.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "actions/node-versions",
+      "target": "CodeQL analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-pr.yml",
+      "source_repo": "actions/node-versions",
+      "target": "actions/versions-package-tools/.github/workflows/create-pr-to-update-manifest.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-pr.yml",
+      "source_repo": "actions/node-versions",
+      "target": "Create Pull Request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/get-node-versions.yml",
+      "source_repo": "actions/node-versions",
+      "target": "actions/versions-package-tools/.github/workflows/get-new-tool-versions.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/get-node-versions.yml",
+      "source_repo": "actions/node-versions",
+      "target": "Get Node versions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-manifest.yml",
+      "source_repo": "actions/node-versions",
+      "target": "actions/versions-package-tools/.github/workflows/validate-manifest.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-manifest.yml",
+      "source_repo": "actions/node-versions",
+      "target": "Validate manifest",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:08:42.419085+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1917
+    },
+    {
+      "path": ".github/workflows/build-node-packages.yml",
+      "size": 810
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 270
+    },
+    {
+      "path": ".github/workflows/create-pr.yml",
+      "size": 223
+    },
+    {
+      "path": ".github/workflows/get-node-versions.yml",
+      "size": 339
+    },
+    {
+      "path": ".github/workflows/validate-manifest.yml",
+      "size": 603
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Node builds for Actions Runner Images",
+    "fork": false,
+    "full_name": "actions/node-versions",
+    "html_url": "https://github.com/actions/node-versions",
+    "language": "PowerShell",
+    "pushed_at": "2026-04-16T15:49:01Z",
+    "stargazers_count": 114,
+    "topics": [],
+    "updated_at": "2026-04-17T17:59:12Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Generate Node.js packages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-node-packages.yml",
+      "term": "Generate Node.js packages"
+    },
+    {
+      "context_snippet": "CodeQL analysis",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL analysis"
+    },
+    {
+      "context_snippet": "Create Pull Request",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-pr.yml",
+      "term": "Create Pull Request"
+    },
+    {
+      "context_snippet": "Get Node versions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/get-node-versions.yml",
+      "term": "Get Node versions"
+    },
+    {
+      "context_snippet": "Validate manifest",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-manifest.yml",
+      "term": "Validate manifest"
+    }
+  ]
+}

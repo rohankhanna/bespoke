@@ -45,6 +45,18 @@
       "source_repo": "marmelab/react-admin",
       "status": "candidate-context",
       "text": "A frontend Framework for building single-page applications running in the browser on top of REST/GraphQL APIs, using TypeScript, [React](https://facebook.github.io/react/) and [Material Design](https://material.io/). Open sourced and maintained by [marmelab](https://marmelab.com\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CyanAsterisk/FreeCar-Admin",
+      "status": "candidate-context",
+      "text": "Background management interface of FreeCar"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CyanAsterisk/FreeCar-Admin",
+      "status": "candidate-context",
+      "text": "![FreeCar Admin](src/assets/FreeCar%20Admin.png)"
     }
   ],
   "candidate_glosses": [
@@ -65,6 +77,12 @@
       "source_repo": "marmelab/react-admin",
       "status": "candidate",
       "text": "A frontend Framework for building single-page applications running in the browser on top of REST/GraphQL APIs, using TypeScript, [React](https://facebook.github.io/react/) and [Material Design](https://material.io/). Open sourced and maintained by [marmelab](https://marmelab.com\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CyanAsterisk/FreeCar-Admin",
+      "status": "candidate",
+      "text": "![FreeCar Admin](src/assets/FreeCar%20Admin.png)"
     }
   ],
   "candidate_related_terms": [
@@ -126,11 +144,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "marmelab/react-admin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "CyanAsterisk/FreeCar-Admin"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

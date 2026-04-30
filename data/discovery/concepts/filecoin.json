@@ -79,6 +79,18 @@
       "source_repo": "filecoin-project/community",
       "status": "candidate-context",
       "text": "- [Community](#community)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "filecoin-project/cpp-filecoin",
+      "status": "candidate-context",
+      "text": "C++17 implementation of Filecoin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filecoin-project/cpp-filecoin",
+      "status": "candidate-context",
+      "text": "> C++17 implementation of blockchain based digital storage"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "filecoin-project/community",
       "status": "candidate",
       "text": "- [Community](#community)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filecoin-project/cpp-filecoin",
+      "status": "candidate",
+      "text": "> C++17 implementation of blockchain based digital storage"
     }
   ],
   "candidate_related_terms": [
@@ -196,11 +214,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "filecoin-project/community"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "filecoin-project/cpp-filecoin"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

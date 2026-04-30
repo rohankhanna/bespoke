@@ -79,6 +79,18 @@
       "source_repo": "leejet/stable-diffusion.cpp",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IceClear/LDM-SRtuning",
+      "status": "candidate-context",
+      "text": "Train latent diffusion for real-world super-resolution."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IceClear/LDM-SRtuning",
+      "status": "candidate-context",
+      "text": "This repo is used as an example for training and finetuning [latent-diffusion](https://github.com/CompVis/latent-diffusion) used as the baseline in [StableSR](https://github.com/IceClear/StableSR)."
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "leejet/stable-diffusion.cpp",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IceClear/LDM-SRtuning",
+      "status": "candidate",
+      "text": "This repo is used as an example for training and finetuning [latent-diffusion](https://github.com/CompVis/latent-diffusion) used as the baseline in [StableSR](https://github.com/IceClear/StableSR)."
     }
   ],
   "candidate_related_terms": [],
@@ -178,11 +196,29 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "leejet/stable-diffusion.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "invoke-ai/InvokeAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Sanster/IOPaint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "IceClear/LDM-SRtuning"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

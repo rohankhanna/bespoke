@@ -1,0 +1,581 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image-scan.yaml"
+    },
+    {
+      "component": "aquasecurity/trivy-action@0.35.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image-scan.yaml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image-scan.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/operator.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/operator.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/operator.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/operator.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/operator.yaml"
+    },
+    {
+      "component": "apicurio/apicurio-github-actions/setup-minikube@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/operator.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/operator.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/operator.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/operator.yaml"
+    },
+    {
+      "component": "apicurio/apicurio-github-actions/setup-minikube@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/operator.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/operator.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/operator.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/operator.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/operator.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-lifecycle.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-lifecycle.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-lifecycle.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-lifecycle.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-lifecycle.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-lifecycle.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-lifecycle.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-lifecycle.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-lifecycle.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-lifecycle.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-lifecycle.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-lifecycle.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-lifecycle.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-lifecycle.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-lifecycle.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-lifecycle.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-artifacts.yaml"
+    },
+    {
+      "component": "crazy-max/ghaction-import-gpg@f6f458f535f4ccdf100400ee0755c0e857226a66",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-artifacts.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-artifacts.yaml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-artifacts.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-artifacts.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-artifacts.yaml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-artifacts.yaml"
+    },
+    {
+      "component": "jlumbroso/free-disk-space@76866dbe54312617f00798d1762df7f43def6e5c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-images.yaml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-images.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-images.yaml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-images.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-images.yaml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-images.yaml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-milestones.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-operator.yaml"
+    },
+    {
+      "component": "apicurio/apicurio-github-actions/setup-minikube@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-operator.yaml"
+    },
+    {
+      "component": "mxschmitt/action-tmate@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-operator.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image-scan.yaml",
+      "source_repo": "Apicurio/apicurio-registry",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image-scan.yaml",
+      "source_repo": "Apicurio/apicurio-registry",
+      "target": "aquasecurity/trivy-action@0.35.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image-scan.yaml",
+      "source_repo": "Apicurio/apicurio-registry",
+      "target": "github/codeql-action/upload-sarif@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/image-scan.yaml",
+      "source_repo": "Apicurio/apicurio-registry",
+      "target": "Trivy Image Scan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/operator.yaml",
+      "source_repo": "Apicurio/apicurio-registry",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/operator.yaml",
+      "source_repo": "Apicurio/apicurio-registry",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/operator.yaml",
+      "source_repo": "Apicurio/apicurio-registry",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/operator.yaml",
+      "source_repo": "Apicurio/apicurio-registry",
+      "target": "apicurio/apicurio-github-actions/setup-minikube@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/operator.yaml",
+      "source_repo": "Apicurio/apicurio-registry",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/operator.yaml",
+      "source_repo": "Apicurio/apicurio-registry",
+      "target": "Operator Test Workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-lifecycle.yml",
+      "source_repo": "Apicurio/apicurio-registry",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-lifecycle.yml",
+      "source_repo": "Apicurio/apicurio-registry",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-lifecycle.yml",
+      "source_repo": "Apicurio/apicurio-registry",
+      "target": "PR Lifecycle",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-docs.yaml",
+      "source_repo": "Apicurio/apicurio-registry",
+      "target": "Publish Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-artifacts.yaml",
+      "source_repo": "Apicurio/apicurio-registry",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-artifacts.yaml",
+      "source_repo": "Apicurio/apicurio-registry",
+      "target": "crazy-max/ghaction-import-gpg@f6f458f535f4ccdf100400ee0755c0e857226a66",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-artifacts.yaml",
+      "source_repo": "Apicurio/apicurio-registry",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-images.yaml",
+      "source_repo": "Apicurio/apicurio-registry",
+      "target": "jlumbroso/free-disk-space@76866dbe54312617f00798d1762df7f43def6e5c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-images.yaml",
+      "source_repo": "Apicurio/apicurio-registry",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-images.yaml",
+      "source_repo": "Apicurio/apicurio-registry",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-images.yaml",
+      "source_repo": "Apicurio/apicurio-registry",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-images.yaml",
+      "source_repo": "Apicurio/apicurio-registry",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-images.yaml",
+      "source_repo": "Apicurio/apicurio-registry",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-images.yaml",
+      "source_repo": "Apicurio/apicurio-registry",
+      "target": "Release Images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-milestones.yaml",
+      "source_repo": "Apicurio/apicurio-registry",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-milestones.yaml",
+      "source_repo": "Apicurio/apicurio-registry",
+      "target": "Release Milestones",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-operator.yaml",
+      "source_repo": "Apicurio/apicurio-registry",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-operator.yaml",
+      "source_repo": "Apicurio/apicurio-registry",
+      "target": "apicurio/apicurio-github-actions/setup-minikube@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-operator.yaml",
+      "source_repo": "Apicurio/apicurio-registry",
+      "target": "mxschmitt/action-tmate@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-operator.yaml",
+      "source_repo": "Apicurio/apicurio-registry",
+      "target": "Release Operator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-release-notes.yaml",
+      "source_repo": "Apicurio/apicurio-registry",
+      "target": "Release Release Notes",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T12:53:34.839258+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14426
+    },
+    {
+      "path": ".github/workflows/image-scan.yaml",
+      "size": 788
+    },
+    {
+      "path": ".github/workflows/operator.yaml",
+      "size": 9532
+    },
+    {
+      "path": ".github/workflows/pr-lifecycle.yml",
+      "size": 7563
+    },
+    {
+      "path": ".github/workflows/publish-docs.yaml",
+      "size": 2861
+    },
+    {
+      "path": ".github/workflows/release-artifacts.yaml",
+      "size": 12635
+    },
+    {
+      "path": ".github/workflows/release-images.yaml",
+      "size": 8218
+    },
+    {
+      "path": ".github/workflows/release-milestones.yaml",
+      "size": 3386
+    },
+    {
+      "path": ".github/workflows/release-operator.yaml",
+      "size": 12752
+    },
+    {
+      "path": ".github/workflows/release-release-notes.yaml",
+      "size": 3809
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An API/Schema registry - stores APIs and Schemas.",
+    "fork": false,
+    "full_name": "Apicurio/apicurio-registry",
+    "html_url": "https://github.com/Apicurio/apicurio-registry",
+    "language": "Java",
+    "pushed_at": "2026-04-30T11:22:17Z",
+    "stargazers_count": 799,
+    "topics": [],
+    "updated_at": "2026-04-30T11:21:03Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Trivy Image Scan",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/image-scan.yaml",
+      "term": "Trivy Image Scan"
+    },
+    {
+      "context_snippet": "Operator Test Workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/operator.yaml",
+      "term": "Operator Test Workflow"
+    },
+    {
+      "context_snippet": "PR Lifecycle",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-lifecycle.yml",
+      "term": "PR Lifecycle"
+    },
+    {
+      "context_snippet": "Publish Documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-docs.yaml",
+      "term": "Publish Documentation"
+    },
+    {
+      "context_snippet": "Release Images",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-images.yaml",
+      "term": "Release Images"
+    },
+    {
+      "context_snippet": "Release Milestones",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-milestones.yaml",
+      "term": "Release Milestones"
+    },
+    {
+      "context_snippet": "Release Operator",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-operator.yaml",
+      "term": "Release Operator"
+    },
+    {
+      "context_snippet": "Release Release Notes",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-release-notes.yaml",
+      "term": "Release Release Notes"
+    }
+  ]
+}

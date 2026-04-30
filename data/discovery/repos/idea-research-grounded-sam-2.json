@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IDEA-Research/Grounded-SAM-2",
+      "target": "roboflow/supervision",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IDEA-Research/Grounded-SAM-2",
+      "target": "deepdataspace/dds-cloudapi-sdk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IDEA-Research/Grounded-SAM-2",
+      "target": "idea-research/grounding-dino-1.5-api",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IDEA-Research/Grounded-SAM-2",
+      "target": "idea-research/dino-x-api",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:14:28.500483+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 25018
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1217
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 126
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Grounded SAM 2: Ground and Track Anything in Videos with Grounding DINO, Florence-2 and SAM 2",
+    "fork": false,
+    "full_name": "IDEA-Research/Grounded-SAM-2",
+    "html_url": "https://github.com/IDEA-Research/Grounded-SAM-2",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-11-11T12:16:57Z",
+    "stargazers_count": 3475,
+    "topics": [],
+    "updated_at": "2026-04-30T13:02:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepdataspace/dds-cloudapi-sdk",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "idea-research/dino-x-api",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "idea-research/grounding-dino-1.5-api",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "roboflow/supervision",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

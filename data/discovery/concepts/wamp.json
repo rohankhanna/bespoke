@@ -43,6 +43,18 @@
       "source_repo": "crossbario/autobahn-js",
       "status": "candidate-context",
       "text": "WAMP for Browsers and NodeJS."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wamp-proto/wamp-xbr",
+      "status": "candidate-context",
+      "text": "The XBR Protocol - blockchain protocol for decentralized open data markets (https://pypi.org/project/xbr/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wamp-proto/wamp-xbr",
+      "status": "candidate-context",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/xbr.svg)](https://pypi.python.org/pypi/xbr)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "crossbario/autobahn-js",
       "status": "candidate",
       "text": "WAMP for Browsers and NodeJS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wamp-proto/wamp-xbr",
+      "status": "candidate",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/xbr.svg)](https://pypi.python.org/pypi/xbr)"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +142,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "crossbario/autobahn-js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "wamp-proto/wamp-xbr"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

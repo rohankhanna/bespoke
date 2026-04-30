@@ -1,0 +1,59 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ianmackenzie/elm-units",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ianmackenzie/elm-units",
+      "target": "units",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T12:45:56.157680+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15588
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Simple, safe and convenient unit types and conversions for Elm",
+    "fork": false,
+    "full_name": "ianmackenzie/elm-units",
+    "html_url": "https://github.com/ianmackenzie/elm-units",
+    "language": "Elm",
+    "pushed_at": "2023-06-15T15:44:06Z",
+    "stargazers_count": 86,
+    "topics": [
+      "elm",
+      "hacktoberfest",
+      "units"
+    ],
+    "updated_at": "2025-07-24T09:48:42Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "_Release notes for 2.0 are [here](https://github.com/ianmackenzie/elm-units/releases/tag/2.0.0)._",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "_Release notes for 2.0 are [here](https://github.com/ianmackenzie/elm-units/releases/tag/2.0.0)._",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "units"
+    }
+  ]
+}

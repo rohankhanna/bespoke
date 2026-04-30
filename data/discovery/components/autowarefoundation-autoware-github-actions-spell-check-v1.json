@@ -1,0 +1,17 @@
+{
+  "component": "autowarefoundation/autoware-github-actions/spell-check@v1",
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/spell-check-differential.yaml",
+      "source_repo": "autowarefoundation/autoware-documentation"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/spell-check-differential.yaml",
+      "source_repo": "autowarefoundation/.github"
+    }
+  ]
+}

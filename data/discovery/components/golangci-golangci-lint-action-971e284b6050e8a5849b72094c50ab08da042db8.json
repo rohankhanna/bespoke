@@ -1,0 +1,12 @@
+{
+  "component": "golangci/golangci-lint-action@971e284b6050e8a5849b72094c50ab08da042db8",
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "cockroachdb/client_golang"
+    }
+  ]
+}

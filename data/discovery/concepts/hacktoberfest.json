@@ -5647,6 +5647,522 @@
       "source_repo": "swagger-api/swagger-parser",
       "status": "candidate-context",
       "text": "**NOTE:** If you're looking for `swagger-parser` 1.X and OpenAPI 2.0, please refer to [v1 branch](https://github.com/swagger-api/swagger-parser/tree/v1)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ianmackenzie/elm-units",
+      "status": "candidate-context",
+      "text": "Simple, safe and convenient unit types and conversions for Elm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ianmackenzie/elm-units",
+      "status": "candidate-context",
+      "text": "_Release notes for 2.0 are [here](https://github.com/ianmackenzie/elm-units/releases/tag/2.0.0)._"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hipster-labs/jhipster-daily-builds",
+      "status": "candidate-context",
+      "text": ":construction_worker: :rocket: Additional builds for generator-jhipster repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hipster-labs/jhipster-daily-builds",
+      "status": "candidate-context",
+      "text": "Please note shown times below are in UTC."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ardalis/CleanArchitecture",
+      "status": "candidate-context",
+      "text": "Clean Architecture Solution Template: A proven Clean Architecture Template for ASP.NET Core 10"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ardalis/CleanArchitecture",
+      "status": "candidate-context",
+      "text": "[![.NET Core](https://github.com/ardalis/CleanArchitecture/workflows/.NET%20Core/badge.svg)](https://github.com/ardalis/CleanArchitecture/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "debezium/debezium",
+      "status": "candidate-context",
+      "text": "Change data capture for a variety of databases. Please log issues at https://github.com/debezium/dbz/issues."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "debezium/debezium",
+      "status": "candidate-context",
+      "text": "[![License](http://img.shields.io/:license-apache%202.0-brightgreen.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "argoproj/argo-workflows",
+      "status": "candidate-context",
+      "text": "Workflow Engine for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj/argo-workflows",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable-next-line MD041 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hyperopt/hyperopt",
+      "status": "candidate-context",
+      "text": "Distributed Asynchronous Hyperparameter Optimization in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyperopt/hyperopt",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scikit-optimize/scikit-optimize",
+      "status": "candidate-context",
+      "text": "Sequential model-based optimization with a  `scipy.optimize` interface"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scikit-optimize/scikit-optimize",
+      "status": "candidate-context",
+      "text": "|Logo|"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bombsimon/logrusr",
+      "status": "candidate-context",
+      "text": "\ud83d\udcdd A logr implementation using Logrus"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bombsimon/logrusr",
+      "status": "candidate-context",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/bombsimon/logrusr.svg)](https://pkg.go.dev/github.com/bombsimon/logrusr/v4)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grpc/grpc-node",
+      "status": "candidate-context",
+      "text": "gRPC for Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grpc/grpc-node",
+      "status": "candidate-context",
+      "text": "For a comparison of the features available in these two libraries, see [this document](https://github.com/grpc/grpc-node/tree/master/PACKAGE-COMPARISON.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "preactjs/preact-cli",
+      "status": "candidate-context",
+      "text": "\ud83d\ude3a Your next Preact PWA starts in 30 seconds."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "preactjs/preact-cli",
+      "status": "candidate-context",
+      "text": "> [!WARNING]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ranahaani/GNews",
+      "status": "candidate-context",
+      "text": "A Happy and lightweight Python Package that Provides an API to search for articles on Google News and returns a JSON response."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ranahaani/GNews",
+      "status": "candidate-context",
+      "text": "[![Contributors][contributors-shield]][contributors-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appbaseio/searchbox",
+      "status": "candidate-context",
+      "text": "Lightweight and performance oriented search box UI component libraries for React, Vue, React Native, JS and Flutter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appbaseio/searchbox",
+      "status": "candidate-context",
+      "text": "Searchbox is a lightweight and performance focused search UI component library to query and display results from your ElasticSearch index using declarative props. It's available for React, Vue, React Native and Flutter."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cortinico/ktfmt-gradle",
+      "status": "candidate-context",
+      "text": "A Gradle plugin to apply ktfmt to your builds, and reformat you Kotlin source code like a glimpse \ud83e\uddf9\ud83d\udc18"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cortinico/ktfmt-gradle",
+      "status": "candidate-context",
+      "text": "A wrapper to apply [ktfmt](https://github.com/facebookincubator/ktfmt) to your Gradle builds, and reformat you Kotlin"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PyCQA/autoflake",
+      "status": "candidate-context",
+      "text": "Removes unused imports and unused variables as reported by pyflakes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/autoflake",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/PyCQA/autoflake/actions/workflows/main.yaml/badge.svg?branch=main)](https://github.com/PyCQA/autoflake/actions/workflows/main.yaml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MSPaintIDE/NewOCR",
+      "status": "candidate-context",
+      "text": "A custom OCR library in pure Java made as a replacement for MS Paint IDE's OCR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MSPaintIDE/NewOCR",
+      "status": "candidate-context",
+      "text": "<div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mfussenegger/nvim-lint",
+      "status": "candidate-context",
+      "text": "An asynchronous linter plugin for Neovim complementary to the built-in Language Server Protocol support."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mfussenegger/nvim-lint",
+      "status": "candidate-context",
+      "text": "An asynchronous linter plugin for Neovim (>= 0.9.5) complementary to the"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "luvit/luvi",
+      "status": "candidate-context",
+      "text": "A project in-between luv and luvit."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "luvit/luvi",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/luvit/luvi/actions/workflows/ci.yml/badge.svg)](https://github.com/luvit/luvi/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "theupdateframework/go-tuf",
+      "status": "candidate-context",
+      "text": "Go implementation of The Update Framework (TUF)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "theupdateframework/go-tuf",
+      "status": "candidate-context",
+      "text": "![GitHub Workflow Status (with branch)](https://img.shields.io/github/actions/workflow/status/theupdateframework/go-tuf/ci.yml?branch=master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tox-dev/sphinx-autodoc-typehints",
+      "status": "candidate-context",
+      "text": "Type hints support for the Sphinx autodoc extension"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tox-dev/sphinx-autodoc-typehints",
+      "status": "candidate-context",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/sphinx-autodoc-typehints?style=flat-square)](https://pypi.org/project/sphinx-autodoc-typehints/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "qri-io/qri",
+      "status": "candidate-context",
+      "text": "you're invited to a data party!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qri-io/qri",
+      "status": "candidate-context",
+      "text": "[![Qri](https://img.shields.io/badge/made%20by-qri-magenta.svg?style=flat-square)](https://qri.io) [![GoDoc](https://godoc.org/github.com/qri-io/qri?status.svg)](http://godoc.org/github.com/qri-io/qri) [![License](https://img.shields.io/github/license/qri-io/qri.svg?style=flat-s\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zopefoundation/meta",
+      "status": "candidate-context",
+      "text": "Meta issues concerning many/all of the zopefoundation repositories."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zopefoundation/meta",
+      "status": "candidate-context",
+      "text": "``zope.meta``"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lobsters/lobsters",
+      "status": "candidate-context",
+      "text": "Computing-focused community centered around link aggregation and discussion"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lobsters/lobsters",
+      "status": "candidate-context",
+      "text": "[Lobsters](https://lobste.rs) is a Rails codebase and uses a SQL (MariaDB in production) backend for the database."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rubocop/rubocop-performance",
+      "status": "candidate-context",
+      "text": "An extension of RuboCop focused on code performance checks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rubocop/rubocop-performance",
+      "status": "candidate-context",
+      "text": "[![Gem Version](https://badge.fury.io/rb/rubocop-performance.svg)](https://badge.fury.io/rb/rubocop-performance)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FasterXML/jackson-dataformats-binary",
+      "status": "candidate-context",
+      "text": "Uber-project for standard Jackson binary format backends: avro, cbor, ion, protobuf, smile"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FasterXML/jackson-dataformats-binary",
+      "status": "candidate-context",
+      "text": "This is a multi-module umbrella project for [Jackson](../../../jackson)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FasterXML/jackson-dataformats-text",
+      "status": "candidate-context",
+      "text": "Uber-project for (some) standard Jackson textual format backends: csv, properties, yaml (xml to be added in future)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FasterXML/jackson-dataformats-text",
+      "status": "candidate-context",
+      "text": "This is a multi-module umbrella project for [Jackson](../../../jackson)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PyCQA/pyflakes",
+      "status": "candidate-context",
+      "text": "A simple program which checks Python source files for errors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/pyflakes",
+      "status": "candidate-context",
+      "text": "========"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reviewdog/action-hadolint",
+      "status": "candidate-context",
+      "text": "Run hadolint with reviewdog \ud83d\udc36"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-hadolint",
+      "status": "candidate-context",
+      "text": "[![](https://img.shields.io/github/license/reviewdog/action-hadolint)](./LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rgbkrk/chatlab",
+      "status": "candidate-context",
+      "text": "\u26a1\ufe0f\ud83e\uddea Fast LLM Tool Calling Experimentation, big and smol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rgbkrk/chatlab",
+      "status": "candidate-context",
+      "text": "**Chat Experiments, Simplified**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swagger-api/apidom",
+      "status": "candidate-context",
+      "text": "Semantic parser for API specifications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/apidom",
+      "status": "candidate-context",
+      "text": "[comment]: <> (SPDX-FileCopyrightText: Copyright &#40;c&#41; 2015 refractproject)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "evilmartians/lefthook",
+      "status": "candidate-context",
+      "text": "Fast and powerful Git hooks manager for any type of projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evilmartians/lefthook",
+      "status": "candidate-context",
+      "text": "![Build Status](https://github.com/evilmartians/lefthook/actions/workflows/test.yml/badge.svg?branch=master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abey79/vsketch",
+      "status": "candidate-context",
+      "text": "Generative plotter art environment for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abey79/vsketch",
+      "status": "candidate-context",
+      "text": "![python](https://img.shields.io/github/languages/top/abey79/vsketch)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bencevans/camtrap-detector",
+      "status": "candidate-context",
+      "text": "Detect Animals, Humans and Vehicles in Camera Trap Imagery. Powered by MegaDetector v5."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bencevans/camtrap-detector",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vectordotdev/vector",
+      "status": "candidate-context",
+      "text": "A high-performance observability data pipeline."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vectordotdev/vector",
+      "status": "candidate-context",
+      "text": "[![Nightly](https://github.com/vectordotdev/vector/actions/workflows/nightly.yml/badge.svg)](https://github.com/vectordotdev/vector/actions/workflows/nightly.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "detekt/detekt-intellij-plugin",
+      "status": "candidate-context",
+      "text": "detekt plugin for IntelliJ"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "detekt/detekt-intellij-plugin",
+      "status": "candidate-context",
+      "text": "[![Join the chat at https://kotlinlang.slack.com/messages/C88E12QH4/convo/C0BQ5GZ0S-1511956674.000289/](https://img.shields.io/badge/chat-on_slack-red.svg?style=flat-square)](https://kotlinlang.slack.com/messages/C88E12QH4/convo/C0BQ5GZ0S-1511956674.000289/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "detekt/sonar-detekt",
+      "status": "candidate-context",
+      "text": "SonarQube plugin for Kotlin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "detekt/sonar-detekt",
+      "status": "candidate-context",
+      "text": "Now that Sonarqube officially supports Kotlin with detekt issue import, this plugin repository has been archived."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Heapy/awesome-kotlin",
+      "status": "candidate-context",
+      "text": "A curated list of awesome Kotlin related stuff Inspired by awesome-java. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Heapy/awesome-kotlin",
+      "status": "candidate-context",
+      "text": "A curated list of awesome Kotlin related stuff inspired by awesome-java. :octocat:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swagger-api/swagger-core",
+      "status": "candidate-context",
+      "text": "Examples and server integrations for generating the Swagger API Specification, which enables easy access to your REST API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/swagger-core",
+      "status": "candidate-context",
+      "text": "**NOTE:** If you're looking for Swagger Core 1.5.X and OpenAPI 2.0, please refer to [1.5 branch](https://github.com/swagger-api/swagger-core/tree/1.5)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ardalis/GuardClauses",
+      "status": "candidate-context",
+      "text": "A simple package with guard clause extensions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ardalis/GuardClauses",
+      "status": "candidate-context",
+      "text": "![logo](media/logotype%201024.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ardalis/HttpClientTestExtensions",
+      "status": "candidate-context",
+      "text": "Extensions for testing HTTP endpoints and deserializing the results. Currently works with XUnit."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ardalis/HttpClientTestExtensions",
+      "status": "candidate-context",
+      "text": "[![.NET Build and Test](https://github.com/ardalis/HttpClientTestExtensions/workflows/.NET%20Build%20and%20Test/badge.svg)](https://github.com/ardalis/HttpClientTestExtensions/actions?query=workflow%3A%22.NET+Build+and+Test%22)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ardalis/Result",
+      "status": "candidate-context",
+      "text": "A result abstraction that can be mapped to HTTP response codes if needed."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ardalis/Result",
+      "status": "candidate-context",
+      "text": "[![Ardalis.Result - NuGet](https://img.shields.io/nuget/v/Ardalis.Result.svg?label=Ardalis.Result%20-%20nuget)](https://www.nuget.org/packages/Ardalis.Result) [![NuGet](https://img.shields.io/nuget/dt/Ardalis.Result.svg)](https://www.nuget.org/packages/Ardalis.Result) [![Build S\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NitroDevs/FShopOnWeb",
+      "status": "candidate-context",
+      "text": "F# take on eShopOnWeb ASP.NET Core sample application"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NitroDevs/FShopOnWeb",
+      "status": "candidate-context",
+      "text": "F# take on eShopOnWeb ASP.NET Core sample application."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "symfony/symfony",
+      "status": "candidate-context",
+      "text": "The Symfony PHP framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "symfony/symfony",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><a href=\"https://symfony.com\" target=\"_blank\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DmitryTsepelev/store_model",
+      "status": "candidate-context",
+      "text": "Work with JSON-backed attributes as ActiveRecord-ish models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DmitryTsepelev/store_model",
+      "status": "candidate-context",
+      "text": "**StoreModel** gem allows you to wrap JSON-backed DB columns with ActiveModel-like classes."
     }
   ],
   "candidate_glosses": [
@@ -8475,6 +8991,264 @@
       "source_repo": "swagger-api/swagger-parser",
       "status": "candidate",
       "text": "**NOTE:** If you're looking for `swagger-parser` 1.X and OpenAPI 2.0, please refer to [v1 branch](https://github.com/swagger-api/swagger-parser/tree/v1)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ianmackenzie/elm-units",
+      "status": "candidate",
+      "text": "_Release notes for 2.0 are [here](https://github.com/ianmackenzie/elm-units/releases/tag/2.0.0)._"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hipster-labs/jhipster-daily-builds",
+      "status": "candidate",
+      "text": "Please note shown times below are in UTC."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ardalis/CleanArchitecture",
+      "status": "candidate",
+      "text": "[![.NET Core](https://github.com/ardalis/CleanArchitecture/workflows/.NET%20Core/badge.svg)](https://github.com/ardalis/CleanArchitecture/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "debezium/debezium",
+      "status": "candidate",
+      "text": "[![License](http://img.shields.io/:license-apache%202.0-brightgreen.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj/argo-workflows",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable-next-line MD041 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyperopt/hyperopt",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scikit-optimize/scikit-optimize",
+      "status": "candidate",
+      "text": "|Logo|"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bombsimon/logrusr",
+      "status": "candidate",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/bombsimon/logrusr.svg)](https://pkg.go.dev/github.com/bombsimon/logrusr/v4)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grpc/grpc-node",
+      "status": "candidate",
+      "text": "For a comparison of the features available in these two libraries, see [this document](https://github.com/grpc/grpc-node/tree/master/PACKAGE-COMPARISON.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "preactjs/preact-cli",
+      "status": "candidate",
+      "text": "> [!WARNING]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ranahaani/GNews",
+      "status": "candidate",
+      "text": "[![Contributors][contributors-shield]][contributors-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appbaseio/searchbox",
+      "status": "candidate",
+      "text": "Searchbox is a lightweight and performance focused search UI component library to query and display results from your ElasticSearch index using declarative props. It's available for React, Vue, React Native and Flutter."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cortinico/ktfmt-gradle",
+      "status": "candidate",
+      "text": "A wrapper to apply [ktfmt](https://github.com/facebookincubator/ktfmt) to your Gradle builds, and reformat you Kotlin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/autoflake",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/PyCQA/autoflake/actions/workflows/main.yaml/badge.svg?branch=main)](https://github.com/PyCQA/autoflake/actions/workflows/main.yaml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MSPaintIDE/NewOCR",
+      "status": "candidate",
+      "text": "<div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mfussenegger/nvim-lint",
+      "status": "candidate",
+      "text": "An asynchronous linter plugin for Neovim (>= 0.9.5) complementary to the"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "luvit/luvi",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/luvit/luvi/actions/workflows/ci.yml/badge.svg)](https://github.com/luvit/luvi/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "theupdateframework/go-tuf",
+      "status": "candidate",
+      "text": "![GitHub Workflow Status (with branch)](https://img.shields.io/github/actions/workflow/status/theupdateframework/go-tuf/ci.yml?branch=master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tox-dev/sphinx-autodoc-typehints",
+      "status": "candidate",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/sphinx-autodoc-typehints?style=flat-square)](https://pypi.org/project/sphinx-autodoc-typehints/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qri-io/qri",
+      "status": "candidate",
+      "text": "[![Qri](https://img.shields.io/badge/made%20by-qri-magenta.svg?style=flat-square)](https://qri.io) [![GoDoc](https://godoc.org/github.com/qri-io/qri?status.svg)](http://godoc.org/github.com/qri-io/qri) [![License](https://img.shields.io/github/license/qri-io/qri.svg?style=flat-s\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zopefoundation/meta",
+      "status": "candidate",
+      "text": "``zope.meta``"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lobsters/lobsters",
+      "status": "candidate",
+      "text": "[Lobsters](https://lobste.rs) is a Rails codebase and uses a SQL (MariaDB in production) backend for the database."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rubocop/rubocop-performance",
+      "status": "candidate",
+      "text": "[![Gem Version](https://badge.fury.io/rb/rubocop-performance.svg)](https://badge.fury.io/rb/rubocop-performance)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FasterXML/jackson-dataformats-binary",
+      "status": "candidate",
+      "text": "This is a multi-module umbrella project for [Jackson](../../../jackson)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FasterXML/jackson-dataformats-text",
+      "status": "candidate",
+      "text": "This is a multi-module umbrella project for [Jackson](../../../jackson)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/pyflakes",
+      "status": "candidate",
+      "text": "========"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-hadolint",
+      "status": "candidate",
+      "text": "[![](https://img.shields.io/github/license/reviewdog/action-hadolint)](./LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rgbkrk/chatlab",
+      "status": "candidate",
+      "text": "**Chat Experiments, Simplified**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/apidom",
+      "status": "candidate",
+      "text": "[comment]: <> (SPDX-FileCopyrightText: Copyright &#40;c&#41; 2015 refractproject)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evilmartians/lefthook",
+      "status": "candidate",
+      "text": "![Build Status](https://github.com/evilmartians/lefthook/actions/workflows/test.yml/badge.svg?branch=master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abey79/vsketch",
+      "status": "candidate",
+      "text": "![python](https://img.shields.io/github/languages/top/abey79/vsketch)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bencevans/camtrap-detector",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vectordotdev/vector",
+      "status": "candidate",
+      "text": "[![Nightly](https://github.com/vectordotdev/vector/actions/workflows/nightly.yml/badge.svg)](https://github.com/vectordotdev/vector/actions/workflows/nightly.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "detekt/detekt-intellij-plugin",
+      "status": "candidate",
+      "text": "[![Join the chat at https://kotlinlang.slack.com/messages/C88E12QH4/convo/C0BQ5GZ0S-1511956674.000289/](https://img.shields.io/badge/chat-on_slack-red.svg?style=flat-square)](https://kotlinlang.slack.com/messages/C88E12QH4/convo/C0BQ5GZ0S-1511956674.000289/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "detekt/sonar-detekt",
+      "status": "candidate",
+      "text": "Now that Sonarqube officially supports Kotlin with detekt issue import, this plugin repository has been archived."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Heapy/awesome-kotlin",
+      "status": "candidate",
+      "text": "A curated list of awesome Kotlin related stuff inspired by awesome-java. :octocat:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/swagger-core",
+      "status": "candidate",
+      "text": "**NOTE:** If you're looking for Swagger Core 1.5.X and OpenAPI 2.0, please refer to [1.5 branch](https://github.com/swagger-api/swagger-core/tree/1.5)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ardalis/GuardClauses",
+      "status": "candidate",
+      "text": "![logo](media/logotype%201024.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ardalis/HttpClientTestExtensions",
+      "status": "candidate",
+      "text": "[![.NET Build and Test](https://github.com/ardalis/HttpClientTestExtensions/workflows/.NET%20Build%20and%20Test/badge.svg)](https://github.com/ardalis/HttpClientTestExtensions/actions?query=workflow%3A%22.NET+Build+and+Test%22)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ardalis/Result",
+      "status": "candidate",
+      "text": "[![Ardalis.Result - NuGet](https://img.shields.io/nuget/v/Ardalis.Result.svg?label=Ardalis.Result%20-%20nuget)](https://www.nuget.org/packages/Ardalis.Result) [![NuGet](https://img.shields.io/nuget/dt/Ardalis.Result.svg)](https://www.nuget.org/packages/Ardalis.Result) [![Build S\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NitroDevs/FShopOnWeb",
+      "status": "candidate",
+      "text": "F# take on eShopOnWeb ASP.NET Core sample application."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "symfony/symfony",
+      "status": "candidate",
+      "text": "<p align=\"center\"><a href=\"https://symfony.com\" target=\"_blank\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DmitryTsepelev/store_model",
+      "status": "candidate",
+      "text": "**StoreModel** gem allows you to wrap JSON-backed DB columns with ActiveModel-like classes."
     }
   ],
   "candidate_related_terms": [],
@@ -12202,11 +12976,467 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "swagger-api/swagger-parser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ianmackenzie/elm-units"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "hipster-labs/jhipster-daily-builds"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ardalis/CleanArchitecture"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Redocly/redoc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "debezium/debezium"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "nsfw-filter/nsfw-filter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "argoproj/argo-workflows"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "hyperopt/hyperopt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "scikit-optimize/scikit-optimize"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "bombsimon/logrusr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "grpc/grpc-node"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "filhodanuvem/gitql"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "preactjs/preact-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ranahaani/GNews"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "flightcontrolhq/superjson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "appbaseio/reactivesearch-api"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "appbaseio/searchbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/aspire"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "cortinico/ktfmt-gradle"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "uxlfoundation/scikit-learn-intelex"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "psf/black"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "PyCQA/autoflake"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "MSPaintIDE/NewOCR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "MSPaintIDE/MSPaintIDE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "mfussenegger/nvim-lint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-corrosion/corrosion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/rust-analyzer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "luvit/luvi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "argotorg/solidity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "conventional-changelog/conventional-changelog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "theupdateframework/go-tuf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "tox-dev/sphinx-autodoc-typehints"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "qri-io/qri"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "zopefoundation/meta"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "lobsters/lobsters"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "rubocop/rubocop-performance"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmone"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "FasterXML/jackson-dataformats-binary"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "FasterXML/jackson-dataformats-text"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "PyCQA/pyflakes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "reviewdog/action-hadolint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "mightyiam/eslint-config-love"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "criteo/mesos-term"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/vscode-js-debug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "highlightjs/highlight.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "node-lightning/node-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "podman-desktop/podman-desktop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "electron/packager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "scala-interop/slinc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "callstack/react-native-builder-bob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "PyCQA/isort"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "rgbkrk/chatlab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "intelligent-machine-learning/dlrover"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "swagger-api/apidom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "evilmartians/lefthook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "abey79/vsketch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "bencevans/camtrap-detector"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/transformers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "webinstall/webi-installers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "vectordotdev/vector"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "detekt/detekt-intellij-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "detekt/sonar-detekt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Heapy/awesome-kotlin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "detekt/detekt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "swagger-api/swagger-core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "vim-php/phpctags"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ardalis/GuardClauses"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ardalis/HttpClientTestExtensions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ardalis/Result"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "NitroDevs/FShopOnWeb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "symfony/symfony"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "DmitryTsepelev/store_model"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -979,6 +979,90 @@
       "source_repo": "dwyl/quotes",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unum-cloud/UCall",
+      "status": "candidate-context",
+      "text": "Web Serving and Remote Procedure Calls at 50x lower latency and 70x higher bandwidth than FastAPI, implementing JSON-RPC & REST over io_uring \u260e\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unum-cloud/UCall",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">UCall</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudwego/gjson",
+      "status": "candidate-context",
+      "text": "Faster substitution of tidwall/gjson"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudwego/gjson",
+      "status": "candidate-context",
+      "text": "This is a wrapper lib of [gjson](https://github.com/tidwall/gjson), which is accelerated by [sonic](https://github.com/bytedance/sonic)'s algorithm."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tidwall/gjson",
+      "status": "candidate-context",
+      "text": "Get JSON values quickly - JSON parser for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tidwall/gjson",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stephenberry/glaze",
+      "status": "candidate-context",
+      "text": "Extremely fast, in memory, serialization, reflection, and RPC library for C++. JSON, BEVE, BSON, CBOR, CSV, JSONB, MessagePack, TOML, YAML, EETF"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stephenberry/glaze",
+      "status": "candidate-context",
+      "text": "One of the fastest JSON libraries in the world. Glaze reads and writes from object memory, simplifying interfaces and offering incredible performance."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DmitryTsepelev/store_model",
+      "status": "candidate-context",
+      "text": "Work with JSON-backed attributes as ActiveRecord-ish models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DmitryTsepelev/store_model",
+      "status": "candidate-context",
+      "text": "**StoreModel** gem allows you to wrap JSON-backed DB columns with ActiveModel-like classes."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sindresorhus/ky",
+      "status": "candidate-context",
+      "text": "\ud83c\udf33 Tiny & elegant JavaScript HTTP client based on the Fetch API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/ky",
+      "status": "candidate-context",
+      "text": "ky \u2014 Tiny and elegant HTTP client based on the Fetch API"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mdn/data",
+      "status": "candidate-context",
+      "text": "This repository contains general data for Web technologies"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/data",
+      "status": "candidate-context",
+      "text": "> **Note**"
     }
   ],
   "candidate_glosses": [
@@ -1467,6 +1551,48 @@
       "source_repo": "dwyl/quotes",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unum-cloud/UCall",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">UCall</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudwego/gjson",
+      "status": "candidate",
+      "text": "This is a wrapper lib of [gjson](https://github.com/tidwall/gjson), which is accelerated by [sonic](https://github.com/bytedance/sonic)'s algorithm."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tidwall/gjson",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stephenberry/glaze",
+      "status": "candidate",
+      "text": "One of the fastest JSON libraries in the world. Glaze reads and writes from object memory, simplifying interfaces and offering incredible performance."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DmitryTsepelev/store_model",
+      "status": "candidate",
+      "text": "**StoreModel** gem allows you to wrap JSON-backed DB columns with ActiveModel-like classes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/ky",
+      "status": "candidate",
+      "text": "ky \u2014 Tiny and elegant HTTP client based on the Fetch API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/data",
+      "status": "candidate",
+      "text": "> **Note**"
     }
   ],
   "candidate_related_terms": [
@@ -2049,11 +2175,89 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "dwyl/quotes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ultrajson/ultrajson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "flightcontrolhq/superjson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "unum-cloud/UCall"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "cloudwego/gjson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "tidwall/gjson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "simdjson/simdjson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "stephenberry/glaze"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/quotes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "DmitryTsepelev/store_model"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "sindresorhus/ky"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "mdn/data"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

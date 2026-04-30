@@ -46,7 +46,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "taiki-e/install-action@055f5df8c3f65ea01cd41e9dc855becd88953486",
+      "component": "taiki-e/install-action@481c34c1cf3a84c68b5e46f4eccfc82af798415a",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -56,7 +56,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "crate-ci/typos@cf5f1c29a8ac336af8568821ec41919923b05a83",
+      "component": "crate-ci/typos@7c572958218557a3272c2d6719629443b5cc26fd",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -116,7 +116,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "taiki-e/install-action@055f5df8c3f65ea01cd41e9dc855becd88953486",
+      "component": "taiki-e/install-action@481c34c1cf3a84c68b5e46f4eccfc82af798415a",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -141,7 +141,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "taiki-e/install-action@055f5df8c3f65ea01cd41e9dc855becd88953486",
+      "component": "taiki-e/install-action@481c34c1cf3a84c68b5e46f4eccfc82af798415a",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -176,7 +176,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "taiki-e/install-action@055f5df8c3f65ea01cd41e9dc855becd88953486",
+      "component": "taiki-e/install-action@481c34c1cf3a84c68b5e46f4eccfc82af798415a",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -196,7 +196,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "taiki-e/install-action@055f5df8c3f65ea01cd41e9dc855becd88953486",
+      "component": "taiki-e/install-action@481c34c1cf3a84c68b5e46f4eccfc82af798415a",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -216,7 +216,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "taiki-e/install-action@055f5df8c3f65ea01cd41e9dc855becd88953486",
+      "component": "taiki-e/install-action@481c34c1cf3a84c68b5e46f4eccfc82af798415a",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -236,7 +236,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "taiki-e/install-action@055f5df8c3f65ea01cd41e9dc855becd88953486",
+      "component": "taiki-e/install-action@481c34c1cf3a84c68b5e46f4eccfc82af798415a",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -381,14 +381,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "ratatui/ratatui",
-      "target": "taiki-e/install-action@055f5df8c3f65ea01cd41e9dc855becd88953486",
+      "target": "taiki-e/install-action@481c34c1cf3a84c68b5e46f4eccfc82af798415a",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "ratatui/ratatui",
-      "target": "crate-ci/typos@cf5f1c29a8ac336af8568821ec41919923b05a83",
+      "target": "crate-ci/typos@7c572958218557a3272c2d6719629443b5cc26fd",
       "target_type": "component"
     },
     {
@@ -518,7 +518,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T01:20:25.193816+00:00",
+  "fetched_at": "2026-04-30T12:51:17.814048+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -558,8 +558,8 @@
     "full_name": "ratatui/ratatui",
     "html_url": "https://github.com/ratatui/ratatui",
     "language": "Rust",
-    "pushed_at": "2026-04-21T17:23:50Z",
-    "stargazers_count": 19936,
+    "pushed_at": "2026-04-27T21:29:30Z",
+    "stargazers_count": 20127,
     "topics": [
       "cli",
       "ratatui",
@@ -569,7 +569,7 @@
       "tui",
       "widgets"
     ],
-    "updated_at": "2026-04-22T23:06:14Z"
+    "updated_at": "2026-04-30T11:34:43Z"
   },
   "repo_links": [],
   "terms": [

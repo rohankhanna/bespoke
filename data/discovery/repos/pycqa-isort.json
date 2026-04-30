@@ -243,7 +243,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T07:10:23.689546+00:00",
+  "fetched_at": "2026-04-30T15:09:12.518642+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -283,8 +283,8 @@
     "full_name": "PyCQA/isort",
     "html_url": "https://github.com/PyCQA/isort",
     "language": "Python",
-    "pushed_at": "2026-04-27T08:57:25Z",
-    "stargazers_count": 6933,
+    "pushed_at": "2026-04-30T14:50:03Z",
+    "stargazers_count": 6934,
     "topics": [
       "auto-formatter",
       "cleaner",
@@ -298,7 +298,7 @@
       "python3",
       "sorting-imports"
     ],
-    "updated_at": "2026-04-27T08:57:27Z"
+    "updated_at": "2026-04-30T14:54:14Z"
   },
   "repo_links": [],
   "terms": [

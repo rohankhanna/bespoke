@@ -1,0 +1,563 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aws-lc.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aws-lc.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml"
+    },
+    {
+      "component": "codespell-project/codespell-problem-matcher@v1.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml"
+    },
+    {
+      "component": "codespell-project/actions-codespell@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compliance.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contrib.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross-zoo.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fedora-rawhide.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/illumos.yml"
+    },
+    {
+      "component": "vmactions/solaris-vm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/illumos.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/netbsd.yml"
+    },
+    {
+      "component": "vmactions/netbsd-vm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/netbsd.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aws-lc.yml",
+      "source_repo": "haproxy/haproxy",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aws-lc.yml",
+      "source_repo": "haproxy/haproxy",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/aws-lc.yml",
+      "source_repo": "haproxy/haproxy",
+      "target": "AWS-LC",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "haproxy/haproxy",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "haproxy/haproxy",
+      "target": "codespell-project/codespell-problem-matcher@v1.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "haproxy/haproxy",
+      "target": "codespell-project/actions-codespell@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "haproxy/haproxy",
+      "target": "Spelling Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compliance.yml",
+      "source_repo": "haproxy/haproxy",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compliance.yml",
+      "source_repo": "haproxy/haproxy",
+      "target": "Spec Compliance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contrib.yml",
+      "source_repo": "haproxy/haproxy",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/contrib.yml",
+      "source_repo": "haproxy/haproxy",
+      "target": "Contrib",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "haproxy/haproxy",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "haproxy/haproxy",
+      "target": "Coverity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross-zoo.yml",
+      "source_repo": "haproxy/haproxy",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cross-zoo.yml",
+      "source_repo": "haproxy/haproxy",
+      "target": "Cross Compile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fedora-rawhide.yml",
+      "source_repo": "haproxy/haproxy",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/illumos.yml",
+      "source_repo": "haproxy/haproxy",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/illumos.yml",
+      "source_repo": "haproxy/haproxy",
+      "target": "vmactions/solaris-vm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/illumos.yml",
+      "source_repo": "haproxy/haproxy",
+      "target": "Illumos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/netbsd.yml",
+      "source_repo": "haproxy/haproxy",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/netbsd.yml",
+      "source_repo": "haproxy/haproxy",
+      "target": "vmactions/netbsd-vm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/netbsd.yml",
+      "source_repo": "haproxy/haproxy",
+      "target": "NetBSD",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haproxy/haproxy",
+      "target": "cache",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haproxy/haproxy",
+      "target": "caching",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haproxy/haproxy",
+      "target": "ddos-mitigation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haproxy/haproxy",
+      "target": "fastcgi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haproxy/haproxy",
+      "target": "haproxy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haproxy/haproxy",
+      "target": "high-availability",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haproxy/haproxy",
+      "target": "high-performance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haproxy/haproxy",
+      "target": "http",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haproxy/haproxy",
+      "target": "http2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haproxy/haproxy",
+      "target": "https",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haproxy/haproxy",
+      "target": "ipv6",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haproxy/haproxy",
+      "target": "load-balancer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haproxy/haproxy",
+      "target": "proxy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haproxy/haproxy",
+      "target": "proxy-protocol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haproxy/haproxy",
+      "target": "reverse-proxy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haproxy/haproxy",
+      "target": "tls13",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:54:59.219406+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3629
+    },
+    {
+      "path": ".github/workflows/aws-lc.yml",
+      "size": 3418
+    },
+    {
+      "path": ".github/workflows/codespell.yml",
+      "size": 745
+    },
+    {
+      "path": ".github/workflows/compliance.yml",
+      "size": 1626
+    },
+    {
+      "path": ".github/workflows/contrib.yml",
+      "size": 725
+    },
+    {
+      "path": ".github/workflows/coverity.yml",
+      "size": 2052
+    },
+    {
+      "path": ".github/workflows/cross-zoo.yml",
+      "size": 3609
+    },
+    {
+      "path": ".github/workflows/fedora-rawhide.yml",
+      "size": 2823
+    },
+    {
+      "path": ".github/workflows/illumos.yml",
+      "size": 545
+    },
+    {
+      "path": ".github/workflows/netbsd.yml",
+      "size": 605
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "HAProxy Load Balancer's development branch (mirror of git.haproxy.org)",
+    "fork": false,
+    "full_name": "haproxy/haproxy",
+    "html_url": "https://github.com/haproxy/haproxy",
+    "language": "C",
+    "pushed_at": "2026-04-30T13:35:47Z",
+    "stargazers_count": 6510,
+    "topics": [
+      "cache",
+      "caching",
+      "ddos-mitigation",
+      "fastcgi",
+      "haproxy",
+      "high-availability",
+      "high-performance",
+      "http",
+      "http2",
+      "https",
+      "ipv6",
+      "load-balancer",
+      "proxy",
+      "proxy-protocol",
+      "reverse-proxy",
+      "tls13"
+    ],
+    "updated_at": "2026-04-30T13:54:28Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "AWS-LC",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/aws-lc.yml",
+      "term": "AWS-LC"
+    },
+    {
+      "context_snippet": "Spelling Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codespell.yml",
+      "term": "Spelling Check"
+    },
+    {
+      "context_snippet": "Spec Compliance",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compliance.yml",
+      "term": "Spec Compliance"
+    },
+    {
+      "context_snippet": "Contrib",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/contrib.yml",
+      "term": "Contrib"
+    },
+    {
+      "context_snippet": "Coverity",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverity.yml",
+      "term": "Coverity"
+    },
+    {
+      "context_snippet": "Cross Compile",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cross-zoo.yml",
+      "term": "Cross Compile"
+    },
+    {
+      "context_snippet": "Illumos",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/illumos.yml",
+      "term": "Illumos"
+    },
+    {
+      "context_snippet": "NetBSD",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/netbsd.yml",
+      "term": "NetBSD"
+    },
+    {
+      "context_snippet": "[![AWS-LC](https://github.com/haproxy/haproxy/actions/workflows/aws-lc.yml/badge.svg)](https://github.com/haproxy/haproxy/actions/workflows/aws-lc.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cache"
+    },
+    {
+      "context_snippet": "[![AWS-LC](https://github.com/haproxy/haproxy/actions/workflows/aws-lc.yml/badge.svg)](https://github.com/haproxy/haproxy/actions/workflows/aws-lc.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "caching"
+    },
+    {
+      "context_snippet": "[![AWS-LC](https://github.com/haproxy/haproxy/actions/workflows/aws-lc.yml/badge.svg)](https://github.com/haproxy/haproxy/actions/workflows/aws-lc.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ddos-mitigation"
+    },
+    {
+      "context_snippet": "[![AWS-LC](https://github.com/haproxy/haproxy/actions/workflows/aws-lc.yml/badge.svg)](https://github.com/haproxy/haproxy/actions/workflows/aws-lc.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fastcgi"
+    },
+    {
+      "context_snippet": "[![AWS-LC](https://github.com/haproxy/haproxy/actions/workflows/aws-lc.yml/badge.svg)](https://github.com/haproxy/haproxy/actions/workflows/aws-lc.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "haproxy"
+    },
+    {
+      "context_snippet": "[![AWS-LC](https://github.com/haproxy/haproxy/actions/workflows/aws-lc.yml/badge.svg)](https://github.com/haproxy/haproxy/actions/workflows/aws-lc.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "high-availability"
+    },
+    {
+      "context_snippet": "[![AWS-LC](https://github.com/haproxy/haproxy/actions/workflows/aws-lc.yml/badge.svg)](https://github.com/haproxy/haproxy/actions/workflows/aws-lc.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "high-performance"
+    },
+    {
+      "context_snippet": "[![AWS-LC](https://github.com/haproxy/haproxy/actions/workflows/aws-lc.yml/badge.svg)](https://github.com/haproxy/haproxy/actions/workflows/aws-lc.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http"
+    },
+    {
+      "context_snippet": "[![AWS-LC](https://github.com/haproxy/haproxy/actions/workflows/aws-lc.yml/badge.svg)](https://github.com/haproxy/haproxy/actions/workflows/aws-lc.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http2"
+    },
+    {
+      "context_snippet": "[![AWS-LC](https://github.com/haproxy/haproxy/actions/workflows/aws-lc.yml/badge.svg)](https://github.com/haproxy/haproxy/actions/workflows/aws-lc.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "https"
+    },
+    {
+      "context_snippet": "[![AWS-LC](https://github.com/haproxy/haproxy/actions/workflows/aws-lc.yml/badge.svg)](https://github.com/haproxy/haproxy/actions/workflows/aws-lc.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ipv6"
+    },
+    {
+      "context_snippet": "[![AWS-LC](https://github.com/haproxy/haproxy/actions/workflows/aws-lc.yml/badge.svg)](https://github.com/haproxy/haproxy/actions/workflows/aws-lc.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "load-balancer"
+    },
+    {
+      "context_snippet": "[![AWS-LC](https://github.com/haproxy/haproxy/actions/workflows/aws-lc.yml/badge.svg)](https://github.com/haproxy/haproxy/actions/workflows/aws-lc.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "proxy"
+    },
+    {
+      "context_snippet": "[![AWS-LC](https://github.com/haproxy/haproxy/actions/workflows/aws-lc.yml/badge.svg)](https://github.com/haproxy/haproxy/actions/workflows/aws-lc.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "proxy-protocol"
+    },
+    {
+      "context_snippet": "[![AWS-LC](https://github.com/haproxy/haproxy/actions/workflows/aws-lc.yml/badge.svg)](https://github.com/haproxy/haproxy/actions/workflows/aws-lc.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reverse-proxy"
+    },
+    {
+      "context_snippet": "[![AWS-LC](https://github.com/haproxy/haproxy/actions/workflows/aws-lc.yml/badge.svg)](https://github.com/haproxy/haproxy/actions/workflows/aws-lc.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tls13"
+    }
+  ]
+}

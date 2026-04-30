@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update Docker Image for GitHub Action"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "martinthomson/i-d-template",
+      "status": "candidate-context",
+      "text": "A template for IETF internet draft git repositories"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "martinthomson/i-d-template",
+      "status": "candidate-context",
+      "text": "\"Update Docker Image for GitHub Action\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "martinthomson/i-d-template",
+      "status": "candidate",
+      "text": "\"Update Docker Image for GitHub Action\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26772,
+      "status": "candidate",
+      "text": "imagination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26372,
+      "status": "candidate",
+      "text": "conception"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25972,
+      "status": "candidate",
+      "text": "radiograph"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25972,
+      "status": "candidate",
+      "text": "xerography"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25960,
+      "status": "candidate",
+      "text": "latent image"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update Docker Image for GitHub Action",
+  "concept_id": "update-docker-image-for-github-action",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "martinthomson/i-d-template"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Docker Image for GitHub Action",
+      "sense_id": "update-docker-image-for-github-action#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

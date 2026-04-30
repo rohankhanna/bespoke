@@ -79,6 +79,30 @@
       "source_repo": "bloc97/Anime4K",
       "status": "candidate-context",
       "text": "Anime4K is a set of open-source, high-quality real-time anime upscaling/denoising algorithms that can be implemented in any programming language."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "randspace0/Anime4K-rs",
+      "status": "candidate-context",
+      "text": "An attempt to write Anime4K in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "randspace0/Anime4K-rs",
+      "status": "candidate-context",
+      "text": "An attempt to write Anime4K in Rust."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Anime4KWebBoost/Anime4K-WebGPU",
+      "status": "candidate-context",
+      "text": "Implementation of Anime4K in WebGPU"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Anime4KWebBoost/Anime4K-WebGPU",
+      "status": "candidate-context",
+      "text": "University of Pennsylvania, CIS 565: GPU Programming and Architecture, Final Project"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +141,18 @@
       "source_repo": "bloc97/Anime4K",
       "status": "candidate",
       "text": "Anime4K is a set of open-source, high-quality real-time anime upscaling/denoising algorithms that can be implemented in any programming language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "randspace0/Anime4K-rs",
+      "status": "candidate",
+      "text": "An attempt to write Anime4K in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Anime4KWebBoost/Anime4K-WebGPU",
+      "status": "candidate",
+      "text": "University of Pennsylvania, CIS 565: GPU Programming and Architecture, Final Project"
     }
   ],
   "candidate_related_terms": [
@@ -211,11 +247,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "bloc97/Anime4K"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "randspace0/Anime4K-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Anime4KWebBoost/Anime4K-WebGPU"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

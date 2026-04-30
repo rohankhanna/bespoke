@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fsharpasharp/vim-dirvinist",
+      "target": "tpope/vim-projectionist",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:01:17.318683+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 348
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Combine vim-projectionist with vim-dirvish!",
+    "fork": false,
+    "full_name": "fsharpasharp/vim-dirvinist",
+    "html_url": "https://github.com/fsharpasharp/vim-dirvinist",
+    "language": "Vim script",
+    "pushed_at": "2021-05-14T09:34:49Z",
+    "stargazers_count": 12,
+    "topics": [],
+    "updated_at": "2025-05-16T07:43:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tpope/vim-projectionist",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -6,7 +6,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -68,6 +70,42 @@
       "source_repo": "guard/guard",
       "status": "candidate-context",
       "text": "Push"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla/application-services",
+      "status": "candidate-context",
+      "text": "Firefox Application Services"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla/application-services",
+      "status": "candidate-context",
+      "text": "Application Services (a-s) is a collection of Rust Components that are used to enable Firefox applications to integrate with Firefox accounts, sync, experimentation, etc. Each component is built using a core of shared code written in Rust, wrapped with native language bindings f\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "guard/listen",
+      "status": "candidate-context",
+      "text": "The Listen gem listens to file modifications and notifies you about the changes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "guard/listen",
+      "status": "candidate-context",
+      "text": "Push"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ahmadnassri/node-glob-promise",
+      "status": "candidate-context",
+      "text": "Promise version of glob"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ahmadnassri/node-glob-promise",
+      "status": "candidate-context",
+      "text": "push"
     }
   ],
   "candidate_glosses": [
@@ -100,6 +138,24 @@
       "source_repo": "guard/guard",
       "status": "candidate",
       "text": "Push"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla/application-services",
+      "status": "candidate",
+      "text": "Application Services (a-s) is a collection of Rust Components that are used to enable Firefox applications to integrate with Firefox accounts, sync, experimentation, etc. Each component is built using a core of shared code written in Rust, wrapped with native language bindings f\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "guard/listen",
+      "status": "candidate",
+      "text": "Push"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ahmadnassri/node-glob-promise",
+      "status": "candidate",
+      "text": "push"
     }
   ],
   "candidate_related_terms": [
@@ -209,11 +265,29 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/push.yml",
       "source_repo": "guard/guard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "mozilla/application-services"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "guard/listen"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "ahmadnassri/node-glob-promise"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

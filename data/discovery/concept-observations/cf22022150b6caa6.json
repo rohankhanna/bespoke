@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Code Release for Mip-NeRF 360, Ref-NeRF, and RawNeRF"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "*This is not an officially supported Google product.*"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "*This is not an officially supported Google product.*"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "neural-radiance-fields",
+      "sense_id": "neural-radiance-fields#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "neural-radiance-fields",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "neural-radiance-fields",
+  "observation_id": "cf22022150b6caa6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "neural-radiance-fields",
+  "source_context_snippet": "*This is not an officially supported Google product.*",
+  "source_file": null,
+  "source_repo": "google-research/multinerf",
+  "source_repo_description": "A Code Release for Mip-NeRF 360, Ref-NeRF, and RawNeRF"
+}

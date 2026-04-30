@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Source code for \"A Lightweight Recurrent Network for Sequence Modeling\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Source code for \"A Lightweight Recurrent Network for Sequence Modeling\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Source code for \"A Lightweight Recurrent Network for Sequence Modeling\""
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sequence-modeling",
+      "sense_id": "sequence-modeling#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "sequence-modeling",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sequence-modeling",
+  "observation_id": "b11c6728aef7b73b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "sequence-modeling",
+  "source_context_snippet": "Source code for \"A Lightweight Recurrent Network for Sequence Modeling\"",
+  "source_file": null,
+  "source_repo": "bzhangGo/lrn",
+  "source_repo_description": "Source code for \"A Lightweight Recurrent Network for Sequence Modeling\""
+}

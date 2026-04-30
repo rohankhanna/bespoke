@@ -1,0 +1,12 @@
+{
+  "component": "taiki-e/cache-cargo-install-action@v1",
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "rust-lang/socket2"
+    }
+  ]
+}

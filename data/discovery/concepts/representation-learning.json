@@ -151,6 +151,42 @@
       "source_repo": "andi611/Mockingjay-Speech-Representation",
       "status": "candidate-context",
       "text": "---------------------------------------------------------"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-deepmind/multi_object_datasets",
+      "status": "candidate-context",
+      "text": "Multi-object image datasets with ground-truth segmentation masks and generative factors."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/multi_object_datasets",
+      "status": "candidate-context",
+      "text": "This repository contains datasets for multi-object representation learning, used"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unum-cloud/UForm",
+      "status": "candidate-context",
+      "text": "Pocket-Sized Multimodal AI for content understanding and generation across multilingual texts, images, and \ud83d\udd1c video, up to 5x faster than OpenAI CLIP and LLaVA \ud83d\uddbc\ufe0f & \ud83d\udd8b\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unum-cloud/UForm",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">UForm</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OFA-Sys/ONE-PEACE",
+      "status": "candidate-context",
+      "text": "A general representation model across vision, audio, language modalities. Paper: ONE-PEACE: Exploring One General Representation Model Toward Unlimited Modalities"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OFA-Sys/ONE-PEACE",
+      "status": "candidate-context",
+      "text": "<!---"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +261,24 @@
       "source_repo": "andi611/Mockingjay-Speech-Representation",
       "status": "candidate",
       "text": "---------------------------------------------------------"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/multi_object_datasets",
+      "status": "candidate",
+      "text": "This repository contains datasets for multi-object representation learning, used"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unum-cloud/UForm",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">UForm</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OFA-Sys/ONE-PEACE",
+      "status": "candidate",
+      "text": "<!---"
     }
   ],
   "candidate_related_terms": [],
@@ -304,11 +358,29 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "andi611/Mockingjay-Speech-Representation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/multi_object_datasets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "unum-cloud/UForm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "OFA-Sys/ONE-PEACE"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

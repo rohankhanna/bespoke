@@ -32,6 +32,18 @@
       "source_repo": "home-assistant/addons",
       "status": "candidate-context",
       "text": "Build app"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bencevans/camtrap-detector",
+      "status": "candidate-context",
+      "text": "Detect Animals, Humans and Vehicles in Camera Trap Imagery. Powered by MegaDetector v5."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bencevans/camtrap-detector",
+      "status": "candidate-context",
+      "text": "\"Build App\""
     }
   ],
   "candidate_glosses": [
@@ -46,6 +58,12 @@
       "source_repo": "home-assistant/addons",
       "status": "candidate",
       "text": "Build app"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bencevans/camtrap-detector",
+      "status": "candidate",
+      "text": "\"Build App\""
     }
   ],
   "candidate_related_terms": [
@@ -101,11 +119,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/builder.yml",
       "source_repo": "home-assistant/addons"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "bencevans/camtrap-detector"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

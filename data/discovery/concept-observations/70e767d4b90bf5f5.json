@@ -84,7 +84,7 @@
   "normalized_form": "summary-ci",
   "observation_id": "70e767d4b90bf5f5",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
   "observed_text": "Summary CI",
   "source_context_snippet": "Summary CI",
   "source_file": ".github/workflows/summary.yml",

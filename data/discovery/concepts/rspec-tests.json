@@ -19,12 +19,30 @@
       "source_repo": "puppetlabs/puppet",
       "status": "candidate-context",
       "text": "RSpec tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "djezzzl/factory_trace",
+      "status": "candidate-context",
+      "text": "Simple tool to maintain factories and traits from FactoryBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "djezzzl/factory_trace",
+      "status": "candidate-context",
+      "text": "RSpec tests"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "puppetlabs/puppet",
+      "status": "candidate",
+      "text": "RSpec tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "djezzzl/factory_trace",
       "status": "candidate",
       "text": "RSpec tests"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/rspec_tests.yaml",
       "source_repo": "puppetlabs/puppet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "djezzzl/factory_trace"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

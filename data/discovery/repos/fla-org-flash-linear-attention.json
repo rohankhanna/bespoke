@@ -81,28 +81,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "fla-org/flash-linear-attention",
-      "target": "mit-han-lab/flash-moba",
+      "target": "opennlplab/hgrn",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "fla-org/flash-linear-attention",
-      "target": "nvlabs/gateddeltanet",
+      "target": "opennlplab/hgrn2",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "fla-org/flash-linear-attention",
-      "target": "moonshotai/moba",
+      "target": "opennlplab/lightnet",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "fla-org/flash-linear-attention",
-      "target": "mgmalek/efficient_cross_entropy",
+      "target": "opensparsellms/mom",
       "target_type": "repository"
     },
     {
@@ -281,7 +281,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T08:20:45.883663+00:00",
+  "fetched_at": "2026-04-30T15:11:46.762307+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -346,22 +346,22 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "mgmalek/efficient_cross_entropy",
+      "full_name": "opennlplab/hgrn",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "mit-han-lab/flash-moba",
+      "full_name": "opennlplab/hgrn2",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "moonshotai/moba",
+      "full_name": "opennlplab/lightnet",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "nvlabs/gateddeltanet",
+      "full_name": "opensparsellms/mom",
       "source_file": "README.md"
     }
   ],

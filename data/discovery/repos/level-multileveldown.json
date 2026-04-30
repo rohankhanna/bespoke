@@ -136,13 +136,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Level/multileveldown",
-      "target": "level/many-level",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Level/multileveldown",
       "target": "juliangruber/multilevel",
       "target_type": "repository"
     },
@@ -378,7 +371,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T09:13:57.294452+00:00",
+  "fetched_at": "2026-04-30T16:04:13.117870+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -421,11 +414,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "juliangruber/multilevel",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "level/many-level",
       "source_file": "README.md"
     }
   ],

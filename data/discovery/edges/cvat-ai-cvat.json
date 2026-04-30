@@ -4,20 +4,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "cvat-ai/cvat",
-      "target": "cvat-ai/datumaro",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "cvat-ai/cvat",
-      "target": "smhassanerfani/atlantis",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "cvat-ai/cvat",
       "target": "ox-vgg/vgg_face2",
       "target_type": "repository"
     },
@@ -25,7 +11,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "Dockerfile",
       "source_repo": "cvat-ai/cvat",
-      "target": "cisco/openh264",
+      "target": "saml-toolkits/python3-saml",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "cvat-ai/cvat",
+      "target": "stripe/smokescreen",
       "target_type": "repository"
     },
     {
@@ -841,6 +834,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "generated_at": "2026-04-30T12:45:20.475770+00:00",
   "source_repo": "cvat-ai/cvat"
 }

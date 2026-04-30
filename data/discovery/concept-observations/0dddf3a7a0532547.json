@@ -84,7 +84,7 @@
   "normalized_form": "close-generated-prs",
   "observation_id": "0dddf3a7a0532547",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
   "observed_text": "Close Generated PRs",
   "source_context_snippet": "Close Generated PRs",
   "source_file": ".github/workflows/generated-pr.yml",

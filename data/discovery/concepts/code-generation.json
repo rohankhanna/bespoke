@@ -1,7 +1,8 @@
 {
   "aliases": [
     "code-generation",
-    "Code Generation"
+    "Code Generation",
+    "Code generation"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -274,6 +275,42 @@
       "source_repo": "bigcode-project/bigcodebench",
       "status": "candidate-context",
       "text": "<center>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oxc-project/eslint-plugin-oxlint",
+      "status": "candidate-context",
+      "text": "Turn off all rules already supported by oxlint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oxc-project/eslint-plugin-oxlint",
+      "status": "candidate-context",
+      "text": "Code generation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "udoprog/genco",
+      "status": "candidate-context",
+      "text": "A whitespace-aware quasiquoter for beautiful code generation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "udoprog/genco",
+      "status": "candidate-context",
+      "text": "[<img alt=\"github\" src=\"https://img.shields.io/badge/github-udoprog/genco-8da0cb?style=for-the-badge&logo=github\" height=\"20\">](https://github.com/udoprog/genco)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iohub/collama",
+      "status": "candidate-context",
+      "text": "VSCode AI coding assistant powered by self-hosted llama.cpp endpoint."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iohub/collama",
+      "status": "candidate-context",
+      "text": "<div align=center>"
     }
   ],
   "candidate_glosses": [
@@ -408,6 +445,24 @@
       "source_repo": "bigcode-project/bigcodebench",
       "status": "candidate",
       "text": "<center>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oxc-project/eslint-plugin-oxlint",
+      "status": "candidate",
+      "text": "Code generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "udoprog/genco",
+      "status": "candidate",
+      "text": "[<img alt=\"github\" src=\"https://img.shields.io/badge/github-udoprog/genco-8da0cb?style=for-the-badge&logo=github\" height=\"20\">](https://github.com/udoprog/genco)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iohub/collama",
+      "status": "candidate",
+      "text": "<div align=center>"
     }
   ],
   "candidate_related_terms": [
@@ -697,11 +752,65 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "bigcode-project/bigcodebench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CodeGeeX2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "xlang-ai/DS-1000"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CodeGeeX"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/generate.yml",
+      "source_repo": "oxc-project/eslint-plugin-oxlint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/code-generation.yml",
+      "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-tooling"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/ms-agent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "udoprog/genco"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "iohub/collama"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

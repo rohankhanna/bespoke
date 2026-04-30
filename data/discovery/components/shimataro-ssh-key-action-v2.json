@@ -1,12 +1,17 @@
 {
   "component": "shimataro/ssh-key-action@v2",
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/Snapshot release.yml",
       "source_repo": "avh4/elm-format"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/guide.yml",
+      "source_repo": "Deep-Symmetry/bytefield-svg"
     }
   ]
 }

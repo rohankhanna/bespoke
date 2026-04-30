@@ -1,0 +1,116 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "naelstrof/slop",
+      "target": "c-plus-plus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "naelstrof/slop",
+      "target": "imagemagick",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "naelstrof/slop",
+      "target": "opengl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "naelstrof/slop",
+      "target": "screenshot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "naelstrof/slop",
+      "target": "shaders",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "naelstrof/slop",
+      "target": "slop",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:51:51.672849+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7025
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "slop (Select Operation) is an application that queries for a selection from the user and prints the region to stdout.",
+    "fork": false,
+    "full_name": "naelstrof/slop",
+    "html_url": "https://github.com/naelstrof/slop",
+    "language": "C++",
+    "pushed_at": "2026-02-01T16:57:19Z",
+    "stargazers_count": 923,
+    "topics": [
+      "c",
+      "c-plus-plus",
+      "cli",
+      "imagemagick",
+      "opengl",
+      "screenshot",
+      "shaders",
+      "slop"
+    ],
+    "updated_at": "2026-04-19T23:35:55Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "slop (Select Operation) is an application that queries for a selection from the user and prints the region to stdout.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus"
+    },
+    {
+      "context_snippet": "slop (Select Operation) is an application that queries for a selection from the user and prints the region to stdout.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "imagemagick"
+    },
+    {
+      "context_snippet": "slop (Select Operation) is an application that queries for a selection from the user and prints the region to stdout.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opengl"
+    },
+    {
+      "context_snippet": "slop (Select Operation) is an application that queries for a selection from the user and prints the region to stdout.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "screenshot"
+    },
+    {
+      "context_snippet": "slop (Select Operation) is an application that queries for a selection from the user and prints the region to stdout.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shaders"
+    },
+    {
+      "context_snippet": "slop (Select Operation) is an application that queries for a selection from the user and prints the region to stdout.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "slop"
+    }
+  ]
+}

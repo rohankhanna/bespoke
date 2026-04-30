@@ -1,0 +1,44 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "buildpacks/spec",
+      "target": "cncf",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:04:58.247005+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3565
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Specification for Cloud Native Buildpacks",
+    "fork": false,
+    "full_name": "buildpacks/spec",
+    "html_url": "https://github.com/buildpacks/spec",
+    "language": "Shell",
+    "pushed_at": "2025-12-19T22:43:46Z",
+    "stargazers_count": 268,
+    "topics": [
+      "cncf"
+    ],
+    "updated_at": "2026-03-26T09:10:07Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This specification defines interactions between a platform, a lifecycle, a number of buildpacks, and an application",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cncf"
+    }
+  ]
+}

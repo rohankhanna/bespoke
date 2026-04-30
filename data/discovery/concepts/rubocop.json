@@ -83,6 +83,54 @@
       "source_repo": "socketry/async",
       "status": "candidate-context",
       "text": "RuboCop"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rubocop/rubocop-performance",
+      "status": "candidate-context",
+      "text": "An extension of RuboCop focused on code performance checks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rubocop/rubocop-performance",
+      "status": "candidate-context",
+      "text": "[![Gem Version](https://badge.fury.io/rb/rubocop-performance.svg)](https://badge.fury.io/rb/rubocop-performance)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "djezzzl/factory_trace",
+      "status": "candidate-context",
+      "text": "Simple tool to maintain factories and traits from FactoryBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "djezzzl/factory_trace",
+      "status": "candidate-context",
+      "text": "Rubocop"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DmitryTsepelev/store_model",
+      "status": "candidate-context",
+      "text": "Work with JSON-backed attributes as ActiveRecord-ish models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DmitryTsepelev/store_model",
+      "status": "candidate-context",
+      "text": "Rubocop"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yoshoku/numo-narray-alt",
+      "status": "candidate-context",
+      "text": "Numo::NArray Alternative (numo-narray-alt) is a project forked from Numo::NArray"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yoshoku/numo-narray-alt",
+      "status": "candidate-context",
+      "text": "rubocop"
     }
   ],
   "candidate_glosses": [
@@ -121,6 +169,30 @@
       "source_repo": "socketry/async",
       "status": "candidate",
       "text": "RuboCop"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rubocop/rubocop-performance",
+      "status": "candidate",
+      "text": "[![Gem Version](https://badge.fury.io/rb/rubocop-performance.svg)](https://badge.fury.io/rb/rubocop-performance)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "djezzzl/factory_trace",
+      "status": "candidate",
+      "text": "Rubocop"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DmitryTsepelev/store_model",
+      "status": "candidate",
+      "text": "Rubocop"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yoshoku/numo-narray-alt",
+      "status": "candidate",
+      "text": "rubocop"
     }
   ],
   "candidate_related_terms": [],
@@ -176,11 +248,35 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/rubocop.yaml",
       "source_repo": "socketry/async"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "rubocop/rubocop-performance"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/rubocop.yml",
+      "source_repo": "djezzzl/factory_trace"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/rubocop.yml",
+      "source_repo": "DmitryTsepelev/store_model"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/rubocop.yml",
+      "source_repo": "yoshoku/numo-narray-alt"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

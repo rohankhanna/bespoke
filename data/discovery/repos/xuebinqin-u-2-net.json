@@ -5,14 +5,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "xuebinqin/U-2-Net",
-      "target": "facebookresearch/playtorch",
+      "target": "norod/u-2-net-styletransfer",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "xuebinqin/U-2-Net",
-      "target": "john-rocky/coreml-models",
+      "target": "nathanua/u-2-net",
       "target_type": "repository"
     },
     {
@@ -79,7 +79,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T08:14:47.668545+00:00",
+  "fetched_at": "2026-04-30T16:15:40.344113+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -100,7 +100,7 @@
     "html_url": "https://github.com/xuebinqin/U-2-Net",
     "language": "Python",
     "pushed_at": "2024-06-26T04:16:45Z",
-    "stargazers_count": 9724,
+    "stargazers_count": 9725,
     "topics": [
       "computer-vision",
       "deep-learning",
@@ -110,7 +110,7 @@
       "u-2-net",
       "u2net"
     ],
-    "updated_at": "2026-04-30T06:43:23Z"
+    "updated_at": "2026-04-30T10:49:32Z"
   },
   "repo_links": [
     {
@@ -120,17 +120,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "facebookresearch/playtorch",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "john-rocky/coreml-models",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "nathanua/basnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nathanua/u-2-net",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "norod/u-2-net-styletransfer",
       "source_file": "README.md"
     }
   ],

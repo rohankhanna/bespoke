@@ -1,0 +1,12 @@
+{
+  "component": "amannn/action-semantic-pull-request@b6bca70dcd3e56e896605356ce09b76f7e1e0d39",
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/reusable-semantic-pull-request.yml",
+      "source_repo": "ipshipyard/github-mgmt"
+    }
+  ]
+}

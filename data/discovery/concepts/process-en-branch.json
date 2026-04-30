@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Process en branch"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "box/box-openapi",
+      "status": "candidate-context",
+      "text": "OpenAPI 3.0 Specification for the Box APIs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "box/box-openapi",
+      "status": "candidate-context",
+      "text": "Process en branch"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "box/box-openapi",
+      "status": "candidate",
+      "text": "Process en branch"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27318,
+      "status": "candidate",
+      "text": "ramus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26480,
+      "status": "candidate",
+      "text": "bioremediation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26118,
+      "status": "candidate",
+      "text": "branching"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26080,
+      "status": "candidate",
+      "text": "analytics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26080,
+      "status": "candidate",
+      "text": "zymurgy"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Process en branch",
+  "concept_id": "process-en-branch",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/en-api-docs.yml",
+      "source_repo": "box/box-openapi"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Process en branch",
+      "sense_id": "process-en-branch#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

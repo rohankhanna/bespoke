@@ -1,0 +1,120 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@ee0669bd1cc54295c223e0bb666b733df41de1c5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yaml"
+    },
+    {
+      "component": "actions/setup-python@e9aba2c848f5ebd159c070c61ea2c4e2b122355e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yaml"
+    },
+    {
+      "component": "actions/checkout@ee0669bd1cc54295c223e0bb666b733df41de1c5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_eval.yaml"
+    },
+    {
+      "component": "actions/setup-python@e9aba2c848f5ebd159c070c61ea2c4e2b122355e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_eval.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yaml",
+      "source_repo": "openai/evals",
+      "target": "actions/checkout@ee0669bd1cc54295c223e0bb666b733df41de1c5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yaml",
+      "source_repo": "openai/evals",
+      "target": "actions/setup-python@e9aba2c848f5ebd159c070c61ea2c4e2b122355e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run_tests.yaml",
+      "source_repo": "openai/evals",
+      "target": "Run unit tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_eval.yaml",
+      "source_repo": "openai/evals",
+      "target": "actions/checkout@ee0669bd1cc54295c223e0bb666b733df41de1c5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_eval.yaml",
+      "source_repo": "openai/evals",
+      "target": "actions/setup-python@e9aba2c848f5ebd159c070c61ea2c4e2b122355e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_eval.yaml",
+      "source_repo": "openai/evals",
+      "target": "Run new evals",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:12:57.602697+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6461
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1316
+    },
+    {
+      "path": ".github/workflows/parse_yaml.py",
+      "size": 312
+    },
+    {
+      "path": ".github/workflows/run_tests.yaml",
+      "size": 769
+    },
+    {
+      "path": ".github/workflows/test_eval.yaml",
+      "size": 1655
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Evals is a framework for evaluating LLMs and LLM systems, and an open-source registry of benchmarks.",
+    "fork": false,
+    "full_name": "openai/evals",
+    "html_url": "https://github.com/openai/evals",
+    "language": "Python",
+    "pushed_at": "2026-04-14T15:29:57Z",
+    "stargazers_count": 18322,
+    "topics": [],
+    "updated_at": "2026-04-30T14:50:02Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Run unit tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run_tests.yaml",
+      "term": "Run unit tests"
+    },
+    {
+      "context_snippet": "Run new evals",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_eval.yaml",
+      "term": "Run new evals"
+    }
+  ]
+}

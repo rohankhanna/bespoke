@@ -5,21 +5,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "bubbliiiing/mobilenet-yolov4-pytorch",
-      "target": "bubbliiiing/yolox-pytorch",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "bubbliiiing/mobilenet-yolov4-pytorch",
       "target": "bubbliiiing/mobilenet-yolov4-lite-pytorch",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "bubbliiiing/mobilenet-yolov4-pytorch",
-      "target": "cartucho/map",
       "target_type": "repository"
     },
     {
@@ -30,7 +16,7 @@
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-04-30T08:13:18.989945+00:00",
+  "fetched_at": "2026-04-30T16:14:39.015484+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -59,16 +45,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "bubbliiiing/mobilenet-yolov4-lite-pytorch",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "bubbliiiing/yolox-pytorch",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "cartucho/map",
       "source_file": "README.md"
     },
     {

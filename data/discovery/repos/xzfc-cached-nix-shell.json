@@ -1,0 +1,152 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v27",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v27",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/cachix-action@v15",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "xzfc/cached-nix-shell",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "xzfc/cached-nix-shell",
+      "target": "cachix/install-nix-action@v27",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "xzfc/cached-nix-shell",
+      "target": "peaceiris/actions-gh-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "xzfc/cached-nix-shell",
+      "target": "Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "xzfc/cached-nix-shell",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "xzfc/cached-nix-shell",
+      "target": "cachix/install-nix-action@v27",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "xzfc/cached-nix-shell",
+      "target": "cachix/cachix-action@v15",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "xzfc/cached-nix-shell",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xzfc/cached-nix-shell",
+      "target": "nix-shell",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:03:22.274660+00:00",
+  "fetched_files": [
+    {
+      "path": "Cargo.toml",
+      "size": 415
+    },
+    {
+      "path": ".github/workflows/pages.yml",
+      "size": 946
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 825
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Instant startup time for nix-shell",
+    "fork": false,
+    "full_name": "xzfc/cached-nix-shell",
+    "html_url": "https://github.com/xzfc/cached-nix-shell",
+    "language": "Rust",
+    "pushed_at": "2024-11-24T23:00:19Z",
+    "stargazers_count": 230,
+    "topics": [
+      "nix",
+      "nix-shell"
+    ],
+    "updated_at": "2026-04-27T16:08:37Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pages.yml",
+      "term": "Pages"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "[package] name = \"cached-nix-shell\" version = \"0.1.6\" authors = [\"Albert Safin <xzfcpw@gmail.com>\"] license = \"Unlicense OR MIT\" edition = \"2018\" [build-dependencies] which = \"6.0.1\" [dependencies] blake3 = \"1.5.1\" bytelines = \"2.5.0\" itertools = \"0.13.0\" nix = { version = \"0.29\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nix-shell"
+    }
+  ]
+}

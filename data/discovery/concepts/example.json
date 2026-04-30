@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "example"
+    "example",
+    "Example"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -115,6 +118,30 @@
       "source_repo": "easyCZ/grpc-web-hacker-news",
       "status": "candidate-context",
       "text": "An example app implementing a Hacker News reader. This example aims to demonstrate usage of [grpc-web](https://github.com/improbable-eng/grpc-web)(v0.5.0) with React. It additionally shows how to integrate with Redux."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vio/bundle-stats-action",
+      "status": "candidate-context",
+      "text": "Generates bundle-stats reports for webpack stats."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vio/bundle-stats-action",
+      "status": "candidate-context",
+      "text": "Example"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudwego/hertz-examples",
+      "status": "candidate-context",
+      "text": "Examples for Hertz."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudwego/hertz-examples",
+      "status": "candidate-context",
+      "text": "English | [\u4e2d\u6587](README_CN.md)"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +198,18 @@
       "source_repo": "easyCZ/grpc-web-hacker-news",
       "status": "candidate",
       "text": "An example app implementing a Hacker News reader. This example aims to demonstrate usage of [grpc-web](https://github.com/improbable-eng/grpc-web)(v0.5.0) with React. It additionally shows how to integrate with Redux."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vio/bundle-stats-action",
+      "status": "candidate",
+      "text": "Example"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudwego/hertz-examples",
+      "status": "candidate",
+      "text": "English | [\u4e2d\u6587](README_CN.md)"
     }
   ],
   "candidate_related_terms": [
@@ -334,11 +373,29 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "easyCZ/grpc-web-hacker-news"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/example.yml",
+      "source_repo": "vio/bundle-stats-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "cloudwego/hertz-examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/mvp"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

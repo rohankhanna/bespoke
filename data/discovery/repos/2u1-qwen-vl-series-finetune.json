@@ -12,14 +12,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "2U1/Qwen-VL-Series-Finetune",
-      "target": "andimarafioti/florence2-finetuning",
+      "target": "2u1/qwen2-vl-finetune",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "2U1/Qwen-VL-Series-Finetune",
-      "target": "2u1/qwen2-vl-finetune",
+      "target": "zhuyiche/llava-phi",
       "target_type": "repository"
     },
     {
@@ -79,7 +79,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T10:19:23.851974+00:00",
+  "fetched_at": "2026-04-30T15:14:09.646769+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -126,12 +126,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "andimarafioti/florence2-finetuning",
+      "full_name": "om-ai-lab/vlm-r1",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "om-ai-lab/vlm-r1",
+      "full_name": "zhuyiche/llava-phi",
       "source_file": "README.md"
     }
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "rcc"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "igraph/rigraph",
+      "status": "candidate-context",
+      "text": "igraph R package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "igraph/rigraph",
+      "status": "candidate-context",
+      "text": "rcc"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "igraph/rigraph",
+      "status": "candidate",
+      "text": "rcc"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20019541,
+      "status": "candidate",
+      "text": "chromophobe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20019276,
+      "status": "candidate",
+      "text": "bcr"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20007477,
+      "status": "candidate",
+      "text": "sac"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20005096,
+      "status": "candidate",
+      "text": "ada"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19980331,
+      "status": "candidate",
+      "text": "crc"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "rcc",
+  "concept_id": "rcc",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "igraph/rigraph"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "rcc",
+      "sense_id": "rcc#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

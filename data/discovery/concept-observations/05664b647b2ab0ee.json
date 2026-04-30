@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Universal pan and zoom library (DOM, SVG, Custom)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Extensible, mobile friendly pan and zoom framework (supports DOM and SVG)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Extensible, mobile friendly pan and zoom framework (supports DOM and SVG)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "panzoom",
+      "sense_id": "panzoom#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "panzoom",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "panzoom",
+  "observation_id": "05664b647b2ab0ee",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "panzoom",
+  "source_context_snippet": "Extensible, mobile friendly pan and zoom framework (supports DOM and SVG).",
+  "source_file": null,
+  "source_repo": "anvaka/panzoom",
+  "source_repo_description": "Universal pan and zoom library (DOM, SVG, Custom)"
+}

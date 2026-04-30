@@ -1,0 +1,421 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alarm.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alarm.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alarm.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alarm.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alarm.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alarm.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alarm.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml"
+    },
+    {
+      "component": "actions/cache/restore@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml"
+    },
+    {
+      "component": "actions/cache/save@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml"
+    },
+    {
+      "component": "pre-commit/action@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generic.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generic.yml"
+    },
+    {
+      "component": "actions/cache/restore@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generic.yml"
+    },
+    {
+      "component": "actions/cache/save@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generic.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generic.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@v1.12.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generic.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/production.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/production.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/production.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/production.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Genesis-Embodied-AI/Genesis",
+      "target": "erizmr/sph_taichi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Genesis-Embodied-AI/Genesis",
+      "target": "danfis/libccd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Genesis-Embodied-AI/Genesis",
+      "target": "luisagroup/luisacompute",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Genesis-Embodied-AI/Genesis",
+      "target": "luisagroup/luisarender",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alarm.yml",
+      "source_repo": "Genesis-Embodied-AI/Genesis",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alarm.yml",
+      "source_repo": "Genesis-Embodied-AI/Genesis",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alarm.yml",
+      "source_repo": "Genesis-Embodied-AI/Genesis",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alarm.yml",
+      "source_repo": "Genesis-Embodied-AI/Genesis",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alarm.yml",
+      "source_repo": "Genesis-Embodied-AI/Genesis",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/alarm.yml",
+      "source_repo": "Genesis-Embodied-AI/Genesis",
+      "target": "Benchmark Comparison & Alarm Regression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "Genesis-Embodied-AI/Genesis",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "Genesis-Embodied-AI/Genesis",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "Genesis-Embodied-AI/Genesis",
+      "target": "actions/cache/restore@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "Genesis-Embodied-AI/Genesis",
+      "target": "actions/cache/save@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "Genesis-Embodied-AI/Genesis",
+      "target": "Examples (CPU)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "Genesis-Embodied-AI/Genesis",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "Genesis-Embodied-AI/Genesis",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "Genesis-Embodied-AI/Genesis",
+      "target": "pre-commit/action@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "Genesis-Embodied-AI/Genesis",
+      "target": "Precommit Checks (Lint and Format)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generic.yml",
+      "source_repo": "Genesis-Embodied-AI/Genesis",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generic.yml",
+      "source_repo": "Genesis-Embodied-AI/Genesis",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generic.yml",
+      "source_repo": "Genesis-Embodied-AI/Genesis",
+      "target": "actions/cache/restore@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generic.yml",
+      "source_repo": "Genesis-Embodied-AI/Genesis",
+      "target": "actions/cache/save@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generic.yml",
+      "source_repo": "Genesis-Embodied-AI/Genesis",
+      "target": "pypa/gh-action-pypi-publish@v1.12.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generic.yml",
+      "source_repo": "Genesis-Embodied-AI/Genesis",
+      "target": "Generic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/production.yml",
+      "source_repo": "Genesis-Embodied-AI/Genesis",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/production.yml",
+      "source_repo": "Genesis-Embodied-AI/Genesis",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/production.yml",
+      "source_repo": "Genesis-Embodied-AI/Genesis",
+      "target": "Production",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:54:55.430231+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14635
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 6849
+    },
+    {
+      "path": ".github/workflows/alarm.yml",
+      "size": 7321
+    },
+    {
+      "path": ".github/workflows/examples.yml",
+      "size": 2373
+    },
+    {
+      "path": ".github/workflows/format.yml",
+      "size": 535
+    },
+    {
+      "path": ".github/workflows/generic.yml",
+      "size": 7639
+    },
+    {
+      "path": ".github/workflows/production.yml",
+      "size": 8735
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A generative world for general-purpose robotics & embodied AI learning.",
+    "fork": false,
+    "full_name": "Genesis-Embodied-AI/Genesis",
+    "html_url": "https://github.com/Genesis-Embodied-AI/Genesis",
+    "language": "Python",
+    "pushed_at": "2026-04-26T08:35:59Z",
+    "stargazers_count": 28596,
+    "topics": [],
+    "updated_at": "2026-04-30T13:55:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danfis/libccd",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "erizmr/sph_taichi",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "luisagroup/luisacompute",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "luisagroup/luisarender",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Benchmark Comparison & Alarm Regression",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/alarm.yml",
+      "term": "Benchmark Comparison & Alarm Regression"
+    },
+    {
+      "context_snippet": "Examples (CPU)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/examples.yml",
+      "term": "Examples (CPU)"
+    },
+    {
+      "context_snippet": "Precommit Checks (Lint and Format)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/format.yml",
+      "term": "Precommit Checks (Lint and Format)"
+    },
+    {
+      "context_snippet": "Generic",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generic.yml",
+      "term": "Generic"
+    },
+    {
+      "context_snippet": "Production",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/production.yml",
+      "term": "Production"
+    }
+  ]
+}

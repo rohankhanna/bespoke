@@ -86,28 +86,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "google-deepmind/mujoco",
-      "target": "mathworks-robotics/mujoco-simulink-blockset",
+      "target": "ttktjmt/mjswan",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "google-deepmind/mujoco",
-      "target": "liuliu/swift-mujoco",
+      "target": "myohub/myoconverter",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "google-deepmind/mujoco",
-      "target": "jamiemair/mujoco.jl",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "google-deepmind/mujoco",
-      "target": "kevinzakka/obj2mjcf",
+      "target": "rhoban/onshape-to-robot",
       "target_type": "repository"
     },
     {
@@ -251,7 +244,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T07:07:21.159154+00:00",
+  "fetched_at": "2026-04-30T15:54:39.993209+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -287,34 +280,29 @@
     "full_name": "google-deepmind/mujoco",
     "html_url": "https://github.com/google-deepmind/mujoco",
     "language": "C++",
-    "pushed_at": "2026-04-29T17:51:36Z",
-    "stargazers_count": 13297,
+    "pushed_at": "2026-04-30T15:41:52Z",
+    "stargazers_count": 13302,
     "topics": [
       "mujoco",
       "physics",
       "robotics"
     ],
-    "updated_at": "2026-04-30T04:05:49Z"
+    "updated_at": "2026-04-30T15:41:58Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "jamiemair/mujoco.jl",
+      "full_name": "myohub/myoconverter",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "kevinzakka/obj2mjcf",
+      "full_name": "rhoban/onshape-to-robot",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "liuliu/swift-mujoco",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "mathworks-robotics/mujoco-simulink-blockset",
+      "full_name": "ttktjmt/mjswan",
       "source_file": "README.md"
     }
   ],

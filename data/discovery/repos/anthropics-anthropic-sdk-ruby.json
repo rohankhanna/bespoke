@@ -1,0 +1,225 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-releases.yml"
+    },
+    {
+      "component": "stainless-api/trigger-release-please@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-releases.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-releases.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-gem.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-gem.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "anthropics/anthropic-sdk-ruby",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "anthropics/anthropic-sdk-ruby",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "anthropics/anthropic-sdk-ruby",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "anthropics/anthropic-sdk-ruby",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "anthropics/anthropic-sdk-ruby",
+      "target": "anthropics/claude-code-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "anthropics/anthropic-sdk-ruby",
+      "target": "Claude Code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-releases.yml",
+      "source_repo": "anthropics/anthropic-sdk-ruby",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-releases.yml",
+      "source_repo": "anthropics/anthropic-sdk-ruby",
+      "target": "stainless-api/trigger-release-please@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-releases.yml",
+      "source_repo": "anthropics/anthropic-sdk-ruby",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-releases.yml",
+      "source_repo": "anthropics/anthropic-sdk-ruby",
+      "target": "Create releases",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-gem.yml",
+      "source_repo": "anthropics/anthropic-sdk-ruby",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-gem.yml",
+      "source_repo": "anthropics/anthropic-sdk-ruby",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-gem.yml",
+      "source_repo": "anthropics/anthropic-sdk-ruby",
+      "target": "Publish Gem",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:57:39.210349+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1314
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2584
+    },
+    {
+      "path": ".github/workflows/claude.yml",
+      "size": 1874
+    },
+    {
+      "path": ".github/workflows/create-releases.yml",
+      "size": 1398
+    },
+    {
+      "path": ".github/workflows/publish-gem.yml",
+      "size": 902
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "anthropics/anthropic-sdk-ruby",
+    "html_url": "https://github.com/anthropics/anthropic-sdk-ruby",
+    "language": "Ruby",
+    "pushed_at": "2026-04-29T18:22:55Z",
+    "stargazers_count": 328,
+    "topics": [],
+    "updated_at": "2026-04-30T08:42:34Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Claude Code",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "term": "Claude Code"
+    },
+    {
+      "context_snippet": "Create releases",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-releases.yml",
+      "term": "Create releases"
+    },
+    {
+      "context_snippet": "Publish Gem",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-gem.yml",
+      "term": "Publish Gem"
+    }
+  ]
+}

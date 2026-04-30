@@ -4,14 +4,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "iflytek/HFL-Anthology",
-      "target": "destwang/ctcresources",
+      "target": "iflytek/vle",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "iflytek/HFL-Anthology",
-      "target": "destwang/ctc2021",
+      "target": "iflytek/minirbt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "iflytek/HFL-Anthology",
+      "target": "noviscl/advrace",
       "target_type": "repository"
     },
     {
@@ -20,15 +27,8 @@
       "source_repo": "iflytek/HFL-Anthology",
       "target": "china-ai-law-challenge/cail2019",
       "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "iflytek/HFL-Anthology",
-      "target": "geekdream-x/semeval2022-task8-tonyx",
-      "target_type": "repository"
     }
   ],
-  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "generated_at": "2026-04-30T12:45:20.475770+00:00",
   "source_repo": "iflytek/HFL-Anthology"
 }

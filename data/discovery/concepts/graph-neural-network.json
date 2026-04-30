@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "graph-neural-network"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zjhthu/OANet",
+      "status": "candidate-context",
+      "text": "Implementation of ICCV19 Paper \"Learning Two-View Correspondences and Geometry Using Order-Aware Network\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zjhthu/OANet",
+      "status": "candidate-context",
+      "text": "Pytorch implementation of OANet for ICCV'19 paper [\"Learning Two-View Correspondences and Geometry Using Order-Aware Network\"](https://arxiv.org/abs/1908.04964), by Jiahui Zhang, Dawei Sun, Zixin Luo, Anbang Yao, Lei Zhou, Tianwei Shen, Yurong Chen, Long Quan and Hongen Liao."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zjhthu/OANet",
+      "status": "candidate",
+      "text": "Pytorch implementation of OANet for ICCV'19 paper [\"Learning Two-View Correspondences and Geometry Using Order-Aware Network\"](https://arxiv.org/abs/1908.04964), by Jiahui Zhang, Dawei Sun, Zixin Luo, Anbang Yao, Lei Zhou, Tianwei Shen, Yurong Chen, Long Quan and Hongen Liao."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "graph-neural-network",
+  "concept_id": "graph-neural-network",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "zjhthu/OANet"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "graph-neural-network",
+      "sense_id": "graph-neural-network#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

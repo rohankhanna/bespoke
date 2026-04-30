@@ -1,0 +1,59 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filipradenovic/revisitop",
+      "target": "image-retrieval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filipradenovic/revisitop",
+      "target": "matlab",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:08:49.070817+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3772
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Revisiting Oxford and Paris: Large-Scale Image Retrieval Benchmarking",
+    "fork": false,
+    "full_name": "filipradenovic/revisitop",
+    "html_url": "https://github.com/filipradenovic/revisitop",
+    "language": "Python",
+    "pushed_at": "2022-06-02T18:55:53Z",
+    "stargazers_count": 268,
+    "topics": [
+      "image-retrieval",
+      "matlab",
+      "python"
+    ],
+    "updated_at": "2026-04-06T12:05:19Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "We revisit and address issues with Oxford 5k and Paris 6k image retrieval benchmarks. New annotation for both datasets is created with an extra attention to the reliability of the ground truth and three new protocols of varying difficulty are introduced. We additionally introduc\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-retrieval"
+    },
+    {
+      "context_snippet": "We revisit and address issues with Oxford 5k and Paris 6k image retrieval benchmarks. New annotation for both datasets is created with an extra attention to the reliability of the ground truth and three new protocols of varying difficulty are introduced. We additionally introduc\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "matlab"
+    }
+  ]
+}

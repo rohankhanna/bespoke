@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rpcxio/rpcx-benchmark",
+      "target": "rpcx-ecosystem/rpcx-benchmark",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:51:54.216642+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3152
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "test popular rpc benchmarks at same throughputs with share clients",
+    "fork": false,
+    "full_name": "rpcxio/rpcx-benchmark",
+    "html_url": "https://github.com/rpcxio/rpcx-benchmark",
+    "language": "Go",
+    "pushed_at": "2024-11-30T02:22:56Z",
+    "stargazers_count": 82,
+    "topics": [],
+    "updated_at": "2026-03-14T14:04:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rpcx-ecosystem/rpcx-benchmark",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

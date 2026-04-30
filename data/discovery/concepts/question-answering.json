@@ -175,6 +175,18 @@
       "source_repo": "xlang-ai/UnifiedSKG",
       "status": "candidate-context",
       "text": "<p align=\"left\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thaolmk54/hcrn-videoqa",
+      "status": "candidate-context",
+      "text": "Implementation for the paper \"Hierarchical Conditional Relation Networks for Video Question Answering\" (Le et al., CVPR 2020, Oral)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thaolmk54/hcrn-videoqa",
+      "status": "candidate-context",
+      "text": "We introduce a general-purpose reusable neural unit called Conditional Relation Network (CRN) that encapsulates and transforms an array of tensorial objects into a new array of the same kind, conditioned on a contextual feature. The flexibility of CRN units is then examined in s\u2026"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +273,12 @@
       "source_repo": "xlang-ai/UnifiedSKG",
       "status": "candidate",
       "text": "<p align=\"left\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thaolmk54/hcrn-videoqa",
+      "status": "candidate",
+      "text": "We introduce a general-purpose reusable neural unit called Conditional Relation Network (CRN) that encapsulates and transforms an array of tensorial objects into a new array of the same kind, conditioned on a contextual feature. The flexibility of CRN units is then examined in s\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -352,11 +370,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "xlang-ai/UnifiedSKG"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "thaolmk54/hcrn-videoqa"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "xlang-ai/UnifiedSKG"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

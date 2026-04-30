@@ -5,28 +5,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "zai-org/CodeGeeX",
-      "target": "oneflow-inc/oneflow",
+      "target": "thudm/codegeex4",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "zai-org/CodeGeeX",
-      "target": "codegeex/codegeex-fastertransformer",
+      "target": "thudm/codegeex2",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "zai-org/CodeGeeX",
-      "target": "codegeex/codegeex-vscode-extension",
+      "target": "thudm/codegeex",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "zai-org/CodeGeeX",
-      "target": "dpfried/incoder",
+      "target": "reddy-lab-code-research/xlcost",
       "target_type": "repository"
     },
     {
@@ -51,7 +51,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T08:09:08.146180+00:00",
+  "fetched_at": "2026-04-30T16:10:31.009811+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -72,33 +72,33 @@
     "html_url": "https://github.com/zai-org/CodeGeeX",
     "language": "Python",
     "pushed_at": "2024-08-13T05:59:38Z",
-    "stargazers_count": 8773,
+    "stargazers_count": 8774,
     "topics": [
       "code-generation",
       "pretrained-models",
       "tools"
     ],
-    "updated_at": "2026-04-29T21:57:19Z"
+    "updated_at": "2026-04-30T09:51:02Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "codegeex/codegeex-fastertransformer",
+      "full_name": "reddy-lab-code-research/xlcost",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "codegeex/codegeex-vscode-extension",
+      "full_name": "thudm/codegeex",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "dpfried/incoder",
+      "full_name": "thudm/codegeex2",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "oneflow-inc/oneflow",
+      "full_name": "thudm/codegeex4",
       "source_file": "README.md"
     }
   ],

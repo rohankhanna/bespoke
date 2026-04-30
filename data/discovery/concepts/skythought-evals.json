@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "Skythought evals"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NovaSky-AI/SkyThought",
+      "status": "candidate-context",
+      "text": "Sky-T1: Train your own O1 preview model within $450"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NovaSky-AI/SkyThought",
+      "status": "candidate-context",
+      "text": "Skythought evals"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NovaSky-AI/SkyThought",
+      "status": "candidate",
+      "text": "Skythought evals"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "Skythought evals",
+  "concept_id": "skythought-evals",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/cpu_ci.yml",
+      "source_repo": "NovaSky-AI/SkyThought"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Skythought evals",
+      "sense_id": "skythought-evals#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

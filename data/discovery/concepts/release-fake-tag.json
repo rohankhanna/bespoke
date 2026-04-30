@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Release Fake Tag"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kvcache-ai/ktransformers",
+      "status": "candidate-context",
+      "text": "A Flexible Framework for Experiencing Heterogeneous LLM Inference/Fine-tune Optimizations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kvcache-ai/ktransformers",
+      "status": "candidate-context",
+      "text": "Release Fake Tag"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kvcache-ai/ktransformers",
+      "status": "candidate",
+      "text": "Release Fake Tag"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18127,
+      "status": "candidate",
+      "text": "color"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18127,
+      "status": "candidate",
+      "text": "colour"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18127,
+      "status": "candidate",
+      "text": "glosa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18127,
+      "status": "candidate",
+      "text": "gloss"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18127,
+      "status": "candidate",
+      "text": "glossed"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Release Fake Tag",
+  "concept_id": "release-fake-tag",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/release-fake-tag.yml",
+      "source_repo": "kvcache-ai/ktransformers"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release Fake Tag",
+      "sense_id": "release-fake-tag#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

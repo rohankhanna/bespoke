@@ -1,0 +1,108 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IQTLabs/snowglobe",
+      "target": "human-ai-teaming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IQTLabs/snowglobe",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IQTLabs/snowglobe",
+      "target": "multi-agent-systems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IQTLabs/snowglobe",
+      "target": "tabletop-exercises",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IQTLabs/snowglobe",
+      "target": "wargames",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:58:18.773454+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14957
+    },
+    {
+      "path": "Dockerfile",
+      "size": 815
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1232
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Open-ended wargames with large language models",
+    "fork": false,
+    "full_name": "IQTLabs/snowglobe",
+    "html_url": "https://github.com/IQTLabs/snowglobe",
+    "language": "Python",
+    "pushed_at": "2026-02-11T17:44:03Z",
+    "stargazers_count": 53,
+    "topics": [
+      "human-ai-teaming",
+      "large-language-models",
+      "multi-agent-systems",
+      "tabletop-exercises",
+      "wargames"
+    ],
+    "updated_at": "2026-04-30T05:03:31Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "***Open-Ended Wargames with Large Language Models***",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "human-ai-teaming"
+    },
+    {
+      "context_snippet": "***Open-Ended Wargames with Large Language Models***",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "***Open-Ended Wargames with Large Language Models***",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-agent-systems"
+    },
+    {
+      "context_snippet": "***Open-Ended Wargames with Large Language Models***",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tabletop-exercises"
+    },
+    {
+      "context_snippet": "***Open-Ended Wargames with Large Language Models***",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wargames"
+    }
+  ]
+}

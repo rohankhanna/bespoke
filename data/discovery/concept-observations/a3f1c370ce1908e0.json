@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Potential: power 2D apps that people can use together, regardless of vision capabilities? https://codepen.io/hchiam/full/eYYdVeX"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[Live Demo](https://github.com/hchiam/_2DNote#live-demo)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[Live Demo](https://github.com/hchiam/_2DNote#live-demo)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20003597,
+      "status": "candidate",
+      "text": "insonification"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20003596,
+      "status": "candidate",
+      "text": "sonication"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20003595,
+      "status": "candidate",
+      "text": "ultrasonification"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20003594,
+      "status": "candidate",
+      "text": "subsonication"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20003593,
+      "status": "candidate",
+      "text": "sonolysis"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sonification",
+      "sense_id": "sonification#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "sonification",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sonification",
+  "observation_id": "a3f1c370ce1908e0",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "sonification",
+  "source_context_snippet": "[Live Demo](https://github.com/hchiam/_2DNote#live-demo)",
+  "source_file": null,
+  "source_repo": "hchiam/_2DNote",
+  "source_repo_description": "Potential: power 2D apps that people can use together, regardless of vision capabilities? https://codepen.io/hchiam/full/eYYdVeX"
+}

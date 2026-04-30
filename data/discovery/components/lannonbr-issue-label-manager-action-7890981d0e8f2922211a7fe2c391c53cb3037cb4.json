@@ -1,0 +1,12 @@
+{
+  "component": "lannonbr/issue-label-manager-action@7890981d0e8f2922211a7fe2c391c53cb3037cb4",
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/labels.yml",
+      "source_repo": "reviewdog/action-shfmt"
+    }
+  ]
+}

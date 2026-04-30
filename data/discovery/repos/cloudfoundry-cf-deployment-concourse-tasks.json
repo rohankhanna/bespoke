@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cloudfoundry/cf-deployment-concourse-tasks",
+      "target": "cloudfoundry/runtime-ci",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cloudfoundry/cf-deployment-concourse-tasks",
+      "target": "pivotal/credhub-release",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudfoundry/cf-deployment-concourse-tasks",
+      "target": "cff-wg-app-runtime-deployments",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:05:41.565315+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8891
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "cloudfoundry/cf-deployment-concourse-tasks",
+    "html_url": "https://github.com/cloudfoundry/cf-deployment-concourse-tasks",
+    "language": "Shell",
+    "pushed_at": "2026-04-29T14:13:17Z",
+    "stargazers_count": 24,
+    "topics": [
+      "cff-wg-app-runtime-deployments"
+    ],
+    "updated_at": "2026-04-29T14:17:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudfoundry/runtime-ci",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pivotal/credhub-release",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repo contains concourse tasks for use with [cf-deployment][cf-deployment-repo].",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cff-wg-app-runtime-deployments"
+    }
+  ]
+}

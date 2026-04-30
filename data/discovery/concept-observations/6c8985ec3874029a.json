@@ -84,7 +84,7 @@
   "normalized_form": "check-feature-pr",
   "observation_id": "6c8985ec3874029a",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
   "observed_text": "\ud83d\udeaa Check Feature PR",
   "source_context_snippet": "\ud83d\udeaa Check Feature PR",
   "source_file": ".github/workflows/close-feature-pr.yml",

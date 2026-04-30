@@ -43,6 +43,24 @@
       "source_repo": "aws/aws-ofi-nccl",
       "status": "candidate-context",
       "text": "PR CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "transparency-dev/armored-witness-applet",
+      "status": "candidate-context",
+      "text": "PR CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "transparency-dev/armored-witness-boot",
+      "status": "candidate-context",
+      "text": "PR CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "transparency-dev/armored-witness-os",
+      "status": "candidate-context",
+      "text": "PR CI"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +79,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "aws/aws-ofi-nccl",
+      "status": "candidate",
+      "text": "PR CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "transparency-dev/armored-witness-applet",
+      "status": "candidate",
+      "text": "PR CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "transparency-dev/armored-witness-boot",
+      "status": "candidate",
+      "text": "PR CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "transparency-dev/armored-witness-os",
       "status": "candidate",
       "text": "PR CI"
     }
@@ -126,11 +162,35 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/pr.yml",
       "source_repo": "dwyl/mvp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/pr_build.yml",
+      "source_repo": "transparency-dev/armored-witness-applet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/pr_build.yml",
+      "source_repo": "transparency-dev/armored-witness-boot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/pr_build.yml",
+      "source_repo": "transparency-dev/armored-witness-os"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "dwyl/mvp"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

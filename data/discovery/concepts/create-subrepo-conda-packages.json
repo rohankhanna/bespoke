@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Create Subrepo Conda Packages"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spyder-ide/spyder",
+      "status": "candidate-context",
+      "text": "Official repository for Spyder - The Scientific Python Development Environment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spyder-ide/spyder",
+      "status": "candidate-context",
+      "text": "Create Subrepo Conda Packages"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spyder-ide/spyder",
+      "status": "candidate",
+      "text": "Create Subrepo Conda Packages"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10194,
+      "status": "candidate",
+      "text": "clusters"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10194,
+      "status": "candidate",
+      "text": "packaging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10194,
+      "status": "candidate",
+      "text": "parcel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10067,
+      "status": "candidate",
+      "text": "address"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10067,
+      "status": "candidate",
+      "text": "addressing"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Create Subrepo Conda Packages",
+  "concept_id": "create-subrepo-conda-packages",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/build-subrepos.yml",
+      "source_repo": "spyder-ide/spyder"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Create Subrepo Conda Packages",
+      "sense_id": "create-subrepo-conda-packages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

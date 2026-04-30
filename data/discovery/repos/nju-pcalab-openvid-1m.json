@@ -1,0 +1,75 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NJU-PCALab/OpenVid-1M",
+      "target": "saiyan-world/goku",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NJU-PCALab/OpenVid-1M",
+      "target": "text-to-video-dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NJU-PCALab/OpenVid-1M",
+      "target": "text-to-video-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:09:55.648795+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6949
+    },
+    {
+      "path": "requirements.txt",
+      "size": 109
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICLR 2025] OpenVid-1M: A Large-Scale High-Quality Dataset for Text-to-video Generation",
+    "fork": false,
+    "full_name": "NJU-PCALab/OpenVid-1M",
+    "html_url": "https://github.com/NJU-PCALab/OpenVid-1M",
+    "language": "Python",
+    "pushed_at": "2025-05-30T07:45:21Z",
+    "stargazers_count": 424,
+    "topics": [
+      "text-to-video-dataset",
+      "text-to-video-generation"
+    ],
+    "updated_at": "2026-04-24T13:35:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "saiyan-world/goku",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-video-dataset"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-video-generation"
+    }
+  ]
+}

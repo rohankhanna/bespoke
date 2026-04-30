@@ -331,6 +331,42 @@
       "source_repo": "smallnest/rpcx",
       "status": "candidate-context",
       "text": "- **stable branch**: v1.7.x"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "karatelabs/karate",
+      "status": "candidate-context",
+      "text": "Test Automation Made Simple"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karatelabs/karate",
+      "status": "candidate-context",
+      "text": "**The open-source tool that combines API testing, mocks, performance testing, and UI automation into a single, unified framework.**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vany0114/chaos-injection-using-simmy",
+      "status": "candidate-context",
+      "text": "A microservice based application to demonstrate how chaos engineering works with Simmy using chaos policies in a distributed system."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vany0114/chaos-injection-using-simmy",
+      "status": "candidate-context",
+      "text": "A microservice based application to demonstrate how chaos engineering works with [Simmy](https://github.com/Polly-Contrib/Simmy) using chaos policies in a distributed system and how we can inject even a custom behavior given our needs or infrastructure, this time injecting custo\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet-architecture/eShopOnContainers",
+      "status": "candidate-context",
+      "text": "Cross-platform .NET sample microservices and container based application that runs on Linux Windows and macOS. Powered by .NET 7, Docker Containers and Azure Kubernetes Services. Supports Visual Studio, VS for Mac and CLI based environments with Docker CLI, dotnet CLI, VS Code or any other code editor. Moved to https://github.com/dotnet/eShop."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet-architecture/eShopOnContainers",
+      "status": "candidate-context",
+      "text": "As of November 2023, the eShop sample application has been updated and moved to https://github.com/dotnet/eShop. Active development will continue there."
     }
   ],
   "candidate_glosses": [
@@ -495,6 +531,24 @@
       "source_repo": "smallnest/rpcx",
       "status": "candidate",
       "text": "- **stable branch**: v1.7.x"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karatelabs/karate",
+      "status": "candidate",
+      "text": "**The open-source tool that combines API testing, mocks, performance testing, and UI automation into a single, unified framework.**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vany0114/chaos-injection-using-simmy",
+      "status": "candidate",
+      "text": "A microservice based application to demonstrate how chaos engineering works with [Simmy](https://github.com/Polly-Contrib/Simmy) using chaos policies in a distributed system and how we can inject even a custom behavior given our needs or infrastructure, this time injecting custo\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet-architecture/eShopOnContainers",
+      "status": "candidate",
+      "text": "As of November 2023, the eShop sample application has been updated and moved to https://github.com/dotnet/eShop. Active development will continue there."
     }
   ],
   "candidate_related_terms": [
@@ -724,11 +778,35 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "grpc/grpc-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "grpc/grpc-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "karatelabs/karate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "vany0114/chaos-injection-using-simmy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "dotnet-architecture/eShopOnContainers"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

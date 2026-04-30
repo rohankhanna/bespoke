@@ -1,0 +1,135 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Mofiqul/dracula.nvim",
+      "target": "akinsho/nvim-bufferline.lua",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Mofiqul/dracula.nvim",
+      "target": "glepnir/lspsaga.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Mofiqul/dracula.nvim",
+      "target": "echasnovski/mini.icons",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Mofiqul/dracula.nvim",
+      "target": "echasnovski/mini.statusline",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Mofiqul/dracula.nvim",
+      "target": "color-scheme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Mofiqul/dracula.nvim",
+      "target": "dracula-color-scheme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Mofiqul/dracula.nvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Mofiqul/dracula.nvim",
+      "target": "treesitter",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:03:37.850451+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4592
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Dracula colorscheme for neovim written in Lua",
+    "fork": false,
+    "full_name": "Mofiqul/dracula.nvim",
+    "html_url": "https://github.com/Mofiqul/dracula.nvim",
+    "language": "Lua",
+    "pushed_at": "2025-11-05T01:08:01Z",
+    "stargazers_count": 767,
+    "topics": [
+      "color-scheme",
+      "dracula-color-scheme",
+      "neovim",
+      "treesitter"
+    ],
+    "updated_at": "2026-04-29T13:13:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "akinsho/nvim-bufferline.lua",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "echasnovski/mini.icons",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "echasnovski/mini.statusline",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "glepnir/lspsaga.nvim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<h1 align=\"center\" >\ud83e\udddb\u200d\u2642\ufe0f dracula.nvim</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "color-scheme"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\" >\ud83e\udddb\u200d\u2642\ufe0f dracula.nvim</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dracula-color-scheme"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\" >\ud83e\udddb\u200d\u2642\ufe0f dracula.nvim</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\" >\ud83e\udddb\u200d\u2642\ufe0f dracula.nvim</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "treesitter"
+    }
+  ]
+}

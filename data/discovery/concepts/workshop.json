@@ -19,6 +19,30 @@
       "source_repo": "Azure-Samples/azure-openai-rag-workshop",
       "status": "candidate-context",
       "text": "<!-- prettier-ignore -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "storybookjs/storybook",
+      "status": "candidate-context",
+      "text": "Storybook is the industry standard workshop for building, documenting, and testing UI components in isolation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "storybookjs/storybook",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bjartnes/hikke",
+      "status": "candidate-context",
+      "text": "A k6/.NET red/green load testing workshop"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bjartnes/hikke",
+      "status": "candidate-context",
+      "text": "This repository is for a workshop to understand how to introduce and deal with a bounded disturbance."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "Azure-Samples/azure-openai-rag-workshop",
       "status": "candidate",
       "text": "<!-- prettier-ignore -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "storybookjs/storybook",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bjartnes/hikke",
+      "status": "candidate",
+      "text": "This repository is for a workshop to understand how to introduce and deal with a bounded disturbance."
     }
   ],
   "candidate_related_terms": [
@@ -84,11 +120,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "Azure-Samples/azure-openai-rag-workshop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "storybookjs/storybook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "bjartnes/hikke"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

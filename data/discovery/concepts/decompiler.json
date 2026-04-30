@@ -19,6 +19,18 @@
       "source_repo": "clearbluejar/ghidrecomp",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clojure-goes-fast/clj-java-decompiler",
+      "status": "candidate-context",
+      "text": "REPL-integrated Clojure-to-Java decompiler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure-goes-fast/clj-java-decompiler",
+      "status": "candidate-context",
+      "text": "_You can read the motivation behind clj-java-decompiler and the usage example in"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "clearbluejar/ghidrecomp",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure-goes-fast/clj-java-decompiler",
+      "status": "candidate",
+      "text": "_You can read the motivation behind clj-java-decompiler and the usage example in"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "clearbluejar/ghidrecomp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "clojure-goes-fast/clj-java-decompiler"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

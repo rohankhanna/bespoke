@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T15:13:32.522594+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4675
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "CLASP - Contrastive Language-Aminoacid Sequence Pretraining",
+    "fork": false,
+    "full_name": "MicPie/clasp",
+    "html_url": "https://github.com/MicPie/clasp",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2021-09-17T13:54:44Z",
+    "stargazers_count": 142,
+    "topics": [],
+    "updated_at": "2026-04-01T13:23:06Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

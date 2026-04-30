@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Issue Screening"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Peterande/D-FINE",
+      "status": "candidate-context",
+      "text": "D-FINE: Redefine Regression Task of DETRs as Fine-grained Distribution Refinement  [ICLR 2025 Spotlight]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Peterande/D-FINE",
+      "status": "candidate-context",
+      "text": "Issue Screening"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Peterande/D-FINE",
+      "status": "candidate",
+      "text": "Issue Screening"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12572,
+      "status": "candidate",
+      "text": "consideration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12572,
+      "status": "candidate",
+      "text": "control"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12572,
+      "status": "candidate",
+      "text": "examine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12572,
+      "status": "candidate",
+      "text": "examining"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12166,
+      "status": "candidate",
+      "text": "considering"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Issue Screening",
+  "concept_id": "issue-screening",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/is.yml",
+      "source_repo": "Peterande/D-FINE"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Issue Screening",
+      "sense_id": "issue-screening#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,202 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apicurio-check-workflow.yml",
+      "source_repo": "debezium/debezium",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/apicurio-check-workflow.yml",
+      "source_repo": "debezium/debezium",
+      "target": "Apicurio PR check workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit-signoff-check.yml",
+      "source_repo": "debezium/debezium",
+      "target": "debezium/dbz/.github/actions/check-dco@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/commit-signoff-check.yml",
+      "source_repo": "debezium/debezium",
+      "target": "Commit Sign-off Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/connector-informix-workflow.yml",
+      "source_repo": "debezium/debezium",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/connector-informix-workflow.yml",
+      "source_repo": "debezium/debezium",
+      "target": "Informix Builds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/connector-jdbc-workflow.yml",
+      "source_repo": "debezium/debezium",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/connector-jdbc-workflow.yml",
+      "source_repo": "debezium/debezium",
+      "target": "JDBC Builds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/connector-mariadb-workflow.yml",
+      "source_repo": "debezium/debezium",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/connector-mariadb-workflow.yml",
+      "source_repo": "debezium/debezium",
+      "target": "MariaDB Builds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/connector-mongodb-workflow.yml",
+      "source_repo": "debezium/debezium",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/connector-mongodb-workflow.yml",
+      "source_repo": "debezium/debezium",
+      "target": "MongoDB Builds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/connector-mysql-workflow.yml",
+      "source_repo": "debezium/debezium",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/connector-mysql-workflow.yml",
+      "source_repo": "debezium/debezium",
+      "target": "MySQL Builds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/connector-oracle-workflow.yml",
+      "source_repo": "debezium/debezium",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/connector-oracle-workflow.yml",
+      "source_repo": "debezium/debezium",
+      "target": "Oracle Builds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/connector-postgresql-workflow.yml",
+      "source_repo": "debezium/debezium",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/connector-postgresql-workflow.yml",
+      "source_repo": "debezium/debezium",
+      "target": "PostgreSQL Builds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "debezium/debezium",
+      "target": "apache-kafka",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "debezium/debezium",
+      "target": "change-data-capture",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "debezium/debezium",
+      "target": "data-pipeline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "debezium/debezium",
+      "target": "database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "debezium/debezium",
+      "target": "debezium",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "debezium/debezium",
+      "target": "event-streaming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "debezium/debezium",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "debezium/debezium",
+      "target": "kafka",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "debezium/debezium",
+      "target": "kafka-connect",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "debezium/debezium",
+      "target": "kafka-producer",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T12:45:20.475770+00:00",
+  "source_repo": "debezium/debezium"
+}

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -11,6 +11,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/release.yaml",
       "source_repo": "gchq/gaffer-docker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/full-release.yml",
+      "source_repo": "SonarSource/sonarlint-intellij"
     }
   ],
   "term": "Full Release"

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "arch package"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flightlessmango/MangoHud",
+      "status": "candidate-context",
+      "text": "A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flightlessmango/MangoHud",
+      "status": "candidate-context",
+      "text": "arch package"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flightlessmango/MangoHud",
+      "status": "candidate",
+      "text": "arch package"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11668,
+      "status": "candidate",
+      "text": "bow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10608,
+      "status": "candidate",
+      "text": "adze"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10608,
+      "status": "candidate",
+      "text": "arcade"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10608,
+      "status": "candidate",
+      "text": "architrave"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10608,
+      "status": "candidate",
+      "text": "ark"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "arch package",
+  "concept_id": "arch-package",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/arch-package.yml",
+      "source_repo": "flightlessmango/MangoHud"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "arch package",
+      "sense_id": "arch-package#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

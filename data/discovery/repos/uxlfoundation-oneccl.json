@@ -13,13 +13,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "uxlfoundation/oneCCL",
-      "target": "intel/torch-ccl",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/coverity.yml",
       "source_repo": "uxlfoundation/oneCCL",
@@ -97,7 +90,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T08:09:39.270440+00:00",
+  "fetched_at": "2026-04-30T16:10:43.251960+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -134,13 +127,7 @@
     ],
     "updated_at": "2026-04-29T11:16:48Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "intel/torch-ccl",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Coverity Scan",

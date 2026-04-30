@@ -235,6 +235,30 @@
       "source_repo": "pry/pry",
       "status": "candidate-context",
       "text": "Pry"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vadimcn/codelldb",
+      "status": "candidate-context",
+      "text": "A VSCode debugger extension for native code, powered by LLDB."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vadimcn/codelldb",
+      "status": "candidate-context",
+      "text": "- Conditional breakpoints, function breakpoints, logpoints,"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "winsiderss/systeminformer",
+      "status": "candidate-context",
+      "text": "A free, powerful, multi-purpose tool that helps you monitor system resources, debug software and detect malware. Brought to you by Winsider Seminars & Solutions, Inc. @ http://www.windows-internals.com"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "winsiderss/systeminformer",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -351,6 +375,18 @@
       "source_repo": "pry/pry",
       "status": "candidate",
       "text": "Pry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vadimcn/codelldb",
+      "status": "candidate",
+      "text": "- Conditional breakpoints, function breakpoints, logpoints,"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "winsiderss/systeminformer",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -526,11 +562,29 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "criteo/mesos-term"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "vadimcn/codelldb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "criteo/mesos-term"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "winsiderss/systeminformer"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

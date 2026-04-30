@@ -56,13 +56,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "swiftlang/swift-syntax",
-      "target": "swiftlang/swift-syntax.git.",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "swiftlang/swift-syntax",
       "target": "apple/swift-syntax",
       "target_type": "repository"
     },
@@ -123,7 +116,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T08:23:09.490937+00:00",
+  "fetched_at": "2026-04-30T13:50:20.457797+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -152,19 +145,14 @@
     "html_url": "https://github.com/swiftlang/swift-syntax",
     "language": "Swift",
     "pushed_at": "2026-04-29T17:41:19Z",
-    "stargazers_count": 3632,
+    "stargazers_count": 3633,
     "topics": [],
-    "updated_at": "2026-04-29T01:55:42Z"
+    "updated_at": "2026-04-30T12:22:13Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "apple/swift-syntax",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "swiftlang/swift-syntax.git.",
       "source_file": "README.md"
     }
   ],

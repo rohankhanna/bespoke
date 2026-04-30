@@ -58,20 +58,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "realworld-apps/realworld",
-      "target": "realworld-apps/nitro-prisma-zod-realworld-example-app",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "realworld-apps/realworld",
-      "target": "c4ffein/realworld-django-ninja",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/bruno-check.yml",
       "source_repo": "realworld-apps/realworld",
@@ -177,7 +163,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T01:42:25.876667+00:00",
+  "fetched_at": "2026-04-30T15:01:41.944781+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -210,22 +196,11 @@
     "html_url": "https://github.com/realworld-apps/realworld",
     "language": "TypeScript",
     "pushed_at": "2026-04-14T16:11:02Z",
-    "stargazers_count": 83323,
+    "stargazers_count": 83329,
     "topics": [],
-    "updated_at": "2026-04-30T00:57:42Z"
+    "updated_at": "2026-04-30T14:00:38Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "c4ffein/realworld-django-ninja",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "realworld-apps/nitro-prisma-zod-realworld-example-app",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "'Bruno Check'",

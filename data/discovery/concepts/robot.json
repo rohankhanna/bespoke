@@ -1,0 +1,139 @@
+{
+  "aliases": [
+    "robot"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "robot-descriptions/robot_descriptions.py",
+      "status": "candidate-context",
+      "text": "Access 175+ robot descriptions from the main Python robotics frameworks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robot-descriptions/robot_descriptions.py",
+      "status": "candidate-context",
+      "text": "[![Build](https://img.shields.io/github/actions/workflow/status/robot-descriptions/robot_descriptions.py/test.yml?branch=main)](https://github.com/robot-descriptions/robot_descriptions.py/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HansZ8/RoboJuDo",
+      "status": "candidate-context",
+      "text": "A plug-and-play deploy framework for robots. Just deploy, just do."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HansZ8/RoboJuDo",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robot-descriptions/robot_descriptions.py",
+      "status": "candidate",
+      "text": "[![Build](https://img.shields.io/github/actions/workflow/status/robot-descriptions/robot_descriptions.py/test.yml?branch=main)](https://github.com/robot-descriptions/robot_descriptions.py/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HansZ8/RoboJuDo",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39885169,
+      "status": "candidate",
+      "text": "golem"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39871414,
+      "status": "candidate",
+      "text": "automaton"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29959072,
+      "status": "candidate",
+      "text": "mechanical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29927683,
+      "status": "candidate",
+      "text": "automatic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29922161,
+      "status": "candidate",
+      "text": "automated"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29045,
+      "status": "candidate",
+      "text": "automaton"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16025,
+      "status": "candidate",
+      "text": "golem"
+    }
+  ],
+  "canonical_name": "robot",
+  "concept_id": "robot",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "robot-descriptions/robot_descriptions.py"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "HansZ8/RoboJuDo"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "robot",
+      "sense_id": "robot#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

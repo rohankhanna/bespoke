@@ -1,0 +1,12 @@
+{
+  "component": "madhead/semver-utils@36d1e0ed361bd7b4b77665de8093092eaeabe6ba",
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/create-release-branch.yml",
+      "source_repo": "hazelcast/hazelcast-cpp-client"
+    }
+  ]
+}

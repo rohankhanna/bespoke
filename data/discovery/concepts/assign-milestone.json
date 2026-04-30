@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Assign milestone"
+    "Assign milestone",
+    "Assign Milestone"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "risingwavelabs/risingwave",
       "status": "candidate-context",
       "text": "Assign milestone"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "janhq/jan",
+      "status": "candidate-context",
+      "text": "Jan is an open source alternative to ChatGPT that runs 100% offline on your computer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "janhq/jan",
+      "status": "candidate-context",
+      "text": "Assign Milestone"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "risingwavelabs/risingwave",
       "status": "candidate",
       "text": "Assign milestone"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "janhq/jan",
+      "status": "candidate",
+      "text": "Assign Milestone"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/assign-issue-milestone.yml",
       "source_repo": "risingwavelabs/risingwave"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/auto-assign-milestone.yml",
+      "source_repo": "janhq/jan"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,12 @@
+{
+  "component": "jfrog/setup-jfrog-cli@ff5cb544114ffc152db9cea1cd3d5978d5074946",
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/promote.yml",
+      "source_repo": "spring-io/spring-javaformat"
+    }
+  ]
+}

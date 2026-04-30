@@ -16,11 +16,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T08:12:07.164035+00:00",
+  "fetched_at": "2026-04-30T16:06:54.940038+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 13633
+      "size": 13617
     }
   ],
   "related_repositories": [],
@@ -32,13 +32,13 @@
     "full_name": "nodejs/Release",
     "html_url": "https://github.com/nodejs/Release",
     "language": "JavaScript",
-    "pushed_at": "2026-04-15T11:13:13Z",
+    "pushed_at": "2026-04-30T15:25:22Z",
     "stargazers_count": 4313,
     "topics": [
       "node",
       "nodejs"
     ],
-    "updated_at": "2026-04-29T14:18:44Z"
+    "updated_at": "2026-04-30T15:25:40Z"
   },
   "repo_links": [],
   "terms": [

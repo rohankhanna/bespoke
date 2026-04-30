@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "Extended"
+    "Extended",
+    "extended"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -31,6 +34,18 @@
       "source_repo": "pq-code-package/mldsa-native",
       "status": "candidate-context",
       "text": "Extended"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jest-community/jest-extended",
+      "status": "candidate-context",
+      "text": "Additional Jest matchers \ud83c\udccf\ud83d\udcaa"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jest-community/jest-extended",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +60,12 @@
       "source_repo": "pq-code-package/mldsa-native",
       "status": "candidate",
       "text": "Extended"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jest-community/jest-extended",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -136,11 +157,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "pq-code-package/mldsa-native"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "jest-community/jest-extended"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

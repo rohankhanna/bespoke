@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Const-me/Vrmac",
+      "target": "const-me/dtsdecoder",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Const-me/Vrmac",
+      "target": "const-me/comlightinterop",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Const-me/Vrmac",
+      "target": "mono/cppsharp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Const-me/Vrmac",
+      "target": "memononen/libtess2",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:09:33.891022+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19270
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Vrmac Graphics, a cross-platform graphics library for .NET. Supports 3D, 2D, and accelerated video playback. Works on Windows 10 and Raspberry Pi4.",
+    "fork": false,
+    "full_name": "Const-me/Vrmac",
+    "html_url": "https://github.com/Const-me/Vrmac",
+    "language": "C#",
+    "pushed_at": "2021-08-11T00:25:31Z",
+    "stargazers_count": 125,
+    "topics": [],
+    "updated_at": "2026-02-10T17:58:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "const-me/comlightinterop",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "const-me/dtsdecoder",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "memononen/libtess2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mono/cppsharp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T15:14:28.998674+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1157
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Description and pointers of laion datasets",
+    "fork": false,
+    "full_name": "LAION-AI/laion-datasets",
+    "html_url": "https://github.com/LAION-AI/laion-datasets",
+    "language": "HTML",
+    "pushed_at": "2022-11-05T12:14:17Z",
+    "stargazers_count": 255,
+    "topics": [],
+    "updated_at": "2026-03-26T08:02:54Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

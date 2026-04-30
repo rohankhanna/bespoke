@@ -1,0 +1,87 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kernelsauce/turbo",
+      "target": "api-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kernelsauce/turbo",
+      "target": "http",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kernelsauce/turbo",
+      "target": "luajit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kernelsauce/turbo",
+      "target": "network",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:05:32.326693+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 5893
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Turbo is a framework built for LuaJIT 2 to simplify the task of building fast and scalable network applications. It uses a event-driven, non-blocking, no thread design to deliver excellent performance and minimal footprint to high-load applications while also providing excellent support for embedded uses. ",
+    "fork": false,
+    "full_name": "kernelsauce/turbo",
+    "html_url": "https://github.com/kernelsauce/turbo",
+    "language": "Lua",
+    "pushed_at": "2025-05-06T16:47:46Z",
+    "stargazers_count": 551,
+    "topics": [
+      "api-server",
+      "http",
+      "lua",
+      "luajit",
+      "network"
+    ],
+    "updated_at": "2026-04-01T19:07:09Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": ".. image:: https://raw.github.com/kernelsauce/turbo/master/doc/design/turbo.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "api-server"
+    },
+    {
+      "context_snippet": ".. image:: https://raw.github.com/kernelsauce/turbo/master/doc/design/turbo.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http"
+    },
+    {
+      "context_snippet": ".. image:: https://raw.github.com/kernelsauce/turbo/master/doc/design/turbo.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "luajit"
+    },
+    {
+      "context_snippet": ".. image:: https://raw.github.com/kernelsauce/turbo/master/doc/design/turbo.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "network"
+    }
+  ]
+}

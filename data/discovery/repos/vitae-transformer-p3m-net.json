@@ -1,0 +1,127 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ViTAE-Transformer/P3M-Net",
+      "target": "vitae-transformer/vitae-transformer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ViTAE-Transformer/P3M-Net",
+      "target": "vitae-transformer/vitae-transformer-remote-sensing",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ViTAE-Transformer/P3M-Net",
+      "target": "vitae-transformer/vitae-transformer-matting",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/P3M-Net",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/P3M-Net",
+      "target": "image-matting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/P3M-Net",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/P3M-Net",
+      "target": "vision-transformer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:07:02.583961+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15430
+    },
+    {
+      "path": "requirements.txt",
+      "size": 99
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The official repo for [IJCV'23] \"Rethinking Portrait Matting with Privacy Preserving\"",
+    "fork": false,
+    "full_name": "ViTAE-Transformer/P3M-Net",
+    "html_url": "https://github.com/ViTAE-Transformer/P3M-Net",
+    "language": "Python",
+    "pushed_at": "2024-03-30T18:11:25Z",
+    "stargazers_count": 113,
+    "topics": [
+      "deep-learning",
+      "image-matting",
+      "pytorch",
+      "vision-transformer"
+    ],
+    "updated_at": "2026-04-07T06:02:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vitae-transformer/vitae-transformer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vitae-transformer/vitae-transformer-matting",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vitae-transformer/vitae-transformer-remote-sensing",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<h1 align=\"center\">Rethinking Portrait Matting with Privacy Preserving [IJCV-2023]</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Rethinking Portrait Matting with Privacy Preserving [IJCV-2023]</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-matting"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Rethinking Portrait Matting with Privacy Preserving [IJCV-2023]</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Rethinking Portrait Matting with Privacy Preserving [IJCV-2023]</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-transformer"
+    }
+  ]
+}

@@ -1,0 +1,538 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yml"
+    },
+    {
+      "component": "sbt/setup-sbt@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yml"
+    },
+    {
+      "component": "autofix-ci/action@551dded8c6cc8a1054039c8bc0b8b48c51dfc6ef",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yml"
+    },
+    {
+      "component": "actions/download-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-build-raw.yml"
+    },
+    {
+      "component": "coursier/cache-action@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-build-selective.yml"
+    },
+    {
+      "component": "actions/download-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-build-selective.yml"
+    },
+    {
+      "component": "sbt/setup-sbt@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-build-selective.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-build.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-artifacts.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-bridges.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yml"
+    },
+    {
+      "component": "coursier/cache-action@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml"
+    },
+    {
+      "component": "sbt/setup-sbt@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scala-steward.yml"
+    },
+    {
+      "component": "scala-steward-org/scala-steward-action@v2.80.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scala-steward.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yml",
+      "source_repo": "com-lihaoyi/mill",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yml",
+      "source_repo": "com-lihaoyi/mill",
+      "target": "sbt/setup-sbt@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yml",
+      "source_repo": "com-lihaoyi/mill",
+      "target": "autofix-ci/action@551dded8c6cc8a1054039c8bc0b8b48c51dfc6ef",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autofix.yml",
+      "source_repo": "com-lihaoyi/mill",
+      "target": "autofix.ci",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/draft-ci.yml",
+      "source_repo": "com-lihaoyi/mill",
+      "target": "Draft CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-build-raw.yml",
+      "source_repo": "com-lihaoyi/mill",
+      "target": "actions/download-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/post-build-raw.yml",
+      "source_repo": "com-lihaoyi/mill",
+      "target": "post-build-raw",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-build-selective.yml",
+      "source_repo": "com-lihaoyi/mill",
+      "target": "coursier/cache-action@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-build-selective.yml",
+      "source_repo": "com-lihaoyi/mill",
+      "target": "actions/download-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-build-selective.yml",
+      "source_repo": "com-lihaoyi/mill",
+      "target": "sbt/setup-sbt@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/post-build-selective.yml",
+      "source_repo": "com-lihaoyi/mill",
+      "target": "post-build-selective",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-build.yml",
+      "source_repo": "com-lihaoyi/mill",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-build.yml",
+      "source_repo": "com-lihaoyi/mill",
+      "target": "actions/upload-artifact@v6.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-artifacts.yml",
+      "source_repo": "com-lihaoyi/mill",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-artifacts.yml",
+      "source_repo": "com-lihaoyi/mill",
+      "target": "Publish Artifacts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-bridges.yaml",
+      "source_repo": "com-lihaoyi/mill",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-bridges.yaml",
+      "source_repo": "com-lihaoyi/mill",
+      "target": "Publish Bridges",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "source_repo": "com-lihaoyi/mill",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "source_repo": "com-lihaoyi/mill",
+      "target": "coursier/cache-action@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "source_repo": "com-lihaoyi/mill",
+      "target": "Publish Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "com-lihaoyi/mill",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "com-lihaoyi/mill",
+      "target": "sbt/setup-sbt@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "com-lihaoyi/mill",
+      "target": "Run Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scala-steward.yml",
+      "source_repo": "com-lihaoyi/mill",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scala-steward.yml",
+      "source_repo": "com-lihaoyi/mill",
+      "target": "scala-steward-org/scala-steward-action@v2.80.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scala-steward.yml",
+      "source_repo": "com-lihaoyi/mill",
+      "target": "Scala Steward",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "com-lihaoyi/mill",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "com-lihaoyi/mill",
+      "target": "build-system",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "com-lihaoyi/mill",
+      "target": "build-tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "com-lihaoyi/mill",
+      "target": "groovy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "com-lihaoyi/mill",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "com-lihaoyi/mill",
+      "target": "kotlin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "com-lihaoyi/mill",
+      "target": "mill-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "com-lihaoyi/mill",
+      "target": "scala",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "com-lihaoyi/mill",
+      "target": "scala-js",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "com-lihaoyi/mill",
+      "target": "scala-native",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:12:18.863863+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/autofix.yml",
+      "size": 461
+    },
+    {
+      "path": ".github/workflows/draft-ci.yml",
+      "size": 1398
+    },
+    {
+      "path": ".github/workflows/post-build-raw.yml",
+      "size": 764
+    },
+    {
+      "path": ".github/workflows/post-build-selective.yml",
+      "size": 1766
+    },
+    {
+      "path": ".github/workflows/pre-build.yml",
+      "size": 1263
+    },
+    {
+      "path": ".github/workflows/publish-artifacts.yml",
+      "size": 2145
+    },
+    {
+      "path": ".github/workflows/publish-bridges.yaml",
+      "size": 1223
+    },
+    {
+      "path": ".github/workflows/publish-docs.yml",
+      "size": 947
+    },
+    {
+      "path": ".github/workflows/run-tests.yml",
+      "size": 8386
+    },
+    {
+      "path": ".github/workflows/scala-steward.yml",
+      "size": 445
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A better build tool for Java, Scala and Kotlin: Simpler than Maven, easier than Gradle, with 3-7x faster dev workflows than other JVM build tools",
+    "fork": false,
+    "full_name": "com-lihaoyi/mill",
+    "html_url": "https://github.com/com-lihaoyi/mill",
+    "language": "Scala",
+    "pushed_at": "2026-04-30T07:25:55Z",
+    "stargazers_count": 2733,
+    "topics": [
+      "android",
+      "build-system",
+      "build-tool",
+      "groovy",
+      "java",
+      "kotlin",
+      "mill-plugin",
+      "scala",
+      "scala-js",
+      "scala-native"
+    ],
+    "updated_at": "2026-04-30T07:05:51Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "'autofix.ci'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autofix.yml",
+      "term": "autofix.ci"
+    },
+    {
+      "context_snippet": "Draft CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/draft-ci.yml",
+      "term": "Draft CI"
+    },
+    {
+      "context_snippet": "post-build-raw",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/post-build-raw.yml",
+      "term": "post-build-raw"
+    },
+    {
+      "context_snippet": "post-build-selective",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/post-build-selective.yml",
+      "term": "post-build-selective"
+    },
+    {
+      "context_snippet": "Publish Artifacts",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-artifacts.yml",
+      "term": "Publish Artifacts"
+    },
+    {
+      "context_snippet": "Publish Bridges",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-bridges.yaml",
+      "term": "Publish Bridges"
+    },
+    {
+      "context_snippet": "Publish Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "term": "Publish Docs"
+    },
+    {
+      "context_snippet": "Run Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-tests.yml",
+      "term": "Run Tests"
+    },
+    {
+      "context_snippet": "Scala Steward",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scala-steward.yml",
+      "term": "Scala Steward"
+    },
+    {
+      "context_snippet": "'autofix.ci'",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "'autofix.ci'",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "build-system"
+    },
+    {
+      "context_snippet": "'autofix.ci'",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "build-tool"
+    },
+    {
+      "context_snippet": "'autofix.ci'",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "groovy"
+    },
+    {
+      "context_snippet": "'autofix.ci'",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "'autofix.ci'",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kotlin"
+    },
+    {
+      "context_snippet": "'autofix.ci'",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mill-plugin"
+    },
+    {
+      "context_snippet": "'autofix.ci'",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scala"
+    },
+    {
+      "context_snippet": "'autofix.ci'",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scala-js"
+    },
+    {
+      "context_snippet": "'autofix.ci'",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scala-native"
+    }
+  ]
+}

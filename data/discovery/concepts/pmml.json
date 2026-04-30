@@ -67,6 +67,18 @@
       "source_repo": "autodeployai/pypmml-spark",
       "status": "candidate-context",
       "text": "_PyPMML-Spark_ is a Python PMML scoring library for PySpark as SparkML Transformer, it really is the Python API for [PMML4S-Spark](https://github.com/autodeployai/pmml4s-spark)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asafschers/scoruby",
+      "status": "candidate-context",
+      "text": "Ruby Scoring API for PMML"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asafschers/scoruby",
+      "status": "candidate-context",
+      "text": "<a href=\"https://codeclimate.com/github/asafschers/scoruby\"><img src=\"https://codeclimate.com/github/asafschers/scoruby/badges/gpa.svg\" /></a>"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "autodeployai/pypmml-spark",
       "status": "candidate",
       "text": "_PyPMML-Spark_ is a Python PMML scoring library for PySpark as SparkML Transformer, it really is the Python API for [PMML4S-Spark](https://github.com/autodeployai/pmml4s-spark)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asafschers/scoruby",
+      "status": "candidate",
+      "text": "<a href=\"https://codeclimate.com/github/asafschers/scoruby\"><img src=\"https://codeclimate.com/github/asafschers/scoruby/badges/gpa.svg\" /></a>"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +154,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "autodeployai/pypmml-spark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "asafschers/scoruby"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

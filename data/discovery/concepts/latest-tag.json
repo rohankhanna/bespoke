@@ -19,12 +19,30 @@
       "source_repo": "cachix/devenv",
       "status": "candidate-context",
       "text": "\"Latest tag\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cachix/secretspec",
+      "status": "candidate-context",
+      "text": "Declarative secrets, every environment, any provider."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cachix/secretspec",
+      "status": "candidate-context",
+      "text": "\"Latest tag\""
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "cachix/devenv",
+      "status": "candidate",
+      "text": "\"Latest tag\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cachix/secretspec",
       "status": "candidate",
       "text": "\"Latest tag\""
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/auto-tag-latest.yml",
       "source_repo": "cachix/devenv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/auto-tag-latest.yml",
+      "source_repo": "cachix/secretspec"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

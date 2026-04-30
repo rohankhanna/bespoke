@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "contributors"
+    "contributors",
+    "Contributors"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -43,6 +46,30 @@
       "source_repo": "git-quick-stats/git-quick-stats",
       "status": "candidate-context",
       "text": "[![Homebrew package](https://repology.org/badge/version-for-repo/homebrew/git-quick-stats.svg)](https://formulae.brew.sh/formula/git-quick-stats#default)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-openapi/strfmt",
+      "status": "candidate-context",
+      "text": "openapi toolkit common string formats"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-openapi/strfmt",
+      "status": "candidate-context",
+      "text": "Contributors"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-openapi/swag",
+      "status": "candidate-context",
+      "text": "goodie bag in use in the go-openapi projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-openapi/swag",
+      "status": "candidate-context",
+      "text": "Contributors"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +90,18 @@
       "source_repo": "git-quick-stats/git-quick-stats",
       "status": "candidate",
       "text": "[![Homebrew package](https://repology.org/badge/version-for-repo/homebrew/git-quick-stats.svg)](https://formulae.brew.sh/formula/git-quick-stats#default)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-openapi/strfmt",
+      "status": "candidate",
+      "text": "Contributors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-openapi/swag",
+      "status": "candidate",
+      "text": "Contributors"
     }
   ],
   "candidate_related_terms": [
@@ -214,11 +253,41 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "all-contributors/app"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "all-contributors/allcontributors.org"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "all-contributors/app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/contributors.yml",
+      "source_repo": "go-openapi/strfmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/contributors.yml",
+      "source_repo": "go-openapi/swag"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "git-quick-stats/git-quick-stats"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

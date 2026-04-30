@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T12:55:53.900060+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4656
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Source code for the userspace level runtime driver for Coral.ai devices. ",
+    "fork": false,
+    "full_name": "google-coral/libedgetpu",
+    "html_url": "https://github.com/google-coral/libedgetpu",
+    "language": "C++",
+    "pushed_at": "2024-08-11T10:05:04Z",
+    "stargazers_count": 214,
+    "topics": [],
+    "updated_at": "2026-04-28T09:21:54Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

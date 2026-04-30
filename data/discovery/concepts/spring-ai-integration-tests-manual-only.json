@@ -1,0 +1,94 @@
+{
+  "aliases": [
+    "Spring AI Integration Tests (Manual Only)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spring-projects/spring-ai-integration-tests",
+      "status": "candidate-context",
+      "text": "Spring AI Integration Tests (Manual Only)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spring-projects/spring-ai-integration-tests",
+      "status": "candidate",
+      "text": "Spring AI Integration Tests (Manual Only)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26487,
+      "status": "candidate",
+      "text": "battleship"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17222,
+      "status": "candidate",
+      "text": "code review"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17222,
+      "status": "candidate",
+      "text": "coupon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17222,
+      "status": "candidate",
+      "text": "dark field illumination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17222,
+      "status": "candidate",
+      "text": "dark ground illumination"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Spring AI Integration Tests (Manual Only)",
+  "concept_id": "spring-ai-integration-tests-manual-only",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/spring-ai-integration-tests-manual-only.yml",
+      "source_repo": "spring-projects/spring-ai-integration-tests"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Spring AI Integration Tests (Manual Only)",
+      "sense_id": "spring-ai-integration-tests-manual-only#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

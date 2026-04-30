@@ -79,6 +79,18 @@
       "source_repo": "ClickHouse/clickhouse-rs",
       "status": "candidate-context",
       "text": "Official pure Rust typed client for ClickHouse DB."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "djc/tokio-retry",
+      "status": "candidate-context",
+      "text": "Extensible, asynchronous retry behaviours for futures/tokio"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "djc/tokio-retry",
+      "status": "candidate-context",
+      "text": "Extensible, asynchronous retry behaviours for the ecosystem of [tokio](https://tokio.rs/) libraries."
     }
   ],
   "candidate_glosses": [
@@ -111,6 +123,12 @@
       "source_repo": "ClickHouse/clickhouse-rs",
       "status": "candidate",
       "text": "Official pure Rust typed client for ClickHouse DB."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "djc/tokio-retry",
+      "status": "candidate",
+      "text": "Extensible, asynchronous retry behaviours for the ecosystem of [tokio](https://tokio.rs/) libraries."
     }
   ],
   "candidate_related_terms": [
@@ -226,11 +244,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "ClickHouse/clickhouse-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "djc/tokio-retry"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

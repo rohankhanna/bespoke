@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "blindness"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hchiam/_2DNote",
+      "status": "candidate-context",
+      "text": "Potential: power 2D apps that people can use together, regardless of vision capabilities? https://codepen.io/hchiam/full/eYYdVeX"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hchiam/_2DNote",
+      "status": "candidate-context",
+      "text": "[Live Demo](https://github.com/hchiam/_2DNote#live-demo)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hchiam/_2DNote",
+      "status": "candidate",
+      "text": "[Live Demo](https://github.com/hchiam/_2DNote#live-demo)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39987655,
+      "status": "candidate",
+      "text": "sightlessness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39985434,
+      "status": "candidate",
+      "text": "cecity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29983943,
+      "status": "candidate",
+      "text": "darkness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29968134,
+      "status": "candidate",
+      "text": "illiteracy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29967328,
+      "status": "candidate",
+      "text": "illiterate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3015,
+      "status": "candidate",
+      "text": "sightlessness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1020,
+      "status": "candidate",
+      "text": "cecity"
+    }
+  ],
+  "canonical_name": "blindness",
+  "concept_id": "blindness",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "hchiam/_2DNote"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "blindness",
+      "sense_id": "blindness#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

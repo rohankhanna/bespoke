@@ -283,6 +283,18 @@
       "source_repo": "andi611/Mockingjay-Speech-Representation",
       "status": "candidate-context",
       "text": "---------------------------------------------------------"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yeyupiaoling/MASR",
+      "status": "candidate-context",
+      "text": "Pytorch\u5b9e\u73b0\u7684\u6d41\u5f0f\u4e0e\u975e\u6d41\u5f0f\u7684\u81ea\u52a8\u8bed\u97f3\u8bc6\u522b\u6846\u67b6\uff0c\u540c\u65f6\u517c\u5bb9\u5728\u7ebf\u548c\u79bb\u7ebf\u8bc6\u522b\uff0c\u76ee\u524d\u652f\u6301Conformer\u3001Squeezeformer\u3001DeepSpeech2\u6a21\u578b\uff0c\u652f\u6301\u591a\u79cd\u6570\u636e\u589e\u5f3a\u65b9\u6cd5\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yeyupiaoling/MASR",
+      "status": "candidate-context",
+      "text": "![python version](https://img.shields.io/badge/python-3.11+-orange.svg)"
     }
   ],
   "candidate_glosses": [
@@ -423,6 +435,12 @@
       "source_repo": "andi611/Mockingjay-Speech-Representation",
       "status": "candidate",
       "text": "---------------------------------------------------------"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yeyupiaoling/MASR",
+      "status": "candidate",
+      "text": "![python version](https://img.shields.io/badge/python-3.11+-orange.svg)"
     }
   ],
   "candidate_related_terms": [
@@ -646,11 +664,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "andi611/Mockingjay-Speech-Representation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "yeyupiaoling/MASR"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

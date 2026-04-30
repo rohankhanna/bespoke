@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "natural-language-interface"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jkkummerfeld/text2sql-data",
+      "status": "candidate-context",
+      "text": "A collection of datasets that pair questions with SQL queries."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jkkummerfeld/text2sql-data",
+      "status": "candidate-context",
+      "text": "This repository contains data and code for building and evaluating systems that map sentences to SQL, developed as part of:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "salesforce/WikiSQL",
+      "status": "candidate-context",
+      "text": "A large annotated semantic parsing corpus for developing natural language interfaces."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "salesforce/WikiSQL",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/salesforce/WikiSQL.svg?branch=master)](https://travis-ci.org/salesforce/WikiSQL)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jkkummerfeld/text2sql-data",
+      "status": "candidate",
+      "text": "This repository contains data and code for building and evaluating systems that map sentences to SQL, developed as part of:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "salesforce/WikiSQL",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/salesforce/WikiSQL.svg?branch=master)](https://travis-ci.org/salesforce/WikiSQL)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "natural-language-interface",
+  "concept_id": "natural-language-interface",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "jkkummerfeld/text2sql-data"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "salesforce/WikiSQL"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "natural-language-interface",
+      "sense_id": "natural-language-interface#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

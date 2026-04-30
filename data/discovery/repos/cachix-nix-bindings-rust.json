@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cachix/nix-bindings-rust",
+      "target": "90-008/nix-cargo-integration",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:56:22.732851+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1313
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 204
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Use the Nix package manager as a library",
+    "fork": true,
+    "full_name": "cachix/nix-bindings-rust",
+    "html_url": "https://github.com/cachix/nix-bindings-rust",
+    "language": null,
+    "pushed_at": "2026-04-16T15:06:49Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-11-01T19:47:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "90-008/nix-cargo-integration",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,204 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-version.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "swift-actions/setup-swift@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yaml"
+    },
+    {
+      "component": "swift-actions/setup-swift@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-commands.yaml"
+    },
+    {
+      "component": "swift-actions/setup-swift@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-commands.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-commands.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-version.yaml",
+      "source_repo": "mozilla-mobile/fxios-ctl",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump-version.yaml",
+      "source_repo": "mozilla-mobile/fxios-ctl",
+      "target": "Bump Version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "mozilla-mobile/fxios-ctl",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "mozilla-mobile/fxios-ctl",
+      "target": "swift-actions/setup-swift@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "mozilla-mobile/fxios-ctl",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "mozilla-mobile/fxios-ctl",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yaml",
+      "source_repo": "mozilla-mobile/fxios-ctl",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yaml",
+      "source_repo": "mozilla-mobile/fxios-ctl",
+      "target": "swift-actions/setup-swift@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-tests.yaml",
+      "source_repo": "mozilla-mobile/fxios-ctl",
+      "target": "Run Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-commands.yaml",
+      "source_repo": "mozilla-mobile/fxios-ctl",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-commands.yaml",
+      "source_repo": "mozilla-mobile/fxios-ctl",
+      "target": "swift-actions/setup-swift@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-commands.yaml",
+      "source_repo": "mozilla-mobile/fxios-ctl",
+      "target": "Test Commands",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T12:55:08.739254+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14392
+    },
+    {
+      "path": ".github/workflows/bump-version.yaml",
+      "size": 2771
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 2383
+    },
+    {
+      "path": ".github/workflows/run-tests.yaml",
+      "size": 858
+    },
+    {
+      "path": ".github/workflows/test-commands.yaml",
+      "size": 1800
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A tool for managing firefox-ios",
+    "fork": false,
+    "full_name": "mozilla-mobile/fxios-ctl",
+    "html_url": "https://github.com/mozilla-mobile/fxios-ctl",
+    "language": "Swift",
+    "pushed_at": "2026-04-27T19:54:08Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-04-27T19:54:04Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Bump Version",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump-version.yaml",
+      "term": "Bump Version"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Run Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-tests.yaml",
+      "term": "Run Tests"
+    },
+    {
+      "context_snippet": "Test Commands",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-commands.yaml",
+      "term": "Test Commands"
+    }
+  ]
+}

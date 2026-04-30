@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "dependency-solver"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mpizenberg/elm-solve-deps",
+      "status": "candidate-context",
+      "text": "A dependency solver for the elm ecosystem"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mpizenberg/elm-solve-deps",
+      "status": "candidate-context",
+      "text": "This repository holds two utilities, each in its directory, with slightly different use cases, to deal with dependencies in the elm ecosystem."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pubgrub-rs/pubgrub",
+      "status": "candidate-context",
+      "text": "PubGrub version solving algorithm implemented in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pubgrub-rs/pubgrub",
+      "status": "candidate-context",
+      "text": "[![guide](https://img.shields.io/badge/guide-pubgrub-pink?logo=read-the-docs)][guide]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mpizenberg/elm-solve-deps",
+      "status": "candidate",
+      "text": "This repository holds two utilities, each in its directory, with slightly different use cases, to deal with dependencies in the elm ecosystem."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pubgrub-rs/pubgrub",
+      "status": "candidate",
+      "text": "[![guide](https://img.shields.io/badge/guide-pubgrub-pink?logo=read-the-docs)][guide]"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "dependency-solver",
+  "concept_id": "dependency-solver",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "mpizenberg/elm-solve-deps"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "pubgrub-rs/pubgrub"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dependency-solver",
+      "sense_id": "dependency-solver#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

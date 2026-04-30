@@ -46,6 +46,30 @@
       "source_repo": "xplpc/xplpc",
       "status": "candidate-context",
       "text": "Kotlin Android"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cortinico/ktfmt-gradle",
+      "status": "candidate-context",
+      "text": "A Gradle plugin to apply ktfmt to your builds, and reformat you Kotlin source code like a glimpse \ud83e\uddf9\ud83d\udc18"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cortinico/ktfmt-gradle",
+      "status": "candidate-context",
+      "text": "A wrapper to apply [ktfmt](https://github.com/facebookincubator/ktfmt) to your Gradle builds, and reformat you Kotlin"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Heapy/awesome-kotlin",
+      "status": "candidate-context",
+      "text": "A curated list of awesome Kotlin related stuff Inspired by awesome-java. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Heapy/awesome-kotlin",
+      "status": "candidate-context",
+      "text": "A curated list of awesome Kotlin related stuff inspired by awesome-java. :octocat:"
     }
   ],
   "candidate_glosses": [
@@ -66,6 +90,18 @@
       "source_repo": "xplpc/xplpc",
       "status": "candidate",
       "text": "Kotlin Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cortinico/ktfmt-gradle",
+      "status": "candidate",
+      "text": "A wrapper to apply [ktfmt](https://github.com/facebookincubator/ktfmt) to your Gradle builds, and reformat you Kotlin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Heapy/awesome-kotlin",
+      "status": "candidate",
+      "text": "A curated list of awesome Kotlin related stuff inspired by awesome-java. :octocat:"
     }
   ],
   "candidate_related_terms": [
@@ -127,11 +163,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/kotlin-android.yml",
       "source_repo": "xplpc/xplpc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "cortinico/ktfmt-gradle"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "Heapy/awesome-kotlin"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

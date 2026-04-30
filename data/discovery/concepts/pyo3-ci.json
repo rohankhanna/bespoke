@@ -19,12 +19,30 @@
       "source_repo": "OlivierDehaene/candle",
       "status": "candidate-context",
       "text": "PyO3-CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EricLBuehler/candle",
+      "status": "candidate-context",
+      "text": "Minimalist ML framework for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EricLBuehler/candle",
+      "status": "candidate-context",
+      "text": "PyO3-CI"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "OlivierDehaene/candle",
+      "status": "candidate",
+      "text": "PyO3-CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EricLBuehler/candle",
       "status": "candidate",
       "text": "PyO3-CI"
     }
@@ -46,11 +64,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/python.yml",
       "source_repo": "OlivierDehaene/candle"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/python.yml",
+      "source_repo": "EricLBuehler/candle"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -14,16 +14,9 @@
       "source_repo": "rail-berkeley/rlkit",
       "target": "vitchyr/rlkit",
       "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "rail-berkeley/rlkit",
-      "target": "vitchyr/viskit",
-      "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-04-30T10:21:07.651482+00:00",
+  "fetched_at": "2026-04-30T15:54:34.979723+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -53,11 +46,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "vitchyr/rlkit",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "vitchyr/viskit",
       "source_file": "README.md"
     }
   ],

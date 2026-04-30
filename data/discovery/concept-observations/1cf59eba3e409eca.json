@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A little library for using SIMD instructions for x86 and ARM, wrapping Agner Fog's vectorclass for x86 and filling some of its functionality for ARM, and providing containers for aligned memory with views and interleaving/deinterleaving."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "*avec* is a little library for using SIMD instructions on both x86 and ARM."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "*avec* is a little library for using SIMD instructions on both x86 and ARM."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vectorclass",
+      "sense_id": "vectorclass#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "vectorclass",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "vectorclass",
+  "observation_id": "1cf59eba3e409eca",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "vectorclass",
+  "source_context_snippet": "*avec* is a little library for using SIMD instructions on both x86 and ARM.",
+  "source_file": null,
+  "source_repo": "unevens/avec",
+  "source_repo_description": "A little library for using SIMD instructions for x86 and ARM, wrapping Agner Fog's vectorclass for x86 and filling some of its functionality for ARM, and providing containers for aligned memory with views and interleaving/deinterleaving."
+}

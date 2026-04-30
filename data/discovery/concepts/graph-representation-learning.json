@@ -19,6 +19,18 @@
       "source_repo": "snap-stanford/pretrain-gnns",
       "status": "candidate-context",
       "text": "This is a Pytorch implementation of the following paper:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chaitjo/learning-tsp",
+      "status": "candidate-context",
+      "text": "Code for the paper 'Learning TSP Requires Rethinking Generalization' (CP 2021)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaitjo/learning-tsp",
+      "status": "candidate-context",
+      "text": "This repository contains code for the paper [**\"Learning TSP Requires Rethinking Generalization\"**](https://arxiv.org/abs/2006.07054) by Chaitanya K. Joshi, Quentin Cappart, Louis-Martin Rousseau, Thomas Laurent, accepted to the **27th International Conference on Principles and \u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "snap-stanford/pretrain-gnns",
       "status": "candidate",
       "text": "This is a Pytorch implementation of the following paper:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaitjo/learning-tsp",
+      "status": "candidate",
+      "text": "This repository contains code for the paper [**\"Learning TSP Requires Rethinking Generalization\"**](https://arxiv.org/abs/2006.07054) by Chaitanya K. Joshi, Quentin Cappart, Louis-Martin Rousseau, Thomas Laurent, accepted to the **27th International Conference on Principles and \u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "snap-stanford/pretrain-gnns"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "chaitjo/learning-tsp"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

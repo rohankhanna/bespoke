@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T13:08:37.927648+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3345
+    },
+    {
+      "path": "requirements.txt",
+      "size": 116
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Code for RelPose (ECCV 2022)",
+    "fork": false,
+    "full_name": "jasonyzhang/relpose",
+    "html_url": "https://github.com/jasonyzhang/relpose",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-06-01T20:56:18Z",
+    "stargazers_count": 115,
+    "topics": [],
+    "updated_at": "2026-04-09T14:54:30Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

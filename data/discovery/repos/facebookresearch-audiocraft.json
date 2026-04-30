@@ -1,0 +1,81 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audiocraft_docs.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audiocraft_linter.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audiocraft_tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audiocraft_docs.yml",
+      "source_repo": "facebookresearch/audiocraft",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audiocraft_linter.yml",
+      "source_repo": "facebookresearch/audiocraft",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audiocraft_tests.yml",
+      "source_repo": "facebookresearch/audiocraft",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:09:52.814641+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4833
+    },
+    {
+      "path": "requirements.txt",
+      "size": 438
+    },
+    {
+      "path": ".github/workflows/audiocraft_docs.yml",
+      "size": 735
+    },
+    {
+      "path": ".github/workflows/audiocraft_linter.yml",
+      "size": 348
+    },
+    {
+      "path": ".github/workflows/audiocraft_tests.yml",
+      "size": 480
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Audiocraft is a library for audio processing and generation with deep learning. It features the state-of-the-art EnCodec audio compressor / tokenizer, along with MusicGen, a simple and controllable music generation LM with textual and melodic conditioning.",
+    "fork": false,
+    "full_name": "facebookresearch/audiocraft",
+    "html_url": "https://github.com/facebookresearch/audiocraft",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-03-03T21:50:32Z",
+    "stargazers_count": 23236,
+    "topics": [],
+    "updated_at": "2026-04-30T13:02:07Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

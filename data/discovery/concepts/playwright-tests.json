@@ -92,6 +92,18 @@
       "source_repo": "Azure-Samples/azure-search-openai-javascript",
       "status": "candidate-context",
       "text": "Playwright Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "modelcontextprotocol/inspector",
+      "status": "candidate-context",
+      "text": "Visual testing tool for MCP servers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelcontextprotocol/inspector",
+      "status": "candidate-context",
+      "text": "Playwright Tests"
     }
   ],
   "candidate_glosses": [
@@ -134,6 +146,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Azure-Samples/azure-search-openai-javascript",
+      "status": "candidate",
+      "text": "Playwright Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelcontextprotocol/inspector",
       "status": "candidate",
       "text": "Playwright Tests"
     }
@@ -245,11 +263,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/playwright.yml",
       "source_repo": "Azure-Samples/azure-search-openai-javascript"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/e2e_tests.yml",
+      "source_repo": "modelcontextprotocol/inspector"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/playwright.yml",
+      "source_repo": "jupyter/nbclassic"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,148 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "de-mh/persian_phonemizer",
+      "target": "de-mh/g2p_fa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "de-mh/persian_phonemizer",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "de-mh/persian_phonemizer",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "de-mh/persian_phonemizer",
+      "target": "dependency-parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "de-mh/persian_phonemizer",
+      "target": "natural-language-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "de-mh/persian_phonemizer",
+      "target": "part-of-speech-tagger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "de-mh/persian_phonemizer",
+      "target": "persian",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "de-mh/persian_phonemizer",
+      "target": "phonemization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T12:55:36.202718+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2517
+    },
+    {
+      "path": "requirements.txt",
+      "size": 24
+    },
+    {
+      "path": ".github/workflows/tests.yaml",
+      "size": 558
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A tool for translating Persian text to IPA (International Phonetic Alphabet).",
+    "fork": false,
+    "full_name": "de-mh/persian_phonemizer",
+    "html_url": "https://github.com/de-mh/persian_phonemizer",
+    "language": "Python",
+    "pushed_at": "2022-08-26T06:58:58Z",
+    "stargazers_count": 73,
+    "topics": [
+      "dependency-parser",
+      "natural-language-processing",
+      "part-of-speech-tagger",
+      "persian",
+      "phonemization",
+      "python"
+    ],
+    "updated_at": "2026-04-17T10:11:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "de-mh/g2p_fa",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yaml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "A tool for translating Persian text to IPA (International Phonetic Alphabet).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dependency-parser"
+    },
+    {
+      "context_snippet": "A tool for translating Persian text to IPA (International Phonetic Alphabet).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "natural-language-processing"
+    },
+    {
+      "context_snippet": "A tool for translating Persian text to IPA (International Phonetic Alphabet).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "part-of-speech-tagger"
+    },
+    {
+      "context_snippet": "A tool for translating Persian text to IPA (International Phonetic Alphabet).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "persian"
+    },
+    {
+      "context_snippet": "A tool for translating Persian text to IPA (International Phonetic Alphabet).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "phonemization"
+    }
+  ]
+}

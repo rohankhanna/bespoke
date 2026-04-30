@@ -1,0 +1,75 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "reddy-lab-code-research/XLCoST",
+      "target": "wasiahmad/plbart",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "reddy-lab-code-research/XLCoST",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "reddy-lab-code-research/XLCoST",
+      "target": "software-engineering",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:10:32.094583+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 22375
+    },
+    {
+      "path": "requirements.txt",
+      "size": 2559
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Code and data for XLCoST: A Benchmark Dataset for Cross-lingual Code Intelligence",
+    "fork": false,
+    "full_name": "reddy-lab-code-research/XLCoST",
+    "html_url": "https://github.com/reddy-lab-code-research/XLCoST",
+    "language": "C",
+    "pushed_at": "2025-01-21T03:06:19Z",
+    "stargazers_count": 94,
+    "topics": [
+      "machine-learning",
+      "software-engineering"
+    ],
+    "updated_at": "2026-04-01T12:06:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wasiahmad/plbart",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Recent advances in machine learning have benefited a number of code related tasks, such as code translation, code summarization, and code synthesis. Open-source code repository websites like Github provide enormous amount of source code data, which enables the training of large-\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "Recent advances in machine learning have benefited a number of code related tasks, such as code translation, code summarization, and code synthesis. Open-source code repository websites like Github provide enormous amount of source code data, which enables the training of large-\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "software-engineering"
+    }
+  ]
+}

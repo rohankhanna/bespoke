@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[TPAMI2023] RestoreFormer++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![paper_RestroeForemer++](https://img.shields.io/badge/TPAMI-RestorFormer%2B%2B-green)](https://arxiv.org/pdf/2308.07228)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![paper_RestroeForemer++](https://img.shields.io/badge/TPAMI-RestorFormer%2B%2B-green)](https://arxiv.org/pdf/2308.07228)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040464,
+      "status": "candidate",
+      "text": "lexicon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30045550,
+      "status": "candidate",
+      "text": "thesaurus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30045516,
+      "status": "candidate",
+      "text": "encyclopedia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30045210,
+      "status": "candidate",
+      "text": "encyclopaedia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30044625,
+      "status": "candidate",
+      "text": "vocabulary"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dictionary",
+      "sense_id": "dictionary#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27042,
+      "status": "candidate",
+      "text": "lexicon"
+    }
+  ],
+  "concept_id": "dictionary",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dictionary",
+  "observation_id": "aef90d4be3c5f204",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "dictionary",
+  "source_context_snippet": "[![paper_RestroeForemer++](https://img.shields.io/badge/TPAMI-RestorFormer%2B%2B-green)](https://arxiv.org/pdf/2308.07228)",
+  "source_file": null,
+  "source_repo": "wzhouxiff/RestoreFormerPlusPlus",
+  "source_repo_description": "[TPAMI2023] RestoreFormer++"
+}

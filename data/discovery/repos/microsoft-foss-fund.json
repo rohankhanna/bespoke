@@ -1,0 +1,93 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/foss-fund",
+      "target": "aboutcode-org/scancode.io",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/foss-fund",
+      "target": "ahmadnassri/node-glob-promise",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/foss-fund",
+      "target": "ai/size-limit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/foss-fund",
+      "target": "0no-co/wonka",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/foss-fund",
+      "target": "fossfund",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T12:47:07.202025+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 53774
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The Microsoft FOSS Fund provides a direct way for Microsoft engineers to participate in the nomination and selection process to help communities and projects they are passionate about. The FOSS Fund provides sponsorships to open source projects as selected by Microsoft employees.",
+    "fork": false,
+    "full_name": "microsoft/foss-fund",
+    "html_url": "https://github.com/microsoft/foss-fund",
+    "language": null,
+    "pushed_at": "2026-02-03T17:39:03Z",
+    "stargazers_count": 411,
+    "topics": [
+      "fossfund"
+    ],
+    "updated_at": "2026-04-19T20:01:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "0no-co/wonka",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aboutcode-org/scancode.io",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ahmadnassri/node-glob-promise",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ai/size-limit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![fossfund-colors](assets/foss-fund.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fossfund"
+    }
+  ]
+}

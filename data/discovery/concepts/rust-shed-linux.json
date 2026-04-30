@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Rust Shed Linux"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebookexperimental/rust-shed",
+      "status": "candidate-context",
+      "text": "Repository containing Rust crates common between other Facebook open source projects (like Mononoke or Eden)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookexperimental/rust-shed",
+      "status": "candidate-context",
+      "text": "Rust Shed Linux"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookexperimental/rust-shed",
+      "status": "candidate",
+      "text": "Rust Shed Linux"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11771,
+      "status": "candidate",
+      "text": "gnome"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11437,
+      "status": "candidate",
+      "text": "tux"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11378,
+      "status": "candidate",
+      "text": "cola"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11378,
+      "status": "candidate",
+      "text": "crossover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11043,
+      "status": "candidate",
+      "text": "cable"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Rust Shed Linux",
+  "concept_id": "rust-shed-linux",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/rust-shed_linux.yml",
+      "source_repo": "facebookexperimental/rust-shed"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Rust Shed Linux",
+      "sense_id": "rust-shed-linux#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

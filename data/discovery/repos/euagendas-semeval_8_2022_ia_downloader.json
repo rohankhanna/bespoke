@@ -1,0 +1,61 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "euagendas/semeval_8_2022_ia_downloader",
+      "target": "audreyr/cookiecutter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "euagendas/semeval_8_2022_ia_downloader",
+      "target": "audreyr/cookiecutter-pypackage",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:57:20.248923+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 1564
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 104
+    },
+    {
+      "path": "requirements.txt",
+      "size": 145
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "internet archive downloader for task 8 at semeval ",
+    "fork": false,
+    "full_name": "euagendas/semeval_8_2022_ia_downloader",
+    "html_url": "https://github.com/euagendas/semeval_8_2022_ia_downloader",
+    "language": "Python",
+    "pushed_at": "2021-12-15T14:58:16Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2023-08-04T10:14:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "audreyr/cookiecutter",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "audreyr/cookiecutter-pypackage",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": []
+}

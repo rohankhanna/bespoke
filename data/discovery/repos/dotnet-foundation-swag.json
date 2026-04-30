@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dotnet-foundation/swag",
+      "target": "dotnet/aspire",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dotnet-foundation/swag",
+      "target": "projectkudu/kudu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dotnet-foundation/swag",
+      "target": "prismlibrary/prism",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dotnet-foundation/swag",
+      "target": "dotnet/swag",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:07:45.346529+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5331
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Artwork used to create .NET Foundation swag (T-Shirts, Mugs etc)",
+    "fork": false,
+    "full_name": "dotnet-foundation/swag",
+    "html_url": "https://github.com/dotnet-foundation/swag",
+    "language": null,
+    "pushed_at": "2024-07-23T22:07:32Z",
+    "stargazers_count": 343,
+    "topics": [],
+    "updated_at": "2026-04-20T12:44:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dotnet/aspire",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dotnet/swag",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "prismlibrary/prism",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "projectkudu/kudu",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

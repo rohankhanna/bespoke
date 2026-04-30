@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "validate-updated-issue"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "forcedotcom/cli",
+      "status": "candidate-context",
+      "text": "Salesforce CLI "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "forcedotcom/cli",
+      "status": "candidate-context",
+      "text": "\"validate-updated-issue\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "forcedotcom/cli",
+      "status": "candidate",
+      "text": "\"validate-updated-issue\""
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "validate-updated-issue",
+  "concept_id": "validate-updated-issue",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/issue-updated.yml",
+      "source_repo": "forcedotcom/cli"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "validate-updated-issue",
+      "sense_id": "validate-updated-issue#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

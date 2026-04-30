@@ -1,0 +1,101 @@
+{
+  "components": [
+    {
+      "component": "erlef/setup-beam@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dominicletz/websockex",
+      "target": "erlef/setup-beam@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dominicletz/websockex",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dominicletz/websockex",
+      "target": "elixir",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dominicletz/websockex",
+      "target": "websocket",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dominicletz/websockex",
+      "target": "websocket-client",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:07:09.801745+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7658
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 364
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An Elixir Websocket Client",
+    "fork": false,
+    "full_name": "dominicletz/websockex",
+    "html_url": "https://github.com/dominicletz/websockex",
+    "language": "Elixir",
+    "pushed_at": "2025-12-01T13:48:14Z",
+    "stargazers_count": 553,
+    "topics": [
+      "elixir",
+      "websocket",
+      "websocket-client"
+    ],
+    "updated_at": "2026-03-28T15:37:31Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![Build](https://github.com/dominicletz/websockex/actions/workflows/ci.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "elixir"
+    },
+    {
+      "context_snippet": "![Build](https://github.com/dominicletz/websockex/actions/workflows/ci.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "websocket"
+    },
+    {
+      "context_snippet": "![Build](https://github.com/dominicletz/websockex/actions/workflows/ci.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "websocket-client"
+    }
+  ]
+}

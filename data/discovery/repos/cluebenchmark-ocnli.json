@@ -1,0 +1,49 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CLUEbenchmark/OCNLI",
+      "target": "facebookresearch/anli",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:57:11.426614+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9580
+    },
+    {
+      "path": "Dockerfile",
+      "size": 253
+    },
+    {
+      "path": "requirements.txt",
+      "size": 66
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "OCNLI: \u4e2d\u6587\u539f\u7248\u81ea\u7136\u8bed\u8a00\u63a8\u7406\u4efb\u52a1",
+    "fork": false,
+    "full_name": "CLUEbenchmark/OCNLI",
+    "html_url": "https://github.com/CLUEbenchmark/OCNLI",
+    "language": "Python",
+    "pushed_at": "2021-09-23T05:45:10Z",
+    "stargazers_count": 166,
+    "topics": [],
+    "updated_at": "2026-04-26T12:30:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/anli",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

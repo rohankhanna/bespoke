@@ -1,0 +1,969 @@
+{
+  "components": [
+    {
+      "component": "RustCrypto/actions/.github/workflows/set-msrv.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ascon-hash.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ascon-hash.yml"
+    },
+    {
+      "component": "RustCrypto/actions/cargo-cache@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ascon-hash.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ascon-hash.yml"
+    },
+    {
+      "component": "RustCrypto/actions/cargo-hack-install@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ascon-hash.yml"
+    },
+    {
+      "component": "RustCrypto/actions/.github/workflows/minimal-versions.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ascon-hash.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ascon-hash.yml"
+    },
+    {
+      "component": "RustCrypto/actions/cargo-cache@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ascon-hash.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ascon-hash.yml"
+    },
+    {
+      "component": "RustCrypto/actions/cargo-hack-install@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ascon-hash.yml"
+    },
+    {
+      "component": "RustCrypto/actions/.github/workflows/set-msrv.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/belt-hash.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/belt-hash.yml"
+    },
+    {
+      "component": "RustCrypto/actions/cargo-cache@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/belt-hash.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/belt-hash.yml"
+    },
+    {
+      "component": "RustCrypto/actions/cargo-hack-install@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/belt-hash.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/belt-hash.yml"
+    },
+    {
+      "component": "RustCrypto/actions/cargo-cache@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/belt-hash.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/belt-hash.yml"
+    },
+    {
+      "component": "RustCrypto/actions/cargo-hack-install@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/belt-hash.yml"
+    },
+    {
+      "component": "RustCrypto/actions/.github/workflows/minimal-versions.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/belt-hash.yml"
+    },
+    {
+      "component": "RustCrypto/actions/.github/workflows/set-msrv.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blake2.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blake2.yml"
+    },
+    {
+      "component": "RustCrypto/actions/cargo-cache@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blake2.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blake2.yml"
+    },
+    {
+      "component": "RustCrypto/actions/cargo-hack-install@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blake2.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blake2.yml"
+    },
+    {
+      "component": "RustCrypto/actions/cargo-cache@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blake2.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blake2.yml"
+    },
+    {
+      "component": "RustCrypto/actions/cargo-hack-install@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blake2.yml"
+    },
+    {
+      "component": "RustCrypto/actions/.github/workflows/minimal-versions.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blake2.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blake2.yml"
+    },
+    {
+      "component": "RustCrypto/actions/cargo-cache@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blake2.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blake2.yml"
+    },
+    {
+      "component": "RustCrypto/actions/cross-tests@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blake2.yml"
+    },
+    {
+      "component": "RustCrypto/actions/.github/workflows/set-msrv.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fsb.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fsb.yml"
+    },
+    {
+      "component": "RustCrypto/actions/cargo-cache@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fsb.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fsb.yml"
+    },
+    {
+      "component": "RustCrypto/actions/cargo-hack-install@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fsb.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fsb.yml"
+    },
+    {
+      "component": "RustCrypto/actions/cargo-cache@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fsb.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fsb.yml"
+    },
+    {
+      "component": "RustCrypto/actions/cargo-hack-install@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fsb.yml"
+    },
+    {
+      "component": "RustCrypto/actions/.github/workflows/minimal-versions.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fsb.yml"
+    },
+    {
+      "component": "RustCrypto/actions/.github/workflows/set-msrv.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gost94.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gost94.yml"
+    },
+    {
+      "component": "RustCrypto/actions/cargo-cache@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gost94.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gost94.yml"
+    },
+    {
+      "component": "RustCrypto/actions/cargo-hack-install@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gost94.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gost94.yml"
+    },
+    {
+      "component": "RustCrypto/actions/cargo-cache@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gost94.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gost94.yml"
+    },
+    {
+      "component": "RustCrypto/actions/cargo-hack-install@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gost94.yml"
+    },
+    {
+      "component": "RustCrypto/actions/.github/workflows/minimal-versions.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gost94.yml"
+    },
+    {
+      "component": "RustCrypto/actions/.github/workflows/set-msrv.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/groestl.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/groestl.yml"
+    },
+    {
+      "component": "RustCrypto/actions/cargo-cache@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/groestl.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/groestl.yml"
+    },
+    {
+      "component": "RustCrypto/actions/cargo-hack-install@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/groestl.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/groestl.yml"
+    },
+    {
+      "component": "RustCrypto/actions/cargo-cache@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/groestl.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/groestl.yml"
+    },
+    {
+      "component": "RustCrypto/actions/cargo-hack-install@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/groestl.yml"
+    },
+    {
+      "component": "RustCrypto/actions/.github/workflows/minimal-versions.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/groestl.yml"
+    },
+    {
+      "component": "RustCrypto/actions/.github/workflows/set-msrv.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jh.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jh.yml"
+    },
+    {
+      "component": "RustCrypto/actions/cargo-cache@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jh.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jh.yml"
+    },
+    {
+      "component": "RustCrypto/actions/cargo-hack-install@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jh.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jh.yml"
+    },
+    {
+      "component": "RustCrypto/actions/cargo-cache@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jh.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jh.yml"
+    },
+    {
+      "component": "RustCrypto/actions/cargo-hack-install@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jh.yml"
+    },
+    {
+      "component": "RustCrypto/actions/.github/workflows/minimal-versions.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jh.yml"
+    },
+    {
+      "component": "RustCrypto/actions/.github/workflows/set-msrv.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/k12.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/k12.yml"
+    },
+    {
+      "component": "RustCrypto/actions/cargo-cache@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/k12.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/k12.yml"
+    },
+    {
+      "component": "RustCrypto/actions/cargo-hack-install@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/k12.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/k12.yml"
+    },
+    {
+      "component": "RustCrypto/actions/cargo-cache@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/k12.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/k12.yml"
+    },
+    {
+      "component": "RustCrypto/actions/cargo-hack-install@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/k12.yml"
+    },
+    {
+      "component": "RustCrypto/actions/.github/workflows/minimal-versions.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/k12.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sp1-patches/RustCrypto-hashes",
+      "target": "stainless-steel/md5",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sp1-patches/RustCrypto-hashes",
+      "target": "rustcrypto/password-hashing",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sp1-patches/RustCrypto-hashes",
+      "target": "rustcrypto/macs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sp1-patches/RustCrypto-hashes",
+      "target": "cr-marcstevens/sha1collisiondetection",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ascon-hash.yml",
+      "source_repo": "sp1-patches/RustCrypto-hashes",
+      "target": "RustCrypto/actions/.github/workflows/set-msrv.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ascon-hash.yml",
+      "source_repo": "sp1-patches/RustCrypto-hashes",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ascon-hash.yml",
+      "source_repo": "sp1-patches/RustCrypto-hashes",
+      "target": "RustCrypto/actions/cargo-cache@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ascon-hash.yml",
+      "source_repo": "sp1-patches/RustCrypto-hashes",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ascon-hash.yml",
+      "source_repo": "sp1-patches/RustCrypto-hashes",
+      "target": "RustCrypto/actions/cargo-hack-install@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ascon-hash.yml",
+      "source_repo": "sp1-patches/RustCrypto-hashes",
+      "target": "RustCrypto/actions/.github/workflows/minimal-versions.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ascon-hash.yml",
+      "source_repo": "sp1-patches/RustCrypto-hashes",
+      "target": "ascon-hash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/belt-hash.yml",
+      "source_repo": "sp1-patches/RustCrypto-hashes",
+      "target": "RustCrypto/actions/.github/workflows/set-msrv.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/belt-hash.yml",
+      "source_repo": "sp1-patches/RustCrypto-hashes",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/belt-hash.yml",
+      "source_repo": "sp1-patches/RustCrypto-hashes",
+      "target": "RustCrypto/actions/cargo-cache@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/belt-hash.yml",
+      "source_repo": "sp1-patches/RustCrypto-hashes",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/belt-hash.yml",
+      "source_repo": "sp1-patches/RustCrypto-hashes",
+      "target": "RustCrypto/actions/cargo-hack-install@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/belt-hash.yml",
+      "source_repo": "sp1-patches/RustCrypto-hashes",
+      "target": "RustCrypto/actions/.github/workflows/minimal-versions.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/belt-hash.yml",
+      "source_repo": "sp1-patches/RustCrypto-hashes",
+      "target": "belt-hash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blake2.yml",
+      "source_repo": "sp1-patches/RustCrypto-hashes",
+      "target": "RustCrypto/actions/.github/workflows/set-msrv.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blake2.yml",
+      "source_repo": "sp1-patches/RustCrypto-hashes",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blake2.yml",
+      "source_repo": "sp1-patches/RustCrypto-hashes",
+      "target": "RustCrypto/actions/cargo-cache@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blake2.yml",
+      "source_repo": "sp1-patches/RustCrypto-hashes",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blake2.yml",
+      "source_repo": "sp1-patches/RustCrypto-hashes",
+      "target": "RustCrypto/actions/cargo-hack-install@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blake2.yml",
+      "source_repo": "sp1-patches/RustCrypto-hashes",
+      "target": "RustCrypto/actions/.github/workflows/minimal-versions.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blake2.yml",
+      "source_repo": "sp1-patches/RustCrypto-hashes",
+      "target": "RustCrypto/actions/cross-tests@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/blake2.yml",
+      "source_repo": "sp1-patches/RustCrypto-hashes",
+      "target": "blake2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fsb.yml",
+      "source_repo": "sp1-patches/RustCrypto-hashes",
+      "target": "RustCrypto/actions/.github/workflows/set-msrv.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fsb.yml",
+      "source_repo": "sp1-patches/RustCrypto-hashes",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fsb.yml",
+      "source_repo": "sp1-patches/RustCrypto-hashes",
+      "target": "RustCrypto/actions/cargo-cache@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fsb.yml",
+      "source_repo": "sp1-patches/RustCrypto-hashes",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fsb.yml",
+      "source_repo": "sp1-patches/RustCrypto-hashes",
+      "target": "RustCrypto/actions/cargo-hack-install@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fsb.yml",
+      "source_repo": "sp1-patches/RustCrypto-hashes",
+      "target": "RustCrypto/actions/.github/workflows/minimal-versions.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fsb.yml",
+      "source_repo": "sp1-patches/RustCrypto-hashes",
+      "target": "fsb",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gost94.yml",
+      "source_repo": "sp1-patches/RustCrypto-hashes",
+      "target": "RustCrypto/actions/.github/workflows/set-msrv.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gost94.yml",
+      "source_repo": "sp1-patches/RustCrypto-hashes",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gost94.yml",
+      "source_repo": "sp1-patches/RustCrypto-hashes",
+      "target": "RustCrypto/actions/cargo-cache@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gost94.yml",
+      "source_repo": "sp1-patches/RustCrypto-hashes",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gost94.yml",
+      "source_repo": "sp1-patches/RustCrypto-hashes",
+      "target": "RustCrypto/actions/cargo-hack-install@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gost94.yml",
+      "source_repo": "sp1-patches/RustCrypto-hashes",
+      "target": "RustCrypto/actions/.github/workflows/minimal-versions.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gost94.yml",
+      "source_repo": "sp1-patches/RustCrypto-hashes",
+      "target": "gost94",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/groestl.yml",
+      "source_repo": "sp1-patches/RustCrypto-hashes",
+      "target": "RustCrypto/actions/.github/workflows/set-msrv.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/groestl.yml",
+      "source_repo": "sp1-patches/RustCrypto-hashes",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/groestl.yml",
+      "source_repo": "sp1-patches/RustCrypto-hashes",
+      "target": "RustCrypto/actions/cargo-cache@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/groestl.yml",
+      "source_repo": "sp1-patches/RustCrypto-hashes",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/groestl.yml",
+      "source_repo": "sp1-patches/RustCrypto-hashes",
+      "target": "RustCrypto/actions/cargo-hack-install@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/groestl.yml",
+      "source_repo": "sp1-patches/RustCrypto-hashes",
+      "target": "RustCrypto/actions/.github/workflows/minimal-versions.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/groestl.yml",
+      "source_repo": "sp1-patches/RustCrypto-hashes",
+      "target": "groestl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jh.yml",
+      "source_repo": "sp1-patches/RustCrypto-hashes",
+      "target": "RustCrypto/actions/.github/workflows/set-msrv.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jh.yml",
+      "source_repo": "sp1-patches/RustCrypto-hashes",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jh.yml",
+      "source_repo": "sp1-patches/RustCrypto-hashes",
+      "target": "RustCrypto/actions/cargo-cache@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jh.yml",
+      "source_repo": "sp1-patches/RustCrypto-hashes",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jh.yml",
+      "source_repo": "sp1-patches/RustCrypto-hashes",
+      "target": "RustCrypto/actions/cargo-hack-install@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jh.yml",
+      "source_repo": "sp1-patches/RustCrypto-hashes",
+      "target": "RustCrypto/actions/.github/workflows/minimal-versions.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/k12.yml",
+      "source_repo": "sp1-patches/RustCrypto-hashes",
+      "target": "RustCrypto/actions/.github/workflows/set-msrv.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/k12.yml",
+      "source_repo": "sp1-patches/RustCrypto-hashes",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/k12.yml",
+      "source_repo": "sp1-patches/RustCrypto-hashes",
+      "target": "RustCrypto/actions/cargo-cache@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/k12.yml",
+      "source_repo": "sp1-patches/RustCrypto-hashes",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/k12.yml",
+      "source_repo": "sp1-patches/RustCrypto-hashes",
+      "target": "RustCrypto/actions/cargo-hack-install@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/k12.yml",
+      "source_repo": "sp1-patches/RustCrypto-hashes",
+      "target": "RustCrypto/actions/.github/workflows/minimal-versions.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/k12.yml",
+      "source_repo": "sp1-patches/RustCrypto-hashes",
+      "target": "k12",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:00:39.725517+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15487
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 485
+    },
+    {
+      "path": ".github/workflows/ascon-hash.yml",
+      "size": 1653
+    },
+    {
+      "path": ".github/workflows/belt-hash.yml",
+      "size": 1649
+    },
+    {
+      "path": ".github/workflows/blake2.yml",
+      "size": 2921
+    },
+    {
+      "path": ".github/workflows/fsb.yml",
+      "size": 1625
+    },
+    {
+      "path": ".github/workflows/gost94.yml",
+      "size": 1637
+    },
+    {
+      "path": ".github/workflows/groestl.yml",
+      "size": 1641
+    },
+    {
+      "path": ".github/workflows/jh.yml",
+      "size": 1621
+    },
+    {
+      "path": ".github/workflows/k12.yml",
+      "size": 1625
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Collection of cryptographic hash functions written in pure Rust",
+    "fork": true,
+    "full_name": "sp1-patches/RustCrypto-hashes",
+    "html_url": "https://github.com/sp1-patches/RustCrypto-hashes",
+    "language": "Rust",
+    "pushed_at": "2026-04-29T17:36:14Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2025-07-03T06:32:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cr-marcstevens/sha1collisiondetection",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rustcrypto/macs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rustcrypto/password-hashing",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stainless-steel/md5",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "ascon-hash",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ascon-hash.yml",
+      "term": "ascon-hash"
+    },
+    {
+      "context_snippet": "belt-hash",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/belt-hash.yml",
+      "term": "belt-hash"
+    },
+    {
+      "context_snippet": "blake2",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/blake2.yml",
+      "term": "blake2"
+    },
+    {
+      "context_snippet": "fsb",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fsb.yml",
+      "term": "fsb"
+    },
+    {
+      "context_snippet": "gost94",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gost94.yml",
+      "term": "gost94"
+    },
+    {
+      "context_snippet": "groestl",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/groestl.yml",
+      "term": "groestl"
+    },
+    {
+      "context_snippet": "k12",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/k12.yml",
+      "term": "k12"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jayleicn/TVQA",
+      "target": "jayleicn/tvqaplus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jayleicn/TVQA",
+      "target": "dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jayleicn/TVQA",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jayleicn/TVQA",
+      "target": "tvqa",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jayleicn/TVQA",
+      "target": "videoqa",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:55:34.973713+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4950
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[EMNLP 2018] PyTorch code for TVQA: Localized, Compositional Video Question Answering",
+    "fork": false,
+    "full_name": "jayleicn/TVQA",
+    "html_url": "https://github.com/jayleicn/TVQA",
+    "language": "Python",
+    "pushed_at": "2022-10-25T04:31:01Z",
+    "stargazers_count": 182,
+    "topics": [
+      "dataset",
+      "pytorch",
+      "tvqa",
+      "videoqa"
+    ],
+    "updated_at": "2026-03-04T01:56:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jayleicn/tvqaplus",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "PyTorch code accompanies our EMNLP 2018 paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataset"
+    },
+    {
+      "context_snippet": "PyTorch code accompanies our EMNLP 2018 paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "PyTorch code accompanies our EMNLP 2018 paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tvqa"
+    },
+    {
+      "context_snippet": "PyTorch code accompanies our EMNLP 2018 paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "videoqa"
+    }
+  ]
+}

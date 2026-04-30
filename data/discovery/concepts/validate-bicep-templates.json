@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Validate bicep templates"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure-Samples/ai-rag-chat-evaluator",
+      "status": "candidate-context",
+      "text": "Tools for evaluation of RAG Chat Apps using Azure AI Evaluate SDK and OpenAI "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/ai-rag-chat-evaluator",
+      "status": "candidate-context",
+      "text": "Validate bicep templates"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/ai-rag-chat-evaluator",
+      "status": "candidate",
+      "text": "Validate bicep templates"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9502,
+      "status": "candidate",
+      "text": "prove"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9502,
+      "status": "candidate",
+      "text": "seal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9495,
+      "status": "candidate",
+      "text": "arm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9495,
+      "status": "candidate",
+      "text": "shoulder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9495,
+      "status": "candidate",
+      "text": "shoulders"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Validate bicep templates",
+  "concept_id": "validate-bicep-templates",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/bicep-audit.yml",
+      "source_repo": "Azure-Samples/ai-rag-chat-evaluator"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Validate bicep templates",
+      "sense_id": "validate-bicep-templates#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

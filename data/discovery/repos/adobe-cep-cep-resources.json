@@ -1,0 +1,136 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Adobe-CEP/CEP-Resources",
+      "target": "adobe-cep/getting-started-guides",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Adobe-CEP/CEP-Resources",
+      "target": "adobe-cep/samples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Adobe-CEP/CEP-Resources",
+      "target": "adobe-photoshop/generator-panels",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Adobe-CEP/CEP-Resources",
+      "target": "hyperbrew/bolt-cep",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Adobe-CEP/CEP-Resources",
+      "target": "adobe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Adobe-CEP/CEP-Resources",
+      "target": "creativecloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Adobe-CEP/CEP-Resources",
+      "target": "extensions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Adobe-CEP/CEP-Resources",
+      "target": "panels",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T12:58:27.345993+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5175
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Tools and documentation for building Creative Cloud app extensions with CEP",
+    "fork": false,
+    "full_name": "Adobe-CEP/CEP-Resources",
+    "html_url": "https://github.com/Adobe-CEP/CEP-Resources",
+    "language": "JavaScript",
+    "pushed_at": "2026-02-20T20:59:34Z",
+    "stargazers_count": 1818,
+    "topics": [
+      "adobe",
+      "creativecloud",
+      "extensions",
+      "javascript",
+      "panels"
+    ],
+    "updated_at": "2026-04-29T07:40:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adobe-cep/getting-started-guides",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adobe-cep/samples",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adobe-photoshop/generator-panels",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hyperbrew/bolt-cep",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Getting Started with Common Extensibility Platform (CEP)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adobe"
+    },
+    {
+      "context_snippet": "Getting Started with Common Extensibility Platform (CEP)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "creativecloud"
+    },
+    {
+      "context_snippet": "Getting Started with Common Extensibility Platform (CEP)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "extensions"
+    },
+    {
+      "context_snippet": "Getting Started with Common Extensibility Platform (CEP)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "panels"
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yeyupiaoling/PaddlePaddle-DeepSpeech",
+      "target": "yeyupiaoling/voiceprintrecognition-paddlepaddle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yeyupiaoling/PaddlePaddle-DeepSpeech",
+      "target": "chinese",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yeyupiaoling/PaddlePaddle-DeepSpeech",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yeyupiaoling/PaddlePaddle-DeepSpeech",
+      "target": "deepspeech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yeyupiaoling/PaddlePaddle-DeepSpeech",
+      "target": "deepspeech2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yeyupiaoling/PaddlePaddle-DeepSpeech",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yeyupiaoling/PaddlePaddle-DeepSpeech",
+      "target": "nvidia-docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yeyupiaoling/PaddlePaddle-DeepSpeech",
+      "target": "paddlepaddle",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yeyupiaoling/PaddlePaddle-DeepSpeech",
+      "target": "speech-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yeyupiaoling/PaddlePaddle-DeepSpeech",
+      "target": "speech-to-text",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:01:23.600606+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3625
+    },
+    {
+      "path": "requirements.txt",
+      "size": 307
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u57fa\u4e8ePaddlePaddle\u5b9e\u73b0\u7684\u8bed\u97f3\u8bc6\u522b\uff0c\u4e2d\u6587\u8bed\u97f3\u8bc6\u522b\u3002\u9879\u76ee\u5b8c\u5584\uff0c\u8bc6\u522b\u6548\u679c\u597d\u3002\u652f\u6301Windows\uff0cLinux\u4e0b\u8bad\u7ec3\u548c\u9884\u6d4b\uff0c\u652f\u6301Nvidia Jetson\u5f00\u53d1\u677f\u9884\u6d4b\u3002",
+    "fork": false,
+    "full_name": "yeyupiaoling/PaddlePaddle-DeepSpeech",
+    "html_url": "https://github.com/yeyupiaoling/PaddlePaddle-DeepSpeech",
+    "language": "Python",
+    "pushed_at": "2025-12-17T13:07:37Z",
+    "stargazers_count": 760,
+    "topics": [
+      "asr",
+      "chinese",
+      "deep-learning",
+      "deepspeech",
+      "deepspeech2",
+      "docker",
+      "nvidia-docker",
+      "paddlepaddle",
+      "speech-recognition",
+      "speech-to-text"
+    ],
+    "updated_at": "2026-04-22T14:18:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yeyupiaoling/voiceprintrecognition-paddlepaddle",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![License](https://img.shields.io/badge/license-Apache%202-red.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chinese"
+    },
+    {
+      "context_snippet": "![License](https://img.shields.io/badge/license-Apache%202-red.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "![License](https://img.shields.io/badge/license-Apache%202-red.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deepspeech"
+    },
+    {
+      "context_snippet": "![License](https://img.shields.io/badge/license-Apache%202-red.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deepspeech2"
+    },
+    {
+      "context_snippet": "![License](https://img.shields.io/badge/license-Apache%202-red.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "![License](https://img.shields.io/badge/license-Apache%202-red.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvidia-docker"
+    },
+    {
+      "context_snippet": "![License](https://img.shields.io/badge/license-Apache%202-red.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "paddlepaddle"
+    },
+    {
+      "context_snippet": "![License](https://img.shields.io/badge/license-Apache%202-red.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-recognition"
+    },
+    {
+      "context_snippet": "![License](https://img.shields.io/badge/license-Apache%202-red.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-to-text"
+    }
+  ]
+}

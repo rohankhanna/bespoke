@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Simple wrapper of tabula-java: extract table from PDF into pandas DataFrame"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://github.com/chezou/tabula-py/actions/workflows/pythontest.yml/badge.svg)](https://github.com/chezou/tabula-py/actions/workflows/pythontest.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/chezou/tabula-py/actions/workflows/pythontest.yml/badge.svg)](https://github.com/chezou/tabula-py/actions/workflows/pythontest.yml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "tabula-java",
+      "sense_id": "tabula-java#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "tabula-java",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "tabula-java",
+  "observation_id": "2a620d77d6981119",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "tabula-java",
+  "source_context_snippet": "[![Build Status](https://github.com/chezou/tabula-py/actions/workflows/pythontest.yml/badge.svg)](https://github.com/chezou/tabula-py/actions/workflows/pythontest.yml)",
+  "source_file": null,
+  "source_repo": "chezou/tabula-py",
+  "source_repo_description": "Simple wrapper of tabula-java: extract table from PDF into pandas DataFrame"
+}

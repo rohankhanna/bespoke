@@ -6,7 +6,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -140,6 +142,18 @@
       "source_repo": "mitsuhiko/listenfd",
       "status": "candidate-context",
       "text": "Clippy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "justinchuby/lintrunner-adapters",
+      "status": "candidate-context",
+      "text": "Adapters and tools for lintrunner"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "justinchuby/lintrunner-adapters",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/justinchuby/lintrunner-adapters/actions/workflows/ci.yml/badge.svg)](https://github.com/justinchuby/lintrunner-adapters/actions/workflows/ci.yml)"
     }
   ],
   "candidate_glosses": [
@@ -208,6 +222,12 @@
       "source_repo": "mitsuhiko/listenfd",
       "status": "candidate",
       "text": "Clippy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "justinchuby/lintrunner-adapters",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/justinchuby/lintrunner-adapters/actions/workflows/ci.yml/badge.svg)](https://github.com/justinchuby/lintrunner-adapters/actions/workflows/ci.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -287,11 +307,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/clippy.yml",
       "source_repo": "mitsuhiko/listenfd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "justinchuby/lintrunner-adapters"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

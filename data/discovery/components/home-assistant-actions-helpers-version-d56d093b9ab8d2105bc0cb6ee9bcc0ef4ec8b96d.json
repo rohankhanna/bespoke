@@ -1,0 +1,12 @@
+{
+  "component": "home-assistant/actions/helpers/version@d56d093b9ab8d2105bc0cb6ee9bcc0ef4ec8b96d",
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "hacs/integration"
+    }
+  ]
+}

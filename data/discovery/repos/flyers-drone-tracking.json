@@ -1,0 +1,99 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "flyers/drone-tracking",
+      "target": "kyamagu/mexopencv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flyers/drone-tracking",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flyers/drone-tracking",
+      "target": "dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flyers/drone-tracking",
+      "target": "drone-tracking-benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flyers/drone-tracking",
+      "target": "tracker",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:56:52.439589+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2015
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "DTB70 -- A Drone Tracking Benchmark",
+    "fork": false,
+    "full_name": "flyers/drone-tracking",
+    "html_url": "https://github.com/flyers/drone-tracking",
+    "language": "MATLAB",
+    "pushed_at": "2021-12-24T07:59:34Z",
+    "stargazers_count": 93,
+    "topics": [
+      "benchmark",
+      "dataset",
+      "drone-tracking-benchmark",
+      "tracker"
+    ],
+    "updated_at": "2026-04-02T13:36:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kyamagu/mexopencv",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Created by [Siyi Li](http://lisiyi.me) and [Dit-Yan Yeung](http://home.cse.ust.hk/~dyyeung) at HKUST.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "Created by [Siyi Li](http://lisiyi.me) and [Dit-Yan Yeung](http://home.cse.ust.hk/~dyyeung) at HKUST.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataset"
+    },
+    {
+      "context_snippet": "Created by [Siyi Li](http://lisiyi.me) and [Dit-Yan Yeung](http://home.cse.ust.hk/~dyyeung) at HKUST.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "drone-tracking-benchmark"
+    },
+    {
+      "context_snippet": "Created by [Siyi Li](http://lisiyi.me) and [Dit-Yan Yeung](http://home.cse.ust.hk/~dyyeung) at HKUST.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tracker"
+    }
+  ]
+}

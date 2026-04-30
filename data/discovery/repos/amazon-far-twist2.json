@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "amazon-far/TWIST2",
+      "target": "yanjieze/improved-3d-diffusion-policy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "amazon-far/TWIST2",
+      "target": "xr-robotics/xrobotoolkit-unity-client",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "amazon-far/TWIST2",
+      "target": "xr-robotics/xrobotoolkit-pc-service",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "amazon-far/TWIST2",
+      "target": "yanjieze/twist",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:54:59.877685+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12515
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[arXiv 2025] TWIST2: Scalable, Portable, and Holistic Humanoid Data Collection System",
+    "fork": false,
+    "full_name": "amazon-far/TWIST2",
+    "html_url": "https://github.com/amazon-far/TWIST2",
+    "language": "Python",
+    "pushed_at": "2025-12-03T08:47:40Z",
+    "stargazers_count": 786,
+    "topics": [],
+    "updated_at": "2026-04-27T08:55:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xr-robotics/xrobotoolkit-pc-service",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xr-robotics/xrobotoolkit-unity-client",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yanjieze/improved-3d-diffusion-policy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yanjieze/twist",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

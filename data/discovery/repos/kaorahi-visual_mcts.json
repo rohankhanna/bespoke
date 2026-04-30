@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T12:59:05.086381+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 82
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "MCTS visualization samples",
+    "fork": false,
+    "full_name": "kaorahi/visual_MCTS",
+    "html_url": "https://github.com/kaorahi/visual_MCTS",
+    "language": "HTML",
+    "pushed_at": "2025-07-06T11:36:23Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2025-08-08T06:37:52Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

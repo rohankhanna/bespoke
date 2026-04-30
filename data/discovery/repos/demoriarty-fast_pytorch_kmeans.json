@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T15:53:46.624159+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1930
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This is a pytorch implementation of k-means clustering algorithm",
+    "fork": false,
+    "full_name": "DeMoriarty/fast_pytorch_kmeans",
+    "html_url": "https://github.com/DeMoriarty/fast_pytorch_kmeans",
+    "language": "Python",
+    "pushed_at": "2025-03-04T12:47:03Z",
+    "stargazers_count": 343,
+    "topics": [],
+    "updated_at": "2026-03-20T04:10:28Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

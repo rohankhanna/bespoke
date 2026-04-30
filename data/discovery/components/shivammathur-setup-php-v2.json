@@ -1,7 +1,7 @@
 {
   "component": "shivammathur/setup-php@v2",
   "first_seen_at": "2026-04-18T09:22:19.136418+00:00",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -257,6 +257,61 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/benchmark.yaml",
       "source_repo": "box-project/box"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "guzzle/guzzle"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/static.yml",
+      "source_repo": "guzzle/guzzle"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "GoogleCloudPlatform/php-docs-samples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "php/phd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "php/phd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "symfony/symfony"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/intl-data-tests.yml",
+      "source_repo": "symfony/symfony"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/phpunit-bridge.yml",
+      "source_repo": "symfony/symfony"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/static-analysis.yml",
+      "source_repo": "symfony/symfony"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/twig-cs-fixer.yml",
+      "source_repo": "symfony/symfony"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "source_repo": "symfony/symfony"
     }
   ]
 }

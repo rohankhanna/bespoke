@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Time series forecasting for Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Time series forecasting for Ruby, ported from [Prophet](https://github.com/facebook/prophet)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Time series forecasting for Ruby, ported from [Prophet](https://github.com/facebook/prophet)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40024802,
+      "status": "candidate",
+      "text": "foretelling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40024760,
+      "status": "candidate",
+      "text": "prediction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30024833,
+      "status": "candidate",
+      "text": "predicting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30024831,
+      "status": "candidate",
+      "text": "predictor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30024818,
+      "status": "candidate",
+      "text": "predict"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "forecasting",
+      "sense_id": "forecasting#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5019,
+      "status": "candidate",
+      "text": "foretelling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4040,
+      "status": "candidate",
+      "text": "prediction"
+    }
+  ],
+  "concept_id": "forecasting",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "forecasting",
+  "observation_id": "2938cab0896b5c1a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "forecasting",
+  "source_context_snippet": "Time series forecasting for Ruby, ported from [Prophet](https://github.com/facebook/prophet)",
+  "source_file": null,
+  "source_repo": "ankane/prophet-ruby",
+  "source_repo_description": "Time series forecasting for Ruby"
+}

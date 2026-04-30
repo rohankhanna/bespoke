@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "powervr-graphics/Native_SDK",
+      "target": "zeux/pugixml",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:14:10.518688+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 6946
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "C++ cross-platform 3D graphics SDK. Includes demos & helper code (resource loading etc.) to speed up development of Vulkan, OpenGL ES 2.0 & 3.x applications",
+    "fork": false,
+    "full_name": "powervr-graphics/Native_SDK",
+    "html_url": "https://github.com/powervr-graphics/Native_SDK",
+    "language": "C++",
+    "pushed_at": "2025-12-11T15:15:51Z",
+    "stargazers_count": 767,
+    "topics": [],
+    "updated_at": "2026-04-21T16:29:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zeux/pugixml",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": []
+}

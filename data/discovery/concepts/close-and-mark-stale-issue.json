@@ -67,6 +67,24 @@
       "source_repo": "ipfs/js-ipfsd-ctl",
       "status": "candidate-context",
       "text": "Close and mark stale issue"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cdcdx/lotus",
+      "status": "candidate-context",
+      "text": "Implementation of the Filecoin protocol, written in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cdcdx/lotus",
+      "status": "candidate-context",
+      "text": "Close and mark stale issue"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipshipyard/github-mgmt",
+      "status": "candidate-context",
+      "text": "Close and mark stale issue"
     }
   ],
   "candidate_glosses": [
@@ -97,6 +115,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ipfs/js-ipfsd-ctl",
+      "status": "candidate",
+      "text": "Close and mark stale issue"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cdcdx/lotus",
+      "status": "candidate",
+      "text": "Close and mark stale issue"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipshipyard/github-mgmt",
       "status": "candidate",
       "text": "Close and mark stale issue"
     }
@@ -190,11 +220,29 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "ipfs/team-mgmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "cdcdx/lotus"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/reusable-stale-issue.yml",
+      "source_repo": "ipshipyard/github-mgmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs/team-mgmt"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

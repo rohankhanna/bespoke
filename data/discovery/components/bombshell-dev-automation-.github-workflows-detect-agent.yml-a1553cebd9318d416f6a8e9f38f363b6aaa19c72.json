@@ -1,0 +1,12 @@
+{
+  "component": "bombshell-dev/automation/.github/workflows/detect-agent.yml@a1553cebd9318d416f6a8e9f38f363b6aaa19c72",
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/detect-agent.yml",
+      "source_repo": "TanStack/query"
+    }
+  ]
+}

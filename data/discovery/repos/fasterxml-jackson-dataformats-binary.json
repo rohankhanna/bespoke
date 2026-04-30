@@ -1,0 +1,357 @@
+{
+  "components": [
+    {
+      "component": "dawidd6/action-download-artifact@v20",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage-comment.yml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage-comment.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dep_build_v2.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dep_build_v2.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dep_build_v3.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dep_build_v3.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "dawidd6/action-download-artifact@v20",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FasterXML/jackson-dataformats-binary",
+      "target": "fasterxml/smile-format-specification",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FasterXML/jackson-dataformats-binary",
+      "target": "michel-kraemer/bson4jackson",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FasterXML/jackson-dataformats-binary",
+      "target": "exificient/exificient-for-json",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage-comment.yml",
+      "source_repo": "FasterXML/jackson-dataformats-binary",
+      "target": "dawidd6/action-download-artifact@v20",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage-comment.yml",
+      "source_repo": "FasterXML/jackson-dataformats-binary",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage-comment.yml",
+      "source_repo": "FasterXML/jackson-dataformats-binary",
+      "target": "Post Coverage Comment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dep_build_v2.yml",
+      "source_repo": "FasterXML/jackson-dataformats-binary",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dep_build_v2.yml",
+      "source_repo": "FasterXML/jackson-dataformats-binary",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dep_build_v2.yml",
+      "source_repo": "FasterXML/jackson-dataformats-binary",
+      "target": "Re-build on jackson-databind v2 push",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dep_build_v3.yml",
+      "source_repo": "FasterXML/jackson-dataformats-binary",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dep_build_v3.yml",
+      "source_repo": "FasterXML/jackson-dataformats-binary",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dep_build_v3.yml",
+      "source_repo": "FasterXML/jackson-dataformats-binary",
+      "target": "Re-build on jackson-databind v3 push",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "FasterXML/jackson-dataformats-binary",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "FasterXML/jackson-dataformats-binary",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "FasterXML/jackson-dataformats-binary",
+      "target": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "FasterXML/jackson-dataformats-binary",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "FasterXML/jackson-dataformats-binary",
+      "target": "dawidd6/action-download-artifact@v20",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "FasterXML/jackson-dataformats-binary",
+      "target": "Build and Deploy Snapshot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FasterXML/jackson-dataformats-binary",
+      "target": "avro",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FasterXML/jackson-dataformats-binary",
+      "target": "cbor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FasterXML/jackson-dataformats-binary",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FasterXML/jackson-dataformats-binary",
+      "target": "jackson-backends",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FasterXML/jackson-dataformats-binary",
+      "target": "protobuf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FasterXML/jackson-dataformats-binary",
+      "target": "smile",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T14:56:10.412358+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3889
+    },
+    {
+      "path": ".github/workflows/coverage-comment.yml",
+      "size": 1826
+    },
+    {
+      "path": ".github/workflows/dep_build_v2.yml",
+      "size": 882
+    },
+    {
+      "path": ".github/workflows/dep_build_v3.yml",
+      "size": 850
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 6640
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "3.x",
+    "description": "Uber-project for standard Jackson binary format backends: avro, cbor, ion, protobuf, smile",
+    "fork": false,
+    "full_name": "FasterXML/jackson-dataformats-binary",
+    "html_url": "https://github.com/FasterXML/jackson-dataformats-binary",
+    "language": "Java",
+    "pushed_at": "2026-04-28T20:24:44Z",
+    "stargazers_count": 346,
+    "topics": [
+      "avro",
+      "cbor",
+      "hacktoberfest",
+      "jackson-backends",
+      "protobuf",
+      "smile"
+    ],
+    "updated_at": "2026-04-17T06:14:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "exificient/exificient-for-json",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fasterxml/smile-format-specification",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "michel-kraemer/bson4jackson",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Post Coverage Comment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage-comment.yml",
+      "term": "Post Coverage Comment"
+    },
+    {
+      "context_snippet": "Re-build on jackson-databind v2 push",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dep_build_v2.yml",
+      "term": "Re-build on jackson-databind v2 push"
+    },
+    {
+      "context_snippet": "Re-build on jackson-databind v3 push",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dep_build_v3.yml",
+      "term": "Re-build on jackson-databind v3 push"
+    },
+    {
+      "context_snippet": "Build and Deploy Snapshot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Build and Deploy Snapshot"
+    },
+    {
+      "context_snippet": "This is a multi-module umbrella project for [Jackson](../../../jackson)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "avro"
+    },
+    {
+      "context_snippet": "This is a multi-module umbrella project for [Jackson](../../../jackson)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cbor"
+    },
+    {
+      "context_snippet": "This is a multi-module umbrella project for [Jackson](../../../jackson)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "This is a multi-module umbrella project for [Jackson](../../../jackson)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jackson-backends"
+    },
+    {
+      "context_snippet": "This is a multi-module umbrella project for [Jackson](../../../jackson)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "protobuf"
+    },
+    {
+      "context_snippet": "This is a multi-module umbrella project for [Jackson](../../../jackson)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "smile"
+    }
+  ]
+}

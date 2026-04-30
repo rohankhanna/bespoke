@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T13:03:22.005650+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3465
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Latent Consistency Model for AUTOMATIC1111 Stable Diffusion WebUI",
+    "fork": false,
+    "full_name": "0xbitches/sd-webui-lcm",
+    "html_url": "https://github.com/0xbitches/sd-webui-lcm",
+    "language": "Python",
+    "pushed_at": "2023-11-13T06:28:41Z",
+    "stargazers_count": 611,
+    "topics": [],
+    "updated_at": "2026-04-28T10:47:23Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

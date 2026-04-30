@@ -151,6 +151,24 @@
       "source_repo": "zigzagcai/varlen_mamba",
       "status": "candidate-context",
       "text": "Build wheels and deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-han-lab/flash-moba",
+      "status": "candidate-context",
+      "text": "Build wheels and deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "demonatic/flash-attention",
+      "status": "candidate-context",
+      "text": "Fast and memory-efficient exact attention"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "demonatic/flash-attention",
+      "status": "candidate-context",
+      "text": "Build wheels and deploy"
     }
   ],
   "candidate_glosses": [
@@ -223,6 +241,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "zigzagcai/varlen_mamba",
+      "status": "candidate",
+      "text": "Build wheels and deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-han-lab/flash-moba",
+      "status": "candidate",
+      "text": "Build wheels and deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "demonatic/flash-attention",
       "status": "candidate",
       "text": "Build wheels and deploy"
     }
@@ -382,11 +412,29 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "Dao-AILab/flash-attention"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Dao-AILab/flash-attention"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "mit-han-lab/flash-moba"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "demonatic/flash-attention"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

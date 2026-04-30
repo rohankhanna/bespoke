@@ -1,0 +1,90 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "VDIGPKU/DynamicDet",
+      "target": "coco",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "VDIGPKU/DynamicDet",
+      "target": "dynamic-neural-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "VDIGPKU/DynamicDet",
+      "target": "object-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "VDIGPKU/DynamicDet",
+      "target": "yolo",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:15:22.396133+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5874
+    },
+    {
+      "path": "requirements.txt",
+      "size": 948
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR 2023] DynamicDet: A Unified Dynamic Architecture for Object Detection",
+    "fork": false,
+    "full_name": "VDIGPKU/DynamicDet",
+    "html_url": "https://github.com/VDIGPKU/DynamicDet",
+    "language": "Python",
+    "pushed_at": "2024-04-01T04:03:33Z",
+    "stargazers_count": 129,
+    "topics": [
+      "coco",
+      "dynamic-neural-network",
+      "object-detection",
+      "yolo"
+    ],
+    "updated_at": "2026-04-24T00:44:29Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repo contains the official implementation of [**\"DynamicDet: A Unified Dynamic Architecture for Object Detection\"**](https://arxiv.org/abs/2304.05552).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coco"
+    },
+    {
+      "context_snippet": "This repo contains the official implementation of [**\"DynamicDet: A Unified Dynamic Architecture for Object Detection\"**](https://arxiv.org/abs/2304.05552).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dynamic-neural-network"
+    },
+    {
+      "context_snippet": "This repo contains the official implementation of [**\"DynamicDet: A Unified Dynamic Architecture for Object Detection\"**](https://arxiv.org/abs/2304.05552).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-detection"
+    },
+    {
+      "context_snippet": "This repo contains the official implementation of [**\"DynamicDet: A Unified Dynamic Architecture for Object Detection\"**](https://arxiv.org/abs/2304.05552).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolo"
+    }
+  ]
+}

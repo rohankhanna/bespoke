@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "JRuby, an implementation of Ruby on the JVM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "JRuby snapshot using Java 8"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "JRuby snapshot using Java 8"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21496,
+      "status": "candidate",
+      "text": "print"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20853,
+      "status": "candidate",
+      "text": "freeze-dry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20821,
+      "status": "candidate",
+      "text": "dance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20810,
+      "status": "candidate",
+      "text": "arthur"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20810,
+      "status": "candidate",
+      "text": "boogie"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "JRuby snapshot using Java 8",
+      "sense_id": "jruby-snapshot-using-java-8#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "jruby-snapshot-using-java-8",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "jruby-snapshot-using-java-8",
+  "observation_id": "059517ec28558de1",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "JRuby snapshot using Java 8",
+  "source_context_snippet": "JRuby snapshot using Java 8",
+  "source_file": ".github/workflows/manual-snapshot-publish.yml",
+  "source_repo": "jruby/jruby",
+  "source_repo_description": "JRuby, an implementation of Ruby on the JVM"
+}

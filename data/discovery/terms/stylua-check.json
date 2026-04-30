@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/stylua.yml",
       "source_repo": "mason-org/mason.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/stylua.yml",
+      "source_repo": "mason-org/mason-lspconfig.nvim"
     }
   ],
   "term": "Stylua check"

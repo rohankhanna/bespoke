@@ -1,0 +1,82 @@
+{
+  "components": [
+    {
+      "component": "react",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/learn-react",
+      "target": "enaqx/awesome-react",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/learn-react",
+      "target": "facebook/jest",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "dwyl/learn-react",
+      "target": "nelsonic/learn-react",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "dwyl/learn-react",
+      "target": "react",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:03:12.331559+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2994
+    },
+    {
+      "path": "package.json",
+      "size": 658
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\"The possibilities are numerous once we decide to act and not react.\" ~ George Bernard Shaw",
+    "fork": false,
+    "full_name": "dwyl/learn-react",
+    "html_url": "https://github.com/dwyl/learn-react",
+    "language": "HTML",
+    "pushed_at": "2021-11-07T22:21:18Z",
+    "stargazers_count": 108,
+    "topics": [],
+    "updated_at": "2026-01-04T12:47:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "enaqx/awesome-react",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebook/jest",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nelsonic/learn-react",
+      "source_file": "package.json"
+    }
+  ],
+  "terms": []
+}

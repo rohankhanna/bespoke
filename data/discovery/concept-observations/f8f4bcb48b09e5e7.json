@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A curated list of awesome Kotlin related stuff Inspired by awesome-java. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A curated list of awesome Kotlin related stuff inspired by awesome-java. :octocat:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A curated list of awesome Kotlin related stuff inspired by awesome-java. :octocat:"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "kotlin-library",
+      "sense_id": "kotlin-library#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "kotlin-library",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "kotlin-library",
+  "observation_id": "f8f4bcb48b09e5e7",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "kotlin-library",
+  "source_context_snippet": "A curated list of awesome Kotlin related stuff inspired by awesome-java. :octocat:",
+  "source_file": null,
+  "source_repo": "Heapy/awesome-kotlin",
+  "source_repo_description": "A curated list of awesome Kotlin related stuff Inspired by awesome-java. "
+}

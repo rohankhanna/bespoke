@@ -67,6 +67,18 @@
       "source_repo": "ashvardanian/usearch-images",
       "status": "candidate-context",
       "text": "![USearch Images animated text to image multi-modal AI search](assets/usearch-images-slow.gif)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akx/lcm_test",
+      "status": "candidate-context",
+      "text": "Quick and dirty Streamlit UI for Latent Consistency Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akx/lcm_test",
+      "status": "candidate-context",
+      "text": "Quick and dirty Streamlit UI for [Latent Consistency Models](https://github.com/luosiallen/latent-consistency-model)."
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "ashvardanian/usearch-images",
       "status": "candidate",
       "text": "![USearch Images animated text to image multi-modal AI search](assets/usearch-images-slow.gif)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akx/lcm_test",
+      "status": "candidate",
+      "text": "Quick and dirty Streamlit UI for [Latent Consistency Models](https://github.com/luosiallen/latent-consistency-model)."
     }
   ],
   "candidate_related_terms": [],
@@ -160,11 +178,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "ashvardanian/usearch-images"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "chatchat-space/Langchain-Chatchat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "akx/lcm_test"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

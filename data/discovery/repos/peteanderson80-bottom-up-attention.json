@@ -1,0 +1,166 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "peteanderson80/bottom-up-attention",
+      "target": "peteanderson80/up-down-captioner",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "peteanderson80/bottom-up-attention",
+      "target": "bharatsingh430/py-r-fcn-multigpu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "peteanderson80/bottom-up-attention",
+      "target": "rbgirshick/py-faster-rcnn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "peteanderson80/bottom-up-attention",
+      "target": "caffe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "peteanderson80/bottom-up-attention",
+      "target": "captioning-images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "peteanderson80/bottom-up-attention",
+      "target": "faster-rcnn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "peteanderson80/bottom-up-attention",
+      "target": "image-captioning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "peteanderson80/bottom-up-attention",
+      "target": "mscoco",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "peteanderson80/bottom-up-attention",
+      "target": "mscoco-dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "peteanderson80/bottom-up-attention",
+      "target": "visual-question-answering",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:09:37.894915+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9552
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Bottom-up attention model for image captioning and VQA, based on Faster R-CNN and Visual Genome",
+    "fork": false,
+    "full_name": "peteanderson80/bottom-up-attention",
+    "html_url": "https://github.com/peteanderson80/bottom-up-attention",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-02-03T04:27:32Z",
+    "stargazers_count": 1467,
+    "topics": [
+      "caffe",
+      "captioning-images",
+      "faster-rcnn",
+      "image-captioning",
+      "mscoco",
+      "mscoco-dataset",
+      "visual-question-answering",
+      "vqa"
+    ],
+    "updated_at": "2026-04-20T02:26:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bharatsingh430/py-r-fcn-multigpu",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "peteanderson80/up-down-captioner",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rbgirshick/py-faster-rcnn",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This code implements a bottom-up attention model, based on multi-gpu training of Faster R-CNN with ResNet-101, using object and attribute annotations from [Visual Genome](http://visualgenome.org/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "caffe"
+    },
+    {
+      "context_snippet": "This code implements a bottom-up attention model, based on multi-gpu training of Faster R-CNN with ResNet-101, using object and attribute annotations from [Visual Genome](http://visualgenome.org/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "captioning-images"
+    },
+    {
+      "context_snippet": "This code implements a bottom-up attention model, based on multi-gpu training of Faster R-CNN with ResNet-101, using object and attribute annotations from [Visual Genome](http://visualgenome.org/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "faster-rcnn"
+    },
+    {
+      "context_snippet": "This code implements a bottom-up attention model, based on multi-gpu training of Faster R-CNN with ResNet-101, using object and attribute annotations from [Visual Genome](http://visualgenome.org/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-captioning"
+    },
+    {
+      "context_snippet": "This code implements a bottom-up attention model, based on multi-gpu training of Faster R-CNN with ResNet-101, using object and attribute annotations from [Visual Genome](http://visualgenome.org/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mscoco"
+    },
+    {
+      "context_snippet": "This code implements a bottom-up attention model, based on multi-gpu training of Faster R-CNN with ResNet-101, using object and attribute annotations from [Visual Genome](http://visualgenome.org/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mscoco-dataset"
+    },
+    {
+      "context_snippet": "This code implements a bottom-up attention model, based on multi-gpu training of Faster R-CNN with ResNet-101, using object and attribute annotations from [Visual Genome](http://visualgenome.org/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-question-answering"
+    }
+  ]
+}

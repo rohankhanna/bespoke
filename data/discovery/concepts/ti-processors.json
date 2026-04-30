@@ -19,6 +19,42 @@
       "source_repo": "TexasInstruments/edgeai-yolov5",
       "status": "candidate-context",
       "text": "Recommend the following alternatives instead of this:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TexasInstruments/edgeai-tensorlab",
+      "status": "candidate-context",
+      "text": "Edge AI Model Development Tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TexasInstruments/edgeai-tensorlab",
+      "status": "candidate-context",
+      "text": "* Read the documentation landing page before using this repository: [https://github.com/TexasInstruments/edgeai](https://github.com/TexasInstruments/edgeai)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TexasInstruments/edgeai",
+      "status": "candidate-context",
+      "text": "Edge AI Software and Development Tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TexasInstruments/edgeai",
+      "status": "candidate-context",
+      "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TexasInstruments/edgeai-tidl-tools",
+      "status": "candidate-context",
+      "text": "Edgeai TIDL Tools and Examples - This repository contains Tools and example developed for Deep learning runtime (DLRT) offering provided by TI\u2019s edge AI solutions. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TexasInstruments/edgeai-tidl-tools",
+      "status": "candidate-context",
+      "text": "TIDL is a comprehensive software product for acceleration of Deep Neural Networks (DNNs) on TI's embedded devices. It supports heterogeneous execution of DNNs across cortex-A based MPUs, TI's latest generation C7x DSP and TI's DNN accelerator (MMA). TIDL is released as part of T\u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +63,24 @@
       "source_repo": "TexasInstruments/edgeai-yolov5",
       "status": "candidate",
       "text": "Recommend the following alternatives instead of this:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TexasInstruments/edgeai-tensorlab",
+      "status": "candidate",
+      "text": "* Read the documentation landing page before using this repository: [https://github.com/TexasInstruments/edgeai](https://github.com/TexasInstruments/edgeai)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TexasInstruments/edgeai",
+      "status": "candidate",
+      "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TexasInstruments/edgeai-tidl-tools",
+      "status": "candidate",
+      "text": "TIDL is a comprehensive software product for acceleration of Deep Neural Networks (DNNs) on TI's embedded devices. It supports heterogeneous execution of DNNs across cortex-A based MPUs, TI's latest generation C7x DSP and TI's DNN accelerator (MMA). TIDL is released as part of T\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +94,29 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "TexasInstruments/edgeai-yolov5"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "TexasInstruments/edgeai-tensorlab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "TexasInstruments/edgeai"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "TexasInstruments/edgeai-tidl-tools"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

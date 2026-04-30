@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T13:04:39.436914+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5326
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "improves over nerf in 360 capture of unbounded scenes",
+    "fork": false,
+    "full_name": "Kai-46/nerfplusplus",
+    "html_url": "https://github.com/Kai-46/nerfplusplus",
+    "language": "Python",
+    "pushed_at": "2022-03-24T23:01:35Z",
+    "stargazers_count": 944,
+    "topics": [],
+    "updated_at": "2026-04-10T00:54:03Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

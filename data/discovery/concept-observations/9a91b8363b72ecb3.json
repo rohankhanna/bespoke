@@ -48,7 +48,7 @@
   "normalized_form": "platform-api-tests",
   "observation_id": "9a91b8363b72ecb3",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
   "observed_text": "platform-api-tests",
   "source_context_snippet": "platform-api-tests",
   "source_file": ".github/workflows/platform-api-tests.yml",

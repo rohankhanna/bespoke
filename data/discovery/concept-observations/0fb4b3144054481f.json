@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "i3-compatible Wayland compositor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "**[English][en]** - [\u0639\u0631\u0628\u064a][ar] - [Az\u0259rbaycanca][az] - [\u010cesky][cs] - [Deutsch][de] - [Dansk][dk] - [Espa\u00f1ol][es] - [Fran\u00e7ais][fr] - [\u10e5\u10d0\u10e0\u10d7\u10e3\u10da\u10d8][ge] - [\u0395\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ac][gr] - [\u0939\u093f\u0928\u094d\u0926\u0940][hi] - [Magyar][hu] - [\u0641\u0627\u0631\u0633\u06cc][ir] - [Italiano][it] - [\u65e5\u672c\u8a9e][ja] - [\ud55c\uad6d\uc5b4][ko] - [Nederlands][nl] - [Norsk][no]\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "**[English][en]** - [\u0639\u0631\u0628\u064a][ar] - [Az\u0259rbaycanca][az] - [\u010cesky][cs] - [Deutsch][de] - [Dansk][dk] - [Espa\u00f1ol][es] - [Fran\u00e7ais][fr] - [\u10e5\u10d0\u10e0\u10d7\u10e3\u10da\u10d8][ge] - [\u0395\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ac][gr] - [\u0939\u093f\u0928\u094d\u0926\u0940][hi] - [Magyar][hu] - [\u0641\u0627\u0631\u0633\u06cc][ir] - [Italiano][it] - [\u65e5\u672c\u8a9e][ja] - [\ud55c\uad6d\uc5b4][ko] - [Nederlands][nl] - [Norsk][no]\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40027573,
+      "status": "candidate",
+      "text": "typographer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40024963,
+      "status": "candidate",
+      "text": "typesetter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20027663,
+      "status": "candidate",
+      "text": "caseman"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20027662,
+      "status": "candidate",
+      "text": "typo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20027661,
+      "status": "candidate",
+      "text": "setter"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "compositor",
+      "sense_id": "compositor#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2030,
+      "status": "candidate",
+      "text": "typographer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1027,
+      "status": "candidate",
+      "text": "typesetter"
+    }
+  ],
+  "concept_id": "compositor",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "compositor",
+  "observation_id": "0fb4b3144054481f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_text": "compositor",
+  "source_context_snippet": "**[English][en]** - [\u0639\u0631\u0628\u064a][ar] - [Az\u0259rbaycanca][az] - [\u010cesky][cs] - [Deutsch][de] - [Dansk][dk] - [Espa\u00f1ol][es] - [Fran\u00e7ais][fr] - [\u10e5\u10d0\u10e0\u10d7\u10e3\u10da\u10d8][ge] - [\u0395\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ac][gr] - [\u0939\u093f\u0928\u094d\u0926\u0940][hi] - [Magyar][hu] - [\u0641\u0627\u0631\u0633\u06cc][ir] - [Italiano][it] - [\u65e5\u672c\u8a9e][ja] - [\ud55c\uad6d\uc5b4][ko] - [Nederlands][nl] - [Norsk][no]\u2026",
+  "source_file": null,
+  "source_repo": "swaywm/sway",
+  "source_repo_description": "i3-compatible Wayland compositor"
+}

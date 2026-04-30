@@ -80,6 +80,18 @@
       "source_repo": "BYVoid/OpenCC",
       "status": "candidate-context",
       "text": "Node.js"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gvergnaud/hotscript",
+      "status": "candidate-context",
+      "text": "A library of composable functions for the type-level! Transform your TypeScript types in any way you want using functions you already know."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gvergnaud/hotscript",
+      "status": "candidate-context",
+      "text": "Node.js"
     }
   ],
   "candidate_glosses": [
@@ -116,6 +128,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "BYVoid/OpenCC",
+      "status": "candidate",
+      "text": "Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gvergnaud/hotscript",
       "status": "candidate",
       "text": "Node.js"
     }
@@ -197,11 +215,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/nodejs.yml",
       "source_repo": "BYVoid/OpenCC"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "gvergnaud/hotscript"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

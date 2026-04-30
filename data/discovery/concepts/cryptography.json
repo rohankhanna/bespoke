@@ -535,6 +535,30 @@
       "source_repo": "phusion/node-sha3",
       "status": "candidate-context",
       "text": "[![Travis CI][3]][4]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "secretflow/heu",
+      "status": "candidate-context",
+      "text": "A high-performance homomorphic encryption algorithm library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "secretflow/heu",
+      "status": "candidate-context",
+      "text": "[![CircleCI](https://dl.circleci.com/status-badge/img/gh/secretflow/heu/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/secretflow/heu/tree/main)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RubyCrypto/rbnacl",
+      "status": "candidate-context",
+      "text": "Ruby FFI binding to the Networking and Cryptography (NaCl) library (a.k.a. libsodium)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RubyCrypto/rbnacl",
+      "status": "candidate-context",
+      "text": "![RbNaCl](https://raw.github.com/RubyCrypto/rbnacl/master/images/logo.png)"
     }
   ],
   "candidate_glosses": [
@@ -807,6 +831,18 @@
       "source_repo": "phusion/node-sha3",
       "status": "candidate",
       "text": "[![Travis CI][3]][4]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "secretflow/heu",
+      "status": "candidate",
+      "text": "[![CircleCI](https://dl.circleci.com/status-badge/img/gh/secretflow/heu/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/secretflow/heu/tree/main)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RubyCrypto/rbnacl",
+      "status": "candidate",
+      "text": "![RbNaCl](https://raw.github.com/RubyCrypto/rbnacl/master/images/logo.png)"
     }
   ],
   "candidate_related_terms": [
@@ -1210,11 +1246,41 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "phusion/node-sha3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "hacl-star/hacl-star"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "arkworks-rs/poly-commit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "lightning/bolts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "secretflow/heu"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "RubyCrypto/rbnacl"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

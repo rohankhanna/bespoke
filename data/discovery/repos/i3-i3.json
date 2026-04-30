@@ -1,0 +1,141 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "i3/i3",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "i3/i3",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "i3/i3",
+      "target": "GitHub Actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "i3/i3",
+      "target": "i3wm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "i3/i3",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "i3/i3",
+      "target": "tiling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "i3/i3",
+      "target": "tiling-window-manager",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:51:50.292604+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 942
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 4232
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "next",
+    "description": "A tiling window manager for X11",
+    "fork": false,
+    "full_name": "i3/i3",
+    "html_url": "https://github.com/i3/i3",
+    "language": "C",
+    "pushed_at": "2026-02-08T13:28:08Z",
+    "stargazers_count": 10445,
+    "topics": [
+      "bsd",
+      "i3",
+      "i3wm",
+      "linux",
+      "tiling",
+      "tiling-window-manager",
+      "x11"
+    ],
+    "updated_at": "2026-04-30T11:38:50Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "GitHub Actions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "GitHub Actions"
+    },
+    {
+      "context_snippet": "![Logo](docs/logo-30.png) i3: A tiling window manager",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "i3wm"
+    },
+    {
+      "context_snippet": "![Logo](docs/logo-30.png) i3: A tiling window manager",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "![Logo](docs/logo-30.png) i3: A tiling window manager",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tiling"
+    },
+    {
+      "context_snippet": "![Logo](docs/logo-30.png) i3: A tiling window manager",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tiling-window-manager"
+    }
+  ]
+}

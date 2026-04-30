@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "programming-model"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kokkos/kokkos",
+      "status": "candidate-context",
+      "text": "Kokkos C++ Performance Portability Programming Ecosystem: The Programming Model - Parallel Execution and Memory Abstraction"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kokkos/kokkos",
+      "status": "candidate-context",
+      "text": "[![Kokkos](https://avatars2.githubusercontent.com/u/10199860?s=200&v=4)](https://kokkos.org)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "llnl/RAJA",
+      "status": "candidate-context",
+      "text": "RAJA Performance Portability Layer (C++)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "llnl/RAJA",
+      "status": "candidate-context",
+      "text": "[comment]: # (#################################################################)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kokkos/kokkos",
+      "status": "candidate",
+      "text": "[![Kokkos](https://avatars2.githubusercontent.com/u/10199860?s=200&v=4)](https://kokkos.org)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "llnl/RAJA",
+      "status": "candidate",
+      "text": "[comment]: # (#################################################################)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "programming-model",
+  "concept_id": "programming-model",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "kokkos/kokkos"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "llnl/RAJA"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "programming-model",
+      "sense_id": "programming-model#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

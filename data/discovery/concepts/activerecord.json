@@ -43,6 +43,42 @@
       "source_repo": "citusdata/activerecord-multi-tenant",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/citusdata/activerecord-multi-tenant/actions/workflows/active-record-multi-tenant-tests.yml/badge.svg)](https://github.com/citusdata/activerecord-multi-tenant/actions/workflows/active-record-multi-tenant-tests.yml) [![codecov](https://codecov.i\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ankane/lockbox",
+      "status": "candidate-context",
+      "text": "Modern encryption for Ruby and Rails"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ankane/lockbox",
+      "status": "candidate-context",
+      "text": ":package: Modern encryption for Ruby and Rails"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rgeo/activerecord-postgis-adapter",
+      "status": "candidate-context",
+      "text": "ActiveRecord connection adapter for PostGIS, based on postgresql and rgeo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rgeo/activerecord-postgis-adapter",
+      "status": "candidate-context",
+      "text": "[![Gem Version](https://badge.fury.io/rb/activerecord-postgis-adapter.svg)](https://badge.fury.io/rb/activerecord-postgis-adapter)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DmitryTsepelev/store_model",
+      "status": "candidate-context",
+      "text": "Work with JSON-backed attributes as ActiveRecord-ish models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DmitryTsepelev/store_model",
+      "status": "candidate-context",
+      "text": "**StoreModel** gem allows you to wrap JSON-backed DB columns with ActiveModel-like classes."
     }
   ],
   "candidate_glosses": [
@@ -63,6 +99,24 @@
       "source_repo": "citusdata/activerecord-multi-tenant",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/citusdata/activerecord-multi-tenant/actions/workflows/active-record-multi-tenant-tests.yml/badge.svg)](https://github.com/citusdata/activerecord-multi-tenant/actions/workflows/active-record-multi-tenant-tests.yml) [![codecov](https://codecov.i\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ankane/lockbox",
+      "status": "candidate",
+      "text": ":package: Modern encryption for Ruby and Rails"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rgeo/activerecord-postgis-adapter",
+      "status": "candidate",
+      "text": "[![Gem Version](https://badge.fury.io/rb/activerecord-postgis-adapter.svg)](https://badge.fury.io/rb/activerecord-postgis-adapter)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DmitryTsepelev/store_model",
+      "status": "candidate",
+      "text": "**StoreModel** gem allows you to wrap JSON-backed DB columns with ActiveModel-like classes."
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +178,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "citusdata/activerecord-multi-tenant"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "ankane/lockbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "rgeo/activerecord-postgis-adapter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "DmitryTsepelev/store_model"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

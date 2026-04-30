@@ -1,0 +1,805 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-dotnet@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/angle.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/angle.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/angle.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/assimp.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/assimp.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindings-regeneration.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindings-regeneration.yml"
+    },
+    {
+      "component": "actions/setup-java@v2.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindings-regeneration.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindings-regeneration.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindings-regeneration.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindings-regeneration.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindings-regeneration.yml"
+    },
+    {
+      "component": "GuillaumeFalourd/setup-windows10-sdk-action@v1.9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindings-regeneration.yml"
+    },
+    {
+      "component": "actions/checkout@v3.5.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-java@v2.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "android-actions/setup-android@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v3.5.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeowners.yml"
+    },
+    {
+      "component": "mszostok/codeowners-validator@v0.6.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeowners.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dxvk.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dxvk.yml"
+    },
+    {
+      "component": "Joshua-Ashton/arch-mingw-github-action@12cb3126180924c3be54025b08f42e4e14da080b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dxvk.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/glfw.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/glfw.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/moltenvk.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/moltenvk.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/moltenvk.yml"
+    },
+    {
+      "component": "lukka/get-cmake@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/moltenvk.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/openal-soft.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/openal-soft.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dotnet/Silk.NET",
+      "target": "ultz/silk.net",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/angle.yml",
+      "source_repo": "dotnet/Silk.NET",
+      "target": "actions/setup-dotnet@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/angle.yml",
+      "source_repo": "dotnet/Silk.NET",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/angle.yml",
+      "source_repo": "dotnet/Silk.NET",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/angle.yml",
+      "source_repo": "dotnet/Silk.NET",
+      "target": "ANGLE",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/assimp.yml",
+      "source_repo": "dotnet/Silk.NET",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/assimp.yml",
+      "source_repo": "dotnet/Silk.NET",
+      "target": "actions/setup-dotnet@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/assimp.yml",
+      "source_repo": "dotnet/Silk.NET",
+      "target": "Assimp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindings-regeneration.yml",
+      "source_repo": "dotnet/Silk.NET",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindings-regeneration.yml",
+      "source_repo": "dotnet/Silk.NET",
+      "target": "actions/setup-dotnet@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindings-regeneration.yml",
+      "source_repo": "dotnet/Silk.NET",
+      "target": "actions/setup-java@v2.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindings-regeneration.yml",
+      "source_repo": "dotnet/Silk.NET",
+      "target": "GuillaumeFalourd/setup-windows10-sdk-action@v1.9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bindings-regeneration.yml",
+      "source_repo": "dotnet/Silk.NET",
+      "target": "Bindings Regeneration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dotnet/Silk.NET",
+      "target": "actions/checkout@v3.5.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dotnet/Silk.NET",
+      "target": "actions/setup-java@v2.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dotnet/Silk.NET",
+      "target": "android-actions/setup-android@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dotnet/Silk.NET",
+      "target": "actions/setup-dotnet@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dotnet/Silk.NET",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dotnet/Silk.NET",
+      "target": "actions/setup-dotnet@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dotnet/Silk.NET",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dotnet/Silk.NET",
+      "target": "CI Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeowners.yml",
+      "source_repo": "dotnet/Silk.NET",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeowners.yml",
+      "source_repo": "dotnet/Silk.NET",
+      "target": "mszostok/codeowners-validator@v0.6.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeowners.yml",
+      "source_repo": "dotnet/Silk.NET",
+      "target": "Codeowners",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dxvk.yml",
+      "source_repo": "dotnet/Silk.NET",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dxvk.yml",
+      "source_repo": "dotnet/Silk.NET",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dxvk.yml",
+      "source_repo": "dotnet/Silk.NET",
+      "target": "Joshua-Ashton/arch-mingw-github-action@12cb3126180924c3be54025b08f42e4e14da080b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dxvk.yml",
+      "source_repo": "dotnet/Silk.NET",
+      "target": "DXVK",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/glfw.yml",
+      "source_repo": "dotnet/Silk.NET",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/glfw.yml",
+      "source_repo": "dotnet/Silk.NET",
+      "target": "actions/setup-dotnet@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/glfw.yml",
+      "source_repo": "dotnet/Silk.NET",
+      "target": "GLFW",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/moltenvk.yml",
+      "source_repo": "dotnet/Silk.NET",
+      "target": "actions/setup-dotnet@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/moltenvk.yml",
+      "source_repo": "dotnet/Silk.NET",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/moltenvk.yml",
+      "source_repo": "dotnet/Silk.NET",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/moltenvk.yml",
+      "source_repo": "dotnet/Silk.NET",
+      "target": "lukka/get-cmake@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/moltenvk.yml",
+      "source_repo": "dotnet/Silk.NET",
+      "target": "MoltenVK",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/openal-soft.yml",
+      "source_repo": "dotnet/Silk.NET",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/openal-soft.yml",
+      "source_repo": "dotnet/Silk.NET",
+      "target": "actions/setup-dotnet@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/openal-soft.yml",
+      "source_repo": "dotnet/Silk.NET",
+      "target": "OpenAL Soft",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/Silk.NET",
+      "target": "audio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/Silk.NET",
+      "target": "csharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/Silk.NET",
+      "target": "game-development",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/Silk.NET",
+      "target": "glfw",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/Silk.NET",
+      "target": "graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/Silk.NET",
+      "target": "graphics-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/Silk.NET",
+      "target": "haptics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/Silk.NET",
+      "target": "native",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/Silk.NET",
+      "target": "openal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/Silk.NET",
+      "target": "opencl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/Silk.NET",
+      "target": "opengl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/Silk.NET",
+      "target": "scientific-visualization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/Silk.NET",
+      "target": "silk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/Silk.NET",
+      "target": "vulkan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/Silk.NET",
+      "target": "webgpu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/Silk.NET",
+      "target": "wgpu",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T16:07:40.404128+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8477
+    },
+    {
+      "path": ".github/workflows/angle.yml",
+      "size": 1480
+    },
+    {
+      "path": ".github/workflows/assimp.yml",
+      "size": 3357
+    },
+    {
+      "path": ".github/workflows/bindings-regeneration.yml",
+      "size": 1953
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 4724
+    },
+    {
+      "path": ".github/workflows/codeowners.yml",
+      "size": 344
+    },
+    {
+      "path": ".github/workflows/dxvk.yml",
+      "size": 2049
+    },
+    {
+      "path": ".github/workflows/glfw.yml",
+      "size": 3866
+    },
+    {
+      "path": ".github/workflows/moltenvk.yml",
+      "size": 1916
+    },
+    {
+      "path": ".github/workflows/openal-soft.yml",
+      "size": 4135
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The high-speed OpenGL, OpenCL, OpenAL, OpenXR, GLFW, SDL, Vulkan, Assimp, WebGPU, and DirectX bindings library your mother warned you about.",
+    "fork": false,
+    "full_name": "dotnet/Silk.NET",
+    "html_url": "https://github.com/dotnet/Silk.NET",
+    "language": "C#",
+    "pushed_at": "2026-04-30T14:00:31Z",
+    "stargazers_count": 5023,
+    "topics": [
+      "3d",
+      "audio",
+      "csharp",
+      "game-development",
+      "glfw",
+      "graphics",
+      "graphics-library",
+      "haptics",
+      "native",
+      "openal",
+      "opencl",
+      "opengl",
+      "scientific-visualization",
+      "silk",
+      "vulkan",
+      "webgpu",
+      "wgpu"
+    ],
+    "updated_at": "2026-04-29T23:15:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ultz/silk.net",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "ANGLE",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/angle.yml",
+      "term": "ANGLE"
+    },
+    {
+      "context_snippet": "Assimp",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/assimp.yml",
+      "term": "Assimp"
+    },
+    {
+      "context_snippet": "Bindings Regeneration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bindings-regeneration.yml",
+      "term": "Bindings Regeneration"
+    },
+    {
+      "context_snippet": "CI Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "CI Build"
+    },
+    {
+      "context_snippet": "Codeowners",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeowners.yml",
+      "term": "Codeowners"
+    },
+    {
+      "context_snippet": "DXVK",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dxvk.yml",
+      "term": "DXVK"
+    },
+    {
+      "context_snippet": "GLFW",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/glfw.yml",
+      "term": "GLFW"
+    },
+    {
+      "context_snippet": "MoltenVK",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/moltenvk.yml",
+      "term": "MoltenVK"
+    },
+    {
+      "context_snippet": "OpenAL Soft",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/openal-soft.yml",
+      "term": "OpenAL Soft"
+    },
+    {
+      "context_snippet": "<!-- Begin exclude from NuGet readme. -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio"
+    },
+    {
+      "context_snippet": "<!-- Begin exclude from NuGet readme. -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "csharp"
+    },
+    {
+      "context_snippet": "<!-- Begin exclude from NuGet readme. -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "game-development"
+    },
+    {
+      "context_snippet": "<!-- Begin exclude from NuGet readme. -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "glfw"
+    },
+    {
+      "context_snippet": "<!-- Begin exclude from NuGet readme. -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphics"
+    },
+    {
+      "context_snippet": "<!-- Begin exclude from NuGet readme. -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphics-library"
+    },
+    {
+      "context_snippet": "<!-- Begin exclude from NuGet readme. -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "haptics"
+    },
+    {
+      "context_snippet": "<!-- Begin exclude from NuGet readme. -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "native"
+    },
+    {
+      "context_snippet": "<!-- Begin exclude from NuGet readme. -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openal"
+    },
+    {
+      "context_snippet": "<!-- Begin exclude from NuGet readme. -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opencl"
+    },
+    {
+      "context_snippet": "<!-- Begin exclude from NuGet readme. -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opengl"
+    },
+    {
+      "context_snippet": "<!-- Begin exclude from NuGet readme. -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scientific-visualization"
+    },
+    {
+      "context_snippet": "<!-- Begin exclude from NuGet readme. -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "silk"
+    },
+    {
+      "context_snippet": "<!-- Begin exclude from NuGet readme. -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulkan"
+    },
+    {
+      "context_snippet": "<!-- Begin exclude from NuGet readme. -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webgpu"
+    },
+    {
+      "context_snippet": "<!-- Begin exclude from NuGet readme. -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wgpu"
+    }
+  ]
+}

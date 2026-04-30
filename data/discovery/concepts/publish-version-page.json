@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Publish Version Page"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hybridgroup/llama-cpp-builder",
+      "status": "candidate-context",
+      "text": "Pre-built binary versions of llama.cpp for Ubuntu with CUDA and Vulkan support. Used by yzma."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hybridgroup/llama-cpp-builder",
+      "status": "candidate-context",
+      "text": "Publish Version Page"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hybridgroup/llama-cpp-builder",
+      "status": "candidate",
+      "text": "Publish Version Page"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18870,
+      "status": "candidate",
+      "text": "summary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18181,
+      "status": "candidate",
+      "text": "print"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18105,
+      "status": "candidate",
+      "text": "edition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18105,
+      "status": "candidate",
+      "text": "prints"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18084,
+      "status": "candidate",
+      "text": "issue"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Publish Version Page",
+  "concept_id": "publish-version-page",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/publish-version.yml",
+      "source_repo": "hybridgroup/llama-cpp-builder"
+    }
+  ],
+  "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish Version Page",
+      "sense_id": "publish-version-page#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -2,7 +2,8 @@
   "aliases": [
     "Integration Test",
     "integration-test",
-    "Integration test"
+    "Integration test",
+    "integration test"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -153,6 +154,30 @@
       "source_repo": "datalab-to/pdftext",
       "status": "candidate-context",
       "text": "Integration test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "datalab-to/marker",
+      "status": "candidate-context",
+      "text": "Convert PDF to markdown + JSON quickly with high accuracy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datalab-to/marker",
+      "status": "candidate-context",
+      "text": "Integration test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-openapi/strfmt",
+      "status": "candidate-context",
+      "text": "openapi toolkit common string formats"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-openapi/strfmt",
+      "status": "candidate-context",
+      "text": "integration test"
     }
   ],
   "candidate_glosses": [
@@ -233,6 +258,18 @@
       "source_repo": "datalab-to/pdftext",
       "status": "candidate",
       "text": "Integration test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datalab-to/marker",
+      "status": "candidate",
+      "text": "Integration test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-openapi/strfmt",
+      "status": "candidate",
+      "text": "integration test"
     }
   ],
   "candidate_related_terms": [
@@ -372,11 +409,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/integration.yml",
       "source_repo": "datalab-to/pdftext"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "datalab-to/marker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "go-openapi/strfmt"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

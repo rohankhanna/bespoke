@@ -19,6 +19,42 @@
       "source_repo": "ksxnodemodules/static-type-assert",
       "status": "candidate-context",
       "text": "Asserting type with help of TypeScript compiler"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stretchr/testify",
+      "status": "candidate-context",
+      "text": "A toolkit with common assertions and mocks that plays nicely with the standard library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stretchr/testify",
+      "status": "candidate-context",
+      "text": "Testify - Thou Shalt Write Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "karatelabs/karate",
+      "status": "candidate-context",
+      "text": "Test Automation Made Simple"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karatelabs/karate",
+      "status": "candidate-context",
+      "text": "**The open-source tool that combines API testing, mocks, performance testing, and UI automation into a single, unified framework.**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jest-community/jest-extended",
+      "status": "candidate-context",
+      "text": "Additional Jest matchers \ud83c\udccf\ud83d\udcaa"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jest-community/jest-extended",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +63,24 @@
       "source_repo": "ksxnodemodules/static-type-assert",
       "status": "candidate",
       "text": "Asserting type with help of TypeScript compiler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stretchr/testify",
+      "status": "candidate",
+      "text": "Testify - Thou Shalt Write Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karatelabs/karate",
+      "status": "candidate",
+      "text": "**The open-source tool that combines API testing, mocks, performance testing, and UI automation into a single, unified framework.**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jest-community/jest-extended",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +130,29 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "ksxnodemodules/static-type-assert"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "stretchr/testify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "karatelabs/karate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T12:45:20.475770+00:00",
+      "source_file": null,
+      "source_repo": "jest-community/jest-extended"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "lexical_providers": [
     "datamuse"
   ],

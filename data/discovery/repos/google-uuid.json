@@ -1,0 +1,137 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apidiff.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apidiff.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apidiff.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apidiff.yaml",
+      "source_repo": "google/uuid",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apidiff.yaml",
+      "source_repo": "google/uuid",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/apidiff.yaml",
+      "source_repo": "google/uuid",
+      "target": "apidiff",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "google/uuid",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "google/uuid",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "google/uuid",
+      "target": "tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/uuid",
+      "target": "uuid",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:01:51.055016+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 840
+    },
+    {
+      "path": "go.mod",
+      "size": 30
+    },
+    {
+      "path": ".github/workflows/apidiff.yaml",
+      "size": 585
+    },
+    {
+      "path": ".github/workflows/tests.yaml",
+      "size": 381
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Go package for UUIDs based on RFC 4122 and DCE 1.1: Authentication and Security Services.",
+    "fork": false,
+    "full_name": "google/uuid",
+    "html_url": "https://github.com/google/uuid",
+    "language": "Go",
+    "pushed_at": "2024-11-14T17:05:06Z",
+    "stargazers_count": 6052,
+    "topics": [
+      "go",
+      "uuid"
+    ],
+    "updated_at": "2026-04-29T19:32:25Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "apidiff",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/apidiff.yaml",
+      "term": "apidiff"
+    },
+    {
+      "context_snippet": "tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yaml",
+      "term": "tests"
+    },
+    {
+      "context_snippet": "The uuid package generates and inspects UUIDs based on",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "uuid"
+    }
+  ]
+}

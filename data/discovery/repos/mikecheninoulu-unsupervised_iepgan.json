@@ -1,0 +1,110 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mikecheninoulu/Unsupervised_IEPGAN",
+      "target": "jiashunwang/neural-pose-transfer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mikecheninoulu/Unsupervised_IEPGAN",
+      "target": "rosinality/swapping-autoencoder-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mikecheninoulu/Unsupervised_IEPGAN",
+      "target": "lcosmo/limp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mikecheninoulu/Unsupervised_IEPGAN",
+      "target": "meshes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mikecheninoulu/Unsupervised_IEPGAN",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mikecheninoulu/Unsupervised_IEPGAN",
+      "target": "style-transfer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:07:55.902958+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3048
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Source code for ICCV 2021 paper, IEPGAN",
+    "fork": false,
+    "full_name": "mikecheninoulu/Unsupervised_IEPGAN",
+    "html_url": "https://github.com/mikecheninoulu/Unsupervised_IEPGAN",
+    "language": "Python",
+    "pushed_at": "2022-04-10T22:25:18Z",
+    "stargazers_count": 25,
+    "topics": [
+      "3d",
+      "meshes",
+      "pytorch",
+      "style-transfer"
+    ],
+    "updated_at": "2025-01-15T11:29:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jiashunwang/neural-pose-transfer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lcosmo/limp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rosinality/swapping-autoencoder-pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This is the PyTorch implementation of our ICCV 2021 paper [Intrinsic-Extrinsic Preserved GANs for Unsupervised 3D Pose Transfer](https://arxiv.org/abs/2108.07520). <br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "meshes"
+    },
+    {
+      "context_snippet": "This is the PyTorch implementation of our ICCV 2021 paper [Intrinsic-Extrinsic Preserved GANs for Unsupervised 3D Pose Transfer](https://arxiv.org/abs/2108.07520). <br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "This is the PyTorch implementation of our ICCV 2021 paper [Intrinsic-Extrinsic Preserved GANs for Unsupervised 3D Pose Transfer](https://arxiv.org/abs/2108.07520). <br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "style-transfer"
+    }
+  ]
+}

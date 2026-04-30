@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T12:50:56.283192+00:00",
+  "fetched_files": [
+    {
+      "path": "requirements.txt",
+      "size": 117
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "ComfyUI wrapper nodes for EasyAnimateV3",
+    "fork": false,
+    "full_name": "kijai/ComfyUI-EasyAnimateWrapper",
+    "html_url": "https://github.com/kijai/ComfyUI-EasyAnimateWrapper",
+    "language": "Python",
+    "pushed_at": "2024-08-14T02:20:18Z",
+    "stargazers_count": 87,
+    "topics": [],
+    "updated_at": "2026-02-13T07:32:32Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

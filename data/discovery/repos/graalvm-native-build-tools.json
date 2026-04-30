@@ -1,0 +1,473 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-documentation.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-snapshots.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-graalvm-metadata.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-graalvm-metadata.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-junit-platform-native.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-junit-platform-native.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-native-gradle-plugin.yml"
+    },
+    {
+      "component": "graalvm/setup-graalvm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-native-gradle-plugin.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-native-gradle-plugin.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-native-gradle-plugin.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-native-gradle-plugin.yml"
+    },
+    {
+      "component": "graalvm/setup-graalvm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-native-gradle-plugin.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-native-gradle-plugin.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-native-gradle-plugin.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-native-gradle-plugin.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-native-gradle-plugin.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-native-gradle-plugin.yml"
+    },
+    {
+      "component": "graalvm/setup-graalvm@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-native-gradle-plugin.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-native-gradle-plugin.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-native-maven-plugin.yml"
+    },
+    {
+      "component": "graalvm/setup-graalvm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-native-maven-plugin.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-native-maven-plugin.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-native-maven-plugin.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-native-maven-plugin.yml"
+    },
+    {
+      "component": "graalvm/setup-graalvm@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-native-maven-plugin.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-native-maven-plugin.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-documentation.yml",
+      "source_repo": "graalvm/native-build-tools",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-documentation.yml",
+      "source_repo": "graalvm/native-build-tools",
+      "target": "Deploy documentation to website",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-snapshots.yml",
+      "source_repo": "graalvm/native-build-tools",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-snapshots.yml",
+      "source_repo": "graalvm/native-build-tools",
+      "target": "Deploy snapshots",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-graalvm-metadata.yml",
+      "source_repo": "graalvm/native-build-tools",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-graalvm-metadata.yml",
+      "source_repo": "graalvm/native-build-tools",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-graalvm-metadata.yml",
+      "source_repo": "graalvm/native-build-tools",
+      "target": "Test GraalVM Reachability Metadata Repository",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-junit-platform-native.yml",
+      "source_repo": "graalvm/native-build-tools",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-junit-platform-native.yml",
+      "source_repo": "graalvm/native-build-tools",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-junit-platform-native.yml",
+      "source_repo": "graalvm/native-build-tools",
+      "target": "Test junit-platform-native",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-native-gradle-plugin.yml",
+      "source_repo": "graalvm/native-build-tools",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-native-gradle-plugin.yml",
+      "source_repo": "graalvm/native-build-tools",
+      "target": "graalvm/setup-graalvm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-native-gradle-plugin.yml",
+      "source_repo": "graalvm/native-build-tools",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-native-gradle-plugin.yml",
+      "source_repo": "graalvm/native-build-tools",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-native-gradle-plugin.yml",
+      "source_repo": "graalvm/native-build-tools",
+      "target": "graalvm/setup-graalvm@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-native-gradle-plugin.yml",
+      "source_repo": "graalvm/native-build-tools",
+      "target": "Test native-gradle-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-native-maven-plugin.yml",
+      "source_repo": "graalvm/native-build-tools",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-native-maven-plugin.yml",
+      "source_repo": "graalvm/native-build-tools",
+      "target": "graalvm/setup-graalvm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-native-maven-plugin.yml",
+      "source_repo": "graalvm/native-build-tools",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-native-maven-plugin.yml",
+      "source_repo": "graalvm/native-build-tools",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-native-maven-plugin.yml",
+      "source_repo": "graalvm/native-build-tools",
+      "target": "graalvm/setup-graalvm@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-native-maven-plugin.yml",
+      "source_repo": "graalvm/native-build-tools",
+      "target": "Test native-maven-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "graalvm/native-build-tools",
+      "target": "graalvm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "graalvm/native-build-tools",
+      "target": "gradle",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "graalvm/native-build-tools",
+      "target": "gradle-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "graalvm/native-build-tools",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "graalvm/native-build-tools",
+      "target": "maven",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "graalvm/native-build-tools",
+      "target": "maven-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "graalvm/native-build-tools",
+      "target": "native-image",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T13:56:49.592734+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1498
+    },
+    {
+      "path": ".github/workflows/deploy-documentation.yml",
+      "size": 1169
+    },
+    {
+      "path": ".github/workflows/deploy-snapshots.yml",
+      "size": 1379
+    },
+    {
+      "path": ".github/workflows/test-graalvm-metadata.yml",
+      "size": 1598
+    },
+    {
+      "path": ".github/workflows/test-junit-platform-native.yml",
+      "size": 1593
+    },
+    {
+      "path": ".github/workflows/test-native-gradle-plugin.yml",
+      "size": 6369
+    },
+    {
+      "path": ".github/workflows/test-native-maven-plugin.yml",
+      "size": 3450
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Native-image plugins for various build tools",
+    "fork": false,
+    "full_name": "graalvm/native-build-tools",
+    "html_url": "https://github.com/graalvm/native-build-tools",
+    "language": "Java",
+    "pushed_at": "2026-04-22T14:51:35Z",
+    "stargazers_count": 445,
+    "topics": [
+      "graalvm",
+      "gradle",
+      "gradle-plugin",
+      "java",
+      "maven",
+      "maven-plugin",
+      "native-image"
+    ],
+    "updated_at": "2026-04-24T13:00:41Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"Deploy documentation to website\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-documentation.yml",
+      "term": "Deploy documentation to website"
+    },
+    {
+      "context_snippet": "\"Deploy snapshots\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-snapshots.yml",
+      "term": "Deploy snapshots"
+    },
+    {
+      "context_snippet": "\"Test GraalVM Reachability Metadata Repository\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-graalvm-metadata.yml",
+      "term": "Test GraalVM Reachability Metadata Repository"
+    },
+    {
+      "context_snippet": "\"Test junit-platform-native\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-junit-platform-native.yml",
+      "term": "Test junit-platform-native"
+    },
+    {
+      "context_snippet": "\"Test native-gradle-plugin\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-native-gradle-plugin.yml",
+      "term": "Test native-gradle-plugin"
+    },
+    {
+      "context_snippet": "\"Test native-maven-plugin\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-native-maven-plugin.yml",
+      "term": "Test native-maven-plugin"
+    },
+    {
+      "context_snippet": "![](https://github.com/graalvm/native-build-tools/actions/workflows/test-native-gradle-plugin.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graalvm"
+    },
+    {
+      "context_snippet": "![](https://github.com/graalvm/native-build-tools/actions/workflows/test-native-gradle-plugin.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gradle"
+    },
+    {
+      "context_snippet": "![](https://github.com/graalvm/native-build-tools/actions/workflows/test-native-gradle-plugin.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gradle-plugin"
+    },
+    {
+      "context_snippet": "![](https://github.com/graalvm/native-build-tools/actions/workflows/test-native-gradle-plugin.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "![](https://github.com/graalvm/native-build-tools/actions/workflows/test-native-gradle-plugin.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "maven"
+    },
+    {
+      "context_snippet": "![](https://github.com/graalvm/native-build-tools/actions/workflows/test-native-gradle-plugin.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "maven-plugin"
+    },
+    {
+      "context_snippet": "![](https://github.com/graalvm/native-build-tools/actions/workflows/test-native-gradle-plugin.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "native-image"
+    }
+  ]
+}

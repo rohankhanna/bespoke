@@ -1,0 +1,607 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clean-up-cache.yml"
+    },
+    {
+      "component": "awalsh128/cache-apt-pkgs-action@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual-release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual-release.yml"
+    },
+    {
+      "component": "hendrikmuhs/ccache-action@v1.2.14",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual-release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual-release.yml"
+    },
+    {
+      "component": "IsaacShelton/update-existing-release@v1.3.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual-release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual-web-examples.yml"
+    },
+    {
+      "component": "awalsh128/cache-apt-pkgs-action@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "hendrikmuhs/ccache-action@v1.2.14",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/of.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/of.yml"
+    },
+    {
+      "component": "hendrikmuhs/ccache-action@v1.2.17",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/of.yml"
+    },
+    {
+      "component": "msys2/setup-msys2@v2.27.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/of.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/of.yml"
+    },
+    {
+      "component": "msys2/setup-msys2@v2.27.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/of.yml"
+    },
+    {
+      "component": "microsoft/setup-msbuild@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/of.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/of.yml"
+    },
+    {
+      "component": "msys2/setup-msys2@v2.27.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/of.yml"
+    },
+    {
+      "component": "microsoft/setup-msbuild@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/of.yml"
+    },
+    {
+      "component": "awalsh128/cache-apt-pkgs-action@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/of.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/of.yml"
+    },
+    {
+      "component": "hendrikmuhs/ccache-action@v1.2.17",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/of.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/of.yml"
+    },
+    {
+      "component": "hendrikmuhs/ccache-action@v1.2.17",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/of.yml"
+    },
+    {
+      "component": "awalsh128/cache-apt-pkgs-action@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/of.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/of.yml"
+    },
+    {
+      "component": "hendrikmuhs/ccache-action@v1.2.17",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/of.yml"
+    },
+    {
+      "component": "awalsh128/cache-apt-pkgs-action@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/of.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/of.yml"
+    },
+    {
+      "component": "hendrikmuhs/ccache-action@v1.2.17",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/of.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/of.yml"
+    },
+    {
+      "component": "hendrikmuhs/ccache-action@v1.2.17",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/of.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/of.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/of.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clean-up-cache-cron.yml",
+      "source_repo": "openframeworks/openFrameworks",
+      "target": "Cleanup Caches by Cron",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clean-up-cache.yml",
+      "source_repo": "openframeworks/openFrameworks",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clean-up-cache.yml",
+      "source_repo": "openframeworks/openFrameworks",
+      "target": "Cleanup Caches by Branch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual-release.yml",
+      "source_repo": "openframeworks/openFrameworks",
+      "target": "awalsh128/cache-apt-pkgs-action@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual-release.yml",
+      "source_repo": "openframeworks/openFrameworks",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual-release.yml",
+      "source_repo": "openframeworks/openFrameworks",
+      "target": "hendrikmuhs/ccache-action@v1.2.14",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual-release.yml",
+      "source_repo": "openframeworks/openFrameworks",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual-release.yml",
+      "source_repo": "openframeworks/openFrameworks",
+      "target": "IsaacShelton/update-existing-release@v1.3.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manual-release.yml",
+      "source_repo": "openframeworks/openFrameworks",
+      "target": "manual-release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual-web-examples.yml",
+      "source_repo": "openframeworks/openFrameworks",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manual-web-examples.yml",
+      "source_repo": "openframeworks/openFrameworks",
+      "target": "build-web-examples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "openframeworks/openFrameworks",
+      "target": "awalsh128/cache-apt-pkgs-action@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "openframeworks/openFrameworks",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "openframeworks/openFrameworks",
+      "target": "hendrikmuhs/ccache-action@v1.2.14",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "openframeworks/openFrameworks",
+      "target": "softprops/action-gh-release@v2.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "openframeworks/openFrameworks",
+      "target": "nightly-linux64",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/of.yml",
+      "source_repo": "openframeworks/openFrameworks",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/of.yml",
+      "source_repo": "openframeworks/openFrameworks",
+      "target": "hendrikmuhs/ccache-action@v1.2.17",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/of.yml",
+      "source_repo": "openframeworks/openFrameworks",
+      "target": "msys2/setup-msys2@v2.27.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/of.yml",
+      "source_repo": "openframeworks/openFrameworks",
+      "target": "microsoft/setup-msbuild@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/of.yml",
+      "source_repo": "openframeworks/openFrameworks",
+      "target": "awalsh128/cache-apt-pkgs-action@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/of.yml",
+      "source_repo": "openframeworks/openFrameworks",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openframeworks/openFrameworks",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openframeworks/openFrameworks",
+      "target": "audio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openframeworks/openFrameworks",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openframeworks/openFrameworks",
+      "target": "creative-coding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openframeworks/openFrameworks",
+      "target": "emscripten",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openframeworks/openFrameworks",
+      "target": "graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openframeworks/openFrameworks",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openframeworks/openFrameworks",
+      "target": "opencv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openframeworks/openFrameworks",
+      "target": "openframeworks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openframeworks/openFrameworks",
+      "target": "opengl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openframeworks/openFrameworks",
+      "target": "raspberry-pi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openframeworks/openFrameworks",
+      "target": "video",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openframeworks/openFrameworks",
+      "target": "windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T15:56:12.495160+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8389
+    },
+    {
+      "path": ".github/workflows/all.py",
+      "size": 685
+    },
+    {
+      "path": ".github/workflows/clean-up-cache-cron.yml",
+      "size": 1783
+    },
+    {
+      "path": ".github/workflows/clean-up-cache.yml",
+      "size": 2149
+    },
+    {
+      "path": ".github/workflows/manual-release.yml",
+      "size": 3388
+    },
+    {
+      "path": ".github/workflows/manual-web-examples.yml",
+      "size": 1737
+    },
+    {
+      "path": ".github/workflows/nightly.yml",
+      "size": 3548
+    },
+    {
+      "path": ".github/workflows/of.yml",
+      "size": 18108
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "openFrameworks is a community-developed cross platform toolkit for creative coding in C++.",
+    "fork": false,
+    "full_name": "openframeworks/openFrameworks",
+    "html_url": "https://github.com/openframeworks/openFrameworks",
+    "language": "C++",
+    "pushed_at": "2026-04-28T19:42:52Z",
+    "stargazers_count": 10363,
+    "topics": [
+      "android",
+      "audio",
+      "computer-vision",
+      "creative-coding",
+      "emscripten",
+      "graphics",
+      "ios",
+      "linux",
+      "opencv",
+      "openframeworks",
+      "opengl",
+      "osx",
+      "raspberry-pi",
+      "video",
+      "windows"
+    ],
+    "updated_at": "2026-04-29T04:41:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Cleanup Caches by Cron",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clean-up-cache-cron.yml",
+      "term": "Cleanup Caches by Cron"
+    },
+    {
+      "context_snippet": "Cleanup Caches by Branch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clean-up-cache.yml",
+      "term": "Cleanup Caches by Branch"
+    },
+    {
+      "context_snippet": "manual-release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manual-release.yml",
+      "term": "manual-release"
+    },
+    {
+      "context_snippet": "build-web-examples",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manual-web-examples.yml",
+      "term": "build-web-examples"
+    },
+    {
+      "context_snippet": "nightly-linux64",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly.yml",
+      "term": "nightly-linux64"
+    },
+    {
+      "context_snippet": "[openFrameworks](http://openframeworks.cc/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "[openFrameworks](http://openframeworks.cc/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio"
+    },
+    {
+      "context_snippet": "[openFrameworks](http://openframeworks.cc/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "[openFrameworks](http://openframeworks.cc/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "creative-coding"
+    },
+    {
+      "context_snippet": "[openFrameworks](http://openframeworks.cc/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emscripten"
+    },
+    {
+      "context_snippet": "[openFrameworks](http://openframeworks.cc/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphics"
+    },
+    {
+      "context_snippet": "[openFrameworks](http://openframeworks.cc/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "[openFrameworks](http://openframeworks.cc/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opencv"
+    },
+    {
+      "context_snippet": "[openFrameworks](http://openframeworks.cc/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openframeworks"
+    },
+    {
+      "context_snippet": "[openFrameworks](http://openframeworks.cc/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opengl"
+    },
+    {
+      "context_snippet": "[openFrameworks](http://openframeworks.cc/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "raspberry-pi"
+    },
+    {
+      "context_snippet": "[openFrameworks](http://openframeworks.cc/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video"
+    },
+    {
+      "context_snippet": "[openFrameworks](http://openframeworks.cc/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    }
+  ]
+}
