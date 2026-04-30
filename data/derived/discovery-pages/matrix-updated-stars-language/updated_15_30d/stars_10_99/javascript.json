@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 185,
-    "concepts": 64,
-    "observations": 64,
-    "repos": 15,
-    "terms": 64
+    "components": 306,
+    "concepts": 77,
+    "observations": 77,
+    "repos": 22,
+    "terms": 77
   },
   "facet_version": 1,
   "filters": {
@@ -12,22 +12,29 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "AdguardTeam/CodeGuidelines",
     "berty/www.berty.tech",
     "bmad-code-org/bmad-module-creative-intelligence-suite",
     "coderaiser/supertape",
     "dart-lang/site-shared",
+    "dwyl/aws-ses-lambda",
+    "dwyl/hapi-postgres-connection",
+    "dwyl/phoenix-liveview-stopwatch",
+    "electerm/electerm-locales",
     "faressoft/inquirer-checkbox-plus-prompt",
     "gr2m/before-after-hook",
     "graphql/composite-schemas-wg",
     "graphql/graphql-js-wg",
-    "haskell-actions/run-fourmolu",
+    "grommet/grommet-site",
     "hectorm/chafa-wasm",
+    "i18next/i18next-icu",
     "ipfs/js-ipfs-utils",
     "ipld/js-dag-cbor",
     "Level/browser-level",
-    "Level/memory-level"
+    "Level/memory-level",
+    "neverendingqs/serverless-dotenv-example",
+    "tc39/proposal-iterator-includes"
   ]
 }

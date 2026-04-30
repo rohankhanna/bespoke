@@ -1,0 +1,20 @@
+{
+  "counts": {
+    "components": 13,
+    "concepts": 5,
+    "observations": 5,
+    "repos": 2,
+    "terms": 5
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "typescript",
+    "star_bucket": "stars_1_9",
+    "updated_bucket": "updated_91_180d"
+  },
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "repo_ids": [
+    "Kong/proxy-wasm-assemblyscript-sdk",
+    "vim-fall/deno-fall-extra"
+  ]
+}

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 89,
-    "concepts": 142,
-    "observations": 142,
-    "repos": 30,
-    "terms": 136
+    "concepts": 185,
+    "observations": 185,
+    "repos": 38,
+    "terms": 179
   },
   "facet_version": 1,
   "filters": {
@@ -12,37 +12,45 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
+    "ace-step/ACE-Step",
     "adrienverge/yamllint",
     "AIDC-AI/Marco-o1",
     "AIDC-AI/Ovis",
     "alteryx/featuretools",
+    "AmberSahdev/Open-Interface",
     "andreafrancia/trash-cli",
     "anthropics/claude-code-security-review",
     "bazelbuild/starlark",
+    "Beckschen/TransUNet",
     "benjaminp/six",
     "BlinkDL/ChatRWKV",
     "breezedeus/CnOCR",
     "brycedrennan/imaginAIry",
+    "ChenmienTan/RL2",
     "CLUEbenchmark/CLUE",
+    "CrazyBoyM/llama3-Chinese-chat",
     "crowsonkb/k-diffusion",
     "davidhalter/jedi-vim",
     "django/asgiref",
+    "DLYuanGod/TinyGPT-V",
+    "google/vizier",
     "graphql-python/graphene-django",
     "jaredks/rumps",
     "kijai/ComfyUI-WanVideoWrapper",
     "langfengQ/verl-agent",
     "meta-llama/llama-models",
     "mosaicml/streaming",
-    "open-mmlab/mmcv",
     "PaddlePaddle/PaddleSeg",
     "Python-Markdown/markdown",
     "qix-/better-exceptions",
+    "QwenLM/Qwen-Image",
     "SafeAILab/EAGLE",
     "shibing624/text2vec",
     "simonw/claude-code-transcripts",
     "toshas/torch-fidelity",
-    "webdataset/webdataset"
+    "webdataset/webdataset",
+    "ZhengPeng7/BiRefNet"
   ]
 }

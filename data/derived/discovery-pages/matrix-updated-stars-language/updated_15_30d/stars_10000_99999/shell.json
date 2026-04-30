@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 28,
-    "concepts": 51,
-    "observations": 51,
-    "repos": 5,
-    "terms": 45
+    "components": 26,
+    "concepts": 43,
+    "observations": 43,
+    "repos": 6,
+    "terms": 42
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "agarrharr/awesome-cli-apps",
+    "dockur/windows",
     "nodesource/distributions",
-    "nvm-sh/nvm",
     "oh-my-fish/oh-my-fish",
-    "spaceship-prompt/spaceship-prompt"
+    "tj/n",
+    "zarazhangrui/frontend-slides"
   ]
 }

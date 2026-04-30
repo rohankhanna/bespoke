@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 75,
-    "concepts": 23,
-    "observations": 23,
-    "repos": 24,
-    "terms": 23
+    "components": 90,
+    "concepts": 40,
+    "observations": 40,
+    "repos": 31,
+    "terms": 40
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,24 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "abap2ui5/abap2ui5-build",
     "adre5577/contour-tinted",
+    "alekcz/pcp-template",
     "altgr/opam-publish",
+    "ashwincc/yolov6-sagemaker",
     "avsm/ocaml-uri",
     "benwmills/core-sass-compiler",
+    "bluebear94/Terminal-WCWidth",
     "bnosac/audio.vadsilero",
     "bnosac/images",
     "bronter/wgpu-native-zig-windows-test",
     "chrisguida/nix-dell",
+    "cjnolet/atacworks",
+    "crc-org/engineering-docs",
+    "danielrosehill/AI-Friendly-Badge",
+    "dixyes/ghactionsplay",
     "dop-amin/ches2025-slothy-tutorial",
     "erick2418/vue-axios-vuex-jwt",
     "girishji/ngramview-complete.vim",

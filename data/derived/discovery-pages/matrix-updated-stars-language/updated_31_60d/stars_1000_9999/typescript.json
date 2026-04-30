@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 653,
-    "concepts": 137,
-    "observations": 137,
-    "repos": 17,
-    "terms": 162
+    "components": 749,
+    "concepts": 171,
+    "observations": 171,
+    "repos": 21,
+    "terms": 195
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "actions/download-artifact",
     "ben-rogerson/twin.macro",
@@ -20,6 +20,7 @@
     "ekalinin/sitemap.js",
     "enisdenjo/graphql-ws",
     "gpac/mp4box.js",
+    "graphql-hive/graphql-config",
     "infinitered/nsfwjs",
     "Ironclad/rivet",
     "isaacs/node-glob",
@@ -27,8 +28,11 @@
     "josStorer/RWKV-Runner",
     "lobehub/lobe-chat-agents",
     "microsoft/genaiscript",
+    "microsoft/tsdoc",
     "nanbingxyz/5ire",
+    "react-native-webview/react-native-webview",
     "REditorSupport/vscode-R",
+    "standard-schema/standard-schema",
     "stephenh/ts-proto",
     "vercel/serve"
   ]

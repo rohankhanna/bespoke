@@ -20,13 +20,14 @@
       "size": 1130
     }
   ],
+  "metadata_refreshed_at": "2026-04-30T05:51:05.793807+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
     "description": "Cargo subcommand \"release\": everything about releasing a rust crate.",
     "fork": true,
-    "full_name": "Byron/cargo-release",
+    "full_name": "byron/cargo-release",
     "html_url": "https://github.com/Byron/cargo-release",
     "language": "Rust",
     "pushed_at": "2021-05-09T02:43:06Z",

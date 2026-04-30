@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 7,
-    "concepts": 32,
-    "observations": 32,
-    "repos": 3,
-    "terms": 32
+    "components": 13,
+    "concepts": 49,
+    "observations": 49,
+    "repos": 5,
+    "terms": 49
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "jtablesaw/tablesaw",
     "locationtech/jts",
+    "msgpack/msgpack-java",
+    "objectbox/objectbox-java",
     "srikanth-lingala/zip4j"
   ]
 }

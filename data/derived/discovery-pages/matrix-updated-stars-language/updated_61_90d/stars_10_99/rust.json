@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 55,
-    "concepts": 42,
-    "observations": 42,
-    "repos": 10,
-    "terms": 41
+    "components": 72,
+    "concepts": 52,
+    "observations": 52,
+    "repos": 12,
+    "terms": 51
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,17 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "acw/simple_asn1",
     "alloy-rs/op-alloy",
     "antonengelhardt/wasm-oidc-plugin",
+    "baerwang/openapi-rs",
     "Cykooz/libheif-rs",
     "Cykooz/libheif-sys",
     "dsxmachina/rfm",
     "ethereum/eipw",
+    "googlefonts/shaperglot",
     "joseluisq/paket",
     "nebelgrau77/airsniffer-esp32c6",
     "sigp/ethereum_hashing"

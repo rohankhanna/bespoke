@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 98,
-    "concepts": 81,
-    "observations": 81,
-    "repos": 18,
-    "terms": 81
+    "components": 157,
+    "concepts": 124,
+    "observations": 126,
+    "repos": 31,
+    "terms": 127
   },
   "facet_version": 1,
   "filters": {
@@ -12,25 +12,38 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "alex/rust-asn1",
+    "alloy-rs/core",
+    "alloy-rs/svm-rs",
     "cryscan/web-rwkv",
     "ctz/graviola",
     "drahnr/cargo-spellcheck",
+    "dtormoen/tsk-tsk",
+    "esp-rs/rust",
+    "facebookexperimental/allocative",
     "FedericoPonzi/Horust",
     "gdesmott/system-deps",
     "gjtorikian/commonmarker",
     "in-toto/attestation",
+    "Kampfkarren/full-moon",
     "mitsuhiko/similar-asserts",
     "nix-community/lorri",
     "nixops4/nixops4",
+    "posit-dev/air",
+    "proxy-wasm/proxy-wasm-rust-sdk",
     "ramsayleung/rspotify",
+    "rust-analyzer/rowan",
     "rust-lang/libz-sys",
     "rust-lang/pkg-config-rs",
     "rust-mobile/rust-android-examples",
-    "rust-nvml/nvml-wrapper",
+    "RustCrypto/AEADs",
+    "rustcrypto/signatures",
     "saghen/frizbee",
-    "sparsemat/sprs"
+    "saphyr-rs/saphyr",
+    "tauri-apps/muda",
+    "tikv/jemallocator",
+    "yeslogic/allsorts"
   ]
 }

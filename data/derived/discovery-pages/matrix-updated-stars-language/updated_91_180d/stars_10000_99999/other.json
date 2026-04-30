@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 9,
-    "concepts": 30,
-    "observations": 30,
-    "repos": 4,
-    "terms": 30
+    "components": 15,
+    "concepts": 39,
+    "observations": 39,
+    "repos": 7,
+    "terms": 39
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,14 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "anthropics/courses",
     "camenduru/stable-diffusion-webui-colab",
     "folke/lazy.nvim",
+    "github/copilot.vim",
+    "QwenLM/Qwen3-VL",
+    "tachyons-css/tachyons",
     "ziglang/zig"
   ]
 }

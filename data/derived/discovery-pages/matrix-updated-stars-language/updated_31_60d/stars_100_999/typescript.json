@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 665,
-    "concepts": 117,
-    "observations": 117,
-    "repos": 22,
-    "terms": 136
+    "components": 717,
+    "concepts": 128,
+    "observations": 129,
+    "repos": 24,
+    "terms": 144
   },
   "facet_version": 1,
   "filters": {
@@ -12,21 +12,22 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
-    "a2aproject/a2a-inspector",
+    "antfu-collective/bumpp",
+    "antfu/changelogithub",
     "aquasecurity/trivy-vscode-extension",
     "aws-samples/dify-self-hosted-on-aws",
     "Charlie85270/Dorothy",
     "connectrpc/connect-query-es",
     "cztomsik/ava",
-    "eckardt/cchistory",
     "ethereum/staking-launchpad",
     "graphql-hive/graphql-eslint",
     "haskell/vscode-haskell",
     "lobehub/lobe-charts",
     "lobehub/lobe-midjourney-webui",
     "lobehub/lobe-tts",
+    "microsoft/vscode-debugadapter-node",
     "multiformats/js-multiformats",
     "PanAeon/vscode-tmgrammar-test",
     "Piebald-AI/gemini-cli-desktop",
@@ -35,6 +36,7 @@
     "sudocode-ai/sudocode",
     "sveltejs/prettier-plugin-svelte",
     "thesayyn/protoc-gen-ts",
+    "trzsz/trzsz.js",
     "vim-denops/denops.vim"
   ]
 }

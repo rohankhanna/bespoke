@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 35,
-    "concepts": 29,
-    "observations": 29,
-    "repos": 7,
-    "terms": 29
+    "components": 49,
+    "concepts": 43,
+    "observations": 43,
+    "repos": 9,
+    "terms": 43
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,13 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "apache/incubator-seata-go-samples",
     "apache/incubator-seata-k8s",
     "bored-engineer/github-conditional-http-transport",
+    "ipfs/go-ipfs-example-plugin",
+    "ipfs/go-log",
     "jm33-m0/arc",
     "multiformats/go-varint",
     "rose-pine/rose-pine-bloom",

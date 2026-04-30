@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 212,
-    "concepts": 160,
-    "observations": 163,
-    "repos": 26,
-    "terms": 160
+    "components": 177,
+    "concepts": 150,
+    "observations": 150,
+    "repos": 22,
+    "terms": 150
   },
   "facet_version": 1,
   "filters": {
@@ -12,32 +12,28 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "a2aproject/a2a-go",
     "AdguardTeam/urlfilter",
     "ai-dynamo/grove",
-    "alibaba/loongsuite-go-agent",
     "bazel-contrib/rules_img",
+    "bitrise-io/bitrise",
+    "boj/redistore",
     "bufbuild/protovalidate-go",
     "chainguard-dev/melange",
-    "docker/model-runner",
-    "ethereum/hive",
-    "hashicorp/terraform-plugin-framework",
+    "ClickHouse/ch-go",
+    "cloudwego/eino-examples",
+    "Consensys/gnark-crypto",
     "ipfs/boxo",
     "ipfs/rainbow",
     "Kong/deck",
-    "kubecfg/kubecfg",
     "kubernetes-sigs/prow",
     "kubernetes/apiextensions-apiserver",
-    "kubernetes/metrics",
     "kubernetes/sample-apiserver",
-    "labring/aiproxy",
     "microsoft/dcp",
     "moul/gotty-client",
-    "openshift/enhancements",
     "ossf/osv-schema",
-    "prometheus/common",
     "snowflakedb/gosnowflake",
     "web-platform-tests/wpt.fyi"
   ]

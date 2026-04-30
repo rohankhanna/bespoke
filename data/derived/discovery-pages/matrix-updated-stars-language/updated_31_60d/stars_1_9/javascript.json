@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 27,
-    "concepts": 34,
-    "observations": 34,
-    "repos": 5,
-    "terms": 34
+    "components": 41,
+    "concepts": 36,
+    "observations": 36,
+    "repos": 6,
+    "terms": 36
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "agent-sh/deslop",
     "agent-sh/ship",
     "brody2consult/react-native-init-func",
     "fishballapp/inquirer-cli",
-    "lucabubi/star-history"
+    "lucabubi/star-history",
+    "REditorSupport/vscode-R-syntax"
   ]
 }

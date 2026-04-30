@@ -1,31 +1,35 @@
 {
   "counts": {
-    "components": 36,
-    "concepts": 37,
-    "observations": 37,
-    "repos": 14,
-    "terms": 37
+    "components": 26,
+    "concepts": 36,
+    "observations": 36,
+    "repos": 18,
+    "terms": 36
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
-    "conda-forge/cccl-feedstock",
-    "conda-forge/conda-lock-feedstock",
-    "conda-forge/python-isal-feedstock",
     "conda-forge/tianshou-feedstock",
     "danielrosehill/AI-Presentation-Builders-Index",
+    "danielrosehill/AI-Safety-Projects-Index",
+    "danielrosehill/Claude-ADB-Ops-Plugin",
+    "danielrosehill/Claude-AI-Video-Producer-Plugin",
+    "danielrosehill/Claude-Backup-Planner-Plugin",
+    "danielrosehill/Claude-Browser-Data-Capture-Plugin",
     "danielrosehill/Claude-Israel",
+    "danielrosehill/Responsible-Agent-Skill-Development",
     "DataDog/vault",
-    "DeepWok/mase-docker",
-    "hmellor/vllm",
+    "hermit-os/.github",
     "kdubbo/xds-api",
+    "mukel/gptoss.java",
+    "mukel/nemotron3.java",
     "nodenv/node-build-prerelease",
     "regro/cf-graph-countyfair",
-    "rltakashige/mlx-jaccl-fix-small-recv",
+    "squidowl/iced",
     "TransferQueue/community_doc"
   ]
 }

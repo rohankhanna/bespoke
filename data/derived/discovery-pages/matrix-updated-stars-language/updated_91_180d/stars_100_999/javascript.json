@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 125,
-    "concepts": 30,
-    "observations": 30,
-    "repos": 12,
-    "terms": 31
+    "components": 166,
+    "concepts": 49,
+    "observations": 49,
+    "repos": 18,
+    "terms": 50
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,24 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
+    "attractivechaos/k8",
     "ayoubben18/ab-method",
     "bramstein/url-template",
     "charmbracelet/tree-sitter-vhs",
+    "dzeiocom/lucide-astro",
+    "fengari-lua/fengari-interop",
     "gherghett/Antigravity-Shit-Chat",
     "Level/awesome",
     "Meteor-Community-Packages/meteor-scss",
     "nodejs/abi-stable-node",
     "nodejs/citgm",
     "restify/errors",
+    "RReverser/wasm-bindgen-rayon",
     "rust-lang/lang-team",
+    "scripting/reallysimple",
+    "tree-sitter/tree-sitter-javascript",
     "tree-sitter/tree-sitter-julia",
     "ValYouW/njsTrace"
   ]

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 55,
-    "concepts": 34,
-    "observations": 34,
-    "repos": 8,
-    "terms": 34
+    "components": 82,
+    "concepts": 60,
+    "observations": 60,
+    "repos": 12,
+    "terms": 60
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,19 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
+    "a2aproject/a2a-java",
+    "bazel-contrib/rules_jvm_external",
+    "connectbot/sshlib",
     "Cosium/git-code-format-maven-plugin",
     "eclipse-lemminx/lemminx",
-    "eclipse-lsp4j/lsp4j",
+    "googleapis/google-api-java-client-services",
     "googleapis/google-auth-library-java",
     "googleapis/google-oauth-java-client",
     "higress-group/higress-console",
     "microsoft/java-debug",
+    "microsoft/semantic-kernel-java",
     "spotbugs/sonar-findbugs"
   ]
 }

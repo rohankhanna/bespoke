@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3,
-    "concepts": 2,
-    "observations": 2,
-    "repos": 2,
-    "terms": 2
+    "components": 26,
+    "concepts": 13,
+    "observations": 13,
+    "repos": 3,
+    "terms": 13
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
-    "kubernetes-sigs/provider-aws-test-infra",
-    "openshift/ci-tools"
+    "bitrise-io/stepman",
+    "EngFlow/gazelle_cc",
+    "Kong/kong-operator"
   ]
 }

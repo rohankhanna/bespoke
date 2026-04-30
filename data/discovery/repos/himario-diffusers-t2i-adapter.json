@@ -324,13 +324,14 @@
       "size": 4456
     }
   ],
+  "metadata_refreshed_at": "2026-04-30T05:51:57.552273+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "main",
     "description": "\ud83e\udd17 Diffusers: State-of-the-art diffusion models for image and audio generation in PyTorch",
     "fork": true,
-    "full_name": "HimariO/diffusers-t2i-adapter",
+    "full_name": "himario/diffusers-t2i-adapter",
     "html_url": "https://github.com/HimariO/diffusers-t2i-adapter",
     "language": "Python",
     "pushed_at": "2023-04-19T16:33:05Z",

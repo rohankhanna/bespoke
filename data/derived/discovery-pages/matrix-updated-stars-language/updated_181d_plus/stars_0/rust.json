@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 62,
-    "concepts": 22,
-    "observations": 23,
-    "repos": 11,
-    "terms": 22
+    "components": 81,
+    "concepts": 29,
+    "observations": 30,
+    "repos": 15,
+    "terms": 29
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "boundless-xyz/reth",
+    "byron/cargo-release",
     "cgisky1980/hf-hub",
     "Commit-Boost/blstrs",
     "ComunidadAylas/glsl-lang",
@@ -24,6 +25,9 @@
     "eigenwallet/dfx-swiss-rs",
     "imandra-ai/tldrs",
     "mikelodder7/blstrs",
-    "nugine/simd-benches"
+    "nugine/simd-benches",
+    "OlivierDehaene/candle",
+    "passcod/cargo-release-pr-test",
+    "s3bk/svg"
   ]
 }

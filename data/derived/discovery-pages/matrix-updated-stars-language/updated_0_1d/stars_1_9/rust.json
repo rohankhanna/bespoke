@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 10,
-    "concepts": 7,
-    "observations": 7,
-    "repos": 2,
-    "terms": 7
+    "components": 19,
+    "concepts": 12,
+    "observations": 12,
+    "repos": 4,
+    "terms": 12
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,11 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
-    "curiousdannii/remglk-rs",
-    "eth-act/ere-guests"
+    "black-desk/djotfmt",
+    "dcampbell24/djot-implementations",
+    "flathub-infra/flat-manager-hooks",
+    "snowflakedb/universal-driver"
   ]
 }

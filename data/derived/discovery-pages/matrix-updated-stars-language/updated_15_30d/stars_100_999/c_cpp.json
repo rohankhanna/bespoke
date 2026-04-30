@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 94,
-    "concepts": 83,
-    "observations": 86,
-    "repos": 25,
-    "terms": 83
+    "components": 134,
+    "concepts": 160,
+    "observations": 163,
+    "repos": 36,
+    "terms": 159
   },
   "facet_version": 1,
   "filters": {
@@ -12,25 +12,34 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "afbjorklund/lima-gui",
     "amzn/amzn-drivers",
+    "ankane/faiss-ruby",
     "artemsen/swayimg",
     "ashvardanian/ForkUnion",
     "bnprks/BPCells",
+    "CarlosDerSeher/snapclient",
     "cloudwu/ltask",
     "containers/conmon",
     "DavidKinder/Windows-Frotz",
+    "eddelbuettel/rcppsimdjson",
     "ghostty-org/ghostling",
+    "google-deepmind/reverb",
+    "google/perf_data_converter",
+    "heal-research/operon",
     "ifduyue/python-xxhash",
+    "intel/opencl-clang",
     "intel/QAT_Engine",
     "ipsilon/evmc",
     "microsoft/Tutel",
     "ml-explore/mlx-c",
     "mybigday/whisper.rn",
     "nfrechette/rtm",
+    "ng-log/ng-log",
     "NiklasRosenstein/pbzx",
+    "NiLuJe/FBInk",
     "pauldmccarthy/indexed_gzip",
     "RoaringBitmap/croaring-rs",
     "SHI-Labs/NATTEN",
@@ -38,6 +47,8 @@
     "tpoechtrager/apple-libtapi",
     "tpoechtrager/cctools-port",
     "webgpu-native/webgpu-headers",
-    "WojciechMula/toys"
+    "WojciechMula/toys",
+    "xiph/vorbis",
+    "Yubico/libfido2"
   ]
 }

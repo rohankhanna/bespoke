@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 61,
-    "concepts": 48,
-    "observations": 49,
-    "repos": 5,
-    "terms": 48
+    "components": 170,
+    "concepts": 136,
+    "observations": 137,
+    "repos": 13,
+    "terms": 136
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,20 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
+    "actix/examples",
     "apache/datafusion-ballista",
-    "apache/datafusion-comet",
-    "rizsotto/Bear",
-    "rust-lang/miri",
-    "smallcloudai/refact"
+    "cargo-bins/cargo-binstall",
+    "dmtrKovalenko/fff",
+    "georust/geo",
+    "GreptimeTeam/greptimedb",
+    "hermit-os/kernel",
+    "huggingface/text-embeddings-inference",
+    "notify-rs/notify",
+    "raphamorim/rio",
+    "rust-lang/rustfmt",
+    "squidowl/halloy",
+    "wasm-bindgen/wasm-bindgen"
   ]
 }

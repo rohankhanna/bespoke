@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 32,
-    "concepts": 4,
-    "observations": 4,
-    "repos": 9,
-    "terms": 10
+    "components": 33,
+    "concepts": 5,
+    "observations": 5,
+    "repos": 10,
+    "terms": 11
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "AdaCore/vss-extra",
     "b2agi/exist-is-charter",
+    "conda-forge/cccl-feedstock",
     "danielrosehill/AI-Ideation-Runs",
     "firestryk/chatgpt-website.github.io",
     "genuslovoacalixtusiii510/ytp-2026",

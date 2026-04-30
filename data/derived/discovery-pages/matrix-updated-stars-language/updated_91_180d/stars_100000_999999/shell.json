@@ -1,0 +1,19 @@
+{
+  "counts": {
+    "components": 45,
+    "concepts": 6,
+    "observations": 6,
+    "repos": 1,
+    "terms": 6
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "shell",
+    "star_bucket": "stars_100000_999999",
+    "updated_bucket": "updated_91_180d"
+  },
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "repo_ids": [
+    "d3/d3"
+  ]
+}

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 15,
-    "concepts": 13,
-    "observations": 13,
+    "components": 8,
+    "concepts": 11,
+    "observations": 11,
     "repos": 1,
-    "terms": 13
+    "terms": 11
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,8 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
-    "a2aproject/A2A"
+    "rockerBOO/awesome-neovim"
   ]
 }

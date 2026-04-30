@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 30,
-    "concepts": 49,
-    "observations": 50,
-    "repos": 10,
-    "terms": 48
+    "components": 78,
+    "concepts": 94,
+    "observations": 95,
+    "repos": 20,
+    "terms": 93
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,27 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "adamritter/fastgron",
+    "angr/vex",
     "apache/casbin-cpp",
     "chfast/intx",
     "CppCXY/EmmyLuaCodeStyle",
+    "devkitPro/libctru",
     "google/effcee",
+    "google/ruy",
+    "Kong/ngx_wasm_module",
     "martinmoene/lest",
+    "mlc-ai/tokenizers-cpp",
+    "numactl/numactl",
+    "nvpro-samples/nvpro_core",
+    "proxy-wasm/proxy-wasm-cpp-sdk",
     "rust-fuzz/libfuzzer",
     "sasha0552/nvidia-pstated",
     "stardot/b-em",
-    "starwing/luautf8"
+    "starwing/luautf8",
+    "tree-sitter-grammars/tree-sitter-markdown",
+    "ZDisket/TensorVox"
   ]
 }

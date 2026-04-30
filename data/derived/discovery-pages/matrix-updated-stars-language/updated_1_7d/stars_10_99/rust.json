@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 97,
-    "concepts": 50,
-    "observations": 50,
-    "repos": 13,
-    "terms": 50
+    "components": 123,
+    "concepts": 70,
+    "observations": 70,
+    "repos": 15,
+    "terms": 70
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,22 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "ai-dynamo/modelexpress",
     "alloy-rs/evm",
-    "amazon-ion/ion-cli",
     "apache/opendal-oli",
-    "arkworks-rs/spongefish",
-    "bitcoindevkit/bdk_wallet",
+    "arkworks-rs/std",
     "bitcoindevkit/rust-electrum-client",
-    "boundless-xyz/kailua",
-    "celo-org/celo-threshold-bls-rs",
+    "eopb/cargo-override",
     "eth-act/ere",
     "eth-act/zkboost",
+    "filecoin-project/builtin-actors",
+    "mrcjkb/vimcats",
     "paradigmxyz/stateless",
-    "Sovereign-Labs/rollup-starter"
+    "rust-bitcoin/corepc",
+    "Systemcluster/kitoken",
+    "urschrei/rdp",
+    "vaporif/parry-guard"
   ]
 }

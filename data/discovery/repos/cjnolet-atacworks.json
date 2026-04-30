@@ -24,13 +24,14 @@
       "size": 732
     }
   ],
+  "metadata_refreshed_at": "2026-04-30T05:51:38.278741+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "dev-v0.4.0",
     "description": "Deep learning based processing of Atac-seq data",
     "fork": true,
-    "full_name": "cjnolet/AtacWorks",
+    "full_name": "cjnolet/atacworks",
     "html_url": "https://github.com/cjnolet/AtacWorks",
     "language": "Jupyter Notebook",
     "pushed_at": "2023-02-16T22:29:50Z",

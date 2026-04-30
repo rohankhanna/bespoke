@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 49,
-    "concepts": 39,
-    "observations": 39,
-    "repos": 16,
-    "terms": 39
+    "components": 75,
+    "concepts": 56,
+    "observations": 56,
+    "repos": 28,
+    "terms": 56
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,31 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "0ghny/tlsg10x-cli",
+    "13rac1/goldmark-embed",
+    "akhettar/gin-jwt-cognito",
     "alexellis/discord-updater",
+    "antlabs/pulse",
     "apache/casbin-fasthttp-auth",
     "apache/incubator-seata-ctl",
     "bored-engineer/httpcache",
     "bors-ng/dockerize",
+    "canidam/echo-scs-session",
+    "chawyehsu/nvm-windows",
+    "cloudfoundry/auctioneer",
     "DeprecatedGoModules/redigo",
     "docker-archive-public/atomisthq.pod-atomisthq-tools.docker",
     "dubbo-go-pixiu/pixiu-api",
+    "EpicStep/clickhouse-go-rows-utils",
+    "go-bun/go-http-routing-benchmark",
     "go-woo/protoc-gen-ent",
+    "high-moctane/mocword-data",
+    "hungran/hyper-mcp-hackernews-tool",
+    "kong/proxy-wasm-go-rate-limiting",
     "kurrent-io/es-gencert-cli",
+    "nick-triller/khcheck-external-secrets",
     "norwoodj/hashbash-backend-go",
     "olric-data/olric-consul-plugin",
     "oras-project/distribution",

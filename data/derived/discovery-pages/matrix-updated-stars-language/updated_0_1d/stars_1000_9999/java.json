@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 17,
-    "concepts": 13,
-    "observations": 13,
-    "repos": 1,
-    "terms": 13
+    "components": 120,
+    "concepts": 167,
+    "observations": 167,
+    "repos": 13,
+    "terms": 167
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,20 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
-    "eclipse-openvsx/openvsx"
+    "apache/beam",
+    "apache/flink-kubernetes-operator",
+    "apache/parquet-java",
+    "aws/aws-sdk-java-v2",
+    "checkstyle/checkstyle",
+    "confluentinc/schema-registry",
+    "eclipse-jdtls/eclipse.jdt.ls",
+    "eclipse-openvsx/openvsx",
+    "firebase/firebase-android-sdk",
+    "googleapis/google-cloud-java",
+    "helidon-io/helidon",
+    "iterate-ch/cyberduck",
+    "junit-team/junit-framework"
   ]
 }

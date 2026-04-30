@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 56,
-    "concepts": 29,
-    "observations": 29,
-    "repos": 4,
-    "terms": 29
+    "components": 196,
+    "concepts": 164,
+    "observations": 164,
+    "repos": 26,
+    "terms": 164
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,33 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
-    "elixir-ecto/db_connection",
-    "grafana/k8s-monitoring-helm",
-    "ROCm/rocm-libraries",
-    "status-im/nimbus-eth2"
+    "BetterThanTomorrow/joyride",
+    "bgruening/galaxytools",
+    "bitwarden/ios",
+    "clojure-emacs/orchard",
+    "cloudfoundry/cloud_controller_ng",
+    "danielrosehill/Claude-Code-Projects-Index",
+    "day8/re-com",
+    "day8/re-frame-10x",
+    "esp-rs/rust-build",
+    "espressif/llvm-project",
+    "galaxyproject/tools-iuc",
+    "GoogleCloudPlatform/cloud-sdk-docker",
+    "JuliaCI/BenchmarkTools.jl",
+    "k8s-operatorhub/community-operators",
+    "karafka/rdkafka-ruby",
+    "KhronosGroup/SPIRV-LLVM-Translator",
+    "kubernetes/k8s.io",
+    "MobileNativeFoundation/rules_xcodeproj",
+    "redhat-openshift-ecosystem/community-operators-prod",
+    "scalameta/nvim-metals",
+    "ScoopInstaller/Java",
+    "ScoopInstaller/Nonportable",
+    "ScoopInstaller/Versions",
+    "sigstore/root-signing",
+    "simplex-chat/simplexmq",
+    "status-im/status-app"
   ]
 }

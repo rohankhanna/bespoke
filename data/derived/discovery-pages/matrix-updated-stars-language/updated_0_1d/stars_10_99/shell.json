@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 9,
-    "concepts": 4,
-    "observations": 4,
-    "repos": 2,
-    "terms": 4
+    "components": 14,
+    "concepts": 20,
+    "observations": 20,
+    "repos": 3,
+    "terms": 20
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-25T05:15:34.459750+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
-    "Azure/aaz",
-    "envoyproxy/examples"
+    "bufbuild/homebrew-buf",
+    "electerm/electerm-web-docker",
+    "tinted-theming/tinted-terminal"
   ]
 }

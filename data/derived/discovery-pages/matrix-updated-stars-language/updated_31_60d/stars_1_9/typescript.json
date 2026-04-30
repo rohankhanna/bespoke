@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 80,
-    "concepts": 19,
-    "observations": 19,
-    "repos": 6,
-    "terms": 19
+    "components": 91,
+    "concepts": 20,
+    "observations": 20,
+    "repos": 7,
+    "terms": 20
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "aquasecurity/tfsec-azure-pipelines-task",
     "Bartheleway/inquirer-table-multiple",
     "ipfs/helia-delegated-routing-v1-http-api",
     "mattiacolombomc/raycast-handy",
     "maxritter/pilot-shell-demo",
-    "neuroverseos/neuroverseos-openclaw-governance"
+    "neuroverseos/neuroverseos-openclaw-governance",
+    "realworld-apps/nitro-prisma-zod-realworld-example-app"
   ]
 }

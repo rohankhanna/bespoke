@@ -44,13 +44,14 @@
       "size": 277
     }
   ],
+  "metadata_refreshed_at": "2026-04-30T05:51:42.164960+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
     "description": "A tensorflow & keras implementation of Deep Head Pose",
     "fork": false,
-    "full_name": "Oreobird/tf-keras-deep-head-pose",
+    "full_name": "oreobird/tf-keras-deep-head-pose",
     "html_url": "https://github.com/Oreobird/tf-keras-deep-head-pose",
     "language": "Python",
     "pushed_at": "2022-06-28T01:14:23Z",

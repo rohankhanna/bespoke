@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 7,
-    "concepts": 5,
-    "observations": 5,
-    "repos": 4,
-    "terms": 5
+    "components": 15,
+    "concepts": 8,
+    "observations": 8,
+    "repos": 5,
+    "terms": 8
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "arckoor/jsonwebtoken-botan",
     "eigenwallet/arti",
+    "hyper-mcp-rs/arxiv-plugin",
     "kayabaNerve/monero-oxide",
     "Sovereign-Labs/reltester"
   ]

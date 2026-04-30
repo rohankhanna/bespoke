@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 39,
-    "concepts": 50,
-    "observations": 50,
+    "components": 32,
+    "concepts": 48,
+    "observations": 48,
     "repos": 8,
-    "terms": 50
+    "terms": 48
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,15 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "b-data/jupyterlab-julia-docker-stack",
     "b-data/jupyterlab-mojo-docker-stack",
-    "cake-contrib/Cake.Markdownlint",
-    "celo-org/charts",
-    "conda-forge/pybind11-feedstock",
-    "conda-forge/scikit-build-core-feedstock",
+    "beeware/beeware-docs-tools",
     "curiousdannii/emglken",
-    "enbop/fungi-app"
+    "enbop/fungi-app",
+    "hao-ai-lab/flash-attention-fp4",
+    "KhronosGroup/KTX-Software-CTS",
+    "moznion/sbt-spotless"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 385,
-    "concepts": 61,
-    "observations": 62,
-    "repos": 12,
-    "terms": 65
+    "components": 499,
+    "concepts": 65,
+    "observations": 66,
+    "repos": 17,
+    "terms": 85
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "absolute-version/absolute-version-js",
     "agents-squads/squads-cli",
@@ -20,10 +20,15 @@
     "buddingnewinsights/proxypal",
     "electron-userland/electron-windows-msix",
     "ElementsProject/cln-application",
+    "gicentre/prettier-plugin-elm",
     "gnosischain/gbc-deposit-ui",
+    "Godefroy/micdrop",
+    "huangguang1999/ccstatusline-zh",
     "ipfs/ipld-explorer-components",
     "jerseycheese/narraitor",
+    "lobehub/lobe-lint",
     "microsoft/vscode-js-debug-companion",
+    "sgcarstrends/sgcarstrends",
     "Shougo/ddu-ui-ff",
     "zhayujie/cow-skill-hub"
   ]

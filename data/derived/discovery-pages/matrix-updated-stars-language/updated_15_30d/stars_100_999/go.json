@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 136,
-    "concepts": 92,
-    "observations": 92,
-    "repos": 20,
-    "terms": 91
+    "components": 186,
+    "concepts": 142,
+    "observations": 142,
+    "repos": 30,
+    "terms": 141
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,27 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "adrg/xdg",
+    "andybalholm/brotli",
+    "apache/dubbo-go-pixiu",
     "aws/credentials-fetcher",
+    "bernardo-bruning/ollama-copilot",
     "bluesky-social/goat",
-    "bradleyfalzon/ghinstallation",
     "broderick-westrope/tetrigo",
     "charmbracelet/colorprofile",
+    "cloudfoundry/gosigar",
     "coder/code-marketplace",
     "connectrpc/validate-go",
+    "devgianlu/go-librespot",
     "docker-library/bashbrew",
     "ekalinin/github-markdown-toc.go",
+    "ethereum-optimism/op-geth",
     "ethereum-optimism/superchain-registry",
-    "go-chi/docgen",
+    "go-viper/mapstructure",
+    "google/triage-party",
+    "google/trillian-examples",
     "hashicorp/errwrap",
     "hashicorp/go-discover",
     "hashicorp/hello-vault-go",
@@ -33,6 +40,9 @@
     "ipfs/go-cid",
     "ipfs/ipfs-docs",
     "jaegertracing/jaeger-idl",
-    "lightninglabs/neutrino"
+    "kubernetes/cri-api",
+    "lightninglabs/neutrino",
+    "mailru/go-clickhouse",
+    "prometheus/exporter-toolkit"
   ]
 }

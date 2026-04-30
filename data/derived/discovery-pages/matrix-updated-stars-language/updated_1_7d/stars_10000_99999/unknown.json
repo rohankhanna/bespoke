@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 5,
-    "concepts": 28,
-    "observations": 28,
-    "repos": 3,
-    "terms": 28
+    "components": 2,
+    "concepts": 15,
+    "observations": 15,
+    "repos": 2,
+    "terms": 15
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
-    "BradyFU/Awesome-Multimodal-Large-Language-Models",
     "fffaraz/awesome-cpp",
-    "microsoft/winget-pkgs"
+    "matiassingers/awesome-readme"
   ]
 }

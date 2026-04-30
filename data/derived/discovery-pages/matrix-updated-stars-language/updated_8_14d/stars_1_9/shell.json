@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3,
-    "concepts": 2,
-    "observations": 2,
-    "repos": 5,
-    "terms": 2
+    "components": 2,
+    "concepts": 1,
+    "observations": 1,
+    "repos": 4,
+    "terms": 1
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
-    "agent-sh/glidemq",
     "alvistack/ansible-role-conmon",
     "cdeust/zetetic-team-subagents",
-    "chronosphereio/calyptia-cli",
+    "conda-forge/pgvector-feedstock",
     "status-im/nimbus-build-system"
   ]
 }

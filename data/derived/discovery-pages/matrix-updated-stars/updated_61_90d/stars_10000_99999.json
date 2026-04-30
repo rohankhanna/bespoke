@@ -1,24 +1,28 @@
 {
   "counts": {
-    "components": 222,
-    "concepts": 154,
-    "observations": 154,
-    "repos": 28,
-    "terms": 153
+    "components": 375,
+    "concepts": 204,
+    "observations": 205,
+    "repos": 35,
+    "terms": 203
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "Alibaba-NLP/DeepResearch",
     "anthropics/claude-quickstarts",
+    "antlr/antlr4",
+    "astral-sh/rye",
     "bmaltais/kohya_ss",
+    "bootandy/dust",
     "burntsushi/ripgrep",
     "caolan/async",
     "ComposioHQ/awesome-claude-skills",
+    "ekzhang/bore",
     "ffmpegwasm/ffmpeg.wasm",
     "FortAwesome/Font-Awesome",
     "FoundationAgents/OpenManus",
@@ -26,6 +30,7 @@
     "go-chi/chi",
     "gulpjs/gulp",
     "Jiayi-Pan/TinyZero",
+    "jtoy/awesome-tensorflow",
     "junegunn/vim-plug",
     "kyleneideck/backgroundmusic",
     "lucidrains/denoising-diffusion-pytorch",
@@ -35,11 +40,13 @@
     "nikic/PHP-Parser",
     "NVlabs/instant-ngp",
     "privatenumber/tsx",
-    "QwenLM/Qwen3-VL",
+    "Redocly/redoc",
     "sharkdp/hyperfine",
     "snarktank/ralph",
     "tqdm/tqdm",
     "transitive-bullshit/agentic",
+    "vitejs/awesome-vite",
+    "yoheinakajima/babyagi",
     "zsh-users/zsh-syntax-highlighting"
   ]
 }

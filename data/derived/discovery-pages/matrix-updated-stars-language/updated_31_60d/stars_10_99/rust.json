@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 66,
-    "concepts": 62,
-    "observations": 62,
-    "repos": 11,
-    "terms": 62
+    "components": 79,
+    "concepts": 86,
+    "observations": 86,
+    "repos": 14,
+    "terms": 86
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,19 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "agentclientprotocol/symposium-acp",
     "apache/casbin-actix-casbin-auth",
     "apache/casbin-axum-casbin",
-    "arkworks-rs/std",
+    "dcampbell24/mdbook-djot",
     "dgn/oidc-filter",
     "fortanix/rust-mbedtls",
+    "kurrent-io/KurrentDB-Client-Rust",
     "libp2p/if-watch",
     "microsoft/tracing-etw",
+    "psmux/psnet",
+    "psmux/Tmux-Plugin-Panel",
     "randombit/botan-rs",
     "sigp/rust-libp2p",
     "Vaishnav-Sabari-Girish/Hayasen"

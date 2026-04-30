@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 272,
-    "concepts": 56,
-    "observations": 57,
-    "repos": 12,
-    "terms": 55
+    "components": 459,
+    "concepts": 104,
+    "observations": 105,
+    "repos": 21,
+    "terms": 103
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,19 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "afc163/fanyi",
     "alexmojaki/birdseye",
+    "antimatter15/splat",
+    "APIDevTools/swagger-parser",
+    "architect/architect",
+    "Blizzard/node-rdkafka",
+    "broccolijs/broccoli",
+    "facebook/fbjs",
+    "fengari-lua/fengari",
+    "form-data/form-data",
+    "gautamkrishnar/nothing-private",
     "guybedford/es-module-lexer",
     "guybedford/es-module-shims",
     "gwudcap/cc-sessions",

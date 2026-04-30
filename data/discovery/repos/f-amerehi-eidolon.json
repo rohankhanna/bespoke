@@ -20,13 +20,14 @@
       "size": 526
     }
   ],
+  "metadata_refreshed_at": "2026-04-30T05:51:48.348032+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
     "description": "Eidolons: Novel Stimuli for Vision Research",
     "fork": true,
-    "full_name": "f-amerehi/Eidolon",
+    "full_name": "f-amerehi/eidolon",
     "html_url": "https://github.com/f-amerehi/Eidolon",
     "language": "Python",
     "pushed_at": "2023-06-18T18:23:30Z",

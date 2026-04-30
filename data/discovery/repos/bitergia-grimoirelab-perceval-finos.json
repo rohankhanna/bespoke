@@ -24,13 +24,14 @@
       "size": 166
     }
   ],
+  "metadata_refreshed_at": "2026-04-30T05:52:04.011916+00:00",
   "related_repositories": [],
   "repo": {
     "archived": true,
     "default_branch": "master",
     "description": "Bundle of Perceval backends for FINOS ecosystem",
     "fork": false,
-    "full_name": "Bitergia/grimoirelab-perceval-finos",
+    "full_name": "bitergia/grimoirelab-perceval-finos",
     "html_url": "https://github.com/Bitergia/grimoirelab-perceval-finos",
     "language": "Python",
     "pushed_at": "2022-02-14T06:47:29Z",

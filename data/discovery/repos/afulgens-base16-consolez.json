@@ -30,13 +30,14 @@
       "size": 1348
     }
   ],
+  "metadata_refreshed_at": "2026-04-30T05:52:10.389934+00:00",
   "related_repositories": [],
   "repo": {
     "archived": true,
     "default_branch": "master",
     "description": "Base16 for ConsoleZ",
     "fork": false,
-    "full_name": "AFulgens/base16-consolez",
+    "full_name": "afulgens/base16-consolez",
     "html_url": "https://github.com/AFulgens/base16-consolez",
     "language": "Mustache",
     "pushed_at": "2024-01-02T12:40:05Z",

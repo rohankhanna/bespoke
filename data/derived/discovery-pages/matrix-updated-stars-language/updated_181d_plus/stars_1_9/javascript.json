@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 600,
-    "concepts": 77,
-    "observations": 78,
-    "repos": 33,
-    "terms": 77
+    "components": 792,
+    "concepts": 107,
+    "observations": 108,
+    "repos": 49,
+    "terms": 107
   },
   "facet_version": 1,
   "filters": {
@@ -12,21 +12,33 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "14nrv/serverless-lambda-stripe",
+    "5sControl/5s-webserver",
     "abap2UI5/builder",
+    "adeweb-be/volto-leaflet-block",
+    "affinitic/volto-icon-selector-widget",
+    "andenacitelli/openapi-endpoint-trimmer",
     "angular/dev-infra-private-build-tooling-builds",
     "aralyekta/prompttester",
     "ari-os310/eslint-plugin-jsx-a11y",
     "atom-community/autocomplete-plus",
     "behnamazimi/inquirer-checkbox-plus-plus",
+    "bigtimebuddy/svg-reorient",
+    "boxworld18/OpenWebAgent",
+    "cb1kenobi/hook-emitter",
     "ccdanpian/current-datetime",
+    "celo-org/SocialConnect-ReactNative-Demo",
     "chatie/tsconfig",
     "coderaiser/speca",
+    "codesyntax/volto-cookiebot",
+    "codesyntax/volto-countup-block",
     "dmi3y/expo-release-please-example",
     "docpad/docpad-plugin-nodesass",
     "firefox-devtools/remote-settings-mdn-browser-compat-data",
+    "fnproject/flowui",
+    "forerosantiago/irc-translate-bot",
     "fwcd/atom-ide-kotlin",
     "gabrielschulhof/iotivity-node",
     "gajus/conventional-changelog-lint-config-canonical",
@@ -35,8 +47,10 @@
     "iodide-project/iodide-transpiler",
     "ipfs-examples/example-template",
     "ipfs-shipyard/contributors-hex-grid",
+    "ipld/js-block",
     "josephfrazier/standard-eject",
-    "kybernetwork/dao_sc",
+    "KyberNetwork/dao_sc",
+    "l3d00m/mmm-librespotjava",
     "level/browserify-starter",
     "level/webpack-starter",
     "libp2p/js-libp2p-example-auto-tls",
@@ -44,8 +58,10 @@
     "libp2p/js-libp2p-example-chat",
     "libp2p/js-libp2p-example-circuit-relay",
     "libp2p/js-libp2p-example-connection-encryption",
+    "micromatch/expand-braces",
     "pulsar-cooperative/linter-shellcheck-pulsar",
     "putoutjs/putout-processor-typos",
+    "therealharpaljadeja/socialconnect_rn_demo",
     "wa-lang/webgpu"
   ]
 }

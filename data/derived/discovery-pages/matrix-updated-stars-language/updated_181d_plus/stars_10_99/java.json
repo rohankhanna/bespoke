@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 38,
-    "concepts": 18,
-    "observations": 18,
-    "repos": 13,
-    "terms": 19
+    "components": 42,
+    "concepts": 36,
+    "observations": 36,
+    "repos": 23,
+    "terms": 37
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,30 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "abilian/abilian-sbe",
     "angelozerr/ec4e",
+    "avsej/gson.rb",
+    "caprica/vlcj-info",
     "cyberphone/jws-ct",
     "dgileadi/dg.jdt.ls.decompiler",
     "didalgolab/ai-intellij-plugin",
+    "eclipse-acute/aCute",
+    "eclipse-archived/dartboard",
     "editorconfig/editorconfig-core-java",
+    "extism/chicory-sdk",
     "gchq/koryphe",
     "glaforge/gemini-workshop-for-java-developers",
     "jerrylususu/PaddleOCR-json-java-api",
     "JetBrains/spotbugs-intellij-plugin",
+    "marbl/MHAP",
     "mikepapadim/llama2.tornadovm.java",
+    "redis-developer/redis-om-spring-skeleton-app",
     "setl/rdf-urdna",
+    "SpencerPark/jupyter-jvm-basekernel",
+    "SpencerPark/MellowD",
+    "U-Alberta/wned",
     "Vinhixus/TornadoVM-Ray-Tracer"
   ]
 }

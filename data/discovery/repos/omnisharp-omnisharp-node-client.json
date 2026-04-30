@@ -298,13 +298,14 @@
       "size": 1880
     }
   ],
+  "metadata_refreshed_at": "2026-04-30T05:52:19.052329+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
     "description": "node client for the omnisharp-roslyn server",
     "fork": false,
-    "full_name": "OmniSharp/omnisharp-node-client",
+    "full_name": "omnisharp/omnisharp-node-client",
     "html_url": "https://github.com/OmniSharp/omnisharp-node-client",
     "language": "TypeScript",
     "pushed_at": "2021-05-06T18:08:07Z",

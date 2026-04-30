@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 0,
-    "concepts": 2,
-    "observations": 2,
-    "repos": 1,
-    "terms": 2
+    "components": 9,
+    "concepts": 6,
+    "observations": 6,
+    "repos": 4,
+    "terms": 6
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,11 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
-    "danielrosehill/AI-Agent-Virtual-Panel-Configs"
+    "all-the-noises/data",
+    "danielrosehill/AI-Agent-Virtual-Panel-Configs",
+    "prestodb/presto-dev",
+    "rose-pine/homebrew-tap"
   ]
 }

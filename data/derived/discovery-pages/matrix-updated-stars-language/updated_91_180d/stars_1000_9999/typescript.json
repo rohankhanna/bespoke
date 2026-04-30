@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 313,
-    "concepts": 61,
-    "observations": 62,
-    "repos": 12,
-    "terms": 67
+    "components": 514,
+    "concepts": 88,
+    "observations": 89,
+    "repos": 17,
+    "terms": 94
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,23 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "EventSource/eventsource",
+    "glimmerjs/glimmer-vm",
     "google-github-actions/auth",
     "google/gts",
+    "googleapis/google-auth-library-nodejs",
+    "kentcdodds/cross-env",
     "labring/laf",
     "lokerl/tts-vue",
     "msgpack/msgpack-javascript",
     "numman-ali/openskills",
     "omnara-ai/omnara",
+    "PaulLeCam/react-leaflet",
     "piotrostr/listen",
     "shareAI-lab/Kode-Agent",
+    "tancredi/fantasticon",
     "vercel/ms",
     "WebAV-Tech/WebAV"
   ]

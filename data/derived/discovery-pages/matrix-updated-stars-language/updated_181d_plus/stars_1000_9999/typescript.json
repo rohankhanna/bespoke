@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 778,
-    "concepts": 150,
-    "observations": 150,
-    "repos": 30,
-    "terms": 154
+    "components": 879,
+    "concepts": 177,
+    "observations": 177,
+    "repos": 35,
+    "terms": 181
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "027xiguapi/pear-rec",
     "anse-app/anse",
@@ -20,12 +20,14 @@
     "apollographql/graphql-tag",
     "apollographql/subscriptions-transport-ws",
     "arethetypeswrong/arethetypeswrong.github.io",
+    "astahmer/openapi-zod-client",
     "benjamn/ast-types",
     "benjamn/recast",
     "cevek/ttypescript",
     "ConsenSys-archive/ganache",
     "dethcrypto/TypeChain",
     "dilanx/craco",
+    "domeccleston/sharegpt",
     "eastlondoner/vibe-tools",
     "ElricLiu/AutoGPT-Next-Web",
     "expo/expo-cli",
@@ -33,11 +35,14 @@
     "graphql/express-graphql",
     "graphql/graphql-relay-js",
     "gzuidhof/starboard-notebook",
+    "improbable-eng/grpc-web",
     "inkline/inkline",
     "jquery/esprima",
     "kentcdodds/babel-plugin-preval",
+    "nsfw-filter/nsfw-filter",
     "plantain-00/type-coverage",
     "redis/redis-om-node",
+    "rust-lang/vscode-rust",
     "serafimcloud/21st",
     "tremorlabs/tremor",
     "Uniswap/v3-core",

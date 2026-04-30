@@ -62,13 +62,14 @@
       "size": 710
     }
   ],
+  "metadata_refreshed_at": "2026-04-30T05:52:06.045603+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "main",
     "description": "AssemblyScript implementation of a prototype rate-limiting filter using proxy-wasm ",
     "fork": false,
-    "full_name": "Kong/proxy-wasm-assemblyscript-rate-limiting",
+    "full_name": "kong/proxy-wasm-assemblyscript-rate-limiting",
     "html_url": "https://github.com/Kong/proxy-wasm-assemblyscript-rate-limiting",
     "language": "TypeScript",
     "pushed_at": "2023-11-03T13:26:41Z",

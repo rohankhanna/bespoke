@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 14,
-    "concepts": 10,
-    "observations": 10,
-    "repos": 1,
-    "terms": 10
+    "components": 22,
+    "concepts": 11,
+    "observations": 11,
+    "repos": 3,
+    "terms": 11
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,10 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
-    "dreamiurg/peakbagger-cli"
+    "eea/eea-website-backend",
+    "meridianlabs-ai/inspect_harbor",
+    "mozilla-ai/otari"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 117,
-    "concepts": 76,
-    "observations": 76,
-    "repos": 16,
-    "terms": 76
+    "components": 135,
+    "concepts": 93,
+    "observations": 93,
+    "repos": 23,
+    "terms": 91
   },
   "facet_version": 1,
   "filters": {
@@ -12,23 +12,30 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
+    "a2aproject/a2a-tck",
     "ansible/ansible-compat",
-    "Ascend/TransferQueue",
+    "AstraZeneca/runnable",
     "atlanhq/application-sdk",
-    "aws-controllers-k8s/test-infra",
-    "bufbuild/protovalidate-python",
+    "caketop/python-starlark-go",
+    "castorini/anserini-tools",
+    "cloudfoundry/community",
     "conda-forge/admin-requests",
-    "conda-forge/conda-forge-repodata-patches-feedstock",
+    "DanielNoord/pydocstringformatter",
     "DeterminateSystems/determinate-nix-action",
+    "executablebooks/mdit-py-plugins",
     "HabanaAI/vllm-fork",
-    "harbor-framework/harbor-cookbook",
-    "jxpress/lightning-hydra-template-vertex-ai",
+    "instadeepai/fastpbrl",
+    "intel-staging/text-generation-webui",
+    "mayeut/pep600_compliance",
     "meta-pytorch/MSLK",
-    "metatensor/metatensor",
-    "ModelCloud/Evalution",
+    "notofonts/notobuilder",
     "OpenHands/benchmarks",
-    "ROCm/tritonBLAS"
+    "plone/cookieplone",
+    "pre-commit/sync-pre-commit-deps",
+    "sublimelsp/LSP-ruff",
+    "symgraph/BinAssistMCP",
+    "theupdateframework/tuf-on-ci"
   ]
 }

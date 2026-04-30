@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 75,
-    "concepts": 32,
-    "observations": 32,
-    "repos": 4,
-    "terms": 44
+    "components": 207,
+    "concepts": 33,
+    "observations": 33,
+    "repos": 7,
+    "terms": 36
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,13 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
+    "fission-ai/openspec",
+    "googleapis/google-api-nodejs-client",
+    "lerna/lerna",
     "mlc-ai/web-llm",
-    "ruvnet/ruflo",
+    "realworld-apps/realworld",
     "shareai-lab/learn-claude-code",
     "tobi/qmd"
   ]

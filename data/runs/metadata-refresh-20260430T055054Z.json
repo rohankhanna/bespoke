@@ -1,0 +1,1207 @@
+{
+  "budget_seconds": 2400,
+  "elapsed_seconds": 86.729,
+  "generated_at": "2026-04-30T05:50:54.454414+00:00",
+  "refresh_limit": 250,
+  "refreshed_count": 235,
+  "refreshed_repositories": [
+    "avsm/ocaml-uri",
+    "gabrielschulhof/iotivity-node",
+    "nlamirault/markdownfmt",
+    "boingoing/node-sass",
+    "changjiashuai/kotlin-multiaddr",
+    "tachyons-css/tachyons-display-verbose",
+    "cryptonomic/conseiljs-reasonml-bindings",
+    "altgr/opam-publish",
+    "marwes/hubcaps",
+    "mhdawson/node-sqlite3",
+    "matt-gardner/allennlp",
+    "meteoswiss-mdr/pyart",
+    "comit-network/hash_edwards_to_edwards",
+    "marwes/gluon",
+    "vega/logos",
+    "erick2418/vue-axios-vuex-jwt",
+    "alexgorbatchev/typescript-transform-react-jsx-source",
+    "byron/cargo-release",
+    "zyedidia/blobs",
+    "redcaps-dataset/pytorch-retinaface",
+    "hashnuke/heroku-buildpack-elixir-otp-builds",
+    "mikesteglich/coliop",
+    "mikesteglich/jcmpl",
+    "acts-project/opendatadetector",
+    "unixorn/autoupdate-zgenom",
+    "level/browserify-starter",
+    "s3bk/svg",
+    "m4rc1e/test-ufr-family",
+    "sudo-suhas/lint-staged-django-react-demo",
+    "alekcz/pcp-template",
+    "blockstream/rust-electrum-client",
+    "kasztp/url_shortener",
+    "curiousnoob/lerna-release-workflow",
+    "ojdkbuild/contrib_jdk11u-ci",
+    "coderaiser/c8-reproduce",
+    "mickaelrigault/pymage",
+    "songquanpeng/blog-theme-bootstrap5",
+    "songquanpeng/blog-theme-bootstrap",
+    "docpad/docpad-plugin-nodesass",
+    "appscodelabs/liche",
+    "kosta-github/cute",
+    "kazuk/cargo-make-coverage-grcov",
+    "endemolshinegroup/cz-github",
+    "jianweisun007/athena-sjw",
+    "14nrv/serverless-lambda-stripe",
+    "git-up/libgit2",
+    "avantikalal/rapids-single-cell-examples",
+    "tritondatacenter/node-cmdutil",
+    "askonomm/shh",
+    "comit-network/monero-rs",
+    "shesek/rust-jsonrpc",
+    "akamming/domoticz-snapcast",
+    "clearbluejar/ghidra-pyi-generator",
+    "espressosystems/espresso-systems-common",
+    "flet/sublimelinter-contrib-semistandard",
+    "cncf/wg-networking",
+    "benwmills/core-sass-compiler",
+    "shirommakkad/base16-jetbrains-ide-monokai",
+    "newrelic/open-source-office",
+    "avsej/gson.rb",
+    "atom-community/autocomplete-plus",
+    "xledger/pod_tsql_scriptdom",
+    "ve-forbryderne/mkultra",
+    "liuzechun0216/images",
+    "cccs-jc/sql-formatter",
+    "kushaldas/cpython",
+    "connorgmeehan/nest.nvim",
+    "pengzhendong/files",
+    "bitrise-steplib/step-template",
+    "longlho/ts-transform-img",
+    "tritondatacenter/node-getopt",
+    "takari/m2e-discovery-catalog",
+    "basecase/testdouble-chai",
+    "aerobounce/sublime-autoclosepanel",
+    "norwoodj/hashbash-backend-java",
+    "passcod/cargo-release-pr-test",
+    "putoutjs/putout-processor-typos",
+    "caprica/vlcj-file-filters",
+    "codertocat/hello-world",
+    "kleisauke/glib",
+    "executablebooks/.github",
+    "alex-petrenko/sf_assets",
+    "americanpresidentjimmycarter/xformers-builds",
+    "songquanpeng/blog-theme-next",
+    "sourcegraph/godockerize",
+    "mzr1996/pytorch_sphinx_theme",
+    "userbait/phishing_sites_detector",
+    "4catalyzer/javascript",
+    "sebelga/promised-hooks",
+    "ojdkbuild/contrib_jdk8u-ci",
+    "mrsmkl/keep-awake-rs",
+    "arturbosch/kutils",
+    "goldsteine/compe-latex-symbols",
+    "rigellute/scoop-bucket",
+    "zwhus/pictures",
+    "dwyl/mongo-search",
+    "datafuse-extras/clickhouse_driver",
+    "spacemeshos/local-testnet",
+    "molotovcherry/tree-sitter-wasm",
+    "ipld/js-block",
+    "celo-org/plumo-prover",
+    "cgrindel/bazel-doc",
+    "ipfs/js-ipfs-block-service",
+    "oras-project/distribution",
+    "meamarp/maskdino",
+    "level/webpack-starter",
+    "lockblox/multibase",
+    "plone/plone.restapi-angular",
+    "cjnolet/atacworks",
+    "aquasecurity/vim-tfsec",
+    "carlverret/fastfloattestbench",
+    "gajus/conventional-changelog-lint-config-canonical",
+    "obahareth/base16-builder-ruby",
+    "ashen-sensored/gradio",
+    "dotnet-foundation/wg-corporate-relations",
+    "code1986/sentinel-lib",
+    "asg017/sqlite-base64",
+    "nur-zaman/sd-webui-tunnels",
+    "d0c-s4vage/lookatme.contrib.qrcode",
+    "oreobird/tf-keras-deep-head-pose",
+    "aymericbeaumet/metalsmith-clean-css",
+    "sterlind/peft",
+    "jinfeihan57/p7zip_test_utils",
+    "genome21/langflow",
+    "985892345/mirai-hotfix",
+    "team-acaisia/php-varint",
+    "0ghny/tlsg10x-cli",
+    "jiweimaster/lfs",
+    "0cc4m/hf_bleeding_edge",
+    "adeweb-be/volto-leaflet-block",
+    "ashwincc/yolov6-sagemaker",
+    "geoswift/geoswiftmapboxmaps",
+    "ckan/ckan-service-provider",
+    "aseisugiyama/lab_sample_pipelines",
+    "connectai-e/dingtalk-minimax",
+    "connectai-e/dingtalk-claude",
+    "justfoxing/jfx_bridge",
+    "f-amerehi/eidolon",
+    "josephfrazier/standard-eject",
+    "ichard26/blackbench",
+    "dstein64/media",
+    "gnunicorn/cargo-unleash",
+    "albanie/prompt_formatting_in_latex",
+    "criteo/mesos-term",
+    "seebye/urwid-ueberzogen",
+    "matthew-brett/nb2plots",
+    "hallvard/etablesaw",
+    "atom/autocomplete-atom-api",
+    "webtorrent/.github",
+    "jandamm/zgenom-ext-run",
+    "girishji/ngramview-complete.vim",
+    "nick-triller/khcheck-external-secrets",
+    "ipld/interface-ipld-format",
+    "nim65s/git-archive-all",
+    "cryptonomic/conseiljs-ledgersigner",
+    "cryptonomic/conseiljs-softsigner",
+    "azizzaeny/boot-atomizer",
+    "dustinblackman/rust-hello-world",
+    "bagxi/idrnd-anti-spoofing-challenge-solution",
+    "imkira/go-loggers-bench",
+    "input-output-hk/tullia",
+    "openlmlab/moss_websearchtool",
+    "atom/archive-view",
+    "atomlinter/linter-markdown",
+    "club-soda/club-soda-guide",
+    "himario/diffusers-t2i-adapter",
+    "chriskiehl/gooeyimages",
+    "changjiashuai/kotlin-multibase",
+    "open-mmlab/pytorch_sphinx_theme",
+    "elementai/spider",
+    "standard/brackets-standard",
+    "chrisguida/nix-dell",
+    "jolibrain/caffe",
+    "chatie/tsconfig",
+    "jandamm/zgenom-ext-release",
+    "s3bk/pathfinder_view",
+    "aimerneige/miraichess",
+    "5scontrol/5s-dev-documentation",
+    "eigenbahn/icecream-cljc",
+    "5scontrol/machine-control-js",
+    "aileot/vim-foldpeek",
+    "wintoncode/vault-plugin-auth-kerberos",
+    "autodistill/autodistill-azure-vision",
+    "bitergia/grimoirelab-perceval-finos",
+    "arcanis/jest-pnp-resolver",
+    "l3d00m/mmm-librespotjava",
+    "cb1kenobi/hook-emitter",
+    "dwyl/hapi-error",
+    "isl-org/next-vit",
+    "kong/proxy-wasm-assemblyscript-rate-limiting",
+    "caprica/vlcj-info",
+    "andy1621/nightcrawler",
+    "garrettalbright/luacheck.novaextension",
+    "aaronlamz/vue-next-i18n",
+    "go-bun/go-http-routing-benchmark",
+    "ipld/team-mgmt",
+    "ojdkbuild/contrib_jdk8u-aarch32-ci",
+    "m00qek/matcher_combinators.lua",
+    "joshmedeski/tmux-list",
+    "scaleway/initrd",
+    "panqiwei/peft",
+    "afulgens/base16-console2",
+    "afulgens/base16-consolez",
+    "swiftgen/eve",
+    "allenai/allennlp-template-python-script",
+    "abc403/smca-replication",
+    "celo-org/emisianto",
+    "openlmlab/moss_vortex",
+    "jupyter-contrib/jupyter_contrib_core",
+    "0delta/longdog",
+    "isamert/gedi",
+    "jxpress/hydra-vertex-ai-pipeline",
+    "cxycarson/tf_acblock",
+    "opentracing/basictracer-go",
+    "justinpinkney/nomi",
+    "bnosac/audio.vadsilero",
+    "dwyl/hits-elixir",
+    "buraksezer/olric-kubernetes",
+    "dzryk/clip-grams",
+    "ivyl/vim-bling",
+    "jupyter/notebook-team-compass",
+    "kong/proxy-wasm-go-rate-limiting",
+    "alpha-vllm/wemix-llm",
+    "micromatch/expand-braces",
+    "birkelund/boltdbcache",
+    "dwyl/goodparts",
+    "ocamlpro/opam",
+    "luchoturtle/banger-bot",
+    "omnisharp/omnisharp-node-client",
+    "castorini/anserini-notebooks",
+    "carrotsearch/elasticsearch-lingo3g",
+    "jodyvanden/guard-standardrb",
+    "level/web-stream",
+    "delta1/rust-jsonrpc-client",
+    "borkdude/nbb-action-example"
+  ],
+  "remaining_budget_seconds": 2313.271,
+  "repo_timings": [
+    {
+      "elapsed_seconds": 0.421,
+      "full_name": "avsm/ocaml-uri"
+    },
+    {
+      "elapsed_seconds": 0.433,
+      "full_name": "gabrielschulhof/iotivity-node"
+    },
+    {
+      "elapsed_seconds": 0.409,
+      "full_name": "nlamirault/markdownfmt"
+    },
+    {
+      "elapsed_seconds": 0.463,
+      "full_name": "boingoing/node-sass"
+    },
+    {
+      "elapsed_seconds": 0.336,
+      "full_name": "changjiashuai/kotlin-multiaddr"
+    },
+    {
+      "elapsed_seconds": 0.29,
+      "full_name": "tachyons-css/tachyons-display-verbose"
+    },
+    {
+      "elapsed_seconds": 0.346,
+      "full_name": "cryptonomic/conseiljs-reasonml-bindings"
+    },
+    {
+      "elapsed_seconds": 0.436,
+      "full_name": "altgr/opam-publish"
+    },
+    {
+      "elapsed_seconds": 0.416,
+      "full_name": "marwes/hubcaps"
+    },
+    {
+      "elapsed_seconds": 0.423,
+      "full_name": "mhdawson/node-sqlite3"
+    },
+    {
+      "elapsed_seconds": 0.424,
+      "full_name": "matt-gardner/allennlp"
+    },
+    {
+      "elapsed_seconds": 0.452,
+      "full_name": "meteoswiss-mdr/pyart"
+    },
+    {
+      "elapsed_seconds": 0.359,
+      "full_name": "comit-network/hash_edwards_to_edwards"
+    },
+    {
+      "elapsed_seconds": 0.438,
+      "full_name": "marwes/gluon"
+    },
+    {
+      "elapsed_seconds": 0.307,
+      "full_name": "vega/logos"
+    },
+    {
+      "elapsed_seconds": 0.296,
+      "full_name": "erick2418/vue-axios-vuex-jwt"
+    },
+    {
+      "elapsed_seconds": 0.434,
+      "full_name": "alexgorbatchev/typescript-transform-react-jsx-source"
+    },
+    {
+      "elapsed_seconds": 0.378,
+      "full_name": "byron/cargo-release"
+    },
+    {
+      "elapsed_seconds": 0.333,
+      "full_name": "zyedidia/blobs"
+    },
+    {
+      "elapsed_seconds": 0.444,
+      "full_name": "redcaps-dataset/pytorch-retinaface"
+    },
+    {
+      "elapsed_seconds": 0.316,
+      "full_name": "hashnuke/heroku-buildpack-elixir-otp-builds"
+    },
+    {
+      "elapsed_seconds": 0.303,
+      "full_name": "mikesteglich/coliop"
+    },
+    {
+      "elapsed_seconds": 0.312,
+      "full_name": "mikesteglich/jcmpl"
+    },
+    {
+      "elapsed_seconds": 0.366,
+      "full_name": "acts-project/opendatadetector"
+    },
+    {
+      "elapsed_seconds": 0.337,
+      "full_name": "unixorn/autoupdate-zgenom"
+    },
+    {
+      "elapsed_seconds": 0.362,
+      "full_name": "level/browserify-starter"
+    },
+    {
+      "elapsed_seconds": 0.348,
+      "full_name": "s3bk/svg"
+    },
+    {
+      "elapsed_seconds": 0.328,
+      "full_name": "m4rc1e/test-ufr-family"
+    },
+    {
+      "elapsed_seconds": 0.333,
+      "full_name": "sudo-suhas/lint-staged-django-react-demo"
+    },
+    {
+      "elapsed_seconds": 0.33,
+      "full_name": "alekcz/pcp-template"
+    },
+    {
+      "elapsed_seconds": 0.467,
+      "full_name": "blockstream/rust-electrum-client"
+    },
+    {
+      "elapsed_seconds": 0.302,
+      "full_name": "kasztp/url_shortener"
+    },
+    {
+      "elapsed_seconds": 0.326,
+      "full_name": "curiousnoob/lerna-release-workflow"
+    },
+    {
+      "elapsed_seconds": 0.308,
+      "full_name": "ojdkbuild/contrib_jdk11u-ci"
+    },
+    {
+      "elapsed_seconds": 0.338,
+      "full_name": "coderaiser/c8-reproduce"
+    },
+    {
+      "elapsed_seconds": 0.308,
+      "full_name": "mickaelrigault/pymage"
+    },
+    {
+      "elapsed_seconds": 0.349,
+      "full_name": "songquanpeng/blog-theme-bootstrap5"
+    },
+    {
+      "elapsed_seconds": 0.318,
+      "full_name": "songquanpeng/blog-theme-bootstrap"
+    },
+    {
+      "elapsed_seconds": 0.326,
+      "full_name": "docpad/docpad-plugin-nodesass"
+    },
+    {
+      "elapsed_seconds": 0.438,
+      "full_name": "appscodelabs/liche"
+    },
+    {
+      "elapsed_seconds": 0.306,
+      "full_name": "kosta-github/cute"
+    },
+    {
+      "elapsed_seconds": 0.318,
+      "full_name": "kazuk/cargo-make-coverage-grcov"
+    },
+    {
+      "elapsed_seconds": 0.325,
+      "full_name": "endemolshinegroup/cz-github"
+    },
+    {
+      "elapsed_seconds": 0.421,
+      "full_name": "jianweisun007/athena-sjw"
+    },
+    {
+      "elapsed_seconds": 0.294,
+      "full_name": "14nrv/serverless-lambda-stripe"
+    },
+    {
+      "elapsed_seconds": 0.464,
+      "full_name": "git-up/libgit2"
+    },
+    {
+      "elapsed_seconds": 0.42,
+      "full_name": "avantikalal/rapids-single-cell-examples"
+    },
+    {
+      "elapsed_seconds": 0.33,
+      "full_name": "tritondatacenter/node-cmdutil"
+    },
+    {
+      "elapsed_seconds": 0.29,
+      "full_name": "askonomm/shh"
+    },
+    {
+      "elapsed_seconds": 0.448,
+      "full_name": "comit-network/monero-rs"
+    },
+    {
+      "elapsed_seconds": 0.412,
+      "full_name": "shesek/rust-jsonrpc"
+    },
+    {
+      "elapsed_seconds": 0.283,
+      "full_name": "akamming/domoticz-snapcast"
+    },
+    {
+      "elapsed_seconds": 0.439,
+      "full_name": "clearbluejar/ghidra-pyi-generator"
+    },
+    {
+      "elapsed_seconds": 0.316,
+      "full_name": "espressosystems/espresso-systems-common"
+    },
+    {
+      "elapsed_seconds": 0.313,
+      "full_name": "flet/sublimelinter-contrib-semistandard"
+    },
+    {
+      "elapsed_seconds": 0.334,
+      "full_name": "cncf/wg-networking"
+    },
+    {
+      "elapsed_seconds": 0.315,
+      "full_name": "benwmills/core-sass-compiler"
+    },
+    {
+      "elapsed_seconds": 0.308,
+      "full_name": "shirommakkad/base16-jetbrains-ide-monokai"
+    },
+    {
+      "elapsed_seconds": 0.33,
+      "full_name": "newrelic/open-source-office"
+    },
+    {
+      "elapsed_seconds": 0.31,
+      "full_name": "avsej/gson.rb"
+    },
+    {
+      "elapsed_seconds": 0.441,
+      "full_name": "atom-community/autocomplete-plus"
+    },
+    {
+      "elapsed_seconds": 0.407,
+      "full_name": "xledger/pod_tsql_scriptdom"
+    },
+    {
+      "elapsed_seconds": 0.564,
+      "full_name": "ve-forbryderne/mkultra"
+    },
+    {
+      "elapsed_seconds": 0.302,
+      "full_name": "liuzechun0216/images"
+    },
+    {
+      "elapsed_seconds": 0.565,
+      "full_name": "cccs-jc/sql-formatter"
+    },
+    {
+      "elapsed_seconds": 0.408,
+      "full_name": "kushaldas/cpython"
+    },
+    {
+      "elapsed_seconds": 0.424,
+      "full_name": "connorgmeehan/nest.nvim"
+    },
+    {
+      "elapsed_seconds": 0.323,
+      "full_name": "pengzhendong/files"
+    },
+    {
+      "elapsed_seconds": 0.36,
+      "full_name": "bitrise-steplib/step-template"
+    },
+    {
+      "elapsed_seconds": 0.306,
+      "full_name": "longlho/ts-transform-img"
+    },
+    {
+      "elapsed_seconds": 0.342,
+      "full_name": "tritondatacenter/node-getopt"
+    },
+    {
+      "elapsed_seconds": 0.35,
+      "full_name": "takari/m2e-discovery-catalog"
+    },
+    {
+      "elapsed_seconds": 0.394,
+      "full_name": "basecase/testdouble-chai"
+    },
+    {
+      "elapsed_seconds": 0.398,
+      "full_name": "aerobounce/sublime-autoclosepanel"
+    },
+    {
+      "elapsed_seconds": 0.337,
+      "full_name": "norwoodj/hashbash-backend-java"
+    },
+    {
+      "elapsed_seconds": 0.338,
+      "full_name": "passcod/cargo-release-pr-test"
+    },
+    {
+      "elapsed_seconds": 0.318,
+      "full_name": "putoutjs/putout-processor-typos"
+    },
+    {
+      "elapsed_seconds": 0.33,
+      "full_name": "caprica/vlcj-file-filters"
+    },
+    {
+      "elapsed_seconds": 0.326,
+      "full_name": "codertocat/hello-world"
+    },
+    {
+      "elapsed_seconds": 0.417,
+      "full_name": "kleisauke/glib"
+    },
+    {
+      "elapsed_seconds": 0.358,
+      "full_name": "executablebooks/.github"
+    },
+    {
+      "elapsed_seconds": 0.348,
+      "full_name": "alex-petrenko/sf_assets"
+    },
+    {
+      "elapsed_seconds": 0.354,
+      "full_name": "americanpresidentjimmycarter/xformers-builds"
+    },
+    {
+      "elapsed_seconds": 0.368,
+      "full_name": "songquanpeng/blog-theme-next"
+    },
+    {
+      "elapsed_seconds": 0.436,
+      "full_name": "sourcegraph/godockerize"
+    },
+    {
+      "elapsed_seconds": 0.731,
+      "full_name": "mzr1996/pytorch_sphinx_theme"
+    },
+    {
+      "elapsed_seconds": 0.337,
+      "full_name": "userbait/phishing_sites_detector"
+    },
+    {
+      "elapsed_seconds": 0.345,
+      "full_name": "4catalyzer/javascript"
+    },
+    {
+      "elapsed_seconds": 0.323,
+      "full_name": "sebelga/promised-hooks"
+    },
+    {
+      "elapsed_seconds": 0.305,
+      "full_name": "ojdkbuild/contrib_jdk8u-ci"
+    },
+    {
+      "elapsed_seconds": 0.299,
+      "full_name": "mrsmkl/keep-awake-rs"
+    },
+    {
+      "elapsed_seconds": 0.297,
+      "full_name": "arturbosch/kutils"
+    },
+    {
+      "elapsed_seconds": 0.324,
+      "full_name": "goldsteine/compe-latex-symbols"
+    },
+    {
+      "elapsed_seconds": 0.326,
+      "full_name": "rigellute/scoop-bucket"
+    },
+    {
+      "elapsed_seconds": 0.286,
+      "full_name": "zwhus/pictures"
+    },
+    {
+      "elapsed_seconds": 0.297,
+      "full_name": "dwyl/mongo-search"
+    },
+    {
+      "elapsed_seconds": 0.47,
+      "full_name": "datafuse-extras/clickhouse_driver"
+    },
+    {
+      "elapsed_seconds": 0.314,
+      "full_name": "spacemeshos/local-testnet"
+    },
+    {
+      "elapsed_seconds": 0.298,
+      "full_name": "molotovcherry/tree-sitter-wasm"
+    },
+    {
+      "elapsed_seconds": 0.33,
+      "full_name": "ipld/js-block"
+    },
+    {
+      "elapsed_seconds": 0.321,
+      "full_name": "celo-org/plumo-prover"
+    },
+    {
+      "elapsed_seconds": 0.304,
+      "full_name": "cgrindel/bazel-doc"
+    },
+    {
+      "elapsed_seconds": 0.295,
+      "full_name": "ipfs/js-ipfs-block-service"
+    },
+    {
+      "elapsed_seconds": 0.408,
+      "full_name": "oras-project/distribution"
+    },
+    {
+      "elapsed_seconds": 0.423,
+      "full_name": "meamarp/maskdino"
+    },
+    {
+      "elapsed_seconds": 0.31,
+      "full_name": "level/webpack-starter"
+    },
+    {
+      "elapsed_seconds": 0.325,
+      "full_name": "lockblox/multibase"
+    },
+    {
+      "elapsed_seconds": 0.352,
+      "full_name": "plone/plone.restapi-angular"
+    },
+    {
+      "elapsed_seconds": 0.384,
+      "full_name": "cjnolet/atacworks"
+    },
+    {
+      "elapsed_seconds": 0.331,
+      "full_name": "aquasecurity/vim-tfsec"
+    },
+    {
+      "elapsed_seconds": 0.325,
+      "full_name": "carlverret/fastfloattestbench"
+    },
+    {
+      "elapsed_seconds": 0.312,
+      "full_name": "gajus/conventional-changelog-lint-config-canonical"
+    },
+    {
+      "elapsed_seconds": 0.42,
+      "full_name": "obahareth/base16-builder-ruby"
+    },
+    {
+      "elapsed_seconds": 0.445,
+      "full_name": "ashen-sensored/gradio"
+    },
+    {
+      "elapsed_seconds": 0.345,
+      "full_name": "dotnet-foundation/wg-corporate-relations"
+    },
+    {
+      "elapsed_seconds": 0.34,
+      "full_name": "code1986/sentinel-lib"
+    },
+    {
+      "elapsed_seconds": 0.315,
+      "full_name": "asg017/sqlite-base64"
+    },
+    {
+      "elapsed_seconds": 0.431,
+      "full_name": "nur-zaman/sd-webui-tunnels"
+    },
+    {
+      "elapsed_seconds": 0.286,
+      "full_name": "d0c-s4vage/lookatme.contrib.qrcode"
+    },
+    {
+      "elapsed_seconds": 0.335,
+      "full_name": "oreobird/tf-keras-deep-head-pose"
+    },
+    {
+      "elapsed_seconds": 0.272,
+      "full_name": "aymericbeaumet/metalsmith-clean-css"
+    },
+    {
+      "elapsed_seconds": 0.415,
+      "full_name": "sterlind/peft"
+    },
+    {
+      "elapsed_seconds": 0.347,
+      "full_name": "jinfeihan57/p7zip_test_utils"
+    },
+    {
+      "elapsed_seconds": 0.479,
+      "full_name": "genome21/langflow"
+    },
+    {
+      "elapsed_seconds": 0.343,
+      "full_name": "985892345/mirai-hotfix"
+    },
+    {
+      "elapsed_seconds": 0.328,
+      "full_name": "team-acaisia/php-varint"
+    },
+    {
+      "elapsed_seconds": 0.347,
+      "full_name": "0ghny/tlsg10x-cli"
+    },
+    {
+      "elapsed_seconds": 0.314,
+      "full_name": "jiweimaster/lfs"
+    },
+    {
+      "elapsed_seconds": 0.284,
+      "full_name": "0cc4m/hf_bleeding_edge"
+    },
+    {
+      "elapsed_seconds": 0.339,
+      "full_name": "adeweb-be/volto-leaflet-block"
+    },
+    {
+      "elapsed_seconds": 0.292,
+      "full_name": "ashwincc/yolov6-sagemaker"
+    },
+    {
+      "elapsed_seconds": 0.335,
+      "full_name": "geoswift/geoswiftmapboxmaps"
+    },
+    {
+      "elapsed_seconds": 0.317,
+      "full_name": "ckan/ckan-service-provider"
+    },
+    {
+      "elapsed_seconds": 0.356,
+      "full_name": "aseisugiyama/lab_sample_pipelines"
+    },
+    {
+      "elapsed_seconds": 0.312,
+      "full_name": "connectai-e/dingtalk-minimax"
+    },
+    {
+      "elapsed_seconds": 0.322,
+      "full_name": "connectai-e/dingtalk-claude"
+    },
+    {
+      "elapsed_seconds": 0.334,
+      "full_name": "justfoxing/jfx_bridge"
+    },
+    {
+      "elapsed_seconds": 0.446,
+      "full_name": "f-amerehi/eidolon"
+    },
+    {
+      "elapsed_seconds": 0.307,
+      "full_name": "josephfrazier/standard-eject"
+    },
+    {
+      "elapsed_seconds": 0.307,
+      "full_name": "ichard26/blackbench"
+    },
+    {
+      "elapsed_seconds": 0.338,
+      "full_name": "dstein64/media"
+    },
+    {
+      "elapsed_seconds": 0.39,
+      "full_name": "gnunicorn/cargo-unleash"
+    },
+    {
+      "elapsed_seconds": 0.3,
+      "full_name": "albanie/prompt_formatting_in_latex"
+    },
+    {
+      "elapsed_seconds": 0.341,
+      "full_name": "criteo/mesos-term"
+    },
+    {
+      "elapsed_seconds": 0.284,
+      "full_name": "seebye/urwid-ueberzogen"
+    },
+    {
+      "elapsed_seconds": 0.288,
+      "full_name": "matthew-brett/nb2plots"
+    },
+    {
+      "elapsed_seconds": 0.296,
+      "full_name": "hallvard/etablesaw"
+    },
+    {
+      "elapsed_seconds": 0.293,
+      "full_name": "atom/autocomplete-atom-api"
+    },
+    {
+      "elapsed_seconds": 0.322,
+      "full_name": "webtorrent/.github"
+    },
+    {
+      "elapsed_seconds": 0.324,
+      "full_name": "jandamm/zgenom-ext-run"
+    },
+    {
+      "elapsed_seconds": 0.327,
+      "full_name": "girishji/ngramview-complete.vim"
+    },
+    {
+      "elapsed_seconds": 0.324,
+      "full_name": "nick-triller/khcheck-external-secrets"
+    },
+    {
+      "elapsed_seconds": 0.363,
+      "full_name": "ipld/interface-ipld-format"
+    },
+    {
+      "elapsed_seconds": 0.418,
+      "full_name": "nim65s/git-archive-all"
+    },
+    {
+      "elapsed_seconds": 0.329,
+      "full_name": "cryptonomic/conseiljs-ledgersigner"
+    },
+    {
+      "elapsed_seconds": 0.329,
+      "full_name": "cryptonomic/conseiljs-softsigner"
+    },
+    {
+      "elapsed_seconds": 0.287,
+      "full_name": "azizzaeny/boot-atomizer"
+    },
+    {
+      "elapsed_seconds": 0.368,
+      "full_name": "dustinblackman/rust-hello-world"
+    },
+    {
+      "elapsed_seconds": 0.305,
+      "full_name": "bagxi/idrnd-anti-spoofing-challenge-solution"
+    },
+    {
+      "elapsed_seconds": 0.302,
+      "full_name": "imkira/go-loggers-bench"
+    },
+    {
+      "elapsed_seconds": 0.33,
+      "full_name": "input-output-hk/tullia"
+    },
+    {
+      "elapsed_seconds": 0.331,
+      "full_name": "openlmlab/moss_websearchtool"
+    },
+    {
+      "elapsed_seconds": 0.319,
+      "full_name": "atom/archive-view"
+    },
+    {
+      "elapsed_seconds": 0.333,
+      "full_name": "atomlinter/linter-markdown"
+    },
+    {
+      "elapsed_seconds": 0.335,
+      "full_name": "club-soda/club-soda-guide"
+    },
+    {
+      "elapsed_seconds": 0.415,
+      "full_name": "himario/diffusers-t2i-adapter"
+    },
+    {
+      "elapsed_seconds": 0.298,
+      "full_name": "chriskiehl/gooeyimages"
+    },
+    {
+      "elapsed_seconds": 0.347,
+      "full_name": "changjiashuai/kotlin-multibase"
+    },
+    {
+      "elapsed_seconds": 0.737,
+      "full_name": "open-mmlab/pytorch_sphinx_theme"
+    },
+    {
+      "elapsed_seconds": 0.451,
+      "full_name": "elementai/spider"
+    },
+    {
+      "elapsed_seconds": 0.337,
+      "full_name": "standard/brackets-standard"
+    },
+    {
+      "elapsed_seconds": 0.34,
+      "full_name": "chrisguida/nix-dell"
+    },
+    {
+      "elapsed_seconds": 0.45,
+      "full_name": "jolibrain/caffe"
+    },
+    {
+      "elapsed_seconds": 0.314,
+      "full_name": "chatie/tsconfig"
+    },
+    {
+      "elapsed_seconds": 0.311,
+      "full_name": "jandamm/zgenom-ext-release"
+    },
+    {
+      "elapsed_seconds": 0.332,
+      "full_name": "s3bk/pathfinder_view"
+    },
+    {
+      "elapsed_seconds": 0.297,
+      "full_name": "aimerneige/miraichess"
+    },
+    {
+      "elapsed_seconds": 0.328,
+      "full_name": "5scontrol/5s-dev-documentation"
+    },
+    {
+      "elapsed_seconds": 0.345,
+      "full_name": "eigenbahn/icecream-cljc"
+    },
+    {
+      "elapsed_seconds": 0.313,
+      "full_name": "5scontrol/machine-control-js"
+    },
+    {
+      "elapsed_seconds": 0.262,
+      "full_name": "aileot/vim-foldpeek"
+    },
+    {
+      "elapsed_seconds": 0.332,
+      "full_name": "wintoncode/vault-plugin-auth-kerberos"
+    },
+    {
+      "elapsed_seconds": 0.344,
+      "full_name": "autodistill/autodistill-azure-vision"
+    },
+    {
+      "elapsed_seconds": 0.32,
+      "full_name": "bitergia/grimoirelab-perceval-finos"
+    },
+    {
+      "elapsed_seconds": 0.308,
+      "full_name": "arcanis/jest-pnp-resolver"
+    },
+    {
+      "elapsed_seconds": 0.298,
+      "full_name": "l3d00m/mmm-librespotjava"
+    },
+    {
+      "elapsed_seconds": 0.293,
+      "full_name": "cb1kenobi/hook-emitter"
+    },
+    {
+      "elapsed_seconds": 0.369,
+      "full_name": "dwyl/hapi-error"
+    },
+    {
+      "elapsed_seconds": 0.437,
+      "full_name": "isl-org/next-vit"
+    },
+    {
+      "elapsed_seconds": 0.328,
+      "full_name": "kong/proxy-wasm-assemblyscript-rate-limiting"
+    },
+    {
+      "elapsed_seconds": 0.317,
+      "full_name": "caprica/vlcj-info"
+    },
+    {
+      "elapsed_seconds": 0.339,
+      "full_name": "andy1621/nightcrawler"
+    },
+    {
+      "elapsed_seconds": 0.301,
+      "full_name": "garrettalbright/luacheck.novaextension"
+    },
+    {
+      "elapsed_seconds": 0.359,
+      "full_name": "aaronlamz/vue-next-i18n"
+    },
+    {
+      "elapsed_seconds": 0.32,
+      "full_name": "go-bun/go-http-routing-benchmark"
+    },
+    {
+      "elapsed_seconds": 0.318,
+      "full_name": "ipld/team-mgmt"
+    },
+    {
+      "elapsed_seconds": 0.317,
+      "full_name": "ojdkbuild/contrib_jdk8u-aarch32-ci"
+    },
+    {
+      "elapsed_seconds": 0.307,
+      "full_name": "m00qek/matcher_combinators.lua"
+    },
+    {
+      "elapsed_seconds": 0.429,
+      "full_name": "joshmedeski/tmux-list"
+    },
+    {
+      "elapsed_seconds": 0.333,
+      "full_name": "scaleway/initrd"
+    },
+    {
+      "elapsed_seconds": 0.396,
+      "full_name": "panqiwei/peft"
+    },
+    {
+      "elapsed_seconds": 0.323,
+      "full_name": "afulgens/base16-console2"
+    },
+    {
+      "elapsed_seconds": 0.286,
+      "full_name": "afulgens/base16-consolez"
+    },
+    {
+      "elapsed_seconds": 0.337,
+      "full_name": "swiftgen/eve"
+    },
+    {
+      "elapsed_seconds": 0.35,
+      "full_name": "allenai/allennlp-template-python-script"
+    },
+    {
+      "elapsed_seconds": 0.34,
+      "full_name": "abc403/smca-replication"
+    },
+    {
+      "elapsed_seconds": 0.406,
+      "full_name": "celo-org/emisianto"
+    },
+    {
+      "elapsed_seconds": 0.353,
+      "full_name": "openlmlab/moss_vortex"
+    },
+    {
+      "elapsed_seconds": 0.337,
+      "full_name": "jupyter-contrib/jupyter_contrib_core"
+    },
+    {
+      "elapsed_seconds": 0.293,
+      "full_name": "0delta/longdog"
+    },
+    {
+      "elapsed_seconds": 0.313,
+      "full_name": "isamert/gedi"
+    },
+    {
+      "elapsed_seconds": 0.325,
+      "full_name": "jxpress/hydra-vertex-ai-pipeline"
+    },
+    {
+      "elapsed_seconds": 0.346,
+      "full_name": "cxycarson/tf_acblock"
+    },
+    {
+      "elapsed_seconds": 0.336,
+      "full_name": "opentracing/basictracer-go"
+    },
+    {
+      "elapsed_seconds": 0.31,
+      "full_name": "justinpinkney/nomi"
+    },
+    {
+      "elapsed_seconds": 0.32,
+      "full_name": "bnosac/audio.vadsilero"
+    },
+    {
+      "elapsed_seconds": 0.31,
+      "full_name": "dwyl/hits-elixir"
+    },
+    {
+      "elapsed_seconds": 0.305,
+      "full_name": "buraksezer/olric-kubernetes"
+    },
+    {
+      "elapsed_seconds": 0.318,
+      "full_name": "dzryk/clip-grams"
+    },
+    {
+      "elapsed_seconds": 0.344,
+      "full_name": "ivyl/vim-bling"
+    },
+    {
+      "elapsed_seconds": 0.339,
+      "full_name": "jupyter/notebook-team-compass"
+    },
+    {
+      "elapsed_seconds": 0.32,
+      "full_name": "kong/proxy-wasm-go-rate-limiting"
+    },
+    {
+      "elapsed_seconds": 0.326,
+      "full_name": "alpha-vllm/wemix-llm"
+    },
+    {
+      "elapsed_seconds": 0.334,
+      "full_name": "micromatch/expand-braces"
+    },
+    {
+      "elapsed_seconds": 0.302,
+      "full_name": "birkelund/boltdbcache"
+    },
+    {
+      "elapsed_seconds": 0.344,
+      "full_name": "dwyl/goodparts"
+    },
+    {
+      "elapsed_seconds": 0.421,
+      "full_name": "ocamlpro/opam"
+    },
+    {
+      "elapsed_seconds": 0.316,
+      "full_name": "luchoturtle/banger-bot"
+    },
+    {
+      "elapsed_seconds": 0.318,
+      "full_name": "omnisharp/omnisharp-node-client"
+    },
+    {
+      "elapsed_seconds": 0.351,
+      "full_name": "castorini/anserini-notebooks"
+    },
+    {
+      "elapsed_seconds": 0.341,
+      "full_name": "carrotsearch/elasticsearch-lingo3g"
+    },
+    {
+      "elapsed_seconds": 0.322,
+      "full_name": "jodyvanden/guard-standardrb"
+    },
+    {
+      "elapsed_seconds": 0.358,
+      "full_name": "level/web-stream"
+    },
+    {
+      "elapsed_seconds": 0.443,
+      "full_name": "delta1/rust-jsonrpc-client"
+    },
+    {
+      "elapsed_seconds": 0.316,
+      "full_name": "borkdude/nbb-action-example"
+    }
+  ],
+  "run_id": "20260430T055054Z",
+  "skipped_count": 15,
+  "skipped_repositories": [
+    "aitooools/chatgpt-plus-hezu",
+    "aitooools/chatgpt",
+    "aitooools/gemini-pro",
+    "aitooools/claude-pro-recharge",
+    "aitooools/claude-pro",
+    "aitooools/poe",
+    "aitooools/spotify-hezu",
+    "aitooools/supergrok",
+    "aitooools/youtube-hezu",
+    "aitooools/netflix-hezu",
+    "aitooools/nf-video",
+    "aitooools/claude-pro-hezu",
+    "aitooools/chatgpt-plus-recharge",
+    "aitooools/aitooools.github.io",
+    "geiserx/agenttap"
+  ],
+  "stopped_due_to_budget": false
+}

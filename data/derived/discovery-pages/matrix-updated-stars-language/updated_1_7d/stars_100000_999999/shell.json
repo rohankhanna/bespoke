@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 7,
+    "components": 8,
     "concepts": 17,
     "observations": 17,
     "repos": 1,
-    "terms": 16
+    "terms": 17
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-27T07:23:38.417858+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "ohmyzsh/ohmyzsh"
   ]

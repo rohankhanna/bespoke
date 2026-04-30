@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 120,
-    "concepts": 121,
-    "observations": 121,
-    "repos": 31,
-    "terms": 126
+    "components": 164,
+    "concepts": 166,
+    "observations": 166,
+    "repos": 46,
+    "terms": 170
   },
   "facet_version": 1,
   "filters": {
@@ -12,26 +12,38 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "actionless/pikaur",
     "Advocate99/DiffGesture",
     "AGI-Arena/MARS",
     "AIR-Bench/AIR-Bench",
     "akin-ozer/cc-devops-skills",
+    "allenai/olmes",
+    "altendky/pyqt-tools",
     "angr/angrop",
     "BrianPugh/belay",
+    "bshall/acoustic-model",
     "celery/py-amqp",
+    "citusdata/django-multitenant",
     "facebookincubator/ptr",
+    "HazyResearch/zoology",
     "hukkin/mdformat",
     "jsegov/autoresearch-win-rtx",
+    "kijai/ComfyUI-DepthAnythingV2",
     "LAION-AI/CLIP_benchmark",
     "ldayton/dippy",
+    "lessw2020/Ranger21",
     "madebyollin/taehv",
     "matthew-brett/delocate",
     "melMass/comfy_mtb",
+    "mgaitan/sphinxcontrib-mermaid",
+    "microsoft/ArchScale",
     "microsoft/XPretrain",
+    "mkdocstrings/griffe",
+    "mondeja/mkdocs-include-markdown-plugin",
     "nii-yamagishilab/project-NN-Pytorch-scripts",
+    "NiltonVolpato/python-progressbar",
     "objectbox/objectbox-python",
     "Osilly/Vision-DeepResearch",
     "psf/pyperf",
@@ -39,11 +51,14 @@
     "sarugaku/resolvelib",
     "sarugaku/shellingham",
     "scottchiefbaker/dool",
+    "shibing624/similarities",
+    "spesmilo/electrumx",
     "strands-agents/mcp-server",
     "terraform-aws-modules/terraform-aws-notify-slack",
     "voxel51/fiftyone-examples",
     "voxel51/voxelgpt",
     "xavierpuigf/virtualhome",
-    "yanring/Megatron-MoE-ModelZoo"
+    "yanring/Megatron-MoE-ModelZoo",
+    "zhijian-liu/torchprofile"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 49,
-    "concepts": 60,
-    "observations": 60,
-    "repos": 11,
-    "terms": 58
+    "components": 73,
+    "concepts": 94,
+    "observations": 94,
+    "repos": 16,
+    "terms": 92
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,22 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "flashlight/flashlight",
     "hpjansson/chafa",
     "jkuhlmann/cgltf",
+    "JoeDog/siege",
     "json-c/json-c",
+    "libgit2/rugged",
+    "martinus/unordered_dense",
     "memononen/nanovg",
     "microsoft/onnxruntime-inference-examples",
     "mitsuba-renderer/nanogui",
+    "OpenNMT/CTranslate2",
     "pramsey/pgsql-http",
     "RobertBeckebans/RBDOOM-3-BFG",
+    "svenstaro/rofi-calc",
     "UB-Mannheim/tesseract",
     "VirusTotal/yara"
   ]

@@ -44,13 +44,14 @@
       "size": 4873
     }
   ],
+  "metadata_refreshed_at": "2026-04-30T05:52:12.176253+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
     "description": "Moss Vortex is a lightweight and high-performance deployment and inference backend engineered specifically for MOSS 003, providing a wealth of features aimed at enhancing performance and functionality, built upon the foundations of MOSEC and Torch.",
     "fork": false,
-    "full_name": "OpenLMLab/MOSS_Vortex",
+    "full_name": "openlmlab/moss_vortex",
     "html_url": "https://github.com/OpenLMLab/MOSS_Vortex",
     "language": "Python",
     "pushed_at": "2023-04-25T05:28:01Z",

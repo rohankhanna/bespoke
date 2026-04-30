@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 27,
-    "concepts": 96,
-    "observations": 97,
-    "repos": 40,
-    "terms": 92
+    "components": 36,
+    "concepts": 135,
+    "observations": 136,
+    "repos": 50,
+    "terms": 131
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "27medkamal/tmux-session-wizard",
     "AppImageCommunity/pkg2appimage",
@@ -24,16 +24,19 @@
     "chrismytton/shoreman",
     "coin-or/COIN-OR-OptimizationSuite",
     "CrossC2/CrossC2Kit",
+    "cvdfoundation/kinetics-dataset",
     "danhper/fundle",
     "derekstavis/plugin-nvm",
     "devcontainers/feature-starter",
     "devcontainers/template-starter",
     "docker-library/healthcheck",
     "dockerfile/ubuntu",
+    "dwyl/learn-devops",
     "FabioAntunes/fish-nvm",
     "fastai/docker-containers",
     "gjaldon/heroku-buildpack-phoenix-static",
     "google-research-datasets/conceptual-captions",
+    "googlefonts/rubik",
     "hashicorp/docker-vault",
     "HashNuke/heroku-buildpack-elixir",
     "heroku/heroku-buildpack-multi",
@@ -44,15 +47,22 @@
     "joseluisq/gitnow",
     "joshmedeski/t-smart-tmux-session-manager",
     "koalaman/shellcheck-precommit",
+    "lavabit/robox",
+    "lukechilds/gifgen",
     "lukechilds/zsh-better-npm-completion",
     "matchai/spacefish",
     "mattmc3/zsh_unplugged",
     "rbenv/rbenv-default-gems",
     "rbenv/rbenv-gem-rehash",
     "rbenv/rbenv-installer",
+    "romkatv/zsh-defer",
     "SanderKnape/github-runner",
     "SpeechColab/GigaSpeech",
+    "spiffe/spire-tutorials",
     "steeve/cross-compiler",
-    "vmware-labs/webassembly-language-runtimes"
+    "tinted-theming/tinted-iterm2",
+    "tmux-plugins/tmux-open",
+    "vmware-labs/webassembly-language-runtimes",
+    "zsh-users/zaw"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 0,
-    "concepts": 8,
-    "observations": 8,
-    "repos": 6,
-    "terms": 8
+    "concepts": 6,
+    "observations": 6,
+    "repos": 9,
+    "terms": 6
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,16 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
-    "conda-forge/conda-lock-feedstock",
-    "conda-forge/python-isal-feedstock",
     "conda-forge/tianshou-feedstock",
     "danielrosehill/AI-Presentation-Builders-Index",
+    "danielrosehill/AI-Safety-Projects-Index",
+    "danielrosehill/Claude-ADB-Ops-Plugin",
+    "danielrosehill/Claude-Backup-Planner-Plugin",
+    "danielrosehill/Claude-Browser-Data-Capture-Plugin",
     "danielrosehill/Claude-Israel",
+    "hermit-os/.github",
     "TransferQueue/community_doc"
   ]
 }

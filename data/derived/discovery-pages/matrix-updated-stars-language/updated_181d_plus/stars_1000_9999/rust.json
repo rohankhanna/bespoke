@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 81,
-    "concepts": 114,
-    "observations": 114,
-    "repos": 24,
-    "terms": 113
+    "components": 128,
+    "concepts": 163,
+    "observations": 166,
+    "repos": 35,
+    "terms": 162
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,22 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "asciinema/agg",
+    "askama-rs/askama-old",
     "async-rs/async-std",
     "autozimu/LanguageClient-neovim",
     "BrainiumLLC/cargo-mobile",
     "BurntSushi/rust-csv",
     "cgag/loc",
     "chelsea0x3b/dfdx",
+    "dgrunwald/rust-cpython",
     "dtolnay/serde-yaml",
+    "ebkalderon/tower-lsp",
     "EmbarkStudios/rust-ecosystem",
+    "ezrosent/frawk",
+    "fcsonline/tmux-thumbs",
     "g1mv/density",
     "gakonst/ethers-rs",
     "gfx-rs/gfx",
@@ -30,13 +35,19 @@
     "gfx-rs/wgpu-rs",
     "gluon-lang/gluon",
     "google-research/deduplicate-text-datasets",
+    "hecrj/coffee",
+    "http-rs/tide",
     "japaric/xargo",
     "johnthagen/min-sized-rust",
+    "lnx-search/lnx",
     "mgdm/htmlq",
     "mooman219/fontdue",
+    "mtshiba/pylyzer",
     "nrc/r4cppp",
+    "racer-rust/racer",
     "rust-lang/rls",
     "stepancheg/grpc-rust",
-    "stepancheg/rust-protobuf"
+    "stepancheg/rust-protobuf",
+    "watchexec/cargo-watch"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1,
-    "concepts": 1,
-    "observations": 1,
-    "repos": 3,
-    "terms": 1
+    "components": 2,
+    "concepts": 2,
+    "observations": 2,
+    "repos": 4,
+    "terms": 2
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "CHERIoT-Platform/cheriot-pqc",
     "DavidKinder/Glulxe",
-    "ldayton/bash-oracle"
+    "ldayton/bash-oracle",
+    "nvpro-samples/stb"
   ]
 }

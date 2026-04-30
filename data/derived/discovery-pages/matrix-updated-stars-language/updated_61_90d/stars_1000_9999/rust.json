@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 89,
-    "concepts": 86,
-    "observations": 86,
-    "repos": 15,
-    "terms": 85
+    "components": 108,
+    "concepts": 100,
+    "observations": 100,
+    "repos": 19,
+    "terms": 99
   },
   "facet_version": 1,
   "filters": {
@@ -12,22 +12,26 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "a16z/helios",
     "anthropics/claudes-c-compiler",
-    "apache/casbin-rs",
     "ash-rs/ash",
+    "brendanzab/codespan",
+    "Byron/dua-cli",
     "crossbeam-rs/crossbeam",
     "dtolnay/cargo-expand",
     "fschutt/printpdf",
     "GREsau/schemars",
+    "ImageOptim/gifski",
     "librespot-org/librespot",
+    "linebender/tiny-skia",
     "rust-fuzz/cargo-fuzz",
     "sachaos/viddy",
     "sagiegurari/cargo-make",
     "tikv/grpc-rs",
     "tokio-rs/bytes",
-    "tokio-rs/loom"
+    "tokio-rs/loom",
+    "tower-rs/tower"
   ]
 }

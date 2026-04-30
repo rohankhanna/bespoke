@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 159,
-    "concepts": 79,
-    "observations": 79,
-    "repos": 22,
-    "terms": 93
+    "components": 188,
+    "concepts": 99,
+    "observations": 99,
+    "repos": 27,
+    "terms": 113
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,18 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "0x676e67/wreq-util",
     "64bit/commandOK",
+    "amazon-ion/ion-cli",
     "andelf/axcli",
     "andelf/picc",
+    "arkworks-rs/spongefish",
+    "bitcoindevkit/bdk_wallet",
+    "boundless-xyz/kailua",
     "boundless-xyz/steel",
+    "celo-org/celo-threshold-bls-rs",
     "chrisjsewell/markdown-it-pyrs",
     "ClickHouse/clickhousectl",
     "cloudllm-ai/mentisdb",
@@ -31,10 +36,10 @@
     "multiformats/rust-cid",
     "nico-abram/blondie",
     "phiat/claude-esp-rs",
+    "Sovereign-Labs/rollup-starter",
     "tombelieber/claude-view",
     "tracel-ai/burn-bench",
     "tracel-ai/burn-onnx",
-    "tracel-ai/cubek",
-    "vaporif/parry-guard"
+    "tracel-ai/cubek"
   ]
 }

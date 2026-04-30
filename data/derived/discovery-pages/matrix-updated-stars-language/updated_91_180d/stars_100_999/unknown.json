@@ -3,7 +3,7 @@
     "components": 10,
     "concepts": 26,
     "observations": 26,
-    "repos": 14,
+    "repos": 17,
     "terms": 38
   },
   "facet_version": 1,
@@ -12,19 +12,22 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "AppImageCommunity/awesome-appimage",
     "charm-and-friends/additional-bubbles",
     "CodeBoarding/GeneratedOnBoardings",
+    "deepinsight/inswapper-512-live",
     "deepseek-ai/awesome-deepseek-coder",
     "eryajf/awesome-github-profile-readme-chinese",
     "ethstaker/ethstaker-guides",
     "filecoin-project/devgrants",
+    "langchain4j/awesome-langchain4j",
     "lightning/blips",
     "MME-Benchmarks/Video-MME",
     "oh-my-fish/packages-main",
     "opendilab/awesome-ui-agents",
+    "PhoneLLM/Awesome-LLM-Powered-Phone-GUI-Agents",
     "rust-fuzz/trophy-case",
     "sgl-project/sgl-learning-materials",
     "thibautmelen/agentic-ai-systems"

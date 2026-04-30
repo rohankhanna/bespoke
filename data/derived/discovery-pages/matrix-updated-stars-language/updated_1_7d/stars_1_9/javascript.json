@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 276,
-    "concepts": 7,
-    "observations": 7,
+    "components": 160,
+    "concepts": 3,
+    "observations": 3,
     "repos": 6,
-    "terms": 7
+    "terms": 3
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,13 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
-    "angular/dev-infra-private-ng-dev-builds",
-    "certible/superagent-aws-sign",
+    "boa-dev/data",
+    "celo-org/blind-threshold-bls-wasm",
     "eea/bise-frontend",
     "eea/eea-website-frontend",
     "eea/fise-frontend",
-    "newrelic/csec-node-agent"
+    "thetutlage/static"
   ]
 }

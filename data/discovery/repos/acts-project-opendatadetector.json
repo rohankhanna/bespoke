@@ -8,13 +8,14 @@
       "size": 123
     }
   ],
+  "metadata_refreshed_at": "2026-04-30T05:51:07.867659+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "main",
     "description": "Moved to https://gitlab.cern.ch/acts/OpenDataDetector/",
     "fork": false,
-    "full_name": "acts-project/OpenDataDetector",
+    "full_name": "acts-project/opendatadetector",
     "html_url": "https://github.com/acts-project/OpenDataDetector",
     "language": "C++",
     "pushed_at": "2021-08-30T13:31:33Z",

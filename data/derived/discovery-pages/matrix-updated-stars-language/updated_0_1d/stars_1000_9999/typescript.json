@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 789,
-    "concepts": 185,
-    "observations": 185,
-    "repos": 17,
-    "terms": 185
+    "components": 1299,
+    "concepts": 211,
+    "observations": 212,
+    "repos": 23,
+    "terms": 211
   },
   "facet_version": 1,
   "filters": {
@@ -12,24 +12,30 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
-    "adobe/spectrum-web-components",
+    "AdguardTeam/AdguardBrowserExtension",
+    "apollographql/apollo-tooling",
+    "artsy/eigen",
     "aws-powertools/powertools-lambda-typescript",
-    "Azure/azure-sdk-for-js",
-    "bluesky-social/atproto",
-    "bufbuild/protobuf-es",
-    "ChromeDevTools/devtools-frontend",
-    "civitai/civitai",
-    "clerk/javascript",
+    "aws/jsii",
     "conventional-changelog/conventional-changelog",
-    "denoland/std",
-    "EpicenterHQ/epicenter",
-    "microsoft/rnx-kit",
-    "microsoft/vscode-cpptools",
+    "dbeaver/cloudbeaver",
+    "ecyrbe/zodios",
+    "ggml-org/llama.vscode",
+    "huggingface/huggingface.js",
+    "julia-vscode/julia-vscode",
+    "openai/openai-agents-js",
     "podman-desktop/podman-desktop",
+    "posit-dev/positron",
     "r5n-labs/vscode-react-javascript-snippets",
-    "tailwindlabs/prettier-plugin-tailwindcss",
-    "yarnpkg/berry"
+    "retorquere/zotero-better-bibtex",
+    "sparkjsdev/spark",
+    "standard/eslint-config-standard",
+    "typescript-language-server/typescript-language-server",
+    "unjs/changelogen",
+    "web-infra-dev/rsbuild",
+    "web-infra-dev/rsdoctor",
+    "web-infra-dev/rspress"
   ]
 }

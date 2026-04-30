@@ -1,19 +1,21 @@
 {
   "counts": {
-    "components": 330,
-    "concepts": 248,
-    "observations": 248,
-    "repos": 34,
-    "terms": 247
+    "components": 433,
+    "concepts": 325,
+    "observations": 326,
+    "repos": 45,
+    "terms": 324
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "ahujasid/blender-mcp",
+    "AlexeyAB/darknet",
+    "andrewyng/aisuite",
     "anthropics/courses",
     "beehiveinnovations/pal-mcp-server",
     "binary-husky/gpt_academic",
@@ -23,12 +25,14 @@
     "ChatGPTNextWeb/NextChat",
     "cleanlab/cleanlab",
     "deepseek-ai/DeepSeek-Coder",
+    "emotion-js/emotion",
     "existentialaudio/blackhole",
     "folke/lazy.nvim",
     "forwardemail/superagent",
     "FoundationAgents/MetaGPT",
     "fsnotify/fsnotify",
     "fullstorydev/grpcurl",
+    "github/copilot.vim",
     "goldfire/howler.js",
     "hiroi-sora/Umi-OCR",
     "horovod/horovod",
@@ -36,16 +40,23 @@
     "karpathy/llm-council",
     "karpathy/nanoGPT",
     "lc044/wechatmsg",
+    "Lightricks/LTX-Video",
     "lllyasviel/Fooocus",
     "microsoft/unilm",
+    "MoonshotAI/Kimi-K2",
     "muesli/duf",
     "Netflix/Hystrix",
+    "PaddlePaddle/PaddleNLP",
     "QwenLM/Qwen3",
+    "QwenLM/Qwen3-VL",
     "sczhou/CodeFormer",
     "songquanpeng/one-api",
     "spf13/viper",
+    "tachyons-css/tachyons",
     "toml-lang/toml",
     "wechaty/wechaty",
+    "XAMPPRocky/tokei",
+    "zai-org/CogVideo",
     "ziglang/zig"
   ]
 }

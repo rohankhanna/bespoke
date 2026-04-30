@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 29,
-    "concepts": 48,
-    "observations": 48,
-    "repos": 15,
-    "terms": 48
+    "components": 37,
+    "concepts": 82,
+    "observations": 82,
+    "repos": 18,
+    "terms": 82
   },
   "facet_version": 1,
   "filters": {
@@ -12,22 +12,25 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
+    "accabog/MedianFilter",
     "ada-url/goada",
     "aseprite/clip",
     "aseprite/observable",
+    "cisco/libacvp",
     "CROSS-signature/CROSS-implementation",
     "dacap/observable",
     "DeanoC/tiny_imageformat",
     "edge-classic/EDGE-classic",
+    "gershnik/wsdd-native",
     "gozaltech/espeak-ng-sapi",
     "icecc/icemon",
     "intel/intel-extension-for-openxla",
-    "JPEWdev/icecream-sundae",
     "lemire/simple_fastfloat_benchmark",
     "microsoft/react-native-winrt",
     "RekGRpth/pg_task",
-    "ssiu/flash-attention-turing"
+    "ssiu/flash-attention-turing",
+    "VeriSilicon/tflite-vx-delegate"
   ]
 }

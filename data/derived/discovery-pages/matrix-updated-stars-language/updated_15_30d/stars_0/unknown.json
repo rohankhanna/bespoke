@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 3,
-    "concepts": 10,
-    "observations": 10,
-    "repos": 14,
-    "terms": 10
+    "concepts": 13,
+    "observations": 13,
+    "repos": 13,
+    "terms": 13
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,18 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "aaronrsun/spec-kit-issue",
     "danielrosehill/Agent-Journal",
     "danielrosehill/AI-Browser-Tools",
     "danielrosehill/AI-Memory-Planning-0426",
     "danielrosehill/AI-Resource-Maps",
-    "danielrosehill/amd-gpu-fixes",
     "danielrosehill/brainstorm-solutions-plugin",
-    "danielrosehill/Bug-Reports-And-Fixes",
+    "danielrosehill/Deployments-Index",
     "danielrosehill/handy-wayland-autostart-fix",
-    "danielrosehill/Patches-Repos-Index",
     "piebald-ai/piebald",
+    "psmux/scoop-omp-manager",
     "semgrep/cursor-plugin",
     "ublacklist/store-assets",
     "wencuecryforme/mysoul.skill"

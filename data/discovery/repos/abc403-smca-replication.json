@@ -16,13 +16,14 @@
       "size": 224
     }
   ],
+  "metadata_refreshed_at": "2026-04-30T05:52:11.416998+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "main",
     "description": "SMCA replication",
     "fork": false,
-    "full_name": "abc403/SMCA-replication",
+    "full_name": "abc403/smca-replication",
     "html_url": "https://github.com/abc403/SMCA-replication",
     "language": "Python",
     "pushed_at": "2021-07-24T12:27:38Z",

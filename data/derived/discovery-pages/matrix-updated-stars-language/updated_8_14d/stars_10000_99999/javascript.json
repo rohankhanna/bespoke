@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 740,
-    "concepts": 119,
-    "observations": 121,
-    "repos": 17,
-    "terms": 117
+    "components": 1363,
+    "concepts": 238,
+    "observations": 240,
+    "repos": 27,
+    "terms": 236
   },
   "facet_version": 1,
   "filters": {
@@ -12,23 +12,33 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "ajaxorg/ace",
     "avajs/ava",
+    "badges/shields",
     "bmad-code-org/bmad-method",
+    "commitizen/cz-cli",
+    "decaporg/decap-cms",
+    "fastify/fastify",
+    "google/zx",
     "graphql/graphql-spec",
     "jantimon/html-webpack-plugin",
     "jarrodwatts/claude-hud",
     "jquery/jquery",
+    "Leaflet/Leaflet",
+    "lodash/lodash",
     "markedjs/marked",
     "nock/nock",
     "openai/codex-plugin-cc",
     "prettier/prettier",
+    "remy/nodemon",
     "semantic-release/semantic-release",
+    "serverless/serverless",
     "svg/svgo",
     "vega/vega",
     "vercel-labs/agent-skills",
+    "webpack/webpack",
     "webtorrent/webtorrent",
     "yarnpkg/yarn"
   ]

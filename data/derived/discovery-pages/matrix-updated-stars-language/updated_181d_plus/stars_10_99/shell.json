@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 51,
-    "concepts": 88,
-    "observations": 88,
-    "repos": 39,
-    "terms": 85
+    "components": 64,
+    "concepts": 109,
+    "observations": 109,
+    "repos": 49,
+    "terms": 106
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
+    "2KAbhishek/ghpm",
+    "2KAbhishek/mkrepo",
     "aaaaadrien/adrien-overlay",
     "aaronpowell/tmux-weather",
     "aarowill/base16-gnome-terminal",
@@ -27,11 +29,14 @@
     "babashka/pod-babashka-filewatcher",
     "Berrysoft/fish-msys2",
     "berty/community",
+    "bitrise-steplib/step-template",
     "cehoffman/luaenv",
     "ChainSafe/lodestar-quickstart",
     "chemprop/chemprop_benchmark",
     "coin-or-tools/ThirdParty-HSL",
     "coqui-ai/TTS-recipes",
+    "danielrosehill/claude-code-linux-desktop-slash-commands",
+    "danielrosehill/OpenWebUI-Postgres-Qdrant",
     "dependabot/example-cli-usage",
     "FabioAntunes/base16-fish-shell",
     "funtoo/dev-kit",
@@ -40,17 +45,22 @@
     "geekworm-com/xscript",
     "google/gfbuild-SPIRV-Tools",
     "hashnuke/heroku-buildpack-elixir-otp-builds",
+    "haya14busa/action-bumpr",
     "icanhasjonas/run-claude-docker",
     "isaacs/npm",
     "jeff-hykin/better-go-syntax",
     "karancode/asdf-aws-vault",
+    "koenrh/dnscontrol-action",
     "luizm/asdf-shellcheck",
     "luizm/asdf-shfmt",
+    "manim-kindergarten/manim_action_renderer",
     "nmattia/sorri",
     "scaleway/initrd",
     "sharkdp/fd-benchmarks",
     "Shavian-info/interalia",
     "Shougo/dein-installer.vim",
+    "tidwall/pkg.sh",
+    "timothycrosley/cookiecutter-python",
     "tiran/cpython-wasm-test",
     "unixorn/autoupdate-zgen"
   ]

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2,
-    "concepts": 16,
-    "observations": 16,
-    "repos": 2,
-    "terms": 16
+    "components": 196,
+    "concepts": 74,
+    "observations": 74,
+    "repos": 13,
+    "terms": 74
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,20 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
-    "b-data/jupyterlab-r-docker-stack",
-    "squeak-smalltalk/squeak.org"
+    "apollographql/apollo-ios-dev",
+    "brave-intl/publishers",
+    "cderv/r-bucket",
+    "cloudfoundry/capi-release",
+    "day8/re-frame-debux",
+    "dwyl/elixir-auth-github-demo",
+    "dwyl/learn-tailwind",
+    "eea/eea.rancher.catalog",
+    "Kong/developer.konghq.com",
+    "localstack/localstack-cli",
+    "open-edge-platform/geti-instant-learn",
+    "ROCm/rocm-cmake",
+    "sigstore/helm-charts"
   ]
 }

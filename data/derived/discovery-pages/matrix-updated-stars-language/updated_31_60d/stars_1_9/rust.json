@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 22,
-    "concepts": 2,
-    "observations": 2,
-    "repos": 4,
-    "terms": 2
+    "components": 38,
+    "concepts": 7,
+    "observations": 7,
+    "repos": 6,
+    "terms": 7
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,11 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
+    "a16z/arkworks-algebra",
     "ADNTIO/crispy-bootloader-rp2040-rs",
+    "EspressoSystems/Push-CDN",
     "Layr-Labs/incredible-squaring-avs-rs",
     "paolodamico/ruint-uniffi",
     "sigp/quick-protobuf"

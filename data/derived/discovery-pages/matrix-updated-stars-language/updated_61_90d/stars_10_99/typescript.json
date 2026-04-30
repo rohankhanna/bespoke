@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 72,
-    "concepts": 9,
-    "observations": 9,
-    "repos": 7,
-    "terms": 11
+    "components": 123,
+    "concepts": 14,
+    "observations": 14,
+    "repos": 9,
+    "terms": 16
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
+    "0xBigBoss/vscode-bootty",
     "2slides/mcp-2slides",
+    "adevinta/actions-lighthouseci-compare",
     "androidStern-personal/openclaw-mcp-adapter",
     "br14n-sol/inquirer-file-selector",
     "lnbc1QWFyb24/lnmessage",

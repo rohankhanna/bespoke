@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 158,
-    "concepts": 99,
-    "observations": 99,
-    "repos": 29,
-    "terms": 104
+    "components": 182,
+    "concepts": 119,
+    "observations": 119,
+    "repos": 34,
+    "terms": 124
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "Accio-Lab/SwimBird",
+    "AFLplusplus/afl-cov",
     "AgriciDaniel/claude-email",
     "aiagenta2z/mcp-marketplace",
     "allenporter/python-google-nest-sdm",
@@ -26,21 +27,25 @@
     "cmake-wheel/cmeel",
     "collinear-ai/yc-bench",
     "daltonmaag/vttLib",
+    "dathere/datapusher-plus",
     "dreamiurg/claude-mountaineering-skills",
     "facebookresearch/mosaic",
     "googleapis/python-pubsublite",
+    "hpcaitech/public_assets",
     "iamsashank09/llm-wiki-kit",
     "intel/ai-containers",
+    "intel/vc-intrinsics",
     "jupyter/governance",
     "libp2p/test-plans",
+    "mborgerson/bintrace",
     "mem0ai/memory-benchmarks",
     "microsoft/vscode-azurecli",
     "nix-community/nur-update",
     "NixOS/branding",
+    "optuna/optunahub",
     "scasella/nanochat-mlx",
     "Significant-Gravitas/gravitasml",
     "sphinx-contrib/sphinxcontrib-towncrier",
-    "symgraph/BinAssistMCP",
     "urschrei/pypolyline",
     "w1ndys/ex-cure-skill"
   ]

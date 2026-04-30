@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 60,
-    "concepts": 37,
-    "observations": 37,
-    "repos": 9,
-    "terms": 37
+    "components": 71,
+    "concepts": 42,
+    "observations": 42,
+    "repos": 10,
+    "terms": 41
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,17 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
-    "aspect-build/aspect-gazelle",
-    "aws-controllers-k8s/code-generator",
-    "aws/aws-network-policy-agent",
-    "containers/container-libs",
-    "ipshipyard/p2p-forge",
+    "AbdelrhmanHamouda/locust-k8s-operator",
+    "cloudfoundry/cf-acceptance-tests",
+    "danielgtaylor/mexpr",
+    "danielgtaylor/shorthand",
+    "ipfs/ipfs-check",
     "kubernetes-sigs/provider-aws-test-infra",
-    "kubernetes-sigs/verify-conformance",
-    "muhlba91/external-dns-provider-adguard",
-    "openshift/ci-tools"
+    "openshift/ci-tools",
+    "openshift/kubernetes",
+    "sigstore/helm-sigstore",
+    "transparency-dev/witness"
   ]
 }

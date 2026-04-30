@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 88,
-    "concepts": 34,
-    "observations": 34,
-    "repos": 25,
-    "terms": 54
+    "components": 105,
+    "concepts": 45,
+    "observations": 45,
+    "repos": 27,
+    "terms": 65
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,17 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "adaumann/speckit-preset-fiction-book-writing",
     "andriykohut/pdm-readiness",
-    "apptainer/apptainer-admindocs",
-    "apptainer/apptainer-userdocs",
+    "astropy/repo_stats",
     "audeering/audonnx",
     "beneadie/DeepDog_1",
     "bryanh9111/engram",
     "caesar0301/soothe",
     "cafitac/hermit-agent",
+    "chaoss/grimoirelab-toolkit",
     "cjtruheart/abundance-codex",
     "dreamiurg/peakbagger-cli",
     "etanhey/brainlayer",
@@ -30,6 +30,8 @@
     "frank-syncmarket/skills",
     "gibdd-dps/prizolov-agent-os",
     "kelp/webdown",
+    "ModelCloud/Defuser",
+    "ModelCloud/LogBar",
     "momentique/source-code-security-audit-reviewer",
     "penpoen/llm-sugarscape",
     "piqrypt/aiss-standard",

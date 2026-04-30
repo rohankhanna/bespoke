@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 49,
-    "concepts": 102,
-    "observations": 102,
-    "repos": 14,
-    "terms": 112
+    "components": 111,
+    "concepts": 143,
+    "observations": 145,
+    "repos": 23,
+    "terms": 151
   },
   "facet_version": 1,
   "filters": {
@@ -12,21 +12,30 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
-    "0xNyk/council-of-high-intelligence",
     "alfredolopez80/multi-agent-ralph-loop",
-    "cncf/k8s-conformance",
     "codelibs/docker-fess",
+    "dani-garcia/bw_web_builds",
     "denysdovhan/dotfiles",
     "docker-library/drupal",
+    "docker-library/ruby",
     "ericbuess/claude-code-docs",
+    "gentoo/guru",
+    "getsolus/packages",
+    "justchokingaround/lobster",
+    "jvm-repo-rebuild/reproducible-central",
     "kubernetes/sig-release",
+    "lemire/docker_programming_station",
     "nodenv/node-build",
     "opea-project/GenAIExamples",
+    "reviewdog/action-suggester",
     "rsmdt/the-startup",
+    "rust-cross/rust-musl-cross",
     "rz1989s/claude-code-statusline",
     "serpro69/claude-toolbox",
+    "termux/repology-metadata",
+    "tonistiigi/xx",
     "unixorn/zsh-quickstart-kit"
   ]
 }

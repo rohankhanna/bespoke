@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 10,
-    "concepts": 34,
-    "observations": 34,
-    "repos": 3,
-    "terms": 30
+    "concepts": 41,
+    "observations": 41,
+    "repos": 4,
+    "terms": 37
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "filip26/copper-multibase",
     "filip26/titanium-jcs",
-    "filip26/tree-io"
+    "filip26/tree-io",
+    "redis-developer/redis-starter-java"
   ]
 }

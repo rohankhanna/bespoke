@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 39,
-    "concepts": 32,
-    "observations": 32,
-    "repos": 5,
-    "terms": 30
+    "components": 54,
+    "concepts": 36,
+    "observations": 36,
+    "repos": 8,
+    "terms": 35
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,15 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
-    "apache/netbeans-mavenutils-nbm-maven-plugin",
+    "apache/ignite-extensions",
     "bufbuild/protovalidate-java",
-    "filip26/ld-cli",
+    "eclipse-shellwax/shellwax",
     "googleapis/discovery-artifact-manager",
-    "hivemq/helm-charts"
+    "googleapis/java-bigtable",
+    "hivemq/helm-charts",
+    "mukel/gemma4.java",
+    "spiffe/java-spiffe"
   ]
 }

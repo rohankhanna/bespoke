@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 221,
-    "concepts": 37,
-    "observations": 37,
-    "repos": 7,
-    "terms": 37
+    "components": 330,
+    "concepts": 60,
+    "observations": 60,
+    "repos": 10,
+    "terms": 60
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,15 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "akshaykmr/teletype",
     "angular/vscode-ng-language-service",
+    "celo-org/celo-composer",
     "enisdenjo/graphql-sse",
     "jezweb/roo-commander",
+    "ManuelHentschel/VSCode-R-Debugger",
+    "matrix-org/matrix-appservice-slack",
     "morrys/react-relay-offline",
     "nanbingxyz/mcpsvr",
     "scopecraft/command"

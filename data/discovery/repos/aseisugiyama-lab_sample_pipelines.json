@@ -8,13 +8,14 @@
       "size": 490
     }
   ],
+  "metadata_refreshed_at": "2026-04-30T05:51:46.934402+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "main",
     "description": null,
     "fork": false,
-    "full_name": "AseiSugiyama/lab_sample_pipelines",
+    "full_name": "aseisugiyama/lab_sample_pipelines",
     "html_url": "https://github.com/AseiSugiyama/lab_sample_pipelines",
     "language": "Python",
     "pushed_at": "2022-05-01T03:18:53Z",

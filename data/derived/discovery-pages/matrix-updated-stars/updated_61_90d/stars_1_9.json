@@ -1,23 +1,33 @@
 {
   "counts": {
-    "components": 126,
-    "concepts": 117,
-    "observations": 117,
-    "repos": 28,
-    "terms": 114
+    "components": 138,
+    "concepts": 155,
+    "observations": 155,
+    "repos": 42,
+    "terms": 152
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "0k/shyaml-rs",
+    "0xPolygonHermez/pil2-compiler",
+    "AchimPieters/esp32-udp-logger",
     "adityasugandhi/skillsync-mcp",
     "Afnanksalal/co-op",
+    "agents-x-project/PyVision-RL-Eval",
     "alexpolonsky/agent-skill-jlm-coffee",
+    "alexpolonsky/agent-skill-libby-book-monitor",
+    "alexpolonsky/agent-skill-maccabi-pharm-search",
+    "alexpolonsky/agent-skill-strikeradar",
+    "alexpolonsky/agent-skills",
     "alexpolonsky/awesome-agent-skills-israel",
+    "ansible-community/collection_bot",
+    "ansible-community/presentations",
+    "apostrophecms/starter-kit-astro-essentials",
     "arya-s/phantty",
     "birdofpreyru/js-utils",
     "coderaiser/escover",
@@ -31,14 +41,18 @@
     "filip26/titanium-rdf-canon",
     "filip26/titanium-rdf-n-quads",
     "genius-harry/neural-chat",
+    "haya14busa/github-used-by",
+    "jsdom/.github",
     "leaktk/gitleaks",
     "mlfoundations/SkyRL",
     "objectbox/objectbox-swift-generator",
     "open-rpc/markdown-gen",
     "piebald-ai/.github",
+    "RobertBeckebans/DOOM-3",
     "shesek/electrumd",
     "tianon/fake-git",
     "tombelieber/claude-backup",
+    "tzachar/sqlite_skim",
     "zen-eth/multiformats-zig",
     "zwowo1997/pack-repo-4ai"
   ]

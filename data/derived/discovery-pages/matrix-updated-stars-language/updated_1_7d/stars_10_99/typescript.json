@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 542,
-    "concepts": 72,
-    "observations": 73,
-    "repos": 14,
-    "terms": 72
+    "components": 430,
+    "concepts": 70,
+    "observations": 70,
+    "repos": 10,
+    "terms": 70
   },
   "facet_version": 1,
   "filters": {
@@ -12,21 +12,17 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
-    "abaplint/transpiler",
-    "apollographql/vscode-graphql",
-    "bufbuild/protovalidate-es",
     "celo-org/social-connect",
-    "fannheyward/coc-xml",
     "grafana/profiles-drilldown",
     "gridatek/semantic-icons",
-    "Kastalien-Research/thoughtbox",
-    "llamastack/llama-stack-client-typescript",
+    "ipdxco/github-as-code",
+    "ipfs/github-mgmt",
     "mcous/vitest-when",
-    "octokit/webhooks-methods.js",
-    "ogx-ai/llama-stack-client-typescript",
-    "TrigenSoftware/simple-release",
-    "vaultwarden/vw_web_builds"
+    "oclif/plugin-help",
+    "oclif/plugin-plugins",
+    "oclif/plugin-update",
+    "octokit/webhooks-methods.js"
   ]
 }

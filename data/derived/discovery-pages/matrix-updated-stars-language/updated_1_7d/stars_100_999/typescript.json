@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 750,
-    "concepts": 167,
-    "observations": 167,
-    "repos": 23,
+    "components": 705,
+    "concepts": 170,
+    "observations": 170,
+    "repos": 24,
     "terms": 167
   },
   "facet_version": 1,
@@ -12,30 +12,31 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
-    "a2aproject/a2a-js",
-    "abaplint/abaplint",
     "astral-sh/ruff-action",
-    "Azure/login",
-    "charmbracelet/vhs-action",
-    "circlefin/stablecoin-evm",
+    "aws-samples/swift-chat",
     "DeterminateSystems/nix-installer-action",
     "docker/bake-action",
-    "EclipseFdn/open-vsx.org",
     "electron/packager",
+    "fullcalendar/temporal-polyfill",
     "graphprotocol/graph-client",
+    "ipfs/js-ipfsd-ctl",
+    "jurplel/install-qt-action",
     "Kong/kong-manager",
-    "lerna-lite/lerna-lite",
     "microsoft/playwright-vscode",
-    "microsoft/react-native-gallery",
+    "microsoft/security-devops-action",
+    "microsoft/vscode-java-debug",
+    "mightyiam/eslint-config-love",
+    "oclif/core",
+    "octokit/auth-token.js",
+    "octokit/plugin-rest-endpoint-methods.js",
     "octokit/request.js",
     "octokit/webhooks.js",
-    "OpenZeppelin/openzeppelin-upgrades",
     "redhat-developer/vscode-xml",
     "safe-fndn/safe-singleton-factory",
-    "sveltejs/eslint-plugin-svelte",
     "sveltejs/svelte-eslint-parser",
-    "TabbyML/pochi"
+    "TabbyML/pochi",
+    "tats-u/markdown-cjk-friendly"
   ]
 }

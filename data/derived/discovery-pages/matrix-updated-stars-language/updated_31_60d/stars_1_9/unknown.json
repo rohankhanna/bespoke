@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 1,
+    "components": 3,
     "concepts": 4,
     "observations": 4,
-    "repos": 10,
+    "repos": 15,
     "terms": 4
   },
   "facet_version": 1,
@@ -12,17 +12,22 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "0x676e67/0x676e67",
     "aaronrsun/spec-kit-checkpoint",
     "ada-url/url-various-datasets",
+    "adonisjs/.github",
     "awni/picochat",
     "cncf/k8s-conformance-archive",
     "conda-forge/modin-feedstock",
     "danielrosehill/Agents-Index",
     "danielrosehill/claude-agent-workspace-generator",
     "danielrosehill/claude-code-sysadmin-workspaces-index",
-    "langchain-ai/.github"
+    "lab-cosmo/.github",
+    "langchain-ai/.github",
+    "nttstar/insightface-resources",
+    "richgel999/junkdrawer",
+    "vega/.github"
   ]
 }

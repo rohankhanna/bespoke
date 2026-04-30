@@ -8,13 +8,14 @@
       "size": 2718
     }
   ],
+  "metadata_refreshed_at": "2026-04-30T05:52:12.513208+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
     "description": "Common utilities for jupyter-contrib projects.",
     "fork": false,
-    "full_name": "Jupyter-contrib/jupyter_contrib_core",
+    "full_name": "jupyter-contrib/jupyter_contrib_core",
     "html_url": "https://github.com/Jupyter-contrib/jupyter_contrib_core",
     "language": "Python",
     "pushed_at": "2023-10-04T19:56:34Z",

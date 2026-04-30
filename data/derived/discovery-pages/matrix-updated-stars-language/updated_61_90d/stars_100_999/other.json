@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 61,
-    "concepts": 44,
-    "observations": 44,
-    "repos": 22,
-    "terms": 44
+    "components": 96,
+    "concepts": 116,
+    "observations": 117,
+    "repos": 36,
+    "terms": 116
   },
   "facet_version": 1,
   "filters": {
@@ -12,29 +12,43 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
+    "ahyatt/emacs-websocket",
     "AndrewRadev/switch.vim",
+    "archguard/archguard",
+    "arnetheduck/nim-results",
     "arnetheduck/nph",
+    "autodeployai/ai-serving",
     "Azure/arm-ttk",
+    "babashka/scittle",
+    "clojure-emacs/inf-clojure",
+    "clojure/core.memoize",
+    "cloojure/tupelo",
     "CSU-Radarmet/CSU_RadarTools",
     "CVEProject/cve-schema",
     "domluna/JuliaFormatter.jl",
+    "elm-explorations/test",
+    "emacs-lsp/lsp-dart",
     "Embarcadero/P4D-Data-Sciences",
     "Embarcadero/python4delphi",
-    "envoyproxy/data-plane-api",
     "filiph/linkcheck",
+    "grpc/grpc-dart",
     "hollowstrawberry/kohya-colab",
     "JacksonBurns/chemeleon",
     "JuliaEditorSupport/julia-emacs",
     "JuliaEditorSupport/julia-vim",
     "loqusion/typix",
     "pug-php/pug",
+    "rahul-goel/fused-ssim",
     "rapidsai-community/notebooks-contrib",
     "renzmann/treesit-auto",
+    "scribd/Weaver",
     "swansonk14/admet_ai",
+    "tensorflow/mlir-hlo",
+    "thinca/vim-themis",
+    "thu-ml/SpargeAttn",
     "tpapp/julia-repl",
-    "WebAssembly/tool-conventions",
     "wjakob/nanobind_example"
   ]
 }

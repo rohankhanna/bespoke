@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 71,
-    "concepts": 89,
-    "observations": 90,
-    "repos": 6,
-    "terms": 88
+    "components": 40,
+    "concepts": 44,
+    "observations": 44,
+    "repos": 3,
+    "terms": 44
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
-    "89luca89/distrobox",
     "a2aproject/A2A",
-    "google/oss-fuzz",
-    "super-linter/super-linter",
-    "termux/termux-packages",
-    "VSCodium/vscodium"
+    "nvm-sh/nvm",
+    "spaceship-prompt/spaceship-prompt"
   ]
 }

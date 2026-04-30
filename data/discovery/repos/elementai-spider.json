@@ -23,13 +23,14 @@
       "size": 9158
     }
   ],
+  "metadata_refreshed_at": "2026-04-30T05:51:59.385452+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
     "description": "scripts and baselines for Spider: Yale complex and cross-domain semantic parsing and text-to-SQL challenge",
     "fork": true,
-    "full_name": "ElementAI/spider",
+    "full_name": "elementai/spider",
     "html_url": "https://github.com/ElementAI/spider",
     "language": "Python",
     "pushed_at": "2022-04-14T14:54:04Z",

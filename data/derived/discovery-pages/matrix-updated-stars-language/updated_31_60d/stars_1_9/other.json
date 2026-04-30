@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 53,
-    "concepts": 43,
-    "observations": 43,
-    "repos": 14,
-    "terms": 43
+    "concepts": 58,
+    "observations": 58,
+    "repos": 16,
+    "terms": 58
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "abap2UI5-addons/layout-management",
     "Adam-Boesky/astro_SPLASH",
@@ -25,8 +25,10 @@
     "danielrosehill/Agentic-AI-Architecture-Visualisation",
     "MarcCote/TextWorld",
     "objectbox/objectbox-swift-spm",
+    "redis-developer/redis-starter-csharp",
     "shakacode/package_json",
     "SWE-bench/SWE-smith-envs",
+    "vim-fuzzbox/fuzzbox-lsp.vim",
     "WebAssembly/compact-import-section"
   ]
 }

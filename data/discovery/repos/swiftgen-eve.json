@@ -8,13 +8,14 @@
       "size": 1073
     }
   ],
+  "metadata_refreshed_at": "2026-04-30T05:52:10.727621+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
     "description": "A repository for shared resources among SwiftGen repos",
     "fork": false,
-    "full_name": "SwiftGen/Eve",
+    "full_name": "swiftgen/eve",
     "html_url": "https://github.com/SwiftGen/Eve",
     "language": "Ruby",
     "pushed_at": "2022-10-05T22:49:08Z",

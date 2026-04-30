@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 15,
-    "concepts": 0,
-    "observations": 0,
-    "repos": 1,
-    "terms": 0
+    "components": 42,
+    "concepts": 4,
+    "observations": 4,
+    "repos": 4,
+    "terms": 4
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,11 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
-    "alexgorbatchev/typescript-transform-react-jsx-source"
+    "alexgorbatchev/typescript-transform-react-jsx-source",
+    "cryptonomic/conseiljs-ledgersigner",
+    "kong/proxy-wasm-assemblyscript-rate-limiting",
+    "vim-fall/deno-fall-core"
   ]
 }

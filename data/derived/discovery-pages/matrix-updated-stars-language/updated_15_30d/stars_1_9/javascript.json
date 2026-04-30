@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 135,
-    "concepts": 106,
-    "observations": 106,
-    "repos": 17,
-    "terms": 105
+    "components": 151,
+    "concepts": 115,
+    "observations": 115,
+    "repos": 20,
+    "terms": 114
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "agent-sh/agent-core",
+    "agent-sh/audit-project",
     "agent-sh/can-i-help",
     "agent-sh/drift-detect",
     "agent-sh/enhance",
@@ -23,13 +24,15 @@
     "agent-sh/perf",
     "agent-sh/repo-intel",
     "agent-sh/sync-docs",
+    "apache/netbeans-antora",
+    "collective/mrs-developer",
+    "gr2m/octokit-oauth-app-begin-example",
     "graphql/community-wg",
     "ipfs-shipyard/js-mock-ipfs-pinning-service",
     "ipld/js-bitcoin",
     "istanbuljs/schema",
     "Level/read-stream",
     "Level/supports",
-    "Level/transcoder",
-    "oscard0m/ts-transformer-remove-named-export"
+    "Level/transcoder"
   ]
 }

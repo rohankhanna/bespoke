@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 33,
-    "concepts": 52,
-    "observations": 52,
-    "repos": 6,
-    "terms": 52
+    "components": 285,
+    "concepts": 339,
+    "observations": 341,
+    "repos": 39,
+    "terms": 339
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,46 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
-    "dotfiles/dotfiles.github.com",
-    "getsentry/sentry-cocoa",
-    "lm-sensors/lm-sensors",
+    "abapGit/abapGit",
+    "AdguardTeam/AdguardFilters",
+    "alibaba/rtp-llm",
+    "Azure/azure-powershell",
+    "bitwarden/android",
+    "chawyehsu/dorado",
+    "chef/chef",
+    "clojure-emacs/cider",
+    "cloudfoundry/bosh",
+    "DavHau/nix-portable",
+    "day8/re-frame",
+    "detekt/detekt",
+    "dotnet/dotnet-docker",
+    "dotnet/msbuild",
+    "emacs-mirror/emacs",
+    "FStarLang/FStar",
+    "github/codeql",
+    "googleapis/google-api-dotnet-client",
+    "googleapis/google-api-php-client",
+    "googleapis/google-cloud-dotnet",
+    "karafka/karafka",
+    "Kotlin/kotlinx.serialization",
+    "kurrent-io/KurrentDB",
+    "LuaLS/lua-language-server",
+    "macports/macports-ports",
     "microsoft/aspire",
+    "microsoft/PTVS",
+    "microsoft/WinUI-Gallery",
+    "MicrosoftEdge/MSEdgeExplainers",
+    "NuGet/NuGetGallery",
+    "python/peps",
+    "rapidsai/raft",
     "swiftlang/llvm-project",
-    "whatwg/html"
+    "swiftlang/swift-syntax",
+    "TryGhost/node-sqlite3",
+    "tuist/XcodeProj",
+    "vuejs/create-vue",
+    "w3c/csswg-drafts",
+    "web-platform-tests/wpt"
   ]
 }

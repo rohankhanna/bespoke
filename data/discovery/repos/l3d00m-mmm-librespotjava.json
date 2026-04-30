@@ -166,13 +166,14 @@
       "size": 1054
     }
   ],
+  "metadata_refreshed_at": "2026-04-30T05:52:04.618122+00:00",
   "related_repositories": [],
   "repo": {
     "archived": true,
     "default_branch": "master",
     "description": "A module for MagicMirror displaying the song currently streaming on your librespot java speaker.",
     "fork": false,
-    "full_name": "l3d00m/MMM-LibrespotJava",
+    "full_name": "l3d00m/mmm-librespotjava",
     "html_url": "https://github.com/l3d00m/MMM-LibrespotJava",
     "language": "JavaScript",
     "pushed_at": "2023-10-01T10:39:39Z",

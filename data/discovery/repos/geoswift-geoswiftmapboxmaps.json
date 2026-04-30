@@ -16,13 +16,14 @@
       "size": 2455
     }
   ],
+  "metadata_refreshed_at": "2026-04-30T05:51:46.260509+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "main",
     "description": "Mapbox Maps support for GEOSwift",
     "fork": false,
-    "full_name": "GEOSwift/GEOSwiftMapboxMaps",
+    "full_name": "geoswift/geoswiftmapboxmaps",
     "html_url": "https://github.com/GEOSwift/GEOSwiftMapboxMaps",
     "language": "Swift",
     "pushed_at": "2023-05-25T01:27:05Z",

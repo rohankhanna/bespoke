@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 69,
-    "concepts": 48,
-    "observations": 48,
-    "repos": 19,
-    "terms": 47
+    "components": 118,
+    "concepts": 77,
+    "observations": 77,
+    "repos": 27,
+    "terms": 76
   },
   "facet_version": 1,
   "filters": {
@@ -12,26 +12,34 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "0xNyk/openclaw-to-hermes",
     "Alibaba-Quark/SSP",
     "all-the-noises/eval-arena",
     "amiable-dev/llm-council",
     "andyluo7/autoresearch",
+    "apache/parquet-testing",
     "bentoml/openllm-models",
+    "c4ffein/realworld-django-ninja",
     "chaoss/grimoirelab-graal",
     "ckan/ckanext-xloader",
     "ckan/datapusher",
     "cldf/segments",
+    "cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework",
     "corl-team/VL-DAC",
     "danielrosehill/Index",
+    "databrickslabs/pylint-plugin",
     "explosion/weasel",
+    "googlefonts/nam-files",
     "inducer/codepy",
+    "iterate-ch/docs",
     "liran-funaro/sphinx-markdown-builder",
     "logic-star-ai/swt-bench",
     "nousresearch/tinker-atropos",
-    "talieisin/britfix",
-    "vinlyx/mgzip"
+    "python-pillow/pillow-perf",
+    "redis/redis-py-entraid",
+    "rstudio/pins-python",
+    "talieisin/britfix"
   ]
 }

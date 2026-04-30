@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 66,
-    "concepts": 28,
-    "observations": 28,
-    "repos": 18,
-    "terms": 28
+    "components": 107,
+    "concepts": 41,
+    "observations": 41,
+    "repos": 24,
+    "terms": 41
   },
   "facet_version": 1,
   "filters": {
@@ -12,23 +12,29 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
+    "0xPolygonHermez/stark-recurser",
     "actboy168/ltest",
+    "apache/netbeans-antora-ui",
+    "cake-contrib/Cake.Markdownlint",
     "caronc/apprise-docs",
+    "celo-org/charts",
     "conda-forge/.cirun",
+    "conda-forge/pybind11-feedstock",
+    "conda-forge/scikit-build-core-feedstock",
     "CVEProject/cve-user-registry-client",
     "cyber404/che-apple-mail-mcp",
-    "diffblue/homebrew-cbmc",
     "dm0x23/portfolio-website",
     "floxym/financial-chat-finance-nlp-chatbots",
     "goreleaser/.github",
     "gusztavvargadr/aws-vault-chocolatey",
+    "jhugestar/jhugestar.github.io",
     "joinwell52-ai/codeflow-pwa",
     "lahma/test262-harness-dotnet",
-    "lemire/unicode_lipsum",
     "Mbed-TLS/mbedtls-test",
     "mitchuski/agentprivacy-docs",
+    "raku-community-modules/Terminal-WCWidth",
     "Shougo/dpp-ext-lazy",
     "tarikmanoar/tarikmanoar",
     "wavelens/gobgp.nix"

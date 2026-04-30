@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 94,
-    "concepts": 80,
-    "observations": 81,
-    "repos": 9,
-    "terms": 80
+    "components": 251,
+    "concepts": 296,
+    "observations": 297,
+    "repos": 24,
+    "terms": 296
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,31 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
+    "aden-hive/hive",
+    "agno-agi/agno",
     "axolotl-ai-cloud/axolotl",
-    "HKUDS/LightRAG",
+    "Comfy-Org/ComfyUI-Manager",
+    "crewAIInc/crewAI",
+    "Dao-AILab/flash-attention",
+    "deepspeedai/DeepSpeed",
+    "fastapi/fastapi",
+    "fastapi/typer",
+    "hiyouga/LlamaFactory",
+    "huggingface/lerobot",
+    "huggingface/pytorch-image-models",
     "huggingface/trl",
+    "jax-ml/jax",
     "modelscope/DiffSynth-Studio",
-    "numpy/numpy",
+    "modelscope/ms-swift",
     "NVIDIA-NeMo/NeMo",
-    "redis/redis-py",
+    "opendatalab/MinerU",
+    "OpenHands/OpenHands",
+    "pyg-team/pytorch_geometric",
+    "scikit-learn/scikit-learn",
+    "Skyvern-AI/skyvern",
     "verl-project/verl",
-    "zhayujie/CowAgent"
+    "wkentaro/labelme"
   ]
 }

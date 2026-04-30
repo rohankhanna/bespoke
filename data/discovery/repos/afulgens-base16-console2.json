@@ -37,13 +37,14 @@
       "size": 945
     }
   ],
+  "metadata_refreshed_at": "2026-04-30T05:52:10.104134+00:00",
   "related_repositories": [],
   "repo": {
     "archived": true,
     "default_branch": "master",
     "description": "Base16 for Console2",
     "fork": false,
-    "full_name": "AFulgens/base16-console2",
+    "full_name": "afulgens/base16-console2",
     "html_url": "https://github.com/AFulgens/base16-console2",
     "language": "Mustache",
     "pushed_at": "2024-01-02T12:37:58Z",

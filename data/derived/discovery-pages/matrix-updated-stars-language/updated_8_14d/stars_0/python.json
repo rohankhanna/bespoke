@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 13,
-    "concepts": 21,
-    "observations": 21,
-    "repos": 9,
-    "terms": 26
+    "components": 29,
+    "concepts": 29,
+    "observations": 29,
+    "repos": 12,
+    "terms": 34
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,14 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "bunburysniper/bleunova-ai-agent",
+    "conda-forge/conda-forge-feedstock-ops",
+    "FEniCS/spack-fenics",
     "florisheedless915/grok-register",
     "hauntsaninja/mypy",
+    "hmellor/vllm",
     "kidshadow79/ogma",
     "l12203685/digital-immortality",
     "mohfer/nous-proxy",

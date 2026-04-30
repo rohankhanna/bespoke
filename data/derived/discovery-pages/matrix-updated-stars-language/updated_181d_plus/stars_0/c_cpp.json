@@ -3,7 +3,7 @@
     "components": 27,
     "concepts": 7,
     "observations": 7,
-    "repos": 5,
+    "repos": 7,
     "terms": 7
   },
   "facet_version": 1,
@@ -12,12 +12,14 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
+    "acts-project/opendatadetector",
     "boingoing/node-sass",
     "burntsushi/linux",
     "comit-network/hash_edwards_to_edwards",
     "fonwin/libfon9",
+    "meinac/oj-introspect",
     "mikesteglich/coliop"
   ]
 }

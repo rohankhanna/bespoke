@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 85,
+    "components": 93,
     "concepts": 16,
     "observations": 16,
-    "repos": 6,
+    "repos": 7,
     "terms": 16
   },
   "facet_version": 1,
@@ -12,13 +12,14 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "Calcium-Ion/neko-api-key-tool",
     "Mario4272/ag_bridge",
     "nodenv/jetbrains-npm",
     "prebuild/prebuild",
     "prebuild/prebuild-install",
+    "raywo/MMM-NowPlayingOnSpotify",
     "sindresorhus/multimatch"
   ]
 }

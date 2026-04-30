@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 27,
-    "concepts": 39,
-    "observations": 39,
-    "repos": 6,
-    "terms": 39
+    "components": 22,
+    "concepts": 12,
+    "observations": 12,
+    "repos": 4,
+    "terms": 12
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
-    "aws-controllers-k8s/community",
     "CocoaPods/Specs",
     "CVEProject/cvelistV5",
-    "dotnet/docs",
-    "flathub/flathub",
-    "rustsec/advisory-db"
+    "github/rest-api-description",
+    "meituan-longcat/LongCat-Flash-Chat"
   ]
 }

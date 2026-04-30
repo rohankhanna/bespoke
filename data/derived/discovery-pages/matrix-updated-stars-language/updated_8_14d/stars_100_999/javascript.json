@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 543,
-    "concepts": 126,
-    "observations": 129,
-    "repos": 24,
-    "terms": 143
+    "components": 775,
+    "concepts": 182,
+    "observations": 185,
+    "repos": 29,
+    "terms": 181
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "actions/create-github-app-token",
-    "agent-sh/agentsys",
+    "adamlui/ai-web-extensions",
     "bcomnes/npm-run-all2",
     "browserslist/caniuse-lite",
     "chaijs/chai-http",
@@ -23,20 +23,25 @@
     "coderaiser/putout",
     "conda-forge/conda-forge.github.io",
     "DavidAnson/markdownlint-cli2",
-    "electron/node-abi",
+    "dequelabs/axe-core-npm",
+    "dperini/nwsapi",
     "eslint-community/eslint-plugin-n",
+    "evenchange4/graphql.macro",
     "fastify/fastify-autoload",
     "graphql/graphql-over-http",
     "graphql/graphql-wg",
+    "i18next/i18next-browser-languageDetector",
+    "ipfs/aegir",
     "jupyter/nbclassic",
+    "kurrent-io/KurrentDB-Client-NodeJS",
     "lis186/ccxray",
     "lobehub/lobe-editor",
     "neostandard/neostandard",
     "nodejs/admin",
-    "nodejs/TSC",
+    "poolifier/poolifier",
     "semantic-release/commit-analyzer",
     "semantic-release/github",
     "semantic-release/npm",
-    "sethgammon/citadel"
+    "tc39/notes"
   ]
 }

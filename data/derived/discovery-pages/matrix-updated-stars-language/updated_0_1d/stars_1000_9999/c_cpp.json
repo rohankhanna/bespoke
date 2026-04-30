@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 35,
-    "concepts": 21,
-    "observations": 21,
-    "repos": 3,
-    "terms": 21
+    "components": 170,
+    "concepts": 189,
+    "observations": 189,
+    "repos": 22,
+    "terms": 189
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,29 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
-    "facebook/igl",
-    "kvcache-ai/Mooncake",
-    "pytorch/FBGEMM"
+    "AcademySoftwareFoundation/openexr",
+    "actor-framework/actor-framework",
+    "ai-dynamo/nixl",
+    "bitcoin-core/secp256k1",
+    "BYVoid/OpenCC",
+    "chrisant996/clink",
+    "flashrom/flashrom",
+    "google/wuffs",
+    "ikawrakow/ik_llama.cpp",
+    "iree-org/iree",
+    "ispc/ispc",
+    "jd-opensource/xllm",
+    "leejet/stable-diffusion.cpp",
+    "llvm/torch-mlir",
+    "microsoft/onnxruntime-genai",
+    "miniupnp/miniupnp",
+    "onnxsim/onnxsim",
+    "OpenMathLib/OpenBLAS",
+    "php-rdkafka/php-rdkafka",
+    "swiftlang/swift-llbuild",
+    "TrenchBroom/TrenchBroom",
+    "uxlfoundation/oneDNN"
   ]
 }

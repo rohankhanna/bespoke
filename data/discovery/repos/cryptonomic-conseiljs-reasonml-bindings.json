@@ -81,13 +81,14 @@
       "size": 779
     }
   ],
+  "metadata_refreshed_at": "2026-04-30T05:51:01.430197+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
     "description": "ReasonML bindings for the ConseilJS library",
     "fork": false,
-    "full_name": "Cryptonomic/ConseilJS-ReasonML-Bindings",
+    "full_name": "cryptonomic/conseiljs-reasonml-bindings",
     "html_url": "https://github.com/Cryptonomic/ConseilJS-ReasonML-Bindings",
     "language": "Reason",
     "pushed_at": "2023-01-04T05:22:06Z",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 93,
-    "concepts": 65,
-    "observations": 65,
-    "repos": 12,
-    "terms": 65
+    "components": 64,
+    "concepts": 23,
+    "observations": 23,
+    "repos": 10,
+    "terms": 23
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,17 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "acts-project/traccc",
-    "ad-si/FlatCV",
-    "AFD-Illinois/kharma",
-    "BrianPugh/tamp",
-    "bufbuild/protovalidate-cc",
-    "DeepLink-org/DLSlime",
-    "Mbed-TLS/TF-PSA-Crypto",
+    "libbitcoin/libbitcoin-database",
+    "libbitcoin/libbitcoin-network",
     "milvus-io/milvus-sdk-cpp",
     "openvinotoolkit/openvino_tokenizers",
     "rapidsai/ucxx",
+    "ROCm/rocAL",
     "ROCm/ROCgdb",
+    "walbourn/directxmathtest",
     "yquake2/yquake2remaster"
   ]
 }

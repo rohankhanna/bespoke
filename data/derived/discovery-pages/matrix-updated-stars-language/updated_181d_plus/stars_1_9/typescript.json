@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 355,
-    "concepts": 48,
-    "observations": 48,
-    "repos": 22,
-    "terms": 47
+    "components": 492,
+    "concepts": 63,
+    "observations": 63,
+    "repos": 31,
+    "terms": 62
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,21 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
+    "0h7z/vscode-julia-format",
     "5sControl/5s-frontend",
     "alexlafroscia/testdouble-qunit",
     "artemhlezin/webgpu-gerstner-waves",
     "arvinxx/lobe-plugin-tikzjax",
     "asonnleitner/highwayhash-wasm",
+    "Azure/actions-toolkit",
+    "celo-org/emisianto",
+    "celo-org/socialconnect-template",
     "ceramicnetwork/js-dag-jose-utils",
     "clams-tech/ln-ws-proxy",
     "ConsenSys-archive/ganache-plugin-filecoin",
+    "cryptonomic/conseiljs-softsigner",
     "ddisisto/si",
     "dragonkhoi/mercury-mcp",
     "eastlondoner/pac-man",
@@ -29,12 +34,16 @@
     "ethers-io/ext-provider-plugin-multicoin",
     "ethers-io/ext-signer-ledger",
     "finehow/bingsearch-plugin",
+    "iansan5653/vscode-format-python-docstrings",
+    "intlify/eslint-plugin-svelte",
     "litter-coder/midjourney-proxy-admin",
+    "LuaLS/LLS-Addons-Action",
     "mcous/testdouble-vitest",
     "plrthink/RNZATestApp",
     "robb-j/nova-yaml",
     "Shougo/dpp-ext-local",
     "Shougo/dpp-ext-toml",
+    "vim-fall/deno-fall-custom",
     "winily/zhipuai-sdk-nodejs-v4"
   ]
 }

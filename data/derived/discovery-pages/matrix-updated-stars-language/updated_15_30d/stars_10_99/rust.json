@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 85,
-    "concepts": 54,
-    "observations": 54,
-    "repos": 14,
-    "terms": 54
+    "components": 99,
+    "concepts": 66,
+    "observations": 66,
+    "repos": 17,
+    "terms": 66
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "alixinne/glsl-lang",
     "antonWetzel/prettypst",
@@ -20,12 +20,15 @@
     "BlackDex/rust-musl",
     "Calsign/gazelle_rust",
     "celestiaorg/hana",
+    "idanarye/nu_plugin_skim",
     "jiegec/tantivy-jieba",
     "Kimahriman/hdfs-native",
     "lambdaclass/libssz",
     "Layr-Labs/eigensdk-rs",
+    "ldclabs/ic-oss",
     "neysofu/reltester",
     "open-telemetry/opentelemetry-rust-contrib",
+    "psmux/omp-manager",
     "quininer/x11-clipboard",
     "tianrking/weixin-agent-rs"
   ]

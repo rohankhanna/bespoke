@@ -44,13 +44,14 @@
       "size": 4196
     }
   ],
+  "metadata_refreshed_at": "2026-04-30T05:52:20.065963+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
     "description": "a plugin for guard that works with standardrb.",
     "fork": false,
-    "full_name": "JodyVanden/guard-standardrb",
+    "full_name": "jodyvanden/guard-standardrb",
     "html_url": "https://github.com/JodyVanden/guard-standardrb",
     "language": "Ruby",
     "pushed_at": "2024-08-02T01:52:12Z",

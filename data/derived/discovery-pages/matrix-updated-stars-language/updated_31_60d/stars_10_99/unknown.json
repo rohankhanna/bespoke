@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1,
-    "concepts": 12,
-    "observations": 12,
-    "repos": 8,
-    "terms": 12
+    "components": 13,
+    "concepts": 18,
+    "observations": 18,
+    "repos": 11,
+    "terms": 18
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,17 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "aquasecurity/setup-trivy",
     "bpftrace/user-tools",
     "cncf/project-template",
     "cncf/wg-networking",
     "cta-wave/WMAS",
+    "dragonflyoss/community",
+    "getsentry/.github",
     "googlefonts/emoji-metadata",
+    "grpc/grpc-community",
     "ithiria894/awesome-claude-code-hooks",
     "opencontainers/tob"
   ]

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2529,
-    "concepts": 345,
-    "observations": 349,
-    "repos": 31,
-    "terms": 344
+    "components": 1605,
+    "concepts": 289,
+    "observations": 293,
+    "repos": 25,
+    "terms": 289
   },
   "facet_version": 1,
   "filters": {
@@ -12,38 +12,32 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
+    "accomplish-ai/accomplish",
+    "adonisjs/core",
     "ajv-validator/ajv",
     "apache/superset",
-    "apollographql/apollo-server",
     "bitwarden/clients",
     "bluesky-social/social-app",
-    "ChromeDevTools/chrome-devtools-mcp",
-    "cline/cline",
-    "conventional-changelog/commitlint",
+    "bokeh/bokeh",
+    "coder/code-server",
+    "discordjs/discord.js",
     "dotansimha/graphql-code-generator",
     "emberjs/ember.js",
     "FlowiseAI/Flowise",
-    "google/brotli",
+    "GoogleChromeLabs/comlink",
     "grafana/grafana",
-    "graphile/crystal",
-    "graphql/graphql-js",
-    "jupyterlab/jupyterlab",
-    "labring/sealos",
-    "langchain-ai/langchainjs",
-    "lobehub/lobehub",
+    "invoke-ai/InvokeAI",
     "microsoft/playwright",
     "nuxt/nuxt",
+    "paulmillr/chokidar",
     "pnpm/pnpm",
+    "postcss/postcss",
     "puppeteer/puppeteer",
-    "react-navigation/react-navigation",
     "redis/node-redis",
-    "remix-run/react-router",
-    "renovatebot/renovate",
-    "sass/sass",
     "tailwindlabs/tailwindcss",
     "vercel-labs/skills",
-    "vuejs/core"
+    "wojtekmaj/react-pdf"
   ]
 }

@@ -1,25 +1,27 @@
 {
   "counts": {
-    "components": 40,
-    "concepts": 12,
-    "observations": 12,
-    "repos": 8,
-    "terms": 12
+    "components": 47,
+    "concepts": 15,
+    "observations": 15,
+    "repos": 10,
+    "terms": 15
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "0xBigBoss/ghostty-web",
     "AdaCore/vss-text",
+    "artsy/react-native-launch-arguments",
     "Bearer/homebrew-tap",
     "bgw/bincode",
     "EspressoSystems/jellyfish-compat",
     "get-gah/gah-db",
     "grafana/cadvisor",
-    "mjvolk3/dendron-template"
+    "mjvolk3/dendron-template",
+    "mudler/vulkan-sdk-arm"
   ]
 }

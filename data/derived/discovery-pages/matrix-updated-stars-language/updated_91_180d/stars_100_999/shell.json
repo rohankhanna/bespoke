@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 10,
-    "concepts": 36,
-    "observations": 36,
-    "repos": 12,
-    "terms": 35
+    "concepts": 38,
+    "observations": 38,
+    "repos": 13,
+    "terms": 37
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "acomagu/fish-async-prompt",
     "agrimsingh/ralph-wiggum-cursor",
     "asdf-community/asdf-direnv",
     "asdf-community/asdf-kubectl",
+    "bitwarden/brand",
     "coredns/deployment",
     "helm/chart-releaser-action",
     "jandamm/zgenom",

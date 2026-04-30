@@ -104,13 +104,14 @@
       "size": 2179
     }
   ],
+  "metadata_refreshed_at": "2026-04-30T05:52:18.734618+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "main",
     "description": "\ud83e\udde8 A personal Telegram bot that organizes and compiles songs within a group chat",
     "fork": false,
-    "full_name": "LuchoTurtle/banger-bot",
+    "full_name": "luchoturtle/banger-bot",
     "html_url": "https://github.com/LuchoTurtle/banger-bot",
     "language": "Python",
     "pushed_at": "2023-07-16T18:26:47Z",

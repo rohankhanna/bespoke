@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 63,
-    "concepts": 90,
-    "observations": 90,
-    "repos": 15,
-    "terms": 90
+    "components": 81,
+    "concepts": 106,
+    "observations": 106,
+    "repos": 22,
+    "terms": 106
   },
   "facet_version": 1,
   "filters": {
@@ -12,22 +12,29 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "99designs/aws-vault",
     "achannarasappa/ticker",
     "ajvb/kala",
+    "alexedwards/scs",
+    "apache/rocketmq-client-go",
+    "argoproj-labs/argocd-autopilot",
+    "chaisql/chai",
     "charmbracelet/skate",
     "containernetworking/cni",
     "ddollar/forego",
+    "favadi/protoc-go-inject-tag",
     "gin-gonic/contrib",
     "github/git-sizer",
+    "gomodule/redigo",
     "h2non/imaginary",
     "instrumenta/kubeval",
     "jhump/protoreflect",
     "jpillora/cloud-torrent",
     "muesli/termenv",
     "protocolbuffers/protobuf-go",
+    "rs/cors",
     "uber-go/mock"
   ]
 }

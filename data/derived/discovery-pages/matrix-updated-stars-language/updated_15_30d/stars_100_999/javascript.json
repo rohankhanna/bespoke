@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 627,
-    "concepts": 155,
-    "observations": 157,
-    "repos": 35,
-    "terms": 171
+    "components": 691,
+    "concepts": 186,
+    "observations": 188,
+    "repos": 42,
+    "terms": 220
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
-    "absolute-version/commit-and-tag-version",
     "actions/hello-world-javascript-action",
     "adobe/spectrum-design-data",
+    "agent-sh/agentsys",
     "all-contributors/app",
     "Atheos/Atheos",
-    "auth0/node-jws",
     "badgen/badgen",
     "bmad-code-org/bmad-module-game-dev-studio",
     "chrisgoringe/cg-use-everywhere",
@@ -28,26 +27,34 @@
     "conventional-changelog/conventional-changelog-config-spec",
     "d3/d3-format",
     "dwyl/hapi-auth-jwt2",
+    "dwyl/javascript-todo-list-tutorial",
+    "dwyl/sendemail",
+    "electron/node-abi",
     "fastify/create-fastify",
     "fastify/example",
     "fastify/fastify-cli",
     "fastify/fastify-plugin",
     "fwcd/tree-sitter-kotlin",
+    "gopasspw/gopassbridge",
     "ipld/explore.ipld.io",
     "istanbuljs/babel-plugin-istanbul",
     "karma-runner/karma-coverage",
     "Level/abstract-level",
     "mattgodbolt/jsbeeb",
     "muratcankoylan/ralph-wiggum-marketer",
+    "neverendingqs/serverless-dotenv-plugin",
+    "nodejs/TSC",
     "octokit/request-action",
     "OffchainLabs/arbitrum-tutorials",
     "semantic-release/changelog",
     "semantic-release/git",
+    "sethgammon/citadel",
     "sindresorhus/globals",
     "stripe-samples/accept-a-payment",
     "terraform-linters/setup-tflint",
     "terser/html-minifier-terser",
     "thejoshwolfe/yauzl",
-    "toon-format/spec"
+    "toon-format/spec",
+    "w3c/trusted-types"
   ]
 }

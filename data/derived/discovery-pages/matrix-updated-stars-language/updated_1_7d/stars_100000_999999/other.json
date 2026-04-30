@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 89,
-    "concepts": 16,
-    "observations": 17,
-    "repos": 1,
-    "terms": 16
+    "components": 172,
+    "concepts": 29,
+    "observations": 30,
+    "repos": 2,
+    "terms": 29
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
-    "f/prompts.chat"
+    "f/prompts.chat",
+    "twbs/bootstrap"
   ]
 }

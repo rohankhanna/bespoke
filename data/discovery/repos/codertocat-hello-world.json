@@ -8,13 +8,14 @@
       "size": 13
     }
   ],
+  "metadata_refreshed_at": "2026-04-30T05:51:27.594202+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
     "description": null,
     "fork": false,
-    "full_name": "Codertocat/Hello-World",
+    "full_name": "codertocat/hello-world",
     "html_url": "https://github.com/Codertocat/Hello-World",
     "language": "Ruby",
     "pushed_at": "2021-07-27T09:06:07Z",

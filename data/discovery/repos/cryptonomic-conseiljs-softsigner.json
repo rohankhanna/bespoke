@@ -361,13 +361,14 @@
       "size": 732
     }
   ],
+  "metadata_refreshed_at": "2026-04-30T05:51:54.228387+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
     "description": "Cryptography services plugin for ConseilJS",
     "fork": false,
-    "full_name": "Cryptonomic/ConseilJS-softsigner",
+    "full_name": "cryptonomic/conseiljs-softsigner",
     "html_url": "https://github.com/Cryptonomic/ConseilJS-softsigner",
     "language": "TypeScript",
     "pushed_at": "2023-08-08T19:41:32Z",

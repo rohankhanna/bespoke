@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 64,
-    "concepts": 20,
-    "observations": 20,
-    "repos": 2,
-    "terms": 20
+    "components": 573,
+    "concepts": 168,
+    "observations": 168,
+    "repos": 19,
+    "terms": 167
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,26 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "a2aproject/a2a-js",
-    "docker/bake-action"
+    "apollographql/federation",
+    "astahmer/typed-openapi",
+    "bitwarden/directory-connector",
+    "chainguard-dev/actions",
+    "decentralized-identity/did-resolver",
+    "flathub-infra/website",
+    "kkomelin/isomorphic-dompurify",
+    "milvus-io/milvus-sdk-node",
+    "octokit/action.js",
+    "octokit/app.js",
+    "octokit/auth-app.js",
+    "octokit/graphql.js",
+    "redhat-developer/vscode-yaml",
+    "sapphiredev/utilities",
+    "stx-labs/stacks.js",
+    "tinylibs/tinyexec",
+    "web-infra-dev/rslib",
+    "wevm/abitype"
   ]
 }

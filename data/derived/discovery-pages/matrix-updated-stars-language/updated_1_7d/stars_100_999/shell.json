@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 55,
-    "concepts": 61,
-    "observations": 63,
-    "repos": 12,
-    "terms": 59
+    "components": 30,
+    "concepts": 48,
+    "observations": 48,
+    "repos": 8,
+    "terms": 46
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,15 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
+    "2KAbhishek/dots2k",
     "alexmyczko/fnt",
     "alpinelinux/aports",
-    "dani-garcia/bw_web_builds",
-    "gentoo/guru",
-    "getsolus/packages",
     "git-friendly/git-friendly",
-    "justchokingaround/lobster",
-    "jvm-repo-rebuild/reproducible-central",
+    "lovell/sharp-libvips",
     "openshift/release",
-    "rust-cross/rust-musl-cross",
-    "termux/repology-metadata",
-    "tonistiigi/xx"
+    "pacstall/pacstall-programs",
+    "rocker-org/rocker-versioned2"
   ]
 }

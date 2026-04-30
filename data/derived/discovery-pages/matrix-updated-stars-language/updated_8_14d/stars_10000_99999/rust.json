@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 516,
-    "concepts": 243,
-    "observations": 243,
-    "repos": 29,
-    "terms": 243
+    "components": 641,
+    "concepts": 379,
+    "observations": 380,
+    "repos": 37,
+    "terms": 375
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,26 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
+    "actix/actix-web",
+    "analysis-tools-dev/static-analysis",
     "asciinema/asciinema",
+    "ast-grep/ast-grep",
     "astral-sh/uv",
     "bevyengine/bevy",
     "casey/just",
     "cjpais/Handy",
+    "clap-rs/clap",
+    "dani-garcia/vaultwarden",
     "diem/diem",
     "diesel-rs/diesel",
     "facebook/relay",
     "fish-shell/fish-shell",
     "foundry-rs/foundry",
+    "gfx-rs/wgpu",
+    "gitui-org/gitui",
+    "googleworkspace/cli",
     "huggingface/candle",
     "hyperium/tonic",
     "jdx/mise",
@@ -31,17 +39,17 @@
     "orhun/git-cliff",
     "ratatui/ratatui",
     "rust-lang/cargo",
-    "rust-lang/rust-analyzer",
-    "rust-lang/rust-clippy",
     "Schniz/fnm",
     "seanmonstar/reqwest",
-    "seanmonstar/warp",
     "sharkdp/bat",
     "sharkdp/fd",
-    "tokio-rs/axum",
+    "Spotifyd/spotifyd",
+    "starship/starship",
     "tokio-rs/tokio",
     "tracel-ai/burn",
+    "typst/typst",
     "vercel-labs/agent-browser",
+    "wezterm/wezterm",
     "zeroclaw-labs/zeroclaw"
   ]
 }

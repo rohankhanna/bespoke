@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 412,
-    "concepts": 98,
-    "observations": 101,
-    "repos": 13,
-    "terms": 98
+    "components": 421,
+    "concepts": 109,
+    "observations": 112,
+    "repos": 17,
+    "terms": 109
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,24 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
-    "adamlui/ai-web-extensions",
+    "aadsm/jschardet",
     "apache/incubator-seata-website",
+    "auth0/node-jws",
+    "aws/aws-cdk-rfcs",
+    "chrisgoringe/cg-image-filter",
     "CVEProject/cve-services",
-    "dequelabs/axe-core-npm",
-    "evenchange4/graphql.macro",
     "i18next/i18next-fs-backend",
     "i18next/i18next-http-backend",
+    "j9t/html-minifier-next",
     "marwin1991/profile-technology-icons",
+    "mdn/mdn-http-observatory",
     "OffchainLabs/arbitrum-docs",
     "plone/volto",
-    "poolifier/poolifier",
-    "speced/respec",
-    "tc39/notes"
+    "rooklift/ogatak",
+    "rubyjs/mini_racer",
+    "rvagg/github-webhook",
+    "speced/respec"
   ]
 }

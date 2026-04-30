@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 52,
-    "concepts": 10,
-    "observations": 10,
-    "repos": 16,
-    "terms": 10
+    "components": 74,
+    "concepts": 18,
+    "observations": 18,
+    "repos": 25,
+    "terms": 18
   },
   "facet_version": 1,
   "filters": {
@@ -12,23 +12,32 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
+    "a-n-t-h-o-n-y/zzz",
     "abhilash1910/llm.tpc",
+    "AFD-Illinois/iharm2d_v3",
     "aseprite/googletest",
+    "atteneder/draco",
     "bnosac/audio.vadwebrtc",
     "candid82/cljf",
     "DOGEwbx/llama.cpp",
     "dwyl/flutter-stopwatch-tutorial",
+    "erigontech/silkpre",
     "fish-shell/rust-pcre2",
     "galaxyproject/seek-bzip2",
     "git-up/libgit2",
+    "hermit-os/hermit-c",
+    "hugoif/hugo-unix",
+    "infradig/imath",
     "Izhido/test262_harness_cpp",
     "jasongin/node-canvas",
     "lockblox/multibase",
     "mackron/vkquake2",
     "MikeSteglich/Cmpl2",
+    "romkatv/libgit2",
     "tob-challenges/example-libpng",
-    "tpoechtrager/apple-libdispatch"
+    "tpoechtrager/apple-libdispatch",
+    "vpetrigo/median-filter"
   ]
 }

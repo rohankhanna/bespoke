@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 33,
-    "concepts": 67,
-    "observations": 67,
-    "repos": 19,
-    "terms": 66
+    "components": 56,
+    "concepts": 103,
+    "observations": 103,
+    "repos": 26,
+    "terms": 102
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,21 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "anacrolix/go-libutp",
+    "apache/rocketmq-client-cpp",
     "ARM-software/EndpointAI",
+    "avaneev/r8brain-free-src",
     "CrystallineCore/Biscuit",
     "dacap/clip",
+    "Dao-AILab/fast-hadamard-transform",
     "eliemichel/LearnWebGPU",
     "eyalz800/zpp_bits",
     "freebsd/atf",
     "fujitsu/xbyak_aarch64",
     "google/kmsan",
+    "intel/gmmlib",
     "KhronosGroup/OpenGL-Registry",
     "lualanes/lanes",
     "microsoft/jericho",
@@ -30,8 +34,11 @@
     "NetEase-FuXi/EETQ",
     "objectbox/objectbox-c",
     "PacktPublishing/3D-Graphics-Rendering-Cookbook-Second-Edition",
+    "PaddlePaddle/Paddle2ONNX",
     "raysan5/raylib-games",
     "rusty1s/pytorch_cluster",
-    "stardot/beebasm"
+    "stardot/beebasm",
+    "Tomas-M/iotop",
+    "VeriSilicon/TIM-VX"
   ]
 }

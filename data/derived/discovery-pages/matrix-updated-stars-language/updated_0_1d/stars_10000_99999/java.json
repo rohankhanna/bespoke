@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 68,
-    "concepts": 82,
-    "observations": 82,
-    "repos": 6,
-    "terms": 82
+    "components": 56,
+    "concepts": 78,
+    "observations": 78,
+    "repos": 7,
+    "terms": 78
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-24T09:26:27.498159+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
-    "apache/doris",
-    "apple/pkl",
-    "ben-manes/caffeine",
+    "apache/kafka",
+    "awsdocs/aws-doc-sdk-examples",
+    "bumptech/glide",
+    "dbeaver/dbeaver",
+    "google/gson",
     "grpc/grpc-java",
-    "JetBrains/intellij-community",
-    "SeleniumHQ/selenium"
+    "langchain4j/langchain4j"
   ]
 }

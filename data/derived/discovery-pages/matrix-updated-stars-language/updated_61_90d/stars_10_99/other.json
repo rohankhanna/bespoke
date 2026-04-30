@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 36,
-    "concepts": 27,
-    "observations": 27,
-    "repos": 14,
-    "terms": 27
+    "components": 111,
+    "concepts": 64,
+    "observations": 64,
+    "repos": 22,
+    "terms": 64
   },
   "facet_version": 1,
   "filters": {
@@ -12,21 +12,29 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "abap2UI5-addons/sql-console",
-    "abapGit/ADT_Backend",
     "AdaCore/gnatcoll-bindings",
     "adelarsq/vim-emoji-icon-theme",
+    "andys8/git-brunch",
     "antonbabenko/serverless.tf-playground",
     "asg017/sqlite-hello",
+    "avelino/monotropic-theme-vscode",
     "DavidKinder/Windows-Glulxe",
     "dwyl/elixir-auth-github",
     "Embarcadero/Lightweight-Python-Wrappers",
     "Embarcadero/PythonPackages4Delphi",
     "FoundationDB/fdb-build-support",
+    "hedronvision/bazel-make-cc-https-easy",
+    "JunoLab/Atom.jl",
+    "microsoft/windows-host-process-containers-base-image",
     "MicrosoftDocs/vcpkg-docs",
+    "newtheatre/history-project",
     "ocaml-opam/opam-publish",
-    "ocaml-tracing/ocaml-tracy"
+    "ochorocho/franken-typo3",
+    "padreati/rapaio-jupyter-kernel",
+    "status-im/nim-json-serialization",
+    "status-im/nim-serialization"
   ]
 }

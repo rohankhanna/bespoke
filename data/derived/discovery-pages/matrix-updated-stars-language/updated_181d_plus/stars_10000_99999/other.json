@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 85,
-    "concepts": 127,
-    "observations": 127,
-    "repos": 32,
-    "terms": 126
+    "concepts": 136,
+    "observations": 136,
+    "repos": 37,
+    "terms": 135
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "adobe-fonts/source-code-pro",
     "altercation/solarized",
     "animate-css/animate.css",
     "artidoro/qlora",
     "bitcoinbook/bitcoinbook",
+    "bmild/nerf",
     "brendangregg/FlameGraph",
     "CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers",
     "Carthage/Carthage",
@@ -31,20 +32,24 @@
     "h4cc/awesome-elixir",
     "IDEA-Research/Grounded-Segment-Anything",
     "karpathy/llm.c",
+    "karpathy/micrograd",
     "mahmoud/awesome-python-applications",
     "mamoe/mirai",
     "mhinz/vim-galore",
     "microsoft/dotnet",
+    "morhetz/gruvbox",
     "mozilla/TTS",
     "neonbjb/tortoise-tts",
     "NVIDIA/DeepLearningExamples",
     "preservim/nerdtree",
     "salesforce/LAVIS",
     "srush/GPU-Puzzles",
+    "Stability-AI/StableLM",
     "suno-ai/bark",
     "tloen/alpaca-lora",
     "tpope/vim-pathogen",
     "vim-syntastic/syntastic",
-    "VundleVim/Vundle.vim"
+    "VundleVim/Vundle.vim",
+    "WongKinYiu/yolov7"
   ]
 }

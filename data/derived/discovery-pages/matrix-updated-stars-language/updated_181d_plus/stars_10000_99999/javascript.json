@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 635,
-    "concepts": 80,
-    "observations": 81,
-    "repos": 15,
-    "terms": 77
+    "components": 834,
+    "concepts": 97,
+    "observations": 98,
+    "repos": 22,
+    "terms": 94
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,15 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "adam-p/markdown-here",
     "adobe/brackets",
+    "agalwood/Motrix",
     "angular/angular.js",
     "atom/atom",
     "browserify/browserify",
+    "chjj/blessed",
     "facebookarchive/prepack",
     "faressoft/terminalizer",
     "highlightjs/highlight.js",
@@ -26,8 +28,13 @@
     "jaredpalmer/razzle",
     "kefranabg/readme-md-generator",
     "kriskowal/q",
+    "localtunnel/localtunnel",
     "mishoo/UglifyJS",
+    "request/request",
     "restify/node-restify",
-    "standard/standard"
+    "standard/standard",
+    "statsd/statsd",
+    "vuejs/vue-cli",
+    "yaronn/blessed-contrib"
   ]
 }

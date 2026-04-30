@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 162,
-    "concepts": 120,
-    "observations": 121,
-    "repos": 18,
-    "terms": 119
+    "components": 221,
+    "concepts": 160,
+    "observations": 160,
+    "repos": 27,
+    "terms": 159
   },
   "facet_version": 1,
   "filters": {
@@ -12,24 +12,33 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
+    "abhinav/goldmark-frontmatter",
     "abhinav/tmux-fastcopy",
     "allenreder/cliproxyapi-quota-inspector",
     "appleboy/drone-lambda",
+    "aspect-build/aspect-gazelle",
+    "aws-controllers-k8s/code-generator",
+    "aws/aws-network-policy-agent",
     "blinklabs-io/bluefin",
     "celo-org/op-geth",
-    "cmdjulian/mopy",
+    "cloudfoundry/bbs",
     "coder/coder-logstream-kube",
     "connectrpc/conformance",
     "connectrpc/grpchealth-go",
+    "containers/container-libs",
     "davidkarlsen/flyway-operator",
     "defilantech/LLMKube",
     "depado/smallblog",
     "gopasspw/git-credential-gopass",
     "gopasspw/gopass-hibp",
+    "ipshipyard/p2p-forge",
     "joshsymonds/cc-tools",
+    "kubernetes-sigs/apiserver-runtime",
+    "kubernetes-sigs/verify-conformance",
     "magodo/aztft",
+    "muhlba91/external-dns-provider-adguard",
     "sigstore/rekor-tiles",
     "terraform-linters/tflint-ruleset-google"
   ]

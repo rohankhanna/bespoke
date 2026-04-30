@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 0,
-    "concepts": 4,
-    "observations": 4,
-    "repos": 8,
-    "terms": 4
+    "components": 3,
+    "concepts": 10,
+    "observations": 10,
+    "repos": 12,
+    "terms": 10
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,19 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
+    "caprica/vlcj-file-filters",
     "carrotsearch/elasticsearch-lingo3g",
+    "cdmikechen/airflow-dag-operator",
     "code1986/sentinel-lib",
     "enola-dev/LearningADK",
     "finefuture/sentinel-dashboard-X",
     "hallvard/etablesaw",
     "mikepapadim/devoxx25-demo-gpullama3-langchain4j",
     "norwoodj/hashbash-backend-java",
-    "peergos/nabu-chat"
+    "peergos/nabu-chat",
+    "redis-developer/redis-om-autocomplete-demo",
+    "takari/m2e-discovery-catalog"
   ]
 }

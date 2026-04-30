@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 183,
-    "concepts": 50,
-    "observations": 50,
-    "repos": 7,
-    "terms": 49
+    "components": 292,
+    "concepts": 63,
+    "observations": 63,
+    "repos": 13,
+    "terms": 62
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,20 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "babel/babel-loader",
     "commonmark/commonmark.js",
     "danmactough/node-feedparser",
     "dooy/chatgpt-web-midjourney-proxy",
     "engineer-man/piston",
+    "ethereum/devp2p",
+    "GoogleChrome/lighthouse-ci",
+    "isaacs/minimatch",
+    "kangax/html-minifier",
+    "microsoft/vscode-recipes",
     "node-fetch/node-fetch",
-    "rollup/plugins"
+    "rollup/plugins",
+    "treosh/lighthouse-ci-action"
   ]
 }

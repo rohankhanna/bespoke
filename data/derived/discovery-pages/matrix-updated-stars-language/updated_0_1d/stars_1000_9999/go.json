@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 43,
-    "concepts": 28,
-    "observations": 28,
-    "repos": 2,
-    "terms": 28
+    "components": 233,
+    "concepts": 256,
+    "observations": 257,
+    "repos": 27,
+    "terms": 256
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,34 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
-    "akuity/kargo",
-    "Kong/kubernetes-ingress-controller"
+    "anthropics/anthropic-sdk-go",
+    "argoproj-labs/argocd-image-updater",
+    "auth0/go-jwt-middleware",
+    "azimjohn/jprq",
+    "bazel-contrib/rules_go",
+    "btcsuite/btcwallet",
+    "cloudflare/pint",
+    "cockroachdb/pebble",
+    "crc-org/crc",
+    "dundee/gdu",
+    "envoyproxy/ai-gateway",
+    "filecoin-project/lotus",
+    "go-flutter-desktop/hover",
+    "googleapis/google-api-go-client",
+    "googleapis/google-cloud-go",
+    "ko-build/ko",
+    "kserve/kserve",
+    "NVIDIA/gpu-operator",
+    "open-telemetry/opentelemetry-collector-contrib",
+    "opencost/opencost",
+    "openshift/origin",
+    "openshift/source-to-image",
+    "operator-framework/operator-lifecycle-manager",
+    "prometheus/alertmanager",
+    "redis/rueidis",
+    "reviewdog/reviewdog",
+    "spiffe/spire"
   ]
 }

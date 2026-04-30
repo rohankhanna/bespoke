@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 130,
-    "concepts": 78,
-    "observations": 79,
-    "repos": 19,
-    "terms": 77
+    "components": 147,
+    "concepts": 99,
+    "observations": 100,
+    "repos": 20,
+    "terms": 98
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,21 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "allan2/dotenvy",
-    "brendanzab/codespan",
     "cross-rs/cross",
     "David-OConnor/pyflow",
     "dtolnay/anyhow",
     "dtolnay/proc-macro-workshop",
     "dtolnay/quote",
     "dtolnay/thiserror",
+    "enigo-rs/enigo",
+    "extism/extism",
     "google/tarpc",
     "gyscos/cursive",
     "haleclipse/ccometixline",
-    "ImageOptim/gifski",
+    "mitsuhiko/insta",
     "pdf-rs/pdf",
     "rust-lang/flate2-rs",
     "simd-lite/simd-json",

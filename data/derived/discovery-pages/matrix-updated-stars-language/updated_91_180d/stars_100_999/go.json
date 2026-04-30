@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 59,
-    "concepts": 61,
-    "observations": 61,
-    "repos": 11,
-    "terms": 60
+    "components": 82,
+    "concepts": 101,
+    "observations": 101,
+    "repos": 16,
+    "terms": 100
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "aws-observability/aws-otel-collector",
     "aws/amazon-ec2-instance-selector",
@@ -22,8 +22,13 @@
     "containers/storage",
     "cpuguy83/go-md2man",
     "ethereum-optimism/asterisc",
+    "IBM/FfDL",
     "ipfs/go-ds-s3",
     "mholt/archives",
-    "multiformats/multiaddr"
+    "multiformats/multiaddr",
+    "phodal/coca",
+    "proxy-wasm/proxy-wasm-go-sdk",
+    "spacemeshos/go-spacemesh",
+    "sugarme/tokenizer"
   ]
 }

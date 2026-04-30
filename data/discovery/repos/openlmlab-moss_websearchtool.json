@@ -12,13 +12,14 @@
       "size": 186
     }
   ],
+  "metadata_refreshed_at": "2026-04-30T05:51:56.151043+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "main",
     "description": "MOSS 003 WebSearchTool: A simple but reliable implementation",
     "fork": false,
-    "full_name": "OpenLMLab/MOSS_WebSearchTool",
+    "full_name": "openlmlab/moss_websearchtool",
     "html_url": "https://github.com/OpenLMLab/MOSS_WebSearchTool",
     "language": "Python",
     "pushed_at": "2023-05-24T06:26:34Z",

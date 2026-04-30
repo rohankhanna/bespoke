@@ -86,13 +86,14 @@
       "size": 1527
     }
   ],
+  "metadata_refreshed_at": "2026-04-30T05:52:02.753061+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "main",
     "description": "Automatically detect when a worker is absent using power of computer vision",
     "fork": false,
-    "full_name": "5sControl/machine-control-js",
+    "full_name": "5scontrol/machine-control-js",
     "html_url": "https://github.com/5sControl/machine-control-js",
     "language": "JavaScript",
     "pushed_at": "2024-04-04T08:03:48Z",

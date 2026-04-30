@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 70,
-    "concepts": 79,
-    "observations": 81,
-    "repos": 13,
-    "terms": 77
+    "components": 83,
+    "concepts": 109,
+    "observations": 111,
+    "repos": 18,
+    "terms": 106
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,16 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "AppFlowy-IO/AppFlowy",
+    "cmderdev/cmder",
+    "dense-analysis/ale",
     "devicons/devicon",
+    "facebookresearch/dinov2",
     "facebookresearch/sam2",
     "fastai/fastai",
+    "google-gemini/gemini-fullstack-langgraph-quickstart",
     "google/styleguide",
     "guidance-ai/guidance",
     "junegunn/fzf.vim",
@@ -26,6 +30,7 @@
     "microsoft/language-server-protocol",
     "microsoft/OmniParser",
     "nvim-treesitter/nvim-treesitter",
+    "tmuxinator/tmuxinator",
     "tonsky/FiraCode"
   ]
 }

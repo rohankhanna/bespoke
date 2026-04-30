@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 49,
-    "concepts": 28,
-    "observations": 28,
-    "repos": 11,
-    "terms": 30
+    "components": 109,
+    "concepts": 84,
+    "observations": 84,
+    "repos": 21,
+    "terms": 86
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,28 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "8144225309/SuperScalar",
+    "ad-si/FlatCV",
+    "AFD-Illinois/kharma",
     "agl/jbig2enc",
+    "BrianPugh/tamp",
+    "bufbuild/protovalidate-cc",
     "DavidKinder/Windows-Inform7",
+    "DeepLink-org/DLSlime",
+    "ICRAR/crc32c",
     "JFLarvoire/the_silver_searcher",
     "liangshengyong/lanwan",
     "lxqt/liblxqt",
     "lxqt/libqtxdg",
     "marciogranzotto/clawd-tank",
+    "Mbed-TLS/TF-PSA-Crypto",
     "mitsuba-renderer/nanothread",
     "mybigday/llama.node",
+    "nx10/unigd",
+    "walbourn/directxtextest",
+    "walbourn/directxtktest",
     "yquake2/ref_vk"
   ]
 }

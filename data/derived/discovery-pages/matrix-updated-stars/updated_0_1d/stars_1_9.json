@@ -1,18 +1,38 @@
 {
   "counts": {
-    "components": 3,
-    "concepts": 1,
-    "observations": 1,
-    "repos": 1,
-    "terms": 1
+    "components": 211,
+    "concepts": 68,
+    "observations": 70,
+    "repos": 21,
+    "terms": 68
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
-    "web-platform-tests/results-analysis-cache"
+    "abhinav/goldmark-hashtag",
+    "black-desk/djotfmt",
+    "cloudfoundry/wg-app-platform-runtime-ci",
+    "dcampbell24/djot-implementations",
+    "ecyrbe/zodios-plugins",
+    "eddelbuettel/r2u-builder",
+    "eea/eea-website-backend",
+    "flathub-infra/flat-manager-hooks",
+    "fontsource/download-stat-aggregator",
+    "jku/tuf-demo",
+    "kkomelin/isomorphic-dompurify-playgrounds",
+    "lint-staged/lint-staged.sh",
+    "localstack/homebrew-tap",
+    "meridianlabs-ai/inspect_harbor",
+    "micronaut-projects/micronaut-langchain4j",
+    "mozilla-ai/otari",
+    "octokit/auth-callback.js",
+    "oscard0m/ts-transformer-remove-named-export",
+    "rvagg/js-bitcoin-block",
+    "sapphiredev/.github",
+    "snowflakedb/universal-driver"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 36,
-    "concepts": 107,
-    "observations": 107,
-    "repos": 27,
-    "terms": 101
+    "components": 38,
+    "concepts": 123,
+    "observations": 123,
+    "repos": 32,
+    "terms": 117
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
+    "AbdBarho/stable-diffusion-webui-docker",
     "adobe-fonts/source-han-serif",
+    "agnoster/agnoster-zsh-theme",
     "ahmetb/cloud-run-faq",
     "aws/containers-roadmap",
+    "bigscience-workshop/bigscience",
     "cowboy/dotfiles",
     "deluan/zsh-in-docker",
     "ekalinin/github-markdown-toc",
@@ -40,6 +43,8 @@
     "pystardust/ytfzf",
     "shawwn/llama-dl",
     "tarjoilija/zgen",
+    "tmux-plugins/tmux-copycat",
+    "tmux-plugins/tmux-yank",
     "zsh-users/antigen"
   ]
 }

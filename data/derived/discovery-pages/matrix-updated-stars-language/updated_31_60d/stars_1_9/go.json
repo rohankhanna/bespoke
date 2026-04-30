@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 18,
-    "concepts": 14,
-    "observations": 14,
-    "repos": 4,
-    "terms": 14
+    "components": 28,
+    "concepts": 23,
+    "observations": 23,
+    "repos": 6,
+    "terms": 23
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,13 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "actions-oss/act-cli",
     "alexellis/gha-bump",
+    "archestra-ai/terraform-provider-archestra",
     "automazeio/proof-go",
-    "justinfx/olric-nats-plugin"
+    "justinfx/olric-nats-plugin",
+    "redis-developer/redis-starter-go"
   ]
 }

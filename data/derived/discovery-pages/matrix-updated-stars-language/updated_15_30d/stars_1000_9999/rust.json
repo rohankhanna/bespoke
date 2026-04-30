@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 196,
-    "concepts": 153,
-    "observations": 154,
-    "repos": 27,
-    "terms": 151
+    "components": 263,
+    "concepts": 205,
+    "observations": 208,
+    "repos": 37,
+    "terms": 203
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "aome510/spotify-player",
     "arxanas/git-branchless",
@@ -20,26 +20,36 @@
     "BurntSushi/quickcheck",
     "bvaisvil/zenith",
     "bytedance/monoio",
+    "Canop/bacon",
     "chronotope/chrono",
     "crossterm-rs/crossterm",
-    "enigo-rs/enigo",
+    "EmbarkStudios/cargo-deny",
+    "ggez/ggez",
     "GuillaumeGomez/sysinfo",
     "hyperium/h2",
     "hyperium/http",
+    "hyperledger-solang/solang",
     "jonhoo/inferno",
+    "jsr-io/jsr",
     "linebender/resvg",
     "liuchengxu/vim-clap",
-    "mitsuhiko/insta",
+    "LukeMathWalker/cargo-chef",
     "mitsuhiko/similar",
     "mozilla/cbindgen",
     "nabijaczleweli/cargo-update",
+    "noib3/nvim-oxi",
     "pop-os/cosmic-text",
     "rust-cli/confy",
+    "rust-lang/futures-rs",
+    "rust-lang/log",
     "rust-windowing/winit",
     "serde-rs/json",
     "servo/ipc-channel",
+    "sharkdp/pastel",
     "spacejam/sled",
     "tauri-apps/wry",
+    "tokio-rs/mini-redis",
+    "uuid-rs/uuid",
     "WebAssembly/WASI"
   ]
 }

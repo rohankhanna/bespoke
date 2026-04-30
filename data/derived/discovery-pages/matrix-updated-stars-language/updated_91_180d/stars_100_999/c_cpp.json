@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 50,
-    "concepts": 43,
-    "observations": 43,
-    "repos": 15,
-    "terms": 43
+    "components": 76,
+    "concepts": 78,
+    "observations": 78,
+    "repos": 23,
+    "terms": 78
   },
   "facet_version": 1,
   "filters": {
@@ -12,21 +12,29 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
+    "antonypro/QGoodWindow",
+    "appelmar/gdalcubes",
     "Ar-Ray-code/YOLOX-ROS",
     "avaneev/lzav",
+    "avaneev/prvhash",
     "aviggiano/redis-roaring",
     "bagder/fcpp",
     "bdwgc/libatomic_ops",
     "birkett/srvany-ng",
     "bnosac/audio.whisper",
     "conor42/fast-lzma2",
+    "ejoy/lua",
     "erkyrath/glulxe",
+    "Imagick/imagick",
     "intel/isa-l_crypto",
     "jimporter/mettle",
     "mit-han-lab/Block-Sparse-Attention",
     "nagisa/rust_tracy_client",
+    "neovim/libvterm",
+    "nihui/ncnn-android-nanodet",
+    "osvenskan/posix_ipc",
     "swigger/wechat-ocr",
     "TkTech/can_ada"
   ]

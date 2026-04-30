@@ -16,13 +16,14 @@
       "size": 8532
     }
   ],
+  "metadata_refreshed_at": "2026-04-30T05:52:06.701409+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "main",
     "description": "Top-2 Solution for CVPR UG2+ Track2",
     "fork": false,
-    "full_name": "Andy1621/Nightcrawler",
+    "full_name": "andy1621/nightcrawler",
     "html_url": "https://github.com/Andy1621/Nightcrawler",
     "language": "Python",
     "pushed_at": "2022-05-25T05:08:35Z",

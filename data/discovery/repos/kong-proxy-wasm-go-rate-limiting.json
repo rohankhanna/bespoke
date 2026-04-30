@@ -54,13 +54,14 @@
       "size": 514
     }
   ],
+  "metadata_refreshed_at": "2026-04-30T05:52:16.691106+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "main",
     "description": "Go implementation of a prototype rate-limiting filter using proxy-wasm",
     "fork": false,
-    "full_name": "Kong/proxy-wasm-go-rate-limiting",
+    "full_name": "kong/proxy-wasm-go-rate-limiting",
     "html_url": "https://github.com/Kong/proxy-wasm-go-rate-limiting",
     "language": "Go",
     "pushed_at": "2023-12-12T17:34:08Z",

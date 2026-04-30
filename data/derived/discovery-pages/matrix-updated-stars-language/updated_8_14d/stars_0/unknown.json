@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 32,
-    "concepts": 19,
-    "observations": 19,
-    "repos": 37,
-    "terms": 28
+    "concepts": 21,
+    "observations": 21,
+    "repos": 39,
+    "terms": 30
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "8144225309/lightning",
     "alexcrichton/cc-rs",
@@ -21,6 +21,8 @@
     "biparous-blaxploitation156/ciphermind",
     "carloandremoreyra/xx",
     "chafingdishposition355/go-skills",
+    "conda-forge/conda-lock-feedstock",
+    "conda-forge/python-isal-feedstock",
     "damacol/ai-hub",
     "damacol/gemma-4-collection",
     "damacol/google-gemma-2-2b-it",

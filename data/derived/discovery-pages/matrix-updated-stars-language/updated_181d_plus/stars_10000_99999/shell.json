@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 14,
-    "concepts": 45,
-    "observations": 45,
-    "repos": 10,
-    "terms": 41
+    "concepts": 55,
+    "observations": 55,
+    "repos": 12,
+    "terms": 52
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,18 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
     "alex000kim/nsfw_data_scraper",
     "aristocratos/bashtop",
     "awslabs/git-secrets",
     "codota/TabNine",
     "JetBrains/JetBrainsMono",
+    "k4m4/terminals-are-sexy",
     "kaldi-asr/kaldi",
     "mathiasbynens/dotfiles",
     "powerline/fonts",
+    "source-foundry/Hack",
     "tmux-plugins/tpm",
     "zsh-users/zsh-autosuggestions"
   ]

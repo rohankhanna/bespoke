@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 215,
-    "concepts": 35,
-    "observations": 35,
-    "repos": 9,
-    "terms": 35
+    "components": 238,
+    "concepts": 37,
+    "observations": 37,
+    "repos": 11,
+    "terms": 37
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,18 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-29T07:17:54.224446+00:00",
+  "generated_at": "2026-04-30T05:52:21.342058+00:00",
   "repo_ids": [
-    "0xBigBoss/vscode-bootty",
     "aiden0z/pptx-renderer",
     "automazeio/proof",
+    "gr2m/octokit-oauth-app-now-example",
     "HoneyLuka/uBlacklist",
     "ipfs/js-kubo-rpc-client",
     "klaudworks/ralph-meets-rex",
+    "memoryhole/jjo",
     "Shougo/ddu-filter-matcher_substring",
     "Shougo/ddu-kind-file",
-    "stx-labs/connect"
+    "stx-labs/connect",
+    "trzsz/tabby-trzsz"
   ]
 }

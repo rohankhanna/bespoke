@@ -41,13 +41,14 @@
       "size": 53
     }
   ],
+  "metadata_refreshed_at": "2026-04-30T05:51:36.908380+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "main",
     "description": "Official implementation of the paper \"Mask DINO: Towards A Unified Transformer-based Framework for Object Detection and Segmentation\"",
     "fork": true,
-    "full_name": "MeAmarP/MaskDINO",
+    "full_name": "meamarp/maskdino",
     "html_url": "https://github.com/MeAmarP/MaskDINO",
     "language": "Python",
     "pushed_at": "2023-01-26T06:33:38Z",
